@@ -1,0 +1,26 @@
+{
+  "slug": "solow_growth_decomposition",
+  "purpose": "Decomposes GDP growth into labor quantity, labor quality, capital deepening, and total factor productivity to assess potential GDP and the sustainability of current growth rates.",
+  "components": [
+    "Labor force growth (including immigration contribution of 0.2-0.5pp)",
+    "Labor quality / human capital",
+    "Capital deepening",
+    "Total factor productivity (~1.5-2% aggregate, no AI structural break)",
+    "Explicit component ranges for transparency"
+  ],
+  "current_assessment": "Immigration has contributed 0.2-0.5pp annually to potential GDP growth via extensive margin. AI has not yet produced a measurable TFP structural break at the aggregate level. The forward trajectory depends on immigration policy persistence and AI diffusion timeline — both highly uncertain.",
+  "limitations": [
+    "Cannot distinguish between cyclical TFP variation and structural shifts in real time",
+    "Immigration contribution is politically contingent and may reverse",
+    "Does not incorporate hysteresis effects (demand shaping supply)",
+    "Potential GDP estimates are subject to the same 1.0-2.0pp revision problem as the output gap"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

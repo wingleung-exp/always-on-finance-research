@@ -1,0 +1,38 @@
+{
+  "slug": "maturity_wall",
+  "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear function of the rate path: manageable at consensus GDP of 2.0-2.5% but becomes a solvency wall at a growth downshift to 0-1%.",
+  "confidence": 9,
+  "evidence": [
+    "Bond maturity dates and coupon step-ups are calculable arithmetic, not debatable",
+    "Benign scenario (Fed cuts to 3.5-4.0%): drag ~10-15bp GDP",
+    "Adverse scenario (rates held at 4.5-5.0%): drag ~20-35bp, $30-50B/yr cost increase",
+    "Severe scenario (spread widening + rate holds): self-reinforcing feedback loop",
+    "pair_1 debate confirmed as highest-conviction shared claim"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "challenger_01",
+    "generalist_01",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Which rate path scenario will materialize?",
+    "How does the maturity wall interact with private credit refinancing channels?",
+    "Will CLO arbitrage conditions allow smooth refinancing?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_distortion",
+    "mid_to_late_cycle_expansion",
+    "private_credit_rate_insensitivity",
+    "nkpc_convexity_last_mile"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

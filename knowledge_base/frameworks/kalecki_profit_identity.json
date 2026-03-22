@@ -1,0 +1,26 @@
+{
+  "slug": "kalecki_profit_identity",
+  "purpose": "Determines corporate earnings sustainability by decomposing aggregate profits into macro accounting components (Investment + Government Deficit + Net Exports − Household Saving + Dividends).",
+  "components": [
+    "Government fiscal deficit (~$1.8-2.0T, primary driver this cycle)",
+    "Net corporate investment",
+    "Current account balance (deficit 3-3.5% GDP)",
+    "Household saving rate",
+    "Dividend payments"
+  ],
+  "current_assessment": "Fiscal deficit at 6-7% GDP is the dominant earnings support. Fiscal consolidation >2pp GDP would mechanically reduce aggregate profits, triggering credit cycle acceleration within 4-6 quarters. This framework was judged the correct lens for this cycle over Solow/operating-leverage alternatives.",
+  "limitations": [
+    "Behavioral pass-through elasticities are imprecisely estimated",
+    "The 2pp consolidation threshold is a heuristic, not precisely calibrated",
+    "Does not specify the timing or composition of fiscal withdrawal",
+    "The magnitude of profits above counterfactual (e.g. 30-40% above) is unsupported by rigorous counterfactual specification"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

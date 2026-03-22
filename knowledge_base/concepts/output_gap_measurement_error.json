@@ -1,0 +1,36 @@
+{
+  "slug": "output_gap_measurement_error",
+  "definition": "Real-time output gap estimation is unreliable with mean absolute revisions of 1.0-2.0 percentage points, rendering it nearly useless for real-time policy decisions. The NAIRU confidence interval spans ~4.3-7.3%, the entire policy-relevant range.",
+  "confidence": 9,
+  "evidence": [
+    "Orphanides and van Norden (2002) cited independently by four agents — among most replicated results in applied macro",
+    "CBO real-time estimates in 2006-2007 showed no indication of massive output collapse to come",
+    "NAIRU confidence interval spans ~4.3-7.3% (Staiger, Stock, Watson 1997)",
+    "pair_2 and pair_3 debates confirmed empirical finding as beyond dispute"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "credit_analyst_01",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Is the output gap conceptually valid despite measurement problems?",
+    "Does demand determine supply through hysteresis, invalidating the concept?",
+    "Can multi-indicator regime frameworks approximate the gap despite measurement noise?"
+  ],
+  "related_concepts": [
+    "nkpc_convexity_last_mile",
+    "mid_to_late_cycle_expansion",
+    "fiscal_deficit_kalecki_channel"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

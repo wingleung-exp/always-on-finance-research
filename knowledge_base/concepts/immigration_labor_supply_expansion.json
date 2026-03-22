@@ -1,0 +1,40 @@
+{
+  "slug": "immigration_labor_supply_expansion",
+  "definition": "Immigration drove significant labor supply expansion from 2022-2025, with CBO revising net immigration to ~3.3M in 2023 and 3-4M workers above pre-pandemic trend, mechanically raising potential GDP by ~0.2-0.5pp annually via Solow accounting. This is now a decaying tailwind under policy tightening.",
+  "confidence": 8,
+  "evidence": [
+    "CBO revised net immigration to ~3.3M in 2023",
+    "BLS data confirms 3-4M workers above pre-pandemic trend",
+    "Solow accounting is mechanical: more workers at average productivity = more output",
+    "Decomposition: 3-4M workers × ~$80k/worker = 0.3-0.4pp GDP growth",
+    "pair_0 judged this decomposition as supported"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "generalist_01",
+    "macro_strategist_02",
+    "credit_analyst_01",
+    "challenger_01",
+    "rates_strategist_01",
+    "generalist_02",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Is immigration being double-counted — can it raise potential GDP AND keep labor market loose simultaneously?",
+    "How quickly will policy tightening reverse the labor supply gains?",
+    "Does extensive growth (more workers) vs intensive growth (higher productivity per worker) justify equity multiples?"
+  ],
+  "related_concepts": [
+    "ai_productivity_lag",
+    "mid_to_late_cycle_expansion",
+    "fiscal_deficit_kalecki_channel"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

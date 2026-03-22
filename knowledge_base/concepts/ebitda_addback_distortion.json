@@ -1,0 +1,33 @@
+{
+  "slug": "ebitda_addback_distortion",
+  "definition": "EBITDA addback practices inflate reported leverage by 15-40%, meaning a deal at reported 6x leverage may be 7.5-8.5x on actual cash EBITDA. At 9-10% all-in cost, 8x leverage implies interest expense consuming 70-80% of cash EBITDA. This raises the economy's effective stall speed to ~1.5-2.0% GDP.",
+  "confidence": 7,
+  "evidence": [
+    "ECB analysis and Fed flagging confirmed 15-40% addback range",
+    "At 9-10% all-in cost and 8x actual leverage, interest expense consumes 70-80% of cash EBITDA",
+    "pair_1 called this the most concrete and alarming claim",
+    "Underlying data from LCD and Refinitiv databases is well-established"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How widespread are addback distortions across the leveraged loan universe?",
+    "At what GDP growth rate does the distortion trigger a cascading default cycle?",
+    "Can regulators effectively constrain addback practices?"
+  ],
+  "related_concepts": [
+    "covenant_lite_default_delay",
+    "maturity_wall",
+    "private_credit_opacity",
+    "mid_to_late_cycle_expansion"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

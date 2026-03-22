@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "kalecki_profit_identity",
+    "purpose": "Determines corporate earnings sustainability by decomposing aggregate profits into macro accounting components (Investment + Government Deficit + Net Exports − Household Saving + Dividends).",
+    "components": [
+      "Government fiscal deficit (~$1.8-2.0T, primary driver this cycle)",
+      "Net corporate investment",
+      "Current account balance (deficit 3-3.5% GDP)",
+      "Household saving rate",
+      "Dividend payments"
+    ],
+    "current_assessment": "Fiscal deficit at 6-7% GDP is the dominant earnings support. Fiscal consolidation >2pp GDP would mechanically reduce aggregate profits, triggering credit cycle acceleration within 4-6 quarters. This framework was judged the correct lens for this cycle over Solow/operating-leverage alternatives.",
+    "limitations": [
+      "Behavioral pass-through elasticities are imprecisely estimated",
+      "The 2pp consolidation threshold is a heuristic, not precisely calibrated",
+      "Does not specify the timing or composition of fiscal withdrawal",
+      "The magnitude of profits above counterfactual (e.g. 30-40% above) is unsupported by rigorous counterfactual specification"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "slug": "godley_sectoral_balance",
+    "purpose": "Assesses structural resilience of the expansion by tracking the private sector financial balance (saving minus investment) using the accounting identity that all sectoral balances sum to zero.",
+    "components": [
+      "Government fiscal balance (currently deficit 6-7% GDP)",
+      "Private sector financial balance (currently surplus 2-3% GDP)",
+      "External balance / current account (currently deficit 3-3.5% GDP)",
+      "Historical comparison to prior cycle peaks"
+    ],
+    "current_assessment": "Private sector surplus of 2-3% GDP indicates structurally greater resilience than 1999-2000 (deficit ~5%) or 2005-2007 (deficit ~3-4%). The Godley framework correctly predicted both 2001 and 2008 from private deficit readings. Rated as the single most valuable analytical contribution across all agents.",
+    "limitations": [
+      "Only one agent developed this explicitly despite the accounting being verifiable",
+      "Does not reveal distribution of surplus across household income deciles",
+      "The surplus mechanically depends on the fiscal deficit — not independent",
+      "Behavioral responses to surplus erosion are uncertain"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "slug": "minsky_kalecki_credit_timing",
+    "purpose": "Provides a testable credit cycle timing tool by linking fiscal consolidation (via Kalecki) to Minsky instability thresholds, predicting that fiscal withdrawal triggers credit cycle downshift within 4-6 quarters.",
+    "components": [
+      "Kalecki profit channel (fiscal deficit → corporate profits)",
+      "Minsky financing fragility classification (hedge/speculative/Ponzi)",
+      "Interest coverage ratio deterioration threshold",
+      "Credit cycle acceleration trigger (fiscal consolidation >2pp GDP)",
+      "Maturity wall refinancing calendar ($900B-$1.1T, 2025-2027)"
+    ],
+    "current_assessment": "The most falsifiable prediction across all agents: fiscal consolidation >2pp GDP should trigger credit cycle downshift within 4-6 quarters. Currently untriggered as fiscal remains expansionary. The maturity wall concentrates refinancing risk in the same window as potential fiscal consolidation events.",
+    "limitations": [
+      "The 4-6 quarter lag is a rough estimate, not precisely calibrated",
+      "Fiscal trajectory timing is inherently unpredictable (political)",
+      "Private credit opacity may delay or obscure the credit cycle signal",
+      "The framework assumes the credit cycle is the binding constraint, which may not hold if fiscal remains dominant"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "slug": "term_premium_decomposition",
+    "purpose": "Determines whether yield curve slope reflects growth expectations or fiscal supply/risk premia, with fundamentally different investment implications for each.",
+    "components": [
+      "ACM term premium model decomposition",
+      "Kim-Wright term premium model decomposition",
+      "Rate expectations component (forward rates minus term premium)",
+      "Good steepening diagnostic (productivity-driven, compresses term premium)",
+      "Bad steepening diagnostic (fiscal-supply-driven, expands term premium)",
+      "Sahm Rule validation via curve decomposition"
+    ],
+    "current_assessment": "Current positive slope is primarily a term premium steepener, not an expectations steepener — superficially resembles mid-cycle but has fundamentally different growth implications. The Sahm Rule false positive in July 2024 is diagnosed via the absence of bull-steepening and stable term premium, validating the methodology.",
+    "limitations": [
+      "ACM and Kim-Wright models diverge on precise decomposition",
+      "The decomposition is inherently model-dependent",
+      "Practical positioning implications require further development",
+      "Does not directly translate to GDP growth forecasts"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "slug": "solow_growth_decomposition",
+    "purpose": "Decomposes GDP growth into labor quantity, labor quality, capital deepening, and total factor productivity to assess potential GDP and the sustainability of current growth rates.",
+    "components": [
+      "Labor force growth (including immigration contribution of 0.2-0.5pp)",
+      "Labor quality / human capital",
+      "Capital deepening",
+      "Total factor productivity (~1.5-2% aggregate, no AI structural break)",
+      "Explicit component ranges for transparency"
+    ],
+    "current_assessment": "Immigration has contributed 0.2-0.5pp annually to potential GDP growth via extensive margin. AI has not yet produced a measurable TFP structural break at the aggregate level. The forward trajectory depends on immigration policy persistence and AI diffusion timeline — both highly uncertain.",
+    "limitations": [
+      "Cannot distinguish between cyclical TFP variation and structural shifts in real time",
+      "Immigration contribution is politically contingent and may reverse",
+      "Does not incorporate hysteresis effects (demand shaping supply)",
+      "Potential GDP estimates are subject to the same 1.0-2.0pp revision problem as the output gap"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "slug": "credit_cycle_indicator_framework",
+    "purpose": "Assesses true credit cycle positioning by adjusting standard public indicators for known distortions from covenant-lite structures, EBITDA addbacks, and private credit opacity.",
+    "components": [
+      "Public HY OAS (currently 350-420bp, 40th-55th percentile)",
+      "Distressed ratio (currently <5%)",
+      "Upgrade/downgrade ratio (currently ~0.8x)",
+      "Covenant-lite default delay adjustment (+12-24 months lag)",
+      "EBITDA addback adjustment (true leverage 15-40% higher than reported)",
+      "Private credit opacity adjustment ($1.7T invisible to public indices)",
+      "Effective stall speed (1.5-2.0% GDP vs standard 0-0.5%)"
+    ],
+    "current_assessment": "Public indicators suggest mid-cycle, but after adjusting for three systematic distortions, the credit cycle may be further advanced than visible. The economy may be much closer to a credit stress trigger than standard indicators suggest. Any default-rate-based model is structurally lagged.",
+    "limitations": [
+      "Magnitude of private credit optimism bias is unmeasured (could be 5% or 25%)",
+      "The 12-24 month cov-lite delay is a rough heuristic from limited sample",
+      "Adjustment factors are additive heuristics, not rigorously calibrated",
+      "No backtesting of the adjusted framework against prior cycles"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  }
+]

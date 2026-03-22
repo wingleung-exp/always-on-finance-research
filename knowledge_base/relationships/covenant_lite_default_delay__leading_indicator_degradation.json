@@ -1,0 +1,19 @@
+{
+  "concept_a": "covenant_lite_default_delay",
+  "concept_b": "leading_indicator_degradation",
+  "mechanism": "Covenant-lite structures (>90% of leveraged loans) delay default recognition by 12-24 months, meaning any model using default rates for cycle identification is structurally lagged. Defaults remain artificially low then spike rather than rolling gradually.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Effect is strongest in late cycle when defaults would otherwise be rising. In early/mid cycle, there are fewer defaults to delay regardless of covenant structure.",
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

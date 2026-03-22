@@ -1,0 +1,20 @@
+{
+  "concept_a": "term_premium_steepener",
+  "concept_b": "cross_asset_growth_rate_divergence",
+  "mechanism": "The term premium steepener creates a false signal of mid-cycle expansion in the yield curve shape, while the underlying rate expectations component prices weaker growth. This contributes to the equity-rates divergence by making the curve shape look more benign than the growth outlook warrants.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Holds when term premium is elevated due to fiscal supply concerns rather than growth expectations. Would not apply if the steepening were expectations-driven.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

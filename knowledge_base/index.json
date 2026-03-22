@@ -28,9 +28,9 @@
     "concept:private_credit_opacity": {
       "type": "concept",
       "slug": "private_credit_opacity",
-      "confidence": 8,
-      "last_updated": "2026-03-22T17:00:44Z",
-      "research_iterations": 1,
+      "confidence": 7.5,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 2,
       "topic": "risk_appetite_regimes"
     },
     "concept:minsky_framework": {
@@ -192,6 +192,310 @@
       "last_updated": "2026-03-22T17:00:44Z",
       "research_iterations": 1,
       "topic": "risk_appetite_regimes"
+    },
+    "concept:fiscal_deficit_kalecki_channel": {
+      "type": "concept",
+      "slug": "fiscal_deficit_kalecki_channel",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:ebitda_addback_distortion": {
+      "type": "concept",
+      "slug": "ebitda_addback_distortion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:private_credit_rate_insensitivity": {
+      "type": "concept",
+      "slug": "private_credit_rate_insensitivity",
+      "confidence": 6,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:mid_to_late_cycle_expansion": {
+      "type": "concept",
+      "slug": "mid_to_late_cycle_expansion",
+      "confidence": 8,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:stagflationary_disinflationary_bifurcation": {
+      "type": "concept",
+      "slug": "stagflationary_disinflationary_bifurcation",
+      "confidence": 6,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:maturity_wall": {
+      "type": "concept",
+      "slug": "maturity_wall",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:covenant_lite_default_delay": {
+      "type": "concept",
+      "slug": "covenant_lite_default_delay",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:term_premium_steepener": {
+      "type": "concept",
+      "slug": "term_premium_steepener",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:minsky_ai_capex_classification": {
+      "type": "concept",
+      "slug": "minsky_ai_capex_classification",
+      "confidence": 5,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:immigration_labor_supply_expansion": {
+      "type": "concept",
+      "slug": "immigration_labor_supply_expansion",
+      "confidence": 8,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:nkpc_convexity_last_mile": {
+      "type": "concept",
+      "slug": "nkpc_convexity_last_mile",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:cross_asset_growth_rate_divergence": {
+      "type": "concept",
+      "slug": "cross_asset_growth_rate_divergence",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:output_gap_measurement_error": {
+      "type": "concept",
+      "slug": "output_gap_measurement_error",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:kalecki_levy_profit_framework": {
+      "type": "concept",
+      "slug": "kalecki_levy_profit_framework",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:ai_productivity_lag": {
+      "type": "concept",
+      "slug": "ai_productivity_lag",
+      "confidence": 8,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:leading_indicator_degradation": {
+      "type": "concept",
+      "slug": "leading_indicator_degradation",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "concept:private_sector_financial_surplus": {
+      "type": "concept",
+      "slug": "private_sector_financial_surplus",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:mid_to_late_cycle_expansion__private_sector_financial_surplus": {
+      "type": "relationship",
+      "slug": "mid_to_late_cycle_expansion__private_sector_financial_surplus",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:kalecki_levy_profit_framework__maturity_wall": {
+      "type": "relationship",
+      "slug": "kalecki_levy_profit_framework__maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:fiscal_deficit_kalecki_channel__leading_indicator_degradation": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_kalecki_channel__leading_indicator_degradation",
+      "confidence": 8,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:fiscal_deficit_kalecki_channel__private_credit_rate_insensitivity": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_kalecki_channel__private_credit_rate_insensitivity",
+      "confidence": 6,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:cross_asset_growth_rate_divergence__term_premium_steepener": {
+      "type": "relationship",
+      "slug": "cross_asset_growth_rate_divergence__term_premium_steepener",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:nkpc_convexity_last_mile__stagflationary_disinflationary_bifurcation": {
+      "type": "relationship",
+      "slug": "nkpc_convexity_last_mile__stagflationary_disinflationary_bifurcation",
+      "confidence": 6,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:fiscal_deficit_kalecki_channel__mid_to_late_cycle_expansion": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_kalecki_channel__mid_to_late_cycle_expansion",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:fiscal_deficit_kalecki_channel__private_sector_financial_surplus": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_kalecki_channel__private_sector_financial_surplus",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:covenant_lite_default_delay__ebitda_addback_distortion": {
+      "type": "relationship",
+      "slug": "covenant_lite_default_delay__ebitda_addback_distortion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:leading_indicator_degradation__private_credit_opacity": {
+      "type": "relationship",
+      "slug": "leading_indicator_degradation__private_credit_opacity",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:maturity_wall__mid_to_late_cycle_expansion": {
+      "type": "relationship",
+      "slug": "maturity_wall__mid_to_late_cycle_expansion",
+      "confidence": 9,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:ebitda_addback_distortion__maturity_wall": {
+      "type": "relationship",
+      "slug": "ebitda_addback_distortion__maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:covenant_lite_default_delay__leading_indicator_degradation": {
+      "type": "relationship",
+      "slug": "covenant_lite_default_delay__leading_indicator_degradation",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:fiscal_deficit_kalecki_channel__nkpc_convexity_last_mile": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_kalecki_channel__nkpc_convexity_last_mile",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "relationship:ai_productivity_lag__immigration_labor_supply_expansion": {
+      "type": "relationship",
+      "slug": "ai_productivity_lag__immigration_labor_supply_expansion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:term_premium_decomposition": {
+      "type": "framework",
+      "slug": "term_premium_decomposition",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:solow_growth_decomposition": {
+      "type": "framework",
+      "slug": "solow_growth_decomposition",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:kalecki_profit_identity": {
+      "type": "framework",
+      "slug": "kalecki_profit_identity",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:minsky_kalecki_credit_timing": {
+      "type": "framework",
+      "slug": "minsky_kalecki_credit_timing",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:godley_sectoral_balance": {
+      "type": "framework",
+      "slug": "godley_sectoral_balance",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
+    },
+    "framework:credit_cycle_indicator_framework": {
+      "type": "framework",
+      "slug": "credit_cycle_indicator_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-22T17:23:37Z",
+      "research_iterations": 1,
+      "topic": "growth_models"
     }
   },
   "iterations": [
@@ -207,7 +511,20 @@
         "anti_knowledge_entries": 4,
         "low_confidence_entries": 4
       }
+    },
+    {
+      "iteration_id": "iter_0002",
+      "topic": "growth_models",
+      "topic_category": "macro_frameworks",
+      "timestamp": "2026-03-22T17:23:37Z",
+      "stats": {
+        "concepts_written": 18,
+        "relationships_written": 15,
+        "frameworks_written": 6,
+        "anti_knowledge_entries": 9,
+        "low_confidence_entries": 6
+      }
     }
   ],
-  "last_updated": "2026-03-22T17:00:44Z"
+  "last_updated": "2026-03-22T17:23:37Z"
 }

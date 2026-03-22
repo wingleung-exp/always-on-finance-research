@@ -1,0 +1,33 @@
+{
+  "slug": "term_premium_steepener",
+  "definition": "The yield curve's current positive slope is driven primarily by term premium rather than rate expectations, constituting a term premium steepener with fundamentally different growth implications than a genuine mid-cycle expectations steepener. ACM and Kim-Wright decompositions confirm term premium accounts for the majority of the 2s10s positive slope.",
+  "confidence": 7,
+  "evidence": [
+    "ACM and Kim-Wright decompositions show term premium dominates 2s10s slope",
+    "In genuine mid-cycle (2015-2017), slope was driven by rate expectations",
+    "Current curve superficially resembles early-to-mid cycle but decomposition differs",
+    "pair_3 called this the most operationally valuable insight",
+    "Good steepening (productivity-driven, compresses TP) vs bad steepening (fiscal-supply-driven, expands TP) is testable"
+  ],
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "How model-dependent are the ACM vs Kim-Wright decomposition results?",
+    "What are the specific positioning implications of a term premium steepener?",
+    "Does the Sahm Rule false positive validate this diagnostic methodology?"
+  ],
+  "related_concepts": [
+    "cross_asset_growth_rate_divergence",
+    "leading_indicator_degradation",
+    "fiscal_deficit_kalecki_channel"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:23:37Z",
+  "originating_iteration": "iter_0002",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0002"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T17:00:44Z",
+  "last_updated": "2026-03-22T17:23:37Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -146,14 +146,20 @@
     "growth_models": {
       "category": "macro_frameworks",
       "display_name": "Economic Growth Models & Cycle Positioning",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 2.0,
-      "research_count": 0,
+      "last_researched": "2026-03-22T17:23:37Z",
+      "depth_level": 1,
+      "confidence_score": 7.4,
+      "research_count": 1,
       "knowledge_gaps": [
+        "The 1946-48 post-war normalization is the most underappreciated historical analogue for the current cycle.",
+        "The business cycle framework itself may not apply — the U.S. may be in a fiscal dominance regime where NBER business cycle dating conventions are misleading.",
         "Current cycle phase identification framework",
         "Potential GDP revision from AI/immigration",
-        "Leading indicator reliability in post-COVID regime"
+        "AI capex should be diagnosed via Minsky financing classification (hyperscaler hedge finance vs downstream speculative/Ponzi finance).",
+        "Leading indicator reliability in post-COVID regime",
+        "Growth is fundamentally demand-determined through hysteresis — potential GDP follows actual GDP, not vice versa (strong form: output gap is theoretically incoherent).",
+        "Treasury debt maturity structure functions as an implicit government growth forecast — the barbell approach signals confidence in sustained nominal GDP.",
+        "Immigration is being double-counted: it cannot simultaneously raise potential GDP AND keep the labor market loose enough to prevent wage inflation — creating an internal inconsistency in the consensus narrative."
       ],
       "connections": [
         "labor_market_dynamics",
@@ -166,9 +172,26 @@
         "productivity_growth"
       ],
       "key_concepts": [
+        "ai_productivity_lag",
         "business_cycle_phase",
+        "covenant_lite_default_delay",
+        "cross_asset_growth_rate_divergence",
+        "ebitda_addback_distortion",
+        "fiscal_deficit_kalecki_channel",
+        "immigration_labor_supply_expansion",
+        "kalecki_levy_profit_framework",
+        "leading_indicator_degradation",
+        "maturity_wall",
+        "mid_to_late_cycle_expansion",
+        "nkpc_convexity_last_mile",
         "output_gap",
-        "potential_gdp"
+        "output_gap_measurement_error",
+        "potential_gdp",
+        "private_credit_opacity",
+        "private_credit_rate_insensitivity",
+        "private_sector_financial_surplus",
+        "stagflationary_disinflationary_bifurcation",
+        "term_premium_steepener"
       ]
     },
     "labor_market_dynamics": {

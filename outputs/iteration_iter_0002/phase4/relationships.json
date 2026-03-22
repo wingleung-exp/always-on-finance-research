@@ -1,0 +1,211 @@
+[
+  {
+    "concept_a": "fiscal_deficit_kalecki_channel",
+    "concept_b": "mid_to_late_cycle_expansion",
+    "mechanism": "The 6-7% GDP fiscal deficit mechanically sustains corporate profits and aggregate demand, extending the expansion and obscuring the true cycle phase. Private-sector growth without fiscal is only 1.0-1.5%.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds as long as fiscal deficit remains at 6-7% GDP. Relationship weakens or reverses under fiscal consolidation >2pp GDP.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "fiscal_deficit_kalecki_channel",
+    "concept_b": "leading_indicator_degradation",
+    "mechanism": "Unprecedented fiscal stimulus overwhelmed the private-sector contractionary signals that traditional indicators were correctly reading, creating apparent indicator failure. Indicators may reassert when fiscal withdraws.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when fiscal deficit is at unprecedented peacetime levels (6-7% GDP). If indicators have permanently degraded due to structural economic shifts, fiscal is only part of the story.",
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "maturity_wall",
+    "concept_b": "mid_to_late_cycle_expansion",
+    "mechanism": "The maturity wall creates a deterministic growth headwind via higher refinancing costs. The drag is non-linear: manageable at 2-2.5% GDP growth but becomes a solvency wall at 0-1% growth, creating a cliff risk rather than gradual deceleration.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Severity is a direct function of the rate path. At Fed funds 3.5-4.0% (benign): 10-15bp GDP drag. At 4.5-5.0% (adverse): 20-35bp drag. With spread widening: self-reinforcing feedback.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "rates_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "leading_indicator_degradation",
+    "mechanism": "$1.7T in private credit is invisible to spread indices, default statistics, and financial conditions indices. Manager-smoothed NAVs and PIK toggles allow stress to accumulate without triggering standard macro warning signals, creating systematic optimism bias.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Bias increases in late cycle when stress is accumulating. In mid-cycle, the opacity matters less because there is less hidden distress.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "covenant_lite_default_delay",
+    "concept_b": "leading_indicator_degradation",
+    "mechanism": "Covenant-lite structures (>90% of leveraged loans) delay default recognition by 12-24 months, meaning any model using default rates for cycle identification is structurally lagged. Defaults remain artificially low then spike rather than rolling gradually.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Effect is strongest in late cycle when defaults would otherwise be rising. In early/mid cycle, there are fewer defaults to delay regardless of covenant structure.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "ebitda_addback_distortion",
+    "concept_b": "maturity_wall",
+    "mechanism": "EBITDA addbacks inflate reported leverage by 15-40%, meaning true leverage is 7.5-8.5x on cash EBITDA vs reported 6x. This raises the effective GDP stall speed to 1.5-2.0% — the economy is closer to credit stress triggers than visible data suggests.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Addback distortions are embedded in existing deal structures. The interaction with the maturity wall intensifies as refinancing occurs at higher rates, exposing the true leverage.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "kalecki_levy_profit_framework",
+    "concept_b": "maturity_wall",
+    "mechanism": "Fiscal consolidation >2pp GDP triggers profit decline via Kalecki identity → interest coverage deterioration → credit cycle acceleration within 4-6 quarters. The maturity wall concentrates the refinancing risk into the same 2025-2027 window as potential fiscal consolidation.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The causal chain requires fiscal consolidation to occur contemporaneously with the maturity wall peak. If fiscal remains expansionary, profits cushion the refinancing burden.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "private_sector_financial_surplus",
+    "concept_b": "mid_to_late_cycle_expansion",
+    "mechanism": "The private sector surplus of 2-3% GDP provides a structural buffer that makes this expansion more resilient than prior late cycles (1999-2000: -5% deficit; 2005-2007: -3-4% deficit). The Godley framework uses this metric as its primary recession signal.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as the government deficit sustains the private surplus via the sectoral balance identity. If fiscal consolidates, the private surplus erodes mechanically.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "immigration_labor_supply_expansion",
+    "concept_b": "ai_productivity_lag",
+    "mechanism": "Both contribute to potential GDP estimates but through different channels: immigration through extensive growth (more workers at average productivity) and AI through intensive growth (higher productivity per worker). The potential GDP revision debate hinges on the persistence of both.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Immigration contribution is now decaying under policy tightening. AI contribution has not materialized at aggregate level. If both reverse, potential GDP revisions flip from upward to downward.",
+    "originating_agents": [
+      "challenger_01",
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "nkpc_convexity_last_mile",
+    "concept_b": "fiscal_deficit_kalecki_channel",
+    "mechanism": "Sustained fiscal deficit keeps the economy near or above potential, maintaining demand pressure that prevents last-mile disinflation. The convex Phillips Curve means the inflation cost of fiscal expansion increases disproportionately as the economy approaches capacity.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds near full employment. If the economy enters recession, the convexity reverses — disinflation becomes easier as slack opens.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "term_premium_steepener",
+    "concept_b": "cross_asset_growth_rate_divergence",
+    "mechanism": "The term premium steepener creates a false signal of mid-cycle expansion in the yield curve shape, while the underlying rate expectations component prices weaker growth. This contributes to the equity-rates divergence by making the curve shape look more benign than the growth outlook warrants.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when term premium is elevated due to fiscal supply concerns rather than growth expectations. Would not apply if the steepening were expectations-driven.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "private_credit_rate_insensitivity",
+    "concept_b": "fiscal_deficit_kalecki_channel",
+    "mechanism": "Private credit's rate-insensitive deployment (~$200-300B/yr) weakens the IS curve and reduces Fed monetary policy transmission, making fiscal policy relatively more dominant in determining aggregate demand. The credit creation function has a structural leak.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Effect increases as private credit grows relative to rate-sensitive bank lending. May cut both ways — rate cuts may also be less stimulative through this channel.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "covenant_lite_default_delay",
+    "concept_b": "ebitda_addback_distortion",
+    "mechanism": "Both mechanisms systematically bias credit market signals toward optimism in late cycle. Covenant-lite delays default recognition while EBITDA addbacks mask true leverage, compounding to create a wider gap between perceived and actual credit conditions.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both are structural features of current market architecture embedded in existing deal terms. Their combined effect intensifies as the cycle matures and stress accumulates.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "fiscal_deficit_kalecki_channel",
+    "concept_b": "private_sector_financial_surplus",
+    "mechanism": "The sectoral balance identity mechanically links them: Government deficit 6-7% = Private surplus 2-3% + Current account deficit 3-3.5%. Fiscal consolidation directly erodes the private surplus, removing the buffer that makes this cycle more resilient.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "This is an accounting identity — it always holds. The relationship is definitional, not behavioral.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  },
+  {
+    "concept_a": "stagflationary_disinflationary_bifurcation",
+    "concept_b": "nkpc_convexity_last_mile",
+    "mechanism": "The path of last-mile disinflation determines which scenario materializes. If supply shocks (tariffs, de-globalization) dominate, the stagflationary path emerges with positive stock-bond correlation. If demand weakness dominates, the disinflationary path emerges with negative stock-bond correlation.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The tariff/de-globalization trajectory is the key swing variable. Under trade escalation, stagflationary path dominates; under trade normalization, disinflationary path is more likely.",
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0002"
+  }
+]
