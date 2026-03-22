@@ -89,9 +89,6 @@ grep_config() {
     fi
 }
 
-TIMEOUT_PHASE1="$(grep_config 'agent_research' '300')"
-TIMEOUT_PHASE2="$(grep_config 'pairwise_debate' '300')"
-TIMEOUT_PHASE3="$(grep_config 'panel_synthesis' '360')"
 MIN_AGENTS="$(grep_config 'min_agents_for_downstream' '5')"
 HEARTBEAT_INTERVAL="$(grep_config 'heartbeat_interval' '30')"
 
@@ -121,7 +118,6 @@ write_heartbeat "phase1_parallel_research"
 start_heartbeat "phase1_parallel_research"
 
 export AGENTS_JSON TOPIC MODE ITERATION_ID ITER_DIR KB_DIR LOG_FILE
-export TIMEOUT="$TIMEOUT_PHASE1"
 
 bash "${SCRIPT_DIR}/phase1_parallel_research.sh"
 
@@ -162,8 +158,6 @@ log "--- Phase 2: Pairwise debate ---"
 write_heartbeat "phase2_pairwise_debate"
 start_heartbeat "phase2_pairwise_debate"
 
-export TIMEOUT="$TIMEOUT_PHASE2"
-
 bash "${SCRIPT_DIR}/phase2_pairwise_debate.sh"
 
 stop_heartbeat
@@ -178,7 +172,7 @@ log "--- Phase 3: Panel synthesis ---"
 write_heartbeat "phase3_panel_synthesis"
 start_heartbeat "phase3_panel_synthesis"
 
-export TOPIC_CATEGORY TIMEOUT="$TIMEOUT_PHASE3"
+export TOPIC_CATEGORY
 
 bash "${SCRIPT_DIR}/phase3_panel_synthesis.sh"
 

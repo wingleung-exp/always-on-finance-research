@@ -86,7 +86,6 @@ def run_score_update(base_dir: str, provenance_path: str,
             cmd,
             capture_output=True,
             text=True,
-            timeout=30,
         )
         if result.returncode == 0:
             log(f"Score update succeeded:\n{result.stdout.strip()}", log_file)
@@ -95,9 +94,6 @@ def run_score_update(base_dir: str, provenance_path: str,
             log(f"Score update failed (exit {result.returncode}):\n"
                 f"{result.stderr.strip()}", log_file)
             return False
-    except subprocess.TimeoutExpired:
-        log("Score update timed out", log_file)
-        return False
     except OSError as e:
         log(f"Score update OS error: {e}", log_file)
         return False
