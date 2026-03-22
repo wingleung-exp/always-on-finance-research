@@ -35,7 +35,7 @@ def log(msg: str, log_file: str = "") -> None:
             pass
 
 
-def run_claude(prompt_text: str, timeout_sec: int = 900) -> str:
+def run_claude(prompt_text: str) -> str:
     """Pipe prompt_text to claude --print and return stdout."""
     with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False,
                                       encoding="utf-8") as tmp:
@@ -49,11 +49,8 @@ def run_claude(prompt_text: str, timeout_sec: int = 900) -> str:
             stdin=open(tmp_path, "r", encoding="utf-8"),
             capture_output=True,
             text=True,
-            timeout=timeout_sec,
         )
         return result.stdout
-    except subprocess.TimeoutExpired:
-        return ""
     except FileNotFoundError:
         log("ERROR: claude CLI not found in PATH")
         return ""
@@ -184,8 +181,6 @@ def main() -> None:
                         help="Topic category.")
     parser.add_argument("--iteration-id", required=True,
                         help="Iteration identifier.")
-    parser.add_argument("--timeout", type=int, default=900,
-                        help="Claude call timeout (seconds).")
     parser.add_argument("--log-file", default="",
                         help="Optional log file path.")
 
@@ -222,7 +217,7 @@ def main() -> None:
     )
 
     log("Running Claude for knowledge extraction...", log_file)
-    raw_output = run_claude(prompt, timeout_sec=args.timeout)
+    raw_output = run_claude(prompt)
 
     if not raw_output.strip():
         log("ERROR: Claude returned empty output for extraction", log_file)
