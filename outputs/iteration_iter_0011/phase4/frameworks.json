@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "fiscal_dominance_five_signal_sequence",
+    "purpose": "Monitor the U.S. path toward fiscal dominance through a structured 5-signal sequence calibrated across Japan (gradual), Italy (acute, ECB-resolved), and UK/Truss (aborted) episodes",
+    "components": [
+      "Signal 1: Debt/GDP exceeds 100% (currently ~124%, TRIGGERED)",
+      "Signal 2: Interest expense exceeds defense spending (~$950B vs ~$850B, TRIGGERED)",
+      "Signal 3: Implicit Treasury-Fed issuance coordination (DEBATABLE — 2023-24 maturity shift interpreted variably)",
+      "Signal 4: Regulatory forced buying mandates such as SLR exemption or insurance mandates (NOT YET)",
+      "Signal 5: Inflation expectations de-anchoring via 5Y5Y breakevens >3% (NOT YET, currently ~2.3-2.5%)"
+    ],
+    "current_assessment": "U.S. scores 2.0-2.5 of 5. First two signals confirmed, third debatable. UK/Truss demonstrates that attempting to skip signals triggers acute crisis rather than gradual accommodation.",
+    "limitations": [
+      "Only 3 historical case studies (Japan, Italy, UK) — too few for statistical inference",
+      "Signal ordering may not be fixed across institutional contexts",
+      "Reserve currency status may permanently modify thresholds or merely delay progression",
+      "Transition from signal iii to iv can take 5-15 years for a reserve currency"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "slug": "kalecki_profit_decomposition_with_caveats",
+    "purpose": "Decompose corporate profit drivers via the Kalecki-Levy accounting identity with empirical calibration and explicit causal caveats",
+    "components": [
+      "Government Deficit: largest term at 6-7% GDP, empirical coefficient 0.45-0.65 per unit change",
+      "Investment: moderate contribution, AI-driven capex partially offsetting; Granger causality runs deficit→profits not investment→profits",
+      "Net Exports: negative contribution (current account deficit ~3-3.5% GDP), partially offset by capital account inflows",
+      "Household Saving: low (~3.5-4% personal saving rate), can shift rapidly if confidence changes",
+      "Interest Payments: rising from ~$900B to projected ~$1.5T by 2030, low multiplier degrades growth-supportive quality"
+    ],
+    "current_assessment": "Identity is tautological — constrains but does not predict. Empirical coefficient explains ~55-65% of profit variance. Japan ran massive deficits for 30 years without strong profit growth because other terms offset. Deficit composition shifting toward interest payments degrades the growth-supportive quality.",
+    "limitations": [
+      "Identity is accounting tautology, not causal mechanism",
+      "Japan and 1990s U.S. surplus are dispositive counterexamples to naive causal interpretation",
+      "Coefficient sensitive to recession inclusion — drops to 0.3-0.4 excluding recessions",
+      "R² of 0.55-0.65 leaves 35-45% of profit variance unexplained"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "slug": "fiscal_consolidation_success_conditions",
+    "purpose": "Identify conditions required for growth-neutral fiscal consolidation based on 13 historical episodes since 1970",
+    "components": [
+      "Monetary easing ≥200bp (present in 3/4 successes; U.S. 2026 availability LOW — Fed constrained by above-target inflation)",
+      "Exchange rate depreciation ≥10-25% (present in 3/4 successes; U.S. 2026 availability VERY LOW — reserve currency issuer)",
+      "Gradualism ≤1pp/year (present in 3/4 successes; U.S. 2026 availability LOW — DOGE emphasizes speed)"
+    ],
+    "current_assessment": "Base rate 30% success for consolidation >3% GDP without recession (4/13 episodes). U.S. adjusted rate lower than 30% — none of the three success conditions are readily available in 2026. The common factor in successful consolidations (significant currency depreciation) is the one most difficult for the reserve currency issuer to achieve.",
+    "limitations": [
+      "Small sample of 13 episodes limits statistical power",
+      "Success conditions may interact — unclear if any single one suffices",
+      "DOGE technology-driven approach differs structurally from all historical precedents",
+      "Composition of cuts (waste vs. productive spending) may matter more than aggregate size"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "slug": "gold_four_factor_model",
+    "purpose": "Decompose gold fair value and extract market-implied probability of fiscal dominance",
+    "components": [
+      "US 10Y real yield (TIPS): -$40-60/oz per 10bp rise — strongest single factor",
+      "USD DXY: -$15-25/oz per 1% DXY rise",
+      "Central bank net purchases: +$8-12/oz per 100 tonnes annual (1,037-1,045t in 2023-24, structural shift)",
+      "ETF flows: +$3-5/oz per 100 tonnes net inflow"
+    ],
+    "current_assessment": "$400-600/oz residual unexplained by traditional factors implies ~60-70% market probability of fiscal dominance within 5 years. Central bank buying at 1,000+ tonnes/year is revealed-preference signal of reserve diversification.",
+    "limitations": [
+      "Residual attribution contested between fiscal, geopolitical diversification, momentum, and model misspecification",
+      "Central bank buying may be one-time portfolio rebalancing (5% → 10% gold) not permanent preference shift",
+      "Model sensitivity coefficients are estimated with wide uncertainty bands",
+      "Post-Russia-sanctions reserve diversification is a compelling alternative to fiscal dominance thesis"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "slug": "fiscal_regime_factor_conditioning",
+    "purpose": "Adjust systematic factor allocations based on fiscal policy regime rather than adding a standalone fiscal factor",
+    "components": [
+      "Term Premium: widens in fiscal expansion, narrows in consolidation, suppressed but tail-risky under fiscal dominance",
+      "Equity Risk Premium: compressed in expansion (Kalecki supports earnings), elevated under fiscal dominance (uncertainty premium)",
+      "Value (HML): +1-2% incremental annual return in fiscal expansion, underperforms growth in consolidation",
+      "Quality (RMW/CMA): normal premium in expansion/consolidation, 2-3x normal premium under fiscal dominance (self-funding valued)",
+      "Carry: widened but potential carry-trap dynamics in expansion, maximum danger under fiscal dominance (wide carry masks sovereignty risk)"
+    ],
+    "current_assessment": "Fiscal policy is a regime variable, not a factor. Current regime closest to expansion with early fiscal dominance signals. Key insight: condition existing factor allocations on fiscal regime rather than adding a standalone fiscal factor to avoid the factor zoo trap.",
+    "limitations": [
+      "2022 partial confirmation may have been inflation-driven rather than fiscal-driven — attribution problem",
+      "Cross-country evidence limited for fiscal dominance regime effects on factors",
+      "Quality premium expansion is the most empirically grounded sub-claim; others are more speculative",
+      "Regime classification itself requires judgment calls at boundaries"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  }
+]

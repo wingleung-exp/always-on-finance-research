@@ -1,0 +1,37 @@
+{
+  "slug": "consolidation_recession_conditional_probability",
+  "definition": "Fiscal consolidation >2pp GDP elevates recession probability to roughly double the unconditional base rate (~55-65% vs. ~27%), but with N=7 episodes, the 95% Wilson CI is [25%, 84%] — we cannot reject the null that consolidation has no effect. The 2013 sequester (~1.5-2pp drag, no recession) is a significant counterexample.",
+  "confidence": 5,
+  "evidence": [
+    "7 episodes ≥2pp consolidation since 1947: 4-5 followed by recession (57-71%)",
+    "Unconditional recession base rate: ~27% in any 8-quarter window",
+    "Wilson 95% CI: [25%, 84%]",
+    "2013 sequester: widely predicted recession did not materialize (GDP +1.8%, S&P +30%)",
+    "Canada 1994-97: 4pp consolidation followed by expansion (currency depreciation + U.S. demand)",
+    "1990s and 2010s non-recessions coincided with monetary easing offset"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "generalist_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Is the 4-6 quarter lag structure real or false precision?",
+    "Does the 2013 sequester prove the threshold is wrong, or that monetary offset saved it?",
+    "What is the speed-severity tradeoff (fast >2pp/yr: 4/5 recessions; slow <1pp/yr: 1/4)?"
+  ],
+  "related_concepts": [
+    "fiscal_multiplier_deep_uncertainty",
+    "expansionary_austerity_debunked",
+    "doge_realization_gap"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

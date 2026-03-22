@@ -1,0 +1,26 @@
+{
+  "slug": "kalecki_profit_decomposition_with_caveats",
+  "purpose": "Decompose corporate profit drivers via the Kalecki-Levy accounting identity with empirical calibration and explicit causal caveats",
+  "components": [
+    "Government Deficit: largest term at 6-7% GDP, empirical coefficient 0.45-0.65 per unit change",
+    "Investment: moderate contribution, AI-driven capex partially offsetting; Granger causality runs deficit→profits not investment→profits",
+    "Net Exports: negative contribution (current account deficit ~3-3.5% GDP), partially offset by capital account inflows",
+    "Household Saving: low (~3.5-4% personal saving rate), can shift rapidly if confidence changes",
+    "Interest Payments: rising from ~$900B to projected ~$1.5T by 2030, low multiplier degrades growth-supportive quality"
+  ],
+  "current_assessment": "Identity is tautological — constrains but does not predict. Empirical coefficient explains ~55-65% of profit variance. Japan ran massive deficits for 30 years without strong profit growth because other terms offset. Deficit composition shifting toward interest payments degrades the growth-supportive quality.",
+  "limitations": [
+    "Identity is accounting tautology, not causal mechanism",
+    "Japan and 1990s U.S. surplus are dispositive counterexamples to naive causal interpretation",
+    "Coefficient sensitive to recession inclusion — drops to 0.3-0.4 excluding recessions",
+    "R² of 0.55-0.65 leaves 35-45% of profit variance unexplained"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

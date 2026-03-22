@@ -1,0 +1,37 @@
+{
+  "slug": "fiscal_dominance_early_stage",
+  "definition": "The U.S. scores 2.0-2.5 on a 5-signal fiscal dominance sequence: (i) debt/GDP >100% [YES], (ii) interest expense > defense spending [YES], (iii) implicit Treasury-Fed coordination [DEBATABLE], (iv) regulatory forced buying [NO], (v) inflation de-anchoring [NO]. Japan analogue suggests transition from signal (iii) to (iv) can take 5-15 years for a reserve currency.",
+  "confidence": 6,
+  "evidence": [
+    "U.S. debt/GDP ~124%, net interest ~$950B vs. defense ~$850B",
+    "5Y5Y breakevens ~2.3-2.5% (within range, signal v not triggered)",
+    "Japan case: all 5 signals present, gradual over decades",
+    "Italy 2011: signals i-iii triggered rapidly, resolved by ECB backstop",
+    "UK 2022: attempted to skip from signal i to v, market rejected within days",
+    "Fed effectively tightened in 2022-23 despite deficits (challenger_02: partial counter-evidence)"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_02",
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Does reserve currency status permanently modify the threshold or merely delay?",
+    "Can the Fed ease during fiscal consolidation without amplifying term premium concerns?",
+    "How should this be modeled as a continuous probability rather than binary regime?"
+  ],
+  "related_concepts": [
+    "term_premium_fiscal_supply_nonlinear",
+    "deficit_term_premium_doom_loop",
+    "gold_fiscal_dominance_pricing"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

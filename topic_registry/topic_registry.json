@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T23:10:33Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -87,13 +87,22 @@
     "fiscal_policy": {
       "category": "macro_frameworks",
       "display_name": "Fiscal Policy Divergence & Debt Sustainability",
-      "last_researched": "2026-03-22T04:00:00Z",
-      "depth_level": 1,
-      "confidence_score": 4.0,
-      "research_count": 2,
+      "last_researched": "2026-03-22T23:10:33Z",
+      "depth_level": 2,
+      "confidence_score": 5.0,
+      "research_count": 3,
       "knowledge_gaps": [
-        "G7 fiscal multiplier estimates under current debt levels",
+        "2Y-SPX correlation is -0.25 to -0.35 while 30Y-SPX is +0.05 to +0.15, reflecting monetary dominance at front end and fiscal supply dominance at long end",
         "DOGE-style spending reduction macro impact",
+        "Fiscal austerity that eliminates biofuel tax credits while preserving volume mandates creates market distortions",
+        "The Fama-French HML factor has ~1-2% incremental annual return attributable to fiscal policy after controlling for cycle and monetary policy",
+        "G7 fiscal multiplier estimates under current debt levels",
+        "A U.S. sovereign credit downgrade below AA would trigger forced selling and collateral substitution through Basel III risk weighting, central bank repo eligibility, and insurance capital requirements",
+        "Under fiscal dominance, stock-bond correlation flips positive, duration becomes risk factor, and quality factor premium expands 2-3x",
+        "Equity-implied HY spreads are 50-75bp wider than actual spreads, reflecting differential fiscal optimism between credit and equity investors",
+        "Fiscal multipliers are overstated when food prices are elevated due to import leakage",
+        "Fiscal contraction has an asymmetrically higher multiplier (1.2-1.8x) than fiscal expansion (0.6-0.9x) at current debt levels",
+        "IRA rollback under DOGE would remove 800kt-1.2Mt of incremental copper demand from 2028-2032 balance sheets",
         "Interaction between fiscal deficits and term premium"
       ],
       "connections": [
@@ -108,9 +117,26 @@
         "fiscal_monetary_interaction"
       ],
       "key_concepts": [
-        "fiscal_multiplier",
+        "ag_shock_em_fiscal_leading_indicator",
+        "basis_trade_fiscal_amplification",
+        "china_commodity_demand_mix_shift",
+        "confidence_calibration_regime_novelty",
+        "crowding_out",
+        "debt_gdp_threshold_debunked",
         "debt_sustainability",
-        "crowding_out"
+        "deficit_term_premium_doom_loop",
+        "expansionary_austerity_debunked",
+        "fiscal_dominance_early_stage",
+        "fiscal_multiplier",
+        "fiscal_multiplier_deep_uncertainty",
+        "g7_fiscal_divergence_extreme",
+        "gold_fiscal_dominance_pricing",
+        "kalecki_channel_empirical_partial",
+        "opec_fiscal_breakeven_supply_constraint",
+        "r_g_transition_sustainability",
+        "single_factor_dominance_bias",
+        "term_premium_fiscal_supply_nonlinear",
+        "unprecedented_fiscal_configuration"
       ]
     },
     "inflation_regimes": {

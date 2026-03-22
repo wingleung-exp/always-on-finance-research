@@ -1,0 +1,31 @@
+{
+  "slug": "debt_gdp_threshold_debunked",
+  "definition": "No robust nonlinear debt/GDP threshold exists in the data. The Reinhart-Rogoff '90% threshold' was debunked (Herndon-Ash-Pollin 2013). A modest linear negative relationship exists: -0.02 to -0.04pp growth per 1pp debt/GDP (p<0.05), but shrinks ~40% for monetary-sovereign, own-currency issuers. Japan at 250%+ without crisis is a devastating outlier.",
+  "confidence": 8,
+  "evidence": [
+    "Panel regressions: 20 advanced economies, 1950-2024, no significant threshold detected",
+    "Herndon-Ash-Pollin 2014: original R-R errors and selection bias documented",
+    "Linear coefficient shrinks ~40% for monetary-sovereign issuers",
+    "Japan anomaly: 250%+ debt/GDP, 30+ years without crisis"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is the linear drag overstated due to endogeneity?",
+    "Does Japan's experience generalize or is it unique?"
+  ],
+  "related_concepts": [
+    "fiscal_multiplier_deep_uncertainty",
+    "r_g_transition_sustainability"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

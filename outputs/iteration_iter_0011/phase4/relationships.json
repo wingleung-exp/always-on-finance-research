@@ -1,0 +1,169 @@
+[
+  {
+    "concept_a": "fiscal_multiplier_deep_uncertainty",
+    "concept_b": "kalecki_channel_empirical_partial",
+    "mechanism": "The Kalecki profit decomposition requires a fiscal multiplier assumption. The wide multiplier range (0.2-2.5x) directly determines whether the fiscal contribution to profits is dominant (~50-65% at high multipliers) or modest (~20-30% at low multipliers).",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Multiplier varies with cycle phase, monetary offset, and debt level. The Kalecki coefficient itself may be non-stationary as deficit composition shifts toward interest payments.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "term_premium_fiscal_supply_nonlinear",
+    "concept_b": "deficit_term_premium_doom_loop",
+    "mechanism": "The non-linear term premium response to fiscal supply is the activation mechanism for the doom loop. Below ~3-4% structural deficit, term premium is insensitive and the loop is dormant. Above threshold, each increment of deficit drives disproportionate term premium increase.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The activation threshold depends on reserve currency status, foreign demand for Treasuries, and central bank balance sheet policy. QE suppresses the loop; QT re-activates it.",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_01",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "deficit_term_premium_doom_loop",
+    "concept_b": "fiscal_dominance_early_stage",
+    "mechanism": "The doom loop is one pathway to fiscal dominance: if term premium rises force the central bank to intervene to maintain sovereign debt sustainability, monetary policy becomes subordinated to fiscal needs. The doom loop accelerates progression through the 5-signal fiscal dominance sequence.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Japan reached fiscal dominance gradually (decades); UK/Truss attempted to skip ahead and triggered crisis. The U.S. pathway depends on whether the loop activates gradually or suddenly.",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "unprecedented_fiscal_configuration",
+    "concept_b": "confidence_calibration_regime_novelty",
+    "mechanism": "The factual finding that the current configuration has zero historical precedent logically requires that predictions about its effects carry reduced confidence. All regression-based estimates are out-of-sample extrapolations.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "This is a permanent methodological constraint, not regime-dependent.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "kalecki_channel_empirical_partial",
+    "concept_b": "basis_trade_fiscal_amplification",
+    "mechanism": "The Kalecki profit floor suppresses default rates and volatility, compressing credit spreads, encouraging leveraged carry strategies sized to the low-vol environment. Fiscal consolidation withdrawing the Kalecki floor would reveal that positions are dependent on the fiscal architecture.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The link is strongest when the Kalecki channel is the dominant profit driver. If alternative explanations account for more resilience, the fiscal dependency of leveraged positioning is lower.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "expansionary_austerity_debunked",
+    "concept_b": "doge_realization_gap",
+    "mechanism": "The debunking of expansionary austerity removes the theoretical justification for rapid spending cuts producing positive growth outcomes. DOGE-style cuts should be expected to be contractionary, with the only question being magnitude.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "If DOGE cuts genuinely target waste (zero-multiplier spending), the expansionary austerity debunking is less relevant. The ratio of genuine efficiency to contractionary cuts is unknowable ex ante.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "g7_fiscal_divergence_extreme",
+    "concept_b": "opec_fiscal_breakeven_supply_constraint",
+    "mechanism": "G7 fiscal divergence affects global demand for oil, while OPEC+ fiscal breakevens constrain the supply response. Continued G7 fiscal expansion sustains demand above breakeven levels, maintaining OPEC+ cohesion; consolidation threatens it.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Strongest when oil prices are near the aggregate breakeven ($78-85/bbl). Above $90, fiscal concerns are secondary; below $70, fiscal stress dominates regardless of G7 policy.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "china_commodity_demand_mix_shift",
+    "concept_b": "g7_fiscal_divergence_extreme",
+    "mechanism": "China's fiscal pivot to strategic industrial investment changes commodity demand impulse at the same time as G7 fiscal divergence creates asymmetric demand patterns. Combined effect: global copper demand rising from two fiscal sources while iron ore declines.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Contingent on China not reverting to property stimulus and U.S. IRA remaining intact. Either reversal alters the demand mix.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "fiscal_dominance_early_stage",
+    "concept_b": "gold_fiscal_dominance_pricing",
+    "mechanism": "Under fiscal dominance, real interest rates are held below warranted levels — the strongest driver in multi-factor gold models. Central bank gold buying at 1,000+ tonnes/year is the revealed-preference signal that reserve managers are positioning for fiscal dominance.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "If U.S. credibly consolidates fiscal policy, gold could re-rate $300-500 lower. The attribution of the gold residual to fiscal concerns vs. geopolitics vs. momentum is contested.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "quant_researcher_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "ag_shock_em_fiscal_leading_indicator",
+    "concept_b": "g7_fiscal_divergence_extreme",
+    "mechanism": "G7 fiscal policy affects agricultural commodity prices through demand and supply channels. Agricultural price spikes then trigger EM fiscal stress through the food-inflation-rates-sovereign stress transmission chain — second-order effects standard fiscal analysis misses.",
+    "direction": "b_causes_a",
+    "confidence": 5,
+    "regime_dependence": "Strongest when global agricultural stocks-to-use ratios are below historical thresholds (corn <12%, wheat <25%).",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "single_factor_dominance_bias",
+    "concept_b": "kalecki_channel_empirical_partial",
+    "mechanism": "The R² of 0.55-0.65 means 35-45% of profit variance is unexplained by fiscal deficits. Single-factor dominance bias overstates both the risk from fiscal consolidation and the credit for fiscal expansion. Immigration, mortgage structure, and wealth effects may account for the residual.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "The bias is most consequential at inflection points (e.g., DOGE consolidation). If alternatives are providing buffer, fiscal withdrawal is less catastrophic than single-factor analysis implies.",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "concept_a": "r_g_transition_sustainability",
+    "concept_b": "deficit_term_premium_doom_loop",
+    "mechanism": "The r-g transition provides the arithmetic context for the doom loop. When r<g, the doom loop is inactive. As r approaches g, the loop sensitizes. When r>g, the loop enters potentially explosive territory absent primary surplus adjustment.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The transition point depends on the effective interest rate on outstanding debt (currently ~3.3%) converging toward marginal rates (~4.5-5.0%) as ~16% of stock reprices annually.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  }
+]

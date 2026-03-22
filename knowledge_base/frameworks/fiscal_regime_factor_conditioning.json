@@ -1,0 +1,26 @@
+{
+  "slug": "fiscal_regime_factor_conditioning",
+  "purpose": "Adjust systematic factor allocations based on fiscal policy regime rather than adding a standalone fiscal factor",
+  "components": [
+    "Term Premium: widens in fiscal expansion, narrows in consolidation, suppressed but tail-risky under fiscal dominance",
+    "Equity Risk Premium: compressed in expansion (Kalecki supports earnings), elevated under fiscal dominance (uncertainty premium)",
+    "Value (HML): +1-2% incremental annual return in fiscal expansion, underperforms growth in consolidation",
+    "Quality (RMW/CMA): normal premium in expansion/consolidation, 2-3x normal premium under fiscal dominance (self-funding valued)",
+    "Carry: widened but potential carry-trap dynamics in expansion, maximum danger under fiscal dominance (wide carry masks sovereignty risk)"
+  ],
+  "current_assessment": "Fiscal policy is a regime variable, not a factor. Current regime closest to expansion with early fiscal dominance signals. Key insight: condition existing factor allocations on fiscal regime rather than adding a standalone fiscal factor to avoid the factor zoo trap.",
+  "limitations": [
+    "2022 partial confirmation may have been inflation-driven rather than fiscal-driven — attribution problem",
+    "Cross-country evidence limited for fiscal dominance regime effects on factors",
+    "Quality premium expansion is the most empirically grounded sub-claim; others are more speculative",
+    "Regime classification itself requires judgment calls at boundaries"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

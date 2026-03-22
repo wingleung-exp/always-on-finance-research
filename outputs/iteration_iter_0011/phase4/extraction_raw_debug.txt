@@ -1,0 +1,10 @@
+Extraction complete. Written to `outputs/iteration_iter_0011/extraction.json`.
+
+Counts match the synthesis: 20 concepts, 12 relationships, 5 frameworks, 8 agents (66 claims, 11 refuted → 55 survived), 11 anti-knowledge entries, 9 low-confidence claims.
+
+Key provenance notes:
+- **quant_researcher_01** had the best survival rate (10/10)
+- **quant_researcher_02** had the worst (4/8 — 4 claims refuted in pair_2 debate)
+- **commodities_analyst_01** also had perfect survival (7/7)
+- Direction values mapped from richer source labels (e.g. `a_enables_b`, `a_accelerates_b`) to the four canonical values (`a_causes_b`, `b_causes_a`, `bidirectional`, `correlated`)
+- Anti-knowledge `refuted_by` mapped from debate pair IDs to actual agent role_ids

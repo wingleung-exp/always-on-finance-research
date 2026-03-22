@@ -1,0 +1,101 @@
+[
+  {
+    "claim": "Fiscal policy is the single most important cross-asset variable (9/10 confidence)",
+    "reason": "Conflates accounting identity level decomposition with marginal return attribution. Monetary policy dominates discount rates; AI/tech narratives dominate forward earnings for largest index constituents. Kalecki identity is a tautology, not causal mechanism.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Term premium contribution from fiscal supply is 100-160bp",
+    "reason": "Internally inconsistent: agent's own ACM estimate of 60-100bp total term premium is below the low end of the claimed fiscal contribution. Cannot attribute more to one source than the total. Linearity assumption contradicts agreed non-linear relationship.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Equities return +8.2% annualized during consolidation vs. +5.1% during expansion",
+    "reason": "Simpson's paradox artifact. Expansion episodes include reactive stimulus during recessions (biasing down). Consolidation episodes coincide with monetary easing. When controlling for proactive expansion at full employment, returns flip to +11.3%.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Fiscal multipliers are effectively zero (and often negative) when debt/GDP exceeds 60%",
+    "reason": "Three grounds: (a) Ilzetzki-Mendoza-Végh result shrinks ~40% for monetary-sovereign, own-currency issuers; (b) no robust nonlinear threshold in panel data with country fixed effects; (c) agent contradicts own claim by using 0.5-1.0x multipliers for U.S. at 100%+ debt/GDP.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "DOGE consolidation compresses the equity risk premium by 30-80bp",
+    "reason": "False precision given: no DOGE analogue exists, underlying multiplier uncertain by 5x, ERP measurement error substantial, and agent acknowledges net equity effect is 'ambiguous' in same paragraph.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Alesina-Ardagna (2010) provides partial evidence for expansionary austerity",
+    "reason": "Guajardo et al. (2014) demonstrated the result was an artifact of using cyclically-adjusted measures that endogenously correlate consolidation with growth booms. Under narrative identification the result vanishes. Citing debunked methodology as 'contested' implies partial validity it does not have.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Private GDP growth ex-fiscal is only 1.0-1.5% (9/10 confidence)",
+    "reason": "Entirely dependent on assumed fiscal multiplier. Credible range (0.3-2.5x) makes the decomposition anywhere from 'private growth is basically zero' to 'private growth is 2.0-2.5%.' Point estimate is false precision. 9/10 confidence is the single largest calibration error across all agents.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Fiscal consolidation triggers credit cycle downshift within 4-6 quarters",
+    "reason": "No empirical source cited. Credit cycle lags depend on starting leverage, monetary response, exchange rate regime, composition, and balance sheets. Historical episodes show 2 quarters to variable years. False precision that could mislead positioning.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Post-WWII consolidation (~27pp) without recession proves fiscal consolidation thresholds are wrong",
+    "reason": "Structurally incomparable: wartime savings, pent-up consumer demand, lifting of price controls, demographic boom, U.S. manufacturing dominance with zero foreign competition. Conditions cannot recur.",
+    "refuted_by": [
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Term premium → agricultural infrastructure underinvestment → supply elasticity degradation",
+    "reason": "Four-link causal chain with substantial noise at each link. Brazil Cerrado example does not generalize to current global agricultural investment, which is driven by land prices, technology, and trade policy far more than U.S. term premium.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Sorting G10 sovereigns by fiscal balance produces a return spread of 80-150bp",
+    "reason": "G10 = 10 countries, meaning 3-4 bonds per side of the sort. Return spread is partially mechanical (worse fiscal = higher carry). Would not survive Harvey-Liu-Zhu statistical scrutiny. Hypothesis, not finding.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0011"
+  }
+]

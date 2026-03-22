@@ -1,0 +1,31 @@
+{
+  "slug": "crowding_out_post2008_attenuation",
+  "definition": "Crowding-out of private investment by government borrowing appears to have vanished in post-2008 data: partial correlation dropped from -0.38 (pre-2008, p<0.01) to -0.12 (post-2008, p=0.31). Whether crowding-out re-emerges as QT progresses is a critical open question.",
+  "confidence": 5,
+  "evidence": [
+    "Pre-2008 partial correlation: -0.38 (significant)",
+    "Post-2008 partial correlation: -0.12 (not significant)",
+    "Structural break coincides with QE, global savings expansion, excess reserves",
+    "Excluding QE periods leaves N~15 observations — too few for inference"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Is the disappearance structural or an artifact of QE and short samples?",
+    "Will QT and narrowing global savings surplus re-activate the channel?",
+    "Does the fiscal supply channel operate through term premium rather than traditional IS-LM crowding-out?"
+  ],
+  "related_concepts": [
+    "term_premium_fiscal_supply_nonlinear",
+    "fiscal_multiplier_deep_uncertainty"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

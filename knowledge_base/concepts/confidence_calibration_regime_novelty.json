@@ -1,0 +1,32 @@
+{
+  "slug": "confidence_calibration_regime_novelty",
+  "definition": "When analyzing an explicitly 'unprecedented' regime, confidence in predictions about its effects should decrease, not increase. Assigning 9/10 confidence to claims about a novel fiscal configuration violates basic calibration principles (Tetlock superforecasting). The logical contradiction applies a systematic haircut of 2-3 points to all agent claims built on historical extrapolation.",
+  "confidence": 8,
+  "evidence": [
+    "Tetlock superforecasting research: best-calibrated forecasters reduce conviction in uncharted territory",
+    "Current configuration has 0/74 pre-2022 precedents in U.S. data",
+    "Agents with highest average confidence were most frequently challenged in debate",
+    "Agents with lowest confidence scores produced the most durable findings"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "What is the correct discount factor for novel-regime analysis (15-30% per Tetlock)?",
+    "Do understood mechanisms interact linearly or produce emergent behavior in novel combinations?",
+    "How should falsifiability criteria be specified for claims about unprecedented regimes?"
+  ],
+  "related_concepts": [
+    "unprecedented_fiscal_configuration",
+    "fiscal_multiplier_deep_uncertainty",
+    "kalecki_channel_empirical_partial"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

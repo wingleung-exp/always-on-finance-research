@@ -1,0 +1,39 @@
+{
+  "slug": "fiscal_multiplier_deep_uncertainty",
+  "definition": "The 95% confidence interval on U.S. fiscal multiplier estimates spans 0.2 to 2.5, driven by identification strategy, sample period, business cycle phase, and monetary offset. This uncertainty is itself a first-order finding that dominates any specific point estimate. Multipliers are state-contingent (~1.5-2.5x at ZLB/recession, ~0.0-0.5x during expansion with monetary offset).",
+  "confidence": 9,
+  "evidence": [
+    "Meta-analysis across 30+ studies (Ramey 2019, Chodorow-Reich 2019)",
+    "SVAR identification: 0.5-1.0 (1Y); narrative identification: 1.0-1.5 spending, 2.5-3.0 tax",
+    "Regime-switching: recession 1.5-2.5, expansion 0.0-0.5",
+    "IMV coefficient shrinks ~40% for monetary-sovereign issuers",
+    "No robust nonlinear threshold in panel data with country fixed effects",
+    "Current regime (6-7% deficit, sub-4% unemployment, Fed on hold) has no historical precedent"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "generalist_02",
+    "risk_analyst_01",
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "What is the correct functional form at extreme deficit levels (steady-state 6-7%)?",
+    "Does deficit composition (transfers vs. procurement vs. interest) produce measurably different multipliers?",
+    "What is the fiscal consolidation speed-severity tradeoff (fast vs. slow cuts)?",
+    "How do multipliers interact with the current monetary policy stance (on hold, not easing)?"
+  ],
+  "related_concepts": [
+    "kalecki_channel_empirical_partial",
+    "unprecedented_fiscal_configuration",
+    "expansionary_austerity_debunked"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

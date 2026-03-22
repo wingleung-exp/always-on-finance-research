@@ -1,0 +1,38 @@
+{
+  "slug": "term_premium_fiscal_supply_nonlinear",
+  "definition": "Fiscal deficits raise the term premium on long-duration government bonds through a supply channel. The relationship is non-linear: insensitive below ~3-4% structural deficit for a reserve currency issuer, but highly sensitive above that threshold. Central estimate: 20-40bp per 1pp deficit/GDP in pre-QE samples, but with ±20bp confidence band and a structural break around QE regimes.",
+  "confidence": 8,
+  "evidence": [
+    "Pre-QE regression: 20-40bp per 1pp deficit/GDP (p < 0.05)",
+    "When net private-sector absorption >4% GDP, term premium >100bp in 6/7 episodes (86%)",
+    "Clinton 1993: 80-100bp compression from credible consolidation",
+    "UK Truss 2022: ~100bp spike in 4 trading days from fiscal shock",
+    "2023-24 Treasury maturity shift: 30-50bp compression from supply management",
+    "ACM term premium swing from -50bp (2020) to +50-100bp (early 2026)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_02",
+    "risk_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the precise magnitude under current QT regime (sample too short)?",
+    "Does the U.S. reserve currency status permanently lower the elasticity?",
+    "At what point does further deficit expansion weaken rather than strengthen the dollar?"
+  ],
+  "related_concepts": [
+    "deficit_term_premium_doom_loop",
+    "fiscal_dominance_early_stage",
+    "g7_fiscal_divergence_extreme"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

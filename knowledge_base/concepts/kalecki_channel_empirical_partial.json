@@ -1,0 +1,38 @@
+{
+  "slug": "kalecki_channel_empirical_partial",
+  "definition": "The Kalecki-Levy profit identity (Profits = Investment + Government Deficit + Net Exports - Household Saving + Dividends) is an accounting tautology that holds by construction. The empirical relationship between deficit changes and profit changes is statistically significant (R² ~0.55-0.65, Granger causality confirmed) but explains only roughly half of profit variance. The channel is real and directionally important but not the near-mechanical guarantee implied by 9/10 confidence.",
+  "confidence": 7,
+  "evidence": [
+    "R² of 0.55-0.65 on annual NIPA data 1947-2024",
+    "Granger causality: deficit changes predict profit changes (t-stat 3.2-4.8), not reverse",
+    "VAR impulse response: +0.4-0.7pp GDP profit increase per 1pp GDP deficit shock",
+    "Rolling regression shows channel strengthening post-2000",
+    "Japan and 1990s U.S. surplus as counterexamples to naive causal interpretation",
+    "Coefficient sensitive to recession inclusion — drops to 0.3-0.4 excluding recessions"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "risk_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does rising interest expense composition degrade the profit-sustaining channel?",
+    "What is the correct fiscal multiplier for the Kalecki decomposition at current debt levels?",
+    "Can the channel persist when deficits are dominated by interest payments rather than productive spending?",
+    "What would constitute falsifying evidence against the Kalecki-dominance thesis?"
+  ],
+  "related_concepts": [
+    "fiscal_multiplier_deep_uncertainty",
+    "deficit_composition_shift",
+    "unprecedented_fiscal_configuration"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-22T23:10:33Z",
+  "originating_iteration": "iter_0011",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0011"
+  ]
+}

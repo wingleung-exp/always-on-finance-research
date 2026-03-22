@@ -1,0 +1,719 @@
+{
+  "concepts": [
+    {
+      "slug": "kalecki_channel_empirical_partial",
+      "definition": "The Kalecki-Levy profit identity (Profits = Investment + Government Deficit + Net Exports - Household Saving + Dividends) is an accounting tautology that holds by construction. The empirical relationship between deficit changes and profit changes is statistically significant (R² ~0.55-0.65, Granger causality confirmed) but explains only roughly half of profit variance. Japan (massive deficits, weak profits) and 1990s U.S. (surpluses, booming profits) are dispositive counterexamples to naive causal interpretation.",
+      "confidence": 7,
+      "evidence": [
+        "R² of 0.55-0.65 on annual NIPA data 1947-2024",
+        "Granger causality: deficit changes predict profit changes (t-stat 3.2-4.8), not reverse",
+        "VAR impulse response: +0.4-0.7pp GDP profit increase per 1pp GDP deficit shock",
+        "Rolling regression shows channel strengthening post-2000",
+        "Japan and 1990s U.S. surplus as counterexamples to naive causal interpretation",
+        "Coefficient sensitive to recession inclusion — drops to 0.3-0.4 excluding recessions"
+      ],
+      "originating_agents": ["quant_researcher_01", "challenger_02", "risk_analyst_01", "generalist_01"],
+      "open_questions": [
+        "Does rising interest expense composition degrade the profit-sustaining channel?",
+        "What is the correct fiscal multiplier for the Kalecki decomposition at current debt levels?",
+        "Can the channel persist when deficits are dominated by interest payments rather than productive spending?",
+        "What would constitute falsifying evidence against the Kalecki-dominance thesis?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "deficit_composition_shift", "unprecedented_fiscal_configuration"]
+    },
+    {
+      "slug": "fiscal_multiplier_deep_uncertainty",
+      "definition": "The 95% confidence interval on U.S. fiscal multiplier estimates spans 0.2 to 2.5, driven by identification strategy, sample period, business cycle phase, and monetary offset. This uncertainty is itself a first-order finding that dominates any specific point estimate. Multipliers are state-contingent (~1.5-2.5x at ZLB/recession, ~0.0-0.5x during expansion with monetary offset).",
+      "confidence": 9,
+      "evidence": [
+        "Meta-analysis across 30+ studies (Ramey 2019, Chodorow-Reich 2019)",
+        "SVAR identification: 0.5-1.0 (1Y); narrative identification: 1.0-1.5 spending, 2.5-3.0 tax",
+        "Regime-switching: recession 1.5-2.5, expansion 0.0-0.5",
+        "IMV coefficient shrinks ~40% for monetary-sovereign issuers",
+        "No robust nonlinear threshold in panel data with country fixed effects",
+        "Current regime (6-7% deficit, sub-4% unemployment, Fed on hold) has no historical precedent"
+      ],
+      "originating_agents": ["quant_researcher_01", "challenger_02", "generalist_02", "risk_analyst_01", "commodities_analyst_01"],
+      "open_questions": [
+        "What is the correct functional form at extreme deficit levels (steady-state 6-7%)?",
+        "Does deficit composition (transfers vs. procurement vs. interest) produce measurably different multipliers?",
+        "What is the fiscal consolidation speed-severity tradeoff (fast vs. slow cuts)?",
+        "How do multipliers interact with the current monetary policy stance (on hold, not easing)?"
+      ],
+      "related_concepts": ["kalecki_channel_empirical_partial", "unprecedented_fiscal_configuration", "expansionary_austerity_debunked"]
+    },
+    {
+      "slug": "unprecedented_fiscal_configuration",
+      "definition": "Running a 6-7% of GDP deficit at sub-4% unemployment has a pre-2022 base rate of 0/74 annual observations (1947-2024). All three occurrences (2022-2024) are in the current cycle. This means every regression-based fiscal impact estimate is being applied out of sample, requiring wider uncertainty bounds on all fiscal claims.",
+      "confidence": 9,
+      "evidence": [
+        "Joint frequency analysis: deficit >5% GDP AND unemployment <4.5% = 3/77 total, 0/74 pre-2022",
+        "No peacetime precedent at current magnitude (6-7% deficit at 3.6-4.0% unemployment)",
+        "WWII deficits exceeded 10% but employment was mobilization-driven, not comparable"
+      ],
+      "originating_agents": ["quant_researcher_01", "generalist_02", "challenger_02"],
+      "open_questions": [
+        "How should uncertainty bounds be scaled for out-of-sample extrapolation?",
+        "Are the mechanisms understood even if the configuration is novel, or does novelty imply emergent behavior?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "kalecki_channel_empirical_partial", "confidence_calibration_regime_novelty"]
+    },
+    {
+      "slug": "term_premium_fiscal_supply_nonlinear",
+      "definition": "Fiscal deficits raise the term premium on long-duration government bonds through a supply channel. The relationship is non-linear: insensitive below ~3-4% structural deficit for a reserve currency issuer, but highly sensitive above that threshold. Central estimate: 20-40bp per 1pp deficit/GDP in pre-QE samples, with ±20bp confidence band and a structural break around QE regimes.",
+      "confidence": 8,
+      "evidence": [
+        "Pre-QE regression: 20-40bp per 1pp deficit/GDP (p < 0.05)",
+        "When net private-sector absorption >4% GDP, term premium >100bp in 6/7 episodes (86%)",
+        "Clinton 1993: 80-100bp compression from credible consolidation",
+        "UK Truss 2022: ~100bp spike in 4 trading days from fiscal shock",
+        "2023-24 Treasury maturity shift: 30-50bp compression from supply management",
+        "ACM term premium swing from -50bp (2020) to +50-100bp (early 2026)"
+      ],
+      "originating_agents": ["quant_researcher_01", "quant_researcher_02", "generalist_02", "risk_analyst_01", "generalist_01"],
+      "open_questions": [
+        "What is the precise magnitude under current QT regime (sample too short)?",
+        "Does the U.S. reserve currency status permanently lower the elasticity?",
+        "At what point does further deficit expansion weaken rather than strengthen the dollar?"
+      ],
+      "related_concepts": ["deficit_term_premium_doom_loop", "fiscal_dominance_early_stage", "g7_fiscal_divergence_extreme"]
+    },
+    {
+      "slug": "g7_fiscal_divergence_extreme",
+      "definition": "G7 fiscal divergence is at its widest since post-WWII: U.S. at -6.5 to -7.0% of GDP, Euro Area ~-3%, Canada ~-1.5 to -2.0%, Germany ~-2%, Japan ~-4% at 250%+ debt/GDP. Three historical episodes of major divergence produced divergent dollar and cross-asset outcomes depending on the monetary-fiscal policy mix.",
+      "confidence": 8,
+      "evidence": [
+        "IMF Fiscal Monitor data, CBO projections",
+        "1981-85: dollar up 50% (Volcker tightening); 2001-04: dollar down 35% (Greenspan easing); 2017-19: initial strength then fading",
+        "Current mix (Fed on hold, wide deficits) maps closer to 2001-04 dollar-weak pattern"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "risk_analyst_01", "commodities_analyst_01", "quant_researcher_02"],
+      "open_questions": [
+        "Dollar direction: gradual weakening or sustained strength via rate differentials?",
+        "How long does reserve currency buffering delay external adjustment (historical: 2-4 years)?",
+        "Does European defense spending ramp alter the divergence trajectory?"
+      ],
+      "related_concepts": ["term_premium_fiscal_supply_nonlinear", "fiscal_dominance_early_stage", "deficit_term_premium_doom_loop"]
+    },
+    {
+      "slug": "expansionary_austerity_debunked",
+      "definition": "The Alesina-Ardagna (2010) 'expansionary austerity' result does not survive narrative identification methodology (Guajardo et al. 2014). Under proper identification, fiscal consolidations are contractionary with multipliers of 1.0-1.5x on average. Success conditions (200bp+ monetary easing, 10%+ exchange rate depreciation, gradualism) are largely unavailable to the U.S. in 2026.",
+      "confidence": 8,
+      "evidence": [
+        "Guajardo et al. 2014 narrative identification approach",
+        "Average GDP impact of 1% GDP consolidation: -0.62% (95% CI: -0.97% to -0.27%)",
+        "Only 15-20% of episodes show positive growth under narrative identification",
+        "3 of 4 successful large-scale consolidations required 15-25% currency depreciation",
+        "U.S. reserve currency status makes comparable depreciation politically/economically infeasible"
+      ],
+      "originating_agents": ["quant_researcher_01", "generalist_02"],
+      "open_questions": [
+        "Can technology-driven efficiency gains (DOGE model) produce different outcomes than traditional spending cuts?",
+        "What fraction of government spending has near-zero multipliers and could be cut without demand impact?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "doge_realization_gap", "consolidation_recession_conditional_probability"]
+    },
+    {
+      "slug": "fiscal_dominance_early_stage",
+      "definition": "The U.S. scores 2.0-2.5 on a 5-signal fiscal dominance sequence: (i) debt/GDP >100% [YES], (ii) interest expense > defense spending [YES], (iii) implicit Treasury-Fed coordination [DEBATABLE], (iv) regulatory forced buying [NO], (v) inflation de-anchoring [NO]. Japan analogue suggests transition from signal (iii) to (iv) can take 5-15 years for a reserve currency.",
+      "confidence": 6,
+      "evidence": [
+        "U.S. debt/GDP ~124%, net interest ~$950B vs. defense ~$850B",
+        "5Y5Y breakevens ~2.3-2.5% (within range, signal v not triggered)",
+        "Japan case: all 5 signals present, gradual over decades",
+        "Italy 2011: signals i-iii triggered rapidly, resolved by ECB backstop",
+        "UK 2022: attempted to skip from signal i to v, market rejected within days",
+        "Fed effectively tightened in 2022-23 despite deficits (challenger_02: partial counter-evidence)"
+      ],
+      "originating_agents": ["generalist_02", "risk_analyst_01", "quant_researcher_02", "commodities_analyst_01"],
+      "open_questions": [
+        "Does reserve currency status permanently modify the threshold or merely delay?",
+        "Can the Fed ease during fiscal consolidation without amplifying term premium concerns?",
+        "How should this be modeled as a continuous probability rather than binary regime?"
+      ],
+      "related_concepts": ["term_premium_fiscal_supply_nonlinear", "deficit_term_premium_doom_loop", "gold_fiscal_dominance_pricing"]
+    },
+    {
+      "slug": "consolidation_recession_conditional_probability",
+      "definition": "Fiscal consolidation >2pp GDP elevates recession probability to roughly double the unconditional base rate (~55-65% vs. ~27%), but with N=7 episodes, the 95% Wilson CI is [25%, 84%] — we cannot reject the null that consolidation has no effect. The conditional probability depends heavily on monetary offset, exchange rate adjustment, speed, and composition.",
+      "confidence": 5,
+      "evidence": [
+        "7 episodes ≥2pp consolidation since 1947: 4-5 followed by recession (57-71%)",
+        "Unconditional recession base rate: ~27% in any 8-quarter window",
+        "Wilson 95% CI: [25%, 84%]",
+        "2013 sequester: widely predicted recession did not materialize (GDP +1.8%, S&P +30%)",
+        "Canada 1994-97: 4pp consolidation followed by expansion (currency depreciation + U.S. demand)",
+        "1990s and 2010s non-recessions coincided with monetary easing offset"
+      ],
+      "originating_agents": ["quant_researcher_01", "challenger_02", "generalist_02", "risk_analyst_01"],
+      "open_questions": [
+        "Is the 4-6 quarter lag structure real or false precision?",
+        "Does the 2013 sequester prove the threshold is wrong, or that monetary offset saved it?",
+        "What is the speed-severity tradeoff (fast >2pp/yr: 4/5 recessions; slow <1pp/yr: 1/4)?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "expansionary_austerity_debunked", "doge_realization_gap"]
+    },
+    {
+      "slug": "doge_realization_gap",
+      "definition": "DOGE-style spending reductions have no valid historical analogue. Historical realization rate for announced savings is 0.3-0.6x over 3 years. ~70% of federal spending is mandatory with strong Congressional protection. 30-50% of federal reductions are historically offset by state/local spending increases over 3-5 years.",
+      "confidence": 4,
+      "evidence": [
+        "UK Osborne: ~65% of £81B target delivered, with GDP undershooting by ~1-1.5pp cumulatively",
+        "~70% of federal spending is mandatory/entitlements",
+        "State/local offset: 30-50% of federal reductions over 3-5 years",
+        "2013 sequester: $85B cuts → ~0.6pp GDP drag (CBO), but linear extrapolation to DOGE scale is implausible",
+        "DOGE's technology-driven approach differs structurally from all prior consolidation programs"
+      ],
+      "originating_agents": ["generalist_02", "quant_researcher_01", "risk_analyst_01", "generalist_01"],
+      "open_questions": [
+        "What fraction of DOGE savings are genuine efficiency gains (zero multiplier) vs. contractionary cuts?",
+        "How do legal challenges to executive-authority cuts affect realization?",
+        "Which budget lines (IRA, defense, USDA, SNAP) are politically achievable targets?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "consolidation_recession_conditional_probability", "expansionary_austerity_debunked"]
+    },
+    {
+      "slug": "deficit_term_premium_doom_loop",
+      "definition": "A reflexive feedback mechanism: larger deficits → more issuance → higher term premium → higher debt service → larger deficits. U.S. net interest expense has risen from ~$350B (FY2020) to ~$1T (FY2025/26). The loop activates when the blended borrowing rate exceeds nominal GDP growth. The U.S. reserve currency status likely raises the activation threshold by an unknown amount.",
+      "confidence": 6,
+      "evidence": [
+        "Net interest from $350B to $1T in 5 years",
+        "Blended rate (~4.5%) approaching nominal GDP growth (~5.5%)",
+        "Average debt maturity ~6.2 years → ~16% reprices annually",
+        "UK gilt crisis 2022: activated at ~100% debt/GDP with ~2pp fiscal expansion",
+        "Indirect bidder share declining from 72% to 65%; T-bill share rising from 15% to 22%"
+      ],
+      "originating_agents": ["risk_analyst_01", "generalist_02", "commodities_analyst_01"],
+      "open_questions": [
+        "What is the U.S.-specific activation threshold given reserve currency premium?",
+        "Can Treasury maturity management (shifting to bills) defer activation indefinitely?",
+        "Would a term premium shock trigger basis trade unwind → systemic cascade?"
+      ],
+      "related_concepts": ["term_premium_fiscal_supply_nonlinear", "fiscal_dominance_early_stage", "basis_trade_fiscal_amplification"]
+    },
+    {
+      "slug": "r_g_transition_sustainability",
+      "definition": "The U.S. is transitioning from a comfortable r<g regime (2010-2021) to r≈g (2023-present). Effective interest rate on federal debt has risen from ~1.5% (2021) to ~3.3% (2024), converging toward marginal rates (~4.5-5.0%). Cross-country base rate: when r≈g (within ±100bp), 35-40% probability of fiscal stress within 10 years.",
+      "confidence": 7,
+      "evidence": [
+        "CBO mechanical projections of interest cost trajectory",
+        "Blanchard 2019: r<g necessary for sustainability without primary surpluses",
+        "IMF panel (Mauro & Zhou 2021): bimodal outcomes when r≈g",
+        "Base rate of advanced economies achieving 3-4pp primary adjustment without recession: ~30-40%",
+        "Interest payments projected to reach ~4% GDP by 2030"
+      ],
+      "originating_agents": ["quant_researcher_01", "risk_analyst_01"],
+      "open_questions": [
+        "Does reserve currency status change the sustainability arithmetic?",
+        "Can 'beautiful deleveraging' (moderate inflation + growth + mild repression over decades) work?",
+        "What is the market-implied probability of fiscal stress?"
+      ],
+      "related_concepts": ["deficit_term_premium_doom_loop", "fiscal_dominance_early_stage", "unprecedented_fiscal_configuration"]
+    },
+    {
+      "slug": "opec_fiscal_breakeven_supply_constraint",
+      "definition": "OPEC+ fiscal breakeven oil prices constrain the global supply response. Aggregate weighted breakeven: $78-85/bbl (Saudi $85-96, UAE $60-65, Iraq $85-90, Russia $70-75). Historical pattern of fiscal stress → above-quota cheating → diplomatic friction → strategy shift documented across 4+ cycles.",
+      "confidence": 8,
+      "evidence": [
+        "IMF Article IV fiscal data for individual producers",
+        "Saudi breakeven risen from $65-70 (2019) to $85-96 (2025-26) due to Vision 2030",
+        "Historical pattern across 1998, 2008, 2014-2016, 2020 cycles",
+        "Sub-$75 oil historically precedes intra-OPEC discord and compliance breakdowns"
+      ],
+      "originating_agents": ["commodities_analyst_01"],
+      "open_questions": [
+        "How much flexibility does Saudi Arabia have to defer Vision 2030 spending?",
+        "Would a credible slowdown lower the breakeven by $10-15/bbl?",
+        "How does Saudi reserve drawdown capacity (~$420B) extend the effective timeline?"
+      ],
+      "related_concepts": ["g7_fiscal_divergence_extreme", "fiscal_dominance_early_stage"]
+    },
+    {
+      "slug": "china_commodity_demand_mix_shift",
+      "definition": "China's fiscal pivot from property-sector-financed infrastructure to central government bond-financed strategic industrial investment shifts the commodity demand mix: copper intensity per unit of GDP rising for the first time since 2012, iron ore intensity declining.",
+      "confidence": 7,
+      "evidence": [
+        "Special purpose bond allocation data showing structural shift",
+        "Grid investment: 8-12kt copper per GW installed capacity",
+        "EV production: 80-100kg copper per vehicle vs. 20-25kg ICE",
+        "Property-related steel demand down 15-20% from 2021 peaks",
+        "Chinese copper demand growing 4-6% annually; steel demand declining 2-3%"
+      ],
+      "originating_agents": ["commodities_analyst_01"],
+      "open_questions": [
+        "Will policy revert toward property stimulus, re-weighting toward iron ore?",
+        "How quickly does the demand mix shift propagate to global commodity balances?",
+        "Do historical GDP-to-commodity-demand elasticities need wholesale revision?"
+      ],
+      "related_concepts": ["g7_fiscal_divergence_extreme", "green_transition_fiscal_paradox"]
+    },
+    {
+      "slug": "basis_trade_fiscal_amplification",
+      "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) is a systemic amplification mechanism connecting fiscal vulnerability to financial crisis. Transmission: term premium shock → basis widens → leveraged unwind → Treasury selling → repo spikes → cross-asset contagion. March 2020 provided partial validation.",
+      "confidence": 7,
+      "evidence": [
+        "OFR/Fed estimates: $800B-$1T notional, up from ~$500B in 2020",
+        "March 2020: $1.6T emergency Fed purchases required",
+        "Leverage ratios: 50-100x",
+        "Notional/dealer balance sheet ratio at unprecedented levels"
+      ],
+      "originating_agents": ["risk_analyst_01", "generalist_01"],
+      "open_questions": [
+        "Would intervention today require similar or larger Fed balance sheet expansion?",
+        "Can the Fed intervene without reigniting inflation concerns?",
+        "Is the trade adequately monitored post-2020?"
+      ],
+      "related_concepts": ["deficit_term_premium_doom_loop", "term_premium_fiscal_supply_nonlinear", "fiscal_dominance_early_stage"]
+    },
+    {
+      "slug": "crowding_out_post2008_attenuation",
+      "definition": "Crowding-out of private investment by government borrowing appears to have vanished in post-2008 data: partial correlation dropped from -0.38 (pre-2008, p<0.01) to -0.12 (post-2008, p=0.31). Possible explanations: global savings glut, QE absorption, liquidity trap dynamics, excess reserves.",
+      "confidence": 5,
+      "evidence": [
+        "Pre-2008 partial correlation: -0.38 (significant)",
+        "Post-2008 partial correlation: -0.12 (not significant)",
+        "Structural break coincides with QE, global savings expansion, excess reserves",
+        "Excluding QE periods leaves N~15 observations — too few for inference"
+      ],
+      "originating_agents": ["quant_researcher_01"],
+      "open_questions": [
+        "Is the disappearance structural or an artifact of QE and short samples?",
+        "Will QT and narrowing global savings surplus re-activate the channel?",
+        "Does the fiscal supply channel operate through term premium rather than traditional IS-LM crowding-out?"
+      ],
+      "related_concepts": ["term_premium_fiscal_supply_nonlinear", "fiscal_multiplier_deep_uncertainty"]
+    },
+    {
+      "slug": "debt_gdp_threshold_debunked",
+      "definition": "No robust nonlinear debt/GDP threshold exists in the data. The Reinhart-Rogoff '90% threshold' was debunked (Herndon-Ash-Pollin 2013). A modest linear negative relationship exists: -0.02 to -0.04pp growth per 1pp debt/GDP (p<0.05), but shrinks ~40% for monetary-sovereign, own-currency issuers. Japan at 250%+ without crisis is a devastating outlier.",
+      "confidence": 8,
+      "evidence": [
+        "Panel regressions: 20 advanced economies, 1950-2024, no significant threshold detected",
+        "Herndon-Ash-Pollin 2014: original R-R errors and selection bias documented",
+        "Linear coefficient shrinks ~40% for monetary-sovereign issuers",
+        "Japan anomaly: 250%+ debt/GDP, 30+ years without crisis"
+      ],
+      "originating_agents": ["quant_researcher_01", "challenger_02"],
+      "open_questions": [
+        "Is the linear drag overstated due to endogeneity?",
+        "Does Japan's experience generalize or is it unique?"
+      ],
+      "related_concepts": ["fiscal_multiplier_deep_uncertainty", "r_g_transition_sustainability"]
+    },
+    {
+      "slug": "ag_shock_em_fiscal_leading_indicator",
+      "definition": "Agricultural commodity prices lead EM sovereign CDS by 2-4 months across 2007-08, 2010-11, and 2021-22 food price crises. Transmission: global supply shock → food price spike → EM headline inflation → forced rate hikes → fiscal burden rises → sovereign credit stress.",
+      "confidence": 6,
+      "evidence": [
+        "Egypt CDS: 300bp → 1,200bp in 6 months following 2022 wheat spike",
+        "Pakistan food import costs: $7B → $10B, accelerating fiscal crisis",
+        "Lead-lag pattern across three major food price crises",
+        "IMF WEO: food price contributed 60-70% of Sub-Saharan Africa headline CPI in 2022"
+      ],
+      "originating_agents": ["commodities_analyst_02"],
+      "open_questions": [
+        "Is the lead robust across different types of agricultural shocks?",
+        "Does financial contagion dominate in some crises, breaking the lead-lag?",
+        "Can this be integrated into sovereign credit models as a formal early warning signal?"
+      ],
+      "related_concepts": ["g7_fiscal_divergence_extreme", "opec_fiscal_breakeven_supply_constraint"]
+    },
+    {
+      "slug": "single_factor_dominance_bias",
+      "definition": "The collective analysis exhibits systematic single-factor dominance bias, treating fiscal policy as THE causal variable for macro resilience while underweighting immigration (~3.3M net in 2023), fixed-rate mortgage insulation (~95% locked below 5%), AI/productivity investment, and ~$30T household wealth gains (2020-2023). The remaining ~35-45% of profit variance unexplained by Kalecki may be dominated by these alternatives.",
+      "confidence": 7,
+      "evidence": [
+        "CBO: ~3.3M net immigration in 2023, expanding labor supply",
+        "~95% of outstanding U.S. mortgage debt locked below 5% — structurally unique among DMs",
+        "R² of 0.55-0.65 means 35-45% of profit variance is NOT fiscal",
+        "Household net worth rose ~$30T (2020-2023)"
+      ],
+      "originating_agents": ["challenger_02"],
+      "open_questions": [
+        "What is the correct multi-variable decomposition of 2022-2025 GDP resilience?",
+        "How much of the resilience puzzle is explained by fixed-rate mortgages alone?",
+        "Are these alternatives additive or substitutive with the fiscal channel?"
+      ],
+      "related_concepts": ["kalecki_channel_empirical_partial", "fiscal_multiplier_deep_uncertainty"]
+    },
+    {
+      "slug": "gold_fiscal_dominance_pricing",
+      "definition": "Gold at $2,800-3,000 reflects partial market pricing of fiscal dominance. Central bank buying (1,037-1,045 tonnes in 2023-2024) is a structural portfolio shift. The $400-600/oz residual in a four-factor model implies ~60-70% market probability of fiscal dominance within 5 years, but the fiscal attribution competes with geopolitical diversification, momentum, and model misspecification.",
+      "confidence": 6,
+      "evidence": [
+        "Central bank purchases: 1,037t (2023), 1,045t (2024) — observable data",
+        "Buyers: China, Poland, India, Turkey, Czech Republic, Singapore",
+        "Four-factor model decomposition with specified sensitivities",
+        "Post-sanctions reserve diversification as alternative explanation"
+      ],
+      "originating_agents": ["commodities_analyst_01", "generalist_01"],
+      "open_questions": [
+        "Is CB buying a one-time portfolio rebalancing (5% → 10% gold) or permanent preference shift?",
+        "What fraction of the gold residual is fiscal vs. geopolitical vs. momentum?",
+        "Does the $400-600/oz residual survive model re-specification?"
+      ],
+      "related_concepts": ["fiscal_dominance_early_stage", "g7_fiscal_divergence_extreme"]
+    },
+    {
+      "slug": "confidence_calibration_regime_novelty",
+      "definition": "When analyzing an explicitly 'unprecedented' regime, confidence in predictions about its effects should decrease, not increase. Assigning 9/10 confidence to claims about a novel fiscal configuration violates basic calibration principles. The logical contradiction — unprecedented + near-certainty — applies a systematic haircut of 2-3 points to all agent claims built on historical extrapolation.",
+      "confidence": 8,
+      "evidence": [
+        "Tetlock superforecasting research: best-calibrated forecasters reduce conviction in uncharted territory",
+        "Current configuration has 0/74 pre-2022 precedents in U.S. data",
+        "Agents with highest average confidence were most frequently challenged in debate",
+        "Agents with lowest confidence scores produced the most durable findings"
+      ],
+      "originating_agents": ["challenger_02"],
+      "open_questions": [
+        "What is the correct discount factor for novel-regime analysis (15-30% per Tetlock)?",
+        "Do understood mechanisms interact linearly or produce emergent behavior in novel combinations?",
+        "How should falsifiability criteria be specified for claims about unprecedented regimes?"
+      ],
+      "related_concepts": ["unprecedented_fiscal_configuration", "fiscal_multiplier_deep_uncertainty", "kalecki_channel_empirical_partial"]
+    }
+  ],
+  "relationships": [
+    {
+      "concept_a": "fiscal_multiplier_deep_uncertainty",
+      "concept_b": "kalecki_channel_empirical_partial",
+      "mechanism": "The Kalecki profit decomposition requires a fiscal multiplier assumption. The wide multiplier range (0.2-2.5x) directly determines whether the fiscal contribution to profits is dominant (~50-65% at high multipliers) or modest (~20-30% at low multipliers).",
+      "direction": "bidirectional",
+      "confidence": 8,
+      "regime_dependence": "Multiplier varies with cycle phase, monetary offset, and debt level. The Kalecki coefficient itself may be non-stationary as deficit composition shifts toward interest payments.",
+      "originating_agents": ["quant_researcher_01", "challenger_02", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "term_premium_fiscal_supply_nonlinear",
+      "concept_b": "deficit_term_premium_doom_loop",
+      "mechanism": "The non-linear term premium response to fiscal supply is the activation mechanism for the doom loop. Below ~3-4% structural deficit, term premium is insensitive and the loop is dormant. Above threshold, each increment of deficit drives disproportionate term premium increase.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "The activation threshold depends on reserve currency status, foreign demand for Treasuries, and central bank balance sheet policy. QE suppresses the loop; QT re-activates it.",
+      "originating_agents": ["generalist_02", "risk_analyst_01", "quant_researcher_01"]
+    },
+    {
+      "concept_a": "deficit_term_premium_doom_loop",
+      "concept_b": "fiscal_dominance_early_stage",
+      "mechanism": "The doom loop is one pathway to fiscal dominance: if term premium rises force the central bank to intervene to maintain sovereign debt sustainability, monetary policy becomes subordinated to fiscal needs. The doom loop accelerates progression through the 5-signal fiscal dominance sequence.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Japan reached fiscal dominance gradually (decades); UK/Truss attempted to skip ahead and triggered crisis. The U.S. pathway depends on whether the loop activates gradually or suddenly.",
+      "originating_agents": ["generalist_02", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "unprecedented_fiscal_configuration",
+      "concept_b": "confidence_calibration_regime_novelty",
+      "mechanism": "The factual finding that the current configuration has zero historical precedent logically requires that predictions about its effects carry reduced confidence. All regression-based estimates are out-of-sample extrapolations.",
+      "direction": "a_causes_b",
+      "confidence": 9,
+      "regime_dependence": "This is a permanent methodological constraint, not regime-dependent.",
+      "originating_agents": ["quant_researcher_01", "challenger_02"]
+    },
+    {
+      "concept_a": "kalecki_channel_empirical_partial",
+      "concept_b": "basis_trade_fiscal_amplification",
+      "mechanism": "The Kalecki profit floor suppresses default rates and volatility, compressing credit spreads, encouraging leveraged carry strategies (including basis trade) sized to the low-vol environment. Fiscal consolidation withdrawing the Kalecki floor would reveal positions dependent on the fiscal architecture.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "The link is strongest when the Kalecki channel is the dominant profit driver. If alternative explanations (immigration, mortgages) account for more resilience, the fiscal dependency of leveraged positioning is lower.",
+      "originating_agents": ["risk_analyst_01", "generalist_01"]
+    },
+    {
+      "concept_a": "expansionary_austerity_debunked",
+      "concept_b": "doge_realization_gap",
+      "mechanism": "The debunking of expansionary austerity removes the theoretical justification for rapid spending cuts producing positive growth outcomes. DOGE-style cuts should be expected to be contractionary, with the only question being magnitude.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "If DOGE cuts genuinely target waste (zero-multiplier spending), the expansionary austerity debunking is less relevant. The ratio of genuine efficiency to contractionary cuts is unknowable ex ante.",
+      "originating_agents": ["quant_researcher_01", "generalist_02"]
+    },
+    {
+      "concept_a": "g7_fiscal_divergence_extreme",
+      "concept_b": "opec_fiscal_breakeven_supply_constraint",
+      "mechanism": "G7 fiscal divergence affects global demand for oil, while OPEC+ fiscal breakevens constrain the supply response. If G7 fiscal consolidation reduces oil demand growth while OPEC+ fiscal needs maintain the price floor, the result is market share conflict and potential compliance breakdowns.",
+      "direction": "bidirectional",
+      "confidence": 6,
+      "regime_dependence": "Strongest when oil prices are near the aggregate breakeven ($78-85/bbl). Above $90, fiscal concerns are secondary; below $70, fiscal stress dominates regardless of G7 policy.",
+      "originating_agents": ["commodities_analyst_01"]
+    },
+    {
+      "concept_a": "china_commodity_demand_mix_shift",
+      "concept_b": "g7_fiscal_divergence_extreme",
+      "mechanism": "China's fiscal pivot to strategic industrial investment changes the commodity demand impulse at the same time as G7 fiscal divergence creates asymmetric demand patterns. Combined effect: global copper demand rising from two fiscal sources, while iron ore demand declines.",
+      "direction": "bidirectional",
+      "confidence": 6,
+      "regime_dependence": "Contingent on China not reverting to property stimulus and U.S. IRA remaining intact. Either reversal alters the demand mix.",
+      "originating_agents": ["commodities_analyst_01"]
+    },
+    {
+      "concept_a": "fiscal_dominance_early_stage",
+      "concept_b": "gold_fiscal_dominance_pricing",
+      "mechanism": "Under fiscal dominance, real interest rates are held below warranted levels to maintain debt sustainability — the single strongest driver in multi-factor gold models. Central bank gold buying at 1,000+ tonnes/year is the revealed-preference signal that reserve managers are positioning for fiscal dominance.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "If U.S. credibly consolidates fiscal policy, gold could re-rate $300-500 lower. The attribution of the gold residual to fiscal concerns vs. geopolitics vs. momentum is contested.",
+      "originating_agents": ["commodities_analyst_01", "quant_researcher_02"]
+    },
+    {
+      "concept_a": "ag_shock_em_fiscal_leading_indicator",
+      "concept_b": "g7_fiscal_divergence_extreme",
+      "mechanism": "G7 fiscal policy affects agricultural commodity prices through demand and supply channels. Agricultural price spikes then trigger EM fiscal stress through the food-inflation-rates-sovereign stress transmission chain — a second-order effect standard fiscal analysis misses.",
+      "direction": "b_causes_a",
+      "confidence": 5,
+      "regime_dependence": "Strongest when global agricultural stocks-to-use ratios are below historical thresholds (corn <12%, wheat <25%).",
+      "originating_agents": ["commodities_analyst_02"]
+    },
+    {
+      "concept_a": "single_factor_dominance_bias",
+      "concept_b": "kalecki_channel_empirical_partial",
+      "mechanism": "The R² of 0.55-0.65 for the Kalecki channel means 35-45% of profit variance is unexplained by fiscal deficits. The single-factor dominance bias overstates both the risk from fiscal consolidation and the credit for fiscal expansion.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "The bias is most consequential at inflection points (e.g., DOGE consolidation). If alternatives are providing buffer, fiscal withdrawal is less catastrophic than single-factor analysis implies.",
+      "originating_agents": ["challenger_02", "quant_researcher_01"]
+    },
+    {
+      "concept_a": "r_g_transition_sustainability",
+      "concept_b": "deficit_term_premium_doom_loop",
+      "mechanism": "The r-g transition provides the arithmetic context for the doom loop. When r<g, the doom loop is inactive because debt/GDP declines naturally. As r approaches g, each basis point of additional term premium has larger impact on debt dynamics. When r>g, the loop enters potentially explosive territory.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "The transition point depends on the effective interest rate on outstanding debt (~3.3%) converging toward marginal rates (~4.5-5.0%) as ~16% of stock reprices annually.",
+      "originating_agents": ["quant_researcher_01", "risk_analyst_01"]
+    }
+  ],
+  "frameworks": [
+    {
+      "slug": "fiscal_dominance_five_signal_sequence",
+      "purpose": "Monitor the U.S. path toward fiscal dominance through a structured, sequential signal framework calibrated across Japan, Italy, and UK/Truss episodes",
+      "components": [
+        "Signal 1: Debt/GDP exceeds 100% — currently YES at ~124%",
+        "Signal 2: Interest expense exceeds defense spending — currently YES at ~$950B vs ~$850B",
+        "Signal 3: Implicit Treasury-Fed issuance coordination — currently DEBATABLE",
+        "Signal 4: Regulatory forced buying mandates (SLR exemption, insurance mandates) — NOT YET",
+        "Signal 5: Inflation expectations de-anchoring (5Y5Y breakevens >3%) — NOT YET at ~2.3-2.5%"
+      ],
+      "current_assessment": "U.S. scores 2.0-2.5 of 5 signals. UK/Truss attempted to jump from signal (i) to signal (v) and triggered crisis within days — the gradual sequence matters. Japan analogue suggests transition from signal (iii) to (iv) can take 5-15 years for a reserve currency.",
+      "limitations": [
+        "Binary signal model does not capture continuous probability of fiscal dominance",
+        "Japan is N=1 for gradual reserve currency path; generalizability uncertain",
+        "Signal 3 (Treasury-Fed coordination) is inherently subjective and politically contested",
+        "No historical precedent for a reserve currency issuer traversing the full sequence",
+        "Confidence only 6/10 — framework itself is a hypothesis, not validated model"
+      ]
+    },
+    {
+      "slug": "kalecki_profit_decomposition_with_caveats",
+      "purpose": "Decompose corporate profit drivers via the Kalecki-Levy accounting identity with empirical calibration and explicit caveats about causal interpretation",
+      "components": [
+        "Government Deficit: largest term at 6-7% GDP, empirical coefficient 0.45-0.65 per unit change, explains ~55-65% of profit variance",
+        "Investment: moderate, AI-driven capex partially offsetting; Granger causality runs deficit→profits, not investment→profits",
+        "Net Exports: negative at ~3-3.5% GDP current account deficit, partially offset by capital account inflows",
+        "Household Saving: low at ~3.5-4% personal saving rate, can shift rapidly if confidence changes",
+        "Interest Payments: rising from ~$900B to projected ~$1.5T by 2030, low multiplier degrading growth-supportive quality of the deficit"
+      ],
+      "current_assessment": "Deficit is the largest term and empirically significant, but the identity constrains without predicting. Japan ran massive deficits for 30 years without strong profit growth because other terms offset. The 1990s U.S. ran surpluses with booming profits. Confidence 7/10 (downgraded from original 9/10).",
+      "limitations": [
+        "Identity is tautological — holds by construction, does not establish causation",
+        "R² of 0.55-0.65 leaves 35-45% of profit variance unexplained",
+        "Japan and 1990s U.S. are dispositive counterexamples to naive causal interpretation",
+        "Coefficient sensitive to recession inclusion (drops to 0.3-0.4 excluding recessions)",
+        "Rising interest expense composition may degrade the profit-sustaining channel",
+        "Single-factor dominance bias: immigration, mortgages, wealth effects may explain the residual"
+      ]
+    },
+    {
+      "slug": "fiscal_consolidation_success_conditions",
+      "purpose": "Identify the three conditions that must be present for large-scale fiscal consolidation to avoid recession, and assess U.S. availability in 2026",
+      "components": [
+        "Monetary easing ≥200bp: present in 3/4 successes; U.S. 2026 availability LOW (Fed constrained by above-target inflation)",
+        "Exchange rate depreciation ≥10-25%: present in 3/4 successes (Canada 20% CAD decline, Sweden, Ireland); U.S. 2026 availability VERY LOW (reserve currency; engineering 15-25% depreciation is politically toxic)",
+        "Gradualism ≤1pp/year: present in 3/4 successes; U.S. 2026 availability LOW (DOGE approach emphasizes speed)"
+      ],
+      "current_assessment": "Historical base rate: 30% success for consolidation >3% GDP without recession (4/13 episodes). U.S. adjusted rate is lower than 30% — none of the three success conditions are readily available. The common factor in successful consolidations — significant currency depreciation — is the one most difficult for the reserve currency issuer to achieve.",
+      "limitations": [
+        "N=13 total episodes, N=4 successes — small sample for reliable inference",
+        "Technology-driven efficiency gains (DOGE model) have no precedent and may not follow historical patterns",
+        "Success conditions may interact non-linearly and are not independently sufficient",
+        "Post-WWII consolidation (~27pp without recession) is structurally incomparable and should not be cited",
+        "2013 sequester outcome depends on whether monetary offset is counted as a success condition"
+      ]
+    },
+    {
+      "slug": "gold_four_factor_model",
+      "purpose": "Decompose gold price into four quantifiable factors to extract market-implied probability of fiscal dominance from the residual",
+      "components": [
+        "US 10Y real yield (TIPS): sensitivity -$40-60/oz per 10bp rise, currently suppressed under fiscal dominance scenario",
+        "USD DXY: sensitivity -$15-25/oz per 1% DXY rise, dollar direction contested",
+        "Central bank net purchases: sensitivity +$8-12/oz per 100 tonnes annual, structural shift at 1,037-1,045 tonnes (2023-2024)",
+        "ETF flows: sensitivity +$3-5/oz per 100 tonnes net inflow, variable"
+      ],
+      "current_assessment": "Gold at $2,800-3,000 with $400-600/oz residual unexplained by traditional factors. Model implies ~60-70% market probability of fiscal dominance within 5 years based on residual attribution, but this estimate is contested.",
+      "limitations": [
+        "Residual could equally reflect geopolitical reserve diversification (Russia sanctions), momentum, or model misspecification",
+        "Fiscal attribution competes with at least three alternative explanations",
+        "Central bank buying may be one-time portfolio rebalancing (5% → 10% gold) rather than permanent shift",
+        "Model sensitivities may be non-stationary across regimes",
+        "Confidence only 6/10 — the fiscal dominance probability extraction is speculative"
+      ]
+    },
+    {
+      "slug": "fiscal_regime_factor_conditioning",
+      "purpose": "Adjust systematic factor allocations based on fiscal policy regime rather than adding a standalone 'fiscal factor' (avoiding the factor zoo trap)",
+      "components": [
+        "Term Premium: widens under fiscal expansion, narrows under consolidation, suppressed but with higher tail risk under fiscal dominance",
+        "Equity Risk Premium: compressed under expansion (Kalecki supports earnings), ambiguous under consolidation, elevated under fiscal dominance",
+        "Value (HML): +1-2% incremental under expansion (operating leverage × demand), underperforms growth under consolidation, underperforms quality under fiscal dominance",
+        "Quality (RMW/CMA): normal premium under expansion/consolidation, 2-3x normal premium under fiscal dominance (self-funding valued)",
+        "Carry: widened but 'carry trap' dynamics under expansion, narrowed under consolidation, maximum danger under fiscal dominance (masks sovereignty risk)"
+      ],
+      "current_assessment": "Fiscal policy is a regime variable, not a factor. Existing factor allocations should be conditioned on the fiscal regime rather than adding a standalone fiscal factor. Current U.S. regime is between expansion and early fiscal dominance.",
+      "limitations": [
+        "Depends on fiscal dominance actually manifesting (itself uncertain at 6/10 confidence)",
+        "2022 stock-bond correlation shift may have been inflation-driven rather than fiscal-driven",
+        "Quality premium expansion is the most empirically grounded sub-claim; others are theoretical",
+        "Factor sensitivities calibrated primarily on U.S. data — cross-country robustness unverified",
+        "Confidence only 6/10 — framework is a hypothesis for portfolio construction, not validated model"
+      ]
+    }
+  ],
+  "provenance": {
+    "challenger_02": {
+      "claims_made": 8,
+      "claims_survived": 7
+    },
+    "commodities_analyst_01": {
+      "claims_made": 7,
+      "claims_survived": 7
+    },
+    "commodities_analyst_02": {
+      "claims_made": 7,
+      "claims_survived": 6
+    },
+    "generalist_01": {
+      "claims_made": 10,
+      "claims_survived": 8
+    },
+    "generalist_02": {
+      "claims_made": 8,
+      "claims_survived": 7
+    },
+    "quant_researcher_01": {
+      "claims_made": 10,
+      "claims_survived": 10
+    },
+    "quant_researcher_02": {
+      "claims_made": 8,
+      "claims_survived": 4
+    },
+    "risk_analyst_01": {
+      "claims_made": 8,
+      "claims_survived": 6
+    }
+  },
+  "anti_knowledge": [
+    {
+      "claim": "Fiscal policy is the single most important cross-asset variable (confidence 9/10)",
+      "reason": "Conflates accounting identity level decomposition with marginal return attribution. Monetary policy dominates discount rates; AI/tech narratives dominate forward earnings for largest index constituents. Kalecki identity is a tautology, not causal mechanism.",
+      "refuted_by": ["generalist_01", "generalist_02"]
+    },
+    {
+      "claim": "Term premium contribution from fiscal supply is 100-160bp",
+      "reason": "Internally inconsistent: agent's own ACM estimate of 60-100bp total term premium is below the low end of the claimed fiscal contribution. Cannot attribute more to one source than the total. Linearity assumption at $2T contradicts agreed non-linear relationship.",
+      "refuted_by": ["generalist_01", "generalist_02"]
+    },
+    {
+      "claim": "Equities return +8.2% annualized during consolidation vs. +5.1% during expansion",
+      "reason": "Simpson's paradox artifact. Expansion episodes include reactive stimulus during recessions (biasing down). Consolidation episodes coincide with monetary easing. When controlling for proactive expansion at full employment, returns flip to +11.3%.",
+      "refuted_by": ["generalist_02"]
+    },
+    {
+      "claim": "Fiscal multipliers are effectively zero (and often negative) when debt/GDP exceeds 60%",
+      "reason": "Three grounds: (a) IMV result shrinks ~40% for monetary-sovereign, own-currency issuers; (b) no robust nonlinear threshold in panel data with country fixed effects; (c) internal contradiction — agent uses 0.5-1.0x multipliers for U.S. at 100%+ debt/GDP elsewhere.",
+      "refuted_by": ["quant_researcher_01", "quant_researcher_02"]
+    },
+    {
+      "claim": "DOGE consolidation compresses the equity risk premium by 30-80bp",
+      "reason": "False precision: no DOGE analogue exists, underlying multiplier uncertain by 5x, ERP measurement error substantial, and agent acknowledges net equity effect is 'ambiguous' in same paragraph.",
+      "refuted_by": ["quant_researcher_01", "quant_researcher_02"]
+    },
+    {
+      "claim": "Alesina-Ardagna (2010) provides partial evidence for expansionary austerity",
+      "reason": "Guajardo et al. (2014) demonstrated the result was an artifact of using cyclically-adjusted measures that endogenously correlate consolidation with growth booms. Under narrative identification the result vanishes. Citing debunked methodology as 'contested' implies partial validity it does not have.",
+      "refuted_by": ["quant_researcher_01"]
+    },
+    {
+      "claim": "Private GDP growth ex-fiscal is only 1.0-1.5% (confidence 9/10)",
+      "reason": "Entirely dependent on assumed fiscal multiplier. Credible range (0.3-2.5x) makes the decomposition anywhere from 'private growth is basically zero' to 'private growth is 2.0-2.5%.' Point estimate is false precision. 9/10 confidence is the single largest calibration error across all agents.",
+      "refuted_by": ["challenger_02"]
+    },
+    {
+      "claim": "Fiscal consolidation triggers credit cycle downshift within 4-6 quarters",
+      "reason": "No empirical source cited. Credit cycle lags depend on starting leverage, monetary response, exchange rate regime, composition, and balance sheets. Historical episodes show 2 quarters (2001) to variable (Europe 2011-2013). False precision that could mislead positioning.",
+      "refuted_by": ["challenger_02"]
+    },
+    {
+      "claim": "Post-WWII consolidation (~27pp) without recession proves fiscal consolidation thresholds are wrong",
+      "reason": "Structurally incomparable: wartime savings, pent-up consumer demand, lifting of price controls, demographic boom, U.S. manufacturing dominance with zero foreign competition. Conditions cannot recur.",
+      "refuted_by": ["risk_analyst_01", "challenger_02"]
+    },
+    {
+      "claim": "Term premium → agricultural infrastructure underinvestment → supply elasticity degradation",
+      "reason": "Four-link causal chain with substantial noise at each link. Brazil Cerrado example does not generalize to current global agricultural investment, which is driven by land prices, technology, and trade policy far more than U.S. term premium.",
+      "refuted_by": ["commodities_analyst_01", "commodities_analyst_02"]
+    },
+    {
+      "claim": "Sorting G10 sovereigns by fiscal balance produces a return spread of 80-150bp",
+      "reason": "G10 = 10 countries, meaning 3-4 bonds per side of the sort. Return spread is partially mechanical (worse fiscal = higher carry). Would not survive Harvey-Liu-Zhu statistical scrutiny. Hypothesis, not finding.",
+      "refuted_by": ["quant_researcher_01", "quant_researcher_02"]
+    }
+  ],
+  "low_confidence": [
+    {
+      "claim": "Fiscal contraction has an asymmetrically higher multiplier (1.2-1.8x) than fiscal expansion (0.6-0.9x) at current debt levels",
+      "source_agent": "risk_analyst_01",
+      "needs": "U.S.-specific evidence on asymmetry. Cross-country panel testing whether monetary-sovereign issuers exhibit the same asymmetry as Eurozone members without monetary sovereignty."
+    },
+    {
+      "claim": "2Y-SPX correlation is -0.25 to -0.35 while 30Y-SPX is +0.05 to +0.15, reflecting monetary dominance at front end and fiscal supply dominance at long end",
+      "source_agent": "generalist_01",
+      "needs": "Historical analysis of maturity-dependent stock-bond correlations across multiple fiscal and monetary regimes. Current real-time data validation."
+    },
+    {
+      "claim": "Equity-implied HY spreads are 50-75bp wider than actual spreads, reflecting differential fiscal optimism between credit and equity investors",
+      "source_agent": "generalist_01",
+      "needs": "Decomposition of credit-equity basis into technical vs. fundamental drivers. Historical analysis of whether the basis widens before fiscal stress episodes."
+    },
+    {
+      "claim": "Fiscal austerity that eliminates biofuel tax credits while preserving volume mandates creates market distortions",
+      "source_agent": "commodities_analyst_02",
+      "needs": "Political probability assessment of targeted credit elimination. Historical analysis of blender behavior under margin compression."
+    },
+    {
+      "claim": "Under fiscal dominance, stock-bond correlation flips positive, duration becomes risk factor, and quality factor premium expands 2-3x",
+      "source_agent": "quant_researcher_02",
+      "needs": "Decomposition of 2022 stock-bond correlation into fiscal vs. monetary components. Cross-country analysis of factor returns during confirmed fiscal dominance episodes."
+    },
+    {
+      "claim": "The Fama-French HML factor has ~1-2% incremental annual return attributable to fiscal policy after controlling for cycle and monetary policy",
+      "source_agent": "quant_researcher_02",
+      "needs": "Out-of-sample testing in European and Japanese markets. Proper multi-factor attribution controlling for all correlated macro variables simultaneously."
+    },
+    {
+      "claim": "Fiscal multipliers are overstated when food prices are elevated due to import leakage",
+      "source_agent": "commodities_analyst_02",
+      "needs": "State-dependent multiplier estimation conditioning on agricultural price regime. EM-specific empirical work."
+    },
+    {
+      "claim": "IRA rollback under DOGE would remove 800kt-1.2Mt of incremental copper demand from 2028-2032 balance sheets",
+      "source_agent": "commodities_analyst_01",
+      "needs": "Political probability assessment of IRA credit survival. Alternative demand sources that could partially offset IRA rollback."
+    },
+    {
+      "claim": "A U.S. sovereign credit downgrade below AA would trigger forced selling and collateral substitution through Basel III risk weighting, central bank repo eligibility, and insurance capital requirements",
+      "source_agent": "risk_analyst_01",
+      "needs": "Quantification of forced selling from regulatory reclassification. Analysis of whether the 2011 downgrade experience is informative for a further downgrade scenario."
+    }
+  ]
+}
