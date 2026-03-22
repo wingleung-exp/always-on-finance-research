@@ -1,0 +1,32 @@
+{
+  "slug": "lifo_fifo_earnings_distortion",
+  "definition": "LIFO-FIFO inventory accounting divergence creates systematic, quantifiable earnings quality distortions during commodity inflation. FIFO overstates margins (older cheaper inventory flows through COGS); LIFO understates margins but reflects current economics. The aggregate LIFO reserve build was $40-60B during 2021-23, representing quantifiable phantom earnings at FIFO firms.",
+  "confidence": 7,
+  "evidence": [
+    "$40-60B aggregate LIFO reserve build during 2021-23 represents phantom earnings",
+    "Cross-border valuation distortions: Caterpillar (LIFO) vs Komatsu (FIFO) creates apples-to-oranges EV/EBITDA comparison",
+    "Accounting mechanics are deterministic given commodity price direction — near-mechanical relationship",
+    "Pair_1 debate called this the single most original and analytically rigorous claim"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "How do analysts systematically adjust cross-border comparisons for LIFO/FIFO?",
+    "Is the magnitude of distortion increasing as commodity cycles become more volatile?",
+    "What is the typical reversal timeline when commodity prices decline?"
+  ],
+  "related_concepts": [
+    "non_gaap_adjustment_widening",
+    "working_capital_inflation_channel",
+    "ocf_revenue_passthrough_diagnostic"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

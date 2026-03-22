@@ -1,0 +1,33 @@
+{
+  "slug": "small_sample_overconfidence",
+  "definition": "Most parametric commodity-inflation models are overconfident because 6-8 independent episodes cannot support estimation of 15-30+ parameters (passthrough coefficients by commodity, lag structures by sector, second-round probabilities, interaction effects, nonlinearities). Directional claims retain high confidence; magnitude, timing, and conditional probability estimates should carry confidence 2-3 points lower than reported.",
+  "confidence": 8,
+  "evidence": [
+    "Arithmetic: 6-8 observations for 15-30+ parameters exceeds degrees of freedom — validated in debate as arithmetically undeniable",
+    "Directional claims (commodity prices raise CPI) have consistent sign across all episodes",
+    "The pair_3 debate judge recommended recalibrating every confidence level downward by 2-3 points",
+    "This is the most consequential methodological disagreement in the field"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can cross-country variation expand effective sample size without introducing structural heterogeneity?",
+    "Are structural models more robust than reduced-form estimates given the small sample?",
+    "Does Bayesian shrinkage toward structural priors help with the small-sample problem?"
+  ],
+  "related_concepts": [
+    "regime_dependent_passthrough_coefficients",
+    "second_round_effects_base_rate",
+    "supercycle_narrative_failure"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

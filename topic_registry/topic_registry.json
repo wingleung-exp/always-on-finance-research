@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T19:02:28Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -785,14 +785,21 @@
     "commodity_inflation_transmission": {
       "category": "cross_asset",
       "display_name": "Commodity Price → Inflation Transmission Mechanisms",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 2.5,
-      "research_count": 0,
+      "last_researched": "2026-03-22T19:02:28Z",
+      "depth_level": 1,
+      "confidence_score": 7.0,
+      "research_count": 1,
       "knowledge_gaps": [
-        "Energy price passthrough lags by sector",
+        "ROIC-WACC spread trajectory can serve as a diagnostic for distinguishing first-round from second-round commodity-inflation effects.",
+        "Second-round effects vs first-round price level shifts",
+        "The passthrough coefficient may have structurally re-risen post-COVID due to firms learning they can raise prices without losing volume.",
+        "Petrodollar recycling creates a structural self-hedging asymmetry for the US during oil shocks via GCC SWF Treasury purchases (r≈0.6 correlation with oil prices).",
+        "The dollar cycle is approaching an inflection point based on twin-deficit fundamentals (~10% GDP combined) and declining foreign UST purchases (50% to 25% of issuance).",
+        "The green energy transition will structurally change commodity-inflation transmission dynamics, shifting from oil/gas to metals (copper, lithium, rare earths) with different supply elasticities and financialization characteristics.",
         "Food price inflation transmission in developed markets",
-        "Second-round effects vs first-round price level shifts"
+        "OCF/revenue growth ratio with 1.0x threshold is the firm-level commodity passthrough diagnostic.",
+        "Dedollarization is gradually increasing commodity-inflation passthrough variance across countries.",
+        "Energy price passthrough lags by sector"
       ],
       "connections": [
         "commodity_supercycles",
@@ -805,9 +812,35 @@
         "second_round_effects"
       ],
       "key_concepts": [
+        "administered_pricing_sawtooth",
+        "asymmetric_passthrough",
+        "boj_pboc_structural_divergence",
+        "breakeven_term_structure_indicator",
+        "central_bank_credibility_anchoring",
         "commodity_passthrough",
         "cost_push_inflation",
-        "second_round_effects"
+        "credit_channel_impairment_supply_shocks",
+        "em_exporter_importer_fx_asymmetry",
+        "em_food_expectations_channel",
+        "energy_food_circular_dependence",
+        "fci_superior_to_policy_rate",
+        "fiscal_deficit_passthrough_amplification",
+        "food_passthrough_overestimation_dm",
+        "fx_dollar_channel_mediation",
+        "lifo_fifo_earnings_distortion",
+        "look_through_doctrine_state_contingent",
+        "multi_stage_lag_structure",
+        "non_gaap_adjustment_widening",
+        "ocf_revenue_passthrough_diagnostic",
+        "petrodollar_recycling_self_hedge",
+        "regime_dependent_passthrough_coefficients",
+        "second_round_effects",
+        "second_round_effects_base_rate",
+        "small_sample_overconfidence",
+        "stock_bond_correlation_commodity_channel",
+        "supercycle_narrative_failure",
+        "usd_self_correcting_reinforcing_loop",
+        "working_capital_inflation_channel"
       ]
     },
     "fx_rates_divergence": {

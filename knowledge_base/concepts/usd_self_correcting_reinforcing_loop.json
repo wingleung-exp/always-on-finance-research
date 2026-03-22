@@ -1,0 +1,31 @@
+{
+  "slug": "usd_self_correcting_reinforcing_loop",
+  "definition": "The USD creates either self-correcting or self-reinforcing commodity-inflation dynamics depending on Fed credibility: Fed ahead of curve → dollar strengthens → commodities moderate (self-correcting); Fed behind curve → real rates fall → dollar weakens → commodities accelerate (self-reinforcing).",
+  "confidence": 7,
+  "evidence": [
+    "2022 self-correcting: aggressive Fed tightening strengthened dollar, helping moderate commodity prices",
+    "1970s self-reinforcing: negative real rates weakened dollar, amplifying commodity inflation",
+    "Regime identification depends on whether Fed is perceived as ahead or behind the inflation curve"
+  ],
+  "originating_agents": [
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "What real-time indicators best identify which loop is operating?",
+    "Is there a tipping point between self-correcting and self-reinforcing dynamics?",
+    "How does fiscal dominance risk affect the loop identification?"
+  ],
+  "related_concepts": [
+    "fx_dollar_channel_mediation",
+    "central_bank_credibility_anchoring",
+    "regime_dependent_passthrough_coefficients"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "central_bank_credibility_anchoring",
+  "definition": "Central bank credibility and inflation expectations anchoring is the master variable determining whether commodity shocks produce transitory price-level shifts or persistent inflation. This is the strongest cross-sectional predictor of inflation outcomes from identical global commodity shocks.",
+  "confidence": 9,
+  "evidence": [
+    "Brazil (BCB Selic 2→13.75%, peaked 12%) vs Turkey (CBRT cut 19→8.5%, peaked 85%) — same external shock, 7x different outcome",
+    "5Y5Y breakevens never exceeded 3% even during 2022 peak, preventing second-round transmission in anchored economies",
+    "Mexico and Poland (preemptive, stable) vs Argentina and Egypt (delayed, crisis) extends the cross-section",
+    "Barro-Gordon credibility model predicts anchored expectations convert commodity shocks into one-off price level shifts"
+  ],
+  "originating_agents": [
+    "fx_strategist_02",
+    "rates_strategist_02",
+    "challenger_02",
+    "equity_analyst_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can credibility be measured in real-time with sufficient precision for investment decisions?",
+    "What is the threshold for de-anchoring — is there a breakeven level that signals regime shift?",
+    "Is credibility a stock or flow variable — can it be rebuilt quickly after erosion?"
+  ],
+  "related_concepts": [
+    "regime_dependent_passthrough_coefficients",
+    "second_round_effects_base_rate",
+    "look_through_doctrine_state_contingent",
+    "em_food_expectations_channel"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

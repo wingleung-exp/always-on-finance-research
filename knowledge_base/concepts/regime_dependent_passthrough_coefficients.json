@@ -1,0 +1,38 @@
+{
+  "slug": "regime_dependent_passthrough_coefficients",
+  "definition": "Commodity-to-inflation passthrough coefficients are bimodal and regime-dependent (~0.1-0.3pp per 10% oil increase when expectations are anchored, ~0.5-0.8pp when unanchored), rather than stable parameters. The regime itself matters more than the commodity price level.",
+  "confidence": 9,
+  "evidence": [
+    "2004-08 commodity boom (oil ~5x, core PCE peaked 2.4%) vs 1973-74 (oil ~3x, CPI 12%) demonstrates 5x different outcomes from similar-magnitude shocks",
+    "2021-22 episode confirmed regime-contingency from opposite direction — passthrough reverted toward historical highs when anchoring deteriorated",
+    "Structural changes: energy intensity down 3x, union density collapsed, COLA extinct explain secular decline in passthrough",
+    "Bimodal distribution identified as more useful than declining mean estimate"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "equity_analyst_01",
+    "generalist_02",
+    "rates_strategist_02",
+    "fx_strategist_01",
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Has post-COVID behavioral shift permanently raised passthrough coefficients?",
+    "How to identify regime transitions in real-time before passthrough materializes?",
+    "What is the correct demand vs supply attribution for 2021-22 that would allow unbiased calibration?"
+  ],
+  "related_concepts": [
+    "central_bank_credibility_anchoring",
+    "second_round_effects_base_rate",
+    "small_sample_overconfidence",
+    "fiscal_deficit_passthrough_amplification"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

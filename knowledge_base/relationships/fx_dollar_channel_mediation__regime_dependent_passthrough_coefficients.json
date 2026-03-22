@@ -1,0 +1,22 @@
+{
+  "concept_a": "fx_dollar_channel_mediation",
+  "concept_b": "regime_dependent_passthrough_coefficients",
+  "mechanism": "Dollar trajectory determines realized commodity cost in local currency for every non-US country. A strengthening dollar amplifies passthrough for importers and partially self-hedges the US. The FX channel is the dominant transmission mechanism in EM (ERPT 0.15-0.40 vs DM 0.03-0.08).",
+  "direction": "a_causes_b",
+  "confidence": 9,
+  "regime_dependence": "Always operative, but magnitude depends on ERPT coefficient which varies by country credibility. Most impactful during periods of dollar strengthening coincident with commodity price increases (the commodity-FX doom loop).",
+  "originating_agents": [
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "generalist_02",
+    "rates_strategist_02"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

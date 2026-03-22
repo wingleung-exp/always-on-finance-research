@@ -1,0 +1,209 @@
+[
+  {
+    "concept_a": "central_bank_credibility_anchoring",
+    "concept_b": "regime_dependent_passthrough_coefficients",
+    "mechanism": "Central bank credibility determines whether inflation expectations are anchored, which is the primary discriminant between the low-passthrough regime (0.1-0.3pp) and high-passthrough regime (0.5-0.8pp). Credibility is the strongest cross-sectional predictor of passthrough outcomes.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Relationship holds universally but the magnitude of credibility's effect is strongest when commodity shocks are large enough to potentially de-anchor expectations. Small shocks are absorbed regardless of credibility.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "rates_strategist_02",
+      "challenger_02",
+      "generalist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "fx_dollar_channel_mediation",
+    "concept_b": "regime_dependent_passthrough_coefficients",
+    "mechanism": "Dollar trajectory determines realized commodity cost in local currency for every non-US country. A strengthening dollar amplifies passthrough for importers and partially self-hedges the US. The FX channel is the dominant transmission mechanism in EM (ERPT 0.15-0.40 vs DM 0.03-0.08).",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always operative, but magnitude depends on ERPT coefficient which varies by country credibility. Most impactful during periods of dollar strengthening coincident with commodity price increases (the commodity-FX doom loop).",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "regime_dependent_passthrough_coefficients",
+    "concept_b": "second_round_effects_base_rate",
+    "mechanism": "The passthrough regime determines whether commodity shocks remain first-round (price-level shift) or activate second-round effects (wages, expectations). The high-passthrough regime is a necessary but not sufficient condition for second-round activation; institutional factors (union density, COLA coverage) must also be present.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Second-round effects require both the high-passthrough regime AND institutional channels (union density >15%, COLA coverage, tight labor markets). In the low-passthrough regime, second-round effects are near-impossible regardless of institutional structure.",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "fiscal_deficit_passthrough_amplification",
+    "concept_b": "regime_dependent_passthrough_coefficients",
+    "mechanism": "Fiscal deficits sustain demand and prevent the natural demand-destruction that self-corrects commodity price spikes. This amplifies passthrough and can shift the economy from the low-passthrough to the high-passthrough regime by preventing the adjustment mechanism.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most impactful when deficits are large (>5% GDP) and deficit-funded spending has high marginal propensity to consume. Deficit composition matters more than headline ratio. Less impactful when deficits fund investment with lower immediate demand effects.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "em_food_expectations_channel",
+    "concept_b": "central_bank_credibility_anchoring",
+    "mechanism": "Food inflation in EM directly de-anchors inflation expectations because food CPI weights are 3-4x higher and households form expectations from daily food purchases. This creates a credibility-FX feedback loop: food inflation → expectations drift → FX depreciation → more food inflation.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest in EM economies with food CPI weights >30%, limited food subsidies, and informal labor markets where wage demands respond to food prices. Weaker in EM economies with strong central bank credibility and food price stabilization mechanisms.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "second_round_effects_base_rate",
+    "concept_b": "stock_bond_correlation_commodity_channel",
+    "mechanism": "Which commodity-inflation transmission channel dominates determines the stock-bond correlation sign. When second-round effects are absent (base case), bonds hedge equities (negative correlation). When second-round effects activate, Fed tightens aggressively and both stocks and bonds fall (positive correlation).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Channel (a) transitory: negative correlation (2014-19 template). Channel (b) margin compression without spiral: near-zero (2015-16). Channel (c) wage-price spiral risk: positive correlation (2022). The transition between regimes can be abrupt.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "boj_pboc_structural_divergence",
+    "concept_b": "fx_dollar_channel_mediation",
+    "mechanism": "BOJ accommodating and PBOC administering while Fed/ECB tighten widens rate differentials, strengthens the dollar, and amplifies the FX channel for all other countries. The structural policy divergence is an amplifier of the dollar channel.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most impactful during synchronized global commodity shocks when policy divergence is widest. Less relevant during country-specific shocks. BOJ divergence was most extreme under YCC; may moderate with policy normalization.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "administered_pricing_sawtooth",
+    "concept_b": "em_food_expectations_channel",
+    "mechanism": "Discrete administered price adjustments cause sudden large inflation spikes that de-anchor expectations more effectively than gradual passthrough would. The political timing of subsidy removal creates correlated fiscal-FX-inflation shocks.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Only operative in EM with administered energy/food pricing. Timing is politically determined and therefore unpredictable. Impact scales with the size of the accumulated subsidy gap at the point of adjustment.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "multi_stage_lag_structure",
+    "concept_b": "passthrough_illusion_hypothesis",
+    "mechanism": "The tiered lag structure (energy → food → services) means first-round effects arrive sequentially across sectors, creating an inflation breadth signal that can be confused with genuine second-round broadening. This may cause central banks to over-tighten.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Most likely to create confusion during large commodity shocks with long subsequent services lags (6-36 months). Less confusing when shocks are small and services inflation remains stable throughout.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "lifo_fifo_earnings_distortion",
+    "concept_b": "non_gaap_adjustment_widening",
+    "mechanism": "FIFO-driven margin overstatement provides the appearance of pricing power, which companies then protect through complementary non-GAAP adjustments. Both distortions compound to make reported earnings increasingly divorced from economic reality during commodity inflation.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Both effects are mechanically linked to commodity price increases and reverse when prices decline. LIFO/FIFO is deterministic; non-GAAP widening involves managerial discretion and tends to persist longer (sticky adjustments).",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "working_capital_inflation_channel",
+    "concept_b": "lifo_fifo_earnings_distortion",
+    "mechanism": "Both represent hidden valuation channels during commodity inflation invisible in standard metrics (P/E, EV/EBITDA). Working capital consumes cash not visible on income statement; LIFO/FIFO distorts the income statement itself. Together they make EV/FCF the appropriate metric.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both activate during commodity price increases and reverse during decreases, though working capital release may lag price declines due to inventory cycle timing.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "usd_self_correcting_reinforcing_loop",
+    "concept_b": "central_bank_credibility_anchoring",
+    "mechanism": "Fed credibility determines which USD loop operates. When the Fed is perceived as ahead of the curve, the self-correcting loop strengthens the dollar and moderates commodities. When behind the curve, the self-reinforcing loop weakens the dollar and amplifies commodities.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "The loop identification depends on real-time perception of Fed credibility. Transitions between loops can be abrupt when market consensus shifts (e.g., November 2021 when transitory was abandoned).",
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "energy_food_circular_dependence",
+    "concept_b": "multi_stage_lag_structure",
+    "mechanism": "The natural gas → fertilizer → crop costs → food prices channel adds an additional lag layer to commodity-inflation transmission, explaining why food inflation lags energy by more than transportation costs alone would predict.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest during natural gas price spikes due to fertilizer production costs. Less relevant for oil-only shocks where the energy-food link is primarily through transportation.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "small_sample_overconfidence",
+    "concept_b": "regime_dependent_passthrough_coefficients",
+    "mechanism": "With only 6-8 independent episodes, all parametric passthrough coefficient estimates (including the bimodal ranges) carry more uncertainty than typically reported. Directional signs are reliable but magnitudes should be discounted 2-3 confidence points.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always applicable to parametric estimates. Less applicable to directional claims (sign consistency across all episodes) and structural/institutional observations (union density, COLA coverage) which are independently verifiable.",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "concept_a": "credit_channel_impairment_supply_shocks",
+    "concept_b": "look_through_doctrine_state_contingent",
+    "mechanism": "The higher sacrifice ratio for supply-driven inflation (1.5-2.5x) makes central bank look-through doctrine more attractive on cost-benefit grounds, but also harder to maintain when the three abandonment conditions are met.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Most relevant during clearly supply-driven shocks. Less relevant when demand and supply components are mixed (as in 2021-22 where attribution is contested).",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  }
+]

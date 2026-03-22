@@ -1,0 +1,25 @@
+{
+  "slug": "three_channel_correlation_mapping",
+  "purpose": "Map the dominant commodity-inflation transmission channel to the expected stock-bond correlation regime for portfolio construction.",
+  "components": [
+    "Channel A (transitory/headline-only): Fed looks through → bonds hedge equities → negative stock-bond correlation (2014-19 template)",
+    "Channel B (input-cost margin compression): equities fall on margin pressure, bonds rally on growth fears → near-zero correlation (2015-16 manufacturing recession template)",
+    "Channel C (wage-price spiral): Fed tightens aggressively → both stocks and bonds fall → positive correlation (2022 template)",
+    "Regime diagnostic: use second-round effects probability and Fed reaction function assessment to identify active channel"
+  ],
+  "current_assessment": "Market pricing appears to assign ~70% probability to Channel A (transitory) and ~30% to Channel C (persistent) for the next commodity shock. This probability-weighted pricing explains apparently incoherent cross-asset valuations. The critical question is whether the next shock will look more like 2004-08 (Channel A) or 2021-22 (Channel B/C).",
+  "limitations": [
+    "Novel synthesis from one agent — not independently validated by others",
+    "Not formally tested empirically as a distinct hypothesis",
+    "Channel identification in real-time is difficult — by the time Channel C is confirmed, portfolio adjustment is late",
+    "Index concentration (mega-cap tech dominance) may distort the equity leg of the framework"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

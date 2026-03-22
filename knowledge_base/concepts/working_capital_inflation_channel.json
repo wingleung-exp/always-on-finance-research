@@ -1,0 +1,32 @@
+{
+  "slug": "working_capital_inflation_channel",
+  "definition": "Working capital inflation is a materially underappreciated transmission channel from commodity prices to equity valuation. A 25% commodity cost increase mechanically consumes ~$51M of incremental working capital for a $1B-revenue manufacturer, reducing FCF and intrinsic value by 5-7% with zero income statement visibility. EV/FCF rather than EV/EBITDA is the appropriate metric.",
+  "confidence": 7,
+  "evidence": [
+    "Arithmetic: $1B-revenue manufacturer, 25% cost increase → ~$51M working capital consumption → 5-7% equity value hit",
+    "Companies with negative cash conversion cycles (Amazon, Dell, Apple) are structurally advantaged",
+    "Effect is invisible in P/E and EV/EBITDA — only visible in cash flow statement",
+    "Pair_1 debate confirmed this as powerful precisely because it is mechanical, not speculative"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "How does supply chain financing (reverse factoring) alter working capital dynamics during inflation?",
+    "Is EV/FCF adoption increasing among sell-side analysts?",
+    "What is the recovery timeline for working capital release when commodity prices normalize?"
+  ],
+  "related_concepts": [
+    "lifo_fifo_earnings_distortion",
+    "non_gaap_adjustment_widening",
+    "ocf_revenue_passthrough_diagnostic"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

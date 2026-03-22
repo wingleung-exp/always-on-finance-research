@@ -1,0 +1,8 @@
+Phase 4 extraction complete. Written 6 files to `outputs/iteration_iter_0005/phase4/`:
+
+- **concepts.json** — 24 concepts extracted (7 high-confidence at 8-9/10, 12 moderate at 6-7/10, 5 lower at 5-6/10)
+- **relationships.json** — 14 causal/correlational relationships with regime dependence conditions
+- **frameworks.json** — 6 analytical frameworks (correlation regime mapping, look-through conditions, bimodal passthrough, firm-level diagnostic, EM country calibration, second-round discriminant)
+- **provenance.json** — 8 agents tracked; rates_strategist_02 (14/14) and generalist_02 (13/13) had highest survival rates; equity_analyst_01 (9/12) and generalist_01 (7/9) had most refutations
+- **anti_knowledge.json** — 8 refuted claims with reasoning
+- **low_confidence.json** — 7 claims needing corroboration

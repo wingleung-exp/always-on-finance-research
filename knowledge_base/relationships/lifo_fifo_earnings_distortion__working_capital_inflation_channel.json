@@ -1,0 +1,19 @@
+{
+  "concept_a": "working_capital_inflation_channel",
+  "concept_b": "lifo_fifo_earnings_distortion",
+  "mechanism": "Both represent hidden valuation channels during commodity inflation invisible in standard metrics (P/E, EV/EBITDA). Working capital consumes cash not visible on income statement; LIFO/FIFO distorts the income statement itself. Together they make EV/FCF the appropriate metric.",
+  "direction": "correlated",
+  "confidence": 7,
+  "regime_dependence": "Both activate during commodity price increases and reverse during decreases, though working capital release may lag price declines due to inventory cycle timing.",
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

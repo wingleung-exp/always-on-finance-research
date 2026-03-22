@@ -1,0 +1,32 @@
+{
+  "slug": "administered_pricing_sawtooth",
+  "definition": "Administered energy pricing in EM creates a sawtooth inflation pattern with fiscal-FX nexus: energy prices surge → subsidy costs escalate → fiscal deficit widens → sovereign credit deterioration → FX pressure → subsidy becomes unsustainable → discrete overnight price shock. Timing is inherently unpredictable as it is politically determined.",
+  "confidence": 6,
+  "evidence": [
+    "Nigeria June 2023: fuel subsidy removal, petrol prices tripled overnight, naira -40%",
+    "Indonesia September 2022: pertalite adjustment +1.5pp CPI in one month",
+    "Egypt: phased subsidy removal producing recurring 3-5pp CPI spikes",
+    "No smooth-passthrough model captures this distinct transmission mechanism"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Can timing be predicted based on fiscal sustainability indicators?",
+    "Does IMF conditionality accelerate the subsidy-removal cycle?",
+    "How do international oil price hedging programs (e.g., Mexico) alter the dynamics?"
+  ],
+  "related_concepts": [
+    "em_food_expectations_channel",
+    "fiscal_deficit_passthrough_amplification",
+    "em_exporter_importer_fx_asymmetry"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

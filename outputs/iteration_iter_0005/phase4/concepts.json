@@ -1,0 +1,733 @@
+[
+  {
+    "slug": "regime_dependent_passthrough_coefficients",
+    "definition": "Commodity-to-inflation passthrough coefficients are bimodal and regime-dependent (~0.1-0.3pp per 10% oil increase when expectations are anchored, ~0.5-0.8pp when unanchored), rather than stable parameters. The regime itself matters more than the commodity price level.",
+    "confidence": 9,
+    "evidence": [
+      "2004-08 commodity boom (oil ~5x, core PCE peaked 2.4%) vs 1973-74 (oil ~3x, CPI 12%) demonstrates 5x different outcomes from similar-magnitude shocks",
+      "2021-22 episode confirmed regime-contingency from opposite direction — passthrough reverted toward historical highs when anchoring deteriorated",
+      "Structural changes: energy intensity down 3x, union density collapsed, COLA extinct explain secular decline in passthrough",
+      "Bimodal distribution identified as more useful than declining mean estimate"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "equity_analyst_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Has post-COVID behavioral shift permanently raised passthrough coefficients?",
+      "How to identify regime transitions in real-time before passthrough materializes?",
+      "What is the correct demand vs supply attribution for 2021-22 that would allow unbiased calibration?"
+    ],
+    "related_concepts": [
+      "central_bank_credibility_anchoring",
+      "second_round_effects_base_rate",
+      "small_sample_overconfidence",
+      "fiscal_deficit_passthrough_amplification"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "fx_dollar_channel_mediation",
+    "definition": "The FX/dollar channel is a critical and systematically underappreciated mediator of commodity-inflation transmission. Because commodities are dollar-invoiced (Gopinath dominant currency paradigm), the dollar's trajectory determines realized passthrough for every non-US country. DM exchange rate passthrough to CPI is 0.03-0.08; EM ERPT is 0.15-0.40.",
+    "confidence": 9,
+    "evidence": [
+      "Japan 2022: 30% JPY depreciation transformed moderate global energy shock into 4.3% CPI (40-year high)",
+      "Turkey/Egypt/Pakistan 2022: inflation outcomes almost entirely explained by FX channel, not commodity prices alone",
+      "BIS trade-weighted dollar index explains 30-40% of cross-country CPI variance for identical commodity shocks",
+      "10% USD depreciation adds ~0.5-1.0pp to US headline CPI",
+      "Fed tightening strengthens dollar, partially self-hedging US but amplifying passthrough for everyone else — the commodity-FX doom loop (EUR/USD parity Sept 2022)"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Will dedollarization of commodity invoicing meaningfully alter this channel?",
+      "How does the energy transition (shift from dollar-denominated oil to less-financialized minerals) affect FX mediation?",
+      "Is the DM/EM ERPT gap widening or narrowing?"
+    ],
+    "related_concepts": [
+      "petrodollar_recycling_self_hedge",
+      "em_exporter_importer_fx_asymmetry",
+      "dollar_cycle_inflection",
+      "boj_pboc_structural_divergence"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "central_bank_credibility_anchoring",
+    "definition": "Central bank credibility and inflation expectations anchoring is the master variable determining whether commodity shocks produce transitory price-level shifts or persistent inflation. This is the strongest cross-sectional predictor of inflation outcomes from identical global commodity shocks.",
+    "confidence": 9,
+    "evidence": [
+      "Brazil (BCB Selic 2→13.75%, peaked 12%) vs Turkey (CBRT cut 19→8.5%, peaked 85%) — same external shock, 7x different outcome",
+      "5Y5Y breakevens never exceeded 3% even during 2022 peak, preventing second-round transmission in anchored economies",
+      "Mexico and Poland (preemptive, stable) vs Argentina and Egypt (delayed, crisis) extends the cross-section",
+      "Barro-Gordon credibility model predicts anchored expectations convert commodity shocks into one-off price level shifts"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "rates_strategist_02",
+      "challenger_02",
+      "equity_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can credibility be measured in real-time with sufficient precision for investment decisions?",
+      "What is the threshold for de-anchoring — is there a breakeven level that signals regime shift?",
+      "Is credibility a stock or flow variable — can it be rebuilt quickly after erosion?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "second_round_effects_base_rate",
+      "look_through_doctrine_state_contingent",
+      "em_food_expectations_channel"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "second_round_effects_base_rate",
+    "definition": "Second-round effects (commodity → wages → broad inflation) occur in approximately 15-30% of major commodity shock episodes in modern advanced economies. The low base rate reflects institutional constraints: US union density ~10%, COLA coverage <10%, decentralized wage bargaining. The 2021-22 partial activation under unprecedented fiscal-monetary stimulus makes generalizability uncertain.",
+    "confidence": 8,
+    "evidence": [
+      "Historical count: 1/7 episodes (14%) to 2/7 (29%), refined to 0.5-1.5/7 (7-21%) after debate",
+      "US wage growth tracked labor tightness (Phillips Curve) not commodity prices (correlation ~0.15 with 6-month lag, statistically insignificant)",
+      "Eurozone negotiated wages showed direct lagged response to energy prices — institutional channel matters",
+      "Every non-activation episode had either labor market slack (2010-11: 9% UE) or counteracting demand shock (2007-08: GFC)",
+      "1970s COLA coverage ~60% of union workers — structural channel no longer exists"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "rates_strategist_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Was 2021-22 partial activation an artifact of unprecedented policy or a genuine behavioral shift?",
+      "Is 7-episode sample sufficient for reliable base rate estimation?",
+      "Do discriminant variables (union density, COLA, expectations, labor tightness, fiscal co-movement) allow ex ante prediction?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "central_bank_credibility_anchoring",
+      "small_sample_overconfidence",
+      "stock_bond_correlation_commodity_channel"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "multi_stage_lag_structure",
+    "definition": "Commodity-inflation transmission operates through tiered lags — energy (1-3 months), food (3-12 months), services/wages (6-36 months) — but specific timing estimates carry wide confidence intervals (90% CI for energy-to-CPI spans 1-14 months) that are functionally uninformative for most decision horizons.",
+    "confidence": 8,
+    "evidence": [
+      "2021-23 sequence: goods inflation peaked Q1 2022, services ex-shelter peaked Q3 2022 (~6-month lag), shelter peaked Q1 2023 (~12-month lag)",
+      "Firm-level three-tier decomposition (0-1, 2-4, 4-8 quarters) validates top-down CPI lag structure from bottom up",
+      "General ordering confirmed across 7 historical episodes; specific timing varies by episode",
+      "90% CI for energy-to-CPI passthrough timing spans 1-14 months per challenger_02 analysis"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_02",
+      "equity_analyst_01",
+      "rates_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Can higher-frequency data narrow timing confidence intervals?",
+      "Does the ordering remain stable across different commodity types (energy vs metals vs agriculture)?",
+      "How do supply chain changes (nearshoring, JIT→JIC) affect lag structure?"
+    ],
+    "related_concepts": [
+      "passthrough_illusion_hypothesis",
+      "services_lag_policy_trap",
+      "regime_dependent_passthrough_coefficients"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "food_passthrough_overestimation_dm",
+    "definition": "Food price passthrough in developed markets is systematically overestimated. Farm value is only 14.3% of retail food price (down from 31% in 1993), so a 50% wheat price increase translates to only ~3-5% retail bread price increase (elasticity ~0.10-0.15). Psychological salience bias compounds: consumers perceive food as 25-40% of spending vs actual CPI weight of 11-16%.",
+    "confidence": 8,
+    "evidence": [
+      "USDA data: farm value share 14.3% of retail food price, down from 31% in 1993",
+      "50% farm commodity shock produces only 0.7-1.4pp headline CPI impact in DM",
+      "Consumer inflation perception surveys confirm 25-40% perceived food spending vs 11-16% actual CPI weight",
+      "DM/EM contrast: food at 46% of India CPI vs 13.5% in US makes food inflation far more consequential for EM"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the farm-to-retail gap widening further with increased processing and logistics costs?",
+      "How does vertical integration in food supply chains affect passthrough elasticity?",
+      "Does the salience bias create exploitable mispricings in inflation derivatives?"
+    ],
+    "related_concepts": [
+      "em_food_expectations_channel",
+      "regime_dependent_passthrough_coefficients",
+      "energy_food_circular_dependence"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "small_sample_overconfidence",
+    "definition": "Most parametric commodity-inflation models are overconfident because 6-8 independent episodes cannot support estimation of 15-30+ parameters (passthrough coefficients by commodity, lag structures by sector, second-round probabilities, interaction effects, nonlinearities). Directional claims retain high confidence; magnitude, timing, and conditional probability estimates should carry confidence 2-3 points lower than reported.",
+    "confidence": 8,
+    "evidence": [
+      "Arithmetic: 6-8 observations for 15-30+ parameters exceeds degrees of freedom — validated in debate as arithmetically undeniable",
+      "Directional claims (commodity prices raise CPI) have consistent sign across all episodes",
+      "The pair_3 debate judge recommended recalibrating every confidence level downward by 2-3 points",
+      "This is the most consequential methodological disagreement in the field"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can cross-country variation expand effective sample size without introducing structural heterogeneity?",
+      "Are structural models more robust than reduced-form estimates given the small sample?",
+      "Does Bayesian shrinkage toward structural priors help with the small-sample problem?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "second_round_effects_base_rate",
+      "supercycle_narrative_failure"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "stock_bond_correlation_commodity_channel",
+    "definition": "The stock-bond correlation sign during commodity shocks maps to which transmission channel dominates: (a) transitory/headline-only → negative correlation (bonds hedge equities), (b) input-cost margin compression → near-zero correlation, (c) wage-price spiral → positive correlation (both fall as Fed tightens). Template episodes: 2014-19, 2015-16 manufacturing recession, 2022 respectively.",
+    "confidence": 7,
+    "evidence": [
+      "Logical mapping consistent with KB concepts stock_bond_correlation_labor_driven and correlation_regime_shifts",
+      "2022 template confirms channel (c): Fed tightened, both stocks and bonds fell (positive correlation)",
+      "2015-16 manufacturing recession confirms channel (b): equities fell on margin compression, bonds rallied on growth fears",
+      "Pair_0 debate called this the single most valuable claim in either analysis"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Has this three-channel framework been formally tested empirically as a distinct hypothesis?",
+      "Can the dominant channel be identified in real-time before the correlation regime shift occurs?",
+      "How does the framework interact with index concentration (tech dominance in growth)?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "second_round_effects_base_rate",
+      "correlation_regime_shifts"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "fiscal_deficit_passthrough_amplification",
+    "definition": "Fiscal deficits amplify commodity-to-inflation passthrough by sustaining household incomes and corporate profits, preventing the demand destruction that historically self-corrected commodity price spikes. This makes the sacrifice ratio endogenous to fiscal policy — a feature not captured in Taylor Rule frameworks.",
+    "confidence": 7,
+    "evidence": [
+      "Kalecki logic: deficits at 6-7% GDP sustain demand and prevent self-correction",
+      "Sacrifice ratio endogeneity to fiscal policy not captured in standard Taylor Rule frameworks",
+      "Directional claim confirmed in pair_0 debate; specific 3-4x quantification refuted as crude linear scaling",
+      "Connection to KB concept fiscal_deficit_kalecki_channel (confidence 9) provides theoretical grounding"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the correct fiscal multiplier for commodity passthrough amplification specifically?",
+      "Does deficit composition (transfers vs investment vs interest) matter more than headline ratio?",
+      "How does the interaction between fiscal and monetary policy affect the amplification channel?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "central_bank_credibility_anchoring",
+      "look_through_doctrine_state_contingent"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "lifo_fifo_earnings_distortion",
+    "definition": "LIFO-FIFO inventory accounting divergence creates systematic, quantifiable earnings quality distortions during commodity inflation. FIFO overstates margins (older cheaper inventory flows through COGS); LIFO understates margins but reflects current economics. The aggregate LIFO reserve build was $40-60B during 2021-23, representing quantifiable phantom earnings at FIFO firms.",
+    "confidence": 7,
+    "evidence": [
+      "$40-60B aggregate LIFO reserve build during 2021-23 represents phantom earnings",
+      "Cross-border valuation distortions: Caterpillar (LIFO) vs Komatsu (FIFO) creates apples-to-oranges EV/EBITDA comparison",
+      "Accounting mechanics are deterministic given commodity price direction — near-mechanical relationship",
+      "Pair_1 debate called this the single most original and analytically rigorous claim"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How do analysts systematically adjust cross-border comparisons for LIFO/FIFO?",
+      "Is the magnitude of distortion increasing as commodity cycles become more volatile?",
+      "What is the typical reversal timeline when commodity prices decline?"
+    ],
+    "related_concepts": [
+      "non_gaap_adjustment_widening",
+      "working_capital_inflation_channel",
+      "ocf_revenue_passthrough_diagnostic"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "working_capital_inflation_channel",
+    "definition": "Working capital inflation is a materially underappreciated transmission channel from commodity prices to equity valuation. A 25% commodity cost increase mechanically consumes ~$51M of incremental working capital for a $1B-revenue manufacturer, reducing FCF and intrinsic value by 5-7% with zero income statement visibility. EV/FCF rather than EV/EBITDA is the appropriate metric.",
+    "confidence": 7,
+    "evidence": [
+      "Arithmetic: $1B-revenue manufacturer, 25% cost increase → ~$51M working capital consumption → 5-7% equity value hit",
+      "Companies with negative cash conversion cycles (Amazon, Dell, Apple) are structurally advantaged",
+      "Effect is invisible in P/E and EV/EBITDA — only visible in cash flow statement",
+      "Pair_1 debate confirmed this as powerful precisely because it is mechanical, not speculative"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How does supply chain financing (reverse factoring) alter working capital dynamics during inflation?",
+      "Is EV/FCF adoption increasing among sell-side analysts?",
+      "What is the recovery timeline for working capital release when commodity prices normalize?"
+    ],
+    "related_concepts": [
+      "lifo_fifo_earnings_distortion",
+      "non_gaap_adjustment_widening",
+      "ocf_revenue_passthrough_diagnostic"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "non_gaap_adjustment_widening",
+    "definition": "Non-GAAP earnings adjustments systematically widen by 15-25% during commodity inflation cycles, consistently in the flattering direction. Specific mechanisms include: raw material surcharges excluded from core revenue, asymmetric hedge gain/loss treatment, non-recurring inventory write-downs that recur cyclically, and restructuring reclassified as one-time.",
+    "confidence": 7,
+    "evidence": [
+      "Specific taxonomy of adjustment types identified across commodity inflation episodes",
+      "Equity_analyst_01's uncritical use of reported margins identified as the single biggest analytical weakness in pair_1 debate",
+      "Investors anchoring on forward non-GAAP P/E systematically overpay during commodity inflation",
+      "S&P 500 Industrials: 15% revenue growth, 12% EBITDA growth, but only 6% OCF growth during 2021-23"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Is SEC scrutiny of non-GAAP adjustments increasing post-2022?",
+      "Can quantitative screens systematically detect flattering adjustments?",
+      "What is the typical reversion timeline for adjustment ratios?"
+    ],
+    "related_concepts": [
+      "lifo_fifo_earnings_distortion",
+      "working_capital_inflation_channel",
+      "ocf_revenue_passthrough_diagnostic"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "em_exporter_importer_fx_asymmetry",
+    "definition": "The commodity exporter-importer divide is the primary driver of EM FX cross-sectional dispersion during commodity cycles. In 2021-22: BRL appreciated ~15% (Brazil trade surplus surged to $60B+), COP strengthened ~10%, while INR fell ~10%, THB -12%, and TRY collapsed. Country-level framework is stronger for position construction than dollar-centric view.",
+    "confidence": 7,
+    "evidence": [
+      "2021-22 cross-section provides clean separation: exporters appreciated, importers depreciated",
+      "Brazil trade surplus surged to $60B+ during commodity boom",
+      "Country-level framework rated stronger for position construction than dollar-centric view in pair_2 debate",
+      "Specific passthrough multiplier range (1.3-1.8x) partially refuted as too broad — must be country-calibrated"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "How does the green transition alter exporter/importer classifications?",
+      "Should EM positioning use dollar cycle as regime identifier and country characteristics for position construction?",
+      "What is the correct country-specific multiplier calibration methodology?"
+    ],
+    "related_concepts": [
+      "fx_dollar_channel_mediation",
+      "central_bank_credibility_anchoring",
+      "em_food_expectations_channel"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "look_through_doctrine_state_contingent",
+    "definition": "Central bank look-through doctrine for commodity shocks is state-contingent, abandoned when three conditions hold simultaneously: (1) multi-commodity breadth, (2) above-target starting inflation, and (3) inflation expectations drift. The 2021-23 Fed experience (transitory → abandoned Nov 2021 → 425bp hikes) provides the primary evidentiary basis.",
+    "confidence": 7,
+    "evidence": [
+      "Fed 2021-23: transitory narrative abandoned November 2021, followed by 425bp of rate hikes",
+      "ECB abandoned look-through even earlier relative to its own staff projections under political economy pressure",
+      "Three-condition framework well-documented in Fed communications",
+      "Conditions identified ex post from a single full episode"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Threshold calibration for future episodes is uncertain — identified from single full episode",
+      "Does political economy pressure override technical conditions?",
+      "Can the three conditions be monitored in real-time with leading indicators?"
+    ],
+    "related_concepts": [
+      "central_bank_credibility_anchoring",
+      "regime_dependent_passthrough_coefficients",
+      "fci_superior_to_policy_rate"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "em_food_expectations_channel",
+    "definition": "In EM economies, food inflation → expectations de-anchoring → FX instability is structurally more important than energy passthrough for monetary and political stability. Food CPI weights are 3-4x higher in EM (India 46%, Nigeria 52%, Indonesia 33% vs US 13.5%), and EM households form inflation expectations primarily from daily-encounter food prices, not core measures.",
+    "confidence": 7,
+    "evidence": [
+      "Egypt 2022-23: bread inflation 70%+ → expectations de-anchored → EGP -50%",
+      "D'Acunto et al. (2021): EM households form inflation expectations primarily from food prices",
+      "Food CPI weights: India 46%, Nigeria 52%, Indonesia 33% vs US 13.5%",
+      "This is a credibility and political stability channel with direct FX consequences, not merely CPI arithmetic"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Can food-driven de-anchoring be distinguished from broader macro deterioration in real-time?",
+      "Do food price subsidies effectively break the channel or merely delay it?",
+      "Is there a food inflation threshold that triggers political instability?"
+    ],
+    "related_concepts": [
+      "food_passthrough_overestimation_dm",
+      "central_bank_credibility_anchoring",
+      "administered_pricing_sawtooth"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "fci_superior_to_policy_rate",
+    "definition": "Financial conditions indices are a better real-time gauge of effective policy stance than the policy rate during commodity inflation episodes. The FX component of FCI directly captures passthrough amplification/dampening. Fed hiked 425bp in 2022 but FCI tightened ~550-600bp equivalent; in late 2023 Fed held but FCI eased ~150bp equivalent.",
+    "confidence": 7,
+    "evidence": [
+      "Fed hiked 425bp in 2022 but FCI tightened ~550-600bp equivalent (equity declines, credit spread widening, dollar appreciation all reinforced)",
+      "Late 2023: Fed held rates but FCI eased ~150bp equivalent",
+      "Exchange rate component of FCI directly captures commodity passthrough amplification/dampening",
+      "Pair_3 debate validated as empirically grounded and operationally useful"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Which FCI construction is optimal for commodity-inflation analysis?",
+      "How should the exchange rate component be weighted specifically for commodity inflation?",
+      "Is the FCI-to-real-activity transmission lag stable across commodity regimes?"
+    ],
+    "related_concepts": [
+      "fx_dollar_channel_mediation",
+      "central_bank_credibility_anchoring",
+      "look_through_doctrine_state_contingent"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "supercycle_narrative_failure",
+    "definition": "Commodity supercycle narratives have a 0/4 track record at 5-year horizons in the modern sample, consistently undone by supply response to sustained high prices. However, 4 observations is itself a small sample, and current structural conditions (energy transition, deglobalization) may genuinely differ.",
+    "confidence": 6,
+    "evidence": [
+      "Peak oil (2005-08): shale revolution within 5 years",
+      "$200 oil (Goldman 2008): oil fell to $32 in 6 months",
+      "New commodity paradigm (2011): commodity bear market followed",
+      "Green supercycle (2021-22): lithium -80% by 2024"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Do current structural conditions (energy transition, deglobalization) genuinely differ from prior episodes?",
+      "Is 4 observations sufficient for a reliable base rate given the small-sample meta-claim?",
+      "What distinguishes genuine structural shifts from narrative-driven extrapolation?"
+    ],
+    "related_concepts": [
+      "small_sample_overconfidence",
+      "green_transition_commodity_shift"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "administered_pricing_sawtooth",
+    "definition": "Administered energy pricing in EM creates a sawtooth inflation pattern with fiscal-FX nexus: energy prices surge → subsidy costs escalate → fiscal deficit widens → sovereign credit deterioration → FX pressure → subsidy becomes unsustainable → discrete overnight price shock. Timing is inherently unpredictable as it is politically determined.",
+    "confidence": 6,
+    "evidence": [
+      "Nigeria June 2023: fuel subsidy removal, petrol prices tripled overnight, naira -40%",
+      "Indonesia September 2022: pertalite adjustment +1.5pp CPI in one month",
+      "Egypt: phased subsidy removal producing recurring 3-5pp CPI spikes",
+      "No smooth-passthrough model captures this distinct transmission mechanism"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can timing be predicted based on fiscal sustainability indicators?",
+      "Does IMF conditionality accelerate the subsidy-removal cycle?",
+      "How do international oil price hedging programs (e.g., Mexico) alter the dynamics?"
+    ],
+    "related_concepts": [
+      "em_food_expectations_channel",
+      "fiscal_deficit_passthrough_amplification",
+      "em_exporter_importer_fx_asymmetry"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "boj_pboc_structural_divergence",
+    "definition": "BOJ and PBOC operate fundamentally different commodity-inflation mechanisms from Western central banks. BOJ: commodity inflation + anchored nominal rates = falling real rates = easier real conditions (the only major CB that welcomes commodity increases). PBOC: administered pricing (NDRC formula, strategic reserves, SOE loss absorption) partially decouples Chinese inflation from global commodity prices. This divergence amplifies the FX channel for other countries.",
+    "confidence": 6,
+    "evidence": [
+      "BOJ under YCC: commodity inflation reduces real rates — opposite of inflation-targeting frameworks",
+      "PBOC uses administrative tools (NDRC formula, strategic reserves, SOE loss absorption) not rates",
+      "Divergence (Fed/ECB tighten, BOJ accommodates, PBOC administers) widens rate differentials and strengthens dollar",
+      "Pair_3 debate called this the most valuable insight unique to rates_strategist_02"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Will BOJ normalize its policy framework post-YCC?",
+      "How long can PBOC administrative tools decouple domestic from global commodity prices?",
+      "Does the structural divergence increase or decrease global inflation volatility?"
+    ],
+    "related_concepts": [
+      "fx_dollar_channel_mediation",
+      "look_through_doctrine_state_contingent",
+      "fci_superior_to_policy_rate"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "passthrough_illusion_hypothesis",
+    "definition": "Staggered first-round lags across sectors can create an inflation breadth signal that mimics genuine second-round effects, potentially trapping central banks into over-tightening. A plausible but unestablished hypothesis — fitting a 5-stage model to 2-3 observations exceeds degrees of freedom. Current evidence cannot distinguish lagged first-round passthrough mimicking breadth from genuine second-round broadening.",
+    "confidence": 5,
+    "evidence": [
+      "ECB 2023 Economic Bulletin cited as supporting evidence",
+      "2021-23 sequence (goods → services → shelter) consistent with either interpretation",
+      "Challenger_02 overfitting critique applies: 5-stage model from 2-3 observations",
+      "Pair_3 debate status: plausible hypothesis (~5/10), not established mechanism"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Can sector-level leading indicators distinguish genuine second-round effects from lagged first-round?",
+      "Does this hypothesis imply central banks systematically over-tighten during commodity shocks?",
+      "What cross-country evidence would help adjudicate?"
+    ],
+    "related_concepts": [
+      "multi_stage_lag_structure",
+      "second_round_effects_base_rate",
+      "look_through_doctrine_state_contingent"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "asymmetric_passthrough",
+    "definition": "Commodity price increases transmit more readily to consumer prices than decreases — the rockets and feathers phenomenon. The 2014-15 oil price collapse barely moved core CPI downward, while comparable magnitude increases produce measurable CPI effects.",
+    "confidence": 7,
+    "evidence": [
+      "2014-15 oil collapse barely moved core CPI despite comparable magnitude to upward shocks",
+      "Documented across 5 historical episodes by generalist_02",
+      "Consistent with firm pricing behavior — stickier downward adjustment"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the quantitative magnitude of the asymmetry?",
+      "Does the asymmetry vary by commodity type or transmission stage?",
+      "Is the asymmetry increasing or decreasing over time?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "multi_stage_lag_structure",
+      "food_passthrough_overestimation_dm"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "credit_channel_impairment_supply_shocks",
+    "definition": "The credit channel of monetary policy is impaired for supply-driven inflation, with the sacrifice ratio estimated at 1.5-2.5x higher than for demand-driven inflation. This creates a tightening paradox: credit tightening reduces energy capex → tighter future supply → potentially higher future commodity prices.",
+    "confidence": 6,
+    "evidence": [
+      "IMF estimates sacrifice ratio 1.5-2.5x higher for supply-driven vs demand-driven inflation",
+      "Energy capex reduction from tightening creates future supply constraints",
+      "Credit tightening addresses demand component but may worsen supply component"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "How should central banks optimally weight the tightening paradox?",
+      "Is the sacrifice ratio differential stable across episodes?",
+      "Does forward guidance about supply-side accommodation reduce the paradox?"
+    ],
+    "related_concepts": [
+      "look_through_doctrine_state_contingent",
+      "central_bank_credibility_anchoring",
+      "fiscal_deficit_passthrough_amplification"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "energy_food_circular_dependence",
+    "definition": "Natural gas → fertilizer → crop costs → food prices creates an under-appreciated circular amplification loop in commodity-inflation transmission, where energy price shocks feed through to food prices beyond direct transportation costs.",
+    "confidence": 7,
+    "evidence": [
+      "Natural gas is primary input for nitrogen fertilizer production",
+      "European fertilizer production curtailed during 2022 gas crisis",
+      "Food price increases lag energy by additional months due to growing cycle"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What is the quantitative magnitude of the energy-food amplification?",
+      "How do strategic fertilizer reserves (China) affect the channel?",
+      "Does the shift to renewable energy eventually break this linkage?"
+    ],
+    "related_concepts": [
+      "multi_stage_lag_structure",
+      "food_passthrough_overestimation_dm",
+      "em_food_expectations_channel"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "usd_self_correcting_reinforcing_loop",
+    "definition": "The USD creates either self-correcting or self-reinforcing commodity-inflation dynamics depending on Fed credibility: Fed ahead of curve → dollar strengthens → commodities moderate (self-correcting); Fed behind curve → real rates fall → dollar weakens → commodities accelerate (self-reinforcing).",
+    "confidence": 7,
+    "evidence": [
+      "2022 self-correcting: aggressive Fed tightening strengthened dollar, helping moderate commodity prices",
+      "1970s self-reinforcing: negative real rates weakened dollar, amplifying commodity inflation",
+      "Regime identification depends on whether Fed is perceived as ahead or behind the inflation curve"
+    ],
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "What real-time indicators best identify which loop is operating?",
+      "Is there a tipping point between self-correcting and self-reinforcing dynamics?",
+      "How does fiscal dominance risk affect the loop identification?"
+    ],
+    "related_concepts": [
+      "fx_dollar_channel_mediation",
+      "central_bank_credibility_anchoring",
+      "regime_dependent_passthrough_coefficients"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "breakeven_term_structure_indicator",
+    "definition": "The breakeven inflation term structure slope serves as a real-time indicator of passthrough regime. An inverted term structure (near-term breakevens above long-term) signals transitory passthrough; a steepening or flat structure signals risk of persistent passthrough and second-round effects.",
+    "confidence": 6,
+    "evidence": [
+      "5Y5Y breakevens never exceeded 3% during 2022, consistent with anchored expectations",
+      "Term structure shape provides real-time market-implied passthrough regime assessment",
+      "Complements fundamental analysis with market-based signal"
+    ],
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "How reliable is the term structure signal vs fundamentals?",
+      "Does liquidity in breakeven markets distort the signal during stress?",
+      "What specific term structure configurations have historically preceded regime shifts?"
+    ],
+    "related_concepts": [
+      "regime_dependent_passthrough_coefficients",
+      "central_bank_credibility_anchoring",
+      "fci_superior_to_policy_rate"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "petrodollar_recycling_self_hedge",
+    "definition": "GCC SWFs and central banks hold ~$3T in external assets, predominantly dollar-denominated. During oil rallies, GCC purchases of US Treasuries correlate positively with oil prices (r≈0.6), supporting the dollar. This partially self-hedges the US — the country experiences the commodity shock but receives an FX offset.",
+    "confidence": 6,
+    "evidence": [
+      "GCC external assets ~$3T, predominantly dollar-denominated",
+      "GCC Treasury purchases correlate r≈0.6 with oil prices",
+      "Pair_2 debate called this a genuinely distinctive contribution",
+      "Mechanism provides structural US advantage during oil shocks"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Will dedollarization of oil trade erode this channel?",
+      "How does the shift from SWF Treasury purchases to alternative assets affect the mechanism?",
+      "Is the r≈0.6 correlation stable across different oil price regimes?"
+    ],
+    "related_concepts": [
+      "fx_dollar_channel_mediation",
+      "dollar_cycle_inflection",
+      "usd_self_correcting_reinforcing_loop"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "ocf_revenue_passthrough_diagnostic",
+    "definition": "The OCF/revenue growth ratio with an approximate 1.0x threshold serves as a firm-level diagnostic for genuine vs reported commodity cost passthrough. Below 1.0x indicates reported margins overstate actual passthrough. S&P 500 Industrials showed ~0.4x during 2021-23 despite ~15% revenue growth.",
+    "confidence": 6,
+    "evidence": [
+      "Accounting identity: earnings = cash flow ± accruals, so cash conversion reveals real passthrough",
+      "S&P 500 Industrials: OCF/revenue growth ~0.4x during 2021-23 despite ~15% revenue growth",
+      "Threshold is approximate and sector-dependent",
+      "Pair_1 debate confirmed framework as directionally robust"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How should the 1.0x threshold be calibrated by sector?",
+      "Does the diagnostic work for services firms or primarily goods/manufacturing?",
+      "How do changes in trade credit terms affect the ratio interpretation?"
+    ],
+    "related_concepts": [
+      "lifo_fifo_earnings_distortion",
+      "working_capital_inflation_channel",
+      "non_gaap_adjustment_widening"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  }
+]

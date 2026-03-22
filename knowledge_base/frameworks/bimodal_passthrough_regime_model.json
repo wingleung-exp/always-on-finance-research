@@ -1,0 +1,26 @@
+{
+  "slug": "bimodal_passthrough_regime_model",
+  "purpose": "Determine which passthrough regime applies to current conditions — low (0.1-0.3pp per 10% oil increase) or high (0.5-0.8pp) — rather than estimating a single declining mean coefficient.",
+  "components": [
+    "Inflation expectations anchoring status (5Y5Y breakevens, survey measures)",
+    "Central bank credibility assessment (cross-sectional: policy rate trajectory vs inflation)",
+    "Institutional wage-setting structure (union density, COLA coverage, bargaining centralization)",
+    "Fiscal policy stance (deficit-to-GDP, composition, demand sustaining capacity)",
+    "FX regime and dollar trajectory (ERPT coefficient, dollar cycle position)"
+  ],
+  "current_assessment": "As of early 2026, DM economies appear to have returned to the low-passthrough regime following the 2021-22 episode. 5Y5Y breakevens are anchored, union density remains low, and fiscal deficits while elevated are not as stimulative at the margin. EM assessment is highly country-dependent. The key uncertainty is whether the post-COVID behavioral shift in firm pricing has structurally raised the low regime's upper bound.",
+  "limitations": [
+    "Only 6-8 independent episodes to calibrate — parametric estimates carry wide confidence intervals",
+    "Regime identification is easier ex post than ex ante",
+    "Transition dynamics between regimes are poorly understood",
+    "The 2021-22 episode's demand/supply attribution remains contested, affecting calibration"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

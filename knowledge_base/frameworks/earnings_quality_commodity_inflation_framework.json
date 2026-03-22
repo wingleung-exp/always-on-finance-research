@@ -1,0 +1,27 @@
+{
+  "slug": "earnings_quality_commodity_inflation_framework",
+  "purpose": "Identify and adjust for systematic earnings quality distortions that arise during commodity inflation episodes, enabling more accurate equity valuation.",
+  "components": [
+    "LIFO-FIFO divergence: identify accounting method, estimate LIFO reserve build, adjust COGS to current-cost basis",
+    "Working capital consumption: compute incremental working capital from commodity cost increase, compare to reported earnings",
+    "Non-GAAP adjustment taxonomy: flag surcharge exclusions, asymmetric hedge treatment, recurring non-recurring charges",
+    "OCF/revenue growth ratio: below 1.0x indicates reported margins overstate genuine passthrough",
+    "EV/FCF over EV/EBITDA: preferred valuation metric during inflationary periods",
+    "Negative cash conversion cycle firms (Amazon, Dell, Apple) structurally advantaged"
+  ],
+  "current_assessment": "During 2021-23, S&P 500 Industrials showed 15% revenue growth, 12% EBITDA growth, but only 6% OCF growth — confirming the framework's diagnostic value. Kraft Heinz FCF/net income dropped from ~90% to ~65%. Non-GAAP adjustments widened 15-25% in the flattering direction. Framework was validated in pair_1 debate as addressing the single biggest analytical weakness in standard equity analysis.",
+  "limitations": [
+    "OCF/revenue threshold of 1.0x is approximate and sector-dependent",
+    "Requires firm-level data analysis — difficult to apply at aggregate index level",
+    "LIFO/FIFO adjustment requires access to detailed inventory disclosures",
+    "Does not account for strategic actions (accelerated purchases, inventory builds) that may be rational"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

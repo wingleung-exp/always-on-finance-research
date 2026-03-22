@@ -1,0 +1,31 @@
+{
+  "slug": "breakeven_term_structure_indicator",
+  "definition": "The breakeven inflation term structure slope serves as a real-time indicator of passthrough regime. An inverted term structure (near-term breakevens above long-term) signals transitory passthrough; a steepening or flat structure signals risk of persistent passthrough and second-round effects.",
+  "confidence": 6,
+  "evidence": [
+    "5Y5Y breakevens never exceeded 3% during 2022, consistent with anchored expectations",
+    "Term structure shape provides real-time market-implied passthrough regime assessment",
+    "Complements fundamental analysis with market-based signal"
+  ],
+  "originating_agents": [
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "How reliable is the term structure signal vs fundamentals?",
+    "Does liquidity in breakeven markets distort the signal during stress?",
+    "What specific term structure configurations have historically preceded regime shifts?"
+  ],
+  "related_concepts": [
+    "regime_dependent_passthrough_coefficients",
+    "central_bank_credibility_anchoring",
+    "fci_superior_to_policy_rate"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

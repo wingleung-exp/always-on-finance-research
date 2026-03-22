@@ -1,0 +1,32 @@
+{
+  "slug": "fci_superior_to_policy_rate",
+  "definition": "Financial conditions indices are a better real-time gauge of effective policy stance than the policy rate during commodity inflation episodes. The FX component of FCI directly captures passthrough amplification/dampening. Fed hiked 425bp in 2022 but FCI tightened ~550-600bp equivalent; in late 2023 Fed held but FCI eased ~150bp equivalent.",
+  "confidence": 7,
+  "evidence": [
+    "Fed hiked 425bp in 2022 but FCI tightened ~550-600bp equivalent (equity declines, credit spread widening, dollar appreciation all reinforced)",
+    "Late 2023: Fed held rates but FCI eased ~150bp equivalent",
+    "Exchange rate component of FCI directly captures commodity passthrough amplification/dampening",
+    "Pair_3 debate validated as empirically grounded and operationally useful"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Which FCI construction is optimal for commodity-inflation analysis?",
+    "How should the exchange rate component be weighted specifically for commodity inflation?",
+    "Is the FCI-to-real-activity transmission lag stable across commodity regimes?"
+  ],
+  "related_concepts": [
+    "fx_dollar_channel_mediation",
+    "central_bank_credibility_anchoring",
+    "look_through_doctrine_state_contingent"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

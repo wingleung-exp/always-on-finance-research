@@ -1,0 +1,51 @@
+[
+  {
+    "claim": "The passthrough coefficient may have structurally re-risen post-COVID due to firms learning they can raise prices without losing volume.",
+    "source_agent": "multiple (equity_analyst_01, generalist_02, rates_strategist_02, challenger_02)",
+    "needs": "2-3 more commodity shock episodes to assess whether 2021-22 represents a behavioral shift or was an artifact of unprecedented fiscal-monetary stimulus. Firm-level pricing power studies across multiple post-pandemic commodity cycles.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "The green energy transition will structurally change commodity-inflation transmission dynamics, shifting from oil/gas to metals (copper, lithium, rare earths) with different supply elasticities and financialization characteristics.",
+    "source_agent": "multiple (fx_strategist_01, generalist_02)",
+    "needs": "Observation of a mineral-dominated inflation cycle. Assessment of whether reduced oil dependence outweighs new mineral supply constraints. Analysis of FX mediation for less dollar-denominated, less financialized commodity markets.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "The dollar cycle is approaching an inflection point based on twin-deficit fundamentals (~10% GDP combined) and declining foreign UST purchases (50% to 25% of issuance).",
+    "source_agent": "fx_strategist_01",
+    "needs": "Assessment of whether AI capex as structural capital inflow driver sustains dollar beyond PPP fair value. Resolution of the perennial dollar timing challenge — the dollar stayed overvalued for 5+ years in the 1990s. More rigorous twin-deficit threshold analysis.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "Dedollarization is gradually increasing commodity-inflation passthrough variance across countries.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Separation of futures volume from physical settlement in non-dollar invoicing data (the 12% figure conflates these). Dollar reserve share declined only 59→57% over five years. The China deflation export erosion channel may be more immediate and measurable as a framework.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "ROIC-WACC spread trajectory can serve as a diagnostic for distinguishing first-round from second-round commodity-inflation effects.",
+    "source_agent": "equity_analyst_02",
+    "needs": "Controlled test isolating commodity-driven ROIC-WACC compression from other factors. The 2021-23 compression reflected multiple non-commodity factors (pandemic overinvestment, broad fiscal demand, sector rotation). Works as one input among many, not standalone diagnostic.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "OCF/revenue growth ratio with 1.0x threshold is the firm-level commodity passthrough diagnostic.",
+    "source_agent": "equity_analyst_02",
+    "needs": "Sector-specific threshold calibration (1.0x is approximate). Testing across multiple commodity cycles and geographies. Assessment of whether supply chain financing innovations (reverse factoring) distort the ratio.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "Petrodollar recycling creates a structural self-hedging asymmetry for the US during oil shocks via GCC SWF Treasury purchases (r≈0.6 correlation with oil prices).",
+    "source_agent": "fx_strategist_01",
+    "needs": "Assessment of whether dedollarization of oil trade and GCC portfolio diversification (away from Treasuries toward alternatives) is eroding this channel. Updated correlation analysis post-2022 when GCC sovereign wealth strategies may have shifted.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  }
+]

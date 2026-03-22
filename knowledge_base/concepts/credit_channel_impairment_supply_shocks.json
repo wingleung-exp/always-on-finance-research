@@ -1,0 +1,31 @@
+{
+  "slug": "credit_channel_impairment_supply_shocks",
+  "definition": "The credit channel of monetary policy is impaired for supply-driven inflation, with the sacrifice ratio estimated at 1.5-2.5x higher than for demand-driven inflation. This creates a tightening paradox: credit tightening reduces energy capex → tighter future supply → potentially higher future commodity prices.",
+  "confidence": 6,
+  "evidence": [
+    "IMF estimates sacrifice ratio 1.5-2.5x higher for supply-driven vs demand-driven inflation",
+    "Energy capex reduction from tightening creates future supply constraints",
+    "Credit tightening addresses demand component but may worsen supply component"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "How should central banks optimally weight the tightening paradox?",
+    "Is the sacrifice ratio differential stable across episodes?",
+    "Does forward guidance about supply-side accommodation reduce the paradox?"
+  ],
+  "related_concepts": [
+    "look_through_doctrine_state_contingent",
+    "central_bank_credibility_anchoring",
+    "fiscal_deficit_passthrough_amplification"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

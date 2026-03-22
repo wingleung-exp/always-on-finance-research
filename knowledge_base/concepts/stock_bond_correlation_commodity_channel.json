@@ -1,0 +1,32 @@
+{
+  "slug": "stock_bond_correlation_commodity_channel",
+  "definition": "The stock-bond correlation sign during commodity shocks maps to which transmission channel dominates: (a) transitory/headline-only → negative correlation (bonds hedge equities), (b) input-cost margin compression → near-zero correlation, (c) wage-price spiral → positive correlation (both fall as Fed tightens). Template episodes: 2014-19, 2015-16 manufacturing recession, 2022 respectively.",
+  "confidence": 7,
+  "evidence": [
+    "Logical mapping consistent with KB concepts stock_bond_correlation_labor_driven and correlation_regime_shifts",
+    "2022 template confirms channel (c): Fed tightened, both stocks and bonds fell (positive correlation)",
+    "2015-16 manufacturing recession confirms channel (b): equities fell on margin compression, bonds rallied on growth fears",
+    "Pair_0 debate called this the single most valuable claim in either analysis"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Has this three-channel framework been formally tested empirically as a distinct hypothesis?",
+    "Can the dominant channel be identified in real-time before the correlation regime shift occurs?",
+    "How does the framework interact with index concentration (tech dominance in growth)?"
+  ],
+  "related_concepts": [
+    "regime_dependent_passthrough_coefficients",
+    "second_round_effects_base_rate",
+    "correlation_regime_shifts"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

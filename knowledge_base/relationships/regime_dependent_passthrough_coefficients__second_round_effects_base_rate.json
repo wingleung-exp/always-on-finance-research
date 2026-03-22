@@ -1,0 +1,21 @@
+{
+  "concept_a": "regime_dependent_passthrough_coefficients",
+  "concept_b": "second_round_effects_base_rate",
+  "mechanism": "The passthrough regime determines whether commodity shocks remain first-round (price-level shift) or activate second-round effects (wages, expectations). The high-passthrough regime is a necessary but not sufficient condition for second-round activation; institutional factors (union density, COLA coverage) must also be present.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Second-round effects require both the high-passthrough regime AND institutional channels (union density >15%, COLA coverage, tight labor markets). In the low-passthrough regime, second-round effects are near-impossible regardless of institutional structure.",
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02",
+    "rates_strategist_02"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

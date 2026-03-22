@@ -1,0 +1,27 @@
+{
+  "slug": "look_through_abandonment_diagnostic",
+  "purpose": "Assess whether central bank look-through doctrine for commodity shocks is likely to be maintained or abandoned, with implications for rate trajectory and asset allocation.",
+  "components": [
+    "Condition 1 — Multi-commodity breadth: is the shock isolated (e.g., oil only) or broad (energy + food + metals)?",
+    "Condition 2 — Starting inflation: is headline/core already above target when the commodity shock arrives?",
+    "Condition 3 — Expectations drift: are survey measures and market breakevens showing de-anchoring?",
+    "All three must hold simultaneously for look-through abandonment",
+    "FCI as superior real-time gauge: captures equity, credit spread, and FX effects beyond policy rate",
+    "Credit channel impairment: sacrifice ratio 1.5-2.5x higher for supply-driven inflation"
+  ],
+  "current_assessment": "The 2021-23 Fed experience provides the primary calibration: all three conditions were met by late 2021, leading to abandonment of transitory narrative and 425bp of hikes. The ECB abandoned even earlier relative to staff projections. Threshold calibration for future episodes remains uncertain given this is drawn from a single full episode.",
+  "limitations": [
+    "Three conditions identified ex post from single full episode — threshold calibration uncertain",
+    "Political economy pressure can override technical assessment (especially ECB)",
+    "Does not capture the tightening paradox (reduced energy capex → tighter future supply)",
+    "FCI construction varies across providers with potentially different signals"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

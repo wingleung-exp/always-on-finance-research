@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "bimodal_passthrough_regime_model",
+    "purpose": "Determine which passthrough regime applies to current conditions — low (0.1-0.3pp per 10% oil increase) or high (0.5-0.8pp) — rather than estimating a single declining mean coefficient.",
+    "components": [
+      "Inflation expectations anchoring status (5Y5Y breakevens, survey measures)",
+      "Central bank credibility assessment (cross-sectional: policy rate trajectory vs inflation)",
+      "Institutional wage-setting structure (union density, COLA coverage, bargaining centralization)",
+      "Fiscal policy stance (deficit-to-GDP, composition, demand sustaining capacity)",
+      "FX regime and dollar trajectory (ERPT coefficient, dollar cycle position)"
+    ],
+    "current_assessment": "As of early 2026, DM economies appear to have returned to the low-passthrough regime following the 2021-22 episode. 5Y5Y breakevens are anchored, union density remains low, and fiscal deficits while elevated are not as stimulative at the margin. EM assessment is highly country-dependent. The key uncertainty is whether the post-COVID behavioral shift in firm pricing has structurally raised the low regime's upper bound.",
+    "limitations": [
+      "Only 6-8 independent episodes to calibrate — parametric estimates carry wide confidence intervals",
+      "Regime identification is easier ex post than ex ante",
+      "Transition dynamics between regimes are poorly understood",
+      "The 2021-22 episode's demand/supply attribution remains contested, affecting calibration"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "three_channel_correlation_mapping",
+    "purpose": "Map the dominant commodity-inflation transmission channel to the expected stock-bond correlation regime for portfolio construction.",
+    "components": [
+      "Channel A (transitory/headline-only): Fed looks through → bonds hedge equities → negative stock-bond correlation (2014-19 template)",
+      "Channel B (input-cost margin compression): equities fall on margin pressure, bonds rally on growth fears → near-zero correlation (2015-16 manufacturing recession template)",
+      "Channel C (wage-price spiral): Fed tightens aggressively → both stocks and bonds fall → positive correlation (2022 template)",
+      "Regime diagnostic: use second-round effects probability and Fed reaction function assessment to identify active channel"
+    ],
+    "current_assessment": "Market pricing appears to assign ~70% probability to Channel A (transitory) and ~30% to Channel C (persistent) for the next commodity shock. This probability-weighted pricing explains apparently incoherent cross-asset valuations. The critical question is whether the next shock will look more like 2004-08 (Channel A) or 2021-22 (Channel B/C).",
+    "limitations": [
+      "Novel synthesis from one agent — not independently validated by others",
+      "Not formally tested empirically as a distinct hypothesis",
+      "Channel identification in real-time is difficult — by the time Channel C is confirmed, portfolio adjustment is late",
+      "Index concentration (mega-cap tech dominance) may distort the equity leg of the framework"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "tiered_lag_transmission_framework",
+    "purpose": "Map the expected timing sequence of commodity-inflation transmission for monitoring and positioning, while acknowledging that specific timing windows are imprecise.",
+    "components": [
+      "Tier 1 — Energy direct (1-3 months): gasoline, heating, electricity",
+      "Tier 2 — Food and goods (3-12 months): farm-gate to retail food, manufactured goods, energy-food circular dependence via fertilizer",
+      "Tier 3 — Services and wages (6-36 months): services ex-shelter, rent/OER, wage negotiations",
+      "Tier 4 — Corporate hedging rolloff: predictable second-wave cost mechanism as hedges expire",
+      "Firm-level validation: equity_analyst_02's three-tier decomposition (0-1, 2-4, 4-8 quarters)",
+      "Warning: 90% CI for energy-to-CPI spans 1-14 months — use as ordering framework, not timing tool"
+    ],
+    "current_assessment": "The tiered structure is well-established as a qualitative ordering. The 2021-23 episode provides the clearest modern template: goods peaked Q1 2022, services ex-shelter Q3 2022, shelter Q1 2023. However, specific timing is too imprecise for most investment decision horizons.",
+    "limitations": [
+      "Specific timing windows carry wide confidence intervals (90% CI: 1-14 months for energy-to-CPI)",
+      "Timing varies significantly by episode in ways that preclude precise forecasting",
+      "Corporate hedging rolloff timing depends on firm-specific hedge tenors",
+      "Passthrough illusion hypothesis suggests tiered lags may mimic second-round breadth, confusing diagnosis"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "em_vulnerability_assessment_framework",
+    "purpose": "Assess country-level EM vulnerability to commodity-inflation shocks for FX and rates positioning.",
+    "components": [
+      "Commodity exporter/importer status and trade balance sensitivity",
+      "Food CPI weight (>30% = high vulnerability to food-driven de-anchoring)",
+      "Central bank credibility score (policy track record, independence, communication)",
+      "Administered pricing regime (subsidy structure, fiscal sustainability of subsidies)",
+      "ERPT coefficient (institutional/historical passthrough rate)",
+      "Dollar exposure (dollar-denominated debt, reserves adequacy)",
+      "Informal sector size (amplifies wage-price transmission, reduces policy effectiveness)"
+    ],
+    "current_assessment": "The framework correctly identified the 2021-22 cross-sectional dispersion: exporters with credible CBs (Brazil, Mexico) outperformed, while importers with credibility concerns (Turkey, Egypt, Pakistan) experienced severe outcomes. The dollar cycle acts as regime identifier; country characteristics determine position construction within that regime.",
+    "limitations": [
+      "Country characteristics can change rapidly (political interference with central bank)",
+      "Administered pricing creates binary, politically-timed events that resist continuous modeling",
+      "The specific passthrough multiplier range must be country-calibrated, not applied as blanket EM figure",
+      "Sample size for each country's passthrough estimation is very small"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "earnings_quality_commodity_inflation_framework",
+    "purpose": "Identify and adjust for systematic earnings quality distortions that arise during commodity inflation episodes, enabling more accurate equity valuation.",
+    "components": [
+      "LIFO-FIFO divergence: identify accounting method, estimate LIFO reserve build, adjust COGS to current-cost basis",
+      "Working capital consumption: compute incremental working capital from commodity cost increase, compare to reported earnings",
+      "Non-GAAP adjustment taxonomy: flag surcharge exclusions, asymmetric hedge treatment, recurring non-recurring charges",
+      "OCF/revenue growth ratio: below 1.0x indicates reported margins overstate genuine passthrough",
+      "EV/FCF over EV/EBITDA: preferred valuation metric during inflationary periods",
+      "Negative cash conversion cycle firms (Amazon, Dell, Apple) structurally advantaged"
+    ],
+    "current_assessment": "During 2021-23, S&P 500 Industrials showed 15% revenue growth, 12% EBITDA growth, but only 6% OCF growth — confirming the framework's diagnostic value. Kraft Heinz FCF/net income dropped from ~90% to ~65%. Non-GAAP adjustments widened 15-25% in the flattering direction. Framework was validated in pair_1 debate as addressing the single biggest analytical weakness in standard equity analysis.",
+    "limitations": [
+      "OCF/revenue threshold of 1.0x is approximate and sector-dependent",
+      "Requires firm-level data analysis — difficult to apply at aggregate index level",
+      "LIFO/FIFO adjustment requires access to detailed inventory disclosures",
+      "Does not account for strategic actions (accelerated purchases, inventory builds) that may be rational"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  },
+  {
+    "slug": "look_through_abandonment_diagnostic",
+    "purpose": "Assess whether central bank look-through doctrine for commodity shocks is likely to be maintained or abandoned, with implications for rate trajectory and asset allocation.",
+    "components": [
+      "Condition 1 — Multi-commodity breadth: is the shock isolated (e.g., oil only) or broad (energy + food + metals)?",
+      "Condition 2 — Starting inflation: is headline/core already above target when the commodity shock arrives?",
+      "Condition 3 — Expectations drift: are survey measures and market breakevens showing de-anchoring?",
+      "All three must hold simultaneously for look-through abandonment",
+      "FCI as superior real-time gauge: captures equity, credit spread, and FX effects beyond policy rate",
+      "Credit channel impairment: sacrifice ratio 1.5-2.5x higher for supply-driven inflation"
+    ],
+    "current_assessment": "The 2021-23 Fed experience provides the primary calibration: all three conditions were met by late 2021, leading to abandonment of transitory narrative and 425bp of hikes. The ECB abandoned even earlier relative to staff projections. Threshold calibration for future episodes remains uncertain given this is drawn from a single full episode.",
+    "limitations": [
+      "Three conditions identified ex post from single full episode — threshold calibration uncertain",
+      "Political economy pressure can override technical assessment (especially ECB)",
+      "Does not capture the tightening paradox (reduced energy capex → tighter future supply)",
+      "FCI construction varies across providers with potentially different signals"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0005"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "slug": "non_gaap_adjustment_widening",
+  "definition": "Non-GAAP earnings adjustments systematically widen by 15-25% during commodity inflation cycles, consistently in the flattering direction. Specific mechanisms include: raw material surcharges excluded from core revenue, asymmetric hedge gain/loss treatment, non-recurring inventory write-downs that recur cyclically, and restructuring reclassified as one-time.",
+  "confidence": 7,
+  "evidence": [
+    "Specific taxonomy of adjustment types identified across commodity inflation episodes",
+    "Equity_analyst_01's uncritical use of reported margins identified as the single biggest analytical weakness in pair_1 debate",
+    "Investors anchoring on forward non-GAAP P/E systematically overpay during commodity inflation",
+    "S&P 500 Industrials: 15% revenue growth, 12% EBITDA growth, but only 6% OCF growth during 2021-23"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Is SEC scrutiny of non-GAAP adjustments increasing post-2022?",
+    "Can quantitative screens systematically detect flattering adjustments?",
+    "What is the typical reversion timeline for adjustment ratios?"
+  ],
+  "related_concepts": [
+    "lifo_fifo_earnings_distortion",
+    "working_capital_inflation_channel",
+    "ocf_revenue_passthrough_diagnostic"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

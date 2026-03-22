@@ -1,0 +1,27 @@
+{
+  "slug": "tiered_lag_transmission_framework",
+  "purpose": "Map the expected timing sequence of commodity-inflation transmission for monitoring and positioning, while acknowledging that specific timing windows are imprecise.",
+  "components": [
+    "Tier 1 — Energy direct (1-3 months): gasoline, heating, electricity",
+    "Tier 2 — Food and goods (3-12 months): farm-gate to retail food, manufactured goods, energy-food circular dependence via fertilizer",
+    "Tier 3 — Services and wages (6-36 months): services ex-shelter, rent/OER, wage negotiations",
+    "Tier 4 — Corporate hedging rolloff: predictable second-wave cost mechanism as hedges expire",
+    "Firm-level validation: equity_analyst_02's three-tier decomposition (0-1, 2-4, 4-8 quarters)",
+    "Warning: 90% CI for energy-to-CPI spans 1-14 months — use as ordering framework, not timing tool"
+  ],
+  "current_assessment": "The tiered structure is well-established as a qualitative ordering. The 2021-23 episode provides the clearest modern template: goods peaked Q1 2022, services ex-shelter Q3 2022, shelter Q1 2023. However, specific timing is too imprecise for most investment decision horizons.",
+  "limitations": [
+    "Specific timing windows carry wide confidence intervals (90% CI: 1-14 months for energy-to-CPI)",
+    "Timing varies significantly by episode in ways that preclude precise forecasting",
+    "Corporate hedging rolloff timing depends on firm-specific hedge tenors",
+    "Passthrough illusion hypothesis suggests tiered lags may mimic second-round breadth, confusing diagnosis"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

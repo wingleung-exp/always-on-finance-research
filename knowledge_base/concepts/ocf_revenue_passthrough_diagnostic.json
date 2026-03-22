@@ -1,0 +1,32 @@
+{
+  "slug": "ocf_revenue_passthrough_diagnostic",
+  "definition": "The OCF/revenue growth ratio with an approximate 1.0x threshold serves as a firm-level diagnostic for genuine vs reported commodity cost passthrough. Below 1.0x indicates reported margins overstate actual passthrough. S&P 500 Industrials showed ~0.4x during 2021-23 despite ~15% revenue growth.",
+  "confidence": 6,
+  "evidence": [
+    "Accounting identity: earnings = cash flow ± accruals, so cash conversion reveals real passthrough",
+    "S&P 500 Industrials: OCF/revenue growth ~0.4x during 2021-23 despite ~15% revenue growth",
+    "Threshold is approximate and sector-dependent",
+    "Pair_1 debate confirmed framework as directionally robust"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "How should the 1.0x threshold be calibrated by sector?",
+    "Does the diagnostic work for services firms or primarily goods/manufacturing?",
+    "How do changes in trade credit terms affect the ratio interpretation?"
+  ],
+  "related_concepts": [
+    "lifo_fifo_earnings_distortion",
+    "working_capital_inflation_channel",
+    "non_gaap_adjustment_widening"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

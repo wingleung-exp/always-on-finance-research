@@ -1,0 +1,32 @@
+{
+  "slug": "passthrough_illusion_hypothesis",
+  "definition": "Staggered first-round lags across sectors can create an inflation breadth signal that mimics genuine second-round effects, potentially trapping central banks into over-tightening. A plausible but unestablished hypothesis — fitting a 5-stage model to 2-3 observations exceeds degrees of freedom. Current evidence cannot distinguish lagged first-round passthrough mimicking breadth from genuine second-round broadening.",
+  "confidence": 5,
+  "evidence": [
+    "ECB 2023 Economic Bulletin cited as supporting evidence",
+    "2021-23 sequence (goods → services → shelter) consistent with either interpretation",
+    "Challenger_02 overfitting critique applies: 5-stage model from 2-3 observations",
+    "Pair_3 debate status: plausible hypothesis (~5/10), not established mechanism"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Can sector-level leading indicators distinguish genuine second-round effects from lagged first-round?",
+    "Does this hypothesis imply central banks systematically over-tighten during commodity shocks?",
+    "What cross-country evidence would help adjudicate?"
+  ],
+  "related_concepts": [
+    "multi_stage_lag_structure",
+    "second_round_effects_base_rate",
+    "look_through_doctrine_state_contingent"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}

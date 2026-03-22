@@ -1,0 +1,37 @@
+{
+  "slug": "second_round_effects_base_rate",
+  "definition": "Second-round effects (commodity → wages → broad inflation) occur in approximately 15-30% of major commodity shock episodes in modern advanced economies. The low base rate reflects institutional constraints: US union density ~10%, COLA coverage <10%, decentralized wage bargaining. The 2021-22 partial activation under unprecedented fiscal-monetary stimulus makes generalizability uncertain.",
+  "confidence": 8,
+  "evidence": [
+    "Historical count: 1/7 episodes (14%) to 2/7 (29%), refined to 0.5-1.5/7 (7-21%) after debate",
+    "US wage growth tracked labor tightness (Phillips Curve) not commodity prices (correlation ~0.15 with 6-month lag, statistically insignificant)",
+    "Eurozone negotiated wages showed direct lagged response to energy prices — institutional channel matters",
+    "Every non-activation episode had either labor market slack (2010-11: 9% UE) or counteracting demand shock (2007-08: GFC)",
+    "1970s COLA coverage ~60% of union workers — structural channel no longer exists"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02",
+    "rates_strategist_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Was 2021-22 partial activation an artifact of unprecedented policy or a genuine behavioral shift?",
+    "Is 7-episode sample sufficient for reliable base rate estimation?",
+    "Do discriminant variables (union density, COLA, expectations, labor tightness, fiscal co-movement) allow ex ante prediction?"
+  ],
+  "related_concepts": [
+    "regime_dependent_passthrough_coefficients",
+    "central_bank_credibility_anchoring",
+    "small_sample_overconfidence",
+    "stock_bond_correlation_commodity_channel"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-22T19:02:28Z",
+  "last_updated": "2026-03-22T19:02:28Z",
+  "originating_iteration": "iter_0005",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0005"
+  ]
+}
