@@ -1,0 +1,37 @@
+[
+  {
+    "claim": "Gold model residual ($900-1,100/oz above real-rate fair value) serves as a quantitative measure of FX system fragmentation, correlating r=0.80 with cumulative central bank gold purchases since 2022.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Decomposition of the gold residual into geopolitical risk premium, retail demand, speculative flows, and FX fragmentation components. Independent corroboration from non-gold indicators of system fragmentation. The single-agent r=0.80 claim requires validation across different model specifications."
+  },
+  {
+    "claim": "Export ban contagion is the most under-modeled tail risk in FX-rates divergence, with game-theoretic cascade mechanics across food-exporting nations.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Formal game-theoretic modeling with calibrated payoffs. Systematic ranking against other tail risks to validate the 'most under-modeled' claim. Out-of-sample evidence beyond the three confirming episodes (2007-08, 2010-11, 2022), each of which had significant confounding factors."
+  },
+  {
+    "claim": "FX-unhedged Treasury holdings by Japanese institutions create dual fragility with the domestic basis trade, risking a pro-cyclical doom loop in the benchmark safe asset under a Fed-cuts/BoJ-hikes scenario.",
+    "source_agent": "risk_analyst_01",
+    "needs": "Observable rather than estimated data on the magnitude of unhedged Japanese UST holdings. Stress testing of the combined scenario (foreign unhedged sellers + domestic basis trade unwind). More rigorous historical precedent analysis beyond the partial March 2020 example."
+  },
+  {
+    "claim": "Carry factor crowding is currently elevated in the top quartile of historical observations, with 60% conditional probability of negative carry returns.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Broader positioning data beyond CFTC futures (which cover only a fraction of actual FX exposure). The 60% conditional probability barely exceeds the unconditional base rate, undermining the signal's value. Pair_2 debate judged this 'a qualitative heuristic dressed up as a quantitative finding.'"
+  },
+  {
+    "claim": "Agricultural seasonality creates a predictable 'carry fragility window' during Northern Hemisphere growing season (June-August).",
+    "source_agent": "commodities_analyst_02",
+    "needs": "More than 3 cited episodes (2010, 2012, 2022) over 12 years, each with heavy confounding factors (Russian geopolitics, US drought, Ukraine war). Formal separation from quarter-end rebalancing and summer liquidity thinning as alternative explanations. Out-of-sample testing across multiple agricultural cycles."
+  },
+  {
+    "claim": "Fed regime conditions ALL FX factor returns (carry, value, momentum) \u2014 not just carry \u2014 with statistically different return distributions across Fed policy regimes.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Sufficient number of complete Fed rate cycles in the modern floating-rate sample to achieve statistical power. The carry conditioning on the 'hold' regime (Sharpe 0.6-0.8) is well-documented; the value and momentum conditioning requires independent confirmation with larger samples."
+  },
+  {
+    "claim": "EM carry should be decomposed into pure carry (2-3%), sovereign credit (2-4%), convertibility risk (1-3%), and liquidity premium (1-2%), with 40-60% of total return attributed to credit/institutional risk.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Formal decomposition methodology rather than assertion. The specific percentage allocations could range from 25-75% depending on the currency and time period. Country-specific calibration across multiple EM currencies. The conceptual framework is valuable but the quantitative estimates are unsubstantiated."
+  }
+]

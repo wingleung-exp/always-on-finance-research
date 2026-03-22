@@ -1,0 +1,14 @@
+The extraction JSON is already complete and validated at `/data/.openclaw/workspace/finance_research/outputs/iteration_iter_0006/phase4/extraction.json` (898 lines, valid JSON).
+
+Quick audit against the synthesis:
+- **23 concepts**: All 10 HIGH_CONFIDENCE + all 13 MODERATE_CONFIDENCE items captured with correct confidence scores, evidence, agents, and cross-references
+- **17 relationships**: Covers the key causal/correlative linkages with regime dependence annotations
+- **7 frameworks**: Carry unwind sequence, VTA BoJ normalization, structural/cyclical taxonomy, EM twin deficit filter, G10 FX PCA decomposition, FX vol threshold model, carry-commodity reflexive loop
+- **8 agents in provenance**: All accounted for; quant_researcher_01 has perfect 8/8 survival, commodities_analyst_01 5/5; risk_analyst_01 weakest at 6/8
+- **10 anti_knowledge**: All REFUTED items including DXY super-cycles (Monte Carlo p=0.22), crisis carry Sharpe overstatement (2-3x), and false-precision peg-break probabilities
+- **7 low_confidence**: All LOW_CONFIDENCE items with specific corroboration needs
+
+The file is at:
+```
+outputs/iteration_iter_0006/phase4/extraction.json
+```

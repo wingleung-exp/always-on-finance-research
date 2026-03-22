@@ -1,0 +1,74 @@
+[
+  {
+    "claim": "The CIP basis is a reliable 1-3 day leading indicator for cross-asset stress.",
+    "reason": "Self-contradictory assessment: rated 8/10 while simultaneously flagging need for 'more rigorous testing.' Leading indicator property holds only at extreme levels (-80bp+), making it a crisis indicator, not a general leading indicator. Mechanism survives at 8/10; leading indicator property revised to 5/10.",
+    "refuted_by": [
+      "generalist_01",
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The EM carry basket (long BRL/MXN, short TRY/INR) provides a 'built-in hedge' against dollar-commodity dynamics.",
+    "reason": "Correlation structure between long and short legs is regime-dependent. During March 2020 liquidity events, the BRL-TRY spread compressed as all EM currencies sold off together. The hedge fails precisely in the tail events it is designed to protect against.",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The DXY exhibits statistically significant 15-17 year super-cycles.",
+    "reason": "Monte Carlo permutation test yields p=0.22 with zero residual degrees of freedom (3 observed cycles, 3 estimated parameters). Hurst exponent of 0.62 shows mild mean-reversion consistent with PPP, not cyclicality. Dollar super-cycle is a narrative organizing device, not a statistical finding. Any strategy built on 'the dollar cycle' should be discounted.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ]
+  },
+  {
+    "claim": "The Bundesbank post-reunification tightening (1990-92) is 'the closest historical analogue' to BoJ normalization.",
+    "reason": "Fundamental differences: Bundesbank tightened aggressively into a fixed exchange rate regime (ERM); BoJ is normalizing glacially in a free-floating regime. The ERM crisis was about institutional incompatibility; BoJ normalization is about catch-up. The originator's own 2004-07 analogue (7.5 similarity) is actually better than the Bundesbank (6.0). Downgraded from 7/10 to 5/10 (illustrative only).",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "Carry is 'the single most potent generator of leveraged positioning in global markets.'",
+    "reason": "The Treasury basis trade ($800B-$1T at 50-100x leverage), equity margin lending, credit derivatives, and interest rate swaps all generate more leveraged positioning by notional. FX carry is a significant source of leveraged positioning but calling it the most potent is unsupported hyperbole.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "The dollar smile theory is 'unfalsifiable.'",
+    "reason": "The framework is falsifiable in specific form \u2014 it predicts dollar weakness in moderate economic conditions. The low predictive value critique survives; the unfalsifiability claim does not. The dollar smile is hard to test and low-information, but not impossible to test.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Crisis-regime carry Sharpe ratio of -1.0 to -2.0.",
+    "reason": "Conflates individual pair-level blowups (USD/JPY October 1998) with diversified G10 HML carry factor returns. Actual factor data shows mean -1.18%/month above vol threshold with max -12.3% single month, which is more consistent with diversified factor returns. Original claim overstated severity by approximately 2-3x.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "pair_2_debate"
+    ]
+  },
+  {
+    "claim": "Stocks-to-use ratios in key grains predict CIP deviations with 3-6 month lead.",
+    "reason": "Conflates correlation during extreme events with systematic prediction. CIP deviations have well-established financial explanations (Basel III balance sheet constraints) that must be ruled out before positing agricultural causes. Cherry-picked examples from Chile/copper and Brazil/soybeans. Remains an untested hypothesis requiring out-of-sample validation.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  },
+  {
+    "claim": "Specific peg-break probability estimates: HKD 5-8%, CNY 3-5%, SAR 2-4%.",
+    "reason": "False precision without disclosed methodology. Inconsistent with Meese-Rogoff finding that no model demonstrates forecasting skill at these horizons. The qualitative vulnerability assessment (which pegs are stressed and why) survives; the specific probability numbers are unsupported.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Food inflation '2-4x multiplier' from EM vs DM rate differential shifts.",
+    "reason": "Too imprecise to be analytically useful. Egypt implies a multiplier far exceeding 4x; Brazil might produce barely 1.5x given food self-sufficiency. The directional claim is correct but the quantification compresses a highly nonlinear, country-specific relationship into a misleading single range.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  }
+]

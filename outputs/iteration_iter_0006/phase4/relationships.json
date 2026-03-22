@@ -1,0 +1,236 @@
+[
+  {
+    "concept_a": "uip_failure",
+    "concept_b": "carry_trade_negative_skewness",
+    "mechanism": "UIP failure creates the carry premium \u2014 high-rate currencies do not depreciate as theory predicts. The premium compensates for crash risk, generating the observed negative skewness and fat tails. The premium exists because of the tail risk, not despite it (Brunnermeier-Nagel-Pedersen 2009, Farhi-Gabaix 2016).",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds universally but magnitude of skewness increases during extreme rate divergence and crowded positioning. The crash risk premium may vary with the size of the carry pool.",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "dm_rate_divergence_current",
+    "concept_b": "carry_unwind_sequence",
+    "mechanism": "Extreme rate divergence (top quartile of historical observations) attracts crowded carry positioning. Historical base rate: top-quartile divergence raises probability of 15%+ annual G10 pair move from 22% to 33%. Both prior comparable periods (2006-07, 2018-19) preceded violent carry reversals.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Relationship strengthens non-linearly at extremes. Moderate divergence can persist without triggering unwinds; extreme divergence compresses the spring. The trigger timing is unpredictable even when conditions are ripe.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "boj_normalization_asymmetric_risk",
+    "concept_b": "carry_unwind_sequence",
+    "mechanism": "BoJ rate hikes trigger the reflexive loop: JPY appreciation causes carry losses which force position liquidation which causes further JPY appreciation. August 2024 demonstrated: a 15bp hike triggered VIX >65 and Nikkei -12%. The absence of a natural circuit breaker means small triggers can cascade into the full unwind sequence.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on JPY carry position size and concentration. If August 2024 liquidated the majority, subsequent hikes have less impact. If only 30-40% cleared, vulnerability persists.",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "commodity_terms_of_trade_fx_driver",
+    "concept_b": "local_currency_cost_curves",
+    "mechanism": "Producer-currency depreciation lowers local-currency production costs, keeping marginal supply online in USD terms. This caps commodity price rises (stabilizing) but perpetuates producer-currency weakness (destabilizing for FX). The negative feedback loop for commodities is a positive (destabilizing) feedback loop for producer currencies.",
+    "direction": "bidirectional",
+    "confidence": 8.5,
+    "regime_dependence": "Strongest during USD strength regimes. Partially offset when imported inputs (energy, equipment) are a large share of production costs. Magnitude varies by commodity and producing country.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "fx_vol_carry_threshold",
+    "concept_b": "carry_trade_negative_skewness",
+    "mechanism": "The 9.5% realized vol threshold separates positive carry (+0.58%/month) from negative carry (-1.18%/month) regimes. The negative regime above threshold generates the fat-tail losses that produce the overall negative skewness in unconditional carry return distributions.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Partially tautological since carry drawdowns mechanically produce volatility. Threshold has wider confidence intervals post-2015. Vol-of-vol may be a better discriminant than vol level.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "carry_unwind_sequence",
+    "concept_b": "carry_momentum_correlation_flip",
+    "mechanism": "During the cascade stages of carry unwinds, momentum signals reverse simultaneously with carry positions. The correlation flips from -0.3 to +0.6, eliminating the diversification benefit of multi-factor FX portfolios precisely during the sudden-stop episodes that determine long-run wealth.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "The flip occurs specifically during sudden stops (1998, 2007, 2008, 2024). Gradual carry deterioration may preserve the negative correlation between factors.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "cip_basis_post_gfc",
+    "concept_b": "rate_differential_fx_explanatory_power",
+    "mechanism": "The structural CIP basis acts as a hidden tax of 15-50bp on hedged foreign demand for US assets. Headline rate differentials overstate true carry for non-US investors, meaning the theoretical arbitrage linkage between rates and FX is structurally impaired. This contributes to the low R-squared of rate differentials for FX.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Persistent post-GFC due to regulatory structure. Widens at quarter-end and during stress, temporarily further reducing the rate-FX linkage.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "lng_eur_usd_structural_shift",
+    "concept_b": "rate_differential_fx_explanatory_power",
+    "mechanism": "The $40-50bn/year structural USD demand shift from LNG creates a non-rate-driven flow channel that moves EUR/USD. This additional structural factor reduces the residual variance that rate differentials could potentially explain, as energy price spikes now systematically weaken EUR independent of interest rate dynamics.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Permanent structural change post-2022. Magnitude spikes during cold snaps, geopolitical energy disruptions, or tight global LNG markets.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "energy_bop_jpy_driver",
+    "concept_b": "boj_normalization_asymmetric_risk",
+    "mechanism": "Energy import flows ($8-12bn/month) can overwhelm speculative carry flows ($3-5bn/month), meaning JPY dynamics are substantially determined by energy prices regardless of BoJ policy. The yen safe-haven property is rate-environment-contingent, complicating BoJ normalization calculus since energy shocks can offset or amplify rate policy effects.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest during energy price spikes. Nuclear restarts and renewable buildout could reduce Japan's energy import sensitivity over time.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "structural_vs_cyclical_divergence",
+    "concept_b": "dm_rate_divergence_current",
+    "mechanism": "Whether current divergence is structural or cyclical determines expected FX move magnitude and duration. Structural classification implies 25-50% moves over 2-4 years; cyclical implies 10-20% reverting in 12-18 months. The current mixed configuration (ECB cyclical, BoJ possibly structural) requires pair-specific rather than aggregate analysis.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Framework is most valuable early in a divergence episode when the classification is hardest to make. Small sample of 8 episodes limits statistical confidence.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "rate_fx_endogeneity",
+    "concept_b": "uip_failure",
+    "mechanism": "If rates and FX are jointly determined by common shocks in a simultaneous system, the Fama regression beta is biased. UIP 'failure' may partly reflect a misspecified econometric test rather than a genuine market anomaly. The endogeneity problem undermines the empirical foundation of UIP testing and carry strategy design.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Most severe for EM currencies where rates respond endogenously to FX moves (Turkey, Brazil). Less problematic for G10 where monetary policy has more independence from exchange rate considerations.",
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "ppp_long_run_anchor",
+    "concept_b": "meese_rogoff_random_walk",
+    "mechanism": "PPP provides the one robust exception to Meese-Rogoff: meaningful predictive power at 5+ year horizons (R-squared up to 28% at 10Y) while being useless short-term (R-squared 0.8% at 1Y). The two findings are complementary: FX is unpredictable in the short term but mean-reverts to fundamental value over the long term.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "PPP reversion may be faster from extreme overvaluations and slower from moderate ones. Balassa-Samuelson effects introduce noise for EM currencies.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "em_twin_deficit_vulnerability",
+    "concept_b": "carry_unwind_sequence",
+    "mechanism": "EM currencies with twin deficits >5% of GDP have a 70-80% probability of >20% depreciation during DM tightening. Twin-deficit countries enter carry unwinds as the weakest links, their depreciation amplifying the cascade as it triggers further positioning liquidation and contagion to other EM currencies.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Activated specifically during DM tightening cycles. During easing cycles, twin-deficit countries may attract carry inflows rather than suffer outflows. Reserve adequacy moderates the vulnerability.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "agricultural_biological_lag",
+    "concept_b": "commodity_terms_of_trade_fx_driver",
+    "mechanism": "The USD self-correcting loop (strong dollar moderates commodity prices which eases FX pressure) works for energy via rapid supply response but breaks for agriculture due to 6-18 month biological growing constraints. Agricultural price persistence extends FX pressure on food-importing EM currencies beyond what energy-only commodity-FX models predict.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Most impactful during simultaneous energy and food price shocks. The asymmetry is greatest during NH planting and growing seasons when supply cannot respond to price signals.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "g10_fx_pca_structure",
+    "concept_b": "carry_trade_negative_skewness",
+    "mechanism": "PC1 (dollar factor) accounting for 50-70% of variance means carry portfolios are heavily exposed to a single risk factor regardless of pair count. Stress-period dimensionality collapse (correlations to 0.85+) concentrates all pairs onto a single factor, explaining why nominally diversified carry portfolios experience extreme drawdowns.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Dimensionality collapse is specifically a stress phenomenon. During calm markets, effective independent risk factors approach 2-3, providing some diversification benefit.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "cross_currency_basis_warning",
+    "concept_b": "cip_basis_post_gfc",
+    "mechanism": "The cross-currency basis is the observable manifestation of CIP deviations. Widening beyond the structural post-GFC level (past -40bp threshold) signals acute dollar funding stress layered on top of the permanent regulatory premium. The structural post-GFC level provides the baseline against which stress signals are measured.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "The -40bp stress threshold assumes the current regulatory regime. Changes to Basel III or central bank swap line access could shift the threshold upward or downward.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "concept_a": "dollar_trap_tension",
+    "concept_b": "ppp_long_run_anchor",
+    "mechanism": "PPP signals 15-25% USD overvaluation implying long-term mean-reversion, but the dollar trap's Mundell-Fleming dynamics (fiscal deficit attracts capital inflows keeping dollar strong) can sustain overvaluation beyond PPP half-life estimates. The Triffin dimension suggests eventual resolution but the timing remains undetermined.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Tension persists as long as USD reserve status is intact. A shift in reserve composition, dedollarization, or fiscal crisis could accelerate PPP reversion.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  }
+]

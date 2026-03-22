@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "carry_unwind_sequence_framework",
+    "purpose": "Identify the current stage of a carry buildup-unwind cycle and distinguish contained from systemic episodes using real-time observables.",
+    "components": [
+      "Stage 1: Gradual carry accumulation with rising position concentration",
+      "Stage 2: Volatility compression as carry supply suppresses realized vol",
+      "Stage 3: Positioning crowding reaches detectable extremes (CFTC data, option skew)",
+      "Stage 4: Exogenous trigger event (policy surprise, geopolitical shock)",
+      "Stage 5: Margin-call / stop-loss cascade with funding currency surge",
+      "Stage 6: Cross-asset contagion as carry-equity correlations spike to 0.7-0.8",
+      "Credit-cycle discriminator: contained (2013, 2018, Aug 2024) vs systemic (1998, 2008) depends on whether carry event coincides with a credit cycle turning point \u2014 monitor IG/HY spreads concurrently"
+    ],
+    "current_assessment": "As of early 2026, the system appears in Stage 2-3 for JPY carry: high positioning, compressed vol, extreme rate divergence (85th-97th percentile). August 2024 may have partially cleared 30-60% of positions, but vulnerability persists if the remainder is large. Current IG/HY spreads do not indicate a credit cycle turning point, suggesting a contained rather than systemic outcome if triggered.",
+    "limitations": [
+      "Only 6 well-documented episodes \u2014 small sample limits statistical inference",
+      "True position size is unobservable (CFTC covers a fraction of actual FX exposure)",
+      "The credit-cycle discriminator requires identifying the credit turning point in real-time, which is itself difficult",
+      "Stage identification is clearer ex post than ex ante",
+      "The sequence assumes a sudden trigger \u2014 gradual normalization may bypass the cascade entirely"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "vta_boj_normalization_framework",
+    "purpose": "Decompose BoJ normalization tail risk into Vulnerability, Trigger, and Amplification components for structured scenario analysis and monitoring.",
+    "components": [
+      "Vulnerability assessment: JPY carry position size ($500B-$4T range), leverage concentration, duration mismatch, opacity of true exposure",
+      "Trigger identification: BoJ rate hike magnitude and pace, JPY appreciation past technical levels, exogenous risk-off event forcing yen short covering",
+      "Amplification mechanism: Reflexive loop (hike -> appreciation -> carry losses -> forced unwind -> more appreciation), cross-asset contagion via equity and credit correlations, absence of a natural circuit breaker",
+      "Historical calibration: August 2024 foreshock (15bp -> VIX >65, Nikkei -12%), Danish Maastricht 1992 analogy for foreshock/mainshock dynamics"
+    ],
+    "current_assessment": "Vulnerability remains elevated despite August 2024 partial clearing. BoJ at 0.50% with gradual normalization path signals further hikes ahead. The August 2024 rapid recovery is interpreted as repositioning rather than resolution \u2014 consistent with the foreshock analogy. The key monitoring variables are BoJ policy rate trajectory, G10 FX realized vol (current 7-9%, near the 9.5% threshold), and cross-currency basis levels.",
+    "limitations": [
+      "Position size estimates span an order of magnitude ($500B to $4T)",
+      "BoJ has been the graveyard of hawkish forecasts for 30 years \u2014 normalization may stall again",
+      "Bundesbank analogue was downgraded from 7/10 to 5/10 as institutional context differs fundamentally",
+      "The rapid August 2024 recovery makes it difficult to assess how much vulnerability was actually cleared"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "structural_vs_cyclical_taxonomy",
+    "purpose": "Classify rate divergence episodes as structural or cyclical to determine expected FX move magnitude, duration, and appropriate portfolio positioning.",
+    "components": [
+      "Structural divergence: fundamentally different economic regimes (e.g., BoJ zero-rate vs Fed restrictive) -> 25-50% FX moves over 2-4 years, unlikely to mean-revert without regime change",
+      "Cyclical divergence: same direction, different timing (e.g., ECB lagging Fed cuts) -> 10-20% FX moves reverting in 12-18 months as cycles re-sync",
+      "Diagnostic criteria: duration of underlying economic divergence, policy framework differences, structural imbalance persistence, labor market and inflation regime comparison",
+      "Mixed configurations: current example has ECB leg likely cyclical, BoJ leg possibly structural \u2014 requires pair-specific rather than aggregate analysis"
+    ],
+    "current_assessment": "The ECB-Fed gap reflects cyclical timing (both trending toward neutral, ECB faster) implying EUR/USD moves of 10-20% with 12-18 month reversion. The BoJ-Fed gap may be structural (fundamentally different policy frameworks stemming from different inflation and demographic regimes) implying USD/JPY moves of 25-50% over 2-4 years. The mixed classification makes aggregate FX risk assessment difficult.",
+    "limitations": [
+      "Only 8 episodes classified \u2014 too small for robust statistical inference",
+      "Classification is most valuable early in an episode when it is hardest to determine",
+      "Mixed configurations reduce framework precision and require pair-specific analysis",
+      "No formal diagnostic criteria established \u2014 relies on qualitative judgment",
+      "Structural can become cyclical (or vice versa) as conditions evolve"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "em_twin_deficit_filter",
+    "purpose": "Screen EM currencies for ex ante vulnerability to depreciation during DM tightening cycles using balance-sheet and flow indicators.",
+    "components": [
+      "Current account deficit as percentage of GDP (contributes to twin deficit threshold of >5% combined)",
+      "Fiscal deficit as percentage of GDP (contributes to twin deficit threshold)",
+      "Short-term external debt to reserves ratio (high ratio indicates rollover vulnerability)",
+      "Reserve adequacy in months of import cover (current EM median ~7 months vs ~5 in 2013)",
+      "Complementary exporter/importer filter to capture terms-of-trade channel alongside balance-sheet channel"
+    ],
+    "current_assessment": "Current EM fundamentals are broadly stronger than the 2013 taper tantrum baseline. However, pockets of vulnerability persist: Egypt, Turkey, and Pakistan exhibit twin-deficit characteristics. The complementary exporter/importer filter identifies additional terms-of-trade vulnerabilities. The 70-80% hit rate across 5 episodes provides a useful but imperfect screening tool.",
+    "limitations": [
+      "70-80% hit rate means 20-30% false positive rate",
+      "Thresholds may need adjustment for countries with large sovereign wealth funds",
+      "Does not capture political and institutional risk (capital controls, central bank independence)",
+      "Historical sample is dominated by a few large episodes and may not capture novel stress channels"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "g10_fx_pca_decomposition",
+    "purpose": "Assess true portfolio diversification and risk factor concentration in G10 FX strategies to avoid overstating diversification benefits.",
+    "components": [
+      "PC1 (dollar factor): 50-70% of G10 FX variance \u2014 the dominant and inescapable risk factor",
+      "PC2 (carry factor): 15-20% \u2014 the factor carry strategies explicitly target",
+      "PC3 (momentum factor): 8-12% \u2014 secondary factor with conditional correlation to carry",
+      "Stress-period dimensionality collapse: correlations spike to 0.85+, effective independent factors approach 1",
+      "Portfolio implication: 9 G10 carry pairs contain only 2-3 independent risk factors"
+    ],
+    "current_assessment": "Managers running diversified G10 carry portfolios have significantly less diversification than pair count suggests. Stress-period dimensionality collapse means the worst-case scenario is effectively a single-factor bet on the dollar. This is a risk decomposition tool, not a forecasting tool \u2014 it does not help predict the dollar's direction.",
+    "limitations": [
+      "Does not predict the dollar direction \u2014 purely a risk management framework",
+      "PC loadings may shift across monetary policy regimes",
+      "Does not capture non-linear tail dependencies that exceed what PCA implies",
+      "Stress-period loadings estimated from rare events with limited observations"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "fx_vol_threshold_model",
+    "purpose": "Provide a real-time monitoring threshold for switching between carry-favorable and carry-adverse FX regimes.",
+    "components": [
+      "Threshold level: ~9.5% G10 FX realized volatility (Hansen threshold regression, p<0.01)",
+      "Below threshold regime: carry +0.58%/month (t=3.87, n=360 months) \u2014 positive expected returns",
+      "Above threshold regime: carry -1.18%/month (t=-2.11, n=144 months) \u2014 negative expected returns",
+      "Current reading: G10 FX vol at 7-9%, near the threshold \u2014 knife-edge positioning",
+      "Vol-of-vol as supplementary monitoring metric, potentially more informative than vol level post-2015"
+    ],
+    "current_assessment": "Current G10 FX volatility near the 9.5% threshold creates a knife-edge situation. The model suggests carry remains favorable but with minimal margin of safety. The practical question of whether you can get out before the drawdown remains unresolved \u2014 the vol signal may arrive after most damage has already occurred.",
+    "limitations": [
+      "Partially tautological: carry drawdowns mechanically produce volatility, so conditioning on vol is partly conditioning on the outcome",
+      "Threshold has wider confidence intervals post-2015",
+      "Out-of-sample improvement from vol timing is near zero according to some analysts",
+      "Moreira & Muir (2017) show only modest 0.1-0.2 Sharpe improvement, contested by others",
+      "The vol signal typically arrives after most drawdown damage has already occurred"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  },
+  {
+    "slug": "carry_commodity_reflexive_loop",
+    "purpose": "Map the cross-asset contagion mechanism between FX carry positioning and commodity markets for integrated risk monitoring.",
+    "components": [
+      "CFTC positioning correlations: r=0.50-0.60 between commodity longs and JPY shorts indicate correlated speculative exposure",
+      "Carry unwind trigger: forced liquidation of carry positions triggers correlated commodity position unwinding",
+      "Commodity price decline amplifier: commodity weakness hits exporter currencies, triggering further carry losses",
+      "Local-currency cost curve stabilizer: producer-currency weakness caps commodity downside but perpetuates FX weakness",
+      "August 2024 as confirming episode of the full reflexive loop in action"
+    ],
+    "current_assessment": "The commodity-carry nexus is currently active given elevated rate divergence and correlated positioning in JPY shorts and commodity longs. The loop can operate in both directions: commodity weakness triggering carry unwinds, and carry unwinds triggering commodity position liquidation. Cross-asset monitoring is essential.",
+    "limitations": [
+      "CFTC data covers only a fraction of total FX and commodity positioning",
+      "Correlation between commodity and FX positioning may reflect common cause (risk appetite) rather than direct cross-market linkage",
+      "Local-currency cost curve offset varies significantly by commodity and producer country",
+      "August 2024 episode was brief \u2014 longer episodes may propagate differently"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0006"
+  }
+]
