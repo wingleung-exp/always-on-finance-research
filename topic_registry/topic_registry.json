@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T17:50:48Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -197,13 +197,19 @@
     "labor_market_dynamics": {
       "category": "macro_frameworks",
       "display_name": "Labor Market Structure & Wage Dynamics",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 2.0,
-      "research_count": 0,
+      "last_researched": "2026-03-22T17:50:48Z",
+      "depth_level": 1,
+      "confidence_score": 6.5,
+      "research_count": 1,
       "knowledge_gaps": [
-        "Immigration impact on labor supply elasticity",
+        "Gig/contractor W-2 to 1099 reclassification flatters operating margins without changing economic costs",
+        "US rate hikes may paradoxically support domestic labor demand on net via strong dollar terms-of-trade effect (cheap imports → consumer purchasing power → sustained labor demand)",
+        "Sectoral wage dispersion (services ~4.5-5% vs. goods ~3-3.5%) creates a within-quadrant factor rotation signal where quality/low-labor-intensity factors outperform when dispersion is wide",
+        "AI displacement combined with immigration restriction creates a segmented labor market (white-collar excess, blue-collar shortage) with sticky services inflation despite stable headline unemployment",
+        "Japan's Shunto wage dynamics are the most important structural FX story in G10 — if 5%+ wage growth sustains, BoJ normalization narrows USD/JPY carry structurally",
+        "Remote work creates Dutch Disease dynamics in small EM economies where USD-denominated income bids up skilled labor costs, crowding out local tradables",
         "Remote work structural productivity effects",
+        "Immigration impact on labor supply elasticity",
         "Wage-price spiral risk under current conditions"
       ],
       "connections": [
@@ -217,9 +223,27 @@
         "labor_force_participation"
       ],
       "key_concepts": [
+        "commodity_em_labor_procyclicality",
+        "credit_leads_labor_sequencing",
+        "cross_asset_pricing_inconsistency",
+        "em_informal_sector_bifurcation",
+        "immigration_labor_supply_expansion",
+        "immigration_reversal_shock",
+        "kalecki_fiscal_labor_support",
+        "labor_data_revision_risk",
+        "labor_hoarding",
+        "labor_hoarding_cliff_risk",
+        "labor_market_stagflation_fulcrum",
+        "nairu_estimate_uncertainty",
         "natural_rate_unemployment",
+        "phillips_curve_regime_dependence",
+        "sbc_earnings_degradation",
+        "services_dominance_labor_cost",
+        "stock_bond_correlation_labor_driven",
+        "unit_labor_cost_margin_driver",
+        "us_labor_tightness_dollar_em_flows",
         "wage_price_spiral",
-        "labor_hoarding"
+        "wage_price_spiral_base_case_rejection"
       ]
     },
     "yield_curve_dynamics": {

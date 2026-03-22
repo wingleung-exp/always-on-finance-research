@@ -1,0 +1,36 @@
+{
+  "slug": "unit_labor_cost_margin_driver",
+  "definition": "Unit labor cost growth (ULC = compensation/hour ÷ output/hour) is the dominant variable for equity margins and valuations. With labor compensation at 55-60% of corporate costs, ULC mechanically governs margins through a dual channel (margins + discount rate). The ~3.5% threshold above which margin expansion becomes impossible without productivity acceleration is well-grounded.",
+  "confidence": 8,
+  "evidence": [
+    "Labor compensation at 55-60% of corporate costs",
+    "Dual-channel effect (margins + discount rate) uncontested",
+    "~3.5% ULC threshold for margin expansion is well-grounded",
+    "pair_1 debate confirmed convergence between both equity agents"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Current ULC growth rate disputed: ~2.0-2.5% (equity_analyst_01) vs. ~3.5-4.5% (equity_analyst_02); true figure estimated at ~2.5-3.0%",
+    "How does SBC factor into ULC measurement?",
+    "Can AI-driven productivity gains sustainably lower ULC?",
+    "Resolution requires pulling current vintage BLS nonfarm business sector ULC data"
+  ],
+  "related_concepts": [
+    "services_dominance_labor_cost",
+    "sbc_earnings_degradation",
+    "wage_price_spiral_base_case_rejection",
+    "labor_market_stagflation_fulcrum",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T17:50:48Z",
+  "originating_iteration": "iter_0003",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0003"
+  ]
+}

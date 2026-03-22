@@ -1,0 +1,27 @@
+{
+  "slug": "macro_regime_quadrant_labor_arbiter",
+  "purpose": "Classifies the macro regime into four quadrants (growth x inflation) using the labor market as the regime-determining variable, then maps to asset allocation and stock-bond correlation regime",
+  "components": [
+    "Quadrant 1: Strong growth + low inflation (goldilocks) — pro-risk, negative stock-bond correlation",
+    "Quadrant 2: Strong growth + high inflation (overheating) — real assets, inflation protection",
+    "Quadrant 3: Weak growth + high inflation (stagflation) — defensive, positive stock-bond correlation",
+    "Quadrant 4: Weak growth + low inflation (disinflation) — duration, negative stock-bond correlation",
+    "Labor determines quadrant via three channels: consumption floor (~70% GDP), ULC → services CPI transmission, Fed dual mandate reaction function",
+    "Within-quadrant factor rotation via sectoral wage dispersion (speculative)"
+  ],
+  "current_assessment": "Economy positioned near the bifurcation between Quadrant 1 (soft landing) and Quadrant 3 (stagflation). Cross-asset markets are pricing elements of both simultaneously, which is internally inconsistent. Immigration reversal is the key variable pushing toward stagflation.",
+  "limitations": [
+    "NAIRU uncertainty (CI: 4.3-7.3%) makes real-time quadrant identification unreliable",
+    "Labor data revision risk means the quadrant signal is lagged",
+    "Better as a regime indicator than a timing tool",
+    "Sectoral wage dispersion within-quadrant signals are uncorroborated"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T17:50:48Z",
+  "originating_iteration": "iter_0003",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0003"
+  ]
+}

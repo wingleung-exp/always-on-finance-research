@@ -1,0 +1,27 @@
+{
+  "slug": "wage_price_spiral_conjunctive_conditions",
+  "purpose": "Determines whether conditions for a demand-driven wage-price spiral are present by testing three jointly necessary conditions, providing a base-rate falsification framework",
+  "components": [
+    "Condition 1: Unemployment below 3.8%",
+    "Condition 2: Wage growth above 5%",
+    "Condition 3: Inflation expectations de-anchored",
+    "All three conditions must be simultaneously met (conjunctive test)",
+    "Institutional preconditions check: union density, COLA clause prevalence, Fed credibility",
+    "Validated across 8 post-1960 episodes"
+  ],
+  "current_assessment": "Current conditions meet 0 of 3 required conditions. The 2021-2023 natural experiment with 2 of 3 conditions produced no spiral. Residual tail probability estimated at 15-20% by one agent but partially refuted as internally inconsistent.",
+  "limitations": [
+    "Historical base rates may not capture novel institutional dynamics",
+    "Threshold values are themselves uncertain and regime-dependent",
+    "Does not account for potential new transmission mechanisms (social media, gig platforms)",
+    "Conjunctive framing may miss partial-condition scenarios with non-spiral but still-elevated inflation"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T17:50:48Z",
+  "originating_iteration": "iter_0003",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0003"
+  ]
+}

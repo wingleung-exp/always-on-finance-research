@@ -1,0 +1,39 @@
+{
+  "slug": "labor_hoarding_cliff_risk",
+  "definition": "Firms retaining excess workers (labor hoarding) creates fragility with potential nonlinear cliff risk rather than gradual cooling. Stable payrolls may be followed by sudden decompression if demand crosses a threshold. JOLTS signature: low layoffs ~1.0% alongside declining hires rate. Margin trigger estimated at ~8-9% S&P 500 net margin vs. current ~11-12%.",
+  "confidence": 6,
+  "evidence": [
+    "JOLTS data pattern: low layoffs ~1.0% alongside declining hires rate",
+    "Margin threshold trigger at ~8-9% S&P 500 net margin vs. current ~11-12%",
+    "Six agents converge on the mechanism",
+    "Labor hoarding is inferred from noisy productivity data, not directly measured"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_01",
+    "equity_analyst_02",
+    "challenger_02",
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Is hoarding inferred from noisy productivity data reliable?",
+    "If demand re-accelerates, does hoarded labor simply become productive, dissipating the risk?",
+    "Does survivorship bias (outcome-dependent relabeling of 'foresight' vs 'over-hiring') contaminate the evidence base?",
+    "How does maturity wall refinancing pressure interact with hoarding break timing?"
+  ],
+  "related_concepts": [
+    "kalecki_fiscal_labor_support",
+    "credit_leads_labor_sequencing",
+    "unit_labor_cost_margin_driver",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T17:50:48Z",
+  "originating_iteration": "iter_0003",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0003"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "nairu_estimate_uncertainty",
+  "definition": "NAIRU point estimates carry confidence intervals (Staiger-Stock-Watson 95% CI ~4.3-7.3%) so wide as to span the entire policy-relevant range, making real-time NAIRU-based analysis functionally useless for policy or portfolio positioning. CBO retrospective revisions to NAIRU have exceeded the deviations that triggered policy responses.",
+  "confidence": 9,
+  "evidence": [
+    "Staiger-Stock-Watson 95% CI of ~4.3-7.3% spans the entire policy-relevant range",
+    "CBO retrospective revisions to NAIRU larger than deviations that triggered policy responses",
+    "Both sides of pair_3 debate assigned 9/10, no agent challenged the underlying econometrics",
+    "With unemployment at ~4.0-4.2%, cannot determine in real time whether economy is above, at, or below the natural rate"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "rates_strategist_02",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can NAIRU be usefully estimated using higher-frequency or alternative data sources?",
+    "Should labor market analysis abandon NAIRU entirely or use it as a wide-band regime indicator?"
+  ],
+  "related_concepts": [
+    "phillips_curve_regime_dependence",
+    "labor_data_revision_risk",
+    "beveridge_curve_residual_mismatch"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T17:50:48Z",
+  "originating_iteration": "iter_0003",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0003"
+  ]
+}

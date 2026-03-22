@@ -1,0 +1,212 @@
+[
+  {
+    "concept_a": "immigration_labor_supply_expansion",
+    "concept_b": "wage_price_spiral_base_case_rejection",
+    "mechanism": "Immigration-driven supply expansion loosened the labor market through the supply side, preventing wage acceleration from reaching the 5%+ threshold required for spiral conditions. Removed the labor scarcity that would have been the necessary precondition for a spiral.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when immigration flows are sufficient to offset demand-side tightness; weakens under immigration reversal scenarios",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "immigration_reversal_shock",
+    "concept_b": "labor_market_stagflation_fulcrum",
+    "mechanism": "Immigration reversal tightens effective labor supply by 0.5-1.0pp, pushing the labor market toward the stagflationary side of the bifurcation via both wage pressure and reduced potential output growth",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Effect depends on speed and magnitude of immigration reduction; 12-24 month lags are plausible; may not persist if policy reverses cyclically",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "kalecki_fiscal_labor_support",
+    "concept_b": "labor_hoarding_cliff_risk",
+    "mechanism": "Fiscal deficit sustains corporate profits and labor demand above the threshold where headcount cuts become necessary, enabling firms to hoard labor. If fiscal consolidation occurs, the profit support withdraws and hoarding may break simultaneously across firms.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as fiscal deficit remains at 6-7% GDP; relationship inverts under fiscal consolidation",
+    "originating_agents": [
+      "rates_strategist_02",
+      "equity_analyst_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "credit_leads_labor_sequencing",
+    "concept_b": "labor_hoarding_cliff_risk",
+    "mechanism": "When labor hoarding eventually breaks, credit spreads should widen first (3-12 months lead), providing early warning before payroll deterioration appears. Hoarding suppresses the labor signal, making credit even more important as the leading indicator.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Historically robust across 1990, 2000-01, 2007-09 recessions; may be complicated by fiscal support in current cycle",
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "unit_labor_cost_margin_driver",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "If ULC is near or above the ~3.5% margin-expansion threshold, then equity valuations requiring 6-7% nominal revenue growth for 10 years are unsustainable without productivity acceleration, reinforcing the cross-asset pricing inconsistency",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on where current ULC actually is (disputed: 2.0-4.5% range). Below ~3.0% the inconsistency is less acute; above ~3.5% it becomes binding",
+    "originating_agents": [
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "labor_market_stagflation_fulcrum",
+    "concept_b": "stock_bond_correlation_labor_driven",
+    "mechanism": "Labor market trajectory determines whether the economy is in a stagflationary (positive stock-bond correlation, diversification fails) or disinflationary (negative correlation, bonds hedge equities) regime, making labor the key input to multi-asset portfolio construction",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Requires the Fed to be actively responding to the dual mandate for the transmission to function; fiscal dominance could weaken the mechanism",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "us_labor_tightness_dollar_em_flows",
+    "concept_b": "commodity_em_labor_procyclicality",
+    "mechanism": "US labor market tightness → Fed pricing → stronger dollar → terms-of-trade pressure on commodity EMs → labor market procyclical amplification in those economies. The US labor-dollar channel is the exogenous trigger for the EM procyclical dynamic.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Strongest when US tightening cycle is active and EM commodity dependence is high; weaker when US and EM cycles are synchronized",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "immigration_reversal_shock",
+    "concept_b": "us_labor_tightness_dollar_em_flows",
+    "mechanism": "Immigration reversal tightens US labor market → Fed keeps rates higher for longer → dollar strength persists → capital outflows from EM. Secondary channel through reduced remittances (Mexico ~$63B, ~4.5% GDP).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Near-term (6-18 months) high confidence; medium-term depends on immigration policy persistence and potential reversals",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "labor_data_revision_risk",
+    "concept_b": "nairu_estimate_uncertainty",
+    "mechanism": "Revision risk in underlying labor data (±130,000 payrolls, 818,000 benchmark revision) compounds already-wide NAIRU confidence intervals, making real-time assessment of labor market slack even more uncertain than Staiger-Stock-Watson bounds suggest",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always holds; worsened by declining survey response rates (JOLTS from ~60% to ~30%)",
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "services_dominance_labor_cost",
+    "concept_b": "unit_labor_cost_margin_driver",
+    "mechanism": "Services comprising ~85% of nonfarm payrolls means labor cost is the overwhelmingly dominant input cost for aggregate corporate profitability, making ULC the single most important variable for margin analysis. Traditional goods-sector frameworks are increasingly irrelevant.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural relationship that holds in steady state; could shift if AI/automation materially reduces services labor intensity",
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "sbc_earnings_degradation",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "SBC inflates reported EPS by $14-16/share at the index level, meaning the true P/E ratio is 1.5-2.0x turns higher than reported, exacerbating the already-stretched valuation inconsistency between equity multiples and required earnings growth",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most pronounced in tech-heavy indices; less material in value/industrial sectors",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "beveridge_curve_residual_mismatch",
+    "concept_b": "nairu_estimate_uncertainty",
+    "mechanism": "If the Beveridge curve shift is structural (not still normalizing), NAIRU has moved to 4.2-4.5%, which further widens the uncertainty about whether current unemployment represents slack or tightness",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Depends on whether the Beveridge curve shift is structural or transitory — the diagnostic question for the next 2-4 quarters",
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "remote_work_labor_supply_expansion",
+    "concept_b": "remote_work_dutch_disease_em",
+    "mechanism": "The same remote work expansion that provides disinflationary labor supply in DM creates Dutch Disease dynamics in small EM economies by bidding up skilled labor costs with USD-denominated income, crowding out local tradables",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Concentrated in small, open EM economies with significant tech-capable workforces; negligible in large EMs",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "wage_price_spiral_base_case_rejection",
+    "concept_b": "phillips_curve_regime_dependence",
+    "mechanism": "The regime-dependence of the Phillips Curve and the conjunctive-conditions framework for spirals are complementary: both argue that simple linear extrapolation from wage growth to inflation is unreliable, and the specific institutional conditions for a spiral are not present",
+    "direction": "correlated",
+    "confidence": 8,
+    "regime_dependence": "Both relationships hold under current institutional structure (low unionization, anchored expectations); would need reassessment under structural labor market regime change",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "concept_a": "kalecki_fiscal_labor_support",
+    "concept_b": "credit_leads_labor_sequencing",
+    "mechanism": "Fiscal profit support may delay the credit deterioration signal by sustaining corporate cash flows even as underlying private-sector demand weakens, potentially extending the lead time beyond the historical 3-12 month range",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Relevant only when fiscal deficit is large enough to offset private demand weakness; unprecedented at current 6-7% GDP scale",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  }
+]

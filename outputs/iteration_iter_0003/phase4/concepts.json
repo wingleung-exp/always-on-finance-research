@@ -1,0 +1,754 @@
+[
+  {
+    "slug": "nairu_estimate_uncertainty",
+    "definition": "NAIRU point estimates carry confidence intervals (Staiger-Stock-Watson 95% CI ~4.3-7.3%) so wide as to span the entire policy-relevant range, making real-time NAIRU-based analysis functionally useless for policy or portfolio positioning. CBO retrospective revisions to NAIRU have exceeded the deviations that triggered policy responses.",
+    "confidence": 9,
+    "evidence": [
+      "Staiger-Stock-Watson 95% CI of ~4.3-7.3% spans the entire policy-relevant range",
+      "CBO retrospective revisions to NAIRU larger than deviations that triggered policy responses",
+      "Both sides of pair_3 debate assigned 9/10, no agent challenged the underlying econometrics",
+      "With unemployment at ~4.0-4.2%, cannot determine in real time whether economy is above, at, or below the natural rate"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "rates_strategist_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can NAIRU be usefully estimated using higher-frequency or alternative data sources?",
+      "Should labor market analysis abandon NAIRU entirely or use it as a wide-band regime indicator?"
+    ],
+    "related_concepts": [
+      "phillips_curve_regime_dependence",
+      "labor_data_revision_risk",
+      "beveridge_curve_residual_mismatch"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "immigration_labor_supply_expansion",
+    "definition": "Immigration-driven labor supply expansion of ~3-4M workers above pre-pandemic trend (CBO ~3.3M net immigration in 2023) was the primary mechanism for labor market rebalancing during 2022-2025, allowing vacancies to fall from ~12M to ~8M without rising unemployment. This achieved what 525bp of Fed rate hikes could not through the supply-side channel.",
+    "confidence": 8,
+    "evidence": [
+      "CBO estimate of ~3.3M net immigration in 2023",
+      "Vacancy decline from ~12M to ~8M without unemployment rising",
+      "Solow accounting: 3-4M workers x ~$80k/worker ≈ 0.3-0.4pp GDP growth",
+      "Concentration in lower-skill service occupations (hospitality, food services, construction, healthcare) relieved sectors with most acute post-COVID wage pressure",
+      "Most convergent factual claim across all 8 agents"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "challenger_02",
+      "equity_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "What fraction of the vacancy decline is attributable to immigration vs. other factors?",
+      "How much of the disinflationary effect was temporary vs. structural?"
+    ],
+    "related_concepts": [
+      "immigration_reversal_shock",
+      "kalecki_fiscal_labor_support",
+      "beveridge_curve_residual_mismatch",
+      "wage_price_spiral_base_case_rejection"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "immigration_reversal_shock",
+    "definition": "Policy tightening is reducing net immigration from the ~3.3M 2023 peak toward 0.5-1.0M or below, creating the most important near-term structural labor supply shock. Mechanical labor market tightening estimated at 0.5-1.0pp in effective labor supply gap, with 12-24 month implementation lags.",
+    "confidence": 7,
+    "evidence": [
+      "Policy tightening reducing net immigration from ~3.3M peak toward 0.5-1.0M",
+      "Mechanical tightening estimated at ~0.6pp per 1M reduction",
+      "Second-order effects through remittance channel (Mexico ~$63B, ~4.5% GDP)",
+      "Confidence docked from 8 to 7 due to recency bias risk — immigration policy has reversed direction multiple times historically"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "equity_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How persistent will current immigration restrictions prove to be?",
+      "What is the true lag between policy implementation and labor market effects?",
+      "Will enforcement gaps or judicial challenges moderate the reversal?",
+      "What are base rates for immigration policy duration across administrations?"
+    ],
+    "related_concepts": [
+      "immigration_labor_supply_expansion",
+      "us_labor_tightness_dollar_em_flows",
+      "labor_market_stagflation_fulcrum",
+      "ai_immigration_segmented_labor"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "wage_price_spiral_base_case_rejection",
+    "definition": "Under current institutional conditions, a wage-price spiral is not the base case. Across 8 post-1960 episodes, all three conditions were jointly necessary: unemployment <3.8%, wage growth >5%, and inflation expectations de-anchored. Current conditions meet zero of three. Union membership at ~10% (vs. ~24% in 1970s), COLA clauses rare, and Fed explicitly committed to restrictive policy.",
+    "confidence": 8,
+    "evidence": [
+      "Conjunctive-conditions test across 8 post-1960 episodes shows all 3 conditions necessary",
+      "Current conditions meet 0 of 3 required conditions",
+      "Union membership ~10% vs ~24% in 1970s; COLA clauses rare",
+      "2021-2023 natural experiment: even with 2 of 3 conditions met (UE <3.8%, wages >5%), no spiral materialized",
+      "pair_3 debate confirmed challenger_02 was 'decisively stronger' on this point"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Could new institutional mechanisms substitute for union-driven spiral dynamics?",
+      "What is the residual tail probability and how should it be weighted in portfolio construction?"
+    ],
+    "related_concepts": [
+      "phillips_curve_regime_dependence",
+      "nairu_estimate_uncertainty",
+      "labor_market_stagflation_fulcrum",
+      "unit_labor_cost_margin_driver"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "labor_data_revision_risk",
+    "definition": "Labor market data is subject to revision risk that analysts systematically underweight. BLS nonfarm payrolls 90% CI is ±130,000 jobs. The March 2024 benchmark revision revised cumulative 2023 job gains down by ~818,000 (~68,000/month). JOLTS response rates have fallen from ~60% to ~30%. A +150,000 payroll print is not statistically distinguishable from 0 or +300,000.",
+    "confidence": 9,
+    "evidence": [
+      "BLS nonfarm payrolls 90% CI: ±130,000 jobs",
+      "March 2024 benchmark revision: cumulative 2023 job gains revised down ~818,000",
+      "JOLTS survey response rates fallen from ~60% to ~30%",
+      "pair_3 debate called this 'the single most practically actionable insight across both analyses'"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Are alternative real-time labor market indicators (ADP, Indeed postings, UI claims) more reliable?",
+      "Should JOLTS data be formally downweighted given collapsing response rates?",
+      "How should portfolio construction account for the noise in labor data?"
+    ],
+    "related_concepts": [
+      "nairu_estimate_uncertainty",
+      "beveridge_curve_residual_mismatch",
+      "credit_leads_labor_sequencing"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "credit_leads_labor_sequencing",
+    "definition": "Credit markets lead labor markets in signaling downturns with the sequencing: credit spreads widen → equities price drawdown → labor data confirms recession. Documented across 2000-01, 2007-09, and 1990: credit spreads widened 3-12 months before the Sahm Rule triggered; equities priced 60-80% of eventual drawdowns before unemployment confirmed recession.",
+    "confidence": 9,
+    "evidence": [
+      "Sequencing documented across 2000-01, 2007-09, and 1990 recessions",
+      "Credit spreads widened 3-12 months before Sahm Rule triggered",
+      "Equities priced 60-80% of eventual drawdowns before unemployment confirmed recession",
+      "pair_0 debate found generalist_02 'wins this one decisively' and called it 'the single most important correction to conventional labor market monitoring'"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does the fiscal deficit via Kalecki channel alter the credit-labor sequencing this cycle?",
+      "What HY OAS threshold would signal labor market deterioration in the current regime?",
+      "Has credit market structure changed enough (passive flows, CLO demand) to alter the lead time?"
+    ],
+    "related_concepts": [
+      "labor_hoarding_cliff_risk",
+      "cross_asset_pricing_inconsistency",
+      "kalecki_fiscal_labor_support",
+      "labor_data_revision_risk"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "kalecki_fiscal_labor_support",
+    "definition": "The 6-7% GDP structural fiscal deficit mechanically sustains ~$1.8-2.0T of corporate profit support via the Kalecki identity (Profits = Investment + Govt Deficit + Net Exports − Household Saving + Dividends). Private GDP growth stripped of fiscal is only 1.0-1.5%. The labor market is not defying monetary policy — it is being held up by fiscal policy.",
+    "confidence": 8,
+    "evidence": [
+      "6-7% GDP structural deficit sustains ~$1.8-2.0T corporate profit support",
+      "Private GDP growth stripped of fiscal is only 1.0-1.5%",
+      "pair_3 debate called this 'Agent A's most original and underappreciated claim'",
+      "Resolves the puzzle of stable employment despite the most aggressive tightening cycle in four decades"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01",
+      "equity_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How sustainable is the current fiscal trajectory?",
+      "What happens to labor demand if fiscal consolidation begins?",
+      "Does the Kalecki channel also explain labor hoarding behavior?"
+    ],
+    "related_concepts": [
+      "labor_hoarding_cliff_risk",
+      "immigration_labor_supply_expansion",
+      "labor_market_stagflation_fulcrum",
+      "credit_leads_labor_sequencing"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "unit_labor_cost_margin_driver",
+    "definition": "Unit labor cost growth (ULC = compensation/hour ÷ output/hour) is the dominant variable for equity margins and valuations. With labor compensation at 55-60% of corporate costs, ULC mechanically governs margins through a dual channel (margins + discount rate). The ~3.5% threshold above which margin expansion becomes impossible without productivity acceleration is well-grounded.",
+    "confidence": 8,
+    "evidence": [
+      "Labor compensation at 55-60% of corporate costs",
+      "Dual-channel effect (margins + discount rate) uncontested",
+      "~3.5% ULC threshold for margin expansion is well-grounded",
+      "pair_1 debate confirmed convergence between both equity agents"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Current ULC growth rate disputed: ~2.0-2.5% (equity_analyst_01) vs. ~3.5-4.5% (equity_analyst_02); true figure estimated at ~2.5-3.0%",
+      "How does SBC factor into ULC measurement?",
+      "Can AI-driven productivity gains sustainably lower ULC?",
+      "Resolution requires pulling current vintage BLS nonfarm business sector ULC data"
+    ],
+    "related_concepts": [
+      "services_dominance_labor_cost",
+      "sbc_earnings_degradation",
+      "wage_price_spiral_base_case_rejection",
+      "labor_market_stagflation_fulcrum",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "labor_market_stagflation_fulcrum",
+    "definition": "The labor market is the fulcrum variable for the stagflation/disinflation bifurcation, simultaneously determining the consumption floor (~70% of GDP is wage-income dependent), the wage-price transmission channel (ULC → services inflation), and the Fed reaction function (dual mandate). No other single observable has this trifecta of influence.",
+    "confidence": 8,
+    "evidence": [
+      "~70% of GDP is wage-income dependent consumption",
+      "ULC → services inflation transmission channel",
+      "Fed dual mandate makes labor central to reaction function",
+      "Connects to iter_0002 KB finding on stagflationary/disinflationary bifurcation (confidence 6)"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Which specific labor market indicators most reliably signal the bifurcation direction?",
+      "How does the fiscal channel interact with the labor-driven bifurcation?",
+      "What is the probability weight between soft landing and stagflation scenarios?"
+    ],
+    "related_concepts": [
+      "unit_labor_cost_margin_driver",
+      "wage_price_spiral_base_case_rejection",
+      "stock_bond_correlation_labor_driven",
+      "cross_asset_pricing_inconsistency",
+      "kalecki_fiscal_labor_support"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "labor_hoarding_cliff_risk",
+    "definition": "Firms retaining excess workers (labor hoarding) creates fragility with potential nonlinear cliff risk rather than gradual cooling. Stable payrolls may be followed by sudden decompression if demand crosses a threshold. JOLTS signature: low layoffs ~1.0% alongside declining hires rate. Margin trigger estimated at ~8-9% S&P 500 net margin vs. current ~11-12%.",
+    "confidence": 6,
+    "evidence": [
+      "JOLTS data pattern: low layoffs ~1.0% alongside declining hires rate",
+      "Margin threshold trigger at ~8-9% S&P 500 net margin vs. current ~11-12%",
+      "Six agents converge on the mechanism",
+      "Labor hoarding is inferred from noisy productivity data, not directly measured"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "challenger_02",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Is hoarding inferred from noisy productivity data reliable?",
+      "If demand re-accelerates, does hoarded labor simply become productive, dissipating the risk?",
+      "Does survivorship bias (outcome-dependent relabeling of 'foresight' vs 'over-hiring') contaminate the evidence base?",
+      "How does maturity wall refinancing pressure interact with hoarding break timing?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_labor_support",
+      "credit_leads_labor_sequencing",
+      "unit_labor_cost_margin_driver",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "phillips_curve_regime_dependence",
+    "definition": "The Phillips Curve's slope has varied so dramatically across regimes that point estimates of sacrifice ratios are false precision. However, the curve is directionally convex near potential — last-mile disinflation is harder. The 2023-24 'immaculate disinflation' directly falsifies steep-curve interpretations. The Phillips Curve should be used as a regime indicator, not a forecasting tool.",
+    "confidence": 6,
+    "evidence": [
+      "Phillips Curve slope variation across 50 years of data",
+      "2023-24 'immaculate disinflation' falsifies steep-curve interpretation",
+      "pair_3 confirmed challenger_02 was stronger on instability argument",
+      "Specific sacrifice ratio of 4-5x refuted"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "rates_strategist_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What determines regime shifts in the Phillips Curve slope?",
+      "How should the convexity near potential be incorporated into portfolio construction?",
+      "Is the 'immaculate disinflation' evidence of a flat curve or of supply-side resolution?"
+    ],
+    "related_concepts": [
+      "nairu_estimate_uncertainty",
+      "wage_price_spiral_base_case_rejection",
+      "em_informal_sector_bifurcation"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
+    "confidence": 7,
+    "evidence": [
+      "S&P ~21x forward P/E requires ~4.0% unemployment consumption levels",
+      "Rates pricing 75-100bp of easing implies labor softening",
+      "Credit (HY OAS 350-420bp) leans equity-side",
+      "Reverse DCF: nominal revenue growth of ~6-7% for 10 years needed, requiring either above-target inflation (contradicts multiples) or heroic productivity (unproven)",
+      "pair_0 called this 'the most actionable insight'; pair_1 praised reverse DCF as 'the strongest valuation argument'"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Which asset class reprices first?",
+      "Could an AI productivity acceleration resolve the inconsistency?",
+      "What is the timing horizon for convergence?"
+    ],
+    "related_concepts": [
+      "labor_market_stagflation_fulcrum",
+      "stock_bond_correlation_labor_driven",
+      "unit_labor_cost_margin_driver",
+      "credit_leads_labor_sequencing",
+      "sbc_earnings_degradation"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "stock_bond_correlation_labor_driven",
+    "definition": "The stock-bond price correlation regime is determined by labor market trajectory. Tight labor + sticky inflation produces positive correlation (diversification fails, stagflationary regime). Loosening labor produces negative correlation (bonds hedge equities, disinflationary regime).",
+    "confidence": 7,
+    "evidence": [
+      "Framework grounded in monetary policy transmission literature",
+      "pair_0 praised this as a novel contribution",
+      "Clean and investable formulation connecting labor dynamics to portfolio construction"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Which labor market indicators are most reliable for identifying the correlation regime in real time?",
+      "How does fiscal dominance affect this relationship?",
+      "Does NAIRU uncertainty make regime identification impractical?"
+    ],
+    "related_concepts": [
+      "labor_market_stagflation_fulcrum",
+      "nairu_estimate_uncertainty",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "remote_work_labor_supply_expansion",
+    "definition": "Remote work has expanded the geographic talent pool for knowledge-economy roles, exerting disinflationary pressure on white-collar wages. Direction is high confidence but magnitude is genuinely unknowable at current data horizons. Return-to-office counter-trends are real and competitive dynamics compress geographic wage differentials over time.",
+    "confidence": 5,
+    "evidence": [
+      "All 8 agents agree on directional effect",
+      "Conceptual analogy to 1990s offshoring expansion of tradeable labor supply",
+      "generalist_02's '5-15%' quantification refuted as false precision in pair_0",
+      "equity_analyst_01's 'permanent structural tailwind' refuted by competitive-erosion argument in pair_1",
+      "Return-to-office counter-trends are real",
+      "Measurement confounds make confident claims in either direction overconfidence"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How much of the remote work margin benefit has already been competed away?",
+      "Will return-to-office trends reverse the labor supply expansion?",
+      "What is the impact by sector and occupation?",
+      "Needs 2-3 more years of wage data in remote-feasible vs. in-person occupations"
+    ],
+    "related_concepts": [
+      "immigration_labor_supply_expansion",
+      "remote_work_dutch_disease_em",
+      "sbc_earnings_degradation",
+      "ai_immigration_segmented_labor"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "us_labor_tightness_dollar_em_flows",
+    "definition": "US labor market tightness is the primary driver of the dollar cycle and EM capital flows. The transmission chain runs: US labor data → Fed pricing → dollar → EM flows. DXY-employment-surprise correlation ~0.65; US 2Y yield-EM flow correlation ~-0.7. Well-established across multiple cycles.",
+    "confidence": 8,
+    "evidence": [
+      "DXY-employment-surprise correlation ~0.65",
+      "US 2Y yield-EM flow correlation ~-0.7",
+      "pair_2 confirmed the full transmission chain traced by both FX agents",
+      "Mechanism well-established across multiple cycles"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Does fiscal dominance alter the labor-dollar transmission?",
+      "How does the immigration reversal affect this channel?"
+    ],
+    "related_concepts": [
+      "immigration_reversal_shock",
+      "commodity_em_labor_procyclicality",
+      "labor_market_stagflation_fulcrum",
+      "em_informal_sector_bifurcation"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "sbc_earnings_degradation",
+    "definition": "Stock-based compensation represents a systematic, underpriced earnings quality degradation tied to labor market tightness. The SBC gap widened from ~$8/share pre-COVID to ~$14-16/share, representing a 1.5-2.0x P/E turn adjustment at the index level. Tech-sector SBC runs 8-15% of revenue. Data is verifiable from public filings.",
+    "confidence": 7,
+    "evidence": [
+      "SBC gap widened from ~$8/share pre-COVID to ~$14-16/share",
+      "1.5-2.0x P/E turn adjustment at index level",
+      "Tech-sector SBC at 8-15% of revenue",
+      "pair_1 called it equity_analyst_02's 'strongest unique contribution'",
+      "Data verifiable from public filings"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Will labor market loosening reduce SBC as a share of total compensation?",
+      "How should SBC be factored into cross-sector valuation comparisons?",
+      "Confidence docked from 9 to 7 solely for single-agent sourcing — needs cross-validation"
+    ],
+    "related_concepts": [
+      "unit_labor_cost_margin_driver",
+      "cross_asset_pricing_inconsistency",
+      "gig_contractor_reclassification",
+      "services_dominance_labor_cost"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "em_informal_sector_bifurcation",
+    "definition": "The informal sector comprising 40-80% of employment in India, Indonesia, Nigeria, and much of Latin America renders DM Phillips Curve frameworks misleading for EM analysis. Monetary policy transmits poorly to informal wages, and official unemployment understates true slack.",
+    "confidence": 7,
+    "evidence": [
+      "Informal sector 40-80% of employment in major EMs",
+      "Turkey 2021-23 episode illustrated masking of overheating",
+      "ILO and World Bank documentation is extensive",
+      "pair_2 praised this as 'genuinely important and routinely ignored by sell-side macro research'"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "How should EM labor market analysis be adapted to account for informal sector dynamics?",
+      "Are there better proxy indicators for true EM labor market tightness?"
+    ],
+    "related_concepts": [
+      "phillips_curve_regime_dependence",
+      "commodity_em_labor_procyclicality",
+      "us_labor_tightness_dollar_em_flows"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "commodity_em_labor_procyclicality",
+    "definition": "Commodity-exporting EM labor markets exhibit procyclical dynamics that amplify terms-of-trade shocks into macro crises. The labor market is the amplification mechanism — not just the commodity price but wage and fiscal rigidity makes reversals painful.",
+    "confidence": 8,
+    "evidence": [
+      "Chile: copper → wage growth → REER appreciation → 38% USD/CLP reversal",
+      "Colombia and Nigeria oil-driven episodes documented",
+      "pair_2 called this 'one of the most robust empirical regularities in EM macro'",
+      "Extensive historical evidence across multiple cycles and countries"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can EM fiscal frameworks (sovereign wealth funds, fiscal rules) mitigate the procyclical amplification?",
+      "How does the nonlinear political risk from labor stress interact with the economic channel?"
+    ],
+    "related_concepts": [
+      "us_labor_tightness_dollar_em_flows",
+      "em_informal_sector_bifurcation",
+      "immigration_reversal_shock"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "beveridge_curve_residual_mismatch",
+    "definition": "The Beveridge curve has not fully normalized, with the vacancy-to-unemployment ratio at ~1.1-1.2 vs. pre-pandemic ~1.0, implying residual matching inefficiency. Whether this implies a permanent NAIRU shift upward by 0.3-0.5pp or is still normalizing is unresolved.",
+    "confidence": 5,
+    "evidence": [
+      "Vacancy-to-unemployment ratio ~1.1-1.2 vs. pre-pandemic ~1.0",
+      "pair_0 debate partially refuted its use as a 'leading indicator'",
+      "Contested interpretation: structural mismatch, measurement artifact, or ghost postings"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "fx_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the Beveridge curve shift structural or transitory?",
+      "How much is explained by ghost postings vs. genuine matching inefficiency?",
+      "Does the shift imply NAIRU has moved to 4.2-4.5%?",
+      "Track quarterly Beveridge curve position over next 2-4 quarters for diagnostic"
+    ],
+    "related_concepts": [
+      "nairu_estimate_uncertainty",
+      "immigration_labor_supply_expansion",
+      "labor_hoarding_cliff_risk"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "services_dominance_labor_cost",
+    "definition": "With services comprising ~85% of nonfarm payrolls and manufacturing <10% of S&P 500 by weight, labor cost is the deterministic driver of aggregate profitability. Traditional goods-sector margin frameworks (commodity inputs, factory utilization) apply to a shrinking share of the economy.",
+    "confidence": 7,
+    "evidence": [
+      "Services ~85% of nonfarm payrolls",
+      "Manufacturing <10% of S&P 500 by weight",
+      "Well-documented in BLS data",
+      "pair_1 confirmed convergence"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Could AI/automation shift this faster than the gradual pace assumed?",
+      "How does the services dominance interact with remote work effects?"
+    ],
+    "related_concepts": [
+      "unit_labor_cost_margin_driver",
+      "sbc_earnings_degradation",
+      "labor_market_stagflation_fulcrum"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "sectoral_wage_dispersion_signal",
+    "definition": "Sectoral wage dispersion (services ~4.5-5% vs. goods ~3-3.5%) may create a within-quadrant factor rotation signal, where quality/low-labor-intensity factors outperform when dispersion is wide. Grounded in Atlanta Fed and ECI data but uncorroborated.",
+    "confidence": 4,
+    "evidence": [
+      "Atlanta Fed and ECI data show services ~4.5-5% vs. goods ~3-3.5% wage growth",
+      "Plausible logical chain to factor rotation"
+    ],
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Does the signal have statistically significant alpha?",
+      "What is the optimal measurement period?",
+      "How does it interact with the macro regime quadrant?"
+    ],
+    "related_concepts": [
+      "unit_labor_cost_margin_driver",
+      "services_dominance_labor_cost",
+      "labor_market_stagflation_fulcrum"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "exchange_rate_labor_demand_paradox",
+    "definition": "US rate hikes may paradoxically support domestic labor demand on net via the strong dollar terms-of-trade effect: strong dollar → cheap imports → consumer real purchasing power → sustained labor demand. Manufacturing is only ~8% of employment, limiting the export-competitiveness offset. The net employment effect is genuinely hard to measure.",
+    "confidence": 4,
+    "evidence": [
+      "Mundell-Fleming theoretical framework is sound",
+      "Manufacturing only ~8% of employment limits export channel offset"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the net magnitude of this effect?",
+      "Does this alter the Fed reaction function calculus?",
+      "Is the effect large enough to be material relative to other channels?"
+    ],
+    "related_concepts": [
+      "us_labor_tightness_dollar_em_flows",
+      "kalecki_fiscal_labor_support",
+      "immigration_reversal_shock"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "remote_work_dutch_disease_em",
+    "definition": "Remote work may create Dutch Disease dynamics in small EM economies where USD-denominated income to EM-based remote workers bids up skilled labor costs, crowding out local tradables. Observable in Colombia, Georgia, Costa Rica, but data is poor and materiality varies by country size.",
+    "confidence": 4,
+    "evidence": [
+      "Observable wage dynamics in Colombia, Georgia, Costa Rica",
+      "pair_2 praised the nuance of seeing both positive flow and negative wage-inflation effects"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "How material is this effect relative to traditional EM macro drivers?",
+      "Which EM economies are most vulnerable?",
+      "Is this a temporary adjustment or a persistent structural shift?"
+    ],
+    "related_concepts": [
+      "remote_work_labor_supply_expansion",
+      "em_informal_sector_bifurcation",
+      "us_labor_tightness_dollar_em_flows"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "ai_immigration_segmented_labor",
+    "definition": "AI displacement combined with immigration restriction may create a segmented labor market with white-collar excess and blue-collar shortage. The composition effect has direct inflation implications: services inflation (in-person labor scarcity) stays sticky even as headline unemployment is stable.",
+    "confidence": 4,
+    "evidence": [
+      "pair_0 identified this as 'a genuinely novel observation that neither agent fully develops'",
+      "Logical composition effect on inflation measures"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "What is the timeline for AI displacement to materially affect white-collar labor markets?",
+      "How does this segmentation affect the Phillips Curve relationship?",
+      "What are the distributional and political implications?"
+    ],
+    "related_concepts": [
+      "immigration_reversal_shock",
+      "remote_work_labor_supply_expansion",
+      "phillips_curve_regime_dependence",
+      "services_dominance_labor_cost"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "gig_contractor_reclassification",
+    "definition": "Reclassification of workers from W-2 to 1099 (gig/contractor status) may flatter reported operating margins without changing underlying economic labor costs. An earnings quality issue that could be significant but entirely lacks quantification.",
+    "confidence": 3,
+    "evidence": [
+      "Conceptual earnings quality concern identified by single agent",
+      "No quantification or cross-validation exists"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "What is the aggregate magnitude of this reclassification?",
+      "Which sectors are most affected?",
+      "How should analysts adjust for this in earnings quality assessment?"
+    ],
+    "related_concepts": [
+      "sbc_earnings_degradation",
+      "unit_labor_cost_margin_driver",
+      "services_dominance_labor_cost"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "japan_shunto_fx_impact",
+    "definition": "If Japanese Shunto wage growth sustains at 5%+, BoJ normalization narrows USD/JPY carry structurally, potentially making this the most important structural FX story in G10. Sustainability depends on whether consumption validates the wage gains.",
+    "confidence": 5,
+    "evidence": [
+      "Shunto wage settlements at 5%+ in recent rounds",
+      "pair_2 noted this is 'the kind of non-consensus conviction that either looks brilliant or foolish in 12 months'"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Will Japanese consumers spend wage gains or save them?",
+      "How far can BoJ normalize before triggering JGB market stress?",
+      "What is the structural USD/JPY fair value under sustained 5% wage growth?",
+      "Is the Shunto broadening beyond large firms to SMEs?"
+    ],
+    "related_concepts": [
+      "us_labor_tightness_dollar_em_flows",
+      "phillips_curve_regime_dependence"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  },
+  {
+    "slug": "private_sector_financial_surplus_insulation",
+    "definition": "If households and firms maintaining a 2-3% GDP financial surplus can absorb temporary unemployment shocks without the self-reinforcing feedback loop activating, the Sahm Rule's predictive power may be weakened this cycle. Untested hypothesis.",
+    "confidence": 4,
+    "evidence": [
+      "Household and firm financial surplus estimated at 2-3% GDP",
+      "Raised as open question by rates_strategist_02"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "How does the sectoral financial balance interact with labor market nonlinearity?",
+      "Is the surplus evenly distributed or concentrated in demographics less sensitive to employment shocks?",
+      "Requires modeling the interaction between sectoral financial balances and labor market nonlinearity"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_labor_support",
+      "labor_hoarding_cliff_risk",
+      "credit_leads_labor_sequencing"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0003"
+  }
+]
