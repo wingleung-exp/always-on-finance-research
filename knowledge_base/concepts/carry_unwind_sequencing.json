@@ -1,0 +1,31 @@
+{
+  "slug": "carry_unwind_sequencing",
+  "definition": "Cross-asset sequencing in carry unwinds follows a consistent pattern: FX vol → short-end rates → equity correlation → credit. Held in 5/7 major episodes (71%). Phase 4 (credit widening) occurs only when credit cycle has turned (2/7). If Phase 1 without Phase 2 within 2-3 weeks, base case is contained positioning-driven unwind.",
+  "confidence": 6.5,
+  "evidence": [
+    "5/7 major episodes follow the pattern (71% fidelity)",
+    "Phase 4 conditional on credit cycle turn (2/7)",
+    "Debate pair_0 confirmed as genuinely useful contribution"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "2015 SNB compressed sequencing to hours",
+    "2020 Covid scrambled the ordering entirely",
+    "Pattern applies best to endogenous/positioning-driven unwinds only"
+  ],
+  "related_concepts": [
+    "credit_cycle_carry_unwind_discriminant",
+    "treasury_fx_dual_fragility",
+    "fx_adjustment_leads_convergence"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

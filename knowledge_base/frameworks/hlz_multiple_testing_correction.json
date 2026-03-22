@@ -1,0 +1,25 @@
+{
+  "slug": "hlz_multiple_testing_correction",
+  "purpose": "Determine which of the program's ~50-70 cumulative claims represent genuine phenomena vs. statistical artifacts from repeated testing on the same data",
+  "components": [
+    "Bonferroni/HLZ adjustment for correlated tests requiring t≥3.8",
+    "Systematic review of iter_0006-0009 testable claims",
+    "Classification of survivors: UIP failure (t>5), carry fat tails (t>10), regime-conditional rate-FX (F=7.2), PCA collapse (mechanically verifiable)",
+    "Identification of non-survivors with specific test statistics"
+  ],
+  "current_assessment": "The single most important meta-finding: the program has identified a small number of genuine phenomena surrounded by a much larger body of suggestive-but-inconclusive findings. Only 3-4 claims survive the threshold.",
+  "limitations": [
+    "Appropriate correlation structure for test adjustment is debatable",
+    "Threshold sensitivity around t=3.8 boundary",
+    "Some claims may be borderline and sensitive to threshold choice",
+    "New data could promote moderate-confidence findings above threshold"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

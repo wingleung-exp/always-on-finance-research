@@ -1,0 +1,20 @@
+{
+  "concept_a": "compressed_spring_probability",
+  "concept_b": "fx_gamma_dominance",
+  "mechanism": "Compressed spring posterior probability of 35-50% for a 20%+ move determines whether FX gamma is positive expected value. Break-even is ~29%; the posterior places gamma firmly above break-even. If probability falls below ~29% (lower tail of CI), the trade breaks down.",
+  "direction": "a_causes_b",
+  "confidence": 7.5,
+  "regime_dependence": "Trade viable while compressed spring probability exceeds ~29% break-even; not robust at the very lower end of the 21-61% credible interval",
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

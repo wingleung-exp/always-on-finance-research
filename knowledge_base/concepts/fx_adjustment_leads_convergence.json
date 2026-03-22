@@ -1,0 +1,32 @@
+{
+  "slug": "fx_adjustment_leads_convergence",
+  "definition": "FX adjustment is present in 100% of historical divergence resolutions and typically leads rate convergence. Across 5 episodes of >85th percentile rate divergence since 1990, FX moved first in 3/5 (by 2-6 months). Rate convergence alone has never resolved an extreme divergence without accompanying FX adjustment. The mechanism is structural: FX adjusts faster than central bank committee cycles.",
+  "confidence": 8,
+  "evidence": [
+    "5/5 episodes included FX adjustment",
+    "4/5 included rate convergence",
+    "3/5 FX moved first by 2-6 months",
+    "Not contested in debate pair_0"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Small sample (n=5)",
+    "Whether post-2008 structural changes alter this pattern"
+  ],
+  "related_concepts": [
+    "compressed_spring_probability",
+    "carry_unwind_sequencing",
+    "boj_normalization_catalyst"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

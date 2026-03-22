@@ -1,0 +1,31 @@
+{
+  "slug": "treasury_fx_dual_fragility",
+  "definition": "The Treasury basis trade (~$800B-1T) and FX carry ($4-6T notional) share a dual fragility corridor through dollar funding markets. Transmission: basis unwind → UST illiquidity → repo spike → CIP basis widening → dollar squeeze → forced EM carry unwind, propagating in 24-72 hours. Bimodal: small shocks absorbed, large shocks activate feedback loop.",
+  "confidence": 6.5,
+  "evidence": [
+    "March 2020 and October 2023 transmission evidence",
+    "Either market can be entry point",
+    "24-72 hour propagation observed in stress episodes"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Standing repo facility (SRF) may partially break corridor but untested under genuine stress",
+    "Overlap in funding markets is approximate, not precisely measured"
+  ],
+  "related_concepts": [
+    "carry_unwind_sequencing",
+    "swap_line_constraints",
+    "credit_cycle_carry_unwind_discriminant"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "concept_a": "fx_vol_suppression",
+  "concept_b": "fx_gamma_dominance",
+  "mechanism": "Suppressed FX implied vol makes options cheap (straddle ~4.5-5.5% of notional at 10% IV), improving gamma risk-reward. The current ~1.8 sigma divergence from the MOVE-FX vol regression suggests systematic underpricing of FX tail risk.",
+  "direction": "a_causes_b",
+  "confidence": 7.5,
+  "regime_dependence": "Holds while FX vol remains at ~25th percentile relative to rates vol at ~65th percentile post-GFC",
+  "originating_agents": [
+    "generalist_01",
+    "risk_analyst_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

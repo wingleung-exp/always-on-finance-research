@@ -1,0 +1,30 @@
+{
+  "slug": "self_referential_validation_loop",
+  "definition": "Later iterations cite prior iteration findings as 'established' while the original evidence base (~420 months, ~6-8 unwind episodes) has not expanded. Confidence-weighted claim count has grown from ~20 to ~80+ while data is constant, creating authority-anchoring on the program's own output. Zero scored predictions across 4 iterations (calibration stasis).",
+  "confidence": 7,
+  "evidence": [
+    "Iter_0008 analyses cite iter_0007 as 'established' which cited iter_0006",
+    "Zero scored predictions across 4 iterations",
+    "Debate pair_3: 'factually correct and methodologically devastating'"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Whether analytical refinement of fixed data is legitimate or epistemically degenerative",
+    "Program should commit to scoring at least 3 time-bound predictions by iter_0012"
+  ],
+  "related_concepts": [
+    "negative_evidence_dominance",
+    "august_2024_confirmation_bias",
+    "multiple_testing_survivors"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

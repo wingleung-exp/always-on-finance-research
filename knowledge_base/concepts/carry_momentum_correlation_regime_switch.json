@@ -1,0 +1,30 @@
+{
+  "slug": "carry_momentum_correlation_regime_switch",
+  "definition": "The carry-momentum correlation swings from -0.2 to -0.3 (normal) to +0.5 to +0.9 (stress) in FX, exceeding the equity value-momentum analog (+0.40 to +0.60). FX's smaller tradeable universe (few liquid G10 pairs) drives high factor concentration. Unconditional correlation-based optimization overestimates diversification benefit by 25-40% at VaR(99).",
+  "confidence": 8.5,
+  "evidence": [
+    "Independent convergence: quant_researcher_02 (8.5/10) and quant_researcher_01 (+0.90 estimate)",
+    "Confirmed as one of the best-replicated findings in cross-asset factor research",
+    "Not contested in any debate across iterations"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Specific timing of correlation transition between regimes",
+    "Whether this applies equally to EM FX vs. G10"
+  ],
+  "related_concepts": [
+    "carry_dollar_credit_double_counting",
+    "regime_conditional_rate_fx_relationship"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

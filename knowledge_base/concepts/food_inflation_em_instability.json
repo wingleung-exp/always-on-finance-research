@@ -1,0 +1,30 @@
+{
+  "slug": "food_inflation_em_instability",
+  "definition": "Food inflation is the primary mechanism through which FX-rate divergence creates EM instability, operating independently of monetary policy rates. In EM economies where food constitutes 30-50% of CPI (vs. 10-15% in DM), currency depreciation triggers a vicious loop: depreciation → food inflation → political pressure → policy error → further depreciation. Pass-through rates: 70-90% (Egypt, Pakistan, Bangladesh) to 40-60% (India, Indonesia, Turkey).",
+  "confidence": 8,
+  "evidence": [
+    "Documented across 2007-08, 2010-11, and 2022-23 episodes",
+    "Measurable pass-through rates by country",
+    "Food CPI weights 30-50% EM vs. 10-15% DM"
+  ],
+  "originating_agents": [
+    "commodities_analyst_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Original 9/10 confidence conflated mechanism existence with incremental explanatory power for FX positioning",
+    "Role of domestic agricultural self-sufficiency in moderating pass-through"
+  ],
+  "related_concepts": [
+    "usd_invoicing_em_food_exposure",
+    "export_ban_contagion"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

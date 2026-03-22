@@ -1,0 +1,26 @@
+{
+  "slug": "carry_unwind_phase_tracking",
+  "purpose": "Real-time monitoring of carry unwind progression to distinguish contained vs. systemic events and inform dynamic hedging decisions",
+  "components": [
+    "Phase 1: FX vol spike",
+    "Phase 2: Short-end rate repricing (expected within 2-3 weeks of Phase 1)",
+    "Phase 3: Equity correlation spike",
+    "Phase 4: Credit widening (conditional on credit cycle turn)",
+    "Decision rule: Phase 1 without Phase 2 in 2-3 weeks implies contained unwind"
+  ],
+  "current_assessment": "71% fidelity across 7 major episodes. Genuinely useful for real-time decision-making during unwind events. Phase 4 activation conditional on credit cycle provides severity discrimination.",
+  "limitations": [
+    "2015 SNB compressed sequencing to hours",
+    "2020 Covid scrambled ordering entirely",
+    "Best suited for endogenous/positioning-driven unwinds, not exogenous shocks",
+    "Phase transitions may be too fast for institutional portfolio adjustment"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

@@ -208,5 +208,61 @@
     "needs": "Assessment of whether dedollarization of oil trade and GCC portfolio diversification (away from Treasuries toward alternatives) is eroding this channel. Updated correlation analysis post-2022 when GCC sovereign wealth strategies may have shifted.",
     "topic": "commodity_inflation_transmission",
     "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "Private credit elasticity to term premium determines compressed spring duration. If private credit ($2T+ AUM, partially insulated from public rates) continues intermediating despite rising term premia, the compressed spring extends.",
+    "source_agent": "generalist_01",
+    "needs": "More than n=1 calibration point (2018 analogue). Empirical testing of private credit flow sensitivity to term premium across multiple episodes. Assessment of structural changes in private credit since 2018 that may invalidate the analogue.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "PGM tightening as contrarian ZAR support in H2 2026. Palladium shifted from ~400koz surplus to ~100-200koz deficit. If PGM prices rally 15-25%, this adds ~$3.6bn annualized export revenue (0.9% GDP).",
+    "source_agent": "commodities_analyst_01",
+    "needs": "PGM price forecasts with uncertainty bounds. Assessment of South African supply response if load-shedding eases. Formal backtesting of PGM price → ZAR relationship controlling for other macro drivers.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Commodity ToT as a fourth FX factor candidate achieving t≥3.0 orthogonal to carry + momentum in commodity-exporter subsamples, with non-linear 2-3x amplification.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Formal factor model estimation with proper degrees-of-freedom adjustment. Restricting to 5 commodity exporters with high cross-sectional dependence creates severe statistical power problems that may be fundamentally unresolvable.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Agricultural inflation as hidden factor exposure explaining 10-20% of pure carry residual variance in EM portfolios, via food CPI endogeneity to EM rate-setting.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Regression of EM carry residuals (after dollar and credit orthogonalization) on agricultural commodity indices. Test is clearly specified and feasible but has not been conducted.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Cross-asset dimensionality collapse indicator with 1-3 day lead time, averaging effective dimensionality across FX, credit, and equity factor spaces.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Demonstration that the composite measure outperforms the FX-only version which is already contemporaneous. Even if real, 1-3 day lead time may be marginal for institutional adjustment. Cross-asset data alignment and computation latency assessment.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Copper structural deficit (0.5-1.5mt by 2027-2030) driving FX beta regime change as copper transitions from China-construction-beta to electrification-beta. Chile export revenue impact of $15-25bn/year at $12,000-15,000/t.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Historical assessment of deficit forecast accuracy (industry consensus has overestimated deficits). Substitution and recycling elasticity analysis at $12,000+/t. Separation of copper regime-change narrative from standard commodity price cycle.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "De-dollarization flows at $380-575bn/year across gold purchases ($85-95bn), bilateral swap utilization ($80-120bn), and non-USD invoicing shift ($215-360bn).",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Overlap adjustments between the three channels with sourced methodology. Range spans nearly 50% of midpoint, bordering on uninformative. Formal estimation of the causal impact on USD FX levels per dollar of de-dollarization flow.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "ENSO as forecastable but unpriced driver of agricultural-exporter FX vol, with AUD/USD drawdowns during strong El Niño averaging 8-12% beyond rate-differential predictions.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Rigorous backtesting with transaction costs and proper controls for concurrent macro drivers. Only n=5-6 strong ENSO events since 1990 is far too small after controlling for 1997-98 Asian crisis, 2015-16 China fears, etc. Currently conjecture, not finding.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
   }
 ]

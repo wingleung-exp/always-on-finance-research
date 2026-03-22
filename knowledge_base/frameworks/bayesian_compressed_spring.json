@@ -1,0 +1,26 @@
+{
+  "slug": "bayesian_compressed_spring",
+  "purpose": "Estimate the probability of a large (20%+) G10 FX move given current rate divergence conditions, replacing prior ad-hoc estimates with formal Bayesian updating",
+  "components": [
+    "Beta-Binomial updating with ~6 hits in ~10 qualifying episodes",
+    "Skeptical prior Beta(2,8) centered at 20%",
+    "Posterior mean ~40% with 95% CI [21%, 61%]",
+    "Sensitivity analysis across skeptical (35%), baseline (40%), and informative (45%) priors",
+    "Episode identification criteria for qualifying historical events"
+  ],
+  "current_assessment": "Posterior of 35-50% replaces original 61% estimate. Remarkably robust to prior choice — data-driven. However, wide CI constrains use for precise position sizing. Episode identification problem (n=7 vs n=15) is the primary residual uncertainty, shifting posterior by ±5pp.",
+  "limitations": [
+    "95% CI [21%, 61%] too wide for precise position sizing",
+    "Episode identification problem shifts posterior by ±5pp",
+    "Reference distribution non-stationarity may further reduce signal from extreme to moderate",
+    "Does not incorporate regime-specific adjustments for post-2008 structural changes"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

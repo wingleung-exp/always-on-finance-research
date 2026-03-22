@@ -1,0 +1,33 @@
+{
+  "slug": "multiple_testing_survivors",
+  "definition": "Only 3-4 of the program's ~50-70 cumulative claims survive Bonferroni/HLZ-adjusted thresholds (t≥3.8). The survivors are: UIP failure/Fama anomaly (t>5), carry fat tails/non-Gaussianity (t>10), regime-conditional rate-FX relationship (F=7.2), and PCA dimensionality collapse during stress (mechanically verifiable).",
+  "confidence": 8,
+  "evidence": [
+    "Systematic application of HLZ-adjusted thresholds across iter_0006-0009",
+    "Independent convergence from quant_researcher_01 and quant_researcher_02 on same survivors",
+    "Confirmed by debate pair_2"
+  ],
+  "originating_agents": [
+    "specialist",
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Appropriate correlation structure for test adjustment is debatable",
+    "Whether additional claims could survive with more data",
+    "Threshold sensitivity around t=3.8 boundary"
+  ],
+  "related_concepts": [
+    "negative_evidence_dominance",
+    "self_referential_validation_loop",
+    "regime_conditional_rate_fx_relationship"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "episode_similarity_scoring",
+  "purpose": "Systematically compare current conditions to historical episodes across multiple structural dimensions to identify closest analogues and inform scenario analysis",
+  "components": [
+    "Rate divergence magnitude dimension",
+    "Central bank normalization stage dimension",
+    "Carry positioning size dimension",
+    "FX vol suppression dimension",
+    "Credit cycle position dimension",
+    "Housing/credit excesses dimension",
+    "Swap line availability dimension",
+    "Market microstructure dimension"
+  ],
+  "current_assessment": "Current episode scores 6/8 match with 2006-07, the highest similarity. Key structural differences (swap lines, microstructure) suggest modern episodes are faster, sharper, shorter. Systematic and not cherry-picked per debate assessment.",
+  "limitations": [
+    "Equal weighting of dimensions is an untested assumption",
+    "n=1 for each historical episode limits statistical inference",
+    "Post-2008 structural changes may invalidate pre-2008 analogues",
+    "Microstructure impact assessment is ambiguous"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

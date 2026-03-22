@@ -1,0 +1,33 @@
+{
+  "slug": "fx_gamma_dominance",
+  "definition": "FX gamma purchases dominate carry on risk-adjusted return at current vol levels. At 3M USD/JPY implied vol of ~10%, a straddle costs ~4.5-5.5% with 3-4x payoff on 20%+ move. Break-even probability (~29%) approximately equals the compressed spring CI lower bound (26-36%), making the trade roughly free at the most pessimistic reading. Realistic Sharpe: 0.4-0.8.",
+  "confidence": 7.5,
+  "evidence": [
+    "Break-even P(20%+ move) ≈ 29% vs. compressed spring CI lower bound 26-36%",
+    "Carry conditional expected Sharpe under compressed spring is negative",
+    "Directional dominance robust to halving compressed spring probability and doubling carry Sharpe",
+    "Debate pair_0 called this 'the strongest finding across both analyses'"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Specific Sharpe claim of 1.2-1.8 was refuted; realistic 0.4-0.8",
+    "Not robust if compressed spring probability at or below ~29%",
+    "Implementation details affect realized returns significantly"
+  ],
+  "related_concepts": [
+    "compressed_spring_probability",
+    "fx_vol_suppression",
+    "vol_of_vol_transition_zone"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

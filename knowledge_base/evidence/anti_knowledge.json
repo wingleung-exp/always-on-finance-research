@@ -347,5 +347,91 @@
     ],
     "topic": "commodity_inflation_transmission",
     "iteration_id": "iter_0005"
+  },
+  {
+    "claim": "The three-leg vol normalization trade is self-financing",
+    "reason": "Net carry is -2.5% annualized (Leg 2 generates +3% but FX theta eats ~4% and rates premium costs ~1.5%). Generalist_01 relabeled this as a 'vol insurance premium' in the evidence section, directly contradicting the self-financing claim. The equity variance short also introduces left-tail risk (VIX >30 → ~1.78x notional loss) that could overwhelm FX gamma gains during precisely the systemic event the trade targets.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Kelly-optimal carry allocation is definitively negative",
+    "reason": "Not robust to parameter uncertainty. At compressed spring CI lower bound (26%) with contained unwind severity (-1.0 rather than -2.0), conditional Sharpe is -0.075 — essentially zero, not meaningfully negative. The claim requires both extreme probability AND extreme severity, both of which are point estimates from wide distributions. The parameter space includes positive Kelly values.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Expected Sharpe of 1.2-1.8 on USD/JPY straddles",
+    "reason": "Inflated. A quarterly-rolled straddle with 18-22% annualized premium drag requires the 20%+ move to occur roughly every 2-3 quarters to achieve Sharpe 1.2. At even the 61% annual probability, the per-quarter probability is ~20-25%. Realistic estimate: Sharpe 0.4-0.8 — still attractive but not a screaming outlier.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "'Rates market is usually right' as a decision heuristic",
+    "reason": "Systematic audit shows rates markets were 'right' in 3/6 disagreement episodes, equities in 3/6 — approximately 50%, indistinguishable from noise. The claim that resolution favored rates in 'all four cases' selects from a larger set and defines 'favored' retroactively. Dot-plot era median forecast errors of 100-150bp at 12-month horizons across all major central banks. The mechanism cited (rate moves drive FX) is incoherent if rates are consistently wrong about rate move magnitudes.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "ESG-adjusted commodity quality creates 50-150bp sovereign premium wedge",
+    "reason": "Chile-Colombia comparison hopelessly confounded by Petro's leftist government, guerrilla resurgence, and pension reform uncertainty. Australia coal beta decline equally explained by price mean-reversion. Norway's 'green shield' better explained by institutional quality and oil fund governance. Rated 2/10 — 'hypothesis searching for evidence, not evidence supporting hypothesis.'",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "8/10 confidence on new equilibrium Sharpe of carry",
+    "reason": "The 36-month SE of ~0.17 means 95% CI is [0.04, 0.72]. The null hypothesis (Sharpe=0.50, cyclical) cannot be rejected at even 10% significance (p=0.09). Claiming 8/10 confidence from data that cannot distinguish the two competing hypotheses (structural decline vs. cyclical dip) is overreach. Specialist's 5/10 was the correct calibration.",
+    "refuted_by": [
+      "specialist"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "The barbell convexity portfolio as a general-purpose allocation",
+    "reason": "Underperforms 60/40 by 1-3% in the base case (4-6% vs. 7-8%). If compressed spring probability is at or below ~40%, expected return across scenarios is lower than 60/40 even including the dislocation payoff. This is a concentrated bet on the compressed spring thesis dressed as a strategic allocation.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Vol hierarchy inversion resolved via FX vol repricing in 4 out of 5 episodes",
+    "reason": "The 5 cited episodes (2013, 2015, 2016, 2022, 2017) are not independent — several cluster around the same macro regime, reducing effective n to 3-4. The 2017 exception is dismissed because 'conditions don't apply today,' which is circular reasoning since whether current conditions resemble 2017 is the question being asked.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "The cumulative BoJ disruption probability of 45-65% carries decision-relevant information",
+    "reason": "Propagating the established per-step CI [2%, 36%] through the cumulative formula produces a 95% CI of [10%, 95%] — a spread containing virtually all possible outcomes with zero informational value. The non-independence adjustment adds false precision to an order-of-magnitude uncertainty. This is the highest-confidence critique in the program because it is purely arithmetic.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
   }
 ]

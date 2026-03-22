@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "bayesian_compressed_spring",
+    "purpose": "Estimate the probability of a large (20%+) G10 FX move given current rate divergence conditions, replacing prior ad-hoc estimates with formal Bayesian updating",
+    "components": [
+      "Beta-Binomial updating with ~6 hits in ~10 qualifying episodes",
+      "Skeptical prior Beta(2,8) centered at 20%",
+      "Posterior mean ~40% with 95% CI [21%, 61%]",
+      "Sensitivity analysis across skeptical (35%), baseline (40%), and informative (45%) priors",
+      "Episode identification criteria for qualifying historical events"
+    ],
+    "current_assessment": "Posterior of 35-50% replaces original 61% estimate. Remarkably robust to prior choice — data-driven. However, wide CI constrains use for precise position sizing. Episode identification problem (n=7 vs n=15) is the primary residual uncertainty, shifting posterior by ±5pp.",
+    "limitations": [
+      "95% CI [21%, 61%] too wide for precise position sizing",
+      "Episode identification problem shifts posterior by ±5pp",
+      "Reference distribution non-stationarity may further reduce signal from extreme to moderate",
+      "Does not incorporate regime-specific adjustments for post-2008 structural changes"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "hlz_multiple_testing_correction",
+    "purpose": "Determine which of the program's ~50-70 cumulative claims represent genuine phenomena vs. statistical artifacts from repeated testing on the same data",
+    "components": [
+      "Bonferroni/HLZ adjustment for correlated tests requiring t≥3.8",
+      "Systematic review of iter_0006-0009 testable claims",
+      "Classification of survivors: UIP failure (t>5), carry fat tails (t>10), regime-conditional rate-FX (F=7.2), PCA collapse (mechanically verifiable)",
+      "Identification of non-survivors with specific test statistics"
+    ],
+    "current_assessment": "The single most important meta-finding: the program has identified a small number of genuine phenomena surrounded by a much larger body of suggestive-but-inconclusive findings. Only 3-4 claims survive the threshold.",
+    "limitations": [
+      "Appropriate correlation structure for test adjustment is debatable",
+      "Threshold sensitivity around t=3.8 boundary",
+      "Some claims may be borderline and sensitive to threshold choice",
+      "New data could promote moderate-confidence findings above threshold"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "concordance_index_framework",
+    "purpose": "Monitor commodity-currency FX positioning opportunities by tracking alignment between terms-of-trade changes and rate differential changes",
+    "components": [
+      "Binary sign of ΔToT (commodity terms of trade change direction)",
+      "Binary sign of Δrate differential (rate spread change direction)",
+      "Concordance classification: aligned vs. conflicting",
+      "March 2026 readings: JPY/EUR aligned bullish, NOK/AUD aligned bearish, CAD conflicting",
+      "Historical validation showing 2-3x larger FX moves during aligned concordance"
+    ],
+    "current_assessment": "Provides useful directional signal with specific current readings. Aligned concordance historically coincided with 2-3x larger FX moves. Binary construction needs augmentation with magnitude information and formal backtesting.",
+    "limitations": [
+      "Binary construction discards magnitude information",
+      "Not formally backtested with transaction costs",
+      "Biofuel-energy-agriculture linkage (WTI-corn r=0.55-0.65) is a blind spot",
+      "Limited to commodity-exporter currencies"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "carry_unwind_phase_tracking",
+    "purpose": "Real-time monitoring of carry unwind progression to distinguish contained vs. systemic events and inform dynamic hedging decisions",
+    "components": [
+      "Phase 1: FX vol spike",
+      "Phase 2: Short-end rate repricing (expected within 2-3 weeks of Phase 1)",
+      "Phase 3: Equity correlation spike",
+      "Phase 4: Credit widening (conditional on credit cycle turn)",
+      "Decision rule: Phase 1 without Phase 2 in 2-3 weeks implies contained unwind"
+    ],
+    "current_assessment": "71% fidelity across 7 major episodes. Genuinely useful for real-time decision-making during unwind events. Phase 4 activation conditional on credit cycle provides severity discrimination.",
+    "limitations": [
+      "2015 SNB compressed sequencing to hours",
+      "2020 Covid scrambled ordering entirely",
+      "Best suited for endogenous/positioning-driven unwinds, not exogenous shocks",
+      "Phase transitions may be too fast for institutional portfolio adjustment"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "joint_vulnerability_copula",
+    "purpose": "Estimate conditional crisis probability from the joint configuration of multiple vulnerability dimensions, replacing marginal statistics with a proper multivariate framework",
+    "components": [
+      "Rate divergence marginal distribution",
+      "Carry positioning marginal distribution",
+      "Credit cycle position marginal distribution",
+      "FX vol suppression marginal distribution",
+      "Stress-conditional correlation estimates",
+      "Copula specification options: Gaussian, Student-t, Frank"
+    ],
+    "current_assessment": "Conditional crisis probability ~25-40% within 12 months. Analytically superior to marginal statistics but fragile to copula specification (Gaussian 30-45%, Student-t 35-50%, Frank 20-35%). Should replace 61% compressed spring estimate as working number with ±10pp acknowledged.",
+    "limitations": [
+      "Only n=4-6 effective episodes after clustering",
+      "±10pp sensitivity to copula choice",
+      "Marginal distribution estimation itself uncertain",
+      "Copula stationarity assumption questionable across structural breaks"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "carry_factor_decomposition",
+    "purpose": "Decompose carry returns to reveal hidden factor exposures and assess genuine diversification value for specific investor portfolios",
+    "components": [
+      "Dollar factor loading: β ≈ 0.45-0.50",
+      "Credit factor loading: β ≈ 0.20-0.25",
+      "Pure carry residual: expected Sharpe 0.15-0.25",
+      "Portfolio-specific assessment based on existing factor exposures",
+      "Stress-regime correlation shift analysis"
+    ],
+    "current_assessment": "Most practically consequential insight for portfolio construction. For USD-based investors already overweight equities and credit, carry is redundant. For non-USD investors (GPIF, Norwegian SWF), carry may genuinely diversify via negative dollar beta.",
+    "limitations": [
+      "Factor loading estimates lack confidence intervals",
+      "No regime conditioning on factor loadings",
+      "Ecological fallacy: conclusion is portfolio-specific, not universal",
+      "Time-varying dollar beta not formally modeled"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  },
+  {
+    "slug": "episode_similarity_scoring",
+    "purpose": "Systematically compare current conditions to historical episodes across multiple structural dimensions to identify closest analogues and inform scenario analysis",
+    "components": [
+      "Rate divergence magnitude dimension",
+      "Central bank normalization stage dimension",
+      "Carry positioning size dimension",
+      "FX vol suppression dimension",
+      "Credit cycle position dimension",
+      "Housing/credit excesses dimension",
+      "Swap line availability dimension",
+      "Market microstructure dimension"
+    ],
+    "current_assessment": "Current episode scores 6/8 match with 2006-07, the highest similarity. Key structural differences (swap lines, microstructure) suggest modern episodes are faster, sharper, shorter. Systematic and not cherry-picked per debate assessment.",
+    "limitations": [
+      "Equal weighting of dimensions is an untested assumption",
+      "n=1 for each historical episode limits statistical inference",
+      "Post-2008 structural changes may invalidate pre-2008 analogues",
+      "Microstructure impact assessment is ambiguous"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0009"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "slug": "carry_dollar_credit_double_counting",
+  "definition": "Carry returns decompose as R_carry ≈ 0.45-0.50 × F_dollar + 0.20-0.25 × F_credit + residual. The orthogonal pure carry residual has expected Sharpe 0.15-0.25 with 95% CI including zero. For USD-based investors already overweight domestic equities and credit, adding carry increases factor concentration rather than diversifying.",
+  "confidence": 6.5,
+  "evidence": [
+    "Factor decomposition showing dominant dollar and credit loadings",
+    "Debate pair_2: 'most practically consequential insight'",
+    "For non-USD investors like GPIF or Norwegian SWF, carry may genuinely diversify"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Factor loading estimates presented without confidence intervals or regime conditioning",
+    "Conclusion is portfolio-specific not universal (ecological fallacy)",
+    "Time-varying dollar beta may be diversifying when negative for non-USD investors"
+  ],
+  "related_concepts": [
+    "carry_momentum_correlation_regime_switch",
+    "carry_sharpe_structural_decline",
+    "fiscal_monetary_dissonance"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

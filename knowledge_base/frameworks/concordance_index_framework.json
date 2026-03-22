@@ -1,0 +1,26 @@
+{
+  "slug": "concordance_index_framework",
+  "purpose": "Monitor commodity-currency FX positioning opportunities by tracking alignment between terms-of-trade changes and rate differential changes",
+  "components": [
+    "Binary sign of ΔToT (commodity terms of trade change direction)",
+    "Binary sign of Δrate differential (rate spread change direction)",
+    "Concordance classification: aligned vs. conflicting",
+    "March 2026 readings: JPY/EUR aligned bullish, NOK/AUD aligned bearish, CAD conflicting",
+    "Historical validation showing 2-3x larger FX moves during aligned concordance"
+  ],
+  "current_assessment": "Provides useful directional signal with specific current readings. Aligned concordance historically coincided with 2-3x larger FX moves. Binary construction needs augmentation with magnitude information and formal backtesting.",
+  "limitations": [
+    "Binary construction discards magnitude information",
+    "Not formally backtested with transaction costs",
+    "Biofuel-energy-agriculture linkage (WTI-corn r=0.55-0.65) is a blind spot",
+    "Limited to commodity-exporter currencies"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

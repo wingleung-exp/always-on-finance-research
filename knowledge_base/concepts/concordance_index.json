@@ -1,0 +1,30 @@
+{
+  "slug": "concordance_index",
+  "definition": "A monitoring framework using sign(ΔToT) × sign(Δrate differential) for commodity-currency FX positioning. March 2026 readings: JPY/EUR aligned bullish (easing energy + narrowing differentials), NOK/AUD aligned bearish, CAD conflicting. Aligned concordance historically coincided with 2-3x larger FX moves.",
+  "confidence": 6,
+  "evidence": [
+    "2022 JPY: aligned bearish 8 months → 30% move",
+    "2023 AUD: conflicting → 5% range",
+    "Specific March 2026 readings provided for major pairs"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Binary construction loses magnitude information",
+    "Needs formal backtesting with transaction costs",
+    "Biofuel-energy-agriculture linkage (WTI-corn r=0.55-0.65 post-mandate) is a blind spot"
+  ],
+  "related_concepts": [
+    "natural_gas_regionalization_eur",
+    "tmx_pipeline_cad"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "concept_a": "treasury_fx_dual_fragility",
+  "concept_b": "carry_unwind_sequencing",
+  "mechanism": "Dollar funding corridor connects Treasury basis trades and FX carry, creating 24-72 hour propagation: basis unwind → UST illiquidity → repo spike → CIP basis widening → dollar squeeze → forced carry unwind. Either market can initiate the sequence.",
+  "direction": "a_causes_b",
+  "confidence": 6.5,
+  "regime_dependence": "Only activates for large funding shocks; small shocks absorbed without cascade. Standing repo facility effectiveness untested under genuine stress.",
+  "originating_agents": [
+    "risk_analyst_01",
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

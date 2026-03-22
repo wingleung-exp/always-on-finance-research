@@ -1,0 +1,20 @@
+{
+  "concept_a": "regime_conditional_rate_fx_relationship",
+  "concept_b": "fx_vol_suppression",
+  "mechanism": "Current suppressed FX vol places markets in the low-vol regime where rate differentials explain 8-12% of FX variance. When FX vol rises, rate-FX explanatory power collapses to 0-2%. The vol level determines which regime the relationship operates in.",
+  "direction": "bidirectional",
+  "confidence": 8,
+  "regime_dependence": "Strongest in low-vol regimes (FX implied vol <25th percentile); breaks down when FX vol spikes above transition threshold",
+  "originating_agents": [
+    "specialist",
+    "quant_researcher_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

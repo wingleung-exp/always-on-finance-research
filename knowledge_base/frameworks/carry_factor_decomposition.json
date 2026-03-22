@@ -1,0 +1,26 @@
+{
+  "slug": "carry_factor_decomposition",
+  "purpose": "Decompose carry returns to reveal hidden factor exposures and assess genuine diversification value for specific investor portfolios",
+  "components": [
+    "Dollar factor loading: β ≈ 0.45-0.50",
+    "Credit factor loading: β ≈ 0.20-0.25",
+    "Pure carry residual: expected Sharpe 0.15-0.25",
+    "Portfolio-specific assessment based on existing factor exposures",
+    "Stress-regime correlation shift analysis"
+  ],
+  "current_assessment": "Most practically consequential insight for portfolio construction. For USD-based investors already overweight equities and credit, carry is redundant. For non-USD investors (GPIF, Norwegian SWF), carry may genuinely diversify via negative dollar beta.",
+  "limitations": [
+    "Factor loading estimates lack confidence intervals",
+    "No regime conditioning on factor loadings",
+    "Ecological fallacy: conclusion is portfolio-specific, not universal",
+    "Time-varying dollar beta not formally modeled"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fx_vol_suppression",
+  "definition": "FX implied vol is anomalously suppressed relative to rates vol. MOVE Index at ~100-120 (~65th percentile post-GFC) vs. G10 FX implied vol at ~7-9% (~25th percentile), a ~1.8 standard deviation divergence from the MOVE-FX vol regression relationship (rank correlation +0.72 over 2010-2024). The vol hierarchy is inverted: rates > equity > credit > FX, occurring in ~12% of post-2010 months.",
+  "confidence": 7.5,
+  "evidence": [
+    "MOVE-FX vol rank correlation +0.72 over 2010-2024",
+    "1.8 sigma divergence from regression relationship",
+    "Vol hierarchy inversion occurred in ~12% of post-2010 months",
+    "4/5 historical resolutions via FX vol repricing higher"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Whether entire G10 FX surface is mispriced or only USD/JPY-proximate pairs",
+    "4/5 resolution episodes are non-independent with clustering reducing effective n",
+    "2017 exception dismissal may involve circular reasoning"
+  ],
+  "related_concepts": [
+    "fx_gamma_dominance",
+    "vol_of_vol_transition_zone",
+    "regime_conditional_rate_fx_relationship"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T21:50:58Z",
+  "originating_iteration": "iter_0009",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0009"
+  ]
+}
