@@ -191,5 +191,82 @@
     ],
     "topic": "labor_market_dynamics",
     "iteration_id": "iter_0003"
+  },
+  {
+    "claim": "HY OAS-to-VIX ratio is the single best real-time indicator of credit-equity stress transmission.",
+    "reason": "Full-sample evidence shows only 36% hit rate (4/11) for HY threshold producing equity drawdowns. Lacks backtesting. Specific thresholds (15, 25) are post-hoc calibration. Sensitive to VIX methodology and HY composition changes. A heuristic at best, not the single best indicator.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Shadow term premium is a quantifiable concept that captures private credit's hidden contribution to the cost of capital.",
+    "reason": "Unfalsifiable by design — the opacity is the problem. Author's own caveat: mark-to-recovery gap could be 5% or 25%. A worry dressed in term-premium terminology that adds false precision to a valid underlying concern.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Mainstream structural models (Merton, DSGE) all fail to capture credit-equity linkage dynamics.",
+    "reason": "Category error: Merton models are not used for macro regime forecasting. BGG and Curdia-Woodford partially address endogenous credit within NK framework. SFC/Minsky models remain computationally impractical and lack real-time forecasting track records. The critique has theoretical merit but the sweeping dismissal does not.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "The direction of credit-equity contagion has reversed relative to pre-GFC episodes.",
+    "reason": "The mechanisms have evolved (CLO plumbing, warehouse lines, fund financing vs MBS), but the direction of transmission (credit stress → equity impact) remains the same. Framing a change in pipes as a change in flow direction is misleading and could cause practitioners to dismiss valid historical patterns.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Equity options contain more accurate credit information than credit spreads themselves.",
+    "reason": "Conflates speed of repricing with accuracy of signal. Equity-specific factors (buybacks, index rebalancing, options market-making) add noise. A fast-repricing but noisy instrument is not necessarily superior to a slower but structurally informed one (CLO managers with bottom-up analysis). No empirical validation provided.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Credit-to-equity causal primacy is universal across all types of economic downturns.",
+    "reason": "Fails the 2020 test (simultaneous exogenous shock), 2022 test (rate-driven equity duration hit), and dot-com episode (equity bubble collapsed first, credit stable 18 months). Only the weaker claim — credit-to-equity primacy holds in credit-cycle-driven downturns — survives.",
+    "refuted_by": [
+      "challenger_01",
+      "macro_strategist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Specific HY OAS thresholds (500bp, 550-650bp, 600bp) are precise point estimates at which credit stress becomes self-reinforcing.",
+    "reason": "All specific numbers carry false precision from samples of 4-6 heterogeneous episodes. Market structure changes (CLOs, ETFs, private credit) mean historical thresholds are not directly transferable. Only the directional claim that a regime-dependent threshold zone of ~450-600bp exists survived.",
+    "refuted_by": [
+      "challenger_01",
+      "macro_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Faster post-GFC contagion resolution means lower net risk for medium-term investors.",
+    "reason": "The temporal compression is real for non-recessionary episodes (6-7 months vs 10-12 months post-GFC), but the argument excludes 2001-02 and 2007-09 as genuine recessions — precisely the scenarios where credit-equity contagion matters most. A framework that shows crises are less dangerous after excluding the dangerous crises is circular.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
   }
 ]

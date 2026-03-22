@@ -1,0 +1,37 @@
+{
+  "slug": "merton_model_limitations",
+  "definition": "The Merton/KMV model explains 50-70% of cross-sectional CDS spread variation but is necessary-but-insufficient for credit-equity linkage: systematic Type I errors of 40-60%, underpredicts IG spreads by 50-100bp (credit spread puzzle), and is mechanically irrelevant for ~35% of S&P 500 index weight held by net-cash mega-caps. Useful for within-regime relative value but dangerous if treated as complete, particularly at regime transitions where it fails precisely when needed most.",
+  "confidence": 7,
+  "evidence": [
+    "KMV-Merton explains 50-70% of cross-sectional CDS spread variation (Bharath & Shumway 2008)",
+    "Systematic Type I errors of 40-60%",
+    "Credit spread puzzle: underpredicts IG by 50-100bp",
+    "Mechanically irrelevant for ~35% of S&P 500 held by net-cash mega-caps",
+    "All debates converged on useful foundation, dangerous if treated as complete"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What combination of Merton and Minsky/regime frameworks produces optimal credit-equity signal?",
+    "How should the model be adapted for the covenant-lite, addback-distorted universe?"
+  ],
+  "related_concepts": [
+    "credit_equity_correlation_regime_dependence",
+    "structural_decoupling",
+    "financial_accelerator_loaded",
+    "ebitda_addbacks_covenant_lite"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

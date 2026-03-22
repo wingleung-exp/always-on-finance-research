@@ -1,0 +1,21 @@
+{
+  "concept_a": "credit_equity_correlation_regime_dependence",
+  "concept_b": "merton_model_limitations",
+  "mechanism": "The Merton model assumes continuous, smooth relationships between firm value and credit spreads. But credit-equity correlation drops to 0.3-0.5 during early stress (Merton decouples) before snapping to 0.8-0.9 during acute stress (forced selling creates mechanical linkages). This correlation instability at regime transitions means the Merton framework is least reliable precisely at the transition points where accurate linkage estimation matters most.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "The Merton model works reasonably well within stable regimes (explains 50-70% of cross-sectional variation). It fails specifically at regime transitions — the critical periods for risk management and portfolio positioning.",
+  "originating_agents": [
+    "generalist_02",
+    "macro_strategist_01",
+    "challenger_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

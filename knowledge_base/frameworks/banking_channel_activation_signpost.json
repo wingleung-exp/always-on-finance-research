@@ -1,0 +1,28 @@
+{
+  "slug": "banking_channel_activation_signpost",
+  "purpose": "Distinguish in real-time between contained credit-equity episodes (1998, 2015-16 template: -22%, 3-6 months) and systemic episodes (1990, 2007-08 template: -38%, 18-30 months) by monitoring banking channel activation indicators.",
+  "components": [
+    "Primary signpost: regional bank equities falling in sympathy with HY spread widening activates the systemic template",
+    "Bank CDS widening concurrent with HY widening indicates banking channel engagement",
+    "HY sector breadth: narrow (few sectors) vs broad widening",
+    "IG crossover: stress migrating from HY to IG indicates fundamental deterioration",
+    "MOVE index: rates volatility spilling into credit markets",
+    "FRA-OIS: funding stress in interbank markets"
+  ],
+  "current_assessment": "CRE exposure at regional banks (28-30% concentration, office down 25-40%) constitutes potential banking channel loading. However, KRE persistently shorted since March 2023 and CMBS BBB- at 800-1200bp suggest this is priced consensus. CET1 ratios at 13-14% provide more buffer than historical episodes. Japan model slow bleed more probable than sudden cascade. Banking channel not currently activated despite CRE stress.",
+  "limitations": [
+    "Based on limited historical episodes (primarily 1990 and 2007-08 for systemic)",
+    "13-14% CET1 ratios may change the dynamics vs historical episodes",
+    "Regulatory forbearance incentives may prevent activation even with significant losses",
+    "Does not account for private credit channels that bypass banks entirely",
+    "Detection may not be early enough to be actionable for portfolio positioning"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

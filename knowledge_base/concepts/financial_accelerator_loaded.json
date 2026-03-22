@@ -1,0 +1,33 @@
+{
+  "slug": "financial_accelerator_loaded",
+  "definition": "The Bernanke-Gertler-Gilchrist financial accelerator amplifies credit-equity transmission by approximately 1.5-2x and is currently loaded because EBITDA addback distortion means true leverage is higher than model calibrations suggest, implying a narrower distance-to-default and higher external finance premium elasticity than observable data indicate. Both NK and Post-Keynesian frameworks converge on this conclusion.",
+  "confidence": 7,
+  "evidence": [
+    "Embedded in Fed DSGE models (FRB/US, SIGMA)",
+    "1.5-2x amplification factor from calibration exercises",
+    "EBITDA addback distortion means accelerator is more loaded than baseline calibrations suggest",
+    "True leverage of 7.5-8.5x implies narrower distance-to-default",
+    "Both NK and Post-Keynesian frameworks arrive at same conclusion: feedback loop is primed"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "What is the true accelerator coefficient with addback-adjusted leverage?",
+    "Can the amplification factor be directly measured rather than calibrated?"
+  ],
+  "related_concepts": [
+    "ebitda_addbacks_covenant_lite",
+    "merton_model_limitations",
+    "credit_equity_correlation_regime_dependence"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

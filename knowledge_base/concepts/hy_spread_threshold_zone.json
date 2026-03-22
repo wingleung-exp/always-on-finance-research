@@ -1,0 +1,43 @@
+{
+  "slug": "hy_spread_threshold_zone",
+  "definition": "A zone of approximately 450-600bp in HY OAS exists where credit stress becomes self-reinforcing as primary market access shuts down, CLO arbitrage economics invert, and the maturity wall becomes a solvency wall. The precise level is regime-dependent, not a fixed point estimate. The Kalecki fiscal buffer may currently elevate the threshold by 100-150bp, but this higher threshold is itself destabilizing because more damage accumulates before the signal fires.",
+  "confidence": 6,
+  "evidence": [
+    "All specific point estimates refuted for false precision across multiple debates",
+    "Directional claim survived: above some spread level primary market shuts down",
+    "CLO arbitrage economics invert above threshold",
+    "Only 4 of 11 episodes where HY crossed 500bp produced >20% equity drawdowns",
+    "Signal is largely redundant with recession indicators",
+    "Kalecki fiscal buffer may elevate threshold by 100-150bp",
+    "Breadth of widening and banking system involvement matter more than absolute level"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What is the current regime-adjusted threshold given CLO market structure?",
+    "Is the signal redundant with recession indicators?",
+    "How does the Kalecki elevation of the threshold change the risk calculus?"
+  ],
+  "related_concepts": [
+    "hy_oas_current_level",
+    "kalecki_fiscal_channel",
+    "clo_oc_test_contagion",
+    "maturity_wall",
+    "higher_pain_threshold_destabilizing",
+    "modified_taylor_rule_credit_term"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

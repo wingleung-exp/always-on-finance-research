@@ -1,0 +1,26 @@
+{
+  "slug": "regime_dependent_lead_lag_diagnostic",
+  "purpose": "Diagnose the nature of a credit-equity stress episode by observing the direction of lead-lag transmission, enabling appropriate portfolio positioning and risk management responses.",
+  "components": [
+    "Credit leads equity by 2-6 months: fundamental/credit-cycle-driven deterioration (2007-08 template). Deploy defensive credit positioning first, expect equity to follow.",
+    "Equity leads or moves simultaneously with credit: sentiment/exogenous shock (2020, 2018 Q4 template). Credit stress may be transient and flow-driven rather than fundamental.",
+    "Direction of lead-lag is diagnostic of shock type and therefore predictive of episode severity and duration.",
+    "Monitor for synthetic credit reverse causality (CDX/ETF flows) that contaminates the signal at high frequencies."
+  ],
+  "current_assessment": "Current HY OAS at 350-420bp shows no credit stress signal. Credit impulse has decelerated from 2023-2024 peak while equities expanded — a divergent signal. The lead-lag diagnostic is not yet activated because neither market is in stress. If credit begins to widen, the framework becomes actionable.",
+  "limitations": [
+    "Passive/ETF flows may be compressing lead time toward zero, reducing actionability",
+    "Synthetic credit reverse causality contaminates the high-frequency signal",
+    "Lead-lag pattern based on 5-6 episodes — limited sample",
+    "Private credit opacity may delay or mask the credit signal in the sequence",
+    "2020 episode (simultaneous) may represent new microstructure normal rather than exogenous-shock exception"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

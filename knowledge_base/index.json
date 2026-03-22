@@ -28,9 +28,9 @@
     "concept:private_credit_opacity": {
       "type": "concept",
       "slug": "private_credit_opacity",
-      "confidence": 7.5,
-      "last_updated": "2026-03-22T17:23:37Z",
-      "research_iterations": 2,
+      "confidence": 7.33,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 3,
       "topic": "risk_appetite_regimes"
     },
     "concept:minsky_framework": {
@@ -236,9 +236,9 @@
     "concept:maturity_wall": {
       "type": "concept",
       "slug": "maturity_wall",
-      "confidence": 9,
-      "last_updated": "2026-03-22T17:23:37Z",
-      "research_iterations": 1,
+      "confidence": 9.0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 2,
       "topic": "growth_models"
     },
     "concept:covenant_lite_default_delay": {
@@ -864,6 +864,302 @@
       "last_updated": "2026-03-22T17:50:48Z",
       "research_iterations": 1,
       "topic": "labor_market_dynamics"
+    },
+    "concept:modified_taylor_rule_credit_term": {
+      "type": "concept",
+      "slug": "modified_taylor_rule_credit_term",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:ebitda_addbacks_covenant_lite": {
+      "type": "concept",
+      "slug": "ebitda_addbacks_covenant_lite",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:credit_equity_correlation_regime_dependence": {
+      "type": "concept",
+      "slug": "credit_equity_correlation_regime_dependence",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:merton_model_limitations": {
+      "type": "concept",
+      "slug": "merton_model_limitations",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:term_premium_channel": {
+      "type": "concept",
+      "slug": "term_premium_channel",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:financial_accelerator_loaded": {
+      "type": "concept",
+      "slug": "financial_accelerator_loaded",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:credit_impulse_degradation": {
+      "type": "concept",
+      "slug": "credit_impulse_degradation",
+      "confidence": 6,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:hy_spread_threshold_zone": {
+      "type": "concept",
+      "slug": "hy_spread_threshold_zone",
+      "confidence": 6,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:kalecki_fiscal_channel": {
+      "type": "concept",
+      "slug": "kalecki_fiscal_channel",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:fallen_angel_risk": {
+      "type": "concept",
+      "slug": "fallen_angel_risk",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:basis_trade_contagion": {
+      "type": "concept",
+      "slug": "basis_trade_contagion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:credit_equity_lead_lag": {
+      "type": "concept",
+      "slug": "credit_equity_lead_lag",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:clo_oc_test_contagion": {
+      "type": "concept",
+      "slug": "clo_oc_test_contagion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:synthetic_credit_reverse_causality": {
+      "type": "concept",
+      "slug": "synthetic_credit_reverse_causality",
+      "confidence": 6,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:hy_oas_current_level": {
+      "type": "concept",
+      "slug": "hy_oas_current_level",
+      "confidence": 9,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:credit_equity_labor_sequencing": {
+      "type": "concept",
+      "slug": "credit_equity_labor_sequencing",
+      "confidence": 9,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:banking_channel_severity_discriminant": {
+      "type": "concept",
+      "slug": "banking_channel_severity_discriminant",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:cre_bank_contagion": {
+      "type": "concept",
+      "slug": "cre_bank_contagion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:hy_oas_current_level__kalecki_fiscal_channel": {
+      "type": "relationship",
+      "slug": "hy_oas_current_level__kalecki_fiscal_channel",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:clo_oc_test_contagion__maturity_wall": {
+      "type": "relationship",
+      "slug": "clo_oc_test_contagion__maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:hy_spread_threshold_zone__modified_taylor_rule_credit_term": {
+      "type": "relationship",
+      "slug": "hy_spread_threshold_zone__modified_taylor_rule_credit_term",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_impulse_degradation__private_credit_opacity": {
+      "type": "relationship",
+      "slug": "credit_impulse_degradation__private_credit_opacity",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_labor_sequencing__credit_equity_lead_lag": {
+      "type": "relationship",
+      "slug": "credit_equity_labor_sequencing__credit_equity_lead_lag",
+      "confidence": 9,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_lead_lag__synthetic_credit_reverse_causality": {
+      "type": "relationship",
+      "slug": "credit_equity_lead_lag__synthetic_credit_reverse_causality",
+      "confidence": 6,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_correlation_regime_dependence__merton_model_limitations": {
+      "type": "relationship",
+      "slug": "credit_equity_correlation_regime_dependence__merton_model_limitations",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:basis_trade_contagion__term_premium_channel": {
+      "type": "relationship",
+      "slug": "basis_trade_contagion__term_premium_channel",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:banking_channel_severity_discriminant__cre_bank_contagion": {
+      "type": "relationship",
+      "slug": "banking_channel_severity_discriminant__cre_bank_contagion",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:hy_spread_threshold_zone__maturity_wall": {
+      "type": "relationship",
+      "slug": "hy_spread_threshold_zone__maturity_wall",
+      "confidence": 9,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:fallen_angel_risk__hy_spread_threshold_zone": {
+      "type": "relationship",
+      "slug": "fallen_angel_risk__hy_spread_threshold_zone",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:higher_pain_threshold_destabilizing__kalecki_fiscal_channel": {
+      "type": "relationship",
+      "slug": "higher_pain_threshold_destabilizing__kalecki_fiscal_channel",
+      "confidence": 6,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:ebitda_addbacks_covenant_lite__financial_accelerator_loaded": {
+      "type": "relationship",
+      "slug": "ebitda_addbacks_covenant_lite__financial_accelerator_loaded",
+      "confidence": 7,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:banking_channel_severity_discriminant__credit_equity_correlation_regime_dependence": {
+      "type": "relationship",
+      "slug": "banking_channel_severity_discriminant__credit_equity_correlation_regime_dependence",
+      "confidence": 8,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:regime_dependent_lead_lag_diagnostic": {
+      "type": "framework",
+      "slug": "regime_dependent_lead_lag_diagnostic",
+      "confidence": 0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:contagion_chain_completion_assessment": {
+      "type": "framework",
+      "slug": "contagion_chain_completion_assessment",
+      "confidence": 0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:minsky_kalecki_cycle_positioning": {
+      "type": "framework",
+      "slug": "minsky_kalecki_cycle_positioning",
+      "confidence": 0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:banking_channel_activation_signpost": {
+      "type": "framework",
+      "slug": "banking_channel_activation_signpost",
+      "confidence": 0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:opaque_credit_sector_base_rate": {
+      "type": "framework",
+      "slug": "opaque_credit_sector_base_rate",
+      "confidence": 0,
+      "last_updated": "2026-03-22T18:21:43Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
     }
   },
   "iterations": [
@@ -905,7 +1201,20 @@
         "anti_knowledge_entries": 7,
         "low_confidence_entries": 6
       }
+    },
+    {
+      "iteration_id": "iter_0004",
+      "topic": "credit_equity_linkage",
+      "topic_category": "cross_asset",
+      "timestamp": "2026-03-22T18:21:43Z",
+      "stats": {
+        "concepts_written": 20,
+        "relationships_written": 14,
+        "frameworks_written": 5,
+        "anti_knowledge_entries": 8,
+        "low_confidence_entries": 7
+      }
     }
   ],
-  "last_updated": "2026-03-22T17:50:48Z"
+  "last_updated": "2026-03-22T18:21:43Z"
 }

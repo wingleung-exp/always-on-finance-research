@@ -1,0 +1,35 @@
+{
+  "slug": "credit_equity_lead_lag",
+  "definition": "Credit markets generally lead equity markets by 2-6 months in fundamental deteriorations, but the direction and magnitude of the lead-lag is regime-dependent: credit leads in fundamental deteriorations (2007-08 canonical case, 6-8 month lead), while equities lead or move simultaneously in sentiment/exogenous shocks (2020, 2018 Q4). The direction of lead-lag is diagnostic of the shock type.",
+  "confidence": 8,
+  "evidence": [
+    "5 of 6 major episodes since 1990 show credit leading or moving simultaneously with equity",
+    "2007-08 canonical case shows 6-8 month credit lead",
+    "Challenger_01 concedes 2007 case and shows simultaneous movement in 4 of 7 episodes — still supports credit does not lag claim",
+    "Direction of lead-lag is diagnostic of shock type (credit_analyst_01 formulation)"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Are passive/ETF flows compressing lead time toward zero?",
+    "Has algorithmic trading fundamentally altered the lead-lag structure post-2015?",
+    "Does high-frequency lead-lag analysis across pre-2015 vs post-2015 show compression to less than 1 month?"
+  ],
+  "related_concepts": [
+    "synthetic_credit_reverse_causality",
+    "credit_equity_correlation_regime_dependence",
+    "credit_equity_labor_sequencing"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

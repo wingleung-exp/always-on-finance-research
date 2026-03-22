@@ -1,0 +1,19 @@
+{
+  "concept_a": "synthetic_credit_reverse_causality",
+  "concept_b": "credit_equity_lead_lag",
+  "mechanism": "CDX/ETF hedge demand creates reverse causality: equity vol → managers buy CDX protection or short HYG → mechanical spread widening → interpreted as credit stress → further equity selling. This contaminates the credit-leads-equity signal, making a significant portion of high-frequency correlation actually equity-to-credit. The signal is partially eating its own tail.",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Most pronounced during stress episodes when hedge demand spikes. In calm periods, fundamental credit analysis retains informational lead time. The contamination is strongest at high frequencies (intraday to weekly) and may not invalidate the multi-month fundamental lead-lag.",
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

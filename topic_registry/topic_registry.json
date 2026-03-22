@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-22T18:21:43Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -730,14 +730,20 @@
     "credit_equity_linkage": {
       "category": "cross_asset",
       "display_name": "Credit-Equity Linkage & Contagion Channels",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 3.0,
-      "research_count": 0,
+      "last_researched": "2026-03-22T18:21:43Z",
+      "depth_level": 1,
+      "confidence_score": 7.4,
+      "research_count": 1,
       "knowledge_gaps": [
-        "CRE-to-bank-equity contagion mechanism",
+        "Private credit spillover operates through Godley sectoral balance (flow-of-funds) disruption rather than price contagion, transmitting chronically over quarters-to-years.",
         "HY spread widening equity market impact threshold",
-        "Private credit-to-public market spillover channels"
+        "The credit impulse-to-equity R-squared has experienced a structural break from 0.38 to 0.12, reflecting genuine post-GFC funding shift rather than extended lag structure.",
+        "Credit and equity market composition has structurally decoupled: top 10 S&P 500 hold ~$500B net cash with zero Merton linkage, while HY issuers are $2-5B market-cap leveraged companies.",
+        "A yield-curve-mediated contagion sequence operates as: inversion → bear steepener → credit blowout → equity drawdown.",
+        "Multi-step contagion chains complete only ~15-25% of the time (median ~38%), with policy intervention as primary chain-breaker.",
+        "CRE-to-bank-equity contagion mechanism",
+        "Private credit-to-public market spillover channels",
+        "The Kalecki fiscal buffer raising the HY threshold by 100-150bp is itself destabilizing because more credit damage accumulates before equities register the problem — analogous to suppressing small forest fires."
       ],
       "connections": [
         "credit_cycles",
@@ -751,9 +757,29 @@
         "private_credit_spillover"
       ],
       "key_concepts": [
+        "banking_channel_severity_discriminant",
+        "basis_trade_contagion",
+        "clo_oc_test_contagion",
+        "cre_bank_contagion",
         "credit_equity_contagion",
+        "credit_equity_correlation_regime_dependence",
+        "credit_equity_labor_sequencing",
+        "credit_equity_lead_lag",
+        "credit_impulse",
+        "credit_impulse_degradation",
+        "ebitda_addbacks_covenant_lite",
+        "fallen_angel_risk",
+        "financial_accelerator_loaded",
+        "hy_oas_current_level",
+        "hy_spread_threshold_zone",
+        "kalecki_fiscal_channel",
+        "maturity_wall",
         "merton_model",
-        "credit_impulse"
+        "merton_model_limitations",
+        "modified_taylor_rule_credit_term",
+        "private_credit_opacity",
+        "synthetic_credit_reverse_causality",
+        "term_premium_channel"
       ]
     },
     "commodity_inflation_transmission": {

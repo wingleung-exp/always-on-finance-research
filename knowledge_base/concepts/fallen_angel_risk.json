@@ -1,0 +1,35 @@
+{
+  "slug": "fallen_angel_risk",
+  "definition": "$350-500B of BBB-rated bonds at elevated downgrade risk represent a high-impact near-term transmission channel. BBB is the largest single rating cohort (~$3.5-4.0T), and IG-mandated funds (~$2T AUM) must sell within 30-90 days post-downgrade, creating concentrated supply shocks in HY markets. Fallen angel equity reprices 15-30% around downgrade events. Ford/GM 2005 template: $200B+ moving from IG to HY created multi-month dislocation and 100-150bp HY spread widening.",
+  "confidence": 7,
+  "evidence": [
+    "BBB is largest single rating cohort at ~$3.5-4.0T",
+    "IG-mandated funds ~$2T AUM must sell within 30-90 days post-downgrade",
+    "Fallen angel equity reprices 15-30% around downgrade events",
+    "Ford/GM 2005 template: $200B+ created multi-month dislocation and 100-150bp HY spread widening",
+    "Pair_1 debate flagged this as a glaring omission by credit_analyst_02",
+    "Not challenged by any agent"
+  ],
+  "originating_agents": [
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Which specific BBB issuers are most at risk of downgrade?",
+    "How has market capacity to absorb fallen angels changed since 2005?",
+    "Would CLO structures amplify or absorb the supply shock?"
+  ],
+  "related_concepts": [
+    "maturity_wall",
+    "hy_spread_threshold_zone",
+    "hy_oas_current_level",
+    "clo_oc_test_contagion"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

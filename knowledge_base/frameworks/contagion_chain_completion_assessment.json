@@ -1,0 +1,28 @@
+{
+  "slug": "contagion_chain_completion_assessment",
+  "purpose": "Estimate the probability that a multi-step credit-equity contagion chain will complete vs being interrupted by policy intervention or self-correction, providing a counterweight to narrative-driven tail risk analysis.",
+  "components": [
+    "Count the number of discrete steps required for full contagion",
+    "Apply base rate of ~38% median completion from 6 historical episodes",
+    "Policy intervention is the primary chain-breaker — assess current policy space",
+    "Each additional step reduces completion probability multiplicatively",
+    "Private credit spillover chain requires 6 steps suggesting 15-25% completion probability",
+    "CRE-bank cascade joint probability estimated at 3-8%"
+  ],
+  "current_assessment": "Most contagion chains under discussion require 4-6 steps. Base rates suggest 15-38% completion probability. Fed retains significant policy space (modified Taylor Rule credit term suggests willingness to respond). However, inflation constraint could block the policy response, significantly increasing completion probability. The framework suggests monitoring rather than base-case positioning for most multi-step chains.",
+  "limitations": [
+    "Based on only 6 episodes — too few for statistical inference",
+    "±10pp uncertainty on specific probabilities",
+    "Excludes structural changes in market plumbing (CLOs, ETFs, private credit) that may change completion rates",
+    "Policy intervention assumption requires the Fed not being constrained by inflation",
+    "Does not account for novel contagion channels with no historical precedent"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

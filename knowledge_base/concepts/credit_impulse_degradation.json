@@ -1,0 +1,38 @@
+{
+  "slug": "credit_impulse_degradation",
+  "definition": "The traditional bank credit impulse remains theoretically valid via the IS-curve mechanism but has structurally degraded as a US equity leading indicator, with R-squared declining from 0.38 (1975-2007) to 0.12 (2010-2025). The shift reflects bank credit-to-GDP flattening since 2008, corporate bond market doubling, private credit growing from $200B to $1.7T, and buybacks averaging ~$800B/yr. Still captures the SME/consumer channel (~40% of economy) and may predict macro recessions even if not S&P 500 returns.",
+  "confidence": 6,
+  "evidence": [
+    "IS-curve mechanism is textbook and BIS-validated",
+    "R² decline from 0.38 (1975-2007) to 0.12 (2010-2025)",
+    "Bank credit-to-GDP flat since 2008",
+    "Corporate bond market doubled, private credit from $200B to $1.7T",
+    "Buybacks averaging ~$800B/yr mask credit channel",
+    "Currently sending divergent signal from equity pricing — decelerated while equities expanded"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Does credit impulse still predict macro recessions even if not S&P 500 returns?",
+    "Can decomposition into bank vs non-bank components restore predictive power?",
+    "What is the correct lag specification post-GFC (12-18 months vs 6 months)?",
+    "What is the unmeasured $1.7T private credit impulse doing?"
+  ],
+  "related_concepts": [
+    "private_credit_opacity",
+    "kalecki_fiscal_channel",
+    "credit_impulse_structural_break"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

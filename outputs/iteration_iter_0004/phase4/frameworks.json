@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "regime_dependent_lead_lag_diagnostic",
+    "purpose": "Diagnose the nature of a credit-equity stress episode by observing the direction of lead-lag transmission, enabling appropriate portfolio positioning and risk management responses.",
+    "components": [
+      "Credit leads equity by 2-6 months: fundamental/credit-cycle-driven deterioration (2007-08 template). Deploy defensive credit positioning first, expect equity to follow.",
+      "Equity leads or moves simultaneously with credit: sentiment/exogenous shock (2020, 2018 Q4 template). Credit stress may be transient and flow-driven rather than fundamental.",
+      "Direction of lead-lag is diagnostic of shock type and therefore predictive of episode severity and duration.",
+      "Monitor for synthetic credit reverse causality (CDX/ETF flows) that contaminates the signal at high frequencies."
+    ],
+    "current_assessment": "Current HY OAS at 350-420bp shows no credit stress signal. Credit impulse has decelerated from 2023-2024 peak while equities expanded — a divergent signal. The lead-lag diagnostic is not yet activated because neither market is in stress. If credit begins to widen, the framework becomes actionable.",
+    "limitations": [
+      "Passive/ETF flows may be compressing lead time toward zero, reducing actionability",
+      "Synthetic credit reverse causality contaminates the high-frequency signal",
+      "Lead-lag pattern based on 5-6 episodes — limited sample",
+      "Private credit opacity may delay or mask the credit signal in the sequence",
+      "2020 episode (simultaneous) may represent new microstructure normal rather than exogenous-shock exception"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "banking_channel_activation_signpost",
+    "purpose": "Distinguish in real-time between contained credit-equity episodes (1998, 2015-16 template: -22%, 3-6 months) and systemic episodes (1990, 2007-08 template: -38%, 18-30 months) by monitoring banking channel activation indicators.",
+    "components": [
+      "Primary signpost: regional bank equities falling in sympathy with HY spread widening activates the systemic template",
+      "Bank CDS widening concurrent with HY widening indicates banking channel engagement",
+      "HY sector breadth: narrow (few sectors) vs broad widening",
+      "IG crossover: stress migrating from HY to IG indicates fundamental deterioration",
+      "MOVE index: rates volatility spilling into credit markets",
+      "FRA-OIS: funding stress in interbank markets"
+    ],
+    "current_assessment": "CRE exposure at regional banks (28-30% concentration, office down 25-40%) constitutes potential banking channel loading. However, KRE persistently shorted since March 2023 and CMBS BBB- at 800-1200bp suggest this is priced consensus. CET1 ratios at 13-14% provide more buffer than historical episodes. Japan model slow bleed more probable than sudden cascade. Banking channel not currently activated despite CRE stress.",
+    "limitations": [
+      "Based on limited historical episodes (primarily 1990 and 2007-08 for systemic)",
+      "13-14% CET1 ratios may change the dynamics vs historical episodes",
+      "Regulatory forbearance incentives may prevent activation even with significant losses",
+      "Does not account for private credit channels that bypass banks entirely",
+      "Detection may not be early enough to be actionable for portfolio positioning"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "minsky_kalecki_cycle_positioning",
+    "purpose": "Assess the current phase of the credit cycle using Minsky financial instability hypothesis integrated with Kalecki-Levy profit identity, identifying whether the system is in hedge, speculative, or Ponzi financing phase and how the fiscal buffer affects transition timing.",
+    "components": [
+      "Kalecki-Levy profit identity: fiscal deficit → corporate profit support → credit quality maintenance",
+      "Minsky phase classification: hedge (income covers all obligations), speculative (income covers interest but not principal), Ponzi (income covers neither)",
+      "Aggregate vs distributional: aggregate private sector surplus may mask bottom-50% deficit",
+      "Compositional fallacy: multiple sectors at Ponzi stage while aggregate appears speculative",
+      "Fiscal consolidation trigger: >2pp GDP consolidation triggers credit cycle downshift within 4-6 quarters",
+      "Higher pain threshold paradox: fiscal buffer delays adjustment but increases eventual magnitude"
+    ],
+    "current_assessment": "The system is in Minsky speculative phase: surface stability concealing growing fragility. The 6-7% fiscal deficit mechanically sustains profits, keeping distance-to-default artificially wide and spreads artificially tight. The artificial decorrelation between credit spreads and equity risk premia is a speculative-phase signal. The maturity wall ($900B-$1.1T, 2025-2027) represents the micro-level stress that may overwhelm the macro-level Kalecki support, particularly for lower HY/leveraged loans.",
+    "limitations": [
+      "Empirically untested whether the Kalecki floor can be overwhelmed by firm-level maturity wall stress",
+      "No clear threshold for when distributional stress overwhelms aggregate support",
+      "Minsky phases are qualitative classifications with subjective boundaries",
+      "The framework does not specify timing — could persist in speculative phase for years",
+      "Fiscal consolidation trigger (2pp GDP) is approximate and politically contingent"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "contagion_chain_completion_assessment",
+    "purpose": "Estimate the probability that a multi-step credit-equity contagion chain will complete vs being interrupted by policy intervention or self-correction, providing a counterweight to narrative-driven tail risk analysis.",
+    "components": [
+      "Count the number of discrete steps required for full contagion",
+      "Apply base rate of ~38% median completion from 6 historical episodes",
+      "Policy intervention is the primary chain-breaker — assess current policy space",
+      "Each additional step reduces completion probability multiplicatively",
+      "Private credit spillover chain requires 6 steps suggesting 15-25% completion probability",
+      "CRE-bank cascade joint probability estimated at 3-8%"
+    ],
+    "current_assessment": "Most contagion chains under discussion require 4-6 steps. Base rates suggest 15-38% completion probability. Fed retains significant policy space (modified Taylor Rule credit term suggests willingness to respond). However, inflation constraint could block the policy response, significantly increasing completion probability. The framework suggests monitoring rather than base-case positioning for most multi-step chains.",
+    "limitations": [
+      "Based on only 6 episodes — too few for statistical inference",
+      "±10pp uncertainty on specific probabilities",
+      "Excludes structural changes in market plumbing (CLOs, ETFs, private credit) that may change completion rates",
+      "Policy intervention assumption requires the Fed not being constrained by inflation",
+      "Does not account for novel contagion channels with no historical precedent"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "opaque_credit_sector_base_rate",
+    "purpose": "Estimate the probability of disorderly repricing in opaque credit markets by applying historical base rates from analogous opaque sectors, given the absence of direct precedent for private credit at $1.7T scale.",
+    "components": [
+      "Five historical analogues: S&Ls (1980s), SIVs (2007-08), junk bonds (1989-90), Japanese jusen (1990s), AT1 CoCos (2023)",
+      "Base rate outcome: 60-80% experienced disorderly repricing",
+      "Median lag from opacity to repricing: 4-5 years",
+      "Three spillover channels: semi-liquid vehicle redemptions (~$300B BDCs/interval funds), insurance RBC rebalancing (~$700B exposure), information contagion from first forced mark-to-market",
+      "Observable leading indicator: PIK toggle usage (currently 5-8%, up from ~2% in 2022)"
+    ],
+    "current_assessment": "Private credit at $1.7T is outside all public indices and financial conditions measures. PIK toggle usage trending up. Mark-to-recovery gap unknown (5-25% range). Base rate suggests eventual disorderly repricing is more likely than not, but median lag of 4-5 years means timing is highly uncertain. This is the highest-importance, lowest-precision risk in credit-equity linkage.",
+    "limitations": [
+      "All five analogues are structurally dissimilar to current private credit",
+      "60-80% repricing rate from 5 cases is not statistically robust",
+      "Median lag of 4-5 years is operationally unhelpful",
+      "Mark-to-recovery gap range of 5-25% is too wide to be actionable",
+      "The analogues predate current regulatory frameworks and market structures"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  }
+]

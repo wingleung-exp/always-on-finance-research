@@ -1,0 +1,35 @@
+{
+  "slug": "clo_oc_test_contagion",
+  "definition": "CLO overcollateralization test mechanics create a discrete, non-linear contagion channel: when CCC-bucket holdings breach the 7.5% threshold, cash flow diverts from equity to senior tranches, simultaneously destroying CLO equity returns, forcing leveraged loan selling, and shutting down new CLO formation (removing ~65-70% of leveraged loan demand). This is a step function, not a smooth degradation.",
+  "confidence": 7,
+  "evidence": [
+    "Identified as the single most specific and actionable contagion mechanism across all 8 analyses",
+    "7.5% CCC threshold triggers step function not smooth degradation",
+    "~$1T CLO market makes this systemically relevant",
+    "CLO formation represents ~65-70% of leveraged loan demand",
+    "PIK toggle usage at 5-8% up from 2% in 2022 as observable leading indicator"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "What is current CCC-bucket utilization across the CLO market (4% = comfortable vs 6.5% = near cascade)?",
+    "How many downgrade waves would breach the threshold?",
+    "Data exists in Intex and LCD but is not freely available"
+  ],
+  "related_concepts": [
+    "maturity_wall",
+    "hy_spread_threshold_zone",
+    "fallen_angel_risk",
+    "private_credit_opacity"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "ebitda_addbacks_covenant_lite",
+  "definition": "EBITDA addbacks of 15-40% and covenant-lite structures (>90% of leveraged loans) create hidden leverage where true leverage is 7.5-8.5x vs reported ~6x. Covenant-lite delays default recognition by 12-24 months but increases loss-given-default, producing a 'fewer but larger' default pattern with estimated recoveries of 40-50 cents vs historical 60-70 cents.",
+  "confidence": 8,
+  "evidence": [
+    "ECB and Fed regulatory analyses document the 15-40% addback range",
+    ">90% of leveraged loans lack maintenance covenants",
+    "True leverage of 7.5-8.5x vs reported ~6x",
+    "Default models trained on pre-2010 covenanted data are miscalibrated for current universe",
+    "Covenant-lite delays default 12-24 months but increases loss-given-default",
+    "Merton distance-to-default is significantly narrower than reported financials indicate",
+    "Survived all debates"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01",
+    "macro_strategist_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "What is the precise Merton distance-to-default adjustment for addback-distorted leverage?",
+    "By how much do observable credit metrics understate true cycle positioning?",
+    "How should default models be recalibrated for the covenant-lite universe?"
+  ],
+  "related_concepts": [
+    "maturity_wall",
+    "financial_accelerator_loaded",
+    "merton_model_limitations",
+    "private_credit_opacity"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

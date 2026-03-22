@@ -1,0 +1,37 @@
+{
+  "slug": "credit_equity_correlation_regime_dependence",
+  "definition": "Credit-equity correlation varies dramatically by regime: ~0.3-0.4 in normal periods, ~0.7-0.9 during crises (active only ~7% of calendar time or 30 of 420 months since 1990). Critically, correlation drops to 0.3-0.5 during early stress before snapping to 0.8-0.9 during acute stress, meaning the Merton model is least reliable precisely when needed most.",
+  "confidence": 8,
+  "evidence": [
+    "Normal-period correlation ~0.3-0.4; crisis correlation ~0.7-0.9",
+    "Crisis contagion regime active only ~7% of calendar time (30 of 420 months since 1990)",
+    "Positive co-movement regime active ~49% of time",
+    "Correlation drops to 0.3-0.5 during early stress before snapping to 0.8-0.9 during acute stress",
+    "Risk models using constant correlations systematically misprice tail risk",
+    "Portfolios designed for crisis correlation are suboptimal 85% of the time"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "macro_strategist_01",
+    "rates_strategist_01",
+    "challenger_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Can the correlation instability at regime transitions be used as a real-time diagnostic tool?",
+    "What triggers the snap from early-stress decorrelation to acute-stress high correlation?"
+  ],
+  "related_concepts": [
+    "merton_model_limitations",
+    "banking_channel_severity_discriminant",
+    "credit_equity_lead_lag"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

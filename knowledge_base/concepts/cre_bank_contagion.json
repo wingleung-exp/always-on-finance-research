@@ -1,0 +1,44 @@
+{
+  "slug": "cre_bank_contagion",
+  "definition": "CRE-to-bank-equity contagion operates through a multi-stage regional bank balance sheet mechanism: mark-to-market losses → provisioning → lending pullback. Regional banks hold 28-30% CRE concentration vs 6-8% for largest banks, across ~$2.7T total bank CRE exposure, with office values down 25-40% from peak. However, the Japan model (slow extend-and-pretend) is more probable than sudden cascade given 13-14% CET1 ratios.",
+  "confidence": 7,
+  "evidence": [
+    "~$2.7T bank CRE exposure",
+    "Regional banks at 28-30% CRE concentration vs 6-8% for largest banks",
+    "Office down 25-40% from peak",
+    "1990 and 2023 as templates",
+    "Median 38% equity drawdown with banking channel active vs 22% without",
+    "Duration 18-30 months with banking channel vs 3-6 months without",
+    "Joint probability of full contagion cascade is 3-8% per challenger_01",
+    "KRE persistently shorted since March 2023, CMBS BBB- at 800-1200bp — may be priced consensus"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Is CRE-bank contagion now priced consensus rather than genuine tail risk?",
+    "Will Japan model slow extend-and-pretend be the resolution?",
+    "Is the risk-reward for trading this thesis already unfavorable even if the analytical mechanism is correct?",
+    "Will Stage 3 (lending pullback) materialize or be prevented by regulatory forbearance?"
+  ],
+  "related_concepts": [
+    "banking_channel_severity_discriminant",
+    "financial_accelerator_loaded",
+    "credit_equity_labor_sequencing"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

@@ -1,0 +1,201 @@
+[
+  {
+    "concept_a": "maturity_wall",
+    "concept_b": "hy_spread_threshold_zone",
+    "mechanism": "Maturity wall forces $900B-$1.1T in refinancing at 400bp higher coupons. As more borrowers approach refinancing, the marginal issuer faces primary market exclusion, mechanically widening spreads toward the self-reinforcing threshold zone. For borrowers at true 7.5-8.5x leverage, debt service at 500bp+ OAS consumes 70-80% of actual cash EBITDA, forcing defaults that widen spreads further.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Operates regardless of regime — this is arithmetic. However, the spread level at which the maturity wall becomes a solvency wall depends on the rate/spread environment and fiscal buffer at refinancing time.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "macro_strategist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "hy_oas_current_level",
+    "mechanism": "Kalecki-Levy identity channels 6-7% fiscal deficits directly to corporate profits, sustaining interest coverage ratios and keeping distance-to-default wide. This mechanically suppresses credit spreads and supports equity valuations simultaneously. The tight HY OAS is fiscally contingent, not structurally earned.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Active as long as fiscal deficits remain above ~4-5% of GDP. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "ebitda_addbacks_covenant_lite",
+    "concept_b": "financial_accelerator_loaded",
+    "mechanism": "True leverage of 7.5-8.5x vs reported ~6x means the Bernanke-Gertler-Gilchrist financial accelerator is more loaded than baseline calibrations suggest. The narrower true distance-to-default implies higher external finance premium elasticity, meaning any initial shock produces a larger feedback effect (equity decline → collateral impairment → tighter credit → further equity decline) than models predict.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Always present as a structural amplifier, but only activates when an initial shock triggers the feedback loop. The loaded state means a smaller initial shock is sufficient to activate.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "cre_bank_contagion",
+    "concept_b": "banking_channel_severity_discriminant",
+    "mechanism": "CRE losses at regional banks (28-30% concentration, office down 25-40%) activate the three-stage banking channel: mark-to-market → provisioning → lending pullback. Once the banking channel activates, historical precedent shows 2-4x larger equity drawdowns and 3-6x longer duration vs contained episodes.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "CRE-bank contagion activates the banking channel only if losses are large enough to impair bank capital and trigger lending pullback (Stage 3). The Japan model (extend-and-pretend with regulatory forbearance) can prevent full activation. 13-14% CET1 ratios provide more buffer than in 1990 or 2007.",
+    "originating_agents": [
+      "generalist_02",
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "synthetic_credit_reverse_causality",
+    "concept_b": "credit_equity_lead_lag",
+    "mechanism": "CDX/ETF hedge demand creates reverse causality: equity vol → managers buy CDX protection or short HYG → mechanical spread widening → interpreted as credit stress → further equity selling. This contaminates the credit-leads-equity signal, making a significant portion of high-frequency correlation actually equity-to-credit. The signal is partially eating its own tail.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most pronounced during stress episodes when hedge demand spikes. In calm periods, fundamental credit analysis retains informational lead time. The contamination is strongest at high frequencies (intraday to weekly) and may not invalidate the multi-month fundamental lead-lag.",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "clo_oc_test_contagion",
+    "concept_b": "maturity_wall",
+    "mechanism": "CLO OC test breach at 7.5% CCC-bucket threshold simultaneously destroys CLO equity returns, forces leveraged loan selling, and shuts down new CLO formation — removing ~65-70% of leveraged loan demand. This converts the maturity wall from a refinancing challenge into a solvency crisis by eliminating the primary demand source for leveraged loan refinancing.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Step function that activates only when CCC-bucket holdings breach 7.5%. Current utilization (4-6.5%) determines proximity. One downgrade wave from the maturity wall could breach the threshold, creating a self-reinforcing loop.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "fallen_angel_risk",
+    "concept_b": "hy_spread_threshold_zone",
+    "mechanism": "IG-mandated funds (~$2T AUM) must sell within 30-90 days post-downgrade of BBB bonds. A wave of fallen angels ($350-500B at elevated risk) creates concentrated supply shock in HY markets, mechanically widening spreads. Ford/GM 2005 template: $200B+ moving created 100-150bp HY spread widening. This can push spreads into the self-reinforcing threshold zone.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Triggered by rating downgrades, which cluster during economic slowdowns. The forced selling is mechanical and regime-independent once downgrades occur, but the downgrades themselves are cyclical.",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "credit_equity_lead_lag",
+    "concept_b": "credit_equity_labor_sequencing",
+    "mechanism": "The credit-equity lead-lag provides the structural mechanism for the broader credit → equity → labor sequence. External finance premium is forward-looking (credit leads), equity validates profit expectations (equity follows), and labor adjusts last as a lagging indicator. The 2-6 month credit-equity lead feeds into the 3-12 month credit-equity-labor sequence.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Robust across 1990, 2000-01, 2007-09 episodes. Most pronounced in fundamental/credit-cycle-driven downturns. May not apply in exogenous shocks (2020) or rate-driven episodes (2022) where credit does not lead.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "term_premium_channel",
+    "concept_b": "basis_trade_contagion",
+    "mechanism": "Rising term premium can trigger basis trade unwinds: as Treasury prices fall, levered basis trade positions (50-100x) face margin calls, forcing Treasury selling that further increases term premium, creating a doom loop. The basis trade converts term premium shocks from a smooth repricing into a non-linear liquidity event.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active when basis trade positions are large ($800B-$1T) and leveraged. Supply-driven term premium increases (fiscal expansion) are the most dangerous trigger because they lack the growth offset that would support risk assets.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "modified_taylor_rule_credit_term",
+    "concept_b": "hy_spread_threshold_zone",
+    "mechanism": "The Fed's de facto credit spread response function (~100bp HY widening ≈ 25-50bp FFR easing equivalent) partially endogenizes the contagion threshold. As spreads approach the self-reinforcing zone, Fed shadow easing kicks in, potentially arresting the spiral before primary market shutdown. This elevates the effective threshold but creates the paradox that the Fed put may encourage risk-taking that makes eventual adjustment larger.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active unless inflation constrains the Fed's ability to respond. In an inflationary environment, the credit-spread response function is blocked, and the threshold reverts to its unadjusted level — the worst-case scenario for credit-equity contagion.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "credit_impulse_degradation",
+    "mechanism": "The $1.7T private credit market operates entirely outside traditional credit impulse measurement. As corporate funding has shifted from bank credit to private credit, the unmeasured private credit impulse represents the largest blind spot in the indicator. The traditional bank credit impulse misses the dominant funding channels for a significant portion of the leveraged economy.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Structural and permanent as long as private credit remains at scale. The degradation accelerates as private credit grows relative to bank lending.",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "banking_channel_severity_discriminant",
+    "concept_b": "credit_equity_correlation_regime_dependence",
+    "mechanism": "Banking channel activation is a primary driver of the regime shift from normal correlation (~0.3-0.4) to crisis correlation (~0.7-0.9). Forced selling, lending pullback, and cross-asset deleveraging by banks create mechanical linkages that synchronize credit and equity movements. Without banking channel involvement, episodes remain contained with lower correlation.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The banking channel is the mechanism by which the correlation regime switches. When active, correlation jumps to 0.7-0.9; when inactive, episodes resolve with correlations remaining at 0.3-0.5 range.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "higher_pain_threshold_destabilizing",
+    "mechanism": "The fiscal buffer mechanically raises the HY spread threshold at which credit stress becomes self-reinforcing (estimated +100-150bp). However, this higher threshold means more credit damage accumulates before equities register the problem. The Minsky insight: suppressing small adjustments produces larger eventual adjustments, analogous to suppressing small forest fires.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active as long as fiscal deficits are large. The destabilizing paradox strengthens as the fiscal buffer persists longer, allowing more fragility to build beneath the surface.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "concept_a": "credit_equity_correlation_regime_dependence",
+    "concept_b": "merton_model_limitations",
+    "mechanism": "The Merton model assumes continuous, smooth relationships between firm value and credit spreads. But credit-equity correlation drops to 0.3-0.5 during early stress (Merton decouples) before snapping to 0.8-0.9 during acute stress (forced selling creates mechanical linkages). This correlation instability at regime transitions means the Merton framework is least reliable precisely at the transition points where accurate linkage estimation matters most.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The Merton model works reasonably well within stable regimes (explains 50-70% of cross-sectional variation). It fails specifically at regime transitions — the critical periods for risk management and portfolio positioning.",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  }
+]

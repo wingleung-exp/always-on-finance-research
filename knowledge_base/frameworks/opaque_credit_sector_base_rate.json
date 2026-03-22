@@ -1,0 +1,27 @@
+{
+  "slug": "opaque_credit_sector_base_rate",
+  "purpose": "Estimate the probability of disorderly repricing in opaque credit markets by applying historical base rates from analogous opaque sectors, given the absence of direct precedent for private credit at $1.7T scale.",
+  "components": [
+    "Five historical analogues: S&Ls (1980s), SIVs (2007-08), junk bonds (1989-90), Japanese jusen (1990s), AT1 CoCos (2023)",
+    "Base rate outcome: 60-80% experienced disorderly repricing",
+    "Median lag from opacity to repricing: 4-5 years",
+    "Three spillover channels: semi-liquid vehicle redemptions (~$300B BDCs/interval funds), insurance RBC rebalancing (~$700B exposure), information contagion from first forced mark-to-market",
+    "Observable leading indicator: PIK toggle usage (currently 5-8%, up from ~2% in 2022)"
+  ],
+  "current_assessment": "Private credit at $1.7T is outside all public indices and financial conditions measures. PIK toggle usage trending up. Mark-to-recovery gap unknown (5-25% range). Base rate suggests eventual disorderly repricing is more likely than not, but median lag of 4-5 years means timing is highly uncertain. This is the highest-importance, lowest-precision risk in credit-equity linkage.",
+  "limitations": [
+    "All five analogues are structurally dissimilar to current private credit",
+    "60-80% repricing rate from 5 cases is not statistically robust",
+    "Median lag of 4-5 years is operationally unhelpful",
+    "Mark-to-recovery gap range of 5-25% is too wide to be actionable",
+    "The analogues predate current regulatory frameworks and market structures"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

@@ -1,38 +1,54 @@
 {
   "slug": "maturity_wall",
   "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear function of the rate path: manageable at consensus GDP of 2.0-2.5% but becomes a solvency wall at a growth downshift to 0-1%.",
-  "confidence": 9,
+  "confidence": 9.0,
   "evidence": [
     "Bond maturity dates and coupon step-ups are calculable arithmetic, not debatable",
     "Benign scenario (Fed cuts to 3.5-4.0%): drag ~10-15bp GDP",
     "Adverse scenario (rates held at 4.5-5.0%): drag ~20-35bp, $30-50B/yr cost increase",
     "Severe scenario (spread widening + rate holds): self-reinforcing feedback loop",
-    "pair_1 debate confirmed as highest-conviction shared claim"
+    "pair_1 debate confirmed as highest-conviction shared claim",
+    "Average 400bp coupon step-up on $900B yields ~$36B incremental annual interest expense",
+    "14% increase for HY universe, 3-5pp FCF margin erosion",
+    "Borrowers at true 7.5-8.5x leverage have debt service consuming 70-80% of actual cash EBITDA at 500bp+ OAS",
+    "Forces binary outcome: refinance at higher costs (equity repricing) or default (credit repricing)",
+    "Survived all four debates without challenge"
   ],
   "originating_agents": [
     "credit_analyst_01",
     "credit_analyst_02",
     "challenger_01",
     "generalist_01",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02"
   ],
   "open_questions": [
     "Which rate path scenario will materialize?",
     "How does the maturity wall interact with private credit refinancing channels?",
-    "Will CLO arbitrage conditions allow smooth refinancing?"
+    "Will CLO arbitrage conditions allow smooth refinancing?",
+    "What will be the rate/spread environment at refinancing time?",
+    "How many simultaneous defaults can the Kalecki fiscal floor absorb during the maturity wall window?"
   ],
   "related_concepts": [
     "ebitda_addback_distortion",
     "mid_to_late_cycle_expansion",
     "private_credit_rate_insensitivity",
-    "nkpc_convexity_last_mile"
+    "nkpc_convexity_last_mile",
+    "ebitda_addbacks_covenant_lite",
+    "hy_spread_threshold_zone",
+    "fallen_angel_risk",
+    "kalecki_fiscal_channel",
+    "clo_oc_test_contagion"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-22T18:21:43Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0002"
+    "iter_0002",
+    "iter_0004"
   ]
 }

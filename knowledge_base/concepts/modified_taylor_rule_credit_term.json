@@ -1,0 +1,33 @@
+{
+  "slug": "modified_taylor_rule_credit_term",
+  "definition": "The Federal Reserve's reaction function includes a de facto credit spread term formalized by Curdia-Woodford (2010), where approximately 100bp HY spread widening equates to 25-50bp FFR tightening equivalent. This partially endogenizes the HY contagion threshold: the Fed will likely ease before primary markets shut down, unless inflation blocks the response. The Gilchrist-Zakrajsek Excess Bond Premium predicts GDP at 1-4 quarters with R-squared of 15-25%.",
+  "confidence": 7,
+  "evidence": [
+    "Curdia-Woodford (2010) formalization",
+    "~100bp HY spread widening approximates 25-50bp FFR tightening equivalent",
+    "Fed revealed behavior consistent: 2018 Q4 pivot, March 2020 emergency response, 2023 pause",
+    "Gilchrist-Zakrajsek Excess Bond Premium predicts GDP at 1-4 quarters with R² of 15-25%",
+    "If spreads widen 200bp, expect 50-100bp of shadow easing from Fed"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Does inflation constraint currently block the Fed's credit-spread response function?",
+    "How quickly can the Fed respond to credit stress given current political environment?",
+    "Is the implicit credit term sufficient to prevent primary market shutdowns during the maturity wall?"
+  ],
+  "related_concepts": [
+    "hy_spread_threshold_zone",
+    "kalecki_fiscal_channel",
+    "term_premium_channel"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

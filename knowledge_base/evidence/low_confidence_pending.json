@@ -110,5 +110,54 @@
     "needs": "Evidence of consumption growth validating wage gains; BoJ reaction function analysis under sustained wage growth; structural USD/JPY fair value modeling; assessment of whether Shunto gains are base-broadening beyond large firms to SMEs",
     "topic": "labor_market_dynamics",
     "iteration_id": "iter_0003"
+  },
+  {
+    "claim": "Credit and equity market composition has structurally decoupled: top 10 S&P 500 hold ~$500B net cash with zero Merton linkage, while HY issuers are $2-5B market-cap leveraged companies.",
+    "source_agent": "challenger_01",
+    "needs": "Analysis of demand channel strength (mega-cap customers need credit even if mega-caps don't), testing whether HY signals predict Russell 2000 vs S&P 500 differentially, assessment of permanence of current tech mega-cap dominance.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Multi-step contagion chains complete only ~15-25% of the time (median ~38%), with policy intervention as primary chain-breaker.",
+    "source_agent": "challenger_01",
+    "needs": "Larger sample than 6 episodes for statistical inference, formal probability modeling of chain completion, assessment of current policy space constraints (inflation blocking Fed response).",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "Private credit spillover operates through Godley sectoral balance (flow-of-funds) disruption rather than price contagion, transmitting chronically over quarters-to-years.",
+    "source_agent": "macro_strategist_02",
+    "needs": "Empirical testing of the Godley framework applied to private credit, integration with the acute portfolio balance channel as complementary time horizons of same phenomenon, quantification of the chronic flow-withdrawal effect.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "The credit impulse-to-equity R-squared has experienced a structural break from 0.38 to 0.12, reflecting genuine post-GFC funding shift rather than extended lag structure.",
+    "source_agent": "challenger_01",
+    "needs": "Variable-lag VAR specifications over longer windows, decomposition into bank vs non-bank credit components, testing whether the impulse still predicts macro recessions even if degraded for S&P 500 returns.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "The Kalecki fiscal buffer raising the HY threshold by 100-150bp is itself destabilizing because more credit damage accumulates before equities register the problem — analogous to suppressing small forest fires.",
+    "source_agent": "macro_strategist_02",
+    "needs": "Empirical calibration of the higher pain threshold, corroboration from additional agents, historical precedent for fiscal-buffer-masked credit deterioration and eventual adjustment magnitude.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "A yield-curve-mediated contagion sequence operates as: inversion → bear steepener → credit blowout → equity drawdown.",
+    "source_agent": "rates_strategist_01",
+    "needs": "More than n=3 recession episodes for sequence validation. Bear steepener as uniquely dangerous risk factor retains independent value even without full sequence confirmation.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "claim": "The 5-year 5-year forward rate above 4.5% acts as a joint constraint on both maturity wall refinancing costs and equity multiples simultaneously.",
+    "source_agent": "rates_strategist_01",
+    "needs": "Testing the specific 4.5% threshold for structural breaks from QE era, empirical validation of 5y5y-equity relationship stability, assessment of whether the level is approximate or precisely calibrated.",
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
   }
 ]

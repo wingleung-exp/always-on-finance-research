@@ -1,0 +1,28 @@
+{
+  "slug": "minsky_kalecki_cycle_positioning",
+  "purpose": "Assess the current phase of the credit cycle using Minsky financial instability hypothesis integrated with Kalecki-Levy profit identity, identifying whether the system is in hedge, speculative, or Ponzi financing phase and how the fiscal buffer affects transition timing.",
+  "components": [
+    "Kalecki-Levy profit identity: fiscal deficit → corporate profit support → credit quality maintenance",
+    "Minsky phase classification: hedge (income covers all obligations), speculative (income covers interest but not principal), Ponzi (income covers neither)",
+    "Aggregate vs distributional: aggregate private sector surplus may mask bottom-50% deficit",
+    "Compositional fallacy: multiple sectors at Ponzi stage while aggregate appears speculative",
+    "Fiscal consolidation trigger: >2pp GDP consolidation triggers credit cycle downshift within 4-6 quarters",
+    "Higher pain threshold paradox: fiscal buffer delays adjustment but increases eventual magnitude"
+  ],
+  "current_assessment": "The system is in Minsky speculative phase: surface stability concealing growing fragility. The 6-7% fiscal deficit mechanically sustains profits, keeping distance-to-default artificially wide and spreads artificially tight. The artificial decorrelation between credit spreads and equity risk premia is a speculative-phase signal. The maturity wall ($900B-$1.1T, 2025-2027) represents the micro-level stress that may overwhelm the macro-level Kalecki support, particularly for lower HY/leveraged loans.",
+  "limitations": [
+    "Empirically untested whether the Kalecki floor can be overwhelmed by firm-level maturity wall stress",
+    "No clear threshold for when distributional stress overwhelms aggregate support",
+    "Minsky phases are qualitative classifications with subjective boundaries",
+    "The framework does not specify timing — could persist in speculative phase for years",
+    "Fiscal consolidation trigger (2pp GDP) is approximate and politically contingent"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

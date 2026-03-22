@@ -1,0 +1,21 @@
+{
+  "concept_a": "cre_bank_contagion",
+  "concept_b": "banking_channel_severity_discriminant",
+  "mechanism": "CRE losses at regional banks (28-30% concentration, office down 25-40%) activate the three-stage banking channel: mark-to-market → provisioning → lending pullback. Once the banking channel activates, historical precedent shows 2-4x larger equity drawdowns and 3-6x longer duration vs contained episodes.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "CRE-bank contagion activates the banking channel only if losses are large enough to impair bank capital and trigger lending pullback (Stage 3). The Japan model (extend-and-pretend with regulatory forbearance) can prevent full activation. 13-14% CET1 ratios provide more buffer than in 1990 or 2007.",
+  "originating_agents": [
+    "generalist_02",
+    "credit_analyst_01",
+    "challenger_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

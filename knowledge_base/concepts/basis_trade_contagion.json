@@ -1,0 +1,32 @@
+{
+  "slug": "basis_trade_contagion",
+  "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) creates a novel cross-market contagion channel: unwind triggers Treasury selling → swap spread widening → higher funding costs → reduced dealer liquidity → wider credit bid-asks → forced selling by levered credit funds → VIX spike → equity risk-parity deleveraging. Fundamentally alters the flight-to-quality dynamic by converting the Treasury market from safe haven to contagion source.",
+  "confidence": 7,
+  "evidence": [
+    "Partially validated by September 2019 repo crisis and March 2020 Treasury dysfunction",
+    "Treasury market becomes contagion source rather than safe haven",
+    "Identified as rates_strategist_01's strongest unique contribution in pair_3 debate",
+    "$800B-$1T estimated size at 50-100x leverage"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "What is the current size and leverage of the basis trade?",
+    "Has post-2020 regulatory attention reduced the risk?",
+    "Could cross-margining requirements trigger credit margin calls from Treasury unwinds?"
+  ],
+  "related_concepts": [
+    "term_premium_channel",
+    "modified_taylor_rule_credit_term"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

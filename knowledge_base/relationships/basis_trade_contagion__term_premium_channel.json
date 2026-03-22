@@ -1,0 +1,20 @@
+{
+  "concept_a": "term_premium_channel",
+  "concept_b": "basis_trade_contagion",
+  "mechanism": "Rising term premium can trigger basis trade unwinds: as Treasury prices fall, levered basis trade positions (50-100x) face margin calls, forcing Treasury selling that further increases term premium, creating a doom loop. The basis trade converts term premium shocks from a smooth repricing into a non-linear liquidity event.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Active when basis trade positions are large ($800B-$1T) and leveraged. Supply-driven term premium increases (fiscal expansion) are the most dangerous trigger because they lack the growth offset that would support risk assets.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}

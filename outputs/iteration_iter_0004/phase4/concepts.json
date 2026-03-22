@@ -1,0 +1,615 @@
+[
+  {
+    "slug": "maturity_wall",
+    "definition": "The $900B-$1.1T in bonds and loans issued at 3-5% (HY) and 2-3% (IG) that must refinance at 7-9% and 5-6% respectively during 2025-2027, creating an average 400bp coupon step-up yielding ~$36B incremental annual interest expense — a 14% increase for the HY universe and 3-5pp FCF margin erosion.",
+    "confidence": 9,
+    "evidence": [
+      "Average 400bp coupon step-up on $900B yields ~$36B incremental annual interest expense",
+      "14% increase for HY universe, 3-5pp FCF margin erosion",
+      "Borrowers at true 7.5-8.5x leverage have debt service consuming 70-80% of actual cash EBITDA at 500bp+ OAS",
+      "Forces binary outcome: refinance at higher costs (equity repricing) or default (credit repricing)",
+      "Survived all four debates without challenge"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What will be the rate/spread environment at refinancing time?",
+      "How many simultaneous defaults can the Kalecki fiscal floor absorb during the maturity wall window?"
+    ],
+    "related_concepts": [
+      "ebitda_addbacks_covenant_lite",
+      "hy_spread_threshold_zone",
+      "fallen_angel_risk",
+      "kalecki_fiscal_channel",
+      "clo_oc_test_contagion"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "credit_equity_lead_lag",
+    "definition": "Credit markets generally lead equity markets by 2-6 months in fundamental deteriorations, but the direction and magnitude of the lead-lag is regime-dependent: credit leads in fundamental deteriorations (2007-08 canonical case, 6-8 month lead), while equities lead or move simultaneously in sentiment/exogenous shocks (2020, 2018 Q4). The direction of lead-lag is diagnostic of the shock type.",
+    "confidence": 8,
+    "evidence": [
+      "5 of 6 major episodes since 1990 show credit leading or moving simultaneously with equity",
+      "2007-08 canonical case shows 6-8 month credit lead",
+      "Challenger_01 concedes 2007 case and shows simultaneous movement in 4 of 7 episodes — still supports credit does not lag claim",
+      "Direction of lead-lag is diagnostic of shock type (credit_analyst_01 formulation)"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Are passive/ETF flows compressing lead time toward zero?",
+      "Has algorithmic trading fundamentally altered the lead-lag structure post-2015?",
+      "Does high-frequency lead-lag analysis across pre-2015 vs post-2015 show compression to less than 1 month?"
+    ],
+    "related_concepts": [
+      "synthetic_credit_reverse_causality",
+      "credit_equity_correlation_regime_dependence",
+      "credit_equity_labor_sequencing"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "ebitda_addbacks_covenant_lite",
+    "definition": "EBITDA addbacks of 15-40% and covenant-lite structures (>90% of leveraged loans) create hidden leverage where true leverage is 7.5-8.5x vs reported ~6x. Covenant-lite delays default recognition by 12-24 months but increases loss-given-default, producing a 'fewer but larger' default pattern with estimated recoveries of 40-50 cents vs historical 60-70 cents.",
+    "confidence": 8,
+    "evidence": [
+      "ECB and Fed regulatory analyses document the 15-40% addback range",
+      ">90% of leveraged loans lack maintenance covenants",
+      "True leverage of 7.5-8.5x vs reported ~6x",
+      "Default models trained on pre-2010 covenanted data are miscalibrated for current universe",
+      "Covenant-lite delays default 12-24 months but increases loss-given-default",
+      "Merton distance-to-default is significantly narrower than reported financials indicate",
+      "Survived all debates"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What is the precise Merton distance-to-default adjustment for addback-distorted leverage?",
+      "By how much do observable credit metrics understate true cycle positioning?",
+      "How should default models be recalibrated for the covenant-lite universe?"
+    ],
+    "related_concepts": [
+      "maturity_wall",
+      "financial_accelerator_loaded",
+      "merton_model_limitations",
+      "private_credit_opacity"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "hy_oas_current_level",
+    "definition": "Current HY OAS of 350-420bp is unambiguously below historical stress thresholds, sitting at the 40th-55th percentile historically and below the minimum threshold for equity stress in every historical analogue. Any shift toward the 450-600bp zone would be significant.",
+    "confidence": 9,
+    "evidence": [
+      "Below minimum threshold for equity stress in every historical analogue",
+      "40th-55th percentile historically",
+      "Consensus across all 8 agents — no agent disputes this"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "When and what will trigger movement toward the 450-600bp zone?",
+      "Is current tightness a Minsky speculative-phase signal or rational pricing of the fiscal buffer?"
+    ],
+    "related_concepts": [
+      "hy_spread_threshold_zone",
+      "kalecki_fiscal_channel",
+      "maturity_wall"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "credit_equity_correlation_regime_dependence",
+    "definition": "Credit-equity correlation varies dramatically by regime: ~0.3-0.4 in normal periods, ~0.7-0.9 during crises (active only ~7% of calendar time or 30 of 420 months since 1990). Critically, correlation drops to 0.3-0.5 during early stress before snapping to 0.8-0.9 during acute stress, meaning the Merton model is least reliable precisely when needed most.",
+    "confidence": 8,
+    "evidence": [
+      "Normal-period correlation ~0.3-0.4; crisis correlation ~0.7-0.9",
+      "Crisis contagion regime active only ~7% of calendar time (30 of 420 months since 1990)",
+      "Positive co-movement regime active ~49% of time",
+      "Correlation drops to 0.3-0.5 during early stress before snapping to 0.8-0.9 during acute stress",
+      "Risk models using constant correlations systematically misprice tail risk",
+      "Portfolios designed for crisis correlation are suboptimal 85% of the time"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_01",
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Can the correlation instability at regime transitions be used as a real-time diagnostic tool?",
+      "What triggers the snap from early-stress decorrelation to acute-stress high correlation?"
+    ],
+    "related_concepts": [
+      "merton_model_limitations",
+      "banking_channel_severity_discriminant",
+      "credit_equity_lead_lag"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest coverage ratios (supporting credit quality) and the P/E denominator (supporting equity valuations). The system's current resilience is fiscally contingent, not structurally earned. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki-Levy identity mechanically channels fiscal deficits to corporate profits",
+      "Pair_2 debate identified this as the most important consensus finding",
+      "Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters per Minsky-Kalecki framework",
+      "Artificial decorrelation between credit spreads and equity risk premia is a Minsky speculative phase signal",
+      "Kalecki floor is sufficient for IG/upper HY but insufficient for lower HY/leveraged loans where firm-level interest expense overwhelms aggregate demand support"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Can fiscal deficits indefinitely mask credit deterioration?",
+      "What is the interaction between micro credit stress (maturity wall at firm level) and macro profit support (fiscal deficits at aggregate level)?",
+      "Is the threshold number of simultaneous defaults required to overwhelm the Kalecki floor reachable during the maturity wall window?"
+    ],
+    "related_concepts": [
+      "higher_pain_threshold_destabilizing",
+      "maturity_wall",
+      "hy_spread_threshold_zone",
+      "private_credit_flow_disruption",
+      "hy_oas_current_level"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "cre_bank_contagion",
+    "definition": "CRE-to-bank-equity contagion operates through a multi-stage regional bank balance sheet mechanism: mark-to-market losses → provisioning → lending pullback. Regional banks hold 28-30% CRE concentration vs 6-8% for largest banks, across ~$2.7T total bank CRE exposure, with office values down 25-40% from peak. However, the Japan model (slow extend-and-pretend) is more probable than sudden cascade given 13-14% CET1 ratios.",
+    "confidence": 7,
+    "evidence": [
+      "~$2.7T bank CRE exposure",
+      "Regional banks at 28-30% CRE concentration vs 6-8% for largest banks",
+      "Office down 25-40% from peak",
+      "1990 and 2023 as templates",
+      "Median 38% equity drawdown with banking channel active vs 22% without",
+      "Duration 18-30 months with banking channel vs 3-6 months without",
+      "Joint probability of full contagion cascade is 3-8% per challenger_01",
+      "KRE persistently shorted since March 2023, CMBS BBB- at 800-1200bp — may be priced consensus"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is CRE-bank contagion now priced consensus rather than genuine tail risk?",
+      "Will Japan model slow extend-and-pretend be the resolution?",
+      "Is the risk-reward for trading this thesis already unfavorable even if the analytical mechanism is correct?",
+      "Will Stage 3 (lending pullback) materialize or be prevented by regulatory forbearance?"
+    ],
+    "related_concepts": [
+      "banking_channel_severity_discriminant",
+      "financial_accelerator_loaded",
+      "credit_equity_labor_sequencing"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "private_credit_opacity",
+    "definition": "The $1.7T private credit market represents an unprecedented opacity risk: mark-to-model practices, quarterly reporting lags, manager-determined NAVs, and exclusion from all public indices and financial conditions measures. PIK toggle usage at 5-8% (up from ~2% in 2022). Three identified spillover channels: semi-liquid vehicle redemption cascades (BDCs/interval funds, ~$300B), insurance company RBC rebalancing (~$700B exposure), and information contagion from first forced mark-to-market. The highest-importance, lowest-precision risk in credit-equity linkage.",
+    "confidence": 7,
+    "evidence": [
+      "Mark-to-model practices, quarterly reporting lags, manager-determined NAVs",
+      "PIK toggle usage at 5-8% up from ~2% in 2022",
+      "Outside all public indices, default statistics, and financial conditions measures",
+      "No historical analogue at this scale",
+      "Base rate framework from 5 analogues (S&Ls, SIVs, junk bonds, Japanese jusen, AT1) shows 60-80% disorderly repricing rate with 4-5 year median lag",
+      "Three spillover channels: BDC/interval fund redemptions (~$300B), insurance RBC (~$700B), information contagion",
+      "Mark-to-recovery gap could be 5% or 25% — too wide to be actionable"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the actual mark-to-recovery gap?",
+      "Which spillover channel activates first?",
+      "Is there a true historical analogue at $1.7T scale?",
+      "What is the actual default rate vs reported in private credit?"
+    ],
+    "related_concepts": [
+      "credit_impulse_degradation",
+      "private_credit_flow_disruption",
+      "clo_oc_test_contagion",
+      "basis_trade_contagion"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "credit_equity_labor_sequencing",
+    "definition": "The sequencing of credit deterioration → equity decline → labor market weakening with 3-12 month leads is empirically robust across the 1990, 2000-01, and 2007-09 episodes. Grounded in both New Keynesian (external finance premium is forward-looking, labor is lagging) and Post-Keynesian (endogenous money creation → spending → income → profits → equity validation → labor adjustment) frameworks.",
+    "confidence": 9,
+    "evidence": [
+      "Documented across 2000-01, 2007-09, and 1990 episodes",
+      "KB entry at confidence 9",
+      "Theoretically grounded in both New Keynesian and Post-Keynesian frameworks",
+      "Credit-equity linkage analysis provides the structural mechanism for this previously empirical observation"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Has the sequencing timing changed with structural market evolution since 2010?",
+      "Does private credit opacity delay the credit signal in this sequence?"
+    ],
+    "related_concepts": [
+      "credit_equity_lead_lag",
+      "financial_accelerator_loaded",
+      "kalecki_fiscal_channel"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "merton_model_limitations",
+    "definition": "The Merton/KMV model explains 50-70% of cross-sectional CDS spread variation but is necessary-but-insufficient for credit-equity linkage: systematic Type I errors of 40-60%, underpredicts IG spreads by 50-100bp (credit spread puzzle), and is mechanically irrelevant for ~35% of S&P 500 index weight held by net-cash mega-caps. Useful for within-regime relative value but dangerous if treated as complete, particularly at regime transitions where it fails precisely when needed most.",
+    "confidence": 7,
+    "evidence": [
+      "KMV-Merton explains 50-70% of cross-sectional CDS spread variation (Bharath & Shumway 2008)",
+      "Systematic Type I errors of 40-60%",
+      "Credit spread puzzle: underpredicts IG by 50-100bp",
+      "Mechanically irrelevant for ~35% of S&P 500 held by net-cash mega-caps",
+      "All debates converged on useful foundation, dangerous if treated as complete"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What combination of Merton and Minsky/regime frameworks produces optimal credit-equity signal?",
+      "How should the model be adapted for the covenant-lite, addback-distorted universe?"
+    ],
+    "related_concepts": [
+      "credit_equity_correlation_regime_dependence",
+      "structural_decoupling",
+      "financial_accelerator_loaded",
+      "ebitda_addbacks_covenant_lite"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "hy_spread_threshold_zone",
+    "definition": "A zone of approximately 450-600bp in HY OAS exists where credit stress becomes self-reinforcing as primary market access shuts down, CLO arbitrage economics invert, and the maturity wall becomes a solvency wall. The precise level is regime-dependent, not a fixed point estimate. The Kalecki fiscal buffer may currently elevate the threshold by 100-150bp, but this higher threshold is itself destabilizing because more damage accumulates before the signal fires.",
+    "confidence": 6,
+    "evidence": [
+      "All specific point estimates refuted for false precision across multiple debates",
+      "Directional claim survived: above some spread level primary market shuts down",
+      "CLO arbitrage economics invert above threshold",
+      "Only 4 of 11 episodes where HY crossed 500bp produced >20% equity drawdowns",
+      "Signal is largely redundant with recession indicators",
+      "Kalecki fiscal buffer may elevate threshold by 100-150bp",
+      "Breadth of widening and banking system involvement matter more than absolute level"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the current regime-adjusted threshold given CLO market structure?",
+      "Is the signal redundant with recession indicators?",
+      "How does the Kalecki elevation of the threshold change the risk calculus?"
+    ],
+    "related_concepts": [
+      "hy_oas_current_level",
+      "kalecki_fiscal_channel",
+      "clo_oc_test_contagion",
+      "maturity_wall",
+      "higher_pain_threshold_destabilizing",
+      "modified_taylor_rule_credit_term"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "clo_oc_test_contagion",
+    "definition": "CLO overcollateralization test mechanics create a discrete, non-linear contagion channel: when CCC-bucket holdings breach the 7.5% threshold, cash flow diverts from equity to senior tranches, simultaneously destroying CLO equity returns, forcing leveraged loan selling, and shutting down new CLO formation (removing ~65-70% of leveraged loan demand). This is a step function, not a smooth degradation.",
+    "confidence": 7,
+    "evidence": [
+      "Identified as the single most specific and actionable contagion mechanism across all 8 analyses",
+      "7.5% CCC threshold triggers step function not smooth degradation",
+      "~$1T CLO market makes this systemically relevant",
+      "CLO formation represents ~65-70% of leveraged loan demand",
+      "PIK toggle usage at 5-8% up from 2% in 2022 as observable leading indicator"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is current CCC-bucket utilization across the CLO market (4% = comfortable vs 6.5% = near cascade)?",
+      "How many downgrade waves would breach the threshold?",
+      "Data exists in Intex and LCD but is not freely available"
+    ],
+    "related_concepts": [
+      "maturity_wall",
+      "hy_spread_threshold_zone",
+      "fallen_angel_risk",
+      "private_credit_opacity"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "synthetic_credit_reverse_causality",
+    "definition": "CDX HY open interest growth from ~$200B to ~$900B and credit ETFs at ~$400B create reverse causality: equity vol rises → managers buy CDX protection or short HYG as proxy hedge → mechanical spread widening → analysts cite credit stress → equity investors sell → confirmation loop. Supported by intraday evidence showing CDX lags SPX by 5-30 minutes during stress. Dealer inventory decline from ~$250B to ~$30-40B amplifies non-fundamental flow impact. A significant portion of high-frequency credit-equity correlation may be equity-to-credit, not credit-to-equity.",
+    "confidence": 6,
+    "evidence": [
+      "CDX HY open interest grown from ~$200B to ~$900B",
+      "Credit ETFs at ~$400B",
+      "Intraday evidence: CDX lags SPX by 5-30 minutes during stress",
+      "Largest ETF outflows correlate with equity vol spikes not credit-specific events",
+      "Dealer inventory decline from ~$250B to ~$30-40B amplifies non-fundamental flow impact",
+      "Pair_3 debate identified this as important novel insight"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What portion of high-frequency credit-equity correlation is equity-to-credit vs credit-to-equity?",
+      "Does the reverse causality channel invalidate longer-horizon (multi-month) credit leading indicators?",
+      "Can fundamental vs flow-driven spread moves be decomposed in real time?"
+    ],
+    "related_concepts": [
+      "credit_equity_lead_lag",
+      "credit_equity_correlation_regime_dependence"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "fallen_angel_risk",
+    "definition": "$350-500B of BBB-rated bonds at elevated downgrade risk represent a high-impact near-term transmission channel. BBB is the largest single rating cohort (~$3.5-4.0T), and IG-mandated funds (~$2T AUM) must sell within 30-90 days post-downgrade, creating concentrated supply shocks in HY markets. Fallen angel equity reprices 15-30% around downgrade events. Ford/GM 2005 template: $200B+ moving from IG to HY created multi-month dislocation and 100-150bp HY spread widening.",
+    "confidence": 7,
+    "evidence": [
+      "BBB is largest single rating cohort at ~$3.5-4.0T",
+      "IG-mandated funds ~$2T AUM must sell within 30-90 days post-downgrade",
+      "Fallen angel equity reprices 15-30% around downgrade events",
+      "Ford/GM 2005 template: $200B+ created multi-month dislocation and 100-150bp HY spread widening",
+      "Pair_1 debate flagged this as a glaring omission by credit_analyst_02",
+      "Not challenged by any agent"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Which specific BBB issuers are most at risk of downgrade?",
+      "How has market capacity to absorb fallen angels changed since 2005?",
+      "Would CLO structures amplify or absorb the supply shock?"
+    ],
+    "related_concepts": [
+      "maturity_wall",
+      "hy_spread_threshold_zone",
+      "hy_oas_current_level",
+      "clo_oc_test_contagion"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "financial_accelerator_loaded",
+    "definition": "The Bernanke-Gertler-Gilchrist financial accelerator amplifies credit-equity transmission by approximately 1.5-2x and is currently loaded because EBITDA addback distortion means true leverage is higher than model calibrations suggest, implying a narrower distance-to-default and higher external finance premium elasticity than observable data indicate. Both NK and Post-Keynesian frameworks converge on this conclusion.",
+    "confidence": 7,
+    "evidence": [
+      "Embedded in Fed DSGE models (FRB/US, SIGMA)",
+      "1.5-2x amplification factor from calibration exercises",
+      "EBITDA addback distortion means accelerator is more loaded than baseline calibrations suggest",
+      "True leverage of 7.5-8.5x implies narrower distance-to-default",
+      "Both NK and Post-Keynesian frameworks arrive at same conclusion: feedback loop is primed"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What is the true accelerator coefficient with addback-adjusted leverage?",
+      "Can the amplification factor be directly measured rather than calibrated?"
+    ],
+    "related_concepts": [
+      "ebitda_addbacks_covenant_lite",
+      "merton_model_limitations",
+      "credit_equity_correlation_regime_dependence"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "banking_channel_severity_discriminant",
+    "definition": "Banking channel involvement is the key discriminant of credit-equity episode severity. When the banking channel is active (1990, 2007-08), median equity drawdown is -38% over 18-30 months. When inactive (1998, 2015-16, 2020), median drawdown is -22% over 3-6 months. Monitoring bank equity and bank CDS relative to HY widening distinguishes contained from systemic episodes in real time.",
+    "confidence": 8,
+    "evidence": [
+      "Banking channel active: median equity drawdown -38%, duration 18-30 months",
+      "Banking channel inactive: median equity drawdown -22%, duration 3-6 months",
+      "Confirmed as most actionable insight in pair_0 debate",
+      "Operational signpost: if regional bank equities fall in sympathy with HY widening, 1990/2007 template is activating",
+      "If HY widens but bank equity is stable, 2015-16 contained episode template"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can banking channel activation be detected early enough to be actionable?",
+      "Does CRE exposure concentration in regional banks constitute current banking channel loading?",
+      "How do 13-14% CET1 ratios change the banking channel dynamics vs historical episodes?"
+    ],
+    "related_concepts": [
+      "cre_bank_contagion",
+      "credit_equity_correlation_regime_dependence",
+      "financial_accelerator_loaded"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "term_premium_channel",
+    "definition": "Term premium (not rate level) is a primary common discount-rate channel affecting both credit and equity simultaneously. Term-premium-driven yield rises hit credit and equity without growth offset, unlike rate-expectations-driven rises. Supply-driven term premium from post-2020 fiscal expansion ($2T+ annual net issuance) is a qualitatively different and worse type of tightening than policy-driven, with no growth offset.",
+    "confidence": 7,
+    "evidence": [
+      "Confirmed empirically by 2013 Taper Tantrum, 2018 Q4, 2023 Q3 — all produced synchronized credit-equity weakness",
+      "Supply-driven term premium is qualitatively different from policy-driven with no growth offset",
+      "Tripartite decomposition: growth-driven, policy-driven, supply-driven term premium",
+      "Partially supported in pair_3 debate"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does mechanism operate on shrinking share of credit universe due to private credit migration?",
+      "How to decompose observed term premium moves into growth vs policy vs supply components in real time?"
+    ],
+    "related_concepts": [
+      "basis_trade_contagion",
+      "five_year_five_year_forward_constraint",
+      "kalecki_fiscal_channel"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "basis_trade_contagion",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) creates a novel cross-market contagion channel: unwind triggers Treasury selling → swap spread widening → higher funding costs → reduced dealer liquidity → wider credit bid-asks → forced selling by levered credit funds → VIX spike → equity risk-parity deleveraging. Fundamentally alters the flight-to-quality dynamic by converting the Treasury market from safe haven to contagion source.",
+    "confidence": 7,
+    "evidence": [
+      "Partially validated by September 2019 repo crisis and March 2020 Treasury dysfunction",
+      "Treasury market becomes contagion source rather than safe haven",
+      "Identified as rates_strategist_01's strongest unique contribution in pair_3 debate",
+      "$800B-$1T estimated size at 50-100x leverage"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What is the current size and leverage of the basis trade?",
+      "Has post-2020 regulatory attention reduced the risk?",
+      "Could cross-margining requirements trigger credit margin calls from Treasury unwinds?"
+    ],
+    "related_concepts": [
+      "term_premium_channel",
+      "modified_taylor_rule_credit_term"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "modified_taylor_rule_credit_term",
+    "definition": "The Federal Reserve's reaction function includes a de facto credit spread term formalized by Curdia-Woodford (2010), where approximately 100bp HY spread widening equates to 25-50bp FFR tightening equivalent. This partially endogenizes the HY contagion threshold: the Fed will likely ease before primary markets shut down, unless inflation blocks the response. The Gilchrist-Zakrajsek Excess Bond Premium predicts GDP at 1-4 quarters with R-squared of 15-25%.",
+    "confidence": 7,
+    "evidence": [
+      "Curdia-Woodford (2010) formalization",
+      "~100bp HY spread widening approximates 25-50bp FFR tightening equivalent",
+      "Fed revealed behavior consistent: 2018 Q4 pivot, March 2020 emergency response, 2023 pause",
+      "Gilchrist-Zakrajsek Excess Bond Premium predicts GDP at 1-4 quarters with R² of 15-25%",
+      "If spreads widen 200bp, expect 50-100bp of shadow easing from Fed"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Does inflation constraint currently block the Fed's credit-spread response function?",
+      "How quickly can the Fed respond to credit stress given current political environment?",
+      "Is the implicit credit term sufficient to prevent primary market shutdowns during the maturity wall?"
+    ],
+    "related_concepts": [
+      "hy_spread_threshold_zone",
+      "kalecki_fiscal_channel",
+      "term_premium_channel"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  },
+  {
+    "slug": "credit_impulse_degradation",
+    "definition": "The traditional bank credit impulse remains theoretically valid via the IS-curve mechanism but has structurally degraded as a US equity leading indicator, with R-squared declining from 0.38 (1975-2007) to 0.12 (2010-2025). The shift reflects bank credit-to-GDP flattening since 2008, corporate bond market doubling, private credit growing from $200B to $1.7T, and buybacks averaging ~$800B/yr. Still captures the SME/consumer channel (~40% of economy) and may predict macro recessions even if not S&P 500 returns.",
+    "confidence": 6,
+    "evidence": [
+      "IS-curve mechanism is textbook and BIS-validated",
+      "R² decline from 0.38 (1975-2007) to 0.12 (2010-2025)",
+      "Bank credit-to-GDP flat since 2008",
+      "Corporate bond market doubled, private credit from $200B to $1.7T",
+      "Buybacks averaging ~$800B/yr mask credit channel",
+      "Currently sending divergent signal from equity pricing — decelerated while equities expanded"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Does credit impulse still predict macro recessions even if not S&P 500 returns?",
+      "Can decomposition into bank vs non-bank components restore predictive power?",
+      "What is the correct lag specification post-GFC (12-18 months vs 6 months)?",
+      "What is the unmeasured $1.7T private credit impulse doing?"
+    ],
+    "related_concepts": [
+      "private_credit_opacity",
+      "kalecki_fiscal_channel",
+      "credit_impulse_structural_break"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0004"
+  }
+]

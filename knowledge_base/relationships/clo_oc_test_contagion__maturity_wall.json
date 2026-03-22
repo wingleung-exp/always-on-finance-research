@@ -1,0 +1,20 @@
+{
+  "concept_a": "clo_oc_test_contagion",
+  "concept_b": "maturity_wall",
+  "mechanism": "CLO OC test breach at 7.5% CCC-bucket threshold simultaneously destroys CLO equity returns, forces leveraged loan selling, and shuts down new CLO formation — removing ~65-70% of leveraged loan demand. This converts the maturity wall from a refinancing challenge into a solvency crisis by eliminating the primary demand source for leveraged loan refinancing.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Step function that activates only when CCC-bucket holdings breach 7.5%. Current utilization (4-6.5%) determines proximity. One downgrade wave from the maturity wall could breach the threshold, creating a self-reinforcing loop.",
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-22T18:21:43Z",
+  "originating_iteration": "iter_0004",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0004"
+  ]
+}
