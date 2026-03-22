@@ -1,0 +1,15 @@
+The JSON is too large for inline display (~53KB). Here's the output written to `outputs/iteration_iter_0007/knowledge_extraction.json`. Summary of what was extracted:
+
+| Section | Count |
+|---|---|
+| **concepts** | 26 (all HIGH and MODERATE confidence findings) |
+| **relationships** | 18 (causal/correlative links between concepts) |
+| **frameworks** | 7 (VTA, push-pull, compressed spring, etc.) |
+| **provenance** | 8 agents with claims_made/survived counts |
+| **anti_knowledge** | 10 refuted claims |
+| **low_confidence** | 12 items needing corroboration |
+
+Key highlights:
+- Highest confidence concepts: `carry_trade_fat_tails` (9.5), `uip_failure` (9.0), `g10_fx_pca_structure` (9.0), `fx_forecasting_random_walk` (9.0), `carry_equity_correlation_amplification` (9.0)
+- Top contributor by survival rate: `quant_researcher_01` (10 made, 8 survived), `risk_analyst_01` (8 made, 7 survived)
+- All 10 REFUTED items captured with refutation reasoning and agent attribution

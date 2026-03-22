@@ -1,0 +1,1093 @@
+{
+  "concepts": [
+    {
+      "slug": "rate_differential_regime_conditional_fx_power",
+      "definition": "Rate differentials have regime-conditional FX explanatory power, explaining 8-12% of variance in low-vol regimes but collapsing to 0-2% in high-vol regimes, with a non-linear threshold near 9-10% realized G10 FX vol.",
+      "confidence": 8.5,
+      "evidence": [
+        "Panel interaction regression (n~15,000 pair-months, B3 significant at p<0.01, Chow test F=7.2)",
+        "Holds across pre-GFC and post-GFC subsamples, across implied and realized vol specifications",
+        "Low-vol R\u00b2~15-25% at 3M horizons, high-vol R\u00b2<3% confirmed independently by generalist_02 across 10+ episodes",
+        "Hansen test identifies threshold at 9.5%, generalist_02 proposes three-zone model (below 9%, 9-12% transitional, above 12%)"
+      ],
+      "originating_agents": [
+        "quant_researcher_01",
+        "quant_researcher_02",
+        "generalist_01",
+        "generalist_02",
+        "risk_analyst_01"
+      ],
+      "open_questions": [
+        "Is the precise threshold 9.5% per Hansen test or a broader 9-12% transitional zone?",
+        "Does monitoring proximity to 9.5% add meaningful risk information beyond tracking positioning and cross-currency basis?",
+        "Does low vol enable rate differentials to matter, or do both reflect stable macro environments?"
+      ],
+      "related_concepts": [
+        "carry_trade_fat_tails",
+        "fx_vol_threshold_tautology",
+        "compressed_spring_configuration"
+      ]
+    },
+    {
+      "slug": "carry_trade_fat_tails",
+      "definition": "Carry trade returns are fat-tailed with negative skewness (-0.8 to -1.5) and excess kurtosis (3-8). Four-sigma events occur approximately 1,800 times more frequently than Gaussian models predict, making the distribution fundamentally non-Gaussian.",
+      "confidence": 9.5,
+      "evidence": [
+        "Five 4-sigma carry drawdowns in 28 years (1998, 2008, 2015, 2020, 2024) versus one expected per ~2,600 years under Gaussian assumptions",
+        "Statistics identical across all three agents' independent calculations",
+        "Standard VaR models underestimate carry drawdown frequency and magnitude by 2-5x"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "challenger_02",
+        "quant_researcher_02"
+      ],
+      "open_questions": [],
+      "related_concepts": [
+        "carry_equity_correlation_amplification",
+        "carry_sharpe_decline",
+        "peg_managed_float_breaks"
+      ]
+    },
+    {
+      "slug": "uip_failure",
+      "definition": "Uncovered interest rate parity (UIP) failure is among the most robust anomalies in international finance. The Fama regression slope coefficient averages -0.8 to -1.5 across G10 pairs versus the +1.0 UIP predicts. High-yielding currencies appreciate ~55-60% of the time over 12-month windows.",
+      "confidence": 9,
+      "evidence": [
+        "40+ years of replication across all major currency pairs since 1984",
+        "Unconditional Fama beta is a weighted average of two regimes: carry works strongly (beta ~-2 to -3) and UIP briefly holds during crises (beta ~+0.5 to +1)",
+        "Framework persistence despite falsification reflects pedagogical anchoring, theoretical elegance bias, and substitution failure (Meese-Rogoff)"
+      ],
+      "originating_agents": [
+        "challenger_02",
+        "quant_researcher_01",
+        "quant_researcher_02"
+      ],
+      "open_questions": [
+        "Why does the framework persist in pedagogy despite 40+ years of falsification?"
+      ],
+      "related_concepts": [
+        "rate_differential_regime_conditional_fx_power",
+        "fx_forecasting_random_walk",
+        "rate_fx_endogeneity"
+      ]
+    },
+    {
+      "slug": "g10_fx_pca_structure",
+      "definition": "G10 FX returns have a stable principal component structure: PC1 (dollar factor) explains 50-70% of variance, PC2 (carry) 15-20%, PC3 (momentum) 8-12%. Effective dimensionality collapses from ~2.5-3.0 to ~1.5 during stress periods.",
+      "confidence": 9,
+      "evidence": [
+        "Near-mechanical result from covariance decomposition, robust across samples, methodologies, and num\u00e9raire choices",
+        "During August 2024, pairwise correlations among G10 carry positions spiked to 0.85+, collapsing effective dimensionality to ~1.5",
+        "Position sizing based on pair count overstates diversification by 3-4x"
+      ],
+      "originating_agents": [
+        "quant_researcher_02",
+        "quant_researcher_01"
+      ],
+      "open_questions": [],
+      "related_concepts": [
+        "carry_equity_correlation_amplification",
+        "dm_rate_divergence_systemic_vulnerability",
+        "compressed_spring_configuration"
+      ]
+    },
+    {
+      "slug": "post_gfc_cip_deviations",
+      "definition": "Post-GFC covered interest parity (CIP) deviations of 20-60bp for major pairs are a structural phenomenon driven primarily by regulatory constraints (45-55% of variance), with a non-trivial credit-risk information component (15-20%). Cross-currency basis has a documented 2-4 week lead time on endogenous crises.",
+      "confidence": 8.5,
+      "evidence": [
+        "Panel regression (n~900 pair-months, R\u00b2=52%): quarter-end +18bp (t=6.8), year-end +32bp (t=4.1), Fed balance sheet -12bp/$1T (t=-3.4), bank CDS +0.8bp/10bp (t=2.4, p=0.02)",
+        "Structural -20 to -30bp baseline means only 10-20bp of additional widening crosses into stress zone versus ~40bp buffer pre-GFC",
+        "Cross-currency basis is highest-fidelity early warning indicator with 2-4 week lead time"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_01",
+        "quant_researcher_02"
+      ],
+      "open_questions": [
+        "How much of the basis is exploitable versus reflecting genuine regulatory cost?"
+      ],
+      "related_concepts": [
+        "cip_basis_investable_factor",
+        "dm_rate_divergence_systemic_vulnerability",
+        "treasury_fx_dual_fragility"
+      ]
+    },
+    {
+      "slug": "carry_equity_correlation_amplification",
+      "definition": "Carry-equity correlation amplifies from 0.3-0.4 in normal conditions to 0.7-0.8 during stress, making carry effectively leveraged equity beta during unwinds. Carry-momentum correlation swings by 0.90 from -0.25/-0.35 to +0.50/+0.70 during vol spikes.",
+      "confidence": 9,
+      "evidence": [
+        "Documented across 1998, 2007-08, 2020, and 2024 episodes",
+        "Carry-momentum correlation swing of 0.90 is among the largest documented factor correlation regime changes in any asset class",
+        "Carry + momentum diversification is a fair-weather benefit that reverses in the 15% of periods that determine portfolio survival"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_02",
+        "generalist_01",
+        "generalist_02"
+      ],
+      "open_questions": [],
+      "related_concepts": [
+        "carry_trade_fat_tails",
+        "g10_fx_pca_structure",
+        "credit_cycle_carry_discriminator"
+      ]
+    },
+    {
+      "slug": "credit_cycle_carry_discriminator",
+      "definition": "The credit cycle turning point is the critical discriminator between contained and systemic carry unwinds. All examined contained unwinds did not coincide with credit cycle turns, while all systemic unwinds did.",
+      "confidence": 8.5,
+      "evidence": [
+        "Perfect classification across all examined episodes: contained (2013 taper tantrum, 2018 EM crisis, August 2024) vs. systemic (LTCM 1998, GFC 2008)",
+        "Current late-cycle environment (maturity wall 2025-2027, covenant-lite structures, EBITDA addback distortions) elevates systemic probability",
+        "IG spreads below ~130bp and HY below ~450bp favor contained outcomes"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "generalist_01",
+        "generalist_02",
+        "commodities_analyst_01"
+      ],
+      "open_questions": [
+        "What are the leading indicators for a credit cycle turn in the current environment?"
+      ],
+      "related_concepts": [
+        "carry_trade_fat_tails",
+        "carry_equity_correlation_amplification",
+        "boj_normalization_carry_risk"
+      ]
+    },
+    {
+      "slug": "fx_forecasting_random_walk",
+      "definition": "FX forecasting beyond 1-3 months is empirically indistinguishable from a random walk across all methodologies, a result confirmed across 40+ years since Meese & Rogoff (1983). The only partial exceptions are PPP at 5-10 year horizons and carry-based models at 1-3 months with R\u00b2 of 1-3%.",
+      "confidence": 9,
+      "evidence": [
+        "Meese & Rogoff (1983), confirmed by Cheung-Chinn-Pascual (2005), Rossi (2013), and IMF evaluations of WEO forecasts",
+        "Industry production of precise 6-12 month FX point forecasts represents market-wide overconfidence bias",
+        "No agent contests this finding"
+      ],
+      "originating_agents": [
+        "challenger_02"
+      ],
+      "open_questions": [],
+      "related_concepts": [
+        "uip_failure",
+        "rate_fx_endogeneity"
+      ]
+    },
+    {
+      "slug": "dm_rate_divergence_systemic_vulnerability",
+      "definition": "Current DM rate divergence (85th-97th percentile of post-Bretton Woods observations) creates a latent systemic vulnerability through the carry positioning it incentivizes. Cross-sectional SD of G10 policy rates is ~250-350bp versus historical mean ~175bp.",
+      "confidence": 8,
+      "evidence": [
+        "Fed ~4.25-4.50% vs. BoJ ~0.50% places range in approximately 85th-95th percentile since 1990",
+        "VTA framework confirms all four vulnerability conditions: leverage (JPY carry $500B-$4T), maturity mismatch, concentration, opacity",
+        "Two prior comparable divergence episodes (2006-07, 2018-19) both preceded violent carry reversals",
+        "Compressed spring finding: 61% of comparable configurations preceded 20%+ move in at least one G10 pair within 12 months vs. 11% unconditional"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_02",
+        "quant_researcher_01",
+        "generalist_02"
+      ],
+      "open_questions": [
+        "Which specific pair will move and when?",
+        "Will the resolution come through FX adjustment or rate convergence?"
+      ],
+      "related_concepts": [
+        "compressed_spring_configuration",
+        "boj_normalization_carry_risk",
+        "carry_trade_fat_tails"
+      ]
+    },
+    {
+      "slug": "commodity_terms_of_trade_fx_channel",
+      "definition": "Commodity terms-of-trade shocks explain 25-40% of REER variance for commodity-dependent economies, a channel that rate-differential models structurally underweight. BIS (2023) data confirms 25-40% versus 15-25% for rate differentials.",
+      "confidence": 8,
+      "evidence": [
+        "Japan 2022: \u00a511 trillion surge in energy import bill generated $8-12bn/month in real USD buying, 2-3x speculative carry positioning",
+        "Turkey: despite rate hikes from 8.5% to 42.5%, TRY depreciation persisted due to ~$45bn/year energy import bill",
+        "Commodity channel is mechanistically distinct from carry via different timescales, order flow characteristics, and price sensitivity"
+      ],
+      "originating_agents": [
+        "commodities_analyst_01",
+        "generalist_01",
+        "quant_researcher_02"
+      ],
+      "open_questions": [
+        "How quickly do markets learn to price commodity-FX linkages?"
+      ],
+      "related_concepts": [
+        "lng_structural_break_eur_usd",
+        "local_currency_cost_curve_fx_stabilizer",
+        "energy_vs_agriculture_fx_dominance"
+      ]
+    },
+    {
+      "slug": "em_carry_dollar_credit_decomposition",
+      "definition": "EM carry returns are dominated by dollar beta (~47%) and credit risk (~23%). Pure carry stripped of these exposures has a Sharpe of only 0.15-0.30, with a confidence interval that includes zero.",
+      "confidence": 7,
+      "evidence": [
+        "Sequential orthogonalization on 6-currency EM basket (2005-2025, n=240): DXY R\u00b2=47%, EMBI credit incremental R\u00b2=23%, residual 30%",
+        "Pure carry Sharpe 0.22 (95% CI: [0.02, 0.42])",
+        "Survivorship bias reduces EM carry Sharpe from 0.5-0.7 to 0.2-0.4 after including capital control events"
+      ],
+      "originating_agents": [
+        "quant_researcher_01",
+        "quant_researcher_02",
+        "challenger_02"
+      ],
+      "open_questions": [
+        "Is the 6-currency basket representative of the broader EM carry universe?",
+        "Are TRY and MXN dominating results in a way that distorts conclusions?"
+      ],
+      "related_concepts": [
+        "carry_sharpe_decline",
+        "push_pull_em_carry_pattern",
+        "dm_rate_divergence_systemic_vulnerability"
+      ]
+    },
+    {
+      "slug": "boj_normalization_carry_risk",
+      "definition": "BoJ normalization is the asymmetric G10 carry risk. August 2024 was a foreshock that liquidated an estimated $150-250B (30-50% of conservative positioning estimates), leaving substantial residual vulnerability, though the BoJ's willingness to pause serves as a circuit breaker.",
+      "confidence": 6.5,
+      "evidence": [
+        "Excess JPY NEER move (~6-7% beyond rate-surprise baseline) implies $150-250B liquidation",
+        "CFTC data showing $11B reduction (x10-15x for CFTC coverage fraction)",
+        "2006-2008 analogue where BoJ's modest 0.5% rate created uncertainty about zero-rate funding",
+        "Base rate correction: 2-3 significant dislocations from 20+ BoJ actions = 10-15% per action"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_01",
+        "generalist_01",
+        "generalist_02",
+        "challenger_02"
+      ],
+      "open_questions": [
+        "What is the cumulative probability across the expected 4-6 BoJ actions over 2026-2028?",
+        "Does BoJ normalization re-engage the yen safe-haven mechanism or have institutional structural changes prevented this?",
+        "How reliable is the circuit breaker under more extreme stress?"
+      ],
+      "related_concepts": [
+        "dm_rate_divergence_systemic_vulnerability",
+        "yen_safe_haven_conditionality",
+        "credit_cycle_carry_discriminator",
+        "compressed_spring_configuration"
+      ]
+    },
+    {
+      "slug": "carry_sharpe_decline",
+      "definition": "The G10 carry Sharpe ratio has declined from ~0.5 (pre-GFC) to ~0.25-0.35 (post-2015), but the decline is statistically marginal (p=0.09-0.16) and cannot be definitively attributed to structural causes versus adverse sampling.",
+      "confidence": 6,
+      "evidence": [
+        "Welch t-test p=0.09, bootstrap p=0.12, Ledoit-Wolf Sharpe test p=0.16",
+        "Post-2010 Sharpe 95% CI [0.05, 0.55]",
+        "Three competing explanations: crowding ($30B to $100-150B+ AUM), central bank swap lines reducing crash risk, low-rate compression"
+      ],
+      "originating_agents": [
+        "quant_researcher_01",
+        "quant_researcher_02"
+      ],
+      "open_questions": [
+        "Is the decline permanent (structural) or cyclical?",
+        "Post-COVID rate normalization as natural experiment requires data through ~2028-2030 to assess"
+      ],
+      "related_concepts": [
+        "carry_trade_fat_tails",
+        "em_carry_dollar_credit_decomposition",
+        "dm_rate_divergence_systemic_vulnerability"
+      ]
+    },
+    {
+      "slug": "lng_structural_break_eur_usd",
+      "definition": "The shift from EUR-denominated pipeline gas to USD-denominated spot LNG adds ~$40-50bn/year in incremental USD demand, moving the TTF-EUR/USD correlation from r approximately -0.15 (pre-2022) to r approximately -0.45 (post-2022). Infrastructure lock-in with 20+ year terminal lives makes this structural.",
+      "confidence": 7,
+      "evidence": [
+        "Europe imported ~120-130 million tonnes of LNG in 2024 at ~$400-450/t, virtually all USD-denominated",
+        "Pre-2022 gas composition: ~70% Russian pipeline (EUR contracts), ~20% LNG. Post-2022: ~55-60% LNG, ~25% Norwegian pipeline",
+        "Seasonal validation: January 2025 cold snap \u2014 TTF +40%, EUR/USD -2.5%"
+      ],
+      "originating_agents": [
+        "commodities_analyst_01"
+      ],
+      "open_questions": [
+        "Have markets already priced this structural shift?",
+        "How can the LNG channel's magnitude be isolated from other EUR/USD drivers?"
+      ],
+      "related_concepts": [
+        "commodity_terms_of_trade_fx_channel",
+        "energy_vs_agriculture_fx_dominance"
+      ]
+    },
+    {
+      "slug": "rate_fx_endogeneity",
+      "definition": "Interest rates and exchange rates are jointly determined in general equilibrium, making the standard practitioner formulation 'rate differential drove the currency' causally unreliable. Valid instruments for resolving this endogeneity are scarce.",
+      "confidence": 7.5,
+      "evidence": [
+        "Turkey 2023: TCMB raised rates from 8.5% to 42.5% in response to lira depreciation \u2014 treating the rate hike as causing TRY stability reverses actual causal chain",
+        "Brazil's high real rates partly compensate for structural BRL fragility rather than causing stability",
+        "Academically established (Engel 2014, Itskhoki & Mukhin 2021) but absent from practitioner analysis"
+      ],
+      "originating_agents": [
+        "challenger_02"
+      ],
+      "open_questions": [
+        "How can the endogeneity problem be resolved econometrically given scarce valid instruments?"
+      ],
+      "related_concepts": [
+        "uip_failure",
+        "rate_differential_regime_conditional_fx_power",
+        "fx_forecasting_random_walk"
+      ]
+    },
+    {
+      "slug": "fed_carry_specific_conditioning",
+      "definition": "Fed monetary policy regime specifically conditions carry factor returns (p=0.006 surviving dollar orthogonalization) but does NOT independently condition value or momentum FX factors. The apparent conditioning of value/momentum is a dollar-regime artifact.",
+      "confidence": 7,
+      "evidence": [
+        "After orthogonalizing against DXY: carry F=5.2 (p=0.006) survives; value F=1.3 (p=0.27) and momentum F=0.9 (p=0.41) both vanish",
+        "Hold Sharpe 0.72 vs. Tightening Sharpe 0.08 for carry",
+        "Covers only 3 Fed cycles, limiting factor-specific precision"
+      ],
+      "originating_agents": [
+        "quant_researcher_01"
+      ],
+      "open_questions": [
+        "Will the result hold across additional Fed cycles?",
+        "If the dollar weakens for non-Fed reasons (fiscal, reserve diversification), how do value and momentum factors behave?"
+      ],
+      "related_concepts": [
+        "g10_fx_pca_structure",
+        "carry_sharpe_decline",
+        "dm_rate_divergence_systemic_vulnerability"
+      ]
+    },
+    {
+      "slug": "push_pull_em_carry_pattern",
+      "definition": "EM carry sequencing during DM tightening follows a push vs. pull pattern: push episodes (DM-driven, dollar strength) produce correlated but moderate EM carry losses (10-25%), while pull episodes (EM-specific BoP crises) produce idiosyncratic, severe crises (30-70% depreciation). Frontier-to-core cascade takes 3-6 months in push episodes.",
+      "confidence": 7.5,
+      "evidence": [
+        "Five episodes decomposed: push (2013 taper tantrum, 2018 Fed hiking, 2022 broad dollar strength) vs. pull (1997-98 Asian crisis, 2022 frontier crises)",
+        "Twin-deficit filter (CA + fiscal deficit >5% GDP) has 70-80% hit rate for >20% depreciation in push episodes",
+        "Current environment maps to push scenario"
+      ],
+      "originating_agents": [
+        "generalist_02"
+      ],
+      "open_questions": [
+        "Will frontier weakness (Egypt, Pakistan) cascade to core EM (Brazil, Mexico)?"
+      ],
+      "related_concepts": [
+        "em_carry_dollar_credit_decomposition",
+        "dm_rate_divergence_systemic_vulnerability",
+        "subsidy_buffer_depletion"
+      ]
+    },
+    {
+      "slug": "yen_safe_haven_conditionality",
+      "definition": "The yen's safe haven status is conditional on Japan being a zero-rate outlier relative to global rates. This was falsified in 2022 when USD/JPY rose 32% during a global equity bear market, as the carry-trade-unwind repatriation mechanism was overwhelmed by incentive to stay invested abroad.",
+      "confidence": 7,
+      "evidence": [
+        "Five supporting episodes (1998, 2008, 2011, 2016, 2020: JPY strengthened) versus 2022 falsification (JPY weakened 32% during -25% SPX)",
+        "Mechanism depends on carry-trade-unwind repatriation requiring Japan to be zero-rate funding source",
+        "Institutional structural changes (Japanese lifers' locked-in foreign allocations, GPIF allocation floors) may prevent return to pre-2022 dynamics"
+      ],
+      "originating_agents": [
+        "challenger_02"
+      ],
+      "open_questions": [
+        "If BoJ normalizes to 1.0%+, does the carry-unwind repatriation mechanism re-engage?",
+        "Have institutional structural changes permanently altered JPY safe-haven dynamics?"
+      ],
+      "related_concepts": [
+        "boj_normalization_carry_risk",
+        "dm_rate_divergence_systemic_vulnerability",
+        "carry_equity_correlation_amplification"
+      ]
+    },
+    {
+      "slug": "protein_price_cascade",
+      "definition": "Grain shocks transmit to livestock/poultry costs with a 6-12 month lag through feed cost channels, systematically extending food inflation episodes beyond what spot grain analysis suggests. This makes carry re-entry signals based on commodity price reversion premature by 2-3 quarters.",
+      "confidence": 7,
+      "evidence": [
+        "Production cycle timings are biological constants: poultry ~6 weeks, pork ~5-6 months, cattle ~18-24 months",
+        "Feed represents 60-70% of poultry production costs, 50-60% of pork",
+        "2022 episode: global grain peaked May-June 2022, US food-at-home CPI didn't peak until August 2022, EM food CPI kept rising through Q1 2023"
+      ],
+      "originating_agents": [
+        "commodities_analyst_02"
+      ],
+      "open_questions": [
+        "How well does this lag translate to carry trade timing application across different EM currencies?"
+      ],
+      "related_concepts": [
+        "subsidy_buffer_depletion",
+        "commodity_terms_of_trade_fx_channel",
+        "black_sea_grain_rerouting"
+      ]
+    },
+    {
+      "slug": "subsidy_buffer_depletion",
+      "definition": "Subsidy buffer depletion creates non-linear, regime-switching FX fragility in food-importing EMs. Governments absorb initial food price shocks through subsidies, but exhaustion triggers discontinuous currency collapse.",
+      "confidence": 7,
+      "evidence": [
+        "Egypt 2022-2024: bread subsidies maintained through mid-2022, step-devaluation sequence (EGP 15.7\u219224.7\u219230.9\u219250+) coinciding with subsidy reform announcements",
+        "Food subsidies reached ~$5.6B (~2% GDP) in FY2022",
+        "Similar patterns in Pakistan, Nigeria, Sri Lanka"
+      ],
+      "originating_agents": [
+        "commodities_analyst_02"
+      ],
+      "open_questions": [
+        "How can the fiscal exhaustion point be predicted ex ante?"
+      ],
+      "related_concepts": [
+        "push_pull_em_carry_pattern",
+        "protein_price_cascade",
+        "black_sea_grain_rerouting"
+      ]
+    },
+    {
+      "slug": "local_currency_cost_curve_fx_stabilizer",
+      "definition": "Local-currency cost curves create a supply-side FX feedback loop for mining/energy producers where depreciation improves margins. This stabilizer operates with fundamentally different time constants across commodity types: months for metals/energy, 6-18 months for agriculture due to biological growing seasons.",
+      "confidence": 7,
+      "evidence": [
+        "Vale's iron ore AISC shifts from ~$44/t to ~$40/t when BRL depreciates 15%",
+        "Codelco copper breakeven drops from ~$2.30/lb to ~$2.00/lb with 15% CLP depreciation",
+        "Imported inputs (20-30% of AISC) partially offset but don't neutralize",
+        "Agricultural output governed by 6-18 month growing seasons"
+      ],
+      "originating_agents": [
+        "commodities_analyst_01",
+        "commodities_analyst_02"
+      ],
+      "open_questions": [
+        "How does the time constant difference affect currency stabilization for agricultural versus mining exporters?"
+      ],
+      "related_concepts": [
+        "commodity_terms_of_trade_fx_channel",
+        "energy_vs_agriculture_fx_dominance"
+      ]
+    },
+    {
+      "slug": "peg_managed_float_breaks",
+      "definition": "Peg and managed float breaks produce the most extreme tail events in FX markets (10-30% gap moves). Pegs suppress observed vol while accumulating hidden misalignment, functioning like writing naked puts with a convex reserve defense cost curve leading to discontinuous release at breaking points.",
+      "confidence": 7.5,
+      "evidence": [
+        "GBP/ERM 1992 (-15% in 24h), THB 1997 (-50% in 6 months), CHF/EUR 2015 (-30% in minutes), CNY 2015 (-7% controlled)",
+        "Current vulnerability map: HKD, CNY managed float, GCC pegs",
+        "Disorderly CNY break would be single most destabilizing FX event given China's trade centrality"
+      ],
+      "originating_agents": [
+        "risk_analyst_01",
+        "challenger_02"
+      ],
+      "open_questions": [
+        "What are the specific probability estimates for current peg breaks?"
+      ],
+      "related_concepts": [
+        "carry_trade_fat_tails",
+        "dm_rate_divergence_systemic_vulnerability"
+      ]
+    },
+    {
+      "slug": "black_sea_grain_rerouting",
+      "definition": "Black Sea grain re-routing has structurally increased the FX sensitivity of food imports for MENA/Sub-Saharan African importers by 15-25% on a cost-per-ton-delivered basis, with pre-disruption freight of ~$15-25/ton via Bosphorus rising to $40-70/ton from alternative sources.",
+      "confidence": 7,
+      "evidence": [
+        "Egypt (~12-13 million tons wheat/year) faces ~$250M annually in incremental hard-currency costs",
+        "Investment patterns confirm structural nature: port expansion in Brazil, logistics investment with 5-10 year payback horizons",
+        "Alternative sources (Australia, Canada, Argentina) carry higher freight costs"
+      ],
+      "originating_agents": [
+        "commodities_analyst_02"
+      ],
+      "open_questions": [
+        "Could partial geopolitical resolution reduce these costs?"
+      ],
+      "related_concepts": [
+        "subsidy_buffer_depletion",
+        "protein_price_cascade",
+        "commodity_terms_of_trade_fx_channel"
+      ]
+    },
+    {
+      "slug": "compressed_spring_configuration",
+      "definition": "The joint condition of extreme rate divergence AND low FX vol is historically associated with elevated subsequent FX dislocation. Only 18 months in 420-month sample satisfy both conditions, and 61% of those preceded a 20%+ G10 pair move within 12 months versus 11% unconditional (p<0.001). Currently active in Q4 2025-Q1 2026.",
+      "confidence": 7,
+      "evidence": [
+        "n=18 months satisfying both conditions, 95% CI: [36%, 83%]",
+        "Two prior clustered episodes (late 1999-2000, mid 2006-early 2007) both preceded major FX dislocations",
+        "Fisher's exact p<0.001",
+        "Mechanistically intuitive: extreme divergence incentivizes large carry positions; low vol compresses risk measures, allowing higher leverage"
+      ],
+      "originating_agents": [
+        "quant_researcher_01"
+      ],
+      "open_questions": [
+        "Which specific pair will move?",
+        "What is the expected timing?"
+      ],
+      "related_concepts": [
+        "dm_rate_divergence_systemic_vulnerability",
+        "rate_differential_regime_conditional_fx_power",
+        "boj_normalization_carry_risk"
+      ]
+    },
+    {
+      "slug": "hold_phase_fx_dynamics",
+      "definition": "Hold-phase FX dynamics follow a bimodal pattern determined by credibility of the hold. In a 12-episode database, 7/12 currencies strengthened during credible holds and 5/12 weakened when imminent cuts were anticipated. Hold-to-cut transition produces median -8% FX move over 6 months.",
+      "confidence": 6,
+      "evidence": [
+        "12-episode database with bimodal pattern",
+        "Current Fed positioning maps to the credible hold sub-sample",
+        "Partially tautological: strong economy \u2192 credible hold \u2192 strong currency"
+      ],
+      "originating_agents": [
+        "generalist_02"
+      ],
+      "open_questions": [
+        "Is the credibility-of-hold discriminant tautological?",
+        "Can this be used for forecasting or only as a base rate?"
+      ],
+      "related_concepts": [
+        "fed_carry_specific_conditioning",
+        "dm_rate_divergence_systemic_vulnerability"
+      ]
+    },
+    {
+      "slug": "energy_vs_agriculture_fx_dominance",
+      "definition": "Energy flows dominate FX divergence by flow magnitude for most major traded currency pairs. The agricultural channel matters for a specific subset of frontier/EM currencies where food is a disproportionate share of the current account, but it is a second-order modifier, not a competing first-order driver.",
+      "confidence": 7,
+      "evidence": [
+        "Energy BoP flows are larger, more directly measurable, and dominate for majority of traded currency pairs",
+        "Agricultural channel matters for EGP, PKR, NGN, BDT where food is disproportionate CA share",
+        "pair_1 debate was dispositive in resolving this disagreement"
+      ],
+      "originating_agents": [
+        "commodities_analyst_01",
+        "commodities_analyst_02"
+      ],
+      "open_questions": [
+        "Will markets learn to price agricultural-FX linkages as they have energy-FX linkages?"
+      ],
+      "related_concepts": [
+        "commodity_terms_of_trade_fx_channel",
+        "lng_structural_break_eur_usd",
+        "protein_price_cascade",
+        "fertilizer_fx_nexus"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "concept_a": "rate_differential_regime_conditional_fx_power",
+      "concept_b": "carry_trade_fat_tails",
+      "mechanism": "Rate differentials explain FX variance in calm periods but this explanatory power collapses during the high-vol episodes that produce the largest carry drawdowns, meaning rate-based FX forecasts systematically overstate confidence during the most dangerous periods.",
+      "direction": "correlated",
+      "confidence": 8.5,
+      "regime_dependence": "Relationship between rate differentials and FX shifts dramatically at the 9-10% realized vol threshold. Below threshold, rate differentials are informative. Above threshold, they lose virtually all explanatory power.",
+      "originating_agents": [
+        "quant_researcher_01",
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "carry_equity_correlation_amplification",
+      "concept_b": "credit_cycle_carry_discriminator",
+      "mechanism": "The credit cycle turning point determines whether carry-equity correlation amplification during stress remains a contained positioning adjustment or becomes a self-reinforcing systemic feedback loop.",
+      "direction": "b_causes_a",
+      "confidence": 8.5,
+      "regime_dependence": "Credit cycle turn transforms contained carry-equity correlation spikes (temporary, 0.7-0.8) into systemic events. Without credit cycle turn, correlation amplification self-corrects.",
+      "originating_agents": [
+        "risk_analyst_01",
+        "generalist_01",
+        "commodities_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "dm_rate_divergence_systemic_vulnerability",
+      "concept_b": "compressed_spring_configuration",
+      "mechanism": "Extreme rate divergence incentivizes large carry positions while simultaneous low volatility compresses risk measures, allowing higher leverage. The combination creates latent energy that releases violently when triggered.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Only active when both conditions (extreme divergence AND low vol) are simultaneously present. Currently active Q4 2025-Q1 2026.",
+      "originating_agents": [
+        "quant_researcher_01",
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "boj_normalization_carry_risk",
+      "concept_b": "yen_safe_haven_conditionality",
+      "mechanism": "BoJ normalization simultaneously serves as the trigger for carry unwinds (requiring yen appreciation) AND the condition that may re-engage the yen's safe-haven property. If BoJ normalizes, carry-unwind repatriation may resume, but institutional structural changes may prevent it.",
+      "direction": "bidirectional",
+      "confidence": 6.5,
+      "regime_dependence": "Depends on whether institutional structural changes (GPIF allocation floors, lifers' locked-in foreign allocations) have permanently altered the yen repatriation mechanism versus the pre-2022 regime.",
+      "originating_agents": [
+        "challenger_02",
+        "risk_analyst_01",
+        "generalist_02"
+      ]
+    },
+    {
+      "concept_a": "commodity_terms_of_trade_fx_channel",
+      "concept_b": "rate_differential_regime_conditional_fx_power",
+      "mechanism": "Commodity terms-of-trade shocks explain 25-40% of REER variance versus 15-25% for rate differentials in commodity-dependent economies. Rate-differential models structurally underweight this channel, producing systematic forecast errors.",
+      "direction": "correlated",
+      "confidence": 8,
+      "regime_dependence": "Dominance of commodity channel increases for economies with higher commodity share of current account. For diversified DM economies, rate differentials may still dominate.",
+      "originating_agents": [
+        "commodities_analyst_01",
+        "generalist_01"
+      ]
+    },
+    {
+      "concept_a": "lng_structural_break_eur_usd",
+      "concept_b": "commodity_terms_of_trade_fx_channel",
+      "mechanism": "The shift from EUR-denominated pipeline gas to USD-denominated LNG represents a specific instance of commodity terms-of-trade reshaping FX dynamics, adding ~$40-50bn/year incremental USD demand and permanently shifting TTF-EUR/USD correlation.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Post-2022 structural regime with infrastructure lock-in (20+ year terminal lives). Does not apply to pre-2022 EUR/USD dynamics.",
+      "originating_agents": [
+        "commodities_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "uip_failure",
+      "concept_b": "carry_trade_fat_tails",
+      "mechanism": "UIP failure creates the carry premium that incentivizes carry trades. The persistence of this anomaly enables systematic carry positioning, which in turn generates fat-tailed return distributions through crowded positioning and synchronized unwinding.",
+      "direction": "a_causes_b",
+      "confidence": 9,
+      "regime_dependence": "UIP failure is unconditional but the Fama beta alternates between two regimes: carry works strongly (beta ~-2 to -3) and UIP briefly holds during crises (beta ~+0.5 to +1).",
+      "originating_agents": [
+        "challenger_02",
+        "quant_researcher_01"
+      ]
+    },
+    {
+      "concept_a": "g10_fx_pca_structure",
+      "concept_b": "dm_rate_divergence_systemic_vulnerability",
+      "mechanism": "The dollar factor (PC1) explaining 50-70% of variance means extreme rate divergence concentrates carry risk into a single factor. Dimensionality collapse to ~1.5 during stress eliminates apparent diversification precisely when it matters most.",
+      "direction": "bidirectional",
+      "confidence": 9,
+      "regime_dependence": "Dimensionality collapse is stress-conditional. During calm periods, effective dimensionality ~2.5-3.0 provides some diversification. During stress, collapse to ~1.5 means position sizing based on pair count overstates diversification by 3-4x.",
+      "originating_agents": [
+        "quant_researcher_02",
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "post_gfc_cip_deviations",
+      "concept_b": "credit_cycle_carry_discriminator",
+      "mechanism": "Cross-currency basis widens during credit stress, with a documented 2-4 week lead time on endogenous crises. The structural -20 to -30bp baseline means the buffer before stress levels is halved relative to pre-GFC, making the system more sensitive to credit cycle turns.",
+      "direction": "b_causes_a",
+      "confidence": 8.5,
+      "regime_dependence": "Post-GFC regime only. Pre-GFC, the CIP basis was near zero and did not serve as an early warning indicator.",
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_01"
+      ]
+    },
+    {
+      "concept_a": "protein_price_cascade",
+      "concept_b": "subsidy_buffer_depletion",
+      "mechanism": "The protein price cascade extends food inflation episodes by 2-3 quarters beyond what spot grain analysis suggests, accelerating fiscal exhaustion of food subsidy buffers and compressing the timeline to discontinuous currency collapse in food-importing EMs.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Applies primarily to EM currencies where protein constitutes a large and growing food CPI share. Rising incomes driving dietary transition increase vulnerability over time.",
+      "originating_agents": [
+        "commodities_analyst_02"
+      ]
+    },
+    {
+      "concept_a": "push_pull_em_carry_pattern",
+      "concept_b": "em_carry_dollar_credit_decomposition",
+      "mechanism": "The push-pull classification maps onto the EM carry decomposition: push episodes operate primarily through the dollar beta channel (47%), while pull episodes operate through the credit risk channel (23%) with idiosyncratic amplification.",
+      "direction": "correlated",
+      "confidence": 7,
+      "regime_dependence": "Push episodes (DM-driven) produce correlated 10-25% losses; pull episodes (EM-specific) produce idiosyncratic 30-70% losses. Twin-deficit filter applies specifically to push episodes.",
+      "originating_agents": [
+        "generalist_02",
+        "quant_researcher_01"
+      ]
+    },
+    {
+      "concept_a": "fed_carry_specific_conditioning",
+      "concept_b": "g10_fx_pca_structure",
+      "mechanism": "Fed policy specifically conditions carry (PC2) returns but not value or momentum factors. The apparent conditioning of value/momentum was a dollar-factor (PC1) confound that vanishes after orthogonalization.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Demonstrated across 3 Fed cycles. Hold Sharpe 0.72 vs. Tightening Sharpe 0.08 for carry factor specifically.",
+      "originating_agents": [
+        "quant_researcher_01"
+      ]
+    },
+    {
+      "concept_a": "rate_fx_endogeneity",
+      "concept_b": "rate_differential_regime_conditional_fx_power",
+      "mechanism": "The joint determination of rates and FX in general equilibrium means that measured R\u00b2 of rate differentials on FX partly reflects reverse causation, potentially inflating the already regime-conditional explanatory power estimates.",
+      "direction": "bidirectional",
+      "confidence": 7.5,
+      "regime_dependence": "Endogeneity is always present but most misleading during EM crises where rate hikes respond to currency weakness (Turkey 2023) rather than causing currency strength.",
+      "originating_agents": [
+        "challenger_02"
+      ]
+    },
+    {
+      "concept_a": "peg_managed_float_breaks",
+      "concept_b": "carry_trade_fat_tails",
+      "mechanism": "Pegs suppress observed volatility, encouraging unhedged carry positioning. When the peg breaks, the accumulated misalignment releases as a gap move (10-30%), generating the most extreme observations in carry return distributions.",
+      "direction": "a_causes_b",
+      "confidence": 7.5,
+      "regime_dependence": "Only applies to currencies with explicit or implicit pegs/managed floats. Freely floating currencies produce more gradual adjustments.",
+      "originating_agents": [
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "concept_a": "black_sea_grain_rerouting",
+      "concept_b": "subsidy_buffer_depletion",
+      "mechanism": "Increased freight costs from Black Sea re-routing (15-25% cost increase per ton delivered) accelerate hard-currency drain for MENA/Sub-Saharan African food importers, compressing the timeline to subsidy buffer exhaustion and currency collapse.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Post-2022 structural shift. Partial geopolitical resolution could reduce the incremental cost burden.",
+      "originating_agents": [
+        "commodities_analyst_02"
+      ]
+    },
+    {
+      "concept_a": "local_currency_cost_curve_fx_stabilizer",
+      "concept_b": "commodity_terms_of_trade_fx_channel",
+      "mechanism": "Currency depreciation improves mining/energy producer margins by reducing local-currency costs relative to USD revenue, creating a natural stabilizer. However, this operates with different time constants for metals/energy (months) versus agriculture (6-18 months), creating differential FX stabilization speeds.",
+      "direction": "bidirectional",
+      "confidence": 7,
+      "regime_dependence": "Stabilizer is always present but time constant varies by commodity type. Agricultural exporters (BRL soybeans, ARS grains) stabilize more slowly than energy/metals exporters (AUD, CLP, NOK).",
+      "originating_agents": [
+        "commodities_analyst_01",
+        "commodities_analyst_02"
+      ]
+    },
+    {
+      "concept_a": "carry_equity_correlation_amplification",
+      "concept_b": "boj_normalization_carry_risk",
+      "mechanism": "A BoJ-triggered carry unwind would amplify into broader equity markets through the 0.7-0.8 carry-equity stress correlation, potentially transforming a currency event into a multi-asset drawdown, as partially demonstrated in August 2024.",
+      "direction": "b_causes_a",
+      "confidence": 7,
+      "regime_dependence": "Amplification depends on carry positioning size, speed of BoJ moves, and whether the credit cycle has turned. August 2024 showed the mechanism but at partial scale.",
+      "originating_agents": [
+        "risk_analyst_01",
+        "quant_researcher_02",
+        "generalist_01"
+      ]
+    },
+    {
+      "concept_a": "compressed_spring_configuration",
+      "concept_b": "boj_normalization_carry_risk",
+      "mechanism": "The compressed spring (extreme divergence + low vol) creates the conditions that make BoJ normalization maximally disruptive: large carry positions built on compressed risk measures face the largest potential trigger from the widest rate gap.",
+      "direction": "bidirectional",
+      "confidence": 7,
+      "regime_dependence": "Currently active. The two conditions reinforce each other: BoJ zero-rate policy contributes to the divergence, while low vol allows higher leverage into JPY carry.",
+      "originating_agents": [
+        "quant_researcher_01",
+        "risk_analyst_01"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "slug": "vulnerability_trigger_amplification",
+      "purpose": "Systematic assessment of carry trade systemic risk through four vulnerability conditions (leverage, maturity mismatch, concentration, opacity), trigger identification, and amplification mechanism analysis.",
+      "components": [
+        "Leverage assessment (JPY carry $500B-$4T with 8x uncertainty band)",
+        "Maturity mismatch quantification (3M forwards funding long-term positions)",
+        "Concentration measurement (single dollar factor = 50-70% of variance via PCA)",
+        "Opacity evaluation (uncertainty band on position size)",
+        "Trigger catalogue (BoJ normalization, risk-off events, commodity shocks)",
+        "Amplification channels (carry-equity correlation, dimensionality collapse, cross-asset contagion)"
+      ],
+      "current_assessment": "All four vulnerability conditions confirmed active. Current DM rate divergence at 85th-97th percentile creates latent systemic vulnerability. Compressed spring configuration currently active Q4 2025-Q1 2026.",
+      "limitations": [
+        "Position size estimates have 8x uncertainty band ($500B-$4T for JPY carry)",
+        "Framework identifies vulnerability but does not predict timing of trigger",
+        "Circuit breaker reliability under extreme stress is untested",
+        "Specific probability estimates require formal scenario tree with cumulative probability across expected 4-6 BoJ actions"
+      ]
+    },
+    {
+      "slug": "push_pull_em_classification",
+      "purpose": "Classifies EM carry stress episodes into push (DM-driven, correlated moderate losses) versus pull (EM-specific BoP crises, idiosyncratic severe losses) to predict severity and contagion patterns.",
+      "components": [
+        "Push episode identification (DM-driven, dollar strength, 10-25% correlated losses)",
+        "Pull episode identification (EM-specific BoP crises, 30-70% idiosyncratic depreciation)",
+        "Frontier-to-core cascade timing (3-6 months in push episodes)",
+        "Twin-deficit filter (CA + fiscal deficit >5% GDP, 70-80% hit rate for >20% depreciation)",
+        "Monitoring: frontier weakness (Egypt, Pakistan) cascading to core EM (Brazil, Mexico)"
+      ],
+      "current_assessment": "Current environment maps to push scenario. Monitoring whether frontier weakness cascades to core EM is the key signpost for severity reassessment.",
+      "limitations": [
+        "Based on 5 decomposed episodes",
+        "Push-pull distinction may not be exhaustive of all EM stress types",
+        "Twin-deficit filter has 70-80% accuracy, not definitive"
+      ]
+    },
+    {
+      "slug": "credit_cycle_unwind_severity_discriminator",
+      "purpose": "Discriminates between contained and systemic carry unwinds based on whether the event coincides with a credit cycle turning point.",
+      "components": [
+        "Credit cycle position assessment (maturity wall, covenant quality, EBITDA addback levels)",
+        "IG spread threshold (~130bp)",
+        "HY spread threshold (~450bp)",
+        "Classification: contained (no credit turn) vs. systemic (credit turn coincident)"
+      ],
+      "current_assessment": "Late-cycle environment with maturity wall 2025-2027, covenant-lite structures, and EBITDA addback distortions elevates probability that next carry unwind would be systemic. IG and HY spreads currently below thresholds, favoring contained outcome.",
+      "limitations": [
+        "Perfect classification may reflect small sample of clearly systemic events",
+        "Leading indicators for credit cycle turn are themselves uncertain",
+        "Thresholds (130bp IG, 450bp HY) are approximate"
+      ]
+    },
+    {
+      "slug": "early_warning_signpost_dashboard",
+      "purpose": "Five-indicator monitoring system for carry trade dislocation risk, with a 3-of-5 trigger threshold.",
+      "components": [
+        "G10 FX realized vol >9.5%",
+        "JPY cross-currency basis >-60bp",
+        "IG spreads >100bp from trough",
+        "CFTC net JPY shorts >75th percentile",
+        "BoJ rate >0.75% with narrowing differential"
+      ],
+      "current_assessment": "Underappreciated monitoring tool from generalist_02. Current indicator readings not fully specified in synthesis but compressed spring configuration is active.",
+      "limitations": [
+        "Vol threshold component partly tautological per REFUTED #2",
+        "3-of-5 threshold not formally validated",
+        "Indicator interactions and conditional dependencies not modeled"
+      ]
+    },
+    {
+      "slug": "structural_cyclical_divergence_discriminant",
+      "purpose": "Distinguishes structural from cyclical rate divergence using macroeconomic indicators to predict FX resolution magnitude and mechanism.",
+      "components": [
+        "Output gap assessment",
+        "5Y-5Y forward rates comparison",
+        "Structural current account balance analysis",
+        "Leave-one-out cross-validation (75% accuracy on 8 episodes)"
+      ],
+      "current_assessment": "Current reading: ECB-Fed = cyclical, BoJ-Fed = structural. Applied FX magnitude estimates (EUR/USD ~10-15%, USD/JPY ~20-35%) carry high uncertainty from the 75%-accurate classifier.",
+      "limitations": [
+        "6/8 correct in leave-one-out CV \u2014 both misclassifications involved policy surprises",
+        "Specific percentage ranges for FX magnitude do not survive (only directional distinction survives)",
+        "n=8 episodes is small for stable parameter estimation"
+      ]
+    },
+    {
+      "slug": "dollar_trap_monitoring_framework",
+      "purpose": "Three-indicator system for monitoring risks to dollar reserve status, providing early warning of structural dollar regime change.",
+      "components": [
+        "Term premium indicator",
+        "Gold-TIPS divergence indicator (REFUTED as amber signal \u2014 correlation erosion explained by central bank purchasing, not dollar confidence loss)",
+        "Cross-currency basis indicator"
+      ],
+      "current_assessment": "Current reading: 0/3 signals triggered. Gold-TIPS amber signal was refuted, reducing from 0 red + 1 amber to 0/3.",
+      "limitations": [
+        "Gold-TIPS component refuted as dollar regime indicator",
+        "Small number of indicators may miss novel channels of dollar stress",
+        "Framework partially damaged by refutation of one of three components"
+      ]
+    },
+    {
+      "slug": "divergence_resolution_typology",
+      "purpose": "Framework for predicting whether rate divergence resolves through FX adjustment or rate convergence, based on whether divergence involves a single outlier or multiple banks.",
+      "components": [
+        "Single-outlier classification (resolves primarily through FX adjustment, ~75%)",
+        "Multi-bank divergence classification (resolves through rate convergence, ~60%)",
+        "Fisher's exact test assessment (p=0.14 on n=14)"
+      ],
+      "current_assessment": "Framework is conceptually sound but quantitative base rates should not be used for positioning decisions. The 75% rate's CI is approximately [48%, 93%].",
+      "limitations": [
+        "Fisher's exact test p=0.14 on n=14 \u2014 not statistically significant",
+        "CI approximately [48%, 93%] barely excludes coin flip",
+        "Useful for scenario framing only, not inference"
+      ]
+    }
+  ],
+  "provenance": {
+    "quant_researcher_01": {
+      "claims_made": 10,
+      "claims_survived": 8
+    },
+    "quant_researcher_02": {
+      "claims_made": 8,
+      "claims_survived": 7
+    },
+    "risk_analyst_01": {
+      "claims_made": 8,
+      "claims_survived": 7
+    },
+    "challenger_02": {
+      "claims_made": 10,
+      "claims_survived": 7
+    },
+    "generalist_01": {
+      "claims_made": 4,
+      "claims_survived": 3
+    },
+    "generalist_02": {
+      "claims_made": 6,
+      "claims_survived": 5
+    },
+    "commodities_analyst_01": {
+      "claims_made": 8,
+      "claims_survived": 6
+    },
+    "commodities_analyst_02": {
+      "claims_made": 7,
+      "claims_survived": 5
+    }
+  },
+  "anti_knowledge": [
+    {
+      "claim": "Fed regime conditions ALL FX factor returns.",
+      "reason": "After orthogonalizing against dollar returns, value conditioning vanishes (F=1.3, p=0.27), momentum conditioning vanishes (F=0.9, p=0.41). Only carry conditioning survives (F=5.2, p=0.006). The original claim conflated Fed policy with dollar dynamics.",
+      "refuted_by": [
+        "quant_researcher_01"
+      ]
+    },
+    {
+      "claim": "The ~9.5% FX vol threshold is an actionable trading or hedging signal.",
+      "reason": "The relationship is partly tautological \u2014 carry drawdowns ARE high-vol events by definition. Out-of-sample vol-timing Sharpe improvement degrades from 0.2-0.4 to 0.05-0.15 and becomes statistically insignificant after transaction costs. By the time realized vol is at 9.5%, the initial carry drawdown has already occurred.",
+      "refuted_by": [
+        "challenger_02"
+      ]
+    },
+    {
+      "claim": "The JPY carry unwind reflexive loop has no natural circuit breaker.",
+      "reason": "August 2024 was contained (30-60% of positions liquidated, markets recovered within weeks) and the BoJ paused normalization \u2014 that IS a circuit breaker operating. Central banks routinely pause without permanent credibility damage (Fed 2019 pivot, BoE 2022 gilt intervention).",
+      "refuted_by": [
+        "risk_analyst_01",
+        "challenger_02"
+      ]
+    },
+    {
+      "claim": "Q3 carry fragility is a specific seasonal timing signal.",
+      "reason": "The 5/6 clustering is confounded by subjective episode selection (ERM 1992 is a peg break not a carry unwind; taper tantrum started in May), non-independence of events, and summer liquidity effects that are already known and separate from carry dynamics.",
+      "refuted_by": [
+        "generalist_02",
+        "challenger_02"
+      ]
+    },
+    {
+      "claim": "Gold-TIPS divergence is an amber signal for dollar regime change.",
+      "reason": "The gold-TIPS correlation erosion (r approximately -0.65 vs. pre-2022 r approximately -0.80) is explained by a known, specific factor (central bank gold purchases driven by sanctions risk) rather than the hypothesized factor (loss of confidence in dollar reserve status).",
+      "refuted_by": [
+        "challenger_02",
+        "commodities_analyst_01"
+      ]
+    },
+    {
+      "claim": "The carry trade's return profile is comparable to equity investing.",
+      "reason": "True only for unlevered academic carry factor. The actual institutional carry trade at 5-20x leverage transforms a -15% underlying move into -150% to -600% capital destruction. The comparison conflates levered and unlevered carry without separating leverage effects.",
+      "refuted_by": [
+        "challenger_02",
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "claim": "Three-way CB divergence statistically produces larger FX moves than two-way divergences (3/4 episodes).",
+      "reason": "No comparison set of two-way divergences provided. No base rate for large FX moves in any random period. The unconditional probability of outsized FX moves may be ~40-50%, making 3/4 barely distinguishable from noise at n=4.",
+      "refuted_by": [
+        "challenger_02"
+      ]
+    },
+    {
+      "claim": "The six-stage carry unwind sequence exhibits consistent regularity across 6+ episodes.",
+      "reason": "Diverse episodes shoehorned into a template: 2013 was primarily EM rates/bonds not carry; August 2024 skipped the cross-asset contagion stage; 2018 was concentrated in TRY/ARS. The credit-cycle-turning-point discriminator is more useful and better-supported.",
+      "refuted_by": [
+        "challenger_02",
+        "risk_analyst_01"
+      ]
+    },
+    {
+      "claim": "Caloric Concentration Index predicts 2-3x higher FX volatility during crop stress for calorically concentrated importers.",
+      "reason": "A claim presented with a specific multiplier (2-3x) that the author admits is untested should not carry confidence \u2014 it is a hypothesis, not a finding.",
+      "refuted_by": [
+        "commodities_analyst_01"
+      ]
+    },
+    {
+      "claim": "Relative value scorecard provides precise Sharpe ratios across asset classes for positioning.",
+      "reason": "EM LC bond Sharpe of 0.5-0.8 depends on dollar stability \u2014 the very question the analysis tries to answer. Short-duration credit Sharpe of 1.2-1.5 assumes no credit cycle turn. The ranking (G10 carry at bottom) survives as directionally valid but specific numbers are illustrative, not analytical.",
+      "refuted_by": [
+        "challenger_02"
+      ]
+    }
+  ],
+  "low_confidence": [
+    {
+      "claim": "PBOC/CNY competitive devaluation would amplify BoJ normalization into a regional FX crisis through the mechanism: BoJ normalizes \u2192 JPY strengthens \u2192 Chinese exporters gain share \u2192 PBOC allows CNY depreciation \u2192 Asian EM contagion.",
+      "source_agent": "generalist_01",
+      "needs": "Historical validation (2012-2015 Abenomics precedent actually undermines it as PBOC did not competitively devalue). PBOC response function analysis under current geopolitical conditions. More than n=1 relevant precedent."
+    },
+    {
+      "claim": "Divergence resolution follows a pattern where single-outlier episodes resolve primarily through FX adjustment (~75%) versus multi-bank divergence resolving through rate convergence (~60%).",
+      "source_agent": "quant_researcher_01",
+      "needs": "Larger sample size beyond n=14 (Fisher's exact p=0.14). Narrower confidence intervals (currently [48%, 93%] for the 75% rate). Out-of-sample validation."
+    },
+    {
+      "claim": "A structural vs. cyclical divergence discriminant using output gap, 5Y-5Y forwards, and structural current account balance achieves 75% cross-validated accuracy on 8 episodes.",
+      "source_agent": "quant_researcher_01",
+      "needs": "Larger episode count beyond n=8 for stable parameter estimation. Understanding of policy surprise misclassifications. Validation of FX magnitude estimates that propagate uncertainty from the 75%-accurate classifier."
+    },
+    {
+      "claim": "Dollar super-cycle framework has predictive value based on n=6 cycles with lengths of 7, 7, 10, 7, 9, 11 years.",
+      "source_agent": "generalist_02",
+      "needs": "Statistical test distinguishing true cyclical process from random mean-reversion or discrete policy-driven structural breaks. Resolution of current mixed signal (twin deficit extreme but relative growth still strong). CI for mean cycle length (~6.6-10.4 years) is too wide for actionable forecasting."
+    },
+    {
+      "claim": "Simultaneous unwind of FX-unhedged foreign Treasury holdings (~$8T) and domestic basis trades ($800B-$1T) could invert the flight-to-quality pattern (Treasury-FX dual fragility).",
+      "source_agent": "risk_analyst_01",
+      "needs": "Assessment of Japanese institutional Treasury allocation adjustment speed. Evaluation of Fed standing facility (repo, FIMA) effectiveness in truncating the tail. Multiple simultaneous failure probability estimation. Historical base rate beyond partial March 2020 validation."
+    },
+    {
+      "claim": "Caloric Concentration Index is a more predictive FX fragility indicator than aggregate food import ratios, with countries showing high caloric concentration experiencing 2-3x higher FX volatility during crop stress.",
+      "source_agent": "commodities_analyst_02",
+      "needs": "Cross-country empirical validation across multiple crop stress episodes. Formal testing of the 2-3x multiplier claim. Separation from confounding variables in the Egypt illustration."
+    },
+    {
+      "claim": "Gold residual ($900-1,100/oz above real-rate model) signals FX-regime fragmentation.",
+      "source_agent": "commodities_analyst_01",
+      "needs": "Formal decomposition of gold residual across central bank buying, geopolitical risk premium, Chinese/Indian retail demand substitution, and CTA momentum. Isolation of FX fragmentation signal from these confounders. The r approximately 0.80 correlation with EM central bank purchases may explain most of the residual."
+    },
+    {
+      "claim": "Biofuel mandates create a meaningful price floor that extends food inflation persistence during carry stress.",
+      "source_agent": "commodities_analyst_02",
+      "needs": "Assessment of waiver probability during acute stress (EPA granted partial RFS waivers in 2008 and 2012). Quantification of actual floor softness given repeated policy adjustments. Evidence that the floor meaningfully extends inflation beyond what would occur anyway."
+    },
+    {
+      "claim": "OPEC+ spare capacity levels interact with carry fragility by determining energy-FX shock amplitude, with a 2mb/d threshold.",
+      "source_agent": "commodities_analyst_01",
+      "needs": "Formal testing of the 2mb/d threshold. More than n=1 precedent for the three-factor conjunction (low spare capacity + crowded carry + BoJ normalization). Separation of spare capacity effect from confounding macro factors in the 2008 episode."
+    },
+    {
+      "claim": "CIP basis is an investable factor with implementable Sharpe of 0.2-0.4.",
+      "source_agent": "quant_researcher_02",
+      "needs": "Realistic friction analysis for non-bank-affiliated managers. Assessment of actual implementable Sharpe after bilateral credit, margin, and regulatory capital costs (likely 0.0-0.2). Explanation of why the basis persists precisely because it is not easily arbitrageable."
+    },
+    {
+      "claim": "The fertilizer-FX nexus is a real but second-order modifier of the first-order energy BoP channel, creating divergent fertilizer cost structures via regional gas price differentials that affect crop production costs.",
+      "source_agent": "commodities_analyst_02",
+      "needs": "More than N=1 (Morocco/Tunisia) comparison with multiple confounders controlled. Cross-country validation across frontier currencies. Quantification relative to energy channel magnitude."
+    },
+    {
+      "claim": "Seasonal crop calendar concentrates carry tail risk in predictable Jun-Aug windows suitable for hedging.",
+      "source_agent": "commodities_analyst_02",
+      "needs": "Larger sample beyond ~6-8 major crop failures in 20 years. Separation from summer liquidity reduction effects. Evidence that timing precision is sufficient for cost-effective hedging rather than just reducing carry in summer (already known)."
+    }
+  ]
+}
