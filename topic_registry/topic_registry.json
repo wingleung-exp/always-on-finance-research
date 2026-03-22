@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T11:44:18Z",
+  "last_updated": "2026-03-22T17:00:44Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -768,14 +768,17 @@
     "risk_appetite_regimes": {
       "category": "cross_asset",
       "display_name": "Risk Appetite Regime Shifts & Contagion",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 2.0,
-      "research_count": 0,
+      "last_researched": "2026-03-22T17:00:44Z",
+      "depth_level": 1,
+      "confidence_score": 7.9,
+      "research_count": 1,
       "knowledge_gaps": [
-        "Risk-on/risk-off regime identification framework",
         "Contagion velocity in modern market structure",
-        "Liquidity withdrawal cascade mechanisms"
+        "Liquidity withdrawal cascade mechanisms",
+        "Risk-on/risk-off regime identification framework",
+        "Risk-on conditions could extend 3-5 years supported by persistent fiscal impulse, rather than transitioning within the consensus 12-24 month window",
+        "MOVE-VIX divergence represents a stable new equilibrium rather than an unstable misalignment that must converge",
+        "Fed toolkit remains effective during periods of simultaneously high inflation and acute financial stress"
       ],
       "connections": [
         "volatility_regimes",
@@ -789,9 +792,19 @@
         "contagion_channels"
       ],
       "key_concepts": [
-        "risk_appetite",
+        "basis_trade_fragility",
+        "clo_dynamics",
+        "correlation_regime_shifts",
+        "fiscal_impulse_trajectory",
         "flight_to_quality",
-        "liquidity_cascade"
+        "kalecki_profit_channel",
+        "liquidity_cascade",
+        "maturity_wall_2025_2027",
+        "minsky_framework",
+        "positioning_severity",
+        "private_credit_opacity",
+        "risk_appetite",
+        "risk_appetite_regime_sequencing"
       ]
     }
   }

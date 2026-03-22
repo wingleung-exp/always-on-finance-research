@@ -1,0 +1,126 @@
+[
+  {
+    "concept_a": "fiscal_impulse_trajectory",
+    "concept_b": "risk_appetite_regime_sequencing",
+    "mechanism": "Persistent high fiscal deficits (~6-7% GDP) sustain risk-on regimes via Kalecki profit channel by maintaining corporate earnings floor; consolidation >2pp erodes income floor and accelerates regime transition toward risk-off",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Relationship is strongest when fiscal deficit is the marginal driver of corporate profits; weakens if private sector credit growth or external demand dominates fiscal impulse",
+    "originating_agents": [
+      "macro_strategist",
+      "cross_asset_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "positioning_severity",
+    "concept_b": "risk_appetite_regime_sequencing",
+    "mechanism": "Extreme positioning determines the severity and speed of regime transitions — elevated positioning converts ordinary triggers into cascades by amplifying forced selling, margin calls, and liquidity withdrawal dynamics",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Most relevant during transitions from complacent carry to stress regimes; less relevant during gradual normalization or early recovery phases",
+    "originating_agents": [
+      "cross_asset_strategist",
+      "volatility_analyst"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "maturity_wall_2025_2027",
+    "concept_b": "clo_dynamics",
+    "mechanism": "Maturity wall forces refinancing at higher coupons, stressing CLO equity tranches and potentially triggering overcollateralization test failures, which in turn force CLO deleveraging and create a negative feedback loop",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Relationship intensifies as maturities approach and base rates remain elevated; weakens significantly if rates decline 200bp+ or if maturity extensions are widely available",
+    "originating_agents": [
+      "credit_analyst"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "positioning_severity",
+    "mechanism": "Opacity in private credit masks true risk levels, enabling greater positioning buildup than observable indicators suggest, thereby amplifying eventual cascade severity when true conditions are revealed",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Directionally persistent across all regimes but magnitude impact is greatest during late-cycle complacent carry when opacity allows maximum divergence between perceived and actual positioning",
+    "originating_agents": [
+      "credit_analyst",
+      "macro_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "basis_trade_fragility",
+    "concept_b": "correlation_regime_shifts",
+    "mechanism": "Basis trade unwind forces Treasury selling at scale, disrupting the risk-free rate benchmark and propagating stress across all asset classes simultaneously, catalyzing cross-asset correlation regime shifts",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Only activates during acute stress when basis trade positions are forcibly unwound; dormant during normal market conditions. March 2020 demonstrated the transmission channel",
+    "originating_agents": [
+      "rates_strategist",
+      "volatility_analyst",
+      "cross_asset_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "kalecki_profit_channel",
+    "concept_b": "minsky_framework",
+    "mechanism": "Kalecki-sustained profits mask Minsky fragility accumulation — strong deficit-driven earnings provide cover for increasing leverage and deteriorating credit quality, delaying but ultimately amplifying the eventual Minsky moment",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Most operative when fiscal deficit is the primary profit driver; weakens when organic private sector demand growth dominates corporate earnings",
+    "originating_agents": [
+      "macro_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "clo_dynamics",
+    "concept_b": "private_credit_opacity",
+    "mechanism": "CLO structures channel credit into increasingly opaque private credit vehicles, compounding the measurement opacity problem while creating correlated exposures across ostensibly diversified institutional portfolios",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Relationship strengthens during credit expansion phases when CLO issuance is high and documentation standards loosen; weakens during credit contraction when new issuance slows",
+    "originating_agents": [
+      "credit_analyst"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "move_vix_divergence",
+    "concept_b": "correlation_regime_shifts",
+    "mechanism": "Persistent MOVE-VIX divergence may signal an unstable cross-asset volatility regime; convergence would likely coincide with and amplify a broader correlation regime shift across rates and equity markets",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Interpretation is itself regime-dependent — if structural shift, divergence is a new normal and this relationship is weak; if cyclical misalignment, convergence becomes a catalyst for correlation shift",
+    "originating_agents": [
+      "volatility_analyst",
+      "cross_asset_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "concept_a": "fed_toolkit_effectiveness",
+    "concept_b": "basis_trade_fragility",
+    "mechanism": "Fed standing repo facilities and emergency lending programs are the primary circuit breakers for basis trade fragility, but their effectiveness is untested during simultaneous high inflation, creating conditional dependency on an unproven backstop",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Relationship only becomes load-bearing during acute stress events requiring Fed intervention; irrelevant during normal market functioning when basis trade operates within risk limits",
+    "originating_agents": [
+      "rates_strategist",
+      "macro_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  }
+]

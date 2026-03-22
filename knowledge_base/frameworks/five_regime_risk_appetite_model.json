@@ -1,0 +1,28 @@
+{
+  "slug": "five_regime_risk_appetite_model",
+  "purpose": "Classifies the current risk appetite environment into one of five discrete regimes and predicts the mandatory sequence of future transitions to enable portfolio positioning and risk management",
+  "components": [
+    "Regime 1: Complacent carry — tight spreads, low vol, aggressive positioning, reach-for-yield behavior",
+    "Regime 2: Early stress recognition — selective repricing, vol uptick, dispersion increases",
+    "Regime 3: Active risk reduction — broad-based derisking, cross-asset correlation rising",
+    "Regime 4: Acute deleveraging — forced selling, liquidity withdrawal, margin spirals",
+    "Regime 5: Systemic deleveraging — market dysfunction, policy intervention required",
+    "Mandatory sequential transition rule — regimes cannot be skipped (e.g., Regime 1 cannot jump to Regime 5)"
+  ],
+  "current_assessment": "Currently in late Regime 1 (complacent carry) with positioning at elevated-to-extreme levels. Majority view expects transition to Regime 2 within 12-24 months. Challenger view holds that fiscal impulse can extend Regime 1 for 3-5 years. Fiscal impulse trajectory is the key discriminant.",
+  "limitations": [
+    "Regime boundaries are qualitative, not precisely quantifiable with hard thresholds",
+    "Does not specify trigger identity or timing, only transition sequence",
+    "Challenger thesis of extended Regime 1 via fiscal support is unresolved",
+    "Policy intervention can potentially reverse transitions, complicating the linear sequence assumption",
+    "International contagion channels may allow external shocks to skip domestic regime sequencing"
+  ],
+  "topic": "risk_appetite_regimes",
+  "created_at": "2026-03-22T17:00:44Z",
+  "last_updated": "2026-03-22T17:00:44Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

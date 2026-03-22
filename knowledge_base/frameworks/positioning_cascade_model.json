@@ -1,0 +1,26 @@
+{
+  "slug": "positioning_cascade_model",
+  "purpose": "Explains why cascade severity is determined primarily by positioning extremity rather than trigger magnitude, and provides a framework for assessing current positioning risk levels",
+  "components": [
+    "Positioning measurement across key markets: leverage ratios, concentration metrics, crowding indicators",
+    "Trigger independence principle: once positioning reaches extreme levels, any sufficient trigger produces similar cascade dynamics",
+    "Private credit opacity adjustment: observable positioning metrics systematically understate true levels due to mark-to-model and reporting lag",
+    "Basis trade as concentrated fragility node: $800B-$1T notional at 50-100x leverage in the risk-free benchmark market",
+    "Fed backstop conditionality: intervention capacity creates a floor of unknown and potentially regime-dependent strength"
+  ],
+  "current_assessment": "Current positioning reads are elevated-to-extreme across observable markets. Private credit opacity likely means true positioning is worse than indicated by observable measures. Basis trade represents the highest concentration of fragility in a systemically critical market.",
+  "limitations": [
+    "Precise positioning thresholds for cascade initiation are unknowable ex ante",
+    "Private credit opacity makes true aggregate positioning assessment inherently uncertain",
+    "Model does not predict trigger identity or timing, only severity conditional on positioning",
+    "Fed intervention capacity creates conditional floor whose strength is genuinely untested under current conditions"
+  ],
+  "topic": "risk_appetite_regimes",
+  "created_at": "2026-03-22T17:00:44Z",
+  "last_updated": "2026-03-22T17:00:44Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

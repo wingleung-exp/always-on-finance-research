@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-22T11:44:18Z",
+  "last_updated": "2026-03-22T17:00:44Z",
   "scores": {
     "macro_strategist_01": {
       "macro_frameworks": {
@@ -740,6 +740,51 @@
         "claims_survived_to_kb": 0,
         "mean_contribution": 0.5,
         "last_selected_iteration": null
+      }
+    },
+    "macro_strategist": {
+      "cross_asset": {
+        "times_selected": 1,
+        "total_claims_made": 14,
+        "claims_survived_to_kb": 10,
+        "mean_contribution": 0.714286,
+        "last_selected_iteration": "iter_0014"
+      }
+    },
+    "credit_analyst": {
+      "cross_asset": {
+        "times_selected": 1,
+        "total_claims_made": 11,
+        "claims_survived_to_kb": 8,
+        "mean_contribution": 0.727273,
+        "last_selected_iteration": "iter_0014"
+      }
+    },
+    "cross_asset_strategist": {
+      "cross_asset": {
+        "times_selected": 1,
+        "total_claims_made": 12,
+        "claims_survived_to_kb": 9,
+        "mean_contribution": 0.75,
+        "last_selected_iteration": "iter_0014"
+      }
+    },
+    "volatility_analyst": {
+      "cross_asset": {
+        "times_selected": 1,
+        "total_claims_made": 8,
+        "claims_survived_to_kb": 6,
+        "mean_contribution": 0.75,
+        "last_selected_iteration": "iter_0014"
+      }
+    },
+    "rates_strategist": {
+      "cross_asset": {
+        "times_selected": 1,
+        "total_claims_made": 7,
+        "claims_survived_to_kb": 5,
+        "mean_contribution": 0.714286,
+        "last_selected_iteration": "iter_0014"
       }
     }
   }

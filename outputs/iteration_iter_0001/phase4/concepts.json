@@ -1,0 +1,321 @@
+[
+  {
+    "slug": "risk_appetite_regime_sequencing",
+    "definition": "Risk appetite operates in 5 discrete regimes with mandatory sequential transitions. Complacent carry cannot skip directly to systemic deleveraging; intermediate regimes must be traversed in order.",
+    "confidence": 9,
+    "evidence": [
+      "Panel consensus on ordered regime transitions",
+      "Historical pattern analysis showing no regime-skip episodes",
+      "Sequenced transition rule validated across multiple market stress periods"
+    ],
+    "originating_agents": [
+      "cross_asset_strategist",
+      "macro_strategist"
+    ],
+    "open_questions": [
+      "What are the precise boundary conditions between each of the 5 regimes?",
+      "Can policy intervention reverse regime transitions or only slow them?",
+      "What is the average dwell time in each regime?"
+    ],
+    "related_concepts": [
+      "minsky_framework",
+      "positioning_severity",
+      "correlation_regime_shifts",
+      "fiscal_impulse_trajectory"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "maturity_wall_2025_2027",
+    "definition": "The 2025-2027 corporate debt maturity wall of $900B-$1.1T with 300-500bp coupon step-ups represents arithmetic certainty of increased refinancing costs. Highest conviction claim across all panel agents.",
+    "confidence": 10,
+    "evidence": [
+      "Observable debt maturity schedules totaling $900B-$1.1T",
+      "Quantified coupon step-up range of 300-500bp from current coupons",
+      "Unanimous consensus across all panel agents as highest conviction claim"
+    ],
+    "originating_agents": [
+      "credit_analyst",
+      "macro_strategist",
+      "rates_strategist",
+      "cross_asset_strategist"
+    ],
+    "open_questions": [
+      "How much can early refinancing pre-empt the wall?",
+      "What fraction of issuers can absorb the step-up without stress?",
+      "How does the maturity wall interact with potential rate cuts?"
+    ],
+    "related_concepts": [
+      "clo_dynamics",
+      "private_credit_opacity",
+      "fiscal_impulse_trajectory"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "positioning_severity",
+    "definition": "The severity of market cascades is determined more by the extremity of pre-existing positioning than by the magnitude of the triggering event. Current positioning reads across key markets are elevated-to-extreme.",
+    "confidence": 9,
+    "evidence": [
+      "Historical cascade analysis showing positioning as dominant severity factor",
+      "Current positioning indicators at elevated-to-extreme levels",
+      "Trigger independence observed across multiple historical episodes"
+    ],
+    "originating_agents": [
+      "cross_asset_strategist",
+      "volatility_analyst"
+    ],
+    "open_questions": [
+      "What specific positioning metrics best predict cascade severity?",
+      "At what threshold does positioning become self-correcting vs. self-reinforcing?",
+      "How does private credit opacity distort positioning measurement?"
+    ],
+    "related_concepts": [
+      "risk_appetite_regime_sequencing",
+      "basis_trade_fragility",
+      "correlation_regime_shifts",
+      "private_credit_opacity"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "clo_dynamics",
+    "definition": "CLO market dynamics are simultaneously extending the current risk-on environment through credit intermediation while building the mechanical conditions for an eventual sharp break. Functions as both stabilizer and fragility accumulator.",
+    "confidence": 8,
+    "evidence": [
+      "CLO structural analysis showing risk extension mechanisms",
+      "Identification of break mechanics building within CLO structures",
+      "Dual role as credit intermediator and fragility concentrator"
+    ],
+    "originating_agents": [
+      "credit_analyst",
+      "cross_asset_strategist"
+    ],
+    "open_questions": [
+      "What CLO-specific triggers would initiate the break mechanics?",
+      "How does CLO manager behavior change as underlying credit quality deteriorates?",
+      "What is the feedback loop between CLO OC tests and forced selling?"
+    ],
+    "related_concepts": [
+      "maturity_wall_2025_2027",
+      "private_credit_opacity",
+      "positioning_severity"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "correlation_regime_shifts",
+    "definition": "Shifts in cross-asset correlation regimes represent the deepest portfolio risk, as they invalidate diversification assumptions simultaneously across all asset classes. The 2022 stock-bond correlation flip provided empirical proof-of-concept.",
+    "confidence": 9,
+    "evidence": [
+      "2022 simultaneous equity-bond drawdown as empirical proof",
+      "Historical analysis of correlation regime persistence and breaks",
+      "Portfolio-level impact analysis showing diversification failure during shifts"
+    ],
+    "originating_agents": [
+      "cross_asset_strategist",
+      "volatility_analyst",
+      "macro_strategist"
+    ],
+    "open_questions": [
+      "What leading indicators best predict correlation regime shifts?",
+      "How long do new correlation regimes persist once established?",
+      "Is the current stock-bond correlation regime stable or transitional?"
+    ],
+    "related_concepts": [
+      "risk_appetite_regime_sequencing",
+      "positioning_severity",
+      "move_vix_divergence",
+      "basis_trade_fragility"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "private_credit_opacity",
+    "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain but the magnitude is uncertain, creating underappreciated systemic risk.",
+    "confidence": 8,
+    "evidence": [
+      "Structural analysis of private credit reporting incentives favoring optimism",
+      "Comparison of observable vs. estimated true underlying credit quality",
+      "Mark-to-model practices reducing reported volatility below economic reality"
+    ],
+    "originating_agents": [
+      "credit_analyst",
+      "macro_strategist"
+    ],
+    "open_questions": [
+      "What is the true magnitude of the optimism bias?",
+      "At what point does opacity itself become a trigger as credibility erodes?",
+      "How correlated are private credit exposures across ostensibly diversified portfolios?"
+    ],
+    "related_concepts": [
+      "maturity_wall_2025_2027",
+      "clo_dynamics",
+      "positioning_severity",
+      "risk_appetite_regime_sequencing"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "basis_trade_fragility",
+    "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated leveraged positioning in the risk-free rate benchmark creates conditions for acute dislocation.",
+    "confidence": 9,
+    "evidence": [
+      "Quantified notional exposure of $800B-$1T",
+      "Leverage ratios of 50-100x documented in hedge fund positioning",
+      "March 2020 basis trade unwind as operational precedent"
+    ],
+    "originating_agents": [
+      "rates_strategist",
+      "volatility_analyst",
+      "macro_strategist"
+    ],
+    "open_questions": [
+      "How effective are Fed standing repo facilities at preventing basis trade cascades?",
+      "What is the current concentration among counterparties?",
+      "Can the basis trade unwind without Treasury market dysfunction?"
+    ],
+    "related_concepts": [
+      "positioning_severity",
+      "correlation_regime_shifts",
+      "fed_toolkit_effectiveness"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "fiscal_impulse_trajectory",
+    "definition": "The trajectory of fiscal impulse is the single most important monitoring variable for risk appetite regime determination. Persistent deficits at ~6-7% GDP sustain risk-on via Kalecki profit mechanics; fiscal consolidation >2pp erodes the income floor and accelerates Minsky dynamics.",
+    "confidence": 9,
+    "evidence": [
+      "Identified as single most important monitoring variable by panel consensus",
+      "Kalecki profit equation mechanics linking fiscal deficit to corporate earnings",
+      "Bifurcated scenario analysis showing divergent regime paths based on fiscal trajectory"
+    ],
+    "originating_agents": [
+      "macro_strategist",
+      "cross_asset_strategist"
+    ],
+    "open_questions": [
+      "What is the political probability of fiscal consolidation >2pp?",
+      "How quickly does the Kalecki channel transmit fiscal changes to corporate profits?",
+      "Does deficit composition matter as much as the aggregate level?"
+    ],
+    "related_concepts": [
+      "kalecki_profit_channel",
+      "minsky_framework",
+      "risk_appetite_regime_sequencing"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "kalecki_profit_channel",
+    "definition": "The Kalecki profit equation mechanism through which government fiscal deficits directly sustain corporate sector profits. At ~6-7% GDP deficit, this channel provides a powerful floor under risk asset valuations and extends risk-on regimes.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki profit equation framework linking sectoral balances to profits",
+      "Empirical observation of profit resilience during high-deficit periods",
+      "Theoretical mechanism for fiscal-to-corporate profit transmission"
+    ],
+    "originating_agents": [
+      "macro_strategist"
+    ],
+    "open_questions": [
+      "How much of current profit levels are deficit-dependent?",
+      "Does the channel weaken as deficit composition shifts toward transfers vs. investment?",
+      "What is the lag structure between deficit changes and profit impacts?"
+    ],
+    "related_concepts": [
+      "fiscal_impulse_trajectory",
+      "risk_appetite_regime_sequencing",
+      "minsky_framework"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "move_vix_divergence",
+    "definition": "The persistent divergence between MOVE index (rates volatility) and VIX (equity volatility) is subject to unresolved disagreement: either a stable new equilibrium reflecting structural market differences, or an unstable misalignment that must eventually converge.",
+    "confidence": 5,
+    "evidence": [
+      "Observable persistent divergence between MOVE and VIX levels",
+      "Competing theoretical frameworks for interpreting the divergence",
+      "No consensus on equilibrium vs. disequilibrium interpretation"
+    ],
+    "originating_agents": [
+      "volatility_analyst",
+      "cross_asset_strategist"
+    ],
+    "open_questions": [
+      "Is the divergence a structural feature or a mispricing?",
+      "What would convergence look like — VIX rising or MOVE falling?",
+      "Does the divergence predict anything about future cross-asset volatility?"
+    ],
+    "related_concepts": [
+      "correlation_regime_shifts",
+      "basis_trade_fragility",
+      "risk_appetite_regime_sequencing"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "fed_toolkit_effectiveness",
+    "definition": "The effectiveness of Federal Reserve intervention tools during periods of simultaneously high inflation is genuinely untested in the modern framework. This creates irreducible uncertainty about crisis response capacity when the dual mandate binds.",
+    "confidence": 4,
+    "evidence": [
+      "No historical precedent for modern Fed toolkit deployment during high inflation",
+      "Theoretical tension between inflation mandate and financial stability mandate",
+      "Standing repo facility untested under inflationary stress conditions"
+    ],
+    "originating_agents": [
+      "macro_strategist",
+      "rates_strategist"
+    ],
+    "open_questions": [
+      "Can the Fed simultaneously fight inflation and provide financial stability liquidity?",
+      "Would political constraints limit Fed intervention during inflation?",
+      "Are standing facilities sufficient or would emergency programs be required?"
+    ],
+    "related_concepts": [
+      "basis_trade_fragility",
+      "fiscal_impulse_trajectory",
+      "risk_appetite_regime_sequencing"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "minsky_framework",
+    "definition": "The Minsky financial instability hypothesis applied as an analytical framework for understanding risk appetite regime transitions. Validated as a structural mapping tool for identifying fragility accumulation, but has negative expected value as a market timing signal.",
+    "confidence": 7,
+    "evidence": [
+      "Structural mapping utility validated by panel consensus",
+      "Timing signal application refuted by historical backtesting",
+      "Qualitative Minsky stages map well to observed fragility buildup patterns"
+    ],
+    "originating_agents": [
+      "macro_strategist",
+      "cross_asset_strategist"
+    ],
+    "open_questions": [
+      "Can Minsky stages be quantitatively operationalized beyond qualitative assessment?",
+      "What distinguishes the current cycle's Minsky dynamics from prior episodes?",
+      "How does the Kalecki profit channel modify standard Minsky progression?"
+    ],
+    "related_concepts": [
+      "risk_appetite_regime_sequencing",
+      "fiscal_impulse_trajectory",
+      "kalecki_profit_channel"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  }
+]

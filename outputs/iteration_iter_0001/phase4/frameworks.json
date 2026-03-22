@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "five_regime_risk_appetite_model",
+    "purpose": "Classifies the current risk appetite environment into one of five discrete regimes and predicts the mandatory sequence of future transitions to enable portfolio positioning and risk management",
+    "components": [
+      "Regime 1: Complacent carry — tight spreads, low vol, aggressive positioning, reach-for-yield behavior",
+      "Regime 2: Early stress recognition — selective repricing, vol uptick, dispersion increases",
+      "Regime 3: Active risk reduction — broad-based derisking, cross-asset correlation rising",
+      "Regime 4: Acute deleveraging — forced selling, liquidity withdrawal, margin spirals",
+      "Regime 5: Systemic deleveraging — market dysfunction, policy intervention required",
+      "Mandatory sequential transition rule — regimes cannot be skipped (e.g., Regime 1 cannot jump to Regime 5)"
+    ],
+    "current_assessment": "Currently in late Regime 1 (complacent carry) with positioning at elevated-to-extreme levels. Majority view expects transition to Regime 2 within 12-24 months. Challenger view holds that fiscal impulse can extend Regime 1 for 3-5 years. Fiscal impulse trajectory is the key discriminant.",
+    "limitations": [
+      "Regime boundaries are qualitative, not precisely quantifiable with hard thresholds",
+      "Does not specify trigger identity or timing, only transition sequence",
+      "Challenger thesis of extended Regime 1 via fiscal support is unresolved",
+      "Policy intervention can potentially reverse transitions, complicating the linear sequence assumption",
+      "International contagion channels may allow external shocks to skip domestic regime sequencing"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "minsky_kalecki_synthesis",
+    "purpose": "Integrates Minsky financial instability dynamics with Kalecki profit mechanics to explain how persistent fiscal deficits can simultaneously sustain risk-on conditions and build systemic fragility beneath the surface",
+    "components": [
+      "Kalecki profit equation: government fiscal deficit directly sustains corporate sector profits via sectoral balance identity",
+      "Minsky progression: stability breeds instability through increasing leverage, declining credit standards, and growing speculative positions",
+      "Synthesis: fiscal deficit masks Minsky fragility by sustaining surface-level profit appearance while underlying credit quality deteriorates",
+      "Bifurcation point: fiscal consolidation >2pp GDP removes the Kalecki floor, potentially accelerating Minsky dynamics as the profit illusion breaks"
+    ],
+    "current_assessment": "Fiscal deficit at ~6-7% GDP is actively sustaining risk-on via Kalecki channel while Minsky fragility accumulates beneath. The framework identifies fiscal impulse trajectory as the key variable determining which dynamic dominates. Current state is meta-stable.",
+    "limitations": [
+      "Minsky framework has negative expected value as a market timing signal despite structural mapping utility",
+      "Kalecki channel magnitude is difficult to precisely estimate — sectoral balance accounting is clean but behavioral pass-through is uncertain",
+      "Political forecasting of fiscal trajectory adds irreducible uncertainty to the framework's predictive power",
+      "Framework does not incorporate international capital flow dynamics or dollar reserve currency effects"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "slug": "positioning_cascade_model",
+    "purpose": "Explains why cascade severity is determined primarily by positioning extremity rather than trigger magnitude, and provides a framework for assessing current positioning risk levels",
+    "components": [
+      "Positioning measurement across key markets: leverage ratios, concentration metrics, crowding indicators",
+      "Trigger independence principle: once positioning reaches extreme levels, any sufficient trigger produces similar cascade dynamics",
+      "Private credit opacity adjustment: observable positioning metrics systematically understate true levels due to mark-to-model and reporting lag",
+      "Basis trade as concentrated fragility node: $800B-$1T notional at 50-100x leverage in the risk-free benchmark market",
+      "Fed backstop conditionality: intervention capacity creates a floor of unknown and potentially regime-dependent strength"
+    ],
+    "current_assessment": "Current positioning reads are elevated-to-extreme across observable markets. Private credit opacity likely means true positioning is worse than indicated by observable measures. Basis trade represents the highest concentration of fragility in a systemically critical market.",
+    "limitations": [
+      "Precise positioning thresholds for cascade initiation are unknowable ex ante",
+      "Private credit opacity makes true aggregate positioning assessment inherently uncertain",
+      "Model does not predict trigger identity or timing, only severity conditional on positioning",
+      "Fed intervention capacity creates conditional floor whose strength is genuinely untested under current conditions"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  }
+]
