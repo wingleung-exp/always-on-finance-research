@@ -1,0 +1,185 @@
+[
+  {
+    "concept_a": "aging_population_gdp_drag",
+    "concept_b": "neutral_real_rate_depression",
+    "mechanism": "Lower potential GDP growth reduces equilibrium investment demand and saving-investment balance, depressing the neutral real interest rate",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds across both NK (saving/investment) and Post-Keynesian (credit demand shortfall) frameworks; may be partially offset by fiscal expansion",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "aging_population_gdp_drag",
+    "concept_b": "dependency_ratio_fiscal_deterioration",
+    "mechanism": "Shrinking working-age population directly worsens the dependency ratio, increasing entitlement spending relative to tax base",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Near-mechanical under existing entitlement structures; policy reform could alter trajectory but politically difficult",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "immigration_policy_demographic_variable",
+    "concept_b": "aging_population_gdp_drag",
+    "mechanism": "Immigration adds working-age population, directly offsetting the labor input channel of demographic GDP drag by 0.3–0.5pp",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Depends on immigration policy regime; restrictionist trends reduce the offset",
+    "originating_agents": [
+      "macro_strategist_01",
+      "challenger_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "labor_scarcity_credit_quality_erosion",
+    "concept_b": "maturity_wall_labor_scarcity_squeeze",
+    "mechanism": "Demographic labor scarcity drives 3–5% annual labor cost inflation, compounding the refinancing cost squeeze for leveraged borrowers facing the maturity wall",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest in labor-intensive sectors (healthcare, services); timing-dependent on recession coinciding with maturity wall",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "demographics_inflation_ambiguity",
+    "concept_b": "stock_bond_correlation_regime",
+    "mechanism": "If demographics produce supply-side inflationary shocks (labor scarcity), the dominant risk shifts from demand-side to supply-side, flipping the stock-bond correlation from negative to positive",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when labor scarcity manifests as persistent wage-push inflation rather than demand deficiency",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "dependency_ratio_fiscal_deterioration",
+    "concept_b": "fiscal_demographic_term_premium",
+    "mechanism": "Demographic-driven fiscal costs create persistent government bond supply pressure, driving term premium higher as markets demand compensation for fiscal risk",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when fiscal costs are market-funded (Italy path); weakens if costs are monetized (Japan path)",
+    "originating_agents": [
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "demographic_bid_credit_spread_compression",
+    "concept_b": "labor_scarcity_credit_quality_erosion",
+    "mechanism": "Pension/insurance demand compresses credit spreads while demographics simultaneously erode credit quality, creating a divergence between market pricing and fundamental risk",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Divergence accumulates in benign periods; resolves violently in credit downturns",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "immigration_policy_demographic_variable",
+    "concept_b": "immigration_credit_creation",
+    "mechanism": "Immigration restriction directly reduces credit creation through lower housing formation and mortgage origination ($90–120B annually)",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest in economies with deep mortgage markets and high homeownership rates",
+    "originating_agents": [
+      "macro_strategist_02",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "china_demographic_reckoning",
+    "concept_b": "demographic_divergence_relative_value",
+    "mechanism": "China's accelerating demographic decline widens growth and rate differentials vs. demographically healthier economies, creating FX and equity relative value opportunities",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Modulated by policy responses (stimulus, capital controls, currency management)",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "neutral_real_rate_depression",
+    "concept_b": "pension_duration_demand_belly_cheapness",
+    "mechanism": "Lower r* environment improves pension funded status, accelerating derisking and concentrating demand at 20y–30y maturities, leaving the 7y–10y belly cheap",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest when funded status is near or above 100%; weakens if rates rise sharply and funded status overshoots",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "aging_population_gdp_drag",
+    "concept_b": "equity_returns_demographic_decline",
+    "mechanism": "Lower potential GDP growth reduces corporate revenue growth, creating a 1–2% annualized drag on equity returns, amplified at higher starting valuations",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Drag is more severe at higher starting P/E multiples; partially offset by margin expansion and buybacks",
+    "originating_agents": [
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "minsky_cycle_demographic_conditioning",
+    "concept_b": "immigration_credit_creation",
+    "mechanism": "Immigration-driven credit creation accelerates the Minsky hedge→speculative→Ponzi transition during demographic booms; absence of immigration extends balance sheet recessions",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Strongest in financialized economies with deep credit markets",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "concept_a": "retailization_liquidity_risk",
+    "concept_b": "demographic_bid_credit_spread_compression",
+    "mechanism": "Aging HNW investors in semi-liquid credit vehicles will eventually draw down, potentially triggering gate-contagion that reverses the demographic bid and reprices credit spreads",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Triggered by macro stress coinciding with demographic cohort drawdown; untested scenario",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  }
+]

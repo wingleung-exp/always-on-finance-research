@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "japanification_vs_italianification",
+    "purpose": "Determines whether the US follows a Japan path (monetization → flat curve → low term premium) or an Italy path (market-funded → steep curve → spread widening) for long-duration positioning",
+    "components": [
+      "Currency issuer status: Can the sovereign monetize demographic fiscal costs?",
+      "Private sector balance: Is the private sector a net saver (Japan) or not (Italy)?",
+      "Central bank policy regime: Yield curve control vs. market-determined rates",
+      "Immigration trajectory: Sustains credit creation (Japan path avoidance) or restricts it",
+      "Fiscal supply volume: Deficit size and issuance strategy at long end"
+    ],
+    "current_assessment": "Current US trajectory favors the Italy path (large deficits at full employment, rising term premium), but a future crisis could trigger the Japan path. This is the most consequential unresolved macro question for long-duration positioning.",
+    "limitations": [
+      "US has unique characteristics (reserve currency, deep capital markets) not fully captured by either analogue",
+      "Binary framing may miss hybrid outcomes",
+      "Immigration policy can shift the path rapidly"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "slug": "demographic_analogue_scoring",
+    "purpose": "Systematically compares economies to the Japan demographic template to assess how demographic decline may manifest in asset markets",
+    "components": [
+      "Similarity scoring by country: Germany ~65%, Korea ~45%, Italy ~40%",
+      "Key comparison dimensions: reserve currency status, immigration openness, capital market depth, policy frameworks",
+      "Sequencing pattern: growth slowdown → rate suppression → currency pressure → fiscal expansion",
+      "Starting valuation as a critical modifier of outcome severity"
+    ],
+    "current_assessment": "The sequencing pattern appears generalizable but structural differences limit direct extrapolation. Starting valuations (S&P at ~20–21x vs. DAX at ~12x) materially change expected return outcomes under the same demographic drag.",
+    "limitations": [
+      "Small sample size of demographic decline episodes",
+      "Confounding variables (QE, sovereign crises, bubbles) difficult to isolate",
+      "Cultural and institutional differences may dominate demographic similarities",
+      "The Japan analogue conflates bubble burst with demographic decline effects"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "slug": "dual_squeeze_default_model",
+    "purpose": "Models how the simultaneous maturity wall refinancing cost increase and demographic labor cost inflation push HY default rates above consensus",
+    "components": [
+      "Maturity wall: $1.5–3T in refinancing at higher spreads (SOFR+450–600 vs. original SOFR+300–400)",
+      "Labor cost inflation: 3–5% annually in labor-intensive sectors",
+      "Demand-side squeeze: shrinking peak-spending cohort (35–54) reduces revenue",
+      "Output: HY default rate 5.2–5.8% vs. consensus ~3.5% in moderate recession"
+    ],
+    "current_assessment": "The dual squeeze is genuine but timing-dependent on recession coincidence with the maturity wall peak. Many borrowers have already refinanced, partially mitigating the cost squeeze.",
+    "limitations": [
+      "Highly dependent on recession timing",
+      "Pre-emptive refinancing reduces the maturity wall impact",
+      "Sector composition of HY index has shifted, potentially invalidating historical calibrations",
+      "Does not account for extend-and-pretend dynamics"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "slug": "taylor_rule_demographic_modification",
+    "purpose": "Addresses the need to modify the Taylor Rule for demographic regimes where r* is structurally lower and the zero lower bound is hit more frequently",
+    "components": [
+      "Demographic r* adjustment: lower neutral rate in aging economies",
+      "ZLB frequency: aging economies hit ZLB more often, where fiscal multipliers are large (Christiano et al. 2011)",
+      "Immigration-disinflation nexus: immigration inflows may partially explain 'immaculate disinflation'",
+      "OLG-NK model framework for formal r* decomposition"
+    ],
+    "current_assessment": "Underexplored and policy-relevant. The tension between lower multipliers from aging population composition and higher multipliers at ZLB remains unresolved.",
+    "limitations": [
+      "Opposing signs of demographic composition effect and ZLB frequency effect",
+      "Difficult to empirically estimate modified Taylor Rule parameters",
+      "Immigration policy volatility makes r* estimation unstable"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  },
+  {
+    "slug": "sectoral_balances_demographic_lens",
+    "purpose": "Provides an alternative analytical framework using sectoral balances to understand demographic fiscal impacts without household budget constraint analogies",
+    "components": [
+      "Private sector balance shifts (Japan: −6% to +8% GDP)",
+      "Government deficit as endogenous response to private surplus desires",
+      "Currency issuer vs. currency user distinction for fiscal sustainability",
+      "Credit creation channels through immigration and housing formation"
+    ],
+    "current_assessment": "Valuable as a mental model for understanding Japan-type outcomes. The theoretical critique of applying household budget constraints to currency issuers has merit but practical relevance is debated.",
+    "limitations": [
+      "Most cited aging economies (Italy, Germany, France) are not independent currency issuers, limiting applicability",
+      "Conflates theoretical validity with practical relevance",
+      "Difficult to operationalize for trading decisions"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0001"
+  }
+]
