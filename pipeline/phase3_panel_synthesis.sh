@@ -10,10 +10,10 @@ set -euo pipefail
 #   TOPIC_CATEGORY — Topic category
 #   ITERATION_ID   — Iteration identifier
 #   LOG_FILE       — Path to log file
-#   TIMEOUT        — Synthesis timeout in seconds (default 360)
+#   (no forced timeout — uses Claude's own defaults)
 ###############################################################################
 
-TIMEOUT="${TIMEOUT:-360}"
+# No artificial timeout — let Claude run to completion
 PHASE1_DIR="${ITER_DIR}/phase1"
 PHASE2_DIR="${ITER_DIR}/phase2"
 PHASE3_DIR="${ITER_DIR}/phase3"
@@ -128,13 +128,13 @@ SYNTHESIS_INSTRUCTIONS
 # Run Claude synthesis
 # ---------------------------------------------------------------------------
 
-log "Running synthesis (timeout: ${TIMEOUT}s, prompt file: $(wc -c < "$PROMPT_FILE") bytes)"
+log "Running synthesis (prompt file: $(wc -c < "$PROMPT_FILE") bytes)"
 
-if cat "$PROMPT_FILE" | timeout "$TIMEOUT" claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$OUTPUT_FILE" 2>/dev/null; then
-    local_size="$(wc -c < "$OUTPUT_FILE")"
-    log "Panel synthesis completed successfully (${local_size} bytes)"
+if cat "$PROMPT_FILE" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$OUTPUT_FILE" 2>/dev/null; then
+    synth_size="$(wc -c < "$OUTPUT_FILE")"
+    log "Panel synthesis completed successfully (${synth_size} bytes)"
 else
-    local exit_code=$?
+    exit_code=$?
     log "Panel synthesis FAILED (exit code: ${exit_code})"
 
     cat > "$OUTPUT_FILE" << 'STUBEOF'

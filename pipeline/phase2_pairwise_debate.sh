@@ -9,10 +9,10 @@ set -euo pipefail
 #   AGENTS_JSON    — Path to selected agents JSON file
 #   TOPIC          — Topic slug
 #   LOG_FILE       — Path to log file
-#   TIMEOUT        — Per-pair timeout in seconds (default 300)
+#   (no forced timeout — uses Claude's own defaults)
 ###############################################################################
 
-TIMEOUT="${TIMEOUT:-300}"
+# No artificial timeout — let Claude run to completion
 PHASE1_DIR="${ITER_DIR}/phase1"
 PHASE2_DIR="${ITER_DIR}/phase2"
 mkdir -p "$PHASE2_DIR"
@@ -157,7 +157,7 @@ Produce your critique in EXACTLY this structure:
 INSTRUCTIONS
 
     # Run Claude
-    if cat "$prompt_file" | timeout "$TIMEOUT" claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
+    if cat "$prompt_file" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
         log "Pair ${pair_idx} debate completed successfully"
     else
         local exit_code=$?

@@ -194,16 +194,34 @@ log "--- Phase 4: Knowledge extraction ---"
 write_heartbeat "phase4_knowledge_extraction"
 start_heartbeat "phase4_knowledge_extraction"
 
-python3 "${SCRIPT_DIR}/phase4_knowledge_extraction.py" \
+if python3 "${SCRIPT_DIR}/phase4_knowledge_extraction.py" \
     --iter-dir "$ITER_DIR" \
     --topic "$TOPIC" \
     --topic-category "$TOPIC_CATEGORY" \
-    --iteration-id "$ITERATION_ID" \
-    --timeout 300
-
-stop_heartbeat
-write_heartbeat "phase4_complete"
-log "Phase 4 complete."
+    --iteration-id "$ITERATION_ID"; then
+    stop_heartbeat
+    write_heartbeat "phase4_complete"
+    log "Phase 4 complete."
+else
+    stop_heartbeat
+    log "Phase 4 FAILED (exit $?) — retrying once..."
+    write_heartbeat "phase4_retry"
+    start_heartbeat "phase4_retry"
+    if python3 "${SCRIPT_DIR}/phase4_knowledge_extraction.py" \
+        --iter-dir "$ITER_DIR" \
+        --topic "$TOPIC" \
+        --topic-category "$TOPIC_CATEGORY" \
+        --iteration-id "$ITERATION_ID"; then
+        stop_heartbeat
+        write_heartbeat "phase4_complete"
+        log "Phase 4 complete (retry succeeded)."
+    else
+        stop_heartbeat
+        log "Phase 4 FAILED on retry — skipping phases 5-6 for this iteration."
+        write_heartbeat "phase4_failed"
+        return 1 2>/dev/null || exit 1
+    fi
+fi
 
 # ---------------------------------------------------------------------------
 # 7. Phase 5 — KB Write (Python)
@@ -213,16 +231,21 @@ log "--- Phase 5: KB write ---"
 write_heartbeat "phase5_kb_write"
 start_heartbeat "phase5_kb_write"
 
-python3 "${SCRIPT_DIR}/phase5_kb_write.py" \
+if python3 "${SCRIPT_DIR}/phase5_kb_write.py" \
     --phase4-dir "${ITER_DIR}/phase4" \
     --kb-dir "$KB_DIR" \
     --iteration-id "$ITERATION_ID" \
     --topic "$TOPIC" \
-    --topic-category "$TOPIC_CATEGORY"
-
-stop_heartbeat
-write_heartbeat "phase5_complete"
-log "Phase 5 complete."
+    --topic-category "$TOPIC_CATEGORY"; then
+    stop_heartbeat
+    write_heartbeat "phase5_complete"
+    log "Phase 5 complete."
+else
+    stop_heartbeat
+    log "Phase 5 FAILED (exit $?) — skipping phase 6."
+    write_heartbeat "phase5_failed"
+    return 1 2>/dev/null || exit 1
+fi
 
 # ---------------------------------------------------------------------------
 # 8. Phase 6 — Score Update (Python)
@@ -232,16 +255,20 @@ log "--- Phase 6: Score update ---"
 write_heartbeat "phase6_score_update"
 start_heartbeat "phase6_score_update"
 
-python3 "${SCRIPT_DIR}/phase6_score_update.py" \
+if python3 "${SCRIPT_DIR}/phase6_score_update.py" \
     --phase4-dir "${ITER_DIR}/phase4" \
     --base-dir "$BASE_DIR" \
     --topic "$TOPIC" \
     --topic-category "$TOPIC_CATEGORY" \
-    --iteration-id "$ITERATION_ID"
-
-stop_heartbeat
-write_heartbeat "phase6_complete"
-log "Phase 6 complete."
+    --iteration-id "$ITERATION_ID"; then
+    stop_heartbeat
+    write_heartbeat "phase6_complete"
+    log "Phase 6 complete."
+else
+    stop_heartbeat
+    log "Phase 6 FAILED (exit $?) — continuing anyway."
+    write_heartbeat "phase6_failed"
+fi
 
 # ---------------------------------------------------------------------------
 # 9. Done
