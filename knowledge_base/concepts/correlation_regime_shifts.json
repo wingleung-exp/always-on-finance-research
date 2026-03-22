@@ -1,34 +1,52 @@
 {
   "slug": "correlation_regime_shifts",
   "definition": "Shifts in cross-asset correlation regimes represent the deepest portfolio risk, as they invalidate diversification assumptions simultaneously across all asset classes. The 2022 stock-bond correlation flip provided empirical proof-of-concept.",
-  "confidence": 9,
+  "confidence": 8.5,
   "evidence": [
     "2022 simultaneous equity-bond drawdown as empirical proof",
     "Historical analysis of correlation regime persistence and breaks",
-    "Portfolio-level impact analysis showing diversification failure during shifts"
+    "Portfolio-level impact analysis showing diversification failure during shifts",
+    "2022: SPX -25% and Bloomberg Agg -13% simultaneously — worst year for 60/40 since 1970s",
+    "VIX peaked at only ~37 in 2022 (less than half of COVID's 82) — correlation flip was the driver",
+    "Stock-bond correlation flip from -0.3 to +0.1-0.2 post-2022",
+    "Maturity-bifurcated: 2Y at -0.25 to -0.35 vs 30Y at +0.05 to +0.15",
+    "Mathematically certain for any diversified portfolio",
+    "Survived all debates uncontested"
   ],
   "originating_agents": [
     "cross_asset_strategist",
     "volatility_analyst",
-    "macro_strategist"
+    "macro_strategist",
+    "generalist_01",
+    "rates_strategist_01",
+    "macro_strategist_01",
+    "generalist_02"
   ],
   "open_questions": [
     "What leading indicators best predict correlation regime shifts?",
     "How long do new correlation regimes persist once established?",
-    "Is the current stock-bond correlation regime stable or transitional?"
+    "Is the current stock-bond correlation regime stable or transitional?",
+    "Will the positive long-end correlation persist if inflation expectations re-anchor?",
+    "How should multi-asset portfolios optimally exploit the maturity bifurcation?",
+    "Is the bifurcation stable across different macro regimes?"
   ],
   "related_concepts": [
     "risk_appetite_regime_sequencing",
     "positioning_severity",
     "move_vix_divergence",
-    "basis_trade_fragility"
+    "basis_trade_fragility",
+    "maturity_dependent_correlation_bifurcation",
+    "vix_move_correlation_regimes",
+    "yield_curve_vol_regime_dependence",
+    "cross_asset_vol_divergence"
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-22T17:00:44Z",
+  "last_updated": "2026-03-22T22:22:52Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0014"
+    "iter_0014",
+    "iter_0010"
   ]
 }

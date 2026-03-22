@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "three_regime_vol_classification",
+    "purpose": "Classifies the current cross-asset vol environment to determine positioning approach and risk management framework.",
+    "components": [
+      "Regime A (Low-vol carry): All vol measures suppressed, positive carry environment, diversification works conventionally",
+      "Regime B (Synchronized expansion): Vol measures elevated but moving together, traditional correlations hold, systematic risk dominates",
+      "Regime C (Divergent vol — current): MOVE elevated, VIX suppressed, FX vol low; driven by Kalecki dual-channel where fiscal spending supports earnings while generating issuance uncertainty"
+    ],
+    "current_assessment": "Currently in Regime C (Divergent Vol). MOVE ~100-120, VIX ~13-18, G10 FX vol ~7-9%. Historically unstable with no precedent for persistence as steady state. All three historical analogues (2006-07, 2014, 2017-18) transitioned within 6-18 months.",
+    "limitations": [
+      "Rigid at regime boundaries — transitions may not be cleanly categorized",
+      "Only three regimes may oversimplify the state space",
+      "Historical analogues have limited sample size",
+      "Does not distinguish between benign and violent resolution paths"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "kalecki_minsky_low_vol_diagnostic",
+    "purpose": "Distinguishes between genuinely stable and fragile low-vol environments that produce identical vol surfaces but have radically different risk profiles and transition probabilities.",
+    "components": [
+      "Compute: (Government Deficit/GDP) minus (Change in Private Debt/GDP)",
+      "Type A (positive value): Kalecki profit-supported — fiscal flows sustain corporate earnings, genuinely stable low vol",
+      "Type B (negative value): Minsky credit-supported — private credit expansion drives earnings and low vol, structurally fragile",
+      "Historical calibration: 2010-2013 and 2013-2017 = Type A; 2005-2007 and 2018-2019 = Type B"
+    ],
+    "current_assessment": "Current 6-7% fiscal deficit suggests Type A (profit-supported), but simultaneous growth in private credit ($1.7T+) creates mixed signals. The diagnostic may show a transitional state between pure types.",
+    "limitations": [
+      "Tested across only ~3-4 U.S. cycles",
+      "Real-time data has 2-3 month publication lag (Federal Reserve Z.1)",
+      "Boundary classification involves judgment calls",
+      "Unvalidated for non-U.S. economies with different fiscal rules",
+      "Needs formal out-of-sample testing"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vix_move_correlation_taxonomy",
+    "purpose": "Identifies the dominant macro stress source and predicts credit market behavior and portfolio correlation dynamics based on VIX-MOVE correlation regime.",
+    "components": [
+      "Regime 1 (Strong positive ~0.65): Demand shock — both vol measures elevated, credit spreads widen fastest, funding channel activated",
+      "Regime 2 (Decoupled ~0.25-0.35): Supply/inflation shock — MOVE elevated, VIX suppressed, rates-led stress",
+      "Regime 3 (Predicted — VIX up, MOVE down): Fiscal tightening plus levered private sector — early warning signal, untested",
+      "Regime 4 (Weakly positive +0.20-0.35 — current): Historically most unstable transitional regime"
+    ],
+    "current_assessment": "Currently in the weakly-positive regime (+0.20 to +0.35), historically the most unstable. Specific transition probabilities from this state are unreliable (overfit to n=4 sample). The qualitative insight that this is unstable and transitional is valuable even without precise probabilities.",
+    "limitations": [
+      "Transition probability estimates are overfit (n=4 episodes)",
+      "Credit-specific diagnostic use requires additional filters",
+      "Regime 3 prediction is entirely untested",
+      "Causal chain from macro shock type to correlation regime is clean theoretically but noisy empirically"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "move_threshold_heuristics",
+    "purpose": "Provides real-time observable regime classification for rates vol without the identification lag of formal Markov-switching models.",
+    "components": [
+      "MOVE < 80: Low rates vol regime — expectations-driven yield curve, reliable recession signals, carry strategies favorable",
+      "MOVE 80-100: Transitional — elevated uncertainty but not crisis, monitor for direction",
+      "MOVE 100-140 (current): High-floor regime — term premium contaminates curve signals, credit conditions tightening at margin, 18+ month persistence",
+      "MOVE > 140: Crisis regime — active deleveraging, curve signals dominated by risk premia"
+    ],
+    "current_assessment": "MOVE at 100-120 in the high-floor regime for 18+ months, longest since 2008-2012. Four structural drivers (BoJ normalization, Fed terminal rate ambiguity, $2T+ issuance, basis trade fragility) support continued elevation. Question is whether this is the new normal requiring model re-baselining.",
+    "limitations": [
+      "Thresholds are approximate and may need recalibration in structurally higher nominal growth world",
+      "Does not capture within-regime dynamics changed by microstructure evolution",
+      "Single-dimensional — does not incorporate cross-asset information",
+      "Cannot distinguish between different macro causes of elevated MOVE"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "credit_vol_minsky_phases",
+    "purpose": "Maps Minsky cycle phases to observable credit vol properties for regime identification and timing of credit vol repricing.",
+    "components": [
+      "Hedge phase: Credit vol is mean-reverting, spread shocks quickly absorbed, leverage moderate",
+      "Speculative phase: Credit vol becomes path-dependent, spread shocks persist longer, leverage elevated",
+      "Ponzi phase: Credit vol becomes explosive, small triggers produce outsized spread moves, leverage extreme",
+      "HY-IG spread differential thresholds: <280bp = Hedge/early Speculative; 280-350bp = late Speculative; >350-400bp = approaching Ponzi transition"
+    ],
+    "current_assessment": "Current HY-IG spread at ~280-320bp places us in late Speculative phase, below the 350-400bp threshold for serious repositioning. Supporting indicators (leverage ratios up 0.3-0.5x, coverage ratios down 0.5-1.0x, upgrade/downgrade ratio below 1.0 for five quarters) consistent with late-cycle deterioration but not uniquely identifying a regime transition.",
+    "limitations": [
+      "Similar metrics deteriorated in 2015-2016 and 2019 without producing a credit cycle turn",
+      "Claimed zero false positives across seven episodes requires independent validation",
+      "Single-source framework from credit_analyst_01",
+      "Real-time leverage data has reporting lag",
+      "Does not incorporate private credit dynamics"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vol_transmission_sequencing",
+    "purpose": "Predicts the order in which vol regime shifts propagate across asset classes to inform hedge timing and cross-asset monitoring.",
+    "components": [
+      "Standard sequence: Rates vol first, then credit vol (1-3 week lag), then equity vol (2-6 week lag), then FX vol",
+      "Conditional reliability: ~70% for fundamentally-driven credit-origin transitions; ~40-50% unconditionally",
+      "Microstructure disruption: Positioning-driven transitions can skip states entirely (Feb 2018, March 2020)",
+      "Private credit opacity disruption: May cause rates to skip credit and propagate directly to FX then equity (no historical analogue)",
+      "Monitoring: CLO arbitrage collapse as credit-first signal; October 2023 confirms rates-first propagation"
+    ],
+    "current_assessment": "Unconditional 70% reliability was refuted — honest base rate closer to 40-50%. Conditional claim for fundamentally-driven credit-origin transitions survives at moderate confidence. Current monitoring should focus on CLO arbitrage dynamics and rates-to-credit transmission for the next transition. Microstructure-driven skip risk means sequential hedge timing may fail.",
+    "limitations": [
+      "Unconditional base rate inflated by counting partial matches as matches",
+      "Timing varies significantly with shock magnitude",
+      "Private credit opacity may disrupt sequence in unprecedented ways",
+      "Microstructure-driven transitions bypass the framework entirely",
+      "Only 5 reference episodes with 2 clean breaks"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  }
+]

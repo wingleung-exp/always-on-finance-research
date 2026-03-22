@@ -1,0 +1,38 @@
+{
+  "slug": "rates_vol_directional_underpricing",
+  "definition": "Rates vol is directionally underpriced relative to macro/fiscal uncertainty through multiple channels (NK r-star uncertainty, sectoral balance unsustainability, swaption skew, 0DTE-asymmetry), but MOVE at 100-120 is already above historical averages. The base rate for buying rates vol is 50/50 across comparable episodes, and the key discriminator is whether policy shifts are surprise or telegraphed — current risks tilt toward telegraphed.",
+  "confidence": 5,
+  "evidence": [
+    "Four agents argue underpricing through different channels",
+    "Realized rates vol exceeded implied in 3 of 5 major policy uncertainty episodes",
+    "Base rate for buying rates vol is 50/50 across 6 comparable episodes",
+    "Current fiscal-monetary risks are structural and well-discussed tilting toward telegraphed",
+    "Both macro strategists self-assess at 5/10"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "credit_analyst_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Is MOVE at 100-120 high enough or not high enough?",
+    "Will the next policy shift be surprising or telegraphed?",
+    "How much of the underpricing thesis is already priced into positioning?"
+  ],
+  "related_concepts": [
+    "cross_asset_vol_divergence",
+    "surprise_telegraphed_discriminator",
+    "central_bank_reaction_function_uncertainty",
+    "qt_dual_vol_channels"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

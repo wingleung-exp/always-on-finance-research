@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T22:22:52Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -506,14 +506,19 @@
     "volatility_regimes": {
       "category": "asset_class_dynamics",
       "display_name": "Volatility Regime Analysis & Vol Surface Dynamics",
-      "last_researched": null,
-      "depth_level": 0,
-      "confidence_score": 3.0,
-      "research_count": 0,
+      "last_researched": "2026-03-22T22:22:52Z",
+      "depth_level": 1,
+      "confidence_score": 7.1,
+      "research_count": 1,
       "knowledge_gaps": [
-        "Rates vol underpricing thesis validation",
-        "VIX-MOVE correlation regime shifts",
-        "Implied vs realized vol spread under policy uncertainty"
+        "The 5y5y forward at approximately 4.5% is a threshold where it shifts from passive indicator to active financial conditions tightener",
+        "The variance risk premium is positively correlated with rate levels, invalidating VRP strategies calibrated on the 1990-2020 low-rate sample",
+        "Implied vs realized vol spread under policy uncertainty",
+        "Swaption skew currently signals asymmetric risk toward higher yields and bear-steepening term premium expansion",
+        "Credit impulse conditioned on private sector balance is a superior vol transition indicator with reduced false positive rate",
+        "CDX-VIX skew divergence is a leading indicator of credit stress episodes",
+        "The butterfly spread anomaly (2s5s10s kink at 10Y negative 15-25bp vs post-2010 average of negative 5bp) is a vol-regime artifact that will normalize violently if basis trades unwind",
+        "Rates vol underpricing thesis validation"
       ],
       "connections": [
         "rates_equity_correlation",
@@ -526,9 +531,29 @@
         "cross_asset_vol"
       ],
       "key_concepts": [
-        "volatility_regime",
+        "central_bank_reaction_function_uncertainty",
+        "clo_arbitrage_transmission",
+        "correlation_regime_shifts",
+        "credit_maturity_wall",
+        "cross_asset_vol_divergence",
+        "equity_vol_microstructure_shift",
+        "fx_vol_suppression",
         "implied_realized_spread",
-        "vol_surface"
+        "kalecki_fiscal_channel",
+        "kalecki_minsky_low_vol_taxonomy",
+        "macro_trigger_micro_amplification",
+        "maturity_dependent_correlation_bifurcation",
+        "private_credit_hidden_vol",
+        "qt_dual_vol_channels",
+        "regime_switching_model_limitations",
+        "regime_transition_skip_risk",
+        "surprise_telegraphed_discriminator",
+        "vix_move_correlation_regimes",
+        "vol_distribution_shape_change",
+        "vol_endogeneity",
+        "vol_surface",
+        "volatility_regime",
+        "yield_curve_vol_regime_dependence"
       ]
     },
     "deglobalization": {

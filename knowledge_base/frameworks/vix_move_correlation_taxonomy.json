@@ -1,0 +1,25 @@
+{
+  "slug": "vix_move_correlation_taxonomy",
+  "purpose": "Identifies the dominant macro stress source and predicts credit market behavior and portfolio correlation dynamics based on VIX-MOVE correlation regime.",
+  "components": [
+    "Regime 1 (Strong positive ~0.65): Demand shock — both vol measures elevated, credit spreads widen fastest, funding channel activated",
+    "Regime 2 (Decoupled ~0.25-0.35): Supply/inflation shock — MOVE elevated, VIX suppressed, rates-led stress",
+    "Regime 3 (Predicted — VIX up, MOVE down): Fiscal tightening plus levered private sector — early warning signal, untested",
+    "Regime 4 (Weakly positive +0.20-0.35 — current): Historically most unstable transitional regime"
+  ],
+  "current_assessment": "Currently in the weakly-positive regime (+0.20 to +0.35), historically the most unstable. Specific transition probabilities from this state are unreliable (overfit to n=4 sample). The qualitative insight that this is unstable and transitional is valuable even without precise probabilities.",
+  "limitations": [
+    "Transition probability estimates are overfit (n=4 episodes)",
+    "Credit-specific diagnostic use requires additional filters",
+    "Regime 3 prediction is entirely untested",
+    "Causal chain from macro shock type to correlation regime is clean theoretically but noisy empirically"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

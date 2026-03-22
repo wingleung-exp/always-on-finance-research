@@ -1,0 +1,20 @@
+{
+  "concept_a": "clo_arbitrage_transmission",
+  "concept_b": "credit_maturity_wall",
+  "mechanism": "When CLO AAA spreads gap wider and arbitrage collapses, the marginal bid for 65-70% of leveraged loan issuance disappears, accelerating maturity wall impact by removing the primary refinancing channel for sub-IG borrowers. Conversely, maturity wall stress increases credit risk in CLO portfolios, potentially widening AAA spreads.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Activates when AAA tranche spreads move from SOFR+140-170 to SOFR+200+. In benign credit markets CLO formation absorbs maturity wall refinancing. The feedback loop accelerates in stress.",
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

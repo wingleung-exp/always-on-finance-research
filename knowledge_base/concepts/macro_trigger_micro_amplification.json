@@ -1,0 +1,39 @@
+{
+  "slug": "macro_trigger_micro_amplification",
+  "definition": "Volatility regime transitions follow a 'macro trigger, micro amplification' pattern where macro shocks initiate transitions and the ~$500B-$1.5T short-vol complex guarantees amplification through the financial accelerator mechanism (external finance premium convex in leverage) and microstructure channels (gamma hedging, VaR deleveraging, passive rebalancing).",
+  "confidence": 8,
+  "evidence": [
+    "Financial accelerator mechanism (Christiano-Motto-Rostagno 2014, Adrian and Shin 2014) is 'beyond serious dispute'",
+    "External finance premium is convex in leverage — amplification activates when intermediary balance sheets are stretched",
+    "Systematic short-vol strategies classified as Minsky Ponzi units whose forced liquidation sharpens transitions",
+    "Volmageddon (Feb 2018) provides small-scale proof of concept",
+    "Pair_2 debate: combined case that next transition will be amplified by short-vol complex rated 'persuasive'"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "challenger_01",
+    "generalist_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What is the magnitude of amplification relative to the underlying trigger?",
+    "AUM estimates for the short-vol complex span a 3x range ($500B-$1.5T) — what is the true figure?",
+    "Have dealer risk management improvements since 2018 reduced amplification potential?"
+  ],
+  "related_concepts": [
+    "equity_vol_microstructure_shift",
+    "vol_endogeneity",
+    "regime_transition_skip_risk",
+    "vol_distribution_shape_change",
+    "private_credit_hidden_vol"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

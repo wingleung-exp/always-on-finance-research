@@ -1,0 +1,19 @@
+{
+  "concept_a": "yield_curve_vol_regime_dependence",
+  "concept_b": "cross_asset_vol_divergence",
+  "mechanism": "In the current high-MOVE regime, term premium noise contaminates yield curve signals making traditional indicators unreliable. The divergence itself signals a regime where term premium dominates expectations in the long end, requiring recalibration of macro signals derived from the curve.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Yield curve informational degradation is specific to high-MOVE regimes (>95-100). In low-MOVE regimes (<80) expectations dominate and curve signals are reliable. The relationship is categorical rather than continuous.",
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "vvix_vix_fragility_indicator",
+  "definition": "The VVIX/VIX ratio is a monitoring tool for regime fragility (elevated at ~9-10x vs. normal 5-7x before Feb 2018, with ~2-week lead before Q4 2018, and elevated in late January 2020), capturing hedging demand from sophisticated investors anticipating regime transitions. However, the false positive rate is completely uncharacterized, limiting standalone value.",
+  "confidence": 5,
+  "evidence": [
+    "VVIX/VIX elevated before Feb 2018 (ratio ~9-10x vs. normal 5-7x)",
+    "Approximately 2-week lead before Q4 2018",
+    "Elevated in late January 2020",
+    "Mechanism theoretically sound — captures sophisticated hedging demand"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What is the false positive rate?",
+    "If elevated 30% of time but transitions occur 5% of time how useful is it?",
+    "Is it better as component of composite indicator than standalone signal?",
+    "What is the FX equivalent threshold (8.5-10.5% realized G10 FX vol transition zone)?"
+  ],
+  "related_concepts": [
+    "equity_vol_microstructure_shift",
+    "regime_switching_model_limitations"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

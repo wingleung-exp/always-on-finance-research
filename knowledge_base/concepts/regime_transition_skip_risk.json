@@ -1,0 +1,34 @@
+{
+  "slug": "regime_transition_skip_risk",
+  "definition": "Volatility regime transitions can skip intermediate states when triggered by microstructure-driven events (positioning unwind, gamma flip) rather than fundamental deterioration. Fundamentally-driven transitions tend to be sequential providing time to adjust; microstructure-driven transitions (Feb 2018, March 2020, October 2023) can be near-instantaneous, eliminating the time to adjust assumed by sequential models.",
+  "confidence": 7,
+  "evidence": [
+    "Feb 2018 Volmageddon: near-instantaneous vol regime transition",
+    "March 2020: rapid positioning-driven transition",
+    "October 2023: near-instantaneous transition",
+    "Challenger_01 wins clearly in pair_3 debate against sequential assumption",
+    "Distinction between fundamental vs microstructure triggers is the productive framing"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can the trigger type (fundamental vs microstructure) be identified in real time?",
+    "How does hedge timing change if sequential models are unreliable?",
+    "Are conditions for skip-risk increasing due to growing microstructure dominance?"
+  ],
+  "related_concepts": [
+    "equity_vol_microstructure_shift",
+    "macro_trigger_micro_amplification",
+    "vol_distribution_shape_change"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

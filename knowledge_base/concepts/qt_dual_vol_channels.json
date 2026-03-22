@@ -1,0 +1,34 @@
+{
+  "slug": "qt_dual_vol_channels",
+  "definition": "Quantitative tightening operates through two distinct volatility channels that are asymmetric to QE unwind: reserve scarcity (creating discontinuous jump risk at unknown thresholds, demonstrated by September 2019 repo spike and March 2023 banking stress) and duration extraction (repricing term premium upward as the central bank reduces its bond holdings).",
+  "confidence": 7,
+  "evidence": [
+    "September 2019 repo spike: reserve scarcity threshold breach",
+    "March 2023 banking stress: reserve scarcity channel activation",
+    "Duration extraction channel reprices term premium",
+    "Asymmetric to QE unwind — not simply the reverse process",
+    "Precise actionable and well-supported by historical episodes"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Where are the current reserve scarcity thresholds?",
+    "How does the interaction between the two channels compound?",
+    "Is the Fed monitoring the right indicators for threshold breach?",
+    "How does the Treasury General Account balance affect the threshold?"
+  ],
+  "related_concepts": [
+    "central_bank_reaction_function_uncertainty",
+    "rates_vol_directional_underpricing",
+    "cross_asset_vol_divergence"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

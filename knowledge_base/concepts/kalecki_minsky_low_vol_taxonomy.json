@@ -1,0 +1,33 @@
+{
+  "slug": "kalecki_minsky_low_vol_taxonomy",
+  "definition": "Two fundamentally different low-vol environments exist — Type A (Kalecki profit-supported, genuinely stable) and Type B (Minsky credit-supported, fragile) — both producing identical vol surfaces but radically different fragility profiles. Diagnostic: (Government Deficit/GDP) minus (Change in Private Debt/GDP); positive = Type A, negative = Type B. Historical mapping: 2010-2013 and 2013-2017 = Type A; 2005-2007 and 2018-2019 = Type B.",
+  "confidence": 6,
+  "evidence": [
+    "Diagnostic computable from available Federal Reserve Z.1 data",
+    "Historical mapping covers four periods across two types",
+    "Pair_2 debate rated this as single most valuable contribution",
+    "Both types produce identical vol surfaces but radically different fragility profiles"
+  ],
+  "originating_agents": [
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Tested across only ~3-4 U.S. cycles — needs out-of-sample validation",
+    "Boundary classification involves judgment calls",
+    "Real-time private sector balance data has 2-3 month publication lag",
+    "Does the framework apply to non-U.S. economies where fiscal rules differ?"
+  ],
+  "related_concepts": [
+    "kalecki_fiscal_channel",
+    "vol_endogeneity",
+    "macro_trigger_micro_amplification"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

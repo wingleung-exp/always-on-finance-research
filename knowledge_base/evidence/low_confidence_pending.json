@@ -264,5 +264,47 @@
     "needs": "Rigorous backtesting with transaction costs and proper controls for concurrent macro drivers. Only n=5-6 strong ENSO events since 1990 is far too small after controlling for 1997-98 Asian crisis, 2015-16 China fears, etc. Currently conjecture, not finding.",
     "topic": "fx_rates_divergence",
     "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "CDX-VIX skew divergence is a leading indicator of credit stress episodes",
+    "source_agent": "credit_analyst_01",
+    "needs": "Rigorous backtesting against false positives across full history; only 2-of-3 genuine confirmations with one arguably coincidental (Q4 2019 preceding COVID); no other agent addresses this metric; formal signal-to-noise ratio characterization; the mechanism (credit practitioners buy downside protection earlier due to primary market deterioration visibility) is plausible but the signal is unvalidated",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "Credit impulse conditioned on private sector balance is a superior vol transition indicator with reduced false positive rate",
+    "source_agent": "macro_strategist_02",
+    "needs": "Formal comparison against standard approaches claimed to be inferior; validated shadow sectoral balance proxy for real-time measurement; larger qualifying event sample (n=8-12 globally); out-of-sample testing; the conditional probability estimates (~25-35% vs base rate ~12-18%) are rough extrapolations requiring formal validation",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "The variance risk premium is positively correlated with rate levels, invalidating VRP strategies calibrated on the 1990-2020 low-rate sample",
+    "source_agent": "challenger_01",
+    "needs": "Empirical validation with pre-1990 data when rates were structurally higher; engagement and corroboration from other agents; testing whether higher funding costs for delta-hedging and regulatory demand for convexity (Basel III/IV) account for the correlation; high impact if confirmed but currently low evidence",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "Swaption skew currently signals asymmetric risk toward higher yields and bear-steepening term premium expansion",
+    "source_agent": "rates_strategist_01",
+    "needs": "Corroboration from other agents; validation that swaption skew has predictive power for realized moves rather than reflecting current positioning; 3M x 10Y payer swaptions at 2-4 vol point premium to receivers is observable but not validated as regime transition indicator; pair_3 debate notes limited predictive power",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "The 5y5y forward at approximately 4.5% is a threshold where it shifts from passive indicator to active financial conditions tightener",
+    "source_agent": "rates_strategist_01",
+    "needs": "Calibration for structurally higher nominal growth world where 5% may be the relevant threshold; regime-dependence testing; corroboration from other agents; examination of whether the correlation with wider IG spreads and compressed equity multiples holds outside post-GFC sample; single-agent low self-assessed confidence",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "The butterfly spread anomaly (2s5s10s kink at 10Y negative 15-25bp vs post-2010 average of negative 5bp) is a vol-regime artifact that will normalize violently if basis trades unwind",
+    "source_agent": "rates_strategist_01",
+    "needs": "Basis trade unwind trigger threshold depends on unobservable leverage ratios and repo conditions; corroboration from other agents addressing curve microstructure at this granularity; decomposition into supply concentration, basis trade demand, and foreign CB rotation is specific and testable but single-source; timing indicators for basis trade stress",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
   }
 ]

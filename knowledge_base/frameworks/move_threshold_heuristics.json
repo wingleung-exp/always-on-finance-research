@@ -1,0 +1,25 @@
+{
+  "slug": "move_threshold_heuristics",
+  "purpose": "Provides real-time observable regime classification for rates vol without the identification lag of formal Markov-switching models.",
+  "components": [
+    "MOVE < 80: Low rates vol regime — expectations-driven yield curve, reliable recession signals, carry strategies favorable",
+    "MOVE 80-100: Transitional — elevated uncertainty but not crisis, monitor for direction",
+    "MOVE 100-140 (current): High-floor regime — term premium contaminates curve signals, credit conditions tightening at margin, 18+ month persistence",
+    "MOVE > 140: Crisis regime — active deleveraging, curve signals dominated by risk premia"
+  ],
+  "current_assessment": "MOVE at 100-120 in the high-floor regime for 18+ months, longest since 2008-2012. Four structural drivers (BoJ normalization, Fed terminal rate ambiguity, $2T+ issuance, basis trade fragility) support continued elevation. Question is whether this is the new normal requiring model re-baselining.",
+  "limitations": [
+    "Thresholds are approximate and may need recalibration in structurally higher nominal growth world",
+    "Does not capture within-regime dynamics changed by microstructure evolution",
+    "Single-dimensional — does not incorporate cross-asset information",
+    "Cannot distinguish between different macro causes of elevated MOVE"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

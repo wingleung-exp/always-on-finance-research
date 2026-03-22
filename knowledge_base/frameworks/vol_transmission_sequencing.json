@@ -1,0 +1,27 @@
+{
+  "slug": "vol_transmission_sequencing",
+  "purpose": "Predicts the order in which vol regime shifts propagate across asset classes to inform hedge timing and cross-asset monitoring.",
+  "components": [
+    "Standard sequence: Rates vol first, then credit vol (1-3 week lag), then equity vol (2-6 week lag), then FX vol",
+    "Conditional reliability: ~70% for fundamentally-driven credit-origin transitions; ~40-50% unconditionally",
+    "Microstructure disruption: Positioning-driven transitions can skip states entirely (Feb 2018, March 2020)",
+    "Private credit opacity disruption: May cause rates to skip credit and propagate directly to FX then equity (no historical analogue)",
+    "Monitoring: CLO arbitrage collapse as credit-first signal; October 2023 confirms rates-first propagation"
+  ],
+  "current_assessment": "Unconditional 70% reliability was refuted — honest base rate closer to 40-50%. Conditional claim for fundamentally-driven credit-origin transitions survives at moderate confidence. Current monitoring should focus on CLO arbitrage dynamics and rates-to-credit transmission for the next transition. Microstructure-driven skip risk means sequential hedge timing may fail.",
+  "limitations": [
+    "Unconditional base rate inflated by counting partial matches as matches",
+    "Timing varies significantly with shock magnitude",
+    "Private credit opacity may disrupt sequence in unprecedented ways",
+    "Microstructure-driven transitions bypass the framework entirely",
+    "Only 5 reference episodes with 2 clean breaks"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

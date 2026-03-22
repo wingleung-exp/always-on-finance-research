@@ -1,0 +1,36 @@
+{
+  "slug": "private_credit_hidden_vol",
+  "definition": "Private credit ($1.7T+) with appraisal-based NAV returns (autocorrelation 0.5-0.7) constitutes a hidden vol reservoir where true economic vol is 2-3x reported. No traded vol surface captures this risk. Semi-liquid vehicles ($300B+ in interval funds, non-traded BDCs, perpetual structures) offering quarterly 5% NAV redemptions against illiquid portfolios present a liquidity mismatch vulnerability structurally identical to UK open-ended property funds (2022).",
+  "confidence": 7,
+  "evidence": [
+    "Appraisal-based NAV returns exhibit autocorrelation of 0.5-0.7",
+    "Unsmoothing reveals economic vol is 2-3x reported",
+    "Semi-liquid vehicles offer quarterly 5% NAV redemptions against illiquid portfolios",
+    "Structurally identical to UK open-ended property funds (2022)",
+    "Identified as most important novel contribution sitting outside traditional vol surface analysis",
+    "Correctly framed as measurement gap not mispricing"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Are manager liquidity sleeves (20-30% in liquid assets) sufficient?",
+    "What trigger duration of sustained high-vol credit regime activates the vulnerability?",
+    "What is the aggregate liquidity mismatch — not precisely tracked?",
+    "Could private credit opacity disrupt standard vol transmission sequencing?"
+  ],
+  "related_concepts": [
+    "credit_maturity_wall",
+    "clo_arbitrage_transmission",
+    "macro_trigger_micro_amplification"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

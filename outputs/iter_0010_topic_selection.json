@@ -1,0 +1,66 @@
+{
+  "selected_topic": "volatility_regimes",
+  "display_name": "Volatility Regime Analysis & Vol Surface Dynamics",
+  "category": "asset_class_dynamics",
+  "mode": "overview",
+  "depth_level": 0,
+  "confidence_score": 3.0,
+  "score": 84.0,
+  "focus": {
+    "knowledge_gaps": [
+      "Rates vol underpricing thesis validation",
+      "VIX-MOVE correlation regime shifts",
+      "Implied vs realized vol spread under policy uncertainty"
+    ],
+    "connections_to_explore": [
+      "rates_equity_correlation",
+      "monetary_policy",
+      "risk_appetite_regimes"
+    ],
+    "instruction": "Build foundational understanding: define core concepts, establish theoretical frameworks, identify key empirical patterns, and map connections to related topics."
+  },
+  "related_topics": {
+    "rates_equity_correlation": {
+      "display_name": "Stock-Bond Correlation Regime Analysis",
+      "confidence_score": 5.5,
+      "depth_level": 2
+    },
+    "monetary_policy": {
+      "display_name": "Monetary Policy Transmission & Central Bank Strategy",
+      "confidence_score": 5.5,
+      "depth_level": 2
+    },
+    "risk_appetite_regimes": {
+      "display_name": "Risk Appetite Regime Shifts & Contagion",
+      "confidence_score": 7.9,
+      "depth_level": 1
+    }
+  },
+  "runners_up": [
+    {
+      "topic": "fiscal_policy",
+      "score": 65.94
+    },
+    {
+      "topic": "fx_regimes",
+      "score": 63.94
+    },
+    {
+      "topic": "central_bank_balance_sheets",
+      "score": 63.44
+    },
+    {
+      "topic": "ai_and_tech_disruption",
+      "score": 62.44
+    },
+    {
+      "topic": "fiscal_dominance",
+      "score": 60.44
+    }
+  ],
+  "key_concepts": [
+    "volatility_regime",
+    "implied_realized_spread",
+    "vol_surface"
+  ]
+}

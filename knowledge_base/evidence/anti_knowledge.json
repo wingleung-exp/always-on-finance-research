@@ -433,5 +433,60 @@
     ],
     "topic": "fx_rates_divergence",
     "iteration_id": "iter_0009"
+  },
+  {
+    "claim": "Government debt-to-GDP ratios are irrelevant to rates vol for currency-issuing sovereigns",
+    "reason": "UK September 2022 directly contradicts: the Truss mini-budget (fiscal announcement by a currency-issuing sovereign with floating FX and domestic-currency debt) spiked gilt vol to crisis levels. Japan is a special case (persistent private surplus, current account surplus, deflationary demographics, domestic JGB ownership) that does not generalize. The claim correctly notes default risk is near-zero for currency issuers but conflates this with the stronger claim that fiscal trajectory does not affect inflation expectations and term premia — which are the actual rates vol drivers. The partial insight (distinguish currency issuers from users for default risk) survives; the headline claim does not.",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "VIX-MOVE divergence will resolve at 8/10 confidence via equity vol repricing higher",
+    "reason": "generalist_02 50/50 base rate across 6 episodes and surprise-vs-telegraphed discriminator contradicts high confidence. The 4/5 base rate from a 5-episode sample contains effectively n=2 independent observations due to clustering. Structural equity vol suppressors (0DTE, autocallables, covered call ETFs) may sustain VIX compression in ways historical base rates cannot capture. The directional claim (divergence will eventually resolve) survives at moderate confidence; the mechanism (VIX catches up rather than MOVE normalizing) and confidence level (8/10) do not.",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "We are currently entering the Minsky transition in credit vol",
+    "reason": "credit_analyst_01 own framework requires HY-IG spread differential at 350-400bp for serious repositioning but current levels are ~280-320bp — below the agent's own threshold. Supporting metrics (leverage ratios, coverage ratios) deteriorated similarly in 2015-2016 and 2019 without producing a credit cycle turn. The agent's own signal contradicts the agent's own conclusion. The structural deterioration observation survives; the timing call is premature.",
+    "refuted_by": [
+      "credit_analyst_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "75% conditional probability of VIX-MOVE correlation transitioning to strong positive via risk event",
+    "reason": "N=4 episodes, k=3 successes. Bayesian 95% credible interval with uniform prior spans ~30-95%. The headline 75% suggests precision that does not exist. The qualitative insight — weakly-positive VIX-MOVE correlation is an unstable transitional state — survives and is valuable for monitoring. The specific probability does not survive as a tradeable parameter.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "MOVE underprices credit volatility embedded in private credit",
+    "reason": "MOVE measures Treasury options-implied vol — it does not claim to measure private credit vol. Underpricing implies mispricing; the actual issue is a measurement scope limitation. Correct surviving formulation: no traded vol surface captures the credit risk embedded in the $1.7T+ private credit universe, and true economic volatility is 2-3x reported NAV-based figures. This is a systemic risk observation not a vol surface mispricing.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "claim": "Vol transmission sequencing at 70% unconditional reliability",
+    "reason": "Of 5 episodes, 2 break the pattern cleanly (2015-16 FX-led, 2020 equity-led), 1 partially matches (2011). Honest unconditional base rate closer to 40-50%. The conditional claim (sequencing holds ~70% for fundamentally-driven credit-origin transitions) partially survives at moderate confidence. The unconditional 70% figure is inflated by counting partial matches as matches.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
   }
 ]

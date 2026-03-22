@@ -1,0 +1,33 @@
+{
+  "slug": "yield_curve_vol_regime_dependence",
+  "definition": "The yield curve's informational content is vol-regime-dependent: in low-vol regimes it reflects expectations (reliable recession signal); in high-vol regimes term premium noise contaminates the signal. The 2019 inversion (expectations-driven, MOVE low, correctly predicted slowdown) vs. 2022-23 inversion (term premium compressed by 80-120bp, MOVE high, did not produce recession on schedule) is a clean natural experiment.",
+  "confidence": 7,
+  "evidence": [
+    "2019 inversion: expectations-driven MOVE low correctly predicted slowdown",
+    "2022-23 inversion: term premium compressed by 80-120bp MOVE high did not produce recession on schedule",
+    "Term premium explains 50-65% of 10Y variation in ACM models when regressed on MOVE",
+    "Pair_3 debate rated this as strongest single analytical point in either paper"
+  ],
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Circularity risk — both MOVE and term premium models draw from yield curve inputs",
+    "In the current high-floor MOVE regime how much should curve signals be discounted?",
+    "Can the expectations vs term premium decomposition be done in real time with sufficient precision?"
+  ],
+  "related_concepts": [
+    "correlation_regime_shifts",
+    "central_bank_reaction_function_uncertainty",
+    "maturity_dependent_correlation_bifurcation",
+    "cross_asset_vol_divergence"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

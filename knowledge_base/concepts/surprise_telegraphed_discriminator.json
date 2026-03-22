@@ -1,0 +1,33 @@
+{
+  "slug": "surprise_telegraphed_discriminator",
+  "definition": "Whether a policy uncertainty episode involves surprise or telegraphed shifts is the key variable determining whether buying rates vol pays off. In episodes where realized rates vol exceeded implied (QE1: -2.3 pts, taper tantrum: -1.1 pts, COVID: -4.1 pts), the shift was a surprise. Current fiscal-monetary risks are structural and well-discussed, tilting toward telegraphed and reducing expected long rates vol payoff.",
+  "confidence": 6,
+  "evidence": [
+    "QE1 implied-realized spread -2.3 pts (surprise)",
+    "Taper tantrum -1.1 pts (surprise)",
+    "COVID -4.1 pts (surprise)",
+    "Base rate for buying rates vol is 50/50 across 6 comparable episodes overall",
+    "Pair_0 debate rated this as sharpest analytical contribution",
+    "Transforms vague underpricing thesis into testable proposition"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can telegraphed risks still produce surprises in timing or magnitude?",
+    "Is the current fiscal situation truly telegraphed or are markets underestimating tail scenarios?",
+    "How to operationalize the surprise/telegraphed classification in real time?"
+  ],
+  "related_concepts": [
+    "rates_vol_directional_underpricing",
+    "central_bank_reaction_function_uncertainty"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

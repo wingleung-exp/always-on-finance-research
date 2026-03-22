@@ -1,0 +1,32 @@
+{
+  "slug": "vol_distribution_shape_change",
+  "definition": "The vol-selling complex has not compressed vol levels but changed the distribution — thinner body (lower day-to-day vol) with fatter tails (larger gap moves when dealer hedging flips). The frequency of >3-sigma moves has increased relative to trailing realized vol even as average vol declined. This reframes how to interpret 'low vol' readings.",
+  "confidence": 8,
+  "evidence": [
+    "Increased frequency of >3-sigma moves relative to trailing realized vol with declining average vol",
+    "Gamma-pinning mechanism creates low daily vol but cliff-risk when positioning flips",
+    "Survived all debates uncontested",
+    "Structural compression creates fragility not stability"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "How should risk models be recalibrated to account for the changed distribution?",
+    "What is the empirical tail thickness relative to pre-0DTE era?",
+    "Does this distribution change affect options pricing models systematically?"
+  ],
+  "related_concepts": [
+    "equity_vol_microstructure_shift",
+    "macro_trigger_micro_amplification",
+    "regime_transition_skip_risk"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

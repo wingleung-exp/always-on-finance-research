@@ -1,35 +1,48 @@
 {
   "slug": "fx_vol_suppression",
   "definition": "FX implied vol is anomalously suppressed relative to rates vol. MOVE Index at ~100-120 (~65th percentile post-GFC) vs. G10 FX implied vol at ~7-9% (~25th percentile), a ~1.8 standard deviation divergence from the MOVE-FX vol regression relationship (rank correlation +0.72 over 2010-2024). The vol hierarchy is inverted: rates > equity > credit > FX, occurring in ~12% of post-2010 months.",
-  "confidence": 7.5,
+  "confidence": 6.75,
   "evidence": [
     "MOVE-FX vol rank correlation +0.72 over 2010-2024",
     "1.8 sigma divergence from regression relationship",
     "Vol hierarchy inversion occurred in ~12% of post-2010 months",
-    "4/5 historical resolutions via FX vol repricing higher"
+    "4/5 historical resolutions via FX vol repricing higher",
+    "MOVE-FX vol divergence at ~1.8 standard deviations",
+    "80% base rate (4/5 episodes) for resolution via FX vol repricing higher",
+    "Carry positioning reflexively suppresses FX vol",
+    "FX is last asset class to price stress due to bilateral haven dynamics",
+    "Bayesian credible interval ~40-95% around the 80% figure"
   ],
   "originating_agents": [
     "generalist_01",
     "generalist_02",
     "risk_analyst_01",
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "challenger_01"
   ],
   "open_questions": [
     "Whether entire G10 FX surface is mispriced or only USD/JPY-proximate pairs",
     "4/5 resolution episodes are non-independent with clustering reducing effective n",
-    "2017 exception dismissal may involve circular reasoning"
+    "2017 exception dismissal may involve circular reasoning",
+    "Is the buy cheap FX vol trade now too crowded?",
+    "Is the effective sample truly n=2 independent observations?",
+    "Does CFTC positioning showing increased long gamma indicate crowding risk?",
+    "What triggers the FX vol repricing — carry unwind or macro shock?"
   ],
   "related_concepts": [
     "fx_gamma_dominance",
     "vol_of_vol_transition_zone",
-    "regime_conditional_rate_fx_relationship"
+    "regime_conditional_rate_fx_relationship",
+    "cross_asset_vol_divergence",
+    "rates_vol_directional_underpricing"
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-22T21:50:58Z",
-  "last_updated": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T22:22:52Z",
   "originating_iteration": "iter_0009",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0009"
+    "iter_0009",
+    "iter_0010"
   ]
 }

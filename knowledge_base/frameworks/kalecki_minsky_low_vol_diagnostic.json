@@ -1,0 +1,26 @@
+{
+  "slug": "kalecki_minsky_low_vol_diagnostic",
+  "purpose": "Distinguishes between genuinely stable and fragile low-vol environments that produce identical vol surfaces but have radically different risk profiles and transition probabilities.",
+  "components": [
+    "Compute: (Government Deficit/GDP) minus (Change in Private Debt/GDP)",
+    "Type A (positive value): Kalecki profit-supported — fiscal flows sustain corporate earnings, genuinely stable low vol",
+    "Type B (negative value): Minsky credit-supported — private credit expansion drives earnings and low vol, structurally fragile",
+    "Historical calibration: 2010-2013 and 2013-2017 = Type A; 2005-2007 and 2018-2019 = Type B"
+  ],
+  "current_assessment": "Current 6-7% fiscal deficit suggests Type A (profit-supported), but simultaneous growth in private credit ($1.7T+) creates mixed signals. The diagnostic may show a transitional state between pure types.",
+  "limitations": [
+    "Tested across only ~3-4 U.S. cycles",
+    "Real-time data has 2-3 month publication lag (Federal Reserve Z.1)",
+    "Boundary classification involves judgment calls",
+    "Unvalidated for non-U.S. economies with different fiscal rules",
+    "Needs formal out-of-sample testing"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

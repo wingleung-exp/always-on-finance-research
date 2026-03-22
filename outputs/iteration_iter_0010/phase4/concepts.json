@@ -1,0 +1,654 @@
+[
+  {
+    "slug": "cross_asset_vol_divergence",
+    "definition": "The current configuration of elevated rates vol (MOVE ~100-120), suppressed equity vol (VIX ~13-18), and low G10 FX vol (~7-9%) is historically anomalous, structurally driven by four persistent factors (BoJ normalization uncertainty, Fed terminal rate ambiguity, $2T+ annual Treasury issuance, basis trade fragility at $800B-$1T), and historically unstable with no precedent for persisting as a steady state.",
+    "confidence": 8,
+    "evidence": [
+      "Six of eight agents independently identified the divergent configuration",
+      "Three historical analogues (2006-07, 2014, 2017-18) all preceded transitions within 6-18 months",
+      "MOVE above 95 for 18+ months — longest sustained elevation since 2008-2012",
+      "No historical instance found where this configuration persisted as steady state",
+      "Convergence from deductive, inductive, NK, Post-Keynesian, and rates-specialist frameworks"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "challenger_01",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Is this a permanent structural feature or transitional state?",
+      "Does the Kalecki fiscal channel sustain the divergence indefinitely?",
+      "Would a formal structural break test on the MOVE-VIX relationship show a regime change?",
+      "What is the correct structural floor for MOVE in the current environment — 80, 100, or 120+?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "equity_vol_microstructure_shift",
+      "fx_vol_suppression",
+      "vix_move_correlation_regimes",
+      "qt_dual_vol_channels"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "equity_vol_microstructure_shift",
+    "definition": "0DTE options (~45-50% of SPX volume, up from <5% in 2019), covered call ETF AUM (~$5B to ~$80B+), and systematic vol-selling (~$400-600B notional) have structurally altered equity vol production. These are non-cyclical structural shifts that have changed the distribution shape rather than just the level, creating structural compression that is itself fragile and tends to reverse simultaneously.",
+    "confidence": 8,
+    "evidence": [
+      "0DTE options at ~45-50% of SPX volume up from <5% in 2019",
+      "Covered call ETF AUM from ~$5B to ~$80B+",
+      "Systematic vol-selling complex at ~$400-600B notional",
+      "All debates acknowledge these as non-cyclical structural shifts",
+      "Both pair_0 and pair_3 debates agree that equity-specific suppressors are fragile and tend to reverse simultaneously"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "At what point does the vol-selling complex become self-referential and collapse?",
+      "How do autocallable product flows interact with 0DTE dynamics?",
+      "Can the structural compression persist through a genuine macro shock?"
+    ],
+    "related_concepts": [
+      "vol_distribution_shape_change",
+      "macro_trigger_micro_amplification",
+      "cross_asset_vol_divergence",
+      "regime_transition_skip_risk"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vol_distribution_shape_change",
+    "definition": "The vol-selling complex has not compressed vol levels but changed the distribution — thinner body (lower day-to-day vol) with fatter tails (larger gap moves when dealer hedging flips). The frequency of >3-sigma moves has increased relative to trailing realized vol even as average vol declined. This reframes how to interpret 'low vol' readings.",
+    "confidence": 8,
+    "evidence": [
+      "Increased frequency of >3-sigma moves relative to trailing realized vol with declining average vol",
+      "Gamma-pinning mechanism creates low daily vol but cliff-risk when positioning flips",
+      "Survived all debates uncontested",
+      "Structural compression creates fragility not stability"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "How should risk models be recalibrated to account for the changed distribution?",
+      "What is the empirical tail thickness relative to pre-0DTE era?",
+      "Does this distribution change affect options pricing models systematically?"
+    ],
+    "related_concepts": [
+      "equity_vol_microstructure_shift",
+      "macro_trigger_micro_amplification",
+      "regime_transition_skip_risk"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "macro_trigger_micro_amplification",
+    "definition": "Volatility regime transitions follow a 'macro trigger, micro amplification' pattern where macro shocks initiate transitions and the ~$500B-$1.5T short-vol complex guarantees amplification through the financial accelerator mechanism (external finance premium convex in leverage) and microstructure channels (gamma hedging, VaR deleveraging, passive rebalancing).",
+    "confidence": 8,
+    "evidence": [
+      "Financial accelerator mechanism (Christiano-Motto-Rostagno 2014, Adrian and Shin 2014) is 'beyond serious dispute'",
+      "External finance premium is convex in leverage — amplification activates when intermediary balance sheets are stretched",
+      "Systematic short-vol strategies classified as Minsky Ponzi units whose forced liquidation sharpens transitions",
+      "Volmageddon (Feb 2018) provides small-scale proof of concept",
+      "Pair_2 debate: combined case that next transition will be amplified by short-vol complex rated 'persuasive'"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_01",
+      "generalist_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What is the magnitude of amplification relative to the underlying trigger?",
+      "AUM estimates for the short-vol complex span a 3x range ($500B-$1.5T) — what is the true figure?",
+      "Have dealer risk management improvements since 2018 reduced amplification potential?"
+    ],
+    "related_concepts": [
+      "equity_vol_microstructure_shift",
+      "vol_endogeneity",
+      "regime_transition_skip_risk",
+      "vol_distribution_shape_change",
+      "private_credit_hidden_vol"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "credit_maturity_wall",
+    "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 200-400bp higher all-in refinancing costs representing >40% cash interest expense increase for typical B-rated credits. Covenant-lite documentation (>90% of institutional loans lack maintenance covenants, EBITDA addbacks at 25-40%) eliminates early warning and guarantees nonlinear transition.",
+    "confidence": 8,
+    "evidence": [
+      "Sub-IG borrowers face 200-400bp higher all-in refinancing costs",
+      "Greater than 40% cash interest expense increase for typical B-rated credits",
+      "Greater than 90% of institutional loans lack maintenance covenants",
+      "EBITDA addbacks at 25-40% mask deterioration",
+      "Amend-and-extend transactions add PIK/higher spreads — postpone but do not resolve",
+      "Debt stock and coupon differential are observable facts not forecasts"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How much has amend-and-extend activity pushed near-term maturities out?",
+      "What percentage of borrowers can escape via private credit refinancing?",
+      "What will the macro environment be at point of maturity wall impact?",
+      "Does the timing uncertainty (2-3 year A&E deferrals) change the vol implications?"
+    ],
+    "related_concepts": [
+      "clo_arbitrage_transmission",
+      "private_credit_hidden_vol",
+      "macro_trigger_micro_amplification"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "correlation_regime_shifts",
+    "definition": "Correlation regime shifts — not vol levels — are the primary transmission mechanism for portfolio losses during vol regime changes. The stock-bond correlation sign depends on demand/supply shock composition, is maturity-bifurcated (2Y at -0.25 to -0.35, 30Y at +0.05 to +0.15), and the current post-2022 positive correlation in the long end reflects structural inflation uncertainty.",
+    "confidence": 8,
+    "evidence": [
+      "2022: SPX -25% and Bloomberg Agg -13% simultaneously — worst year for 60/40 since 1970s",
+      "VIX peaked at only ~37 in 2022 (less than half of COVID's 82) — correlation flip was the driver",
+      "Stock-bond correlation flip from -0.3 to +0.1-0.2 post-2022",
+      "Maturity-bifurcated: 2Y at -0.25 to -0.35 vs 30Y at +0.05 to +0.15",
+      "Mathematically certain for any diversified portfolio",
+      "Survived all debates uncontested"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "macro_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Will the positive long-end correlation persist if inflation expectations re-anchor?",
+      "How should multi-asset portfolios optimally exploit the maturity bifurcation?",
+      "Is the bifurcation stable across different macro regimes?"
+    ],
+    "related_concepts": [
+      "maturity_dependent_correlation_bifurcation",
+      "vix_move_correlation_regimes",
+      "yield_curve_vol_regime_dependence",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while long duration (30Y) shows positive correlation (+0.05 to +0.15). Hedging properties depend critically on duration selection, making this operationally essential for portfolio construction.",
+    "confidence": 8,
+    "evidence": [
+      "2Y correlation at -0.25 to -0.35 vs 30Y at +0.05 to +0.15",
+      "Operationally critical for duration selection in hedging portfolios",
+      "Unique contribution — no other agent raises this",
+      "Connected to iter_0008 findings on cross-asset dynamics"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What is the optimal maturity point for maximum hedge effectiveness?",
+      "Is the bifurcation stable across different macro regimes?",
+      "How does the bifurcation change during crisis periods?"
+    ],
+    "related_concepts": [
+      "correlation_regime_shifts",
+      "yield_curve_vol_regime_dependence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "The Kalecki profits identity coherently explains the MOVE-VIX divergence: fiscal spending at 6-7% deficit/GDP sustains S&P 500 EPS growth (~8-10% annualized through 2024-2025) despite restrictive monetary policy (suppressing equity vol), while the same spending requires $2T+ annual Treasury issuance creating supply uncertainty (elevating rates vol). Both resolution paths — fiscal consolidation or fiscal crisis — are vol events.",
+    "confidence": 8,
+    "evidence": [
+      "S&P 500 EPS grew ~8-10% annualized through 2024-2025 despite restrictive monetary policy",
+      "Same fiscal spending requires $2T+ annual Treasury issuance",
+      "Mechanism undisputed in debates — disagreement only on sustainability",
+      "Fiscal arithmetic is observable and undisputed",
+      "Both resolution paths are vol events"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is the fiscal regime sustainable?",
+      "Does resolution come benignly (fiscal consolidation) or violently (fiscal crisis)?",
+      "At what deficit/GDP level does the fiscal channel exhaust itself?",
+      "Can the dual channel sustain the divergence indefinitely?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "kalecki_minsky_low_vol_taxonomy",
+      "vol_endogeneity"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vol_endogeneity",
+    "definition": "Volatility regimes are endogenous to macroeconomic and financial conditions — not exogenous random processes. Macro uncertainty (NK stochastic discount factor, output gap dynamics per Fernandez-Villaverde et al. 2011, Bloom 2009) and credit-driven fragility (Minsky financial instability, leverage mechanically suppresses realized vol) are complementary sources. Vol regime models that do not incorporate macro state and financial fragility are incomplete.",
+    "confidence": 8,
+    "evidence": [
+      "NK grounding: Fernandez-Villaverde et al. 2011, Bloom 2009 on stochastic volatility and output",
+      "Minsky grounding: leverage mechanically suppresses realized vol until it cannot",
+      "0DTE flows and dealer gamma create mechanical vol-production function on microstructure side",
+      "VIX-output gap correlation is empirically robust",
+      "Combined case from macro and credit channels is stronger than either alone"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Which is the primary driver — output gap uncertainty or private credit dynamics?",
+      "Is monetary policy exogenous (independent vol driver) or endogenous (response to fragility)?",
+      "How should vol regime models best incorporate macro state?",
+      "Is the answer state-dependent — NK operational at high frequency, Minsky at turning points?"
+    ],
+    "related_concepts": [
+      "kalecki_minsky_low_vol_taxonomy",
+      "macro_trigger_micro_amplification",
+      "central_bank_reaction_function_uncertainty",
+      "kalecki_fiscal_channel"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vix_move_correlation_regimes",
+    "definition": "VIX-MOVE correlation structure encodes the dominant macro shock type and is itself regime-switching. Demand shocks produce positive correlation (~0.65 in 2008-09), supply shocks produce decoupling (~0.25-0.35 in 2022). The current weakly-positive state (+0.20 to +0.35) is historically the most unstable transitional regime. When VIX-MOVE are positively correlated, credit spreads widen faster through the funding cost channel.",
+    "confidence": 7,
+    "evidence": [
+      "Demand shocks produce VIX-MOVE positive correlation (~0.65 in 2008-09)",
+      "Supply shocks produce decoupling (~0.25-0.35 in 2022)",
+      "Weakly-positive state historically most unstable",
+      "When VIX-MOVE positively correlated credit spreads widen faster",
+      "Confirmed from radically different frameworks in pair_2 debate"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What are the reliable transition probabilities from the weakly-positive state?",
+      "Can the credit-specific diagnostic use be validated with additional filters?",
+      "How does the fiscal shock type map to the correlation regime?",
+      "Is the causal chain from shock type to correlation regime tight enough for real-time use?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "correlation_regime_shifts",
+      "vol_endogeneity",
+      "clo_arbitrage_transmission"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "fx_vol_suppression",
+    "definition": "FX vol is the most suppressed component of the cross-asset vol configuration and most likely to reprice higher during vol regime transitions. The MOVE-FX vol divergence is at ~1.8 standard deviations. Historical base rate shows 4/5 episodes resolved via FX vol repricing higher, though the effective independent sample may be as low as n=2 due to clustering, and the trade has become crowded.",
+    "confidence": 6,
+    "evidence": [
+      "MOVE-FX vol divergence at ~1.8 standard deviations",
+      "80% base rate (4/5 episodes) for resolution via FX vol repricing higher",
+      "Carry positioning reflexively suppresses FX vol",
+      "FX is last asset class to price stress due to bilateral haven dynamics",
+      "Bayesian credible interval ~40-95% around the 80% figure"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is the buy cheap FX vol trade now too crowded?",
+      "Is the effective sample truly n=2 independent observations?",
+      "Does CFTC positioning showing increased long gamma indicate crowding risk?",
+      "What triggers the FX vol repricing — carry unwind or macro shock?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "rates_vol_directional_underpricing"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "rates_vol_directional_underpricing",
+    "definition": "Rates vol is directionally underpriced relative to macro/fiscal uncertainty through multiple channels (NK r-star uncertainty, sectoral balance unsustainability, swaption skew, 0DTE-asymmetry), but MOVE at 100-120 is already above historical averages. The base rate for buying rates vol is 50/50 across comparable episodes, and the key discriminator is whether policy shifts are surprise or telegraphed — current risks tilt toward telegraphed.",
+    "confidence": 5,
+    "evidence": [
+      "Four agents argue underpricing through different channels",
+      "Realized rates vol exceeded implied in 3 of 5 major policy uncertainty episodes",
+      "Base rate for buying rates vol is 50/50 across 6 comparable episodes",
+      "Current fiscal-monetary risks are structural and well-discussed tilting toward telegraphed",
+      "Both macro strategists self-assess at 5/10"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "credit_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is MOVE at 100-120 high enough or not high enough?",
+      "Will the next policy shift be surprising or telegraphed?",
+      "How much of the underpricing thesis is already priced into positioning?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "surprise_telegraphed_discriminator",
+      "central_bank_reaction_function_uncertainty",
+      "qt_dual_vol_channels"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "clo_arbitrage_transmission",
+    "definition": "CLO arbitrage collapse is the primary transmission channel for vol regime shifts into credit markets, ahead of bond spread dynamics. CLOs purchase ~65-70% of institutional loan issuance; when AAA tranche spreads gap wider (from SOFR+140-170 to SOFR+200+), the arbitrage collapses, new formation stalls, and the marginal bid for leveraged loans disappears. Confirmed by 2022 when CLO issuance dropped ~35% YoY before loan spread widening.",
+    "confidence": 7,
+    "evidence": [
+      "CLOs purchase ~65-70% of institutional loan issuance",
+      "2022 confirmed: CLO issuance dropped ~35% YoY before loan spread widening materialized",
+      "Pair_1 debate: CLO-first thesis is mechanistically more specific and supported by 2022",
+      "Japanese institutional demand for CLO AAAs as marginal buyer could become procyclical if yen strengthens",
+      "Structural vol supply from CLO warehouse hedging compresses CDX implied vol in benign periods"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Can bond-market-originated stress (fallen angels) bypass the CLO channel entirely?",
+      "Have post-2024 structural changes in the AAA buyer base altered sensitivity?",
+      "At what AAA spread level does the arbitrage definitively collapse?",
+      "How procyclical is Japanese CLO AAA demand in practice?"
+    ],
+    "related_concepts": [
+      "credit_maturity_wall",
+      "private_credit_hidden_vol",
+      "macro_trigger_micro_amplification",
+      "vix_move_correlation_regimes"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "private_credit_hidden_vol",
+    "definition": "Private credit ($1.7T+) with appraisal-based NAV returns (autocorrelation 0.5-0.7) constitutes a hidden vol reservoir where true economic vol is 2-3x reported. No traded vol surface captures this risk. Semi-liquid vehicles ($300B+ in interval funds, non-traded BDCs, perpetual structures) offering quarterly 5% NAV redemptions against illiquid portfolios present a liquidity mismatch vulnerability structurally identical to UK open-ended property funds (2022).",
+    "confidence": 7,
+    "evidence": [
+      "Appraisal-based NAV returns exhibit autocorrelation of 0.5-0.7",
+      "Unsmoothing reveals economic vol is 2-3x reported",
+      "Semi-liquid vehicles offer quarterly 5% NAV redemptions against illiquid portfolios",
+      "Structurally identical to UK open-ended property funds (2022)",
+      "Identified as most important novel contribution sitting outside traditional vol surface analysis",
+      "Correctly framed as measurement gap not mispricing"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Are manager liquidity sleeves (20-30% in liquid assets) sufficient?",
+      "What trigger duration of sustained high-vol credit regime activates the vulnerability?",
+      "What is the aggregate liquidity mismatch — not precisely tracked?",
+      "Could private credit opacity disrupt standard vol transmission sequencing?"
+    ],
+    "related_concepts": [
+      "credit_maturity_wall",
+      "clo_arbitrage_transmission",
+      "macro_trigger_micro_amplification"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "regime_switching_model_limitations",
+    "definition": "Formal regime-switching models (Markov-switching GARCH) are overfitted and suffer from fundamental identification lag — smoothed probabilities require 10-20 trading days to reach >80% confidence, transition parameters are estimated from non-representative samples, and within-regime dynamics have changed due to microstructure evolution. Simple threshold heuristics (e.g., MOVE at 80, 100, 140) remain operationally useful as real-time observable alternatives.",
+    "confidence": 7,
+    "evidence": [
+      "Smoothed probabilities require 10-20 trading days to reach >80% confidence",
+      "Transition parameters estimated from non-representative samples",
+      "Within-regime dynamics changed due to microstructure evolution",
+      "Well-documented in academic literature (Ang and Timmermann 2012)",
+      "Simple MOVE thresholds provide real-time regime classification without identification lag"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Can hybrid approaches (simple thresholds plus Bayesian updating) outperform either pure approach?",
+      "What are the optimal threshold levels for the current structural environment?",
+      "How should models account for microstructure evolution within regimes?"
+    ],
+    "related_concepts": [
+      "vol_endogeneity",
+      "vvix_vix_fragility_indicator"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "vvix_vix_fragility_indicator",
+    "definition": "The VVIX/VIX ratio is a monitoring tool for regime fragility (elevated at ~9-10x vs. normal 5-7x before Feb 2018, with ~2-week lead before Q4 2018, and elevated in late January 2020), capturing hedging demand from sophisticated investors anticipating regime transitions. However, the false positive rate is completely uncharacterized, limiting standalone value.",
+    "confidence": 5,
+    "evidence": [
+      "VVIX/VIX elevated before Feb 2018 (ratio ~9-10x vs. normal 5-7x)",
+      "Approximately 2-week lead before Q4 2018",
+      "Elevated in late January 2020",
+      "Mechanism theoretically sound — captures sophisticated hedging demand"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the false positive rate?",
+      "If elevated 30% of time but transitions occur 5% of time how useful is it?",
+      "Is it better as component of composite indicator than standalone signal?",
+      "What is the FX equivalent threshold (8.5-10.5% realized G10 FX vol transition zone)?"
+    ],
+    "related_concepts": [
+      "equity_vol_microstructure_shift",
+      "regime_switching_model_limitations"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "kalecki_minsky_low_vol_taxonomy",
+    "definition": "Two fundamentally different low-vol environments exist — Type A (Kalecki profit-supported, genuinely stable) and Type B (Minsky credit-supported, fragile) — both producing identical vol surfaces but radically different fragility profiles. Diagnostic: (Government Deficit/GDP) minus (Change in Private Debt/GDP); positive = Type A, negative = Type B. Historical mapping: 2010-2013 and 2013-2017 = Type A; 2005-2007 and 2018-2019 = Type B.",
+    "confidence": 6,
+    "evidence": [
+      "Diagnostic computable from available Federal Reserve Z.1 data",
+      "Historical mapping covers four periods across two types",
+      "Pair_2 debate rated this as single most valuable contribution",
+      "Both types produce identical vol surfaces but radically different fragility profiles"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Tested across only ~3-4 U.S. cycles — needs out-of-sample validation",
+      "Boundary classification involves judgment calls",
+      "Real-time private sector balance data has 2-3 month publication lag",
+      "Does the framework apply to non-U.S. economies where fiscal rules differ?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "vol_endogeneity",
+      "macro_trigger_micro_amplification"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "yield_curve_vol_regime_dependence",
+    "definition": "The yield curve's informational content is vol-regime-dependent: in low-vol regimes it reflects expectations (reliable recession signal); in high-vol regimes term premium noise contaminates the signal. The 2019 inversion (expectations-driven, MOVE low, correctly predicted slowdown) vs. 2022-23 inversion (term premium compressed by 80-120bp, MOVE high, did not produce recession on schedule) is a clean natural experiment.",
+    "confidence": 7,
+    "evidence": [
+      "2019 inversion: expectations-driven MOVE low correctly predicted slowdown",
+      "2022-23 inversion: term premium compressed by 80-120bp MOVE high did not produce recession on schedule",
+      "Term premium explains 50-65% of 10Y variation in ACM models when regressed on MOVE",
+      "Pair_3 debate rated this as strongest single analytical point in either paper"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Circularity risk — both MOVE and term premium models draw from yield curve inputs",
+      "In the current high-floor MOVE regime how much should curve signals be discounted?",
+      "Can the expectations vs term premium decomposition be done in real time with sufficient precision?"
+    ],
+    "related_concepts": [
+      "correlation_regime_shifts",
+      "central_bank_reaction_function_uncertainty",
+      "maturity_dependent_correlation_bifurcation",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "central_bank_reaction_function_uncertainty",
+    "definition": "Central bank reaction function uncertainty is a distinct, additive source of volatility beyond standard macro uncertainty. FOMC communication shocks (reaction function news, distinct from economic outlook news) are empirically documented as major asset price drivers (Bauer-Lakdawala-Mueller 2022). QT creates an additional channel of discontinuous jump risk at unknown reserve scarcity thresholds.",
+    "confidence": 7,
+    "evidence": [
+      "Bianchi (2012): regime-switching monetary policy with hawkish/dovish shifts as significant vol source",
+      "Bauer-Lakdawala-Mueller (2022): FOMC communication shocks are major asset price drivers",
+      "Historical examples: 2021 transitory debacle, Dec 2018 dovish pivot, 2024 communication volatility",
+      "September 2019 repo spike and March 2023 banking stress demonstrate QT threshold risk",
+      "Won debate against endogeneity counter-argument for genuine discretionary policy instances"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is separating reaction function uncertainty from standard macro uncertainty econometrically feasible?",
+      "Where are the current reserve scarcity thresholds for QT jump risk?",
+      "Is policy exogenous in normal times but endogenous near Minsky moments?",
+      "How does the ECB/BoJ dimension interact with the Fed channel?"
+    ],
+    "related_concepts": [
+      "vol_endogeneity",
+      "rates_vol_directional_underpricing",
+      "qt_dual_vol_channels"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "regime_transition_skip_risk",
+    "definition": "Volatility regime transitions can skip intermediate states when triggered by microstructure-driven events (positioning unwind, gamma flip) rather than fundamental deterioration. Fundamentally-driven transitions tend to be sequential providing time to adjust; microstructure-driven transitions (Feb 2018, March 2020, October 2023) can be near-instantaneous, eliminating the time to adjust assumed by sequential models.",
+    "confidence": 7,
+    "evidence": [
+      "Feb 2018 Volmageddon: near-instantaneous vol regime transition",
+      "March 2020: rapid positioning-driven transition",
+      "October 2023: near-instantaneous transition",
+      "Challenger_01 wins clearly in pair_3 debate against sequential assumption",
+      "Distinction between fundamental vs microstructure triggers is the productive framing"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can the trigger type (fundamental vs microstructure) be identified in real time?",
+      "How does hedge timing change if sequential models are unreliable?",
+      "Are conditions for skip-risk increasing due to growing microstructure dominance?"
+    ],
+    "related_concepts": [
+      "equity_vol_microstructure_shift",
+      "macro_trigger_micro_amplification",
+      "vol_distribution_shape_change"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "surprise_telegraphed_discriminator",
+    "definition": "Whether a policy uncertainty episode involves surprise or telegraphed shifts is the key variable determining whether buying rates vol pays off. In episodes where realized rates vol exceeded implied (QE1: -2.3 pts, taper tantrum: -1.1 pts, COVID: -4.1 pts), the shift was a surprise. Current fiscal-monetary risks are structural and well-discussed, tilting toward telegraphed and reducing expected long rates vol payoff.",
+    "confidence": 6,
+    "evidence": [
+      "QE1 implied-realized spread -2.3 pts (surprise)",
+      "Taper tantrum -1.1 pts (surprise)",
+      "COVID -4.1 pts (surprise)",
+      "Base rate for buying rates vol is 50/50 across 6 comparable episodes overall",
+      "Pair_0 debate rated this as sharpest analytical contribution",
+      "Transforms vague underpricing thesis into testable proposition"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can telegraphed risks still produce surprises in timing or magnitude?",
+      "Is the current fiscal situation truly telegraphed or are markets underestimating tail scenarios?",
+      "How to operationalize the surprise/telegraphed classification in real time?"
+    ],
+    "related_concepts": [
+      "rates_vol_directional_underpricing",
+      "central_bank_reaction_function_uncertainty"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "slug": "qt_dual_vol_channels",
+    "definition": "Quantitative tightening operates through two distinct volatility channels that are asymmetric to QE unwind: reserve scarcity (creating discontinuous jump risk at unknown thresholds, demonstrated by September 2019 repo spike and March 2023 banking stress) and duration extraction (repricing term premium upward as the central bank reduces its bond holdings).",
+    "confidence": 7,
+    "evidence": [
+      "September 2019 repo spike: reserve scarcity threshold breach",
+      "March 2023 banking stress: reserve scarcity channel activation",
+      "Duration extraction channel reprices term premium",
+      "Asymmetric to QE unwind — not simply the reverse process",
+      "Precise actionable and well-supported by historical episodes"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Where are the current reserve scarcity thresholds?",
+      "How does the interaction between the two channels compound?",
+      "Is the Fed monitoring the right indicators for threshold breach?",
+      "How does the Treasury General Account balance affect the threshold?"
+    ],
+    "related_concepts": [
+      "central_bank_reaction_function_uncertainty",
+      "rates_vol_directional_underpricing",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  }
+]

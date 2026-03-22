@@ -1,0 +1,26 @@
+{
+  "slug": "credit_vol_minsky_phases",
+  "purpose": "Maps Minsky cycle phases to observable credit vol properties for regime identification and timing of credit vol repricing.",
+  "components": [
+    "Hedge phase: Credit vol is mean-reverting, spread shocks quickly absorbed, leverage moderate",
+    "Speculative phase: Credit vol becomes path-dependent, spread shocks persist longer, leverage elevated",
+    "Ponzi phase: Credit vol becomes explosive, small triggers produce outsized spread moves, leverage extreme",
+    "HY-IG spread differential thresholds: <280bp = Hedge/early Speculative; 280-350bp = late Speculative; >350-400bp = approaching Ponzi transition"
+  ],
+  "current_assessment": "Current HY-IG spread at ~280-320bp places us in late Speculative phase, below the 350-400bp threshold for serious repositioning. Supporting indicators (leverage ratios up 0.3-0.5x, coverage ratios down 0.5-1.0x, upgrade/downgrade ratio below 1.0 for five quarters) consistent with late-cycle deterioration but not uniquely identifying a regime transition.",
+  "limitations": [
+    "Similar metrics deteriorated in 2015-2016 and 2019 without producing a credit cycle turn",
+    "Claimed zero false positives across seven episodes requires independent validation",
+    "Single-source framework from credit_analyst_01",
+    "Real-time leverage data has reporting lag",
+    "Does not incorporate private credit dynamics"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

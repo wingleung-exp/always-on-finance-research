@@ -1,0 +1,33 @@
+{
+  "slug": "regime_switching_model_limitations",
+  "definition": "Formal regime-switching models (Markov-switching GARCH) are overfitted and suffer from fundamental identification lag — smoothed probabilities require 10-20 trading days to reach >80% confidence, transition parameters are estimated from non-representative samples, and within-regime dynamics have changed due to microstructure evolution. Simple threshold heuristics (e.g., MOVE at 80, 100, 140) remain operationally useful as real-time observable alternatives.",
+  "confidence": 7,
+  "evidence": [
+    "Smoothed probabilities require 10-20 trading days to reach >80% confidence",
+    "Transition parameters estimated from non-representative samples",
+    "Within-regime dynamics changed due to microstructure evolution",
+    "Well-documented in academic literature (Ang and Timmermann 2012)",
+    "Simple MOVE thresholds provide real-time regime classification without identification lag"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Can hybrid approaches (simple thresholds plus Bayesian updating) outperform either pure approach?",
+    "What are the optimal threshold levels for the current structural environment?",
+    "How should models account for microstructure evolution within regimes?"
+  ],
+  "related_concepts": [
+    "vol_endogeneity",
+    "vvix_vix_fragility_indicator"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

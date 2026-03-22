@@ -1,0 +1,20 @@
+{
+  "concept_a": "central_bank_reaction_function_uncertainty",
+  "concept_b": "rates_vol_directional_underpricing",
+  "mechanism": "Reaction function uncertainty (discretionary pivots, communication shocks, QT threshold risk) is an additive vol source that standard models may not fully capture. If this uncertainty is genuinely distinct from standard macro uncertainty, rates vol surfaces systematically underprice it, contributing to directional underpricing.",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Additive in normal times when policy choices are discretionary. Near Minsky moments policy becomes endogenous to financial conditions and this channel may collapse into standard macro uncertainty rather than being additive.",
+  "originating_agents": [
+    "macro_strategist_01",
+    "challenger_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

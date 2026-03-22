@@ -1,0 +1,19 @@
+{
+  "concept_a": "qt_dual_vol_channels",
+  "concept_b": "cross_asset_vol_divergence",
+  "mechanism": "QT duration extraction channel reprices term premium upward (elevating MOVE) while reserve scarcity creates discontinuous jump risk at unknown thresholds, contributing to the structural elevation of rates vol that drives the MOVE-VIX divergence.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Active during QT periods. Reverses if Fed resumes QE or halts balance sheet reduction. The reserve scarcity channel is state-dependent on the level of reserves relative to the banking system minimum.",
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "concept_a": "correlation_regime_shifts",
+  "concept_b": "cross_asset_vol_divergence",
+  "mechanism": "The MOVE-VIX divergence reflects different correlation regimes between stocks and bonds. When supply shocks dominate (inflation), stock-bond correlations flip positive and the divergence emerges because rates vol and equity vol respond asymmetrically to the same macro forces. The shock composition determines whether vol measures co-move or decouple.",
+  "direction": "bidirectional",
+  "confidence": 8,
+  "regime_dependence": "Demand shocks align vol moves (positive VIX-MOVE correlation). Supply/inflation shocks decouple them (current regime). The relationship reverses depending on the dominant shock type.",
+  "originating_agents": [
+    "macro_strategist_01",
+    "generalist_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

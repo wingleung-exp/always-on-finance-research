@@ -1,0 +1,38 @@
+{
+  "slug": "equity_vol_microstructure_shift",
+  "definition": "0DTE options (~45-50% of SPX volume, up from <5% in 2019), covered call ETF AUM (~$5B to ~$80B+), and systematic vol-selling (~$400-600B notional) have structurally altered equity vol production. These are non-cyclical structural shifts that have changed the distribution shape rather than just the level, creating structural compression that is itself fragile and tends to reverse simultaneously.",
+  "confidence": 8,
+  "evidence": [
+    "0DTE options at ~45-50% of SPX volume up from <5% in 2019",
+    "Covered call ETF AUM from ~$5B to ~$80B+",
+    "Systematic vol-selling complex at ~$400-600B notional",
+    "All debates acknowledge these as non-cyclical structural shifts",
+    "Both pair_0 and pair_3 debates agree that equity-specific suppressors are fragile and tend to reverse simultaneously"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "At what point does the vol-selling complex become self-referential and collapse?",
+    "How do autocallable product flows interact with 0DTE dynamics?",
+    "Can the structural compression persist through a genuine macro shock?"
+  ],
+  "related_concepts": [
+    "vol_distribution_shape_change",
+    "macro_trigger_micro_amplification",
+    "cross_asset_vol_divergence",
+    "regime_transition_skip_risk"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}

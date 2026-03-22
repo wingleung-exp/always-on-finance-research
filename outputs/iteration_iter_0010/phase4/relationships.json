@@ -1,0 +1,198 @@
+[
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "Fiscal spending at 6-7% deficit/GDP simultaneously sustains equity earnings (suppressing VIX via 8-10% EPS growth) and requires $2T+ annual Treasury issuance (elevating MOVE via supply uncertainty and term premium repricing), directly producing the MOVE-VIX divergence.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as fiscal deficit remains elevated (>5% of GDP) without consolidation or crisis. Breaks if fiscal consolidation occurs (equity vol rises, rates vol falls) or fiscal crisis materializes (both spike).",
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "equity_vol_microstructure_shift",
+    "concept_b": "macro_trigger_micro_amplification",
+    "mechanism": "The vol-selling complex ($400-600B notional) creates structural vol compression during calm periods through gamma-pinning and systematic premium collection, but guarantees amplification during transitions as gamma hedging flips, VaR deleveraging triggers, and passive rebalancing creates cliff-risk.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Amplification activates during regime transitions when dealer positioning flips. In calm markets the same complex suppresses vol. The relationship is directionally asymmetric — suppression is gradual, amplification is sudden.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "equity_vol_microstructure_shift",
+    "concept_b": "regime_transition_skip_risk",
+    "mechanism": "The dominance of microstructure factors (0DTE, dealer gamma, systematic vol-selling) in equity vol production means that regime transitions triggered by positioning events can skip intermediate states entirely, unlike fundamentally-driven transitions which proceed sequentially.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Skip risk is highest when microstructure positioning is extreme (large net short gamma, concentrated 0DTE flows) and the trigger is positioning-related. Fundamental triggers are more likely to produce sequential transitions.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "vol_distribution_shape_change",
+    "concept_b": "regime_transition_skip_risk",
+    "mechanism": "The changed vol distribution (compressed body, fat tails) means regime transitions when they occur are more likely to be extreme and sudden — the same microstructure that suppresses daily vol concentrates energy into larger gap moves, increasing the probability of skipping intermediate states.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Persistent as long as the vol-selling complex and 0DTE dominance maintain the altered distribution. Would normalize if microstructure reverts to pre-2019 patterns.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "correlation_regime_shifts",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "The MOVE-VIX divergence reflects different correlation regimes between stocks and bonds. When supply shocks dominate (inflation), stock-bond correlations flip positive and the divergence emerges because rates vol and equity vol respond asymmetrically to the same macro forces. The shock composition determines whether vol measures co-move or decouple.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Demand shocks align vol moves (positive VIX-MOVE correlation). Supply/inflation shocks decouple them (current regime). The relationship reverses depending on the dominant shock type.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "clo_arbitrage_transmission",
+    "concept_b": "credit_maturity_wall",
+    "mechanism": "When CLO AAA spreads gap wider and arbitrage collapses, the marginal bid for 65-70% of leveraged loan issuance disappears, accelerating maturity wall impact by removing the primary refinancing channel for sub-IG borrowers. Conversely, maturity wall stress increases credit risk in CLO portfolios, potentially widening AAA spreads.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Activates when AAA tranche spreads move from SOFR+140-170 to SOFR+200+. In benign credit markets CLO formation absorbs maturity wall refinancing. The feedback loop accelerates in stress.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "private_credit_hidden_vol",
+    "concept_b": "macro_trigger_micro_amplification",
+    "mechanism": "Private credit $1.7T+ with appraisal-based reporting masks true economic volatility (2-3x reported). When a macro trigger forces marking to market or semi-liquid vehicle redemptions hit liquidity gates, the hidden vol is released and amplifies the regime transition. May also disrupt standard vol transmission sequencing.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Dormant during benign credit conditions where appraisal-based reporting smooths returns. Activates during sustained high-vol credit regimes that force mark-to-market or trigger redemption pressure on semi-liquid vehicles.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "credit_maturity_wall",
+    "concept_b": "private_credit_hidden_vol",
+    "mechanism": "As sub-IG borrowers face the maturity wall and cannot refinance through public markets, some migrate to private credit as an escape valve, increasing private credit exposure to distressed credits and amplifying the hidden vol reservoir with deteriorating credit quality.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activates as the maturity wall approaches (2025-2028) and public market refinancing becomes prohibitive for lower-rated borrowers. Private credit absorbs risk in benign periods but concentrates it.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "vol_endogeneity",
+    "concept_b": "kalecki_minsky_low_vol_taxonomy",
+    "mechanism": "The endogeneity of vol regimes means different macro configurations (fiscal profit-supported vs credit-supported) produce observationally identical low-vol surfaces with fundamentally different fragility profiles. The taxonomy operationalizes vol endogeneity into a diagnostic framework that distinguishes genuinely stable from fragile low vol.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "The taxonomy is most useful at potential turning points when distinguishing between Type A (stable) and Type B (fragile) low vol matters most. Within a stable regime the distinction matters less for day-to-day positioning.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "central_bank_reaction_function_uncertainty",
+    "concept_b": "rates_vol_directional_underpricing",
+    "mechanism": "Reaction function uncertainty (discretionary pivots, communication shocks, QT threshold risk) is an additive vol source that standard models may not fully capture. If this uncertainty is genuinely distinct from standard macro uncertainty, rates vol surfaces systematically underprice it, contributing to directional underpricing.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Additive in normal times when policy choices are discretionary. Near Minsky moments policy becomes endogenous to financial conditions and this channel may collapse into standard macro uncertainty rather than being additive.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "challenger_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "surprise_telegraphed_discriminator",
+    "concept_b": "rates_vol_directional_underpricing",
+    "mechanism": "The payoff to buying rates vol depends critically on whether the upcoming policy shift is a surprise (positive expected value) or telegraphed (coin flip). Current fiscal-monetary risks are well-discussed and structural, reducing expected payoff even if the directional thesis is correct. This moderates the actionability of the underpricing claim.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Applies specifically to policy-driven vol episodes. Macro shocks that are inherently unforecastable (pandemic, geopolitical) bypass the discriminator — those are always surprises by definition.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "yield_curve_vol_regime_dependence",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "In the current high-MOVE regime, term premium noise contaminates yield curve signals making traditional indicators unreliable. The divergence itself signals a regime where term premium dominates expectations in the long end, requiring recalibration of macro signals derived from the curve.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Yield curve informational degradation is specific to high-MOVE regimes (>95-100). In low-MOVE regimes (<80) expectations dominate and curve signals are reliable. The relationship is categorical rather than continuous.",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "vix_move_correlation_regimes",
+    "concept_b": "clo_arbitrage_transmission",
+    "mechanism": "When VIX-MOVE correlation is positive (demand shock regime), credit spreads widen faster because the funding cost channel activates — both equity and rates vol stress hit credit simultaneously through CLO funding costs and AAA spread widening.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Transmission accelerates in the positive-correlation regime (demand shocks). In the decoupled regime (supply shocks) credit stress may transmit through the rates channel alone without equity amplification.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  },
+  {
+    "concept_a": "qt_dual_vol_channels",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "QT duration extraction channel reprices term premium upward (elevating MOVE) while reserve scarcity creates discontinuous jump risk at unknown thresholds, contributing to the structural elevation of rates vol that drives the MOVE-VIX divergence.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active during QT periods. Reverses if Fed resumes QE or halts balance sheet reduction. The reserve scarcity channel is state-dependent on the level of reserves relative to the banking system minimum.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0010"
+  }
+]

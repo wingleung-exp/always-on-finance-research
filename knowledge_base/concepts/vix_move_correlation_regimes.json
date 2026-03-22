@@ -1,0 +1,40 @@
+{
+  "slug": "vix_move_correlation_regimes",
+  "definition": "VIX-MOVE correlation structure encodes the dominant macro shock type and is itself regime-switching. Demand shocks produce positive correlation (~0.65 in 2008-09), supply shocks produce decoupling (~0.25-0.35 in 2022). The current weakly-positive state (+0.20 to +0.35) is historically the most unstable transitional regime. When VIX-MOVE are positively correlated, credit spreads widen faster through the funding cost channel.",
+  "confidence": 7,
+  "evidence": [
+    "Demand shocks produce VIX-MOVE positive correlation (~0.65 in 2008-09)",
+    "Supply shocks produce decoupling (~0.25-0.35 in 2022)",
+    "Weakly-positive state historically most unstable",
+    "When VIX-MOVE positively correlated credit spreads widen faster",
+    "Confirmed from radically different frameworks in pair_2 debate"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "generalist_01",
+    "generalist_02",
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What are the reliable transition probabilities from the weakly-positive state?",
+    "Can the credit-specific diagnostic use be validated with additional filters?",
+    "How does the fiscal shock type map to the correlation regime?",
+    "Is the causal chain from shock type to correlation regime tight enough for real-time use?"
+  ],
+  "related_concepts": [
+    "cross_asset_vol_divergence",
+    "correlation_regime_shifts",
+    "vol_endogeneity",
+    "clo_arbitrage_transmission"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-22T22:22:52Z",
+  "originating_iteration": "iter_0010",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0010"
+  ]
+}
