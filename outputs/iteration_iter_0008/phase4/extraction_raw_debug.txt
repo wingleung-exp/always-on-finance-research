@@ -1,0 +1,11 @@
+Extraction complete. Valid JSON written to `/data/.openclaw/workspace/finance_research/outputs/iteration_iter_0008/phase4/extraction.json` (915 lines, 75KB).
+
+Summary of extraction:
+- **28 concepts** (12 high-confidence H1-H12, 14 moderate M1-M14, plus swap_line_capacity_gap, carry_as_latent_short_vol, basis_trade_fx_cascade, vta_framework_current_state)
+- **17 relationships** with regime-dependence annotations
+- **6 frameworks** (VTA, HLZ factor validation, dollar trap monitoring, frontier-core cascade timeline, dual commodity channel, compressed spring identification)
+- **8 agents** in provenance (all claims tracked)
+- **8 refuted claims** (R1-R8 in anti_knowledge)
+- **8 low-confidence claims** (L1-L8 with corroboration requirements)
+
+Two corrections applied: R5 and R6 `refuted_by` fields now correctly attribute refutation to debate pair_0 participants rather than sole claim originators.
