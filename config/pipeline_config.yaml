@@ -1,0 +1,34 @@
+# Pipeline configuration — all tunable parameters in one place
+model:
+  name: "default"  # claude --print uses whatever model is configured
+  flags: "--print --no-session-persistence --dangerously-skip-permissions --effort max"
+  effort: "max"    # all claude invocations must use --effort max
+
+timeouts:
+  agent_research: 300      # Phase 1: per-agent timeout (seconds)
+  pairwise_debate: 300     # Phase 2: per-pair timeout
+  panel_synthesis: 360     # Phase 3: synthesis timeout
+  knowledge_extraction: 120 # Phase 4: extraction timeout (Python, fast)
+
+concurrency:
+  phase1_agents: 8         # parallel agents in Phase 1
+  phase2_pairs: 4          # parallel pairs in Phase 2
+
+selection:
+  ucb_exploration_constant: 1.414  # sqrt(2), classic UCB1
+  min_generalists: 2
+  min_challengers: 1
+  total_agents_per_iteration: 8
+
+quality_gates:
+  min_agents_for_downstream: 5  # out of 8; below this, skip debate/synthesis
+  min_confidence_for_kb_write: 4  # claims below this go to low_confidence log only
+
+loop:
+  sleep_between_iterations_min: 30
+  sleep_between_iterations_max: 90
+  heartbeat_interval: 30   # seconds between heartbeat writes during long stages
+
+logging:
+  log_file: "/data/.openclaw/workspace/finance_research/logs/research.log"
+  heartbeat_file: "/data/.openclaw/workspace/logs/research_heartbeat.json"

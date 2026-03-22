@@ -1,0 +1,798 @@
+{
+  "version": 2,
+  "last_updated": "2026-03-22T11:44:18Z",
+  "taxonomy": {
+    "macro_frameworks": {
+      "description": "Core macroeconomic frameworks and policy analysis",
+      "topics": [
+        "monetary_policy",
+        "fiscal_policy",
+        "inflation_regimes",
+        "growth_models",
+        "labor_market_dynamics"
+      ]
+    },
+    "credit_and_rates": {
+      "description": "Fixed income, credit markets, and interest rate dynamics",
+      "topics": [
+        "yield_curve_dynamics",
+        "credit_cycles",
+        "central_bank_balance_sheets",
+        "sovereign_debt",
+        "corporate_credit"
+      ]
+    },
+    "asset_class_dynamics": {
+      "description": "Individual asset class behavior and regime analysis",
+      "topics": [
+        "equity_cycles",
+        "commodity_supercycles",
+        "fx_regimes",
+        "real_estate_cycles",
+        "volatility_regimes"
+      ]
+    },
+    "structural_themes": {
+      "description": "Long-term secular forces reshaping markets",
+      "topics": [
+        "deglobalization",
+        "energy_transition",
+        "demographics",
+        "ai_and_tech_disruption",
+        "fiscal_dominance"
+      ]
+    },
+    "cross_asset": {
+      "description": "How concepts from different categories interact",
+      "topics": [
+        "rates_equity_correlation",
+        "credit_equity_linkage",
+        "commodity_inflation_transmission",
+        "fx_rates_divergence",
+        "risk_appetite_regimes"
+      ]
+    }
+  },
+  "topics": {
+    "monetary_policy": {
+      "category": "macro_frameworks",
+      "display_name": "Monetary Policy Transmission & Central Bank Strategy",
+      "last_researched": "2026-03-22T06:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.5,
+      "research_count": 4,
+      "knowledge_gaps": [
+        "QT endgame scenarios and reserve scarcity thresholds",
+        "Transmission lags in current rate cycle vs historical",
+        "Interaction between QT and bank reserve management"
+      ],
+      "connections": [
+        "yield_curve_dynamics",
+        "inflation_regimes",
+        "credit_cycles",
+        "fiscal_dominance"
+      ],
+      "subtopics": [
+        "fed_forward_guidance",
+        "ecb_divergence",
+        "boj_policy_normalization",
+        "rate_path_vs_balance_sheet"
+      ],
+      "key_concepts": [
+        "policy_rate_transmission",
+        "neutral_rate_estimation",
+        "quantitative_tightening"
+      ]
+    },
+    "fiscal_policy": {
+      "category": "macro_frameworks",
+      "display_name": "Fiscal Policy Divergence & Debt Sustainability",
+      "last_researched": "2026-03-22T04:00:00Z",
+      "depth_level": 1,
+      "confidence_score": 4.0,
+      "research_count": 2,
+      "knowledge_gaps": [
+        "G7 fiscal multiplier estimates under current debt levels",
+        "DOGE-style spending reduction macro impact",
+        "Interaction between fiscal deficits and term premium"
+      ],
+      "connections": [
+        "sovereign_debt",
+        "fiscal_dominance",
+        "inflation_regimes",
+        "growth_models"
+      ],
+      "subtopics": [
+        "us_deficit_trajectory",
+        "g7_fiscal_divergence",
+        "fiscal_monetary_interaction"
+      ],
+      "key_concepts": [
+        "fiscal_multiplier",
+        "debt_sustainability",
+        "crowding_out"
+      ]
+    },
+    "inflation_regimes": {
+      "category": "macro_frameworks",
+      "display_name": "Inflation Regime Identification & Dynamics",
+      "last_researched": "2026-03-22T05:00:00Z",
+      "depth_level": 3,
+      "confidence_score": 6.0,
+      "research_count": 5,
+      "knowledge_gaps": [
+        "AI-driven productivity impact on services inflation",
+        "Shelter/OER lag resolution timing",
+        "Structural vs cyclical inflation decomposition methodology"
+      ],
+      "connections": [
+        "monetary_policy",
+        "commodity_inflation_transmission",
+        "labor_market_dynamics",
+        "deglobalization"
+      ],
+      "subtopics": [
+        "services_inflation_persistence",
+        "goods_disinflation",
+        "breakeven_valuation",
+        "wage_price_spiral_risk"
+      ],
+      "key_concepts": [
+        "inflation_regime_shift",
+        "breakeven_inflation",
+        "phillips_curve"
+      ]
+    },
+    "growth_models": {
+      "category": "macro_frameworks",
+      "display_name": "Economic Growth Models & Cycle Positioning",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 2.0,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Current cycle phase identification framework",
+        "Potential GDP revision from AI/immigration",
+        "Leading indicator reliability in post-COVID regime"
+      ],
+      "connections": [
+        "labor_market_dynamics",
+        "equity_cycles",
+        "monetary_policy"
+      ],
+      "subtopics": [
+        "soft_landing_probability",
+        "recession_indicators",
+        "productivity_growth"
+      ],
+      "key_concepts": [
+        "business_cycle_phase",
+        "output_gap",
+        "potential_gdp"
+      ]
+    },
+    "labor_market_dynamics": {
+      "category": "macro_frameworks",
+      "display_name": "Labor Market Structure & Wage Dynamics",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 2.0,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Immigration impact on labor supply elasticity",
+        "Remote work structural productivity effects",
+        "Wage-price spiral risk under current conditions"
+      ],
+      "connections": [
+        "inflation_regimes",
+        "growth_models",
+        "monetary_policy"
+      ],
+      "subtopics": [
+        "beveridge_curve_shift",
+        "wage_growth_decomposition",
+        "labor_force_participation"
+      ],
+      "key_concepts": [
+        "natural_rate_unemployment",
+        "wage_price_spiral",
+        "labor_hoarding"
+      ]
+    },
+    "yield_curve_dynamics": {
+      "category": "credit_and_rates",
+      "display_name": "Yield Curve Shape, Inversion, & Term Premium",
+      "last_researched": "2026-03-22T05:30:00Z",
+      "depth_level": 3,
+      "confidence_score": 6.5,
+      "research_count": 5,
+      "knowledge_gaps": [
+        "Term premium decomposition methodology",
+        "Curve shape predictive power post-QE era",
+        "International yield curve spillovers"
+      ],
+      "connections": [
+        "monetary_policy",
+        "credit_cycles",
+        "rates_equity_correlation",
+        "sovereign_debt"
+      ],
+      "subtopics": [
+        "term_premium_estimation",
+        "curve_steepening_trades",
+        "inversion_signaling"
+      ],
+      "key_concepts": [
+        "yield_curve_inversion",
+        "term_premium",
+        "expectations_hypothesis"
+      ]
+    },
+    "credit_cycles": {
+      "category": "credit_and_rates",
+      "display_name": "Credit Cycle Dynamics & Late-Stage Signals",
+      "last_researched": "2026-03-22T06:00:00Z",
+      "depth_level": 3,
+      "confidence_score": 6.0,
+      "research_count": 5,
+      "knowledge_gaps": [
+        "Private credit $1.8T systemic risk assessment",
+        "HY default rate in higher-for-longer scenario",
+        "Credit-to-equity contagion channels"
+      ],
+      "connections": [
+        "monetary_policy",
+        "corporate_credit",
+        "credit_equity_linkage",
+        "real_estate_cycles"
+      ],
+      "subtopics": [
+        "hy_spread_analysis",
+        "leveraged_loan_risk",
+        "private_credit_opacity"
+      ],
+      "key_concepts": [
+        "credit_cycle_phase",
+        "credit_spread",
+        "default_rate"
+      ]
+    },
+    "central_bank_balance_sheets": {
+      "category": "credit_and_rates",
+      "display_name": "Central Bank Balance Sheet Normalization",
+      "last_researched": "2026-03-22T03:00:00Z",
+      "depth_level": 1,
+      "confidence_score": 4.0,
+      "research_count": 2,
+      "knowledge_gaps": [
+        "Reserve scarcity tipping point estimation",
+        "RRP facility dynamics and money market impact",
+        "Fed vs ECB vs BOJ normalization sequencing"
+      ],
+      "connections": [
+        "monetary_policy",
+        "yield_curve_dynamics",
+        "volatility_regimes"
+      ],
+      "subtopics": [
+        "qt_pace_analysis",
+        "reserve_adequacy",
+        "global_liquidity_conditions"
+      ],
+      "key_concepts": [
+        "quantitative_tightening",
+        "reserve_scarcity",
+        "central_bank_liquidity"
+      ]
+    },
+    "sovereign_debt": {
+      "category": "credit_and_rates",
+      "display_name": "Global Sovereign Debt Sustainability",
+      "last_researched": "2026-03-22T04:30:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.0,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "Japan debt sustainability threshold",
+        "US fiscal trajectory under different policy scenarios",
+        "EM sovereign stress contagion mechanisms"
+      ],
+      "connections": [
+        "fiscal_policy",
+        "fiscal_dominance",
+        "yield_curve_dynamics",
+        "fx_regimes"
+      ],
+      "subtopics": [
+        "us_treasury_supply",
+        "em_sovereign_risk",
+        "debt_gdp_dynamics"
+      ],
+      "key_concepts": [
+        "debt_sustainability",
+        "sovereign_default_risk",
+        "fiscal_space"
+      ]
+    },
+    "corporate_credit": {
+      "category": "credit_and_rates",
+      "display_name": "Corporate Credit Quality & Spread Analysis",
+      "last_researched": "2026-03-22T04:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.5,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "Maturity wall sizing and refi risk timeline",
+        "Interest coverage ratio distribution in leveraged space",
+        "CCC-rated survival analysis under different rate paths"
+      ],
+      "connections": [
+        "credit_cycles",
+        "monetary_policy",
+        "equity_cycles"
+      ],
+      "subtopics": [
+        "ig_vs_hy_dynamics",
+        "maturity_wall",
+        "covenant_quality"
+      ],
+      "key_concepts": [
+        "credit_spread",
+        "interest_coverage_ratio",
+        "default_probability"
+      ]
+    },
+    "equity_cycles": {
+      "category": "asset_class_dynamics",
+      "display_name": "Equity Market Cycles & Valuation Regimes",
+      "last_researched": "2026-03-22T05:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.0,
+      "research_count": 4,
+      "knowledge_gaps": [
+        "AI capex cycle sustainability and rotation timing",
+        "Earnings quality deterioration signals",
+        "Small cap vs large cap divergence drivers"
+      ],
+      "connections": [
+        "rates_equity_correlation",
+        "credit_equity_linkage",
+        "growth_models"
+      ],
+      "subtopics": [
+        "sector_rotation",
+        "earnings_cycle",
+        "valuation_framework",
+        "ai_capex_sustainability"
+      ],
+      "key_concepts": [
+        "equity_risk_premium",
+        "earnings_revision_breadth",
+        "valuation_multiple"
+      ]
+    },
+    "commodity_supercycles": {
+      "category": "asset_class_dynamics",
+      "display_name": "Commodity Supercycles & Supply/Demand Dynamics",
+      "last_researched": "2026-03-22T03:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.0,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "Copper supply deficit quantification and timeline",
+        "Energy transition commodity demand modeling",
+        "OPEC+ strategy game theory under different demand scenarios"
+      ],
+      "connections": [
+        "energy_transition",
+        "commodity_inflation_transmission",
+        "deglobalization"
+      ],
+      "subtopics": [
+        "copper_structural_deficit",
+        "oil_supply_demand",
+        "gold_as_reserve_asset"
+      ],
+      "key_concepts": [
+        "commodity_supercycle",
+        "supply_elasticity",
+        "strategic_reserves"
+      ]
+    },
+    "fx_regimes": {
+      "category": "asset_class_dynamics",
+      "display_name": "Currency Regimes & FX Dynamics",
+      "last_researched": "2026-03-22T02:00:00Z",
+      "depth_level": 1,
+      "confidence_score": 4.0,
+      "research_count": 2,
+      "knowledge_gaps": [
+        "Dollar smile framework calibration for current regime",
+        "JPY carry trade unwind mechanics and thresholds",
+        "BRICS currency diversification pace and impact"
+      ],
+      "connections": [
+        "monetary_policy",
+        "fx_rates_divergence",
+        "sovereign_debt"
+      ],
+      "subtopics": [
+        "dollar_index_regime",
+        "jpy_carry_unwind",
+        "em_currency_risk",
+        "reserve_diversification"
+      ],
+      "key_concepts": [
+        "dollar_smile",
+        "carry_trade",
+        "currency_regime"
+      ]
+    },
+    "real_estate_cycles": {
+      "category": "asset_class_dynamics",
+      "display_name": "Real Estate Cycles & CRE Repricing",
+      "last_researched": "2026-03-22T04:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.5,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "Office-to-residential conversion economics",
+        "Regional bank CRE exposure contagion pathway",
+        "Cap rate decompression timeline vs rate cuts"
+      ],
+      "connections": [
+        "credit_cycles",
+        "monetary_policy",
+        "credit_equity_linkage"
+      ],
+      "subtopics": [
+        "office_repricing",
+        "regional_bank_cre_exposure",
+        "reit_valuation"
+      ],
+      "key_concepts": [
+        "cap_rate",
+        "cre_repricing",
+        "loan_to_value"
+      ]
+    },
+    "volatility_regimes": {
+      "category": "asset_class_dynamics",
+      "display_name": "Volatility Regime Analysis & Vol Surface Dynamics",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 3.0,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Rates vol underpricing thesis validation",
+        "VIX-MOVE correlation regime shifts",
+        "Implied vs realized vol spread under policy uncertainty"
+      ],
+      "connections": [
+        "rates_equity_correlation",
+        "monetary_policy",
+        "risk_appetite_regimes"
+      ],
+      "subtopics": [
+        "rates_vol_surfaces",
+        "equity_vol_regime",
+        "cross_asset_vol"
+      ],
+      "key_concepts": [
+        "volatility_regime",
+        "implied_realized_spread",
+        "vol_surface"
+      ]
+    },
+    "deglobalization": {
+      "category": "structural_themes",
+      "display_name": "Deglobalization, Supply Chain Rewiring, & Trade Fragmentation",
+      "last_researched": "2026-03-22T06:00:00Z",
+      "depth_level": 3,
+      "confidence_score": 6.0,
+      "research_count": 4,
+      "knowledge_gaps": [
+        "Nearshoring capex multiplier estimation",
+        "Rare earth supply chain vulnerability quantification",
+        "Tariff escalation scenario modeling"
+      ],
+      "connections": [
+        "commodity_supercycles",
+        "inflation_regimes",
+        "commodity_inflation_transmission"
+      ],
+      "subtopics": [
+        "friendshoring_economics",
+        "rare_earth_risk",
+        "trade_fragmentation_cost"
+      ],
+      "key_concepts": [
+        "supply_chain_rewiring",
+        "nearshoring",
+        "trade_fragmentation"
+      ]
+    },
+    "energy_transition": {
+      "category": "structural_themes",
+      "display_name": "Energy Transition Investment & Grid Modernization",
+      "last_researched": "2026-03-22T05:00:00Z",
+      "depth_level": 3,
+      "confidence_score": 6.5,
+      "research_count": 4,
+      "knowledge_gaps": [
+        "Grid modernization bottleneck quantification",
+        "Green premium evolution trajectory",
+        "Stranded asset risk for fossil fuel companies"
+      ],
+      "connections": [
+        "commodity_supercycles",
+        "fiscal_policy",
+        "ai_and_tech_disruption"
+      ],
+      "subtopics": [
+        "grid_infrastructure_bottleneck",
+        "green_bond_market",
+        "critical_minerals"
+      ],
+      "key_concepts": [
+        "energy_transition_capex",
+        "grid_bottleneck",
+        "green_premium"
+      ]
+    },
+    "demographics": {
+      "category": "structural_themes",
+      "display_name": "Demographic Shifts & Long-Term Growth Impact",
+      "last_researched": "2026-03-22T11:44:18Z",
+      "depth_level": 1,
+      "confidence_score": 6.3,
+      "research_count": 1,
+      "knowledge_gaps": [
+        "Dependency ratio tipping points by country",
+        "Sub-Saharan Africa and South Asia fertility rates may decline faster than UN median projections, collapsing the 'next billion consumers' thesis sooner than expected.",
+        "Immigration policy effects on potential GDP",
+        "The 5y5y forward real rate encodes a demographic signal about long-run neutral rates.",
+        "Bank profitability as a second-round demographic effect — structurally declining loan origination in aging societies undermines bank business models.",
+        "Aging population impact on savings rates and bond demand",
+        "The Minsky financial instability cycle is demographically conditioned, with demographic booms accelerating the hedge→speculative→Ponzi transition.",
+        "Declining birth rates in developed markets will structurally compress the RMBS securitization pipeline, redirecting capital toward private credit and esoteric ABS.",
+        "Compressed morbidity from GLP-1 agonists and longevity science could reduce rather than expand late-life healthcare costs."
+      ],
+      "connections": [
+        "growth_models",
+        "labor_market_dynamics",
+        "fiscal_policy",
+        "sovereign_debt"
+      ],
+      "subtopics": [
+        "aging_population_investment",
+        "immigration_economics",
+        "dependency_ratios"
+      ],
+      "key_concepts": [
+        "aging_population_gdp_drag",
+        "china_demographic_reckoning",
+        "demographic_bid_credit_spread_compression",
+        "demographic_divergence_relative_value",
+        "demographic_dividend",
+        "dependency_ratio",
+        "dependency_ratio_fiscal_deterioration",
+        "depopulation_abandonment_cascades",
+        "equity_returns_demographic_decline",
+        "fiscal_demographic_term_premium",
+        "immigration_credit_creation",
+        "immigration_policy_demographic_variable",
+        "japan_template",
+        "labor_scarcity_credit_quality_erosion",
+        "maturity_wall_labor_scarcity_squeeze",
+        "neutral_real_rate_depression",
+        "pension_adjusted_leverage",
+        "pension_duration_demand_belly_cheapness",
+        "retailization_liquidity_risk",
+        "savings_glut",
+        "stock_bond_correlation_regime"
+      ]
+    },
+    "ai_and_tech_disruption": {
+      "category": "structural_themes",
+      "display_name": "AI & Technology Disruption Economic Impact",
+      "last_researched": "2026-03-22T05:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 4.0,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "AI-to-productivity transmission mechanism and timing",
+        "Hyperscaler capex sustainability metrics",
+        "Labor displacement vs augmentation rate estimates"
+      ],
+      "connections": [
+        "equity_cycles",
+        "growth_models",
+        "labor_market_dynamics",
+        "energy_transition"
+      ],
+      "subtopics": [
+        "ai_capex_cycle",
+        "productivity_impact",
+        "tech_concentration_risk"
+      ],
+      "key_concepts": [
+        "ai_productivity_transmission",
+        "capex_cycle",
+        "tech_concentration"
+      ]
+    },
+    "fiscal_dominance": {
+      "category": "structural_themes",
+      "display_name": "Fiscal Dominance & Monetary Policy Constraints",
+      "last_researched": "2026-03-22T03:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.0,
+      "research_count": 2,
+      "knowledge_gaps": [
+        "Fiscal dominance threshold identification",
+        "Historical regime analogues (1940s, post-war)",
+        "Market pricing of fiscal dominance risk"
+      ],
+      "connections": [
+        "monetary_policy",
+        "sovereign_debt",
+        "fiscal_policy",
+        "inflation_regimes"
+      ],
+      "subtopics": [
+        "deficit_monetization_risk",
+        "term_premium_fiscal_component",
+        "financial_repression"
+      ],
+      "key_concepts": [
+        "fiscal_dominance",
+        "financial_repression",
+        "debt_monetization"
+      ]
+    },
+    "rates_equity_correlation": {
+      "category": "cross_asset",
+      "display_name": "Stock-Bond Correlation Regime Analysis",
+      "last_researched": "2026-03-22T04:00:00Z",
+      "depth_level": 2,
+      "confidence_score": 5.5,
+      "research_count": 3,
+      "knowledge_gaps": [
+        "Correlation flip trigger identification",
+        "Portfolio construction under persistent positive correlation",
+        "Historical analogue analysis (1970s, 1990s)"
+      ],
+      "connections": [
+        "monetary_policy",
+        "inflation_regimes",
+        "volatility_regimes",
+        "equity_cycles"
+      ],
+      "subtopics": [
+        "correlation_regime_drivers",
+        "portfolio_implications",
+        "hedging_alternatives"
+      ],
+      "key_concepts": [
+        "stock_bond_correlation",
+        "correlation_regime",
+        "diversification_benefit"
+      ]
+    },
+    "credit_equity_linkage": {
+      "category": "cross_asset",
+      "display_name": "Credit-Equity Linkage & Contagion Channels",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 3.0,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "CRE-to-bank-equity contagion mechanism",
+        "HY spread widening equity market impact threshold",
+        "Private credit-to-public market spillover channels"
+      ],
+      "connections": [
+        "credit_cycles",
+        "equity_cycles",
+        "real_estate_cycles",
+        "risk_appetite_regimes"
+      ],
+      "subtopics": [
+        "cre_bank_contagion",
+        "hy_equity_transmission",
+        "private_credit_spillover"
+      ],
+      "key_concepts": [
+        "credit_equity_contagion",
+        "merton_model",
+        "credit_impulse"
+      ]
+    },
+    "commodity_inflation_transmission": {
+      "category": "cross_asset",
+      "display_name": "Commodity Price → Inflation Transmission Mechanisms",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 2.5,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Energy price passthrough lags by sector",
+        "Food price inflation transmission in developed markets",
+        "Second-round effects vs first-round price level shifts"
+      ],
+      "connections": [
+        "commodity_supercycles",
+        "inflation_regimes",
+        "monetary_policy"
+      ],
+      "subtopics": [
+        "energy_passthrough",
+        "food_price_transmission",
+        "second_round_effects"
+      ],
+      "key_concepts": [
+        "commodity_passthrough",
+        "cost_push_inflation",
+        "second_round_effects"
+      ]
+    },
+    "fx_rates_divergence": {
+      "category": "cross_asset",
+      "display_name": "FX-Rates Divergence & Carry Dynamics",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 2.5,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Rate differential FX impact under different vol regimes",
+        "Central bank divergence currency implications",
+        "EM carry trade risk in tightening DM cycles"
+      ],
+      "connections": [
+        "fx_regimes",
+        "monetary_policy",
+        "sovereign_debt"
+      ],
+      "subtopics": [
+        "rate_differential_fx",
+        "divergence_trading",
+        "em_carry_risk"
+      ],
+      "key_concepts": [
+        "interest_rate_parity",
+        "carry_trade",
+        "policy_divergence"
+      ]
+    },
+    "risk_appetite_regimes": {
+      "category": "cross_asset",
+      "display_name": "Risk Appetite Regime Shifts & Contagion",
+      "last_researched": null,
+      "depth_level": 0,
+      "confidence_score": 2.0,
+      "research_count": 0,
+      "knowledge_gaps": [
+        "Risk-on/risk-off regime identification framework",
+        "Contagion velocity in modern market structure",
+        "Liquidity withdrawal cascade mechanisms"
+      ],
+      "connections": [
+        "volatility_regimes",
+        "credit_cycles",
+        "equity_cycles",
+        "fx_regimes"
+      ],
+      "subtopics": [
+        "risk_on_risk_off",
+        "liquidity_cascade",
+        "contagion_channels"
+      ],
+      "key_concepts": [
+        "risk_appetite",
+        "flight_to_quality",
+        "liquidity_cascade"
+      ]
+    }
+  }
+}

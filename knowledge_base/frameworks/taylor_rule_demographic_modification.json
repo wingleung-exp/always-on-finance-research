@@ -1,0 +1,24 @@
+{
+  "slug": "taylor_rule_demographic_modification",
+  "purpose": "Addresses the need to modify the Taylor Rule for demographic regimes where r* is structurally lower and the zero lower bound is hit more frequently",
+  "components": [
+    "Demographic r* adjustment: lower neutral rate in aging economies",
+    "ZLB frequency: aging economies hit ZLB more often, where fiscal multipliers are large (Christiano et al. 2011)",
+    "Immigration-disinflation nexus: immigration inflows may partially explain 'immaculate disinflation'",
+    "OLG-NK model framework for formal r* decomposition"
+  ],
+  "current_assessment": "Underexplored and policy-relevant. The tension between lower multipliers from aging population composition and higher multipliers at ZLB remains unresolved.",
+  "limitations": [
+    "Opposing signs of demographic composition effect and ZLB frequency effect",
+    "Difficult to empirically estimate modified Taylor Rule parameters",
+    "Immigration policy volatility makes r* estimation unstable"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-22T11:44:18Z",
+  "last_updated": "2026-03-22T11:44:18Z",
+  "originating_iteration": "iter_0001",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0001"
+  ]
+}
