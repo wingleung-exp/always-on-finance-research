@@ -12,10 +12,10 @@ set -euo pipefail
 #   ITER_DIR       — Iteration output directory
 #   KB_DIR         — Knowledge base directory
 #   LOG_FILE       — Path to log file
-#   TIMEOUT        — Per-agent timeout in seconds (default 300)
+#   (no forced timeout — uses Claude's own defaults)
 ###############################################################################
 
-TIMEOUT="${TIMEOUT:-300}"
+# No artificial timeout — let Claude run to completion
 PHASE1_DIR="${ITER_DIR}/phase1"
 mkdir -p "$PHASE1_DIR"
 
@@ -197,7 +197,7 @@ TEMPLATE
     # --- Run Claude ---
     log "Starting agent: ${role_id} (${name})"
 
-    if cat "$prompt_file" | timeout "$TIMEOUT" claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
+    if cat "$prompt_file" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
         log "Agent ${role_id} completed successfully"
     else
         local exit_code=$?
@@ -206,7 +206,7 @@ TEMPLATE
         cat > "$output_file" << STUBEOF
 # ${TOPIC} — ${name} Analysis
 
-<!-- AGENT_FAILURE: Agent ${role_id} failed with exit code ${exit_code} (timeout=${TIMEOUT}s) -->
+<!-- AGENT_FAILURE: Agent ${role_id} failed with exit code ${exit_code} -->
 
 ## Key Claims
 (Agent failed to produce output.)

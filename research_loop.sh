@@ -122,7 +122,20 @@ while $RUNNING; do
     KB_RELS=$(find "$BASE/knowledge_base/relationships" -name "*.json" -type f 2>/dev/null | wc -l)
     log_msg "iter=$ITERATION_ID | kb_concepts=$KB_CONCEPTS | kb_relationships=$KB_RELS | pipeline=$PIPELINE_OK"
 
-    # ── 5. Sleep ──
+    # ── 5. Push to GitHub ──
+    log_msg "iter=$ITERATION_ID | phase=git_push"
+    (
+        cd "$BASE"
+        git add -A
+        git commit -m "${ITERATION_ID}: ${DISPLAY_NAME} (${MODE})" \
+            -m "topic=${TOPIC} category=${TOPIC_CATEGORY}" \
+            -m "kb_concepts=${KB_CONCEPTS} kb_relationships=${KB_RELS} pipeline_ok=${PIPELINE_OK}" \
+            2>>"$LOG" || true
+        git push origin main 2>>"$LOG" || log_msg "iter=$ITERATION_ID | git push failed"
+    )
+    log_msg "iter=$ITERATION_ID | phase=git_push_complete"
+
+    # ── 6. Sleep ──
     SLEEP_TIME=$(( RANDOM % 61 + 30 ))
     log_msg "iter=$ITERATION_ID | sleeping ${SLEEP_TIME}s"
     sleep "$SLEEP_TIME" || true
