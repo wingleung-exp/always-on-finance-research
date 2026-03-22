@@ -1,0 +1,34 @@
+{
+  "slug": "em_crisis_archetype",
+  "definition": "A five-signal early-warning scoring system for EM currency crises with 80% hit rate when 4-5 signals present, 45% at 3 signals, and 10% at 0-2 signals, validated across 15+ episodes since 1980. False positive rate ~25-30%, typically because preemptive policy adjustment occurred. Currently 8-12 economies exhibit 3+ signals. Stronger for detection than timing.",
+  "confidence": 6.5,
+  "evidence": [
+    "15+ episodes since 1980 validate the archetype",
+    "80% crisis rate at 4-5 signals, 45% at 3, 10% at 0-2",
+    "False positive rate ~25-30% typically from preemptive policy adjustment",
+    "Managed-float/peg regimes produce 30-60% discrete devaluations vs continuous adjustment in credible floaters",
+    "Pair_0 debate confirmed framework as more actionable and better validated than alternatives"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "What are the specific 5 signals and their individual predictive power",
+    "Can timing be narrowed beyond within 24 months",
+    "Whether the false positive rate from preemptive adjustment means the framework causes its own failure"
+  ],
+  "related_concepts": [
+    "fx_regime_classification_mismatch",
+    "em_commodity_exporter_vulnerability",
+    "pboc_stored_energy"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

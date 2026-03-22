@@ -1,0 +1,20 @@
+{
+  "concept_a": "carry_momentum_correlation_switch",
+  "concept_b": "jpy_carry_unwind_risk",
+  "mechanism": "In normal state, carry and momentum are diversifying (correlation -0.2 to -0.3). During carry unwind stress, correlation snaps to +0.5 to +0.9, amplifying losses by 25-40% beyond what normal-state VaR models predict.",
+  "direction": "bidirectional",
+  "confidence": 8,
+  "regime_dependence": "Switch activates during stress episodes; the diversification benefit exists only in calm markets when it is least needed.",
+  "originating_agents": [
+    "fx_strategist_01",
+    "generalist_01"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

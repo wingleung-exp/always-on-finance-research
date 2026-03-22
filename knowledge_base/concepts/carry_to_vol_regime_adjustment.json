@@ -1,0 +1,31 @@
+{
+  "slug": "carry_to_vol_regime_adjustment",
+  "definition": "Nominal carry-to-volatility ratios of 0.9-1.1 for G10 carry trades fall to 0.5-0.7 when adjusted for the regime-conditional vol relationship. This adjustment reveals that carry attractiveness is systematically overstated because it uses contemporaneous low vol rather than the higher vol that tends to materialize when carry unwinds.",
+  "confidence": 6.5,
+  "evidence": [
+    "Nominal carry-to-vol 0.9-1.1 falls to regime-adjusted 0.5-0.7",
+    "Regime-conditional R-squared shift from 8-12% to 0-2% demonstrates the adjustment mechanism",
+    "Reference period sensitivity partially explains the magnitude"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Whether the regime adjustment can be implemented in real-time for portfolio management",
+    "How the adjustment interacts with carry Sharpe ratio confidence intervals that include zero"
+  ],
+  "related_concepts": [
+    "regime_conditional_rate_fx",
+    "move_fx_vol_divergence",
+    "jpy_carry_unwind_risk",
+    "carry_momentum_correlation_switch"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "dollar_smile_framework",
+  "definition": "The Dollar Smile posits three FX regimes: risk-off dollar strength (left), weak-growth dollar weakness (middle), and strong-growth dollar strength (right). It is descriptively useful but analytically limited because its three regimes exhaustively cover all macro states, making it unfalsifiable as typically deployed. Should be treated as a scenario-organizing heuristic, not a predictive model.",
+  "confidence": 8,
+  "evidence": [
+    "Historical counterexamples: 2017-18 US outperformed but dollar weakened 10%; Q2-Q3 2020 risk-off but dollar weakened after initial spike",
+    "No agent produced a real-time regime identification rule with documented hit rates",
+    "Three regimes exhaustively cover all macro states, making the framework unfalsifiable",
+    "rates_strategist_02 recalibration (DXY 95-108) critiqued as not following from evidence",
+    "Pair_3 synthesis: poor explanatory model but useful scenario-organizing tool if users commit to ex-ante regime identification"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "rates_strategist_02",
+    "generalist_01",
+    "fx_strategist_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Whether any regime identification rule can achieve >60% hit rate on 1-year dollar direction",
+    "How fiscal dominance may bifurcate the left tail (anti-dollar risk-off)",
+    "Whether the fiscal dollar smile / asymmetric smirk concept meaningfully recalibrates the framework"
+  ],
+  "related_concepts": [
+    "fiscal_dollar_smile",
+    "fiscal_dominance_left_tail",
+    "regime_conditional_rate_fx",
+    "dollar_transitional_regime"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

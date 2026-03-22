@@ -1,0 +1,36 @@
+{
+  "slug": "fx_regime_classification_mismatch",
+  "definition": "De facto FX regimes systematically diverge from de jure classifications with ~40-50% mismatch rates across country-years. Regime type is a primary determinant of crisis propagation speed: managed/pegged regimes accumulate misalignment producing 30-60% discrete devaluations versus continuous adjustment in credible floaters.",
+  "confidence": 8,
+  "evidence": [
+    "Reinhart-Rogoff (2004) and Levy-Yeyati-Sturzenegger (2005) document ~45% country-year divergence",
+    "Nigeria naira 460 to 770, Egypt pound 31 to 50, Ethiopia birr 57 to 100+ vs Brazil 20% continuous depreciation",
+    "China managed float operating as crawling peg: daily fixing divergence 500-1500 pips, 20% forward reserve requirement, $5-15B/month state bank intervention",
+    "Impossible trinity violations resolve via FX regime adjustment in 8/9 major episodes (89%)"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "fx_strategist_02",
+    "rates_strategist_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Whether real-time de facto classification can be done reliably enough for portfolio positioning",
+    "How the PBOC administered regime stores energy for eventual discontinuous adjustment",
+    "Whether digital currencies or CBDCs alter the impossible trinity calculus"
+  ],
+  "related_concepts": [
+    "em_crisis_archetype",
+    "pboc_stored_energy",
+    "em_commodity_exporter_vulnerability",
+    "em_regime_valuation_gap"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

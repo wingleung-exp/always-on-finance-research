@@ -587,5 +587,83 @@
     ],
     "topic": "fiscal_policy",
     "iteration_id": "iter_0011"
+  },
+  {
+    "claim": "Dollar decline of 12-25% over 18-36 months with DXY target of 87-95.",
+    "reason": "The 7 analogues span wildly different structural contexts (1985 Plaza 50% overvaluation with coordinated intervention vs 2017 10% decline that reversed). Taking the median across heterogeneous episodes produces false precision. The 2017 episode reversed entirely but was included in the base rate while ignoring the reversal.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "60/40 EUR/USD strength directional skew.",
+    "reason": "Agent's own analysis describes the fundamental case as ambiguous (rate differentials favor USD, valuation/current account favor EUR) which should produce ~50/50. EUR structural energy headwind (TTF-Henry Hub spread, 15-30% manufacturing cost premium from iter_0009) entirely absent. At 4/10 confidence, the directional lean is noise not signal.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "FX regime transitions are more consequential than equity bear markets or credit widenings.",
+    "reason": "2008 GFC was credit-led, 2020 COVID was equity-led. FX transitions coincide with but do not dominate these events. The Gopinath dominant currency channel establishes FX as the most broadly transmitted mechanism, not the most consequential. Different claims.",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "USD/JPY 140 in under 3 weeks as the critical threshold for disorderly carry unwind.",
+    "reason": "Single-episode calibration (August 2024) is textbook overfitting. That episode had specific characteristics (BoJ meeting timing, thin summer liquidity, concurrent position unwinding) that may not repeat. The underlying systemic risk survives but the specific trigger level does not.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "$200-400B missing demand over a 6-month stress period from reserve diversification.",
+    "reason": "Annual flow calculation (~$96B/year = 0.8pp times $12T reserves) does not support a 4-8x acceleration to $200-400B in 6 months. No behavioral model, central bank identification, or reserve proportion specified. Empirical approach (mBridge $20B test transactions, bilateral settlement <5% of volumes) is more grounded.",
+    "refuted_by": [
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "Twin deficit at approximately 8% combined GDP as a binding constraint on dollar strength.",
+    "reason": "Derived from n=2 episodes (1985-87 and 2002-08). Cannot derive a binding threshold from two observations. The exorbitant privilege and safe-asset-shortage framework suggest foreign UST demand may be dollar-level-insensitive, potentially rendering any threshold comparison meaningless. Direction survives but specific threshold does not.",
+    "refuted_by": [
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "Carry Sharpe point estimates of 0.15-0.25 treated as informative for portfolio construction when the 95% confidence interval includes zero.",
+    "reason": "Internal consistency critique: prior iterations documented the CI including zero but drew analytical conclusions exceeding the evidence base. Partially moderated in pair_3 debate as positive point estimate shifts Bayesian portfolio weights even when frequentist significance fails, but specific conclusions built on the point estimate were weakened.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "Remarkably consistent secular trend of 0.5-0.7 percentage points per year USD reserve decline with linear extrapolation to approximately 50% by 2040-2045.",
+    "reason": "Self-refutation: agent's own data shows acceleration from 0.4pp/year (2000-2015) to 0.7pp/year (2015-2025), a 75% acceleration that undermines the consistent characterization and linear extrapolation. Direction and approximate pace survive but consistency claim and specific timeline do not.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
   }
 ]

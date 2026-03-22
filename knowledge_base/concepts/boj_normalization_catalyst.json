@@ -1,34 +1,49 @@
 {
   "slug": "boj_normalization_catalyst",
   "definition": "BoJ normalization is the highest-probability individual catalyst for carry disruption, following a foreshock → main event pattern. July 2006 → August 2007 (13-month gap) is the closest analogue to August 2024. Carry positions rebuilt ~60-70% per CFTC data, with surviving positions more leveraged and concentrated due to selection bias.",
-  "confidence": 6.5,
+  "confidence": 6.75,
   "evidence": [
     "2006-2007 structural analogue with 13-month gap",
     "CFTC data showing ~60-70% position rebuilding post-August 2024",
-    "Selection bias: weakest hands exited first, residual carry more concentrated"
+    "Selection bias: weakest hands exited first, residual carry more concentrated",
+    "JPY 25-35% below PPP fair value at ~148-155 (REER verifiable)",
+    "US-Japan 2-year rate differential ~350-400bp, compressing ~25-50bp per BoJ hike",
+    "August 2024 pause revealed BoJ reaction function as circuit-breaker",
+    "Scenario taxonomy: stop-go, soft normalization, external shock",
+    "Per-action unwind probability ~3-8% conditional range (pair_3 debate resolution)"
   ],
   "originating_agents": [
     "generalist_02",
     "risk_analyst_01",
     "generalist_01",
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "rates_strategist_02",
+    "fx_strategist_01"
   ],
   "open_questions": [
     "Current 19-month gap exceeds both historical precedents (13-14 months)",
     "Per-step dislocation probability CI [2%, 35%] makes cumulative estimates uninformative",
-    "Whether JPY safe-haven property survives BoJ reaching 0.75-1.0%"
+    "Whether JPY safe-haven property survives BoJ reaching 0.75-1.0%",
+    "Half-life of BoJ circuit-breaker credibility (does it erode with each use or strengthen)",
+    "Whether stop-go scenario leads to worse eventual outcomes than continuous normalization",
+    "Precise conditioning set for unwind probability: positioning levels, vol regime, credit cycle stage"
   ],
   "related_concepts": [
     "compressed_spring_probability",
     "episode_2006_07_similarity",
-    "carry_unwind_sequencing"
+    "carry_unwind_sequencing",
+    "jpy_carry_unwind_risk",
+    "dollar_transitional_regime",
+    "carry_momentum_correlation_switch",
+    "move_fx_vol_divergence"
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-22T21:50:58Z",
-  "last_updated": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-22T23:41:55Z",
   "originating_iteration": "iter_0009",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0009"
+    "iter_0009",
+    "iter_0012"
   ]
 }

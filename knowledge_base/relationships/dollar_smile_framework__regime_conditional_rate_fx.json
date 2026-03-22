@@ -1,0 +1,21 @@
+{
+  "concept_a": "regime_conditional_rate_fx",
+  "concept_b": "dollar_smile_framework",
+  "mechanism": "The rate-FX R-squared regime (8-12% in low vol vs 0-2% in high vol) maps directly to the Dollar Smile zones. Middle zone = low-vol regime where rate differentials drive FX. Left/right sides = high-vol where risk appetite or growth dominance overrides rates.",
+  "direction": "bidirectional",
+  "confidence": 8,
+  "regime_dependence": "Relationship is tautological in the middle zone and breaks down at extremes. Useful only when vol regime can be identified ex ante.",
+  "originating_agents": [
+    "generalist_01",
+    "fx_strategist_01",
+    "fx_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "jpy_carry_unwind_risk",
+  "definition": "JPY carry trade represents genuine systemic risk with carry cushion narrowed from ~5.5% (2023) to ~3.5-4.0% (2026). CFTC positioning rebuilt to ~120K contracts (~60-70% of pre-August 2024 peaks), making the next unwind mechanically larger. Unwind follows a sequencing chain: FX vol to rates to equity correlation to credit.",
+  "confidence": 8,
+  "evidence": [
+    "August 2024 episode validated mechanism: USD/JPY 162 to 142, Nikkei -12%, VIX >65",
+    "CFTC positioning rebuilt to ~120K contracts (~60-70% of pre-August 2024 peaks)",
+    "BoJ at 0.75% with 4-6 additional 25bp steps expected",
+    "Carry-to-vol ratio nominal 0.9-1.1 but regime-adjusted only 0.5-0.7",
+    "Speculative equity-specific exposure ~$300-500B; total JPY-funded cross-border lending $4-6T but conflates speculative and hedged positions",
+    "Credit cycle position confirmed as primary severity discriminant",
+    "Current credit spreads (IG ~110bp, HY ~380bp) below danger thresholds favoring contained scenario",
+    "2025-2027 maturity wall introduces time-varying risk"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "generalist_01",
+    "rates_strategist_02",
+    "equity_analyst_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "What fraction of $4-6T JPY-funded cross-border lending is unhedged speculative exposure vs naturally hedged",
+    "Precise conditional probability of unwind per BoJ action (range resolved to ~3-8%)",
+    "Whether BoJ circuit-breaker function (August 2024 pause) durably reduces tail severity",
+    "How the 2025-2027 maturity wall interacts with carry positioning"
+  ],
+  "related_concepts": [
+    "boj_normalization_catalyst",
+    "carry_momentum_correlation_switch",
+    "move_fx_vol_divergence",
+    "carry_to_vol_regime_adjustment",
+    "maturity_dependent_hedge_failure"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

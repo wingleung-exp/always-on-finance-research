@@ -1,0 +1,35 @@
+{
+  "slug": "dollar_beer_overvaluation",
+  "definition": "The dollar is 8-15% overvalued on a trade-weighted Behavioral Equilibrium Exchange Rate (BEER) basis, adjusting for relative productivity and terms of trade. PPP metrics suggest more extreme overvaluation: ~15-20% vs EUR, ~25-35% vs JPY, ~5-10% vs GBP. BEER models have documented out-of-sample predictive power at 1-5 year horizons, but the exorbitant privilege can sustain overvaluation for years.",
+  "confidence": 6.5,
+  "evidence": [
+    "OECD PPP estimates: 15-20% overvalued vs EUR, 25-35% vs JPY, 5-10% vs GBP",
+    "BEER model adjusting for productivity and terms of trade narrows to 8-15% trade-weighted",
+    "Cheung et al. (2005): BEER models have documented out-of-sample predictive power at 1-5 year horizons",
+    "Exorbitant privilege and safe-asset shortage may sustain overvaluation indefinitely"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "generalist_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Whether the exorbitant privilege has permanently shifted fair value metrics",
+    "Whether AI capex inflows represent a structural productivity shift that justifies some of the overvaluation",
+    "Time horizon over which BEER mean-reversion exerts force"
+  ],
+  "related_concepts": [
+    "dollar_transitional_regime",
+    "us_twin_deficit_headwinds",
+    "exorbitant_privilege",
+    "boj_normalization_catalyst"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "triple_cross_asset_inconsistency",
+  "definition": "Three major asset classes are simultaneously pricing incompatible macro scenarios: S&P 500 at 21x forward P/E (pricing strong growth), rates pricing 50-75bp of cuts (pricing weakness), and DXY resilient at 103-106 (pricing relative US strength). At least one market must reprice.",
+  "confidence": 6,
+  "evidence": [
+    "SPX forward P/E ~21x implies strong earnings growth",
+    "Fed funds futures pricing 50-75bp cuts implies growth weakness",
+    "DXY 103-106 resilience implies relative US outperformance",
+    "Arithmetically demonstrable that all three cannot hold simultaneously"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Which market reprices first and in which direction",
+    "Whether the inconsistency can persist through a soft landing scenario",
+    "How FCI divergence from policy rates explains part of the apparent inconsistency"
+  ],
+  "related_concepts": [
+    "dollar_transitional_regime",
+    "fci_policy_rate_divergence",
+    "dollar_smile_framework"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "fci_decomposition",
+  "purpose": "Decomposing the gap between financial conditions and the policy rate to identify which channels are doing the easing work.",
+  "components": [
+    "Equity channel: ~30-35bp of loosening",
+    "Credit spread channel: ~20-25bp of loosening",
+    "Mortgage rate channel: ~15-20bp of loosening",
+    "FX channel: ~10-15bp of loosening",
+    "Actual rate cuts: ~15-20bp of loosening",
+    "Total divergence: ~75-100bp easier than 4.25-4.50% policy rate"
+  ],
+  "current_assessment": "Called the most actionable insight by pair_3 debate. Reveals that equity and credit channels dominate Fed loosening, making conditions fragile to market reversals. Asymmetric cross-central-bank implication: ECB more FX-sensitive because European equity/credit provide less loosening.",
+  "limitations": [
+    "Precise magnitude depends on FCI construction methodology",
+    "Channel decomposition may not be stable over time",
+    "Equity/credit channels are reflexive and could reverse rapidly",
+    "Cross-provider comparison of FCI methodologies not resolved"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

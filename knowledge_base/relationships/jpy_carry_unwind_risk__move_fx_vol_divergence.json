@@ -1,0 +1,20 @@
+{
+  "concept_a": "jpy_carry_unwind_risk",
+  "concept_b": "move_fx_vol_divergence",
+  "mechanism": "A carry unwind would resolve the MOVE-FX vol divergence by repricing FX vol sharply higher. The current 1.8 sigma divergence represents stored energy that carry unwind would release.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Resolution pathway is regime-dependent: in low-vol carry accumulation, divergence persists; transition to high-vol triggers convergence via FX vol spike.",
+  "originating_agents": [
+    "generalist_01",
+    "fx_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

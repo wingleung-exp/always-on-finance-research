@@ -1,0 +1,25 @@
+{
+  "slug": "beer_fair_value_model",
+  "purpose": "Estimating fundamental exchange rate fair value by adjusting for relative productivity and terms of trade, distinguishing from simpler PPP measures.",
+  "components": [
+    "Trade-weighted BEER estimate: dollar 8-15% overvalued",
+    "PPP comparison: 15-20% vs EUR, 25-35% vs JPY, 5-10% vs GBP",
+    "Productivity and terms-of-trade adjustments",
+    "1-5 year out-of-sample predictive power (Cheung et al. 2005)"
+  ],
+  "current_assessment": "The only quantified fair value estimation across all agents. Directionally useful at 1-5 year horizons but cannot serve as a timing signal due to exorbitant privilege sustaining overvaluation for extended periods.",
+  "limitations": [
+    "Exorbitant privilege can sustain overvaluation for years beyond model horizon",
+    "Zero short-term predictive power",
+    "AI capex productivity shifts may not be captured in historical calibration",
+    "Construction methodology varies across providers"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

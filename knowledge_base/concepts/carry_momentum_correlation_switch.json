@@ -1,0 +1,34 @@
+{
+  "slug": "carry_momentum_correlation_switch",
+  "definition": "Carry and momentum FX strategies exhibit a correlation regime switch from normal-state -0.2 to -0.3 to stress-state +0.5 to +0.9. This creates a diversification illusion that overstates portfolio VaR estimates by 25-40%. The bifurcation between carry beneficiary currencies (AUD, NZD) and safe havens (CHF, JPY) diverges in calm markets but snaps to co-movement in stress.",
+  "confidence": 8,
+  "evidence": [
+    "Inherited from iter_0009 at 8.5/10 confidence",
+    "G10 bifurcation: carry beneficiaries (AUD, NZD) vs safe havens (CHF, JPY) diverge in calm, co-move in stress",
+    "Mechanism confirmed via Gopinath dominant currency paradigm (KB confidence 9)",
+    "No agent challenges this finding"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the correlation switch can be predicted ex ante with sufficient lead time",
+    "How carry structural short gamma interacts with dealer hedging dynamics",
+    "Whether the VaR overstatement can be corrected via regime-switching copula models"
+  ],
+  "related_concepts": [
+    "jpy_carry_unwind_risk",
+    "regime_conditional_rate_fx",
+    "dominant_currency_paradigm",
+    "carry_to_vol_regime_adjustment"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

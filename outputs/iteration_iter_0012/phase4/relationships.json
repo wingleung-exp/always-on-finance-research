@@ -1,0 +1,214 @@
+[
+  {
+    "concept_a": "boj_normalization_catalyst",
+    "concept_b": "jpy_carry_unwind_risk",
+    "mechanism": "Each BoJ rate hike compresses the US-Japan rate differential by ~25-50bp, narrowing the carry cushion and raising the conditional probability of an unwind event. The normalization paradox means tightening itself generates the instability it seeks to prevent.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Strongest when CFTC positioning is elevated (>100K contracts) and credit spreads are below danger thresholds, allowing positions to rebuild between hikes.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "fx_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "jpy_carry_unwind_risk",
+    "concept_b": "move_fx_vol_divergence",
+    "mechanism": "A carry unwind would resolve the MOVE-FX vol divergence by repricing FX vol sharply higher. The current 1.8 sigma divergence represents stored energy that carry unwind would release.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Resolution pathway is regime-dependent: in low-vol carry accumulation, divergence persists; transition to high-vol triggers convergence via FX vol spike.",
+    "originating_agents": [
+      "generalist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "regime_conditional_rate_fx",
+    "concept_b": "dollar_smile_framework",
+    "mechanism": "The rate-FX R-squared regime (8-12% in low vol vs 0-2% in high vol) maps directly to the Dollar Smile zones. Middle zone = low-vol regime where rate differentials drive FX. Left/right sides = high-vol where risk appetite or growth dominance overrides rates.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Relationship is tautological in the middle zone and breaks down at extremes. Useful only when vol regime can be identified ex ante.",
+    "originating_agents": [
+      "generalist_01",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fx_regime_classification_mismatch",
+    "concept_b": "em_crisis_archetype",
+    "mechanism": "Managed/pegged regimes that diverge from de jure classification accumulate misalignment that eventually produces 30-60% discrete devaluations, triggering the crisis archetype. The mismatch itself is one of the 5 scoring signals.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Strongest in economies with limited reserve buffers and political constraints on preemptive adjustment. Weakened where reserves are sufficient (China $3T+) or where administrative controls dampen adjustment.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "carry_momentum_correlation_switch",
+    "concept_b": "jpy_carry_unwind_risk",
+    "mechanism": "In normal state, carry and momentum are diversifying (correlation -0.2 to -0.3). During carry unwind stress, correlation snaps to +0.5 to +0.9, amplifying losses by 25-40% beyond what normal-state VaR models predict.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Switch activates during stress episodes; the diversification benefit exists only in calm markets when it is least needed.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fci_policy_rate_divergence",
+    "concept_b": "dollar_transitional_regime",
+    "mechanism": "FCI ~75-100bp easier than policy rate creates an unstable equilibrium: if equity/credit channels reverse, conditions tighten sharply without any policy change, potentially forcing the dollar direction resolution.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Relationship is asymmetric: equity/credit channels can tighten conditions much faster than monetary policy can ease them.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "central_bank_gold_structural_shift",
+    "concept_b": "dedollarization_pace",
+    "mechanism": "CB gold purchases at 1000+ tonnes/year are a revealed preference for reserve diversification away from USD assets, compounding the 0.5-0.8pp/year reserve share decline. Post-Russia sanctions freeze accelerated the linkage.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Strongest among non-Western central banks exposed to sanctions risk. Weakened if gold price appreciation reduces incentive for further allocation.",
+    "originating_agents": [
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fiscal_dominance_left_tail",
+    "concept_b": "dollar_smile_framework",
+    "mechanism": "If fiscal concerns trigger a US-origin risk-off event, the dollar could weaken alongside equities rather than strengthen, bifurcating the left tail of the Dollar Smile. Term premium expansion and declining auction bid-to-cover are early signals.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Only relevant if fiscal concerns become the primary risk-off driver rather than traditional recession/geopolitical catalysts. No post-1971 US precedent.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "dominant_currency_paradigm",
+    "concept_b": "carry_momentum_correlation_switch",
+    "mechanism": "Dollar invoicing dominance (Gopinath) creates the co-movement channel: stress events trigger dollar demand for trade settlement across all currency pairs simultaneously, causing carry and safe-haven currencies to snap to co-movement.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Permanent structural feature as long as dollar invoicing share remains dominant (~88% of FX turnover).",
+    "originating_agents": [
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "dollar_beer_overvaluation",
+    "concept_b": "dollar_transitional_regime",
+    "mechanism": "8-15% trade-weighted BEER overvaluation provides gravitational pull toward weakness, but the exorbitant privilege can delay mean-reversion for years. Overvaluation is a necessary but insufficient condition for cycle inflection.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "BEER mean-reversion has documented 1-5 year out-of-sample predictive power but zero short-term predictive power. Overvaluation can persist or widen before reversing.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "us_twin_deficit_headwinds",
+    "concept_b": "dollar_beer_overvaluation",
+    "mechanism": "Twin deficits (fiscal 6-7% + current account 3-4%) create flow headwinds that reinforce BEER overvaluation. Higher deficits require more foreign capital inflow to sustain dollar level, creating a fragile equilibrium.",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Relationship weakened or negated when safe-asset demand is high (risk-off) and strengthened when growth convergence reduces relative US appeal.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fx_regime_classification_mismatch",
+    "concept_b": "pboc_stored_energy",
+    "mechanism": "China's administered FX regime (de jure managed float, de facto crawling peg) accumulates a growing gap between administered and shadow equilibrium rates. This stored energy eventually requires discontinuous adjustment, as in 2015.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "China's $3T+ reserves provide a much larger buffer than pre-crisis Asian pegs, extending the duration stored energy can accumulate before release.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fiscal_dollar_smile",
+    "concept_b": "dollar_transitional_regime",
+    "mechanism": "Fiscal expansion in non-recessionary economy reshapes the smile into an asymmetric smirk, structurally supporting the dollar in the middle zone and potentially preventing the weakening that growth convergence would otherwise produce.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Only applies during sustained fiscal expansion. A fiscal consolidation or recession would remove the smirk effect.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "fx_translation_earnings_distortion",
+    "concept_b": "dollar_transitional_regime",
+    "mechanism": "Dollar direction resolution will create large mechanical impacts on S&P 500 reported earnings (2-4% EPS per 10% DXY move), with non-GAAP adjustments amplifying or obscuring the effect depending on direction.",
+    "direction": "b_causes_a",
+    "confidence": 8,
+    "regime_dependence": "Always present for multinationals with >30% international revenue; magnitude scales linearly with DXY move size.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  },
+  {
+    "concept_a": "exorbitant_privilege",
+    "concept_b": "us_twin_deficit_headwinds",
+    "mechanism": "Persistent capital inflows driven by safe-asset demand may offset twin deficit pressure, potentially rendering threshold-based analysis meaningless. The privilege acts as a counterweight to fundamental headwinds.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest when global risk appetite is low and alternative safe assets are scarce. Weakens during periods of active reserve diversification.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0012"
+  }
+]

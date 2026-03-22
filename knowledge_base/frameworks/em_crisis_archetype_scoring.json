@@ -1,0 +1,27 @@
+{
+  "slug": "em_crisis_archetype_scoring",
+  "purpose": "Early-warning system for EM currency crises using a five-signal scoring methodology.",
+  "components": [
+    "Signal scoring: 5 signals (specific signals not enumerated in synthesis)",
+    "Crisis probability: 80% at 4-5 signals, 45% at 3 signals, 10% at 0-2 signals",
+    "False positive rate: 25-30% (typically from preemptive policy adjustment)",
+    "Regime type as severity determinant: managed/pegged produce 30-60% discrete devaluations vs continuous adjustment in credible floaters",
+    "Current state: 8-12 economies exhibiting 3+ signals"
+  ],
+  "current_assessment": "Validated across 15+ episodes since 1980. More actionable and better validated than alternatives per pair_0 debate. Stronger for detection than timing: knowing 3+ signals present narrows crisis window only to within 24 months. Currently 8-12 economies at elevated risk.",
+  "limitations": [
+    "Timing precision limited to within 24 months window",
+    "25-30% false positive rate from preemptive adjustment",
+    "Specific 5 signals not fully enumerated in available synthesis",
+    "Cannot distinguish which of 8-12 elevated-risk economies will actually experience crisis",
+    "Framework may cause its own failure if preemptive adjustment prevents crisis"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

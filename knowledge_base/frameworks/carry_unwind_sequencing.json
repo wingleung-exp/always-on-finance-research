@@ -1,0 +1,27 @@
+{
+  "slug": "carry_unwind_sequencing",
+  "purpose": "Predicting the transmission chain of a carry trade unwind through asset classes.",
+  "components": [
+    "Stage 1: FX volatility spike (carry currency depreciation)",
+    "Stage 2: Rates market disruption (rate differentials compress)",
+    "Stage 3: Equity correlation increase (cross-asset contagion)",
+    "Stage 4: Credit spread widening (final stage, severity-determining)",
+    "Credit cycle position as primary severity discriminant"
+  ],
+  "current_assessment": "Inherited from iter_0009 at 6.5/10 confidence. August 2024 episode validated stages 1-3 but credit stage was contained (spreads below danger thresholds). Current credit spreads (IG ~110bp, HY ~380bp) favor contained scenario but 2025-2027 maturity wall introduces time-varying risk. Maturity-dependent correlation bifurcation (2Y negative vs 30Y slightly positive during unwind) is a post-2022 phenomenon that could cause back-end duration hedges to fail.",
+  "limitations": [
+    "Based on limited sample of full-cycle unwinds",
+    "August 2024 episode may not be representative of future unwinds",
+    "Credit stage severity depends on cycle position which is itself hard to assess",
+    "Post-2022 maturity-dependent correlation shift may be transient",
+    "No specification of timing between stages"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

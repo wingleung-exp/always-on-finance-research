@@ -1,0 +1,35 @@
+{
+  "slug": "fx_translation_earnings_distortion",
+  "definition": "FX translation effects materially distort multinational earnings quality. A 10% DXY move creates 2-4% EPS drag for S&P 500 companies (~40% international revenue). Non-GAAP FX adjustments are the most systematically abused category: companies asymmetrically exclude unfavorable translation while retaining favorable transaction gains. ROIC is distorted by numerator/denominator mismatch (NOPAT at average rates vs invested capital at historical rates), creating phantom 200-400bp ROIC changes.",
+  "confidence": 8,
+  "evidence": [
+    "S&P 500 ~40% international revenue (S&P Global data)",
+    "2022 episode: DXY +8% masked 4-6% local-currency organic growth behind -3.5% USD revenue decline",
+    "~85% of multinationals with >30% international revenue report constant-currency metrics",
+    "SEC comment letters (2015, 2018, 2022) document asymmetric non-GAAP treatment",
+    "ROIC distortion from NOPAT at average rates vs invested capital at historical rates is arithmetically demonstrable",
+    "DCF terminal currency sensitivity: 10% terminal dollar move shifts equity value 8-12%"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Whether reverse-DCF methodology can systematically identify mispriced FX assumptions",
+    "How to construct a factor that isolates FX regime type impact on EM valuations from governance, growth, and liquidity effects",
+    "Whether regulatory intervention on non-GAAP FX adjustments would improve earnings quality"
+  ],
+  "related_concepts": [
+    "dollar_transitional_regime",
+    "dollar_beer_overvaluation",
+    "em_regime_valuation_gap"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}

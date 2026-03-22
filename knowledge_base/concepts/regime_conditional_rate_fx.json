@@ -1,0 +1,37 @@
+{
+  "slug": "regime_conditional_rate_fx",
+  "definition": "The relationship between interest rate differentials and FX moves is strongly regime-dependent: 8-12% R-squared in low-volatility environments versus 0-2% in high-volatility environments. Confirmed by Chow test F=7.2 from iter_0009. This is the most empirically robust finding inherited from prior iterations.",
+  "confidence": 8,
+  "evidence": [
+    "Chow test F=7.2 from iter_0009",
+    "Maps to Dollar Smile: middle zone = low-vol where rates drive FX; left side = high-vol where risk appetite dominates",
+    "Carry-to-vol deception: nominal carry attractiveness overstates risk-adjusted return when vol regime shifts",
+    "Practical utility limited because vol regime itself is hard to identify in advance"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "generalist_01",
+    "rates_strategist_02",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Whether the vol regime can be identified ex ante with sufficient precision for trading",
+    "Whether the regime break point itself is stable or varies over time",
+    "How to integrate this finding with the Dollar Smile without circular reasoning"
+  ],
+  "related_concepts": [
+    "dollar_smile_framework",
+    "move_fx_vol_divergence",
+    "carry_to_vol_regime_adjustment",
+    "carry_momentum_correlation_switch"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-22T23:41:55Z",
+  "originating_iteration": "iter_0012",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0012"
+  ]
+}
