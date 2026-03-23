@@ -1,0 +1,31 @@
+{
+  "slug": "maturity_wall_qt_interaction",
+  "definition": "The sub-investment-grade maturity wall ($900B-$1.5T for 2025-2028) must refinance into SOFR+400-550bp from original SOFR+250-350bp. QT compounds through elevated base rates, impaired CLO formation, and constrained bank balance sheets. The interaction is multiplicative for leveraged loans (which require CLO demand) but closer to additive for HY bonds (broader investor base).",
+  "confidence": 6.5,
+  "evidence": [
+    "Maturity wall: $900B-$1.5T for 2025-2028",
+    "Refinancing spread: SOFR+400-550bp vs original SOFR+250-350bp",
+    "Three simultaneous QT channels: elevated rates, impaired CLOs, constrained banks"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Has amend-and-extend activity already defused near-term maturities?",
+    "Will private credit provide an alternative refinancing channel?"
+  ],
+  "related_concepts": [
+    "clo_arbitrage_transmission",
+    "covenant_lite_default_dynamics",
+    "private_credit_structural_exposure"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

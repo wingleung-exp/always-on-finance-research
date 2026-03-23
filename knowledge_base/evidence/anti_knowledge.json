@@ -665,5 +665,88 @@
     ],
     "topic": "fx_regimes",
     "iteration_id": "iter_0012"
+  },
+  {
+    "claim": "QT term premium impact of 60-100bp",
+    "reason": "Treasury issuance roughly doubled during QT2, making it impossible to attribute the full observed term premium move to QT. The supply absorption claim implicitly double-counts — fiscal supply and QT cannot both be responsible for the same term premium move. Defensible range is 30-60bp from QT specifically.",
+    "refuted_by": [
+      "challenger_01",
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "Specific forward-looking Sharpe ratio comparisons (2Y Treasuries ~1.0-1.3 vs IG credit ~0.15-0.20)",
+    "reason": "Presents contested forecasts in Sharpe format, giving them unearned authority. The directional logic (front-end convexity) is sound but the numerical precision is not.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "100% failure rate for balance sheet normalization",
+    "reason": "Definitionally dependent. QT2 has run 45 months and reduced balance sheet by 25% without systemic crisis. If success means a balance sheet consistent with ample reserves and rate control, QT2 is on track. The ratchet effect is directionally valid but 100% failure is rhetorical overstatement.",
+    "refuted_by": [
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "CLO arbitrage is THE primary transmission channel for ALL credit markets",
+    "reason": "True for leveraged loans (~65-70% CLO-absorbed) but IG credit ($7T+ market) has zero CLO dependency and transmits through generic dealer liquidity channels. The scope was overstated beyond leveraged loans.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "Credit spreads at larger liquidity premium than any point since 2019",
+    "reason": "Contradicted by March 2020 episode when liquidity premia spiked far above current levels. Conflates 'growing' with 'historically elevated.'",
+    "refuted_by": [
+      "credit_analyst_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "ACM decomposition shows 70-80% of 2s10s is term premium",
+    "reason": "ACM and Kim-Wright models disagree by 15-20bp on level; decomposition of slope compounds errors across two maturities. The qualitative point (supply-driven steepening) is probably correct but the specific percentage has wide confidence intervals presented as a finding.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "Currency issuer faces no fiscal dominance risk (stated at 9/10 confidence)",
+    "reason": "Operational claim (Fed cannot involuntarily default) is correct, but conflates solvency risk (correctly dismissed) with inflation regime risk (legitimate concern per Bianchi-Melosi 2022). Permanently larger balance sheet may shift political incentives toward accommodation — a real channel this framing dismisses.",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "5y5y repricing decomposition into specific components (20-30bp neutral rate + 15-25bp inflation + 40-60bp term premium)",
+    "reason": "Total repricing (~100-150bp) is observable but component decomposition has error bars that overlap entirely. Components cannot be separately identified with the precision implied on a 3-year sample. The permanent regime shift claim is unfalsifiable at this horizon.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "claim": "Money multiplier is empirically falsified (as stated)",
+    "reason": "The mechanical textbook multiplier is wrong, but the broader implication that reserve levels have zero relevance to credit creation is contested even within the Post-Keynesian tradition and contradicted by the same agent's own emphasis on distributional reserve scarcity. Correct statement: mechanical multiplier is wrong but reserves are not irrelevant to credit conditions.",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
   }
 ]

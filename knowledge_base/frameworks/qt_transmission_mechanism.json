@@ -1,0 +1,29 @@
+{
+  "slug": "qt_transmission_mechanism",
+  "purpose": "Maps the channels through which QT transmits to financial conditions and real economy outcomes",
+  "components": [
+    "Term premium / portfolio rebalancing channel: QT returns duration to private portfolios, requiring higher term premium compensation (30-60bp QT-specific)",
+    "Reserve scarcity channel: Beyond RRP exhaustion, QT directly reduces reserves toward the nonlinear kink in the demand curve",
+    "CLO arbitrage threshold channel: QT raises SOFR and CLO liability spreads, creating discrete on/off dynamics for leveraged loan formation",
+    "Dealer balance sheet channel: QT constrains dealer intermediation capacity, widening bid-ask spreads and new-issue concessions (15-25bp in HY)",
+    "IS curve interaction: QT steepens the IS curve, amplifying the output effects of a given rate change",
+    "Stock-bond correlation channel: QT flips long-duration bond-equity correlations, changing hedging dynamics",
+    "Mixed signal channel: Simultaneous rate cuts and QT create divergent front-end vs back-end conditions"
+  ],
+  "current_assessment": "Phase 2 of QT (reserve-draining) is active with RRP near operational floor. Term premium impact of 30-60bp is modest relative to total observed moves. CLO channel is functioning but approaching threshold. SRF backstop remains untested. The system is moving toward the nonlinear portion of the reserve demand curve at an unknown pace.",
+  "limitations": [
+    "Cannot separate QT from fiscal supply effects on term premium (identification problem)",
+    "Reserve scarcity threshold is unknowable ex ante",
+    "SRF effectiveness has never been tested under stress",
+    "Cross-channel interactions are poorly understood",
+    "G3 heterogeneity means Fed-derived conclusions may not apply to ECB or BoJ"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

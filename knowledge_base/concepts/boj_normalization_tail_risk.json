@@ -1,0 +1,35 @@
+{
+  "slug": "boj_normalization_tail_risk",
+  "definition": "The BoJ holds >50% of outstanding JGBs (~$4.5T) and Japanese institutions hold ~$1.3T in foreign bonds. Even modest normalization triggers JPY appreciation, carry unwind, and reduced demand for US/European bonds. A 10-15% reallocation equals $130-200B selling pressure on foreign bonds, adding 15-30bp to UST term premium. Japanese investors hold 15-25% of CLO AAA tranches. This is a 2-3 year thematic, not imminent.",
+  "confidence": 6.5,
+  "evidence": [
+    "BoJ holds >50% of outstanding JGBs (~$4.5T)",
+    "Japanese institutions hold ~$1.3T in foreign bonds",
+    "$600B life insurers + $400B pension + $300B banks in foreign holdings",
+    "Japanese investors hold 15-25% of CLO AAA tranches"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_01",
+    "credit_analyst_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "How slowly will BoJ proceed with normalization?",
+    "Is BoJ normalization mechanically impossible without major yield increases?",
+    "Will Japanese institutional reallocation be gradual enough to avoid disruption?"
+  ],
+  "related_concepts": [
+    "g3_balance_sheet_divergence",
+    "compound_duration_absorption",
+    "clo_arbitrage_transmission"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

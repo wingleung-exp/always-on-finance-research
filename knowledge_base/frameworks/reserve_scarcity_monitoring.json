@@ -1,0 +1,28 @@
+{
+  "slug": "reserve_scarcity_monitoring",
+  "purpose": "Provides observable indicators for monitoring proximity to the nonlinear reserve scarcity threshold",
+  "components": [
+    "SOFR-IORB spread: highest-frequency early warning indicator for reserve scarcity",
+    "Fed funds effective rate relative to IORB: stress indicator for reserve distribution",
+    "FHLB advance usage: leading indicator for bank liquidity stress",
+    "RRP facility level: measures remaining buffer (now near floor at <$200B)",
+    "TGA balance volatility: creates temporary reserve drains independent of QT",
+    "Intraday payment flow data: captures distributional stress invisible in aggregate"
+  ],
+  "current_assessment": "RRP is near operational floor (<$200B). SOFR-IORB spread should be monitored for sustained deviation. Fed staff estimates reserve floor at $2.5-3.5T with $1T uncertainty band. System is in transition from ample to possibly-approaching-adequate reserves.",
+  "limitations": [
+    "Fed's own models missed the 2019 threshold by factor of 2x",
+    "Distributional effects invisible in aggregate metrics",
+    "Sell-side point estimates ($2.8-3.2T) are false precision given model uncertainty",
+    "Indicators may only signal stress after the nonlinear kink is breached",
+    "SRF usage dynamics under stress are unknown"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

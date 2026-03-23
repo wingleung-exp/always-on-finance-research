@@ -1,0 +1,228 @@
+[
+  {
+    "concept_a": "rrp_buffer_exhaustion",
+    "concept_b": "reserve_scarcity_nonlinearity",
+    "mechanism": "RRP exhaustion means each dollar of further QT now directly reduces bank reserves, pushing the system toward the nonlinear steep portion of the reserve demand curve where stress can emerge discontinuously",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Active once RRP falls to operational floor (~$200B). During Phase 1 (RRP >$500B), QT drained the buffer without affecting reserves.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "qe_qt_asymmetry",
+    "concept_b": "permanent_balance_sheet_expansion",
+    "mechanism": "If QE expansion is powerful but QT contraction is weak, each crisis cycle ratchets the balance sheet to a higher level. The asymmetry creates a structural upward bias in balance sheet size over time.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds across all observed QE/QT cycles. Strengthens during crises that trigger QE re-expansion.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "qt_term_premium_channel",
+    "concept_b": "compound_duration_absorption",
+    "mechanism": "QT returns duration to private portfolios, adding to the net duration supply from fiscal issuance. The combined supply (~$2.0-2.6T/year) vastly exceeds the pre-pandemic norm and must be absorbed by price-sensitive buyers at higher term premia.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Amplified when fiscal deficits are large and the marginal buyer is price-sensitive. Attenuated if fiscal consolidation reduces issuance or if price-insensitive foreign demand returns.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "basis_trade_synthetic_qe",
+    "concept_b": "qt_term_premium_channel",
+    "mechanism": "Basis trade absorbs cash Treasury duration at scale ($800B-$1T), suppressing term premium by an estimated 20-40bp and partially offsetting QT's tightening effect. But this offset is fragile and pro-cyclical — it reverses during stress, amplifying QT's impact precisely when it matters most.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Functions during calm markets. Reverses during stress episodes (March 2020, October 2023), creating a regime-dependent relationship that flips from dampening to amplifying QT effects.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "clo_arbitrage_transmission",
+    "concept_b": "maturity_wall_qt_interaction",
+    "mechanism": "The maturity wall ($900B-$1.5T) requires functional CLO demand to process leveraged loan refinancing. QT degrades CLO functionality by compressing equity IRR below hurdle rates, creating a multiplicative interaction where the maturity wall is harder to clear precisely because QT impairs the primary absorption mechanism.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active when CLO equity IRR is near the ~12-15% hurdle rate. If base rates decline enough to restore CLO economics, the interaction weakens.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "covenant_lite_default_dynamics",
+    "concept_b": "private_credit_structural_exposure",
+    "mechanism": "Covenant-lite structures eliminate early-warning signals, creating bimodal defaults that amplify losses in private credit portfolios where NAV smoothing already delays recognition. True leverage (5.5-7.5x) masked by EBITDA addbacks compounds hidden risk in private credit vehicles.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most dangerous during credit cycle turns when defaults transition from low to rising. The bimodal dynamic means deterioration is invisible until it becomes a cliff.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "risk_migration_to_nbfi",
+    "concept_b": "srf_untested_backstop",
+    "mechanism": "Credit intermediation migrated to non-bank vehicles excluded from SRF counterparty access. Even if SRF prevents bank repo stress, NBFI stress could propagate without a backstop, making the SRF incomplete as a systemic safety net.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Relevant during liquidity stress episodes. If NBFI stress is contained by other mechanisms (ad hoc Fed facilities, Treasury intervention), the gap matters less.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "g3_balance_sheet_divergence",
+    "concept_b": "boj_normalization_tail_risk",
+    "mechanism": "BoJ's unique position (>50% JGB holdings, mechanically difficult normalization) makes it the most consequential divergence: even modest normalization triggers carry unwind and reduced Japanese demand for foreign bonds, transmitting to UST and European credit markets.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Latent until BoJ signals meaningful normalization. Currently a 2-3 year thematic given BoJ's extremely cautious approach.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "boj_normalization_tail_risk",
+    "concept_b": "compound_duration_absorption",
+    "mechanism": "Japanese institutional reallocation ($130-200B potential selling pressure on foreign bonds) adds to the duration absorption burden on private investors globally, potentially adding 15-30bp to UST term premium on top of domestic QT and fiscal supply effects.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Contingent on BoJ normalization pace and Japanese institutional behavior. Slow reallocation may be absorbed; rapid reallocation could be disruptive.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "boj_normalization_tail_risk",
+    "concept_b": "clo_arbitrage_transmission",
+    "mechanism": "Japanese investors hold 15-25% of CLO AAA tranches. BoJ normalization and JPY appreciation could trigger reallocation away from CLO AAA, widening CLO liability spreads and further compressing CLO equity IRR, impairing new formation.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Contingent on JPY appreciation magnitude and Japanese institutional hedging behavior. Partially hedged positions reduce the flow impact.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "rates_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "qt_is_curve_steepening",
+    "concept_b": "qe_qt_asymmetry",
+    "mechanism": "IS curve steepening during QT means rate changes have amplified output effects during balance sheet contraction vs expansion, providing a theoretical foundation for why QT is a structurally different tool than reverse QE.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active during QT when the stock effect is diminishing. Reverses during QE when the stock effect builds.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "fed_balance_sheet_endogeneity",
+    "concept_b": "permanent_balance_sheet_expansion",
+    "mechanism": "External constraints (Treasury issuance, bank demand, political economy) limit the Fed's ability to control the normalization path, making it more likely that balance sheet reduction stops short of any theoretical target — reinforcing the permanent expansion dynamic.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strengthens when fiscal deficits are large and Treasury issuance is heavy. Weakens if fiscal consolidation reduces issuance pressure.",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "compound_duration_absorption",
+    "concept_b": "stock_bond_correlation_endogeneity",
+    "mechanism": "As duration supply overwhelms demand (compound absorption problem), the long end of the Treasury curve becomes supply-driven rather than growth-driven, flipping the 30Y-equity correlation positive and changing the hedging properties of long bonds.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The correlation bifurcation is diagnostic of supply-driven term premium regimes. Would reverse if supply normalizes or a flight-to-quality event dominates.",
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "private_credit_structural_exposure",
+    "concept_b": "risk_migration_to_nbfi",
+    "mechanism": "Private credit growth is the primary manifestation of risk migration from banks to non-banks. The $1.7T in private credit grew under QE conditions in vehicles without lender-of-last-resort access, representing the supervisory architecture gap in concentrated form.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "The risk grows during QT as supportive conditions are withdrawn but the structural migration remains in place.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "ecb_btp_bund_widening_risk",
+    "concept_b": "g3_balance_sheet_divergence",
+    "mechanism": "ECB's specific fragmentation risk (sovereign spread management across 20 members) illustrates why G3 normalization cannot be analyzed as a uniform phenomenon — ECB must manage credit allocation not just duration, making its QT qualitatively different.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "Risk is latent as long as PEPP reinvestment flexibility or TPI credibility contains spreads. Materializes if TPI conditionality prevents activation during stress.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "concept_a": "reserve_scarcity_nonlinearity",
+    "concept_b": "srf_untested_backstop",
+    "mechanism": "If the SRF works as designed, the reserve scarcity kink point may be located at a lower reserve level, enabling a smaller balance sheet. If SRF fails under stress (stigma), the kink point is higher and QT must stop sooner.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "SRF effectiveness only matters once reserves approach the scarcity zone. Irrelevant while reserves remain clearly ample.",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  }
+]

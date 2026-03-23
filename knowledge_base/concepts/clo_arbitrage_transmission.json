@@ -1,13 +1,17 @@
 {
   "slug": "clo_arbitrage_transmission",
   "definition": "CLO arbitrage collapse is the primary transmission channel for vol regime shifts into credit markets, ahead of bond spread dynamics. CLOs purchase ~65-70% of institutional loan issuance; when AAA tranche spreads gap wider (from SOFR+140-170 to SOFR+200+), the arbitrage collapses, new formation stalls, and the marginal bid for leveraged loans disappears. Confirmed by 2022 when CLO issuance dropped ~35% YoY before loan spread widening.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "CLOs purchase ~65-70% of institutional loan issuance",
     "2022 confirmed: CLO issuance dropped ~35% YoY before loan spread widening materialized",
     "Pair_1 debate: CLO-first thesis is mechanistically more specific and supported by 2022",
     "Japanese institutional demand for CLO AAAs as marginal buyer could become procyclical if yen strengthens",
-    "Structural vol supply from CLO warehouse hedging compresses CDX implied vol in benign periods"
+    "Structural vol supply from CLO warehouse hedging compresses CDX implied vol in benign periods",
+    "CLOs purchase ~65-70% of institutional leveraged loans",
+    "2022: 35% CLO issuance drop preceded loan spread widening",
+    "Below ~12-15% hurdle rate equals zero new formation (discrete threshold)",
+    "Scope narrowed in pair_1 debate: applies to leveraged loans not all credit"
   ],
   "originating_agents": [
     "credit_analyst_02",
@@ -17,20 +21,26 @@
     "Can bond-market-originated stress (fallen angels) bypass the CLO channel entirely?",
     "Have post-2024 structural changes in the AAA buyer base altered sensitivity?",
     "At what AAA spread level does the arbitrage definitively collapse?",
-    "How procyclical is Japanese CLO AAA demand in practice?"
+    "How procyclical is Japanese CLO AAA demand in practice?",
+    "At what SOFR level does CLO equity IRR consistently breach hurdle rates?",
+    "Can alternative structures replace CLO demand for leveraged loans?"
   ],
   "related_concepts": [
     "credit_maturity_wall",
     "private_credit_hidden_vol",
     "macro_trigger_micro_amplification",
-    "vix_move_correlation_regimes"
+    "vix_move_correlation_regimes",
+    "maturity_wall_qt_interaction",
+    "private_credit_structural_exposure",
+    "qt_term_premium_channel"
   ],
   "topic": "volatility_regimes",
   "created_at": "2026-03-22T22:22:52Z",
-  "last_updated": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-23T00:09:57Z",
   "originating_iteration": "iter_0010",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0010"
+    "iter_0010",
+    "iter_0013"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "concept_a": "clo_arbitrage_transmission",
+  "concept_b": "maturity_wall_qt_interaction",
+  "mechanism": "The maturity wall ($900B-$1.5T) requires functional CLO demand to process leveraged loan refinancing. QT degrades CLO functionality by compressing equity IRR below hurdle rates, creating a multiplicative interaction where the maturity wall is harder to clear precisely because QT impairs the primary absorption mechanism.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Active when CLO equity IRR is near the ~12-15% hurdle rate. If base rates decline enough to restore CLO economics, the interaction weakens.",
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-23T00:09:58Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -333,14 +333,19 @@
     "central_bank_balance_sheets": {
       "category": "credit_and_rates",
       "display_name": "Central Bank Balance Sheet Normalization",
-      "last_researched": "2026-03-22T03:00:00Z",
-      "depth_level": 1,
-      "confidence_score": 4.0,
-      "research_count": 2,
+      "last_researched": "2026-03-23T00:09:58Z",
+      "depth_level": 2,
+      "confidence_score": 5.1,
+      "research_count": 3,
       "knowledge_gaps": [
-        "Reserve scarcity tipping point estimation",
+        "QE sustained financial asset inflation rather than productive investment, evidenced by flat-to-declining gross fixed capital formation/GDP during record-low real rates.",
+        "Genuine normalization succeeding (balance sheet shrinkage to $4-5T via AI-driven productivity boom, fiscal consolidation, or regulatory reform) is the truly under-explored contrarian tail that almost no one is positioned for.",
         "RRP facility dynamics and money market impact",
-        "Fed vs ECB vs BOJ normalization sequencing"
+        "Kalecki profit equation constrains corporate debt serviceability during QT — if fiscal deficits narrow while investment is weak, corporate cash flows deteriorate mechanically, exacerbating Minsky fragility.",
+        "Central bank put is measurable via MOVE-VIX ratio (~6-7x vs historical ~4-5x), reflecting inconsistent pricing of the policy backstop across equity and rates vol markets.",
+        "Reserve scarcity tipping point estimation",
+        "Fed vs ECB vs BOJ normalization sequencing",
+        "The Ample Reserves framework is a post-hoc rationalization — the Fed backed into it because the corridor system failed in September 2019, not from first-principles derivation. The framework is circular and untested under adverse conditions."
       ],
       "connections": [
         "monetary_policy",
@@ -353,9 +358,31 @@
         "global_liquidity_conditions"
       ],
       "key_concepts": [
+        "basis_trade_synthetic_qe",
+        "boj_normalization_tail_risk",
+        "central_bank_liquidity",
+        "clo_arbitrage_transmission",
+        "compound_duration_absorption",
+        "covenant_lite_default_dynamics",
+        "ecb_btp_bund_widening_risk",
+        "fed_balance_sheet_endogeneity",
+        "g3_balance_sheet_divergence",
+        "global_qt_nash_equilibrium",
+        "maturity_wall_qt_interaction",
+        "mixed_signal_rate_cuts_qt",
+        "new_issue_concession_widening",
+        "permanent_balance_sheet_expansion",
+        "private_credit_structural_exposure",
+        "qe_qt_asymmetry",
+        "qt_is_curve_steepening",
+        "qt_term_premium_channel",
         "quantitative_tightening",
         "reserve_scarcity",
-        "central_bank_liquidity"
+        "reserve_scarcity_nonlinearity",
+        "risk_migration_to_nbfi",
+        "rrp_buffer_exhaustion",
+        "srf_untested_backstop",
+        "stock_bond_correlation_endogeneity"
       ]
     },
     "sovereign_debt": {

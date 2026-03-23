@@ -2116,9 +2116,9 @@
     "concept:clo_arbitrage_transmission": {
       "type": "concept",
       "slug": "clo_arbitrage_transmission",
-      "confidence": 7,
-      "last_updated": "2026-03-22T22:22:52Z",
-      "research_iterations": 1,
+      "confidence": 7.0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 2,
       "topic": "volatility_regimes"
     },
     "relationship:rates_vol_directional_underpricing__surprise_telegraphed_discriminator": {
@@ -2904,6 +2904,350 @@
       "last_updated": "2026-03-22T23:41:55Z",
       "research_iterations": 1,
       "topic": "fx_regimes"
+    },
+    "concept:stock_bond_correlation_endogeneity": {
+      "type": "concept",
+      "slug": "stock_bond_correlation_endogeneity",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:qe_qt_asymmetry": {
+      "type": "concept",
+      "slug": "qe_qt_asymmetry",
+      "confidence": 8,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:permanent_balance_sheet_expansion": {
+      "type": "concept",
+      "slug": "permanent_balance_sheet_expansion",
+      "confidence": 8,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:maturity_wall_qt_interaction": {
+      "type": "concept",
+      "slug": "maturity_wall_qt_interaction",
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:global_qt_nash_equilibrium": {
+      "type": "concept",
+      "slug": "global_qt_nash_equilibrium",
+      "confidence": 6,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:srf_untested_backstop": {
+      "type": "concept",
+      "slug": "srf_untested_backstop",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:covenant_lite_default_dynamics": {
+      "type": "concept",
+      "slug": "covenant_lite_default_dynamics",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:private_credit_structural_exposure": {
+      "type": "concept",
+      "slug": "private_credit_structural_exposure",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:mixed_signal_rate_cuts_qt": {
+      "type": "concept",
+      "slug": "mixed_signal_rate_cuts_qt",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:boj_normalization_tail_risk": {
+      "type": "concept",
+      "slug": "boj_normalization_tail_risk",
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:g3_balance_sheet_divergence": {
+      "type": "concept",
+      "slug": "g3_balance_sheet_divergence",
+      "confidence": 8,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:qt_is_curve_steepening": {
+      "type": "concept",
+      "slug": "qt_is_curve_steepening",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:qt_term_premium_channel": {
+      "type": "concept",
+      "slug": "qt_term_premium_channel",
+      "confidence": 7.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:risk_migration_to_nbfi": {
+      "type": "concept",
+      "slug": "risk_migration_to_nbfi",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:new_issue_concession_widening": {
+      "type": "concept",
+      "slug": "new_issue_concession_widening",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:fed_balance_sheet_endogeneity": {
+      "type": "concept",
+      "slug": "fed_balance_sheet_endogeneity",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:ecb_btp_bund_widening_risk": {
+      "type": "concept",
+      "slug": "ecb_btp_bund_widening_risk",
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:basis_trade_synthetic_qe": {
+      "type": "concept",
+      "slug": "basis_trade_synthetic_qe",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:compound_duration_absorption": {
+      "type": "concept",
+      "slug": "compound_duration_absorption",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:rrp_buffer_exhaustion": {
+      "type": "concept",
+      "slug": "rrp_buffer_exhaustion",
+      "confidence": 9,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:reserve_scarcity_nonlinearity": {
+      "type": "concept",
+      "slug": "reserve_scarcity_nonlinearity",
+      "confidence": 8,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:basis_trade_synthetic_qe__qt_term_premium_channel": {
+      "type": "relationship",
+      "slug": "basis_trade_synthetic_qe__qt_term_premium_channel",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:reserve_scarcity_nonlinearity__srf_untested_backstop": {
+      "type": "relationship",
+      "slug": "reserve_scarcity_nonlinearity__srf_untested_backstop",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:risk_migration_to_nbfi__srf_untested_backstop": {
+      "type": "relationship",
+      "slug": "risk_migration_to_nbfi__srf_untested_backstop",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:compound_duration_absorption__qt_term_premium_channel": {
+      "type": "relationship",
+      "slug": "compound_duration_absorption__qt_term_premium_channel",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:private_credit_structural_exposure__risk_migration_to_nbfi": {
+      "type": "relationship",
+      "slug": "private_credit_structural_exposure__risk_migration_to_nbfi",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:qe_qt_asymmetry__qt_is_curve_steepening": {
+      "type": "relationship",
+      "slug": "qe_qt_asymmetry__qt_is_curve_steepening",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:reserve_scarcity_nonlinearity__rrp_buffer_exhaustion": {
+      "type": "relationship",
+      "slug": "reserve_scarcity_nonlinearity__rrp_buffer_exhaustion",
+      "confidence": 9,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:boj_normalization_tail_risk__compound_duration_absorption": {
+      "type": "relationship",
+      "slug": "boj_normalization_tail_risk__compound_duration_absorption",
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:boj_normalization_tail_risk__g3_balance_sheet_divergence": {
+      "type": "relationship",
+      "slug": "boj_normalization_tail_risk__g3_balance_sheet_divergence",
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:compound_duration_absorption__stock_bond_correlation_endogeneity": {
+      "type": "relationship",
+      "slug": "compound_duration_absorption__stock_bond_correlation_endogeneity",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:clo_arbitrage_transmission__maturity_wall_qt_interaction": {
+      "type": "relationship",
+      "slug": "clo_arbitrage_transmission__maturity_wall_qt_interaction",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:boj_normalization_tail_risk__clo_arbitrage_transmission": {
+      "type": "relationship",
+      "slug": "boj_normalization_tail_risk__clo_arbitrage_transmission",
+      "confidence": 6,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:covenant_lite_default_dynamics__private_credit_structural_exposure": {
+      "type": "relationship",
+      "slug": "covenant_lite_default_dynamics__private_credit_structural_exposure",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:permanent_balance_sheet_expansion__qe_qt_asymmetry": {
+      "type": "relationship",
+      "slug": "permanent_balance_sheet_expansion__qe_qt_asymmetry",
+      "confidence": 8,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:fed_balance_sheet_endogeneity__permanent_balance_sheet_expansion": {
+      "type": "relationship",
+      "slug": "fed_balance_sheet_endogeneity__permanent_balance_sheet_expansion",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:ecb_btp_bund_widening_risk__g3_balance_sheet_divergence": {
+      "type": "relationship",
+      "slug": "ecb_btp_bund_widening_risk__g3_balance_sheet_divergence",
+      "confidence": 7,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:credit_cycle_positioning": {
+      "type": "framework",
+      "slug": "credit_cycle_positioning",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:balance_sheet_ratchet_effect": {
+      "type": "framework",
+      "slug": "balance_sheet_ratchet_effect",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:reserve_scarcity_monitoring": {
+      "type": "framework",
+      "slug": "reserve_scarcity_monitoring",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:cross_asset_consistency_diagnostic": {
+      "type": "framework",
+      "slug": "cross_asset_consistency_diagnostic",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:qt_transmission_mechanism": {
+      "type": "framework",
+      "slug": "qt_transmission_mechanism",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:sectoral_balance_identity": {
+      "type": "framework",
+      "slug": "sectoral_balance_identity",
+      "confidence": 0,
+      "last_updated": "2026-03-23T00:09:57Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
     }
   },
   "iterations": [
@@ -3023,7 +3367,20 @@
         "anti_knowledge_entries": 8,
         "low_confidence_entries": 8
       }
+    },
+    {
+      "iteration_id": "iter_0013",
+      "topic": "central_bank_balance_sheets",
+      "topic_category": "credit_and_rates",
+      "timestamp": "2026-03-23T00:09:57Z",
+      "stats": {
+        "concepts_written": 22,
+        "relationships_written": 16,
+        "frameworks_written": 6,
+        "anti_knowledge_entries": 9,
+        "low_confidence_entries": 5
+      }
     }
   ],
-  "last_updated": "2026-03-22T23:41:55Z"
+  "last_updated": "2026-03-23T00:09:57Z"
 }

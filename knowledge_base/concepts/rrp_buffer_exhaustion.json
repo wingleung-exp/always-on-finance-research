@@ -1,0 +1,38 @@
+{
+  "slug": "rrp_buffer_exhaustion",
+  "definition": "The Fed's Reverse Repo Facility declined from ~$2.55T (peak Dec 2022) to <$200B (early 2026), marking a regime shift where QT now directly reduces bank reserves rather than draining the RRP buffer. This transition from Phase 1 (RRP-draining) to Phase 2 (reserve-draining) fundamentally changes QT's transmission.",
+  "confidence": 9,
+  "evidence": [
+    "Observable Fed balance sheet data showing RRP decline from $2.55T to <$200B",
+    "Fed's June 2024 taper (Treasury cap from $60B to $25B/month) as implicit acknowledgment",
+    "Money market funds shifted from RRP to T-bills during Phase 1, insulating bank reserves",
+    "All four debate pairs confirmed this as highest-conviction shared finding"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Was the smooth RRP drawdown driven by Fed management or Treasury bill issuance decisions?",
+    "Does the Fed have a proven playbook for the current reserve-draining phase?"
+  ],
+  "related_concepts": [
+    "reserve_scarcity_nonlinearity",
+    "fed_balance_sheet_endogeneity",
+    "permanent_balance_sheet_expansion"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

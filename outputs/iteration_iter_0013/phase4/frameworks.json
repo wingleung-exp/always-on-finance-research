@@ -1,0 +1,129 @@
+[
+  {
+    "slug": "qt_transmission_mechanism",
+    "purpose": "Maps the channels through which QT transmits to financial conditions and real economy outcomes",
+    "components": [
+      "Term premium / portfolio rebalancing channel: QT returns duration to private portfolios, requiring higher term premium compensation (30-60bp QT-specific)",
+      "Reserve scarcity channel: Beyond RRP exhaustion, QT directly reduces reserves toward the nonlinear kink in the demand curve",
+      "CLO arbitrage threshold channel: QT raises SOFR and CLO liability spreads, creating discrete on/off dynamics for leveraged loan formation",
+      "Dealer balance sheet channel: QT constrains dealer intermediation capacity, widening bid-ask spreads and new-issue concessions (15-25bp in HY)",
+      "IS curve interaction: QT steepens the IS curve, amplifying the output effects of a given rate change",
+      "Stock-bond correlation channel: QT flips long-duration bond-equity correlations, changing hedging dynamics",
+      "Mixed signal channel: Simultaneous rate cuts and QT create divergent front-end vs back-end conditions"
+    ],
+    "current_assessment": "Phase 2 of QT (reserve-draining) is active with RRP near operational floor. Term premium impact of 30-60bp is modest relative to total observed moves. CLO channel is functioning but approaching threshold. SRF backstop remains untested. The system is moving toward the nonlinear portion of the reserve demand curve at an unknown pace.",
+    "limitations": [
+      "Cannot separate QT from fiscal supply effects on term premium (identification problem)",
+      "Reserve scarcity threshold is unknowable ex ante",
+      "SRF effectiveness has never been tested under stress",
+      "Cross-channel interactions are poorly understood",
+      "G3 heterogeneity means Fed-derived conclusions may not apply to ECB or BoJ"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "slug": "reserve_scarcity_monitoring",
+    "purpose": "Provides observable indicators for monitoring proximity to the nonlinear reserve scarcity threshold",
+    "components": [
+      "SOFR-IORB spread: highest-frequency early warning indicator for reserve scarcity",
+      "Fed funds effective rate relative to IORB: stress indicator for reserve distribution",
+      "FHLB advance usage: leading indicator for bank liquidity stress",
+      "RRP facility level: measures remaining buffer (now near floor at <$200B)",
+      "TGA balance volatility: creates temporary reserve drains independent of QT",
+      "Intraday payment flow data: captures distributional stress invisible in aggregate"
+    ],
+    "current_assessment": "RRP is near operational floor (<$200B). SOFR-IORB spread should be monitored for sustained deviation. Fed staff estimates reserve floor at $2.5-3.5T with $1T uncertainty band. System is in transition from ample to possibly-approaching-adequate reserves.",
+    "limitations": [
+      "Fed's own models missed the 2019 threshold by factor of 2x",
+      "Distributional effects invisible in aggregate metrics",
+      "Sell-side point estimates ($2.8-3.2T) are false precision given model uncertainty",
+      "Indicators may only signal stress after the nonlinear kink is breached",
+      "SRF usage dynamics under stress are unknown"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "slug": "credit_cycle_positioning",
+    "purpose": "Assesses credit cycle position and vulnerability to QT-related stress across public and private credit markets",
+    "components": [
+      "CLO arbitrage economics: equity IRR vs 12-15% hurdle rate as threshold indicator for leveraged loan formation",
+      "New-issue concessions: 15-25bp in HY (2025-2026) vs near-zero during QE as QT transmission observable",
+      "Maturity wall sizing: $900B-$1.5T sub-IG for 2025-2028 requiring refinancing at SOFR+400-550bp",
+      "Covenant-lite penetration: >90% of institutional loans with EBITDA addbacks 25-40% corrupting standard metrics",
+      "True leverage assessment: 5.5-7.5x vs reported 4.0-4.5x after adjusting for addbacks",
+      "Private credit NAV divergence: autocorrelation 0.5-0.7 with true vol 2-3x reported vol",
+      "Semi-liquid vehicle flow monitoring: LP commitment and redemption data for $300B+ interval funds and non-traded BDCs"
+    ],
+    "current_assessment": "Standard credit metrics are corrupted by covenant-lite documentation and EBITDA addbacks. True leverage is materially higher than reported. CLO arbitrage is approaching threshold. Maturity wall requires functional CLO demand and is multiplicatively exposed to QT. Private credit NAV smoothing delays recognition of deterioration. Bimodal default distribution undermines traditional forecasting.",
+    "limitations": [
+      "Standard credit cycle metrics undermined by covenant-lite documentation",
+      "Private credit data opacity and reporting lags",
+      "Bimodal default distribution makes traditional default rate forecasting unreliable",
+      "Amend-and-extend activity may have defused near-term maturities to unknown degree",
+      "Risk migration to unmonitored vehicles means official data understates systemic credit risk"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "slug": "balance_sheet_ratchet_effect",
+    "purpose": "Explains why central bank balance sheets trend larger over time and provides context for normalization expectations",
+    "components": [
+      "QE/QT asymmetry: expansion is powerful (100-150bp term premium compression) but contraction is weak (30-60bp reversal)",
+      "Historical base rate: 0% full normalization across 6 episodes and 4 central banks",
+      "Structural demand growth: LCR/NSFR, floor system, payment volumes doubled since 2008, NBFI backstop needs",
+      "Political economy constraints: negative remittances ~$200B+ cumulative, $180B/year interest on reserves",
+      "Endogenous path constraints: Treasury issuance composition, bank demand, SRF dynamics"
+    ],
+    "current_assessment": "QT2 has run 45 months and reduced balance sheet by 25% — progress toward a new normal but not a return to pre-crisis ratios. The 100% failure rate framing for full normalization is directionally correct but definitionally dependent. The structural floor is orders of magnitude above pre-GFC levels (~$3-3.5T vs ~$15-45B).",
+    "limitations": [
+      "100% failure rate framing is definitionally dependent on what constitutes success",
+      "QT2 represents the longest and largest tightening yet, potentially a different regime",
+      "Contrarian tail of successful normalization is underweight in positioning",
+      "Small sample size (6 episodes) limits statistical inference"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "slug": "sectoral_balance_identity",
+    "purpose": "Provides rigorous flow-of-funds accounting for who absorbs duration during QT using the identity (S-I) + (T-G) + (M-X) = 0",
+    "components": [
+      "Private sector financial balance (S-I): must adjust to absorb duration as central bank exits",
+      "Government fiscal balance (T-G): fiscal deficits determine net new supply independently of QT",
+      "External balance (M-X): foreign demand shifts (BoJ normalization, reserve manager behavior) affect absorption capacity",
+      "Kalecki profit equation: Corporate profits = Investment + Government Deficit + Consumption out of Wages + Net Exports - Saving out of Wages"
+    ],
+    "current_assessment": "Useful accounting framework that complements the NK term premium channel. Shows that if fiscal deficits narrow during QT while investment is weak, corporate cash flows deteriorate mechanically. Pair_2 debate concluded the strongest analysis would embed the NK term premium channel within the PK flow-of-funds accounting.",
+    "limitations": [
+      "Complementary to but not resolvable against NK framework — different analytical lenses",
+      "Kalecki framework not yet corroborated by other agents or tested against current data",
+      "Causal attribution between QE and financialization vs secular stagnation is weak",
+      "The identity constrains outcomes but does not predict which sector adjusts"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  },
+  {
+    "slug": "cross_asset_consistency_diagnostic",
+    "purpose": "Identifies inconsistent pricing across asset classes that may reflect mispricing of the balance sheet normalization transition",
+    "components": [
+      "MOVE-VIX ratio: ~6-7x vs historical ~4-5x as potential inconsistency in policy backstop pricing",
+      "Stock-bond correlation bifurcation: 2Y-SPX negative vs 30Y-SPX positive as QT regime diagnostic",
+      "Equity multiples vs credit spreads vs rates vol: may embed inconsistent views on liquidity transition",
+      "BTP-Bund spread vs ECB flow support withdrawal trajectory",
+      "Basis trade term premium suppression: 20-40bp masking by fragile synthetic QE"
+    ],
+    "current_assessment": "Multiple cross-asset signals suggest inconsistent pricing of the balance sheet normalization transition. MOVE-VIX gap has partial microstructural explanation (0DTE options, systematic vol-selling). The stock-bond correlation bifurcation is the cleanest diagnostic of the QT regime. Basis trade suppresses term premium but is fragile.",
+    "limitations": [
+      "MOVE-VIX gap partially explained by microstructure (0DTE options, vol-selling strategies)",
+      "Attribution of cross-asset inconsistencies to balance sheet policy vs other factors is difficult",
+      "Specific Sharpe ratio comparisons across asset classes were refuted as false precision",
+      "Inconsistency may persist without convergence for extended periods"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0013"
+  }
+]

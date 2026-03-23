@@ -1,0 +1,36 @@
+{
+  "slug": "qt_term_premium_channel",
+  "definition": "QT transmits to financial conditions primarily by returning duration to private portfolios, requiring higher term premium compensation. Both New Keynesian (Vayanos-Vila preferred habitat) and Post-Keynesian (endogenous money) frameworks converge on this mechanism. The defensible range for QT-specific term premium impact is 30-60bp, with the remainder of observed moves attributable to fiscal supply, inflation uncertainty, and foreign demand shifts.",
+  "confidence": 7.5,
+  "evidence": [
+    "Li-Wei 2023 and Smith-Valcarcel 2023 estimates: 20-60bp",
+    "Total observed term premium move ~100bp includes fiscal supply confounding",
+    "Treasury issuance roughly doubled during QT2 making clean attribution impossible",
+    "Both NK and PK frameworks converge on the directional mechanism"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "generalist_01",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Can event-study methodology around QT pace changes (June 2024 taper) help bound the estimate?",
+    "If QT contribution is modest (30-60bp) does this make the balance sheet a weaker tightening tool than commonly assumed?"
+  ],
+  "related_concepts": [
+    "qe_qt_asymmetry",
+    "compound_duration_absorption",
+    "basis_trade_synthetic_qe",
+    "stock_bond_correlation_endogeneity"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

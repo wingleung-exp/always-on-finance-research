@@ -1,0 +1,32 @@
+{
+  "slug": "compound_duration_absorption",
+  "definition": "The private sector must absorb ~$2.0-2.6T/year in net Treasury duration (new issuance + QT runoff) vs a pre-pandemic norm of $500-800B. The marginal buyer has shifted from price-insensitive (central banks, foreign official) to price-sensitive (hedge funds via basis trades, asset managers, households). This combination may be super-additive: removing the price-insensitive buyer increases auction volatility and required risk premium in a convex manner.",
+  "confidence": 7,
+  "evidence": [
+    "Net Treasury duration absorption: ~$2.0-2.6T/year vs pre-pandemic $500-800B",
+    "Marginal buyer shift from price-insensitive to price-sensitive",
+    "Weak auction tails in late 2023 through 2025 provide suggestive evidence"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_01",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Is the interaction truly super-additive or merely additive?",
+    "Will auction volatility increase structurally as price-sensitive buyers dominate?"
+  ],
+  "related_concepts": [
+    "qt_term_premium_channel",
+    "basis_trade_synthetic_qe",
+    "boj_normalization_tail_risk"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

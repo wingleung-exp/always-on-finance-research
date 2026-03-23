@@ -1,0 +1,32 @@
+{
+  "slug": "ecb_btp_bund_widening_risk",
+  "definition": "The ECB accumulated ~€750B in Italian sovereign debt (~25% of outstanding BTPs). PEPP reinvestment flexibility was the de facto spread stabilizer; its wind-down removes this marginal buyer. TPI is untested with conditionality requirements that may make it unavailable when needed. The equilibrium BTP-Bund spread without ECB flow support is likely wider than current ~130-150bp.",
+  "confidence": 6.5,
+  "evidence": [
+    "ECB holds ~€750B in BTPs (~25% of outstanding)",
+    "PEPP reinvestment flexibility wind-down removes marginal buyer",
+    "TPI has never been activated",
+    "OMT precedent (never activated, sufficient by existence) could apply to TPI"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Will TPI's mere existence be sufficient to contain spreads (OMT analogy)?",
+    "What is the equilibrium BTP-Bund spread without ECB flow support?"
+  ],
+  "related_concepts": [
+    "g3_balance_sheet_divergence",
+    "boj_normalization_tail_risk"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}

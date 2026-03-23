@@ -1,0 +1,37 @@
+{
+  "slug": "permanent_balance_sheet_expansion",
+  "definition": "Central bank balance sheets will not return to pre-GFC levels due to structural drivers: floor-system monetary implementation requires ample reserves, LCR/NSFR creates inelastic HQLA demand, payment system volumes have roughly doubled since 2008, and NBFI growth requires larger backstop facilities. The Fed's reserve floor estimate is ~$3-3.5T vs ~$15-45B pre-GFC.",
+  "confidence": 8,
+  "evidence": [
+    "Floor-system monetary implementation requires ample reserves",
+    "LCR/NSFR create inelastic HQLA demand",
+    "Payment system volumes roughly doubled since 2008",
+    "Fed reserve floor estimate ~$3-3.5T",
+    "Ratchet effect: 0% historical base rate for full normalization across 6 episodes (generalist_02)",
+    "QT2 has reduced balance sheet by 25% over 45 months but not to pre-crisis ratios"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "What is the new-normal equilibrium balance sheet size?",
+    "Does the ratchet effect imply balance sheets will grow with each crisis cycle indefinitely?"
+  ],
+  "related_concepts": [
+    "qe_qt_asymmetry",
+    "rrp_buffer_exhaustion",
+    "fed_balance_sheet_endogeneity"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T00:09:57Z",
+  "originating_iteration": "iter_0013",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0013"
+  ]
+}
