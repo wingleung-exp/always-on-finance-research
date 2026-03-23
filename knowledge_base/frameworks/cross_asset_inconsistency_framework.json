@@ -1,0 +1,25 @@
+{
+  "slug": "cross_asset_inconsistency_framework",
+  "purpose": "Identifies where different asset classes are simultaneously pricing mutually incompatible energy transition scenarios, revealing mispricings and convergence trades.",
+  "components": [
+    "Clean energy equity valuations (25-35x P/E) as proxy for deployment speed expectations",
+    "E&P CDS spreads (150-250bp) as proxy for stranded asset risk pricing",
+    "Copper price ($8-11k/t) as proxy for physical demand/supply balance expectations",
+    "Logical consistency test: whether all three price signals can hold simultaneously"
+  ],
+  "current_assessment": "Three markets are pricing incompatible scenarios. Equity deployment rates demand more copper than current prices incentivize. E&P credit markets show no stranded asset concern despite equity markets pricing rapid transition. Something must give.",
+  "limitations": [
+    "Does not identify which market reprices first",
+    "Time horizon for convergence is unspecified",
+    "Markets can remain inconsistent longer than positions can be held",
+    "Factor exposure in clean energy equities may explain inconsistency without fundamental mispricing"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

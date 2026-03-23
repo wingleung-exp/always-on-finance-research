@@ -1,0 +1,211 @@
+[
+  {
+    "concept_a": "grid_infrastructure_bottleneck",
+    "concept_b": "energy_transition_timeline_overoptimism",
+    "mechanism": "Physical grid constraints (interconnection queues, transformer lead times, transmission capacity) directly limit the pace of renewable deployment and energy transition, causing timelines to extend beyond projections.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds across all policy regimes; severity varies with regulatory reform pace (FERC Order 2023) and manufacturing capacity scaling",
+    "originating_agents": [
+      "quant_researcher_01",
+      "equity_analyst_01",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "ai_data_center_grid_competition",
+    "concept_b": "grid_infrastructure_bottleneck",
+    "mechanism": "AI data centers compete with renewable deployment for the same interconnection capacity, transformers, and copper, compounding existing grid constraints. However, they also create co-funding opportunities that reduce per-unit infrastructure costs.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Intensifies as AI compute demand scales; weakens if AI efficiency gains dominate or either capex pathway retreats",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "copper_zombie_zone",
+    "concept_b": "copper_deficit_calibration",
+    "mechanism": "Copper prices in the zombie zone (above AISC but below greenfield incentive) prevent new supply from being unlocked even as demand grows, structurally sustaining the deficit.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while copper is in $8-11k/t range; breaks if prices exceed $11k/t greenfield incentive or demand growth slows",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "transition_reflexive_contradiction",
+    "concept_b": "energy_transition_timeline_overoptimism",
+    "mechanism": "Transition metal demand drives inflation, triggering rate hikes that slow transition investment through auto loans and project finance. Each tightening cycle permanently delays projects via the ratchet effect.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongly regime-dependent on fiscal subsidy architecture. IRA offsets the monetary headwind 2-3x; without fiscal support, the contradiction could become self-reinforcing.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "rates_strategist_02",
+      "commodities_analyst_01",
+      "challenger_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "asymmetric_monetary_transmission",
+    "concept_b": "transition_reflexive_contradiction",
+    "mechanism": "The asymmetric nature of monetary transmission (rate hikes brake but rate cuts cannot accelerate past non-monetary constraints) transforms the reflexive contradiction from cyclical to ratcheting — each tightening cycle imposes permanent delay.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as non-monetary constraints (permitting, grid queues, mineral supply) remain binding; weakens if regulatory reform removes bottlenecks",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "renewable_learning_rate_distinction",
+    "concept_b": "stranded_fossil_asset_timeline",
+    "mechanism": "The gap between module-level learning rates (24%/doubling) and system-level learning rates (10-12%/doubling) means reliable baseload replacement is further away than module cost trends suggest, extending the timeline before fossil assets face stranding pressure.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while soft costs remain ~65% of system cost; weakens if regulatory/permitting reform reduces balance-of-system costs",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "ev_scurve_inflection",
+    "concept_b": "copper_deficit_calibration",
+    "mechanism": "Growing EV adoption drives copper demand (~1.2-1.5 Mt) as EVs use significantly more copper per vehicle than ICE vehicles, contributing to the cumulative deficit.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while EV copper intensity remains high; weakens if aluminum substitution at $12k+/t copper becomes widespread",
+    "originating_agents": [
+      "quant_researcher_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "china_rare_earth_processing_dominance",
+    "concept_b": "energy_transition_timeline_overoptimism",
+    "mechanism": "85-90% processing concentration creates a single-point-of-failure supply chain vulnerability that could trigger supply disruptions, forcing transition timeline delays independent of economic or policy factors.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds during the 5-10 year window before non-Chinese capacity reaches 25-30% share; attenuates as diversification proceeds post-2030",
+    "originating_agents": [
+      "quant_researcher_01",
+      "commodities_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "clean_energy_factor_dominance",
+    "concept_b": "cross_asset_scenario_inconsistency",
+    "mechanism": "When clean energy equity returns are driven 60-70% by factor exposure rather than fundamentals, equity valuations can price transition scenarios inconsistent with what commodity and credit markets price, because they reflect rate expectations more than deployment expectations.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest in volatile rate environments; weakens as the clean energy sector matures and fundamental earnings become larger share of returns",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "green_capex_transmission_impairment",
+    "concept_b": "ecb_fed_transition_divergence",
+    "mechanism": "The ECB must accommodate policy-chosen cost increases (CBAM, EU ETS) that impair monetary transmission differently than the Fed, which benefits from IRA subsidies that insulate investment from rates. This creates persistent policy divergence.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds while EU maintains carbon pricing and the US maintains IRA subsidies; reversal of either policy framework would reduce divergence",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "integration_cost_ucurve",
+    "concept_b": "catalytic_opposition_event",
+    "mechanism": "Rising integration costs at 35-45% renewable penetration create preconditions for a catalytic opposition event by increasing grid reliability concerns and electricity prices, which could crystallize public opposition if combined with an extreme weather event.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Risk increases as renewable penetration approaches 35-45% threshold; mitigated by adequate storage and grid infrastructure investment",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "sequential_rare_earth_weaponization",
+    "concept_b": "em_fx_energy_reclassification",
+    "mechanism": "China's escalating export restrictions create both risk (supply disruption) and opportunity (alternative sourcing FDI) that accelerates the structural reclassification of EM currencies along energy transition lines.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Intensifies with geopolitical tension; attenuates if US-China relations stabilize or if diversification investment meets targets",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "fx_strategist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "plan_continuation_bias",
+    "concept_b": "energy_transition_timeline_overoptimism",
+    "mechanism": "Institutional momentum at government, corporate, and multilateral levels causes systematic overoptimism in transition timeline projections, as stakeholders anchor to initial targets despite accumulating evidence of delays.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Universal across institutional settings; partially mitigated by market discipline and independent analysis",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "technology_substitution_survivorship_bias",
+    "concept_b": "copper_deficit_calibration",
+    "mechanism": "Fixed-coefficient mineral demand projections systematically overestimate deficits because they fail to account for technology substitution pathways, reducing the reliability of copper deficit magnitude estimates (though copper is more resilient to this critique than lithium or cobalt).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Applies over 7-10 year forecast horizons; shorter horizons less affected by substitution",
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "concept_a": "stranded_fossil_asset_timeline",
+    "concept_b": "gas_oil_stranded_divergence",
+    "mechanism": "Within the stranded asset timeline, gas-weighted and oil-weighted producers face fundamentally different exposure curves because gas functions as a transition fuel with growing demand through 2035+, making gas vs. oil a higher-conviction relative call than the absolute stranding timeline.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while gas retains transition fuel status; weakens if renewable baseload replacement accelerates faster than expected or if methane regulations tighten dramatically",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  }
+]

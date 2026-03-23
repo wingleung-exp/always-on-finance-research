@@ -1,0 +1,41 @@
+{
+  "slug": "grid_infrastructure_bottleneck",
+  "definition": "Grid infrastructure — interconnection queues, transformer lead times, and transmission capacity — is the binding constraint on energy transition pace, not technology cost or policy ambition. US interconnection queue stands at ~2,600 GW with 5+ year median wait times and a 3-4x transmission investment gap.",
+  "confidence": 8,
+  "evidence": [
+    "US interconnection queue at ~2,600 GW with median wait times extended from ~2 to 5+ years",
+    "Transformer lead times at 2-4 years",
+    "PJM capacity auction prices up ~10x",
+    "Transmission investment gap of ~$50-65B/yr ($25B actual vs $75-90B needed)",
+    "FERC Order 2023 addresses process but not physical throughput",
+    "Completion rate for projects reaching Interconnection Agreement stage is 40-60%, not the widely cited ~15% which suffers from denominator inflation"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "commodities_analyst_01",
+    "rates_strategist_02",
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Will FERC Order 2023 meaningfully reduce queue times or only address process?",
+    "Can transformer manufacturing capacity scale faster than 2-4 year lead times suggest?",
+    "What is the true completion rate once speculative filings are excluded?"
+  ],
+  "related_concepts": [
+    "ai_data_center_grid_competition",
+    "integration_cost_ucurve",
+    "energy_transition_timeline_overoptimism",
+    "ai_transition_cofunding_dynamic"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

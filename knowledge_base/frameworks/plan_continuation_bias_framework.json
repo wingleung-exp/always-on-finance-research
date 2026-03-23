@@ -1,0 +1,26 @@
+{
+  "slug": "plan_continuation_bias_framework",
+  "purpose": "Provides base rate calibration for energy transition timeline forecasts by documenting historical achievement rates of energy policy targets and technological deployment projections.",
+  "components": [
+    "Historical base rates: nuclear 10% of target, ethanol 44%, smart meters 65%",
+    "Transition timeline multiplier: 1.5-2.5x longer than initially projected (0/4 on-time)",
+    "Policy durability: 25% survival rate across two presidential transitions (though legislatively-embedded fiscal incentives may differ)",
+    "Infrastructure-dependent vs consumer electronics analogues for adoption speed",
+    "Concrete falsification tests with specific dates and thresholds"
+  ],
+  "current_assessment": "Current transition is tracking faster than historical precedent (2.5-3.0 sigma) but with n=3-4 the statistical significance is illusory. Infrastructure-dependent analogues (electrification 50yr, gas displacing coal 30+yr) are more relevant than smartphone curves.",
+  "limitations": [
+    "Small sample sizes (n=3-4) limit statistical inference",
+    "IRA's tax-credit structure may represent qualitatively different policy durability",
+    "Current transition has unique features (learning rates, multiple simultaneous technology shifts) not captured by historical analogues",
+    "Cherry-picking risk in analogue selection"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

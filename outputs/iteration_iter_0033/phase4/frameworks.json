@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "cross_asset_inconsistency_framework",
+    "purpose": "Identifies where different asset classes are simultaneously pricing mutually incompatible energy transition scenarios, revealing mispricings and convergence trades.",
+    "components": [
+      "Clean energy equity valuations (25-35x P/E) as proxy for deployment speed expectations",
+      "E&P CDS spreads (150-250bp) as proxy for stranded asset risk pricing",
+      "Copper price ($8-11k/t) as proxy for physical demand/supply balance expectations",
+      "Logical consistency test: whether all three price signals can hold simultaneously"
+    ],
+    "current_assessment": "Three markets are pricing incompatible scenarios. Equity deployment rates demand more copper than current prices incentivize. E&P credit markets show no stranded asset concern despite equity markets pricing rapid transition. Something must give.",
+    "limitations": [
+      "Does not identify which market reprices first",
+      "Time horizon for convergence is unspecified",
+      "Markets can remain inconsistent longer than positions can be held",
+      "Factor exposure in clean energy equities may explain inconsistency without fundamental mispricing"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "factor_decomposition_framework",
+    "purpose": "Separates clean energy equity returns into factor exposure (rates, growth/value, momentum) and fundamental transition economics to identify true transition alpha vs. macro beta.",
+    "components": [
+      "Factor attribution (60-70%): rate sensitivity, growth/value rotation, momentum",
+      "Fundamental attribution (30-40%): policy catalysts, deployment growth, cost reduction",
+      "Regime classification: speculative growth (falling rates), value/defensive (rising rates), quality (stable rates)",
+      "Sub-sector rotation based on macro regime"
+    ],
+    "current_assessment": "Clean energy thematic ETFs were de facto leveraged rate bets in 2020-2023. IRA passage (best fundamental catalyst) was overwhelmed by rate regime shift. Quality-focused approach may dominate in current stabilizing regime.",
+    "limitations": [
+      "Attribution analysis is backward-looking and regime-dependent",
+      "Factor loadings may shift as the sector matures",
+      "Does not account for individual company differentiation",
+      "Policy uncertainty premium may be conflated with high-beta premium"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "em_fx_reclassification_framework",
+    "purpose": "Classifies EM currencies into three structural categories based on energy transition exposure to identify long-term FX trends and trade opportunities.",
+    "components": [
+      "Transition metal exporters (potential winners): CLP, IDR, BRL — benefiting from copper, nickel, lithium demand",
+      "Hydrocarbon exporters (secular losers): NGN, COP, EGP — facing declining demand for primary exports",
+      "Energy-importing manufacturers (ambiguous): INR, THB, VND — benefiting from lower energy costs but exposed to transition input costs",
+      "Novel correlation regime: transition metal prices negatively correlated with energy-importing manufacturer FX"
+    ],
+    "current_assessment": "Structural thesis is directionally correct. Early evidence visible (Chile copper revenue rising, Indonesia battery FDI, Nigeria production declining). Not yet investable — proposed trade baskets are effectively concentrated carry trades with transition narratives.",
+    "limitations": [
+      "Timing deeply uncertain — may be 2030+ theme",
+      "Institutional quality variation within categories is large",
+      "Resource curse 2.0 risk may offset commodity revenue benefits",
+      "Concentrated carry trade risk embedded in proposed baskets"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "reflexive_contradiction_framework",
+    "purpose": "Maps the self-reinforcing feedback loops between energy transition investment, inflation, monetary policy, and fiscal response to assess whether the transition is on a robust or fragile trajectory.",
+    "components": [
+      "Primary loop: transition metal demand → inflation → rate hikes → slower transition",
+      "Fiscal offset: IRA/Green Deal subsidies offsetting 2-3x the monetary headwind",
+      "Double reflexivity (fiscal channel): slower transition → more subsidies → larger deficits → higher term premium → higher project costs",
+      "Asymmetric transmission: rate hikes brake but rate cuts cannot accelerate past non-monetary constraints",
+      "Ratchet effect: each tightening cycle permanently delays projects"
+    ],
+    "current_assessment": "2022-2024 natural experiment shows fiscal offsets dominate monetary headwinds under current IRA architecture. The contradiction is conditional on fiscal policy continuation, not a structural governor. IRA cost escalation from $369B to $800B-1.2T is live evidence of the fiscal feedback channel.",
+    "limitations": [
+      "n=1 natural experiment with massive fiscal confound",
+      "Regime-dependent on IRA/Green Deal continuation",
+      "Cannot distinguish transition-specific inflation from broad commodity cycle",
+      "Double reflexivity fiscal channel is theoretically coherent but empirically untested"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "plan_continuation_bias_framework",
+    "purpose": "Provides base rate calibration for energy transition timeline forecasts by documenting historical achievement rates of energy policy targets and technological deployment projections.",
+    "components": [
+      "Historical base rates: nuclear 10% of target, ethanol 44%, smart meters 65%",
+      "Transition timeline multiplier: 1.5-2.5x longer than initially projected (0/4 on-time)",
+      "Policy durability: 25% survival rate across two presidential transitions (though legislatively-embedded fiscal incentives may differ)",
+      "Infrastructure-dependent vs consumer electronics analogues for adoption speed",
+      "Concrete falsification tests with specific dates and thresholds"
+    ],
+    "current_assessment": "Current transition is tracking faster than historical precedent (2.5-3.0 sigma) but with n=3-4 the statistical significance is illusory. Infrastructure-dependent analogues (electrification 50yr, gas displacing coal 30+yr) are more relevant than smartphone curves.",
+    "limitations": [
+      "Small sample sizes (n=3-4) limit statistical inference",
+      "IRA's tax-credit structure may represent qualitatively different policy durability",
+      "Current transition has unique features (learning rates, multiple simultaneous technology shifts) not captured by historical analogues",
+      "Cherry-picking risk in analogue selection"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "em_grid_trilemma_framework",
+    "purpose": "Maps Mundell's impossible trinity onto EM energy transition financing to identify structural financing constraints and their macro consequences.",
+    "components": [
+      "Energy security: reliable baseload power for economic growth",
+      "Fiscal sustainability: maintaining debt sustainability while funding transition",
+      "Transition commitments: meeting climate and deployment targets",
+      "Three financing paths: domestic fiscal expansion (→ currency weakness), external debt (→ BoP vulnerability), FDI (→ requires institutional quality)",
+      "Annual funding gap: $50-150B (needs $150-250B/yr vs current $75-110B/yr)"
+    ],
+    "current_assessment": "Analytically sound framework. The neediest countries face the worst trilemma because FDI requires institutional quality they lack. No single financing path resolves the trilemma without creating macro vulnerabilities.",
+    "limitations": [
+      "Uncorroborated by other agents beyond fx_strategist_02",
+      "Assumes rigid trilemma when partial solutions may be available",
+      "Does not account for multilateral/blended finance mechanisms",
+      "Institutional quality is hard to measure and may evolve"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "asymmetric_transmission_framework",
+    "purpose": "Explains why monetary policy affects the energy transition asymmetrically — rate hikes slow it but rate cuts cannot accelerate it past binding non-monetary constraints — creating a ratchet effect.",
+    "components": [
+      "Rate hike transmission: auto loan rates slow EV adoption, project finance costs slow deployment",
+      "Rate cut ineffectiveness: permitting, grid queues, mineral supply, and manufacturing capacity are binding non-monetary constraints",
+      "Ratchet mechanism: each tightening cycle permanently delays projects that cannot be recovered in easing",
+      "Green capex channel: 40-60% of investment is rate-insensitive due to subsidies/mandates/PPAs",
+      "Central bank independence tension: fighting inflationary effects of government's own mandated transition policy"
+    ],
+    "current_assessment": "IRA subsidies currently offset the monetary headwind 2-3x. The ratchet effect is theoretically important but has not yet accumulated enough cycles to be empirically confirmed. The framework is most valuable for stress-testing transition robustness under different rate scenarios.",
+    "limitations": [
+      "Limited empirical validation — based primarily on 2022-2024 experience",
+      "Non-monetary constraints may relax over time through regulatory reform",
+      "Rate-insensitive share is policy-contingent, not structural",
+      "Magnitude of permanent delay per tightening cycle is unquantified"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  },
+  {
+    "slug": "capital_cycle_analogue_framework",
+    "purpose": "Uses the 1990s telecom infrastructure boom as a capital cycle analogue to assess likely investor outcomes in the energy transition build-out.",
+    "components": [
+      "Construction phase: massive capital deployment, many entrants, aggressive valuations",
+      "Bust phase: 95% company failure, median investor IRR slightly negative",
+      "Legacy phase: surviving infrastructure enables later revolution for different beneficiaries",
+      "IRA modification: subsidy floor as structural difference potentially improving investor outcomes vs telecom",
+      "Key insight: value accrues to different entities than those who funded construction"
+    ],
+    "current_assessment": "The structural parallel is strong. The IRA subsidy floor is a genuine difference but its impact on the IRR distribution is unquantified. Grid infrastructure thesis for electrical equipment manufacturers (Eaton, Hubbell, Schneider) with visible order books may represent the 'infrastructure layer' that survives.",
+    "limitations": [
+      "Neither the analogue nor any debater quantified how much IRA shifts investor outcomes",
+      "Telecom was unregulated; energy has regulated utility returns providing a floor",
+      "Single analogue may not generalize",
+      "Timing of bust phase is unspecified"
+    ],
+    "topic": "energy_transition",
+    "iteration_id": "iter_0033"
+  }
+]

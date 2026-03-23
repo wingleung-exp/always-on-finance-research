@@ -1,0 +1,32 @@
+{
+  "slug": "cross_asset_scenario_inconsistency",
+  "definition": "Markets are simultaneously pricing mutually inconsistent energy transition scenarios: clean energy equities at 25-35x P/E imply rapid deployment; E&P CDS at 150-250bp imply no stranded asset risk; copper at $8-11k/t implies neither demand acceleration nor supply scarcity. These three signals cannot all be correct.",
+  "confidence": 7,
+  "evidence": [
+    "Clean energy equities at 25-35x forward P/E",
+    "E&P CDS at 150-250bp",
+    "Copper in zombie zone at $8-11k/t",
+    "Equity deployment rates demand more copper than current prices incentivize"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Which market will reprice first?",
+    "Is the inconsistency arbitrageable or does it reflect genuine uncertainty about pathway?",
+    "How long can mutually inconsistent pricing persist?"
+  ],
+  "related_concepts": [
+    "copper_zombie_zone",
+    "stranded_fossil_asset_timeline",
+    "copper_deficit_calibration"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

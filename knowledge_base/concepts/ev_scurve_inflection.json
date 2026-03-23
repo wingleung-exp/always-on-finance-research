@@ -1,0 +1,36 @@
+{
+  "slug": "ev_scurve_inflection",
+  "definition": "EV adoption has passed the S-curve inflection point at ~18-20% global new sales share (2024). Historical base rate: 8/10 comparable technologies doubled penetration within 5-7 years of crossing 10%; 0/20 technologies at 15%+ reversed to single digits. 30%+ global share by 2030 is the base case at ~65-70% probability.",
+  "confidence": 7,
+  "evidence": [
+    "Global EV share: ~2% (2020) → ~18-20% (2024) → ~22-25% (2025E)",
+    "8/10 technologies doubled penetration within 5-7 years of crossing 10%",
+    "0/20 technologies at 15%+ reversed to single digits",
+    "Cross-country validation: Norway 90%+, China ~50%, Germany ~25%",
+    "Infrastructure-dependent transitions follow 15-30 year tails from 10% to 50% share",
+    "12-15 year average vehicle lifespan constrains fleet turnover"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "commodities_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Will global EV sales share reach 35% by end of 2028 (smartphone curve test)?",
+    "Does charging infrastructure become a binding constraint in developing markets?",
+    "At what EV share do ICE vehicle fixed costs create a profitability tipping point (estimated 30-40%)?"
+  ],
+  "related_concepts": [
+    "energy_transition_timeline_overoptimism",
+    "copper_deficit_calibration",
+    "grid_infrastructure_bottleneck"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

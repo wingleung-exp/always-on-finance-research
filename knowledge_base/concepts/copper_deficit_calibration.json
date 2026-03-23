@@ -1,37 +1,51 @@
 {
   "slug": "copper_deficit_calibration",
   "definition": "The copper supply deficit is real but likely 2-4Mt cumulative by 2032 rather than the 5-8Mt projected by bullish analysts. Forensic analysis of 8 prior deficit forecasts shows 0/8 fully materialized at projected magnitude (20-30% hit rate). Brownfield expansion and scrap (30-50% of historical supply adjustment) and aluminum substitution work against the high end. Still sufficient to require prices 15-25% above current levels.",
-  "confidence": 6,
+  "confidence": 6.5,
   "evidence": [
-    "0/8 major copper deficit forecasts fully materialized at projected magnitude",
     "20-30% hit rate at projected magnitude, upgradeable to 30-40% due to permitting delays",
     "Brownfield expansion + scrap account for 30-50% of historical supply adjustment with 2-5 year response time",
     "Pair_3 calibrated likely range downward to 2-4Mt",
-    "Still requires prices 15-25% above current to incentivize greenfield"
+    "Still requires prices 15-25% above current to incentivize greenfield",
+    "0/8 major copper deficit forecasts fully materialized historically",
+    "Ore grades declining from ~0.8% to ~0.5%",
+    "Greenfield timelines extended from 5.8 years (1990s) to 12-18 years",
+    "Demand tracking: EVs ~1.2-1.5 Mt, grid ~0.8-1.2 Mt, data centers ~0.5-1.6 Mt",
+    "Aluminum substitution activated at $12,000+/t copper price",
+    "Three falsifications of fixed-coefficient mineral demand projections within last decade (platinum/diesel, cobalt/LFP, silver/solar)"
   ],
   "originating_agents": [
     "commodities_analyst_01",
     "risk_analyst_01",
     "quant_researcher_01",
-    "challenger_01"
+    "challenger_01",
+    "generalist_01",
+    "challenger_02",
+    "fx_strategist_02"
   ],
   "open_questions": [
     "What is the price elasticity of aluminum-for-copper substitution?",
     "Will permitting reform in key jurisdictions accelerate supply response?",
-    "Can the 2Mt vs. 8Mt gap be resolved by tracking Kamoa-Kakula, Quellaveco, Oyu Tolgoi ramp-ups?"
+    "Can the 2Mt vs. 8Mt gap be resolved by tracking Kamoa-Kakula, Quellaveco, Oyu Tolgoi ramp-ups?",
+    "Will copper break $12,000/t by 2027 (live falsification test)?",
+    "At what price does aluminum substitution materially reduce copper demand?",
+    "How much do technology coefficient changes reduce projected deficits?"
   ],
   "related_concepts": [
     "copper_structural_tightness",
     "copper_deficit_forecast_bias",
     "copper_zombie_zone",
-    "greenfield_timeline_extension"
+    "greenfield_timeline_extension",
+    "technology_substitution_survivorship_bias",
+    "transition_reflexive_contradiction"
   ],
   "topic": "commodity_supercycles",
   "created_at": "2026-03-23T05:08:32Z",
-  "last_updated": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T10:55:08Z",
   "originating_iteration": "iter_0022",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0022"
+    "iter_0022",
+    "iter_0033"
   ]
 }

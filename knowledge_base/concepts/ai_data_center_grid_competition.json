@@ -1,0 +1,37 @@
+{
+  "slug": "ai_data_center_grid_competition",
+  "definition": "AI data center demand of 150-300+ TWh by 2028-2030 compounds the grid bottleneck by competing with renewable deployment for the same interconnection capacity, transformers, and copper.",
+  "confidence": 7,
+  "evidence": [
+    "PJM capacity prices reflecting real scarcity",
+    "Nuclear restarts (TMI, Palisades) demonstrating willingness to pay for firm baseload",
+    "Hyperscalers competing for same infrastructure as renewable buildout",
+    "Prior tech energy demand forecasts systematically overestimated (2007-2008: predicted 12% of US electricity by 2020, actual ~2-3%)",
+    "Current AI workloads near physical PUE limits (~1.1-1.2) limiting efficiency offset"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "commodities_analyst_01",
+    "quant_researcher_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Will AI compute scaling or efficiency gains dominate the 150-300+ TWh range?",
+    "How much does hyperscaler infrastructure contracting crowd out renewable deployment?",
+    "Is the macro CPI impact (0.06-0.24pp) material or second-order?"
+  ],
+  "related_concepts": [
+    "grid_infrastructure_bottleneck",
+    "ai_transition_cofunding_dynamic",
+    "copper_deficit_calibration"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

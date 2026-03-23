@@ -7,21 +7,30 @@
     "Alpha assessment: t-stat <1.5, near-zero incremental alpha",
     "Commodity momentum: backtest Sharpe 0.7-0.8, live Sharpe ~0.35 net",
     "Carry signal: dominant and most reliable premium, currently at median historical levels",
-    "Regime dependence: supply-shock environments offer diversification (negative equity beta), demand-driven rallies do not"
+    "Regime dependence: supply-shock environments offer diversification (negative equity beta), demand-driven rallies do not",
+    "Factor attribution (60-70%): rate sensitivity, growth/value rotation, momentum",
+    "Fundamental attribution (30-40%): policy catalysts, deployment growth, cost reduction",
+    "Regime classification: speculative growth (falling rates), value/defensive (rising rates), quality (stable rates)",
+    "Sub-sector rotation based on macro regime"
   ],
-  "current_assessment": "The supercycle trade is primarily a factor bet, not alpha generation. Commodity momentum mechanically captures supercycle dynamics with ~0.35 net Sharpe. The carry signal at median levels suggests neutral positioning rather than strong conviction.",
+  "current_assessment": "Clean energy thematic ETFs were de facto leveraged rate bets in 2020-2023. IRA passage (best fundamental catalyst) was overwhelmed by rate regime shift. Quality-focused approach may dominate in current stabilizing regime.",
   "limitations": [
     "Specification sensitivity and sample period dependence",
     "Live vs. backtest divergence of ~50% for momentum strategies",
     "Factor structure may be unstable across commodity regimes",
-    "Does not address whether factor timing based on supercycle identification adds value"
+    "Does not address whether factor timing based on supercycle identification adds value",
+    "Attribution analysis is backward-looking and regime-dependent",
+    "Factor loadings may shift as the sector matures",
+    "Does not account for individual company differentiation",
+    "Policy uncertainty premium may be conflated with high-beta premium"
   ],
   "topic": "commodity_supercycles",
   "created_at": "2026-03-23T05:08:32Z",
-  "last_updated": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T10:55:08Z",
   "originating_iteration": "iter_0022",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0022"
+    "iter_0022",
+    "iter_0033"
   ]
 }

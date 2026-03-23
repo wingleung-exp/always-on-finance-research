@@ -333,11 +333,6 @@
         "definition": "Copper has the strongest individual case for structural supply tightness among all commodities, driven by declining ore grades (~0.8% in 2005 to ~0.5%"
       },
       {
-        "slug": "copper_zombie_zone",
-        "confidence": 8,
-        "definition": "Copper occupies a 'zombie zone' where prices are above all-in sustaining costs (AISC $8-9k/t) but below greenfield incentive prices ($10-11k/t). This "
-      },
-      {
         "slug": "demand_destruction_cycle_termination",
         "confidence": 8,
         "definition": "Every prior commodity supercycle peak was triggered by demand destruction, not supply catch-up, with a 4/4 historical base rate. 1917 (WWI end), 1951 "
@@ -346,6 +341,11 @@
         "slug": "greenfield_timeline_extension",
         "confidence": 8,
         "definition": "Greenfield mining development timelines have structurally extended from ~5.8yr median in the 1990s to ~12.5yr in the 2010s, with extreme cases of 22-2"
+      },
+      {
+        "slug": "opec_plus_structural_fragility",
+        "confidence": 8,
+        "definition": "OPEC+ functions as a managed price band ($70-90 Brent) rather than a supercycle enabler, holding 4-5Mb/d spare capacity. The cooperative equilibrium b"
       }
     ],
     "all_concept_slugs": [
@@ -868,6 +868,96 @@
       "youth_bulge_instability_nexus"
     ],
     "avg_confidence": 6.5
+  },
+  "energy_transition": {
+    "concept_count": 30,
+    "relationship_count": 15,
+    "framework_count": 7,
+    "top_concepts": [
+      {
+        "slug": "china_rare_earth_processing_dominance",
+        "confidence": 8,
+        "definition": "China's 85-90% concentration in rare earth processing constitutes the highest-severity supply chain vulnerability for the energy transition, with an H"
+      },
+      {
+        "slug": "energy_transition_timeline_overoptimism",
+        "confidence": 8,
+        "definition": "Historical energy transitions consistently take 1.5-2.5x longer than initially projected, with a base rate of 0/4 for on-time completion in modern his"
+      },
+      {
+        "slug": "green_bond_greenium",
+        "confidence": 8,
+        "definition": "Green bond greenium exists at 2-8bp in primary markets but is economically trivial and converges to statistically insignificant levels within 6 months"
+      },
+      {
+        "slug": "grid_infrastructure_bottleneck",
+        "confidence": 8,
+        "definition": "Grid infrastructure \u2014 interconnection queues, transformer lead times, and transmission capacity \u2014 is the binding constraint on energy transition pace,"
+      },
+      {
+        "slug": "plan_continuation_bias",
+        "confidence": 8,
+        "definition": "Institutional momentum causes energy transition stakeholders to maintain overly optimistic timelines and targets despite accumulating evidence of dela"
+      },
+      {
+        "slug": "renewable_learning_rate_distinction",
+        "confidence": 8,
+        "definition": "Solar module learning rates (~24%/doubling, R\u00b2\u22480.97) are robust, but module cost is not system cost. Balance-of-system, permitting, and interconnectio"
+      },
+      {
+        "slug": "sequential_rare_earth_weaponization",
+        "confidence": 8,
+        "definition": "China's export restrictions on critical minerals follow an escalating sequential pattern \u2014 each restriction more severe and targeting processing choke"
+      },
+      {
+        "slug": "technology_substitution_survivorship_bias",
+        "confidence": 8,
+        "definition": "Mineral demand forecasts assuming fixed technology coefficients have <30% accuracy at the 7-10 year horizon. Platinum (diesel decline), cobalt (LFP ba"
+      },
+      {
+        "slug": "ai_data_center_grid_competition",
+        "confidence": 7,
+        "definition": "AI data center demand of 150-300+ TWh by 2028-2030 compounds the grid bottleneck by competing with renewable deployment for the same interconnection c"
+      },
+      {
+        "slug": "ai_transition_cofunding_dynamic",
+        "confidence": 7,
+        "definition": "AI capex and energy transition capex share a fragile co-funding relationship for grid infrastructure \u2014 if either retreats, the other loses cost-sharin"
+      }
+    ],
+    "all_concept_slugs": [
+      "ai_data_center_grid_competition",
+      "ai_transition_cofunding_dynamic",
+      "asymmetric_monetary_transmission",
+      "bimodal_outcome_distribution",
+      "boj_pboc_differential_transmission",
+      "catalytic_opposition_event",
+      "china_rare_earth_processing_dominance",
+      "clean_energy_factor_dominance",
+      "cross_asset_scenario_inconsistency",
+      "ecb_fed_transition_divergence",
+      "em_fx_energy_reclassification",
+      "em_grid_trilemma",
+      "energy_transition_timeline_overoptimism",
+      "ev_scurve_inflection",
+      "gas_oil_stranded_divergence",
+      "green_bond_greenium",
+      "green_capex_transmission_impairment",
+      "grid_infrastructure_bottleneck",
+      "grid_modernization_investability",
+      "integration_cost_ucurve",
+      "plan_continuation_bias",
+      "policy_uncertainty_premium",
+      "renewable_learning_rate_distinction",
+      "resource_curse_2_0",
+      "sequential_rare_earth_weaponization",
+      "stranded_fossil_asset_timeline",
+      "technology_substitution_survivorship_bias",
+      "telecom_capital_cycle_analogue",
+      "transition_reflexive_contradiction",
+      "transition_stock_bond_correlation"
+    ],
+    "avg_confidence": 6.7
   },
   "equity_cycles": {
     "concept_count": 26,

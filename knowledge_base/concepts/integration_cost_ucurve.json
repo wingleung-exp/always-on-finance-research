@@ -1,0 +1,33 @@
+{
+  "slug": "integration_cost_ucurve",
+  "definition": "Grid integration costs follow a U-curve with a non-linear inflection at ~35-45% renewable penetration, based on the Energiewende analogue. German industrial electricity prices rose 60-80% in real terms over 2010-2023, and chemical production declined ~20% from peak. US at ~22-25% penetration is approaching this threshold.",
+  "confidence": 6,
+  "evidence": [
+    "German industrial electricity prices rose 60-80% in real terms 2010-2023",
+    "German chemical production declined ~20% from peak",
+    "Curtailment and redispatch costs rose non-linearly",
+    "US renewable penetration at ~22-25%, approaching threshold",
+    "US threshold may be 45-55% due to larger geography, cheaper gas backup"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Where exactly is the US inflection point given structural differences from Germany?",
+    "Can storage technology shift the inflection threshold higher?",
+    "Is the Energiewende analogue transferable given market structure differences?"
+  ],
+  "related_concepts": [
+    "grid_infrastructure_bottleneck",
+    "renewable_learning_rate_distinction",
+    "energy_transition_timeline_overoptimism"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}

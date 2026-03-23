@@ -1,0 +1,38 @@
+{
+  "slug": "energy_transition_timeline_overoptimism",
+  "definition": "Historical energy transitions consistently take 1.5-2.5x longer than initially projected, with a base rate of 0/4 for on-time completion in modern history. Infrastructure-dependent transitions are the relevant analogues, not consumer electronics adoption curves.",
+  "confidence": 8,
+  "evidence": [
+    "Nuclear build-out at ~2.5x projected timeline",
+    "Energiewende at ~1.5x and still incomplete",
+    "Coal-to-Oil at ~2x",
+    "IEA forecasts systematically over-optimistic on fossil displacement",
+    "AEC projected 1,000 GW nuclear by 2000 vs ~100 GW actual (~10% achievement)",
+    "Ethanol mandates at 44% of target; smart meters at 65% of target",
+    "25% base rate for energy policy surviving two presidential transitions (though IRA structure may differ)",
+    "Current transition tracking 2.5-3.0 sigma faster than historical mean but n=3-4 limits significance"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "challenger_02",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Does the IRA's tax-credit structure in red-state districts provide qualitatively different policy durability?",
+    "Is the current transition genuinely faster or is it too early to tell with n=3-4?",
+    "Which analogues are most relevant: consumer electronics (10yr) or infrastructure (30-50yr)?"
+  ],
+  "related_concepts": [
+    "plan_continuation_bias",
+    "integration_cost_ucurve",
+    "ev_scurve_inflection"
+  ],
+  "topic": "energy_transition",
+  "created_at": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-23T10:55:08Z",
+  "originating_iteration": "iter_0033",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0033"
+  ]
+}
