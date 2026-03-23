@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "three_phase_sequencing",
+    "purpose": "Identifies the current phase of the inflation cycle and predicts likely sequencing of resolution, including where markets systematically err",
+    "components": [
+      "Phase 1: Goods disinflation from supply chain normalization, inventory restocking, and energy mean-reversion (typically 12-18 months)",
+      "Phase 2: Stall zone where goods disinflation exhausts and services persistence becomes visible; markets declare 'mission accomplished' in 4/6 historical episodes",
+      "Phase 3: Resolution path — recession-driven (5/5 historical precedent for services), productivity revolution (long-dated), or failure to resolve with second wave",
+      "Conditional second-wave probability: accommodative policy during stall → second wave 3/3; restrictive → 0/2",
+      "Key signpost: core CPI printing below 2.5% on OER drag is the '1995 trap'"
+    ],
+    "current_assessment": "Economy is in late Phase 2 / early Phase 3. Goods disinflation essentially complete. Shelter OER lag will provide 40-80bp mechanical relief through late 2026. Services ex-shelter at 4-5% is the binding constraint. The conditional second-wave base rate (3/3 with accommodative policy) is the most actionable finding for policy monitoring.",
+    "limitations": [
+      "Based on only 6 historical episodes, limiting statistical power",
+      "Unique combination of mortgage lock-in, AI, deglobalization, and fiscal expansion means no single episode fully applies",
+      "Phase 3 resolution mechanism is the key unknown with no precedent for non-recessionary services resolution"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "slug": "nkpc_services_inflation_model",
+    "purpose": "Quantifies the fundamental driver of services inflation persistence through unit labor costs and identifies conditions required for resolution",
+    "components": [
+      "Services wage growth at 4.0-4.5% as the primary input",
+      "Services productivity growth at 0.5-1.0%",
+      "Unit labor cost growth = wage growth minus productivity = 3.0-4.0%",
+      "Calvo pricing mechanism transmitting ULC to services CPI at 3.5-4.0%",
+      "Three resolution channels: wage deceleration (labor market softening), productivity acceleration (AI timeline), margin compression (limited scope)"
+    ],
+    "current_assessment": "Services ULC growth at 3.0-4.0% fully explains current persistence without appeal to structural breaks. None of the three resolution channels are operating at sufficient scale within the 2026-2028 horizon. The model correctly predicts the level but does not explain why transmission is slower this cycle.",
+    "limitations": [
+      "Calvo pricing assumption may not capture full heterogeneity of services sector pricing",
+      "Does not account for transmission impairment or credit channel delay",
+      "Productivity measurement in services is notoriously difficult",
+      "Aggregate model may miss sector-specific dynamics (PE consolidation, insurance)"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "slug": "conjunctive_conditions_spiral_assessment",
+    "purpose": "Assesses wage-price spiral risk by requiring all necessary institutional conditions to be met simultaneously before declaring spiral risk elevated",
+    "components": [
+      "Condition A: Unemployment sustained below ~3.8%",
+      "Condition B: Wage growth exceeding 5%",
+      "Condition C: Firm pricing power sufficient for full cost pass-through",
+      "Condition D: Expectations de-anchoring above Coibion-Gorodnichenko threshold",
+      "Institutional prerequisites: union density >25%, COLA coverage >60%",
+      "Historical validation: true spirals only in 1966-69 and 1973-75 when all conditions met"
+    ],
+    "current_assessment": "Currently 0/3-4 conditions met. Union density ~10%, COLA coverage <10%. The 2021-23 natural experiment (2/3 conditions temporarily met) confirmed the conjunctive requirement. Spiral probability <10-15%. However, inflation can persist through non-spiral channels.",
+    "limitations": [
+      "Does not address non-spiral persistence channels (fiscal, commodity, shelter, expectations drift)",
+      "Absence of spiral risk does not imply inflation returns to target",
+      "Institutional prerequisites may evolve over long horizons"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "slug": "cross_asset_inflation_regime_framework",
+    "purpose": "Identifies mutually contradictory inflation-path assumptions embedded across asset classes to find tradeable mispricings and determine the dominant portfolio construction variable",
+    "components": [
+      "Equity multiples and implied inflation/discount rate path",
+      "Credit spreads (IG OAS 90-110bp, HY 300-350bp) and embedded disinflationary probability (65-70%)",
+      "Breakeven inflation levels and risk premium",
+      "Real yields and implied equilibrium rate",
+      "Maturity-dependent correlation bifurcation (2Y negative, 30Y positive) as fiscal-dominance fingerprint",
+      "Non-default spread component as regime indicator (expanded from 60-70% to 75-85% of IG OAS)"
+    ],
+    "current_assessment": "Asset classes embed contradictory assumptions. Credit spreads price a disinflationary glide path inconsistent with structural persistence. Breakevens underprice right-tail risk. Inflation optionality offers asymmetric risk/reward regardless of point-estimate debates. Inflation regime identification is the dominant portfolio construction variable.",
+    "limitations": [
+      "TIPS liquidity premium uncertainty (-80bp to +40bp) makes breakeven level claims fragile",
+      "Scenario probability weights are inherently subjective (Brier scores of 0.3-0.4 at 12+ month horizons)",
+      "Cross-asset trades require the regime to resolve within the trade horizon",
+      "Specific alpha estimates do not survive scrutiny even when directional finding does"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "slug": "transmission_impairment_framework",
+    "purpose": "Explains why this cycle's inflation is structurally slower to resolve than historical episodes by mapping impaired monetary transmission channels",
+    "components": [
+      "Interest rate channel at ~60% effectiveness",
+      "Mortgage lock-in effect freezing housing turnover and insulating household balance sheets",
+      "Equity wealth channel operating in reverse (amplifying demand)",
+      "Covenant-lite credit structures (>90%) delaying default channel by 12-24 months",
+      "CLO plumbing reducing marginal credit market discipline",
+      "Fiscal channel (6-7% GDP deficits) partially offsetting tightening",
+      "Aggregate: 525bp hikes producing only ~100bp FCI tightening"
+    ],
+    "current_assessment": "Multiple transmission channels impaired simultaneously, creating a historically distinct regime. Services inflation is a labor cost phenomenon (NKPC) operating through an impaired transmission mechanism (rate channel) with delayed credit-channel feedback (covenant-lite). Whether monetary policy can resolve this without recession remains the central unresolved question.",
+    "limitations": [
+      "Difficult to separate transmission impairment from the hypothesis that policy simply has not been restrictive enough",
+      "Degree of impairment is measured residually with wide confidence intervals",
+      "Transmission impairment may self-correct as mortgage lock-in erodes over time",
+      "525bp/100bp ratio may overstate impairment if supply normalization did significant independent work"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "slug": "structural_cyclical_decomposition",
+    "purpose": "Decomposes above-target inflation into structural (policy-resistant) and cyclical (policy-responsive) components to determine appropriate policy response",
+    "components": [
+      "Structural components: housing supply deficit (10-20bp), deglobalization/tariffs (10-20bp), healthcare/insurance (10-15bp), energy transition (5-15bp)",
+      "Cyclical components: residual labor tightness, fiscal impulse, post-pandemic demand normalization",
+      "Methodologies: Beveridge-Nelson, UC-SV, analogue-weighted decomposition",
+      "Agent estimates: rates_strategist_02 at 60-70% structural, macro_strategist_01 at 30-40% structural, generalist_02 at ~40% structural"
+    ],
+    "current_assessment": "Estimates range from 30-70% structural — the two most methodologically rigorous agents reach nearly opposite conclusions. The divergence stems from classification choices: housing supply deficit as structural vs. labor tightness as cyclical. This is the highest-priority question for future research as it determines whether the inflation regime is amenable to conventional policy or requires structural reform.",
+    "limitations": [
+      "Wide confidence intervals (+/-20-30bp on each component)",
+      "Classification of factors as structural vs. cyclical is itself debatable",
+      "Different methodologies yield materially different results",
+      "Overconfidence in point estimates is the primary epistemic risk"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  }
+]

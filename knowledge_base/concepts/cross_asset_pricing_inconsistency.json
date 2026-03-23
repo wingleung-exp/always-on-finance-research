@@ -1,7 +1,7 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7.6,
+  "confidence": 7.5,
   "evidence": [
     "S&P ~21x forward P/E requires ~4.0% unemployment consumption levels",
     "Rates pricing 75-100bp of easing implies labor softening",
@@ -27,7 +27,10 @@
     "Identified cross-asset inconsistency in inflation expectations",
     "If commodities right, equity margins compress",
     "No other agent directly contradicted this observation",
-    "Provides practical portfolio advice context"
+    "Provides practical portfolio advice context",
+    "Maturity-dependent correlation bifurcation: 2Y negative, 30Y positive as fiscal-dominance fingerprint",
+    "Credit spreads embed disinflationary glide path inconsistent with breakeven term structure",
+    "IG OAS at 90-110bp and HY at 300-350bp embed 65-70% disinflationary probability inconsistent with structural persistence"
   ],
   "originating_agents": [
     "generalist_01",
@@ -52,7 +55,9 @@
     "Which market will reprice — equities down or rates/term premium down?",
     "Does passive investing (~50% AUM) extend the repricing lag to 36-60 months?",
     "Which asset class will resolve the inconsistency?",
-    "Is the inconsistency exploitable given transaction costs and timing uncertainty?"
+    "Is the inconsistency exploitable given transaction costs and timing uncertainty?",
+    "Which asset class is most mispriced relative to the likely inflation regime?",
+    "How should the corridor of instability framework be operationalized for portfolio construction?"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
@@ -73,18 +78,23 @@
     "bimodal_correlation_distribution",
     "commodity_equity_correlation_regime",
     "financialization_correlation_break",
-    "supercycle_positioning_crowding"
+    "supercycle_positioning_crowding",
+    "breakeven_right_tail_underpricing",
+    "credit_maturity_wall",
+    "structural_inflation_shift",
+    "fed_reaction_asymmetry"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:37:25Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 5,
+  "research_iterations": 6,
   "iteration_history": [
     "iter_0003",
     "iter_0015",
     "iter_0020",
     "iter_0020",
-    "iter_0022"
+    "iter_0022",
+    "iter_0023"
   ]
 }

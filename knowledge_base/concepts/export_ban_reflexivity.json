@@ -1,0 +1,29 @@
+{
+  "slug": "export_ban_reflexivity",
+  "definition": "Game-theoretic coordination failure where food-exporting nations impose export bans during supply shortfalls, amplifying modest production shortfalls into extreme price spikes non-linearly. The 2007-08 rice panic (3-4% production shortfall → 3x price from cascading bans) is the canonical example.",
+  "confidence": 8,
+  "evidence": [
+    "2007-08 rice panic: 3-4% production shortfall triggered cascading export bans causing prices to triple",
+    "Game-theoretic coordination failure among exporting nations is well-documented",
+    "Mechanism has confidence 9/10 from commodities_analyst_02"
+  ],
+  "originating_agents": [
+    "commodities_analyst_02"
+  ],
+  "open_questions": [
+    "What institutional mechanisms could prevent export ban cascades in future crises?",
+    "How does the current geopolitical fragmentation affect the probability of coordination failure?"
+  ],
+  "related_concepts": [
+    "agricultural_supply_shocks",
+    "inflation_passthrough_bimodality"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

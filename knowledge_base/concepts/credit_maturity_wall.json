@@ -1,14 +1,18 @@
 {
   "slug": "credit_maturity_wall",
   "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 200-400bp higher all-in refinancing costs representing >40% cash interest expense increase for typical B-rated credits. Covenant-lite documentation (>90% of institutional loans lack maintenance covenants, EBITDA addbacks at 25-40%) eliminates early warning and guarantees nonlinear transition.",
-  "confidence": 8,
+  "confidence": 7.5,
   "evidence": [
     "Sub-IG borrowers face 200-400bp higher all-in refinancing costs",
     "Greater than 40% cash interest expense increase for typical B-rated credits",
     "Greater than 90% of institutional loans lack maintenance covenants",
     "EBITDA addbacks at 25-40% mask deterioration",
     "Amend-and-extend transactions add PIK/higher spreads — postpone but do not resolve",
-    "Debt stock and coupon differential are observable facts not forecasts"
+    "Debt stock and coupon differential are observable facts not forecasts",
+    "Refinancing math: B-rated issued at 5.5-7.0% faces 8.5-11.0%, a 40-60% cash interest increase",
+    "CLO arbitrage viability is binary: functioning at SOFR ~3.5%, dead at SOFR ~5.5%",
+    "Post-reinvestment CLO expirations of $250-350B over 18 months remove marginal bid for 65-70% of institutional leveraged loans",
+    "Scenario-weighted default rate 4.3% expected vs. 2.5% market-implied"
   ],
   "originating_agents": [
     "credit_analyst_01",
@@ -19,19 +23,27 @@
     "How much has amend-and-extend activity pushed near-term maturities out?",
     "What percentage of borrowers can escape via private credit refinancing?",
     "What will the macro environment be at point of maturity wall impact?",
-    "Does the timing uncertainty (2-3 year A&E deferrals) change the vol implications?"
+    "Does the timing uncertainty (2-3 year A&E deferrals) change the vol implications?",
+    "How much can amend-and-extend activity pre-emptively address the maturity wall?",
+    "Is the specific default-rate gap sensitive to subjective probability weights?"
   ],
   "related_concepts": [
     "clo_arbitrage_transmission",
     "private_credit_hidden_vol",
-    "macro_trigger_micro_amplification"
+    "macro_trigger_micro_amplification",
+    "services_inflation_persistence",
+    "clo_oc_test_mechanics",
+    "kalecki_fiscal_channel",
+    "fed_reaction_asymmetry",
+    "covenant_lite_transmission_delay"
   ],
   "topic": "volatility_regimes",
   "created_at": "2026-03-22T22:22:52Z",
-  "last_updated": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-23T05:37:25Z",
   "originating_iteration": "iter_0010",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0010"
+    "iter_0010",
+    "iter_0023"
   ]
 }

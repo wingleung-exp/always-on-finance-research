@@ -1,0 +1,37 @@
+{
+  "slug": "structural_inflation_shift",
+  "definition": "The structural floor for core PCE inflation has shifted upward by an estimated 30-80bp to ~2.3-2.8%, driven by housing supply deficit (10-20bp), deglobalization/tariffs (10-20bp), and healthcare/insurance dynamics (10-15bp), though the directional shift is high-confidence while the precise magnitude is genuinely uncertain.",
+  "confidence": 6,
+  "evidence": [
+    "Housing supply deficit contributing ~10-20bp structural inflation",
+    "Deglobalization and tariffs contributing ~10-20bp",
+    "Healthcare/insurance dynamics contributing ~10-15bp",
+    "Direction is high-confidence (~8/10) but magnitude is uncertain (~5/10)",
+    "Decomposition methodologies (Beveridge-Nelson, UC-SV, analogue-weighted) produce wide confidence intervals of +/-20-30bp"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "macro_strategist_01",
+    "generalist_02",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "What is the precise magnitude of the structural shift?",
+    "How much of above-target inflation is structural vs. cyclical? (Highest-priority unresolved disagreement: estimates range 30-70% structural)",
+    "Which decomposition methodology is most reliable?"
+  ],
+  "related_concepts": [
+    "services_inflation_persistence",
+    "fed_reaction_asymmetry",
+    "shelter_oer_lag_resolution",
+    "kalecki_fiscal_channel"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

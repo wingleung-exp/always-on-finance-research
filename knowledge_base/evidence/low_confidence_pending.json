@@ -1510,5 +1510,40 @@
     "needs": "Statistical validation impossible on n=4 data points. No trend regression can be supported. Requires either additional historical cycles to be identified or a causal mechanism explaining why cycles should shorten (e.g., faster information transmission, higher supply elasticity).",
     "topic": "commodity_supercycles",
     "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "Expectations drift (sub-threshold gradual ratchet of 25-50bp) is a more relevant risk than formal de-anchoring, operating through firm pricing behavior and consumer acceptance below the Coibion-Gorodnichenko threshold",
+    "source_agent": "generalist_02",
+    "needs": "Corroboration from behavioral finance research, survey-based evidence beyond Michigan 5Y-10Y, and cross-agent development of the mechanism distinguishing drift from noise",
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "claim": "Private credit's rate-insensitive deployment creates a structural leak in monetary transmission with 5-15bp neutral rate impact",
+    "source_agent": "credit_analyst_02",
+    "needs": "Better measurement of private credit as share of total credit creation over time, analysis of bidirectional rate insensitivity effects, and evidence on growth trajectory relative to total credit",
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "claim": "CLO OC test mechanics at the 7.5% CCC-bucket threshold create non-linear systemic stress amplification with step-function market disruption",
+    "source_agent": "credit_analyst_02",
+    "needs": "Cross-validation beyond single-agent contribution, modeling of whether sufficient simultaneous downgrades can accumulate for systemic effects, and quantification of Japanese CLO AAA demand feedback channel",
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "claim": "BoJ normalization is an underpriced exogenous shock producing 15-30bp term premium impact through repatriation of ~$1.6T in foreign holdings",
+    "source_agent": "rates_strategist_02",
+    "needs": "Evidence that repatriation will occur at scale given multiple prior pricing cycles without disruption, analysis of gradual vs. acute flow dynamics, and cross-border CLO demand sensitivity quantification",
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "claim": "PE-backed services sector consolidation creates a feedback loop sustaining services inflation through oligopolistic pricing power in healthcare, insurance, and business services",
+    "source_agent": "credit_analyst_02",
+    "needs": "Evidence that PE's <10% share of services employment is sufficient for aggregate pricing effects, sector-specific pricing power measurement, and demonstration that NKPC cannot explain data without this channel",
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
   }
 ]

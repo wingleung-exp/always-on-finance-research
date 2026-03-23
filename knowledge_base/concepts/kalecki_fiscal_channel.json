@@ -1,7 +1,7 @@
 {
   "slug": "kalecki_fiscal_channel",
   "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest coverage ratios (supporting credit quality) and the P/E denominator (supporting equity valuations). The system's current resilience is fiscally contingent, not structurally earned. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
-  "confidence": 8.0,
+  "confidence": 7.33,
   "evidence": [
     "Kalecki-Levy identity mechanically channels fiscal deficits to corporate profits",
     "Pair_2 debate identified this as the most important consensus finding",
@@ -12,7 +12,11 @@
     "Same fiscal spending requires $2T+ annual Treasury issuance",
     "Mechanism undisputed in debates — disagreement only on sustainability",
     "Fiscal arithmetic is observable and undisputed",
-    "Both resolution paths are vol events"
+    "Both resolution paths are vol events",
+    "Kalecki identity: Profits = Investment + Deficits + Net Exports - Savings",
+    "Every 100bp of rate hikes generates ~$250-320B additional government interest payments",
+    "10-25% of fiscal interest payments recycle as spending",
+    "Estimated 100-150bp of spread suppression, though residual-based attribution with wide uncertainty (50-200bp)"
   ],
   "originating_agents": [
     "macro_strategist_01",
@@ -29,7 +33,9 @@
     "Is the fiscal regime sustainable?",
     "Does resolution come benignly (fiscal consolidation) or violently (fiscal crisis)?",
     "At what deficit/GDP level does the fiscal channel exhaust itself?",
-    "Can the dual channel sustain the divergence indefinitely?"
+    "Can the dual channel sustain the divergence indefinitely?",
+    "What is the precise magnitude of the fiscal offset to monetary tightening?",
+    "How sustainable is this channel given the fiscal trajectory?"
   ],
   "related_concepts": [
     "higher_pain_threshold_destabilizing",
@@ -39,15 +45,20 @@
     "hy_oas_current_level",
     "cross_asset_vol_divergence",
     "kalecki_minsky_low_vol_taxonomy",
-    "vol_endogeneity"
+    "vol_endogeneity",
+    "credit_maturity_wall",
+    "services_inflation_persistence",
+    "fed_reaction_asymmetry",
+    "structural_inflation_shift"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-23T05:37:25Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0004",
-    "iter_0010"
+    "iter_0010",
+    "iter_0023"
   ]
 }

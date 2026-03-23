@@ -1,0 +1,27 @@
+{
+  "slug": "cross_asset_inflation_regime_framework",
+  "purpose": "Identifies mutually contradictory inflation-path assumptions embedded across asset classes to find tradeable mispricings and determine the dominant portfolio construction variable",
+  "components": [
+    "Equity multiples and implied inflation/discount rate path",
+    "Credit spreads (IG OAS 90-110bp, HY 300-350bp) and embedded disinflationary probability (65-70%)",
+    "Breakeven inflation levels and risk premium",
+    "Real yields and implied equilibrium rate",
+    "Maturity-dependent correlation bifurcation (2Y negative, 30Y positive) as fiscal-dominance fingerprint",
+    "Non-default spread component as regime indicator (expanded from 60-70% to 75-85% of IG OAS)"
+  ],
+  "current_assessment": "Asset classes embed contradictory assumptions. Credit spreads price a disinflationary glide path inconsistent with structural persistence. Breakevens underprice right-tail risk. Inflation optionality offers asymmetric risk/reward regardless of point-estimate debates. Inflation regime identification is the dominant portfolio construction variable.",
+  "limitations": [
+    "TIPS liquidity premium uncertainty (-80bp to +40bp) makes breakeven level claims fragile",
+    "Scenario probability weights are inherently subjective (Brier scores of 0.3-0.4 at 12+ month horizons)",
+    "Cross-asset trades require the regime to resolve within the trade horizon",
+    "Specific alpha estimates do not survive scrutiny even when directional finding does"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

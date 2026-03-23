@@ -1,0 +1,21 @@
+{
+  "concept_a": "inflation_passthrough_bimodality",
+  "concept_b": "expectations_drift",
+  "mechanism": "Gradual expectations drift (25-50bp ratchet) can push the system across the regime boundary from anchored to de-anchored passthrough, producing outsized responses to shocks that would previously have been contained. The 'anchored but strained' state means the system is near this boundary.",
+  "direction": "b_causes_a",
+  "confidence": 6,
+  "regime_dependence": "Critical in the current 'anchored but strained' regime; if expectations re-anchor firmly, the boundary moves further away and the risk diminishes",
+  "originating_agents": [
+    "generalist_02",
+    "commodities_analyst_02",
+    "generalist_01"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "conjunctive_conditions_spiral_assessment",
+  "purpose": "Assesses wage-price spiral risk by requiring all necessary institutional conditions to be met simultaneously before declaring spiral risk elevated",
+  "components": [
+    "Condition A: Unemployment sustained below ~3.8%",
+    "Condition B: Wage growth exceeding 5%",
+    "Condition C: Firm pricing power sufficient for full cost pass-through",
+    "Condition D: Expectations de-anchoring above Coibion-Gorodnichenko threshold",
+    "Institutional prerequisites: union density >25%, COLA coverage >60%",
+    "Historical validation: true spirals only in 1966-69 and 1973-75 when all conditions met"
+  ],
+  "current_assessment": "Currently 0/3-4 conditions met. Union density ~10%, COLA coverage <10%. The 2021-23 natural experiment (2/3 conditions temporarily met) confirmed the conjunctive requirement. Spiral probability <10-15%. However, inflation can persist through non-spiral channels.",
+  "limitations": [
+    "Does not address non-spiral persistence channels (fiscal, commodity, shelter, expectations drift)",
+    "Absence of spiral risk does not imply inflation returns to target",
+    "Institutional prerequisites may evolve over long horizons"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

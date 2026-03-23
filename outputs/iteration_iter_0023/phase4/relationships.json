@@ -1,0 +1,198 @@
+[
+  {
+    "concept_a": "goods_disinflation_completion",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Three-phase sequencing: goods disinflation exhaustion in Phase 2 reveals services persistence as the dominant residual in Phase 3. Markets declare 'mission accomplished' during Phase 2 in 4/6 historical episodes, systematically underestimating Phase 3 difficulty.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "This sequencing is observed across all 6 historical episodes studied; the economy is currently transitioning from late Phase 2 to early Phase 3",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "shelter_oer_lag_resolution",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Shelter OER deceleration provides 40-80bp of mechanical CPI relief that masks ongoing services ex-shelter inflation at 4-5%, creating a 'mission accomplished' trap analogous to 1983 and 1995 precedents where OER-driven disinflation concealed unresolved services inflation.",
+    "direction": "correlated",
+    "confidence": 9,
+    "regime_dependence": "The masking effect is strongest when OER is decelerating while services ex-shelter remains elevated; expires once the measurement lag normalizes",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "fed_reaction_asymmetry",
+    "concept_b": "structural_inflation_shift",
+    "mechanism": "The ~200bp asymmetry in the Fed's reaction function (easing at ~100bp above target, tightening at ~300bp) produces a de facto 2.3-2.8% long-run average that both reflects and reinforces the structural upward shift in inflation. The reaction function and the structural shift are mutually sustaining.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds under current FOMC composition and political economy; could change with framework review, personnel changes, or a severe inflation scare",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "credit_maturity_wall",
+    "mechanism": "Fiscal deficits at 6-7% GDP mechanically support corporate revenues and suppress default rates by an estimated 100-150bp of spread compression, delaying the maturity wall's impact. Fiscal consolidation would remove this support and accelerate credit stress.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active as long as fiscal deficits remain elevated at 6-7% GDP; fiscal consolidation or debt ceiling constraints would remove the offset",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "inflation_passthrough_bimodality",
+    "concept_b": "expectations_drift",
+    "mechanism": "Gradual expectations drift (25-50bp ratchet) can push the system across the regime boundary from anchored to de-anchored passthrough, producing outsized responses to shocks that would previously have been contained. The 'anchored but strained' state means the system is near this boundary.",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Critical in the current 'anchored but strained' regime; if expectations re-anchor firmly, the boundary moves further away and the risk diminishes",
+    "originating_agents": [
+      "generalist_02",
+      "commodities_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "ai_optimism_easing_trap",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Fed embeds AI productivity in r* → premature easing → equity wealth effect amplifies demand → services inflation persistence extended. Productivity supply arrives after 2028 but demand effect from easing operates immediately, creating a temporal mismatch that sustains above-target inflation.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Contingent on Fed incorporating AI productivity assumptions and on AI equity valuations remaining elevated; risk increases during the 2025-2026 framework review",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "clo_oc_test_mechanics",
+    "concept_b": "credit_maturity_wall",
+    "mechanism": "CLO OC test breaches at the 7.5% CCC-bucket threshold trigger mandatory cash diversion, removing the marginal bid for B/CCC-rated credits precisely when the maturity wall creates peak refinancing demand. CLO reinvestment period expirations ($250-350B) amplify by removing active management.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Amplification strongest in sustained-higher-rates regime (SOFR ~5.5%); in a cutting regime (SOFR ~3.5%), CLO arbitrage remains viable and the feedback loop is muted",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "phillips_curve_convexity",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Near full employment, the sacrifice ratio rises to 3.0-5.0 for last-mile disinflation (2.5%→2.0%), making the monetary policy cost of resolving services inflation disproportionately high and politically difficult given the Fed's revealed reaction asymmetry.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Convexity effect strongest near full employment (unemployment <4.5%); significant labor market deterioration would flatten the curve",
+    "originating_agents": [
+      "macro_strategist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "covenant_lite_transmission_delay",
+    "concept_b": "phillips_curve_convexity",
+    "mechanism": "Covenant-lite structures with EBITDA addbacks delay the credit-channel transmission of monetary policy by 12-24 months, partially explaining observed Phillips Curve flattening and extending above-target inflation persistence without triggering the defaults that would normally discipline pricing.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most pronounced in the current >90% covenant-lite environment; less relevant in historical periods with stronger covenants or in future credit tightening",
+    "originating_agents": [
+      "credit_analyst_02",
+      "macro_strategist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "agricultural_supply_shocks",
+    "concept_b": "inflation_passthrough_bimodality",
+    "mechanism": "Agricultural shocks produce 2-3x larger CPI impact under de-anchored vs. anchored conditions, with export ban reflexivity providing additional non-linear amplification. The biofuel mandate creates a post-2005 structural energy-food correlation (0.4-0.6) linking agricultural and energy shock transmission.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "In EM (food weights 30-50%) impact is regime-level regardless; in DM (weights 10-15%) requires de-anchored conditions or multiple simultaneous shocks to become regime-relevant",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "first_wave_1966_69_analogue",
+    "concept_b": "fed_reaction_asymmetry",
+    "mechanism": "The 1966-69 precedent shows premature easing during an inflation stall produced a second wave 3/3 times with accommodative policy. The current Fed's revealed reaction asymmetry creates conditions structurally similar to the 1967-68 premature pivot.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Predictive power depends on analogue similarity (6.5-7.0/10); key difference is 2024 Fed's explicit data-dependence vs. 1960s direct political pressure",
+    "originating_agents": [
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "cross_asset_pricing_inconsistency",
+    "concept_b": "breakeven_right_tail_underpricing",
+    "mechanism": "Equity multiples embed a disinflationary path, credit spreads embed a similar assumption, and breakevens underprice the right tail — these mutually contradictory assumptions mean at least one asset class must reprice, creating identifiable cross-asset relative value trades.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Inconsistency is most tradeable during regime transitions; narrows as the inflation regime resolves toward either extreme",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "structural_inflation_shift",
+    "concept_b": "taylor_rule_coefficient_decline",
+    "mechanism": "If the structural inflation floor has shifted to 2.3-2.8%, the effective Taylor Rule coefficient of 1.0-1.3 means the Fed is closer to the indeterminacy boundary than standard models suggest, because the gap between actual and target inflation is persistently larger than the policy rule accommodates.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Most dangerous when both conditions hold simultaneously; either a higher coefficient or lower structural floor would mitigate",
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  },
+  {
+    "concept_a": "goods_disinflation_composition",
+    "concept_b": "credit_maturity_wall",
+    "mechanism": "If the next phase of disinflation is demand-destruction rather than supply-normalization, credit spreads widen rather than compress, accelerating the maturity wall's impact on B-rated credits. The current market does not discriminate between these disinflation types.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The distinction matters most during the transition from Phase 2 to Phase 3 when the source of marginal disinflation shifts",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0023"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "slug": "taylor_rule_coefficient_decline",
+  "definition": "The effective Taylor Rule inflation coefficient has declined to ~1.0-1.3 based on revealed Fed preferences (cutting with core PCE at ~2.7%), near the Clarida-Galí-Gertler indeterminacy boundary of φ_π < 1, though the Fed's state-contingent asymmetric reaction function partially mitigates this risk.",
+  "confidence": 7,
+  "evidence": [
+    "Fed began cutting September 2024 with core PCE at ~2.7%, implying φ_π of 1.0-1.3",
+    "Down from 1.8-2.0 during the hiking cycle",
+    "φ_π < 1 generates multiple equilibria in Clarida-Galí-Gertler framework",
+    "Probability of φ_π > 1.5 is low under current revealed preferences"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "macro_strategist_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is the coefficient estimate stable across estimation periods, cycle positions, and FOMC composition?",
+    "Does the asymmetric reaction function adequately address the indeterminacy concern from time-invariant models?"
+  ],
+  "related_concepts": [
+    "fed_reaction_asymmetry",
+    "structural_inflation_shift",
+    "expectations_drift"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

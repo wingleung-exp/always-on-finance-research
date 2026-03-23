@@ -1,0 +1,25 @@
+{
+  "slug": "structural_cyclical_decomposition",
+  "purpose": "Decomposes above-target inflation into structural (policy-resistant) and cyclical (policy-responsive) components to determine appropriate policy response",
+  "components": [
+    "Structural components: housing supply deficit (10-20bp), deglobalization/tariffs (10-20bp), healthcare/insurance (10-15bp), energy transition (5-15bp)",
+    "Cyclical components: residual labor tightness, fiscal impulse, post-pandemic demand normalization",
+    "Methodologies: Beveridge-Nelson, UC-SV, analogue-weighted decomposition",
+    "Agent estimates: rates_strategist_02 at 60-70% structural, macro_strategist_01 at 30-40% structural, generalist_02 at ~40% structural"
+  ],
+  "current_assessment": "Estimates range from 30-70% structural — the two most methodologically rigorous agents reach nearly opposite conclusions. The divergence stems from classification choices: housing supply deficit as structural vs. labor tightness as cyclical. This is the highest-priority question for future research as it determines whether the inflation regime is amenable to conventional policy or requires structural reform.",
+  "limitations": [
+    "Wide confidence intervals (+/-20-30bp on each component)",
+    "Classification of factors as structural vs. cyclical is itself debatable",
+    "Different methodologies yield materially different results",
+    "Overconfidence in point estimates is the primary epistemic risk"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}

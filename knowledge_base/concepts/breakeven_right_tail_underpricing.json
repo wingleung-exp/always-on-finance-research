@@ -1,0 +1,34 @@
+{
+  "slug": "breakeven_right_tail_underpricing",
+  "definition": "Breakeven inflation markets directionally underprice right-tail inflation risk, with a negative inflation risk premium (-10 to -20bp) inconsistent with asymmetric upside risks from tariffs, fiscal trajectory, and Phillips Curve convexity, though the specific magnitude is fragile due to TIPS liquidity premium uncertainty (-80bp to +40bp).",
+  "confidence": 6,
+  "evidence": [
+    "Fisher decomposition shows negative inflation risk premium of -10 to -20bp",
+    "Probability-weighted analogue analysis yields bimodal distribution making optionality cheap even if level approximately fair",
+    "TIPS liquidity premium ranges -80bp to +40bp, making any level claim fragile",
+    "Breakeven term structure flatness through 2Y-5Y belly inconsistent with both level and shelter resolution story"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What is the true TIPS liquidity premium?",
+    "Is inflation optionality the better expression than breakeven level trades?"
+  ],
+  "related_concepts": [
+    "inflation_passthrough_bimodality",
+    "structural_inflation_shift",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T05:37:25Z",
+  "originating_iteration": "iter_0023",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0023"
+  ]
+}
