@@ -1,0 +1,802 @@
+[
+  {
+    "slug": "commodity_trifurcation",
+    "definition": "The broad commodity complex is not experiencing a unified supercycle but is split into three distinct regimes: electrification metals (structurally tight), hydrocarbons (managed via OPEC+ price bands), and agriculture (episodically spiking). This trifurcation invalidates any monolithic supercycle narrative.",
+    "confidence": 9,
+    "evidence": [
+      "Seven of eight agents independently reject the unified supercycle framing",
+      "Supply elasticity ranges 10x across commodities (shale oil ~0.5-1.0 vs. copper ~0.05)",
+      "Divergent inventory data and curve structures across sub-complexes",
+      "Agriculture has biologically constrained 6-18 month supply response differing from both metals and energy",
+      "Survived all four pairwise debates; pair_1 called this the strongest finding"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02",
+      "challenger_01",
+      "generalist_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Could a synchronized geopolitical shock re-correlate all three complexes temporarily?",
+      "At what price levels does substitution across complexes become material?"
+    ],
+    "related_concepts": [
+      "supply_elasticity_variance",
+      "energy_transition_bifurcation",
+      "agricultural_spike_frequency_regime"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supply_elasticity_variance",
+    "definition": "Supply elasticity varies enormously across commodity classes and is the decisive analytical variable for evaluating supercycle claims. Shale oil (~0.5-1.0) can respond in months, lithium (~0.3-0.5) in 2-4 years, wheat (~0.5-0.7) in 6-18 months, while copper (~0.05) requires 12-18 years for greenfield supply response.",
+    "confidence": 9,
+    "evidence": [
+      "Universal convergence across all agents",
+      "Greenfield copper mine timelines extended from 5.8yr median (1990s) to 12.5yr (2010s)",
+      "Quantified elasticity ranking across major commodities",
+      "All four debates confirmed this as the binding analytical variable",
+      "Brownfield elasticity remains 0.15-0.25 providing partial offset"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Can technological innovation (AI-guided exploration, autonomous mining) compress greenfield timelines?",
+      "How does brownfield vs. greenfield elasticity shift as ore grades decline?"
+    ],
+    "related_concepts": [
+      "copper_structural_tightness",
+      "greenfield_timeline_extension",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "copper_structural_tightness",
+    "definition": "Copper has the strongest individual case for structural supply tightness among all commodities, driven by declining ore grades (~0.8% in 2005 to ~0.5% currently), depleted project pipeline, greenfield timelines of 12-18 years, and demand confluence from EVs, grid infrastructure, and data centers. However, deficit projections are systematically overestimated.",
+    "confidence": 8,
+    "evidence": [
+      "Six agents identify copper as the critical commodity",
+      "Declining ore grades from ~0.8% (2005) to ~0.5% (current)",
+      "Greenfield development timelines of 12-18 years",
+      "Demand confluence: EVs (~10M units 2025), grid (+15-20% YoY), renewables (300+ GW/yr)",
+      "Copper is the only base metal where Chinese demand intensity shows no structural break",
+      "0/8 major deficit forecasts fully materialized at projected magnitude (20-30% hit rate)",
+      "Zombie zone: prices above AISC ($8-9k/t) but below greenfield incentive ($10-11k/t)"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "risk_analyst_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Will aluminum substitution prove material above $12,000/t copper?",
+      "Can brownfield expansion and scrap recovery close 30-50% of projected deficits?",
+      "Is the Kamoa-Kakula/Quellaveco/Oyu Tolgoi ramp sufficient to moderate deficit timing?"
+    ],
+    "related_concepts": [
+      "copper_deficit_calibration",
+      "copper_zombie_zone",
+      "copper_deficit_forecast_bias",
+      "china_demand_deceleration_ex_copper",
+      "greenfield_timeline_extension",
+      "ai_datacenter_copper_demand"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "financialization_correlation_break",
+    "definition": "The influx of financial capital into commodity markets structurally broke the commodity-equity diversification benefit that underpinned the endowment model. A Bai-Perron structural break at 2004Q2 (t-stat 5.1) shows rolling 36-month correlations jumped from mean +0.03 (1990-2003) to +0.48 (2004-2020). Partial reversion to +0.28 (2021-2025) is statistically insufficient to declare a second regime change.",
+    "confidence": 9,
+    "evidence": [
+      "Bai-Perron structural break identified at 2004Q2 with t-stat 5.1",
+      "Rolling 36-month correlations: +0.03 (1990-2003) to +0.48 (2004-2020)",
+      "Commodity index AUM grew from ~$15B (2003) to $450B+ (2022) and has not reversed",
+      "Partial reversion to +0.28 insufficient for second regime change",
+      "Pair_2 confirmed as among the strongest empirical findings"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Would a sustained physical tightening episode restore diversification properties?",
+      "Has the commodity-equity correlation embedded a permanent regime via passive allocation?"
+    ],
+    "related_concepts": [
+      "spot_investable_return_divergence",
+      "roll_yield_structural_impairment",
+      "commodity_equity_correlation_regime",
+      "supercycle_factor_decomposition"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "spot_investable_return_divergence",
+    "definition": "Spot commodity prices are a fundamentally misleading proxy for investable returns. GSCI spot return 2005-2025 was approximately -10% cumulative while GSCI total return was approximately -35% cumulative, with roll yield explaining 60-80% of the divergence. Collateralized commodity futures averaged +5.1% annualized (1970-2007) then -3.2% annualized (2008-2025).",
+    "confidence": 9,
+    "evidence": [
+      "GSCI spot return ~-10% cumulative vs. total return ~-35% cumulative (2005-2025)",
+      "Roll yield explains 60-80% of spot-to-total return divergence",
+      "Collateralized return structural break: +5.1% (1970-2007) to -3.2% (2008-2025)",
+      "Financialization suppressed normal backwardation",
+      "Uncontested in debate"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can physical tightening restore positive roll yield despite current AUM levels?",
+      "Is the post-2008 roll yield decline permanent or regime-dependent?"
+    ],
+    "related_concepts": [
+      "financialization_correlation_break",
+      "roll_yield_structural_impairment",
+      "supercycle_factor_decomposition"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "china_demand_deceleration_ex_copper",
+    "definition": "China's commodity demand is structurally decelerating across all major commodities except copper. Bai-Perron structural breaks identified for steel (2013, t-stat 4.2) and aluminum (2018, t-stat 2.8), but no significant break found for copper. China's incremental steel demand share fell from 90%+ (2005-2015) to 35-45% (2020-2025), while copper remains at 55-65% of incremental demand growing 4-6% p.a.",
+    "confidence": 8,
+    "evidence": [
+      "Bai-Perron structural break: steel at 2013 (t-stat 4.2), aluminum at 2018 (t-stat 2.8)",
+      "No significant structural break identified for copper demand",
+      "China incremental steel demand share: 90%+ (2005-2015) to 35-45% (2020-2025)",
+      "Copper at 55-65% of incremental demand, growing 4-6% p.a.",
+      "Driven by grid investment (+15-20% YoY), EV production (~10M units 2025), renewables (300+ GW/yr)",
+      "Total commodity intensity per GDP declining 2-3%/yr but does not negate copper exception"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Can India replace China's demand growth at meaningful scale?",
+      "At what point does China's copper demand intensity per unit GDP begin to decline?",
+      "How much double-counting exists between China demand and energy transition demand estimates?"
+    ],
+    "related_concepts": [
+      "copper_structural_tightness",
+      "commodity_trifurcation",
+      "india_demand_replacement_question"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "demand_destruction_cycle_termination",
+    "definition": "Every prior commodity supercycle peak was triggered by demand destruction, not supply catch-up, with a 4/4 historical base rate. 1917 (WWI end), 1951 (Korean War ceasefire + recession), 1980 (Volcker rate hikes), 2011 (China FAI deceleration + European debt crisis). Supply eventually caught up but demand destruction arrived first.",
+    "confidence": 8,
+    "evidence": [
+      "4/4 historical precedent across all identified supercycles",
+      "1917: end of WWI demand",
+      "1951: Korean War ceasefire + recession",
+      "1980: Volcker rate hikes causing demand destruction",
+      "2011: China FAI deceleration + European debt crisis",
+      "Pair_0 confirmed over generalist_01's supply-response fixation"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Does the consensus recognition of a supercycle reliably function as a mid-cycle signal (2-5 year lag to peak)?",
+      "Could the energy transition create a different termination mechanism?"
+    ],
+    "related_concepts": [
+      "supercycle_reflexive_contradiction",
+      "historical_analogue_1970s",
+      "opec_plus_structural_fragility"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "opec_plus_structural_fragility",
+    "definition": "OPEC+ functions as a managed price band ($70-90 Brent) rather than a supercycle enabler, holding 4-5Mb/d spare capacity. The cooperative equilibrium breaks below fiscal breakevens ($75-90/bbl Saudi, $60-75 UAE, $95-110 Iraq/Nigeria) with historical breakdowns at ~7-10 year intervals (1985-86, 1997-98, 2014-16, 2020). Current overproduction of ~700kb/d signals fragility.",
+    "confidence": 8,
+    "evidence": [
+      "Game-theoretic architecture linking fiscal breakevens to cooperative equilibrium stability",
+      "~700kb/d current overproduction accelerating",
+      "4-5Mb/d spare capacity creating managed price band",
+      "Historical breakdown frequency: ~7-10 year intervals",
+      "Pair_3 identified as highest-conviction shared finding",
+      "Oil is a managed market with a ceiling, not a supercycle candidate"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "challenger_01",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "When is the next cooperative equilibrium breakdown likely given the ~7-10yr cycle?",
+      "Could non-OPEC supply decline accelerate enough to exhaust spare capacity?",
+      "How does the US shale structural break (2018) alter OPEC+ dynamics?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "demand_destruction_cycle_termination",
+      "lng_capacity_wave"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "copper_deficit_calibration",
+    "definition": "The copper supply deficit is real but likely 2-4Mt cumulative by 2032 rather than the 5-8Mt projected by bullish analysts. Forensic analysis of 8 prior deficit forecasts shows 0/8 fully materialized at projected magnitude (20-30% hit rate). Brownfield expansion and scrap (30-50% of historical supply adjustment) and aluminum substitution work against the high end. Still sufficient to require prices 15-25% above current levels.",
+    "confidence": 6,
+    "evidence": [
+      "0/8 major copper deficit forecasts fully materialized at projected magnitude",
+      "20-30% hit rate at projected magnitude, upgradeable to 30-40% due to permitting delays",
+      "Brownfield expansion + scrap account for 30-50% of historical supply adjustment with 2-5 year response time",
+      "Pair_3 calibrated likely range downward to 2-4Mt",
+      "Still requires prices 15-25% above current to incentivize greenfield"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "risk_analyst_01",
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the price elasticity of aluminum-for-copper substitution?",
+      "Will permitting reform in key jurisdictions accelerate supply response?",
+      "Can the 2Mt vs. 8Mt gap be resolved by tracking Kamoa-Kakula, Quellaveco, Oyu Tolgoi ramp-ups?"
+    ],
+    "related_concepts": [
+      "copper_structural_tightness",
+      "copper_deficit_forecast_bias",
+      "copper_zombie_zone",
+      "greenfield_timeline_extension"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "agricultural_spike_frequency_regime",
+    "definition": "Agricultural commodities exhibit structurally different dynamics from metals and energy: biofuel mandates create demand floors (36% of US corn crop locked in), exporter stocks-to-use at ~16% (vs. misleading global 32.7%) reveals true fragility, and export ban contagion operates as a prisoner's dilemma extending shocks 12-24 months. Better characterized as a spike frequency regime (increasing frequency/severity within thinning buffers) rather than a traditional supercycle.",
+    "confidence": 7,
+    "evidence": [
+      "Exporter stocks-to-use at ~16% vs. misleading global 32.7% — pair_1 called this the single most important analytical distinction",
+      "Biofuel mandates locking in 36% of US corn crop with farm-state senator protection",
+      "Export ban contagion as prisoner's dilemma with 3 historical precedents",
+      "Biologically constrained 6-18 month supply response",
+      "Food at 30-50% of EM CPI vs. 10-15% DM creates structural EM-DM rate differentials"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Is the increase in spike frequency statistically distinguishable from historical norms?",
+      "Does the spike regime vs. supercycle distinction change optimal hedging (options vs. structural longs)?",
+      "How material is the EM political instability feedback loop (FAO price index base rate 5/6 episodes)?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "protein_price_cascade",
+      "biofuel_demand_floor",
+      "export_ban_contagion"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "energy_transition_bifurcation",
+    "definition": "The energy transition creates an unprecedented bifurcation with no clean historical analogue: simultaneous structural demand decline in fossil fuels and structural growth in electrification metals. No prior supercycle featured this configuration. The practical investment implications contain a reflexive contradiction: transition metal demand drives inflation, which drives rate hikes, which slows the transition.",
+    "confidence": 7,
+    "evidence": [
+      "No prior supercycle featured simultaneous fossil fuel decline and electrification metal growth",
+      "Definitionally true as a factual observation",
+      "Feedback loop (transition metal demand → inflation → rate hikes → slower transition) is logically coherent but untested",
+      "Pair_0 correctly noted the factual claim and practical implications warrant different confidence levels"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Does the reflexive contradiction create a natural governor on transition metal prices?",
+      "How fast is the fossil fuel demand decline relative to transition metal demand growth?",
+      "Can policy intervention break the reflexive loop?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "supercycle_reflexive_contradiction",
+      "copper_structural_tightness",
+      "green_transition_squeeze"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supercycle_positioning_crowding",
+    "definition": "Commodity supercycle positioning is crowded, creating near-term downside vulnerability. Net commodity overweights at +1.8σ, 13/15 sell-side desks structurally bullish, copper managed money longs at 89th percentile. However, crowded positioning signals short-term vulnerability, not structural thesis invalidity — the 2000s supercycle was widely recognized by 2005 and still ran for years.",
+    "confidence": 7,
+    "evidence": [
+      "Net commodity overweights at +1.8σ",
+      "13/15 sell-side desks structurally bullish",
+      "Copper managed money longs at 89th percentile",
+      "CFTC positioning and ETF flow data confirm moderate-to-elevated crowding",
+      "Pair_3 identified this as a critical blind spot in risk_analyst_01's framework",
+      "2000s supercycle was widely recognized by 2005 yet still ran for years"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "At what positioning level does crowding become self-defeating vs. merely creating interim volatility?",
+      "Can systematic/CTA positioning be distinguished from fundamental positioning for signal quality?"
+    ],
+    "related_concepts": [
+      "supercycle_factor_decomposition",
+      "copper_structural_tightness",
+      "commodity_equity_correlation_regime"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "greenfield_timeline_extension",
+    "definition": "Greenfield mining development timelines have structurally extended from ~5.8yr median in the 1990s to ~12.5yr in the 2010s, with extreme cases of 22-28+ years (Oyu Tolgoi 24yr, Resolution 28yr+, Quellaveco 22yr). Permitting accounts for 60-70% of the extension. The blended supply elasticity declined from ~0.12 to ~0.08 but is not a regime change because brownfield elasticity remains 0.15-0.25.",
+    "confidence": 8,
+    "evidence": [
+      "Documented timeline extension from 5.8yr median (1990s) to 12.5yr (2010s)",
+      "Extreme cases: Oyu Tolgoi 24yr, Resolution 28yr+, Quellaveco 22yr",
+      "Permitting accounts for 60-70% of extension",
+      "Blended elasticity decline from ~0.12 to ~0.08",
+      "Brownfield elasticity remains 0.15-0.25 providing partial offset"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_01",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will permitting reform in major mining jurisdictions reverse the trend?",
+      "Does the capital efficiency argument (30-40% improvement claimed) apply to mining or only oil?"
+    ],
+    "related_concepts": [
+      "supply_elasticity_variance",
+      "copper_structural_tightness",
+      "copper_deficit_calibration"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "historical_analogue_1970s",
+    "definition": "The 1970s is the most relevant historical analogue for current commodity dynamics (7/10 similarity score) sharing capex drought, cartel dynamics, monetary regime stress, geopolitical supply shocks, and above-target inflation. Key differences: no energy transition demand headwind for oil existed then, labor unions amplified wage-price spirals in ways absent now, and commodity intensity of GDP has declined ~40% since, muting inflation transmission.",
+    "confidence": 6,
+    "evidence": [
+      "Scored analogue comparison: 1970s (7/10), 2000s (6.5/10), 1950s (5/10)",
+      "Shared features: capex drought, cartel dynamics, monetary regime stress, geopolitical shocks",
+      "Commodity intensity of GDP down ~40% since 1970s",
+      "Absence of energy transition demand headwind in 1970s",
+      "Labor union amplification absent in current cycle",
+      "Pair_0 confirmed useful for quantitative anchors but not mechanical application"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Which analogue is playing out? Falsifiable: copper >$12k + oil >$100 = 1970s; copper <$10k + oil <$85 = muted cycle",
+      "Do quantitative base rates from prior cycles (200-400% real returns, 13-22 year duration) apply given structural differences?"
+    ],
+    "related_concepts": [
+      "demand_destruction_cycle_termination",
+      "commodity_equity_correlation_regime",
+      "supercycle_reflexive_contradiction"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "copper_zombie_zone",
+    "definition": "Copper occupies a 'zombie zone' where prices are above all-in sustaining costs (AISC $8-9k/t) but below greenfield incentive prices ($10-11k/t). This precise range sustains existing operations while failing to incentivize new supply, creating a self-reinforcing mechanism that keeps the market in structural deficit.",
+    "confidence": 8,
+    "evidence": [
+      "AISC at $8-9k/t and greenfield incentive at $10-11k/t creating a defined price band",
+      "Existing supply grinds down via grade decline while new supply is not sanctioned",
+      "Self-reinforcing mechanism identified by commodities_analyst_01",
+      "Consistent with 0/8 deficit forecast materialization pattern"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "What price level would trigger sufficient greenfield sanctioning to close the deficit?",
+      "How sensitive is the zombie zone to grade decline rates?"
+    ],
+    "related_concepts": [
+      "copper_structural_tightness",
+      "copper_deficit_calibration",
+      "supply_elasticity_variance"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "copper_deficit_forecast_bias",
+    "definition": "Systematic overestimation of copper supply deficits is a documented empirical regularity. Compilation of 8 major deficit forecasts shows 0/8 fully materialized at projected magnitude, with a 20-30% hit rate. Overestimation arises from underweighting brownfield expansion, scrap recovery, and substitution while overweighting demand trajectory linearity.",
+    "confidence": 8,
+    "evidence": [
+      "0/8 major deficit forecasts fully materialized at projected magnitude",
+      "20-30% hit rate at projected levels",
+      "Brownfield expansion and scrap account for 30-50% of historical supply adjustment",
+      "Permitting delays justify upgrading hit rate to 30-40%",
+      "Single most actionable empirical finding per quant_researcher_01"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Is the current cycle different enough (grade decline, permitting extension) to improve forecast accuracy?",
+      "What is the correct discount factor to apply to consensus deficit projections?"
+    ],
+    "related_concepts": [
+      "copper_structural_tightness",
+      "copper_deficit_calibration",
+      "copper_zombie_zone"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supercycle_factor_decomposition",
+    "definition": "The commodity supercycle trade decomposes into known factor tilts (equity beta, value, momentum, carry, short duration) with near-zero incremental alpha. Standard factor regression shows 60-70% of returns explained by factor loadings with alpha t-stat <1.5. Commodity momentum has a backtest Sharpe of 0.7-0.8 but implementable live Sharpe is ~0.35 net of costs.",
+    "confidence": 6,
+    "evidence": [
+      "Fama-French + momentum + carry regression shows 60-70% return attribution to known factors",
+      "Alpha t-stat <1.5 across specifications",
+      "Backtest momentum Sharpe 0.7-0.8 vs. live CTA Sharpe 0.3-0.5",
+      "2012-2019 period was particularly poor for commodity trend strategies",
+      "Pair_2 noted concerns about specification sensitivity and sample period dependence"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Is the factor decomposition stable across regimes or specification-dependent?",
+      "Does the carry signal at current median historical levels predict forward returns?"
+    ],
+    "related_concepts": [
+      "financialization_correlation_break",
+      "spot_investable_return_divergence",
+      "commodity_equity_correlation_regime",
+      "roll_yield_structural_impairment"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "gold_real_rate_disconnect",
+    "definition": "Gold has entered a structural re-rating regime disconnected from its traditional real-rate anchor. Gold at $2,800-3,000+ despite real yields of 1.5-2.0% (historical model implies $1,600-1,800), creating a $400-600/oz residual that has persisted 3+ years. Central bank buying at 1,000+ t/yr is a verifiable demand source but accounts for only 20-25% of total gold demand.",
+    "confidence": 6,
+    "evidence": [
+      "Gold at $2,800-3,000+ vs. model-implied $1,600-1,800 based on real yields",
+      "$400-600/oz residual persisting 3+ years",
+      "Central bank buying at 1,000+ t/yr",
+      "Central bank buying is only 20-25% of total gold demand",
+      "Residual could reflect geopolitical premium, retail demand, or model misspecification"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Is the residual a fiscal dominance signal or temporary mispricing?",
+      "What share of the residual is attributable to USD reserve diversification vs. other factors?",
+      "Could central bank buying reverse, or is it a structural shift?"
+    ],
+    "related_concepts": [
+      "real_yield_commodity_relationship_break",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "commodity_equity_correlation_regime",
+    "definition": "Commodity supercycles historically coincide with positive stock-bond correlation regimes, with direct implications for 60/40 portfolios. The diversification benefit of commodities depends critically on whether the supercycle is supply-driven (negative equity beta — good hedge) or demand-driven (positive equity beta — poor hedge). The 2022 episode already educated institutional investors, partially correcting the mispricing.",
+    "confidence": 7,
+    "evidence": [
+      "1970s persistent positive correlation; 2022 as modern template",
+      "Supply-driven vs. demand-driven distinction determines hedging properties",
+      "2022 episode partially educated institutional investors",
+      "Rolling correlation data confirms regime-dependent behavior"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the current episode supply-driven or demand-driven, and is it mixed?",
+      "Has institutional education from 2022 permanently altered positioning behavior?"
+    ],
+    "related_concepts": [
+      "financialization_correlation_break",
+      "supercycle_factor_decomposition",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "roll_yield_structural_impairment",
+    "definition": "Financialization appears to have structurally suppressed the normal backwardation that historically generated positive roll yield for commodity investors. Collateralized commodity futures averaged +5.1% annualized (1970-2007) then -3.2% annualized (2008-2025). Whether this impairment is permanent or regime-dependent remains a key unresolved question.",
+    "confidence": 6,
+    "evidence": [
+      "Collateralized return structural break from +5.1% to -3.2% annualized",
+      "Roll yield explains 60-80% of spot-to-total return divergence",
+      "Commodity index AUM grew from ~$15B to $450B+ and has not reversed",
+      "Debate between regime-dependent (quant_researcher_01) and permanent (quant_researcher_02) views unresolved"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Would sustained physical tightening restore positive roll yield despite AUM levels?",
+      "Is the shift from backwardation to contango permanent or cyclical?"
+    ],
+    "related_concepts": [
+      "spot_investable_return_divergence",
+      "financialization_correlation_break",
+      "supercycle_factor_decomposition"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supercycle_reflexive_contradiction",
+    "definition": "The commodity supercycle thesis contains its own negation mechanism: if a supercycle drives inflation, it triggers rate hikes, which slow EV/grid adoption, which reduces the demand that drives the supercycle. Additionally, consensus recognition of a supercycle is historically a mid-cycle signal (2-5 year lag to peak), not a peak signal.",
+    "confidence": 7,
+    "evidence": [
+      "Logically coherent feedback loop: supercycle → inflation → rate hikes → slower transition → demand reduction",
+      "Historically untested in the energy transition context",
+      "Consensus recognition as mid-cycle signal supported by 4/4 historical precedent",
+      "challenger_01 identified this as a critical analytical contribution"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How strong is the rate-hike-to-EV-adoption transmission mechanism quantitatively?",
+      "Can fiscal policy (subsidies, mandates) override the monetary policy feedback loop?",
+      "Does the reflexive mechanism create a natural price ceiling?"
+    ],
+    "related_concepts": [
+      "energy_transition_bifurcation",
+      "demand_destruction_cycle_termination",
+      "copper_structural_tightness"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Equity P/E ratios, commodity prices, and credit spreads currently embed contradictory inflation views across asset classes. If commodities are correct about sustained inflation, equity margins should compress or inflation must reaccelerate. This inconsistency represents either a mispricing opportunity or a signal of market segmentation.",
+    "confidence": 7,
+    "evidence": [
+      "Identified cross-asset inconsistency in inflation expectations",
+      "If commodities right, equity margins compress",
+      "No other agent directly contradicted this observation",
+      "Provides practical portfolio advice context"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Which asset class will resolve the inconsistency?",
+      "Is the inconsistency exploitable given transaction costs and timing uncertainty?"
+    ],
+    "related_concepts": [
+      "commodity_equity_correlation_regime",
+      "financialization_correlation_break",
+      "supercycle_positioning_crowding"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "protein_price_cascade",
+    "definition": "Agricultural price shocks transmit through the protein supply chain with biologically determined lags: grain to poultry (6 weeks), to pork (5-6 months), to cattle (18-24 months), creating 2-3 years of 'phantom' food inflation invisible on spot commodity charts. CPI duration of agricultural shocks exceeds commodity price duration by 12-24 months.",
+    "confidence": 5,
+    "evidence": [
+      "Biological timelines well-established across livestock types",
+      "CPI duration exceeds commodity price duration by 12-24 months",
+      "Analytically compelling framework but developed by only one specialist agent",
+      "Food at 30-50% of EM CPI amplifies the transmission"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "How material is the cascade in aggregate CPI terms in developed markets?",
+      "Can trade flows short-circuit the cascade timing?",
+      "Is the cascade mechanism already priced by sophisticated fixed income investors?"
+    ],
+    "related_concepts": [
+      "agricultural_spike_frequency_regime",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "lng_capacity_wave",
+    "definition": "Approximately 180 Mtpa of LNG capacity is under construction against ~470 Mtpa existing (35%+ increase), with physically observable projects on known timelines. This wave will likely create a buyer's market by 2028 with a projected 40-60 Mtpa capacity overshoot exceeding demand growth. TTF already down from >€300/MWh peak to €30-40 range.",
+    "confidence": 7,
+    "evidence": [
+      "~180 Mtpa under construction (Golden Pass, Plaquemines, North Field East/South)",
+      "35%+ increase against existing ~470 Mtpa capacity",
+      "40-60 Mtpa projected overshoot",
+      "TTF decline from >€300/MWh to €30-40 range",
+      "Not directly contested by other agents"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will South/SE Asian demand growth absorb more capacity than projected?",
+      "Could project delays narrow the overshoot?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "opec_plus_structural_fragility"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "biofuel_demand_floor",
+    "definition": "Biofuel mandates function as a political economy ratchet, locking in structural demand floors for agricultural commodities. The Renewable Fuel Standard locks in 36% of US corn crop demand, protected by farm-state senator political dynamics. This creates an inelastic demand component that elevates price floors and reduces effective supply buffers.",
+    "confidence": 7,
+    "evidence": [
+      "36% of US corn crop locked in by RFS mandate",
+      "Farm-state senator political economy creates durability",
+      "Verifiable structural fact with political protection",
+      "Contributes to exporter stocks-to-use being the correct fragility metric"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Could a shift to second-generation biofuels release corn demand?",
+      "What is the probability of RFS repeal or meaningful modification?"
+    ],
+    "related_concepts": [
+      "agricultural_spike_frequency_regime",
+      "export_ban_contagion"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "export_ban_contagion",
+    "definition": "Agricultural export bans operate as a prisoner's dilemma equilibrium: when one major exporter bans exports during a supply shock, other exporters face incentives to do the same, extending the shock duration by 12-24 months. Three historical precedents support this game-theoretic framing.",
+    "confidence": 7,
+    "evidence": [
+      "Formalized as prisoner's dilemma equilibrium",
+      "3 historical precedents",
+      "Extends shock duration by 12-24 months",
+      "Game-theoretically robust mechanism"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Can WTO mechanisms or bilateral agreements prevent contagion?",
+      "Does the mechanism strengthen or weaken as global trade integration increases?"
+    ],
+    "related_concepts": [
+      "agricultural_spike_frequency_regime",
+      "biofuel_demand_floor"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "geopolitical_financial_transmission",
+    "definition": "An 8-step transmission chain connects geopolitical events to financial market impacts, with historical calibration across four major episodes (1973, 1979, 1990, 2022). Recent case studies (WTI negative, LME nickel, European gas margin calls) demonstrate financial amplification mechanisms.",
+    "confidence": 7,
+    "evidence": [
+      "8-step chain with historical calibration table",
+      "Four episodes: 1973, 1979, 1990, 2022",
+      "Financial amplification case studies: WTI negative, LME nickel, €1.5T European gas margin calls",
+      "Systematic framework for geopolitical-to-financial risk assessment"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Are amplification channels in the current configuration different from 1970s or comparable in scale?",
+      "How does elevated sovereign debt interact with commodity shocks in this transmission chain?"
+    ],
+    "related_concepts": [
+      "opec_plus_structural_fragility",
+      "commodity_trading_house_leverage",
+      "green_transition_squeeze"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "india_demand_replacement_question",
+    "definition": "The thesis that India will replace China as the marginal commodity demand driver lacks quantitative support. India's per-capita metal consumption is ~1/8 of China's at comparable development stages. At China's 2005 intensity, India would add only 20-30% of China's 2000s increment. India's services-led growth model implies structurally lower commodity intensity.",
+    "confidence": 6,
+    "evidence": [
+      "India per-capita metal consumption ~1/8 of China at comparable stages",
+      "At China's 2005 intensity: only 20-30% of China's 2000s increment",
+      "India is services-led at structurally lower commodity intensity",
+      "No agent mounted a credible bull case for India as demand replacement"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Could India's infrastructure deficit create a catch-up surge different from the services-led trajectory?",
+      "What would India's urbanization path imply for commodity demand under various scenarios?"
+    ],
+    "related_concepts": [
+      "china_demand_deceleration_ex_copper",
+      "copper_structural_tightness"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supercycle_base_rate",
+    "definition": "The historical base rate for commodity supercycle initiation is 2.4-3.1% annual probability, with an honest confidence interval of [0.4%, 8.2%]. Four real supercycles have been identified, delivering 200-400% real returns over 13-22 years each. The small sample (n=4) fundamentally limits statistical inference.",
+    "confidence": 6,
+    "evidence": [
+      "2.4-3.1% annual initiation probability",
+      "Confidence interval [0.4%, 8.2%]",
+      "Four supercycles: 200-400% real returns over 13-22 years",
+      "n=4 limits all statistical inference including duration shortening claims"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the current period within the confidence interval for a new supercycle?",
+      "Does the wide confidence interval render the base rate practically useless?"
+    ],
+    "related_concepts": [
+      "historical_analogue_1970s",
+      "demand_destruction_cycle_termination",
+      "supercycle_positioning_crowding"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  }
+]

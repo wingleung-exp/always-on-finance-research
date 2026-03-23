@@ -1,0 +1,36 @@
+{
+  "slug": "china_demand_deceleration_ex_copper",
+  "definition": "China's commodity demand is structurally decelerating across all major commodities except copper. Bai-Perron structural breaks identified for steel (2013, t-stat 4.2) and aluminum (2018, t-stat 2.8), but no significant break found for copper. China's incremental steel demand share fell from 90%+ (2005-2015) to 35-45% (2020-2025), while copper remains at 55-65% of incremental demand growing 4-6% p.a.",
+  "confidence": 8,
+  "evidence": [
+    "Bai-Perron structural break: steel at 2013 (t-stat 4.2), aluminum at 2018 (t-stat 2.8)",
+    "No significant structural break identified for copper demand",
+    "China incremental steel demand share: 90%+ (2005-2015) to 35-45% (2020-2025)",
+    "Copper at 55-65% of incremental demand, growing 4-6% p.a.",
+    "Driven by grid investment (+15-20% YoY), EV production (~10M units 2025), renewables (300+ GW/yr)",
+    "Total commodity intensity per GDP declining 2-3%/yr but does not negate copper exception"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01",
+    "quant_researcher_01",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Can India replace China's demand growth at meaningful scale?",
+    "At what point does China's copper demand intensity per unit GDP begin to decline?",
+    "How much double-counting exists between China demand and energy transition demand estimates?"
+  ],
+  "related_concepts": [
+    "copper_structural_tightness",
+    "commodity_trifurcation",
+    "india_demand_replacement_question"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

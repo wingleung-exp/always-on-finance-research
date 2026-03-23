@@ -1,0 +1,151 @@
+[
+  {
+    "slug": "trifurcated_commodity_analysis",
+    "purpose": "Replaces the unified supercycle framework with a three-regime analytical structure that evaluates electrification metals, hydrocarbons, and agriculture as distinct markets with different supply elasticities, demand drivers, and investment implications",
+    "components": [
+      "Electrification metals regime: supply elasticity ~0.05, demand driven by energy transition (EVs, grid, renewables), 12-18yr supply response, structurally tight",
+      "Hydrocarbons regime: OPEC+ managed price band ($70-90 Brent), 4-5Mb/d spare capacity, supply elasticity ~0.5-1.0, not a supercycle candidate",
+      "Agriculture regime: biologically constrained 6-18 month supply response, spike frequency regime rather than supercycle, exporter stocks-to-use (~16%) as correct fragility metric",
+      "Cross-regime analysis: energy transition bifurcation creates unprecedented simultaneous shortage/surplus dynamics"
+    ],
+    "current_assessment": "Electrification metals (especially copper) show genuine structural tightness; hydrocarbons are managed and capped; agriculture is episodically vulnerable. No unified supercycle.",
+    "limitations": [
+      "Framework is relatively new and untested across a full business cycle",
+      "Cross-regime interactions (e.g., energy prices affecting mining costs) not fully modeled",
+      "Agriculture regime dynamics are less thoroughly validated (fewer specialist agents engaged)",
+      "Does not account for potential regime changes within sub-complexes"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supply_elasticity_ranking",
+    "purpose": "Provides a quantitative framework for comparing supply response capacity across commodities, enabling commodity-specific rather than complex-wide supercycle assessment",
+    "components": [
+      "Shale oil: elasticity ~0.5-1.0, response time months",
+      "Wheat: elasticity ~0.5-0.7, response time 6-18 months",
+      "Lithium: elasticity ~0.3-0.5, response time 2-4 years (brine/chemical processing)",
+      "Copper: elasticity ~0.05, response time 12-18 years (hard-rock mining, declining grades)",
+      "Greenfield vs. brownfield distinction: brownfield elasticity 0.15-0.25 vs. greenfield that has structurally declined",
+      "Blended elasticity: declined from ~0.12 to ~0.08, meaningful but not a regime change"
+    ],
+    "current_assessment": "Copper's extremely low supply elasticity makes it the only commodity where structural tightness can persist across multiple business cycles. Shale oil elasticity prevents oil from participating in supercycles. Agricultural elasticity is moderate but biologically constrained.",
+    "limitations": [
+      "Elasticity estimates are point-in-time and may shift with technology",
+      "Does not account for demand elasticity or substitution effects",
+      "Brownfield vs. greenfield split may shift as existing deposits deplete",
+      "Limited data on newer commodities (lithium, cobalt, rare earths)"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "copper_deficit_assessment",
+    "purpose": "Calibrates copper supply deficit projections against historical forecast accuracy and identifies the key variables determining actual deficit magnitude",
+    "components": [
+      "Historical forecast track record: 0/8 major forecasts fully materialized, 20-30% hit rate at projected magnitude",
+      "Demand drivers: EVs (80-100kg/unit), grid (+15-20% YoY), data centers (emerging), China copper intensity (no structural break)",
+      "Supply constraints: declining ore grades (~0.5%), greenfield timelines (12-18yr), permitting bottlenecks (60-70% of timeline)",
+      "Supply offsets: brownfield expansion (0.15-0.25 elasticity), scrap (30-50% of historical adjustment), aluminum substitution",
+      "Zombie zone dynamics: AISC $8-9k/t, greenfield incentive $10-11k/t",
+      "Calibrated deficit: 2-4Mt cumulative by 2032 (not 5-8Mt), sufficient for 15-25% price increase",
+      "Falsification: copper failing to break $12,000/t by 2027 constitutes significant disconfirmation"
+    ],
+    "current_assessment": "Deficit is real but systematically overestimated. 2-4Mt is sufficient to drive meaningful price increases but is not the crisis scenario of 5-8Mt. Monitoring mine ramp-ups, EV adoption rates, and aluminum substitution elasticity is critical.",
+    "limitations": [
+      "China strategic reserves (2-5Mt) represent opaque shadow supply not in public models",
+      "Double-counting risk: same copper demand counted in both China growth and energy transition projections",
+      "AI/data center demand is genuinely novel and poorly quantified (5-16% range)",
+      "Substitution elasticity at various price points is poorly understood"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "opec_cooperative_equilibrium",
+    "purpose": "Provides a game-theoretic framework for assessing OPEC+ stability, identifying conditions under which the cooperative equilibrium breaks down and oil prices deviate from the managed band",
+    "components": [
+      "Fiscal breakeven thresholds: Saudi $75-90/bbl, UAE $60-75, Iraq/Nigeria $95-110",
+      "Spare capacity buffer: 4-5Mb/d creating managed $70-90 Brent band",
+      "Historical breakdown frequency: ~7-10 year intervals (1985-86, 1997-98, 2014-16, 2020)",
+      "Current fragility signal: ~700kb/d overproduction accelerating",
+      "Conditional probability: <3% spare capacity threshold with 67% hit rate for price spikes",
+      "2018 US shale structural break altered the game theory"
+    ],
+    "current_assessment": "OPEC+ is in a structurally fragile cooperative equilibrium. Oil functions as a managed market with a ceiling, making it unsuitable for supercycle classification. Wrong-way risk properties mean breakdown is most likely when fiscal pressures are highest.",
+    "limitations": [
+      "Fiscal breakeven thresholds shift over time with government spending",
+      "US shale response function is evolving (capital discipline vs. production growth)",
+      "Geopolitical disruption scenarios could overwhelm spare capacity",
+      "Does not model sanctions effects on individual members"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "agricultural_fragility_assessment",
+    "purpose": "Provides the correct analytical framework for agricultural commodity risk, replacing the misleading global stocks-to-use metric with exporter-based measures and incorporating structural demand floors and contagion dynamics",
+    "components": [
+      "Exporter stocks-to-use (~16%) vs. global stocks-to-use (32.7%) — the correct fragility metric",
+      "Biofuel demand floor: RFS locking in 36% of US corn with political economy protection",
+      "Export ban contagion: prisoner's dilemma equilibrium extending shocks 12-24 months",
+      "Protein price cascade: grain → poultry (6wk) → pork (5-6mo) → cattle (18-24mo)",
+      "EM vs. DM transmission asymmetry: food at 30-50% of EM CPI vs. 10-15% DM",
+      "FAO price index → political instability base rate: 5/6 episodes",
+      "Spike frequency regime framing vs. traditional supercycle"
+    ],
+    "current_assessment": "Agricultural commodities are in a spike frequency regime with thinning buffers rather than a secular supercycle. True fragility is masked by misleading global inventory metrics. Structural demand floors from biofuels and contagion dynamics from export bans amplify shock severity.",
+    "limitations": [
+      "Fewer specialist agents engaged with agriculture, limiting cross-validation",
+      "Spike frequency regime vs. supercycle distinction is empirically unresolved",
+      "Climate change impact on agricultural supply is not systematically modeled",
+      "Trade policy responses are inherently unpredictable"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "supercycle_historical_base_rate",
+    "purpose": "Provides quantitative anchors from prior supercycles for calibrating return expectations, duration, and termination mechanisms",
+    "components": [
+      "Base rate: 2.4-3.1% annual initiation probability, CI [0.4%, 8.2%]",
+      "Return magnitude: 200-400% real returns across four historical supercycles",
+      "Duration: 13-22 years per cycle, with possible but statistically unsupported shortening trend",
+      "Termination mechanism: demand destruction (4/4), not supply catch-up",
+      "Analogue scoring: 1970s (7/10), 2000s (6.5/10), 1950s (5/10)",
+      "Falsifiable signposts: copper >$12k + oil >$100 = 1970s analogue; copper <$10k + oil <$85 = muted cycle",
+      "Consensus recognition as mid-cycle signal (2-5 year lag to peak)"
+    ],
+    "current_assessment": "Historical base rates provide useful calibration but n=4 fundamentally limits statistical inference. The current environment shares structural similarities with the 1970s but with critical differences (energy transition, lower commodity intensity of GDP, absent wage-price spirals).",
+    "limitations": [
+      "n=4 sample makes all statistical inference fragile",
+      "Survivorship bias in commodity indices (whale oil, guano, saltpeter dropped out)",
+      "Commodity intensity of GDP down ~40% since 1970s, potentially invalidating magnitude comparisons",
+      "Duration shortening trend is spurious on n=4",
+      "Each supercycle occurred in a unique macroeconomic context limiting cross-cycle inference"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "slug": "factor_decomposition_framework",
+    "purpose": "Decomposes the commodity supercycle trade into measurable factor tilts to determine whether the trade offers genuine alpha or merely repackages known risk premia",
+    "components": [
+      "Factor loadings: equity beta, value, momentum, carry, short duration",
+      "Attribution: 60-70% of returns explained by known factors",
+      "Alpha assessment: t-stat <1.5, near-zero incremental alpha",
+      "Commodity momentum: backtest Sharpe 0.7-0.8, live Sharpe ~0.35 net",
+      "Carry signal: dominant and most reliable premium, currently at median historical levels",
+      "Regime dependence: supply-shock environments offer diversification (negative equity beta), demand-driven rallies do not"
+    ],
+    "current_assessment": "The supercycle trade is primarily a factor bet, not alpha generation. Commodity momentum mechanically captures supercycle dynamics with ~0.35 net Sharpe. The carry signal at median levels suggests neutral positioning rather than strong conviction.",
+    "limitations": [
+      "Specification sensitivity and sample period dependence",
+      "Live vs. backtest divergence of ~50% for momentum strategies",
+      "Factor structure may be unstable across commodity regimes",
+      "Does not address whether factor timing based on supercycle identification adds value"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  }
+]

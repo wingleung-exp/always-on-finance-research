@@ -2213,5 +2213,61 @@
     ],
     "topic": "monetary_policy",
     "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Lithium's price collapse (-80%) serves as a template for how copper supply will respond to elevated prices",
+    "reason": "Fundamentally different supply characteristics. Lithium scales through brine evaporation with 2-4yr buildout and geologically abundant deposits in an ~800kt market. Copper requires hard-rock mining with 12-18yr development, declining ore grades (~0.6%), massive water requirements in an ~22Mt market. Categorical error in reasoning by analogy across dissimilar commodities.",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "The 0/4 narrative failure base rate means supercycles do not happen",
+    "reason": "Conflates 'narratives predicting permanent supercycles failed' with 'supercycle theses were wrong.' Four real supercycles delivered 200-400% real returns over 13-22 years. An investor acting on the 2000s thesis from 2003-2008 captured massive returns despite eventual narrative failure. The correct question is whether there was a multi-year period of structurally elevated returns (answer: 4/4 yes).",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "Current commodity market amplification potential exceeds any historical precedent since the 1970s",
+    "reason": "Self-contradicted by risk_analyst_01's own footnote: the 1970s had Bretton Woods aftershocks, oil-dollar recycling into Latin American sovereign debt, and S&L crisis seeds — amplification mechanisms different in kind but not obviously smaller in scale. The correct framing: amplification channels are different from the 1970s, and the interaction between commodity shocks and elevated sovereign debt is poorly understood.",
+    "refuted_by": [
+      "risk_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "PCA PC1 mean-reversion at 3-5 years refutes the commodity supercycle framework",
+    "reason": "Methodologically unsound. PCA on monthly returns captures high-frequency variance structure by construction. A 20-70 year band-pass filtered signal (supercycle) is absorbed into the unconditional mean in a 50-year monthly sample and cannot manifest as persistent PC1 drift. The right tool for factor structure analysis but the wrong tool for evaluating low-frequency cycles.",
+    "refuted_by": [
+      "quant_researcher_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "Commodity momentum Sharpe ratio of 0.7-0.8 renders supercycle identification unnecessary for investors",
+    "reason": "The 0.7-0.8 is a backtest number. Live CTA performance (BarclayHedge, SocGen CTA Index) shows 0.3-0.5 for commodity trend strategies after costs, with the 2012-2019 period particularly poor. A ~50% gap between backtest and live performance means trend-following is useful but not the conversation-ending argument presented.",
+    "refuted_by": [
+      "quant_researcher_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "claim": "Commodity capex underinvestment is at 60-65% of replacement rate",
+    "reason": "Partially refuted. The 60-65% figure does not adjust for capital efficiency improvements. Challenger_01's capital efficiency argument has partial validity for oil (horizontal drilling, digital optimization) though is weaker for mining where grade decline increases capex-per-tonne. The 30-40% efficiency figure is unanchored but directionally legitimate for oil. Adjusted estimate: 75-85% of replacement rate — still underinvested but less dramatically.",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
   }
 ]

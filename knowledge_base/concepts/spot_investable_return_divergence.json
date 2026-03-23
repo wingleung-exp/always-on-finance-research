@@ -1,0 +1,33 @@
+{
+  "slug": "spot_investable_return_divergence",
+  "definition": "Spot commodity prices are a fundamentally misleading proxy for investable returns. GSCI spot return 2005-2025 was approximately -10% cumulative while GSCI total return was approximately -35% cumulative, with roll yield explaining 60-80% of the divergence. Collateralized commodity futures averaged +5.1% annualized (1970-2007) then -3.2% annualized (2008-2025).",
+  "confidence": 9,
+  "evidence": [
+    "GSCI spot return ~-10% cumulative vs. total return ~-35% cumulative (2005-2025)",
+    "Roll yield explains 60-80% of spot-to-total return divergence",
+    "Collateralized return structural break: +5.1% (1970-2007) to -3.2% (2008-2025)",
+    "Financialization suppressed normal backwardation",
+    "Uncontested in debate"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Can physical tightening restore positive roll yield despite current AUM levels?",
+    "Is the post-2008 roll yield decline permanent or regime-dependent?"
+  ],
+  "related_concepts": [
+    "financialization_correlation_break",
+    "roll_yield_structural_impairment",
+    "supercycle_factor_decomposition"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

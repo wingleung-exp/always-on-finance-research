@@ -1,32 +1,42 @@
 {
   "slug": "protein_price_cascade",
   "definition": "Grain shocks transmit to livestock and poultry costs with a 6-12 month lag through feed cost channels (feed represents 60-70% of poultry costs, 50-60% of pork), systematically extending food inflation episodes and making carry re-entry signals based on commodity price reversion premature by 2-3 quarters.",
-  "confidence": 7.0,
+  "confidence": 6.5,
   "evidence": [
     "Production cycle timings are biological constants: poultry ~6 weeks, pork ~5-6 months, cattle ~18-24 months",
     "2022 episode: global grain peaked May-June 2022, US food-at-home CPI peaked August 2022, EM food CPI kept rising through Q1 2023",
-    "BLS data by food category shows the cascade clearly"
+    "BLS data by food category shows the cascade clearly",
+    "Biological timelines well-established across livestock types",
+    "CPI duration exceeds commodity price duration by 12-24 months",
+    "Analytically compelling framework but developed by only one specialist agent",
+    "Food at 30-50% of EM CPI amplifies the transmission"
   ],
   "originating_agents": [
     "commodities_analyst_02"
   ],
   "open_questions": [
     "Carry trade timing application extrapolation needs more validation",
-    "Primarily applicable to EM currencies where protein constitutes large and growing food CPI share"
+    "Primarily applicable to EM currencies where protein constitutes large and growing food CPI share",
+    "How material is the cascade in aggregate CPI terms in developed markets?",
+    "Can trade flows short-circuit the cascade timing?",
+    "Is the cascade mechanism already priced by sophisticated fixed income investors?"
   ],
   "related_concepts": [
     "agricultural_biological_lag",
     "commodity_terms_of_trade_fx_driver",
-    "subsidy_buffer_depletion"
+    "subsidy_buffer_depletion",
+    "agricultural_spike_frequency_regime",
+    "commodity_trifurcation"
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-23T00:44:54Z",
-  "last_updated": "2026-03-23T03:59:52Z",
+  "last_updated": "2026-03-23T05:08:32Z",
   "originating_iteration": "iter_0007",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0007",
     "iter_0007",
-    "iter_0007"
+    "iter_0007",
+    "iter_0022"
   ]
 }

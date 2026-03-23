@@ -1,0 +1,43 @@
+{
+  "slug": "copper_structural_tightness",
+  "definition": "Copper has the strongest individual case for structural supply tightness among all commodities, driven by declining ore grades (~0.8% in 2005 to ~0.5% currently), depleted project pipeline, greenfield timelines of 12-18 years, and demand confluence from EVs, grid infrastructure, and data centers. However, deficit projections are systematically overestimated.",
+  "confidence": 8,
+  "evidence": [
+    "Six agents identify copper as the critical commodity",
+    "Declining ore grades from ~0.8% (2005) to ~0.5% (current)",
+    "Greenfield development timelines of 12-18 years",
+    "Demand confluence: EVs (~10M units 2025), grid (+15-20% YoY), renewables (300+ GW/yr)",
+    "Copper is the only base metal where Chinese demand intensity shows no structural break",
+    "0/8 major deficit forecasts fully materialized at projected magnitude (20-30% hit rate)",
+    "Zombie zone: prices above AISC ($8-9k/t) but below greenfield incentive ($10-11k/t)"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "risk_analyst_01",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Will aluminum substitution prove material above $12,000/t copper?",
+    "Can brownfield expansion and scrap recovery close 30-50% of projected deficits?",
+    "Is the Kamoa-Kakula/Quellaveco/Oyu Tolgoi ramp sufficient to moderate deficit timing?"
+  ],
+  "related_concepts": [
+    "copper_deficit_calibration",
+    "copper_zombie_zone",
+    "copper_deficit_forecast_bias",
+    "china_demand_deceleration_ex_copper",
+    "greenfield_timeline_extension",
+    "ai_datacenter_copper_demand"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

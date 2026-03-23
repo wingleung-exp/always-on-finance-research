@@ -1,0 +1,25 @@
+{
+  "slug": "trifurcated_commodity_analysis",
+  "purpose": "Replaces the unified supercycle framework with a three-regime analytical structure that evaluates electrification metals, hydrocarbons, and agriculture as distinct markets with different supply elasticities, demand drivers, and investment implications",
+  "components": [
+    "Electrification metals regime: supply elasticity ~0.05, demand driven by energy transition (EVs, grid, renewables), 12-18yr supply response, structurally tight",
+    "Hydrocarbons regime: OPEC+ managed price band ($70-90 Brent), 4-5Mb/d spare capacity, supply elasticity ~0.5-1.0, not a supercycle candidate",
+    "Agriculture regime: biologically constrained 6-18 month supply response, spike frequency regime rather than supercycle, exporter stocks-to-use (~16%) as correct fragility metric",
+    "Cross-regime analysis: energy transition bifurcation creates unprecedented simultaneous shortage/surplus dynamics"
+  ],
+  "current_assessment": "Electrification metals (especially copper) show genuine structural tightness; hydrocarbons are managed and capped; agriculture is episodically vulnerable. No unified supercycle.",
+  "limitations": [
+    "Framework is relatively new and untested across a full business cycle",
+    "Cross-regime interactions (e.g., energy prices affecting mining costs) not fully modeled",
+    "Agriculture regime dynamics are less thoroughly validated (fewer specialist agents engaged)",
+    "Does not account for potential regime changes within sub-complexes"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

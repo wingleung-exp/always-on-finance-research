@@ -1,0 +1,27 @@
+{
+  "slug": "supply_elasticity_ranking",
+  "purpose": "Provides a quantitative framework for comparing supply response capacity across commodities, enabling commodity-specific rather than complex-wide supercycle assessment",
+  "components": [
+    "Shale oil: elasticity ~0.5-1.0, response time months",
+    "Wheat: elasticity ~0.5-0.7, response time 6-18 months",
+    "Lithium: elasticity ~0.3-0.5, response time 2-4 years (brine/chemical processing)",
+    "Copper: elasticity ~0.05, response time 12-18 years (hard-rock mining, declining grades)",
+    "Greenfield vs. brownfield distinction: brownfield elasticity 0.15-0.25 vs. greenfield that has structurally declined",
+    "Blended elasticity: declined from ~0.12 to ~0.08, meaningful but not a regime change"
+  ],
+  "current_assessment": "Copper's extremely low supply elasticity makes it the only commodity where structural tightness can persist across multiple business cycles. Shale oil elasticity prevents oil from participating in supercycles. Agricultural elasticity is moderate but biologically constrained.",
+  "limitations": [
+    "Elasticity estimates are point-in-time and may shift with technology",
+    "Does not account for demand elasticity or substitution effects",
+    "Brownfield vs. greenfield split may shift as existing deposits deplete",
+    "Limited data on newer commodities (lithium, cobalt, rare earths)"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "supercycle_historical_base_rate",
+  "purpose": "Provides quantitative anchors from prior supercycles for calibrating return expectations, duration, and termination mechanisms",
+  "components": [
+    "Base rate: 2.4-3.1% annual initiation probability, CI [0.4%, 8.2%]",
+    "Return magnitude: 200-400% real returns across four historical supercycles",
+    "Duration: 13-22 years per cycle, with possible but statistically unsupported shortening trend",
+    "Termination mechanism: demand destruction (4/4), not supply catch-up",
+    "Analogue scoring: 1970s (7/10), 2000s (6.5/10), 1950s (5/10)",
+    "Falsifiable signposts: copper >$12k + oil >$100 = 1970s analogue; copper <$10k + oil <$85 = muted cycle",
+    "Consensus recognition as mid-cycle signal (2-5 year lag to peak)"
+  ],
+  "current_assessment": "Historical base rates provide useful calibration but n=4 fundamentally limits statistical inference. The current environment shares structural similarities with the 1970s but with critical differences (energy transition, lower commodity intensity of GDP, absent wage-price spirals).",
+  "limitations": [
+    "n=4 sample makes all statistical inference fragile",
+    "Survivorship bias in commodity indices (whale oil, guano, saltpeter dropped out)",
+    "Commodity intensity of GDP down ~40% since 1970s, potentially invalidating magnitude comparisons",
+    "Duration shortening trend is spurious on n=4",
+    "Each supercycle occurred in a unique macroeconomic context limiting cross-cycle inference"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

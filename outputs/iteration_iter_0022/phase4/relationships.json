@@ -1,0 +1,213 @@
+[
+  {
+    "concept_a": "supply_elasticity_variance",
+    "concept_b": "commodity_trifurcation",
+    "mechanism": "Enormous differences in supply elasticity across commodity classes (10x range) produce divergent price and inventory dynamics, preventing synchronized broad-based price appreciation and creating the trifurcated structure",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds in all regimes; the elasticity differences are structurally determined by geology, biology, and technology",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02",
+      "quant_researcher_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "financialization_correlation_break",
+    "concept_b": "spot_investable_return_divergence",
+    "mechanism": "Financial capital inflows suppressed normal backwardation and increased commodity-equity correlation, simultaneously destroying the diversification benefit and the positive roll yield that underpinned commodity investment returns",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds as long as commodity index AUM remains elevated (currently $450B+); could reverse if systematic commodity allocation declines materially",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "greenfield_timeline_extension",
+    "concept_b": "copper_structural_tightness",
+    "mechanism": "Extension of mine development timelines from ~6yr to ~12-15yr reduces short-run supply elasticity for copper to ~0.05, making it nearly impossible for supply to respond to demand growth within a single business cycle",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as permitting timelines remain extended; permitting reform could partially reverse",
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "copper_zombie_zone",
+    "concept_b": "copper_structural_tightness",
+    "mechanism": "Prices above AISC but below greenfield incentive sustain existing operations while failing to incentivize new supply, creating a self-reinforcing deficit mechanism that perpetuates structural tightness",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds while copper prices remain in the $8-11k/t range; breaks if prices sustainably exceed $11k/t (greenfield incentive) or fall below $8k/t (AISC)",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "china_demand_deceleration_ex_copper",
+    "concept_b": "commodity_trifurcation",
+    "mechanism": "China's demand rotation from bulk commodities (steel, aluminum) toward electrification metals (copper) reinforces the trifurcation by removing the broad-based demand driver that unified prior supercycles",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as China continues its infrastructure-to-electrification transition; reversal would require a return to property/FAI-led growth",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "supercycle_reflexive_contradiction",
+    "concept_b": "energy_transition_bifurcation",
+    "mechanism": "The supercycle thesis drives inflation expectations, which trigger monetary tightening, which slows EV/grid adoption, which reduces transition metal demand, partially negating the bifurcation's supply-demand imbalance",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Stronger when central banks are actively tightening; weaker when fiscal policy (subsidies/mandates) overrides monetary transmission",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "opec_plus_structural_fragility",
+    "concept_b": "commodity_trifurcation",
+    "mechanism": "OPEC+ management of oil within a $70-90 band prevents hydrocarbons from participating in broad-based price appreciation, ensuring the hydrocarbon leg of the complex behaves differently from electrification metals",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as OPEC+ cooperative equilibrium persists; breaks during cartel breakdown episodes (~7-10yr cycles)",
+    "originating_agents": [
+      "risk_analyst_01",
+      "challenger_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "biofuel_demand_floor",
+    "concept_b": "agricultural_spike_frequency_regime",
+    "mechanism": "RFS locking in 36% of US corn demand reduces the effective supply buffer, lowering the threshold at which supply shocks produce price spikes and increasing spike frequency",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as RFS mandates remain in effect; political risk to mandates is low given farm-state senator dynamics",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "export_ban_contagion",
+    "concept_b": "agricultural_spike_frequency_regime",
+    "mechanism": "Prisoner's dilemma dynamics during agricultural supply shocks extend price spikes by 12-24 months as sequential export bans reduce global available supply beyond the initial shortfall",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Stronger during acute supply shocks when exporter stocks-to-use falls below ~16%; weaker during periods of adequate global buffers",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "copper_deficit_forecast_bias",
+    "concept_b": "copper_deficit_calibration",
+    "mechanism": "Systematic overestimation in historical deficit forecasts (0/8 fully materialized) provides empirical justification for discounting current projections from 5-8Mt to 2-4Mt, adjusting for brownfield, scrap, and substitution response",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "May be less applicable in current cycle if permitting extension and grade decline have genuinely reduced supply response capacity",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "financialization_correlation_break",
+    "concept_b": "commodity_equity_correlation_regime",
+    "mechanism": "Financialization shifted commodity-equity correlations from near-zero to persistently positive, with diversification benefit now regime-dependent: supply-driven episodes provide some hedging, demand-driven episodes amplify equity risk",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural break is persistent; within-regime variation depends on whether supply or demand shocks dominate",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "supercycle_positioning_crowding",
+    "concept_b": "copper_structural_tightness",
+    "mechanism": "Crowded positioning (+1.8σ overweights, 89th percentile copper longs) creates near-term vulnerability to price drawdowns without invalidating the multi-year structural tightness thesis, but raises the return hurdle for new entrants",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Positioning crowding is a near-term (3-12 month) signal; structural tightness operates on a multi-year horizon. The signals can diverge significantly across timeframes",
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "demand_destruction_cycle_termination",
+    "concept_b": "supercycle_reflexive_contradiction",
+    "mechanism": "The historical pattern of demand destruction ending supercycles is the macro-level manifestation of the reflexive contradiction mechanism: elevated prices eventually destroy the demand that created them",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Universal across all four historical supercycles; the energy transition adds a novel demand substitution channel (EV adoption sensitivity to rates) not present in prior cycles",
+    "originating_agents": [
+      "generalist_02",
+      "commodities_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "protein_price_cascade",
+    "concept_b": "agricultural_spike_frequency_regime",
+    "mechanism": "The biological lag structure in protein production (6 weeks to 24 months) extends the CPI impact of agricultural price spikes well beyond their commodity market duration, amplifying the economic impact of the spike regime",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Operates mechanically through biological production timelines; stronger when food represents a larger share of CPI (30-50% in EM vs. 10-15% in DM)",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  },
+  {
+    "concept_a": "geopolitical_financial_transmission",
+    "concept_b": "commodity_trading_house_leverage",
+    "mechanism": "Geopolitical supply shocks trigger commodity price spikes that stress trading house balance sheets via margin calls (e.g., €1.5T in 2022), creating potential systemic financial risk through bank counterparty exposure",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Activated during acute price spike episodes; dormant during normal commodity market conditions. Risk concentrated in European banks with commodity trading exposure",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0022"
+  }
+]

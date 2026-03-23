@@ -1,0 +1,35 @@
+{
+  "slug": "financialization_correlation_break",
+  "definition": "The influx of financial capital into commodity markets structurally broke the commodity-equity diversification benefit that underpinned the endowment model. A Bai-Perron structural break at 2004Q2 (t-stat 5.1) shows rolling 36-month correlations jumped from mean +0.03 (1990-2003) to +0.48 (2004-2020). Partial reversion to +0.28 (2021-2025) is statistically insufficient to declare a second regime change.",
+  "confidence": 9,
+  "evidence": [
+    "Bai-Perron structural break identified at 2004Q2 with t-stat 5.1",
+    "Rolling 36-month correlations: +0.03 (1990-2003) to +0.48 (2004-2020)",
+    "Commodity index AUM grew from ~$15B (2003) to $450B+ (2022) and has not reversed",
+    "Partial reversion to +0.28 insufficient for second regime change",
+    "Pair_2 confirmed as among the strongest empirical findings"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Would a sustained physical tightening episode restore diversification properties?",
+    "Has the commodity-equity correlation embedded a permanent regime via passive allocation?"
+  ],
+  "related_concepts": [
+    "spot_investable_return_divergence",
+    "roll_yield_structural_impairment",
+    "commodity_equity_correlation_regime",
+    "supercycle_factor_decomposition"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}

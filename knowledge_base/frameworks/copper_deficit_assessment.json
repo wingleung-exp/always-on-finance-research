@@ -1,0 +1,28 @@
+{
+  "slug": "copper_deficit_assessment",
+  "purpose": "Calibrates copper supply deficit projections against historical forecast accuracy and identifies the key variables determining actual deficit magnitude",
+  "components": [
+    "Historical forecast track record: 0/8 major forecasts fully materialized, 20-30% hit rate at projected magnitude",
+    "Demand drivers: EVs (80-100kg/unit), grid (+15-20% YoY), data centers (emerging), China copper intensity (no structural break)",
+    "Supply constraints: declining ore grades (~0.5%), greenfield timelines (12-18yr), permitting bottlenecks (60-70% of timeline)",
+    "Supply offsets: brownfield expansion (0.15-0.25 elasticity), scrap (30-50% of historical adjustment), aluminum substitution",
+    "Zombie zone dynamics: AISC $8-9k/t, greenfield incentive $10-11k/t",
+    "Calibrated deficit: 2-4Mt cumulative by 2032 (not 5-8Mt), sufficient for 15-25% price increase",
+    "Falsification: copper failing to break $12,000/t by 2027 constitutes significant disconfirmation"
+  ],
+  "current_assessment": "Deficit is real but systematically overestimated. 2-4Mt is sufficient to drive meaningful price increases but is not the crisis scenario of 5-8Mt. Monitoring mine ramp-ups, EV adoption rates, and aluminum substitution elasticity is critical.",
+  "limitations": [
+    "China strategic reserves (2-5Mt) represent opaque shadow supply not in public models",
+    "Double-counting risk: same copper demand counted in both China growth and energy transition projections",
+    "AI/data center demand is genuinely novel and poorly quantified (5-16% range)",
+    "Substitution elasticity at various price points is poorly understood"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T05:08:32Z",
+  "originating_iteration": "iter_0022",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0022"
+  ]
+}
