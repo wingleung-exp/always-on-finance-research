@@ -1744,5 +1744,61 @@
     "claim": "CLO reinvestment period expirations from heavy 2019-2021 issuance ($400B+) collide with demographically-driven loan supply contraction as fewer borrowers can support 5-7x leverage.",
     "source_agent": "credit_analyst_02",
     "needs": "Data on new CLO formation rates and arbitrage economics; quantification of the borrower universe contraction attributable to demographics vs. rate environment; tracking of post-reinvestment CLO amortization patterns."
+  },
+  {
+    "claim": "Basis trade ($800B-$1T) and maturity wall connected through shared repo infrastructure creating a potential doom loop, with SEC clearing mandate (Q2 2026) as catalyst",
+    "source_agent": "risk_analyst_01",
+    "needs": "Evidence of actual repo market stress transmission between basis trade and corporate credit markets; historical precedent beyond partial UK LDI analogy; analysis of SEC clearing mandate impact on basis trade stability",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Simultaneous WTI contango >$2 AND LME copper contango >$50/t as a cross-asset credit cycle indicator (3-for-3 with 0 false positives since 2000)",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Larger sample size beyond n=3; out-of-sample testing; mechanistic explanation for why commodity curve structure predicts credit events; analysis of potential false positive scenarios",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Agricultural credit stress (delinquencies 2.5-3.5%, farmland values -8-12% from peaks) as a leading indicator for the broader credit cycle",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Cross-cycle validation of agricultural credit leading other credit sectors; quantification of lead time; analysis of whether ~$560B agricultural credit contains meaningful signal for macro credit",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Gold's credit cycle hedge role structurally repriced by central bank buying at 1,000+ tonnes annually, breaking the gold/real-rate model since 2022",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Sustained evidence of central bank buying durability; updated equilibrium model for gold pricing; quantification of how higher gold floor affects credit hedge efficiency and cost",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Biofuel mandates (~40% of corn demand, ~35% of soybean oil) create structural price floors that act as credit cycle rigidity in agriculture",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Quantification of price floor magnitude; analysis of whether mandates could be suspended under extreme economic stress; cross-validation from agricultural economists",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Export ban contagion (47 documented since 2007) creates non-linear EM credit deterioration with 10% supply shortfall producing 30-40% price spikes",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Assessment of post-2022 food security frameworks effectiveness; updated probability estimates; analysis of whether new trade arrangements reduce cascade risk",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Private credit has 8-12% agribusiness/food processing exposure with PE-backed leverage at 6.5-7.5x EBITDA, creating a hidden stress channel",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Verified exposure data from private credit managers; evidence that food processing leverage increase is sector-specific rather than market-wide PE phenomenon; contagion mechanism from agribusiness to broader private credit",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Long credit vol / short equity vol trade exploits cross-asset inconsistency with favorable payoff asymmetry",
+    "source_agent": "generalist_01",
+    "needs": "Resolution of internal inconsistency where funding leg (short equity vol) generates losses when primary leg (long credit vol) pays off due to correlation spike; carry-adjusted expected payoff calculation under the agent's own stress scenario",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
   }
 ]

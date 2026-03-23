@@ -1,0 +1,30 @@
+{
+  "slug": "credit_equity_basis_early_warning",
+  "definition": "Equity-implied credit spreads (via Merton model) are 20-40bp wider than actual credit spreads, suggesting equity markets are pricing more risk than credit markets. This divergence has 2006-07 precedent as an early warning signal.",
+  "confidence": 5,
+  "evidence": [
+    "Equity-implied spreads 20-40bp wider than actual credit spreads",
+    "Merton-model based divergence",
+    "2006-07 precedent"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Is the current divergence magnitude significant relative to historical episodes?",
+    "How reliable is the Merton model cross-asset arbitrage as a timing signal?"
+  ],
+  "related_concepts": [
+    "credit_equity_correlation_regime_dependence",
+    "credit_premium_compression",
+    "credit_equity_lead_lag_compression"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

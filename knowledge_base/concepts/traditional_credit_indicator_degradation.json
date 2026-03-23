@@ -1,0 +1,37 @@
+{
+  "slug": "traditional_credit_indicator_degradation",
+  "definition": "Traditional credit cycle indicators (credit impulse, VIX, HY OAS, SLOOS, default rates) have structurally degraded and now monitor a shrinking fraction of the credit system, with credit impulse R-squared declining from 0.38 to 0.12 (Chow test p<0.01).",
+  "confidence": 8,
+  "evidence": [
+    "Credit impulse R-squared declined from 0.38 to 0.12 (Chow test p<0.01)",
+    "Bank credit share flat while corporate bonds doubled and private credit grew 8.5x",
+    "VIX distorted by 0DTE flows (>50% of SPX options volume)",
+    "HY OAS excludes $1.7T private credit",
+    "SLOOS misses ~25-30% of consumer credit originated by fintech",
+    "Default rate statistics exclude private credit entirely"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "risk_analyst_01",
+    "quant_researcher_02",
+    "generalist_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "What alternative indicator set can replace the degraded dashboard?",
+    "How should private credit be incorporated into credit cycle monitoring?"
+  ],
+  "related_concepts": [
+    "private_credit_structural_vulnerability",
+    "credit_cycle_stage_assessment",
+    "china_credit_impulse_degradation"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "concept_a": "roic_wacc_bimodality",
+  "concept_b": "hy_default_rate_mispricing",
+  "mechanism": "Cap-weighted ROIC-WACC aggregate (3.5-5.0pp) overstates typical firm buffer by 1-2pp due to mega-cap tech skew. Debt-weighted median (2-3pp) shows the actually vulnerable population, where 100bp WACC increase destroys 33-50% of EVA, suggesting default risk is higher than aggregate metrics imply.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Bimodality is structural (mega-cap tech vs. rest). Vulnerability materializes with sustained rate increases that compress EVA for the non-tech median.",
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

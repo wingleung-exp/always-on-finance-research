@@ -1,0 +1,36 @@
+{
+  "slug": "ebitda_addback_leverage_inflation",
+  "definition": "EBITDA addbacks and covenant-lite structures systematically inflate reported leverage metrics, with true leverage 1.5-2x higher than reported. Merton-model calibration shows reported leverage of 4.0-4.5x understates true leverage at 5.5-7.5x after adjusting for 25-40% EBITDA addbacks.",
+  "confidence": 9,
+  "evidence": [
+    "Merton-model calibration shows reported leverage of 4.0-4.5x understates true leverage at 5.5-7.5x after 25-40% EBITDA addback adjustment",
+    "S&P LCD cross-validation shows actual post-LBO EBITDA realization rates average 75-85% of sponsor-adjusted figures",
+    "Median B-rated 5-year cumulative default probability shifts from ~3.5% to ~8-14% after adjustment",
+    "Survived all four debates as the most robust quantitative finding"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What is the exact magnitude of PD increase given the 1.5x to 4x range depends on addback realization rates and assumed asset volatility?",
+    "How do addback realization rates vary across sectors and economic conditions?"
+  ],
+  "related_concepts": [
+    "hy_default_rate_mispricing",
+    "credit_premium_compression",
+    "covenant_lite_default_distribution",
+    "private_credit_structural_vulnerability"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

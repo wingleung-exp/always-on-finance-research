@@ -1,0 +1,30 @@
+{
+  "slug": "semi_liquid_vehicle_redemption_dynamics",
+  "definition": "Semi-liquid vehicles ($300B+ interval funds and non-traded BDCs) create a potential contagion chain: retail redemption pressure triggers gates, which force fire sales, which propagate through mark-to-model repricing cascades. Mark-to-model pricing masks underlying stress until redemption pressure forces recognition.",
+  "confidence": 5,
+  "evidence": [
+    "$300B+ in interval funds and non-traded BDCs",
+    "Retail redemption leads to gate leads to fire sale leads to contagion chain",
+    "Mark-to-model pricing delays stress recognition"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What redemption rate would trigger gates?",
+    "How quickly could fire sales propagate to broader markets?",
+    "Are interval fund structures sufficient to prevent contagion?"
+  ],
+  "related_concepts": [
+    "private_credit_structural_vulnerability",
+    "credit_equity_correlation_regime_dependence"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

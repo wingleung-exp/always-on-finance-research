@@ -1,0 +1,29 @@
+{
+  "slug": "commodity_futures_curve_credit_indicator",
+  "definition": "Simultaneous WTI contango >$2 AND LME copper contango >$50/t has preceded all 3 major credit events since 2000 with 0 false positives. However, n=3 provides no meaningful statistical inference. Current read (mild backwardation) is consistent with mid-to-late cycle.",
+  "confidence": 4,
+  "evidence": [
+    "3-for-3 hit rate with 0 false positives on major credit events since 2000",
+    "Current mild backwardation across energy and copper consistent with mid-to-late cycle"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Can the signal maintain predictive power with n=3?",
+    "What drives the commodity-credit linkage at the curve structure level?"
+  ],
+  "related_concepts": [
+    "credit_tightening_commodity_supply_paradox",
+    "china_credit_impulse_degradation",
+    "traditional_credit_indicator_degradation"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

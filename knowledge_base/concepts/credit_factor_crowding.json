@@ -1,0 +1,30 @@
+{
+  "slug": "credit_factor_crowding",
+  "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compressed dispersion indicates the market is not discriminating between credit qualities, and diversification across credit sub-sectors is illusory.",
+  "confidence": 7,
+  "evidence": [
+    "First PC explains >65% of variance across HY, leveraged loans, CLO equity",
+    "Compressed dispersion as crowding signal",
+    "Market not discriminating between credit qualities"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What level of dispersion would signal crowding is unwinding?",
+    "How quickly can crowding reverse during stress?"
+  ],
+  "related_concepts": [
+    "credit_premium_compression",
+    "credit_equity_correlation_regime_dependence",
+    "credit_returns_short_put_optionality"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

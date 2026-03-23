@@ -1,0 +1,26 @@
+{
+  "slug": "credit_factor_crowding_diagnosis",
+  "purpose": "Diagnose crowding in credit factor exposures, assess illusory diversification, and identify when credit risk premia are inadequately compensating for true risk profile",
+  "components": [
+    "PCA decomposition: first PC explains >65% of variance across HY, leveraged loans, CLO equity",
+    "Dispersion analysis: compressed dispersion as crowding signal",
+    "Higher-moment analysis: skewness (-1.2 to -1.8) and kurtosis (4-8) of credit returns",
+    "Implementation friction adjustment: Sharpe ratio reduction from 0.5-0.7 backtested to 0.25-0.35 realized",
+    "Cross-asset inconsistency detection: term premium vs credit premium divergence"
+  ],
+  "current_assessment": "Credit sub-sector diversification is currently illusory with returns dominated by a single factor. Crowded positions will unwind simultaneously during stress. Market pricing undercompensates for true risk profile when accounting for higher moments and implementation costs.",
+  "limitations": [
+    "Does not predict timing of crowding unwind",
+    "Backtested factor adjustments may not generalize to current market structure",
+    "Higher-moment estimates are sensitive to sample period",
+    "Dispersion threshold for signaling peak crowding is not precisely defined"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

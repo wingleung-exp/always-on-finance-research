@@ -2627,5 +2627,60 @@
       "generalist_01",
       "quant_researcher_01"
     ]
+  },
+  {
+    "claim": "60-80% base rate for disorderly repricing of opaque credit sectors, derived from 5 historical analogues (S&Ls, SIVs, junk bonds, jusen, AT1s)",
+    "reason": "Classic survivorship bias: the 5 analogues were selected because they blew up. Challenger_02 identified 10+ opaque credit markets that operated without blowup (cat bonds, covered bonds, aircraft ABS, project finance, sukuk, trade receivable securitization). Analogue quality weighting reduces effective sample to ~1.5-2.0 independent observations, yielding credible interval of [25%, 90%] — too wide to be decision-useful. The directional insight (opacity is dangerous) survives; the specific probability does not.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Using credit impulse bearish divergence as a signal while simultaneously acknowledging R-squared of 0.12",
+    "reason": "Irreconcilable logical contradiction. At R-squared of 0.12, credit impulse explains only 12% of equity variance — divergence is expected noise, not signal. The analysis selectively rehabilitates the indicator when it supports the bearish thesis while dismissing it otherwise. Either the indicator works or it does not; it cannot be both degraded and informative when convenient.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Perfect classification of credit cycle position as carry unwind severity discriminator with n=5 episodes and 3-5 candidate discriminators",
+    "reason": "With n=5 episodes and 3-5 candidate discriminators, probability of at least one achieving perfect binary separation by chance exceeds 25%. Zero out-of-sample validation. The 2022 JPY carry unwind is an ambiguous out-of-sample case. The qualitative mechanism survives at 7/10 confidence; the empirical perfect discriminator claim is statistically vacuous.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Additive default rate decomposition yielding 8-12% (2-3% base + 2-3pp fiscal removal + 1-2pp leverage correction + 1-2pp covenant-lite backlog)",
+    "reason": "Assumes factor independence, which is wrong. The Kalecki fiscal buffer and EBITDA addback distortions are correlated — fiscal spending boosts revenues that inflate addbacks. Removing fiscal buffer simultaneously worsens leverage ratios, so factors compound rather than add. Honest central estimate under stressed conditions: 6-10%, not 8-12%.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "15-25% systemic credit event probability within 24 months",
+    "reason": "Derivation aggregates subjective scenario probabilities multiplied by subjective conditional transmission probabilities. The agent's own 5/10 self-assessment contradicts the precision of a 15-25% range — that narrow a range implies calibration the agent admits it does not have. The directional claim (market underprices tail risk) may be correct, but the specific probability is a dressed-up prior, not a quantitative finding.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "Credit-driven agricultural recessions produce deeper dislocations than standard models assume, originally asserted at 9/10 confidence",
+    "reason": "The 1980s farm crisis analogy conflates land value recovery (decade-long) with production capacity recovery — US crop yields continued rising through technology adoption even as farm finances deteriorated. US crop production never actually fell significantly during the farm crisis. Biological supply constraint is real within-season, but multi-year production shortfalls are not consistently supported by the historical record. Confidence should be 6/10, not 9/10.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
   }
 ]

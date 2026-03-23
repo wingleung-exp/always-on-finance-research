@@ -1,0 +1,40 @@
+{
+  "slug": "sub_ig_maturity_wall",
+  "definition": "A $900B-$1.5T sub-investment-grade maturity wall spans 2025-2028, with B-rated borrowers facing 40-60% higher refinancing costs (from 5.5-7.0% to 8.5-11.0%), pushing interest coverage from 2.0x to 1.2-1.5x. The arithmetic is certain; whether it produces systemic stress or orderly adjustment is the central unresolved question.",
+  "confidence": 8,
+  "evidence": [
+    "B-rated borrowers issued at 5.5-7.0% face refinancing at 8.5-11.0%",
+    "Coverage ratio compression from 2.0x to 1.2-1.5x on new rates",
+    "All 8 agents reference the arithmetic",
+    "Base rate of maturity wall leading to crisis is 0-for-4 in modern leveraged loan market, but prior episodes under ZIRP conditions"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "challenger_02",
+    "commodities_analyst_01",
+    "commodities_analyst_02"
+  ],
+  "open_questions": [
+    "Will the maturity wall be defused as in 4 prior episodes or produce significant stress?",
+    "How much can amend-and-extend activity redistribute the wall temporally?",
+    "Will SOFR decline enough to restore CLO arbitrage viability?"
+  ],
+  "related_concepts": [
+    "clo_reinvestment_expiration",
+    "amend_extend_forbearance",
+    "kalecki_fiscal_buffer",
+    "basis_trade_maturity_wall_doom_loop"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

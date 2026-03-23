@@ -378,6 +378,95 @@
     ],
     "avg_confidence": 7.3
   },
+  "credit_cycles": {
+    "concept_count": 29,
+    "relationship_count": 20,
+    "framework_count": 5,
+    "top_concepts": [
+      {
+        "slug": "ebitda_addback_leverage_inflation",
+        "confidence": 9,
+        "definition": "EBITDA addbacks and covenant-lite structures systematically inflate reported leverage metrics, with true leverage 1.5-2x higher than reported. Merton-"
+      },
+      {
+        "slug": "kalecki_fiscal_buffer",
+        "confidence": 8,
+        "definition": "The Kalecki profit identity channel, with fiscal deficits at 6-7% of GDP, is the dominant force suppressing the credit cycle turn by directly sustaini"
+      },
+      {
+        "slug": "roic_wacc_bimodality",
+        "confidence": 8,
+        "definition": "The aggregate ROIC-WACC spread masks extreme bimodality: mega-cap tech (ROIC 25-40%, ~30% of cap weight) is rate-immune, while the S&P 493 debt-weight"
+      },
+      {
+        "slug": "sub_ig_maturity_wall",
+        "confidence": 8,
+        "definition": "A $900B-$1.5T sub-investment-grade maturity wall spans 2025-2028, with B-rated borrowers facing 40-60% higher refinancing costs (from 5.5-7.0% to 8.5-"
+      },
+      {
+        "slug": "traditional_credit_indicator_degradation",
+        "confidence": 8,
+        "definition": "Traditional credit cycle indicators (credit impulse, VIX, HY OAS, SLOOS, default rates) have structurally degraded and now monitor a shrinking fractio"
+      },
+      {
+        "slug": "credit_equity_lead_lag_compression",
+        "confidence": 7,
+        "definition": "The credit-leads-equity relationship has compressed from 6-8 months (pre-2015) to 0-2 months (post-2015), driven by HY ETF growth and algorithmic arbi"
+      },
+      {
+        "slug": "credit_factor_crowding",
+        "confidence": 7,
+        "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compr"
+      },
+      {
+        "slug": "credit_returns_short_put_optionality",
+        "confidence": 7,
+        "definition": "Credit returns behave as short put options with negative skewness (-1.2 to -1.8) and excess kurtosis (4-8). Mean-variance optimization systematically "
+      },
+      {
+        "slug": "credit_tightening_commodity_supply_paradox",
+        "confidence": 7,
+        "definition": "Credit tightening constrains commodity supply by reducing E&P, mining, and agricultural capex, supporting prices and creating a feedback loop with inf"
+      },
+      {
+        "slug": "energy_sector_hy_canary_obsolescence",
+        "confidence": 7,
+        "definition": "The energy sector is no longer the HY credit cycle canary. E&P net debt/EBITDA declined to 0.5-1.0x (vs. 3-4x in 2015), and HY index energy weight fel"
+      }
+    ],
+    "all_concept_slugs": [
+      "agricultural_credit_leading_indicator",
+      "amend_extend_forbearance",
+      "basis_trade_maturity_wall_doom_loop",
+      "biofuel_mandate_credit_rigidity",
+      "china_credit_impulse_degradation",
+      "clo_reinvestment_expiration",
+      "commodity_futures_curve_credit_indicator",
+      "covenant_lite_default_distribution",
+      "credit_cycle_stage_assessment",
+      "credit_equity_basis_early_warning",
+      "credit_equity_lead_lag_compression",
+      "credit_factor_crowding",
+      "credit_premium_compression",
+      "credit_returns_short_put_optionality",
+      "credit_tightening_commodity_supply_paradox",
+      "ebitda_addback_leverage_inflation",
+      "energy_sector_hy_canary_obsolescence",
+      "fallen_angel_forced_selling",
+      "gold_credit_hedge_repricing",
+      "hy_default_rate_mispricing",
+      "kalecki_fiscal_buffer",
+      "private_credit_structural_vulnerability",
+      "roic_wacc_bimodality",
+      "self_referential_fiscal_instability",
+      "semi_liquid_vehicle_redemption_dynamics",
+      "structural_improvement_vulnerability_asymmetry",
+      "sub_ig_maturity_wall",
+      "term_premium_credit_premium_divergence",
+      "traditional_credit_indicator_degradation"
+    ],
+    "avg_confidence": 6.2
+  },
   "credit_equity_linkage": {
     "concept_count": 18,
     "relationship_count": 14,
@@ -400,7 +489,7 @@
       },
       {
         "slug": "credit_equity_correlation_regime_dependence",
-        "confidence": 8,
+        "confidence": 8.0,
         "definition": "Credit-equity correlation varies dramatically by regime: ~0.3-0.4 in normal periods, ~0.7-0.9 during crises (active only ~7% of calendar time or 30 of"
       },
       {

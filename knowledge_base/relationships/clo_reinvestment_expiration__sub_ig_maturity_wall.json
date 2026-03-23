@@ -1,0 +1,21 @@
+{
+  "concept_a": "clo_reinvestment_expiration",
+  "concept_b": "sub_ig_maturity_wall",
+  "mechanism": "CLO reinvestment expirations remove the marginal bid for leveraged loans precisely when $900B-$1.5T of sub-IG debt needs refinancing, reducing demand for new-issue loans and widening spreads. Simultaneous pressure from supply (maturity wall) and demand withdrawal (CLO expiration).",
+  "direction": "bidirectional",
+  "confidence": 6,
+  "regime_dependence": "Time-bound to 2025-2028. Severity depends on SOFR path and CLO reset activity viability. If SOFR declines sufficiently, CLO arbitrage restores and demand returns.",
+  "originating_agents": [
+    "generalist_01",
+    "risk_analyst_01",
+    "quant_researcher_01"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

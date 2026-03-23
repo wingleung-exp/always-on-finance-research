@@ -1,0 +1,32 @@
+{
+  "slug": "basis_trade_maturity_wall_doom_loop",
+  "definition": "A potential doom loop connecting the $800B-$1T basis trade and credit maturity wall through shared repo market dependence. The UK LDI episode (2022) provides partial validation. The SEC clearing mandate (Q2 2026) is a calendar-identifiable catalyst.",
+  "confidence": 4,
+  "evidence": [
+    "$800B-$1T basis trade shares repo infrastructure with credit markets",
+    "UK LDI episode (2022) provides partial validation of mechanism",
+    "SEC clearing mandate (Q2 2026) as identifiable catalyst",
+    "Mechanistically valid but involves a chain never triggered by fiscal causes"
+  ],
+  "originating_agents": [
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Would repo market stress from basis trade unwind actually transmit to credit markets?",
+    "How does the SEC clearing mandate change the basis trade's stability?",
+    "Is the UK LDI analogy applicable to US market structure?"
+  ],
+  "related_concepts": [
+    "sub_ig_maturity_wall",
+    "self_referential_fiscal_instability",
+    "clo_reinvestment_expiration"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

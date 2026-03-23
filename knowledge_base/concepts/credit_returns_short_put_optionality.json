@@ -1,0 +1,31 @@
+{
+  "slug": "credit_returns_short_put_optionality",
+  "definition": "Credit returns behave as short put options with negative skewness (-1.2 to -1.8) and excess kurtosis (4-8). Mean-variance optimization systematically overweights credit by missing these higher moments. Implementation-adjusted Sharpe ratios (0.25-0.35) are roughly half of backtested values (0.5-0.7).",
+  "confidence": 7,
+  "evidence": [
+    "Credit return skewness of -1.2 to -1.8",
+    "Excess kurtosis of 4-8",
+    "Implementation-adjusted Sharpe ratio 0.25-0.35 vs backtested 0.5-0.7",
+    "Credit is one of least efficient risk premia after frictions"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "How should portfolio construction account for these higher moments?",
+    "Does short put optionality interact with regime-dependent correlation?"
+  ],
+  "related_concepts": [
+    "credit_premium_compression",
+    "credit_equity_correlation_regime_dependence",
+    "credit_factor_crowding"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

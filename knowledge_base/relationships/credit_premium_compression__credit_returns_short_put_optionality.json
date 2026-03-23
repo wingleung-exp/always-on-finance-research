@@ -1,0 +1,19 @@
+{
+  "concept_a": "credit_returns_short_put_optionality",
+  "concept_b": "credit_premium_compression",
+  "mechanism": "Credit's negative skewness (-1.2 to -1.8) and excess kurtosis (4-8) mean mean-variance optimization systematically overweights credit, contributing to demand-driven premium compression. Implementation-adjusted Sharpe (0.25-0.35) is half of backtested (0.5-0.7).",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Structural: mean-variance frameworks always miss higher moments. Compression intensifies when inflows from MV-optimizing allocators increase during low-vol regimes.",
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

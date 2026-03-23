@@ -1,0 +1,276 @@
+[
+  {
+    "concept_a": "ebitda_addback_leverage_inflation",
+    "concept_b": "hy_default_rate_mispricing",
+    "mechanism": "EBITDA addbacks inflate reported leverage metrics, causing systematic underestimation of default probabilities. True leverage 1.5-2x higher shifts median B-rated 5-year PD from ~3.5% to ~8-14%, creating a wedge between market-implied and fundamental default rates.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always present but magnitude increases in late-cycle when addbacks are largest and realization rates decline during economic weakness",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "kalecki_fiscal_buffer",
+    "concept_b": "credit_cycle_stage_assessment",
+    "mechanism": "6-7% GDP fiscal deficit sustains ~$1.4-1.6T annual corporate profits via Kalecki profit identity, suppressing defaults by 100-150bp of spread compression and making all historical cycle timing analogues unreliable due to no precedent for this deficit magnitude alongside a mature credit cycle.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Active as long as fiscal deficit remains above ~4-5% GDP. Unprecedented — no prior cycle had this magnitude of fiscal support.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "kalecki_fiscal_buffer",
+    "concept_b": "self_referential_fiscal_instability",
+    "mechanism": "Deficit spending suppresses defaults but creates Treasury supply that reprices term premium, eventually tightening conditions enough to trigger the credit stress it was suppressing. A self-reinforcing destabilizing loop.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Activates when Treasury supply exceeds absorption capacity of term-premium-insensitive buyers. Loop has never been triggered by fiscal causes.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "private_credit_structural_vulnerability",
+    "concept_b": "traditional_credit_indicator_degradation",
+    "mechanism": "Private credit's $1.7-1.8T is excluded from HY OAS, default rate statistics, and financial conditions indices. As private credit grew 8.5x, traditional indicators now monitor a shrinking fraction of the credit system.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Grows proportionally with private credit's market share. Currently ~25-30% of leveraged credit excluded from monitoring.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "clo_reinvestment_expiration",
+    "concept_b": "sub_ig_maturity_wall",
+    "mechanism": "CLO reinvestment expirations remove the marginal bid for leveraged loans precisely when $900B-$1.5T of sub-IG debt needs refinancing, reducing demand for new-issue loans and widening spreads. Simultaneous pressure from supply (maturity wall) and demand withdrawal (CLO expiration).",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Time-bound to 2025-2028. Severity depends on SOFR path and CLO reset activity viability. If SOFR declines sufficiently, CLO arbitrage restores and demand returns.",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_01",
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "credit_equity_correlation_regime_dependence",
+    "concept_b": "private_credit_structural_vulnerability",
+    "mechanism": "Mark-to-model private credit NAVs (0.5-0.7 autocorrelation) artificially suppress measured credit-equity correlation from true ~0.7-0.8 to reported ~0.2-0.3, causing 15-25% underestimation of portfolio volatility that materializes during stress.",
+    "direction": "b_causes_a",
+    "confidence": 8,
+    "regime_dependence": "Measurement distortion is constant; true correlation only reveals during stress when mark-to-model cannot be sustained due to redemption pressure or regulatory requirements.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "credit_tightening_commodity_supply_paradox",
+    "concept_b": "kalecki_fiscal_buffer",
+    "mechanism": "Credit tightening constrains commodity supply, supporting prices and feeding back into inflation. This partially counteracts fiscal-buffer-driven default suppression by keeping rates higher for longer through persistent supply-driven inflation.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active during tightening cycles with supply-side inflation. IMF sacrifice ratio 1.5-2.5x for supply-driven vs demand-driven inflation increases the tightening required.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "amend_extend_forbearance",
+    "concept_b": "sub_ig_maturity_wall",
+    "mechanism": "Amend-and-extend activity redistributes the maturity wall temporally, pushing $200-400B out 2-3 years. Reduces near-term default risk but accumulates severity, potentially increasing eventual losses 30-50% when forbearance becomes unsustainable.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Active during periods when sponsors prefer extending maturities over recognizing losses. Sustainability depends on lender willingness and rate environment.",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "fallen_angel_forced_selling",
+    "concept_b": "credit_premium_compression",
+    "mechanism": "Clustered downgrades of $350-500B BBB could exceed HY market's $1.3-1.5T absorption capacity, causing broad spread widening. IG mandate-driven forced selling creates predictable 8-15% underperformance that temporarily dislocates credit pricing.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activated by BBB downgrade waves. Distributed downgrades are absorbed orderly; clustered downgrades overwhelm HY market capacity. Ford/GM 2005 template.",
+    "originating_agents": [
+      "quant_researcher_02",
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "roic_wacc_bimodality",
+    "concept_b": "hy_default_rate_mispricing",
+    "mechanism": "Cap-weighted ROIC-WACC aggregate (3.5-5.0pp) overstates typical firm buffer by 1-2pp due to mega-cap tech skew. Debt-weighted median (2-3pp) shows the actually vulnerable population, where 100bp WACC increase destroys 33-50% of EVA, suggesting default risk is higher than aggregate metrics imply.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Bimodality is structural (mega-cap tech vs. rest). Vulnerability materializes with sustained rate increases that compress EVA for the non-tech median.",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "credit_factor_crowding",
+    "concept_b": "credit_equity_correlation_regime_dependence",
+    "mechanism": "First PC explaining >65% of credit variance means diversification across credit sub-sectors is illusory. During stress, crowded positions unwind simultaneously, amplifying the normal-to-crisis correlation regime transition from 0.3-0.4 to 0.7-0.9.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Crowding builds during benign conditions with compressed dispersion. Correlation spike occurs during unwind when all crowded positions de-risk simultaneously.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "covenant_lite_default_distribution",
+    "concept_b": "amend_extend_forbearance",
+    "mechanism": "Covenant-lite structures enable amend-and-extend by removing maintenance covenant triggers that would force earlier restructuring. This delays defaults but may produce cliff-edge outcomes when forbearance becomes unsustainable in organic downturn.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active throughout current credit cycle. Key test is organic downturn without policy backstop — COVID only tested covenant-lite under unprecedented intervention.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "energy_sector_hy_canary_obsolescence",
+    "concept_b": "agricultural_credit_leading_indicator",
+    "mechanism": "As energy deleveraged (0.5-1.0x vs 3-4x), it lost its canary role for HY defaults. Agricultural credit stress (delinquencies 2.5-3.5%, farmland -8-12%) may partially fill the early warning gap, though too small (~$560B) for macro significance.",
+    "direction": "correlated",
+    "confidence": 4,
+    "regime_dependence": "Energy canary obsolescence is structural (post-2015 deleveraging). Agricultural leading indicator quality is untested across multiple cycles.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "credit_returns_short_put_optionality",
+    "concept_b": "credit_premium_compression",
+    "mechanism": "Credit's negative skewness (-1.2 to -1.8) and excess kurtosis (4-8) mean mean-variance optimization systematically overweights credit, contributing to demand-driven premium compression. Implementation-adjusted Sharpe (0.25-0.35) is half of backtested (0.5-0.7).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Structural: mean-variance frameworks always miss higher moments. Compression intensifies when inflows from MV-optimizing allocators increase during low-vol regimes.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "biofuel_mandate_credit_rigidity",
+    "concept_b": "credit_tightening_commodity_supply_paradox",
+    "mechanism": "Legislated biofuel mandates (~40% corn demand, ~35% soybean oil demand) prevent full demand-side adjustment during credit tightening, reinforcing the paradox of credit tightening supporting commodity prices through mandatory demand floors.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Active as long as RFS mandates remain. Congress has never reduced ethanol mandates, creating structural demand floor independent of economic cycle.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "export_ban_contagion",
+    "concept_b": "credit_tightening_commodity_supply_paradox",
+    "mechanism": "Export restrictions during commodity stress produce non-linear price spikes (10% shortfall leads to 30-40% price spike), amplifying the inflation feedback loop that makes credit tightening self-defeating for supply-driven inflation.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Activated during commodity supply stress. 47 documented restrictions since 2007. May be attenuated by post-2022 food security frameworks.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "basis_trade_maturity_wall_doom_loop",
+    "concept_b": "sub_ig_maturity_wall",
+    "mechanism": "The $800B-$1T basis trade and credit maturity wall share repo market infrastructure. Stress in either channel could propagate through shared repo dependence, creating a doom loop between sovereign and corporate credit stress channels.",
+    "direction": "bidirectional",
+    "confidence": 4,
+    "regime_dependence": "SEC clearing mandate (Q2 2026) is a calendar-identifiable catalyst. UK LDI episode (2022) provides partial validation. Chain has never been triggered by fiscal causes.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "term_premium_credit_premium_divergence",
+    "concept_b": "credit_premium_compression",
+    "mechanism": "Rates markets pricing risk expensive (elevated term premium) while credit markets price it cheap (compressed spreads) creates an internal inconsistency. Convergence likely requires either credit spread widening or term premium compression.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Current divergence may persist in benign conditions. Convergence likely forced during risk-off regime transition when cross-asset pricing must reconcile.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "china_credit_impulse_degradation",
+    "concept_b": "traditional_credit_indicator_degradation",
+    "mechanism": "China's property-to-infrastructure credit transition reduces marginal commodity intensity by 30-40%, degrading the TSF impulse-metals relationship (historical R-squared ~0.6-0.7 declining). Adds to broader theme of traditional indicator degradation.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Structural shift driven by China's property sector decline (-50% new starts from 2021 peak). Unlikely to reverse.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "concept_a": "structural_improvement_vulnerability_asymmetry",
+    "concept_b": "credit_cycle_stage_assessment",
+    "mechanism": "One-sided cataloguing of risk-amplifying changes while ignoring risk-dampening improvements (bank capital 2-3x, central bank backstops) biases cycle assessment toward late-stage. Without net assessment, cycle positioning conclusions are systematically biased.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Analytical bias is always present in assessments that only catalog one side. Most consequential when informing portfolio positioning.",
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  }
+]

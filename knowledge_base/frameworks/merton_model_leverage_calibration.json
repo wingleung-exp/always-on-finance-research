@@ -1,0 +1,27 @@
+{
+  "slug": "merton_model_leverage_calibration",
+  "purpose": "Calibrate true leverage and default probabilities by adjusting reported metrics for EBITDA addbacks and covenant-lite structures using structural credit modeling",
+  "components": [
+    "Reported leverage input (4.0-4.5x for median B-rated)",
+    "EBITDA addback adjustment (25-40% addback realization discount applied to reported EBITDA)",
+    "Asset volatility assumption calibration",
+    "True leverage output (5.5-7.5x after adjustment)",
+    "Default probability recalibration (from ~3.5% to ~8-14% 5-year cumulative)",
+    "S&P LCD cross-validation (75-85% realization rates)"
+  ],
+  "current_assessment": "The most robust quantitative finding in the synthesis. Direction is unambiguous; magnitude depends on addback realization rates and assumed asset volatility. Even conservative estimates are economically significant.",
+  "limitations": [
+    "Exact magnitude depends on addback realization rates which range 75-85%",
+    "Asset volatility assumptions create additional uncertainty",
+    "Model calibration may not capture private credit dynamics",
+    "Static analysis that does not account for dynamic balance sheet management"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "composite_analogue_methodology",
+  "purpose": "Systematic framework for combining multiple historical credit cycle episodes with similarity scoring to generate conditional forecasts with explicit uncertainty bounds",
+  "components": [
+    "Historical episode identification and documentation across credit cycles",
+    "Multi-dimensional similarity scoring (leverage, rates, fiscal stance, structural features)",
+    "Weighted composite construction based on similarity scores",
+    "Conditional probability estimation with explicit uncertainty ranges",
+    "Yield curve inversion duration as severity predictor (22 months current, r=0.65 with recession severity across n=7)",
+    "Demographic compression adjustment for neutral credit spreads across decades"
+  ],
+  "current_assessment": "More disciplined than ad hoc analogies but fundamentally limited by the unprecedented fiscal deficit context. No prior credit stress episode operated with deficits above 3.5%, making all historical analogues unreliable for timing.",
+  "limitations": [
+    "Small sample sizes (n=5-7 episodes) limit statistical inference",
+    "Current fiscal context is unprecedented, degrading all historical analogues",
+    "Similarity scoring requires subjective weighting",
+    "Assumes structural stationarity that may not hold given post-GFC changes"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

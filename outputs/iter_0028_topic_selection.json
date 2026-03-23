@@ -1,0 +1,77 @@
+{
+  "selected_topic": "credit_cycles",
+  "display_name": "Credit Cycle Dynamics & Late-Stage Signals",
+  "category": "credit_and_rates",
+  "mode": "deep_dive",
+  "depth_level": 3,
+  "confidence_score": 6.0,
+  "score": 61.1,
+  "focus": {
+    "subtopics": [
+      "hy_spread_analysis",
+      "leveraged_loan_risk",
+      "private_credit_opacity"
+    ],
+    "knowledge_gaps": [
+      "Private credit $1.8T systemic risk assessment",
+      "HY default rate in higher-for-longer scenario",
+      "Credit-to-equity contagion channels"
+    ],
+    "connections_to_explore": [
+      "monetary_policy",
+      "corporate_credit",
+      "credit_equity_linkage",
+      "real_estate_cycles"
+    ],
+    "instruction": "This topic has been studied at overview level. Focus on: (1) specific subtopics listed, (2) closing identified knowledge gaps, (3) cross-topic interactions with connected topics, (4) edge cases and regime-dependent behavior."
+  },
+  "related_topics": {
+    "monetary_policy": {
+      "display_name": "Monetary Policy Transmission & Central Bank Strategy",
+      "confidence_score": 5.6,
+      "depth_level": 3
+    },
+    "corporate_credit": {
+      "display_name": "Corporate Credit Quality & Spread Analysis",
+      "confidence_score": 5.5,
+      "depth_level": 2
+    },
+    "credit_equity_linkage": {
+      "display_name": "Credit-Equity Linkage & Contagion Channels",
+      "confidence_score": 7.4,
+      "depth_level": 1
+    },
+    "real_estate_cycles": {
+      "display_name": "Real Estate Cycles & CRE Repricing",
+      "confidence_score": 5.5,
+      "depth_level": 2
+    }
+  },
+  "runners_up": [
+    {
+      "topic": "corporate_credit",
+      "score": 60.6
+    },
+    {
+      "topic": "real_estate_cycles",
+      "score": 60.6
+    },
+    {
+      "topic": "yield_curve_dynamics",
+      "score": 59.85
+    },
+    {
+      "topic": "deglobalization",
+      "score": 58.1
+    },
+    {
+      "topic": "energy_transition",
+      "score": 57.1
+    }
+  ],
+  "key_concepts": [
+    "credit_cycle_phase",
+    "credit_spread",
+    "default_rate"
+  ]
+}

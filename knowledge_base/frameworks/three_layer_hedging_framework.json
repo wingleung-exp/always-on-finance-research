@@ -1,0 +1,24 @@
+{
+  "slug": "three_layer_hedging_framework",
+  "purpose": "Credit cycle hedging framework targeting amplification mechanisms rather than unpredictable triggers, designed to be actionable regardless of trigger timing",
+  "components": [
+    "Layer 1: CDX HY options for direct credit spread protection",
+    "Layer 2: MOVE index exposure for rates volatility hedge covering basis trade and Treasury supply risk",
+    "Layer 3: CLO equity avoidance to remove exposure to the most leveraged and opaque part of the credit stack"
+  ],
+  "current_assessment": "Addresses identified amplification channels. CLO equity avoidance is passive risk reduction; CDX HY options and MOVE exposure provide active hedging. Internal inconsistency noted in the long credit vol / short equity vol variant where correlation spikes cause the funding leg to generate losses when the primary leg pays off.",
+  "limitations": [
+    "CDX HY options have negative carry during extended benign periods",
+    "MOVE exposure may not fully hedge non-Treasury rate channels",
+    "Does not address private credit mark-to-model risk directly",
+    "Long credit vol / short equity vol variant has internal inconsistency under own stress scenario"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T08:42:47Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

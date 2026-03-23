@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "vulnerability_trigger_amplification",
+    "purpose": "Structured taxonomy for credit cycle risk assessment that separates structural vulnerabilities from triggers and amplification mechanisms to enable targeted hedging",
+    "components": [
+      "Vulnerabilities: structural conditions creating fragility (covenant-lite, EBITDA addbacks, private credit opacity, CLO concentration)",
+      "Triggers: events that activate vulnerabilities (fiscal consolidation, maturity wall, basis trade unwind, rate shock)",
+      "Amplification mechanisms: channels through which initial stress propagates (CLO OC tests to forced selling to private credit markdown to BDC gates to insurance RBC to broad repricing)",
+      "6-step non-traditional contagion channel mapping"
+    ],
+    "current_assessment": "Multiple vulnerabilities identified and catalogued; triggers are uncertain in timing; amplification channels involve 5-6 interruptible steps. Hedging should target amplification mechanisms rather than unpredictable triggers using the three-layer framework (CDX HY options + MOVE exposure + CLO equity avoidance).",
+    "limitations": [
+      "Framework catalogs risk-amplifying changes more thoroughly than risk-dampening improvements",
+      "Trigger timing remains inherently unpredictable",
+      "Amplification chains have multiple interruption points reducing probability of full transmission",
+      "No systematic way to net vulnerabilities against structural improvements (bank capital 2-3x, central bank backstops)"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "slug": "kalecki_profit_identity_framework",
+    "purpose": "Accounting identity framework explaining how fiscal deficits sustain corporate profits and suppress the credit cycle turn, and why all historical timing analogues are unreliable",
+    "components": [
+      "Corporate profits approximately equal investment + fiscal deficit - household savings - current account deficit",
+      "At 6-7% GDP deficit, fiscal channel sustains ~$1.4-1.6T annual corporate profits",
+      "Profit support suppresses defaults by estimated 100-150bp of spread compression",
+      "Self-referential instability extension: deficit creates Treasury supply that reprices term premium and eventually reverses the suppression"
+    ],
+    "current_assessment": "The fiscal buffer is real and currently the dominant credit cycle suppressant. No historical analogue exists for this deficit magnitude alongside a mature credit cycle. Whether the buffer merely delays or fundamentally alters the cycle is the central unresolved question.",
+    "limitations": [
+      "Cannot predict when fiscal impulse will contract",
+      "Whether buffer merely delays or fundamentally alters the cycle is unresolved",
+      "The 2pp GDP consolidation trigger threshold is contested",
+      "Self-referential instability loop has never been triggered by fiscal causes"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "slug": "merton_model_leverage_calibration",
+    "purpose": "Calibrate true leverage and default probabilities by adjusting reported metrics for EBITDA addbacks and covenant-lite structures using structural credit modeling",
+    "components": [
+      "Reported leverage input (4.0-4.5x for median B-rated)",
+      "EBITDA addback adjustment (25-40% addback realization discount applied to reported EBITDA)",
+      "Asset volatility assumption calibration",
+      "True leverage output (5.5-7.5x after adjustment)",
+      "Default probability recalibration (from ~3.5% to ~8-14% 5-year cumulative)",
+      "S&P LCD cross-validation (75-85% realization rates)"
+    ],
+    "current_assessment": "The most robust quantitative finding in the synthesis. Direction is unambiguous; magnitude depends on addback realization rates and assumed asset volatility. Even conservative estimates are economically significant.",
+    "limitations": [
+      "Exact magnitude depends on addback realization rates which range 75-85%",
+      "Asset volatility assumptions create additional uncertainty",
+      "Model calibration may not capture private credit dynamics",
+      "Static analysis that does not account for dynamic balance sheet management"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "slug": "composite_analogue_methodology",
+    "purpose": "Systematic framework for combining multiple historical credit cycle episodes with similarity scoring to generate conditional forecasts with explicit uncertainty bounds",
+    "components": [
+      "Historical episode identification and documentation across credit cycles",
+      "Multi-dimensional similarity scoring (leverage, rates, fiscal stance, structural features)",
+      "Weighted composite construction based on similarity scores",
+      "Conditional probability estimation with explicit uncertainty ranges",
+      "Yield curve inversion duration as severity predictor (22 months current, r=0.65 with recession severity across n=7)",
+      "Demographic compression adjustment for neutral credit spreads across decades"
+    ],
+    "current_assessment": "More disciplined than ad hoc analogies but fundamentally limited by the unprecedented fiscal deficit context. No prior credit stress episode operated with deficits above 3.5%, making all historical analogues unreliable for timing.",
+    "limitations": [
+      "Small sample sizes (n=5-7 episodes) limit statistical inference",
+      "Current fiscal context is unprecedented, degrading all historical analogues",
+      "Similarity scoring requires subjective weighting",
+      "Assumes structural stationarity that may not hold given post-GFC changes"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "slug": "credit_factor_crowding_diagnosis",
+    "purpose": "Diagnose crowding in credit factor exposures, assess illusory diversification, and identify when credit risk premia are inadequately compensating for true risk profile",
+    "components": [
+      "PCA decomposition: first PC explains >65% of variance across HY, leveraged loans, CLO equity",
+      "Dispersion analysis: compressed dispersion as crowding signal",
+      "Higher-moment analysis: skewness (-1.2 to -1.8) and kurtosis (4-8) of credit returns",
+      "Implementation friction adjustment: Sharpe ratio reduction from 0.5-0.7 backtested to 0.25-0.35 realized",
+      "Cross-asset inconsistency detection: term premium vs credit premium divergence"
+    ],
+    "current_assessment": "Credit sub-sector diversification is currently illusory with returns dominated by a single factor. Crowded positions will unwind simultaneously during stress. Market pricing undercompensates for true risk profile when accounting for higher moments and implementation costs.",
+    "limitations": [
+      "Does not predict timing of crowding unwind",
+      "Backtested factor adjustments may not generalize to current market structure",
+      "Higher-moment estimates are sensitive to sample period",
+      "Dispersion threshold for signaling peak crowding is not precisely defined"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  },
+  {
+    "slug": "three_layer_hedging_framework",
+    "purpose": "Credit cycle hedging framework targeting amplification mechanisms rather than unpredictable triggers, designed to be actionable regardless of trigger timing",
+    "components": [
+      "Layer 1: CDX HY options for direct credit spread protection",
+      "Layer 2: MOVE index exposure for rates volatility hedge covering basis trade and Treasury supply risk",
+      "Layer 3: CLO equity avoidance to remove exposure to the most leveraged and opaque part of the credit stack"
+    ],
+    "current_assessment": "Addresses identified amplification channels. CLO equity avoidance is passive risk reduction; CDX HY options and MOVE exposure provide active hedging. Internal inconsistency noted in the long credit vol / short equity vol variant where correlation spikes cause the funding leg to generate losses when the primary leg pays off.",
+    "limitations": [
+      "CDX HY options have negative carry during extended benign periods",
+      "MOVE exposure may not fully hedge non-Treasury rate channels",
+      "Does not address private credit mark-to-model risk directly",
+      "Long credit vol / short equity vol variant has internal inconsistency under own stress scenario"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0028"
+  }
+]

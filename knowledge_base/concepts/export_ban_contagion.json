@@ -1,7 +1,7 @@
 {
   "slug": "export_ban_contagion",
   "definition": "Prisoner's dilemma dynamics drive food export ban cascades during FX-driven food price spikes. 33 countries restricted exports in 2007-08; 20+ in 2022. Each restriction is individually rational but collective restrictions amplify original price shock by 30-60%. Conditional probability >60% given simultaneous USD strength >10% and wheat >$8/bu (n=3).",
-  "confidence": 6.5,
+  "confidence": 6.0,
   "evidence": [
     "33 countries restricted in 2007-08; 20+ in 2022",
     "30-60% amplification of original price shock from collective restrictions",
@@ -9,7 +9,10 @@
     "Formalized as prisoner's dilemma equilibrium",
     "3 historical precedents",
     "Extends shock duration by 12-24 months",
-    "Game-theoretically robust mechanism"
+    "Game-theoretically robust mechanism",
+    "47 documented export restrictions since 2007 (IFPRI database)",
+    "10% global supply shortfall can produce 30-40% price spikes",
+    "Simultaneous food inflation and currency pressure for import-dependent countries"
   ],
   "originating_agents": [
     "commodities_analyst_02",
@@ -20,21 +23,28 @@
     "Individual country responses are politically idiosyncratic",
     "Interaction with current WTO enforcement mechanisms",
     "Can WTO mechanisms or bilateral agreements prevent contagion?",
-    "Does the mechanism strengthen or weaken as global trade integration increases?"
+    "Does the mechanism strengthen or weaken as global trade integration increases?",
+    "Have post-2022 food security frameworks reduced the tail risk?",
+    "What is the threshold for export ban cascades?",
+    "How does this interact with EM credit spreads quantitatively?"
   ],
   "related_concepts": [
     "food_inflation_em_instability",
     "usd_invoicing_em_food_exposure",
     "agricultural_spike_frequency_regime",
-    "biofuel_demand_floor"
+    "biofuel_demand_floor",
+    "credit_tightening_commodity_supply_paradox",
+    "agricultural_credit_leading_indicator",
+    "biofuel_mandate_credit_rigidity"
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-22T21:50:58Z",
-  "last_updated": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-23T08:42:47Z",
   "originating_iteration": "iter_0009",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0009",
-    "iter_0022"
+    "iter_0022",
+    "iter_0028"
   ]
 }

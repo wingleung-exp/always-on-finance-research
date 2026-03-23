@@ -1,0 +1,36 @@
+{
+  "slug": "clo_reinvestment_expiration",
+  "definition": "CLO reinvestment expirations of $250-350B over 18 months will remove the marginal bid for leveraged loans. The process is gradual and contractual (distributed over 18+ months), not a sudden funding failure. CLOs stop buying rather than become forced sellers. Testable prediction: institutional leveraged loan new-issue spreads should widen 50-100bp by late 2026.",
+  "confidence": 6,
+  "evidence": [
+    "Contractual nature of CLO run-off distributed over 18+ months",
+    "CLOs don't become forced sellers; they stop buying",
+    "SIV analogue captures demand-withdrawal magnitude but overstates speed",
+    "Prior CLO cliffs (2019) were pre-empted by reset activity, but current SOFR levels make reset economics less favorable"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "commodities_analyst_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Will CLO reset activity pre-empt the cliff as in 2019?",
+    "How much spread widening will actually materialize?",
+    "At what SOFR level does CLO arbitrage become viable again?"
+  ],
+  "related_concepts": [
+    "sub_ig_maturity_wall",
+    "basis_trade_maturity_wall_doom_loop",
+    "credit_premium_compression"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

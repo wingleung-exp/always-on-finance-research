@@ -1,0 +1,37 @@
+{
+  "slug": "hy_default_rate_mispricing",
+  "definition": "HY default rates are directionally mispriced relative to stress scenarios, with market-implied ~2.5% vs. historical base rates of 6-10% during higher-for-longer episodes. The risk distribution is right-skewed relative to market pricing, but the degree of skew is uncertain due to the unprecedented Kalecki fiscal buffer.",
+  "confidence": 6,
+  "evidence": [
+    "Market-implied ~2.5% default rate vs. historical base rates of 8-13% during higher-for-longer episodes (narrowed to 6-10% after methodological correction)",
+    "Quant_researcher_01 shows the 4.3% vs 2.5% gap is not statistically distinguishable from zero at conventional confidence",
+    "Kalecki fiscal buffer absent from all prior analogues may reduce peak defaults",
+    "Original additive decomposition yielding 8-12% refuted; honest range is 6-10%"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "How much does the Kalecki fiscal buffer reduce peak defaults vs. historical analogues?",
+    "Is the gap between market-implied and historical rates statistically significant?",
+    "What is the correct decomposition methodology for default rate estimation?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_leverage_inflation",
+    "kalecki_fiscal_buffer",
+    "credit_premium_compression",
+    "covenant_lite_default_distribution"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}

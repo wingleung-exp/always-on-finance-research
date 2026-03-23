@@ -1,0 +1,31 @@
+{
+  "slug": "roic_wacc_bimodality",
+  "definition": "The aggregate ROIC-WACC spread masks extreme bimodality: mega-cap tech (ROIC 25-40%, ~30% of cap weight) is rate-immune, while the S&P 493 debt-weighted median ROIC-WACC is only 2-3pp. A 100bp WACC increase destroys 33-50% of EVA for the median leveraged company. Cap-weighted aggregate overstates representative firm buffer by 1-2pp.",
+  "confidence": 8,
+  "evidence": [
+    "Mega-cap tech ROIC 25-40%, representing ~30% of cap weight, is rate-immune",
+    "S&P 493 median ROIC-WACC is 2-3pp vs cap-weighted mean of 3.5-5.0pp",
+    "100bp WACC increase destroys 33-50% of EVA for median leveraged company",
+    "Identified in debate pair_2 as most analytically valuable novel contribution"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "How does EVA destruction translate to default and equity outcomes?",
+    "What is the sector decomposition of the vulnerable median?"
+  ],
+  "related_concepts": [
+    "credit_premium_compression",
+    "sub_ig_maturity_wall",
+    "hy_default_rate_mispricing"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T08:42:46Z",
+  "originating_iteration": "iter_0028",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0028"
+  ]
+}
