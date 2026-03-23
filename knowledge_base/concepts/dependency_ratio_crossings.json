@@ -1,0 +1,38 @@
+{
+  "slug": "dependency_ratio_crossings",
+  "definition": "When old-age dependency ratios cross the 35% threshold, countries reliably experience 2-4 percentage point structural fiscal deterioration within 15 years. A second threshold at ~45% triggers qualitative shifts in monetary-fiscal coordination. Direction is highly predictable; magnitude is not.",
+  "confidence": 9,
+  "evidence": [
+    "Every OECD country crossing 35% old-age dependency experienced 2-4pp structural fiscal deterioration within 15 years",
+    "14 episodes, median 3.2pp, IQR 2.0-5.5pp",
+    "Utilization/cost uncertainty (+-3.0% GDP) dominates demographic uncertainty (+-1.5% GDP) by 2:1",
+    "95% CI on 2050 age-related costs spans 3-8% of GDP",
+    "Second threshold at ~45% triggers qualitative shifts (Japan, Italy)"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "quant_researcher_01",
+    "risk_analyst_02",
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the precise magnitude of fiscal deterioration at the 45% threshold?",
+    "How do effective dependency ratios shift the timing of threshold crossings?",
+    "US crossing timing ~2030-2032: will institutional mediators alter the outcome?"
+  ],
+  "related_concepts": [
+    "effective_dependency_ratio_gap",
+    "financial_repression_pathway",
+    "aging_political_economy_ratchet",
+    "below_replacement_fertility"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-23T08:13:48Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

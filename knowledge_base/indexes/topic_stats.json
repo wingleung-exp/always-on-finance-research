@@ -457,14 +457,24 @@
     "avg_confidence": 7.3
   },
   "demographics": {
-    "concept_count": 58,
-    "relationship_count": 20,
-    "framework_count": 6,
+    "concept_count": 99,
+    "relationship_count": 48,
+    "framework_count": 14,
     "top_concepts": [
+      {
+        "slug": "below_replacement_fertility",
+        "confidence": 9,
+        "definition": "Total fertility rates across OECD nations have fallen below the 2.1 replacement level and show no historical precedent for recovery once below 1.5. Th"
+      },
       {
         "slug": "below_replacement_fertility_universality",
         "confidence": 9,
         "definition": "Total fertility rates have fallen below the 2.1 replacement level in 36/38 OECD countries, with convergence occurring faster than UN median projection"
+      },
+      {
+        "slug": "china_demographic_cliff",
+        "confidence": 9,
+        "definition": "China faces a demographic cliff that is arithmetically certain \u2014 working-age population decline of ~100M by 2035, birth collapse from 17M to 9M (2016-"
       },
       {
         "slug": "cpi_weight_asymmetry_inflation_amplifier",
@@ -477,9 +487,19 @@
         "definition": "Meta-finding that demographic direction is near-certain but magnitude and timing predictions are systematically overconfident. The split between direc"
       },
       {
+        "slug": "dependency_ratio_crossings",
+        "confidence": 9,
+        "definition": "When old-age dependency ratios cross the 35% threshold, countries reliably experience 2-4 percentage point structural fiscal deterioration within 15 y"
+      },
+      {
         "slug": "japan_aging_non_generalizability",
         "confidence": 9,
         "definition": "Japan's experience as the first major economy to undergo severe aging constitutes a sample of 1 with unique structural features (NIIP +70% GDP, >90% d"
+      },
+      {
+        "slug": "negative_stock_bond_correlation_anomaly",
+        "confidence": 9,
+        "definition": "The 1998-2021 period of negative stock-bond correlation was historically anomalous, with positive correlation governing approximately 64% of post-war "
       },
       {
         "slug": "pronatalist_policy_base_rate",
@@ -490,89 +510,110 @@
         "slug": "sub_replacement_fertility_persistence",
         "confidence": 9,
         "definition": "No country has recovered to replacement-level fertility (2.1 TFR) after sustained sub-1.5 TFR. The base rate for even partial recovery to 1.6+ is 12-1"
-      },
-      {
-        "slug": "simultaneous_global_aging",
-        "confidence": 8.5,
-        "definition": "All major economies are aging concurrently for the first time in history, eliminating the demographic arbitrage that previously allowed capital and la"
-      },
-      {
-        "slug": "aging_fiscal_deterioration",
-        "confidence": 8,
-        "definition": "Aging populations mechanically drive fiscal deterioration through higher healthcare, pension, and social spending. The directional relationship is rob"
-      },
-      {
-        "slug": "aging_political_economy_ratchet",
-        "confidence": 8,
-        "definition": "Rising median voter age shifts the decisive electoral cohort to net transfer recipients, creating a self-reinforcing cycle: fiscal expansion \u2192 monetar"
-      },
-      {
-        "slug": "china_aging_before_rich",
-        "confidence": 8,
-        "definition": "China faces the unprecedented condition of aging into a middle-income trap with GDP per capita at aging onset of $12K vs Japan's $30K, pension funding"
       }
     ],
     "all_concept_slugs": [
       "aging_before_rich",
       "aging_equilibrium_real_rate_impact",
+      "aging_farmer_adaptive_capacity",
       "aging_farming_supply_constraint",
       "aging_fiscal_deterioration",
       "aging_inflation_deflation_binary",
+      "aging_inflation_deflation_debate",
       "aging_inflationary_tendency",
       "aging_political_economy_fiscal_expansion",
       "aging_political_economy_ratchet",
+      "aging_r_star_underpowered",
+      "agricultural_rd_crowding_out",
       "ai_demographic_offset_uncertainty",
       "ai_demographic_substitution_uncertainty",
+      "ai_labor_offset_wildcard",
+      "alliance_demographic_stress",
+      "bank_profitability_policy_contingent",
+      "below_replacement_fertility",
       "below_replacement_fertility_universality",
+      "bimodal_r_star_distribution",
+      "capital_flow_safety_valve_elimination",
+      "cb_independence_erosion",
       "central_bank_independence_erosion",
       "china_adventurism_window",
       "china_aging_before_rich",
+      "china_copper_oil_divergence",
+      "china_demographic_cliff",
       "china_demographic_cliff_macro_risk",
+      "china_soybean_demand_plateau",
+      "clo_reinvestment_collision",
       "compressed_demographic_dividend",
+      "correlation_assumptions_mispricing",
+      "correlation_regime_transition",
       "correlation_term_premium_feedback",
+      "covenant_lite_dominance",
       "cpi_food_weight_em_transmission",
       "cpi_weight_asymmetry_inflation_amplifier",
       "cross_asset_demographic_inconsistency",
       "default_model_demographic_miscalibration",
       "demographic_deleveraging_constraint",
+      "demographic_dividend_self_destruction",
       "demographic_prediction_overconfidence",
       "demographic_pricing_paradox",
+      "dependency_ratio_crossings",
       "dependency_ratio_fiscal_trajectory",
       "ebitda_addback_demographic_fiction",
       "ebitda_addback_labor_scarcity",
+      "ebitda_addbacks_demographic_fiction",
       "economic_statecraft_demographic_substitute",
       "effective_dependency_ratio_gap",
       "em_demographic_dividend_conditionality",
       "export_ban_aging_voter_feedback",
+      "export_ban_political_economy",
+      "fertility_convergence_acceleration",
       "financial_repression_modal_resolution",
+      "financial_repression_pathway",
       "five_phase_aging_economy_template",
+      "glp1_agricultural_demand_shock",
       "immigration_demographic_lever",
       "immigration_effective_restriction_gap",
       "immigration_short_horizon_variance",
+      "immigration_three_channel_credit",
+      "immigration_variance_and_restriction",
+      "institutional_adaptation_attenuation",
       "japan_aging_non_generalizability",
       "japan_corporate_credit_generalizability",
       "japan_sovereign_non_generalizability",
       "lifecycle_savings_hypothesis_ambiguity",
+      "maturity_wall_labor_scarcity",
       "maturity_wall_labor_scarcity_interaction",
       "maturity_wall_labor_squeeze",
+      "negative_stock_bond_correlation_anomaly",
       "outdated_correlation_portfolio_risk",
       "pension_duration_fiscal_collision",
       "pension_fiscal_collision",
+      "pik_toggle_canary",
       "pik_toggle_stress_indicator",
+      "political_feedback_loop_acceleration",
       "post_wwii_deleveraging_growth_impairment",
       "private_credit_nav_overstatement",
       "pronatalist_policy_base_rate",
       "recovery_duration_demographic_correlation",
+      "reflexive_term_premium_loop",
       "retailization_feedback_loop",
+      "russia_demographic_strategic_loop",
+      "second_round_wage_price_spiral",
+      "securitization_pipeline_bifurcation",
       "simultaneous_global_aging",
+      "split_confidence_methodology",
+      "ssa_fertility_food_dependency",
       "ssa_food_import_dependency",
       "stock_bond_correlation_demographic_regime",
       "stock_bond_positive_correlation_transition",
       "structural_labor_scarcity",
       "sub_replacement_fertility_persistence",
-      "term_premium_demographic_uplift"
+      "term_premium_demographic_uplift",
+      "term_premium_direction",
+      "three_tier_geopolitical_divergence",
+      "youth_bulge_instability_nexus"
     ],
-    "avg_confidence": 6.7
+    "avg_confidence": 6.5
   },
   "equity_cycles": {
     "concept_count": 26,
@@ -1621,14 +1662,14 @@
         "definition": "The debt sustainability equation delta(Debt/GDP) = (r - g) x (Debt/GDP) - Primary Balance/GDP is the governing identity for sovereign debt trajectorie"
       },
       {
+        "slug": "japan_non_generalizability",
+        "confidence": 8.5,
+        "definition": "Japan's debt sustainability rests on a unique and non-replicable configuration: NIIP +70% GDP, >90% domestic JGB ownership, BoJ >50% ownership, persis"
+      },
+      {
         "slug": "dollar_cycle_em_stress_driver",
         "confidence": 8,
         "definition": "The dollar cycle is the primary exogenous driver of EM sovereign stress, operating through three positively correlated channels: balance-sheet effects"
-      },
-      {
-        "slug": "japan_non_generalizability",
-        "confidence": 8,
-        "definition": "Japan's debt sustainability rests on a unique and non-replicable configuration: NIIP +70% GDP, >90% domestic JGB ownership, BoJ >50% ownership, persis"
       },
       {
         "slug": "threshold_seeking_bias",

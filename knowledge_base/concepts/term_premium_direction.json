@@ -1,0 +1,33 @@
+{
+  "slug": "term_premium_direction",
+  "definition": "The directional claim that the term premium is rising has merit, driven by aging-related fiscal deterioration and supply expansion. However, specific quantification (50-150bp above QE-era baseline) was refuted due to applying pre-QE coefficients across a regime boundary, uncertain fiscal inputs, and the ACM term premium already having moved from -50bp to +50-100bp.",
+  "confidence": 6,
+  "evidence": [
+    "ACM term premium moved from -50bp to +50-100bp",
+    "Directional claim supported by fiscal deterioration and supply expansion",
+    "Specific 50-150bp quantification refuted",
+    "Three layers of uncertainty multiply through uncertain transmission mechanisms"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the current equilibrium term premium under the new fiscal regime?",
+    "Does the reflexive loop (term premium → r>g → debt instability → higher term premium) have a quantifiable threshold?",
+    "How much of the term premium move is already complete?"
+  ],
+  "related_concepts": [
+    "pension_fiscal_collision",
+    "aging_r_star_underpowered",
+    "financial_repression_pathway"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

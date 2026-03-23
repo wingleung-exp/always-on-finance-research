@@ -1,0 +1,32 @@
+{
+  "slug": "split_confidence_methodology",
+  "definition": "A methodological innovation that separates confidence in the direction/sign of a demographic effect from confidence in its magnitude, avoiding the systematic misleading that occurs when collapsing into single confidence numbers. Applied throughout the synthesis: 9/10 direction but 5/10 magnitude on fiscal deterioration, 7/10 sign but 4/10 magnitude on aging-r*.",
+  "confidence": 8,
+  "evidence": [
+    "Pair_2 identified this as 'genuinely useful and should become standard practice'",
+    "Applied to fiscal deterioration (9/10 direction, 5/10 magnitude)",
+    "Applied to aging-r* (7/10 sign, 4/10 magnitude)",
+    "Applied to China (9/10 demographics, 4/10 financial translation)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Should this methodology be formalized into all KB entries?",
+    "How should split confidence interact with portfolio sizing decisions?",
+    "Can the methodology be extended to timing uncertainty?"
+  ],
+  "related_concepts": [
+    "aging_r_star_underpowered",
+    "china_demographic_cliff",
+    "dependency_ratio_crossings"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

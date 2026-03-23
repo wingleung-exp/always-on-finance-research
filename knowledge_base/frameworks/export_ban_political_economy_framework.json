@@ -1,0 +1,26 @@
+{
+  "slug": "export_ban_political_economy_framework",
+  "purpose": "Predicts which countries are most likely to impose food export bans during global price shocks, creating cascading food security risks",
+  "components": [
+    "Trigger conditions: food >30% CPI weight AND >40% population under 25",
+    "Political mechanism: existential food price politics in young, food-dependent economies",
+    "Amplification: export bans by producers amplify global price shocks, triggering more bans",
+    "Empirical backing: IFPRI data showing 87 restrictions in 2022 vs. 15-20 baseline",
+    "Historical precedent: Arab Spring transmission pattern"
+  ],
+  "current_assessment": "Provides a concrete, quantitative predictive framework backed by IFPRI data and the Arab Spring pattern. Useful for identifying vulnerable countries and potential cascading effects during food price shocks.",
+  "limitations": [
+    "Out-of-sample predictive power not validated",
+    "Does not model the endogenous global price impact of cascading export bans",
+    "Country-specific institutional and political factors may override the framework",
+    "Does not account for international coordination mechanisms"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

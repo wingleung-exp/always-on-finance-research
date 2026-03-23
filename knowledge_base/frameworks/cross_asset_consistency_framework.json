@@ -1,0 +1,27 @@
+{
+  "slug": "cross_asset_consistency_framework",
+  "purpose": "Systematically compares what equities, credit, rates, and commodities each imply about the macro regime to identify tensions and mispricing",
+  "components": [
+    "Equity implied regime assessment",
+    "Credit spread implied regime assessment",
+    "Rates/term structure implied regime assessment",
+    "Commodity demand curve implied regime assessment",
+    "Cross-asset tension identification",
+    "Verdict: rates closest to right, equities most likely to adjust, credit most dangerous because mispricing is model-embedded"
+  ],
+  "current_assessment": "Useful portfolio-level assessment tool. The identification of cross-asset tension is valuable; the specific verdict on which market is 'wrong' is lower confidence because markets price heterogeneous views from different participants with different horizons and mandates.",
+  "limitations": [
+    "Markets routinely price heterogeneous views — tension does not necessarily imply mispricing",
+    "No single asset class can be identified as 'wrong' on demographic grounds alone",
+    "Tech concentration and AI earnings expectations may justify equity pricing independent of demographics",
+    "Credit spread supply-demand technicals (CLO bid, insurance yields) may justify spread levels"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

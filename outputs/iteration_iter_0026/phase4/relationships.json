@@ -1,0 +1,353 @@
+[
+  {
+    "concept_a": "below_replacement_fertility",
+    "concept_b": "dependency_ratio_crossings",
+    "mechanism": "Below-replacement fertility reduces the working-age population relative to retirees, mechanically driving old-age dependency ratios toward and through the 35% and 45% thresholds",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds universally with 15-25 year lag from fertility decline to dependency ratio crossing",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "dependency_ratio_crossings",
+    "concept_b": "financial_repression_pathway",
+    "mechanism": "At the 45% old-age dependency threshold, qualitative shifts toward monetary-fiscal coordination emerge as the path of least political resistance for managing fiscal deterioration",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds in democracies where median voter age tracks dependency ratios. Non-democratic regimes may follow different pathways",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "aging_political_economy_ratchet",
+    "concept_b": "cb_independence_erosion",
+    "mechanism": "Rising median voter age shifts electoral majority toward transfer recipients who tolerate inflation more and recession less, eroding political support for independent monetary policy through appointment dynamics, mandate expansion, implicit coordination, and tolerance shifts",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest in democracies with aging electorates. Mitigated by institutional safeguards (constitutional independence provisions) but these face sustained political pressure",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "cb_independence_erosion",
+    "concept_b": "financial_repression_pathway",
+    "mechanism": "Eroded central bank independence enables the implicit coordination and accommodative monetary policy that constitutes financial repression, particularly when rate decisions on $1T+ interest payments become de facto fiscal policy",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when sovereign debt levels are high enough that rate decisions have material fiscal impact",
+    "originating_agents": [
+      "risk_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "financial_repression_pathway",
+    "concept_b": "correlation_regime_transition",
+    "mechanism": "Financial repression through accommodative monetary-fiscal coordination creates supply-shock dominance and inflation persistence, supporting the transition from negative to positive stock-bond correlation",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds when financial repression is sufficient to generate inflation persistence; may not hold if repression is mild enough to maintain demand-shock dominance",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "correlation_regime_transition",
+    "concept_b": "correlation_assumptions_mispricing",
+    "mechanism": "The transition toward positive correlation creates a growing gap between embedded model assumptions (negative correlation) and reality, widening the mispricing. The institutional mandate basis for models means the gap persists longer than behavioral mispricings",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as portfolio construction models retain 1998-2021 calibrations and institutional mandates resist updating",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "pension_fiscal_collision",
+    "concept_b": "term_premium_direction",
+    "mechanism": "The divergence between pension demand for long duration and fiscal supply expansion creates upward pressure on the term premium, particularly in the 10Y-30Y segment where the opposing forces are most concentrated",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while pension assets remain predominantly DB with duration-matching mandates and fiscal deterioration continues. Shift to DC reduces pension duration demand",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "immigration_variance_and_restriction",
+    "concept_b": "maturity_wall_labor_scarcity",
+    "mechanism": "OECD-wide immigration restriction reduces labor supply flexibility, intensifying the structural labor scarcity that leveraged borrowers face during the 2026-2029 maturity wall, removing the historical counter-cyclical relief valve",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds if restriction persists through the maturity wall period. Sector-specific carve-outs may partially mitigate for some borrowers",
+    "originating_agents": [
+      "credit_analyst_02",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "ebitda_addbacks_demographic_fiction",
+    "concept_b": "maturity_wall_labor_scarcity",
+    "mechanism": "Fictitious EBITDA addbacks mask the true margin compression that will be revealed at refinancing, compounding the maturity wall risk as borrowers approaching refinancing cannot demonstrate the cash flows their current leverage implies",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Holds in the leveraged lending market during 2026-2029 maturity wall period; severity depends on interest rate environment at refinancing",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "china_demographic_cliff",
+    "concept_b": "china_soybean_demand_plateau",
+    "mechanism": "Population decline and aging reduce meat consumption growth, while hog herd consolidation improves feed conversion, leading to structural decline in soybean import demand from the 100M tonne peak",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds barring major policy stockpiling or significant dietary shifts toward higher meat consumption",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "china_demographic_cliff",
+    "concept_b": "simultaneous_global_aging",
+    "mechanism": "China's concurrent aging (largest population ever to age) adds ~20% of global GDP to the simultaneously aging bloc, qualitatively changing the nature of global aging from a Japan-specific to a systemic phenomenon",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "This is an arithmetic fact about timing; holds regardless of policy choices",
+    "originating_agents": [
+      "quant_researcher_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "simultaneous_global_aging",
+    "concept_b": "capital_flow_safety_valve_elimination",
+    "mechanism": "When major economies age simultaneously, the traditional arbitrage of capital flowing from aging savers to younger growing economies loses its primary outlets, as no major recipient combines favorable demographics with institutional quality at scale",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Reduced but not eliminated; Africa and India provide partial safety valve. Depends on institutional quality development in younger economies",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "ssa_fertility_food_dependency",
+    "concept_b": "second_round_wage_price_spiral",
+    "mechanism": "Rising SSA food import dependency increases exposure to global food price shocks, which then transmit into persistent inflation through the informal-sector bilateral wage adjustment channel in countries with high food CPI weight and young populations",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds in economies with >50% informal employment, food >30% CPI, and median age <30. Formal sector growth and institutional development would attenuate",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "second_round_wage_price_spiral",
+    "concept_b": "export_ban_political_economy",
+    "mechanism": "Inflationary spirals from food price shocks create political pressure for export bans in food-producing countries with young populations, which then amplify global food price shocks in a feedback loop",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Holds during global food price shock episodes; strength depends on number of countries with the vulnerability profile simultaneously affected",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "aging_farmer_adaptive_capacity",
+    "concept_b": "agricultural_rd_crowding_out",
+    "mechanism": "Agricultural R&D crowding out by aging electorates reduces the technology pipeline needed to compensate for declining adaptive capacity among aging farmers, creating a compounding slow-moving food security degradation",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Holds in democracies where aging electorates control spending priorities; less relevant in countries with strong agricultural lobby or food security mandates",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "effective_dependency_ratio_gap",
+    "concept_b": "dependency_ratio_crossings",
+    "mechanism": "The 4-5pp gap between headline and effective dependency ratios potentially delays the timing of threshold crossings by several years, moderating the pace of fiscal deterioration relative to headline projections",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while labor force participation among 65-74 continues rising; may plateau at older ages or during economic downturns",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "institutional_adaptation_attenuation",
+    "concept_b": "china_demographic_cliff",
+    "mechanism": "Historical pattern of institutional adaptation attenuating demographic headwinds suggests China's financial outcomes may be less severe than arithmetic demographics implies, but adaptation is constrained by aging before reaching high income ($12K vs. Japan's $30K) and N=0 precedent",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Depends on China's institutional quality and policy flexibility; the 'aging before rich' constraint may limit adaptation capacity compared to historical precedents",
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "private_credit_nav_overstatement",
+    "concept_b": "retailization_feedback_loop",
+    "mechanism": "Overstated NAVs in private credit create a false sense of stability for retiree investors in semi-liquid vehicles; when NAVs adjust downward, the demographically concentrated investor base faces simultaneous needs for distributions, triggering redemption cascades amplified by gating mechanisms",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Holds if NAV adjustments are sharp enough to trigger redemption concerns; gating mechanisms may prevent cascading in a gradual adjustment scenario",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "below_replacement_fertility",
+    "concept_b": "aging_inflation_deflation_debate",
+    "mechanism": "Below-replacement fertility drives the aging that is at the center of the inflation-deflation debate: through the labor scarcity channel (inflationary) and the savings/demand channel (deflationary), with the net effect genuinely uncertain",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The direction of the net effect depends on which channel dominates, which varies by country, monetary regime, and stage of the aging process",
+    "originating_agents": [
+      "quant_researcher_01",
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "aging_inflation_deflation_debate",
+    "concept_b": "correlation_regime_transition",
+    "mechanism": "If aging proves inflationary through labor scarcity and fiscal expansion, supply-shock dominance supports positive stock-bond correlation. If deflationary through savings glut, demand-shock dominance supports continued negative correlation. The resolution of the inflation debate directly determines the correlation regime",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The relationship holds but the direction depends on which side of the inflation debate proves correct",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "pension_fiscal_collision",
+    "concept_b": "correlation_assumptions_mispricing",
+    "mechanism": "The pension-fiscal collision creates the most direct transmission channel for correlation regime change into portfolio damage: pension funds using duration-matched strategies face simultaneous asset devaluation and liability increase under positive correlation, exactly the scenario their models fail to capture",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds for DB pension funds with duration-matching mandates; DC funds face different but related risks",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "russia_demographic_strategic_loop",
+    "concept_b": "alliance_demographic_stress",
+    "mechanism": "Russia's demographic-strategic feedback loop creates security threats that NATO must respond to, exacerbating the defense-vs-entitlement double bind that aging alliance members face. Russia's declining conventional capability may increase nuclear risk, further straining alliance cohesion",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds while Russia remains a significant security threat to NATO; would change if Russia's security posture shifts or NATO's demographic composition changes",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "immigration_variance_and_restriction",
+    "concept_b": "immigration_three_channel_credit",
+    "mechanism": "OECD-wide immigration restriction simultaneously contracts housing formation (RMBS), consumer credit (ABS), and labor supply (leveraged borrower margins), creating correlated stress across credit channels",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds during periods of net immigration restriction; sector-specific carve-outs may decouple channels partially",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "aging_political_economy_ratchet",
+    "concept_b": "agricultural_rd_crowding_out",
+    "mechanism": "The fiscal expansion ratchet driven by aging median voters systematically redirects spending from agricultural R&D toward healthcare and pensions, as aging electorates prioritize immediate transfer payments over long-term productivity investments",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds in democracies where aging electorates control budget priorities; mitigated by agricultural lobbying power or food security crises that reprioritize spending",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "demographic_dividend_self_destruction",
+    "concept_b": "fertility_convergence_acceleration",
+    "mechanism": "Accelerating fertility convergence through the urbanization-education-smartphone trifecta compresses the demographic dividend window from 35 to 20 years, meaning countries have less time to capture the growth benefits before the dividend self-destructs",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Stronger in countries with rapid urbanization and high smartphone penetration; slower in more rural, less connected societies",
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "political_feedback_loop_acceleration",
+    "concept_b": "immigration_variance_and_restriction",
+    "mechanism": "Accelerated political feedback loops (5-6x compression) mean immigration policy cycles that historically took 18 years now complete in 3 years, increasing the variance of immigration flows and making sustained high immigration harder to maintain",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds in democracies with social media penetration and real-time data availability; less relevant in controlled information environments",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "aging_r_star_underpowered",
+    "concept_b": "bimodal_r_star_distribution",
+    "mechanism": "The structural underpowering of the aging-r* literature means the theoretical debate between lifecycle savings and Goodhart-Pradhan models cannot be empirically resolved, sustaining the bimodal distribution and making point estimates of demographic r* effects unreliable",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds until the sample size increases sufficiently (needs 60-80 observations for 0.5pp effect at 80% power)",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "concept_a": "covenant_lite_dominance",
+    "concept_b": "pik_toggle_canary",
+    "mechanism": "Covenant-lite dominance removes traditional early warning mechanisms, elevating the importance of alternative indicators like PIK toggle usage as the primary monitorable signal of demographic margin compression in leveraged credit",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds while covenant-lite remains the dominant issuance format; would change if covenant protections return",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "demographics"
+  }
+]

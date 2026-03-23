@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "dependency_ratio_threshold_framework",
+    "purpose": "Predicts timing and severity of fiscal deterioration based on old-age dependency ratio threshold crossings at 35% and 45%",
+    "components": [
+      "35% threshold: triggers 2-4pp structural fiscal deterioration within 15 years (14 episodes, median 3.2pp)",
+      "45% threshold: triggers qualitative shift toward monetary-fiscal coordination (Japan, Italy as examples)",
+      "Institutional mediators: governance quality, existing fiscal position, pension system design",
+      "Effective vs. headline dependency ratio adjustment (4-5pp gap)",
+      "US crossing timing estimate: ~2030-2032",
+      "Utilization/cost uncertainty dominates demographic uncertainty by 2:1"
+    ],
+    "current_assessment": "The 35% threshold framework is well-supported with 14 OECD episodes. The 45% threshold is supported by fewer but more dramatic episodes. US approaching 35% crossing ~2030-2032. The effective dependency ratio gap (4-5pp) identified by challenger_01 is a genuine analytical weakness that may delay crossing timelines.",
+    "limitations": [
+      "Magnitude uncertainty is large (IQR 2.0-5.5pp) even when direction is clear",
+      "Effective dependency ratios are not systematically measured across OECD",
+      "Healthcare utilization/cost uncertainty dominates demographic uncertainty by 2:1",
+      "95% CI on 2050 age-related costs spans 3-8% of GDP",
+      "N=3 at the specific 45% threshold",
+      "Does not account for AI-driven productivity potential"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "split_confidence_methodology",
+    "purpose": "Prevents systematic misleading by separating confidence in direction/sign from confidence in magnitude for demographic claims",
+    "components": [
+      "Direction/sign confidence: based on qualitative mechanism and directional evidence",
+      "Magnitude confidence: based on statistical power, sample size, and effect size identification",
+      "Application protocol: all demographic-to-financial claims should carry dual confidence ratings",
+      "Examples: fiscal deterioration (9/10 direction, 5/10 magnitude), aging-r* (7/10 sign, 4/10 magnitude), China (9/10 demographics, 4/10 markets)"
+    ],
+    "current_assessment": "Validated by pair_2 as 'genuinely useful and should become standard practice.' Applied throughout the synthesis. Should be formalized for all future KB entries.",
+    "limitations": [
+      "Does not address timing uncertainty (a third dimension)",
+      "May create false precision in the split between direction and magnitude",
+      "Requires subjective judgment on where to draw the direction/magnitude boundary"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "four_channel_cb_erosion_framework",
+    "purpose": "Explains the causal mechanism by which aging political economy erodes central bank independence, leading to financial repression",
+    "components": [
+      "Channel 1 - Appointment dynamics: governments appoint sympathetic governors (BoJ Kuroda template)",
+      "Channel 2 - Mandate expansion: financial stability, climate, inequality objectives expand justification for non-standard policies",
+      "Channel 3 - Implicit coordination: rate decisions on $1T+ interest payments become de facto fiscal policy regardless of formal independence",
+      "Channel 4 - Political tolerance: aging electorates tolerate inflation more (erodes debt) and recession less (threatens pensions/healthcare)"
+    ],
+    "current_assessment": "The most articulated causal chain for why financial repression emerges rather than merely asserting that it will. BoJ as fullest expression of the mechanism. UK gilt crisis shows markets can partially discipline but not prevent the trend.",
+    "limitations": [
+      "Primarily theorized from OECD democratic contexts; applicability to non-democratic aging societies uncertain",
+      "UK gilt crisis suggests market discipline can constrain but framework does not model this countervailing force",
+      "The speed and sequencing of channel activation is not well characterized",
+      "Germany's Schuldenbremse as potential institutional counterexample (1/~20)"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "export_ban_political_economy_framework",
+    "purpose": "Predicts which countries are most likely to impose food export bans during global price shocks, creating cascading food security risks",
+    "components": [
+      "Trigger conditions: food >30% CPI weight AND >40% population under 25",
+      "Political mechanism: existential food price politics in young, food-dependent economies",
+      "Amplification: export bans by producers amplify global price shocks, triggering more bans",
+      "Empirical backing: IFPRI data showing 87 restrictions in 2022 vs. 15-20 baseline",
+      "Historical precedent: Arab Spring transmission pattern"
+    ],
+    "current_assessment": "Provides a concrete, quantitative predictive framework backed by IFPRI data and the Arab Spring pattern. Useful for identifying vulnerable countries and potential cascading effects during food price shocks.",
+    "limitations": [
+      "Out-of-sample predictive power not validated",
+      "Does not model the endogenous global price impact of cascading export bans",
+      "Country-specific institutional and political factors may override the framework",
+      "Does not account for international coordination mechanisms"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "pension_fiscal_curve_dynamics_framework",
+    "purpose": "Identifies the defining yield curve dynamic of the coming decade: the collision between pension duration demand and fiscal supply expansion",
+    "components": [
+      "$55-60T in global pension assets (~60% DB) creating mandate-driven long-duration demand",
+      "Aging-driven fiscal deterioration expanding Treasury/sovereign bond supply",
+      "10Y-30Y segment as the fulcrum where opposing forces meet",
+      "20Y butterfly as real-time diagnostic indicator",
+      "Pension bid as informational degradation of BBB spreads (buyers purchasing for duration, not risk compensation)",
+      "UK LDI crisis as N=1 for fragility under stress"
+    ],
+    "current_assessment": "The most actionable rates framework from the synthesis. Forces reinforced each other 2000-2020 but have now diverged. The 10s30s steepener thesis is directionally supported at 6/10 but specific magnitude (20-50bp) is unfounded.",
+    "limitations": [
+      "UK LDI crisis is N=1, limiting generalizability of stress dynamics",
+      "Shift from DB to DC pensions reduces the duration demand component over time",
+      "Central bank intervention (QE) can temporarily overwhelm both forces",
+      "Specific magnitude of curve steepening is not reliably estimable"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "assumption_audit_framework",
+    "purpose": "Assesses the probability that multiple consensus assumptions fail simultaneously, providing a structured way to evaluate tail risk of consensus unraveling",
+    "components": [
+      "Enumeration of required consensus assumptions with individual failure probabilities",
+      "Joint failure probability calculation",
+      "Identified 20-30% probability of 3+ consensus assumptions failing simultaneously",
+      "Structured table format for systematic tracking"
+    ],
+    "current_assessment": "Pair_3 called this 'the most analytically useful contribution' from the challenger. The 20-30% joint failure probability represents a non-trivial tail risk that the demographic consensus may unravel.",
+    "limitations": [
+      "Assumption failure probabilities are themselves subjective estimates",
+      "Independence assumption in joint probability calculation may not hold (assumptions may be correlated)",
+      "Does not specify which combination of failures is most consequential",
+      "Framework requires continuous updating as new evidence arrives"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "three_tier_geopolitical_framework",
+    "purpose": "Classifies countries by demographic-geopolitical position to identify differential risk profiles and mispricing",
+    "components": [
+      "Tier 1 - Aging-rich: NATO core members facing defense-vs-entitlement double bind",
+      "Tier 2 - Collapsing-middle: Brazil, Turkey, Thailand, Vietnam with highest variance and potential mispricing",
+      "Tier 3 - Young-poor: SSA, parts of South Asia facing food security and governance challenges",
+      "Cross-tier dynamics: alliance stress, capital flow patterns, security architecture friction"
+    ],
+    "current_assessment": "Provides useful taxonomic framework but at 5/10 confidence. Tier 2 mispricing thesis is intriguing but actionability is uncertain. Within-tier heterogeneity is significant.",
+    "limitations": [
+      "May oversimplify the demographic-geopolitical linkage",
+      "Within-tier heterogeneity is significant (e.g., India vs. Indonesia in Tier 3)",
+      "Does not account for country-specific institutional and political factors",
+      "Tier boundaries are not precisely defined"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "maturity_wall_labor_scarcity_interaction_framework",
+    "purpose": "Identifies how structural labor scarcity fundamentally changes default dynamics during the 2026-2029 leveraged loan maturity wall",
+    "components": [
+      "~$1.8T in leveraged loans maturing 2026-2029",
+      "~60% in sectors where labor is 45-70% of operating costs",
+      "Historical default models trained when labor markets loosened during stress (providing margin relief)",
+      "Demographics removes the counter-cyclical labor relief valve",
+      "87% covenant-lite removes early warning mechanisms",
+      "Structured hypothesis: 2-3pp default rate uplift (from 3-5% to 5-8%)",
+      "EBITDA addbacks (25-30%) embed unrealizable labor synergies"
+    ],
+    "current_assessment": "Analytically compelling (6/10) but empirically untested (3/10). The combination of covenant-lite dominance, structural labor scarcity, and $600B annual maturity wall has literally never occurred. No backtestable precedent exists.",
+    "limitations": [
+      "No historical precedent for this specific combination of factors",
+      "The 2-3pp default rate uplift is a structured hypothesis, not an empirical finding",
+      "AI and automation could partially substitute for scarce labor",
+      "Interest rate environment at refinancing is a major swing factor not captured by demographic analysis alone",
+      "Sector-specific immigration carve-outs could partially relieve labor scarcity"
+    ],
+    "topic": "demographics"
+  },
+  {
+    "slug": "cross_asset_consistency_framework",
+    "purpose": "Systematically compares what equities, credit, rates, and commodities each imply about the macro regime to identify tensions and mispricing",
+    "components": [
+      "Equity implied regime assessment",
+      "Credit spread implied regime assessment",
+      "Rates/term structure implied regime assessment",
+      "Commodity demand curve implied regime assessment",
+      "Cross-asset tension identification",
+      "Verdict: rates closest to right, equities most likely to adjust, credit most dangerous because mispricing is model-embedded"
+    ],
+    "current_assessment": "Useful portfolio-level assessment tool. The identification of cross-asset tension is valuable; the specific verdict on which market is 'wrong' is lower confidence because markets price heterogeneous views from different participants with different horizons and mandates.",
+    "limitations": [
+      "Markets routinely price heterogeneous views — tension does not necessarily imply mispricing",
+      "No single asset class can be identified as 'wrong' on demographic grounds alone",
+      "Tech concentration and AI earnings expectations may justify equity pricing independent of demographics",
+      "Credit spread supply-demand technicals (CLO bid, insurance yields) may justify spread levels"
+    ],
+    "topic": "demographics"
+  }
+]

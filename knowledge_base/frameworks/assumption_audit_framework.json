@@ -1,0 +1,25 @@
+{
+  "slug": "assumption_audit_framework",
+  "purpose": "Assesses the probability that multiple consensus assumptions fail simultaneously, providing a structured way to evaluate tail risk of consensus unraveling",
+  "components": [
+    "Enumeration of required consensus assumptions with individual failure probabilities",
+    "Joint failure probability calculation",
+    "Identified 20-30% probability of 3+ consensus assumptions failing simultaneously",
+    "Structured table format for systematic tracking"
+  ],
+  "current_assessment": "Pair_3 called this 'the most analytically useful contribution' from the challenger. The 20-30% joint failure probability represents a non-trivial tail risk that the demographic consensus may unravel.",
+  "limitations": [
+    "Assumption failure probabilities are themselves subjective estimates",
+    "Independence assumption in joint probability calculation may not hold (assumptions may be correlated)",
+    "Does not specify which combination of failures is most consequential",
+    "Framework requires continuous updating as new evidence arrives"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

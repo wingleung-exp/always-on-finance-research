@@ -1,0 +1,29 @@
+{
+  "slug": "dependency_ratio_threshold_framework",
+  "purpose": "Predicts timing and severity of fiscal deterioration based on old-age dependency ratio threshold crossings at 35% and 45%",
+  "components": [
+    "35% threshold: triggers 2-4pp structural fiscal deterioration within 15 years (14 episodes, median 3.2pp)",
+    "45% threshold: triggers qualitative shift toward monetary-fiscal coordination (Japan, Italy as examples)",
+    "Institutional mediators: governance quality, existing fiscal position, pension system design",
+    "Effective vs. headline dependency ratio adjustment (4-5pp gap)",
+    "US crossing timing estimate: ~2030-2032",
+    "Utilization/cost uncertainty dominates demographic uncertainty by 2:1"
+  ],
+  "current_assessment": "The 35% threshold framework is well-supported with 14 OECD episodes. The 45% threshold is supported by fewer but more dramatic episodes. US approaching 35% crossing ~2030-2032. The effective dependency ratio gap (4-5pp) identified by challenger_01 is a genuine analytical weakness that may delay crossing timelines.",
+  "limitations": [
+    "Magnitude uncertainty is large (IQR 2.0-5.5pp) even when direction is clear",
+    "Effective dependency ratios are not systematically measured across OECD",
+    "Healthcare utilization/cost uncertainty dominates demographic uncertainty by 2:1",
+    "95% CI on 2050 age-related costs spans 3-8% of GDP",
+    "N=3 at the specific 45% threshold",
+    "Does not account for AI-driven productivity potential"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

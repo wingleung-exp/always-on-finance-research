@@ -1,12 +1,16 @@
 {
   "slug": "recovery_duration_demographic_correlation",
   "definition": "Post-1970 crisis recovery duration correlates meaningfully with the demographic backdrop at time of crisis (rank correlation ~0.7-0.8 across 8 crises). Nordics (1991, median age ~37) recovered in 3-5 years; Italy (2008, median age ~43) never recovered to prior peak by 2019. Implies next US recession recovery expected to take 6-10 years vs. 4-6 for GFC.",
-  "confidence": 6,
+  "confidence": 5.5,
   "evidence": [
     "8 post-1970 crises analyzed: rank correlation ~0.7-0.8 between demographic backdrop and recovery time",
     "Nordics 1991 (median age ~37): recovery 3-5 years",
     "Italy 2008 (median age ~43): no recovery to prior peak by 2019",
-    "Confounded by policy and structural variables but pattern is consistent"
+    "Confounded by policy and structural variables but pattern is consistent",
+    "Japan: 30-year recovery with severe aging",
+    "Spain: 10+ year recovery with moderate aging",
+    "US: 5-year recovery with mild aging",
+    "Nordics: 3-5 year recovery with favorable demographics"
   ],
   "originating_agents": [
     "generalist_02"
@@ -14,19 +18,25 @@
   "open_questions": [
     "Can the correlation survive multivariate controls for policy response quality?",
     "Is the relationship linear or does it have threshold effects?",
-    "How does AI/automation affect recovery duration for future crises?"
+    "How does AI/automation affect recovery duration for future crises?",
+    "Is the correlation confounded by other institutional and policy differences?",
+    "Can the relationship be quantified with sufficient observations?",
+    "Does the correlation hold for non-financial crises?"
   ],
   "related_concepts": [
     "aging_fiscal_deterioration",
     "post_wwii_deleveraging_growth_impairment",
-    "sub_replacement_fertility_persistence"
+    "sub_replacement_fertility_persistence",
+    "japan_non_generalizability",
+    "institutional_adaptation_attenuation"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:11:03Z",
-  "last_updated": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:13:49Z",
   "originating_iteration": "iter_0027",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0027"
+    "iter_0027",
+    "iter_0026"
   ]
 }

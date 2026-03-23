@@ -1,0 +1,55 @@
+[
+  {
+    "claim": "The 5y5y forward real rate encodes a demographic signal.",
+    "reason": "No decomposition methodology exists to isolate demographics from expected short rates, term premium, inflation expectations, convexity hedging, and positioning. Partial R-squared of 0.15-0.30 means 70-85% of r* variance is non-demographic. This is attribution error — mistaking partial correlation during a specific period for a structural relationship.",
+    "refuted_by": [
+      "challenger_01"
+    ]
+  },
+  {
+    "claim": "The Minsky financial instability cycle is demographically conditioned.",
+    "reason": "Financial crises have occurred across every conceivable demographic configuration (1997 Asian crisis with young populations, 2008 GFC with moderate demographics, 1990 Japan before severe aging, 2022 UK gilt crisis with moderate aging). The timescale mismatch (Minsky 5-15 years vs. demographics 30-50 years) makes causal attribution nearly impossible. The hypothesis is unfalsifiable. Recovery duration may correlate with demographics but the original Minsky conditioning thesis should be abandoned.",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "claim": "Bank profitability decline is demographically determined.",
+    "reason": "Swedish banks profitable despite aging population. Switzerland similarly. Japan's bank profitability crisis is a BoJ zero-rate policy artifact, not demographic inevitability. Japanese banks adapted by becoming the largest cross-border lenders in Asia. The claim conflates the policy response to aging with aging itself.",
+    "refuted_by": [
+      "challenger_01"
+    ]
+  },
+  {
+    "claim": "GLP-1 demand shock is entirely unpriced.",
+    "reason": "Walmart publicly flagged GLP-1 effects on food basket volumes in Q3 2024 earnings. Every food company analyst has been asked about GLP-1 demand impact since 2023. The direction may be underpriced but 'entirely unpriced' is an extraordinary claim contradicted by visible market awareness.",
+    "refuted_by": [
+      "commodities_analyst_02",
+      "credit_analyst_02"
+    ]
+  },
+  {
+    "claim": "The term premium will expand 50-150bp above QE-era baseline due to demographics.",
+    "reason": "Derived by applying pre-QE regime coefficients (20-40bp per 1pp deficit/GDP) across a regime boundary where QE fundamentally changed market structure, with uncertain fiscal inputs (2-4pp with 95% CI spanning 3-8% GDP), and ignoring that ACM term premium already moved from -50bp to +50-100bp. Three layers of uncertainty multiplied through uncertain transmission mechanisms produce a range so wide as to be uninformative.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ]
+  },
+  {
+    "claim": "RMBS pipeline compression is primarily a demographic story.",
+    "reason": "Self-refuted by generalist_02's own analysis. Japan analogue shows policy dominates demographics. European covered bond dominance reflects regulatory and institutional choices, not demographics. US-specific demographic effect is ~20-25% pipeline narrowing — real but second-order to rate environment, credit standards, regulatory capital rules, and GSE reform.",
+    "refuted_by": [
+      "generalist_02"
+    ]
+  },
+  {
+    "claim": "Equity multiples, credit spreads, and long-end rates are pricing three mutually incompatible macro regimes (as stated).",
+    "reason": "Markets routinely price heterogeneous views because different participants with different horizons and mandates set prices in different markets. The diagnosis of cross-asset tension has merit, but the prescription that equities are 'most likely wrong' treats a multi-dimensional pricing problem as a single-variable demographic story. No single asset class can be identified as wrong on demographic grounds alone.",
+    "refuted_by": [
+      "generalist_01",
+      "quant_researcher_01"
+    ]
+  }
+]

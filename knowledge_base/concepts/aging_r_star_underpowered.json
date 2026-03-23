@@ -1,0 +1,32 @@
+{
+  "slug": "aging_r_star_underpowered",
+  "definition": "The empirical literature estimating the effect of aging on the natural rate of interest (r*) is structurally underpowered: 30-50 observations exist against 60-80 needed for detecting a 0.5pp effect at 80% power. The sign (aging likely depresses r*) is more robust than the magnitude (0.8pp to 2.2pp cumulative range). Demographics explains only 15-30% of r* variance.",
+  "confidence": 8,
+  "evidence": [
+    "Point estimates of -0.03 to -0.05pp per 1pp dependency ratio increase",
+    "30-50 observations vs. 60-80 needed for 0.5pp effect at 80% power",
+    "Partial R-squared of 0.15-0.30",
+    "70-85% of r* variance is non-demographic"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Can natural experiments or instrumental variable approaches improve identification?",
+    "Is the sign robustness sufficient for directional portfolio positioning?",
+    "How should the bimodal r* distribution from lifecycle savings ambiguity be incorporated?"
+  ],
+  "related_concepts": [
+    "aging_inflation_deflation_debate",
+    "bimodal_r_star_distribution",
+    "term_premium_direction"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-23T08:13:48Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

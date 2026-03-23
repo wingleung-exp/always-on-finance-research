@@ -1,0 +1,32 @@
+{
+  "slug": "immigration_three_channel_credit",
+  "definition": "Immigration restriction impacts credit through three correlated channels: housing formation (RMBS pipeline), consumer credit (ABS pipeline), and labor supply (leveraged borrower margins). Because these channels are correlated rather than independent, the aggregate credit impact exceeds what single-channel analysis would suggest.",
+  "confidence": 7,
+  "evidence": [
+    "Housing formation affects RMBS pipeline",
+    "Consumer credit affects ABS pipeline",
+    "Labor supply affects leveraged borrower margins",
+    "Channels are correlated, not independent"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What is the correlation structure across the three channels?",
+    "Can sector-specific immigration carve-outs decouple the channels?",
+    "How does the three-channel interaction compare to historical single-channel analysis?"
+  ],
+  "related_concepts": [
+    "immigration_variance_and_restriction",
+    "securitization_pipeline_bifurcation",
+    "maturity_wall_labor_scarcity"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-23T08:13:49Z",
+  "originating_iteration": "iter_0026",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0026"
+  ]
+}

@@ -1699,5 +1699,50 @@
     "needs": "While the framing is high-confidence (7/10), any specific outcome prediction is very low confidence (3/10). Needs monitoring of China's actual fiscal capacity utilization and institutional adaptation as data emerges.",
     "topic": "demographics",
     "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "PIK toggle usage is a canary for demographic margin compression. PIK usage rose from 8-10% (2019) to 15-20% (2025), but higher rates rather than demographics may be the proximate cause.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Decomposition of PIK usage increase into rate-driven vs. margin-driven components; longer time series to establish whether the signal correlates with demographic indicators after controlling for interest rates."
+  },
+  {
+    "claim": "The aging farmer problem manifests as reduced adaptive capacity rather than output decline, amplifying tail risk. States with younger farmer demographics recovered yields 15-20% faster after the 2012 drought.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Replication of the 2012 drought recovery finding across other climate shock events and geographies; formal statistical analysis controlling for confounding variables (farm size, capital intensity, crop mix)."
+  },
+  {
+    "claim": "The retailization of private credit through ~$200-300B in semi-liquid vehicles creates a demographically concentrated feedback loop vulnerability through retiree investor concentration, RMDs, and gating mechanisms.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Detailed data on investor demographics of semi-liquid private credit vehicles; stress testing of gating mechanisms under various redemption scenarios; historical precedent from analogous investment vehicles."
+  },
+  {
+    "claim": "Russia's demographic-strategic feedback loop creates distinctive nuclear-state risk through a loop of demographic anxiety leading to power projection leading to war/emigration leading to worse demographics.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Causal identification separating demographic anxiety from regime ideology, great power ambition, and path dependence as drivers of Russian strategic behavior; comparative analysis with other nuclear-armed aging states."
+  },
+  {
+    "claim": "GLP-1 adoption creates a quantifiable but modest (-1-2% of US demand) negative agricultural commodity demand shock concentrated in processed food, but adoption rates, persistence, and behavioral offsets are highly uncertain.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Longer-term adoption rate data and persistence of caloric reduction; quantification of behavioral offsets; tracking of food company revenue composition changes attributable to GLP-1."
+  },
+  {
+    "claim": "The securitization pipeline is bifurcating toward esoteric ABS with 5-15 year performance histories, creating structural model risk increase, though the demographic component is second-order.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Quantification of model risk increase from shorter performance histories; decomposition of RMBS pipeline contraction into demographic vs. rate vs. regulatory components; comparative default analysis across traditional and esoteric ABS."
+  },
+  {
+    "claim": "The bimodal r* distribution from lifecycle savings ambiguity creates option value in rates, but demographics explains only 25-35% of r* variation, making the demographic bimodality second-order.",
+    "source_agent": "generalist_01",
+    "needs": "Verified current swaption pricing (analyst admitted this was unverified); resolution of the theoretical debate between standard lifecycle and Goodhart-Pradhan models; larger sample sizes in the aging-r* literature."
+  },
+  {
+    "claim": "Alliance demographic stress between aging NATO members and younger EM partners is creating structural security architecture friction, with EU defense spending needing 0.5-1.5pp increases against age-related spending increases of 2-4pp GDP.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Systematic analysis of defense vs. entitlement spending trade-offs across NATO members; evidence that demographic divergence rather than other factors drives alliance friction; assessment of whether security threats can sustainably override fiscal constraints."
+  },
+  {
+    "claim": "CLO reinvestment period expirations from heavy 2019-2021 issuance ($400B+) collide with demographically-driven loan supply contraction as fewer borrowers can support 5-7x leverage.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Data on new CLO formation rates and arbitrage economics; quantification of the borrower universe contraction attributable to demographics vs. rate environment; tracking of post-reinvestment CLO amortization patterns."
   }
 ]

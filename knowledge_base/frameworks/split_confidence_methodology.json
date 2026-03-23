@@ -4,20 +4,28 @@
   "components": [
     "Sign confidence: probability the directional effect is correct (e.g., 7/10 for aging depresses r*)",
     "Magnitude confidence: probability the quantified estimate is accurate (e.g., 4/10 for the 1.0-1.5pp estimate)",
-    "Explicitly distinguishes between knowing the direction and knowing the size"
+    "Explicitly distinguishes between knowing the direction and knowing the size",
+    "Direction/sign confidence: based on qualitative mechanism and directional evidence",
+    "Magnitude confidence: based on statistical power, sample size, and effect size identification",
+    "Application protocol: all demographic-to-financial claims should carry dual confidence ratings",
+    "Examples: fiscal deterioration (9/10 direction, 5/10 magnitude), aging-r* (7/10 sign, 4/10 magnitude), China (9/10 demographics, 4/10 markets)"
   ],
-  "current_assessment": "Applied to aging-r* relationship (7/10 sign, 4/10 magnitude). Broadly applicable to demographic-financial claims where directional evidence is robust but quantification is structurally underpowered.",
+  "current_assessment": "Validated by pair_2 as 'genuinely useful and should become standard practice.' Applied throughout the synthesis. Should be formalized for all future KB entries.",
   "limitations": [
     "Requires sufficient evidence to assess even sign confidence",
     "Does not address timing uncertainty as a separate dimension",
-    "May create false precision in the confidence numbers themselves"
+    "May create false precision in the confidence numbers themselves",
+    "Does not address timing uncertainty (a third dimension)",
+    "May create false precision in the split between direction and magnitude",
+    "Requires subjective judgment on where to draw the direction/magnitude boundary"
   ],
   "topic": "",
   "created_at": "2026-03-23T08:10:20Z",
-  "last_updated": "2026-03-23T08:10:20Z",
+  "last_updated": "2026-03-23T08:13:49Z",
   "originating_iteration": "iter_0025",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0025"
+    "iter_0025",
+    "iter_0026"
   ]
 }

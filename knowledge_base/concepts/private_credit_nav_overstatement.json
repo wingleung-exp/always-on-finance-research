@@ -1,12 +1,16 @@
 {
   "slug": "private_credit_nav_overstatement",
   "definition": "Private credit NAVs are directionally overstated as Level 3 marks embed pre-2020 growth assumptions. Secondary market trading shows 5-12% discounts to NAV for 2024-2025 vintage funds. Healthcare staffing most exposed. Sector-specific magnitudes are speculative.",
-  "confidence": 5,
+  "confidence": 5.5,
   "evidence": [
     "Level 3 marks embed pre-2020 growth assumptions",
     "Secondary market trading shows 5-12% discounts to NAV for 2024-2025 vintage funds",
     "Healthcare staffing most exposed sector",
-    "Sector-specific magnitudes are speculative"
+    "Sector-specific magnitudes are speculative",
+    "DCF-based Level 3 marks embed pre-2020 growth assumptions",
+    "Healthcare staffing faces aging demand + labor scarcity = wage costs eroding margins",
+    "Sector magnitudes could be off by 5-10pp in either direction",
+    "Specific 15-25% healthcare overstatement is speculative"
   ],
   "originating_agents": [
     "credit_analyst_02"
@@ -14,19 +18,25 @@
   "open_questions": [
     "What is the true magnitude of overstatement by sector?",
     "How do NAV discounts evolve as the maturity wall approaches?",
-    "Can mark-to-model practices be reformed before losses crystallize?"
+    "Can mark-to-model practices be reformed before losses crystallize?",
+    "Which sectors have the largest NAV-to-reality gap?",
+    "How will mark-to-market adjustments flow through to fund performance?",
+    "Can automation in industrial sectors sustainably offset demographic headwinds?"
   ],
   "related_concepts": [
     "retailization_feedback_loop",
     "ebitda_addback_labor_scarcity",
-    "maturity_wall_labor_scarcity_interaction"
+    "maturity_wall_labor_scarcity_interaction",
+    "ebitda_addbacks_demographic_fiction",
+    "maturity_wall_labor_scarcity"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:11:03Z",
-  "last_updated": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:13:49Z",
   "originating_iteration": "iter_0027",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0027"
+    "iter_0027",
+    "iter_0026"
   ]
 }
