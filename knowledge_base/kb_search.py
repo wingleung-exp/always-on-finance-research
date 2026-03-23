@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """
-kb_search.py — Lightweight CLI search tool for the finance research knowledge base.
+kb_search.py — Semantic-aware CLI search tool for the finance research knowledge base.
+
+Searches expand queries with related finance terms automatically.
+"inflation" also finds deflation, CPI, disinflation, price stability, etc.
 
 Usage:
-    # Search by keyword (searches slugs, definitions, mechanisms)
+    # Semantic keyword search (auto-expands to related terms)
     python3 kb_search.py search "inflation"
+    python3 kb_search.py search "interest rates"
+
+    # Exact keyword only (no expansion)
+    python3 kb_search.py search "inflation" --exact
 
     # Search by topic
     python3 kb_search.py topic "monetary_policy"
@@ -27,6 +34,9 @@ Usage:
     # Output as JSON (for programmatic use by agents)
     python3 kb_search.py search "inflation" --json
 
+    # Show which expanded terms were used
+    python3 kb_search.py search "inflation" --show-expansion
+
 All commands return results sorted by confidence (descending).
 """
 
@@ -35,9 +45,105 @@ import json
 import os
 import re
 import sys
+from difflib import SequenceMatcher
 from pathlib import Path
 
 KB_DIR = Path(__file__).parent
+
+# ---------------------------------------------------------------------------
+# Finance domain term expansion map
+# Each key expands to a set of semantically related search terms.
+# Matching is bidirectional: searching any term in a group finds all others.
+# ---------------------------------------------------------------------------
+TERM_GROUPS = [
+    {"inflation", "deflation", "disinflation", "cpi", "pce", "price_level",
+     "price_stability", "stagflation", "hyperinflation", "core_inflation",
+     "headline_inflation", "inflation_expectations", "price_pressures"},
+    {"interest_rates", "rates", "fed_funds", "policy_rate", "rate_hike",
+     "rate_cut", "terminal_rate", "neutral_rate", "r_star", "overnight_rate",
+     "fed_rate", "base_rate", "discount_rate"},
+    {"yield_curve", "yield", "term_premium", "term_structure", "inversion",
+     "steepening", "flattening", "2s10s", "10y", "treasury", "bond_yield",
+     "duration", "convexity"},
+    {"recession", "downturn", "contraction", "economic_slowdown", "hard_landing",
+     "soft_landing", "gdp_decline", "negative_growth", "business_cycle"},
+    {"equity", "stock", "equities", "shares", "stock_market", "s_p_500",
+     "nasdaq", "earnings", "valuation", "pe_ratio", "equity_risk_premium"},
+    {"credit", "credit_spread", "high_yield", "investment_grade", "default",
+     "credit_risk", "corporate_bonds", "leveraged_loans", "credit_cycle",
+     "credit_tightening", "lending_standards"},
+    {"dollar", "usd", "dxy", "dollar_index", "greenback", "dollar_strength",
+     "dollar_weakness", "reserve_currency"},
+    {"fx", "currency", "exchange_rate", "forex", "carry_trade", "em_currency",
+     "currency_regime", "devaluation", "appreciation", "depreciation"},
+    {"oil", "crude", "brent", "wti", "energy", "petroleum", "opec",
+     "oil_price", "energy_prices", "fossil_fuel"},
+    {"fed", "federal_reserve", "fomc", "powell", "central_bank", "ecb",
+     "boj", "pboc", "monetary_policy", "quantitative_easing", "qe", "qt",
+     "quantitative_tightening", "tapering", "dovish", "hawkish"},
+    {"fiscal", "fiscal_policy", "government_spending", "deficit", "surplus",
+     "debt_ceiling", "fiscal_stimulus", "austerity", "fiscal_dominance",
+     "budget_deficit", "national_debt", "public_debt"},
+    {"volatility", "vix", "vol", "implied_vol", "realized_vol", "vol_surface",
+     "risk_off", "risk_on", "tail_risk", "black_swan", "move_index"},
+    {"commodity", "commodities", "raw_materials", "metals", "gold", "copper",
+     "agricultural", "supercycle", "commodity_prices"},
+    {"employment", "unemployment", "jobs", "labor", "labour", "payroll",
+     "nfp", "wage", "wages", "wage_growth", "labor_market", "participation_rate",
+     "jobless_claims"},
+    {"housing", "real_estate", "shelter", "rent", "mortgage", "home_prices",
+     "housing_market", "oer", "owners_equivalent_rent"},
+    {"china", "chinese", "pbc", "renminbi", "rmb", "cny", "yuan",
+     "china_growth", "chinese_economy"},
+    {"emerging_markets", "em", "frontier_markets", "developing_economies",
+     "em_debt", "em_equities", "em_currencies"},
+    {"sovereign", "sovereign_debt", "government_bonds", "gilts", "bunds",
+     "jgb", "sovereign_risk", "sovereign_default"},
+    {"crypto", "bitcoin", "btc", "ethereum", "digital_assets", "defi",
+     "blockchain", "stablecoin"},
+    {"ai", "artificial_intelligence", "machine_learning", "tech", "technology",
+     "ai_capex", "semiconductor", "chips", "nvidia"},
+    {"liquidity", "money_supply", "m2", "reserves", "bank_reserves",
+     "financial_conditions", "tightening", "easing", "credit_conditions"},
+    {"correlation", "diversification", "stock_bond_correlation", "cross_asset",
+     "portfolio", "asset_allocation", "risk_parity", "decorrelation"},
+]
+
+
+def expand_query(keyword):
+    """Expand a search keyword to include semantically related finance terms."""
+    kw_lower = keyword.lower().replace(" ", "_")
+    expanded = {keyword}  # always include original
+
+    for group in TERM_GROUPS:
+        # Check if keyword matches any term in the group (substring match)
+        group_lower = {t.lower() for t in group}
+        matched = False
+        for term in group_lower:
+            if kw_lower in term or term in kw_lower:
+                matched = True
+                break
+        if matched:
+            expanded.update(group)
+
+    return expanded
+
+
+def fuzzy_slug_match(keyword, slug, threshold=0.6):
+    """Fuzzy match keyword against a concept slug."""
+    kw = keyword.lower().replace(" ", "_")
+    s = slug.lower()
+    # Direct substring
+    if kw in s or s in kw:
+        return True
+    # Token overlap
+    kw_tokens = set(kw.split("_"))
+    s_tokens = set(s.split("_"))
+    if kw_tokens & s_tokens:
+        overlap = len(kw_tokens & s_tokens) / max(len(kw_tokens), 1)
+        if overlap >= 0.5:
+            return True
+    return False
 
 
 def load_index():
@@ -67,29 +173,59 @@ def load_all(subdir):
     return results
 
 
-def search_keyword(keyword, min_confidence=0):
-    """Search across concepts, relationships, and frameworks by keyword."""
-    pattern = re.compile(re.escape(keyword), re.IGNORECASE)
+def search_keyword(keyword, min_confidence=0, exact=False):
+    """Search across concepts, relationships, and frameworks by keyword.
+
+    By default, expands the query to include semantically related finance terms.
+    Use exact=True for literal substring matching only.
+    """
+    if exact:
+        terms = {keyword}
+    else:
+        terms = expand_query(keyword)
+
+    # Build a combined regex pattern for all expanded terms
+    # Match both underscore and space variants
+    escaped = []
+    for t in terms:
+        escaped.append(re.escape(t))
+        # Also match the space/underscore variant
+        if "_" in t:
+            escaped.append(re.escape(t.replace("_", " ")))
+        elif " " in t:
+            escaped.append(re.escape(t.replace(" ", "_")))
+    pattern = re.compile("|".join(escaped), re.IGNORECASE)
+
     results = {"concepts": [], "relationships": [], "frameworks": []}
+    seen_concepts = set()
 
     for c in load_all("concepts"):
         if c.get("confidence", 0) < min_confidence:
             continue
-        text = f"{c.get('slug', '')} {c.get('definition', '')} {' '.join(c.get('evidence', []))} {' '.join(c.get('related_concepts', []))}"
-        if pattern.search(text):
+        slug = c.get("slug", "")
+        text = f"{slug} {c.get('definition', '')} {' '.join(c.get('evidence', []))} {' '.join(c.get('related_concepts', []))} {c.get('topic', '')}"
+        matched = pattern.search(text) or (not exact and fuzzy_slug_match(keyword, slug))
+        if matched and slug not in seen_concepts:
+            seen_concepts.add(slug)
+            # Score: boost direct keyword match over expansion-only match
+            kw_pattern = re.compile(re.escape(keyword), re.IGNORECASE)
+            is_direct = bool(kw_pattern.search(text))
             results["concepts"].append({
-                "slug": c["slug"],
+                "slug": slug,
                 "definition": c.get("definition", "")[:200],
                 "confidence": c.get("confidence", 0),
                 "topic": c.get("topic", ""),
                 "related": c.get("related_concepts", []),
+                "match_type": "direct" if is_direct else "expanded",
             })
 
     for r in load_all("relationships"):
         if r.get("confidence", 0) < min_confidence:
             continue
-        text = f"{r.get('concept_a', '')} {r.get('concept_b', '')} {r.get('mechanism', '')}"
+        text = f"{r.get('concept_a', '')} {r.get('concept_b', '')} {r.get('mechanism', '')} {r.get('topic', '')}"
         if pattern.search(text):
+            kw_pattern = re.compile(re.escape(keyword), re.IGNORECASE)
+            is_direct = bool(kw_pattern.search(text))
             results["relationships"].append({
                 "concept_a": r["concept_a"],
                 "concept_b": r["concept_b"],
@@ -97,6 +233,7 @@ def search_keyword(keyword, min_confidence=0):
                 "direction": r.get("direction", ""),
                 "confidence": r.get("confidence", 0),
                 "topic": r.get("topic", ""),
+                "match_type": "direct" if is_direct else "expanded",
             })
 
     for fw in load_all("frameworks"):
@@ -107,8 +244,13 @@ def search_keyword(keyword, min_confidence=0):
                 "topic": fw.get("topic", ""),
             })
 
-    results["concepts"].sort(key=lambda x: x["confidence"], reverse=True)
-    results["relationships"].sort(key=lambda x: x["confidence"], reverse=True)
+    # Sort: direct matches first, then by confidence
+    results["concepts"].sort(key=lambda x: (0 if x["match_type"] == "direct" else 1, -x["confidence"]))
+    results["relationships"].sort(key=lambda x: (0 if x["match_type"] == "direct" else 1, -x["confidence"]))
+
+    if not exact:
+        results["_expanded_terms"] = sorted(terms)
+
     return results
 
 
@@ -221,19 +363,26 @@ def get_concept(slug):
     return load_json("concepts", slug)
 
 
-def format_text(data, command):
+def format_text(data, command, show_expansion=False):
     """Human-readable text output."""
     lines = []
 
     if command == "search" or command == "topic":
+        # Show expansion info if present
+        expanded = data.get("_expanded_terms", [])
+        if expanded and show_expansion:
+            lines.append(f"EXPANDED TERMS: {', '.join(expanded)}")
+            lines.append("")
+
         concepts = data.get("concepts", [])
         rels = data.get("relationships", [])
         fws = data.get("frameworks", [])
 
         if concepts:
             lines.append(f"CONCEPTS ({len(concepts)}):")
-            for c in concepts[:20]:
-                lines.append(f"  [{c['confidence']:.0f}] {c['slug']}")
+            for c in concepts[:30]:
+                match_tag = f" [{c['match_type']}]" if c.get("match_type") == "expanded" else ""
+                lines.append(f"  [{c['confidence']:.0f}] {c['slug']}{match_tag}")
                 lines.append(f"       {c['definition']}")
                 if c.get("related"):
                     lines.append(f"       related: {', '.join(c['related'][:5])}")
@@ -243,9 +392,10 @@ def format_text(data, command):
 
         if rels:
             lines.append(f"RELATIONSHIPS ({len(rels)}):")
-            for r in rels[:15]:
+            for r in rels[:20]:
                 arrow = " -> " if r["direction"] == "a_causes_b" else " <-> "
-                lines.append(f"  [{r['confidence']:.0f}] {r['concept_a']}{arrow}{r['concept_b']}")
+                match_tag = f" [{r['match_type']}]" if r.get("match_type") == "expanded" else ""
+                lines.append(f"  [{r['confidence']:.0f}] {r['concept_a']}{arrow}{r['concept_b']}{match_tag}")
                 lines.append(f"       {r['mechanism']}")
                 lines.append("")
 
@@ -287,9 +437,11 @@ def main():
     parser = argparse.ArgumentParser(description="Search the finance research knowledge base")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p_search = sub.add_parser("search", help="Keyword search across KB")
+    p_search = sub.add_parser("search", help="Keyword search across KB (semantic expansion by default)")
     p_search.add_argument("keyword")
     p_search.add_argument("--min-confidence", type=float, default=0)
+    p_search.add_argument("--exact", action="store_true", help="Disable term expansion, match keyword literally")
+    p_search.add_argument("--show-expansion", action="store_true", help="Show which expanded terms were used")
     p_search.add_argument("--json", action="store_true")
 
     p_topic = sub.add_parser("topic", help="Get all entries for a topic")
@@ -311,7 +463,7 @@ def main():
     args = parser.parse_args()
 
     if args.command == "search":
-        data = search_keyword(args.keyword, args.min_confidence)
+        data = search_keyword(args.keyword, args.min_confidence, exact=args.exact)
     elif args.command == "topic":
         data = search_topic(args.topic_name)
     elif args.command == "related":
@@ -324,7 +476,8 @@ def main():
     if getattr(args, "json", False):
         print(json.dumps(data, indent=2))
     else:
-        print(format_text(data, args.command))
+        show_exp = getattr(args, "show_expansion", False)
+        print(format_text(data, args.command, show_expansion=show_exp))
 
 
 if __name__ == "__main__":
