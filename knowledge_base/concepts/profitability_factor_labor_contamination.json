@@ -1,0 +1,32 @@
+{
+  "slug": "profitability_factor_labor_contamination",
+  "definition": "When ULC exceeds ~3.5%, the RMW (Robust Minus Weak) profitability factor's Sharpe ratio is overstated because 'quality' is partly a cyclical bet on labor cost avoidance rather than genuine operating quality. Factor strategies conditioning on labor variables have ~40-50% worse SNR than pre-pandemic.",
+  "confidence": 6,
+  "evidence": [
+    "Above ULC 3.5%, profitability factor captures labor cost arbitrage rather than genuine quality signal",
+    "Quality-momentum correlation elevated to +0.45 vs historical +0.25",
+    "Carry-momentum correlation elevated to +0.50 vs historical +0.30",
+    "Multiple premia sharing single labor-stability vulnerability"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "How should factor portfolios be adjusted for labor regime dependence?",
+    "Is the crowding diagnostic (elevated correlations) a reliable signal for factor timing?",
+    "Does this contamination invalidate backtests that span multiple ULC regimes?"
+  ],
+  "related_concepts": [
+    "ulc_regime_threshold",
+    "factor_crowding_labor_vulnerability",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

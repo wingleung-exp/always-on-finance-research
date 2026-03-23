@@ -1,0 +1,32 @@
+{
+  "slug": "six_stage_deterioration_sequencing",
+  "definition": "A six-stage monitorable deterioration checklist with calibrated traversal times (12-24 months standard, 18-36 months under fiscal support). Current position identified at Stage 1: declining hires with stable layoffs. The most operationally useful contribution for tracking labor market transitions.",
+  "confidence": 6,
+  "evidence": [
+    "Calibrated against multiple post-war cycles",
+    "Current position: Stage 1 (declining hires, stable layoffs)",
+    "Standard traversal 12-24 months; fiscal-supported traversal 18-36 months",
+    "Temp help anomaly: 36 months negative without broader deterioration (either structurally broken or historically unprecedented fiscal extension)"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Is the temp help indicator structurally broken or is fiscal extension truly unprecedented?",
+    "What observable signals mark transitions between stages?",
+    "Does the current fiscal support extend traversal time beyond the 18-36 month estimated range?"
+  ],
+  "related_concepts": [
+    "labor_hoarding_nonlinear_break",
+    "fiscal_support_delay_not_prevention",
+    "credit_leads_labor_low_ppv"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

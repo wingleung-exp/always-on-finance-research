@@ -1,0 +1,19 @@
+{
+  "concept_a": "ulc_regime_threshold",
+  "concept_b": "profitability_factor_labor_contamination",
+  "mechanism": "When ULC exceeds ~3.5%, the profitability factor (RMW) captures labor cost avoidance rather than genuine quality, overstating Sharpe ratios and creating hidden correlation with quality-momentum and carry-momentum factors",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Only holds when ULC is above the ~3.5% threshold. Below that level, profitability factor reflects genuine operational quality.",
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

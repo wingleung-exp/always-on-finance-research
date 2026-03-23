@@ -1,0 +1,31 @@
+{
+  "slug": "variance_risk_premium_complacency",
+  "definition": "The variance risk premium at the 20th-30th percentile represents quantitative evidence of labor market complacency — cheap compensation for vol sellers given the tail risks documented across multiple agents. This is consistent with the NFP optionality underpricing finding.",
+  "confidence": 5,
+  "evidence": [
+    "VRP at 20th-30th percentile of historical distribution",
+    "Inconsistent with documented tail risks: data degradation, hoarding break potential, fiscal withdrawal risk",
+    "Vol sellers are under-compensated relative to the labor-driven risk landscape"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What VRP percentile would correctly price the current labor risk landscape?",
+    "Is the low VRP driven by labor-specific complacency or broader vol suppression?",
+    "What is the optimal expression of this mispricing?"
+  ],
+  "related_concepts": [
+    "nfp_optionality_underpricing",
+    "cross_asset_pricing_inconsistency",
+    "factor_crowding_labor_vulnerability"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

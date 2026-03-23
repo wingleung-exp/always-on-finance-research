@@ -1,0 +1,25 @@
+{
+  "slug": "fog_of_fragility_framework",
+  "purpose": "Identifies vulnerability accumulation in dimensions where data opacity is highest, based on the crisis pattern that deterioration consistently originates where opacity meets hidden leverage",
+  "components": [
+    "Data opacity assessment: JOLTS response rate, NFP revision magnitude, birth-death model contribution",
+    "Hidden leverage identification: labor hoarding as hidden operating leverage, private credit opacity",
+    "Convergence diagnostic: opacity and leverage increasing in same dimension",
+    "Monitoring recommendations: HY OAS (500bp concern, 650bp defense), initial claims (260K concern, 300K defense), Indeed postings, cross-currency basis, S&P net margins"
+  ],
+  "current_assessment": "JOLTS degradation from 60% to 32% response rate coincides with the period where hoarding dynamics are most policy-relevant. The labor market currently exhibits the fog-of-fragility pattern: deteriorating visibility in the dimension where vulnerability may be accumulating.",
+  "limitations": [
+    "Based on qualitative crisis pattern matching, not quantitative model",
+    "Alternative data sources may partially compensate for official data degradation",
+    "The framework identifies risk but does not quantify probability",
+    "Trigger thresholds (500bp, 260K) inherit measurement-precision concerns"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

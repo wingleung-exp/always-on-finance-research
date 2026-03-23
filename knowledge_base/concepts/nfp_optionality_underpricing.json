@@ -1,0 +1,32 @@
+{
+  "slug": "nfp_optionality_underpricing",
+  "definition": "NFP data quality deterioration creates systematic optionality underpricing around employment data releases. Observed vol premium is 1.2-1.5x daily vol, but ±130K CI warrants 2-3x. The trade is direction-independent: straddles on SPX, TLT, and HYG centered on NFP dates have positive expected value.",
+  "confidence": 6,
+  "evidence": [
+    "Observed vol premium around NFP dates: 1.2-1.5x daily vol",
+    "Theoretically warranted given ±130K CI: 2-3x daily vol",
+    "+150K print moves SPX ~0.3-0.5% on average, but 90% CI (0 to 300K) implies 'true' number could warrant -1.5% to +1.5%"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Will the market eventually adjust vol pricing to reflect data quality deterioration?",
+    "What are implementation costs (bid-ask, premium decay) relative to theoretical edge?",
+    "Does the edge persist after transaction costs?"
+  ],
+  "related_concepts": [
+    "bls_labor_data_deterioration",
+    "variance_risk_premium_complacency",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

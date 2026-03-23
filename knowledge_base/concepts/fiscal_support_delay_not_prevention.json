@@ -1,0 +1,36 @@
+{
+  "slug": "fiscal_support_delay_not_prevention",
+  "definition": "Fiscal support delays but does not prevent labor market downturns. Across 6 historical analogues, the base rate for permanent prevention is 0%. Extension ranged 12-36 months across episodes, but eventual downturn occurred in 100% of cases.",
+  "confidence": 8,
+  "evidence": [
+    "1966-69: maintained 3.4-3.8% UE for 36 months despite Fed tightening to 9.2%; 1970 recession UE rose to 6.1%",
+    "1952-53: UE rose from 2.5% to 6.1% within 18 months of spending decline",
+    "2006-07: sustained labor demand 18 months post yield-curve inversion; UE then rose from 4.4% to 10.0%",
+    "6/6 analogues show eventual downturn (base rate 100%)"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "risk_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Does the current unprecedented peacetime fiscal deficit (6-7% GDP) fundamentally alter the delay-not-prevention pattern?",
+    "What is the precise mechanism through which fiscal support eventually fails to prevent labor downturns?",
+    "Can the delay period be reliably estimated, or is it inherently uncertain?"
+  ],
+  "related_concepts": [
+    "kalecki_identity_vs_causation",
+    "fiscal_credit_labor_lead_extension",
+    "labor_hoarding_nonlinear_break",
+    "synchronized_hoarding_break"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

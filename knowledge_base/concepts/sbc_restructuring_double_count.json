@@ -1,0 +1,32 @@
+{
+  "slug": "sbc_restructuring_double_count",
+  "definition": "Stock-based compensation plus restructuring charges create a double-count quality problem where economic labor cost never appears in non-GAAP earnings at any stage of the hire-hoard-restructure lifecycle. Tech-sector SBC runs at 8-15% of revenue with GAAP-to-non-GAAP gaps of 20-35% for several mega-caps.",
+  "confidence": 7,
+  "evidence": [
+    "Lifecycle: (a) hire with SBC excluded from non-GAAP; (b) hoard with continued SBC exclusion; (c) restructure with severance excluded",
+    "Tech-sector SBC at 8-15% of revenue; GAAP-to-non-GAAP gaps of 20-35%",
+    "Meta example: $4.2B restructuring charge excluded from non-GAAP following 2020-2022 hiring surge",
+    "KB's $14-16/share SBC adjustment is steady-state and doesn't capture restructuring cycle increment"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Does the double-count accumulate over cycles or wash out?",
+    "What is the correct SBC adjustment for S&P EPS including the restructuring cycle increment?",
+    "How does this interact with buyback-SBC offset analysis?"
+  ],
+  "related_concepts": [
+    "buyback_sbc_offset",
+    "labor_hoarding_nonlinear_break",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

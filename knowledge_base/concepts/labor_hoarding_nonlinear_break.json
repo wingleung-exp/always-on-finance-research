@@ -1,0 +1,36 @@
+{
+  "slug": "labor_hoarding_nonlinear_break",
+  "definition": "When labor hoarding breaks, unemployment rises in a step-function pattern, not linearly. This pattern holds in 7/8 post-war recessions. Firms hold excess workers until margins compress below a threshold, then simultaneous release creates a consumption multiplier feedback loop.",
+  "confidence": 7,
+  "evidence": [
+    "1974: 4.6%→5.1% over 12 months (gradual), then 5.1%→9.0% in 10 months (cliff)",
+    "1990-91: 5.0%→5.4% over 6 months, then 5.4%→7.8% in 12 months",
+    "2008-09: 4.4%→5.0% over 9 months, then 5.0%→10.0% in 12 months",
+    "Only exception: 2001 (tech-concentrated, shallow, services resilient)",
+    "JOLTS 'hoarding signature' (low layoffs + declining hires) has ~20% base rate of cliff-like losses within 12 months"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "At what margin level does hoarding actually break? Current S&P margins (~11-12%) are 200-300bp above estimated trigger (~8-9%), but trigger precision is questionable",
+    "Is the JOLTS hoarding signature a reliable predictor or unfalsifiable framing?",
+    "Does the 2001 exception represent a distinct regime or a data point against the rule?"
+  ],
+  "related_concepts": [
+    "synchronized_hoarding_break",
+    "fiscal_support_delay_not_prevention",
+    "ulc_regime_threshold",
+    "sbc_restructuring_double_count"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

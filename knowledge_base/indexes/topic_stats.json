@@ -1642,10 +1642,15 @@
     "avg_confidence": 6.9
   },
   "labor_market_dynamics": {
-    "concept_count": 25,
-    "relationship_count": 15,
-    "framework_count": 6,
+    "concept_count": 52,
+    "relationship_count": 31,
+    "framework_count": 13,
     "top_concepts": [
+      {
+        "slug": "bls_labor_data_deterioration",
+        "confidence": 9,
+        "definition": "BLS labor data quality has severely deteriorated with non-mean-zero and fat-tailed revisions. NFP has a 90% CI of \u00b1130,000, making single-month prints"
+      },
       {
         "slug": "credit_leads_labor_sequencing",
         "confidence": 9,
@@ -1662,9 +1667,19 @@
         "definition": "NAIRU point estimates carry confidence intervals (Staiger-Stock-Watson 95% CI ~4.3-7.3%) so wide as to span the entire policy-relevant range, making r"
       },
       {
+        "slug": "nairu_real_time_uselessness",
+        "confidence": 9,
+        "definition": "NAIRU is functionally useless for real-time policy guidance due to confidence intervals spanning the entire policy-relevant range (95% CI ~4.3-7.3%) a"
+      },
+      {
         "slug": "commodity_em_labor_procyclicality",
         "confidence": 8,
         "definition": "Commodity-exporting EM labor markets exhibit procyclical dynamics that amplify terms-of-trade shocks into macro crises. The labor market is the amplif"
+      },
+      {
+        "slug": "fiscal_support_delay_not_prevention",
+        "confidence": 8,
+        "definition": "Fiscal support delays but does not prevent labor market downturns. Across 6 historical analogues, the base rate for permanent prevention is 0%. Extens"
       },
       {
         "slug": "kalecki_fiscal_labor_support",
@@ -1672,59 +1687,71 @@
         "definition": "The 6-7% GDP structural fiscal deficit mechanically sustains ~$1.8-2.0T of corporate profit support via the Kalecki identity (Profits = Investment + G"
       },
       {
+        "slug": "kb_fossilization_risk",
+        "confidence": 8,
+        "definition": "The knowledge base exhibits fossilization risk: 23/24 concepts were built in iter_0003 with 1 research iteration each and no systematic revision acros"
+      },
+      {
         "slug": "labor_market_stagflation_fulcrum",
         "confidence": 8,
         "definition": "The labor market is the fulcrum variable for the stagflation/disinflation bifurcation, simultaneously determining the consumption floor (~70% of GDP i"
-      },
-      {
-        "slug": "unit_labor_cost_margin_driver",
-        "confidence": 8,
-        "definition": "Unit labor cost growth (ULC = compensation/hour \u00f7 output/hour) is the dominant variable for equity margins and valuations. With labor compensation at "
-      },
-      {
-        "slug": "us_labor_tightness_dollar_em_flows",
-        "confidence": 8,
-        "definition": "US labor market tightness is the primary driver of the dollar cycle and EM capital flows. The transmission chain runs: US labor data \u2192 Fed pricing \u2192 d"
-      },
-      {
-        "slug": "wage_price_spiral_base_case_rejection",
-        "confidence": 8,
-        "definition": "Under current institutional conditions, a wage-price spiral is not the base case. Across 8 post-1960 episodes, all three conditions were jointly neces"
-      },
-      {
-        "slug": "cross_asset_pricing_inconsistency",
-        "confidence": 7.5,
-        "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% u"
       }
     ],
     "all_concept_slugs": [
       "ai_immigration_segmented_labor",
+      "ai_productivity_deployment_lag",
+      "analogue_1966_70",
       "beveridge_curve_residual_mismatch",
+      "bls_labor_data_deterioration",
+      "buyback_sbc_offset",
       "commodity_em_labor_procyclicality",
+      "credit_leads_labor_low_ppv",
       "credit_leads_labor_sequencing",
       "cross_asset_pricing_inconsistency",
+      "em_fx_labor_amplification",
       "em_informal_sector_bifurcation",
       "exchange_rate_labor_demand_paradox",
+      "factor_crowding_labor_vulnerability",
+      "fiscal_credit_labor_lead_extension",
+      "fiscal_support_delay_not_prevention",
+      "fog_of_fragility",
       "immigration_reversal_shock",
+      "immigration_reversal_wage_pressure",
       "japan_shunto_fx_impact",
       "kalecki_fiscal_labor_support",
+      "kalecki_identity_vs_causation",
+      "kb_fossilization_risk",
       "labor_data_revision_risk",
       "labor_hoarding_cliff_risk",
+      "labor_hoarding_nonlinear_break",
       "labor_market_stagflation_fulcrum",
+      "measurement_precision_contradiction",
       "nairu_estimate_uncertainty",
+      "nairu_real_time_uselessness",
+      "nfp_optionality_underpricing",
       "phillips_curve_regime_dependence",
       "private_sector_financial_surplus_insulation",
+      "profitability_factor_labor_contamination",
       "remote_work_dutch_disease_em",
       "remote_work_labor_supply_expansion",
+      "sahm_rule_overstated_reliability",
       "sbc_earnings_degradation",
+      "sbc_restructuring_double_count",
       "sectoral_wage_dispersion_signal",
       "services_dominance_labor_cost",
+      "six_stage_deterioration_sequencing",
       "stock_bond_correlation_labor_driven",
+      "synchronized_hoarding_break",
+      "trigger_correlation_structure",
+      "twin_deficit_dollar_transmission",
+      "ulc_regime_threshold",
       "unit_labor_cost_margin_driver",
       "us_labor_tightness_dollar_em_flows",
-      "wage_price_spiral_base_case_rejection"
+      "variance_risk_premium_complacency",
+      "wage_price_spiral_base_case_rejection",
+      "wage_price_spiral_institutional_suppression"
     ],
-    "avg_confidence": 6.6
+    "avg_confidence": 6.5
   },
   "monetary_policy": {
     "concept_count": 19,
@@ -2224,14 +2251,14 @@
         "definition": "Volatility regimes are endogenous to macroeconomic and financial conditions \u2014 not exogenous random processes. Macro uncertainty (NK stochastic discoun"
       },
       {
-        "slug": "maturity_dependent_correlation_bifurcation",
-        "confidence": 7.71,
-        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
-      },
-      {
         "slug": "credit_maturity_wall",
         "confidence": 7.5,
         "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 20"
+      },
+      {
+        "slug": "maturity_dependent_correlation_bifurcation",
+        "confidence": 7.5,
+        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
       },
       {
         "slug": "central_bank_reaction_function_uncertainty",

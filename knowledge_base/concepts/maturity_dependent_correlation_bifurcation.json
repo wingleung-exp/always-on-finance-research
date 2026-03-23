@@ -1,18 +1,18 @@
 {
   "slug": "maturity_dependent_correlation_bifurcation",
   "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while long duration (30Y) shows positive correlation (+0.05 to +0.15). Hedging properties depend critically on duration selection, making this operationally essential for portfolio construction.",
-  "confidence": 7.71,
+  "confidence": 7.5,
   "evidence": [
-    "Partial fiscal dominance interpretation via Bianchi-Melosi fiscal theory",
-    "Pattern survived three iterations of cross-agent scrutiny",
-    "Falsifiable prediction: 2Y-SPX turning positive signals full fiscal dominance",
-    "2Y-SPX correlation at -0.25 to -0.35 directly observable in market data",
     "30Y-SPX correlation at +0.05 to +0.15 directly observable",
     "Agreed in pair_0 debate without challenge",
     "pair_0 debate called this generalist_01's 'most distinctive contribution'",
     "Front end approximates expected policy rate (cyclically responsive); back end reflects fiscal supply (structurally insensitive to business cycle)",
     "KB reports 6 iterations of convergent research from 8 agents",
-    "Prescription: bifurcate curve exposure, 2-5Y for equity hedge, 10-30Y as separate correlated risk factor"
+    "Prescription: bifurcate curve exposure, 2-5Y for equity hedge, 10-30Y as separate correlated risk factor",
+    "2Y-SPX correlation: -0.25 to -0.35 (Fed reaction function channel)",
+    "30Y-SPX correlation: +0.05 to +0.15 (services inflation → term premium channel)",
+    "ULC above/below ~3.5% determines which regime dominates",
+    "Portfolio implication: optimal hedge duration may be 2-5Y, not 10-20Y"
   ],
   "originating_agents": [
     "generalist_01",
@@ -27,14 +27,14 @@
     "risk_analyst_01"
   ],
   "open_questions": [
-    "Is the bifurcation over-fitted to a 3-5 year sample with only 4 historical precedents?",
-    "Is +0.05 to +0.15 at the long end statistically distinguishable from zero?",
-    "Would the 2Y-SPX turning positive reliably signal full fiscal dominance?",
     "Will the bifurcation widen further with fiscal deterioration?",
     "At what point does the front-end hedge also break down?",
     "How stable is the bifurcation across regime transitions?",
     "Could policy intervention cause the bifurcation to collapse within the 3-14 month precedent window?",
-    "Where exactly does the transitional zone (50-100bp term premium) lie on the maturity spectrum?"
+    "Where exactly does the transitional zone (50-100bp term premium) lie on the maturity spectrum?",
+    "Is the bifurcation stable across monetary policy regimes?",
+    "How does the ULC threshold imprecision affect the regime identification?",
+    "What is the optimal duration mix for a hedged equity portfolio?"
   ],
   "related_concepts": [
     "correlation_regime_shifts",
@@ -56,13 +56,16 @@
     "boj_normalization_shock",
     "bad_steepening",
     "erp_correlation_regime_inconsistency",
-    "supply_driven_term_premium_impact"
+    "supply_driven_term_premium_impact",
+    "ulc_regime_threshold",
+    "cross_asset_pricing_inconsistency",
+    "phillips_curve_convexity"
   ],
   "topic": "volatility_regimes",
   "created_at": "2026-03-22T22:22:52Z",
-  "last_updated": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T12:27:53Z",
   "originating_iteration": "iter_0010",
-  "research_iterations": 7,
+  "research_iterations": 8,
   "iteration_history": [
     "iter_0010",
     "iter_0018",
@@ -70,6 +73,7 @@
     "iter_0019",
     "iter_0020",
     "iter_0021",
-    "iter_0031"
+    "iter_0031",
+    "iter_0036"
   ]
 }

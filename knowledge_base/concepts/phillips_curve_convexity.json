@@ -1,25 +1,34 @@
 {
   "slug": "phillips_curve_convexity",
   "definition": "Phillips Curve convexity near the zero output gap (CBO estimate -0.3% to +0.3%) makes the current economy maximally sensitive to small shocks, producing outsized correlation swings of 0.15-0.25 in rolling 3-month windows.",
-  "confidence": 5.5,
+  "confidence": 6.0,
   "evidence": [
     "Grounded in Ball-Mankiw-Romer (1988) and Hazell et al. (2022)",
     "Firms adjust prices more aggressively to cost shocks when operating near capacity",
     "Provides structural explanation for observed correlation instability",
     "Ball-Mankiw-Romer 1988 and Hazell et al. 2022 theoretical grounding for convexity",
     "Covenant-lite (>90% of leveraged loans) with 15-40% EBITDA addbacks delays default-transmission channel by 12-24 months",
-    "Complementary explanations from macro theory and credit market structure"
+    "Complementary explanations from macro theory and credit market structure",
+    "Halving the gap from -2pp to -1pp adds more inflation than from -1pp to -0.5pp",
+    "Consistent across 1960s, 1990s, and 2010s sub-periods",
+    "1999-2000, 2006-2007, 2018-2019 all show accelerating pressure at low unemployment",
+    "Getting from 2.6% to 2.0% inflation may require 0.5-1.0pp more unemployment than linear models predict"
   ],
   "originating_agents": [
     "macro_strategist_01",
     "credit_analyst_02",
-    "rates_strategist_02"
+    "rates_strategist_02",
+    "quant_researcher_01",
+    "generalist_01"
   ],
   "open_questions": [
     "Limited empirical validation at this specific output gap level",
     "Whether the convexity relationship is stable across different inflation regimes",
     "Is the 'immaculate disinflation' evidence of a flat curve with supply normalization rather than a convex curve?",
-    "Is the Phillips Curve slope itself endogenous to the anchoring state (circularity problem)?"
+    "Is the Phillips Curve slope itself endogenous to the anchoring state (circularity problem)?",
+    "Can the 0.5-1.0pp additional unemployment estimate for last-mile disinflation be more sharply calibrated?",
+    "Does immigration reversal shift the curve or change its shape?",
+    "Is convexity stable under AI-driven productivity changes?"
   ],
   "related_concepts": [
     "demand_supply_shock_variance_ratio",
@@ -28,15 +37,19 @@
     "services_inflation_persistence",
     "credit_maturity_wall",
     "covenant_lite_transmission_delay",
-    "structural_inflation_shift"
+    "structural_inflation_shift",
+    "nairu_real_time_uselessness",
+    "ulc_regime_threshold",
+    "wage_price_spiral_institutional_suppression"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:21:39Z",
-  "last_updated": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T12:27:53Z",
   "originating_iteration": "iter_0019",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0019",
-    "iter_0023"
+    "iter_0023",
+    "iter_0036"
   ]
 }

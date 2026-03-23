@@ -1,0 +1,32 @@
+{
+  "slug": "fiscal_credit_labor_lead_extension",
+  "definition": "Fiscal support extends the credit-to-labor lead time, likely to 12-24 months vs. the historical 3-12 months, but calibration is uncertain with essentially n=1 (1966-69 analogue where credit crunch led labor by ~14 quarters).",
+  "confidence": 5,
+  "evidence": [
+    "1966-69 analogue: credit crunch of 1966 → labor didn't turn until Q4 1969 (~14 quarters)",
+    "Fiscal cash flows sustain corporate revenues even as financial conditions tighten",
+    "Kalecki floor suppresses the credit widening that would historically have appeared before labor weakness"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Is the 1966 credit crunch (Regulation Q-driven) truly comparable to modern HY spread widening?",
+    "Does fiscal support distort the level of credit signals, the timing, or both?",
+    "Can this be calibrated better than 12-36 months?"
+  ],
+  "related_concepts": [
+    "credit_leads_labor_low_ppv",
+    "fiscal_support_delay_not_prevention",
+    "kalecki_identity_vs_causation"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

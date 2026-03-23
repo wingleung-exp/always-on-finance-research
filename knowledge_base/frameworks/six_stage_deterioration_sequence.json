@@ -1,0 +1,27 @@
+{
+  "slug": "six_stage_deterioration_sequence",
+  "purpose": "Provides a monitorable checklist for tracking labor market transitions from resilience to recession with calibrated traversal times",
+  "components": [
+    "Stage 1: Declining hires, stable layoffs (current position)",
+    "Stage 2: Hires stagnation, temp help contraction broadens",
+    "Stage 3: Initial claims rising, quits rate declining",
+    "Stage 4: Layoffs rising, continuing claims accelerating",
+    "Stage 5: Unemployment rate triggering Sahm Rule",
+    "Stage 6: Nonlinear unemployment acceleration (hoarding break)"
+  ],
+  "current_assessment": "Currently at Stage 1 with declining hires and stable layoffs. Temp help has been negative for 36 months without broader deterioration — either the indicator is structurally broken or fiscal extension is historically unprecedented. Standard traversal: 12-24 months; fiscal-supported: 18-36 months.",
+  "limitations": [
+    "Temp help anomaly (36 months negative) is unresolved — could indicate structural break in the indicator",
+    "Fiscal support may extend traversal time beyond historical calibration",
+    "Transition signals between stages may be blurred by data quality deterioration",
+    "n=1 for the fiscal-extended version"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "nairu_real_time_uselessness",
+  "definition": "NAIRU is functionally useless for real-time policy guidance due to confidence intervals spanning the entire policy-relevant range (95% CI ~4.3-7.3%) and systematic downward revision bias (78% of CBO vintage revisions are downward, p≈0.015). This implies the Fed has been structurally tighter than optimal for approximately 25 years.",
+  "confidence": 9,
+  "evidence": [
+    "Staiger-Stock-Watson 95% CI of ~4.3-7.3% (width 3.0pp) — entire policy-relevant range falls within error band",
+    "78% of CBO NAIRU vintage revisions are downward (14/18 pairs, sign test p≈0.015)",
+    "Mean CBO revision for the 2000-era estimate: -0.14pp per vintage update across 5 successive revisions (5.2% → 4.5%)",
+    "Downward bias implies Fed structurally tighter than optimal, consistent with below-target inflation 2010-2020"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "quant_researcher_02",
+    "generalist_01",
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "What alternative real-time labor market slack measures could replace NAIRU for policy guidance?",
+    "Does the downward revision bias reflect genuine structural changes in the labor market or persistent methodological error?"
+  ],
+  "related_concepts": [
+    "measurement_precision_contradiction",
+    "ulc_regime_threshold",
+    "phillips_curve_convexity",
+    "bls_labor_data_deterioration"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "analogue_1966_70",
+  "definition": "The 1966-70 period scores highest (0.72) in systematic comparison across 7 dimensions among all candidate analogues. Shared features include large fiscal deficit, tight labor late in cycle, and Fed tightening against fiscal headwind. However, low scores on labor supply dynamics (0.40) and financial structure (0.50) limit applicability.",
+  "confidence": 5,
+  "evidence": [
+    "Systematic scoring: fiscal support 0.85, monetary stance 0.80, labor tightness 0.75, inflation 0.65, wage dynamics 0.60, financial structure 0.50, labor supply 0.40",
+    "Competitors: 1989-91 (0.62), 1998-2000 (0.58), 2006-08 (0.55), 1973-75 (0.48)",
+    "Key gaps: unionization 28% then vs 10% now; services share 60% then vs 85% now; no immigration shock equivalent"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Should the analogue be used for sequencing predictions or only as a prior?",
+    "How should the 0.40 score on labor supply dynamics weight the overall analogue utility?",
+    "Is the forward-looking threshold framework methodologically sounder when analogues are imperfect?"
+  ],
+  "related_concepts": [
+    "fiscal_support_delay_not_prevention",
+    "six_stage_deterioration_sequencing",
+    "immigration_reversal_wage_pressure"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

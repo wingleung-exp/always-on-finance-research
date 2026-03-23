@@ -1,0 +1,35 @@
+{
+  "slug": "ulc_regime_threshold",
+  "definition": "Unit Labor Cost growth at approximately 3.5% is directionally the most important single variable for cross-asset positioning, simultaneously determining equity margins, services inflation trajectory, and credit quality. However, precision of the threshold is overstated — it should be treated as an approximate regime boundary (~3.0-4.0%), not a sharp trigger.",
+  "confidence": 6,
+  "evidence": [
+    "BLS nonfarm business sector data shows margin expansion historically impossible above ~3.5% ULC growth",
+    "ULC → services CPI with R² ~0.55-0.65 at 2-quarter lag (35-45% variance unexplained)",
+    "Current ULC disputed at 2.5-3.5%, spanning the entire regime boundary",
+    "When ULC >3.5%, RMW profitability factor becomes labor cost arbitrage rather than genuine quality signal"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_02",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Is ULC a sharp threshold or a gradual transition? Current data does not resolve this",
+    "How should the threshold imprecision affect positioning — binary vs. optionality structures?",
+    "What is the current actual ULC figure given measurement uncertainty?"
+  ],
+  "related_concepts": [
+    "measurement_precision_contradiction",
+    "maturity_dependent_correlation_bifurcation",
+    "profitability_factor_labor_contamination",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

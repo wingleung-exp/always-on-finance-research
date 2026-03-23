@@ -1,0 +1,39 @@
+{
+  "slug": "bls_labor_data_deterioration",
+  "definition": "BLS labor data quality has severely deteriorated with non-mean-zero and fat-tailed revisions. NFP has a 90% CI of ±130,000, making single-month prints nearly meaningless. JOLTS response rate collapsed from ~60% to ~32%, and ghost postings overstate vacancies by an estimated 15-30%.",
+  "confidence": 9,
+  "evidence": [
+    "NFP 90% CI: ±130,000 (a +150K print is indistinguishable from 0 or +300K)",
+    "March 2024 benchmark revision: -818,000 (2.3σ in fat-tailed distribution)",
+    "Benchmark revision distribution: excess kurtosis ~2.5-3.0; negative mean ~-45,000/year; 4/5 large revisions downward",
+    "JOLTS response rate collapsed from ~60% to ~32% — ~41% increase in standard error",
+    "Ghost postings estimated at 15-30% of online openings, potentially overstating V/U ratio by 0.1-0.3",
+    "Birth-Death Model adds ~100-200K/month, procyclical and overstates at turning points"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "risk_analyst_01",
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Can alternative real-time data sources (Indeed postings, ADP, state UI claims) provide superior signal-to-noise?",
+    "What is the true V/U ratio adjusting for ghost postings?",
+    "At what response rate does JOLTS become statistically uninformative?"
+  ],
+  "related_concepts": [
+    "nfp_optionality_underpricing",
+    "nairu_real_time_uselessness",
+    "measurement_precision_contradiction",
+    "sahm_rule_overstated_reliability"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

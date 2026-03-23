@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "conjunctive_spiral_conditions",
+    "purpose": "Determines whether a wage-price spiral is likely to emerge by requiring all three necessary conditions to hold simultaneously",
+    "components": [
+      "Unemployment below 3.8%",
+      "Wage growth exceeding 5%",
+      "Inflation expectations de-anchored"
+    ],
+    "current_assessment": "2/3 conditions were met during the 2021-2023 stress test (UE 3.4%, wages ~6.7%) without spiral materializing. Expectations remained anchored. Currently no conditions met. Institutional suppression (union density ~10%, COLA coverage <2%) provides structural protection.",
+    "limitations": [
+      "Small sample: only 8 spiral episodes since 1960 for a conjunctive test",
+      "Novel mechanisms (algorithmic pricing, gig contract CPI indexation, social media wage expectations) are untested",
+      "The institutional argument depends on union density and COLA coverage remaining low"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "six_stage_deterioration_sequence",
+    "purpose": "Provides a monitorable checklist for tracking labor market transitions from resilience to recession with calibrated traversal times",
+    "components": [
+      "Stage 1: Declining hires, stable layoffs (current position)",
+      "Stage 2: Hires stagnation, temp help contraction broadens",
+      "Stage 3: Initial claims rising, quits rate declining",
+      "Stage 4: Layoffs rising, continuing claims accelerating",
+      "Stage 5: Unemployment rate triggering Sahm Rule",
+      "Stage 6: Nonlinear unemployment acceleration (hoarding break)"
+    ],
+    "current_assessment": "Currently at Stage 1 with declining hires and stable layoffs. Temp help has been negative for 36 months without broader deterioration — either the indicator is structurally broken or fiscal extension is historically unprecedented. Standard traversal: 12-24 months; fiscal-supported: 18-36 months.",
+    "limitations": [
+      "Temp help anomaly (36 months negative) is unresolved — could indicate structural break in the indicator",
+      "Fiscal support may extend traversal time beyond historical calibration",
+      "Transition signals between stages may be blurred by data quality deterioration",
+      "n=1 for the fiscal-extended version"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "measurement_precision_constraint",
+    "purpose": "Meta-framework establishing that downstream analytical precision cannot exceed upstream measurement precision, constraining the entire KB's confidence structure",
+    "components": [
+      "NAIRU 95% CI of ±150bp sets an upper bound on precision of any NAIRU-dependent threshold",
+      "NFP ±130K CI limits precision of any employment-level-dependent trigger",
+      "Confidence propagation rule: downstream concept confidence ≤ min(upstream confidence × relationship confidence)",
+      "KB violates this throughout with downstream concepts at higher confidence than antecedents"
+    ],
+    "current_assessment": "The KB specifies margin triggers at 8-9% and ULC thresholds at 3.5% while acknowledging NAIRU uncertainty of ±150bp — a logical contradiction. This is a mathematical constraint, not a debatable interpretation.",
+    "limitations": [
+      "The framework identifies the problem but does not specify how to optimally downgrade dependent concepts",
+      "Some thresholds may be empirically robust despite noisy upstream inputs",
+      "The framework may be overly conservative if applied mechanically to all causal chains"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "cross_asset_inconsistency_resolution",
+    "purpose": "Tracks how contradictory labor market assumptions embedded in equity, rate, and credit pricing resolve, with historical base rates for resolution mode and direction",
+    "components": [
+      "Equity signal: S&P 21-22x forward P/E prices ~4.0% UE + robust consumption",
+      "Rates signal: 50-75bp easing priced requires labor softening",
+      "Credit signal: HY OAS 300-350bp prices no deterioration",
+      "Resolution base rates: gradual convergence 67%, sudden repricing 33%, equities 'won' 50%",
+      "Median persistence of inconsistency: ~13 months from 6 episodes since 1990"
+    ],
+    "current_assessment": "All three asset classes embed contradictory labor assumptions. Immigration reversal removes the supply-side channel that was the only mechanism for reconciling all three simultaneously. Resolution direction is uncertain (equities win 50% of the time).",
+    "limitations": [
+      "Specific probability assignments from asset prices were refuted — can only say 'inconsistent with rapid deterioration'",
+      "n=6 for resolution base rates",
+      "Each episode had unique features; pattern may not generalize",
+      "Resolution can be driven by exogenous shocks unrelated to labor market"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "fog_of_fragility_framework",
+    "purpose": "Identifies vulnerability accumulation in dimensions where data opacity is highest, based on the crisis pattern that deterioration consistently originates where opacity meets hidden leverage",
+    "components": [
+      "Data opacity assessment: JOLTS response rate, NFP revision magnitude, birth-death model contribution",
+      "Hidden leverage identification: labor hoarding as hidden operating leverage, private credit opacity",
+      "Convergence diagnostic: opacity and leverage increasing in same dimension",
+      "Monitoring recommendations: HY OAS (500bp concern, 650bp defense), initial claims (260K concern, 300K defense), Indeed postings, cross-currency basis, S&P net margins"
+    ],
+    "current_assessment": "JOLTS degradation from 60% to 32% response rate coincides with the period where hoarding dynamics are most policy-relevant. The labor market currently exhibits the fog-of-fragility pattern: deteriorating visibility in the dimension where vulnerability may be accumulating.",
+    "limitations": [
+      "Based on qualitative crisis pattern matching, not quantitative model",
+      "Alternative data sources may partially compensate for official data degradation",
+      "The framework identifies risk but does not quantify probability",
+      "Trigger thresholds (500bp, 260K) inherit measurement-precision concerns"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "analogue_scoring_framework",
+    "purpose": "Systematically scores historical periods against current conditions across 7 dimensions to identify the most relevant analogue for sequencing and timing predictions",
+    "components": [
+      "Fiscal support similarity (current best: 1966-70 at 0.85)",
+      "Monetary stance similarity (0.80)",
+      "Labor tightness similarity (0.75)",
+      "Inflation similarity (0.65)",
+      "Wage dynamics similarity (0.60)",
+      "Financial structure similarity (0.50)",
+      "Labor supply dynamics similarity (0.40)"
+    ],
+    "current_assessment": "1966-70 scores highest at 0.72 overall, but low scores on labor supply (0.40, no immigration shock equivalent) and financial structure (0.50) are gaps in exactly the dimensions that matter most. Forward-looking threshold frameworks may be sounder when analogues are imperfect.",
+    "limitations": [
+      "Low scores in critical dimensions (labor supply 0.40, financial structure 0.50) limit predictive utility",
+      "AI + immigration combination has no clean analogue (acknowledged at 9/10 confidence as a limitation)",
+      "Unionization 28% then vs 10% now fundamentally weakens wage-price channel comparison",
+      "Services share 60% then vs 85% now changes sectoral transmission entirely"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "kalecki_profit_decomposition",
+    "purpose": "Decomposes aggregate corporate profits using the Kalecki-Levy identity to assess the magnitude and sustainability of fiscal support to the labor market",
+    "components": [
+      "Kalecki-Levy identity: Profits = Investment + Govt Deficit + Net Exports − Household Saving + Dividends",
+      "Current fiscal contribution: ~$1.8-2.0T at 6-7% GDP deficit",
+      "Counter-example database: Clinton surplus period where profits rose despite fiscal consolidation",
+      "Fiscal multiplier range: 0.3-1.5x (Ramey 2019, Blanchard & Leigh 2013)"
+    ],
+    "current_assessment": "The identity holds trivially. Large fiscal deficit is currently supporting profits (confidence 7). But the causal claim that withdrawal produces proportional labor weakening is uncertain (confidence 4-5) due to multiplier uncertainty and the Clinton counter-example.",
+    "limitations": [
+      "Identity is always true but causation is uncertain — the framework conflates accounting truth with behavioral mechanism",
+      "Fiscal multiplier of 0.3-1.5x is too wide for actionable predictions",
+      "1993-2000 counter-example shows private investment can substitute for fiscal withdrawal",
+      "Whether current cycle resembles 1993-2000 or 2010-2013 European austerity is a judgment call"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  }
+]

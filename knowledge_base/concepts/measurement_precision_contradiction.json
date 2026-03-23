@@ -1,0 +1,31 @@
+{
+  "slug": "measurement_precision_contradiction",
+  "definition": "If payrolls have ±130K noise and NAIRU is unknowable within 300bp, specifying margin triggers at 8-9% or ULC thresholds at 3.5% is logically incoherent. This is a mathematical constraint on the KB's framework, not a debatable interpretation. Downstream concepts should be capped at the minimum of upstream confidence × relationship confidence.",
+  "confidence": 8,
+  "evidence": [
+    "NFP ±130K CI, NAIRU ±150bp CI, yet KB specifies triggers to within 100bp",
+    "Confidence propagation violation: downstream concepts carry higher confidence than upstream antecedents throughout the KB",
+    "Phillips Curve unreliability should propagate to dependent concepts (stagflation fulcrum, stock-bond correlation, ULC driver)"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "What is the correct confidence propagation methodology for the KB's causal chains?",
+    "Can regime-based analysis survive measurement imprecision if treated as gradients rather than thresholds?"
+  ],
+  "related_concepts": [
+    "nairu_real_time_uselessness",
+    "bls_labor_data_deterioration",
+    "ulc_regime_threshold",
+    "kb_fossilization_risk"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

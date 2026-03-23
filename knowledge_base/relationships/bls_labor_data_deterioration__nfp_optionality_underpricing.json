@@ -1,0 +1,20 @@
+{
+  "concept_a": "bls_labor_data_deterioration",
+  "concept_b": "nfp_optionality_underpricing",
+  "mechanism": "Poor NFP signal-to-noise ratio (±130K CI) means realized data surprise distribution is wider than options markets price, creating systematic vol underpricing around employment releases",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Strongest when data quality is at its worst (low response rates, large birth-death model contributions). Would diminish if BLS methodology or response rates improve.",
+  "originating_agents": [
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

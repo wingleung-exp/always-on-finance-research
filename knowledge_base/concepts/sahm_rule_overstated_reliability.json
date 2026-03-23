@@ -1,0 +1,33 @@
+{
+  "slug": "sahm_rule_overstated_reliability",
+  "definition": "The Sahm Rule's perfect record (11/11) overstates reliability due to small sample and data-mining origins. Wilson 95% CI is [71.5%, 100%], and Bonferroni adjustment for ~20 plausible indicators gives 15-25% probability of one achieving 11/11 by chance. True positive rate likely 75-90%.",
+  "confidence": 6,
+  "evidence": [
+    "Wilson 95% CI with n=11, k=11: [71.5%, 100%]",
+    "~20 plausible unemployment-based indicators screened; Bonferroni-adjusted probability ≥1 achieving 11/11: 15-25%",
+    "2024 near-trigger (briefly touched 0.5pp in July 2024) without recession — potentially first false positive",
+    "Comparable records exist: 2Y-10Y inversion 8/8 since 1965, Conference Board LEI ~9/10"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Does the July 2024 near-trigger constitute a false positive or a delayed signal?",
+    "What is the optimal ensemble of recession indicators given individual indicator limitations?",
+    "Has the household surplus dampening effect extended the rule's lag?"
+  ],
+  "related_concepts": [
+    "bls_labor_data_deterioration",
+    "nairu_real_time_uselessness",
+    "fiscal_support_delay_not_prevention"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

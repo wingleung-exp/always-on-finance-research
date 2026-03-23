@@ -3268,5 +3268,103 @@
     ],
     "topic": "credit_equity_linkage",
     "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "The market is running a 65-70% probability on a benign Goldilocks scenario",
+    "reason": "No model shown to derive specific scenario probabilities from asset prices. Reverse DCF gives revenue growth requirements, not probability distributions. Converting asset prices to implied probabilities requires explicit payoff assumptions in each state — none specified.",
+    "refuted_by": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Yen carry unwind is a larger potential cross-asset vol event than US labor market dynamics alone",
+    "reason": "The August 2024 episode produced a 5.5% SPX drawdown that reversed within 2 weeks. A US labor market recession produces 20-35% sustained equity decline over 12-18 months. Conflates initial shock amplitude with economic significance.",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Linear extrapolation of immigration shock magnitude: 3x larger → 3x wage impact",
+    "reason": "Violates the analogue method's own principles. Labor markets have nonlinear adjustment mechanisms (domestic worker entry, hours expansion, automation, informal economy) that dampen proportional impact. The analogue method exists precisely to avoid this kind of out-of-sample extrapolation.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Kalecki fiscal channel is equivalent to 'channel stuffing at the macro level'",
+    "reason": "Channel stuffing is fraudulent (booking revenue for goods that will be returned). Fiscal-supported profits involve genuine government spending generating real economic activity and real cash flows. The analogy confuses sustainability risk with quality risk.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "DXY-employment-surprise correlation 'is degrading' stated as fact",
+    "reason": "The originating agent lists this as its own Open Question #1. Cannot assert degradation as a key claim and simultaneously ask whether it's happened. The twin-deficit mechanism for why it should degrade is theoretically sound, but the empirical claim is unverified by the agent's own admission.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Median company ROIC trending from ~12% toward ~10-11% with specific figures",
+    "reason": "No data source cited. The agent's own Open Question asks whether ROIC-WACC has actually crossed zero, revealing the answer to the headline claim is unknown. Specific figures are presented without verification.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Aggregate accruals quality deterioration from labor hoarding stated as observable fact",
+    "reason": "The Sloan accrual anomaly framework applies to firm-level cross-sectional sorts, not aggregate index-level accruals. Aggregate accruals can rise for benign reasons. The leap from JOLTS hoarding evidence to aggregate accruals deterioration skips critical verification.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Regime probability assignments as derived quantities: Goldilocks 45-50%, Stagflationary 20-25%, Recessionary 15-20%, Productivity Boom 10-15%",
+    "reason": "These are not derived from any model or base rate — they are expert judgment presented as quantitative inputs. The regime probabilities look like inputs but are outputs of unstated priors. The entire portfolio construction section inherits this false precision.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Factor rebalancing signals as validated trading rules: ULC crossing 3.5% triggers aggressive shift from quality to value",
+    "reason": "None of the four trigger conditions (ULC 3.5%, HY OAS >500bp, VIX >25, NFP 3M avg <50K) have been backtested as factor rotation triggers. These are hypotheses masquerading as trading rules.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Narrative coherence bias at confidence 8/10 — zero contradictory relationships among 24 concepts proves post-hoc rationalization",
+    "reason": "Some analytical domains genuinely have reinforcing dynamics. The labor market features multiple feedback loops that amplify in the same direction during downturns. The absence of stabilizing forces is suspicious but does not prove narrative bias. Downgraded from 8/10 to 5-6/10.",
+    "refuted_by": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
   }
 ]

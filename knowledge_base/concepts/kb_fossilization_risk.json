@@ -1,0 +1,31 @@
+{
+  "slug": "kb_fossilization_risk",
+  "definition": "The knowledge base exhibits fossilization risk: 23/24 concepts were built in iter_0003 with 1 research iteration each and no systematic revision across 33 subsequent iterations. This is a verifiable process failure implying many high-confidence KB concepts have never been stress-tested.",
+  "confidence": 8,
+  "evidence": [
+    "23/24 concepts have research_iterations = 1, all originating from iter_0003",
+    "Only cross_asset_pricing_inconsistency has been updated (6 iterations)",
+    "Concepts assigned confidence 7-9 on first pass without subsequent challenge",
+    "ULC described as 'dominant variable' but actual current value not pulled from BLS in 33 iterations"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Which of the 23 never-revised concepts are most likely to be outdated?",
+    "What systematic review process should be implemented?",
+    "Are the confidence levels of iter_0003 concepts defensible after 33 iterations without challenge?"
+  ],
+  "related_concepts": [
+    "measurement_precision_contradiction",
+    "nairu_real_time_uselessness"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

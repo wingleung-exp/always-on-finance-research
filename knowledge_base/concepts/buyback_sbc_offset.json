@@ -1,0 +1,30 @@
+{
+  "slug": "buyback_sbc_offset",
+  "definition": "True accretive buybacks are approximately 40-60% of headline figures; the remainder merely prevents dilution from stock-based compensation excluded from non-GAAP earnings. Verifiable from share count reconciliation in public filings.",
+  "confidence": 6,
+  "evidence": [
+    "Share count reconciliation reveals buybacks offsetting SBC dilution rather than providing true accretion",
+    "Directly verifiable from public filings",
+    "Implies commonly cited 'shareholder yield' overstates true return of capital"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "What is the correct aggregate adjustment to S&P buyback yield?",
+    "Does the offset ratio vary meaningfully by sector?",
+    "How should this affect valuation multiples for heavy-SBC companies?"
+  ],
+  "related_concepts": [
+    "sbc_restructuring_double_count",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

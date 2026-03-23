@@ -1,0 +1,221 @@
+[
+  {
+    "concept_a": "bls_labor_data_deterioration",
+    "concept_b": "nfp_optionality_underpricing",
+    "mechanism": "Poor NFP signal-to-noise ratio (±130K CI) means realized data surprise distribution is wider than options markets price, creating systematic vol underpricing around employment releases",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest when data quality is at its worst (low response rates, large birth-death model contributions). Would diminish if BLS methodology or response rates improve.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "ulc_regime_threshold",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "ULC simultaneously determines equity margins (compression above ~3.5%), services inflation trajectory (R² ~0.55-0.65), and credit quality, making it the pivotal variable whose resolution determines which asset class must reprice",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest when ULC is near the ~3.0-4.0% regime boundary. Less informative when ULC is clearly in one regime or the other.",
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_02",
+      "quant_researcher_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "fiscal_support_delay_not_prevention",
+    "concept_b": "credit_leads_labor_low_ppv",
+    "mechanism": "Fiscal cash flows sustain corporate revenues even as financial conditions tighten, suppressing the credit deterioration that historically preceded labor weakness. This either extends the lead time (12-24 months vs. 3-12 months) or distorts the signal level itself",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Only operative at large fiscal deficits (>4% GDP). The 1966-69 episode is the primary analogue but may be a category error due to different credit market structure.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "kalecki_identity_vs_causation",
+    "concept_b": "labor_hoarding_nonlinear_break",
+    "mechanism": "Fiscal deficit supports aggregate profits via Kalecki identity, sustaining margins above the hoarding break threshold (~8-9% S&P margins). Fiscal withdrawal would compress margins toward the threshold, potentially triggering synchronized labor release",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds when fiscal deficit is large enough to be a material component of aggregate profits. The Clinton-era counter-example shows private investment can substitute for fiscal support.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "nairu_real_time_uselessness",
+    "concept_b": "ulc_regime_threshold",
+    "mechanism": "NAIRU uncertainty of ±150bp propagates through ULC calculations because productivity-adjusted labor cost depends on the gap between actual and natural unemployment. The measurement-precision contradiction means ULC threshold of 3.5% is logically inconsistent with upstream uncertainty",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always holds — this is a logical/mathematical constraint, not regime-dependent",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "immigration_reversal_wage_pressure",
+    "concept_b": "wage_price_spiral_institutional_suppression",
+    "mechanism": "Immigration reversal could contribute to sustained wage pressure in affected sectors, but institutional changes (low union density ~10%, minimal COLA coverage <2%) prevent wage-price spiral transmission even with elevated sector-specific wage growth",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds under current institutional structure. Would be undermined by significant re-unionization or adoption of algorithmic wage indexation in gig/platform economy.",
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "ulc_regime_threshold",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "ULC above/below ~3.5% determines whether the monetary policy channel (2Y-SPX negative correlation) or the structural inflation channel (30Y-SPX positive correlation) dominates, switching the effective stock-bond hedge relationship by maturity",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest during transitions across the ULC threshold. The threshold imprecision (~3.0-4.0%) creates ambiguity in the current regime.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "labor_hoarding_nonlinear_break",
+    "concept_b": "em_fx_labor_amplification",
+    "mechanism": "Both exhibit the same core dynamic: labor market rigidity converts gradual economic deterioration into step-function outcomes. In EM, labor rigidity amplifies commodity-driven FX moves; domestically, hoarding creates cliff-like unemployment rises",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "EM channel is strongest in commodity-exporting economies with rigid labor markets. Domestic channel is strongest when hoarding has been prolonged by fiscal or financial conditions.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "bls_labor_data_deterioration",
+    "concept_b": "sahm_rule_overstated_reliability",
+    "mechanism": "Declining data quality compounds the Sahm Rule's small-sample limitations. If the unemployment rate inputs are themselves measured with greater noise (due to survey response rate declines), the rule's trigger becomes less reliable as a recession signal",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Worsens as BLS household survey response rates decline. Currently at historically low response rates.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "sbc_restructuring_double_count",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Non-GAAP earnings overstate true profitability by 20-35% for tech mega-caps due to SBC exclusion. If valuations are based on overstated earnings, the 'robust consumption' priced by equities requires even stronger labor markets than headline multiples suggest",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest for tech-heavy indices (S&P, Nasdaq) where SBC is 8-15% of revenue. Less relevant for non-tech sectors.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "ulc_regime_threshold",
+    "concept_b": "profitability_factor_labor_contamination",
+    "mechanism": "When ULC exceeds ~3.5%, the profitability factor (RMW) captures labor cost avoidance rather than genuine quality, overstating Sharpe ratios and creating hidden correlation with quality-momentum and carry-momentum factors",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Only holds when ULC is above the ~3.5% threshold. Below that level, profitability factor reflects genuine operational quality.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "immigration_reversal_wage_pressure",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Immigration-driven labor supply expansion was the only mechanism that could reconcile simultaneous tight labor, disinflation, and robust consumption. Its reversal removes the supply-side condition for 'immaculate disinflation,' forcing at least one asset class to reprice",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds only if immigration reversal is sustained and material. Policy persistence base rate for executive-order restrictions is ~33% beyond one administration.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "phillips_curve_convexity",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Convexity implies last-mile disinflation requires 0.5-1.0pp more unemployment than linear models predict. Markets pricing both low unemployment and return to 2% inflation are inconsistent with the nonlinear relationship",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most relevant when unemployment is near or below estimated NAIRU and inflation is 0.5-1.0pp above target — exactly the current configuration.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "trigger_correlation_structure",
+    "concept_b": "synchronized_hoarding_break",
+    "mechanism": "Political correlation between fiscal consolidation, immigration restriction, and AI acceleration means multiple labor market pressures are more likely to coincide than independence suggests, increasing the probability of a synchronized rather than idiosyncratic hoarding break",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Strongest under unified government pursuing restrictive immigration + fiscal austerity + technology-friendly policies simultaneously.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "fog_of_fragility",
+    "concept_b": "bls_labor_data_deterioration",
+    "mechanism": "Data degradation (JOLTS response rate collapse, NFP revision asymmetry) reduces visibility into the labor market precisely when vulnerability from hoarding is highest, creating conditions where fragility accumulates unobserved",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Always relevant but most dangerous late in cycles when hoarding may be masking weakness. Currently operative.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "concept_a": "credit_leads_labor_low_ppv",
+    "concept_b": "six_stage_deterioration_sequencing",
+    "mechanism": "Low PPV (~43%) of credit signals means the credit stage of the deterioration sequence may not fire reliably. The sequencing framework needs additional confirmation signals (yield curve, margin compression, alternative labor data) to filter false positives at the credit stage",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Always relevant for the credit stage of the sequence. Less relevant for stages that rely on direct labor market observables.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  }
+]

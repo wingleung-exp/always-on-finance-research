@@ -1,0 +1,817 @@
+[
+  {
+    "slug": "nairu_real_time_uselessness",
+    "definition": "NAIRU is functionally useless for real-time policy guidance due to confidence intervals spanning the entire policy-relevant range (95% CI ~4.3-7.3%) and systematic downward revision bias (78% of CBO vintage revisions are downward, p≈0.015). This implies the Fed has been structurally tighter than optimal for approximately 25 years.",
+    "confidence": 9,
+    "evidence": [
+      "Staiger-Stock-Watson 95% CI of ~4.3-7.3% (width 3.0pp) — entire policy-relevant range falls within error band",
+      "78% of CBO NAIRU vintage revisions are downward (14/18 pairs, sign test p≈0.015)",
+      "Mean CBO revision for the 2000-era estimate: -0.14pp per vintage update across 5 successive revisions (5.2% → 4.5%)",
+      "Downward bias implies Fed structurally tighter than optimal, consistent with below-target inflation 2010-2020"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "quant_researcher_02",
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "What alternative real-time labor market slack measures could replace NAIRU for policy guidance?",
+      "Does the downward revision bias reflect genuine structural changes in the labor market or persistent methodological error?"
+    ],
+    "related_concepts": [
+      "measurement_precision_contradiction",
+      "ulc_regime_threshold",
+      "phillips_curve_convexity",
+      "bls_labor_data_deterioration"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "bls_labor_data_deterioration",
+    "definition": "BLS labor data quality has severely deteriorated with non-mean-zero and fat-tailed revisions. NFP has a 90% CI of ±130,000, making single-month prints nearly meaningless. JOLTS response rate collapsed from ~60% to ~32%, and ghost postings overstate vacancies by an estimated 15-30%.",
+    "confidence": 9,
+    "evidence": [
+      "NFP 90% CI: ±130,000 (a +150K print is indistinguishable from 0 or +300K)",
+      "March 2024 benchmark revision: -818,000 (2.3σ in fat-tailed distribution)",
+      "Benchmark revision distribution: excess kurtosis ~2.5-3.0; negative mean ~-45,000/year; 4/5 large revisions downward",
+      "JOLTS response rate collapsed from ~60% to ~32% — ~41% increase in standard error",
+      "Ghost postings estimated at 15-30% of online openings, potentially overstating V/U ratio by 0.1-0.3",
+      "Birth-Death Model adds ~100-200K/month, procyclical and overstates at turning points"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "risk_analyst_01",
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can alternative real-time data sources (Indeed postings, ADP, state UI claims) provide superior signal-to-noise?",
+      "What is the true V/U ratio adjusting for ghost postings?",
+      "At what response rate does JOLTS become statistically uninformative?"
+    ],
+    "related_concepts": [
+      "nfp_optionality_underpricing",
+      "nairu_real_time_uselessness",
+      "measurement_precision_contradiction",
+      "sahm_rule_overstated_reliability"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "wage_price_spiral_institutional_suppression",
+    "definition": "Wage-price spiral risk is genuinely low under current institutional structure. A conjunctive-conditions framework requires all three conditions (UE <3.8%, wage growth >5%, expectations de-anchored) to hold simultaneously. In-sample accuracy is 8/8 since 1960, and the 2021-2023 episode provides the strongest out-of-sample validation.",
+    "confidence": 8,
+    "evidence": [
+      "Conjunctive-conditions framework: all 3 conditions necessary. In-sample accuracy 8/8 since 1960",
+      "2021-2023 OOS test: 2/3 conditions met (UE 3.4%, wages ~6.7%) without spiral materializing",
+      "Union membership ~10% vs ~24% in 1970s; COLA coverage <2% vs ~25%",
+      "Base rate of spirals post-1985: 0/40 years"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Could algorithmic pricing, real-time CPI indexation in gig contracts, or social media-driven wage expectations create novel spiral mechanisms?",
+      "Is eight spiral episodes sufficient sample for a conjunctive test?",
+      "How would an AI-driven labor reallocation interact with the spiral conditions framework?"
+    ],
+    "related_concepts": [
+      "phillips_curve_convexity",
+      "ulc_regime_threshold",
+      "immigration_reversal_wage_pressure"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "fiscal_support_delay_not_prevention",
+    "definition": "Fiscal support delays but does not prevent labor market downturns. Across 6 historical analogues, the base rate for permanent prevention is 0%. Extension ranged 12-36 months across episodes, but eventual downturn occurred in 100% of cases.",
+    "confidence": 8,
+    "evidence": [
+      "1966-69: maintained 3.4-3.8% UE for 36 months despite Fed tightening to 9.2%; 1970 recession UE rose to 6.1%",
+      "1952-53: UE rose from 2.5% to 6.1% within 18 months of spending decline",
+      "2006-07: sustained labor demand 18 months post yield-curve inversion; UE then rose from 4.4% to 10.0%",
+      "6/6 analogues show eventual downturn (base rate 100%)"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "risk_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Does the current unprecedented peacetime fiscal deficit (6-7% GDP) fundamentally alter the delay-not-prevention pattern?",
+      "What is the precise mechanism through which fiscal support eventually fails to prevent labor downturns?",
+      "Can the delay period be reliably estimated, or is it inherently uncertain?"
+    ],
+    "related_concepts": [
+      "kalecki_identity_vs_causation",
+      "fiscal_credit_labor_lead_extension",
+      "labor_hoarding_nonlinear_break",
+      "synchronized_hoarding_break"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Equities, rates, and credit currently embed contradictory labor market assumptions. Equities price robust consumption and ~4% unemployment, rates price enough softening for 50-75bp easing, and HY OAS prices no deterioration. Historical base rate from 6 episodes: median persistence ~13 months, gradual convergence 67%, sudden repricing 33%.",
+    "confidence": 7,
+    "evidence": [
+      "S&P 21-22x forward P/E prices ~4.0% UE + robust consumption; 50-75bp easing priced requires softening; HY OAS 300-350bp prices no deterioration",
+      "Persistence base rate from 6 completed episodes since 1990: median ~13 months",
+      "Gradual convergence 4/6 (67%); sudden repricing 2/6 (33%); equities 'won' 3/6 (50%)",
+      "ERP requires both tight labor (consumption) and loose labor (rate cuts) — arithmetically inconsistent",
+      "Immigration reversal removes the supply-side channel that was the only mechanism for reconciling all three markets simultaneously"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "fx_strategist_01",
+      "equity_analyst_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Which asset class will reprice — equities, rates, or credit?",
+      "Is there a novel mechanism (AI productivity, fiscal expansion) that could reconcile the inconsistency without repricing?",
+      "Does the resolution direction follow any predictable pattern from observables?"
+    ],
+    "related_concepts": [
+      "ulc_regime_threshold",
+      "maturity_dependent_correlation_bifurcation",
+      "nfp_optionality_underpricing",
+      "kalecki_identity_vs_causation"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "credit_leads_labor_low_ppv",
+    "definition": "The KB's credit-leads-labor confidence of 9 is overstated. Positive predictive value is approximately 43% (3/7 episodes since 1990), with high false-positive rate. The directional relationship holds but produces more false alarms than true warnings.",
+    "confidence": 7,
+    "evidence": [
+      "~8 significant HY spread widenings >100bp since 1990; only 3 preceded labor-driven recessions (1990, 2001, 2008)",
+      "4-5 false positives: 1998 LTCM, 2011 Euro crisis, 2015-16 energy/China, 2018 Q4 selloff, 2020 COVID",
+      "PPV: ~3/7 ≈ 43%",
+      "Lead time distribution is bimodal (3-6 months for sudden stops, 9-18 months for slow burns) from n=3"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What additional indicators (yield curve, margin compression, alternative real-time labor data) best filter false positives?",
+      "Has the growth of private credit fundamentally altered the public credit signal's information content?",
+      "Is the bimodal lead-time distribution meaningful or an artifact of n=3?"
+    ],
+    "related_concepts": [
+      "fiscal_credit_labor_lead_extension",
+      "cross_asset_pricing_inconsistency",
+      "labor_hoarding_nonlinear_break"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "labor_hoarding_nonlinear_break",
+    "definition": "When labor hoarding breaks, unemployment rises in a step-function pattern, not linearly. This pattern holds in 7/8 post-war recessions. Firms hold excess workers until margins compress below a threshold, then simultaneous release creates a consumption multiplier feedback loop.",
+    "confidence": 7,
+    "evidence": [
+      "1974: 4.6%→5.1% over 12 months (gradual), then 5.1%→9.0% in 10 months (cliff)",
+      "1990-91: 5.0%→5.4% over 6 months, then 5.4%→7.8% in 12 months",
+      "2008-09: 4.4%→5.0% over 9 months, then 5.0%→10.0% in 12 months",
+      "Only exception: 2001 (tech-concentrated, shallow, services resilient)",
+      "JOLTS 'hoarding signature' (low layoffs + declining hires) has ~20% base rate of cliff-like losses within 12 months"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "At what margin level does hoarding actually break? Current S&P margins (~11-12%) are 200-300bp above estimated trigger (~8-9%), but trigger precision is questionable",
+      "Is the JOLTS hoarding signature a reliable predictor or unfalsifiable framing?",
+      "Does the 2001 exception represent a distinct regime or a data point against the rule?"
+    ],
+    "related_concepts": [
+      "synchronized_hoarding_break",
+      "fiscal_support_delay_not_prevention",
+      "ulc_regime_threshold",
+      "sbc_restructuring_double_count"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "kalecki_identity_vs_causation",
+    "definition": "The Kalecki-Levy profit identity (Profits = Investment + Govt Deficit + Net Exports − Household Saving + Dividends) is always true by construction. The ~$1.8-2.0T fiscal support calculation is arithmetically correct. However, the causal claim that deficit withdrawal produces proportional labor weakening is uncertain, with the 1993-2000 Clinton surplus as a direct counter-example.",
+    "confidence": 7,
+    "evidence": [
+      "Kalecki-Levy identity is always true by construction; $1.8-2.0T calculation at 6-7% GDP deficit is arithmetically correct",
+      "Counter-example: 1993-2000 Clinton surplus — deficit fell from ~4.5% to -2.3% GDP; corporate profits/GDP rose from ~6% to ~8%; 22M jobs added",
+      "Fiscal multiplier literature range 0.3-1.5x, heavily dependent on monetary offset and private-sector response",
+      "Identity-causation distinction confirmed in debate pair_3"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the current cycle more analogous to 1993-2000 (private investment boom offset) or 2010-2013 European austerity (high multiplier)?",
+      "Can private sector demand substitute for fiscal withdrawal?",
+      "What is the actual fiscal multiplier under current monetary conditions?"
+    ],
+    "related_concepts": [
+      "fiscal_support_delay_not_prevention",
+      "synchronized_hoarding_break",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "ulc_regime_threshold",
+    "definition": "Unit Labor Cost growth at approximately 3.5% is directionally the most important single variable for cross-asset positioning, simultaneously determining equity margins, services inflation trajectory, and credit quality. However, precision of the threshold is overstated — it should be treated as an approximate regime boundary (~3.0-4.0%), not a sharp trigger.",
+    "confidence": 6,
+    "evidence": [
+      "BLS nonfarm business sector data shows margin expansion historically impossible above ~3.5% ULC growth",
+      "ULC → services CPI with R² ~0.55-0.65 at 2-quarter lag (35-45% variance unexplained)",
+      "Current ULC disputed at 2.5-3.5%, spanning the entire regime boundary",
+      "When ULC >3.5%, RMW profitability factor becomes labor cost arbitrage rather than genuine quality signal"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Is ULC a sharp threshold or a gradual transition? Current data does not resolve this",
+      "How should the threshold imprecision affect positioning — binary vs. optionality structures?",
+      "What is the current actual ULC figure given measurement uncertainty?"
+    ],
+    "related_concepts": [
+      "measurement_precision_contradiction",
+      "maturity_dependent_correlation_bifurcation",
+      "profitability_factor_labor_contamination",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "immigration_reversal_wage_pressure",
+    "definition": "Immigration reversal will produce sector-specific wage pressure with a consistent historical pattern across 4 analogues spanning 100 years: initial sector-specific acceleration (12-24 months) followed by capital-labor substitution (3-5 years). Magnitude should be 0.3-0.7pp, not the KB's 0.5-1.0pp estimate.",
+    "confidence": 6,
+    "evidence": [
+      "1924 Quota Acts: +15-25% in affected sectors",
+      "1964 Bracero termination: +40% real agricultural wages",
+      "Post-2017 H-1B tightening: +3-4pp above trend",
+      "Early signals: construction labor costs +6-8% vs materials +2-3%; food services wage growth outpacing aggregate by 100-150bp",
+      "Literature calibration: Borjas 0.3-0.4pp, Card 0.1-0.2pp, Peri & Yasenov 0.1-0.3pp",
+      "Policy persistence base rate for executive-order restrictions: ~33% beyond one administration"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "fx_strategist_01",
+      "risk_analyst_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Is the appropriate counterfactual the 3.3M peak or the ~1.0-1.5M pre-COVID trend?",
+      "How much will enforcement gaps and judicial challenges moderate actual reduction?",
+      "Will capital-labor substitution occur faster in this cycle due to AI and automation?"
+    ],
+    "related_concepts": [
+      "wage_price_spiral_institutional_suppression",
+      "phillips_curve_convexity",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "phillips_curve_convexity",
+    "definition": "Phillips Curve convexity near potential output is the most regime-robust finding in labor economics — the unemployment gap-to-inflation relationship is concave, meaning last-mile disinflation is empirically harder. Consistent across 1960s, 1990s, and 2010s sub-periods.",
+    "confidence": 7,
+    "evidence": [
+      "Halving the gap from -2pp to -1pp adds more inflation than from -1pp to -0.5pp",
+      "Consistent across 1960s, 1990s, and 2010s sub-periods",
+      "1999-2000, 2006-2007, 2018-2019 all show accelerating pressure at low unemployment",
+      "Getting from 2.6% to 2.0% inflation may require 0.5-1.0pp more unemployment than linear models predict"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can the 0.5-1.0pp additional unemployment estimate for last-mile disinflation be more sharply calibrated?",
+      "Does immigration reversal shift the curve or change its shape?",
+      "Is convexity stable under AI-driven productivity changes?"
+    ],
+    "related_concepts": [
+      "nairu_real_time_uselessness",
+      "ulc_regime_threshold",
+      "wage_price_spiral_institutional_suppression"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "sbc_restructuring_double_count",
+    "definition": "Stock-based compensation plus restructuring charges create a double-count quality problem where economic labor cost never appears in non-GAAP earnings at any stage of the hire-hoard-restructure lifecycle. Tech-sector SBC runs at 8-15% of revenue with GAAP-to-non-GAAP gaps of 20-35% for several mega-caps.",
+    "confidence": 7,
+    "evidence": [
+      "Lifecycle: (a) hire with SBC excluded from non-GAAP; (b) hoard with continued SBC exclusion; (c) restructure with severance excluded",
+      "Tech-sector SBC at 8-15% of revenue; GAAP-to-non-GAAP gaps of 20-35%",
+      "Meta example: $4.2B restructuring charge excluded from non-GAAP following 2020-2022 hiring surge",
+      "KB's $14-16/share SBC adjustment is steady-state and doesn't capture restructuring cycle increment"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Does the double-count accumulate over cycles or wash out?",
+      "What is the correct SBC adjustment for S&P EPS including the restructuring cycle increment?",
+      "How does this interact with buyback-SBC offset analysis?"
+    ],
+    "related_concepts": [
+      "buyback_sbc_offset",
+      "labor_hoarding_nonlinear_break",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "measurement_precision_contradiction",
+    "definition": "If payrolls have ±130K noise and NAIRU is unknowable within 300bp, specifying margin triggers at 8-9% or ULC thresholds at 3.5% is logically incoherent. This is a mathematical constraint on the KB's framework, not a debatable interpretation. Downstream concepts should be capped at the minimum of upstream confidence × relationship confidence.",
+    "confidence": 8,
+    "evidence": [
+      "NFP ±130K CI, NAIRU ±150bp CI, yet KB specifies triggers to within 100bp",
+      "Confidence propagation violation: downstream concepts carry higher confidence than upstream antecedents throughout the KB",
+      "Phillips Curve unreliability should propagate to dependent concepts (stagflation fulcrum, stock-bond correlation, ULC driver)"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What is the correct confidence propagation methodology for the KB's causal chains?",
+      "Can regime-based analysis survive measurement imprecision if treated as gradients rather than thresholds?"
+    ],
+    "related_concepts": [
+      "nairu_real_time_uselessness",
+      "bls_labor_data_deterioration",
+      "ulc_regime_threshold",
+      "kb_fossilization_risk"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "kb_fossilization_risk",
+    "definition": "The knowledge base exhibits fossilization risk: 23/24 concepts were built in iter_0003 with 1 research iteration each and no systematic revision across 33 subsequent iterations. This is a verifiable process failure implying many high-confidence KB concepts have never been stress-tested.",
+    "confidence": 8,
+    "evidence": [
+      "23/24 concepts have research_iterations = 1, all originating from iter_0003",
+      "Only cross_asset_pricing_inconsistency has been updated (6 iterations)",
+      "Concepts assigned confidence 7-9 on first pass without subsequent challenge",
+      "ULC described as 'dominant variable' but actual current value not pulled from BLS in 33 iterations"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Which of the 23 never-revised concepts are most likely to be outdated?",
+      "What systematic review process should be implemented?",
+      "Are the confidence levels of iter_0003 concepts defensible after 33 iterations without challenge?"
+    ],
+    "related_concepts": [
+      "measurement_precision_contradiction",
+      "nairu_real_time_uselessness"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "sahm_rule_overstated_reliability",
+    "definition": "The Sahm Rule's perfect record (11/11) overstates reliability due to small sample and data-mining origins. Wilson 95% CI is [71.5%, 100%], and Bonferroni adjustment for ~20 plausible indicators gives 15-25% probability of one achieving 11/11 by chance. True positive rate likely 75-90%.",
+    "confidence": 6,
+    "evidence": [
+      "Wilson 95% CI with n=11, k=11: [71.5%, 100%]",
+      "~20 plausible unemployment-based indicators screened; Bonferroni-adjusted probability ≥1 achieving 11/11: 15-25%",
+      "2024 near-trigger (briefly touched 0.5pp in July 2024) without recession — potentially first false positive",
+      "Comparable records exist: 2Y-10Y inversion 8/8 since 1965, Conference Board LEI ~9/10"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Does the July 2024 near-trigger constitute a false positive or a delayed signal?",
+      "What is the optimal ensemble of recession indicators given individual indicator limitations?",
+      "Has the household surplus dampening effect extended the rule's lag?"
+    ],
+    "related_concepts": [
+      "bls_labor_data_deterioration",
+      "nairu_real_time_uselessness",
+      "fiscal_support_delay_not_prevention"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "em_fx_labor_amplification",
+    "definition": "EM FX overshoots following commodity shocks are systematically underpredicted by 15-25pp because standard models miss the labor market amplification channel. The mechanism runs: commodity price drop → fiscal revenue falls → public sector wage freeze → private demand contraction → unemployment → further contraction → FX overshoot.",
+    "confidence": 7,
+    "evidence": [
+      "Chile USD/CLP 38% reversal",
+      "Colombia COP ~60% depreciation (2014-16)",
+      "Nigeria NGN collapse",
+      "Standard models treat exchange rate as shock absorber; labor rigidity converts reversible price shocks into irreversible output shocks"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Can the labor amplification channel be parameterized for real-time FX modeling?",
+      "Does labor market flexibility moderate the overshoot (e.g., Chile vs. Nigeria)?",
+      "What is the optimal timing for mean-reversion trades after overshoot?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "labor_hoarding_nonlinear_break"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "ai_productivity_deployment_lag",
+    "definition": "AI productivity acceleration will not rescue equity valuations on a 1-3 year horizon. The deployment-to-measurement lag base rate from major technology adoptions is 7-15 years. Current AI is analogous to approximately 1990 in the IT cycle.",
+    "confidence": 6,
+    "evidence": [
+      "Electrification: deployed 1890s-1900s, productivity surge 1920s (~15-20 year lag)",
+      "Computing: mainframes 1960s, productivity surge 1996-2004 (~15 year lag)",
+      "Internet/IT: web 1993-95, productivity surge 1996-2004 (3-5 years, shortest lag, building on 30 years of IT investment)",
+      "Solow Paradox (1987) persisted 8 more years",
+      "Organizational, regulatory, and process-redesign bottlenecks are institutional, not technology-specific"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does AI's software nature (zero marginal cost of deployment) compress the lag meaningfully?",
+      "Which sectors might see earlier productivity gains?",
+      "Is the 1990s IT case (3-5 year lag) the right analogue given AI's faster deployment capabilities?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "profitability_factor_labor_contamination"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "Stock-bond correlations bifurcate by maturity: 2Y-SPX correlation is -0.25 to -0.35 (monetary policy channel) while 30Y-SPX correlation is +0.05 to +0.15 (structural/fiscal channel). The labor market bridges these through two distinct channels. This implies 60/40 portfolios with long-duration bonds may be running anti-hedge exposure.",
+    "confidence": 6,
+    "evidence": [
+      "2Y-SPX correlation: -0.25 to -0.35 (Fed reaction function channel)",
+      "30Y-SPX correlation: +0.05 to +0.15 (services inflation → term premium channel)",
+      "ULC above/below ~3.5% determines which regime dominates",
+      "Portfolio implication: optimal hedge duration may be 2-5Y, not 10-20Y"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the bifurcation stable across monetary policy regimes?",
+      "How does the ULC threshold imprecision affect the regime identification?",
+      "What is the optimal duration mix for a hedged equity portfolio?"
+    ],
+    "related_concepts": [
+      "ulc_regime_threshold",
+      "cross_asset_pricing_inconsistency",
+      "phillips_curve_convexity"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "nfp_optionality_underpricing",
+    "definition": "NFP data quality deterioration creates systematic optionality underpricing around employment data releases. Observed vol premium is 1.2-1.5x daily vol, but ±130K CI warrants 2-3x. The trade is direction-independent: straddles on SPX, TLT, and HYG centered on NFP dates have positive expected value.",
+    "confidence": 6,
+    "evidence": [
+      "Observed vol premium around NFP dates: 1.2-1.5x daily vol",
+      "Theoretically warranted given ±130K CI: 2-3x daily vol",
+      "+150K print moves SPX ~0.3-0.5% on average, but 90% CI (0 to 300K) implies 'true' number could warrant -1.5% to +1.5%"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Will the market eventually adjust vol pricing to reflect data quality deterioration?",
+      "What are implementation costs (bid-ask, premium decay) relative to theoretical edge?",
+      "Does the edge persist after transaction costs?"
+    ],
+    "related_concepts": [
+      "bls_labor_data_deterioration",
+      "variance_risk_premium_complacency",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "fiscal_credit_labor_lead_extension",
+    "definition": "Fiscal support extends the credit-to-labor lead time, likely to 12-24 months vs. the historical 3-12 months, but calibration is uncertain with essentially n=1 (1966-69 analogue where credit crunch led labor by ~14 quarters).",
+    "confidence": 5,
+    "evidence": [
+      "1966-69 analogue: credit crunch of 1966 → labor didn't turn until Q4 1969 (~14 quarters)",
+      "Fiscal cash flows sustain corporate revenues even as financial conditions tighten",
+      "Kalecki floor suppresses the credit widening that would historically have appeared before labor weakness"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the 1966 credit crunch (Regulation Q-driven) truly comparable to modern HY spread widening?",
+      "Does fiscal support distort the level of credit signals, the timing, or both?",
+      "Can this be calibrated better than 12-36 months?"
+    ],
+    "related_concepts": [
+      "credit_leads_labor_low_ppv",
+      "fiscal_support_delay_not_prevention",
+      "kalecki_identity_vs_causation"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "profitability_factor_labor_contamination",
+    "definition": "When ULC exceeds ~3.5%, the RMW (Robust Minus Weak) profitability factor's Sharpe ratio is overstated because 'quality' is partly a cyclical bet on labor cost avoidance rather than genuine operating quality. Factor strategies conditioning on labor variables have ~40-50% worse SNR than pre-pandemic.",
+    "confidence": 6,
+    "evidence": [
+      "Above ULC 3.5%, profitability factor captures labor cost arbitrage rather than genuine quality signal",
+      "Quality-momentum correlation elevated to +0.45 vs historical +0.25",
+      "Carry-momentum correlation elevated to +0.50 vs historical +0.30",
+      "Multiple premia sharing single labor-stability vulnerability"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "How should factor portfolios be adjusted for labor regime dependence?",
+      "Is the crowding diagnostic (elevated correlations) a reliable signal for factor timing?",
+      "Does this contamination invalidate backtests that span multiple ULC regimes?"
+    ],
+    "related_concepts": [
+      "ulc_regime_threshold",
+      "factor_crowding_labor_vulnerability",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "factor_crowding_labor_vulnerability",
+    "definition": "Quality-momentum correlation at +0.45 (vs historical +0.25) and carry-momentum correlation at +0.50 (vs +0.30) serve as concrete crowding diagnostics, indicating multiple factor premia share a single labor-stability vulnerability. A labor shock would simultaneously hit multiple 'diversified' factor exposures.",
+    "confidence": 6,
+    "evidence": [
+      "Quality-momentum correlation +0.45 vs historical +0.25",
+      "Carry-momentum correlation +0.50 vs historical +0.30",
+      "Harvey-Liu-Zhu application formally rejects sectoral wage dispersion as investable factor signal (<40% power)"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "At what correlation levels should factor allocations be adjusted?",
+      "Is the elevated correlation driven by common labor exposure or other shared drivers?",
+      "What is the expected factor drawdown in a labor market shock scenario?"
+    ],
+    "related_concepts": [
+      "profitability_factor_labor_contamination",
+      "variance_risk_premium_complacency",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "synchronized_hoarding_break",
+    "definition": "Fiscal support is economy-wide, so its withdrawal would hit margins simultaneously across sectors, converting idiosyncratic layoffs into a correlated shock. This is the mechanism for the nonlinear unemployment increases observed historically — simultaneous release of hoarded labor creates a consumption multiplier feedback loop.",
+    "confidence": 6,
+    "evidence": [
+      "Fiscal support is economy-wide, so withdrawal hits margins simultaneously across sectors",
+      "Converts idiosyncratic layoffs into correlated shock",
+      "Mechanism explains step-function pattern in 7/8 post-war recessions"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the expected fiscal consolidation path and timeline?",
+      "Can sector-specific fiscal withdrawal create rolling rather than synchronized breaks?",
+      "How does private credit cushion interact with this mechanism?"
+    ],
+    "related_concepts": [
+      "labor_hoarding_nonlinear_break",
+      "kalecki_identity_vs_causation",
+      "fiscal_support_delay_not_prevention"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "fog_of_fragility",
+    "definition": "Crisis pattern library insight that deterioration consistently originates where opacity meets hidden leverage. The labor market analog: data quality degradation plus labor hoarding equals vulnerability building in the dimension with worst visibility — the precise dimension where monitoring is most degraded.",
+    "confidence": 6,
+    "evidence": [
+      "Historical crisis pattern: opacity + hidden leverage → crisis origin",
+      "Labor market: JOLTS degradation + hoarding = vulnerability in dimension with worst visibility",
+      "JOLTS response rate decline from 60% to 32% coincides with period where hoarding is most policy-relevant"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Can alternative data sources (Indeed, LinkedIn, state-level UI) partially compensate for JOLTS degradation?",
+      "Is there a quantifiable relationship between monitoring quality and crisis severity?",
+      "How should portfolio construction account for known blind spots?"
+    ],
+    "related_concepts": [
+      "bls_labor_data_deterioration",
+      "labor_hoarding_nonlinear_break",
+      "variance_risk_premium_complacency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "buyback_sbc_offset",
+    "definition": "True accretive buybacks are approximately 40-60% of headline figures; the remainder merely prevents dilution from stock-based compensation excluded from non-GAAP earnings. Verifiable from share count reconciliation in public filings.",
+    "confidence": 6,
+    "evidence": [
+      "Share count reconciliation reveals buybacks offsetting SBC dilution rather than providing true accretion",
+      "Directly verifiable from public filings",
+      "Implies commonly cited 'shareholder yield' overstates true return of capital"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "What is the correct aggregate adjustment to S&P buyback yield?",
+      "Does the offset ratio vary meaningfully by sector?",
+      "How should this affect valuation multiples for heavy-SBC companies?"
+    ],
+    "related_concepts": [
+      "sbc_restructuring_double_count",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "twin_deficit_dollar_transmission",
+    "definition": "Strong labor data no longer unambiguously supports the dollar because it simultaneously sustains import demand, widening the current account deficit. This creates a twin-deficit constraint that breaks the standard Mundell-Fleming transmission from labor strength to currency strength.",
+    "confidence": 5,
+    "evidence": [
+      "Strong labor → higher consumption → higher imports → wider current account deficit",
+      "Traditional channel: strong labor → rate expectations → dollar strength",
+      "Twin-deficit channel works in opposition to traditional channel",
+      "Net effect depends on relative magnitude of rate expectations vs. current account channels"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Has the DXY-employment-surprise correlation actually degraded measurably since 2023?",
+      "At what fiscal deficit level does the twin-deficit channel dominate?",
+      "How does this interact with reserve currency status?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "kalecki_identity_vs_causation",
+      "em_fx_labor_amplification"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "variance_risk_premium_complacency",
+    "definition": "The variance risk premium at the 20th-30th percentile represents quantitative evidence of labor market complacency — cheap compensation for vol sellers given the tail risks documented across multiple agents. This is consistent with the NFP optionality underpricing finding.",
+    "confidence": 5,
+    "evidence": [
+      "VRP at 20th-30th percentile of historical distribution",
+      "Inconsistent with documented tail risks: data degradation, hoarding break potential, fiscal withdrawal risk",
+      "Vol sellers are under-compensated relative to the labor-driven risk landscape"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "What VRP percentile would correctly price the current labor risk landscape?",
+      "Is the low VRP driven by labor-specific complacency or broader vol suppression?",
+      "What is the optimal expression of this mispricing?"
+    ],
+    "related_concepts": [
+      "nfp_optionality_underpricing",
+      "cross_asset_pricing_inconsistency",
+      "factor_crowding_labor_vulnerability"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "trigger_correlation_structure",
+    "definition": "Fiscal consolidation, immigration restriction, and AI adoption acceleration are politically correlated because the same policy environment drives all three. Trigger probabilities are positively correlated (~0.3-0.5 between pairs), making joint probability of at least two coinciding ~25-35% vs ~18% under independence.",
+    "confidence": 5,
+    "evidence": [
+      "Same political environment pursues fiscal consolidation, restricts immigration, and accelerates AI adoption",
+      "Pairwise trigger correlations estimated ~0.3-0.5",
+      "Joint probability ≥2 coinciding: ~25-35% vs ~18% under independence"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "How stable is the political correlation across administrations?",
+      "What is the aggregate labor market impact of two or more triggers coinciding?",
+      "Are there negative correlations (e.g., fiscal consolidation reducing AI investment) that moderate the concern?"
+    ],
+    "related_concepts": [
+      "fiscal_support_delay_not_prevention",
+      "immigration_reversal_wage_pressure",
+      "ai_productivity_deployment_lag",
+      "synchronized_hoarding_break"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "six_stage_deterioration_sequencing",
+    "definition": "A six-stage monitorable deterioration checklist with calibrated traversal times (12-24 months standard, 18-36 months under fiscal support). Current position identified at Stage 1: declining hires with stable layoffs. The most operationally useful contribution for tracking labor market transitions.",
+    "confidence": 6,
+    "evidence": [
+      "Calibrated against multiple post-war cycles",
+      "Current position: Stage 1 (declining hires, stable layoffs)",
+      "Standard traversal 12-24 months; fiscal-supported traversal 18-36 months",
+      "Temp help anomaly: 36 months negative without broader deterioration (either structurally broken or historically unprecedented fiscal extension)"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the temp help indicator structurally broken or is fiscal extension truly unprecedented?",
+      "What observable signals mark transitions between stages?",
+      "Does the current fiscal support extend traversal time beyond the 18-36 month estimated range?"
+    ],
+    "related_concepts": [
+      "labor_hoarding_nonlinear_break",
+      "fiscal_support_delay_not_prevention",
+      "credit_leads_labor_low_ppv"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  },
+  {
+    "slug": "analogue_1966_70",
+    "definition": "The 1966-70 period scores highest (0.72) in systematic comparison across 7 dimensions among all candidate analogues. Shared features include large fiscal deficit, tight labor late in cycle, and Fed tightening against fiscal headwind. However, low scores on labor supply dynamics (0.40) and financial structure (0.50) limit applicability.",
+    "confidence": 5,
+    "evidence": [
+      "Systematic scoring: fiscal support 0.85, monetary stance 0.80, labor tightness 0.75, inflation 0.65, wage dynamics 0.60, financial structure 0.50, labor supply 0.40",
+      "Competitors: 1989-91 (0.62), 1998-2000 (0.58), 2006-08 (0.55), 1973-75 (0.48)",
+      "Key gaps: unionization 28% then vs 10% now; services share 60% then vs 85% now; no immigration shock equivalent"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Should the analogue be used for sequencing predictions or only as a prior?",
+      "How should the 0.40 score on labor supply dynamics weight the overall analogue utility?",
+      "Is the forward-looking threshold framework methodologically sounder when analogues are imperfect?"
+    ],
+    "related_concepts": [
+      "fiscal_support_delay_not_prevention",
+      "six_stage_deterioration_sequencing",
+      "immigration_reversal_wage_pressure"
+    ],
+    "topic": "labor_market_dynamics",
+    "iteration_id": "iter_0036"
+  }
+]

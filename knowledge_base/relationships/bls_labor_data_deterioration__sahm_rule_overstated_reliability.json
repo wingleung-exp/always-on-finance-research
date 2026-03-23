@@ -1,0 +1,20 @@
+{
+  "concept_a": "bls_labor_data_deterioration",
+  "concept_b": "sahm_rule_overstated_reliability",
+  "mechanism": "Declining data quality compounds the Sahm Rule's small-sample limitations. If the unemployment rate inputs are themselves measured with greater noise (due to survey response rate declines), the rule's trigger becomes less reliable as a recession signal",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Worsens as BLS household survey response rates decline. Currently at historically low response rates.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "risk_analyst_01"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

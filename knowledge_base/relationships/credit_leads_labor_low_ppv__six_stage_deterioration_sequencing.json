@@ -1,0 +1,20 @@
+{
+  "concept_a": "credit_leads_labor_low_ppv",
+  "concept_b": "six_stage_deterioration_sequencing",
+  "mechanism": "Low PPV (~43%) of credit signals means the credit stage of the deterioration sequence may not fire reliably. The sequencing framework needs additional confirmation signals (yield curve, margin compression, alternative labor data) to filter false positives at the credit stage",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Always relevant for the credit stage of the sequence. Less relevant for stages that rely on direct labor market observables.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "generalist_02"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "trigger_correlation_structure",
+  "definition": "Fiscal consolidation, immigration restriction, and AI adoption acceleration are politically correlated because the same policy environment drives all three. Trigger probabilities are positively correlated (~0.3-0.5 between pairs), making joint probability of at least two coinciding ~25-35% vs ~18% under independence.",
+  "confidence": 5,
+  "evidence": [
+    "Same political environment pursues fiscal consolidation, restricts immigration, and accelerates AI adoption",
+    "Pairwise trigger correlations estimated ~0.3-0.5",
+    "Joint probability ≥2 coinciding: ~25-35% vs ~18% under independence"
+  ],
+  "originating_agents": [
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "How stable is the political correlation across administrations?",
+    "What is the aggregate labor market impact of two or more triggers coinciding?",
+    "Are there negative correlations (e.g., fiscal consolidation reducing AI investment) that moderate the concern?"
+  ],
+  "related_concepts": [
+    "fiscal_support_delay_not_prevention",
+    "immigration_reversal_wage_pressure",
+    "ai_productivity_deployment_lag",
+    "synchronized_hoarding_break"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

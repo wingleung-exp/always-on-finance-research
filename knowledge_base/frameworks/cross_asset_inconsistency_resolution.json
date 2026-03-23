@@ -1,0 +1,26 @@
+{
+  "slug": "cross_asset_inconsistency_resolution",
+  "purpose": "Tracks how contradictory labor market assumptions embedded in equity, rate, and credit pricing resolve, with historical base rates for resolution mode and direction",
+  "components": [
+    "Equity signal: S&P 21-22x forward P/E prices ~4.0% UE + robust consumption",
+    "Rates signal: 50-75bp easing priced requires labor softening",
+    "Credit signal: HY OAS 300-350bp prices no deterioration",
+    "Resolution base rates: gradual convergence 67%, sudden repricing 33%, equities 'won' 50%",
+    "Median persistence of inconsistency: ~13 months from 6 episodes since 1990"
+  ],
+  "current_assessment": "All three asset classes embed contradictory labor assumptions. Immigration reversal removes the supply-side channel that was the only mechanism for reconciling all three simultaneously. Resolution direction is uncertain (equities win 50% of the time).",
+  "limitations": [
+    "Specific probability assignments from asset prices were refuted — can only say 'inconsistent with rapid deterioration'",
+    "n=6 for resolution base rates",
+    "Each episode had unique features; pattern may not generalize",
+    "Resolution can be driven by exogenous shocks unrelated to labor market"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}

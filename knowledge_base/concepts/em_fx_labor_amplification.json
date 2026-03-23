@@ -1,0 +1,31 @@
+{
+  "slug": "em_fx_labor_amplification",
+  "definition": "EM FX overshoots following commodity shocks are systematically underpredicted by 15-25pp because standard models miss the labor market amplification channel. The mechanism runs: commodity price drop → fiscal revenue falls → public sector wage freeze → private demand contraction → unemployment → further contraction → FX overshoot.",
+  "confidence": 7,
+  "evidence": [
+    "Chile USD/CLP 38% reversal",
+    "Colombia COP ~60% depreciation (2014-16)",
+    "Nigeria NGN collapse",
+    "Standard models treat exchange rate as shock absorber; labor rigidity converts reversible price shocks into irreversible output shocks"
+  ],
+  "originating_agents": [
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "Can the labor amplification channel be parameterized for real-time FX modeling?",
+    "Does labor market flexibility moderate the overshoot (e.g., Chile vs. Nigeria)?",
+    "What is the optimal timing for mean-reversion trades after overshoot?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "labor_hoarding_nonlinear_break"
+  ],
+  "topic": "labor_market_dynamics",
+  "created_at": "2026-03-23T12:27:53Z",
+  "last_updated": "2026-03-23T12:27:53Z",
+  "originating_iteration": "iter_0036",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0036"
+  ]
+}
