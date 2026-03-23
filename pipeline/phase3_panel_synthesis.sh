@@ -130,7 +130,7 @@ SYNTHESIS_INSTRUCTIONS
 
 log "Running synthesis (prompt file: $(wc -c < "$PROMPT_FILE") bytes)"
 
-if cat "$PROMPT_FILE" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$OUTPUT_FILE" 2>/dev/null; then
+if cat "$PROMPT_FILE" | claude --print --no-session-persistence --setting-sources project,local --dangerously-skip-permissions --effort max > "$OUTPUT_FILE" 2>/dev/null; then
     synth_size="$(wc -c < "$OUTPUT_FILE")"
     log "Panel synthesis completed successfully (${synth_size} bytes)"
 else

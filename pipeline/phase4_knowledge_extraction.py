@@ -45,6 +45,7 @@ def run_claude(prompt_text: str) -> str:
     try:
         result = subprocess.run(
             ["claude", "--print", "--no-session-persistence",
+             "--setting-sources", "project,local",
              "--dangerously-skip-permissions", "--effort", "max"],
             stdin=open(tmp_path, "r", encoding="utf-8"),
             capture_output=True,

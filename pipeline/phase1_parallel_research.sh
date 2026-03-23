@@ -197,7 +197,7 @@ TEMPLATE
     # --- Run Claude ---
     log "Starting agent: ${role_id} (${name})"
 
-    if cat "$prompt_file" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
+    if cat "$prompt_file" | claude --print --no-session-persistence --setting-sources project,local --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
         log "Agent ${role_id} completed successfully"
     else
         local exit_code=$?

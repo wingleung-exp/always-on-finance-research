@@ -157,7 +157,7 @@ Produce your critique in EXACTLY this structure:
 INSTRUCTIONS
 
     # Run Claude
-    if cat "$prompt_file" | claude --print --no-session-persistence --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
+    if cat "$prompt_file" | claude --print --no-session-persistence --setting-sources project,local --dangerously-skip-permissions --effort max > "$output_file" 2>/dev/null; then
         log "Pair ${pair_idx} debate completed successfully"
     else
         local exit_code=$?
