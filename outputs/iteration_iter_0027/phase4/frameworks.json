@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "direction_vs_magnitude_framework",
+    "purpose": "Separates directional demographic claims (typically 7-9/10 confidence) from magnitude/timing claims (typically 3-6/10 confidence) to prevent false precision in portfolio decisions.",
+    "components": [
+      "Directional assessment: which way does aging push the variable? (high confidence, 7-9/10)",
+      "Magnitude assessment: by how much? (low confidence, 3-6/10)",
+      "Timing assessment: when do thresholds cross? (moderate confidence, varies by variable)",
+      "Calibration check: does the confidence interval allow actionable precision?",
+      "Portfolio sizing rule: size for directional conviction, not magnitude precision"
+    ],
+    "current_assessment": "The single most important methodological finding. Every debate pair independently converged on this split. All specific quantitative claims (14/14 hit rate, 40/35/15/10 decomposition, 60/25/10/5 China scenarios, 35-40% fiscal stress probability) either have CIs too wide for decisions or rest on fragile identification.",
+    "limitations": [
+      "Does not help distinguish between directional claims that are independently validated vs. those that are derivatives of a single data source",
+      "Some portfolio decisions require magnitude estimates even when confidence is low",
+      "The framework itself does not provide guidance on how to size positions given only directional conviction"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "slug": "financial_repression_tailwind_framework",
+    "purpose": "Distinguishes between financial repression with demographic tailwinds (successful deleveraging) and without (Japan-style stasis), to assess likely outcomes for current aging economies.",
+    "components": [
+      "Channel 1: Inflation erosion of real debt value (~30-50% historical contribution)",
+      "Channel 2: Nominal GDP growth diluting debt/GDP ratio (~25-40% historical contribution)",
+      "Channel 3: Primary surpluses (~10-20% historical contribution)",
+      "Channel 4: Direct repression mechanisms: rate ceilings, captive buyer mandates (~5-15% historical contribution)",
+      "Demographic tailwind test: Is labor force growth sufficient to power Channel 2?"
+    ],
+    "current_assessment": "US at 0.3% labor force growth is structurally closer to Japan pattern (stasis) than 1946-1980 pattern (successful deleveraging). Repression is the path of least resistance but without growth, the likelier outcome is prolonged moderate negative real returns without debt resolution — unless AI fills the growth gap.",
+    "limitations": [
+      "Four channels interact and are endogenous — precise decomposition is unidentifiable",
+      "Specific percentage allocations across channels were refuted as unfounded",
+      "Reserve currency status may change the dynamics in ways not captured by historical cases",
+      "AI productivity offset could alter the growth channel contribution"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "slug": "five_phase_aging_economy_sequencing",
+    "purpose": "Provides an inductive template for the progression of aging economies through financial and fiscal phases, useful as organizing heuristic for identifying where an economy currently sits.",
+    "components": [
+      "Phase 1: Early aging signals, growing awareness, initial policy response",
+      "Phase 2: Accelerating dependency, fiscal pressures mounting, initial financial repression",
+      "Phase 3: Full fiscal accommodation, monetary-fiscal coordination",
+      "Phase 4: Structural adjustment, potential crisis dynamics",
+      "Phase 5: New equilibrium (Japan terminal state)"
+    ],
+    "current_assessment": "US placed in Phase 2. Japan has traversed all five phases. However, 2/6 historical episodes deviate substantially (Germany never entered Phase 3, Italy determined by ECB). A taxonomy, not a law.",
+    "limitations": [
+      "Inductively derived from only 6 episodes",
+      "2/6 episodes deviate substantially from the template",
+      "Does not account for unique institutional features (ECB, reserve currency, etc.)",
+      "US has features that may cause deviation from any historical template",
+      "Not falsifiable as a predictive framework"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "slug": "correlation_regime_framework",
+    "purpose": "Identifies the drivers of stock-bond correlation regimes and assesses the current transition probability toward persistent positive correlation.",
+    "components": [
+      "Primary driver: CPI level (>4% → 85% positive correlation; <2% → 30%)",
+      "Historical base rate: positive correlation governed 64% of post-war period",
+      "Four conditions for negative regime (all weakening): favorable demographics, globalization, credible disinflation, EM reserve accumulation",
+      "Feedback loop: positive correlation → lower hedge value → higher term premium → reinforces positive correlation",
+      "Persistence test: 25-40% base rate for >5-year positive correlation regimes",
+      "Institutional lag: portfolio models update on 3-5 year mandate review cycles"
+    ],
+    "current_assessment": "Composite macro configuration favors positive correlation (6-7/10). Demographics is one input operating through the inflation channel but has no identifiable independent effect. The persistence probability (25-40% for >5 years) means the transition is far from guaranteed despite directional conviction.",
+    "limitations": [
+      "Demographics not statistically significant after controlling for CPI",
+      "Persistence of positive correlation regime is uncertain (25-40% base rate)",
+      "CPI trajectory itself depends on the unresolved aging-inflation/deflation binary",
+      "The feedback loop mechanism has not been quantitatively calibrated"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "slug": "em_food_inflation_transmission",
+    "purpose": "Maps the demographic-to-inflation transmission channel in emerging markets through CPI food-weight asymmetry, export bans, and political instability.",
+    "components": [
+      "CPI food-weight asymmetry: identical price shocks produce 3-10x larger CPI impacts in EM vs. DM",
+      "Population growth concentration in high-food-weight countries (~800M by 2050)",
+      "Export ban feedback loop: food inflation → aging voter pressure → export restrictions → further price increases",
+      "Political instability transmission: Arab Spring confirmed food-price → instability mechanism",
+      "Agricultural labor bifurcation: capital-rich vs capital-poor regions increasing concentration risk"
+    ],
+    "current_assessment": "The arithmetic of CPI food-weight asymmetry is irrefutable and represents the clearest novel micro-foundation for EM sovereign risk. Forward projection depends on whether productivity gains (precision agriculture, alternative proteins) offset supply constraints. The bulk commodity supply constraint was partially refuted — binding primarily for labor-intensive crops, not mechanized grain/soybean.",
+    "limitations": [
+      "Forward productivity gains could offset supply constraints",
+      "Bulk commodity supply constraint is overstated for mechanized crops",
+      "Export ban feedback depends on political systems and trade agreements",
+      "Biofuel mandate interaction is underexplored"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "slug": "immigration_credit_transmission",
+    "purpose": "Maps the three correlated channels through which immigration swings transmit to credit markets, identifying portfolio model blind spots.",
+    "components": [
+      "Channel 1: RMBS — immigration affects housing demand, mortgage origination, and agency/non-agency pipeline",
+      "Channel 2: ABS — auto, student, and consumer credit volumes affected by population growth/decline",
+      "Channel 3: Leveraged borrower margins — labor availability directly affects operating costs for labor-intensive borrowers",
+      "Correlation structure: portfolio models treat channels as independent but they are correlated through common immigration driver",
+      "Curve shape prediction: restriction → front-end steepening (expectations), expansion → flattening"
+    ],
+    "current_assessment": "Immigration swing of ±2M/year (2x natural increase) makes this the highest-variance short-horizon demographic variable. Three-channel correlation creates stress that standard portfolio models underestimate. However, persistence rate is unknowable from n=6-7 episodes (CI [12%, 88%]).",
+    "limitations": [
+      "Persistence rate unknowable from small sample (n=6-7)",
+      "Conflicting episode counts from different agents (1/7 vs 3/6)",
+      "Political volatility makes forward projection unreliable",
+      "Channel magnitudes not separately estimated"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  }
+]

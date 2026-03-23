@@ -1594,5 +1594,110 @@
     "needs": "Assessment of whether US institutional framework provides sufficient guardrails to limit comparability with cross-country evidence; quantification of current Fed independence decline relative to historical standard deviations; market pricing analysis of this risk",
     "topic": "equity_cycles",
     "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "GLP-1 agonists and longevity science could meaningfully alter the demographic fiscal trajectory within 10-15 years",
+    "source_agent": "challenger_01",
+    "needs": "Clinical evidence on compressed morbidity vs extended lifespan with maintained morbidity, adoption rate modeling, drug cost-offset analysis, behavioral response studies, political economy analysis of retirement age adjustment, and evidence on food demand channel (10-15% caloric intake reduction if 10-15% of US/EU population adopts)"
+  },
+  {
+    "claim": "Private credit NAVs are directionally overstated due to demographic-adjusted growth assumptions being lower than DCF model inputs",
+    "source_agent": "credit_analyst_02",
+    "needs": "Sector-level disaggregation of private credit portfolios by demographic exposure, comparison of embedded growth assumptions vs demographic-adjusted growth by sector, analysis of which borrower categories face binding demographic constraints vs non-demographic constraints"
+  },
+  {
+    "claim": "Retailization of private credit creates a feedback loop between investor demographics (retirees seeking yield in semi-liquid vehicles) and borrower stress",
+    "source_agent": "credit_analyst_02",
+    "needs": "Data on age distribution of semi-liquid private credit vehicle investors (~$200-300B from retail/HNW skewing 55+), analysis of gating mechanism adequacy under stress, modeling of simultaneous drawdown scenarios, comparison with historical investor-timeline/borrower-timeline mismatches"
+  },
+  {
+    "claim": "China's demographic decline creates a window of maximum relative power for strategic adventurism in 2027-2035",
+    "source_agent": "risk_analyst_02",
+    "needs": "Falsifiable criteria for distinguishing demographic-motivated strategic action from other motivations, narrower time window specification, empirical evidence beyond unfalsifiable power transition theory, and analysis avoiding historically inappropriate analogies (pre-WWI Germany, pre-WWII Japan)"
+  },
+  {
+    "claim": "Dependency ratio tipping points at ~40-45% produce nonlinear fiscal deterioration driven by healthcare cost exponential increases after age 75",
+    "source_agent": "rates_strategist_01",
+    "needs": "Additional country-level data beyond N=1 (Japan) with massive confounds, evidence that the effect is genuinely threshold-based rather than continuously accelerating, specification of the threshold with confidence intervals, separation of healthcare cost nonlinearity from other confounding factors"
+  },
+  {
+    "claim": "CLO arbitrage compression is structurally driven by demographics through pension demand compressing AAA spreads while labor scarcity widens credit losses",
+    "source_agent": "credit_analyst_02",
+    "needs": "Decomposition of Japan CLO atrophy into monetary policy vs demographic components, cross-country evidence from other aging economies, analysis distinguishing market maturation effects from demographic effects, evidence the mechanism operates independently of central bank policy"
+  },
+  {
+    "claim": "DB-to-DC pension transition structurally changes equity market microstructure by transferring duration risk from long-horizon institutions to behaviorally-biased individuals",
+    "source_agent": "generalist_01",
+    "needs": "Explanation of why predicted effects (higher dividend demand, lower risk tolerance, reduced drawdown absorption) have not materialized during 2010-2024 despite ongoing boomer retirement, accounting for the dominance of passive indexation and buybacks, resolution of theory-observation contradiction"
+  },
+  {
+    "claim": "China has a strategic 'use it or lose it' adventurism window from 2027-2032 driven by working-age population decline of ~100M by 2035 and military-age cohort shrinkage of ~25% by 2040.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Historical precedents for declining-power adventurism involved expanding populations (N=0 for contracting). Requires analysis of whether economic statecraft substitutes for military action and Taiwan-specific strategic calculus beyond demographics.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Japan's corporate credit trajectory (zombification, spread compression, CLO atrophy) is generalizable to other aging economies.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Deeper corroboration from European corporate data. Swedish/Swiss banking profitability despite aging shows the outcome is policy-contingent. Need to establish whether the mechanism operates independently or requires Japan-specific conditions.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Five-phase aging economy sequencing template provides predictive power for economy trajectories.",
+    "source_agent": "generalist_02",
+    "needs": "More than 6 episodes for induction, with 2/6 deviating substantially. Need to establish which phase transitions are predictable vs context-dependent. US-specific institutional features may cause deviation.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "PIK toggle usage serves as a real-time demographic stress indicator, rising from 8-10% (2019) to 15-20% (2025).",
+    "source_agent": "credit_analyst_02",
+    "needs": "Isolation of demographic contribution from the rate environment as proximate cause. Corroboration from other agents. Historical base rate of PIK levels during non-demographically-stressed periods at similar rate levels.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Retailization feedback loop in private credit: ~$200-300B from retirees in semi-liquid vehicles whose underlying borrowers face demographic headwinds.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Quantification of what fraction of underlying portfolios is in labor-intensive sectors. Analysis of whether RMD-driven distributions create systemic stress at current scale. Corroboration from other agents.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Economic statecraft (sanctions expansion from ~1,000 to ~12,000+ designations) serves as a demographic substitute for military capacity.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Causal identification separating demographic drivers from geopolitical, technological, and institutional drivers of sanctions expansion. Corroboration from other agents with quantitative evidence.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Central bank independence is eroding through four demographically conditioned channels with the $1T+ interest payment channel being novel.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Cross-country comparison of erosion rates across different institutional settings. The $1T+ interest payment channel is novel and flagged as genuinely important — needs formal modeling of how rate decisions become mechanically inseparable from fiscal policy at current debt levels.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Private credit NAVs are directionally overstated with secondary market showing 5-12% discounts for 2024-2025 vintage funds.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Broader secondary market data across vintages and sectors. Separation of demographic from rate-driven overstatement. Assessment of which sectors (healthcare staffing most exposed) face the largest gap.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Export ban feedback loop from aging voter demographics creates a self-reinforcing cycle of food inflation and trade restrictions.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Corroboration from other agents at comparable depth. Analysis of how trade agreements and WTO rules constrain the feedback loop. Cross-country comparison of the mechanism across different political systems.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "'Aging before rich' is a genuinely unprecedented episode (N=0) that prevents any template application to China's trajectory.",
+    "source_agent": "generalist_02",
+    "needs": "While the framing is high-confidence (7/10), any specific outcome prediction is very low confidence (3/10). Needs monitoring of China's actual fiscal capacity utilization and institutional adaptation as data emerges.",
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
   }
 ]

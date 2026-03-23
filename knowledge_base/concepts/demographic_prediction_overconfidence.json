@@ -1,0 +1,32 @@
+{
+  "slug": "demographic_prediction_overconfidence",
+  "definition": "Meta-finding that demographic direction is near-certain but magnitude and timing predictions are systematically overconfident. The split between directional confidence (7-9/10) and magnitude confidence (3-6/10) is the single most important methodological finding of the analysis.",
+  "confidence": 9,
+  "evidence": [
+    "14/14 precise quantitative claims examined either had confidence intervals too wide for decisions or rested on fragile identification",
+    "Every debate pair independently converged on the direction vs. magnitude split",
+    "Historical base rate of demographic predictions being wrong on magnitude is robust",
+    "The consensus converts directional certainty into magnitude certainty with insufficient evidence"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Is there a systematic way to improve magnitude calibration for demographic-financial predictions?",
+    "Which specific demographic-financial channels have the narrowest confidence intervals?"
+  ],
+  "related_concepts": [
+    "aging_fiscal_deterioration",
+    "simultaneous_global_aging",
+    "aging_inflation_deflation_binary"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}

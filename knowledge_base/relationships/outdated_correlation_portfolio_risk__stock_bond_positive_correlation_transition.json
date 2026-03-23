@@ -1,0 +1,20 @@
+{
+  "concept_a": "stock_bond_positive_correlation_transition",
+  "concept_b": "outdated_correlation_portfolio_risk",
+  "mechanism": "Portfolio construction models (ALM, risk parity, mean-variance) embed 1998-2021 negative correlations with 3-5 year mandate review cycles. Transition to positive correlation increases 60/40 portfolio risk by ~50% before models adjust.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Holds as long as institutional mandate review cycles lag the correlation regime change. Diminishes as mandates update. Strongest in the first 3-5 years of regime transition.",
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_01"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}

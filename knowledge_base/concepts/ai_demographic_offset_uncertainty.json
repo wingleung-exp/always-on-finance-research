@@ -1,0 +1,33 @@
+{
+  "slug": "ai_demographic_offset_uncertainty",
+  "definition": "AI could potentially offset demographic drag (0.5-1.0%/year AI productivity vs 0.3%/year demographic drag), but the asymmetry in evidential quality is real: demographic projections rest on people already born while AI estimates rest on undeployed technology. The base rate of technology-driven productivity accelerations lasting >10 years is ~2 in 150 years. Neither optimists nor pessimists have convincing calibration.",
+  "confidence": 5,
+  "evidence": [
+    "Demographic drag on US labor force: ~0.3%/year",
+    "Conservative AI productivity estimates: 0.5-1.0%/year (Acemoglu)",
+    "AI adoption endogenous to scarcity (Japan robot density 2x OECD, South Korea most robotized + lowest TFR)",
+    "Base rate of technology-driven productivity accelerations lasting >10 years: ~2 in 150 years",
+    "Both required 15-25 years of infrastructure buildout"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Can AI adoption metrics in labor-scarce sectors provide leading indicators?",
+    "Will the 2026-2029 maturity wall serve as natural experiment for AI labor substitution?",
+    "Is the asymmetric skepticism (demographics certain, AI speculative) justified or biased?"
+  ],
+  "related_concepts": [
+    "post_wwii_deleveraging_growth_impairment",
+    "maturity_wall_labor_scarcity_interaction",
+    "financial_repression_modal_resolution"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}

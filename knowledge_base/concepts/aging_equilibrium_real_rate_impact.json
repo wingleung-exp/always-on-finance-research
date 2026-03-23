@@ -1,0 +1,36 @@
+{
+  "slug": "aging_equilibrium_real_rate_impact",
+  "definition": "Aging populations depress equilibrium real rates directionally, with point estimates clustering at -0.03 to -0.05pp per 1pp dependency ratio increase, explaining 1.0-1.5pp of the ~3pp r* decline (1990-2020). Sign is robust across specifications but magnitude is poorly identified (range 0.8pp to 2.2pp cumulative). The field is structurally underpowered: needs 60-80 independent country-decade observations but has only 30-50.",
+  "confidence": 7,
+  "evidence": [
+    "Point estimates: -0.03 to -0.05pp per 1pp dependency ratio increase",
+    "Explains 1.0-1.5pp of ~3pp r* decline (1990-2020)",
+    "Partial R-squared for demographics alone: 0.15-0.30",
+    "Field needs 60-80 independent country-decade observations to detect 0.5pp effect; has 30-50",
+    "Critical confounds: 1990-2020 simultaneously featured globalization, EM savings glut, post-GFC deleveraging"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does the lifecycle savings hypothesis predict higher or lower rates from aging?",
+    "Can the demographic effect on r* be separated from globalization and post-GFC deleveraging?",
+    "Will the dissaving channel (Goodhart-Pradhan) supersede the precautionary savings channel?"
+  ],
+  "related_concepts": [
+    "lifecycle_savings_hypothesis_ambiguity",
+    "dependency_ratio_fiscal_trajectory",
+    "pension_duration_fiscal_collision",
+    "demographic_deleveraging_constraint"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:10:20Z",
+  "last_updated": "2026-03-23T08:10:20Z",
+  "originating_iteration": "iter_0025",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0025"
+  ]
+}

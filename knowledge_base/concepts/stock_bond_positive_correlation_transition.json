@@ -1,0 +1,37 @@
+{
+  "slug": "stock_bond_positive_correlation_transition",
+  "definition": "Stock-bond correlation is transitioning toward positive, but demographic attribution is weak. Positive correlation governed 64% of post-war period. The 1998-2021 negative regime required four non-repeatable conditions (favorable demographics, globalization, credible disinflation, EM reserve accumulation). CPI level dominates demographically: CPI >4% yields 85% positive correlation; demographics not statistically significant after controlling for CPI.",
+  "confidence": 7,
+  "evidence": [
+    "Positive correlation governed 64% of post-war period (48/75 years)",
+    "1998-2021 negative regime required four non-repeatable conditions all weakening simultaneously",
+    "Multivariate regression: demographics not statistically significant at 10% after controlling for CPI level",
+    "CPI >4% → 85% positive correlation; CPI <2% → 30%",
+    "Persistent positive correlation base rate of only 25-40% for >5-year regimes"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Will CPI settle above or below 4% on a sustained basis?",
+    "Can demographics operate through the inflation channel without being independently significant?",
+    "What is the true persistence probability for the current positive correlation regime?"
+  ],
+  "related_concepts": [
+    "outdated_correlation_portfolio_risk",
+    "aging_inflation_deflation_binary",
+    "correlation_term_premium_feedback",
+    "pension_fiscal_collision"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}

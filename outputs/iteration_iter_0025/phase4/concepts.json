@@ -1,0 +1,673 @@
+[
+  {
+    "slug": "below_replacement_fertility_universality",
+    "definition": "Total fertility rates have fallen below the 2.1 replacement level in 36/38 OECD countries, with convergence occurring faster than UN median projections by ~0.3 children per woman. Recovery once TFR drops below 1.5 has a base rate of only 16% (4/25 countries recovered above 1.6; none to replacement).",
+    "confidence": 9,
+    "evidence": [
+      "36/38 OECD countries below TFR 2.1",
+      "UN median variant overestimates future TFR by 0.3 children per woman across 50 countries (1% significance)",
+      "Recovery base rate once TFR falls below 1.5: 16% (4/25 countries recovered above 1.6; none to replacement)",
+      "Ultra-low TFR examples: South Korea 0.72, China ~1.0-1.1, Spain 1.16, Italy 1.24, Japan 1.20",
+      "Bangladesh went from TFR 6.9 to 2.0 in ~50 years, faster than any European country"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Can any policy intervention reliably reverse fertility decline once below 1.5?",
+      "What explains the acceleration of TFR convergence in developing countries?",
+      "Will ultra-low TFR countries (<1.0) stabilize or continue declining?"
+    ],
+    "related_concepts": [
+      "em_demographic_dividend_conditionality",
+      "china_aging_before_rich",
+      "immigration_demographic_lever",
+      "simultaneous_global_aging"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "japan_aging_non_generalizability",
+    "definition": "Japan's experience as the first major economy to undergo severe aging constitutes a sample of 1 with unique structural features (NIIP +70% GDP, >90% domestic debt ownership, persistent current account surplus, cultural savings norms) that make wholesale generalization to other aging economies inappropriate. Demographics sets direction; policy configuration determines specific financial outcomes.",
+    "confidence": 9,
+    "evidence": [
+      "Japan NIIP +70% GDP, >90% domestic debt ownership, persistent current account surplus",
+      "Multiple independent comparison tables across agents reached the same non-generalizability conclusion",
+      "Sample size is literally 1 with numerous non-separable confounding variables",
+      "Japan's corporate credit dynamics (CLO atrophy) were primarily driven by BoJ monetary policy, not demographics",
+      "Japan's 27-year deflation driven by unique non-demographic factors: asset bubble, banking crisis, yen strength, China WTO entry"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01",
+      "challenger_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Which specific aspects of Japan's experience are transferable to other economies?",
+      "Does Japan's recent wage-price dynamics (5%+ Shunto wages 2024-25) signal the end of the deflationary era?"
+    ],
+    "related_concepts": [
+      "china_aging_before_rich",
+      "aging_inflationary_tendency",
+      "aging_equilibrium_real_rate_impact"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "immigration_demographic_lever",
+    "definition": "Immigration is the highest-variance demographic variable on short horizons, with the US immigration swing (±2M persons/year) exceeding cumulative natural increase (~1M/year) by 2x. The OECD-wide simultaneous shift toward restriction is structural, not a single country's policy cycle, though policy can reverse rapidly.",
+    "confidence": 8,
+    "evidence": [
+      "US immigration swing (±2M persons/year) exceeds cumulative natural increase (~1M/year) by 2x",
+      "CBO estimates ~0.3-0.4pp GDP growth contribution from immigration surge",
+      "OECD-wide simultaneous restriction: US, Canada, Australia, UK, Italy, France, Netherlands, Sweden all tightening",
+      "Base rate: only 3/6 democracies sustained high immigration >10 years",
+      "Multiple distinct transmission channels: agricultural labor, housing formation/RMBS pipeline, leveraged borrower margins, potential GDP growth"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Is the OECD immigration restrictionist turn cyclical (18-36 months) or structural (10+ years)?",
+      "What is the empirical macro transmission to rates/inflation? Confidence interval on r* effect spans zero",
+      "Can policy reverse rapidly enough to offset labor supply contraction?"
+    ],
+    "related_concepts": [
+      "structural_labor_scarcity",
+      "aging_inflationary_tendency",
+      "cpi_weight_asymmetry_inflation_amplifier",
+      "aging_farming_supply_constraint"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "demographic_deleveraging_constraint",
+    "definition": "Labor force growth at ~0.3% vs ~1.5% post-WWII mechanically caps the growth channel that contributed ~35% of historical deleveraging. The demographic dividend contributed 30-50% of real GDP growth differentials across countries over 20-year periods. This is the single most important connection between demographics and the fiscal dominance framework.",
+    "confidence": 8,
+    "evidence": [
+      "Current labor force growth ~0.3% vs ~1.5% post-WWII",
+      "Growth channel contributed ~35% of historical deleveraging",
+      "Cross-country decomposition shows demographic dividend contributed 30-50% of real GDP growth differentials over 20-year periods",
+      "Post-war period also benefited from Green Revolution 2-3x yield gains with no comparable revolution on horizon",
+      "Confirmed in all four debates without dissent"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Can productivity growth substitute for demographic growth in deleveraging?",
+      "What alternative deleveraging mechanisms remain viable?",
+      "How does the absence of a comparable agricultural productivity revolution compound the constraint?"
+    ],
+    "related_concepts": [
+      "aging_political_economy_fiscal_expansion",
+      "dependency_ratio_fiscal_trajectory",
+      "structural_labor_scarcity",
+      "ai_demographic_substitution_uncertainty"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "china_aging_before_rich",
+    "definition": "China faces the unprecedented condition of aging into a middle-income trap with GDP per capita at aging onset of $12K vs Japan's $30K, pension funding ~40% vs ~65%, patchy social safety net, and NIIP shifting negative. Working-age population peaked ~2015, births collapsed from ~17M (2016) to ~9M (2024), TFR ~1.0-1.1.",
+    "confidence": 8,
+    "evidence": [
+      "GDP per capita at aging onset: China $12K vs Japan $30K",
+      "Pension funding: China ~40% vs Japan ~65%",
+      "Working-age population peaked ~2015, declining by ~100M by 2035",
+      "Birth collapse from 17M (2016) to 9M (2024), TFR ~1.0-1.1",
+      "China = 55% of global copper consumption, making demographic decline a structural demand shock for commodities",
+      "Scenario weights: 60% Japan-path, 25% worse, 10% systemic, 5% positive surprise"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Which scenario path dominates: Japan-path stagnation, worse than Japan, systemic, or positive surprise?",
+      "Does the primary risk channel run through geopolitical adventurism or economic dislocation?",
+      "How does the property-wealth decline interact with the aging trajectory?"
+    ],
+    "related_concepts": [
+      "japan_aging_non_generalizability",
+      "below_replacement_fertility_universality",
+      "structural_labor_scarcity"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "dependency_ratio_fiscal_trajectory",
+    "definition": "Every OECD country crossing 35% old-age dependency experienced 2-4pp structural fiscal deterioration within 15 years. The direction is near-certain but point estimates are unreliable: the 95% confidence interval on 2050 age-related costs spans 3-8% of GDP, with utilization/cost uncertainty (±3.0% GDP) and policy uncertainty (±2.0% GDP) dominating the demographic component (±1.5% GDP).",
+    "confidence": 8,
+    "evidence": [
+      "Every OECD country crossing 35% old-age dependency: 2-4pp structural fiscal deterioration within 15 years",
+      "Japan +12pp over 30 years, France +5pp, UK +3pp fiscal deterioration",
+      "Germany sole outlier via constitutional fiscal rules",
+      "95% confidence interval on 2050 age-related costs spans 3-8% of GDP",
+      "Demographic uncertainty ±1.5% GDP; utilization/cost ±3.0% GDP; policy ±2.0% GDP"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_02",
+      "quant_researcher_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Is the fiscal effect continuous or does it exhibit threshold nonlinearity at ~40-45%?",
+      "Can fiscal rules (German model) sustainably offset demographic fiscal pressure?",
+      "How should investment decisions handle the 3-8% GDP confidence interval?"
+    ],
+    "related_concepts": [
+      "aging_political_economy_fiscal_expansion",
+      "demographic_deleveraging_constraint",
+      "pension_duration_fiscal_collision"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "stock_bond_correlation_demographic_regime",
+    "definition": "Working-age population growth contributed to the 1998-2021 negative stock-bond correlation through high savings, low real rates, credible inflation targeting, and demand-shock dominance. The demographic reversal (declining savers, labor scarcity, supply-side inflation pressure) supports a return to positive correlation, though demographics is one of several contributing forces.",
+    "confidence": 7,
+    "evidence": [
+      "Positive-correlation eras (1950-1965, 1970-1998) both featured tighter labor markets and/or supply-shock dominance",
+      "Working-age population growth -> high savings -> low real rates -> credible inflation targeting -> demand-shock dominance -> negative correlation",
+      "Reversal mechanism: declining savers, labor scarcity, supply-side inflation pressure",
+      "Confirmed across all debates"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "rates_strategist_01",
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "How much of the correlation regime is demographics vs globalization, monetary credibility, and shock composition?",
+      "What is the timeline for demographic forces to dominate the correlation regime?",
+      "Can isolation of the demographic contribution be improved?"
+    ],
+    "related_concepts": [
+      "aging_equilibrium_real_rate_impact",
+      "aging_inflationary_tendency",
+      "structural_labor_scarcity"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "cpi_weight_asymmetry_inflation_amplifier",
+    "definition": "Food CPI weight ranges from 8% (US) to 49% (Nigeria), creating an arithmetic mechanism where identical food price shocks produce fundamentally different inflation outcomes. Countries with highest food CPI weights are projected to add ~800M people by 2050, creating a self-reinforcing loop: more people, more demand, tighter markets, higher food prices, larger CPI impact, greater instability.",
+    "confidence": 9,
+    "evidence": [
+      "Food CPI weight: US 8%, Nigeria 49%",
+      "20% wheat price increase = ~0.3pp US CPI vs ~2.5pp Egypt CPI",
+      "Countries with highest food CPI weights (Nigeria, Ethiopia, Pakistan, Bangladesh, Egypt) projected to add ~800M people by 2050",
+      "Self-reinforcing loop mechanism is arithmetic, not a model",
+      "Unchallenged in debate"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "How do substitution effects moderate the arithmetic impact in practice?",
+      "At what threshold does food inflation trigger political instability feedback loops?"
+    ],
+    "related_concepts": [
+      "ssa_food_import_dependency",
+      "aging_farming_supply_constraint",
+      "immigration_demographic_lever"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "aging_equilibrium_real_rate_impact",
+    "definition": "Aging populations depress equilibrium real rates directionally, with point estimates clustering at -0.03 to -0.05pp per 1pp dependency ratio increase, explaining 1.0-1.5pp of the ~3pp r* decline (1990-2020). Sign is robust across specifications but magnitude is poorly identified (range 0.8pp to 2.2pp cumulative). The field is structurally underpowered: needs 60-80 independent country-decade observations but has only 30-50.",
+    "confidence": 7,
+    "evidence": [
+      "Point estimates: -0.03 to -0.05pp per 1pp dependency ratio increase",
+      "Explains 1.0-1.5pp of ~3pp r* decline (1990-2020)",
+      "Partial R-squared for demographics alone: 0.15-0.30",
+      "Field needs 60-80 independent country-decade observations to detect 0.5pp effect; has 30-50",
+      "Critical confounds: 1990-2020 simultaneously featured globalization, EM savings glut, post-GFC deleveraging"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the lifecycle savings hypothesis predict higher or lower rates from aging?",
+      "Can the demographic effect on r* be separated from globalization and post-GFC deleveraging?",
+      "Will the dissaving channel (Goodhart-Pradhan) supersede the precautionary savings channel?"
+    ],
+    "related_concepts": [
+      "lifecycle_savings_hypothesis_ambiguity",
+      "dependency_ratio_fiscal_trajectory",
+      "pension_duration_fiscal_collision",
+      "demographic_deleveraging_constraint"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "aging_inflationary_tendency",
+    "definition": "Aging is assessed as more likely inflationary than deflationary over the next 15 years through labor supply contraction, retiree dissaving, larger fiscal deficits, and consumption shift toward labor-intensive non-tradeable services. Even Japan is now experiencing wage-price dynamics after 27 years of deflation. The moderating variable is fiscal policy stance and central bank independence.",
+    "confidence": 6,
+    "evidence": [
+      "Labor supply contraction driving wage pressure (Japan 5%+ Shunto wages 2024-25)",
+      "Dissaving by retirees reduces national savings",
+      "Fiscal transfers produce larger deficits",
+      "Consumption shift toward labor-intensive non-tradeable services",
+      "Goodhart-Pradhan thesis supported by 5 years of post-2020 evidence",
+      "Japan's 27-year deflation acknowledged as driven by unique non-demographic factors"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Is the sample too small for a reliable base rate on aging-inflation relationship?",
+      "Does fiscal policy stance and central bank independence dominate the demographic effect?",
+      "Will Japan's recent inflationary experience persist or revert?"
+    ],
+    "related_concepts": [
+      "structural_labor_scarcity",
+      "aging_political_economy_fiscal_expansion",
+      "lifecycle_savings_hypothesis_ambiguity",
+      "japan_aging_non_generalizability"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "china_demographic_cliff_macro_risk",
+    "definition": "China's demographic cliff is assessed as the largest single cross-asset macro risk for 2026-2035. Working-age population peaked ~2015, declining by ~100M by 2035. China consumes 55% of global copper. Birth collapse from 17M to 9M/year implies a structural demand shock for commodities and a shift from investment to consumption growth with lower commodity intensity.",
+    "confidence": 7,
+    "evidence": [
+      "Working-age population declining by ~100M by 2035 — arithmetic, not forecast",
+      "China = 55% of global copper consumption",
+      "Birth collapse from 17M to 9M/year",
+      "Shift from investment to consumption growth historically generates lower commodity intensity"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_02",
+      "commodities_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is US fiscal dominance a competing or compounding macro risk?",
+      "How does the economic dislocation channel interact with the geopolitical adventurism channel?",
+      "What is the specific scenario path for commodity demand impact?"
+    ],
+    "related_concepts": [
+      "china_aging_before_rich",
+      "japan_aging_non_generalizability",
+      "structural_labor_scarcity"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "em_demographic_dividend_conditionality",
+    "definition": "The EM demographic dividend has an unconditional realization rate of ~55-65%, rising to 80-85% with above-median institutional quality. The dividend is a self-destructing call option: income growth kills fertility once countries cross the $8K-12K GDP per capita threshold, unwinding the dividend precisely as it materializes.",
+    "confidence": 7,
+    "evidence": [
+      "Of ~30 countries with comparable demographic transitions (1960-2000), ~17-19 achieved growth acceleration (55-65%)",
+      "Conditional rate with above-median institutional quality: 80-85%",
+      "Income growth kills fertility, creating self-destructing call option",
+      "Youth-bulge-instability correlation (Urdal 2006): governance is the mediating variable",
+      "Conditional probability of young-population EM generating above-median USD equity returns: 35-45%",
+      "Fertility and income negatively correlated above $8K-12K GDP per capita"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_02",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Which current EM countries have institutional quality sufficient to realize the dividend?",
+      "How quickly does the dividend self-destruct once income growth takes hold?",
+      "Is the $8K-12K GDP per capita fertility threshold shifting?"
+    ],
+    "related_concepts": [
+      "below_replacement_fertility_universality",
+      "ssa_food_import_dependency",
+      "cpi_weight_asymmetry_inflation_amplifier"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "structural_labor_scarcity",
+    "definition": "The global labor supply roughly doubled from 1990-2015 (China WTO entry, post-Soviet integration, EM dividend); this process is reversing. US labor share has partially recovered from 57% (2014) to 59-60% (2025). Unit labor costs have grown faster than productivity in 12 of 16 recent quarters. This represents a potential regime shift in capital-labor bargaining dynamics.",
+    "confidence": 6,
+    "evidence": [
+      "Global labor supply roughly doubled 1990-2015, now reversing",
+      "US labor share recovery from 57% (2014) to 59-60% (2025)",
+      "Unit labor costs grew faster than productivity in 12 of 16 recent quarters",
+      "Sector-specific channels: agricultural labor (50-70% foreign-born), leveraged borrower margins (labor 40-70% of costs), healthcare staffing"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01",
+      "credit_analyst_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Will AI complement or substitute for scarce labor? Complementarity amplifies scarcity",
+      "How long is the 5-15 year transition period before automation materially offsets labor decline?",
+      "Is the labor share recovery structural or cyclical?"
+    ],
+    "related_concepts": [
+      "aging_inflationary_tendency",
+      "maturity_wall_labor_squeeze",
+      "immigration_demographic_lever",
+      "ai_demographic_substitution_uncertainty"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "pension_duration_fiscal_collision",
+    "definition": "Global pension assets ~$55-60T with ~60% in DB plans requiring duration matching create a structural bid for long-duration assets. This demand is mandate-driven (ALM), not behavioral, and reverses only with regulatory change. The pension bid now collides with rising fiscal supply from aging-related spending — forces that reinforced each other from 2000-2020 have diverged.",
+    "confidence": 7,
+    "evidence": [
+      "Global pension assets ~$55-60T, ~60% in DB plans requiring duration matching",
+      "UK DB pensions ~GBP 1.5T in gilts/LDI; US DB pensions ~$5T in fixed income",
+      "UK LDI crisis (2022) demonstrated structural bid is leveraged and fragile",
+      "Pension demand and fiscal supply reinforced each other 2000-2020, now diverge",
+      "Mandate-driven (ALM), not behavioral — reverses only with regulatory change"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Which force dominates at different points on the yield curve?",
+      "Is the 10Y-30Y segment the fulcrum for marginal shifts?",
+      "How does the DB-to-DC transition alter the structural demand profile over time?"
+    ],
+    "related_concepts": [
+      "dependency_ratio_fiscal_trajectory",
+      "aging_equilibrium_real_rate_impact",
+      "aging_political_economy_fiscal_expansion"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "maturity_wall_labor_squeeze",
+    "definition": "The interaction of ~$350B leveraged loans + ~$250B HY bonds maturing annually in 2026-2028 with demographic labor scarcity creates a novel dual squeeze: firms cannot cut labor costs to maintain margins for refinancing when labor markets remain tight even as revenues soften. Historical default models (3-5% in recession) may underestimate the demographic overlay (5-8%).",
+    "confidence": 6,
+    "evidence": [
+      "~$350B leveraged loans + ~$250B HY bonds maturing annually 2026-2028",
+      "200bp annual margin compression on 6.5x levered company reduces interest coverage from ~2.0x to ~1.5x within 3 years",
+      "In standard recessions, labor cost cuts provide margin relief; demographic squeeze eliminates this valve",
+      "Historical default models 3-5% may underestimate to 5-8% with demographic overlay",
+      "Validated in debate as analytically novel"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Is this interaction testable in prior cycles or genuinely unprecedented?",
+      "Which sectors are most exposed to the dual squeeze?",
+      "How do covenant-lite structures amplify the risk?"
+    ],
+    "related_concepts": [
+      "structural_labor_scarcity",
+      "ebitda_addback_demographic_fiction",
+      "immigration_demographic_lever"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "ebitda_addback_demographic_fiction",
+    "definition": "Average EBITDA addbacks at ~25-30% of reported EBITDA often represent projected labor rationalization synergies that are unrealizable in tight labor markets where replacement workers are unavailable. Covenant-lite share (~87% of issuance) means lenders cannot intervene when synergies fail to materialize.",
+    "confidence": 6,
+    "evidence": [
+      "S&P LCD data: average EBITDA addbacks at ~25-30% of reported EBITDA",
+      "Significant portion represents projected cost synergies — often labor rationalization",
+      "Covenant-lite share ~87% of issuance prevents lender intervention",
+      "Validated in debate as sharp and actionable"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What share of addbacks specifically relate to labor synergies vs other cost categories?",
+      "Which sectors have highest exposure to unrealizable labor synergies?",
+      "How does this interact with the maturity wall timing?"
+    ],
+    "related_concepts": [
+      "maturity_wall_labor_squeeze",
+      "structural_labor_scarcity"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "aging_political_economy_fiscal_expansion",
+    "definition": "As median voter age rises (Japan ~55, Italy ~52, Germany ~49, US ~47), the electorate shifts from net taxpayers to net transfer recipients, systematically producing fiscal expansion. Central bank independence erodes through appointment dynamics, mandate expansion, and implicit coordination. This provides the micro-foundation for financial repression as the path of least resistance.",
+    "confidence": 7,
+    "evidence": [
+      "Rising median voter ages: Japan ~55, Italy ~52, Germany ~49, US ~47",
+      "Positive correlation between population aging and government social spending (Sanz and Velazquez 2007)",
+      "Japan template: BoJ-MoF coordination became effectively implicit fiscal financing",
+      "CB independence erodes through appointment dynamics, mandate expansion, implicit coordination",
+      "Financial repression emerges as path of least resistance, not deliberate policy choice"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Can institutional design (constitutional fiscal rules) sustainably resist the political economy pressure?",
+      "What is the timeline from median voter aging to measurable CB independence erosion?",
+      "Does the Japan template of implicit fiscal financing generalize to other institutional contexts?"
+    ],
+    "related_concepts": [
+      "dependency_ratio_fiscal_trajectory",
+      "demographic_deleveraging_constraint",
+      "japan_aging_non_generalizability",
+      "pension_duration_fiscal_collision"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "ssa_food_import_dependency",
+    "definition": "Sub-Saharan Africa shifted from net food exporter (1970s) to ~$50B annual importer, with population projected to grow from ~1.2B to ~2.1B by 2050. Cereal yields at ~1.5 t/ha vs ~4 t/ha global average, yield growth 1.5% vs population growth 2.5%, and only 6% of arable land irrigated vs 40% in Asia. The gap is structural.",
+    "confidence": 7,
+    "evidence": [
+      "SSA shifted from net food exporter (1970s) to ~$50B annual importer",
+      "Population projected to grow from ~1.2B to ~2.1B by 2050",
+      "Cereal yields 1.5 t/ha vs 4 t/ha global average",
+      "Yield growth 1.5% vs population growth 2.5%",
+      "Only 6% arable land irrigated vs 40% in Asia"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Can technology transfer close the yield gap fast enough to offset population growth?",
+      "How does climate change compound the structural food security challenge?",
+      "What investment in irrigation could materially alter the trajectory?"
+    ],
+    "related_concepts": [
+      "cpi_weight_asymmetry_inflation_amplifier",
+      "aging_farming_supply_constraint",
+      "em_demographic_dividend_conditionality"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "aging_farming_supply_constraint",
+    "definition": "Median farmer ages are rising across advanced economies (US 58, Japan 67, EU 32% over 65) with replacement rates below unity. Specialty crops requiring hand harvesting face real near-term labor constraints, though row crop productivity has offset farmer population decline through technology and capital investment.",
+    "confidence": 6,
+    "evidence": [
+      "Median US farmer age 58 (USDA Census), Japan 67, EU 32% of farm holders over 65",
+      "Replacement rates below unity in every advanced economy",
+      "US agricultural output grew ~1.5% annually for decades despite farming population decline",
+      "Specialty crops resist mechanization and require decades of soil-specific knowledge",
+      "Binding constraint for row crops is capital/technology, not headcount; for specialty crops, labor constraint is real"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Can specialty crop mechanization advance fast enough to offset labor retirement?",
+      "How does immigration restriction interact with the 50-70% foreign-born agricultural labor force?",
+      "What is the timeline for farmer retirement waves in major producing countries?"
+    ],
+    "related_concepts": [
+      "immigration_demographic_lever",
+      "cpi_weight_asymmetry_inflation_amplifier",
+      "ssa_food_import_dependency",
+      "structural_labor_scarcity"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "simultaneous_global_aging",
+    "definition": "All major economies are aging concurrently for the first time in history, eliminating the demographic arbitrage that previously allowed capital and labor to flow between demographically divergent economies. This is an unprecedented structural condition with no historical template.",
+    "confidence": 8,
+    "evidence": [
+      "All major economies aging simultaneously — unprecedented in history",
+      "Eliminates historical demographic arbitrage between economies at different life-cycle stages",
+      "Eastern European depopulation cascades: emigration reduces dynamism, driving further emigration",
+      "Markets mispriced growth by 1-2pp annually for at least a decade across 7 demographic transitions"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does simultaneous aging imply globally lower r* with no offset mechanism?",
+      "Which countries or regions retain genuine demographic advantages?",
+      "How does simultaneous aging affect global capital allocation patterns?"
+    ],
+    "related_concepts": [
+      "below_replacement_fertility_universality",
+      "aging_equilibrium_real_rate_impact",
+      "demographic_deleveraging_constraint"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "demographic_pricing_paradox",
+    "definition": "Demographics is among the most predictable macro variables, but predictability implies pricing efficiency. Alpha requires second-order effects, trajectory uncertainty, or regime change identification. The resolution: demographics-as-trend is likely priced; demographics-as-regime-change may not be, due to hyperbolic discounting at nonlinear transition points.",
+    "confidence": 7,
+    "evidence": [
+      "Cannot simultaneously claim demographics is most predictable AND systematically mispriced",
+      "Threshold effects and hyperbolic discounting may create exploitable mispricings at nonlinear transition points",
+      "Across 7 demographic transitions, markets mispriced growth by 1-2pp annually for at least a decade",
+      "Limited upside to being consensus-right, violent unwind if consensus-wrong on direction/speed/fixability"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "At what horizons does demographic predictability translate to pricing efficiency?",
+      "Can regime-change identification provide reliable alpha?",
+      "Does hyperbolic discounting create systematic mispricing at demographic transition points?"
+    ],
+    "related_concepts": [
+      "dependency_ratio_fiscal_trajectory",
+      "stock_bond_correlation_demographic_regime",
+      "simultaneous_global_aging"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "lifecycle_savings_hypothesis_ambiguity",
+    "definition": "The single most important unresolved demographic question for financial markets: the standard model (aging leads to precautionary/bequest saving and lower rates) conflicts with Goodhart-Pradhan (aging leads to dissaving and higher rates). Both mechanisms operate simultaneously with different lags, and the answer depends critically on pension system design.",
+    "confidence": 5,
+    "evidence": [
+      "Standard model predicts lower rates from aging; Goodhart-Pradhan predicts higher rates",
+      "Both mechanisms operate simultaneously with different lags",
+      "N is too small to resolve in cross-country data",
+      "Answer depends critically on pension system design, which varies enormously across countries"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Which mechanism dominates at what stage of the aging process?",
+      "How does pension system design (DB vs DC, funded vs PAYG) mediate the savings-rates relationship?",
+      "Will the 2025-2040 rate environment look like demographics keeps rates low or pushes rates higher?"
+    ],
+    "related_concepts": [
+      "aging_equilibrium_real_rate_impact",
+      "pension_duration_fiscal_collision",
+      "aging_inflationary_tendency"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  },
+  {
+    "slug": "ai_demographic_substitution_uncertainty",
+    "definition": "Whether AI/automation can substitute for demographic headwinds at macro scale is the largest uncertainty in the long-run macro outlook. The base rate of technology-driven productivity accelerations lasting >10 years is low (arguably 2 episodes). If pronatalism fails and immigration is constrained, all demographic risk concentrates into AI as the sole remaining variable.",
+    "confidence": 4,
+    "evidence": [
+      "Base rate of technology-driven productivity accelerations >10 years: arguably 2 episodes (electrification 1920-1940, IT 1995-2005)",
+      "5-15 year transition period where labor scarcity AND automation anxiety coexist",
+      "If AI complements rather than substitutes labor, it amplifies scarcity",
+      "All demographic risk funnels into AI if pronatalism fails and immigration is constrained"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is AI substitutive or complementary to human labor at macro scale?",
+      "What is the realistic timeline for AI to offset demographic labor decline?",
+      "Does concentration of demographic risk into a single variable (AI) create systemic fragility?"
+    ],
+    "related_concepts": [
+      "structural_labor_scarcity",
+      "demographic_deleveraging_constraint",
+      "aging_inflationary_tendency"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0025"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "slug": "split_confidence_methodology",
+  "purpose": "Provides more honest uncertainty communication by separately rating confidence in the sign/direction of an effect versus its magnitude",
+  "components": [
+    "Sign confidence: probability the directional effect is correct (e.g., 7/10 for aging depresses r*)",
+    "Magnitude confidence: probability the quantified estimate is accurate (e.g., 4/10 for the 1.0-1.5pp estimate)",
+    "Explicitly distinguishes between knowing the direction and knowing the size"
+  ],
+  "current_assessment": "Applied to aging-r* relationship (7/10 sign, 4/10 magnitude). Broadly applicable to demographic-financial claims where directional evidence is robust but quantification is structurally underpowered.",
+  "limitations": [
+    "Requires sufficient evidence to assess even sign confidence",
+    "Does not address timing uncertainty as a separate dimension",
+    "May create false precision in the confidence numbers themselves"
+  ],
+  "topic": "",
+  "created_at": "2026-03-23T08:10:20Z",
+  "last_updated": "2026-03-23T08:10:20Z",
+  "originating_iteration": "iter_0025",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0025"
+  ]
+}

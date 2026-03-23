@@ -1,0 +1,36 @@
+{
+  "slug": "dependency_ratio_fiscal_trajectory",
+  "definition": "Every OECD country crossing 35% old-age dependency experienced 2-4pp structural fiscal deterioration within 15 years. The direction is near-certain but point estimates are unreliable: the 95% confidence interval on 2050 age-related costs spans 3-8% of GDP, with utilization/cost uncertainty (±3.0% GDP) and policy uncertainty (±2.0% GDP) dominating the demographic component (±1.5% GDP).",
+  "confidence": 8,
+  "evidence": [
+    "Every OECD country crossing 35% old-age dependency: 2-4pp structural fiscal deterioration within 15 years",
+    "Japan +12pp over 30 years, France +5pp, UK +3pp fiscal deterioration",
+    "Germany sole outlier via constitutional fiscal rules",
+    "95% confidence interval on 2050 age-related costs spans 3-8% of GDP",
+    "Demographic uncertainty ±1.5% GDP; utilization/cost ±3.0% GDP; policy ±2.0% GDP"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "risk_analyst_02",
+    "quant_researcher_01",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Is the fiscal effect continuous or does it exhibit threshold nonlinearity at ~40-45%?",
+    "Can fiscal rules (German model) sustainably offset demographic fiscal pressure?",
+    "How should investment decisions handle the 3-8% GDP confidence interval?"
+  ],
+  "related_concepts": [
+    "aging_political_economy_fiscal_expansion",
+    "demographic_deleveraging_constraint",
+    "pension_duration_fiscal_collision"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:10:20Z",
+  "last_updated": "2026-03-23T08:10:20Z",
+  "originating_iteration": "iter_0025",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0025"
+  ]
+}

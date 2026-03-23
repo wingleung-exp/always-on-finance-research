@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "tripartite_demographic_world",
+    "purpose": "Classifies countries into three categories based on demographic trajectory to identify incompatible policy needs and distinct investment regimes",
+    "components": [
+      "Aging-rich: advanced economies with high old-age dependency, fiscal pressure, low growth (Japan, Germany, Italy)",
+      "Young-poor: high-fertility developing economies with food security challenges, instability risk, potential dividend (Sub-Saharan Africa, parts of South Asia)",
+      "Collapsing-fertility-middle: countries compressing 80-100 year demographic transitions into 30-40 years (Brazil, Turkey, Thailand, Vietnam, China)"
+    ],
+    "current_assessment": "The three categories have incompatible policy needs: aging-rich need fiscal sustainability and immigration; young-poor need institutional development and food security; collapsing-middle face the narrowest policy windows. Simultaneous aging eliminates historical demographic arbitrage between categories.",
+    "limitations": [
+      "Categories are not mutually exclusive — some countries exhibit features of multiple categories",
+      "The collapsing-middle category is historically unprecedented, limiting analogical reasoning",
+      "Does not account for within-country demographic heterogeneity",
+      "Policy interactions between categories (e.g., immigration flows) are endogenous"
+    ]
+  },
+  {
+    "slug": "demographic_fiscal_dominance_transmission",
+    "purpose": "Maps the causal chain from demographic change through political economy to financial repression, identifying the micro-foundation for fiscal dominance",
+    "components": [
+      "Rising dependency ratios create structural fiscal deterioration (2-4pp per 35% dependency threshold crossing)",
+      "Median voter aging shifts electorate from net taxpayers to net transfer recipients",
+      "Democratic pressure produces fiscal expansion and central bank independence erosion",
+      "Financial repression emerges as path of least resistance — not deliberate policy choice",
+      "Demographics constrains growth-based deleveraging (labor force growth 0.3% vs 1.5% post-WWII)"
+    ],
+    "current_assessment": "Directionally robust and confirmed across multiple debates. The fiscal dominance connection is the single most important link between demographics and the broader macro framework. Germany's constitutional fiscal rules are the only documented institutional offset.",
+    "limitations": [
+      "Point estimates of fiscal impact unreliable (95% CI spans 3-8% of GDP)",
+      "Policy responses can delay or redirect transmission for extended periods",
+      "Financial repression endpoint is probabilistic, not deterministic",
+      "Institutional design (constitutional fiscal rules) can partially resist political economy pressure"
+    ]
+  },
+  {
+    "slug": "pension_fiscal_reflexive_loop",
+    "purpose": "Identifies the self-reinforcing dynamic between pension demand for duration and fiscal supply of long-dated debt, and the current divergence of these forces",
+    "components": [
+      "Pension funds need long bonds to match liabilities (mandate-driven ALM, not behavioral)",
+      "Governments issue long bonds to fund pension and healthcare obligations",
+      "From 2000-2020 both forces compressed term premia (reinforcing)",
+      "Now diverging: fiscal supply channel reversed while pension demand persists",
+      "10Y-30Y segment abnormally sensitive to marginal shifts between forces"
+    ],
+    "current_assessment": "The collision between persistent pension demand and rising fiscal supply is the defining question for long-end rates positioning. UK LDI crisis (2022) demonstrated the structural bid is leveraged and fragile.",
+    "limitations": [
+      "Cannot predict which force dominates at each maturity point",
+      "DB-to-DC transition gradually reduces mandate-driven demand",
+      "Regulatory changes could alter pension duration requirements",
+      "Government issuance patterns (maturity choices) are endogenous to market conditions"
+    ]
+  },
+  {
+    "slug": "demographic_regime_vs_trend_pricing",
+    "purpose": "Resolves the paradox of demographics being both predictable and potentially mispriced by distinguishing trend pricing from regime-change pricing",
+    "components": [
+      "Demographics-as-trend: gradual, predictable changes likely already priced by efficient markets",
+      "Demographics-as-regime-change: nonlinear transitions at threshold crossings potentially mispriced due to hyperbolic discounting",
+      "Alpha exists in identifying regime changes, not in trend extrapolation",
+      "Base rate: markets mispriced growth by 1-2pp annually for at least a decade across 7 demographic transitions"
+    ],
+    "current_assessment": "Provides a coherent framework for demographic alpha seeking but requires further analytical development. The distinction between trend and regime is clearer in theory than in real-time identification.",
+    "limitations": [
+      "Real-time regime identification is difficult — transition may only be clear in hindsight",
+      "Negative carry and 10-20 year uncertain timing make correctly identified regime changes hard to monetize",
+      "The 7-transition base rate may suffer from selection bias",
+      "Does not specify which instruments best express demographic regime change views"
+    ]
+  },
+  {
+    "slug": "split_confidence_methodology",
+    "purpose": "Provides more honest uncertainty communication by separately rating confidence in the sign/direction of an effect versus its magnitude",
+    "components": [
+      "Sign confidence: probability the directional effect is correct (e.g., 7/10 for aging depresses r*)",
+      "Magnitude confidence: probability the quantified estimate is accurate (e.g., 4/10 for the 1.0-1.5pp estimate)",
+      "Explicitly distinguishes between knowing the direction and knowing the size"
+    ],
+    "current_assessment": "Applied to aging-r* relationship (7/10 sign, 4/10 magnitude). Broadly applicable to demographic-financial claims where directional evidence is robust but quantification is structurally underpowered.",
+    "limitations": [
+      "Requires sufficient evidence to assess even sign confidence",
+      "Does not address timing uncertainty as a separate dimension",
+      "May create false precision in the confidence numbers themselves"
+    ]
+  },
+  {
+    "slug": "conditional_demographic_dividend",
+    "purpose": "Assesses the probability that a country with favorable demographics will successfully convert its demographic window into economic growth",
+    "components": [
+      "Unconditional realization rate: 55-65% based on ~30 historical transitions",
+      "Conditional on above-median institutional quality: 80-85%",
+      "Self-destructing call option: income growth kills fertility above $8K-12K GDP per capita",
+      "Youth bulge increases conflict probability by 30-40% conditional on poor governance (Urdal 2006)",
+      "Conditional probability of above-median USD equity returns from young-population EM: 35-45%"
+    ],
+    "current_assessment": "The dividend is real but conditional, temporary, and self-defeating. Investment theses based on the next billion consumers must account for the negative correlation between fertility and income above the $8K-12K threshold.",
+    "limitations": [
+      "Historical base rates may not apply to current institutional contexts",
+      "The income-fertility threshold may be shifting over time",
+      "Does not account for simultaneous aging of major trading partners",
+      "35-45% conditional probability of above-median returns may not justify concentration risk"
+    ]
+  },
+  {
+    "slug": "leveraged_credit_demographic_squeeze",
+    "purpose": "Identifies how demographic forces interact with credit market structures to create novel risk dynamics in leveraged lending",
+    "components": [
+      "Maturity wall concentration (~$600B annually 2026-2028)",
+      "Labor scarcity eliminates traditional margin relief valve (labor cost cuts)",
+      "EBITDA addbacks (~25-30%) embed unrealizable labor synergies",
+      "Covenant-lite structures (~87%) prevent lender intervention",
+      "Historical default models (3-5%) may underestimate demographic overlay (5-8%)"
+    ],
+    "current_assessment": "Analytically novel and internally consistent. The dual squeeze of refinancing pressure and labor scarcity is unprecedented. Requires sector-level disaggregation — many leveraged borrowers in sectors where demographics is not the binding constraint.",
+    "limitations": [
+      "Untested in prior cycles — the interaction is genuinely novel",
+      "Requires sector-level analysis not yet performed",
+      "Many leveraged borrowers in technology/software sectors may be less exposed",
+      "Immigration policy reversal could rapidly change labor scarcity dynamic"
+    ]
+  },
+  {
+    "slug": "bifurcated_agricultural_inflation_regime",
+    "purpose": "Distinguishes between disinflationary agricultural dynamics in aging populations and structurally inflationary dynamics in growing populations",
+    "components": [
+      "Aging populations: declining food demand, potential GLP-1 caloric reduction, urbanization consuming productive farmland",
+      "Growing populations: rising demand, high food CPI weights, self-reinforcing price-instability loop",
+      "Farmer aging creating supply constraints in both regimes but through different mechanisms",
+      "Immigration as the bridge variable linking agricultural labor markets across regimes"
+    ],
+    "current_assessment": "Creates fundamentally different inflation environments across the tripartite demographic world. The arithmetic CPI weight mechanism (9/10 confidence) makes this one of the most robust demographic-financial claims.",
+    "limitations": [
+      "Technology transfer pace is the key uncertain variable",
+      "Climate change introduces a non-demographic supply shock that interacts with demographic trajectories",
+      "GLP-1 caloric demand reduction is speculative (3/10 confidence)",
+      "Trade policy can redirect food flows independent of demographic fundamentals"
+    ]
+  }
+]

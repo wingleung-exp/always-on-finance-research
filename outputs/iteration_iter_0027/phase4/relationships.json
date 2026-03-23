@@ -1,0 +1,287 @@
+[
+  {
+    "concept_a": "sub_replacement_fertility_persistence",
+    "concept_b": "aging_fiscal_deterioration",
+    "mechanism": "Sub-replacement fertility mechanically produces higher dependency ratios over 20-30 year horizons, increasing healthcare, pension, and social spending as a share of GDP regardless of policy response.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Universal for economies that have crossed below 1.5 TFR. Timeline varies by current age structure and immigration levels. Arithmetic relationship holds regardless of policy regime.",
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "aging_fiscal_deterioration",
+    "concept_b": "financial_repression_modal_resolution",
+    "mechanism": "Mounting fiscal pressure from aging-driven spending meets the political economy ratchet (aging voters prefer transfers over austerity), making financial repression the path of least political resistance.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds for own-currency advanced economies. Does not apply to currency union members without fiscal sovereignty (e.g., Greece). Historical base rate: 3/3 comparable cases chose repression.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "aging_political_economy_ratchet",
+    "concept_b": "financial_repression_modal_resolution",
+    "mechanism": "Rising median voter age shifts decisive cohort to net transfer recipients, creating sustained political pressure for fiscal expansion and monetary accommodation that erodes institutional constraints designed to prevent repression.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Operates in democracies with ~1/20 counterexample rate. Mechanism requires democratic accountability to median voter preferences. Autocracies may follow different paths.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "aging_political_economy_ratchet",
+    "concept_b": "central_bank_independence_erosion",
+    "mechanism": "Four channels: sympathetic governor appointments, mandate expansion, $1T+ interest payments making rate decisions de facto fiscal policy, and aging electorates tolerating inflation. Each erodes independence through a distinct institutional pathway.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Varies enormously across institutional settings. UK gilt crisis shows market discipline partially constrains. Strongest where fiscal-monetary coordination already normalized (Japan). Weakest where institutional independence is constitutionally protected.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "sub_replacement_fertility_persistence",
+    "concept_b": "post_wwii_deleveraging_growth_impairment",
+    "mechanism": "Labor force growth decline from ~1.5%/year to ~0.3%/year (75-80% reduction) directly impairs the growth channel that contributed ~25-40% of post-WWII deleveraging.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Arithmetic relationship that holds universally. The growth channel contribution to deleveraging is mechanically reduced by lower labor force growth regardless of other policy variables.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "post_wwii_deleveraging_growth_impairment",
+    "concept_b": "financial_repression_modal_resolution",
+    "mechanism": "If growth cannot do the deleveraging work (impaired by demographics), either inflation must do more (pushing toward 5-6%), deleveraging takes much longer, or repression becomes more prolonged. The missing growth channel forces reliance on the repression channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when debt/GDP ratios require reduction. If policy accepts permanently higher debt/GDP, the relationship weakens. AI productivity could partially substitute for missing growth.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "aging_fiscal_deterioration",
+    "concept_b": "term_premium_demographic_uplift",
+    "mechanism": "Aging-driven fiscal deterioration increases Treasury supply at 10Y-30Y maturities. Fiscal supply elasticity of 20-40bp per 1pp deficit/GDP translates higher deficits into higher term premium, though the elasticity may not hold post-QE or for reserve currency issuers.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Established in pre-QE regressions. May be attenuated for reserve currency issuers. Strengthens when multiple major economies deteriorate simultaneously (no safety valve).",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "stock_bond_positive_correlation_transition",
+    "concept_b": "outdated_correlation_portfolio_risk",
+    "mechanism": "Portfolio construction models (ALM, risk parity, mean-variance) embed 1998-2021 negative correlations with 3-5 year mandate review cycles. Transition to positive correlation increases 60/40 portfolio risk by ~50% before models adjust.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as institutional mandate review cycles lag the correlation regime change. Diminishes as mandates update. Strongest in the first 3-5 years of regime transition.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "aging_inflation_deflation_binary",
+    "concept_b": "stock_bond_positive_correlation_transition",
+    "mechanism": "Inflation regime dominates stock-bond correlation: CPI >4% → 85% positive correlation. Whether aging produces net inflation or deflation therefore determines whether demographic forces reinforce or undermine the correlation transition.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "CPI level is the dominant driver. If aging proves deflationary (Japan model), correlation may revert to negative. If inflationary (fiscal expansion channel), positive correlation is reinforced.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "pension_fiscal_collision",
+    "concept_b": "term_premium_demographic_uplift",
+    "mechanism": "Pension mandate-driven demand at 10Y-30Y maturities previously compressed term premium. As pension plans mature and derisking shifts demand shorter, supply-demand divergence at the long end widens, amplifying the demographic term premium uplift.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Strengthens as pension plans mature and shift from accumulation to decumulation. UK LDI crisis showed fracture dynamics under stress. Pension bid stabilizes during normal conditions but creates fragile false floor.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "correlation_term_premium_feedback",
+    "concept_b": "stock_bond_positive_correlation_transition",
+    "mechanism": "Self-reinforcing: positive correlation reduces bonds' hedging value → investors demand higher term premium → higher rates further undermine bond performance relative to equities → reinforces positive correlation.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Amplification loop operates regardless of the initial trigger (demographics, inflation, or fiscal). Can create persistent regime shifts beyond what fundamentals alone would produce. Central bank intervention can potentially break the loop.",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "simultaneous_global_aging",
+    "concept_b": "term_premium_demographic_uplift",
+    "mechanism": "When all major capital destinations age simultaneously, the capital-flow safety valve that allowed Japan to age without term premium explosion (capital stayed domestic) is eliminated. No external surplus savings pool to absorb fiscal supply.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Unprecedented (N=0). Holds on 10-year horizon where India/Africa institutional capacity is insufficient. May weaken on 20-year horizon if India/Africa develop capital market depth.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "ebitda_addback_labor_scarcity",
+    "concept_b": "default_model_demographic_miscalibration",
+    "mechanism": "EBITDA addbacks embed labor synergies calibrated to higher labor force growth. When synergies fail to materialize under labor scarcity, actual EBITDA falls short of projected, and covenant-lite structures (87%) remove early warning. Models using historical synergy realization rates will underestimate defaults.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest for mid-market companies in labor-intensive sectors competing for shrinking labor pool. Weaker for capital-intensive or technology-driven businesses. Mitigated if immigration fills labor gaps.",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "cpi_food_weight_em_transmission",
+    "concept_b": "export_ban_aging_voter_feedback",
+    "mechanism": "Food price spikes transmitted asymmetrically through high CPI food weights in EM → domestic food inflation → aging voters on fixed incomes pressure governments → export restrictions → further global food price increases. Multi-step feedback loop.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest in democracies with high food CPI weights and aging populations. Historical confirmation: India, Russia, Indonesia. Depends on political system and trade agreement constraints.",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "immigration_effective_restriction_gap",
+    "concept_b": "sub_replacement_fertility_persistence",
+    "mechanism": "Even under headline restriction, effective immigration continues through economically essential channels, partially offsetting the labor force impact of sub-replacement fertility. The gap between rhetoric and effective labor supply is a potential source of positive growth surprise.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Observed across OECD regardless of political orientation. The self-limiting mechanism (economic necessity forces exceptions) has operated consistently. But effective restriction could eventually bite if political pressure intensifies sufficiently.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "ai_demographic_offset_uncertainty",
+    "concept_b": "post_wwii_deleveraging_growth_impairment",
+    "mechanism": "AI productivity gains (estimated 0.5-1.0%/year) could potentially substitute for the missing labor force growth channel (~0.3%/year drag), restoring some deleveraging capacity. But technology adoption is endogenous, slow, and has a base rate of ~2 sustained accelerations in 150 years.",
+    "direction": "b_causes_a",
+    "confidence": 5,
+    "regime_dependence": "AI adoption is endogenous to scarcity (Japan robot density 2x OECD). The offset depends on AI deployment at scale, which is uncertain on investment-relevant horizons. Base rate for technology-driven productivity accelerations lasting >10 years: ~2 in 150 years.",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "compressed_demographic_dividend",
+    "concept_b": "aging_before_rich",
+    "mechanism": "Faster fertility transitions mean countries reach aging thresholds with less time to accumulate wealth and build institutional capacity. The dividend window compresses from ~35 to ~20 years, insufficient for many countries to reach developed-country income levels before aging begins.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most relevant for sub-Saharan Africa and remaining high-fertility regions. Less relevant for countries that have already completed the transition. Urbanization speed is the key accelerant.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "recovery_duration_demographic_correlation",
+    "concept_b": "aging_fiscal_deterioration",
+    "mechanism": "Slower recovery from economic crises (correlated with older demographics) prolongs fiscal deterioration as counter-cyclical spending extends and tax revenue recovery takes longer. Each crisis therefore deepens the fiscal challenge under aging demographics.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Rank correlation ~0.7-0.8 across 8 post-1970 crises. Confounded by policy and structural variables but pattern is consistent. Implies US recession recoveries of 6-10 years going forward.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "immigration_short_horizon_variance",
+    "concept_b": "ebitda_addback_labor_scarcity",
+    "mechanism": "Immigration swings (±2M/year in US) directly affect labor availability that determines whether EBITDA synergies embedded in addbacks can be realized. High immigration may temporarily validate addbacks; restriction may accelerate their failure.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest for labor-intensive sectors with high immigrant workforce share. Three-channel credit transmission (RMBS, ABS, leveraged margins) creates correlated stress. Policy swings can rapidly shift the outlook.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "concept_a": "central_bank_independence_erosion",
+    "concept_b": "financial_repression_modal_resolution",
+    "mechanism": "Erosion of central bank independence through demographic political economy removes the institutional check on monetization and rate suppression, enabling financial repression as fiscal resolution mechanism.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The $1T+ interest payment channel is novel and did not exist at pre-2020 debt levels. Operates strongest where fiscal-monetary coordination is already partially normalized. Market discipline can partially constrain.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  }
+]

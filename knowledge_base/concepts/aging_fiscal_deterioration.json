@@ -1,0 +1,36 @@
+{
+  "slug": "aging_fiscal_deterioration",
+  "definition": "Aging populations mechanically drive fiscal deterioration through higher healthcare, pension, and social spending. The directional relationship is robust (8/10), but specific threshold claims (e.g., 35% dependency ratio trigger) and magnitude predictions are fragile (4/10) due to high unconditional base rates and period confounding.",
+  "confidence": 8,
+  "evidence": [
+    "Every OECD country crossing 35% dependency experienced fiscal deterioration",
+    "Cross-country panel shows aging → higher healthcare/pension/social spending mechanically",
+    "Unconditional base rate for 2-4pp OECD fiscal deterioration over any 15-year window is already 60-70%",
+    "The 14-episode 100% hit rate is a methodological artifact (wide outcome range + period confounding with GFC/COVID/Euro crisis)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "rates_strategist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What is the true marginal lift from the dependency threshold after controlling for unconditional deterioration?",
+    "Can effective dependency adjustments (older worker LFPR) genuinely delay or reduce the deterioration?",
+    "How does the fiscal deterioration path differ for countries with sovereign wealth funds or distinct institutional arrangements?"
+  ],
+  "related_concepts": [
+    "sub_replacement_fertility_persistence",
+    "financial_repression_modal_resolution",
+    "term_premium_demographic_uplift",
+    "effective_dependency_ratio_gap",
+    "aging_political_economy_ratchet"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}

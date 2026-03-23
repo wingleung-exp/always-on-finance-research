@@ -1,0 +1,237 @@
+[
+  {
+    "concept_a": "below_replacement_fertility_universality",
+    "concept_b": "structural_labor_scarcity",
+    "mechanism": "Universal fertility decline reduces working-age population growth, reversing the 1990-2015 global labor supply doubling and creating structural tightness in labor markets",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds universally in aging OECD economies; partially offset in countries with sustained high immigration; AI substitution timeline is the key uncertainty",
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01",
+      "generalist_02"
+    ]
+  },
+  {
+    "concept_a": "structural_labor_scarcity",
+    "concept_b": "aging_inflationary_tendency",
+    "mechanism": "Labor scarcity drives wage pressure, shifts consumption toward labor-intensive non-tradeable services, and compresses corporate margins, creating supply-side inflationary pressure",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on central bank credibility and fiscal policy stance; Japan was 27-year exception due to unique non-demographic factors; offset if AI substitution is rapid",
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_02"
+    ]
+  },
+  {
+    "concept_a": "aging_inflationary_tendency",
+    "concept_b": "stock_bond_correlation_demographic_regime",
+    "mechanism": "Demographic inflationary pressure shifts the economy from demand-shock dominance to supply-shock dominance, supporting positive stock-bond correlation",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when demographics is a dominant inflation driver; overwhelmed during periods of monetary credibility restoration or demand-driven recessions",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "dependency_ratio_fiscal_trajectory",
+    "concept_b": "aging_political_economy_fiscal_expansion",
+    "mechanism": "Rising dependency ratios shift median voter from net taxpayer to net transfer recipient, creating democratic pressure for fiscal expansion that reinforces structural fiscal deterioration",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Stronger in democracies with older median voters; partially constrained by constitutional fiscal rules (Germany exception); less relevant in authoritarian systems",
+    "originating_agents": [
+      "risk_analyst_02",
+      "generalist_02"
+    ]
+  },
+  {
+    "concept_a": "aging_political_economy_fiscal_expansion",
+    "concept_b": "demographic_deleveraging_constraint",
+    "mechanism": "Political economy pressure for fiscal expansion works against deleveraging while lower labor force growth caps the growth channel for debt reduction, creating a structural trap",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Most binding in high-debt countries with aging populations and democratic governance; less relevant for countries with young populations or fiscal rule frameworks",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "pension_duration_fiscal_collision",
+    "concept_b": "aging_equilibrium_real_rate_impact",
+    "mechanism": "Pension demand compresses term premia and lowers long rates, while fiscal supply from aging-related spending expands term premia — net r* effect depends on which force dominates at each maturity",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Forces reinforced each other 2000-2020 but now diverge; outcome depends on relative magnitude at different points on the yield curve, particularly 10Y-30Y",
+    "originating_agents": [
+      "rates_strategist_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ]
+  },
+  {
+    "concept_a": "immigration_demographic_lever",
+    "concept_b": "structural_labor_scarcity",
+    "mechanism": "Immigration restriction removes the primary short-term offset to demographic labor supply contraction, accelerating structural scarcity across sectors with high immigrant labor concentration",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Depends on whether OECD restriction is cyclical (18-36 months) or structural (10+ years); transmission varies by sector based on immigrant labor concentration (agricultural 50-70% foreign-born)",
+    "originating_agents": [
+      "risk_analyst_02",
+      "credit_analyst_02",
+      "commodities_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "structural_labor_scarcity",
+    "concept_b": "maturity_wall_labor_squeeze",
+    "mechanism": "Tight labor markets eliminate the traditional margin relief valve (headcount reduction) for leveraged borrowers facing refinancing, creating a novel dual squeeze on interest coverage",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most acute during 2026-2028 maturity wall for leveraged borrowers in labor-intensive sectors; less relevant for capital-light businesses (software, financial services)",
+    "originating_agents": [
+      "credit_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "maturity_wall_labor_squeeze",
+    "concept_b": "ebitda_addback_demographic_fiction",
+    "mechanism": "EBITDA addbacks premised on labor rationalization synergies become unrealizable when tight labor markets prevent headcount reductions, amplifying credit quality deterioration at refinancing",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Applies in covenant-lite structures (~87% of issuance) where lenders cannot intervene; sector-dependent on labor intensity of the borrower",
+    "originating_agents": [
+      "credit_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "cpi_weight_asymmetry_inflation_amplifier",
+    "concept_b": "ssa_food_import_dependency",
+    "mechanism": "Countries with high food CPI weights and growing populations experience amplified inflation from food price shocks, while rising import dependency exposes them to global supply shocks — creating a self-reinforcing instability loop",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Structural for Sub-Saharan Africa and high-population-growth EM countries; less relevant for aging developed economies with low food CPI weights",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "china_aging_before_rich",
+    "concept_b": "japan_aging_non_generalizability",
+    "mechanism": "China's fundamentally different structural conditions at aging onset (lower GDP per capita, weaker pension funding, negative NIIP trajectory) demonstrate Japan's non-generalizability and suggest outcomes may be worse than Japan's stagnation",
+    "direction": "correlated",
+    "confidence": 8,
+    "regime_dependence": "Structural comparison is factual; specific outcome path is genuinely uncertain across scenario weights (60/25/10/5)",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "below_replacement_fertility_universality",
+    "concept_b": "em_demographic_dividend_conditionality",
+    "mechanism": "Income growth kills fertility (self-destructing call option), meaning the EM demographic dividend unwinds precisely as it materializes once countries cross the $8K-12K GDP per capita threshold",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Triggered at $8K-12K GDP per capita; speed depends on urbanization rate, female education, and access to contraception",
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_01"
+    ]
+  },
+  {
+    "concept_a": "aging_political_economy_fiscal_expansion",
+    "concept_b": "pension_duration_fiscal_collision",
+    "mechanism": "Political economy of aging drives increased government borrowing (fiscal supply) that collides with pension demand for duration, creating a reflexive loop where pension funds need the long bonds governments issue to fund pensions",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most acute in countries with large DB pension sectors and rising dependency ratios; moderated by constitutional fiscal constraints",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "demographic_deleveraging_constraint",
+    "concept_b": "aging_equilibrium_real_rate_impact",
+    "mechanism": "If demographics constrains growth-based deleveraging, the policy response (financial repression, negative real rates) creates feedback to r* that is endogenous to the demographic trajectory",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when fiscal dominance binds and central bank independence is compromised; less relevant if productivity growth substitutes for demographic growth",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "simultaneous_global_aging",
+    "concept_b": "aging_equilibrium_real_rate_impact",
+    "mechanism": "Concurrent aging across all major economies eliminates cross-country demographic arbitrage that historically moderated the aggregate impact on global r*, potentially amplifying the effect",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Unprecedented condition with no historical template; effect depends on whether SSA and South Asia can partially offset as capital destinations",
+    "originating_agents": [
+      "generalist_02"
+    ]
+  },
+  {
+    "concept_a": "immigration_demographic_lever",
+    "concept_b": "cpi_weight_asymmetry_inflation_amplifier",
+    "mechanism": "Immigration restriction reduces agricultural labor supply (50-70% foreign-born), raising food production costs, which transmits differently across countries based on food CPI weights",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest in countries dependent on immigrant agricultural labor with low mechanization alternatives; specialty crops most exposed",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "credit_analyst_02"
+    ]
+  },
+  {
+    "concept_a": "ai_demographic_substitution_uncertainty",
+    "concept_b": "structural_labor_scarcity",
+    "mechanism": "AI could either substitute for scarce labor (reducing scarcity) or complement human labor (amplifying scarcity by increasing productivity of the scarce factor); resolution determines whether demographic headwinds are temporary or permanent",
+    "direction": "bidirectional",
+    "confidence": 4,
+    "regime_dependence": "5-15 year transition period where both forces coexist; outcome depends on whether AI proves substitutive or complementary at macro scale",
+    "originating_agents": [
+      "quant_researcher_01",
+      "risk_analyst_02",
+      "challenger_01"
+    ]
+  },
+  {
+    "concept_a": "immigration_demographic_lever",
+    "concept_b": "pension_duration_fiscal_collision",
+    "mechanism": "Immigration restriction reduces household formation, compressing securitization pipeline (RMBS, consumer ABS) and reducing the supply of duration assets available to pension funds",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Relevant primarily in US and other countries with large securitization markets; depends on duration and severity of immigration restriction",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_02"
+    ]
+  },
+  {
+    "concept_a": "aging_farming_supply_constraint",
+    "concept_b": "cpi_weight_asymmetry_inflation_amplifier",
+    "mechanism": "Aging farmer retirement and insufficient replacement constricts agricultural supply, creating food price pressure that is arithmetically amplified in countries with high food CPI weights and growing populations",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Binding for specialty crops in the near term; row crops offset by technology and capital; amplified in high-food-CPI-weight countries with population growth",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ]
+  }
+]

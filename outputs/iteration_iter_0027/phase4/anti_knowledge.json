@@ -1,0 +1,89 @@
+[
+  {
+    "claim": "The 2-3pp default rate uplift is a calibrated estimate for demographic labor scarcity impact on leveraged loan defaults.",
+    "reason": "credit_analyst_02 admitted N=0 for the specific combination and 3/10 empirical confidence. A structured hypothesis based on zero precedent is a scenario, not an estimate. The 60% labor-intensive sector concentration is unsourced. What survives: default models are directionally miscalibrated toward underestimating risk, but magnitude is unknowable.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "generalist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "The 14/14 dependency threshold 100% hit rate is a structural parameter indicating fiscal deterioration is certain when crossing 35% dependency.",
+    "reason": "Three-pronged critique: (a) unconditional base rate for 2-4pp OECD fiscal deterioration over any 15-year window is already 60-70%, (b) all threshold crossings occurred during 1990-2020 confounded with GFC/Euro crisis/COVID, (c) 2pp lower bound captures most fiscal trajectories by definition. The lift from the threshold is real but modest, not 100%.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Demographics is the core or primary driver of stock-bond correlation regime changes.",
+    "reason": "Multivariate regression shows demographics not statistically significant at 10% after controlling for CPI level. CPI >4% → 85% positive correlation regardless of demographics. The qualifier 'not isolable' directly undermines 'core.' Demographics is one plausible input operating through the inflation channel, not an independent driver.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "The precise deleveraging decomposition of 40% inflation / 35% growth / 15% surplus / 10% repression is an identifiable structural parameter.",
+    "reason": "The four channels interact, are endogenous to each other, and cannot be separated without untestable counterfactual assumptions. Literature ranges are wide: inflation 30-50%, growth 25-40%, surplus 10-20%, repression 5-15%. Sign and rank ordering between inflation and growth are uncertain.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "China scenario probability weights (60/25/10/5) represent calibrated probabilities for different aging outcomes.",
+    "reason": "N=1 for 'aging before rich at China's scale.' Any rearrangement of weights (40/30/20/10, 70/15/10/5) is equally consistent with available evidence. These are unfalsifiable priors masquerading as probabilities. China's arithmetic decline (~100M working-age by 2035) is near-certain; economic consequences are genuinely unknown.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "The 5y5y forward rate implicitly prices the inflation-deflation debate at roughly 50/50.",
+    "reason": "Market prices reveal expected values, not probability distributions. The 5y5y rate could reflect 100% probability of a moderate outcome, 50/50 on two extremes, or any other distribution averaging to the observed rate. Inferring bimodality requires options-implied distributions (swaption skew), not spot rates.",
+    "refuted_by": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "The 5y5y forward rate distribution is bimodal with two distinct r* modes, reflecting competing demographic lifecycle models.",
+    "reason": "No statistical test on actual data identifies bimodal r* distribution. Current r* estimates (Laubach-Williams, HLW, DSGE, market-implied) range 0.5-2.0% with no clustering into two modes. Even simultaneous operation of competing lifecycle models with partial offset produces a wide unimodal distribution, not bimodality. What survives: r* uncertainty is large (~100bp+ standard error) and tail risk may be underpriced.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Securitization pipeline bifurcation (agency MBS decline from $4.4T to $1.8T) is primarily a demographic finding.",
+    "reason": "The decline is overwhelmingly a rates story (mortgage rate doubling). Demographic contribution is ~20-25%, second-order to rates and regulation. credit_analyst_02 conceded this. Including it in demographic analysis dilutes stronger claims.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "credit_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  },
+  {
+    "claim": "Aging in agricultural exporter nations structurally constrains bulk commodity supply expansion.",
+    "reason": "Grain and soybean harvesting is mechanized; the labor constraint binds primarily for fruits, vegetables, and specialty crops. US farmland consolidation has historically increased productivity. The claim conflates operator aging with production capacity constraint without establishing the causal mechanism for bulk commodities. Farm operator aging creates succession risk but is meaningful primarily for labor-intensive crops.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0027"
+  }
+]

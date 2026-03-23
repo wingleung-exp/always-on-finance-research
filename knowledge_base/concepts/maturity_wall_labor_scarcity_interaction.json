@@ -1,0 +1,34 @@
+{
+  "slug": "maturity_wall_labor_scarcity_interaction",
+  "definition": "~$1.8T leveraged loans maturing 2026-2029, ~60% in labor-intensive sectors (45-70% labor costs). Every modern default cycle featured labor market loosening providing counter-cyclical margin relief. At <0.5% labor force growth, this historical relief valve is structurally impaired. N=0 for this specific combination. Direction validated; magnitude unknowable.",
+  "confidence": 6,
+  "evidence": [
+    "~$1.8T leveraged loans maturing 2026-2029",
+    "~60% in labor-intensive sectors (45-70% labor costs)",
+    "Every modern default cycle (2001-02, 2008-09, 2015-16, 2020) featured labor market loosening",
+    "At <0.5% labor force growth, counter-cyclical relief is impaired",
+    "N=0 for this specific combination"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can AI/automation reduce labor intensity fast enough to matter by 2026-2029?",
+    "What is the actual default model miscalibration from this missing relief valve?",
+    "How does immigration variance interact with the maturity wall timeline?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_labor_scarcity",
+    "default_model_demographic_miscalibration",
+    "ai_demographic_offset_uncertainty"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-23T08:11:03Z",
+  "originating_iteration": "iter_0027",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0027"
+  ]
+}
