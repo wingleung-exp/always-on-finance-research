@@ -1,0 +1,35 @@
+{
+  "slug": "bimodal_inflation_outcome",
+  "definition": "Deglobalization creates a bimodal inflation distribution: ~60% probability of a one-time price-level shift (Mode A, analogous to 1971-72 post-Nixon Shock), ~40% probability of a persistent regime shift (Mode B, analogous to 1973-75 oil embargo interacting with pre-existing inflation). Tilt factors: Fed reaction function (restrictive favors Mode A), fiscal stance (expansion favors Mode B), labor market (tight favors Mode B), expectations (5y5y breakevens above 2.8% favors Mode B).",
+  "confidence": 6,
+  "evidence": [
+    "Mode A analogue: 1971-72 post-Nixon Shock — import surcharge raised prices 1.5-2.0pp CPI over 18 months, then faded",
+    "Mode B analogue: 1973-75 — oil embargo interacted with pre-existing inflation, monetary accommodation, fiscal expansion to become structural",
+    "Bimodal framing called 'more analytically honest' than pure level-shift framing in pair_0 debate",
+    "Current conditions (elevated services inflation, large fiscal deficits, near-full employment) tilt conditionally toward Mode B"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "What are the leading indicators that distinguish Mode A from Mode B in real-time?",
+    "Does the Fed's 2021-2022 experience with late tightening change its reaction function enough to favor Mode A?",
+    "Can fiscal policy realistically tighten enough to offset Mode B tilt factors?"
+  ],
+  "related_concepts": [
+    "deglobalization_structural_inflation",
+    "deglobalization_term_premium",
+    "supply_shock_stock_bond_correlation",
+    "tariff_passthrough_nonlinearity"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tariff_passthrough_nonlinearity",
+  "definition": "Tariff pass-through to consumer prices is non-linear with a critical threshold at approximately 15-25% effective rates. Below ~15%, firms absorb 50-70% of tariffs via margin compression; above ~25%, pass-through rises to 60-90% as margin compression is exhausted. This threshold was derived independently from both bottom-up credit analysis (coverage ratio arithmetic) and top-down macro empirics.",
+  "confidence": 7.5,
+  "evidence": [
+    "Median BBB industrial with 3.5x interest coverage and 15% import COGS: at 15% tariff maintains ~3.0x (manageable); at 25% drops to ~2.3x (watch-list); at 35% breaches 2.0x (fallen angel risk)",
+    "Empirical pass-through: at 10% tariffs, 30-50% pass-through; above 25%, 60-90% pass-through",
+    "Convergence from independent credit (credit_analyst_01) and macro (macro_strategist_01) frameworks",
+    "Calibrated against Amiti-Redding-Weinstein (2019) and Cavallo/Fajgelbaum et al.",
+    "Current effective tariff regime (~12-18% weighted average) sits at the cusp of the danger zone",
+    "Called 'the single strongest consensus finding' in pair_1 debate"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "How does sector-level variation in the threshold affect aggregate outcomes?",
+    "Does the threshold shift with repeated tariff rounds as firms exhaust margin buffers?",
+    "What is the lag structure between tariff imposition and pass-through regime shift?"
+  ],
+  "related_concepts": [
+    "deglobalization_structural_inflation",
+    "tariff_ratchet_dynamic",
+    "maturity_wall_deglobalization_interaction",
+    "bimodal_hy_default_distribution"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

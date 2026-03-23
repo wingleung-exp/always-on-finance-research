@@ -1,0 +1,37 @@
+{
+  "slug": "deglobalization_tail_risk_underpricing",
+  "definition": "Markets are systemically underpricing deglobalization tail risks due to cross-silo opacity and backward-looking risk models. No single desk, fund, or risk model integrates trade policy, supply chain architecture, commodity pricing, FX regime shifts, and sovereign credit simultaneously. Standard VaR uses historical correlations calibrated to a globalized regime.",
+  "confidence": 7.5,
+  "evidence": [
+    "HY OAS at 350-400bp with compressed BB-CCC ratio (2.0-2.5x vs historical 3.0-3.5x) shows PC1 explaining >65% of variance — markets not discriminating",
+    "Companies disclose revenue by geography but rarely supply chain dependency by geography",
+    "Analogous to pre-2008 CDO correlation risk: correlation assumption invisible until it materializes",
+    "Rare earth disruption premium in IG industrial spreads estimated at near-zero vs 15-30bp warranted at even 5% probability-weighted adjustment",
+    "Compressed dispersion (quant) and structural opacity (risk) converge from different diagnostic lenses"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "risk_analyst_02",
+    "quant_researcher_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "How can supply chain dependency be measured at the issuer level for credit analysis?",
+    "What is the right framework for pricing low-probability, high-impact supply chain disruptions?",
+    "Is the cross-silo opacity problem addressable by any individual market participant?"
+  ],
+  "related_concepts": [
+    "rare_earth_processing_concentration",
+    "deglobalization_consensus_trade_crowding",
+    "strategic_geopolitical_zombies",
+    "maturity_wall_deglobalization_interaction"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

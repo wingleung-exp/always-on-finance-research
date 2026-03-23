@@ -1,0 +1,33 @@
+{
+  "slug": "maturity_wall_deglobalization_interaction",
+  "definition": "The $900B-$1.5T sub-investment-grade maturity wall (2025-2028) colliding with deglobalization-driven margin compression creates correlated stress with conditional default probability far exceeding the product of independent probabilities. Borrowers face 40-60% higher refinancing costs AND 150-400bp lower operating margins simultaneously. Correlation between refinancing and operating margin risk estimated at 0.5-0.7 for import-exposed sectors.",
+  "confidence": 5.5,
+  "evidence": [
+    "$900B-$1.5T sub-IG maturities (2025-2028)",
+    "Joint distribution: conditional probability of default given both stresses substantially higher than single-factor models assume",
+    "Correlation of 0.5-0.7 between refinancing risk and operating margin risk for import-exposed sectors (auto parts, chemicals, consumer products)",
+    "Both components individually well-documented; joint distribution analytically sound but empirically untested"
+  ],
+  "originating_agents": [
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "No prior maturity wall has coincided with a deglobalization shock — how reliable is the joint distribution estimate?",
+    "Which specific sectors face the highest joint stress?",
+    "Can the joint distribution be estimated with more precision using bottom-up issuer data?"
+  ],
+  "related_concepts": [
+    "tariff_passthrough_nonlinearity",
+    "bimodal_hy_default_distribution",
+    "deglobalization_tail_risk_underpricing",
+    "strategic_geopolitical_zombies"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

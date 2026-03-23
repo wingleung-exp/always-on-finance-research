@@ -1,0 +1,37 @@
+{
+  "slug": "deglobalization_term_premium",
+  "definition": "Deglobalization structurally elevates term premium by 40-80bp above the 2010-2019 average, driven primarily by inflation variance rather than inflation level. Three reinforcing channels: higher inflation volatility from tariff policy discontinuity, reduced foreign central bank Treasury purchases from trade surplus recycling decline, and increased fiscal costs of industrial policy.",
+  "confidence": 7.5,
+  "evidence": [
+    "Kim-Wright/ACM decompositions show 80-130bp term premium vs near-zero in 2015-2019; deglobalization accounts for roughly one-third to one-half",
+    "Tariff policy discontinuity creates binary shocks with 0.3-0.8pp CPI impact at unpredictable timing",
+    "Trade surplus recycling decline reduces foreign central bank Treasury purchases",
+    "CHIPS Act, IRA fiscal costs ($150-250B committed) add fiscal pressure",
+    "Central bank reaction function ambiguity creates impossible trinity with supply-side inflation",
+    "Called 'probably the highest-confidence shared claim' in pair_2 debate"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "risk_analyst_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "How persistent is the term premium elevation if tariff policy stabilizes?",
+    "What is the decomposition between the three channels (inflation vol, reserve recycling, fiscal)?",
+    "Does the term premium elevation create opportunities in curve positioning?"
+  ],
+  "related_concepts": [
+    "supply_shock_stock_bond_correlation",
+    "deglobalization_structural_inflation",
+    "bimodal_inflation_outcome",
+    "dollar_funding_amplification"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

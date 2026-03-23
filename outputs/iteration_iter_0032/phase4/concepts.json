@@ -1,0 +1,692 @@
+[
+  {
+    "slug": "rare_earth_processing_concentration",
+    "definition": "China controls 60-70% of rare earth mining and 85-90% of processing, plus 80%+ of gallium, germanium, and graphite anode material, constituting the highest-severity deglobalization vulnerability with a 5-10 year unclosable window. No spare processing capacity exists outside China, and sequential weaponization has been demonstrated (Ga/Ge Jul 2023, graphite Oct 2023, antimony Aug 2024, processing tech ban 2025).",
+    "confidence": 8,
+    "evidence": [
+      "China controls 85-90% of rare earth processing (USGS 2025)",
+      "Alternative processing infrastructure requires 5-10 years and billions in capex; Lynas and MP Materials collectively <15% of Chinese capacity",
+      "Sequential weaponization demonstrated: Ga/Ge controls (Jul 2023), graphite (Oct 2023), antimony (Aug 2024), processing technology ban (2025)",
+      "Molycorp went bankrupt in 2015 from Chinese price manipulation after 2010 Japan embargo, refuting the supply-elasticity argument",
+      "Concentration exceeds 1973 OPEC (~55% of crude) because OPEC had non-OPEC spare capacity; rare earth processing has none",
+      "Near-zero substitutability for defense (F-35: ~920 lbs rare earth materials) and EV motors on 3-5 year horizons",
+      "Current restrictions target processing technology, not raw material quotas — a more severe form of restriction"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "risk_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the realistic timeline for non-Chinese rare earth processing to reach meaningful scale?",
+      "How does the vulnerability window overlap with Taiwan contingency scenarios?",
+      "Can recycling and urban mining meaningfully reduce concentration risk within 5 years?"
+    ],
+    "related_concepts": [
+      "transition_window_vulnerability",
+      "deglobalization_tail_risk_underpricing",
+      "nearshoring_capex_execution_gap",
+      "strategic_geopolitical_zombies"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "tariff_ratchet_dynamic",
+    "definition": "Tariff escalation follows a ratchet dynamic with a strong historical base rate of non-reversal. In all 5 major protectionist episodes (1890, 1922, 1930, 1971, 2018-present), initial tariffs triggered retaliatory spirals exceeding the original action by 1.5-3x within 24 months. Only 1/5 de-escalated, requiring GDP to fall 30% (Depression to 1934 RTAA).",
+    "confidence": 8,
+    "evidence": [
+      "5/5 historical protectionist episodes triggered retaliatory spirals exceeding original action by 1.5-3x within 24 months",
+      "Only 1/5 de-escalated, requiring GDP to fall 30% (Depression → 1934 RTAA)",
+      "Olson's collective action theory: concentrated beneficiaries lobby for retention, diffuse consumers can't organize against",
+      "US steel tariffs imposed 2018 remain in 2026 under different administration; solar tariffs renewed and expanded",
+      "Bipartisan US protectionist convergence removes the political off-ramp",
+      "Game theory (generalist_01) and historical base rate (generalist_02) strengthen combined confidence"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "risk_analyst_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Is there a Nash equilibrium in US-China tariff escalation, or is the ratchet inherently unbounded?",
+      "What is the equilibrium effective tariff level: 15-25% base case or 30-40% fat tail?",
+      "At what tariff/regulation threshold do corporations shift from cosmetic to genuine relocation (estimated 40-60% but untested)?"
+    ],
+    "related_concepts": [
+      "tariff_passthrough_nonlinearity",
+      "deglobalization_structural_inflation",
+      "bimodal_inflation_outcome",
+      "friendshoring_cosmetic_diversion"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "supply_shock_stock_bond_correlation",
+    "definition": "Deglobalization drives positive stock-bond correlation through supply-shock dominance, eroding 60/40 portfolio diversification. When supply-shock variance exceeds demand-shock variance (Campbell-Sunderam-Viceira framework), correlation flips from approximately -0.3 to +0.2, increasing 60/40 portfolio volatility by 15-20% and reducing Sharpe ratio by 0.10-0.15.",
+    "confidence": 8,
+    "evidence": [
+      "Campbell-Sunderam-Viceira framework: supply-shock variance exceeding demand-shock variance flips correlation positive",
+      "Empirically validated in 2022: simultaneous -20% equities, -15% long bonds",
+      "Estimated shift from rho = -0.3 to rho = +0.2",
+      "60/40 portfolio volatility increase of 15-20%, Sharpe ratio reduction of 0.10-0.15",
+      "The oscillation between positive and negative regimes is itself the central portfolio construction challenge"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "How frequently will correlation regime switches occur, and can they be predicted?",
+      "What portfolio construction approach best handles oscillating correlation regimes?",
+      "Does the correlation regime instability itself create exploitable alpha opportunities?"
+    ],
+    "related_concepts": [
+      "deglobalization_term_premium",
+      "deglobalization_structural_inflation",
+      "deglobalization_regime_variable",
+      "bimodal_inflation_outcome"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "tariff_passthrough_nonlinearity",
+    "definition": "Tariff pass-through to consumer prices is non-linear with a critical threshold at approximately 15-25% effective rates. Below ~15%, firms absorb 50-70% of tariffs via margin compression; above ~25%, pass-through rises to 60-90% as margin compression is exhausted. This threshold was derived independently from both bottom-up credit analysis (coverage ratio arithmetic) and top-down macro empirics.",
+    "confidence": 7.5,
+    "evidence": [
+      "Median BBB industrial with 3.5x interest coverage and 15% import COGS: at 15% tariff maintains ~3.0x (manageable); at 25% drops to ~2.3x (watch-list); at 35% breaches 2.0x (fallen angel risk)",
+      "Empirical pass-through: at 10% tariffs, 30-50% pass-through; above 25%, 60-90% pass-through",
+      "Convergence from independent credit (credit_analyst_01) and macro (macro_strategist_01) frameworks",
+      "Calibrated against Amiti-Redding-Weinstein (2019) and Cavallo/Fajgelbaum et al.",
+      "Current effective tariff regime (~12-18% weighted average) sits at the cusp of the danger zone",
+      "Called 'the single strongest consensus finding' in pair_1 debate"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "How does sector-level variation in the threshold affect aggregate outcomes?",
+      "Does the threshold shift with repeated tariff rounds as firms exhaust margin buffers?",
+      "What is the lag structure between tariff imposition and pass-through regime shift?"
+    ],
+    "related_concepts": [
+      "deglobalization_structural_inflation",
+      "tariff_ratchet_dynamic",
+      "maturity_wall_deglobalization_interaction",
+      "bimodal_hy_default_distribution"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_term_premium",
+    "definition": "Deglobalization structurally elevates term premium by 40-80bp above the 2010-2019 average, driven primarily by inflation variance rather than inflation level. Three reinforcing channels: higher inflation volatility from tariff policy discontinuity, reduced foreign central bank Treasury purchases from trade surplus recycling decline, and increased fiscal costs of industrial policy.",
+    "confidence": 7.5,
+    "evidence": [
+      "Kim-Wright/ACM decompositions show 80-130bp term premium vs near-zero in 2015-2019; deglobalization accounts for roughly one-third to one-half",
+      "Tariff policy discontinuity creates binary shocks with 0.3-0.8pp CPI impact at unpredictable timing",
+      "Trade surplus recycling decline reduces foreign central bank Treasury purchases",
+      "CHIPS Act, IRA fiscal costs ($150-250B committed) add fiscal pressure",
+      "Central bank reaction function ambiguity creates impossible trinity with supply-side inflation",
+      "Called 'probably the highest-confidence shared claim' in pair_2 debate"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "How persistent is the term premium elevation if tariff policy stabilizes?",
+      "What is the decomposition between the three channels (inflation vol, reserve recycling, fiscal)?",
+      "Does the term premium elevation create opportunities in curve positioning?"
+    ],
+    "related_concepts": [
+      "supply_shock_stock_bond_correlation",
+      "deglobalization_structural_inflation",
+      "bimodal_inflation_outcome",
+      "dollar_funding_amplification"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_tail_risk_underpricing",
+    "definition": "Markets are systemically underpricing deglobalization tail risks due to cross-silo opacity and backward-looking risk models. No single desk, fund, or risk model integrates trade policy, supply chain architecture, commodity pricing, FX regime shifts, and sovereign credit simultaneously. Standard VaR uses historical correlations calibrated to a globalized regime.",
+    "confidence": 7.5,
+    "evidence": [
+      "HY OAS at 350-400bp with compressed BB-CCC ratio (2.0-2.5x vs historical 3.0-3.5x) shows PC1 explaining >65% of variance — markets not discriminating",
+      "Companies disclose revenue by geography but rarely supply chain dependency by geography",
+      "Analogous to pre-2008 CDO correlation risk: correlation assumption invisible until it materializes",
+      "Rare earth disruption premium in IG industrial spreads estimated at near-zero vs 15-30bp warranted at even 5% probability-weighted adjustment",
+      "Compressed dispersion (quant) and structural opacity (risk) converge from different diagnostic lenses"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "risk_analyst_02",
+      "quant_researcher_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "How can supply chain dependency be measured at the issuer level for credit analysis?",
+      "What is the right framework for pricing low-probability, high-impact supply chain disruptions?",
+      "Is the cross-silo opacity problem addressable by any individual market participant?"
+    ],
+    "related_concepts": [
+      "rare_earth_processing_concentration",
+      "deglobalization_consensus_trade_crowding",
+      "strategic_geopolitical_zombies",
+      "maturity_wall_deglobalization_interaction"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_process_decomposition",
+    "definition": "The 'deglobalization' label conflates three distinct processes operating on different timescales: (a) strategic decoupling — deliberate state-directed technology/supply chain severance (5-15 year, security logic); (b) tariff-driven fragmentation — episodic, politically motivated (1-3 year, mercantilist logic); (c) resilience restructuring — private-sector risk repricing (3-7 year, corporate logic). These can contradict each other.",
+    "confidence": 7.5,
+    "evidence": [
+      "US tariffs on Canadian aluminum (mercantilist) undermine Canada as friendshoring partner for critical minerals (security) — direct contradiction",
+      "WTO data: global goods trade at ~$25.3T in 2024, near record; global services trade at record highs",
+      "Using total trade volume as evidence for or against deglobalization is misleading (refuted in pair_3)",
+      "'Re-globalization through different nodes' (challenger_01) is compatible with this framework",
+      "Called 'the most analytically useful framework in either analysis' in pair_3 debate"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Which of the three processes is most likely to dominate in the next 3-5 years?",
+      "How do the contradictions between processes resolve in policy?",
+      "Can markets price these three processes independently?"
+    ],
+    "related_concepts": [
+      "friendshoring_cosmetic_diversion",
+      "tariff_ratchet_dynamic",
+      "four_tier_em_structure",
+      "transition_window_vulnerability"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "friendshoring_cosmetic_diversion",
+    "definition": "Friendshoring is currently approximately 70% cosmetic trade diversion, with Vietnamese exports to US surging from $47B (2018) to $114B (2024) while Vietnamese imports from China surged in parallel from $65B to $130B+ (correlation >0.9). An estimated 20-40% of Vietnam's incremental US-bound exports represent Chinese goods with minimal transformation. Trajectory is toward genuine relocation as rules-of-origin enforcement tightens.",
+    "confidence": 6.5,
+    "evidence": [
+      "Vietnam-US export surge ($47B to $114B) correlated >0.9 with Vietnam-China import surge ($65B to $130B+)",
+      "Freund, Maliszewska et al. (2024): 20-40% of Vietnam's incremental US-bound exports are Chinese goods with minimal transformation",
+      "Cost spectrum: cosmetic (3-8%), partial (8-15%), genuine (15-30%), full reshoring (30-50%+) — corporations overwhelmingly choosing options 1-2",
+      "Rules-of-origin enforcement tightening: SE Asian solar tariffs, proposed auto content requirements",
+      "Friendshoring trilemma: optimize for two of {cost, security, allied sourcing} — structural constraint",
+      "Called 'the single most compelling data point in either analysis' in pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "At what speed will enforcement tightening push friendshoring from cosmetic to genuine?",
+      "What is the cost impact when friendshoring transitions from cosmetic (3-8%) to genuine (15-30%)?",
+      "Which sectors will see enforcement-driven genuine relocation first?"
+    ],
+    "related_concepts": [
+      "nearshoring_capex_execution_gap",
+      "deglobalization_process_decomposition",
+      "tariff_ratchet_dynamic",
+      "mexico_friendshoring_reversal",
+      "four_tier_em_structure"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_structural_inflation",
+    "definition": "Deglobalization contributes an estimated 10-25bp of steady-state structural inflation through three channels: direct tariff costs (10-20bp via Amiti-Redding-Weinstein), supply chain redundancy (5-15bp via McKinsey/Bonadio et al.), and reduced competition/markup channel (5-10bp via Blanchard-Giavazzi 2003). Episodic volatility spikes create a fatter right tail. Chinese overcapacity partially offsets in specific sectors.",
+    "confidence": 6.5,
+    "evidence": [
+      "Three transmission channels independently calibrated by macro_strategist_01",
+      "Pair_1 debate narrowed to 15-30bp after noting partial double-counting in upper bound",
+      "Chinese overcapacity absorption (Fajgelbaum et al.: 20-50% tariff absorption by Chinese exporters) lowers realized floor",
+      "Pair_3 synthesis: '5-12bp structural steady-state, with fatter tails on episodic supply disruptions'",
+      "Tradeable/non-tradeable wedge reversal: goods from -0.5% to +0.5-1.0%, services sticky at 3.5-4.0% makes 2% headline structurally harder"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can AI productivity gains offset the structural inflation contribution?",
+      "How does sector-level variation in the inflation impact affect portfolio construction?",
+      "Does the tradeable/non-tradeable wedge reversal make 2% inflation target structurally unachievable?"
+    ],
+    "related_concepts": [
+      "tariff_passthrough_nonlinearity",
+      "china_overcapacity_deflationary_offset",
+      "bimodal_inflation_outcome",
+      "deglobalization_term_premium",
+      "supply_shock_stock_bond_correlation"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "china_overcapacity_deflationary_offset",
+    "definition": "China's industrial overcapacity partially offsets tariff-driven inflation in specific sectors (solar 2.5-3x capacity vs installations, EV batteries 2,500 GWh vs 1,000-1,200 GWh demand, steel 300M excess tonnes) but not across the board. Chinese EV export prices fell 20-30% since 2022. The offset does NOT work for semiconductors, pharmaceuticals, aerospace components, or specialized chemicals — precisely where supply chain fragmentation is most acute.",
+    "confidence": 6,
+    "evidence": [
+      "Solar: 1,200 GW capacity vs 400-500 GW installations (2.5-3x overcapacity)",
+      "EV batteries: 2,500 GWh capacity vs 1,000-1,200 GWh demand",
+      "Steel: 300M excess tonnes",
+      "Chinese EV export prices fell 20-30% since 2022",
+      "Fajgelbaum et al. (2020) and Cavallo et al. (2021): Chinese exporters absorbed 20-50% of 2018-2019 tariffs",
+      "Challenger_01's aggregate 'close to zero' claim refuted in pair_3 for obscuring critical sectoral dispersion"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "How long can Chinese overcapacity persist before domestic consolidation?",
+      "Does the paradox (tariffs that block Chinese goods raise US prices; tariffs that don't fail strategically) resolve toward higher prices or strategic failure?",
+      "Will overcapacity sectors see enforcement action that blocks the deflationary transmission?"
+    ],
+    "related_concepts": [
+      "deglobalization_structural_inflation",
+      "friendshoring_cosmetic_diversion",
+      "tariff_passthrough_nonlinearity"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "nearshoring_capex_execution_gap",
+    "definition": "Nearshoring and industrial policy capex announcements overstate actual execution by 30-50%, with realized completion rate of 50-70%. Brookings analysis shows 35-50% completion rate for $1B+ industrial policy projects within stated timelines. CHIPS Act: ~$30B in awards announced but only ~$8-10B disbursed as of Q1 2026. TSMC Arizona originally targeted 2024 production, revised to limited 2026 at N4.",
+    "confidence": 6,
+    "evidence": [
+      "Brookings: 35-50% completion rate for $1B+ industrial policy projects within stated timelines",
+      "CHIPS Act: ~$30B in awards announced, only ~$8-10B disbursed as of Q1 2026",
+      "TSMC Arizona: originally 2024 production, revised to limited 2026 at N4",
+      "EU Court of Auditors: ~60% of EU Chips Act headline counts pre-existing commitments",
+      "IRA: ~55-65% take-up rate on manufacturing credits in first 2 years",
+      "National security framing creates stronger political persistence than typical industrial policy, raising completion vs challenger_01's 25-45%"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the true capex multiplier for greenfield advanced manufacturing vs brownfield nearshore?",
+      "Will 2-3 years of operational data from TSMC Arizona and Intel Ohio calibrate the learning curve?",
+      "Does national security framing fundamentally change completion rates relative to historical industrial policy?"
+    ],
+    "related_concepts": [
+      "friendshoring_cosmetic_diversion",
+      "transition_window_vulnerability",
+      "strategic_geopolitical_zombies",
+      "rare_earth_processing_concentration"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "dollar_funding_amplification",
+    "definition": "Dollar funding is the most likely amplification channel from a deglobalization shock to financial crisis, operating through trade surplus recycling decline, reserve diversification, offshore dollar funding thinning, and crisis-time liquidity crunch. The ~$80-90T cross-currency basis swap market is the transmission mechanism. A novel insight: bifurcated swap line architecture under geopolitical stress means the Fed can backstop allies but not adversaries or non-aligned nations.",
+    "confidence": 6,
+    "evidence": [
+      "Validated by 2008 ($600B+ Fed swap lines) and March 2020 (FRA-OIS to 75bp, cross-currency basis to -150bp within days)",
+      "~$80-90T cross-currency basis swap market as transmission mechanism",
+      "Bifurcated swap line architecture under geopolitical stress — Fed can backstop allies but not adversaries",
+      "Called 'the strongest novel contribution in either analysis' in pair_2 debate"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "How would a bifurcated swap line response function in a Taiwan contingency scenario?",
+      "What is the threshold of trade surplus recycling decline that triggers offshore dollar funding stress?",
+      "Can non-aligned nations develop alternative liquidity backstops on relevant timescales?"
+    ],
+    "related_concepts": [
+      "transition_window_vulnerability",
+      "rare_earth_processing_concentration",
+      "weaponization_of_interdependence_base_rate",
+      "deglobalization_term_premium"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "bimodal_inflation_outcome",
+    "definition": "Deglobalization creates a bimodal inflation distribution: ~60% probability of a one-time price-level shift (Mode A, analogous to 1971-72 post-Nixon Shock), ~40% probability of a persistent regime shift (Mode B, analogous to 1973-75 oil embargo interacting with pre-existing inflation). Tilt factors: Fed reaction function (restrictive favors Mode A), fiscal stance (expansion favors Mode B), labor market (tight favors Mode B), expectations (5y5y breakevens above 2.8% favors Mode B).",
+    "confidence": 6,
+    "evidence": [
+      "Mode A analogue: 1971-72 post-Nixon Shock — import surcharge raised prices 1.5-2.0pp CPI over 18 months, then faded",
+      "Mode B analogue: 1973-75 — oil embargo interacted with pre-existing inflation, monetary accommodation, fiscal expansion to become structural",
+      "Bimodal framing called 'more analytically honest' than pure level-shift framing in pair_0 debate",
+      "Current conditions (elevated services inflation, large fiscal deficits, near-full employment) tilt conditionally toward Mode B"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What are the leading indicators that distinguish Mode A from Mode B in real-time?",
+      "Does the Fed's 2021-2022 experience with late tightening change its reaction function enough to favor Mode A?",
+      "Can fiscal policy realistically tighten enough to offset Mode B tilt factors?"
+    ],
+    "related_concepts": [
+      "deglobalization_structural_inflation",
+      "deglobalization_term_premium",
+      "supply_shock_stock_bond_correlation",
+      "tariff_passthrough_nonlinearity"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "transition_window_vulnerability",
+    "definition": "The 2024-2030 period represents maximum systemic vulnerability as supply chains are partially duplicated but neither old nor new configurations are fully operational. During transition: capital committed to incomplete projects (TSMC $40B+, Intel $20B+, Samsung $17B+), legacy relationships degraded but alternatives not ready, dual supply chain costs add 20-40% to total procurement, US needs 500,000+ additional manufacturing workers.",
+    "confidence": 6,
+    "evidence": [
+      "Historical pattern: transitions between stable equilibria are highest-risk (1997 EM FX, 2008 banking model, 2020 Fed reserves)",
+      "TSMC Arizona $40B+, Intel $20B+, Samsung $17B+ committed to incomplete projects",
+      "Dual supply chain costs add 20-40% to total procurement during build-out",
+      "Workforce gap: US needs 500,000+ additional manufacturing workers",
+      "Capex multiplier of 1.5-2.0x during build-out phase, narrowing over time"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Could the window extend to 2035 or compress if policies accelerate?",
+      "What triggers would cause the transition to collapse rather than complete?",
+      "How does the workforce gap constrain the speed of the transition?"
+    ],
+    "related_concepts": [
+      "rare_earth_processing_concentration",
+      "nearshoring_capex_execution_gap",
+      "dollar_funding_amplification",
+      "maturity_wall_deglobalization_interaction"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_regime_variable",
+    "definition": "Deglobalization is not a standalone priced factor but a regime variable that shifts loadings on existing factors (value, quality, momentum, domestic-revenue). A standalone 'deglobalization factor' would fail the HLZ (2016) t-stat > 3.0 threshold due to multicollinearity. Reshoring-winner baskets show 60-80% of returns explained by known factors, with t-stat on intercept ~1.0-1.5.",
+    "confidence": 6,
+    "evidence": [
+      "HLZ (2016) framework: standalone factor would fail t-stat > 3.0 due to multicollinearity with value, quality, size, momentum",
+      "Spanning tests via Hou-Xue-Zhang q-factor model show alpha statistically indistinguishable from zero",
+      "Historical precedent: 1930s, 1970s, 1980s trade episodes never produced distinct factors",
+      "Reshoring-winner baskets: 60-80% returns explained by known factors, intercept t-stat ~1.0-1.5",
+      "Tail risk structure is genuinely different from what standard factor models capture (pair_2 caveat)"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can the regime-variable framework be used for dynamic factor allocation?",
+      "How should the tail risk structure (not captured by factor models) be incorporated into portfolio construction?",
+      "What observable indicators signal deglobalization regime shifts for factor timing?"
+    ],
+    "related_concepts": [
+      "supply_shock_stock_bond_correlation",
+      "value_factor_deglobalization_tailwind",
+      "momentum_crash_risk_amplification",
+      "deglobalization_consensus_trade_crowding"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_consensus_trade_crowding",
+    "definition": "The consensus deglobalization trade (long commodities / short duration / long inflation) shows elevated but not extreme positioning. BofA FMS: 72% of fund managers expect above-trend inflation. CFTC managed money net long commodities at 70th-85th percentile of 5-year range. Crowding is at 60-70th percentile, below the >90th percentile threshold where crowding becomes predictive. However, much deglobalization exposure is embedded in corporate balance sheets and private markets where crowding metrics don't exist.",
+    "confidence": 6,
+    "evidence": [
+      "BofA FMS: 72% of fund managers expect above-trend inflation (highest sustained reading)",
+      "CFTC: managed money net long commodities at 70th-85th percentile of 5-year range",
+      "Breakeven inflation options show elevated demand for above-3% CPI outcomes",
+      "Crowding at 60-70th percentile, below >90th percentile predictive threshold",
+      "Called 'the most investable insight' from challenger_01 in pair_3",
+      "Deeper concern: much deglobalization exposure in corporate balance sheets and private markets lacks crowding metrics"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can non-observable positioning (corporate balance sheets, PE/VC, pension allocations) be measured?",
+      "Is the liquid-market crowding a leading indicator of the structural trade's exhaustion?",
+      "Can crowded liquid positioning and underpriced structural tail risks coexist simultaneously?"
+    ],
+    "related_concepts": [
+      "deglobalization_tail_risk_underpricing",
+      "deglobalization_regime_variable",
+      "supply_shock_stock_bond_correlation"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "four_tier_em_structure",
+    "definition": "A four-tier framework for emerging market classification under deglobalization: Tier 1 strategic beneficiaries (India, Vietnam, Poland — FDI inflows + favorable trade terms), Tier 2 trade diversion conduits (Malaysia, Thailand, Indonesia — absorb rerouted goods, vulnerable to transshipment crackdowns), Tier 3 crossfire economies (South Korea, Germany, Taiwan — deep linkages to both blocs), Tier 4 excluded (Russia, potentially China — permanent investable universe shrinkage).",
+    "confidence": 5.5,
+    "evidence": [
+      "Tier classification materially improved over binary aligned/non-aligned model (confirmed in pair_3)",
+      "Vietnam is Tier 2 (vulnerable to crackdowns), not Tier 1 — supported by connector economy analysis",
+      "Classification has actionable portfolio implications for EM allocation"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "How stable are tier classifications — can countries shift tiers with political events?",
+      "Where do ambiguous cases (Turkey, Saudi Arabia, Brazil) fall?",
+      "What are the correct risk premia differentials between tiers?"
+    ],
+    "related_concepts": [
+      "friendshoring_cosmetic_diversion",
+      "deglobalization_process_decomposition",
+      "mexico_friendshoring_reversal"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "maturity_wall_deglobalization_interaction",
+    "definition": "The $900B-$1.5T sub-investment-grade maturity wall (2025-2028) colliding with deglobalization-driven margin compression creates correlated stress with conditional default probability far exceeding the product of independent probabilities. Borrowers face 40-60% higher refinancing costs AND 150-400bp lower operating margins simultaneously. Correlation between refinancing and operating margin risk estimated at 0.5-0.7 for import-exposed sectors.",
+    "confidence": 5.5,
+    "evidence": [
+      "$900B-$1.5T sub-IG maturities (2025-2028)",
+      "Joint distribution: conditional probability of default given both stresses substantially higher than single-factor models assume",
+      "Correlation of 0.5-0.7 between refinancing risk and operating margin risk for import-exposed sectors (auto parts, chemicals, consumer products)",
+      "Both components individually well-documented; joint distribution analytically sound but empirically untested"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "No prior maturity wall has coincided with a deglobalization shock — how reliable is the joint distribution estimate?",
+      "Which specific sectors face the highest joint stress?",
+      "Can the joint distribution be estimated with more precision using bottom-up issuer data?"
+    ],
+    "related_concepts": [
+      "tariff_passthrough_nonlinearity",
+      "bimodal_hy_default_distribution",
+      "deglobalization_tail_risk_underpricing",
+      "strategic_geopolitical_zombies"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "mexico_friendshoring_reversal",
+    "definition": "Mexico's friendshoring premium is at severe risk of reversal. The 25% tariffs on Mexican imports fundamentally undermine the produce-in-Mexico/sell-in-US-under-USMCA arbitrage. MXN depreciated ~15-20% but manufacturing equity multiples haven't fully reflected impairment. Policy incoherence — tariffing your own friendshoring destination — is directly observable.",
+    "confidence": 4,
+    "evidence": [
+      "25% tariffs on Mexican imports undermine USMCA-based manufacturing arbitrage",
+      "MXN depreciated ~15-20% but manufacturing equity multiples lag",
+      "Policy incoherence: tariffing friendshoring destination is directly observable"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "How quickly could tariff levels on Mexico change with political shifts?",
+      "Is the manufacturing equity multiple lag a genuine mispricing or justified by optionality on tariff reversal?",
+      "Does USMCA renegotiation (2026) resolve or deepen the incoherence?"
+    ],
+    "related_concepts": [
+      "friendshoring_cosmetic_diversion",
+      "four_tier_em_structure",
+      "deglobalization_process_decomposition"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "strategic_geopolitical_zombies",
+    "definition": "CHIPS Act, IRA, and defense subsidies ($150-250B committed) create firms where default probability is a function of political durability rather than cash flow. Semiconductor fab projects are financed at 50-100bp tighter than standalone metrics justify. These suppress measured default rates and tighten aggregate spreads, masking non-subsidized deterioration and building contingent fiscal liabilities.",
+    "confidence": 4,
+    "evidence": [
+      "CHIPS Act, IRA, and defense subsidies: $150-250B committed",
+      "Semiconductor fab projects financed at 50-100bp tighter than standalone metrics justify",
+      "Suppresses measured default rates and tightens aggregate spreads",
+      "Called 'genuinely novel and analytically productive' in pair_1 debate"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "How durable is the political support underlying these subsidies?",
+      "What is the scale of contingent fiscal liabilities being accumulated?",
+      "How much do subsidized spreads distort the aggregate credit signal?"
+    ],
+    "related_concepts": [
+      "deglobalization_tail_risk_underpricing",
+      "nearshoring_capex_execution_gap",
+      "maturity_wall_deglobalization_interaction",
+      "bimodal_hy_default_distribution"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "value_factor_deglobalization_tailwind",
+    "definition": "Value factor may receive a 50-150bp annualized tailwind from deglobalization as the reversal of globalization favors tangible-asset-heavy firms over asset-light global supply chain firms. Value spread remains at ~85th percentile of historical width. Historical value premium in high-inflation regimes: ~4-6% annualized. However, the causal chain has too many uncertain links, and the 50% discount applied to historical premium is arbitrary.",
+    "confidence": 4,
+    "evidence": [
+      "Globalization penalized value by rewarding asset-light global supply chains; reversal favors tangible-asset-heavy firms",
+      "Value spread at ~85th percentile of historical width",
+      "Historical value premium in high-inflation regimes: ~4-6% annualized",
+      "Pair_2 found 'the causal chain has too many uncertain links'"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Does subsidy dependence create fragility that offsets the value tailwind?",
+      "Could AI-driven intangible premium offset the tangible-asset advantage?",
+      "Is the 50-150bp estimate calibratable or speculative?"
+    ],
+    "related_concepts": [
+      "deglobalization_regime_variable",
+      "momentum_crash_risk_amplification",
+      "supply_shock_stock_bond_correlation"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "weaponization_of_interdependence_base_rate",
+    "definition": "Weaponization of economic interdependence has a 0/2 historical base rate for preserving incumbent system centrality, with transition taking 20-40 years. Sterling-bloc (1931-1945) and Soviet COMECON are precedents. USD reserve share is declining 0.5-0.8pp/year, with alternatives including CIPS, digital yuan, and bilateral swap lines developing.",
+    "confidence": 4,
+    "evidence": [
+      "Sterling reserve share fell from ~60% to ~30% in 20 years after weaponization",
+      "Soviet COMECON parallel system lasted ~30 years, then collapsed nonlinearly",
+      "USD reserve share declining 0.5-0.8pp/year",
+      "Current parallels: CIPS, digital yuan, bilateral swap lines"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the n=2 base rate meaningful given fundamental differences in modern financial infrastructure?",
+      "Does modern financial infrastructure stickiness change the transition timeline?",
+      "At what threshold of USD reserve share decline do systemic effects emerge?"
+    ],
+    "related_concepts": [
+      "dollar_funding_amplification",
+      "rare_earth_processing_concentration",
+      "deglobalization_process_decomposition"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "momentum_crash_risk_amplification",
+    "definition": "Momentum factor faces 1.5-2.5x crash risk amplification from discrete trade policy shocks. Four documented episodes (Mar 2018, May 2019, Aug 2019, Apr 2025) showed 3-7% momentum drawdowns representing 4+ sigma events relative to pre-2016 distribution. The frequency of these events is inconsistent with the pre-2016 sample.",
+    "confidence": 4,
+    "evidence": [
+      "Four documented episodes: Mar 2018, May 2019, Aug 2019, Apr 2025",
+      "3-7% momentum drawdowns representing 4+ sigma events relative to pre-2016 distribution",
+      "Frequency inconsistent with pre-2016 sample"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Is n=4 sufficient for tail-risk estimation?",
+      "Can trade policy announcement timing be predicted to manage momentum exposure?",
+      "Does the crash risk amplification interact with momentum's overlap with AI names?"
+    ],
+    "related_concepts": [
+      "deglobalization_regime_variable",
+      "value_factor_deglobalization_tailwind",
+      "deglobalization_consensus_trade_crowding"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "bimodal_hy_default_distribution",
+    "definition": "High-yield default rates follow a bimodal distribution under deglobalization: 2.5% in a benign mode (orderly reshoring, tariffs at ~15%, fiscal buffer supports) vs 7-9% in an adverse mode (tariff escalation to 25%+, rare earth disruption, maturity wall collision). Market pricing exclusively embeds the left mode (HY OAS at ~350-400bp embeds ~3% expected default).",
+    "confidence": 4,
+    "evidence": [
+      "Benign mode: orderly reshoring, tariffs at ~15%, fiscal buffer supports → ~2.5% default",
+      "Adverse mode: tariff escalation to 25%+, rare earth disruption, maturity wall collision → 7-9% default",
+      "Market pricing at HY OAS ~350-400bp embeds ~3% expected default — exclusively left mode",
+      "Extends existing KB concept hy_default_rate_mispricing"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What probability weights should be assigned to each mode?",
+      "What are the leading indicators that distinguish which mode is materializing?",
+      "Is the HY market correctly pricing even the benign mode, given maturity wall pressures?"
+    ],
+    "related_concepts": [
+      "maturity_wall_deglobalization_interaction",
+      "tariff_passthrough_nonlinearity",
+      "deglobalization_tail_risk_underpricing",
+      "strategic_geopolitical_zombies"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  }
+]

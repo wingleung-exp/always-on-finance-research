@@ -1,0 +1,35 @@
+{
+  "slug": "deglobalization_consensus_trade_crowding",
+  "definition": "The consensus deglobalization trade (long commodities / short duration / long inflation) shows elevated but not extreme positioning. BofA FMS: 72% of fund managers expect above-trend inflation. CFTC managed money net long commodities at 70th-85th percentile of 5-year range. Crowding is at 60-70th percentile, below the >90th percentile threshold where crowding becomes predictive. However, much deglobalization exposure is embedded in corporate balance sheets and private markets where crowding metrics don't exist.",
+  "confidence": 6,
+  "evidence": [
+    "BofA FMS: 72% of fund managers expect above-trend inflation (highest sustained reading)",
+    "CFTC: managed money net long commodities at 70th-85th percentile of 5-year range",
+    "Breakeven inflation options show elevated demand for above-3% CPI outcomes",
+    "Crowding at 60-70th percentile, below >90th percentile predictive threshold",
+    "Called 'the most investable insight' from challenger_01 in pair_3",
+    "Deeper concern: much deglobalization exposure in corporate balance sheets and private markets lacks crowding metrics"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Can non-observable positioning (corporate balance sheets, PE/VC, pension allocations) be measured?",
+    "Is the liquid-market crowding a leading indicator of the structural trade's exhaustion?",
+    "Can crowded liquid positioning and underpriced structural tail risks coexist simultaneously?"
+  ],
+  "related_concepts": [
+    "deglobalization_tail_risk_underpricing",
+    "deglobalization_regime_variable",
+    "supply_shock_stock_bond_correlation"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

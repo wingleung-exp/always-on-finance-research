@@ -1,0 +1,31 @@
+{
+  "slug": "momentum_crash_risk_amplification",
+  "definition": "Momentum factor faces 1.5-2.5x crash risk amplification from discrete trade policy shocks. Four documented episodes (Mar 2018, May 2019, Aug 2019, Apr 2025) showed 3-7% momentum drawdowns representing 4+ sigma events relative to pre-2016 distribution. The frequency of these events is inconsistent with the pre-2016 sample.",
+  "confidence": 4,
+  "evidence": [
+    "Four documented episodes: Mar 2018, May 2019, Aug 2019, Apr 2025",
+    "3-7% momentum drawdowns representing 4+ sigma events relative to pre-2016 distribution",
+    "Frequency inconsistent with pre-2016 sample"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Is n=4 sufficient for tail-risk estimation?",
+    "Can trade policy announcement timing be predicted to manage momentum exposure?",
+    "Does the crash risk amplification interact with momentum's overlap with AI names?"
+  ],
+  "related_concepts": [
+    "deglobalization_regime_variable",
+    "value_factor_deglobalization_tailwind",
+    "deglobalization_consensus_trade_crowding"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

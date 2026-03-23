@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "three_process_decomposition",
+    "purpose": "Disaggregates the monolithic 'deglobalization' narrative into three separable processes to enable precise analysis of contradictions, timescales, and investment implications",
+    "components": [
+      "Strategic decoupling: deliberate state-directed technology/supply chain severance, 5-15 year horizon, security logic",
+      "Tariff-driven fragmentation: episodic, politically motivated protectionism, 1-3 year horizon, mercantilist logic",
+      "Resilience restructuring: private-sector risk repricing and supply chain diversification, 3-7 year horizon, corporate logic"
+    ],
+    "current_assessment": "All three processes are active simultaneously with frequent contradictions (e.g., US tariffs on Canadian aluminum undermine friendshoring for critical minerals). Using aggregate trade volume as evidence for or against deglobalization is misleading — global goods trade near record $25.3T while compositional shifts are structurally important.",
+    "limitations": [
+      "Classification of specific policies into one process vs another can be ambiguous",
+      "Processes interact and can shift between categories over time",
+      "Does not capture the relative magnitude or priority of each process",
+      "Country-level analysis requires mapping each process separately"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "friendshoring_trilemma",
+    "purpose": "Identifies the structural constraint that limits policy design in friendshoring: countries and firms can optimize for at most two of three objectives simultaneously",
+    "components": [
+      "Cost: minimizing total supply chain and production costs",
+      "Security: ensuring supply chain resilience against adversary disruption",
+      "Allied sourcing: restricting supply chains to geopolitically aligned nations"
+    ],
+    "current_assessment": "Corporations overwhelmingly prioritize cost, choosing cosmetic (3-8% premium) or partial (8-15% premium) friendshoring. Genuine relocation (15-30%) and full reshoring (30-50%+) are rare. Policy enforcement is tightening but remains insufficient to force the security/allied sourcing legs.",
+    "limitations": [
+      "Does not specify which two objectives are most commonly chosen together",
+      "Subsidy programs can partially relax the trilemma but shift costs to fiscal accounts",
+      "The trilemma may have different binding constraints by sector and product"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "four_tier_em_classification",
+    "purpose": "Provides a refined framework for classifying emerging markets under deglobalization, replacing the binary aligned/non-aligned model with actionable portfolio tiers",
+    "components": [
+      "Tier 1 — Strategic beneficiaries (India, Vietnam, Poland): receive FDI inflows and favorable trade terms",
+      "Tier 2 — Trade diversion conduits (Malaysia, Thailand, Indonesia): absorb rerouted goods, vulnerable to transshipment crackdowns",
+      "Tier 3 — Crossfire economies (South Korea, Germany, Taiwan): deep linkages to both blocs, forced into costly hedging",
+      "Tier 4 — Excluded (Russia, potentially China): permanent investable universe shrinkage"
+    ],
+    "current_assessment": "Framework is materially improved over binary model. Vietnam may be Tier 2 (vulnerable to crackdowns) rather than Tier 1. Classification boundaries are fuzzy for some countries (Turkey, Saudi Arabia, Brazil) and can shift with political events.",
+    "limitations": [
+      "Country classifications can shift with political events",
+      "Boundary cases (Turkey, Saudi Arabia, Brazil) are not clearly resolved",
+      "Does not capture within-tier variation or sector-level differences",
+      "Tier assignments for China may change under different US administration policies"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "tariff_passthrough_threshold",
+    "purpose": "Identifies the critical effective tariff rate at which pass-through behavior shifts from primarily firm-absorbed to primarily consumer-borne, with implications for both inflation and credit",
+    "components": [
+      "Below ~15% effective rate: 30-50% pass-through, firms absorb via margin compression, coverage ratios manageable",
+      "15-25% effective rate: transition zone, pass-through rising, coverage ratios deteriorating",
+      "Above ~25% effective rate: 60-90% pass-through, margin compression exhausted, fallen angel risk materializes"
+    ],
+    "current_assessment": "Current effective tariff regime (~12-18% weighted average) sits at the cusp of the danger zone. The difference between 15% and 30% effective tariffs is not 2x the inflation impact but 3-4x due to nonlinearity. Independent derivation from credit (coverage ratio arithmetic) and macro (empirical pass-through literature) frameworks strengthens confidence.",
+    "limitations": [
+      "Threshold likely varies by sector, firm size, and competitive structure",
+      "Calibrated primarily on 2018-2019 tariff data — may not hold for broader product coverage",
+      "Does not account for currency adjustment offsetting tariff impact",
+      "Lag structure between tariff imposition and threshold crossing not specified"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "bimodal_inflation_framework",
+    "purpose": "Replaces point-estimate inflation forecasting with a two-mode probability distribution to capture the qualitatively different outcomes deglobalization could produce",
+    "components": [
+      "Mode A (~60% probability): One-time price-level shift. Analogue: 1971-72 post-Nixon Shock (1.5-2.0pp CPI over 18 months, then fading). Requires restrictive Fed, stable expectations.",
+      "Mode B (~40% probability): Persistent regime shift. Analogue: 1973-75 oil embargo + monetary accommodation + fiscal expansion → structural. Requires accommodative Fed, loose fiscal, tight labor.",
+      "Tilt factors: Fed reaction function, fiscal stance, labor market conditions, 5y5y breakevens (above 2.8% tilts toward Mode B)"
+    ],
+    "current_assessment": "Current conditions (elevated services inflation, large fiscal deficits, near-full employment) tilt conditionally toward Mode B relative to a clean starting point. The 60/40 split is necessarily imprecise but the bimodal structure is well-grounded in historical analogues.",
+    "limitations": [
+      "Probability weights are imprecise and not derived from formal models",
+      "Historical analogues operate in fundamentally different institutional contexts",
+      "Does not specify transition indicators for real-time monitoring of which mode is materializing",
+      "Binary framing may miss intermediate outcomes"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "four_phase_sequencing",
+    "purpose": "Provides an actionable timing template for how deglobalization transmits through asset classes, calibrated across multiple historical analogues",
+    "components": [
+      "Phase 1: FX adjustment (initial response, currency markets move first)",
+      "Phase 2: Goods prices and margins (tariff pass-through, margin compression)",
+      "Phase 3: Capital expenditure (reshoring investment, capex cycle)",
+      "Phase 4: Productivity (learning curve, long-run structural adjustment)"
+    ],
+    "current_assessment": "Calibrated across multiple historical analogues with explicit similarity scores. Provides sequencing guidance for portfolio positioning across the deglobalization timeline.",
+    "limitations": [
+      "Phase boundaries are blurry and can overlap",
+      "Historical analogues may not map cleanly to current institutional structure",
+      "Phase durations vary significantly across analogues",
+      "Does not account for simultaneous shocks accelerating or disrupting sequencing"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "slug": "deglobalization_factor_regime_framework",
+    "purpose": "Explains why deglobalization should not be modeled as a standalone return factor but as a regime variable that shifts loadings on existing factors",
+    "components": [
+      "Deglobalization is multicollinear with value (capital-intensive firms), quality (pricing power), size (domestic mid-caps), and momentum (policy tailwind)",
+      "HLZ (2016) statistical framework: standalone factor would fail t-stat > 3.0 threshold",
+      "Reshoring-winner baskets: 60-80% of returns explained by known factors, intercept t-stat ~1.0-1.5",
+      "Tail risk structure is genuinely different from standard factor models (not captured by cross-sectional returns)"
+    ],
+    "current_assessment": "1930s, 1970s, 1980s trade episodes never produced distinct academic factors. Deglobalization shifts loadings on existing factors rather than creating new ones. However, the tail risk structure requires separate treatment outside the factor framework.",
+    "limitations": [
+      "Based primarily on one agent's framework (quant_researcher_02)",
+      "Tail risk structure acknowledged as genuinely different but not integrated into the framework",
+      "May miss sector-specific dynamics that don't map to standard factors",
+      "Regime identification in real-time is challenging"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  }
+]

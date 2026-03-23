@@ -1,0 +1,24 @@
+{
+  "slug": "tariff_passthrough_threshold",
+  "purpose": "Identifies the critical effective tariff rate at which pass-through behavior shifts from primarily firm-absorbed to primarily consumer-borne, with implications for both inflation and credit",
+  "components": [
+    "Below ~15% effective rate: 30-50% pass-through, firms absorb via margin compression, coverage ratios manageable",
+    "15-25% effective rate: transition zone, pass-through rising, coverage ratios deteriorating",
+    "Above ~25% effective rate: 60-90% pass-through, margin compression exhausted, fallen angel risk materializes"
+  ],
+  "current_assessment": "Current effective tariff regime (~12-18% weighted average) sits at the cusp of the danger zone. The difference between 15% and 30% effective tariffs is not 2x the inflation impact but 3-4x due to nonlinearity. Independent derivation from credit (coverage ratio arithmetic) and macro (empirical pass-through literature) frameworks strengthens confidence.",
+  "limitations": [
+    "Threshold likely varies by sector, firm size, and competitive structure",
+    "Calibrated primarily on 2018-2019 tariff data — may not hold for broader product coverage",
+    "Does not account for currency adjustment offsetting tariff impact",
+    "Lag structure between tariff imposition and threshold crossing not specified"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

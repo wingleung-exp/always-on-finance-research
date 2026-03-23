@@ -1,0 +1,36 @@
+{
+  "slug": "supply_shock_stock_bond_correlation",
+  "definition": "Deglobalization drives positive stock-bond correlation through supply-shock dominance, eroding 60/40 portfolio diversification. When supply-shock variance exceeds demand-shock variance (Campbell-Sunderam-Viceira framework), correlation flips from approximately -0.3 to +0.2, increasing 60/40 portfolio volatility by 15-20% and reducing Sharpe ratio by 0.10-0.15.",
+  "confidence": 8,
+  "evidence": [
+    "Campbell-Sunderam-Viceira framework: supply-shock variance exceeding demand-shock variance flips correlation positive",
+    "Empirically validated in 2022: simultaneous -20% equities, -15% long bonds",
+    "Estimated shift from rho = -0.3 to rho = +0.2",
+    "60/40 portfolio volatility increase of 15-20%, Sharpe ratio reduction of 0.10-0.15",
+    "The oscillation between positive and negative regimes is itself the central portfolio construction challenge"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "generalist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "How frequently will correlation regime switches occur, and can they be predicted?",
+    "What portfolio construction approach best handles oscillating correlation regimes?",
+    "Does the correlation regime instability itself create exploitable alpha opportunities?"
+  ],
+  "related_concepts": [
+    "deglobalization_term_premium",
+    "deglobalization_structural_inflation",
+    "deglobalization_regime_variable",
+    "bimodal_inflation_outcome"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "bimodal_hy_default_distribution",
+  "definition": "High-yield default rates follow a bimodal distribution under deglobalization: 2.5% in a benign mode (orderly reshoring, tariffs at ~15%, fiscal buffer supports) vs 7-9% in an adverse mode (tariff escalation to 25%+, rare earth disruption, maturity wall collision). Market pricing exclusively embeds the left mode (HY OAS at ~350-400bp embeds ~3% expected default).",
+  "confidence": 4,
+  "evidence": [
+    "Benign mode: orderly reshoring, tariffs at ~15%, fiscal buffer supports → ~2.5% default",
+    "Adverse mode: tariff escalation to 25%+, rare earth disruption, maturity wall collision → 7-9% default",
+    "Market pricing at HY OAS ~350-400bp embeds ~3% expected default — exclusively left mode",
+    "Extends existing KB concept hy_default_rate_mispricing"
+  ],
+  "originating_agents": [
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "What probability weights should be assigned to each mode?",
+    "What are the leading indicators that distinguish which mode is materializing?",
+    "Is the HY market correctly pricing even the benign mode, given maturity wall pressures?"
+  ],
+  "related_concepts": [
+    "maturity_wall_deglobalization_interaction",
+    "tariff_passthrough_nonlinearity",
+    "deglobalization_tail_risk_underpricing",
+    "strategic_geopolitical_zombies"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

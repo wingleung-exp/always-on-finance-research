@@ -2913,5 +2913,85 @@
     ],
     "topic": "yield_curve_dynamics",
     "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "$400-600B in IG facing binary credit risk from rare earth disruption, with IG to credit-impaired transition 'within weeks'",
+    "reason": "Exposure estimate too aggregated and inflated. Binary framing credibly applies only to a narrow subset (~$80-120B semiconductor equipment, ~$40-60B defense electronics). The broader $200-300B 'general industrial users' category has multi-month inventory buffers and partial substitution pathways. Russia 2022 energy analogy is misleading because energy is a flow commodity consumed immediately while rare earths are stock inputs with buffers.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "NAIRU shift of 10-25bp from '15-25% reduction in effective labor supply' due to deglobalization",
+    "reason": "Freeman's (2006) '1.5 billion workers' describes gross labor force in countries that opened to trade, not effective labor supply competing with advanced-economy workers. Most Chinese manufacturing workers were never substitutable for US service-sector workers. The domestic labor channel operates through product-market competition (Autor-Dorn-Hanson 'China shock'), not direct labor supply. The 15-25% reduction figure is 'not meaningfully calibratable.'",
+    "refuted_by": [
+      "challenger_01",
+      "credit_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "r-star increase of 15-30bp from geopolitical fiscal ratchet",
+    "reason": "Laubach-Williams confidence intervals span ±100bp, rendering a 15-30bp point estimate meaningless. The claim that defense spending 'violates Ricardian equivalence' because it responds to security externalities is a non-sequitur. Fiscal multiplier estimates cited (Ramey, Nakamura-Steinsson) are for output, not r-star — mapping requires structural assumptions not provided. Direction is trivially true; specific r-star attribution is not credible.",
+    "refuted_by": [
+      "challenger_01",
+      "quant_researcher_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "CLO recovery rates 10-20pp lower under deglobalization",
+    "reason": "Conflates two effects: covenant-lite recovery drag (general, well-documented) and deglobalization-specific structural impairment (novel, undemonstrated). Supply chain restructuring costs impair EBITDA but don't necessarily destroy asset values — newly built reshored capacity adds tangible asset value supporting recovery in liquidation. The 10-20pp figure appears reverse-engineered without a deglobalization-specific causal mechanism.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "Friendshoring cost premium of 1.3-1.5x declining to 1.1-1.2x by Year 10",
+    "reason": "Primary analogue (1980s VERs) is a poor fit — VERs restricted quantity on existing products, not building greenfield processing infrastructure. Own evidence contradicts: US steel achieved cost parity 'only after ~25 years and massive consolidation.' If steel took 25 years, semiconductor fabrication and rare earth processing reaching 1.1-1.2x in 10 years is unsupported. Initial 1.3-1.5x after subsidies may be too low given TSMC Arizona's 50%+ cost overruns.",
+    "refuted_by": [
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "Tariff + Chinese overcapacity 'net effect close to zero for traded goods in aggregate'",
+    "reason": "Works for sectors with massive Chinese overcapacity (EVs, solar, batteries, steel) but fails for sectors where supply chain fragmentation is most acute and where there is no Chinese overcapacity buffer: semiconductors, pharmaceuticals, aerospace components, specialized chemicals, medical devices. The 'in aggregate' framing obscures the dispersion that matters most for portfolio construction and credit risk.",
+    "refuted_by": [
+      "risk_analyst_02",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "Specific probability assignments in geopolitical scenario trees (55%/30%/15% for tariff scenarios; 45%/35%/20% for US-China competition; 8% for military confrontation)",
+    "reason": "Probability weights presented as analytical judgment without derivation from base rates or models. 8% assigned to military confrontation is unfalsifiable on any reasonable timeline. These 'give a false sense of quantitative rigor to what is essentially a qualitative assessment.' The scenario structures are useful; the probability assignments are decoration.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "claim": "3-5x amplification estimate for systemic tariff scenarios (universal 25%+ tariffs)",
+    "reason": "No quantitative evidence supports this specific multiplier. The 2018-2019 trade war never reached the 'systemic' threshold defined, so there's no empirical calibration. Smoot-Hawley operated in a fundamentally different financial architecture (no swap lines, no floating rates). The figure 'appears to be an assertion dressed as an estimate.' The qualitative point about nonlinear amplification above a threshold survives.",
+    "refuted_by": [
+      "quant_researcher_02",
+      "challenger_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
   }
 ]

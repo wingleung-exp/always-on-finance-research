@@ -1,0 +1,21 @@
+{
+  "concept_a": "tariff_ratchet_dynamic",
+  "concept_b": "tariff_passthrough_nonlinearity",
+  "mechanism": "Ratcheting tariff escalation pushes effective tariff rates toward and beyond the 15-25% nonlinear threshold where pass-through jumps from 30-50% to 60-90%, creating a regime break in inflation and credit transmission",
+  "direction": "a_causes_b",
+  "confidence": 7.5,
+  "regime_dependence": "The nonlinear threshold is relatively stable; the relationship activates when cumulative tariff ratchet crosses the ~15-25% effective rate zone",
+  "originating_agents": [
+    "generalist_02",
+    "credit_analyst_01",
+    "macro_strategist_01"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "bimodal_inflation_framework",
+  "purpose": "Replaces point-estimate inflation forecasting with a two-mode probability distribution to capture the qualitatively different outcomes deglobalization could produce",
+  "components": [
+    "Mode A (~60% probability): One-time price-level shift. Analogue: 1971-72 post-Nixon Shock (1.5-2.0pp CPI over 18 months, then fading). Requires restrictive Fed, stable expectations.",
+    "Mode B (~40% probability): Persistent regime shift. Analogue: 1973-75 oil embargo + monetary accommodation + fiscal expansion → structural. Requires accommodative Fed, loose fiscal, tight labor.",
+    "Tilt factors: Fed reaction function, fiscal stance, labor market conditions, 5y5y breakevens (above 2.8% tilts toward Mode B)"
+  ],
+  "current_assessment": "Current conditions (elevated services inflation, large fiscal deficits, near-full employment) tilt conditionally toward Mode B relative to a clean starting point. The 60/40 split is necessarily imprecise but the bimodal structure is well-grounded in historical analogues.",
+  "limitations": [
+    "Probability weights are imprecise and not derived from formal models",
+    "Historical analogues operate in fundamentally different institutional contexts",
+    "Does not specify transition indicators for real-time monitoring of which mode is materializing",
+    "Binary framing may miss intermediate outcomes"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

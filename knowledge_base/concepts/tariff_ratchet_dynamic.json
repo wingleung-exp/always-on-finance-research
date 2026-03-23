@@ -1,0 +1,38 @@
+{
+  "slug": "tariff_ratchet_dynamic",
+  "definition": "Tariff escalation follows a ratchet dynamic with a strong historical base rate of non-reversal. In all 5 major protectionist episodes (1890, 1922, 1930, 1971, 2018-present), initial tariffs triggered retaliatory spirals exceeding the original action by 1.5-3x within 24 months. Only 1/5 de-escalated, requiring GDP to fall 30% (Depression to 1934 RTAA).",
+  "confidence": 8,
+  "evidence": [
+    "5/5 historical protectionist episodes triggered retaliatory spirals exceeding original action by 1.5-3x within 24 months",
+    "Only 1/5 de-escalated, requiring GDP to fall 30% (Depression → 1934 RTAA)",
+    "Olson's collective action theory: concentrated beneficiaries lobby for retention, diffuse consumers can't organize against",
+    "US steel tariffs imposed 2018 remain in 2026 under different administration; solar tariffs renewed and expanded",
+    "Bipartisan US protectionist convergence removes the political off-ramp",
+    "Game theory (generalist_01) and historical base rate (generalist_02) strengthen combined confidence"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "risk_analyst_02",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Is there a Nash equilibrium in US-China tariff escalation, or is the ratchet inherently unbounded?",
+    "What is the equilibrium effective tariff level: 15-25% base case or 30-40% fat tail?",
+    "At what tariff/regulation threshold do corporations shift from cosmetic to genuine relocation (estimated 40-60% but untested)?"
+  ],
+  "related_concepts": [
+    "tariff_passthrough_nonlinearity",
+    "deglobalization_structural_inflation",
+    "bimodal_inflation_outcome",
+    "friendshoring_cosmetic_diversion"
+  ],
+  "topic": "deglobalization",
+  "created_at": "2026-03-23T10:28:37Z",
+  "last_updated": "2026-03-23T10:28:37Z",
+  "originating_iteration": "iter_0032",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0032"
+  ]
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "concept_a": "tariff_ratchet_dynamic",
+    "concept_b": "deglobalization_structural_inflation",
+    "mechanism": "Non-reversing tariff escalation progressively raises import costs through direct price pass-through and retaliatory spirals, creating a ratcheting floor under tradeable goods inflation",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds under bipartisan protectionist convergence; would weaken if political off-ramp emerges or GDP contraction forces reversal (1/5 historical base rate)",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "deglobalization_structural_inflation",
+    "concept_b": "supply_shock_stock_bond_correlation",
+    "mechanism": "Supply-side inflation from deglobalization increases supply-shock variance relative to demand-shock variance, flipping stock-bond correlation positive via Campbell-Sunderam-Viceira framework",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when supply-shock variance dominates; correlation reverts negative when central bank easing or demand shocks dominate (oscillating regime)",
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "deglobalization_structural_inflation",
+    "concept_b": "deglobalization_term_premium",
+    "mechanism": "Inflation variance from tariff policy discontinuity and supply chain tail risk elevates compensation demanded by Treasury investors; operates through affine term structure models where term premium compensates for inflation uncertainty",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Holds as long as tariff policy discontinuity persists; would moderate if trade policy stabilizes",
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "tariff_ratchet_dynamic",
+    "concept_b": "tariff_passthrough_nonlinearity",
+    "mechanism": "Ratcheting tariff escalation pushes effective tariff rates toward and beyond the 15-25% nonlinear threshold where pass-through jumps from 30-50% to 60-90%, creating a regime break in inflation and credit transmission",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "The nonlinear threshold is relatively stable; the relationship activates when cumulative tariff ratchet crosses the ~15-25% effective rate zone",
+    "originating_agents": [
+      "generalist_02",
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "china_overcapacity_deflationary_offset",
+    "concept_b": "deglobalization_structural_inflation",
+    "mechanism": "Massive Chinese overcapacity in specific sectors (solar, EVs, batteries, steel) suppresses global prices and absorbs 20-50% of tariff costs, dampening inflationary pass-through. But offset fails in sectors without overcapacity (semis, pharma, aerospace, specialty chemicals).",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Sector-specific, not aggregate. Works only where Chinese overcapacity exists and tariffs don't fully block imports. Breaks if enforcement blocks the deflationary transmission",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "rare_earth_processing_concentration",
+    "concept_b": "deglobalization_tail_risk_underpricing",
+    "mechanism": "Highest-severity supply chain vulnerability has near-zero premium in IG industrial spreads despite demonstrable weaponization pattern; cross-silo opacity prevents any single risk model from integrating this exposure",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Underpricing persists until either a disruption event reprices risk or supply chain transparency improves; the 5-10 year vulnerability window overlaps with peak geopolitical risk",
+    "originating_agents": [
+      "risk_analyst_01",
+      "risk_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "rare_earth_processing_concentration",
+    "concept_b": "transition_window_vulnerability",
+    "mechanism": "The 5-10 year window to build alternative rare earth processing capacity defines the minimum duration of the transition vulnerability; overlaps with peak Taiwan contingency risk period",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural — no policy acceleration can close the processing gap faster than the physical/chemical engineering constraints allow",
+    "originating_agents": [
+      "risk_analyst_01",
+      "risk_analyst_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "friendshoring_cosmetic_diversion",
+    "concept_b": "nearshoring_capex_execution_gap",
+    "mechanism": "Cosmetic friendshoring inflates headline announced capex by counting trade rerouting as genuine relocation; enforcement tightening will reveal the gap between announced and actual investment",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Gap widens when enforcement is lax and corporations choose 3-8% cosmetic options; narrows as rules-of-origin enforcement tightens",
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "maturity_wall_deglobalization_interaction",
+    "concept_b": "bimodal_hy_default_distribution",
+    "mechanism": "Joint stress of refinancing (40-60% higher costs) and margin compression (150-400bp lower operating margins) creates correlated defaults that push outcomes toward the adverse mode (7-9%) rather than the benign mode (2.5%)",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Activates when maturity wall peak (2025-2028) coincides with effective tariff rates above the 15-25% nonlinear threshold; benign mode prevails if tariffs stay below threshold or maturities are extended",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "dollar_funding_amplification",
+    "concept_b": "transition_window_vulnerability",
+    "mechanism": "Thinning offshore dollar liquidity from trade surplus recycling decline amplifies financial stress during the transition window when supply chains are partially duplicated and capital is committed to incomplete projects",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Amplification strongest during active de-dollarization and geopolitical stress; Fed swap lines can partially mitigate for allied nations but not for adversary or non-aligned nations",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "deglobalization_process_decomposition",
+    "concept_b": "friendshoring_cosmetic_diversion",
+    "mechanism": "Contradictions between the three deglobalization processes (security, mercantilist, corporate) create incentives for cosmetic compliance: mercantilist tariffs on allied suppliers undermine security-driven friendshoring, pushing corporations toward the cheapest cosmetic diversion",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Contradiction is structural — exists whenever multiple policy objectives conflict. Resolves only if one logic dominates (e.g., national security overrides cost optimization)",
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "supply_shock_stock_bond_correlation",
+    "concept_b": "deglobalization_term_premium",
+    "mechanism": "Both driven by the same underlying force (supply-shock dominance) and mutually reinforce: positive correlation reduces bond diversification value, requiring higher term premium to attract investors; elevated term premium reflects the inflation uncertainty that drives positive correlation",
+    "direction": "bidirectional",
+    "confidence": 7.5,
+    "regime_dependence": "Co-directional under supply-shock dominance; both reverse under demand-shock dominance or successful central bank anchoring of expectations",
+    "originating_agents": [
+      "quant_researcher_02",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "bimodal_inflation_outcome",
+    "concept_b": "deglobalization_term_premium",
+    "mechanism": "Uncertainty about which inflation mode will materialize (60% price-level shift vs 40% persistent regime shift) directly elevates term premium because investors cannot resolve the distribution and demand compensation for this ambiguity",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds while the bimodal outcome remains unresolved; term premium would narrow if leading indicators clearly favor one mode",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "nearshoring_capex_execution_gap",
+    "concept_b": "transition_window_vulnerability",
+    "mechanism": "50-70% completion rates and systematic delays (TSMC Arizona, Intel Ohio) extend the transition window beyond planned timelines, prolonging the period of maximum vulnerability",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Execution gap is structural given workforce constraints (500,000+ additional manufacturing workers needed) and project complexity; partially mitigated by national security political persistence",
+    "originating_agents": [
+      "risk_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "strategic_geopolitical_zombies",
+    "concept_b": "deglobalization_tail_risk_underpricing",
+    "mechanism": "Subsidy-dependent firms suppress measured default rates and tighten aggregate spreads, masking non-subsidized deterioration and making aggregate credit metrics unreliable indicators of true risk",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Persists as long as subsidies are disbursed; fiscal tightening or political reversal would expose the masked deterioration",
+    "originating_agents": [
+      "credit_analyst_01",
+      "risk_analyst_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "four_tier_em_structure",
+    "concept_b": "friendshoring_cosmetic_diversion",
+    "mechanism": "Tier 2 EMs (Malaysia, Thailand, Indonesia) serve as primary conduits for cosmetic trade diversion; transshipment crackdowns primarily target this tier, creating vulnerability that Tier 1 (India, Poland) avoids through deeper genuine integration",
+    "direction": "correlated",
+    "confidence": 5.5,
+    "regime_dependence": "Tier assignments shift with enforcement intensity — aggressive rules-of-origin enforcement could demote Tier 2 countries or force genuine investment that promotes them",
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "tariff_passthrough_nonlinearity",
+    "concept_b": "maturity_wall_deglobalization_interaction",
+    "mechanism": "Crossing the 15-25% tariff threshold triggers accelerated margin compression for import-dependent issuers, amplifying refinancing stress by degrading coverage ratios precisely when borrowers need to roll maturing debt",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Activates specifically when effective tariff rates cross the nonlinear threshold; below threshold, firms absorb costs and coverage ratios remain manageable",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "deglobalization_regime_variable",
+    "concept_b": "value_factor_deglobalization_tailwind",
+    "mechanism": "Deglobalization regime increases loadings on value factor as tangible-asset-heavy domestic firms benefit relative to asset-light global supply chain firms; the tailwind is a factor loading shift, not an independent alpha source",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Active during deglobalization regime; would reverse if re-globalization occurs or if AI-driven intangible premium offsets tangible-asset advantage",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  },
+  {
+    "concept_a": "weaponization_of_interdependence_base_rate",
+    "concept_b": "dollar_funding_amplification",
+    "mechanism": "Historical pattern (0/2 base rate for system centrality preservation) suggests weaponization of dollar system accelerates development of alternatives, gradually thinning the offshore dollar funding base that serves as crisis transmission mechanism",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Long-run (20-40 year) relationship; near-term dollar dominance persists but marginal thinning increases crisis-time fragility",
+    "originating_agents": [
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "deglobalization",
+    "iteration_id": "iter_0032"
+  }
+]
