@@ -3,41 +3,49 @@
   "definition": "The SEC Treasury clearing mandate (CMESC Q2 2026) is a calendar-identifiable regulatory catalyst that could trigger basis trade deleveraging independent of any macro trigger. Central clearing increases margin requirements and counterparty transparency, both reducing leverage capacity.",
   "confidence": 5.0,
   "evidence": [
-    "SEC approved CME Securities Clearing Inc. December 2, 2025",
-    "Central clearing increases margin requirements and counterparty transparency",
-    "Historical parallel: post-2008 OTC derivatives clearing mandates compressed carry trades",
     "Pair_3: 'most original and actionable insight' but flagged as under-examined",
     "Could be phased in gradually or accompanied by cross-margining offsets",
     "Central clearing increases margin requirements, directly compressing leverage capacity",
     "Timing coincides with Q2 quarter-end repo stress",
     "pair_2 debate called this 'the single most actionable near-term risk'",
-    "macro_strategist_01 'completely misses this despite extensive basis trade analysis'"
+    "macro_strategist_01 'completely misses this despite extensive basis trade analysis'",
+    "Margin arithmetic is mechanical: 1-2% to 3-5% increase forces deleveraging",
+    "Zero event premium in June 2026 SOFR futures",
+    "Regulation Q (1966) analogue provides 2/3 base rate for regulatory triggers exceeding expectations",
+    "Timing compounds with Q2 quarter-end repo stress creating non-linear amplification risk"
   ],
   "originating_agents": [
-    "risk_analyst_01"
+    "risk_analyst_01",
+    "rates_strategist_01",
+    "generalist_01",
+    "credit_analyst_01"
   ],
   "open_questions": [
-    "Will phase-in be gradual enough to prevent disorderly deleveraging?",
-    "What cross-margining offsets might dampen the impact?",
     "How does this interact with quarter-end repo stress as a compound risk?",
     "Will phase-in be gradual enough to avoid dislocation?",
     "How much do cross-margining offsets reduce the effective margin increase?",
-    "Does post-2008 derivatives clearing precedent translate to Treasury markets?"
+    "Does post-2008 derivatives clearing precedent translate to Treasury markets?",
+    "Will the mandate be implemented on schedule or face political/industry delays?",
+    "How effective would Treasury/Fed transitional liquidity facilities be?",
+    "What is the likely phase-in timeline and cross-margining offset (potentially dampening by 50%+)?",
+    "Is the 25-75bp term premium impact estimate from rates_strategist_01 overstated?"
   ],
   "related_concepts": [
     "treasury_basis_trade_vulnerability",
     "on_rrp_depletion",
     "doom_loop",
     "basis_trade_dual_distortion",
-    "bad_steepening"
+    "bad_steepening",
+    "basis_trade_systemic_fragility"
   ],
   "topic": "fiscal_dominance",
   "created_at": "2026-03-23T02:04:12Z",
-  "last_updated": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0016",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0016",
-    "iter_0031"
+    "iter_0031",
+    "iter_0038"
   ]
 }

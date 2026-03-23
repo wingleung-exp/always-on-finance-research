@@ -1,33 +1,50 @@
 {
   "slug": "carry_trap",
   "definition": "The fiscal deficit that compresses credit spreads via the Kalecki profit channel is simultaneously the source of fiscal dominance tail risk. This creates a negatively skewed payoff profile where carry narrows as underlying risk rises — investors are being paid less to bear more risk.",
-  "confidence": 7,
+  "confidence": 7.5,
   "evidence": [
     "Deficit sustains profits (Kalecki identity) → compresses credit spreads",
     "Same deficit creates fiscal dominance risk → tail risk increases",
     "Carry narrows while risk rises = negatively skewed payoff",
-    "Mechanism is logically coherent and follows from established framework"
+    "Mechanism is logically coherent and follows from established framework",
+    "Logically necessary given the Kalecki identity",
+    "HY risk premium at ~124bp vs post-2000 median of 180-220bp representing 30-40% compression",
+    "IG spreads at ~90-110bp near cycle tights",
+    "Confirmed in pair_0 and pair_1 debates as operating across multiple asset classes"
   ],
   "originating_agents": [
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "generalist_01",
+    "credit_analyst_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
   ],
   "open_questions": [
     "At what point does the carry trap become a measurably bad risk-reward?",
     "How should portfolio construction account for this asymmetry?",
-    "Is the carry trap already priced by sophisticated market participants?"
+    "Is the carry trap already priced by sophisticated market participants?",
+    "What catalyst would trigger the transition from carry compression to spread blowout?",
+    "How quickly can the carry trap unwind given modern market microstructure?",
+    "Is there a measurable risk premium for the negative convexity itself?"
   ],
   "related_concepts": [
     "kalecki_levy_profit_channel",
     "us_fiscal_unprecedented_configuration",
     "treasury_basis_trade_vulnerability",
-    "stock_bond_correlation_bifurcation"
+    "stock_bond_correlation_bifurcation",
+    "kalecki_profit_channel",
+    "cross_asset_pricing_inconsistency",
+    "ebitda_addback_leverage_distortion",
+    "basis_trade_systemic_fragility",
+    "private_credit_opacity"
   ],
   "topic": "fiscal_dominance",
   "created_at": "2026-03-23T02:04:12Z",
-  "last_updated": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0016",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0016"
+    "iter_0016",
+    "iter_0038"
   ]
 }

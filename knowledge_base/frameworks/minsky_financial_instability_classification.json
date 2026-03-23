@@ -1,0 +1,26 @@
+{
+  "slug": "minsky_financial_instability_classification",
+  "purpose": "Classifies financial structures by their cash-flow stability characteristics to identify systemic fragility and predict the dynamics of financial stress",
+  "components": [
+    "Hedge finance: operating cash flows sufficient to service all debt obligations including principal",
+    "Speculative finance: operating cash flows sufficient for interest but not principal, requiring refinancing",
+    "Ponzi finance: operating cash flows insufficient to service even interest, requiring asset price appreciation or continued financing access",
+    "Basis trade classified as Ponzi: 5-15bp spread at 20-100x leverage meets exact criterion (depends on repo availability and basis stability)",
+    "Fiscal dominance as displaced Minsky super-cycle: private fragility displaced to sovereign balance sheet"
+  ],
+  "current_assessment": "Basis trade classified as Ponzi finance with high confidence (8/10). The Minsky super-cycle framing — private fragility displaced to sovereign level — provides the most parsimonious explanation of why private balance sheets appear healthy while sovereign risk accumulates. The classification maps to specific observable indicators (repo availability, basis stability, quarter-end disruptions).",
+  "limitations": [
+    "Activation probability subject to Knightian uncertainty (rated 2/10 in knowledge base)",
+    "Ponzi classification identifies vulnerability but does not predict timing of crisis",
+    "Sovereign Minsky cycle has no direct historical precedent for reserve-currency issuers",
+    "Classification is binary while actual financial structures exist on a continuum"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

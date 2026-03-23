@@ -1,0 +1,830 @@
+[
+  {
+    "slug": "kalecki_profit_channel",
+    "definition": "The mechanism by which government deficits mechanically channel into corporate profits via the Kalecki-Levy identity (Government deficit = Private surplus + Current account deficit). At ~$1.8-2.0T deficit (6-7% GDP), approximately $400-600B flows into corporate profits, simultaneously sustaining household incomes, corporate earnings, and compressed credit spreads.",
+    "confidence": 9,
+    "evidence": [
+      "S&P 500 EPS growth of 8-10% through 2024-25 consistent with Kalecki attribution",
+      "Food volumes declined only 2-3% during 40-year-high food inflation in 2021-22 vs 8-12% in 2008 without fiscal transfers",
+      "HY default rates suppressed at ~2.5% vs historical 4.1% base rate",
+      "Confirmed independently in pair_0, pair_1, and pair_2 debates"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "What is the precise marginal Kalecki multiplier at current deficit levels?",
+      "How quickly would corporate profits contract if the deficit narrowed by 2pp GDP?",
+      "What proportion of the profit channel flows through interest income vs transfer payments?"
+    ],
+    "related_concepts": [
+      "carry_trap",
+      "broken_monetary_transmission",
+      "demand_destruction_thermostat_break",
+      "fiscal_dominance_trap_paradox",
+      "fiscal_consolidation_trigger_threshold"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "unprecedented_fiscal_configuration",
+    "definition": "The US fiscal configuration of 6-7% deficit at sub-4% unemployment has zero precedents in 74 annual peacetime observations since WWII. The structural primary deficit of ~5.5-6.0% at full employment is 3-4 standard deviations above the post-WWII mean (~1.5-2.0%) at comparable unemployment rates.",
+    "confidence": 9,
+    "evidence": [
+      "Zero out of 74 annual peacetime observations since WWII match this configuration",
+      "Structural primary deficit 3-4 standard deviations above post-WWII mean at comparable unemployment rates",
+      "Near-factual observation unchallenged in any debate"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_02",
+      "challenger_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the absence of historical precedent make this configuration inherently unstable or could it represent a new stable equilibrium?",
+      "Is the configuration a result of structural changes (demographics, healthcare costs) or discretionary fiscal choices?"
+    ],
+    "related_concepts": [
+      "small_n_confidence_cap",
+      "fiscal_dominance_trap_paradox",
+      "doom_loop",
+      "kalecki_profit_channel"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "small_n_confidence_cap",
+    "definition": "The methodological principle that with n=3-4 fiscal dominance episodes, n=7 resolution pathways, and n=0 for the current US configuration, all historically-extrapolated claims should carry maximum confidence of 5-6/10. Claims grounded in current market observables or accounting identities may reach 7-8/10. The Clopper-Pearson interval on '50% repression probability' from 4/7 episodes spans [15%, 85%].",
+    "confidence": 9,
+    "evidence": [
+      "n=3-4 for fiscal dominance episodes; n=7 for resolution pathways; n=0 for current US configuration",
+      "Clopper-Pearson 95% CI on 50% repression probability spans [15%, 85%]",
+      "Pair_3 debate reached nuanced resolution on differentiated confidence caps",
+      "Airtight logical deduction: if small-n deserves confidence 9, no downstream extrapolative claim should exceed 5-6/10"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "How to formalize the taxonomy of claim types (historical extrapolation vs contemporary observation vs accounting identity)?",
+      "Should the cap be applied to scenario probabilities or mechanism descriptions?",
+      "Can Bayesian priors from related but non-identical episodes partially mitigate the small-n problem?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "financial_repression_modal_outcome",
+      "doom_loop"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "The structural feature where 2Y-SPX correlation is negative (-0.25 to -0.35) while 30Y-SPX correlation is positive (+0.05 to +0.15), reflecting the economy being locally AM/PF at cyclical frequency (Fed still responds to business cycles) but globally PM/AF at secular frequency (fiscal trajectory dominates long-run price level). The 2Y-SPX correlation turning positive would signal transition to full fiscal dominance.",
+    "confidence": 8,
+    "evidence": [
+      "Directly observable in current market data: 2Y-SPX at -0.25 to -0.35; 30Y-SPX at +0.05 to +0.15",
+      "Convergent across 6+ agents and 8+ research iterations",
+      "Two prior episodes (1965-69, 2003-06) resolved in opposite directions confirming bifurcation is transition-zone diagnostic",
+      "Structural explanation via Bianchi-Melosi AM at cyclical frequency, AF at secular frequency"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What threshold of 2Y-SPX correlation turning positive constitutes confirmation of full fiscal dominance?",
+      "Can the bifurcation persist indefinitely as a stable intermediate state?",
+      "Is the positive 30Y-SPX correlation statistically significant given estimation uncertainty?"
+    ],
+    "related_concepts": [
+      "kinked_yield_curve_diagnostic",
+      "long_duration_bond_underperformance",
+      "fiscal_dominance_plateau",
+      "pre_ignition_transition_position"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "taylor_coefficient_collapse",
+    "definition": "The Fed's effective Taylor coefficient has collapsed to ~1.0-1.2, structurally constrained by fiscal feedback. At $36T+ debt, every 100bp rate increase adds ~$250-320B in annual interest expense, partially recycled into demand via the Kalecki channel (10-25% offset to tightening intent). This compresses the Fed's effective toolkit bandwidth to ~155-240bp from ~500bp+ pre-pandemic.",
+    "confidence": 8,
+    "evidence": [
+      "Fed paused at 5.25-5.50% with core PCE at 4.3%, then cut to 4.25-4.50% with core PCE at 2.7%",
+      "Implied asymmetric phi_pi of ~1.2-1.3 on tightening, ~0.8-1.0 on easing",
+      "Goldman FCI eased ~100bp equivalent despite 525bp of hikes",
+      "Convergence across incompatible NK and PK frameworks in pair_2 debate raises confidence to 8/10"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the Taylor coefficient collapse permanent or could it reverse with lower debt/GDP?",
+      "What is the minimum effective bandwidth of the Fed toolkit under current fiscal conditions?",
+      "Could unconventional tools (YCC, targeted facilities) expand effective bandwidth?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "kalecki_profit_channel",
+      "r_star_identification_collapse",
+      "fiscal_dominance_plateau"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "basis_trade_systemic_fragility",
+    "definition": "The Treasury basis trade ($800B-$1.5T at 20-100x leverage) is a systemic fragility with no historical parallel that meets Minsky's exact Ponzi finance criterion: operating cash flows (5-15bp basis spread) are insufficient to service debt obligations when financing conditions tighten even marginally. The structure depends entirely on repo availability, basis stability, and manageable quarter-end disruptions.",
+    "confidence": 8,
+    "evidence": [
+      "LTCM ($125B notional) was 8-10x smaller",
+      "March 2020 required $1.6T in emergency Fed purchases at lower notional",
+      "Meets Minsky Ponzi finance criterion precisely",
+      "SEC clearing mandate (Q2 2026) could force 30-50% leverage compression with zero event premium currently priced in SOFR futures"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What is the activation probability given Knightian uncertainty (rated 2/10)?",
+      "Will the SEC clearing mandate be implemented on schedule or face delays?",
+      "How effective would Fed transitional liquidity facilities be in preventing cascading unwinding?",
+      "What is the actual current notional and leverage distribution?"
+    ],
+    "related_concepts": [
+      "sec_clearing_mandate_catalyst",
+      "carry_trap",
+      "doom_loop",
+      "minsky_financial_instability_classification"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "long_duration_bond_underperformance",
+    "definition": "Long-duration nominal bonds are the worst-performing asset class under fiscal dominance, returning -25% to -65% real cumulative in every historical episode without exception. Gold returns +150-400% cumulative real in every episode with free pricing. This is the most robust cross-asset return pattern across all analogues.",
+    "confidence": 8,
+    "evidence": [
+      "Cross-analogue evidence showing consistent underperformance in every fiscal dominance episode",
+      "30Y-SPX correlation at +0.05 to +0.15 means long Treasuries compound losses during equity drawdowns",
+      "Gold at $3,000+ with $400-600/oz residual above four-factor model",
+      "Central bank gold buying at 1,000+ tonnes/year",
+      "Pair_0 debate: the single highest-conviction combined finding"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is the gold residual sustainable or does it represent speculative overshoot?",
+      "What duration exposure if any retains hedging value under partial fiscal dominance?",
+      "Does the cross-asset return pattern hold when adjusting for the unprecedented starting conditions?"
+    ],
+    "related_concepts": [
+      "maturity_dependent_correlation_bifurcation",
+      "carry_trap",
+      "cross_asset_pricing_inconsistency",
+      "financial_repression_modal_outcome"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "carry_trap",
+    "definition": "The structural negative convexity where the fiscal deficit simultaneously sustains corporate profits (compressing defaults and narrowing spreads) and accumulates debt (raising fiscal fragility and widening the tail distribution). This produces a negatively skewed payoff where carry narrows as underlying risk rises. The most pervasive mispricing identified, operating across corporate credit, the basis trade, and equities.",
+    "confidence": 8,
+    "evidence": [
+      "Logically necessary given the Kalecki identity",
+      "HY risk premium at ~124bp vs post-2000 median of 180-220bp representing 30-40% compression",
+      "IG spreads at ~90-110bp near cycle tights",
+      "Confirmed in pair_0 and pair_1 debates as operating across multiple asset classes"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What catalyst would trigger the transition from carry compression to spread blowout?",
+      "How quickly can the carry trap unwind given modern market microstructure?",
+      "Is there a measurable risk premium for the negative convexity itself?"
+    ],
+    "related_concepts": [
+      "kalecki_profit_channel",
+      "cross_asset_pricing_inconsistency",
+      "ebitda_addback_leverage_distortion",
+      "basis_trade_systemic_fragility",
+      "private_credit_opacity"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "broken_monetary_transmission",
+    "definition": "Monetary policy transmission is persistently (structurally) impaired under fiscal dominance, not cyclically. The NKPC divine coincidence breaks because the fiscal wedge injects persistent demand that monetary policy cannot offset without triggering a fiscal crisis. The Kalecki channel recycles 10-25% of rate-hike contractionary intent as fiscal stimulus to bondholders.",
+    "confidence": 8,
+    "evidence": [
+      "Goldman FCI eased ~100bp equivalent despite 525bp of hikes",
+      "Mortgage lock-in at ~3.5% pre-pandemic rates neutralizes interest rate channel for ~80% of homeowners",
+      "AI wealth effects counteract asset price channel",
+      "Rates at ~7-9% needed to fully offset fiscal impulse would generate ~$2.5-3.2T annual interest expense",
+      "Not 'broken' but transmission working exactly as sectoral balances predict under high debt/GDP"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01",
+      "commodities_analyst_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Will mortgage lock-in diminish as pre-pandemic mortgages mature or are refinanced?",
+      "Is the Fed's effective toolkit bandwidth truly ~155-240bp or could unconventional tools expand it?",
+      "At what debt/GDP threshold does the Kalecki recycling channel overwhelm monetary transmission entirely?"
+    ],
+    "related_concepts": [
+      "taylor_coefficient_collapse",
+      "kalecki_profit_channel",
+      "fiscal_dominance_plateau",
+      "demand_destruction_thermostat_break"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "treasury_fed_accord_analogue_limits",
+    "definition": "The 1942-1951 Treasury-Fed Accord analogue substantially overstates the ease of fiscal dominance resolution because three critical features present post-WWII are absent today: labor force growth (~1.5% vs ~0.3%), pent-up consumer demand from wartime rationing, and Bretton Woods capital controls preventing arbitrage of repressed rates. Post-WWII r-g was -3 to -5pp; current r-g is approximately zero.",
+    "confidence": 8,
+    "evidence": [
+      "Solow-Swan decomposition reveals potential GDP growth gap of 2.5-3.0pp",
+      "Post-WWII r-g differential was -3 to -5pp vs approximately zero today",
+      "Financial repression must operate covertly through regulatory captive buying rather than overt rate caps",
+      "Pair_2 debate: 8/10 combined confidence",
+      "Analogue provides directional guidance but magnitudes are not replicable"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Could regulatory captive buying (LCR, RBC) achieve comparable repression to overt rate caps?",
+      "How does the absence of capital controls change the sustainability of financial repression?",
+      "What r-g differential is achievable through stealth repression in current conditions?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "fiscal_dominance_trap_paradox",
+      "small_n_confidence_cap"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "fiscal_consolidation_trigger_threshold",
+    "definition": "Fiscal consolidation >2pp GDP is the consensus trigger threshold for regime shift, but is itself economically dangerous. 3.5pp consolidation with stable current account forces ~$1.0T annual reduction in private-sector net financial accumulation via sectoral balance identity. 100% of US private-sector-deficit episodes (1999-2001, 2005-2007) ended in recession.",
+    "confidence": 7,
+    "evidence": [
+      "Convergence from four independent frameworks: commodities, credit, NK macro, PK macro",
+      "Sectoral balances arithmetic: 3.5pp consolidation forces ~$1.0T private sector income reduction",
+      "100% base rate of US private-sector-deficit episodes ending in recession",
+      "Pair_2 debate: PK framework is 'substantially stronger' on this point"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Can monetary or FX offsets mitigate the private-sector balance sheet impact?",
+      "What is the minimum consolidation increment that avoids triggering recession?",
+      "Could gradual (0.5pp/year) consolidation avoid the balance-sheet recession threshold?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_trap_paradox",
+      "kalecki_profit_channel",
+      "snap_farm_bill_consolidation_trap",
+      "maturity_wall_bridge_mechanism",
+      "doom_loop"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "demand_destruction_thermostat_break",
+    "definition": "The traditional self-correcting mechanism (high prices to demand destruction to price normalization) is structurally broken under fiscal dominance because the Kalecki channel prevents the demand contraction needed for price normalization. Supply shocks persist longer and accumulate rather than self-correcting. Existing inflation models using historical pass-through coefficients systematically underestimate headline inflation risk.",
+    "confidence": 7,
+    "evidence": [
+      "2021-22 natural experiment: food volumes declined only 2-3% during 40-year-high inflation vs 8-12% in 2008",
+      "Supply cannot respond faster than one growing season (biological constraint in agriculture)",
+      "Mutually reinforcing across food consumption and corporate earnings data in pair_1 debate",
+      "Asymmetry is structural: supply constrained, demand destruction suppressed by fiscal income support"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Do existing inflation models systematically underestimate headline inflation risk under fiscal dominance?",
+      "What is the regime-dependent food-to-CPI pass-through coefficient?",
+      "How many commodity supply shocks can accumulate before the Kalecki channel is overwhelmed?"
+    ],
+    "related_concepts": [
+      "kalecki_profit_channel",
+      "agricultural_nonlinear_price_thresholds",
+      "broken_monetary_transmission"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "financial_repression_modal_outcome",
+    "definition": "Financial repression is the most likely historical resolution pathway for fiscal dominance (4/7 episodes), but the ~50% point estimate is uninformative (Clopper-Pearson 95% CI: [15%, 85%]). The ranking (repression more likely than crisis for reserve-currency issuers, 2/3 base rate) is more informative than any point probability. Stealth repression through regulatory captive buying may evade the democratic constraint.",
+    "confidence": 6,
+    "evidence": [
+      "Base rate: 4/7 historical episodes produced financial repression",
+      "No democracy has sustained financial repression >15 years without external anchor",
+      "Stealth repression via Basel III LCR, NAIC RBC, pension mandates may evade democratic constraint",
+      "2012-2019 QE characterized as 'accidental' repression for 7 years",
+      "Ranking (repression > crisis for reserve-currency issuer) more informative than point probability"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_02",
+      "rates_strategist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Can stealth repression through prudential regulation evade both democratic and capital flight constraints?",
+      "What is the capacity of crypto/stablecoin as an escape valve from financial repression?",
+      "How to detect flow-survey divergence indicating repression onset?",
+      "Does modern capital mobility shorten repression sustainability below the 25-35 years required for deleveraging?"
+    ],
+    "related_concepts": [
+      "treasury_fed_accord_analogue_limits",
+      "fiscal_dominance_trap_paradox",
+      "small_n_confidence_cap",
+      "long_duration_bond_underperformance"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "pre_ignition_transition_position",
+    "definition": "The US is assessed to be at the 1965-68 'pre-ignition' position in the fiscal dominance transition sequence, with ~7.5/10 similarity score. The five-stage framework places the US between stages (ii) inflation persistence and (iii) bond tantrum, with one tantrum occurred (Oct 2023) followed by partial re-complacification.",
+    "confidence": 6,
+    "evidence": [
+      "Full-employment deficits, constrained Fed, sticky inflation above target, market complacency, political incapacity to consolidate",
+      "Sequence match: fiscal expansion established, inflation sticky, one bond tantrum (Oct 2023), partial re-complacification",
+      "Pair_0 debate confirms as strongest transition analogue",
+      "Critical caveat: debt/GDP starting point 3x higher (125% vs 40%)"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does 3x higher debt/GDP starting point compress or extend transition timeline?",
+      "What specific event would mark transition from stage iii to stage iv?",
+      "Is the Japan outlier (25+ years quiet period) applicable to US conditions?",
+      "What is the analytically correct start date for the current fiscal dominance dynamic?"
+    ],
+    "related_concepts": [
+      "maturity_dependent_correlation_bifurcation",
+      "kinked_yield_curve_diagnostic",
+      "fiscal_dominance_plateau",
+      "five_stage_resolution_sequence"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "maturity_wall_bridge_mechanism",
+    "definition": "The $900B-$1.1T maturity wall (2025-2027) is the bridge mechanism converting fiscal dynamics to credit outcomes. At true leverage of 7.5-8.5x (addback-adjusted), debt service at 500bp+ OAS consumes 70-80% of actual cash EBITDA. Severity is GDP-dependent: manageable at consensus 2.0-2.5% growth (Kalecki sustained), solvency wall at growth below 1.0%.",
+    "confidence": 7,
+    "evidence": [
+      "Maturities are contractual facts; coupon step-ups (300-500bp) are arithmetic",
+      "Prior maturity walls (2012, 2014, 2019) defused by amend-and-extend under ZIRP conditions no longer available at SOFR ~4.3%",
+      "Calendar-identifiable catalysts more analytically useful than probabilistic supply shock scenarios (pair_1)",
+      "At true leverage of 7.5-8.5x, debt service at 500bp+ OAS consumes 70-80% of cash EBITDA"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What proportion of the maturity wall can be extended under current rate conditions?",
+      "At what GDP growth rate does the maturity wall become a solvency wall?",
+      "How does the Kalecki profit floor interact with individual firm leverage dynamics?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_leverage_distortion",
+      "kalecki_profit_channel",
+      "fiscal_consolidation_trigger_threshold",
+      "carry_trap"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "ebitda_addback_leverage_distortion",
+    "definition": "True corporate leverage is 5.5-7.5x vs reported 4.0-4.5x due to EBITDA addback practices, cross-validated by S&P LCD at 75-85% addback realization rates. Merton-model recalibration shifts 5-year cumulative default probability from ~3.5% to ~8-14%. The directional claim (spreads too tight vs adjusted fundamentals) is robust; the magnitude claim is uncertain.",
+    "confidence": 7,
+    "evidence": [
+      "S&P LCD cross-validation at 75-85% addback realization rates",
+      "Pair_1 debate: 'the single most empirically grounded finding across both analyses'",
+      "Directional claim survives robustly but 'negative risk premium' formulation refuted",
+      "Merton-model recalibration shifts 5Y default probability from ~3.5% to ~8-14%"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Do sophisticated HY investors independently haircut EBITDA partially pricing the distortion?",
+      "How much does the Kalecki floor reduce true default probability relative to Merton-model estimates?",
+      "What is the distribution of addback realization rates across sectors and credit quality?"
+    ],
+    "related_concepts": [
+      "carry_trap",
+      "clo_ccc_bucket_step_function",
+      "maturity_wall_bridge_mechanism",
+      "private_credit_opacity"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Rates and gold price 40-60% fiscal dominance probability while credit and equity price less than 15%. ACM term premium at 50-130bp (adjusted) and gold residual $400-600/oz with central bank buying at 1,000+ tonnes/year contrast with IG spreads at ~90-110bp near cycle tights and compressed equity risk premium.",
+    "confidence": 6,
+    "evidence": [
+      "Directly observable in current market data across multiple asset classes",
+      "Central bank gold buying at 1,000+ tonnes/year",
+      "Pair_0 debate: inconsistency is clear but resolution direction is uncertain",
+      "IG spreads ~90-110bp near cycle tights vs ACM term premium at 50-130bp"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Does inconsistency resolve by credit/equity catching up (widening) or rates/gold reverting (compressing)?",
+      "What is the historical timeline for resolution of cross-asset inconsistencies of this magnitude?",
+      "Is the resolution direction an investment thesis or an analytical finding?"
+    ],
+    "related_concepts": [
+      "carry_trap",
+      "long_duration_bond_underperformance",
+      "maturity_dependent_correlation_bifurcation"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "clo_ccc_bucket_step_function",
+    "definition": "The 7.5% CCC-bucket threshold embedded in CLO indentures creates non-linear amplification from gradual credit deterioration to sudden dislocation. Breach triggers mandatory cash diversion from equity to senior tranches, destroys CLO equity returns, forces leveraged loan selling, and shuts down new CLO formation (removing ~65-70% of leveraged loan demand).",
+    "confidence": 6,
+    "evidence": [
+      "7.5% threshold is contractually embedded in indentures, mechanical not discretionary",
+      "PIK toggle usage rising from 2% to 5-8% is a leading indicator of sub-surface stress",
+      "Breach creates self-reinforcing cascade through forced selling and market closure",
+      "Primarily one agent's analysis but grounded in contractual mechanics"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is current CCC utilization (4% vs 6.5% is the difference between comfortable and near-cascade)?",
+      "How quickly could CCC-bucket breach cascade through the CLO market?",
+      "What proportion of CLO managers can use discretionary flexibility to delay triggering?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_leverage_distortion",
+      "carry_trap",
+      "maturity_wall_bridge_mechanism"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "snap_farm_bill_consolidation_trap",
+    "definition": "SNAP enrollment and farm bill commodity programs create a $130-140B annual spending floor that expands counter-cyclically during consolidation attempts. Farm-state senators (40+ Senate seats) have effective veto power, creating fiscal convexity where consolidation automatically increases agricultural spending. This is a structural obstacle to US fiscal adjustment.",
+    "confidence": 6,
+    "evidence": [
+      "SNAP enrollment responds counter-cyclically ($5-8B per percentage point of unemployment increase)",
+      "Farm bill commodity programs trigger payments when crop prices fall",
+      "40+ Senate seats in farm states create political veto power over consolidation",
+      "Pair_1 debate: 'an elegant structural argument' with political economy teeth"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "What is the magnitude of SNAP/farm bill fiscal convexity relative to total consolidation targets?",
+      "Could farm bill reform decouple SNAP from agricultural programs?",
+      "How does biofuel mandate caloric diversion (36% of corn, ~30-32M acres) compound the fiscal trap?"
+    ],
+    "related_concepts": [
+      "fiscal_consolidation_trigger_threshold",
+      "fiscal_dominance_trap_paradox",
+      "demand_destruction_thermostat_break",
+      "agricultural_nonlinear_price_thresholds"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "agricultural_nonlinear_price_thresholds",
+    "definition": "Agricultural commodity markets are near non-linear price response thresholds when measured by major exporter stocks-to-use rather than misleading global stocks-to-use. Major exporter wheat stocks-to-use at ~16% is at the threshold where 5% production shortfall triggers 30-50% price spikes. Corn exporter stocks-to-use at ~12-14% is already below the equivalent threshold.",
+    "confidence": 7,
+    "evidence": [
+      "Global wheat at ~32.7% looks comfortable but exporter stocks-to-use at ~16% is at threshold",
+      "Chinese and Indian stocks are non-exportable strategic reserves",
+      "Non-linear price response at low stocks is one of the most empirically validated relationships in commodity markets",
+      "Pair_1 debate elevates this as 'genuinely important and underappreciated'",
+      "Vulnerability is a directly observable physical fact not a model-dependent estimate"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "How quickly could exporter stocks be depleted by a multi-region weather event?",
+      "Would Chinese/Indian strategic reserves be released under extreme price pressure?",
+      "How does the protein price transmission chain (9-18 month phased inflation pulse) interact with monetary policy?"
+    ],
+    "related_concepts": [
+      "demand_destruction_thermostat_break",
+      "broken_monetary_transmission",
+      "snap_farm_bill_consolidation_trap"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "sec_clearing_mandate_catalyst",
+    "definition": "The SEC central clearing mandate (CMESC Q2 2026) mechanically increases margin requirements from 1-2% to 3-5%, compressing basis trade leverage from 50-100x to 20-33x, implying $200-500B in Treasury selling. June 2026 SOFR futures show zero event premium. Historical base rate for regulatory triggers exceeding market expectations is ~2/3 (Regulation Q analogue).",
+    "confidence": 5,
+    "evidence": [
+      "Margin arithmetic is mechanical: 1-2% to 3-5% increase forces deleveraging",
+      "Zero event premium in June 2026 SOFR futures",
+      "Regulation Q (1966) analogue provides 2/3 base rate for regulatory triggers exceeding expectations",
+      "Timing compounds with Q2 quarter-end repo stress creating non-linear amplification risk"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Will the mandate be implemented on schedule or face political/industry delays?",
+      "How effective would Treasury/Fed transitional liquidity facilities be?",
+      "What is the likely phase-in timeline and cross-margining offset (potentially dampening by 50%+)?",
+      "Is the 25-75bp term premium impact estimate from rates_strategist_01 overstated?"
+    ],
+    "related_concepts": [
+      "basis_trade_systemic_fragility",
+      "doom_loop"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "private_credit_opacity",
+    "definition": "Private credit ($1.7T) structurally degrades the credit cycle indicator apparatus through mark-to-model NAV autocorrelation (0.5-0.7) that suppresses measured volatility by 2-3x. Credit impulse R-squared has declined from 0.38 (1975-2007) to 0.12 (2010-2025), partially attributable to $1.5T migrating beyond observable pricing. Five historical opacity analogues show 60-80% disorderly repricing with 4-5 year median lag.",
+    "confidence": 6,
+    "evidence": [
+      "Credit impulse R-squared decline from 0.38 to 0.12",
+      "Five historical analogues (S&Ls, SIVs, junk bonds, Japanese jusen, AT1s) show 60-80% disorderly repricing",
+      "4-5 year median lag between opacity accumulation and repricing",
+      "Pair_1 debate: 'a significant omission' from broader analysis",
+      "Traditional credit cycle dashboard structurally lagged precisely when it matters most"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is the current true loss rate in private credit portfolios?",
+      "Could a repricing event in private credit cascade to public markets?",
+      "What alternative indicators can substitute for degraded credit impulse measures?"
+    ],
+    "related_concepts": [
+      "carry_trap",
+      "ebitda_addback_leverage_distortion",
+      "clo_ccc_bucket_step_function"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "r_star_identification_collapse",
+    "definition": "The gap between HLW r* (~0.5-1.5%) and the fiscal-sustainability-consistent rate (~-1.9%) creates a 2.4-3.4pp divergence and +/-150bp fundamental estimation uncertainty. The Fed's SEP longer-run dot dispersion has widened from ~50bp to ~125bp+. The 5Y5Y forward at ~3.8-4.2% vs the Fed's 3.0% implies a fiscal wedge of 50-100bp, corroborated by US-Germany cross-country comparison mapping to the deficit differential.",
+    "confidence": 6,
+    "evidence": [
+      "HLW vs fiscal-sustainability r* gap of 2.4-3.4pp",
+      "Fed SEP longer-run dot dispersion widening from ~50bp to ~125bp+",
+      "US premium above Germany maps to deficit differential via cross-country comparison",
+      "Pair_2 debate: 'genuinely novel'"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "How much of the identification failure is fiscal-dominance-specific vs pre-existing HLW model limitations?",
+      "Does the fiscal wedge in 5Y5Y forwards represent term premium or genuine r* divergence?",
+      "Can alternative r* estimation methods resolve the identification collapse?"
+    ],
+    "related_concepts": [
+      "taylor_coefficient_collapse",
+      "broken_monetary_transmission",
+      "kinked_yield_curve_diagnostic"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "kinked_yield_curve_diagnostic",
+    "definition": "A yield curve shape with positive 2s10s but flat 3m10y, observed only three times since 1960 (1967-68, 2003-04, and now). The kink reflects different drivers at different maturities: front end anchored by Fed expectations, long end driven by fiscal term premium. Informative as transition zone diagnostic but not directionally deterministic, as prior episodes resolved in opposite directions.",
+    "confidence": 6,
+    "evidence": [
+      "Only three occurrences since 1960",
+      "Grounded in bond math not historical extrapolation (pair_3 assessment)",
+      "1967-68 resolved toward fiscal dominance; 2003-04 back to monetary dominance",
+      "'Agent A's strongest original contribution' per pair_3 debate"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What additional signals could resolve directional ambiguity of the kinked curve?",
+      "Could the kinked curve persist as a new structural norm under partial fiscal dominance?",
+      "Does the current instance more closely resemble 1967-68 or 2003-04 conditions?"
+    ],
+    "related_concepts": [
+      "maturity_dependent_correlation_bifurcation",
+      "r_star_identification_collapse",
+      "pre_ignition_transition_position"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "doom_loop",
+    "definition": "A self-reinforcing cycle where deficits lead to increased issuance, higher rates, higher debt service, and larger deficits. Probability is material but unknowable with precision (plausible range 10-35% over 5 years). Current WACI vs nominal GDP growth buffer is ~100bp, asymmetrically vulnerable to upside rate shocks where a single bad auction cycle can consume 30-50bp in weeks.",
+    "confidence": 5,
+    "evidence": [
+      "WACI monitoring framework shows ~100bp current buffer",
+      "A single bad auction cycle can consume 30-50bp in weeks",
+      "macro_strategist_01 reduces KB estimate of 20-30% to ~15-20% arguing fiscal dominance plateau is stable",
+      "challenger_02 critiques conjunction fallacy and opaque methodology",
+      "n=0 for the US makes probability estimation unreliable"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01",
+      "rates_strategist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What specific auction metrics would signal doom loop initiation?",
+      "Is the fiscal dominance plateau a stable intermediate regime preventing doom loop activation?",
+      "What intervention capacity does the Fed retain to arrest a doom loop?",
+      "Does the conjunction fallacy affect the 20-30% probability estimate?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_trap_paradox",
+      "basis_trade_systemic_fragility",
+      "unprecedented_fiscal_configuration",
+      "fiscal_consolidation_trigger_threshold"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "ai_productivity_wildcard",
+    "definition": "AI productivity gains of 0.5-1.0pp sustained would be the single biggest factor that could invalidate the fiscal dominance thesis by improving the r-g differential. No historical precedent exists for technology-driven fiscal resolution at this speed. Post-WWII productivity boom took 15-20 years to fully manifest. BLS data currently shows no aggregate TFP structural break. Probability estimates span 5-15%, confirming unknowability.",
+    "confidence": 7,
+    "evidence": [
+      "Universal agreement across agents that this is the key wildcard",
+      "Post-WWII productivity boom took 15-20 years to fully manifest",
+      "BLS: no aggregate TFP structural break currently observable (KB: no_aggregate_tfp_breakthrough confidence 9)",
+      "Probability estimates span an order of magnitude (5% generalist_02 to 10-15% macro_strategist_01)",
+      "Knowledge base devotes more analytical investment to doom scenario than escape scenario (structural bias)"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Can AI productivity manifest within the relevant 3-7 year fiscal dominance horizon?",
+      "Would sector-specific AI productivity gains translate to aggregate TFP improvement?",
+      "Does the knowledge base have sufficient analytical investment in the escape scenario?",
+      "What early indicators would signal AI-driven TFP acceleration?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_trap_paradox",
+      "unprecedented_fiscal_configuration"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "fiscal_dominance_trap_paradox",
+    "definition": "The regime where both continuation (rising debt, potential doom loop) and correction (private-sector recession via sectoral balance constraint) are economically damaging. This paradox is the core finding of the research program: it explains why the regime persists and why financial repression emerges as the path of least resistance, being the option that avoids both acute crisis modes.",
+    "confidence": 8,
+    "evidence": [
+      "NK framework identifies doom loop as tail risk from fiscal continuation",
+      "PK framework identifies balance-sheet recession from consolidation (100% base rate)",
+      "Pair_2 verdict: PK framework 'substantially stronger' on consolidation risk",
+      "Both risks corroborated independently across multiple debate pairs",
+      "The paradox not either tail risk individually is why the regime persists"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Is there a consolidation path narrow enough to avoid recession but wide enough to stabilize debt/GDP?",
+      "Can monetary and FX offsets widen the feasible consolidation corridor?",
+      "What role could immigration or productivity growth play in resolving the paradox?",
+      "Is the paradox itself evidence that financial repression is already the implicit policy?"
+    ],
+    "related_concepts": [
+      "fiscal_consolidation_trigger_threshold",
+      "doom_loop",
+      "financial_repression_modal_outcome",
+      "kalecki_profit_channel",
+      "ai_productivity_wildcard"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "fiscal_dominance_plateau",
+    "definition": "A potentially stable intermediate regime characterized by 5.0-6.5% NGDP, 2.5-3.5% core PCE, and 3.75-4.75% FFR, where fiscal dominance is present but not escalating to crisis. The Japan outlier demonstrates institutional absorption can extend quiet periods to 25+ years under specific conditions the US partially but not fully meets (70% domestic ownership vs 90%).",
+    "confidence": 6,
+    "evidence": [
+      "macro_strategist_01 provides explicit quantitative parameters with falsification criteria",
+      "Japan outlier demonstrates 25+ year quiet period sustainability",
+      "US partially meets conditions (70% domestic ownership vs Japan 90%)",
+      "The plateau concept reconciles the doom loop concern with observed market stability"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What specific conditions distinguish a stable plateau from a pre-crisis accumulation phase?",
+      "Can the plateau persist with debt/GDP rising above 130-140%?",
+      "Does the 70% vs 90% domestic ownership difference materially change plateau stability?",
+      "Is the quiet period ending or mid-range based on start date ambiguity (2019 vs 2020 vs 2022)?"
+    ],
+    "related_concepts": [
+      "pre_ignition_transition_position",
+      "taylor_coefficient_collapse",
+      "broken_monetary_transmission",
+      "doom_loop"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  }
+]

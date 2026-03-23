@@ -1,0 +1,21 @@
+{
+  "concept_a": "maturity_dependent_correlation_bifurcation",
+  "concept_b": "long_duration_bond_underperformance",
+  "mechanism": "Positive 30Y-SPX correlation means long-duration Treasuries compound losses during equity drawdowns rather than hedging them, structurally degrading their portfolio construction utility and making them the worst risk-adjusted position in a fiscal dominance regime.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Holds in partial fiscal dominance (current state); would intensify if 2Y-SPX also turns positive (full fiscal dominance). The relationship is strongest during stress episodes.",
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

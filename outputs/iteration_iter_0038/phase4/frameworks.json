@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "five_stage_resolution_sequence",
+    "purpose": "Provides a state machine for diagnosing the current position in the fiscal dominance transition and identifying what stage transitions to monitor for",
+    "components": [
+      "Stage 1 Expansion: Fiscal expansion established with full-employment deficits becoming structural",
+      "Stage 2 Inflation Persistence: Sticky inflation above target despite monetary tightening attempts",
+      "Stage 3 Bond Tantrum: Market repricing of fiscal sustainability (e.g. October 2023 episode)",
+      "Stage 4 Policy Response: Political or institutional reaction to market stress forcing fiscal or monetary adjustment",
+      "Stage 5 Crystallization: Regime resolves into financial repression, crisis, or productivity-driven escape"
+    ],
+    "current_assessment": "US assessed between stages (ii) and (iii) as of March 2026. One bond tantrum occurred (Oct 2023) followed by partial re-complacification. Transition vs resolution analogue distinction is important: 1965-68 is the best transition analogue, 1942-51 for resolution. Framework is useful as diagnostic state machine even if stage transitions cannot be precisely timed.",
+    "limitations": [
+      "Stage transitions cannot be precisely timed",
+      "n=1 for mapping current US to this framework",
+      "Debt/GDP starting point 3x higher than closest analogue (125% vs 40%) could compress or extend timeline with no basis for resolution",
+      "Japan outlier (25+ years) suggests stages can be skipped or indefinitely extended under specific conditions",
+      "Does not specify quantitative transition criteria between stages"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "confidence_cap_taxonomy",
+    "purpose": "Provides differentiated confidence ceilings based on claim type to prevent false precision from thin historical analogues and enforce epistemic discipline",
+    "components": [
+      "Accounting identities: observable arithmetic relationships like Kalecki identity that are tautologically true — confidence up to 9-10/10",
+      "Contemporary market observables: directly observable in current data such as correlation bifurcation and curve shape — confidence up to 7-8/10",
+      "Historical extrapolation: derived from n<=7 analogues with structural dissimilarity — capped at 5-6/10",
+      "Clopper-Pearson interval: formal statistical bound on probability estimates from small samples showing false precision",
+      "Conjunction penalty: compound probability claims must account for multiplication of uncertainties and the conjunction fallacy"
+    ],
+    "current_assessment": "Adopted as operative principle from pair_3 debate consensus. The most important methodological correction in the research program. Several high-confidence claims in the synthesis may still exceed appropriate caps. Formalization of claim-type taxonomy remains incomplete.",
+    "limitations": [
+      "Boundary between contemporary observable and historical extrapolation is sometimes ambiguous",
+      "Does not provide guidance on how to combine claims of different types",
+      "May be overly conservative for claims with strong theoretical grounding even if historical n is small",
+      "Does not address how to handle claims that mix accounting identity and historical extrapolation"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "minsky_financial_instability_classification",
+    "purpose": "Classifies financial structures by their cash-flow stability characteristics to identify systemic fragility and predict the dynamics of financial stress",
+    "components": [
+      "Hedge finance: operating cash flows sufficient to service all debt obligations including principal",
+      "Speculative finance: operating cash flows sufficient for interest but not principal, requiring refinancing",
+      "Ponzi finance: operating cash flows insufficient to service even interest, requiring asset price appreciation or continued financing access",
+      "Basis trade classified as Ponzi: 5-15bp spread at 20-100x leverage meets exact criterion (depends on repo availability and basis stability)",
+      "Fiscal dominance as displaced Minsky super-cycle: private fragility displaced to sovereign balance sheet"
+    ],
+    "current_assessment": "Basis trade classified as Ponzi finance with high confidence (8/10). The Minsky super-cycle framing — private fragility displaced to sovereign level — provides the most parsimonious explanation of why private balance sheets appear healthy while sovereign risk accumulates. The classification maps to specific observable indicators (repo availability, basis stability, quarter-end disruptions).",
+    "limitations": [
+      "Activation probability subject to Knightian uncertainty (rated 2/10 in knowledge base)",
+      "Ponzi classification identifies vulnerability but does not predict timing of crisis",
+      "Sovereign Minsky cycle has no direct historical precedent for reserve-currency issuers",
+      "Classification is binary while actual financial structures exist on a continuum"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "sectoral_balances_identity_framework",
+    "purpose": "Provides an accounting framework for analyzing the macroeconomic consequences of fiscal consolidation on private-sector financial balances and predicting recession risk",
+    "components": [
+      "Accounting identity: Government deficit = Private surplus + Current account deficit (tautologically true)",
+      "Consolidation arithmetic: 3.5pp fiscal consolidation with stable current account forces ~$1.0T private sector income reduction",
+      "Historical validation: 100% of US private-sector-deficit episodes (1999-2001, 2005-2007) ended in recession",
+      "Kalecki-Levy identity as special case: government deficit channels directly into corporate profits",
+      "Balance-sheet recession prediction: consolidation forces private sector from surplus to deficit, triggering Koo-type deleveraging"
+    ],
+    "current_assessment": "PK framework assessed as substantially stronger than NK on consolidation risk (pair_2 debate). Provides strongest evidence that fiscal consolidation is itself a major macroeconomic risk. Combined with the doom loop risk from inaction, produces the core fiscal dominance trap paradox.",
+    "limitations": [
+      "Identity is tautologically true but does not predict behavioral responses such as currency depreciation improving current account",
+      "Does not account for second-round effects of monetary easing that might accompany consolidation",
+      "n=2 for US private-sector-deficit episodes limits generalization",
+      "Cannot distinguish between orderly and disorderly private-sector adjustment"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "correlation_regime_monitoring_framework",
+    "purpose": "Uses maturity-dependent stock-bond correlations and yield curve shape as real-time diagnostics for the fiscal dominance transition state",
+    "components": [
+      "2Y-SPX correlation: negative in partial fiscal dominance (Fed still responds to cycles), positive signals full fiscal dominance",
+      "30Y-SPX correlation: positive in fiscal dominance means long bonds are risk amplifiers not hedges",
+      "Transition signal: 2Y-SPX turning positive is the single most falsifiable monitorable prediction",
+      "Bad steepening vs good steepening distinction with correlation signature mapping",
+      "Kinked yield curve (positive 2s10s with flat 3m10y) as supplementary diagnostic with n=3 occurrences since 1960"
+    ],
+    "current_assessment": "Currently in partial fiscal dominance state: 2Y-SPX at -0.25 to -0.35, 30Y-SPX at +0.05 to +0.15. Confirms AM/PF at cyclical frequency, PM/AF at secular frequency. Monitor for 2Y-SPX convergence toward zero as primary early warning. Kinked curve present and matching 2 of 3 historical occurrences.",
+    "limitations": [
+      "n=2 prior bifurcation episodes resolved in opposite directions (1967-68 toward fiscal dominance, 2003-04 back to monetary dominance)",
+      "Correlation estimates have estimation uncertainty from rolling window length and sample period sensitivity",
+      "Other structural breaks (AI, pandemic aftermath) could affect correlations independently of fiscal dominance",
+      "Directionally informative but not deterministic"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "slug": "waci_doom_loop_monitor",
+    "purpose": "Provides a real-time monitoring framework for detecting the onset of a fiscal doom loop by comparing weighted average cost of interest to nominal GDP growth",
+    "components": [
+      "WACI (weighted average coupon on outstanding debt) vs nominal GDP growth as primary metric",
+      "Current buffer: ~100bp (WACI below nominal GDP growth)",
+      "Asymmetric vulnerability: a single bad auction cycle can consume 30-50bp in weeks",
+      "Supplementary indicators: indirect bidder share, SOFR stress, term premium velocity, auction tail sizes",
+      "Treasury maturity ARM vulnerability: $8-9T annual bill rollovers at overnight rate risk with T-bill share risen from ~15% to ~22%"
+    ],
+    "current_assessment": "Buffer of ~100bp provides warning room but is asymmetrically vulnerable to upside rate shocks. No event premium currently priced for identified catalysts (SEC clearing mandate, BoJ normalization). The WACI framework is the most actionable monitoring tool regardless of doom loop probability estimates.",
+    "limitations": [
+      "Buffer assessment depends on nominal GDP growth estimate which is itself uncertain",
+      "Does not distinguish between transient and persistent interest rate increases",
+      "The monitoring framework identifies proximity to danger but cannot predict whether threshold will be crossed",
+      "Pro-cyclical fiscal dynamics (Fed cuts reduce MMF AUM, shrinking Treasury demand) may amplify stress"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  }
+]

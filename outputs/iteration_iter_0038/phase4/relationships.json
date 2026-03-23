@@ -1,0 +1,242 @@
+[
+  {
+    "concept_a": "kalecki_profit_channel",
+    "concept_b": "carry_trap",
+    "mechanism": "The deficit sustains corporate profits via Kalecki identity, compressing default rates and credit spreads, while simultaneously accumulating the debt that creates fiscal tail risk. The same fiscal flow that narrows carry also widens the tail distribution, producing the structurally negative convexity.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Operative when deficit exceeds ~4% GDP at full employment; strengthens as debt/GDP rises above 100%. The trap deepens as the deficit grows because both carry compression and tail risk accumulation intensify.",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "kalecki_profit_channel",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "At $36T+ debt, every 100bp rate hike adds ~$250-320B in annual interest expense. 10-25% of this is recycled into demand via interest income to bondholders through the Kalecki channel, partially offsetting the contractionary intent of monetary tightening and creating a self-defeating feedback loop.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Scales with debt/GDP ratio; becomes dominant transmission impairment above ~100% debt/GDP. At current levels, neutralizes roughly 10-25% of each rate hike's contractionary intent.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "kalecki_profit_channel",
+    "concept_b": "demand_destruction_thermostat_break",
+    "mechanism": "Fiscal income support via deficit spending prevents the demand contraction needed for the traditional price self-correction mechanism to operate. Consumers maintain purchasing power through transfers, so supply shocks persist and accumulate rather than triggering the demand-destruction feedback that historically normalized prices.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Operative when fiscal transfers maintain household purchasing power during supply shocks; confirmed by 2021-22 natural experiment where food volumes declined 2-3% vs 8-12% in 2008.",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "taylor_coefficient_collapse",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "The collapsed Taylor coefficient (~1.0-1.2) both reflects and reinforces broken transmission. The Fed cannot raise rates aggressively because fiscal feedback creates self-defeating dynamics (higher rates increase debt service and deficit), and the inability to tighten sufficiently perpetuates the fiscal dominance regime.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Active when debt service exceeds ~3% of GDP; intensifies non-linearly with debt/GDP. The relationship is self-reinforcing: broken transmission constrains the Taylor coefficient, which further breaks transmission.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "basis_trade_systemic_fragility",
+    "concept_b": "sec_clearing_mandate_catalyst",
+    "mechanism": "Central clearing mandate mechanically increases margin requirements from 1-2% to 3-5%, forcing leverage compression from 50-100x to 20-33x across the $800B-$1.5T basis trade, potentially triggering $200-500B in Treasury selling. Timing compounds with Q2 quarter-end repo stress.",
+    "direction": "b_causes_a",
+    "confidence": 5,
+    "regime_dependence": "Conditional on SEC mandate implementation in Q2 2026 as scheduled; cross-margining offsets could dampen impact by 50%+; Treasury/Fed transitional facilities could mitigate.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "fiscal_consolidation_trigger_threshold",
+    "concept_b": "maturity_wall_bridge_mechanism",
+    "mechanism": "Fiscal consolidation reducing GDP growth below 1.0% converts the maturity wall from a manageable refinancing challenge into a solvency wall. At true leverage of 7.5-8.5x, debt service at 500bp+ OAS consumes 70-80% of actual cash EBITDA, and the Kalecki profit floor that kept defaults low collapses with the deficit.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activated when GDP growth falls below ~1.0% while high-yield maturities concentrate; most acute 2025-2027 window. Manageable at consensus 2.0-2.5% growth.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "ebitda_addback_leverage_distortion",
+    "concept_b": "clo_ccc_bucket_step_function",
+    "mechanism": "Hidden leverage (5.5-7.5x true vs 4.0-4.5x reported) increases the probability of credit downgrades that push CLO CCC-bucket utilization above the 7.5% contractual threshold, triggering the non-linear amplification cascade of forced selling and market closure.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Latent risk that crystallizes when growth slows or Kalecki support diminishes. PIK toggle usage rising from 2% to 5-8% is the leading indicator. Current CCC utilization (4% vs 6.5%) determines proximity.",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "maturity_dependent_correlation_bifurcation",
+    "concept_b": "long_duration_bond_underperformance",
+    "mechanism": "Positive 30Y-SPX correlation means long-duration Treasuries compound losses during equity drawdowns rather than hedging them, structurally degrading their portfolio construction utility and making them the worst risk-adjusted position in a fiscal dominance regime.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds in partial fiscal dominance (current state); would intensify if 2Y-SPX also turns positive (full fiscal dominance). The relationship is strongest during stress episodes.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "fiscal_dominance_trap_paradox",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "Because both continuation (doom loop risk) and correction (balance-sheet recession) are damaging, financial repression emerges as the path of least resistance. It is a slow, covert transfer from savers to government that avoids both acute crisis modes, explaining why 4/7 historical episodes resolved this way.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Requires institutional capacity for stealth repression (regulatory captive buying via LCR, RBC, pension mandates) and political inability to achieve overt consolidation. Reserve-currency status provides additional runway.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "r_star_identification_collapse",
+    "concept_b": "taylor_coefficient_collapse",
+    "mechanism": "If the Fed cannot reliably estimate r*, it cannot calibrate the appropriate policy rate, contributing to effective Taylor coefficient compression. The 2.4-3.4pp gap between competing r* estimates (HLW vs fiscal-sustainability) creates structural policy uncertainty that constrains aggressive rate-setting.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Worsens as fiscal dominance increases the wedge between model-implied and sustainability-consistent neutral rates. Fed SEP dispersion widening is real-time evidence of this uncertainty.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "carry_trap",
+    "mechanism": "Mark-to-model suppression of measured volatility by 2-3x and migration of $1.5T beyond observable pricing degrades the credit cycle indicators that would normally signal rising risk. This allows the carry trap to deepen undetected, with the traditional credit cycle dashboard structurally lagged.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Intensifies with private credit AUM growth; most dangerous in late cycle when true losses are accumulating but marks are lagged by 4-5 years based on historical opacity analogues.",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "agricultural_nonlinear_price_thresholds",
+    "concept_b": "demand_destruction_thermostat_break",
+    "mechanism": "Non-linear price spikes from low exporter stocks-to-use interact with the broken demand thermostat: prices spike but demand does not contract sufficiently (Kalecki support maintained), so prices remain elevated rather than self-correcting, creating persistent inflationary pulses.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Activated when exporter stocks-to-use falls below threshold (~16% wheat, ~12-14% corn) during active fiscal dominance. The interaction is asymmetric: supply shocks are amplified, supply responses are delayed by biological constraints.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "doom_loop",
+    "concept_b": "fiscal_consolidation_trigger_threshold",
+    "mechanism": "These represent the two horns of the fiscal dominance trap paradox. The doom loop is the tail risk from fiscal inaction (deficits spiral), while the consolidation threshold marks where correction itself becomes dangerous (private-sector recession). Together they define the narrow and potentially non-existent corridor of safe fiscal adjustment.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Always present under fiscal dominance; relative salience depends on whether deficit is expanding (doom loop risk rises) or contracting (consolidation risk rises). Both intensify at higher debt/GDP.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "cross_asset_pricing_inconsistency",
+    "concept_b": "carry_trap",
+    "mechanism": "The pricing inconsistency (rates/gold pricing fiscal dominance at 40-60% but credit/equity at less than 15%) is a manifestation of the carry trap. Credit investors accept compressed carry because Kalecki flows suppress current defaults, systematically ignoring the fiscal tail risk that rates markets are pricing.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Persists as long as Kalecki flows sustain current default rates below historical averages. Resolves when a catalyst forces credit markets to reprice tail risk or when rates/gold revert.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "snap_farm_bill_consolidation_trap",
+    "concept_b": "fiscal_consolidation_trigger_threshold",
+    "mechanism": "Counter-cyclical expansion of SNAP and farm bill spending during consolidation attempts creates fiscal convexity that automatically increases spending in politically protected sectors, narrowing the feasible consolidation corridor. Farm-state senators (40+ seats) can veto packages that cut these programs.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Structurally embedded in US fiscal architecture; activates specifically during consolidation attempts that reduce growth or lower crop prices. The trap is stronger during periods of agricultural commodity price weakness.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "ai_productivity_wildcard",
+    "concept_b": "fiscal_dominance_trap_paradox",
+    "mechanism": "Sustained AI productivity of 0.5-1.0pp could improve the r-g differential sufficiently to resolve the fiscal dominance trap without requiring either the doom loop or painful consolidation. This is the only identified escape pathway that avoids both horns of the paradox, but has no historical precedent and no current TFP evidence.",
+    "direction": "a_causes_b",
+    "confidence": 3,
+    "regime_dependence": "Would need to manifest within 3-7 year horizon and translate to aggregate TFP improvement. Neither condition is currently observable in BLS data. Historical analogue (post-WWII productivity boom) took 15-20 years.",
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  },
+  {
+    "concept_a": "kinked_yield_curve_diagnostic",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "Both reflect the same structural condition: the front end of the curve is driven by cyclical monetary policy expectations while the long end is driven by fiscal dynamics. The kink in the yield curve and the correlation bifurcation are different manifestations of the AM/PF at cyclical frequency, PM/AF at secular frequency structure.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both present during transition zones between monetary and fiscal dominance. n=3 for kinked curve and n=2 for prior correlation bifurcation episodes, with opposite resolution directions observed.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0038"
+  }
+]

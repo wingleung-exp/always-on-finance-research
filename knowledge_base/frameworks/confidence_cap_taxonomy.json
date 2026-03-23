@@ -1,0 +1,26 @@
+{
+  "slug": "confidence_cap_taxonomy",
+  "purpose": "Provides differentiated confidence ceilings based on claim type to prevent false precision from thin historical analogues and enforce epistemic discipline",
+  "components": [
+    "Accounting identities: observable arithmetic relationships like Kalecki identity that are tautologically true — confidence up to 9-10/10",
+    "Contemporary market observables: directly observable in current data such as correlation bifurcation and curve shape — confidence up to 7-8/10",
+    "Historical extrapolation: derived from n<=7 analogues with structural dissimilarity — capped at 5-6/10",
+    "Clopper-Pearson interval: formal statistical bound on probability estimates from small samples showing false precision",
+    "Conjunction penalty: compound probability claims must account for multiplication of uncertainties and the conjunction fallacy"
+  ],
+  "current_assessment": "Adopted as operative principle from pair_3 debate consensus. The most important methodological correction in the research program. Several high-confidence claims in the synthesis may still exceed appropriate caps. Formalization of claim-type taxonomy remains incomplete.",
+  "limitations": [
+    "Boundary between contemporary observable and historical extrapolation is sometimes ambiguous",
+    "Does not provide guidance on how to combine claims of different types",
+    "May be overly conservative for claims with strong theoretical grounding even if historical n is small",
+    "Does not address how to handle claims that mix accounting identity and historical extrapolation"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

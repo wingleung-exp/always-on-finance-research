@@ -1,34 +1,48 @@
 {
   "slug": "demand_destruction_thermostat_break",
   "definition": "Fiscal dominance breaks the traditional demand-destruction thermostat across commodity classes. Under fiscal dominance, the Kalecki channel sustains household incomes, preventing self-correcting demand destruction from high prices. Commodities become endogenous to fiscal choices rather than exogenous shocks.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "2021-22: despite 40-year-high food inflation, food volumes declined only 2-3% vs. 8-12% in 2008 with smaller fiscal transfers",
     "Kalecki channel sustains household incomes",
     "Causation reversal: commodities become endogenous to fiscal choices under fiscal dominance",
-    "Represents structural change in commodity-inflation transmission"
+    "Represents structural change in commodity-inflation transmission",
+    "2021-22 natural experiment: food volumes declined only 2-3% during 40-year-high inflation vs 8-12% in 2008",
+    "Supply cannot respond faster than one growing season (biological constraint in agriculture)",
+    "Mutually reinforcing across food consumption and corporate earnings data in pair_1 debate",
+    "Asymmetry is structural: supply constrained, demand destruction suppressed by fiscal income support"
   ],
   "originating_agents": [
     "commodities_analyst_01",
-    "commodities_analyst_02"
+    "commodities_analyst_02",
+    "credit_analyst_01",
+    "generalist_01",
+    "macro_strategist_02"
   ],
   "open_questions": [
     "At what deficit level does the thermostat fully break?",
     "Does the mechanism operate differently across commodity classes (energy vs. food vs. metals)?",
-    "How does this interact with the Fed's 'look-through' doctrine?"
+    "How does this interact with the Fed's 'look-through' doctrine?",
+    "Do existing inflation models systematically underestimate headline inflation risk under fiscal dominance?",
+    "What is the regime-dependent food-to-CPI pass-through coefficient?",
+    "How many commodity supply shocks can accumulate before the Kalecki channel is overwhelmed?"
   ],
   "related_concepts": [
     "kalecki_levy_profit_channel",
     "agricultural_supply_shock_trilemma",
     "opec_fiscal_breakeven_amplifier",
-    "biofuel_mandate_inflation_ratchet"
+    "biofuel_mandate_inflation_ratchet",
+    "kalecki_profit_channel",
+    "agricultural_nonlinear_price_thresholds",
+    "broken_monetary_transmission"
   ],
   "topic": "fiscal_dominance",
   "created_at": "2026-03-23T02:04:12Z",
-  "last_updated": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0016",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0016"
+    "iter_0016",
+    "iter_0038"
   ]
 }

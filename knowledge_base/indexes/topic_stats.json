@@ -1098,9 +1098,9 @@
     "avg_confidence": 6.3
   },
   "fiscal_dominance": {
-    "concept_count": 31,
-    "relationship_count": 18,
-    "framework_count": 6,
+    "concept_count": 48,
+    "relationship_count": 34,
+    "framework_count": 12,
     "top_concepts": [
       {
         "slug": "pervasive_small_n_problem",
@@ -1108,9 +1108,19 @@
         "definition": "All probability estimates in the fiscal dominance literature suffer from a pervasive small-n problem that makes point estimates nearly uninformative. "
       },
       {
+        "slug": "small_n_confidence_cap",
+        "confidence": 9,
+        "definition": "The methodological principle that with n=3-4 fiscal dominance episodes, n=7 resolution pathways, and n=0 for the current US configuration, all histori"
+      },
+      {
         "slug": "us_fiscal_unprecedented_configuration",
         "confidence": 9,
         "definition": "The US is running 6-7% deficits at sub-4% unemployment, a combination with zero peacetime precedent in 74 annual observations (1947-2024). Net interes"
+      },
+      {
+        "slug": "basis_trade_systemic_fragility",
+        "confidence": 8,
+        "definition": "The Treasury basis trade ($800B-$1.5T at 20-100x leverage) is a systemic fragility with no historical parallel that meets Minsky's exact Ponzi finance"
       },
       {
         "slug": "fiscal_dominance_as_regime_variable",
@@ -1118,75 +1128,82 @@
         "definition": "Fiscal dominance should be modeled as a conditioning variable (regime variable) rather than a standalone factor. Adding a 'fiscal dominance beta' to c"
       },
       {
+        "slug": "fiscal_dominance_trap_paradox",
+        "confidence": 8,
+        "definition": "The regime where both continuation (rising debt, potential doom loop) and correction (private-sector recession via sectoral balance constraint) are ec"
+      },
+      {
+        "slug": "long_duration_bond_underperformance",
+        "confidence": 8,
+        "definition": "Long-duration nominal bonds are the worst-performing asset class under fiscal dominance, returning -25% to -65% real cumulative in every historical ep"
+      },
+      {
+        "slug": "taylor_coefficient_collapse",
+        "confidence": 8,
+        "definition": "The Fed's effective Taylor coefficient has collapsed to ~1.0-1.2, structurally constrained by fiscal feedback. At $36T+ debt, every 100bp rate increas"
+      },
+      {
         "slug": "treasury_basis_trade_vulnerability",
         "confidence": 8,
         "definition": "The Treasury basis trade ($800B-$1.5T notional at 20-100x leverage) is the single most concrete and dangerous amplification mechanism in the current f"
       },
       {
-        "slug": "stock_bond_correlation_bifurcation",
-        "confidence": 7.33,
-        "definition": "A maturity-dependent correlation regime where 2Y-SPX correlation is negative (-0.15 to -0.30, reflecting Fed credibility) while 30Y-SPX correlation is"
-      },
-      {
-        "slug": "bimodal_transition_distribution",
-        "confidence": 7,
-        "definition": "The transition from early-stage to entrenched fiscal dominance follows a bimodal distribution: either gradual (10-25 years) or acute (months), with no"
-      },
-      {
-        "slug": "carry_trap",
-        "confidence": 7,
-        "definition": "The fiscal deficit that compresses credit spreads via the Kalecki profit channel is simultaneously the source of fiscal dominance tail risk. This crea"
-      },
-      {
-        "slug": "demand_destruction_thermostat_break",
-        "confidence": 7,
-        "definition": "Fiscal dominance breaks the traditional demand-destruction thermostat across commodity classes. Under fiscal dominance, the Kalecki channel sustains h"
-      },
-      {
-        "slug": "exporter_stocks_to_use",
-        "confidence": 7,
-        "definition": "Exporter stocks-to-use (not global) is the relevant vulnerability metric for agricultural supply shocks. Global wheat stocks-to-use at ~32.7% looks co"
-      },
-      {
-        "slug": "kalecki_levy_profit_channel",
-        "confidence": 7,
-        "definition": "The Kalecki-Levy framework establishes an accounting identity linking government deficits to corporate profits \u2014 this is irrefutable by construction. "
+        "slug": "treasury_fed_accord_analogue_limits",
+        "confidence": 8,
+        "definition": "The 1942-1951 Treasury-Fed Accord analogue substantially overstates the ease of fiscal dominance resolution because three critical features present po"
       }
     ],
     "all_concept_slugs": [
+      "agricultural_nonlinear_price_thresholds",
       "agricultural_supply_shock_trilemma",
       "ai_productivity_structural_break",
+      "ai_productivity_wildcard",
+      "basis_trade_systemic_fragility",
       "beautiful_deleveraging_decomposition",
       "bimodal_transition_distribution",
       "biofuel_mandate_inflation_ratchet",
       "boj_normalization_contagion",
       "carry_trap",
       "china_copper_demand_rotation",
+      "clo_ccc_bucket_step_function",
       "demand_destruction_thermostat_break",
       "democracy_financial_repression_limit",
       "dollar_smile_bifurcation",
       "doom_loop",
+      "ebitda_addback_leverage_distortion",
       "exporter_stocks_to_use",
       "financial_repression_modal_outcome",
       "fiscal_consolidation_difficulty",
+      "fiscal_consolidation_trigger_threshold",
       "fiscal_dominance_as_regime_variable",
       "fiscal_dominance_five_signal_sequence",
+      "fiscal_dominance_plateau",
+      "fiscal_dominance_trap_paradox",
       "gold_sovereign_risk_pricing",
       "kalecki_levy_profit_channel",
+      "kinked_yield_curve_diagnostic",
+      "long_duration_bond_underperformance",
+      "maturity_wall_bridge_mechanism",
       "on_rrp_depletion",
       "opec_fiscal_breakeven_amplifier",
       "pervasive_small_n_problem",
+      "pre_ignition_transition_position",
       "r_g_convergence",
+      "r_star_identification_collapse",
       "sec_clearing_mandate_catalyst",
+      "small_n_confidence_cap",
+      "snap_farm_bill_consolidation_trap",
       "stock_bond_correlation_bifurcation",
+      "taylor_coefficient_collapse",
       "term_premium_fiscal_signal",
       "term_premium_velocity",
       "three_channel_transmission",
       "treasury_basis_trade_vulnerability",
+      "treasury_fed_accord_analogue_limits",
       "treasury_fed_accord_precedent",
       "us_fiscal_unprecedented_configuration"
     ],
-    "avg_confidence": 6.3
+    "avg_confidence": 6.5
   },
   "fiscal_policy": {
     "concept_count": 41,
@@ -1200,7 +1217,7 @@
       },
       {
         "slug": "unprecedented_fiscal_configuration",
-        "confidence": 9,
+        "confidence": 9.0,
         "definition": "Running a 6-7% of GDP deficit at sub-4% unemployment has a pre-2022 base rate of 0/74 annual observations (1947-2024). All three occurrences (2022-202"
       },
       {
@@ -2137,24 +2154,24 @@
         "definition": "Shifts in cross-asset correlation regimes represent the deepest portfolio risk, as they invalidate diversification assumptions simultaneously across a"
       },
       {
+        "slug": "kalecki_profit_channel",
+        "confidence": 8.33,
+        "definition": "The Kalecki profit equation mechanism through which government fiscal deficits directly sustain corporate sector profits. At ~6-7% GDP deficit, this c"
+      },
+      {
         "slug": "clo_dynamics",
         "confidence": 8.0,
         "definition": "CLO market dynamics are simultaneously extending the current risk-on environment through credit intermediation while building the mechanical condition"
       },
       {
-        "slug": "kalecki_profit_channel",
-        "confidence": 8.0,
-        "definition": "The Kalecki profit equation mechanism through which government fiscal deficits directly sustain corporate sector profits. At ~6-7% GDP deficit, this c"
-      },
-      {
-        "slug": "private_credit_opacity",
-        "confidence": 7.2,
-        "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain bu"
-      },
-      {
         "slug": "minsky_framework",
         "confidence": 7.0,
         "definition": "The Minsky financial instability hypothesis applied as an analytical framework for understanding risk appetite regime transitions. Validated as a stru"
+      },
+      {
+        "slug": "private_credit_opacity",
+        "confidence": 7.0,
+        "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain bu"
       }
     ],
     "all_concept_slugs": [
@@ -2282,14 +2299,14 @@
         "definition": "Volatility regimes are endogenous to macroeconomic and financial conditions \u2014 not exogenous random processes. Macro uncertainty (NK stochastic discoun"
       },
       {
+        "slug": "maturity_dependent_correlation_bifurcation",
+        "confidence": 7.56,
+        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
+      },
+      {
         "slug": "credit_maturity_wall",
         "confidence": 7.5,
         "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 20"
-      },
-      {
-        "slug": "maturity_dependent_correlation_bifurcation",
-        "confidence": 7.5,
-        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
       },
       {
         "slug": "central_bank_reaction_function_uncertainty",

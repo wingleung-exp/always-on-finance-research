@@ -1,0 +1,26 @@
+{
+  "slug": "correlation_regime_monitoring_framework",
+  "purpose": "Uses maturity-dependent stock-bond correlations and yield curve shape as real-time diagnostics for the fiscal dominance transition state",
+  "components": [
+    "2Y-SPX correlation: negative in partial fiscal dominance (Fed still responds to cycles), positive signals full fiscal dominance",
+    "30Y-SPX correlation: positive in fiscal dominance means long bonds are risk amplifiers not hedges",
+    "Transition signal: 2Y-SPX turning positive is the single most falsifiable monitorable prediction",
+    "Bad steepening vs good steepening distinction with correlation signature mapping",
+    "Kinked yield curve (positive 2s10s with flat 3m10y) as supplementary diagnostic with n=3 occurrences since 1960"
+  ],
+  "current_assessment": "Currently in partial fiscal dominance state: 2Y-SPX at -0.25 to -0.35, 30Y-SPX at +0.05 to +0.15. Confirms AM/PF at cyclical frequency, PM/AF at secular frequency. Monitor for 2Y-SPX convergence toward zero as primary early warning. Kinked curve present and matching 2 of 3 historical occurrences.",
+  "limitations": [
+    "n=2 prior bifurcation episodes resolved in opposite directions (1967-68 toward fiscal dominance, 2003-04 back to monetary dominance)",
+    "Correlation estimates have estimation uncertainty from rolling window length and sample period sensitivity",
+    "Other structural breaks (AI, pandemic aftermath) could affect correlations independently of fiscal dominance",
+    "Directionally informative but not deterministic"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

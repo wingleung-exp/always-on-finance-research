@@ -1,0 +1,26 @@
+{
+  "slug": "waci_doom_loop_monitor",
+  "purpose": "Provides a real-time monitoring framework for detecting the onset of a fiscal doom loop by comparing weighted average cost of interest to nominal GDP growth",
+  "components": [
+    "WACI (weighted average coupon on outstanding debt) vs nominal GDP growth as primary metric",
+    "Current buffer: ~100bp (WACI below nominal GDP growth)",
+    "Asymmetric vulnerability: a single bad auction cycle can consume 30-50bp in weeks",
+    "Supplementary indicators: indirect bidder share, SOFR stress, term premium velocity, auction tail sizes",
+    "Treasury maturity ARM vulnerability: $8-9T annual bill rollovers at overnight rate risk with T-bill share risen from ~15% to ~22%"
+  ],
+  "current_assessment": "Buffer of ~100bp provides warning room but is asymmetrically vulnerable to upside rate shocks. No event premium currently priced for identified catalysts (SEC clearing mandate, BoJ normalization). The WACI framework is the most actionable monitoring tool regardless of doom loop probability estimates.",
+  "limitations": [
+    "Buffer assessment depends on nominal GDP growth estimate which is itself uncertain",
+    "Does not distinguish between transient and persistent interest rate increases",
+    "The monitoring framework identifies proximity to danger but cannot predict whether threshold will be crossed",
+    "Pro-cyclical fiscal dynamics (Fed cuts reduce MMF AUM, shrinking Treasury demand) may amplify stress"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

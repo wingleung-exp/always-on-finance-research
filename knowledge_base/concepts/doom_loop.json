@@ -1,35 +1,52 @@
 {
   "slug": "doom_loop",
   "definition": "A self-reinforcing cycle where large deficits raise term premium, increasing interest costs, widening deficits further. The probability is approximately 20-30% over 5 years — materially lower than typically stated due to the conjunction fallacy (requires multiple links to hold simultaneously) and underweighted circuit-breakers.",
-  "confidence": 6,
+  "confidence": 5.5,
   "evidence": [
     "Requires simultaneous: (a) large deficits, (b) significant term premium rise, (c) blended rate exceeds nominal GDP growth, (d) no credible consolidation, (e) Fed cannot intervene without inflation",
     "Links are positively correlated, so joint probability exceeds independent product",
     "Circuit-breakers: Treasury maturity management (30-50bp compression 2023-24), political response (1990, 1993, 1997, 2011 produced adjustment), denominator inflation",
-    "Fair estimate: 20-30% over 5 years, not 40-50% from naive 6/10 or 8-17% from independent links"
+    "Fair estimate: 20-30% over 5 years, not 40-50% from naive 6/10 or 8-17% from independent links",
+    "WACI monitoring framework shows ~100bp current buffer",
+    "A single bad auction cycle can consume 30-50bp in weeks",
+    "macro_strategist_01 reduces KB estimate of 20-30% to ~15-20% arguing fiscal dominance plateau is stable",
+    "challenger_02 critiques conjunction fallacy and opaque methodology",
+    "n=0 for the US makes probability estimation unreliable"
   ],
   "originating_agents": [
     "challenger_02",
-    "risk_analyst_01"
+    "risk_analyst_01",
+    "generalist_01",
+    "macro_strategist_01",
+    "rates_strategist_01"
   ],
   "open_questions": [
     "What are the specific conditions under which the doom loop activates vs. the dollar smile suppresses it?",
     "How do circuit-breakers interact with each other?",
-    "Can the basis trade amplification convert the stagnation path into the crisis path?"
+    "Can the basis trade amplification convert the stagnation path into the crisis path?",
+    "What specific auction metrics would signal doom loop initiation?",
+    "Is the fiscal dominance plateau a stable intermediate regime preventing doom loop activation?",
+    "What intervention capacity does the Fed retain to arrest a doom loop?",
+    "Does the conjunction fallacy affect the 20-30% probability estimate?"
   ],
   "related_concepts": [
     "treasury_basis_trade_vulnerability",
     "r_g_convergence",
     "term_premium_fiscal_signal",
     "dollar_smile_bifurcation",
-    "fiscal_consolidation_difficulty"
+    "fiscal_consolidation_difficulty",
+    "fiscal_dominance_trap_paradox",
+    "basis_trade_systemic_fragility",
+    "unprecedented_fiscal_configuration",
+    "fiscal_consolidation_trigger_threshold"
   ],
   "topic": "fiscal_dominance",
   "created_at": "2026-03-23T02:04:12Z",
-  "last_updated": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0016",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0016"
+    "iter_0016",
+    "iter_0038"
   ]
 }

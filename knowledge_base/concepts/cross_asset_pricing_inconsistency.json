@@ -1,18 +1,18 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7.5,
+  "confidence": 7.33,
   "evidence": [
-    "S&P 21-22x forward P/E prices ~4.0% UE + robust consumption; 50-75bp easing priced requires softening; HY OAS 300-350bp prices no deterioration",
-    "Persistence base rate from 6 completed episodes since 1990: median ~13 months",
-    "Gradual convergence 4/6 (67%); sudden repricing 2/6 (33%); equities 'won' 3/6 (50%)",
-    "ERP requires both tight labor (consumption) and loose labor (rate cuts) — arithmetically inconsistent",
     "Immigration reversal removes the supply-side channel that was the only mechanism for reconciling all three markets simultaneously",
     "Mag-7 forward P/E 35-40x (non-GAAP)",
     "10Y TIPS at 2.0-2.2% consistent with 1.5-1.8% trend GDP growth",
     "Capex-to-revenue ratio has NOT improved despite continued 30-50% capex growth",
     "50bp real rate move = 12-15% Mag-7 fair value change",
-    "Mag-7 effective equity duration ~25-30 years at current multiples"
+    "Mag-7 effective equity duration ~25-30 years at current multiples",
+    "Directly observable in current market data across multiple asset classes",
+    "Central bank gold buying at 1,000+ tonnes/year",
+    "Pair_0 debate: inconsistency is clear but resolution direction is uncertain",
+    "IG spreads ~90-110bp near cycle tights vs ACM term premium at 50-130bp"
   ],
   "originating_agents": [
     "generalist_01",
@@ -23,17 +23,19 @@
     "generalist_02",
     "quant_researcher_01",
     "quant_researcher_02",
-    "fx_strategist_01"
+    "fx_strategist_01",
+    "rates_strategist_01",
+    "credit_analyst_01"
   ],
   "open_questions": [
-    "Is the inconsistency exploitable given transaction costs and timing uncertainty?",
-    "Which asset class is most mispriced relative to the likely inflation regime?",
-    "How should the corridor of instability framework be operationalized for portfolio construction?",
     "Which asset class will reprice — equities, rates, or credit?",
     "Is there a novel mechanism (AI productivity, fiscal expansion) that could reconcile the inconsistency without repricing?",
     "Does the resolution direction follow any predictable pattern from observables?",
     "Fraction attributable to equilibrium winner-take-all vs mispricing remains undetermined",
-    "Whether capex/revenue improving 3+ quarters would resolve the inconsistency"
+    "Whether capex/revenue improving 3+ quarters would resolve the inconsistency",
+    "Does inconsistency resolve by credit/equity catching up (widening) or rates/gold reverting (compressing)?",
+    "What is the historical timeline for resolution of cross-asset inconsistencies of this magnitude?",
+    "Is the resolution direction an investment thesis or an analytical finding?"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
@@ -66,13 +68,15 @@
     "real_rates_cross_asset_fulcrum",
     "capex_revenue_validation_gap",
     "equity_credit_sequencing",
-    "value_spread_asymmetry"
+    "value_spread_asymmetry",
+    "carry_trap",
+    "long_duration_bond_underperformance"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 8,
+  "research_iterations": 9,
   "iteration_history": [
     "iter_0003",
     "iter_0015",
@@ -81,6 +85,7 @@
     "iter_0022",
     "iter_0023",
     "iter_0036",
-    "iter_0037"
+    "iter_0037",
+    "iter_0038"
   ]
 }

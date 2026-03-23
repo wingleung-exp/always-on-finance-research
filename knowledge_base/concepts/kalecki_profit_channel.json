@@ -1,32 +1,51 @@
 {
   "slug": "kalecki_profit_channel",
   "definition": "The Kalecki profit equation mechanism through which government fiscal deficits directly sustain corporate sector profits. At ~6-7% GDP deficit, this channel provides a powerful floor under risk asset valuations and extends risk-on regimes.",
-  "confidence": 8.0,
+  "confidence": 8.33,
   "evidence": [
     "Kalecki profit equation framework linking sectoral balances to profits",
     "Empirical observation of profit resilience during high-deficit periods",
-    "Theoretical mechanism for fiscal-to-corporate profit transmission"
+    "Theoretical mechanism for fiscal-to-corporate profit transmission",
+    "S&P 500 EPS growth of 8-10% through 2024-25 consistent with Kalecki attribution",
+    "Food volumes declined only 2-3% during 40-year-high food inflation in 2021-22 vs 8-12% in 2008 without fiscal transfers",
+    "HY default rates suppressed at ~2.5% vs historical 4.1% base rate",
+    "Confirmed independently in pair_0, pair_1, and pair_2 debates"
   ],
   "originating_agents": [
-    "macro_strategist"
+    "macro_strategist",
+    "credit_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "commodities_analyst_02"
   ],
   "open_questions": [
     "How much of current profit levels are deficit-dependent?",
     "Does the channel weaken as deficit composition shifts toward transfers vs. investment?",
-    "What is the lag structure between deficit changes and profit impacts?"
+    "What is the lag structure between deficit changes and profit impacts?",
+    "What is the precise marginal Kalecki multiplier at current deficit levels?",
+    "How quickly would corporate profits contract if the deficit narrowed by 2pp GDP?",
+    "What proportion of the profit channel flows through interest income vs transfer payments?"
   ],
   "related_concepts": [
     "fiscal_impulse_trajectory",
     "risk_appetite_regime_sequencing",
-    "minsky_framework"
+    "minsky_framework",
+    "carry_trap",
+    "broken_monetary_transmission",
+    "demand_destruction_thermostat_break",
+    "fiscal_dominance_trap_paradox",
+    "fiscal_consolidation_trigger_threshold"
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-23T02:02:30Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0014",
-    "iter_0001"
+    "iter_0001",
+    "iter_0038"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "slug": "ebitda_addback_leverage_distortion",
+  "definition": "True corporate leverage is 5.5-7.5x vs reported 4.0-4.5x due to EBITDA addback practices, cross-validated by S&P LCD at 75-85% addback realization rates. Merton-model recalibration shifts 5-year cumulative default probability from ~3.5% to ~8-14%. The directional claim (spreads too tight vs adjusted fundamentals) is robust; the magnitude claim is uncertain.",
+  "confidence": 7,
+  "evidence": [
+    "S&P LCD cross-validation at 75-85% addback realization rates",
+    "Pair_1 debate: 'the single most empirically grounded finding across both analyses'",
+    "Directional claim survives robustly but 'negative risk premium' formulation refuted",
+    "Merton-model recalibration shifts 5Y default probability from ~3.5% to ~8-14%"
+  ],
+  "originating_agents": [
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Do sophisticated HY investors independently haircut EBITDA partially pricing the distortion?",
+    "How much does the Kalecki floor reduce true default probability relative to Merton-model estimates?",
+    "What is the distribution of addback realization rates across sectors and credit quality?"
+  ],
+  "related_concepts": [
+    "carry_trap",
+    "clo_ccc_bucket_step_function",
+    "maturity_wall_bridge_mechanism",
+    "private_credit_opacity"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

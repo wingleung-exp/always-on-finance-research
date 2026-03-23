@@ -1,0 +1,34 @@
+{
+  "slug": "maturity_wall_bridge_mechanism",
+  "definition": "The $900B-$1.1T maturity wall (2025-2027) is the bridge mechanism converting fiscal dynamics to credit outcomes. At true leverage of 7.5-8.5x (addback-adjusted), debt service at 500bp+ OAS consumes 70-80% of actual cash EBITDA. Severity is GDP-dependent: manageable at consensus 2.0-2.5% growth (Kalecki sustained), solvency wall at growth below 1.0%.",
+  "confidence": 7,
+  "evidence": [
+    "Maturities are contractual facts; coupon step-ups (300-500bp) are arithmetic",
+    "Prior maturity walls (2012, 2014, 2019) defused by amend-and-extend under ZIRP conditions no longer available at SOFR ~4.3%",
+    "Calendar-identifiable catalysts more analytically useful than probabilistic supply shock scenarios (pair_1)",
+    "At true leverage of 7.5-8.5x, debt service at 500bp+ OAS consumes 70-80% of cash EBITDA"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What proportion of the maturity wall can be extended under current rate conditions?",
+    "At what GDP growth rate does the maturity wall become a solvency wall?",
+    "How does the Kalecki profit floor interact with individual firm leverage dynamics?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_leverage_distortion",
+    "kalecki_profit_channel",
+    "fiscal_consolidation_trigger_threshold",
+    "carry_trap"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

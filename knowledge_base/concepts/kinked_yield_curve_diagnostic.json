@@ -1,0 +1,32 @@
+{
+  "slug": "kinked_yield_curve_diagnostic",
+  "definition": "A yield curve shape with positive 2s10s but flat 3m10y, observed only three times since 1960 (1967-68, 2003-04, and now). The kink reflects different drivers at different maturities: front end anchored by Fed expectations, long end driven by fiscal term premium. Informative as transition zone diagnostic but not directionally deterministic, as prior episodes resolved in opposite directions.",
+  "confidence": 6,
+  "evidence": [
+    "Only three occurrences since 1960",
+    "Grounded in bond math not historical extrapolation (pair_3 assessment)",
+    "1967-68 resolved toward fiscal dominance; 2003-04 back to monetary dominance",
+    "'Agent A's strongest original contribution' per pair_3 debate"
+  ],
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "What additional signals could resolve directional ambiguity of the kinked curve?",
+    "Could the kinked curve persist as a new structural norm under partial fiscal dominance?",
+    "Does the current instance more closely resemble 1967-68 or 2003-04 conditions?"
+  ],
+  "related_concepts": [
+    "maturity_dependent_correlation_bifurcation",
+    "r_star_identification_collapse",
+    "pre_ignition_transition_position"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-23T13:52:24Z",
+  "originating_iteration": "iter_0038",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0038"
+  ]
+}

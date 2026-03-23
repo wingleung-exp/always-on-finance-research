@@ -1,23 +1,18 @@
 {
   "slug": "broken_monetary_transmission",
   "definition": "The monetary policy transmission mechanism is partially broken: interest rate channel at ~60% effectiveness (mortgage lock-in), credit channel at ~80%, asset price channel at negative effectiveness (AI rally counteracted tightening with $10-15T market cap gain), exchange rate channel at ~50%, expectations channel at ~50-70%. Financial conditions loosened through 2023-2025 despite the most aggressive hiking cycle since Volcker.",
-  "confidence": 7.33,
+  "confidence": 7.5,
   "evidence": [
-    "AI rally added $10-15T market cap producing wealth effects of $300-750B exceeding rate tightening impulse",
-    "Goldman FCI eased ~1.0 point despite restrictive rates",
-    "Forward guidance attenuated: dovish guidance loses ~50% potency under positive correlation while hawkish retains full effect",
-    "pair_2 called this 'the single most policy-relevant insight'",
-    "The FCI loosening paradox corroborates the diagnosis",
-    "AI equity rally loosened conditions through channel orthogonal to monetary policy",
-    "Mortgage lock-in effect reduces interest rate channel effectiveness",
-    "Forward guidance asymmetrically attenuated: dovish guidance loses ~50% potency under positive correlation",
-    "Goldman FCI eased ~100bp equivalent despite 525bp of hikes",
     "1/7 historical base rate for FCI easing during tightening (14%, 95% CI: [0.4%, 58%])",
     "85%+ of outstanding mortgages below 5% creating mortgage lock-in with no pre-2020 parallel",
     "AI wealth effect of $10-15T documented in market data and TIC flows",
     "Stripping equities from FCI, remaining components show tightening consistent with prior cycles",
     "Channel effectiveness: interest rate ~60%, credit ~80%, exchange rate ~50%, asset-price negative",
-    "2004-06 Conundrum closest analogue (7.5/10 similarity), resolved discontinuously with IG spreads 50bp to 600bp+"
+    "2004-06 Conundrum closest analogue (7.5/10 similarity), resolved discontinuously with IG spreads 50bp to 600bp+",
+    "Mortgage lock-in at ~3.5% pre-pandemic rates neutralizes interest rate channel for ~80% of homeowners",
+    "AI wealth effects counteract asset price channel",
+    "Rates at ~7-9% needed to fully offset fiscal impulse would generate ~$2.5-3.2T annual interest expense",
+    "Not 'broken' but transmission working exactly as sectoral balances predict under high debt/GDP"
   ],
   "originating_agents": [
     "rates_strategist_02",
@@ -28,19 +23,21 @@
     "equity_analyst_02",
     "fx_strategist_02",
     "commodities_analyst_01",
-    "risk_analyst_02"
+    "risk_analyst_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "commodities_analyst_02",
+    "rates_strategist_01"
   ],
   "open_questions": [
-    "Is the FCI miscalibration 40-200bp or the estimated 75-150bp?",
-    "Will the asset price channel normalize if equity valuations correct?",
-    "How should the Fed calibrate policy when its primary transmission channel is broken?",
-    "Does broken transmission explain why the correlation regime hasn't resolved despite shock mix evolution?",
-    "Is the transmission breakdown temporary (AI cycle specific) or structural?",
     "What is the precise FCI miscalibration magnitude (40-200bp range)?",
     "Does broken transmission prevent the correlation regime from resolving?",
     "Is the break qualitatively novel (reversed channel) or a more severe version of historical episodes?",
     "Does resolution depend on AI equity normalization or structural toolkit reform?",
-    "What is the most likely resolution path — historical pattern suggests longer broken leads to more violent reconnection"
+    "What is the most likely resolution path — historical pattern suggests longer broken leads to more violent reconnection",
+    "Will mortgage lock-in diminish as pre-pandemic mortgages mature or are refinanced?",
+    "Is the Fed's effective toolkit bandwidth truly ~155-240bp or could unconventional tools expand it?",
+    "At what debt/GDP threshold does the Kalecki recycling channel overwhelm monetary transmission entirely?"
   ],
   "related_concepts": [
     "effective_taylor_rule_coefficient",
@@ -52,16 +49,21 @@
     "fci_effective_stance_gap",
     "extended_monetary_transmission_lags",
     "basis_trade_synthetic_qe",
-    "toolkit_bandwidth_compression"
+    "toolkit_bandwidth_compression",
+    "taylor_coefficient_collapse",
+    "kalecki_profit_channel",
+    "fiscal_dominance_plateau",
+    "demand_destruction_thermostat_break"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0020",
     "iter_0020",
-    "iter_0021"
+    "iter_0021",
+    "iter_0038"
   ]
 }

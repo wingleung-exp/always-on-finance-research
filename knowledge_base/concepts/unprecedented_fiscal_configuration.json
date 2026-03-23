@@ -1,32 +1,44 @@
 {
   "slug": "unprecedented_fiscal_configuration",
   "definition": "Running a 6-7% of GDP deficit at sub-4% unemployment has a pre-2022 base rate of 0/74 annual observations (1947-2024). All three occurrences (2022-2024) are in the current cycle. This factual finding means every regression-based fiscal impact estimate is being applied out of sample, requiring wider uncertainty bounds on all fiscal claims.",
-  "confidence": 9,
+  "confidence": 9.0,
   "evidence": [
     "Joint frequency analysis: deficit >5% GDP AND unemployment <4.5% = 3/77 total, 0/74 pre-2022",
     "No peacetime precedent at current magnitude (6-7% deficit at 3.6-4.0% unemployment)",
-    "WWII deficits exceeded 10% but employment was mobilization-driven, not comparable"
+    "WWII deficits exceeded 10% but employment was mobilization-driven, not comparable",
+    "Zero out of 74 annual peacetime observations since WWII match this configuration",
+    "Structural primary deficit 3-4 standard deviations above post-WWII mean at comparable unemployment rates",
+    "Near-factual observation unchallenged in any debate"
   ],
   "originating_agents": [
     "quant_researcher_01",
     "generalist_02",
-    "challenger_02"
+    "challenger_02",
+    "macro_strategist_01",
+    "generalist_01"
   ],
   "open_questions": [
     "How should uncertainty bounds be scaled for out-of-sample extrapolation?",
-    "Are the mechanisms understood even if the configuration is novel, or does novelty imply emergent behavior?"
+    "Are the mechanisms understood even if the configuration is novel, or does novelty imply emergent behavior?",
+    "Does the absence of historical precedent make this configuration inherently unstable or could it represent a new stable equilibrium?",
+    "Is the configuration a result of structural changes (demographics, healthcare costs) or discretionary fiscal choices?"
   ],
   "related_concepts": [
     "fiscal_multiplier_deep_uncertainty",
     "kalecki_channel_empirical_partial",
-    "confidence_calibration_regime_novelty"
+    "confidence_calibration_regime_novelty",
+    "small_n_confidence_cap",
+    "fiscal_dominance_trap_paradox",
+    "doom_loop",
+    "kalecki_profit_channel"
   ],
   "topic": "fiscal_policy",
   "created_at": "2026-03-22T23:10:33Z",
-  "last_updated": "2026-03-22T23:10:33Z",
+  "last_updated": "2026-03-23T13:52:24Z",
   "originating_iteration": "iter_0011",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0011"
+    "iter_0011",
+    "iter_0038"
   ]
 }
