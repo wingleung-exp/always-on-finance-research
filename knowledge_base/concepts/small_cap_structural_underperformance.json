@@ -1,0 +1,43 @@
+{
+  "slug": "small_cap_structural_underperformance",
+  "definition": "Small-cap underperformance (~30-40pp vs S&P 500 since 2023) is structural, driven primarily by leverage, credit quality, and rate sensitivity. ~40% of Russell 2000 constituents are unprofitable, median net debt/EBITDA is ~3.0-3.5x, and ~35-40% of debt is floating-rate.",
+  "confidence": 8,
+  "evidence": [
+    "Russell 2000 composition data showing ~40% unprofitable",
+    "Leverage differential: median net debt/EBITDA 3.0-3.5x vs 1.0-1.5x S&P 500",
+    "Floating-rate exposure: 35-40% vs 15-20% large-cap",
+    "Interest coverage decline from ~3.5x (2019) to ~2.0x",
+    "Correlation with real fed funds rate: -0.65 to -0.75",
+    "BBB OAS correlation ~0.7",
+    "3/3 prior comparable divergences (1998-2000, 1989-90, 1972-73) resolved via large-cap decline not small-cap catch-up",
+    "Maturity wall concentration in 2025-2027"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "commodities_analyst_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Whether rate cuts sufficient to close the gap given structural quality deterioration",
+    "Whether maturity wall refinancing triggers credit events or is manageable"
+  ],
+  "related_concepts": [
+    "credit_impulse_leading_indicator",
+    "cap_weighted_equal_weighted_divergence",
+    "late_expansion_fiscal_obscured",
+    "commodity_input_cost_channel"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

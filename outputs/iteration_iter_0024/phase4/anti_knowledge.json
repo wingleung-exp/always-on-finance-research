@@ -1,0 +1,84 @@
+[
+  {
+    "claim": "60-70% probability that aggregate AI capex destroys value for shareholders",
+    "reason": "Based on N=3 incomparable analogues (1990s internet, shale, 1960s conglomerates) that differ fundamentally in market structure, financing, and technology. Critical differentiator — current capex is hedge-financed from $50-150B annual FCF vs leveraged operators in all three analogues — was acknowledged but not incorporated into the probability estimate.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_02",
+      "macro_strategist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Small-cap vs large-cap divergence is primarily a geopolitical risk exposure phenomenon",
+    "reason": "Self-refuted: risk_analyst_02's own assessment concedes rates and duration sensitivity likely play a larger role. The 2018-2019 tariff correlation (800bp underperformance) cannot be separated from concurrent Fed tightening. Five other agents explain the same divergence more parsimoniously through leverage, credit quality, and rate sensitivity.",
+    "refuted_by": [
+      "risk_analyst_02",
+      "challenger_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "The geopolitical risk premium is approximately 50-150bp below fair value",
+    "reason": "The specific quantification sits entirely within the ERP measurement error band (±200bp). Estimating a geopolitical discount from regression residuals is methodologically fragile — the residual absorbs all omitted variables, not just geopolitical risk. Directional claim survives but quantification does not.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Cap-weighted ERP of approximately 2.5-3.0%",
+    "reason": "Internally contradicted by macro_strategist_02: headline claims 2.5-3.0% but evidence section calculates forward earnings yield (~4.5-4.8%) minus 10-year Treasury (~4.3-4.5%) = ~0.2-0.5%. An analysis that cannot keep its own central metric internally consistent. Directional compression claim survives; specific level does not.",
+    "refuted_by": [
+      "challenger_02",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Credit-equity basis is the single best cross-asset indicator for cycle turns",
+    "reason": "Overreach at 6/10 self-confidence. If only 60% confident in own claim, labeling it 'the single best' is rhetorical overreach. Merton model underlying the signal requires assumptions about asset volatility and default boundaries introducing model dependence. Earnings revision breadth has a cleaner track record (8/9 episodes, directly observable, no model required).",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Non-GAAP adjustments overstate earnings power by 25-40%",
+    "reason": "Pair_2 debate reduced to probably 10-20%. The 25-40% figure treats all SBC as cash-equivalent cost (debatable) and all non-GAAP adjustments as illegitimate (some restructuring charges are genuinely non-recurring). The headline conclusion that current valuations are at or above the 2000 dot-com peak on a like-for-like basis does not survive with corrected inputs.",
+    "refuted_by": [
+      "challenger_02",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Cross-asset signals cannot all be simultaneously correct",
+    "reason": "Too strong a claim. Equities at 21-22x can coexist with elevated term premium if earnings growth assumptions are correct. Gold at ATH is partially structural (central bank reserve diversification). Credit at tights is consistent with equities under no-recession scenario. Mutual consistency is unlikely but possible; the correct framing is empirical, not deductive.",
+    "refuted_by": [
+      "generalist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "claim": "Capex booms historically end when the yield curve steepens violently from the long end",
+    "reason": "Generalizes from essentially one clean analogue (2000 telecom) and one partial (1990). Sample size of 1-2 does not support the word 'historically.' The theoretical mechanism (bear steepening → higher discount rates → capex NPV deterioration) is sound, but many bear steepenings occurred without killing capex cycles. This is a hypothesis, not a historical regularity.",
+    "refuted_by": [
+      "challenger_02",
+      "macro_strategist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  }
+]

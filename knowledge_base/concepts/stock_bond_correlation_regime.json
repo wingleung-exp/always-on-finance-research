@@ -1,32 +1,47 @@
 {
   "slug": "stock_bond_correlation_regime",
   "definition": "The stock-bond correlation regime is stage-dependent on AI productivity transmission. Stage 1 (current, demand-driven): ambiguous correlation. Stage 2 (competitive pricing): negative correlation (favorable for 60/40 portfolios). Current 60/40 portfolios implicitly bet on Stage 2+ outcome. Theoretically grounded but many other correlation determinants (monetary policy, fiscal, geopolitics) make AI-specific isolation difficult.",
-  "confidence": 5,
+  "confidence": 6.5,
   "evidence": [
     "AI creates simultaneous disinflationary supply shock and inflationary demand shock",
     "Net effect on correlation depends on which dominates",
     "Stage 1 demand-driven creates ambiguous correlation",
-    "Many other correlation determinants prevent clean isolation"
+    "Many other correlation determinants prevent clean isolation",
+    "Rolling stock-bond correlation oscillating between -0.2 and +0.4 post-2022",
+    "Cap-weighted vs equal-weighted correlation divergence",
+    "iter_0018 correlation regime analysis",
+    "5 agents suggest persistent positive correlation is plausible"
   ],
   "originating_agents": [
-    "generalist_01"
+    "generalist_01",
+    "challenger_02",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "generalist_02"
   ],
   "open_questions": [
     "Can the AI-specific correlation effect be isolated from monetary policy, fiscal, and geopolitical drivers?",
     "How long does Stage 1 (ambiguous correlation) persist?",
-    "What signals the transition from Stage 1 to Stage 2?"
+    "What signals the transition from Stage 1 to Stage 2?",
+    "Whether correlation regime shift is permanent or transitory",
+    "Whether fiscal dominance is sufficient condition for positive correlation",
+    "Impact of correlation regime on optimal portfolio construction"
   ],
   "related_concepts": [
     "ai_productivity_transmission_lag",
     "cross_asset_pricing_inconsistency",
-    "bimodal_terminal_rate_distribution"
+    "bimodal_terminal_rate_distribution",
+    "valuation_regime_inflation_dependence",
+    "erp_compression_model_dependence",
+    "fiscal_consolidation_risk"
   ],
   "topic": "ai_and_tech_disruption",
   "created_at": "2026-03-23T01:33:48Z",
-  "last_updated": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T06:06:24Z",
   "originating_iteration": "iter_0015",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0015"
+    "iter_0015",
+    "iter_0024"
   ]
 }

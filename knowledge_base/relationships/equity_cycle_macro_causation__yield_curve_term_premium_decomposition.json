@@ -1,0 +1,20 @@
+{
+  "concept_a": "yield_curve_term_premium_decomposition",
+  "concept_b": "equity_cycle_macro_causation",
+  "mechanism": "Yield curve inversion predicts recessions (7/7 record) which drive equity drawdowns. However, the signal requires decomposition: inversion from expected-rate compression signals recession, while inversion from term premium compression may not. The steepening trap means recession arrives during steepening, not inversion.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Decomposition requirement is heightened in QT era where term premium behavior differs from pre-2008. ACM and Kim-Wright models diverge by 30-50bp, introducing model dependence.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_01"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

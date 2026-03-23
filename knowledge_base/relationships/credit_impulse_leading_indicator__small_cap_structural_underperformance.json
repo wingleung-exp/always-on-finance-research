@@ -1,0 +1,21 @@
+{
+  "concept_a": "small_cap_structural_underperformance",
+  "concept_b": "credit_impulse_leading_indicator",
+  "mechanism": "Small-caps are disproportionately sensitive to credit conditions due to higher leverage (3.0-3.5x vs 1.0-1.5x), higher floating-rate exposure (35-40% vs 15-20%), and lower interest coverage (~2.0x). The financial accelerator (Bernanke-Gertler-Gilchrist) transmits credit tightening more severely to smaller, more leveraged firms.",
+  "direction": "b_causes_a",
+  "confidence": 8,
+  "regime_dependence": "Correlation with real fed funds rate of -0.65 to -0.75. Strongest during tightening cycles. The maturity wall concentration in 2025-2027 amplifies current sensitivity.",
+  "originating_agents": [
+    "challenger_02",
+    "macro_strategist_01",
+    "rates_strategist_01"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

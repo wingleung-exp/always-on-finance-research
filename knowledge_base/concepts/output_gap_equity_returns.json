@@ -1,0 +1,31 @@
+{
+  "slug": "output_gap_equity_returns",
+  "definition": "The output gap explains 60-70% of secular equity return variation at 3-year horizons. Current output gap estimated at +0.5-1.5%, consistent with late-expansion positioning. Combined with the Gordon Growth Model decomposition, the entire equity cycle framework is conditioned on r-star.",
+  "confidence": 7,
+  "evidence": [
+    "Fama-French 1989 and Cochrane 2011 R-squared estimates",
+    "Current output gap at +0.5-1.5%",
+    "Gordon Growth Model decomposition into r-star, ERP, and growth components"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "R-star uncertainty: Laubach-Williams estimates have standard errors of ±100-150bp",
+    "Whether r-star is 2.0% rather than 0.5-1.0%, which would make current valuations significantly overextended",
+    "Whether 5y5y forward at 3.8-4.2% prices higher r-star from AI productivity or fiscal deficit"
+  ],
+  "related_concepts": [
+    "equity_cycle_macro_causation",
+    "valuation_regime_inflation_dependence",
+    "late_expansion_fiscal_obscured"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

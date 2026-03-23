@@ -1,0 +1,27 @@
+{
+  "slug": "cross_asset_leading_indicator_composite",
+  "purpose": "Monitors multiple independent leading indicators simultaneously to detect cycle turns, treating divergence between indicators as itself informative",
+  "components": [
+    "Credit impulse: 2-6 month lead, strong at 2007/2009/2022 turns, currently approaching threshold",
+    "Yield curve: 7/7 recession prediction record, requires term premium decomposition, steepening trap risk",
+    "Earnings revision breadth: 8/9 episodes with 4-8 month lead, currently at ~45-50% (declining from ~60%)",
+    "Credit-equity basis: useful but not the single best indicator, model-dependent via Merton framework",
+    "Output gap: explains 60-70% of secular equity return variation at 3-year horizons, currently +0.5-1.5%"
+  ],
+  "current_assessment": "All three primary indicators are directionally consistent with late-cycle positioning: credit impulse approaching threshold, ERB declining, yield curve in steepening trap zone. No single indicator is superior — the synthesis recommends monitoring all simultaneously and treating divergence as informative.",
+  "limitations": [
+    "Debate declared primary indicator question a draw — no consensus on which is best",
+    "ERB signal degraded by cap-weighted/equal-weighted bifurcation",
+    "Yield curve decomposition introduces model dependence (30-50bp ACM/Kim-Wright divergence)",
+    "Actionable lead time may be only 1-3 months (inside institutional rebalancing noise)",
+    "Composite construction methodology is subjective"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

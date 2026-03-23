@@ -1,0 +1,37 @@
+{
+  "slug": "earnings_revision_breadth",
+  "definition": "Earnings revision breadth is a leading indicator with 4-8 month lead time at cycle peaks (8/9 episodes since 1970), but signal quality is degraded by market bifurcation and backtest inflation. Current reading has declined from ~60% to ~45-50%, analogous to Q3 1999 or Q1 2007.",
+  "confidence": 6,
+  "evidence": [
+    "8/9 episodes since 1970 with 4-8 month lead times, COVID sole exception",
+    "0.45-0.55 correlation with forward returns",
+    "Current aggregate ERB decline from ~60% to ~45-50%",
+    "Actionable lead time only 1-3 months (inside institutional rebalancing noise)",
+    "Geopolitically-attributed special items may distort signal by ~5-10pp"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "macro_strategist_01",
+    "commodities_analyst_01",
+    "challenger_02",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Whether bifurcation between Mag7 and S&P 493 revisions degrades aggregate signal",
+    "Whether adjusted ERB (excluding special items) is more informative",
+    "Timing precision limitations for institutional implementation"
+  ],
+  "related_concepts": [
+    "late_expansion_fiscal_obscured",
+    "cap_weighted_equal_weighted_divergence",
+    "earnings_quality_deterioration"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "slug": "kalecki_levy_profit_identity",
+    "purpose": "Explains why and how government fiscal deficits mechanically flow into corporate profits, providing a framework for assessing the fiscal dependency of current earnings levels",
+    "components": [
+      "Profits = Investment + Government Deficit + Net Exports - Household Saving + Capitalist Consumption",
+      "Current deficit at ~6-7% GDP channels $20-40/share into S&P 500 EPS",
+      "Reflexive loop: deficits → earnings → valuations → wealth effect → consumption",
+      "Consolidation scenario: deficit from 6.5% to 4.0% → $10-20/share EPS reduction",
+      "Godley sectoral balance extension: private sector surplus/deficit implications"
+    ],
+    "current_assessment": "Federal deficits at ~6-7% GDP (~$1.7-2.0T annually) sustain an estimated 7-15% of S&P 500 EPS. Fiscal floor (condition 1) remains intact. Current equity valuations are an implicit bet on fiscal continuity. The risk is not priced into multiples.",
+    "limitations": [
+      "Cannot predict political probability of fiscal consolidation",
+      "Speed and sequencing of consolidation affects transmission",
+      "Reflexive loop dynamics are hard to model precisely",
+      "DOGE and other fiscal reform initiatives introduce novel uncertainty",
+      "Accounting identity tells you the what but not the when"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "three_condition_cycle_turn_framework",
+    "purpose": "Provides a monitoring checklist for equity cycle turn risk based on three independently assessable conditions that must be met for a downturn",
+    "components": [
+      "Condition 1: Fiscal impulse — is the fiscal floor intact? Currently YES (deficit ~6-7% GDP)",
+      "Condition 2: Credit impulse — has credit tightening reached threshold? Currently APPROACHING threshold",
+      "Condition 3: Minsky fragility — are speculative/Ponzi finance conditions present? Currently MET",
+      "Historical validation at 2007, 2009, 2022 cycle turns",
+      "Credit impulse leads by 2-6 months"
+    ],
+    "current_assessment": "Condition 3 (Minsky fragility) is met. Condition 2 (credit impulse) is approaching threshold. Condition 1 (fiscal floor) remains intact. Two of three conditions are at or near activation, with fiscal support as the remaining buffer.",
+    "limitations": [
+      "Conditions are necessary but may not be jointly sufficient",
+      "Fiscal floor assessment is politically dependent",
+      "Credit impulse threshold is not precisely defined",
+      "No framework for predicting which condition breaks first",
+      "Historical validation based on limited sample size"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "valuation_regime_framework",
+    "purpose": "Classifies equity valuation environments by inflation regime to determine equilibrium P/E ranges and assess current over/undervaluation",
+    "components": [
+      "Regime A (1950-68): P/E 16-18x, low stable inflation, positive equity environment",
+      "Regime B (1969-82): P/E 8-12x, high volatile inflation, equity bear market",
+      "Regime C (1983-2021): P/E 18-24x, low declining inflation, secular equity bull",
+      "Potential Regime D: P/E 15-20x, moderate persistent inflation (2.5-3.5%), if confirmed",
+      "Stock-bond correlation regime as mechanism: negative correlation supports higher P/E",
+      "Gordon Growth Model decomposition: P/E = 1/(r-star + ERP - g)"
+    ],
+    "current_assessment": "Current S&P 500 at ~21-22x forward P/E prices Regime C continuation. If core inflation settles at 2.5-3.5% (Regime D), fair value contracts to 15-20x implying 10-25% overvaluation. Requires 2-3 more years of inflation data to confirm. iter_0023 structural inflation floor of 2.3-2.8% tilts toward Regime D at 6/10 confidence.",
+    "limitations": [
+      "Regime transitions take 2-4 years, providing poor timing guidance",
+      "R-star uncertainty (±100-150bp) propagates through the entire framework",
+      "Cannot distinguish between AI-productivity-driven higher r-star and deficit-driven higher r-star",
+      "Three-regime historical sample is small",
+      "Regime boundaries are identified retrospectively"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "drawdown_archetype_framework",
+    "purpose": "Classifies equity drawdowns into three archetypes with differentiated base rates to improve drawdown severity estimation",
+    "components": [
+      "Recessionary drawdown: median -34%, triggered by credit/monetary tightening cascade",
+      "Valuation-compression drawdown: median -22%, triggered by discount rate regime shift without recession",
+      "Structural/systemic drawdown: median -49%, triggered by financial system stress or structural break",
+      "Each archetype has distinct cross-asset leading signatures",
+      "Historical pattern: severity correlates with leverage and credit quality of concentrated cohort"
+    ],
+    "current_assessment": "Current conditions show elements of all three archetypes: late-expansion positioning suggests recessionary risk, potential correlation regime shift suggests valuation compression risk, and market concentration plus passive investing suggests systemic risk. The specific probability of each archetype is not estimable with useful precision.",
+    "limitations": [
+      "Categories are retrospective; real-time classification is difficult",
+      "Drawdowns may combine elements of multiple archetypes",
+      "Small sample size within each archetype",
+      "Does not account for potential passive-investing structural break",
+      "Base rates assume prior institutional environment persists"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "dual_analogue_framework",
+    "purpose": "Uses the tension between two historical analogues (1997-2000 market structure + 1966-69 macro) to capture competing forces in the current environment",
+    "components": [
+      "1997-2000 analogue: extreme concentration, transformative technology narrative, accommodative Fed",
+      "1966-69 analogue: fiscal dominance, inflation not vanquished, premature accommodation, nominal masking real deterioration",
+      "Tension: one implies blow-off top (1997-2000), other implies grinding inflationary bear (1966-69)",
+      "Key differentiator: household balance sheets materially stronger today",
+      "Resolution depends on which force dominates"
+    ],
+    "current_assessment": "Both analogues fit current conditions on their respective dimensions. The 1997-2000 fit captures market structure (AI concentration, tech narrative). The 1966-69 fit captures macro backdrop (fiscal dominance, persistent inflation). Stronger household balance sheets may extend the cycle beyond what either analogue suggests.",
+    "limitations": [
+      "Single-agent contribution (generalist_02), not broadly validated",
+      "Dual-analogue approach is more nuanced but still limited by historical specificity",
+      "No method to weight relative importance of market structure vs macro backdrop",
+      "Household balance sheet differentiator may not be sufficient to alter outcomes",
+      "Both analogues ultimately ended badly, differing mainly in mechanism"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "cross_asset_leading_indicator_composite",
+    "purpose": "Monitors multiple independent leading indicators simultaneously to detect cycle turns, treating divergence between indicators as itself informative",
+    "components": [
+      "Credit impulse: 2-6 month lead, strong at 2007/2009/2022 turns, currently approaching threshold",
+      "Yield curve: 7/7 recession prediction record, requires term premium decomposition, steepening trap risk",
+      "Earnings revision breadth: 8/9 episodes with 4-8 month lead, currently at ~45-50% (declining from ~60%)",
+      "Credit-equity basis: useful but not the single best indicator, model-dependent via Merton framework",
+      "Output gap: explains 60-70% of secular equity return variation at 3-year horizons, currently +0.5-1.5%"
+    ],
+    "current_assessment": "All three primary indicators are directionally consistent with late-cycle positioning: credit impulse approaching threshold, ERB declining, yield curve in steepening trap zone. No single indicator is superior — the synthesis recommends monitoring all simultaneously and treating divergence as informative.",
+    "limitations": [
+      "Debate declared primary indicator question a draw — no consensus on which is best",
+      "ERB signal degraded by cap-weighted/equal-weighted bifurcation",
+      "Yield curve decomposition introduces model dependence (30-50bp ACM/Kim-Wright divergence)",
+      "Actionable lead time may be only 1-3 months (inside institutional rebalancing noise)",
+      "Composite construction methodology is subjective"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  }
+]

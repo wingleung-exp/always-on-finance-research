@@ -1,0 +1,21 @@
+{
+  "concept_a": "valuation_regime_inflation_dependence",
+  "concept_b": "stock_bond_correlation_regime",
+  "mechanism": "Inflation regime determines whether stocks and bonds are positively or negatively correlated. Low stable inflation produces negative correlation (bonds hedge equities, lowering required ERP, supporting higher P/E). High or volatile inflation produces positive correlation, raising required ERP and compressing P/E by 3-5 turns.",
+  "direction": "bidirectional",
+  "confidence": 8,
+  "regime_dependence": "Regime transitions take 2-4 years. Currently in transition zone with inflation floor at 2.3-2.8% per iter_0023. If core inflation settles at 2.5-3.5%, correlation shifts positive and equilibrium P/E contracts to 15-20x.",
+  "originating_agents": [
+    "generalist_02",
+    "challenger_02",
+    "rates_strategist_01"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

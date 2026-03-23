@@ -1,0 +1,27 @@
+{
+  "slug": "drawdown_archetype_framework",
+  "purpose": "Classifies equity drawdowns into three archetypes with differentiated base rates to improve drawdown severity estimation",
+  "components": [
+    "Recessionary drawdown: median -34%, triggered by credit/monetary tightening cascade",
+    "Valuation-compression drawdown: median -22%, triggered by discount rate regime shift without recession",
+    "Structural/systemic drawdown: median -49%, triggered by financial system stress or structural break",
+    "Each archetype has distinct cross-asset leading signatures",
+    "Historical pattern: severity correlates with leverage and credit quality of concentrated cohort"
+  ],
+  "current_assessment": "Current conditions show elements of all three archetypes: late-expansion positioning suggests recessionary risk, potential correlation regime shift suggests valuation compression risk, and market concentration plus passive investing suggests systemic risk. The specific probability of each archetype is not estimable with useful precision.",
+  "limitations": [
+    "Categories are retrospective; real-time classification is difficult",
+    "Drawdowns may combine elements of multiple archetypes",
+    "Small sample size within each archetype",
+    "Does not account for potential passive-investing structural break",
+    "Base rates assume prior institutional environment persists"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

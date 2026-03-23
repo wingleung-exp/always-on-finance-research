@@ -1,0 +1,35 @@
+{
+  "slug": "yield_curve_term_premium_decomposition",
+  "definition": "The yield curve remains the most reliable recession/cycle leading indicator but requires term premium decomposition. Pure inversion is insufficient in the QT era — inversion from expected-rate compression signals recession while inversion from term premium compression may not. ACM and Kim-Wright models diverge by 30-50bp.",
+  "confidence": 7,
+  "evidence": [
+    "Historical support for steepening trap in 1990, 2001, 2007",
+    "Current 2s10s at +20-40bp with Tier 2b signpost active",
+    "7/7 recession-prediction record for yield curve",
+    "30-50bp divergence between ACM and Kim-Wright term premium models",
+    "Markets celebrate un-inversion as all-clear but recession arrives during steepening"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Whether 30-50bp model divergence introduces meaningful uncertainty for actionable signals",
+    "Whether QT has permanently altered the term premium signal",
+    "How to distinguish expected-rate vs term-premium driven inversions in real time"
+  ],
+  "related_concepts": [
+    "equity_cycle_macro_causation",
+    "credit_impulse_leading_indicator",
+    "steepening_trap"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

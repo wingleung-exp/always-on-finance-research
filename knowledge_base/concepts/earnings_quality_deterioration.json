@@ -1,0 +1,37 @@
+{
+  "slug": "earnings_quality_deterioration",
+  "definition": "Earnings quality is deteriorating through the classic late-cycle pattern: S&P 500 accruals/total assets risen from ~2% (2020-21) to ~4-5%, GAAP-to-non-GAAP gap widened to 10-12% (vs 5-7% historical average), SBC at ~$180-200B annually. Magnitude of overstatement is probably 10-20%, not the initially claimed 25-40%.",
+  "confidence": 6,
+  "evidence": [
+    "Accruals/total assets increase from ~2% to ~4-5%",
+    "GAAP-to-non-GAAP gap at 10-12% vs 5-7% historical average",
+    "SBC running ~$180-200B annually",
+    "GAAP P/E of ~25-27x vs non-GAAP ~21-22x",
+    "Special items up 3-4x since 2020"
+  ],
+  "originating_agents": [
+    "macro_strategist_02",
+    "generalist_01",
+    "macro_strategist_01",
+    "challenger_02",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Whether geopolitical cover for earnings management (cookie-jar reserves) is distorting quality metrics",
+    "Whether SBC should be treated as full cash-equivalent cost",
+    "What portion of non-GAAP adjustments are legitimately non-recurring"
+  ],
+  "related_concepts": [
+    "erp_compression_model_dependence",
+    "late_expansion_fiscal_obscured",
+    "valuation_regime_inflation_dependence"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

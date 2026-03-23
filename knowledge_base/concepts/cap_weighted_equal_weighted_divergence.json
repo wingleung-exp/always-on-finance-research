@@ -1,0 +1,35 @@
+{
+  "slug": "cap_weighted_equal_weighted_divergence",
+  "definition": "Cap-weighted and equal-weighted indices mask fundamentally different cycle states. The aggregate index obscures the cycle position of the median company: earnings revision breadth is positive for mega-caps but negative for small-caps, and equal-weighted S&P 500 may already show positive stock-bond correlation while cap-weighted shows negative.",
+  "confidence": 7,
+  "evidence": [
+    "Earnings revision breadth bifurcation between mega-cap and small-cap",
+    "Equal-weighted vs cap-weighted correlation regime divergence",
+    "Small-cap effective earnings recession since mid-2023",
+    "Cap-weighted vs equal-weighted ERP dispersion of ~200bp"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "macro_strategist_02",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Whether median company recession eventually propagates to index level",
+    "How long bifurcation can persist",
+    "Whether cap-weighted or equal-weighted ERP is the relevant metric"
+  ],
+  "related_concepts": [
+    "market_concentration_superior_economics",
+    "small_cap_structural_underperformance",
+    "late_expansion_fiscal_obscured",
+    "earnings_revision_breadth"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

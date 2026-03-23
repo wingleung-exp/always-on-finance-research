@@ -1,0 +1,28 @@
+{
+  "slug": "valuation_regime_framework",
+  "purpose": "Classifies equity valuation environments by inflation regime to determine equilibrium P/E ranges and assess current over/undervaluation",
+  "components": [
+    "Regime A (1950-68): P/E 16-18x, low stable inflation, positive equity environment",
+    "Regime B (1969-82): P/E 8-12x, high volatile inflation, equity bear market",
+    "Regime C (1983-2021): P/E 18-24x, low declining inflation, secular equity bull",
+    "Potential Regime D: P/E 15-20x, moderate persistent inflation (2.5-3.5%), if confirmed",
+    "Stock-bond correlation regime as mechanism: negative correlation supports higher P/E",
+    "Gordon Growth Model decomposition: P/E = 1/(r-star + ERP - g)"
+  ],
+  "current_assessment": "Current S&P 500 at ~21-22x forward P/E prices Regime C continuation. If core inflation settles at 2.5-3.5% (Regime D), fair value contracts to 15-20x implying 10-25% overvaluation. Requires 2-3 more years of inflation data to confirm. iter_0023 structural inflation floor of 2.3-2.8% tilts toward Regime D at 6/10 confidence.",
+  "limitations": [
+    "Regime transitions take 2-4 years, providing poor timing guidance",
+    "R-star uncertainty (±100-150bp) propagates through the entire framework",
+    "Cannot distinguish between AI-productivity-driven higher r-star and deficit-driven higher r-star",
+    "Three-regime historical sample is small",
+    "Regime boundaries are identified retrospectively"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

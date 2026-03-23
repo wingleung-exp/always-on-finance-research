@@ -1,7 +1,7 @@
 {
   "slug": "kalecki_fiscal_channel",
   "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest coverage ratios (supporting credit quality) and the P/E denominator (supporting equity valuations). The system's current resilience is fiscally contingent, not structurally earned. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
-  "confidence": 7.33,
+  "confidence": 7.5,
   "evidence": [
     "Kalecki-Levy identity mechanically channels fiscal deficits to corporate profits",
     "Pair_2 debate identified this as the most important consensus finding",
@@ -16,7 +16,12 @@
     "Kalecki identity: Profits = Investment + Deficits + Net Exports - Savings",
     "Every 100bp of rate hikes generates ~$250-320B additional government interest payments",
     "10-25% of fiscal interest payments recycle as spending",
-    "Estimated 100-150bp of spread suppression, though residual-based attribution with wide uncertainty (50-200bp)"
+    "Estimated 100-150bp of spread suppression, though residual-based attribution with wide uncertainty (50-200bp)",
+    "Fed Flow of Funds (Z.1) data",
+    "S&P 500 earnings-to-fiscal-deficit tracking since 2020",
+    "Godley's 1999 Levy Institute prediction as out-of-sample validation",
+    "Independent derivation by generalist_01 and macro_strategist_02 of $20-40/share estimate",
+    "Reflexive loop: deficits sustain earnings sustain valuations sustain wealth effect sustain consumption"
   ],
   "originating_agents": [
     "macro_strategist_01",
@@ -24,7 +29,9 @@
     "generalist_01",
     "credit_analyst_01",
     "rates_strategist_01",
-    "challenger_01"
+    "challenger_01",
+    "generalist_02",
+    "challenger_02"
   ],
   "open_questions": [
     "Can fiscal deficits indefinitely mask credit deterioration?",
@@ -35,7 +42,10 @@
     "At what deficit/GDP level does the fiscal channel exhaust itself?",
     "Can the dual channel sustain the divergence indefinitely?",
     "What is the precise magnitude of the fiscal offset to monetary tightening?",
-    "How sustainable is this channel given the fiscal trajectory?"
+    "How sustainable is this channel given the fiscal trajectory?",
+    "Political probability and timeline for fiscal consolidation",
+    "Whether reflexive loop can persist without accelerating deficit growth",
+    "DOGE impact on fiscal trajectory"
   ],
   "related_concepts": [
     "higher_pain_threshold_destabilizing",
@@ -49,16 +59,20 @@
     "credit_maturity_wall",
     "services_inflation_persistence",
     "fed_reaction_asymmetry",
-    "structural_inflation_shift"
+    "structural_inflation_shift",
+    "fiscal_consolidation_risk",
+    "equity_cycle_macro_causation",
+    "late_expansion_fiscal_obscured"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-23T06:06:24Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0004",
     "iter_0010",
-    "iter_0023"
+    "iter_0023",
+    "iter_0024"
   ]
 }

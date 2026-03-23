@@ -1,0 +1,27 @@
+{
+  "slug": "three_condition_cycle_turn_framework",
+  "purpose": "Provides a monitoring checklist for equity cycle turn risk based on three independently assessable conditions that must be met for a downturn",
+  "components": [
+    "Condition 1: Fiscal impulse — is the fiscal floor intact? Currently YES (deficit ~6-7% GDP)",
+    "Condition 2: Credit impulse — has credit tightening reached threshold? Currently APPROACHING threshold",
+    "Condition 3: Minsky fragility — are speculative/Ponzi finance conditions present? Currently MET",
+    "Historical validation at 2007, 2009, 2022 cycle turns",
+    "Credit impulse leads by 2-6 months"
+  ],
+  "current_assessment": "Condition 3 (Minsky fragility) is met. Condition 2 (credit impulse) is approaching threshold. Condition 1 (fiscal floor) remains intact. Two of three conditions are at or near activation, with fiscal support as the remaining buffer.",
+  "limitations": [
+    "Conditions are necessary but may not be jointly sufficient",
+    "Fiscal floor assessment is politically dependent",
+    "Credit impulse threshold is not precisely defined",
+    "No framework for predicting which condition breaks first",
+    "Historical validation based on limited sample size"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

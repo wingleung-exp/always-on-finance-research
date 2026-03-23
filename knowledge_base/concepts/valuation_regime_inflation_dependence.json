@@ -1,0 +1,39 @@
+{
+  "slug": "valuation_regime_inflation_dependence",
+  "definition": "Equity valuation regimes are structurally driven by the discount rate and inflation regime. Three post-war regimes: 1950-68 (P/E 16-18x, low inflation), 1969-82 (P/E 8-12x, high inflation), 1983-2021 (P/E 18-24x, low inflation). Current ~21-22x forward P/E implicitly prices a negative stock-bond correlation environment.",
+  "confidence": 8,
+  "evidence": [
+    "Three post-war regime transitions each lasting 2-4 years with >30% drawdowns",
+    "Rolling stock-bond correlation oscillating between -0.2 and +0.4 post-2022",
+    "iter_0023 structural inflation floor of 2.3-2.8%",
+    "iter_0018 Claim 13 at 7/10 confidence",
+    "Gordon Growth Model sensitivity analysis",
+    "Fair value at ~18-19x if correlation regime shifted persistently positive, implying 10-25% overvaluation"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Whether correlation regime has durably shifted positive",
+    "Whether AI productivity gains could sustain higher growth expectations offsetting higher discount rates",
+    "Whether 2-3 more years of inflation data needed to confirm Regime D"
+  ],
+  "related_concepts": [
+    "stock_bond_correlation_regime",
+    "erp_compression_model_dependence",
+    "fiscal_consolidation_risk"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "concept_a": "credit_impulse_leading_indicator",
+    "concept_b": "equity_cycle_macro_causation",
+    "mechanism": "Credit impulse leads equity cycle turns by 2-6 months through lending conditions affecting corporate investment and earnings. The credit impulse deceleration transmits through business investment, inventory, and consumption channels to corporate profits.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Strongest when credit is the binding constraint. May be attenuated when fiscal deficits provide an alternative profit channel (Kalecki). Less informative during QE periods when credit supply is artificially unconstrained.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "equity_cycle_macro_causation",
+    "mechanism": "Government deficits mechanically flow into corporate profits via the Kalecki-Levy identity. At 6-7% deficit/GDP, this channel sustains 7-15% of S&P 500 EPS, creating a fiscal floor under the cycle that delays or prevents typical credit-driven drawdowns.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Proportional to deficit size. Currently at historically elevated deficit levels making the channel unusually strong. Would weaken significantly under fiscal consolidation (deficit from 6.5% to 4.0% GDP).",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "valuation_regime_inflation_dependence",
+    "concept_b": "stock_bond_correlation_regime",
+    "mechanism": "Inflation regime determines whether stocks and bonds are positively or negatively correlated. Low stable inflation produces negative correlation (bonds hedge equities, lowering required ERP, supporting higher P/E). High or volatile inflation produces positive correlation, raising required ERP and compressing P/E by 3-5 turns.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Regime transitions take 2-4 years. Currently in transition zone with inflation floor at 2.3-2.8% per iter_0023. If core inflation settles at 2.5-3.5%, correlation shifts positive and equilibrium P/E contracts to 15-20x.",
+    "originating_agents": [
+      "generalist_02",
+      "challenger_02",
+      "rates_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "ai_capex_sustainability",
+    "concept_b": "market_concentration_superior_economics",
+    "mechanism": "AI capex is deployed by the same concentrated cohort (Mag7/hyperscalers) that drives market concentration. Sustained capex maintains revenue growth and ROIC advantage, reinforcing concentration. Capex disappointment would trigger earnings disappointment in the concentrated cohort, unwinding concentration.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while hyperscalers maintain hedge-financed capex from FCF. Would break if AI revenue realization fails to reach 2-3x consensus TAM, converting the capex from value-creating to value-destroying.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "passive_investing_structural_break",
+    "concept_b": "market_concentration_superior_economics",
+    "mechanism": "Passive flows are price-insensitive and mechanically allocate to the largest-cap names, reinforcing existing concentration. The inelastic markets hypothesis ($1 flow = $3-5 market cap) amplifies this, creating a Soros-ian reflexivity loop where concentration begets inflows begets more concentration.",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Strengthens as passive share increases (currently ~55%). Theoretical framework is sound but empirically untested — no passive-driven crash has occurred. Active managers may still set marginal prices.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "challenger_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "small_cap_structural_underperformance",
+    "concept_b": "credit_impulse_leading_indicator",
+    "mechanism": "Small-caps are disproportionately sensitive to credit conditions due to higher leverage (3.0-3.5x vs 1.0-1.5x), higher floating-rate exposure (35-40% vs 15-20%), and lower interest coverage (~2.0x). The financial accelerator (Bernanke-Gertler-Gilchrist) transmits credit tightening more severely to smaller, more leveraged firms.",
+    "direction": "b_causes_a",
+    "confidence": 8,
+    "regime_dependence": "Correlation with real fed funds rate of -0.65 to -0.75. Strongest during tightening cycles. The maturity wall concentration in 2025-2027 amplifies current sensitivity.",
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "fiscal_consolidation_risk",
+    "mechanism": "The Kalecki channel creates fiscal dependency: current earnings embed $20-40/share from deficits. Fiscal consolidation mechanically removes this support, reducing EPS by $10-20/share (4-8%) under moderate scenarios or 15-20% under aggressive consolidation (deficit from 6.5% to 3-4% GDP).",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Risk is proportional to current deficit level and speed of consolidation. Currently at peak exposure with deficit at ~6-7% GDP. Godley sectoral balance framework projects private sector forced from surplus to deficit under consolidation.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "ai_capex_sustainability",
+    "concept_b": "commodity_input_cost_channel",
+    "mechanism": "AI capex creates specific, quantifiable commodity demand shocks: 1.5-2.0 Mt copper, 150-200 TWh electricity, 3-5 Bcf/d natural gas. These physical constraints could become binding bottlenecks that slow capex execution or drive commodity inflation that compresses margins.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Binds when physical supply cannot scale with demand. Copper supply constraints are tightest (mine development cycle 5-10 years). Power constraints depend on permitting and gas supply. Currently mixed commodity environment.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "market_concentration_superior_economics",
+    "concept_b": "cap_weighted_equal_weighted_divergence",
+    "mechanism": "Extreme concentration (30-38% top 10) creates mechanical divergence between cap-weighted and equal-weighted metrics. Cap-weighted P/E, ERP, stock-bond correlation, and earnings revision breadth all differ materially from equal-weighted equivalents, masking the cycle state of the median company.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Divergence increases with concentration level. Currently at historically extreme divergence. Converges during concentration unwinds (historically via large-cap decline, not small-cap catch-up).",
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "erp_compression_model_dependence",
+    "concept_b": "valuation_regime_inflation_dependence",
+    "mechanism": "ERP compression supports higher P/E multiples. At current levels (1.0-3.0% depending on methodology), ERP is below post-1990 median, placing forward 5-10 year returns in historically poor territory. The inflation/correlation regime determines whether ERP compression is rational (negative correlation environment) or mispriced.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "ERP compression is justified under negative stock-bond correlation (bonds hedge equities). If correlation regime shifts positive, ERP should expand, compressing P/E to ~18-19x.",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "yield_curve_term_premium_decomposition",
+    "concept_b": "equity_cycle_macro_causation",
+    "mechanism": "Yield curve inversion predicts recessions (7/7 record) which drive equity drawdowns. However, the signal requires decomposition: inversion from expected-rate compression signals recession, while inversion from term premium compression may not. The steepening trap means recession arrives during steepening, not inversion.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Decomposition requirement is heightened in QT era where term premium behavior differs from pre-2008. ACM and Kim-Wright models diverge by 30-50bp, introducing model dependence.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "earnings_quality_deterioration",
+    "concept_b": "erp_compression_model_dependence",
+    "mechanism": "Earnings quality deterioration means non-GAAP earnings overstate true earnings power by 10-20%, making ERP calculations based on non-GAAP forward earnings artificially compressed. GAAP P/E of ~25-27x vs non-GAAP ~21-22x implies true ERP is lower than headline estimates.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Worsens in late-cycle as management incentives to manage earnings increase. Accruals/total assets at ~4-5% vs ~2% early-cycle. SBC and non-GAAP adjustments are persistent features of current market structure.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "roic_wacc_spread_convexity",
+    "concept_b": "cycle_ending_pathways",
+    "mechanism": "ROIC-WACC spread compression to 3.5-5.0pp creates nonlinear fragility: 100bp WACC increase destroys 25% of EVA at 4pp spread vs 12.5% at 8pp spread. This means rate shock pathway (pathway a) would have 2.5x larger impact than in 2017-19 conditions.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Fragility increases as spreads compress. Current 3.5-5.0pp spread (with ±50bp uncertainty) is the tightest since pre-GFC. Would widen if AI capex delivers sufficient ROIC improvement.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "sanctions_architecture_structural_break",
+    "concept_b": "em_geopolitical_bifurcation",
+    "mechanism": "Sanctions and export controls create a structural wedge between geopolitically aligned and non-aligned EM markets. Aligned EMs benefit from supply chain diversification flows while non-aligned EMs face index deletion risk, compliance costs, and structural P/E discounts.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Strengthens with geopolitical tension escalation. Weakens with de-escalation. Current alignment classification may shift over time.",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "concept_a": "late_expansion_fiscal_obscured",
+    "concept_b": "cycle_ending_pathways",
+    "mechanism": "Late-expansion positioning means the economy is vulnerable to any of three cycle-ending pathways. Fiscal floor (condition 1 intact) delays but does not prevent eventual cycle turn. Minsky fragility (condition 3 met) and credit impulse approaching threshold (condition 2) indicate increasing vulnerability.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Fiscal floor is the critical moderating variable. As long as deficits remain at 6-7% GDP, the fiscal Kalecki channel provides a floor. Pathway activation depends on which condition breaks first.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  }
+]

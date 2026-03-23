@@ -1,0 +1,817 @@
+[
+  {
+    "slug": "equity_cycle_macro_causation",
+    "definition": "Equity market drawdowns are caused by credit, fiscal, and monetary dynamics rather than any intrinsic equity clock. The statistical evidence shows peak-to-peak intervals since 1945 have a coefficient of variation >0.7, rendering average cycle length uninformative for timing.",
+    "confidence": 8,
+    "evidence": [
+      "NBER recession dating alignment with every major drawdown",
+      "Kalecki-Levy profit identity as accounting truism",
+      "Output gap to equity return R-squared of 0.60-0.70 at 3-year horizons (Fama-French 1989, Cochrane 2011)",
+      "Yield curve 7/7 recession-prediction record",
+      "Credit impulse lead at 2007, 2009, 2022 turns",
+      "Peak-to-peak coefficient of variation >0.7 since 1945"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_02",
+      "macro_strategist_01",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether passive investing has altered the transmission mechanisms enough to break historical patterns",
+      "Whether fiscal dominance creates a new causal channel not present in pre-2008 cycles"
+    ],
+    "related_concepts": [
+      "credit_impulse_leading_indicator",
+      "kalecki_fiscal_channel",
+      "yield_curve_term_premium_decomposition",
+      "output_gap_equity_returns"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "The Kalecki-Levy profit equation (Profits = Investment + Government Deficit + Net Exports - Household Saving + Capitalist Consumption) mechanically channels fiscal spending into corporate profits. With federal deficits at ~6-7% of GDP, this sustains an estimated 7-15% of S&P 500 EPS ($20-40/share).",
+    "confidence": 8,
+    "evidence": [
+      "Fed Flow of Funds (Z.1) data",
+      "S&P 500 earnings-to-fiscal-deficit tracking since 2020",
+      "Godley's 1999 Levy Institute prediction as out-of-sample validation",
+      "Independent derivation by generalist_01 and macro_strategist_02 of $20-40/share estimate",
+      "Reflexive loop: deficits sustain earnings sustain valuations sustain wealth effect sustain consumption"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Political probability and timeline for fiscal consolidation",
+      "Whether reflexive loop can persist without accelerating deficit growth",
+      "DOGE impact on fiscal trajectory"
+    ],
+    "related_concepts": [
+      "fiscal_consolidation_risk",
+      "equity_cycle_macro_causation",
+      "late_expansion_fiscal_obscured"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "small_cap_structural_underperformance",
+    "definition": "Small-cap underperformance (~30-40pp vs S&P 500 since 2023) is structural, driven primarily by leverage, credit quality, and rate sensitivity. ~40% of Russell 2000 constituents are unprofitable, median net debt/EBITDA is ~3.0-3.5x, and ~35-40% of debt is floating-rate.",
+    "confidence": 8,
+    "evidence": [
+      "Russell 2000 composition data showing ~40% unprofitable",
+      "Leverage differential: median net debt/EBITDA 3.0-3.5x vs 1.0-1.5x S&P 500",
+      "Floating-rate exposure: 35-40% vs 15-20% large-cap",
+      "Interest coverage decline from ~3.5x (2019) to ~2.0x",
+      "Correlation with real fed funds rate: -0.65 to -0.75",
+      "BBB OAS correlation ~0.7",
+      "3/3 prior comparable divergences (1998-2000, 1989-90, 1972-73) resolved via large-cap decline not small-cap catch-up",
+      "Maturity wall concentration in 2025-2027"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether rate cuts sufficient to close the gap given structural quality deterioration",
+      "Whether maturity wall refinancing triggers credit events or is manageable"
+    ],
+    "related_concepts": [
+      "credit_impulse_leading_indicator",
+      "cap_weighted_equal_weighted_divergence",
+      "late_expansion_fiscal_obscured",
+      "commodity_input_cost_channel"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "valuation_regime_inflation_dependence",
+    "definition": "Equity valuation regimes are structurally driven by the discount rate and inflation regime. Three post-war regimes: 1950-68 (P/E 16-18x, low inflation), 1969-82 (P/E 8-12x, high inflation), 1983-2021 (P/E 18-24x, low inflation). Current ~21-22x forward P/E implicitly prices a negative stock-bond correlation environment.",
+    "confidence": 8,
+    "evidence": [
+      "Three post-war regime transitions each lasting 2-4 years with >30% drawdowns",
+      "Rolling stock-bond correlation oscillating between -0.2 and +0.4 post-2022",
+      "iter_0023 structural inflation floor of 2.3-2.8%",
+      "iter_0018 Claim 13 at 7/10 confidence",
+      "Gordon Growth Model sensitivity analysis",
+      "Fair value at ~18-19x if correlation regime shifted persistently positive, implying 10-25% overvaluation"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Whether correlation regime has durably shifted positive",
+      "Whether AI productivity gains could sustain higher growth expectations offsetting higher discount rates",
+      "Whether 2-3 more years of inflation data needed to confirm Regime D"
+    ],
+    "related_concepts": [
+      "stock_bond_correlation_regime",
+      "erp_compression_model_dependence",
+      "fiscal_consolidation_risk"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "erp_compression_model_dependence",
+    "definition": "The Equity Risk Premium is compressed by any methodology, but its precise level is model-dependent with a range of ~500bp across approaches (Fed Model ~0.5% to survey-based ~5.5%). This renders specific compression claims unfalsifiable without specifying the model. Directionally, ERP is below its post-1990 median by any methodology.",
+    "confidence": 8,
+    "evidence": [
+      "Current estimates cluster around 1.0-3.0% depending on methodology",
+      "500bp range across Fed Model, Damodaran DDM, CAPE-inverted, survey, and historical realized approaches",
+      "Cap-weighted vs equal-weighted ERP divergence of ~200bp directly observable",
+      "5-10 year forward return relationship robust per Campbell-Shiller",
+      "1 out of 5 episodes delivered >3% real annualized from similar starting ERP",
+      "macro_strategist_02 internal contradiction (2.5-3.0% headline vs 0.2-0.5% calculated)"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Which ERP methodology is most appropriate for current market structure",
+      "Whether cap-weighted or equal-weighted ERP is the relevant metric (depends on AI concentration being structural vs cyclical)",
+      "Whether passive flow mechanics have structurally altered the ERP"
+    ],
+    "related_concepts": [
+      "valuation_regime_inflation_dependence",
+      "market_concentration_superior_economics",
+      "stock_bond_correlation_regime",
+      "passive_investing_structural_break"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "ai_capex_sustainability",
+    "definition": "AI capex at $200-250B annual hyperscaler run rate is the single largest swing factor for the current equity cycle. The capex is hedge-financed from operating cash flows ($50-150B annual FCF each), fundamentally differentiating from prior leveraged tech busts. Implied TAM of $600B-$1T AI revenue by 2035 is 2-3x current consensus.",
+    "confidence": 7,
+    "evidence": [
+      "Hyperscaler cash flow statements confirming hedge-finance classification",
+      "Reverse-DCF calculation requiring $600B-$1T AI revenue by 2035 at 15-20% ROIC target",
+      "Conjunction probability decomposition: P(A∩B∩C∩D) ≈ 10-20% for bubble narrative",
+      "Physical demand quantification: 1.5-2.0 Mt copper, 150-200 TWh electricity, 3-5 Bcf/d gas",
+      "TSMC Taiwan concentration ~90% sub-7nm capacity",
+      "All 8 agents converge on importance though diverge on failure probability"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02",
+      "commodities_analyst_01",
+      "risk_analyst_02",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Whether AI revenue realization will reach 2-3x current consensus TAM",
+      "Physical supply constraints as potential capex bottleneck",
+      "Geopolitical risk to semiconductor supply chain via Taiwan concentration",
+      "Whether AI productivity gains are sufficient to justify capex at required ROIC"
+    ],
+    "related_concepts": [
+      "market_concentration_superior_economics",
+      "commodity_input_cost_channel",
+      "cycle_ending_pathways",
+      "roic_wacc_spread_convexity"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "market_concentration_superior_economics",
+    "definition": "Market concentration at 30-38% in top 10 names is historically extreme, but the current concentrated cohort has genuinely superior economics (ROIC >25%) differentiating it from all prior concentration episodes where premium multiples were on inferior returns on capital. However, earnings disappointment in the leadership cohort remains the historical catalyst for unwinding.",
+    "confidence": 7,
+    "evidence": [
+      "Current Mag7 ROIC >25% vs 1999 tech <10%",
+      "Top-10 weight at 30-38%",
+      "Prior episode concentration-to-peak intervals of 6-18 months",
+      "3/3 prior episodes (Nifty Fifty, 1999 tech, 2007 financials) had inferior ROIC at peak concentration",
+      "Trigger is always earnings disappointment not valuation per se",
+      "generalist_02 concession on ROIC quality flagged as single most important analytical point"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02",
+      "challenger_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Whether concentration at this level can persist historically unprecedented",
+      "Whether superior ROIC invalidates the 3/3 large-cap decline resolution base rate",
+      "Whether AI earnings disappointment is the specific catalyst that would trigger unwinding"
+    ],
+    "related_concepts": [
+      "ai_capex_sustainability",
+      "cap_weighted_equal_weighted_divergence",
+      "passive_investing_structural_break",
+      "erp_compression_model_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "late_expansion_fiscal_obscured",
+    "definition": "The current equity cycle is in a late-expansion phase with exact positioning obscured by fiscal support. The cycle has already turned for the median company but not for the cap-weighted index. Multiple frameworks converge on late-expansion or early-overshoot assessment.",
+    "confidence": 7,
+    "evidence": [
+      "Output gap at +0.5-1.5%",
+      "Earnings revision breadth bifurcation: positive for mega-caps, negative for small-caps",
+      "Small-cap earnings in effective recession since mid-2023",
+      "Credit impulse decelerating",
+      "macro_strategist_02 three-condition checklist: condition 3 (Minsky fragility) met, condition 2 (credit impulse) approaching threshold, condition 1 (fiscal floor) intact",
+      "Equal-weighted S&P 500 may already be in positive correlation regime while cap-weighted shows negative"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Whether fiscal floor can prevent the median company recession from reaching the index level",
+      "How long cap-weighted index can mask deterioration in the median company",
+      "Whether Minsky fragility condition triggers before or after fiscal impulse fades"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "cap_weighted_equal_weighted_divergence",
+      "small_cap_structural_underperformance",
+      "credit_impulse_leading_indicator",
+      "cycle_ending_pathways"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "earnings_revision_breadth",
+    "definition": "Earnings revision breadth is a leading indicator with 4-8 month lead time at cycle peaks (8/9 episodes since 1970), but signal quality is degraded by market bifurcation and backtest inflation. Current reading has declined from ~60% to ~45-50%, analogous to Q3 1999 or Q1 2007.",
+    "confidence": 6,
+    "evidence": [
+      "8/9 episodes since 1970 with 4-8 month lead times, COVID sole exception",
+      "0.45-0.55 correlation with forward returns",
+      "Current aggregate ERB decline from ~60% to ~45-50%",
+      "Actionable lead time only 1-3 months (inside institutional rebalancing noise)",
+      "Geopolitically-attributed special items may distort signal by ~5-10pp"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "commodities_analyst_01",
+      "challenger_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether bifurcation between Mag7 and S&P 493 revisions degrades aggregate signal",
+      "Whether adjusted ERB (excluding special items) is more informative",
+      "Timing precision limitations for institutional implementation"
+    ],
+    "related_concepts": [
+      "late_expansion_fiscal_obscured",
+      "cap_weighted_equal_weighted_divergence",
+      "earnings_quality_deterioration"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "earnings_quality_deterioration",
+    "definition": "Earnings quality is deteriorating through the classic late-cycle pattern: S&P 500 accruals/total assets risen from ~2% (2020-21) to ~4-5%, GAAP-to-non-GAAP gap widened to 10-12% (vs 5-7% historical average), SBC at ~$180-200B annually. Magnitude of overstatement is probably 10-20%, not the initially claimed 25-40%.",
+    "confidence": 6,
+    "evidence": [
+      "Accruals/total assets increase from ~2% to ~4-5%",
+      "GAAP-to-non-GAAP gap at 10-12% vs 5-7% historical average",
+      "SBC running ~$180-200B annually",
+      "GAAP P/E of ~25-27x vs non-GAAP ~21-22x",
+      "Special items up 3-4x since 2020"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "macro_strategist_01",
+      "challenger_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether geopolitical cover for earnings management (cookie-jar reserves) is distorting quality metrics",
+      "Whether SBC should be treated as full cash-equivalent cost",
+      "What portion of non-GAAP adjustments are legitimately non-recurring"
+    ],
+    "related_concepts": [
+      "erp_compression_model_dependence",
+      "late_expansion_fiscal_obscured",
+      "valuation_regime_inflation_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "yield_curve_term_premium_decomposition",
+    "definition": "The yield curve remains the most reliable recession/cycle leading indicator but requires term premium decomposition. Pure inversion is insufficient in the QT era — inversion from expected-rate compression signals recession while inversion from term premium compression may not. ACM and Kim-Wright models diverge by 30-50bp.",
+    "confidence": 7,
+    "evidence": [
+      "Historical support for steepening trap in 1990, 2001, 2007",
+      "Current 2s10s at +20-40bp with Tier 2b signpost active",
+      "7/7 recession-prediction record for yield curve",
+      "30-50bp divergence between ACM and Kim-Wright term premium models",
+      "Markets celebrate un-inversion as all-clear but recession arrives during steepening"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether 30-50bp model divergence introduces meaningful uncertainty for actionable signals",
+      "Whether QT has permanently altered the term premium signal",
+      "How to distinguish expected-rate vs term-premium driven inversions in real time"
+    ],
+    "related_concepts": [
+      "equity_cycle_macro_causation",
+      "credit_impulse_leading_indicator",
+      "steepening_trap"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "passive_investing_structural_break",
+    "definition": "Passive investing (~55% of US equity AUM) has likely altered cycle dynamics through procyclical flow mechanics — price-insensitive flows mechanically reinforce concentration and create reflexivity loops. The Gabaix-Koijen inelastic markets hypothesis ($1 flow moves market cap by $3-5) amplifies the concern. However, no definitive passive-driven crash has occurred.",
+    "confidence": 5,
+    "evidence": [
+      "Passive share at ~55% of US equity AUM",
+      "Gabaix-Koijen inelastic markets hypothesis quantification",
+      "Theoretical framework for procyclical amplification",
+      "Active managers still set marginal prices in many stocks"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "challenger_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether passive flows create their own returns in a non-equilibrium system",
+      "Whether a passive-driven crash is possible and what would trigger it",
+      "Whether every historical base rate for cycle behavior may be obsolete if hypothesis is correct",
+      "Most important open question for equity cycle research per synthesis"
+    ],
+    "related_concepts": [
+      "market_concentration_superior_economics",
+      "inelastic_markets_hypothesis",
+      "erp_compression_model_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "commodity_input_cost_channel",
+    "definition": "Commodity input costs are a contributing (not primary) driver of equity earnings cycles. AI capex creates novel physical supply constraints: each GW of data center capacity requires 4-8 kt copper, 150-200 TWh incremental US electricity by 2028, and 3-5 Bcf/d incremental gas demand. Commodity regime determines P/E impact: disinflationary = expansion, inflationary >10% YoY = 3-6 turn compression.",
+    "confidence": 6,
+    "evidence": [
+      "AI buildout physical footprint quantification",
+      "Commodity-regime-dependent P/E relationship survives across four decades with 8/10 confidence",
+      "Current mixed commodity environment supports but does not expand ~21-22x multiple",
+      "Output gap and financial accelerator more explanatory than commodities for equity cycles"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Whether physical supply constraints become binding bottleneck for AI capex",
+      "Whether shift to rising commodity prices would be the primary supply-side threat to margins",
+      "Timing of commodity cost impact on earnings"
+    ],
+    "related_concepts": [
+      "ai_capex_sustainability",
+      "valuation_regime_inflation_dependence",
+      "small_cap_structural_underperformance"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "cycle_ending_pathways",
+    "definition": "Three identifiable pathways could end the cycle: (a) rate shock via inflation resurgence/fiscal sustainability, (b) AI earnings disappointment cascading through concentration and Kalecki channels, (c) credit event propagating through 2-6 month credit-equity lead. Each has distinct cross-asset signatures monitorable in real time.",
+    "confidence": 6,
+    "evidence": [
+      "Three drawdown archetypes: recessionary median -34%, valuation-compression median -22%, structural/systemic median -49%",
+      "Three-condition checklist: fiscal impulse, credit impulse, Minsky fragility",
+      "Current status: condition 3 met, condition 2 approaching threshold, condition 1 intact",
+      "Specific probability assignments criticized as false precision"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Probability assignment across pathways",
+      "Whether pathways interact or are independent",
+      "Whether fiscal floor can prevent credit event transmission",
+      "Timing of AI earnings test vs credit cycle"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "ai_capex_sustainability",
+      "credit_impulse_leading_indicator",
+      "late_expansion_fiscal_obscured",
+      "roic_wacc_spread_convexity"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "stock_bond_correlation_regime",
+    "definition": "The stock-bond correlation regime is a critical determinant of equity valuations. At ~21x forward P/E, equities price a negative stock-bond correlation (bonds hedge equity drawdowns, lowering required ERP). If correlation has shifted persistently positive due to structurally higher inflation and fiscal dominance, fair value contracts to ~18-19x.",
+    "confidence": 8,
+    "evidence": [
+      "Rolling stock-bond correlation oscillating between -0.2 and +0.4 post-2022",
+      "Cap-weighted vs equal-weighted correlation divergence",
+      "iter_0018 correlation regime analysis",
+      "5 agents suggest persistent positive correlation is plausible"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether correlation regime shift is permanent or transitory",
+      "Whether fiscal dominance is sufficient condition for positive correlation",
+      "Impact of correlation regime on optimal portfolio construction"
+    ],
+    "related_concepts": [
+      "valuation_regime_inflation_dependence",
+      "erp_compression_model_dependence",
+      "fiscal_consolidation_risk"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "credit_impulse_leading_indicator",
+    "definition": "The credit impulse leads equity cycle turns by approximately 2-6 months, with strong track record at 2007, 2009, and 2022 turns. Currently approaching threshold per macro_strategist_02's three-condition framework. One of three competing leading indicator frameworks alongside yield curve and earnings revision breadth.",
+    "confidence": 7,
+    "evidence": [
+      "Credit impulse lead documented at 2007, 2009, 2022 turns",
+      "Currently approaching threshold (condition 2 in three-condition framework)",
+      "Correlation with forward returns supports predictive value",
+      "Debate between credit impulse, yield curve, and ERB declared a draw"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether credit impulse, yield curve, or ERB is superior leading indicator (consensus: use composite)",
+      "Whether divergence between indicators is itself informative",
+      "Whether fiscal floor can offset credit impulse deterioration"
+    ],
+    "related_concepts": [
+      "equity_cycle_macro_causation",
+      "yield_curve_term_premium_decomposition",
+      "earnings_revision_breadth",
+      "cycle_ending_pathways"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "fiscal_consolidation_risk",
+    "definition": "A reduction from 6.5% to 4.0% deficit/GDP would mechanically reduce S&P 500 EPS by an estimated $10-20/share (4-8%) through the Kalecki channel. This fiscal consolidation risk is not priced into current multiples. Godley sectoral balance framework projects private sector forced from surplus to deficit under consolidation.",
+    "confidence": 7,
+    "evidence": [
+      "Kalecki-Levy accounting identity arithmetic",
+      "Godley 1999 Levy Institute out-of-sample prediction",
+      "Deficit cut to 3-4% GDP projects 15-20% earnings decline per macro_strategist_02",
+      "Currently not priced into market multiples"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Political probability and timeline for fiscal consolidation",
+      "Whether consolidation would be gradual or abrupt",
+      "DOGE impact on spending trajectory",
+      "Whether private sector can absorb the demand compression"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "late_expansion_fiscal_obscured",
+      "cycle_ending_pathways"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "roic_wacc_spread_convexity",
+    "definition": "ROIC-WACC spread compression to 3.5-5.0pp creates convex rate sensitivity. At 4pp spread, a 100bp WACC increase destroys 25% of EVA vs 12.5% at 8pp spread, making the current S&P 500 approximately 2.5x more fragile to rate shocks than the 2017-19 period.",
+    "confidence": 5,
+    "evidence": [
+      "Mechanical math: at 4pp ROIC-WACC spread, 100bp WACC increase destroys 25% of EVA",
+      "Flagged as single strongest original claim in pair_0 debate",
+      "2.5x fragility ratio vs 2017-19 late-cycle period"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "ROIC-WACC spread estimate has ±50bp uncertainty",
+      "Whether other frameworks validate the fragility finding",
+      "Whether AI capex ROIC realization alters spread dynamics"
+    ],
+    "related_concepts": [
+      "valuation_regime_inflation_dependence",
+      "cycle_ending_pathways",
+      "erp_compression_model_dependence",
+      "ai_capex_sustainability"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "us_equity_survivorship_bias",
+    "definition": "The US 6.4% annualized real return is an outlier in a 35-country sample where the median is ~3-4% (Dimson-Marsh-Staunton 2024). Generalizing US equity cycle patterns globally is a specific and testable error. Multiple developed markets experienced decade-plus negative real return periods.",
+    "confidence": 5,
+    "evidence": [
+      "Dimson-Marsh-Staunton 2024 Yearbook 35-country dataset",
+      "Japan, Italy, Austria experienced decade-plus negative real return periods",
+      "Median cross-country real return of ~3-4% vs US 6.4%"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Whether US institutional advantages justify higher structural returns",
+      "Whether US exceptionalism is persistent or mean-reverting",
+      "Implications for global equity allocation frameworks"
+    ],
+    "related_concepts": [
+      "buy_the_dip_regime_specificity",
+      "erp_compression_model_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "buy_the_dip_regime_specificity",
+    "definition": "Post-2009 buy-the-dip success (recovery in 6-18 months) reflects ZIRP/QE/fiscal support, not a structural tendency. The pre-2009 and cross-country base rate for >20% drawdown recovery is ~52-60 months. Behavioral conditioning over 15+ years may partially self-validate through reflexive buying pressure.",
+    "confidence": 5,
+    "evidence": [
+      "Dimson-Marsh-Staunton cross-country recovery data",
+      "Pre-2009 recovery base rate of ~52-60 months for >20% drawdowns",
+      "15+ years of reinforced buy-the-dip behavior as Pavlovian conditioning"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Whether behavioral response creates enough buying pressure to self-validate even without structural supports",
+      "Whether removal of ZIRP/QE regime breaks the conditioning",
+      "Cross-country variation in recovery times"
+    ],
+    "related_concepts": [
+      "us_equity_survivorship_bias",
+      "passive_investing_structural_break",
+      "equity_cycle_macro_causation"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "sanctions_architecture_structural_break",
+    "definition": "Sanctions architecture has permanently altered the global equity investable universe with ~$3-5T removed from indices, $40-60B annual compliance costs, and a structural 2-3 P/E turn geopolitical discount on Chinese equities estimated from regression residuals.",
+    "confidence": 5,
+    "evidence": [
+      "MSCI Russia deletion directly observable",
+      "Chinese ADR discounts directly observable",
+      "Compliance cost escalation documented",
+      "Pair_3 debate flagged as concrete and underappreciated structural break"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether 2-3 P/E sanctions probability discount is robust given methodological fragility",
+      "Whether structural break is permanent or reversible with geopolitical de-escalation",
+      "Whether most cycle frameworks adequately account for this change"
+    ],
+    "related_concepts": [
+      "em_geopolitical_bifurcation",
+      "erp_compression_model_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "em_geopolitical_bifurcation",
+    "definition": "EM equity has structurally bifurcated along geopolitical alignment lines. Aligned EMs (Mexico, India, Vietnam, Poland) outperform non-aligned EMs (China, Russia, Turkey) by 25-40% cumulatively since 2022. This suggests splitting EM allocation into aligned vs non-aligned buckets.",
+    "confidence": 5,
+    "evidence": [
+      "25-40% cumulative performance divergence since 2022 observable in real-time data",
+      "Validated by pair_3 debate as genuinely novel",
+      "Actionable portfolio implication for EM allocation"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether divergence is permanent or will mean-revert with de-escalation",
+      "Whether alignment classification is stable over time",
+      "Sample period too short for definitive structural conclusion"
+    ],
+    "related_concepts": [
+      "sanctions_architecture_structural_break",
+      "valuation_regime_inflation_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "cap_weighted_equal_weighted_divergence",
+    "definition": "Cap-weighted and equal-weighted indices mask fundamentally different cycle states. The aggregate index obscures the cycle position of the median company: earnings revision breadth is positive for mega-caps but negative for small-caps, and equal-weighted S&P 500 may already show positive stock-bond correlation while cap-weighted shows negative.",
+    "confidence": 7,
+    "evidence": [
+      "Earnings revision breadth bifurcation between mega-cap and small-cap",
+      "Equal-weighted vs cap-weighted correlation regime divergence",
+      "Small-cap effective earnings recession since mid-2023",
+      "Cap-weighted vs equal-weighted ERP dispersion of ~200bp"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Whether median company recession eventually propagates to index level",
+      "How long bifurcation can persist",
+      "Whether cap-weighted or equal-weighted ERP is the relevant metric"
+    ],
+    "related_concepts": [
+      "market_concentration_superior_economics",
+      "small_cap_structural_underperformance",
+      "late_expansion_fiscal_obscured",
+      "earnings_revision_breadth"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "output_gap_equity_returns",
+    "definition": "The output gap explains 60-70% of secular equity return variation at 3-year horizons. Current output gap estimated at +0.5-1.5%, consistent with late-expansion positioning. Combined with the Gordon Growth Model decomposition, the entire equity cycle framework is conditioned on r-star.",
+    "confidence": 7,
+    "evidence": [
+      "Fama-French 1989 and Cochrane 2011 R-squared estimates",
+      "Current output gap at +0.5-1.5%",
+      "Gordon Growth Model decomposition into r-star, ERP, and growth components"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "R-star uncertainty: Laubach-Williams estimates have standard errors of ±100-150bp",
+      "Whether r-star is 2.0% rather than 0.5-1.0%, which would make current valuations significantly overextended",
+      "Whether 5y5y forward at 3.8-4.2% prices higher r-star from AI productivity or fiscal deficit"
+    ],
+    "related_concepts": [
+      "equity_cycle_macro_causation",
+      "valuation_regime_inflation_dependence",
+      "late_expansion_fiscal_obscured"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "steepening_trap",
+    "definition": "Recession historically arrives during yield curve steepening, not inversion. Markets celebrate un-inversion as an all-clear signal, but the 1990, 2001, and 2007 recessions all arrived during the steepening phase. Currently relevant with 2s10s at +20-40bp.",
+    "confidence": 7,
+    "evidence": [
+      "Historical pattern in 1990, 2001, 2007 recessions",
+      "Current 2s10s at +20-40bp",
+      "Tier 2b signpost active per prior KB research"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Whether current steepening is from expected-rate or term-premium channel",
+      "Whether QT era alters the steepening trap dynamics"
+    ],
+    "related_concepts": [
+      "yield_curve_term_premium_decomposition",
+      "equity_cycle_macro_causation",
+      "credit_impulse_leading_indicator"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "inelastic_markets_hypothesis",
+    "definition": "The Gabaix-Koijen hypothesis that $1 of flow moves aggregate market capitalization by $3-5, amplified by passive investing's price-insensitive nature. If correct, every historical base rate for equity cycle behavior may be obsolete due to procyclical amplification mechanics.",
+    "confidence": 5,
+    "evidence": [
+      "Gabaix-Koijen theoretical framework and empirical estimates",
+      "Passive share at ~55% of US equity AUM",
+      "Theoretical case for procyclical amplification"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "No definitive passive-driven crash has occurred for empirical validation",
+      "Whether active managers still set marginal prices sufficiently",
+      "Whether the hypothesis invalidates historical cycle base rates"
+    ],
+    "related_concepts": [
+      "passive_investing_structural_break",
+      "market_concentration_superior_economics",
+      "equity_cycle_macro_causation"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "energy_sector_weight_anomaly",
+    "definition": "Energy sector weight at ~3.5-4.0% of S&P 500 despite 8-10% FCF yields, 10-12x P/E, lowest leverage in decades, and peak FCF. Historical oscillation from 2% (2020) to 28% (1980) suggests potential mean-reversion, but may reflect structural shift to asset-light economy.",
+    "confidence": 5,
+    "evidence": [
+      "Current weight ~3.5-4.0% vs historical range 2-28%",
+      "8-10% FCF yields and 10-12x P/E",
+      "Lowest leverage in decades",
+      "Peak free cash flow generation"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Whether this-time-is-different argument (asset-light economy) is valid",
+      "Absence of timing catalyst",
+      "Whether energy weight is mean-reverting equity cycle indicator"
+    ],
+    "related_concepts": [
+      "commodity_input_cost_channel",
+      "valuation_regime_inflation_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  },
+  {
+    "slug": "central_bank_independence_erp",
+    "definition": "Central bank independence erosion increases the equity risk premium by an estimated 50-80bp per standard deviation decline in independence. Cross-country evidence is robust, with the Turkey case study as extreme endpoint. Fed effective independence currently at lowest since pre-Volcker era.",
+    "confidence": 5,
+    "evidence": [
+      "Garriga 2016 and Bodea-Hicks 2015 cross-country evidence",
+      "Turkey case study as extreme endpoint",
+      "US institutional framework provides stronger guardrails than most comparisons"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether US institutional framework is sufficiently different to limit applicability",
+      "Slow-moving risk that markets are not currently monitoring",
+      "Whether current political dynamics represent permanent or temporary erosion"
+    ],
+    "related_concepts": [
+      "erp_compression_model_dependence",
+      "valuation_regime_inflation_dependence",
+      "fiscal_consolidation_risk"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0024"
+  }
+]

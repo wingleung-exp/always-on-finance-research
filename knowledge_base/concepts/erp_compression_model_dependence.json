@@ -1,0 +1,40 @@
+{
+  "slug": "erp_compression_model_dependence",
+  "definition": "The Equity Risk Premium is compressed by any methodology, but its precise level is model-dependent with a range of ~500bp across approaches (Fed Model ~0.5% to survey-based ~5.5%). This renders specific compression claims unfalsifiable without specifying the model. Directionally, ERP is below its post-1990 median by any methodology.",
+  "confidence": 8,
+  "evidence": [
+    "Current estimates cluster around 1.0-3.0% depending on methodology",
+    "500bp range across Fed Model, Damodaran DDM, CAPE-inverted, survey, and historical realized approaches",
+    "Cap-weighted vs equal-weighted ERP divergence of ~200bp directly observable",
+    "5-10 year forward return relationship robust per Campbell-Shiller",
+    "1 out of 5 episodes delivered >3% real annualized from similar starting ERP",
+    "macro_strategist_02 internal contradiction (2.5-3.0% headline vs 0.2-0.5% calculated)"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Which ERP methodology is most appropriate for current market structure",
+    "Whether cap-weighted or equal-weighted ERP is the relevant metric (depends on AI concentration being structural vs cyclical)",
+    "Whether passive flow mechanics have structurally altered the ERP"
+  ],
+  "related_concepts": [
+    "valuation_regime_inflation_dependence",
+    "market_concentration_superior_economics",
+    "stock_bond_correlation_regime",
+    "passive_investing_structural_break"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}

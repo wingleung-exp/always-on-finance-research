@@ -1,0 +1,38 @@
+{
+  "slug": "equity_cycle_macro_causation",
+  "definition": "Equity market drawdowns are caused by credit, fiscal, and monetary dynamics rather than any intrinsic equity clock. The statistical evidence shows peak-to-peak intervals since 1945 have a coefficient of variation >0.7, rendering average cycle length uninformative for timing.",
+  "confidence": 8,
+  "evidence": [
+    "NBER recession dating alignment with every major drawdown",
+    "Kalecki-Levy profit identity as accounting truism",
+    "Output gap to equity return R-squared of 0.60-0.70 at 3-year horizons (Fama-French 1989, Cochrane 2011)",
+    "Yield curve 7/7 recession-prediction record",
+    "Credit impulse lead at 2007, 2009, 2022 turns",
+    "Peak-to-peak coefficient of variation >0.7 since 1945"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "macro_strategist_02",
+    "macro_strategist_01",
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether passive investing has altered the transmission mechanisms enough to break historical patterns",
+    "Whether fiscal dominance creates a new causal channel not present in pre-2008 cycles"
+  ],
+  "related_concepts": [
+    "credit_impulse_leading_indicator",
+    "kalecki_fiscal_channel",
+    "yield_curve_term_premium_decomposition",
+    "output_gap_equity_returns"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T06:06:24Z",
+  "originating_iteration": "iter_0024",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0024"
+  ]
+}
