@@ -1,0 +1,25 @@
+{
+  "slug": "five_analogue_similarity_scoring",
+  "purpose": "Calibrates sovereign risk assessment by scoring current conditions against historical analogues across explicit dimensions with weights",
+  "components": [
+    "Explicit similarity dimensions (debt level, currency regime, ownership structure, growth, inflation)",
+    "Weighted scoring across dimensions",
+    "Historical base rates: 0/14 acute crisis for monetary sovereign, 61% slow erosion, 22% successful deleveraging",
+    "Conditional probabilities based on sovereign type"
+  ],
+  "current_assessment": "Provides the most empirically grounded risk calibration. The 0/14 acute crisis rate for monetary sovereigns with 61% slow erosion rate are the most robust base rates available. US-specific estimates remain difficult because the comparison class has n approximately 3.",
+  "limitations": [
+    "Analogue selection involves subjective judgment",
+    "Comparison class for US (own-currency reserve issuers at high debt) has n approximately 3",
+    "All four channels in historical analogues operated concurrently — attribution between channels not cleanly identified",
+    "Post-WWII analogues may not generalize to current period (different demographics, capital mobility, geopolitics)"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

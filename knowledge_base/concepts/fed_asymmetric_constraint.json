@@ -1,0 +1,31 @@
+{
+  "slug": "fed_asymmetric_constraint",
+  "definition": "The Fed's reaction function is asymmetrically constrained by fiscal arithmetic: an implicit ceiling at ~5-5.5% where doom-loop dynamics activate (rollover costs approach nominal GDP growth against persistent primary deficits), with no equivalent constraint on easing. This truncates the right tail of the policy rate distribution.",
+  "confidence": 6,
+  "evidence": [
+    "The fiscal arithmetic creating the ceiling is mechanically sound",
+    "September 2024 rate cut potentially partially fiscally motivated (speculative but consistent)",
+    "Rate option skew implications are testable"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the ~5-5.5% ceiling robust or does it depend on debt composition and maturity profile?",
+    "Would the Fed acknowledge fiscal constraints publicly?",
+    "How does this constraint interact with inflation mandates during a supply-side shock?"
+  ],
+  "related_concepts": [
+    "r_g_differential_debt_dynamics",
+    "monetary_transmission_impairment",
+    "kalecki_levy_fiscal_earnings_paradox"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

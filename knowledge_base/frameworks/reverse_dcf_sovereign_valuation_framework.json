@@ -1,0 +1,25 @@
+{
+  "slug": "reverse_dcf_sovereign_valuation_framework",
+  "purpose": "Determines what fiscal trajectory is implied by current market pricing of sovereign bonds, revealing potential mispricings or exorbitant privilege discount",
+  "components": [
+    "Back-solve from current yields to implied terminal fiscal position",
+    "Compare implied trajectory against historical base rates for fiscal adjustments",
+    "10Y UST at 4.3-4.5% implies terminal primary surplus of +1.0-1.5% GDP within 10 years",
+    "Historical success rate for adjustments of this magnitude: <10%"
+  ],
+  "current_assessment": "Current Treasury pricing implies an implausibly optimistic fiscal trajectory. Either markets are mispricing or the exorbitant privilege discount justifies more complacency than fundamentals suggest. The discount is real but hard to quantify.",
+  "limitations": [
+    "Conclusion depends on assumption that fiscal consolidation is politically infeasible",
+    "The exorbitant privilege discount is real and unquantified",
+    "Does not account for probability-weighted scenarios (market may price a distribution not a point estimate)",
+    "Novel framework — not yet validated or widely adopted"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

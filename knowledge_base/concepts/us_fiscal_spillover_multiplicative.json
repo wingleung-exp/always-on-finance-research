@@ -1,0 +1,33 @@
+{
+  "slug": "us_fiscal_spillover_multiplicative",
+  "definition": "US fiscal expansion creates multiplicative (not additive) EM tightening through three simultaneously activating and mutually reinforcing channels: direct crowding-out of EM bond demand, dollar strengthening, and global financial conditions tightening. Current vulnerability exceeds 2013 Taper Tantrum conditions (deficit 6.5-7% vs. 4%, basis trade amplification absent then).",
+  "confidence": 7,
+  "evidence": [
+    "Three channels activate simultaneously and reinforce each other",
+    "Current US deficit (6.5-7%) significantly exceeds 2013 Taper Tantrum (4%)",
+    "Crowding-out channel (quantity of DM issuance) identified as genuinely underappreciated",
+    "Convexity claim: second 50bp produces 1.5x the response"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Can the convexity in EM response be proven statistically?",
+    "How does the DM issuance crowding-out channel compare in magnitude to the dollar strength channel?",
+    "At what level of US issuance does the crowding-out become binding for EM?"
+  ],
+  "related_concepts": [
+    "dollar_cycle_em_stress_driver",
+    "em_hard_currency_maturity_wall",
+    "g7_fiscal_divergence",
+    "treasury_basis_trade_amplifier"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

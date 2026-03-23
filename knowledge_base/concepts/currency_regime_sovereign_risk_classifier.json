@@ -1,0 +1,33 @@
+{
+  "slug": "currency_regime_sovereign_risk_classifier",
+  "definition": "Currency regime (own free-floating vs. foreign/pegged) is the primary determinant of sovereign debt risk, not debt/GDP levels. Own-currency issuers with domestic-law debt face inflation tolerance constraints, not default risk. The historical base rate of default for such issuers is near zero in the modern era.",
+  "confidence": 9,
+  "evidence": [
+    "Zero instances of sovereign default by a free-floating domestic-currency issuer in the modern record",
+    "Russia 1998, Argentina 2001, Greece 2012 all involved foreign-currency debt, currency boards, or eurozone membership",
+    "CDS markets price US/UK/Japan default risk at <2% cumulative 5-year"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Does the 0/6 base rate apply to the current US configuration (high debt + persistent primary deficits + r≈g + above-target inflation simultaneously)?",
+    "Is the comparison class large enough to draw robust statistical conclusions?"
+  ],
+  "related_concepts": [
+    "financial_repression_modal_outcome",
+    "japan_non_generalizability",
+    "r_g_differential_debt_dynamics"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

@@ -1,0 +1,551 @@
+[
+  {
+    "slug": "currency_regime_sovereign_risk_classifier",
+    "definition": "Currency regime (own free-floating vs. foreign/pegged) is the primary determinant of sovereign debt risk, not debt/GDP levels. Own-currency issuers with domestic-law debt face inflation tolerance constraints, not default risk. The historical base rate of default for such issuers is near zero in the modern era.",
+    "confidence": 9,
+    "evidence": [
+      "Zero instances of sovereign default by a free-floating domestic-currency issuer in the modern record",
+      "Russia 1998, Argentina 2001, Greece 2012 all involved foreign-currency debt, currency boards, or eurozone membership",
+      "CDS markets price US/UK/Japan default risk at <2% cumulative 5-year"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does the 0/6 base rate apply to the current US configuration (high debt + persistent primary deficits + r≈g + above-target inflation simultaneously)?",
+      "Is the comparison class large enough to draw robust statistical conclusions?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "japan_non_generalizability",
+      "r_g_differential_debt_dynamics"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "financial_repression_modal_outcome",
+    "definition": "For high-debt advanced economies, the most probable resolution is decades of above-target inflation (3-6%), negative real bond returns, and subpar growth — not acute crisis. Among 23 historical episodes where DM debt/GDP exceeded 90%, acute crisis occurred in 17% (all non-monetary-sovereign), slow erosion in 61%, and successful deleveraging in 22%.",
+    "confidence": 8,
+    "evidence": [
+      "Post-WWII UK: 270% to 50% over 40 years via repression + growth",
+      "Post-WWII US: 120% to 30% over 35 years",
+      "Japan: 250%+ for 30 years, stagnation not crisis",
+      "Belgium: 140% to gradual consolidation",
+      "Italy: 120-155% for 30+ years with ECB backstop",
+      "17% acute crisis rate, all in non-monetary-sovereign contexts"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "challenger_02",
+      "equity_analyst_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Can financial repression operate effectively in modern liberalized capital markets?",
+      "Do crypto, stablecoins, and digital capital mobility structurally weaken the repression toolkit?",
+      "Is the post-WWII deleveraging toolkit still available given reversed demographics and absence of productivity boom?"
+    ],
+    "related_concepts": [
+      "currency_regime_sovereign_risk_classifier",
+      "deleveraging_toolkit_degradation",
+      "r_g_differential_debt_dynamics",
+      "dm_em_asymmetry_bias"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "r_g_differential_debt_dynamics",
+    "definition": "The debt sustainability equation delta(Debt/GDP) = (r - g) x (Debt/GDP) - Primary Balance/GDP is the governing identity for sovereign debt trajectories. When r<g, debt stabilizes with primary deficits; when r>g, stabilization requires primary surpluses. The US effective rate is rising from ~1.5% (2021) toward 4.5-5.0% as ~$8T in sub-2% pandemic-era issuance rolls over 2025-2028.",
+    "confidence": 9,
+    "evidence": [
+      "The equation is an accounting identity — directionally certain",
+      "US effective rate rising from ~1.5% (2021) to ~3.3% (2024)",
+      "No G7 economy currently generates a primary surplus sufficient to stabilize debt/GDP",
+      "US primary deficit of ~3.5-4.0% GDP requires 4.5-5.5pp swing — top decile of historical consolidation difficulty",
+      "Median historical consolidation achieved: 2.5pp over 5 years (IMF database)"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the realistic timeline for the US effective rate to converge to market rates?",
+      "Can AI-driven productivity growth (0.5-1.0pp real GDP) keep g > r?",
+      "What is the political feasibility of a 4.5-5.5pp primary balance swing?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "kalecki_levy_fiscal_earnings_paradox",
+      "fed_asymmetric_constraint",
+      "sovereign_stress_sequencing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "japan_non_generalizability",
+    "definition": "Japan's debt sustainability rests on a unique and non-replicable configuration: NIIP +70% GDP, >90% domestic JGB ownership, BoJ >50% ownership, persistent current account surplus, and deflationary backdrop keeping r<g. The US fails every one of these conditions and should not use Japan as evidence that high debt is indefinitely sustainable.",
+    "confidence": 8,
+    "evidence": [
+      "Japan: NIIP +70% GDP (largest net creditor) vs. US: negative NIIP (~-$20T)",
+      "Japan: >90% domestic ownership vs. US: ~70% (declining)",
+      "Japan: BoJ owns >50% of JGBs vs. US: Fed owns ~20% (declining via QT)",
+      "Japan: current account surplus vs. US: deficit ~3% GDP",
+      "Japan's 30+ years coincided with deflation — never faced inflation + high debt + tight monetary policy simultaneously"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_02",
+      "challenger_02",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is Japan the central case (default prior for advanced economies) or the boundary condition?",
+      "Are Japan's structural features load-bearing or coincidental?",
+      "What happens to Japan's sustainability as BoJ exits YCC and demographics worsen further?"
+    ],
+    "related_concepts": [
+      "currency_regime_sovereign_risk_classifier",
+      "financial_repression_modal_outcome",
+      "r_g_differential_debt_dynamics"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "kalecki_levy_fiscal_earnings_paradox",
+    "definition": "The Kalecki-Levy profit equation shows fiscal deficits mechanically support corporate earnings. The US 6-7% deficit contributes an estimated $20-40/share of S&P 500 EPS (7-15%). Any fiscal consolidation sufficient to stabilize debt/GDP would directly reduce the earnings base, creating a consolidation paradox where fiscal improvement triggers earnings recession.",
+    "confidence": 8,
+    "evidence": [
+      "The Kalecki-Levy accounting identity is definitional",
+      "European austerity 2011-2014: EPS fell 10-15%, multiples barely rose, indices flat to down",
+      "$20-40/share estimate has wide uncertainty (±50%) but direction is high-confidence",
+      "Identified as 'single most valuable insight across both analyses' in pair_1 debate"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the precise magnitude of the EPS impact per percentage point of deficit reduction?",
+      "Can monetary easing offset the earnings headwind from consolidation?",
+      "Does the paradox create a political economy trap that prevents consolidation entirely?"
+    ],
+    "related_concepts": [
+      "r_g_differential_debt_dynamics",
+      "financial_repression_modal_outcome",
+      "monetary_transmission_impairment",
+      "fed_asymmetric_constraint"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "treasury_basis_trade_amplifier",
+    "definition": "The Treasury basis trade ($800B-$1T+ notional, 50-100x leverage) is a systemic amplifier that could transform gradual sovereign stress into acute equity crashes via an 8-step transmission chain: sovereign supply concern, term premium rise, basis widens, leveraged unwind, forced Treasury selling, repo spike, cross-asset collateral haircuts, equity margin calls, broad deleveraging.",
+    "confidence": 7,
+    "evidence": [
+      "March 2020 required $1.6T in emergency Fed purchases when basis trade unwound at ~$300B notional",
+      "Current notional is 2-3x larger than March 2020",
+      "UK 2022 validated the leveraged amplifier mechanism via LDI",
+      "SEC clearing mandate (potentially Q2 2026) is a calendar-identifiable catalyst"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can the basis trade unwind be triggered by fiscal rather than exogenous causes?",
+      "Does Fed intervention (unlimited Treasury purchases) validate fiscal dominance fears, creating a dilemma?",
+      "Does the basis trade compress term premium by 20-40bp (partially refuted reflexive loop claim)?"
+    ],
+    "related_concepts": [
+      "sovereign_stress_sequencing",
+      "stock_bond_correlation_bifurcation",
+      "fed_asymmetric_constraint",
+      "truss_gilt_crisis_analogue"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "stock_bond_correlation_bifurcation",
+    "definition": "The stock-bond correlation has bifurcated by maturity: 2Y-SPX correlation is -0.15 to -0.30 (reflecting Fed credibility) while 30Y-SPX correlation is +0.05 to +0.15 (reflecting fiscal supply dynamics). Long-duration Treasuries no longer reliably hedge equity risk, breaking the 60/40 portfolio's diversification benefit.",
+    "confidence": 7,
+    "evidence": [
+      "2Y-SPX correlation: -0.15 to -0.30; 30Y-SPX correlation: +0.05 to +0.15",
+      "Observed in UK during Truss crisis (short gilts rallied, long gilts collapsed) and Italy 2011",
+      "Vol-targeting strategies ($500B-$1T AUM) mechanically reduce equity exposure when stock-bond correlations rise"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is this bifurcation a permanent regime shift or temporary?",
+      "Sample period is short (~3 years of post-QE data) — is it statistically robust?",
+      "What is the magnitude of forced selling from vol-targeting strategies during fiscal stress?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade_amplifier",
+      "g7_fiscal_divergence",
+      "sovereign_stress_sequencing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "dollar_cycle_em_stress_driver",
+    "definition": "The dollar cycle is the primary exogenous driver of EM sovereign stress, operating through three positively correlated channels: balance-sheet effects on ~$13T USD-denominated liabilities outside the US, tightening global financial conditions, and commodity price suppression. A 100bp US term premium shock generates ~200-250bp equivalent EM tightening due to convexity.",
+    "confidence": 8,
+    "evidence": [
+      "Every major EM crisis cluster preceded by sustained dollar strengthening (1982, 1997-98, 2013-15, 2021-22)",
+      "2013 Taper Tantrum: UST +130bp, EM spreads +100bp, EM FX -5-15%, reserve losses ~$100B",
+      "EM local-currency debt shift (45% to 70%) has disguised rather than eliminated vulnerability"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Has the shift to EM local-currency debt fundamentally changed or merely disguised vulnerability?",
+      "What is the threshold of dollar strength that triggers EM stress cascades?",
+      "How does the convexity in EM response manifest in portfolio flows vs. fundamentals?"
+    ],
+    "related_concepts": [
+      "us_fiscal_spillover_multiplicative",
+      "em_hard_currency_maturity_wall",
+      "em_common_cause_not_contagion",
+      "g7_fiscal_divergence"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "g7_fiscal_divergence",
+    "definition": "G7 fiscal positions have diverged to post-WWII extremes: US ~120% debt/GDP with 6-7% deficits, Japan ~260%, Italy ~140%, France ~115% (rising), UK ~100%, Germany ~65%. This creates the widest investable dispersion in sovereign risk across developed markets in modern history.",
+    "confidence": 9,
+    "evidence": [
+      "Directly observable from national statistics offices",
+      "Divergent trajectories (not just levels) across G7",
+      "Empirical observation confirmed at 9/10 across debates"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Does simultaneous G7 deterioration create a 'nowhere else to go' paradox that paradoxically supports each sovereign's funding?",
+      "Will divergence narrow or widen over the next 5 years?",
+      "What triggers capital reallocation based on fiscal divergence?"
+    ],
+    "related_concepts": [
+      "r_g_differential_debt_dynamics",
+      "financial_repression_modal_outcome",
+      "us_fiscal_spillover_multiplicative"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "threshold_seeking_bias",
+    "definition": "The persistent tendency in sovereign debt analysis to impose discontinuous thresholds (Reinhart-Rogoff 90%, 5-signal fiscal dominance sequences, r>g activation points, 4% absorption triggers) on continuous processes using small samples. All such thresholds suffer from anchoring bias and narrative convenience, producing systematically miscalibrated risk assessments.",
+    "confidence": 8,
+    "evidence": [
+      "Reinhart-Rogoff 90% threshold debunked",
+      "5-signal fiscal dominance sequence based on N=3-4",
+      "4% absorption threshold based on N=7",
+      "Challenger_02's critique identified as 'nearly unanswerable' in pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Can any quantitative threshold be statistically validated given the small N of sovereign debt episodes?",
+      "How should confidence intervals be adjusted for threshold-based predictions?",
+      "Is the r-g identity directionally useful despite lacking quantitative precision?"
+    ],
+    "related_concepts": [
+      "r_g_differential_debt_dynamics",
+      "sovereign_stress_sequencing",
+      "dm_em_asymmetry_bias"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "deleveraging_toolkit_degradation",
+    "definition": "Of four historical deleveraging channels (financial repression, negative real rates, strong real growth, primary surplus), only sustained moderate inflation remains clearly available today. Forced-savings regulation is politically infeasible, demographic tailwinds have reversed, and no current productivity equivalent to the post-war boom exists. Deleveraging would be 2-3x slower than 1945-55.",
+    "confidence": 6,
+    "evidence": [
+      "Post-WWII deleveraging used all four channels concurrently",
+      "Specific percentage attribution (35/25/25/15) refuted for lack of identification strategy",
+      "Directional finding survived: less toolkit available today"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Can Basel III regulatory crowding serve as a modern equivalent of directed investment?",
+      "Does AI productivity provide a growth channel comparable to post-war reconstruction?",
+      "What is the politically feasible pace of fiscal consolidation in democracies with aging populations?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "r_g_differential_debt_dynamics"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "truss_gilt_crisis_analogue",
+    "definition": "The UK 2022 Truss gilt crisis is the most operationally relevant DM sovereign stress analogue, validating three propositions: unfunded fiscal expansion can produce ~120bp long-end moves in 4 days, leveraged sovereign bond positioning (LDI) amplifies, and central banks can arrest crises via emergency operations at the cost of monetary credibility. Annual probability of a Truss-equivalent US event estimated at 5-10%.",
+    "confidence": 7,
+    "evidence": [
+      "~120bp gilt move in 4 days from supply channel",
+      "LDI leverage amplification validated",
+      "Central bank arrest capability demonstrated but at credibility cost",
+      "Most recent DM sovereign stress event"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the 5-10% annual probability estimate calibrated correctly for the US?",
+      "Would the Fed face the same dilemma as the BoE given its dual mandate?",
+      "Does the basis trade make a US version more severe than the UK LDI episode?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade_amplifier",
+      "sovereign_stress_sequencing",
+      "stock_bond_correlation_bifurcation"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "monetary_transmission_impairment",
+    "definition": "The monetary policy transmission mechanism is partially impaired by sovereign debt dynamics. Rate hikes generate a fiscal impulse (each 100bp adds ~$250-320B in debt service) that offsets 10-25% of contractionary intent. The Kalecki channel keeps financial conditions looser than the policy rate implies. Central banks face a three-body problem: inflation vs. financial stability vs. sovereign funding.",
+    "confidence": 7,
+    "evidence": [
+      "Self-referential interest rate channel is mechanically sound",
+      "2022-24 puzzle: tight rates but loose financial conditions explained by Kalecki-FCI link",
+      "Basel III creates regulatory crowding-in equivalent to 1940s financial repression (~$4T bank sovereign holdings)",
+      "Fiscal impulse offset magnitude: realistic bondholder MPC yields 10-25%, not 25-50%"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the precise MPC of sovereign bondholders (institutional, foreign central banks, HNW)?",
+      "Does the three-body problem produce decades of muddling through or eventual fracture?",
+      "How does the transmission impairment vary across central bank credibility levels (Fed > ECB > BoJ)?"
+    ],
+    "related_concepts": [
+      "kalecki_levy_fiscal_earnings_paradox",
+      "r_g_differential_debt_dynamics",
+      "fed_asymmetric_constraint",
+      "financial_repression_modal_outcome"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "em_common_cause_not_contagion",
+    "definition": "EM sovereign stress operates through common-cause exposure to shared vulnerabilities (pegged FX, current account deficits, USD debt, low reserves) rather than sequential contagion. Countries lacking these vulnerabilities are unaffected regardless of proximity. Falsified across four major episodes: Tequila 1994, Asia 1997-98, Argentina 2001, Taper Tantrum 2013.",
+    "confidence": 7,
+    "evidence": [
+      "Historical falsification across four major EM episodes consistently supports common-cause over contagion",
+      "Supported by Forbes and Rigobon (2002)",
+      "Countries sharing external vulnerabilities hit simultaneously by common shocks; others unaffected"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Does the common-cause framework hold for scenarios involving the US itself as the source of stress?",
+      "How should EM portfolios be constructed to hedge common-factor vs. idiosyncratic risk?"
+    ],
+    "related_concepts": [
+      "dollar_cycle_em_stress_driver",
+      "us_fiscal_spillover_multiplicative",
+      "em_hard_currency_maturity_wall"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "em_hard_currency_maturity_wall",
+    "definition": "~$300-400B in frontier/lower-rated EM hard-currency maturities face concentrated refinancing risk in 2025-2028 at spreads 200-600bp wider than issuance. This creates a concrete, near-term catalyst for frontier sovereign stress, underpriced by macro investors who don't track EM amortization schedules.",
+    "confidence": 7,
+    "evidence": [
+      "Kenya refinanced 2024 Eurobond at 10.375% vs. original 6.875%",
+      "Next tier at risk: Nigeria ($5B 2025-2029), Tunisia (CDS ~1,000bp), El Salvador ($800M 2025), Bahrain",
+      "Adds $2-6B/year in debt service across the cohort",
+      "Identified as 'most actionable insight' in pair_2 debate"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Which specific frontier sovereigns are most likely to require debt restructuring?",
+      "Will multilateral support (IMF, World Bank) prevent defaults or merely delay them?",
+      "How does the refinancing wall interact with the dollar cycle?"
+    ],
+    "related_concepts": [
+      "dollar_cycle_em_stress_driver",
+      "em_common_cause_not_contagion",
+      "us_fiscal_spillover_multiplicative"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "reverse_dcf_sovereign_valuation",
+    "definition": "A framework that asks what fiscal trajectory is implied by current Treasury yields. At 4.3-4.5%, the 10Y UST implies a terminal primary surplus of +1.0-1.5% GDP within 10 years — a consolidation that has succeeded in less than 10% of historical attempts. Either markets are mispricing or reserve currency status justifies more complacency than fundamentals suggest.",
+    "confidence": 6,
+    "evidence": [
+      "Historical base rate for fiscal adjustments of required magnitude: <10% success",
+      "Framework identified as 'the right analytical move' in pair_1 debate",
+      "Conclusion depends on assumption that fiscal consolidation is politically infeasible"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How large is the exorbitant privilege discount and how stable is it?",
+      "Does the market price a different probability distribution of outcomes than the framework assumes?",
+      "Can reserve currency status sustain indefinite fiscal complacency?"
+    ],
+    "related_concepts": [
+      "r_g_differential_debt_dynamics",
+      "g7_fiscal_divergence",
+      "currency_regime_sovereign_risk_classifier"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "fed_asymmetric_constraint",
+    "definition": "The Fed's reaction function is asymmetrically constrained by fiscal arithmetic: an implicit ceiling at ~5-5.5% where doom-loop dynamics activate (rollover costs approach nominal GDP growth against persistent primary deficits), with no equivalent constraint on easing. This truncates the right tail of the policy rate distribution.",
+    "confidence": 6,
+    "evidence": [
+      "The fiscal arithmetic creating the ceiling is mechanically sound",
+      "September 2024 rate cut potentially partially fiscally motivated (speculative but consistent)",
+      "Rate option skew implications are testable"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the ~5-5.5% ceiling robust or does it depend on debt composition and maturity profile?",
+      "Would the Fed acknowledge fiscal constraints publicly?",
+      "How does this constraint interact with inflation mandates during a supply-side shock?"
+    ],
+    "related_concepts": [
+      "r_g_differential_debt_dynamics",
+      "monetary_transmission_impairment",
+      "kalecki_levy_fiscal_earnings_paradox"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "sovereign_stress_sequencing",
+    "definition": "Sovereign stress follows a consistent historical pattern across 11 episodes: term premium rise, curve steepening, FX depreciation, equity underperformance, rating downgrades, acute crisis (if at all). US currently at stage 1-2. Conditional probability of progression from stage 2 to stage 5+ is ~20-30% for monetary-sovereign reserve-currency issuers.",
+    "confidence": 6,
+    "evidence": [
+      "Consistent pattern across 11 historical episodes",
+      "20-30% conditional progression probability for reserve-currency issuers",
+      "4 of 11 episodes reversed at stage 1-2",
+      "~50-60% progression probability in full sample including non-reserve-currency issuers"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What distinguishes episodes that stop at stage 1-2 from those that progress?",
+      "Is the transition from gradual to acute stress a phase change (discontinuous) or tipping point (continuous but nonlinear)?",
+      "What specific catalyst triggers progression beyond stage 2?"
+    ],
+    "related_concepts": [
+      "truss_gilt_crisis_analogue",
+      "treasury_basis_trade_amplifier",
+      "r_g_differential_debt_dynamics"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "dm_em_asymmetry_bias",
+    "definition": "Sovereign debt analysis exhibits a systematic bias: DM risk analyzed through a 'slow deterioration' lens (5-20 year horizon) while EM risk analyzed through a 'sudden stop' lens (6-24 months). But DM sovereigns can face sudden stops (UK 2022, Italy 2011) and EM sovereigns can persist for decades at 'unsustainable' levels (India 80-85%, Brazil persistent deficits).",
+    "confidence": 7,
+    "evidence": [
+      "UK 2022 Truss crisis demonstrated DM sudden stop capability",
+      "Italy 2011 sovereign stress was acute, not gradual",
+      "India has maintained 80-85% debt/GDP without crisis for decades",
+      "Brazil has run persistent deficits without sovereign crisis"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "How much of the DM-EM asymmetry is justified by structural differences vs. cognitive bias?",
+      "Should risk models apply uniform frameworks across DM and EM?"
+    ],
+    "related_concepts": [
+      "currency_regime_sovereign_risk_classifier",
+      "threshold_seeking_bias",
+      "financial_repression_modal_outcome"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "us_fiscal_spillover_multiplicative",
+    "definition": "US fiscal expansion creates multiplicative (not additive) EM tightening through three simultaneously activating and mutually reinforcing channels: direct crowding-out of EM bond demand, dollar strengthening, and global financial conditions tightening. Current vulnerability exceeds 2013 Taper Tantrum conditions (deficit 6.5-7% vs. 4%, basis trade amplification absent then).",
+    "confidence": 7,
+    "evidence": [
+      "Three channels activate simultaneously and reinforce each other",
+      "Current US deficit (6.5-7%) significantly exceeds 2013 Taper Tantrum (4%)",
+      "Crowding-out channel (quantity of DM issuance) identified as genuinely underappreciated",
+      "Convexity claim: second 50bp produces 1.5x the response"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can the convexity in EM response be proven statistically?",
+      "How does the DM issuance crowding-out channel compare in magnitude to the dollar strength channel?",
+      "At what level of US issuance does the crowding-out become binding for EM?"
+    ],
+    "related_concepts": [
+      "dollar_cycle_em_stress_driver",
+      "em_hard_currency_maturity_wall",
+      "g7_fiscal_divergence",
+      "treasury_basis_trade_amplifier"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  }
+]

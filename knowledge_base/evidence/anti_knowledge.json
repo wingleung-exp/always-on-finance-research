@@ -1470,5 +1470,86 @@
     ],
     "topic": "fiscal_dominance",
     "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "At most one of cross-asset prices (credit, rates, gold) can be correct about sovereign risk.",
+    "reason": "Self-refuted within the same analysis. If credit prices 1-2Y correctly, rates prices 3-5Y, and gold prices 5-10Y tail risk, all are simultaneously coherent across time horizons. Rhetorical overreach.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Japan at 250% debt/GDP may actually be a more sustainable configuration than the US at 125%.",
+    "reason": "Internally contradicted: agent simultaneously argues financial repression delivers -1 to -3% real annualized returns while calling Japan's 25-year financial repression 'more sustainable.' Confuses 'has not yet exploded' with 'viable long-term path.'",
+    "refuted_by": [
+      "equity_analyst_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "High-quality IG corporates now offer superior credit fundamentals to several G7 sovereigns.",
+    "reason": "Conflates standalone balance sheet metrics with systemic credit independence. Corporate creditworthiness is nested within the sovereign's institutional, legal, and monetary framework. In sovereign distress, corporate tax rates rise, regulatory environment shifts, domestic revenue falls. The sovereign ceiling reflects real economic dependency.",
+    "refuted_by": [
+      "equity_analyst_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Probability-weighted S&P 500 expected return of ~3.6% nominal / ~0% real.",
+    "reason": "Mechanically sensitive to scenario weights: shifting financial repression probability from 45% to 30% inverts the conclusion. Agent's own confidence was 5/10. Qualitative point survives; specific numbers and structural equity underweight conclusion do not.",
+    "refuted_by": [
+      "equity_analyst_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Post-WWII deleveraging decomposition: 35% financial repression / 25% negative real rates / 25% growth / 15% primary surplus.",
+    "reason": "No clean identification strategy. All four channels operated concurrently and interacted (growth was partially caused by financial repression enabling low borrowing costs). Directional finding survives; quantitative attribution does not.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Philippines vs. Indonesia CDS differential is a mispricing.",
+    "reason": "Ignores legitimate pricing factors: Philippines has lower external debt/GDP, stronger governance scores, $35B/year remittance flows, and more diversified services exports. Calling a 20bp CDS differential a mispricing based on a structural hypothesis at confidence 6 over a 10+ year timeline is overreaching.",
+    "refuted_by": [
+      "fx_strategist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "5Y5Y forward breakeven above 3.0% is the single most important threshold to monitor.",
+    "reason": "Analytically arbitrary. Cannot discriminate between 'market expects financial repression' and 'market expects sticky inflation from supply shocks.' Reflects liquidity premia, risk premia, and actual inflation expectations — one useful input, not a decisive threshold.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Fiscal impulse offsets 25-50% of monetary tightening.",
+    "reason": "Assumes fiscal multiplier of 0.5-0.7 for interest payments to bondholders. Realistic bondholder MPC (institutional investors, foreign central banks, HNW individuals) is 0.2-0.4, reducing the offset to ~10-25%. Direction survives; magnitude overstated by roughly 2x.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Markets tend to over-price the acute crisis scenario and under-price the slow erosion scenario.",
+    "reason": "Asserted without market pricing evidence. What would it mean for markets to 'price' the slow erosion scenario? The claim may be true but is unsupported by the evidence presented.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
   }
 ]

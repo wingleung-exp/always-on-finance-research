@@ -1,0 +1,174 @@
+[
+  {
+    "concept_a": "currency_regime_sovereign_risk_classifier",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "Own-currency issuers avoid default but face real value erosion through financial repression as the modal resolution mechanism. Currency regime determines whether stress manifests as default risk or inflation/repression risk.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds for free-floating own-currency issuers with domestic-law debt. Does not apply to eurozone members, currency board regimes, or foreign-currency borrowers.",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "r_g_differential_debt_dynamics",
+    "concept_b": "sovereign_stress_sequencing",
+    "mechanism": "When r crosses above g, the debt sustainability equation shifts from self-stabilizing to self-reinforcing, initiating the early stages of the sovereign stress sequence (term premium rise, curve steepening).",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The identity always holds, but stress sequencing activation depends on magnitude and persistence of r>g, the primary balance, and the debt stock level.",
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_02",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "kalecki_levy_fiscal_earnings_paradox",
+    "concept_b": "r_g_differential_debt_dynamics",
+    "mechanism": "The fiscal deficit that worsens r-g dynamics simultaneously supports corporate earnings via the Kalecki-Levy identity. Fiscal consolidation to improve r-g math directly reduces corporate profits, creating a political economy trap.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Strongest when the deficit is dominated by transfer payments with high pass-through to consumption. Weaker when deficits fund productive investment with high fiscal multipliers.",
+    "originating_agents": [
+      "equity_analyst_01",
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "treasury_basis_trade_amplifier",
+    "concept_b": "sovereign_stress_sequencing",
+    "mechanism": "The basis trade ($800B-$1T+ at 50-100x leverage) can transform gradual stress (stages 1-2) into acute crisis (stages 4-5+) via forced selling cascades, repo spikes, and cross-asset collateral haircuts.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Requires a trigger event (term premium shock, regulatory change like SEC clearing mandate). Has never been triggered by fiscal causes — all prior unwinds were exogenously triggered.",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "dollar_cycle_em_stress_driver",
+    "concept_b": "em_hard_currency_maturity_wall",
+    "mechanism": "Dollar strengthening raises the local-currency cost of servicing USD-denominated maturities and tightens global financial conditions, making refinancing more expensive or impossible for frontier sovereigns facing maturity walls.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Most acute for frontier sovereigns with high USD-denominated debt, low reserves, and narrow export bases. Mitigated by IMF programs, bilateral swaps, or commodity price tailwinds.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "monetary_transmission_impairment",
+    "concept_b": "kalecki_levy_fiscal_earnings_paradox",
+    "mechanism": "The fiscal impulse from rate hikes (each 100bp adds ~$250-320B in debt service) flows through the Kalecki channel to keep financial conditions and corporate earnings looser than the policy rate implies, partially offsetting monetary tightening by 10-25%.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest at high debt levels with short weighted-average maturity. Effect grows as debt/GDP rises and pandemic-era low-coupon debt rolls off.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "fed_asymmetric_constraint",
+    "concept_b": "r_g_differential_debt_dynamics",
+    "mechanism": "The fiscal ceiling on the policy rate (~5-5.5%) constrains the Fed's ability to tighten sufficiently when inflation requires it, potentially keeping r lower than inflation dynamics warrant, which in turn affects the r-g differential and debt trajectory.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Binding when debt/GDP is high and weighted-average maturity is short. Less binding when debt is long-duration or the economy is in deflation.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "stock_bond_correlation_bifurcation",
+    "concept_b": "treasury_basis_trade_amplifier",
+    "mechanism": "Positive long-end stock-bond correlation means Treasury sell-offs coincide with equity weakness, triggering vol-targeting strategies ($500B-$1T AUM) to reduce equity exposure simultaneously with basis trade stress, creating dual amplification.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Operative when fiscal supply dynamics dominate the long end. Breaks down when flight-to-quality dynamics dominate during non-fiscal exogenous shocks.",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "g7_fiscal_divergence",
+    "concept_b": "us_fiscal_spillover_multiplicative",
+    "mechanism": "Simultaneous G7 fiscal deterioration increases total DM sovereign issuance, crowding out EM capital flows and strengthening the dollar — the quantity channel amplifies the traditional dollar strength channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest when multiple G7 nations run large deficits simultaneously. Partially mitigated if Japan's domestic ownership absorbs its own issuance.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "threshold_seeking_bias",
+    "concept_b": "sovereign_stress_sequencing",
+    "mechanism": "Threshold-seeking imposes false discontinuities on the inherently continuous sovereign stress process, causing analysts to either dismiss risk below the threshold or panic above it, rather than tracking continuous stage progression.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always operative in sovereign debt analysis. Most damaging when sample sizes are small (N<10) and the threshold appears precise.",
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "em_common_cause_not_contagion",
+    "concept_b": "dollar_cycle_em_stress_driver",
+    "mechanism": "The dollar cycle is the primary common cause that drives simultaneous EM stress across countries sharing external vulnerabilities, rather than stress spreading sequentially from one EM to another.",
+    "direction": "b_causes_a",
+    "confidence": 8,
+    "regime_dependence": "Strongest for EMs with pegged FX, current account deficits, high USD debt, and low reserves. EMs without these vulnerabilities are largely immune regardless of regional proximity.",
+    "originating_agents": [
+      "challenger_02",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "concept_a": "financial_repression_modal_outcome",
+    "concept_b": "deleveraging_toolkit_degradation",
+    "mechanism": "Financial repression is the primary surviving channel from the post-WWII toolkit, but its effectiveness is degraded by liberalized capital markets, digital capital mobility, and the absence of captive creditor bases. Modern repression operates through Basel III regulatory channels rather than directed investment.",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Effectiveness depends on capital account openness, availability of alternative stores of value (crypto, stablecoins), and regulatory capacity to create captive demand.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "slug": "cross_asset_temporal_horizon",
+  "purpose": "Reconciles apparently contradictory signals across asset classes by mapping each to its natural pricing horizon",
+  "components": [
+    "Credit markets price 1-2 year sovereign risk",
+    "Rates markets price 3-5 year trajectories",
+    "Gold prices 5-10 year tail risk",
+    "Apparent contradictions resolve when each asset class is evaluated on its natural horizon"
+  ],
+  "current_assessment": "Provides coherent framework for interpreting simultaneous signals: tight credit spreads (no near-term crisis), rising term premium (medium-term trajectory concern), gold strength (long-term tail hedging). All can be simultaneously correct.",
+  "limitations": [
+    "Horizon boundaries are approximate not precise",
+    "Does not account for momentum or behavioral factors that distort natural horizons",
+    "Original framing ('at most one can be correct') was self-refuted"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:39:05Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -388,14 +388,21 @@
     "sovereign_debt": {
       "category": "credit_and_rates",
       "display_name": "Global Sovereign Debt Sustainability",
-      "last_researched": "2026-03-22T04:30:00Z",
-      "depth_level": 2,
-      "confidence_score": 5.0,
-      "research_count": 3,
+      "last_researched": "2026-03-23T02:39:05Z",
+      "depth_level": 3,
+      "confidence_score": 5.6,
+      "research_count": 4,
       "knowledge_gaps": [
-        "Japan debt sustainability threshold",
+        "Japan repatriation of $2-3T foreign assets could be the largest sudden stop trigger for EM FX.",
+        "Global monetary policy divergence is structurally compressed by shared sovereign vulnerability.",
+        "China's deflation export channel (LGFV resolution leading to weak domestic demand, excess production exported, EM competitor margin compression, wider fiscal deficits) is an underpriced EM sovereign risk factor.",
         "US fiscal trajectory under different policy scenarios",
-        "EM sovereign stress contagion mechanisms"
+        "Commodity-exporter vs. services-exporter EM bifurcation along AI/energy transition lines (e.g., Indonesia improving structurally while Philippines faces automation risk).",
+        "Japan debt sustainability threshold",
+        "Forward guidance is systematically degraded by sovereign debt dynamics (elevated MOVE index, wider dot-plot misses).",
+        "EM sovereign stress contagion mechanisms",
+        "Marginal sovereign ROIC has fallen below cost of funding for transfer-heavy DM spending (fiscal multiplier ~0.6-0.8x against effective borrowing rate approaching nominal GDP growth).",
+        "Sovereign 'earnings quality' is deteriorating analogously to corporate accruals manipulation, with comprehensive deficits at 13-21% of GDP far exceeding headline numbers."
       ],
       "connections": [
         "fiscal_policy",
@@ -409,9 +416,29 @@
         "debt_gdp_dynamics"
       ],
       "key_concepts": [
+        "currency_regime_sovereign_risk_classifier",
         "debt_sustainability",
+        "deleveraging_toolkit_degradation",
+        "dm_em_asymmetry_bias",
+        "dollar_cycle_em_stress_driver",
+        "em_common_cause_not_contagion",
+        "em_hard_currency_maturity_wall",
+        "fed_asymmetric_constraint",
+        "financial_repression_modal_outcome",
+        "fiscal_space",
+        "g7_fiscal_divergence",
+        "japan_non_generalizability",
+        "kalecki_levy_fiscal_earnings_paradox",
+        "monetary_transmission_impairment",
+        "r_g_differential_debt_dynamics",
+        "reverse_dcf_sovereign_valuation",
         "sovereign_default_risk",
-        "fiscal_space"
+        "sovereign_stress_sequencing",
+        "stock_bond_correlation_bifurcation",
+        "threshold_seeking_bias",
+        "treasury_basis_trade_amplifier",
+        "truss_gilt_crisis_analogue",
+        "us_fiscal_spillover_multiplicative"
       ]
     },
     "corporate_credit": {

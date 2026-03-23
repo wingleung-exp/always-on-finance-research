@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "kalecki_levy_profit_identity",
+    "purpose": "Quantifies the fiscal deficit's direct contribution to corporate earnings and reveals the consolidation paradox: deficit reduction mechanically reduces profits",
+    "components": [
+      "Corporate Profits = Investment + Fiscal Deficit + Net Exports + Consumption from Profit Income - Worker Savings",
+      "US deficit contribution estimated at $20-40/share of S&P 500 EPS (7-15%)",
+      "Fiscal consolidation of 2-3pp GDP improvement directly reduces earnings base",
+      "European austerity 2011-2014 as validation case"
+    ],
+    "current_assessment": "US 6-7% deficit is the dominant Kalecki contributor. Any consolidation sufficient to stabilize debt/GDP (4.5-5.5pp primary balance swing) would trigger meaningful earnings recession, creating a political economy trap where fiscal improvement is self-deterring.",
+    "limitations": [
+      "Magnitude estimate ($20-40/share) has plus/minus 50% uncertainty",
+      "Does not account for second-order effects (monetary easing response, exchange rate adjustment)",
+      "Framework is static — does not model dynamic adjustment paths",
+      "equity_analyst_02 entirely missed this channel despite being an earnings specialist"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "r_g_debt_sustainability_equation",
+    "purpose": "Determines whether sovereign debt is on a stabilizing or destabilizing trajectory based on the interest rate-growth differential and primary balance",
+    "components": [
+      "delta(Debt/GDP) = (r - g) x (Debt/GDP) - Primary Balance/GDP",
+      "US effective rate trajectory: ~1.5% (2021) to ~3.3% (2024) to 4.5-5.0% (as pandemic-era debt rolls)",
+      "~$8T in sub-2% pandemic-era issuance rolling over 2025-2028",
+      "Required primary balance swing of 4.5-5.5pp for stabilization (top decile of historical difficulty)"
+    ],
+    "current_assessment": "The identity confirms the US trajectory is arithmetically unsustainable at current primary deficits (3.5-4.0% GDP) once r converges to market rates. No G7 economy generates sufficient primary surplus to stabilize. Timing and rate of convergence are the key uncertainties.",
+    "limitations": [
+      "Identity provides direction not timing — trajectory projections are 6/10 confidence",
+      "r and g are not independent (fiscal expansion raises both, with complex feedback)",
+      "AI productivity could shift g favorably but timing and magnitude are deeply uncertain",
+      "Threshold-based triggers derived from this framework have small-sample statistical problems"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "sovereign_stress_sequencing_model",
+    "purpose": "Tracks the sequential progression of sovereign stress from early warning signals to acute crisis, with conditional probabilities at each stage",
+    "components": [
+      "Stage 1: Term premium rise",
+      "Stage 2: Yield curve steepening",
+      "Stage 3: FX depreciation",
+      "Stage 4: Equity underperformance",
+      "Stage 5: Rating downgrades",
+      "Stage 6: Acute crisis (if at all)",
+      "Conditional progression probabilities differentiated by sovereign type"
+    ],
+    "current_assessment": "US currently at stage 1-2 (term premium rising, curve steepening). Conditional probability of progression from stage 2 to stage 5+ is ~20-30% for monetary-sovereign reserve-currency issuers, vs. ~50-60% in full sample. 4 of 11 historical episodes stopped at stage 1-2.",
+    "limitations": [
+      "Small sample size (11 episodes)",
+      "Does not identify what distinguishes episodes that stop vs. progress",
+      "Cannot determine whether transitions are discontinuous phase changes or continuous tipping points",
+      "Specific catalyst for transition from gradual to acute remains unidentified"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "five_analogue_similarity_scoring",
+    "purpose": "Calibrates sovereign risk assessment by scoring current conditions against historical analogues across explicit dimensions with weights",
+    "components": [
+      "Explicit similarity dimensions (debt level, currency regime, ownership structure, growth, inflation)",
+      "Weighted scoring across dimensions",
+      "Historical base rates: 0/14 acute crisis for monetary sovereign, 61% slow erosion, 22% successful deleveraging",
+      "Conditional probabilities based on sovereign type"
+    ],
+    "current_assessment": "Provides the most empirically grounded risk calibration. The 0/14 acute crisis rate for monetary sovereigns with 61% slow erosion rate are the most robust base rates available. US-specific estimates remain difficult because the comparison class has n approximately 3.",
+    "limitations": [
+      "Analogue selection involves subjective judgment",
+      "Comparison class for US (own-currency reserve issuers at high debt) has n approximately 3",
+      "All four channels in historical analogues operated concurrently — attribution between channels not cleanly identified",
+      "Post-WWII analogues may not generalize to current period (different demographics, capital mobility, geopolitics)"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "reverse_dcf_sovereign_valuation_framework",
+    "purpose": "Determines what fiscal trajectory is implied by current market pricing of sovereign bonds, revealing potential mispricings or exorbitant privilege discount",
+    "components": [
+      "Back-solve from current yields to implied terminal fiscal position",
+      "Compare implied trajectory against historical base rates for fiscal adjustments",
+      "10Y UST at 4.3-4.5% implies terminal primary surplus of +1.0-1.5% GDP within 10 years",
+      "Historical success rate for adjustments of this magnitude: <10%"
+    ],
+    "current_assessment": "Current Treasury pricing implies an implausibly optimistic fiscal trajectory. Either markets are mispricing or the exorbitant privilege discount justifies more complacency than fundamentals suggest. The discount is real but hard to quantify.",
+    "limitations": [
+      "Conclusion depends on assumption that fiscal consolidation is politically infeasible",
+      "The exorbitant privilege discount is real and unquantified",
+      "Does not account for probability-weighted scenarios (market may price a distribution not a point estimate)",
+      "Novel framework — not yet validated or widely adopted"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "basis_trade_amplification_chain",
+    "purpose": "Maps the 8-step transmission mechanism from sovereign supply concerns to broad equity market deleveraging via the Treasury basis trade",
+    "components": [
+      "Step 1: Sovereign debt supply concern",
+      "Step 2: Term premium rise",
+      "Step 3: Treasury basis widens",
+      "Step 4: Leveraged unwind (50-100x leverage)",
+      "Step 5: Forced Treasury selling",
+      "Step 6: Repo rate spike",
+      "Step 7: Cross-asset collateral haircuts",
+      "Step 8: Equity margin calls and broad deleveraging",
+      "Fed dilemma: intervention validates fiscal dominance"
+    ],
+    "current_assessment": "Current basis trade notional ($800B-$1T+) is 2-3x the March 2020 level that required $1.6T in Fed emergency purchases. SEC clearing mandate (Q2 2026) is a calendar-identifiable catalyst. UK 2022 LDI episode validated the leveraged amplifier mechanism.",
+    "limitations": [
+      "Has never been triggered by fiscal rather than exogenous causes",
+      "Reflexive loop claim (basis trade suppresses term premium enabling larger deficits) was partially refuted",
+      "Fed intervention capability may prevent full cascade but at credibility cost",
+      "Exact trigger conditions and timing are unpredictable"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "cross_asset_temporal_horizon",
+    "purpose": "Reconciles apparently contradictory signals across asset classes by mapping each to its natural pricing horizon",
+    "components": [
+      "Credit markets price 1-2 year sovereign risk",
+      "Rates markets price 3-5 year trajectories",
+      "Gold prices 5-10 year tail risk",
+      "Apparent contradictions resolve when each asset class is evaluated on its natural horizon"
+    ],
+    "current_assessment": "Provides coherent framework for interpreting simultaneous signals: tight credit spreads (no near-term crisis), rising term premium (medium-term trajectory concern), gold strength (long-term tail hedging). All can be simultaneously correct.",
+    "limitations": [
+      "Horizon boundaries are approximate not precise",
+      "Does not account for momentum or behavioral factors that distort natural horizons",
+      "Original framing ('at most one can be correct') was self-refuted"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  },
+  {
+    "slug": "central_bank_three_body_problem",
+    "purpose": "Explains why central banks cannot simultaneously achieve inflation control, financial stability, and sovereign funding sustainability when debt is high",
+    "components": [
+      "Objective 1: Inflation control (requires higher rates when inflation above target)",
+      "Objective 2: Financial stability (requires accommodative conditions when leveraged positions stressed)",
+      "Objective 3: Sovereign funding (requires manageable debt service costs)",
+      "Self-referential channel: rate hikes generate fiscal impulse offsetting 10-25% of contractionary intent",
+      "Credibility hierarchy: Fed > ECB > BoJ based on episode validation"
+    ],
+    "current_assessment": "The impairment is real but produces decades of muddling through rather than dramatic fracture. Central banks will oscillate between objectives, occasionally sacrificing one for another, leading to persistent moderate inflation and intermittent financial stress events.",
+    "limitations": [
+      "Severity of impairment (5/10 confidence) much less certain than mechanism (7/10)",
+      "Multiple alternative explanations exist (post-pandemic shifts, supply-side inflation)",
+      "Claim that central bankers cannot publicly acknowledge fiscal constraints is unfalsifiable",
+      "N=1 tightening cycle in high-debt environment provides limited empirical basis"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0017"
+  }
+]

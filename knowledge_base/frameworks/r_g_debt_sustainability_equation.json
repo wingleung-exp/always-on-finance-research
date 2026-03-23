@@ -1,0 +1,25 @@
+{
+  "slug": "r_g_debt_sustainability_equation",
+  "purpose": "Determines whether sovereign debt is on a stabilizing or destabilizing trajectory based on the interest rate-growth differential and primary balance",
+  "components": [
+    "delta(Debt/GDP) = (r - g) x (Debt/GDP) - Primary Balance/GDP",
+    "US effective rate trajectory: ~1.5% (2021) to ~3.3% (2024) to 4.5-5.0% (as pandemic-era debt rolls)",
+    "~$8T in sub-2% pandemic-era issuance rolling over 2025-2028",
+    "Required primary balance swing of 4.5-5.5pp for stabilization (top decile of historical difficulty)"
+  ],
+  "current_assessment": "The identity confirms the US trajectory is arithmetically unsustainable at current primary deficits (3.5-4.0% GDP) once r converges to market rates. No G7 economy generates sufficient primary surplus to stabilize. Timing and rate of convergence are the key uncertainties.",
+  "limitations": [
+    "Identity provides direction not timing — trajectory projections are 6/10 confidence",
+    "r and g are not independent (fiscal expansion raises both, with complex feedback)",
+    "AI productivity could shift g favorably but timing and magnitude are deeply uncertain",
+    "Threshold-based triggers derived from this framework have small-sample statistical problems"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

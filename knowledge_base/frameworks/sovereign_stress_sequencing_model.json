@@ -1,0 +1,28 @@
+{
+  "slug": "sovereign_stress_sequencing_model",
+  "purpose": "Tracks the sequential progression of sovereign stress from early warning signals to acute crisis, with conditional probabilities at each stage",
+  "components": [
+    "Stage 1: Term premium rise",
+    "Stage 2: Yield curve steepening",
+    "Stage 3: FX depreciation",
+    "Stage 4: Equity underperformance",
+    "Stage 5: Rating downgrades",
+    "Stage 6: Acute crisis (if at all)",
+    "Conditional progression probabilities differentiated by sovereign type"
+  ],
+  "current_assessment": "US currently at stage 1-2 (term premium rising, curve steepening). Conditional probability of progression from stage 2 to stage 5+ is ~20-30% for monetary-sovereign reserve-currency issuers, vs. ~50-60% in full sample. 4 of 11 historical episodes stopped at stage 1-2.",
+  "limitations": [
+    "Small sample size (11 episodes)",
+    "Does not identify what distinguishes episodes that stop vs. progress",
+    "Cannot determine whether transitions are discontinuous phase changes or continuous tipping points",
+    "Specific catalyst for transition from gradual to acute remains unidentified"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "treasury_basis_trade_amplifier",
+  "definition": "The Treasury basis trade ($800B-$1T+ notional, 50-100x leverage) is a systemic amplifier that could transform gradual sovereign stress into acute equity crashes via an 8-step transmission chain: sovereign supply concern, term premium rise, basis widens, leveraged unwind, forced Treasury selling, repo spike, cross-asset collateral haircuts, equity margin calls, broad deleveraging.",
+  "confidence": 7,
+  "evidence": [
+    "March 2020 required $1.6T in emergency Fed purchases when basis trade unwound at ~$300B notional",
+    "Current notional is 2-3x larger than March 2020",
+    "UK 2022 validated the leveraged amplifier mechanism via LDI",
+    "SEC clearing mandate (potentially Q2 2026) is a calendar-identifiable catalyst"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can the basis trade unwind be triggered by fiscal rather than exogenous causes?",
+    "Does Fed intervention (unlimited Treasury purchases) validate fiscal dominance fears, creating a dilemma?",
+    "Does the basis trade compress term premium by 20-40bp (partially refuted reflexive loop claim)?"
+  ],
+  "related_concepts": [
+    "sovereign_stress_sequencing",
+    "stock_bond_correlation_bifurcation",
+    "fed_asymmetric_constraint",
+    "truss_gilt_crisis_analogue"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T02:39:05Z",
+  "originating_iteration": "iter_0017",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0017"
+  ]
+}
