@@ -1,0 +1,36 @@
+{
+  "slug": "cap_rate_decompression_lag",
+  "definition": "CRE cap rates have expanded from ~4.5% (2021) to ~6.0-6.5% for core office (40-60% complete), and historical event studies show cap rates continue rising 12-30 months after the first rate cut in recessionary episodes. Illiquidity and property-specific risk premiums have structurally repriced higher.",
+  "confidence": 7,
+  "evidence": [
+    "Cap rates expanded from ~4.5% (2021) to ~6.0-6.5% for core office",
+    "Historical spread of 200-300bp over 10Y Treasury implies equilibrium of 6.5-7.5%",
+    "In 3/3 recessionary easing episodes cap rates rose 12-30 months post-first-cut (mean ~20 months)",
+    "Illiquidity premium and property-specific risk have structurally repriced higher via four-component decomposition"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "quant_researcher_01",
+    "credit_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "n=3 recessionary episodes too small for statistical significance",
+    "For office specifically the lag may represent permanent repricing rather than cyclical delay",
+    "Applicable to multifamily/industrial with reasonable confidence but office may never compress"
+  ],
+  "related_concepts": [
+    "term_premium_cre_valuation_driver",
+    "office_structural_demand_uncertainty",
+    "intra_sector_cre_dispersion",
+    "fiscal_policy_cre_crosscurrent"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

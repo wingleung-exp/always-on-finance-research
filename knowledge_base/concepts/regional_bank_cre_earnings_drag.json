@@ -1,0 +1,43 @@
+{
+  "slug": "regional_bank_cre_earnings_drag",
+  "definition": "Regional bank CRE exposure (~$870-900B at 380-420 banks exceeding 300% CRE-to-capital concentration thresholds) creates a multi-year earnings drag but not a systemic banking crisis, contained by 13-14% CET1 ratios, FDIC resolution infrastructure, and regulatory forbearance. Sector-differentiated losses estimated at $110-160B.",
+  "confidence": 8,
+  "evidence": [
+    "~$870-900B CRE at ~380-420 banks exceeding 300% CRE-to-capital thresholds",
+    "CET1 ratios at 13-14% with post-stress CET1 of 6-8% above regulatory minimums",
+    "Loss estimates: $40-75B historical median to $110-160B sector-differentiated severity",
+    "Sector-differentiated approach won debate by capturing fat left tail in office losses",
+    "Tail risk of systemic intervention at 5-10% probability driven by macro recession interaction not CRE alone",
+    "Existing KB cre_bank_contagion: contagion mechanism real (7/10) but systemic cascade probability low (3-8%)"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Probability of systemic cascade: 3-8% vs 15-25% vs 25-35% depending on contagion definition",
+    "Whether CRE plus macro recession interaction could trigger the tail",
+    "Need standardization of what outcome is being probability-estimated across agents"
+  ],
+  "related_concepts": [
+    "extend_and_pretend_cre_resolution",
+    "cre_maturity_wall",
+    "factor_rotation_cre_repricing",
+    "clo_warehouse_cre_transmission",
+    "municipal_finance_cre_feedback"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

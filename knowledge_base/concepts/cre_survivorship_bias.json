@@ -1,0 +1,31 @@
+{
+  "slug": "cre_survivorship_bias",
+  "definition": "Survivorship bias in CRE index return data overstates historical returns by an estimated 150-300bp annually, as properties that are foreclosed, demolished, or converted are dropped from NCREIF and similar indices. This compounds with appraisal smoothing to make historical CRE return data systematically too optimistic.",
+  "confidence": 5,
+  "evidence": [
+    "Peer-reviewed: Fisher Geltner and Webb 1994",
+    "Properties foreclosed demolished or converted dropped from NCREIF",
+    "Appraisal smoothing suppresses measured volatility by 40-60%",
+    "Direction uncontested though 150-300bp magnitude from older literature"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Whether magnitude estimate holds for current index vintages",
+    "Combined impact with appraisal bias on institutional allocation calibration"
+  ],
+  "related_concepts": [
+    "appraisal_based_cre_index_bias",
+    "private_credit_cre_nav_overstatement"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

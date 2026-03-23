@@ -1,0 +1,24 @@
+{
+  "slug": "office_conversion_filter_cascade",
+  "purpose": "Quantifies the feasible stock of office-to-residential conversion through successive engineering and economic filters",
+  "components": [
+    "Floor plate depth filter: >65ft eliminates 50-60% of stock",
+    "Structural/MEP feasibility filter: eliminates 30-40% of remainder",
+    "Zoning and regulatory filter: eliminates 20-30% of what passes physical filters",
+    "Economic viability filter: costs of $150-400/sqft require acquisition below $100-200/sqft"
+  ],
+  "current_assessment": "Total addressable: $20-50B of ~$3.5T office asset class or less than 1.5%. Conversion is irrelevant to the 2025-2027 maturity wall. Self-referential dynamic: conversion only becomes viable at prices below current marks",
+  "limitations": [
+    "Assumes current building codes and zoning which could change with policy intervention",
+    "Cost estimates may vary significantly by market",
+    "Does not account for potential technological innovations in conversion methodology"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

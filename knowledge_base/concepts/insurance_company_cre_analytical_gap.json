@@ -1,0 +1,31 @@
+{
+  "slug": "insurance_company_cre_analytical_gap",
+  "definition": "Insurance company CRE exposure (~$600-700B) represents the largest analytical gap across all panel agents, with insufficient coverage of how life insurers' CRE portfolios interact with the broader distress cycle despite being the third-largest holder of CRE debt.",
+  "confidence": 5,
+  "evidence": [
+    "Life insurer CRE exposure ~$600-700B",
+    "No agent provided detailed analysis of this channel",
+    "Insurance companies are third-largest CRE debt holder after banks and CMBS"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How insurance company CRE portfolios are marked and reported",
+    "Whether insurance regulatory frameworks create similar or different forbearance dynamics",
+    "Interaction with insurance company liability management"
+  ],
+  "related_concepts": [
+    "credit_dashboard_cre_blind_spot",
+    "private_credit_cre_nav_overstatement",
+    "appraisal_based_cre_index_bias"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

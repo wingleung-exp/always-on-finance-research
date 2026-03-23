@@ -1,0 +1,280 @@
+[
+  {
+    "concept_a": "extend_and_pretend_cre_resolution",
+    "concept_b": "regional_bank_cre_earnings_drag",
+    "mechanism": "Forbearance converts what would be acute bank losses into gradual multi-year earnings drag by spreading loss recognition over 5-7 years through loan modifications and extensions",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds when regulatory forbearance is maintained and capital buffers are sufficient. Would break if recession forces simultaneous mark-to-market or political environment shifts to favor forced recognition",
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "cre_maturity_wall",
+    "concept_b": "extend_and_pretend_cre_resolution",
+    "mechanism": "The maturity wall creates the forcing function that requires either loan extension/modification or default. The dominance of extend-and-pretend is the market's response to the maturity wall",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when lenders have capital capacity and regulatory tolerance. Breaks if rates stay elevated AND capital buffers erode AND regulatory stance shifts simultaneously",
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "cmbs_structural_loss_recognition",
+    "concept_b": "extend_and_pretend_cre_resolution",
+    "mechanism": "CMBS rated-final maturities create hard-stop timelines that prevent extend-and-pretend for the securitized portion (~$650B), forcing loss recognition within 24-36 months regardless of bank forbearance on bilateral loans",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "CMBS structural constraints are near-mechanical and hold regardless of macro regime. The modification is to the blended outcome: Japan-style for bank loans but time-bound for CMBS",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "office_structural_demand_uncertainty",
+    "concept_b": "intra_sector_cre_dispersion",
+    "mechanism": "Remote work demand destruction concentrated in office sector is the primary driver of historically extreme cross-sector dispersion as industrial data center and residential sectors are unaffected or benefit from different structural drivers",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural driver independent of interest rate regime. Dispersion will persist as long as remote work adoption remains elevated regardless of monetary policy",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "term_premium_cre_valuation_driver",
+    "concept_b": "cap_rate_decompression_lag",
+    "mechanism": "Elevated term premium keeps long-end rates high even as Fed cuts policy rate, preventing the cap rate compression that historically follows rate cuts. Fiscal supply provides structural floor under term premium",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when fiscal deficits maintain elevated Treasury supply. Would break if recession triggers aggressive QE or fiscal consolidation collapses term premium",
+    "originating_agents": [
+      "equity_analyst_01",
+      "quant_researcher_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "appraisal_based_cre_index_bias",
+    "concept_b": "private_credit_cre_nav_overstatement",
+    "mechanism": "Appraisal-based valuation methodology that smooths and lags true price movements is the direct mechanism enabling private credit vehicles to report NAVs above true market values",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always present but magnitude increases during periods of declining values and low transaction volumes when comparable data is scarce",
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "office_to_residential_conversion_limits",
+    "concept_b": "office_structural_demand_uncertainty",
+    "mechanism": "Limited conversion capacity (10-15% of stock) means excess office supply cannot be absorbed through use-change, reinforcing oversupply conditions and extending the period of demand uncertainty",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Physical and engineering constraints are permanent. Economic viability constraint is regime-dependent on acquisition basis relative to conversion costs",
+    "originating_agents": [
+      "credit_analyst_01",
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "regional_bank_cre_earnings_drag",
+    "concept_b": "factor_rotation_cre_repricing",
+    "mechanism": "Regional bank CRE exposure is transmitted to equity factor returns through financials (22-25%) and REIT (5-7%) weight in Value indices creating 4.5-8.5% drag on Value from CRE-linked sector drawdowns",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds during growth-deceleration and inflation-sticky regimes per Kenneth French data. Reverses during recovery when financials and REITs outperform",
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "fiscal_policy_cre_crosscurrent",
+    "concept_b": "term_premium_cre_valuation_driver",
+    "mechanism": "Fiscal deficits require $2-2.5T/yr Treasury issuance which provides structural floor under term premium preventing the collapse needed for CRE cap rate compression",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while fiscal deficits remain elevated. Would weaken under fiscal consolidation or if Fed resumes large-scale Treasury purchases",
+    "originating_agents": [
+      "equity_analyst_01",
+      "credit_analyst_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "fiscal_policy_cre_crosscurrent",
+    "concept_b": "regional_bank_cre_earnings_drag",
+    "mechanism": "Kalecki profit equation: fiscal deficits support aggregate corporate profits providing a floor under bank non-CRE earnings that partially offsets CRE-driven provisions and losses",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while fiscal deficits are large enough to offset private sector deleveraging. Weakens under fiscal austerity",
+    "originating_agents": [
+      "credit_analyst_01",
+      "equity_analyst_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "residential_cre_cycle_decoupling",
+    "concept_b": "intra_sector_cre_dispersion",
+    "mechanism": "Structural housing supply deficit (3.5-5.5M units) decouples residential from CRE distress creating another dimension of intra-sector dispersion where residential appreciates while office declines",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while housing supply deficit persists. Would narrow if building boom or immigration curtailment resolves the deficit",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "cre_tail_risk_priced_consensus",
+    "concept_b": "cre_maturity_wall",
+    "mechanism": "Widely priced consensus creates self-attenuating dynamics: proactive bank capital raises short positioning and preemptive de-risking reduce the probability of systemic outcomes from the maturity wall",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Self-attenuating dynamic holds when market participants have agency to de-risk. Breaks if exogenous shock (recession) overwhelms preemptive positioning",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "interest_rate_cap_expiration_trigger",
+    "concept_b": "cre_maturity_wall",
+    "mechanism": "Rate cap expirations on 2020-21 vintage loans create performing-to-NPL transitions that front-run the maturity wall adding to the volume of distressed loans requiring resolution",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds while policy rates remain elevated relative to original cap strike prices. Would be neutralized if rates fall substantially before cap expirations",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "cmbs_bifurcation",
+    "concept_b": "credit_dashboard_cre_blind_spot",
+    "mechanism": "Extreme CMBS spread dispersion means anyone citing aggregate CMBS spreads provides useless information reinforcing the measurement architecture problem in CRE stress monitoring",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Persistent structural feature of segmented CMBS market. Severity of bifurcation is cyclical but existence is permanent",
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "clo_warehouse_cre_transmission",
+    "concept_b": "regional_bank_cre_earnings_drag",
+    "mechanism": "If CRE losses impair regional bank capital sufficiently warehouse line contraction transmits stress from CRE to leveraged loan markets via CLO formation shortfall creating second-order credit tightening",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Requires CRE losses large enough to materially impair bank capital AND absence of substitution from larger banks. Empirically untested at scale",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "immigration_housing_demand_driver",
+    "concept_b": "residential_cre_cycle_decoupling",
+    "mechanism": "Immigration-driven household formation supports housing demand independently of CRE cycle dynamics reinforcing the structural supply deficit that decouples residential from commercial real estate",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds in low-fertility OECD economies where household formation is immigration-driven. Subject to high policy volatility",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "municipal_finance_cre_feedback",
+    "concept_b": "regional_bank_cre_earnings_drag",
+    "mechanism": "CRE devaluation reduces municipal property tax revenue (20-40% of city budgets) degrading urban services and investment which further depresses commercial property values amplifying bank CRE losses",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Strongest in cities with highest CRE share of tax base and least fiscal flexibility. Attenuated by federal/state transfers",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "cre_survivorship_bias",
+    "concept_b": "appraisal_based_cre_index_bias",
+    "mechanism": "Survivorship bias (150-300bp overstatement) compounds with appraisal smoothing (15-25pp understatement of losses) to make historical CRE return data severely and systematically misleading in both return level and volatility",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Both biases are permanent features of CRE index construction. Magnitude of combined effect increases during downturns when both property exits and appraisal lags increase",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "japan_1990s_cre_analogue",
+    "concept_b": "extend_and_pretend_cre_resolution",
+    "mechanism": "Japan 1990s provides the historical template and mechanism match for the current extend-and-pretend resolution path: concentrated lending in smaller institutions plus regulatory forbearance plus gradual recognition",
+    "direction": "correlated",
+    "confidence": 8,
+    "regime_dependence": "Template applies to bank bilateral loans (majority of CRE debt). Modified by the CMBS layer Japan lacked. Outcome depends on whether US economy grows into excess supply (US 1990s path) or not (Japan path)",
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "concept_a": "china_crossborder_cre_contagion",
+    "concept_b": "intra_sector_cre_dispersion",
+    "mechanism": "Chinese capital withdrawal concentrated in specific micro-markets (Manhattan luxury Sydney prime) adds to sector and geographic dispersion even though aggregate US CRE impact is negligible",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Activated by Chinese economic distress and capital controls. Concentrated in gateway cities with historically high Chinese buyer share",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  }
+]

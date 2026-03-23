@@ -1,0 +1,31 @@
+{
+  "slug": "interest_rate_cap_expiration_trigger",
+  "definition": "Interest rate cap expirations on 2020-2021 vintage floating-rate CRE loans act as a performing-to-non-performing trigger, as borrowers who purchased caps at near-zero rates face dramatically higher debt service costs upon expiration, creating a wave of NPL transitions.",
+  "confidence": 6,
+  "evidence": [
+    "2020-21 vintage loans originated with low-cost interest rate caps",
+    "Cap expirations force borrowers to absorb full floating-rate exposure",
+    "Creates wave of performing-to-NPL transitions"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Volume of caps expiring by year",
+    "Whether refinancing availability can offset the trigger",
+    "Interaction with maturity wall timing"
+  ],
+  "related_concepts": [
+    "cre_maturity_wall",
+    "extend_and_pretend_cre_resolution",
+    "cmbs_bifurcation"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

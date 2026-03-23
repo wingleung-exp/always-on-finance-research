@@ -1,0 +1,36 @@
+{
+  "slug": "cre_maturity_wall",
+  "definition": "The $1.5-2.0T CRE maturity wall (2024-2028) is the arithmetic forcing function for loss recognition timing, but systemic distress requires a conjunction of 5+ conditions with joint probability of only ~3-8%. A single trigger (recession) could violate partial-independence and raise joint probability substantially.",
+  "confidence": 7,
+  "evidence": [
+    "$1.5-2.0T in CRE maturities scheduled 2024-2028",
+    "Conjunction of 5 conditions required: rates elevated AND valuations depressed AND no extensions AND insufficient alternative capital AND no regulatory forbearance",
+    "Joint probability ~3-8% even with generous positive correlation",
+    "Single trigger (recession) could make multiple conditions true simultaneously"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Whether recession could violate partial-independence and dramatically increase joint probability",
+    "How interest rate cap expirations on 2020-21 vintage loans interact with maturity schedule",
+    "Whether $400B+ dry powder provides sufficient alternative capital"
+  ],
+  "related_concepts": [
+    "extend_and_pretend_cre_resolution",
+    "interest_rate_cap_expiration_trigger",
+    "regional_bank_cre_earnings_drag",
+    "cre_tail_risk_priced_consensus"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "cre_stress_measurement_architecture",
+  "purpose": "Identifies the correct instrument panel for monitoring CRE credit stress given that standard credit dashboards miss the CRE debt market entirely",
+  "components": [
+    "CMBX indices (synthetic CMBS credit default swaps)",
+    "REIT unsecured bond spreads",
+    "Bank quarterly earnings provision language and charge-off trends",
+    "FDIC classified asset ratios",
+    "CMBS special servicing rates by property type and vintage",
+    "Secondary LP interest transaction prices for private CRE funds",
+    "Loan sale realization prices"
+  ],
+  "current_assessment": "Conventional HY/IG OAS measures are monitoring the wrong population. CMBS special servicing at 7-9% overall but 18-25% for office. CMBX BBB- at 800-1500bp. Anyone using conventional spreads as an all-clear is looking at the wrong instrument panel",
+  "limitations": [
+    "Multiple metrics without clear aggregation methodology",
+    "Some metrics have significant reporting lags",
+    "Insurance company CRE exposure (~$600-700B) is the largest gap in this measurement architecture"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

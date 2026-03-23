@@ -1,0 +1,23 @@
+{
+  "slug": "three_variable_severity_framework",
+  "purpose": "Predicts severity of CRE downturns by evaluating the interaction of three key variables",
+  "components": [
+    "Credit expansion magnitude (how much lending preceded the downturn)",
+    "Banking system concentration (how concentrated CRE exposure is in vulnerable institutions)",
+    "Demand shock type (cyclical vs structural nature of the demand impairment)"
+  ],
+  "current_assessment": "Current cycle: moderate credit expansion (less than 2005-07), high banking concentration in regionals, and potentially structural demand shock in office. The structural demand shock component has no clean historical analogue making severity estimation genuinely uncertain",
+  "limitations": [
+    "Small sample of historical episodes for calibration",
+    "Demand shock type (structural vs cyclical) is itself the key unresolved question",
+    "Interaction effects between variables not well understood"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

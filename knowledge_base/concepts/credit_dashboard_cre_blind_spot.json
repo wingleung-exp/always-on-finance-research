@@ -1,0 +1,32 @@
+{
+  "slug": "credit_dashboard_cre_blind_spot",
+  "definition": "Standard credit monitoring dashboards (HY/IG OAS) systematically miss CRE stress because the $4.5-5.8T CRE debt market sits primarily in bank balance sheets (~$2.7T), CMBS (~$650B), life insurers (~$700B), and private credit (~$400B+) rather than in corporate bond indices. Only ~$200B of REIT debt is in IG indices.",
+  "confidence": 8,
+  "evidence": [
+    "CRE debt distribution: banks ~$2.7T CMBS ~$650B life insurers ~$700B private credit ~$400B+",
+    "Only ~$200B of REIT debt in IG indices and virtually no CRE in HY",
+    "HY OAS at ~350bp measuring an entirely different population",
+    "Operative CRE stress metrics require: CMBX indices REIT unsecured spreads bank provision language FDIC classified asset ratios CMBS special servicing rates"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Whether composite CRE stress dashboards using alternative metrics can be constructed with sufficient timeliness",
+    "Insurance company CRE exposure (~$600-700B) identified as largest analytical gap"
+  ],
+  "related_concepts": [
+    "cmbs_bifurcation",
+    "cre_tail_risk_priced_consensus",
+    "insurance_company_cre_analytical_gap"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

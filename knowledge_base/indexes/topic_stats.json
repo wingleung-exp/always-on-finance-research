@@ -1740,6 +1740,94 @@
     ],
     "avg_confidence": 6.8
   },
+  "real_estate_cycles": {
+    "concept_count": 28,
+    "relationship_count": 20,
+    "framework_count": 8,
+    "top_concepts": [
+      {
+        "slug": "extend_and_pretend_cre_resolution",
+        "confidence": 9,
+        "definition": "Extend-and-pretend (loan modification and forbearance) is the dominant resolution mechanism for the current CRE distress cycle, producing a gradual mu"
+      },
+      {
+        "slug": "office_to_residential_conversion_limits",
+        "confidence": 9,
+        "definition": "Physical engineering constraints, cost economics, and zoning barriers limit office-to-residential conversion to at most 10-15% of distressed office st"
+      },
+      {
+        "slug": "appraisal_based_cre_index_bias",
+        "confidence": 8,
+        "definition": "Appraisal-based CRE indexes (e.g. NCREIF) systematically understate true price declines by 15-25 percentage points, with a desmoothing coefficient of "
+      },
+      {
+        "slug": "cmbs_bifurcation",
+        "confidence": 8,
+        "definition": "CMBS markets have bifurcated so severely that aggregate spread statistics are meaningless. Conduit AAA trades at 85-110bp over swaps while BBB- on off"
+      },
+      {
+        "slug": "credit_dashboard_cre_blind_spot",
+        "confidence": 8,
+        "definition": "Standard credit monitoring dashboards (HY/IG OAS) systematically miss CRE stress because the $4.5-5.8T CRE debt market sits primarily in bank balance "
+      },
+      {
+        "slug": "intra_sector_cre_dispersion",
+        "confidence": 8,
+        "definition": "Dispersion across CRE sectors has reached historically extreme levels (300-500bp cap rate spread between best and worst sectors vs 100-200bp historica"
+      },
+      {
+        "slug": "japan_1990s_cre_analogue",
+        "confidence": 8,
+        "definition": "The Japan 1990s experience is structurally closer than the GFC 2008 template for the current CRE cycle, sharing concentrated CRE lending in smaller in"
+      },
+      {
+        "slug": "regional_bank_cre_earnings_drag",
+        "confidence": 8,
+        "definition": "Regional bank CRE exposure (~$870-900B at 380-420 banks exceeding 300% CRE-to-capital concentration thresholds) creates a multi-year earnings drag but"
+      },
+      {
+        "slug": "cap_rate_decompression_lag",
+        "confidence": 7,
+        "definition": "CRE cap rates have expanded from ~4.5% (2021) to ~6.0-6.5% for core office (40-60% complete), and historical event studies show cap rates continue ris"
+      },
+      {
+        "slug": "cmbs_structural_loss_recognition",
+        "confidence": 7,
+        "definition": "CMBS structural mechanics (rated-final maturities, servicer advance limits, B-piece holder rights) create hard-stop loss recognition timelines within "
+      }
+    ],
+    "all_concept_slugs": [
+      "appraisal_based_cre_index_bias",
+      "cap_rate_decompression_lag",
+      "china_crossborder_cre_contagion",
+      "clo_warehouse_cre_transmission",
+      "cmbs_bifurcation",
+      "cmbs_structural_loss_recognition",
+      "cre_maturity_wall",
+      "cre_survivorship_bias",
+      "cre_tail_risk_priced_consensus",
+      "credit_dashboard_cre_blind_spot",
+      "eighteen_year_cre_supercycle_debunked",
+      "extend_and_pretend_cre_resolution",
+      "factor_rotation_cre_repricing",
+      "fiscal_policy_cre_crosscurrent",
+      "five_phase_cre_cycle_sequencing",
+      "geopolitical_premium_safe_haven_cre",
+      "immigration_housing_demand_driver",
+      "insurance_company_cre_analytical_gap",
+      "interest_rate_cap_expiration_trigger",
+      "intra_sector_cre_dispersion",
+      "japan_1990s_cre_analogue",
+      "municipal_finance_cre_feedback",
+      "office_structural_demand_uncertainty",
+      "office_to_residential_conversion_limits",
+      "private_credit_cre_nav_overstatement",
+      "regional_bank_cre_earnings_drag",
+      "residential_cre_cycle_decoupling",
+      "term_premium_cre_valuation_driver"
+    ],
+    "avg_confidence": 6.5
+  },
   "risk_appetite_regimes": {
     "concept_count": 12,
     "relationship_count": 9,

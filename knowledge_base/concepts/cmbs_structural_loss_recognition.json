@@ -1,0 +1,32 @@
+{
+  "slug": "cmbs_structural_loss_recognition",
+  "definition": "CMBS structural mechanics (rated-final maturities, servicer advance limits, B-piece holder rights) create hard-stop loss recognition timelines within 24-36 months that cannot be extended through forbearance, modifying the Japan-style slow-bleed pattern for the securitized portion of CRE debt (~$650B).",
+  "confidence": 7,
+  "evidence": [
+    "CMBS rated-final maturities create hard stop to forbearance on securitized loans",
+    "Servicer advance limits constrain extend-and-pretend for CMBS",
+    "B-piece holder rights force resolution within structural timelines",
+    "Blended outcome: Japan-style for bank bilateral loans plus time-bound for CMBS ~$650B"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Whether CMBS loss recognition triggers broader mark-to-market contagion to bank bilateral loans",
+    "How servicer discretion affects actual timelines vs structural limits"
+  ],
+  "related_concepts": [
+    "extend_and_pretend_cre_resolution",
+    "cmbs_bifurcation",
+    "japan_1990s_cre_analogue",
+    "cre_maturity_wall"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

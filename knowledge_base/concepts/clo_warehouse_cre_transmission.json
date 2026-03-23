@@ -1,0 +1,31 @@
+{
+  "slug": "clo_warehouse_cre_transmission",
+  "definition": "A potential contagion channel where CRE losses impair regional bank capital leading to warehouse line contraction ($30-50B), CLO formation shortfall ($40-70B), and leveraged loan demand removal. Logically sound but empirically untested at scale, with the agent's own 2015-16 analogue undermining the claimed severity.",
+  "confidence": 4,
+  "evidence": [
+    "Mechanism: CRE losses to bank capital impairment to warehouse line contraction to CLO formation shortfall to leveraged loan demand removal",
+    "2015-16 analogue: CLO formation fell ~30% loans widened ~150bp",
+    "Own analogue undermines 200-400bp severity estimate",
+    "Substitution effects from large banks insufficiently addressed"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Whether large banks would fill warehouse gaps via substitution",
+    "Empirical validation at current scale needed",
+    "Severity of 150bp (analogue) vs 200-400bp (claimed) unresolved"
+  ],
+  "related_concepts": [
+    "regional_bank_cre_earnings_drag",
+    "credit_dashboard_cre_blind_spot"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

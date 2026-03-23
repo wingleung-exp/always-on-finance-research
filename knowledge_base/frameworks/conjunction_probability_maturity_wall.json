@@ -1,0 +1,25 @@
+{
+  "slug": "conjunction_probability_maturity_wall",
+  "purpose": "Assesses the probability of systemic CRE-banking crisis by decomposing it into the conjunction of 5 independent conditions that must all hold simultaneously",
+  "components": [
+    "Rates must remain elevated",
+    "CRE valuations must stay depressed",
+    "Lenders must refuse to extend",
+    "Alternative capital must be insufficient",
+    "Regulatory forbearance must be withdrawn"
+  ],
+  "current_assessment": "Joint probability ~3-8% even with generous positive correlation. Each condition has moderate individual probability but conjunction requirement dramatically reduces systemic probability. However a single trigger (recession) could make multiple conditions true simultaneously violating partial-independence",
+  "limitations": [
+    "Partial-independence assumption is the key vulnerability: recession could trigger correlated failure of multiple conditions",
+    "Individual condition probabilities are themselves uncertain estimates",
+    "Does not capture speed of transition from benign to crisis state"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

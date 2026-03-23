@@ -1,0 +1,30 @@
+{
+  "slug": "factor_rotation_cre_repricing",
+  "definition": "During CRE repricing, factor rotation strongly favors Quality and Low Volatility over Value because Russell 1000 Value carries 22-25% financials plus 5-7% REITs, making Value implicitly CRE-long. A 15-25% regional bank drawdown plus REIT repricing creates 4.5-8.5% drag on Value from CRE-linked sectors alone.",
+  "confidence": 7,
+  "evidence": [
+    "Kenneth French data (1963-2024): Quality outperforms Value by median 550bp annualized in growth-deceleration inflation-sticky regimes",
+    "Russell 1000 Value has 22-25% financials plus 5-7% REITs weight",
+    "15-25% regional bank drawdown plus REIT repricing creates 4.5-8.5% Value drag from CRE-linked sectors",
+    "Mechanistic link is structural not spurious"
+  ],
+  "originating_agents": [
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Single-source at this specificity level",
+    "Whether factor timing based on CRE cycle is reliable or introduces additional noise"
+  ],
+  "related_concepts": [
+    "regional_bank_cre_earnings_drag",
+    "intra_sector_cre_dispersion"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

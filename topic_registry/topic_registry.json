@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-23T09:11:54Z",
+  "last_updated": "2026-03-23T09:38:26Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -754,14 +754,21 @@
     "real_estate_cycles": {
       "category": "asset_class_dynamics",
       "display_name": "Real Estate Cycles & CRE Repricing",
-      "last_researched": "2026-03-22T04:00:00Z",
-      "depth_level": 2,
-      "confidence_score": 5.5,
-      "research_count": 3,
+      "last_researched": "2026-03-23T09:38:26Z",
+      "depth_level": 3,
+      "confidence_score": 5.8,
+      "research_count": 4,
       "knowledge_gaps": [
-        "Office-to-residential conversion economics",
+        "Cap rate decompression timeline vs rate cuts",
         "Regional bank CRE exposure contagion pathway",
-        "Cap rate decompression timeline vs rate cuts"
+        "The 18-year real estate supercycle (Hoyt/Harrison periodicity) is an artifact of apophenia not a predictive pattern with n=10 observations and intervals ranging 14-48 years",
+        "Office-to-residential conversion economics",
+        "Survivorship bias in CRE index return data overstates historical returns by 150-300bp annually",
+        "Five-phase CRE cycle sequencing places genuine clearing at 2027-2028 based on pattern consistent across 5 post-1980 episodes",
+        "Immigration policy is the primary swing variable for OECD housing demand in low-fertility economies with each +-1M net migration equaling 400-500K units of housing demand",
+        "China cross-border CRE contagion operates through three identifiable channels (forced liquidation $20-40B plus vanishing marginal buyer plus second-order demand destruction) with material impact",
+        "Sanctions-driven capital flow bifurcation creates a persistent geopolitical premium in safe haven CRE markets",
+        "CLO warehouse channel transmits CRE stress to corporate credit via regional bank capital reallocation with $30-50B warehouse line contraction causing $40-70B CLO formation shortfall"
       ],
       "connections": [
         "credit_cycles",
@@ -774,9 +781,28 @@
         "reit_valuation"
       ],
       "key_concepts": [
+        "appraisal_based_cre_index_bias",
         "cap_rate",
+        "cap_rate_decompression_lag",
+        "cmbs_bifurcation",
+        "cmbs_structural_loss_recognition",
+        "cre_maturity_wall",
         "cre_repricing",
-        "loan_to_value"
+        "cre_tail_risk_priced_consensus",
+        "credit_dashboard_cre_blind_spot",
+        "extend_and_pretend_cre_resolution",
+        "factor_rotation_cre_repricing",
+        "fiscal_policy_cre_crosscurrent",
+        "interest_rate_cap_expiration_trigger",
+        "intra_sector_cre_dispersion",
+        "japan_1990s_cre_analogue",
+        "loan_to_value",
+        "office_structural_demand_uncertainty",
+        "office_to_residential_conversion_limits",
+        "private_credit_cre_nav_overstatement",
+        "regional_bank_cre_earnings_drag",
+        "residential_cre_cycle_decoupling",
+        "term_premium_cre_valuation_driver"
       ]
     },
     "volatility_regimes": {

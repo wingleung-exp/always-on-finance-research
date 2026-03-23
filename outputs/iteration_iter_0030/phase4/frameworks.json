@@ -1,0 +1,150 @@
+[
+  {
+    "slug": "cap_rate_decomposition",
+    "purpose": "Decomposes CRE cap rates into four components to identify which drivers have structurally shifted vs cyclically adjusted, enabling more precise forecasting of equilibrium cap rates",
+    "components": [
+      "Risk-free rate (Treasury yield)",
+      "Credit spread (borrower default risk premium)",
+      "Illiquidity premium (transaction friction and time-to-sale)",
+      "Property-specific risk premium (tenant quality lease duration physical obsolescence)"
+    ],
+    "current_assessment": "Illiquidity premium and property-specific risk have structurally repriced higher post-COVID. Risk-free component follows rates. Credit spread component widened for office. Equilibrium cap rates of 6.5-7.5% at current long-end rates implying 40-60% of decompression complete",
+    "limitations": [
+      "Components are not independently observable and must be estimated",
+      "Property-specific risk for office may be permanently repriced if demand impairment is structural",
+      "Historical calibration data may not apply to current structural regime"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "conjunction_probability_maturity_wall",
+    "purpose": "Assesses the probability of systemic CRE-banking crisis by decomposing it into the conjunction of 5 independent conditions that must all hold simultaneously",
+    "components": [
+      "Rates must remain elevated",
+      "CRE valuations must stay depressed",
+      "Lenders must refuse to extend",
+      "Alternative capital must be insufficient",
+      "Regulatory forbearance must be withdrawn"
+    ],
+    "current_assessment": "Joint probability ~3-8% even with generous positive correlation. Each condition has moderate individual probability but conjunction requirement dramatically reduces systemic probability. However a single trigger (recession) could make multiple conditions true simultaneously violating partial-independence",
+    "limitations": [
+      "Partial-independence assumption is the key vulnerability: recession could trigger correlated failure of multiple conditions",
+      "Individual condition probabilities are themselves uncertain estimates",
+      "Does not capture speed of transition from benign to crisis state"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "five_phase_cre_cycle",
+    "purpose": "Sequences CRE distress cycles into five predictable phases to identify current position and forward trajectory",
+    "components": [
+      "Phase 1: Transaction collapse (volume dries up bid-ask spread widens)",
+      "Phase 2: Selective price discovery (distressed sales establish new comps)",
+      "Phase 3: Credit tightening (lenders restrict new origination)",
+      "Phase 4: Forced selling and clearing (maturity wall and forbearance limits force resolution)",
+      "Phase 5: Recovery (new capital enters at clearing prices)"
+    ],
+    "current_assessment": "Current cycle entered Phase 1 in H2 2022. Currently transitioning through Phase 2-3. Genuine clearing (Phase 4) projected around 2027-2028 based on historical analogues. Won debate vs coarser 4-phase model",
+    "limitations": [
+      "Timing based on n=3-4 observations renders frequentist inference unreliable",
+      "Structural novelty of remote work demand shock may invalidate historical timing analogues",
+      "Sequencing pattern is robust but specific timing is illustrative not predictive"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "three_variable_severity_framework",
+    "purpose": "Predicts severity of CRE downturns by evaluating the interaction of three key variables",
+    "components": [
+      "Credit expansion magnitude (how much lending preceded the downturn)",
+      "Banking system concentration (how concentrated CRE exposure is in vulnerable institutions)",
+      "Demand shock type (cyclical vs structural nature of the demand impairment)"
+    ],
+    "current_assessment": "Current cycle: moderate credit expansion (less than 2005-07), high banking concentration in regionals, and potentially structural demand shock in office. The structural demand shock component has no clean historical analogue making severity estimation genuinely uncertain",
+    "limitations": [
+      "Small sample of historical episodes for calibration",
+      "Demand shock type (structural vs cyclical) is itself the key unresolved question",
+      "Interaction effects between variables not well understood"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "office_conversion_filter_cascade",
+    "purpose": "Quantifies the feasible stock of office-to-residential conversion through successive engineering and economic filters",
+    "components": [
+      "Floor plate depth filter: >65ft eliminates 50-60% of stock",
+      "Structural/MEP feasibility filter: eliminates 30-40% of remainder",
+      "Zoning and regulatory filter: eliminates 20-30% of what passes physical filters",
+      "Economic viability filter: costs of $150-400/sqft require acquisition below $100-200/sqft"
+    ],
+    "current_assessment": "Total addressable: $20-50B of ~$3.5T office asset class or less than 1.5%. Conversion is irrelevant to the 2025-2027 maturity wall. Self-referential dynamic: conversion only becomes viable at prices below current marks",
+    "limitations": [
+      "Assumes current building codes and zoning which could change with policy intervention",
+      "Cost estimates may vary significantly by market",
+      "Does not account for potential technological innovations in conversion methodology"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cre_stress_measurement_architecture",
+    "purpose": "Identifies the correct instrument panel for monitoring CRE credit stress given that standard credit dashboards miss the CRE debt market entirely",
+    "components": [
+      "CMBX indices (synthetic CMBS credit default swaps)",
+      "REIT unsecured bond spreads",
+      "Bank quarterly earnings provision language and charge-off trends",
+      "FDIC classified asset ratios",
+      "CMBS special servicing rates by property type and vintage",
+      "Secondary LP interest transaction prices for private CRE funds",
+      "Loan sale realization prices"
+    ],
+    "current_assessment": "Conventional HY/IG OAS measures are monitoring the wrong population. CMBS special servicing at 7-9% overall but 18-25% for office. CMBX BBB- at 800-1500bp. Anyone using conventional spreads as an all-clear is looking at the wrong instrument panel",
+    "limitations": [
+      "Multiple metrics without clear aggregation methodology",
+      "Some metrics have significant reporting lags",
+      "Insurance company CRE exposure (~$600-700B) is the largest gap in this measurement architecture"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "factor_rotation_regime_framework",
+    "purpose": "Maps CRE cycle position to equity factor expected returns to guide portfolio construction during CRE repricing",
+    "components": [
+      "CRE cycle position assessment (using five-phase model)",
+      "Value factor CRE exposure calculation (22-25% financials plus 5-7% REITs in Russell 1000 Value)",
+      "Regime identification (growth-deceleration and inflation-sticky favors Quality/Low Vol)",
+      "Sector drag estimation (15-25% bank drawdown plus REIT repricing creates 4.5-8.5% Value drag)"
+    ],
+    "current_assessment": "Current regime strongly favors Quality and Low Volatility over Value. Quality outperforms Value by median 550bp annualized in growth-deceleration inflation-sticky regimes per Kenneth French data 1963-2024",
+    "limitations": [
+      "Single-source framework at this specificity level",
+      "Factor timing based on CRE cycle adds implementation noise",
+      "Historical factor data may not apply if current CRE cycle is structurally different"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "structural_vs_cyclical_decomposition",
+    "purpose": "Provides the foundational analytical framework for separating structural demand impairment from cyclical recovery potential in office CRE",
+    "components": [
+      "Cyclical component: interest rate sensitivity normal vacancy oscillation capital markets access",
+      "Structural component: remote work adoption secular technology shift in space utilization",
+      "Base rate assessment: ~25-35% of structural shift calls in CRE historically prove correct",
+      "Monitoring variables: lease rollover outcomes AI impact on collaboration corporate headcount trends"
+    ],
+    "current_assessment": "Remote work has stronger evidence than prior structural obsolescence candidates but the base rate for such calls being correct remains low. The answer determines whether office is 20% overbuilt (manageable cyclical) or 50% overbuilt (devastating structural). Requires 3-5 more years of observation data",
+    "limitations": [
+      "Cannot be resolved with current data",
+      "Historical base rate for structural shifts may not apply given unprecedented technological enablement of remote work",
+      "Decomposition methodology not standardized across analysts"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  }
+]

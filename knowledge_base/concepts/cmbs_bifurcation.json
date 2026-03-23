@@ -1,0 +1,33 @@
+{
+  "slug": "cmbs_bifurcation",
+  "definition": "CMBS markets have bifurcated so severely that aggregate spread statistics are meaningless. Conduit AAA trades at 85-110bp over swaps while BBB- on office-heavy pools trades at 800-1500bp. SASB subordinate tranches on non-trophy office trade at 20-40 cents. Analysis must be tranche-by-tranche and collateral-by-collateral.",
+  "confidence": 8,
+  "evidence": [
+    "Conduit AAA at 85-110bp over swaps vs BBB- on office-heavy pools at 800-1500bp",
+    "SASB subordinate tranches on non-trophy office at 20-40 cents",
+    "Special servicing at 7-9% overall but 18-25% for office-only pools",
+    "Upper end of observed spreads (1500bp) already implies loss severity previously claimed as unpriced"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether BBB- spreads at 1500bp adequately price tail scenarios",
+    "How special servicing rate trajectory maps to recovery timelines"
+  ],
+  "related_concepts": [
+    "credit_dashboard_cre_blind_spot",
+    "cmbs_structural_loss_recognition",
+    "intra_sector_cre_dispersion",
+    "cre_maturity_wall"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

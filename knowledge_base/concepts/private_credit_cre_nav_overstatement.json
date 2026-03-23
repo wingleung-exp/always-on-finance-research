@@ -1,0 +1,33 @@
+{
+  "slug": "private_credit_cre_nav_overstatement",
+  "definition": "Private credit CRE vehicles overstate NAV by an estimated 10-25%, evidenced by BREIT NAV down only ~7% vs public REIT indices down 25-35%, secondary LP interests at 85-92 cents on NAV, and loan sale realizations at 70-85 cents for office. True value lies between BREIT NAV and public REIT pricing.",
+  "confidence": 6,
+  "evidence": [
+    "BREIT NAV down only ~7% vs public REIT indices down 25-35%",
+    "Secondary LP interest trades at 85-92 cents on NAV",
+    "Loan sale realizations at 70-85 cents for office",
+    "Latent loss estimate $50-100B spans factor of 2x barely falsifiable",
+    "BREIT comparison overstates gap because public markets overshoot on downside"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Precise location of true value between BREIT NAV and public REIT pricing",
+    "Whether forced redemptions could trigger mark-to-market recognition",
+    "Magnitude downgraded from 15-30% to 10-25% after debate"
+  ],
+  "related_concepts": [
+    "appraisal_based_cre_index_bias",
+    "credit_dashboard_cre_blind_spot",
+    "cre_survivorship_bias"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:25Z",
+  "last_updated": "2026-03-23T09:38:25Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

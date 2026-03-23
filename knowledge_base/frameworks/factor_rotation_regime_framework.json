@@ -1,0 +1,24 @@
+{
+  "slug": "factor_rotation_regime_framework",
+  "purpose": "Maps CRE cycle position to equity factor expected returns to guide portfolio construction during CRE repricing",
+  "components": [
+    "CRE cycle position assessment (using five-phase model)",
+    "Value factor CRE exposure calculation (22-25% financials plus 5-7% REITs in Russell 1000 Value)",
+    "Regime identification (growth-deceleration and inflation-sticky favors Quality/Low Vol)",
+    "Sector drag estimation (15-25% bank drawdown plus REIT repricing creates 4.5-8.5% Value drag)"
+  ],
+  "current_assessment": "Current regime strongly favors Quality and Low Volatility over Value. Quality outperforms Value by median 550bp annualized in growth-deceleration inflation-sticky regimes per Kenneth French data 1963-2024",
+  "limitations": [
+    "Single-source framework at this specificity level",
+    "Factor timing based on CRE cycle adds implementation noise",
+    "Historical factor data may not apply if current CRE cycle is structurally different"
+  ],
+  "topic": "real_estate_cycles",
+  "created_at": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T09:38:26Z",
+  "originating_iteration": "iter_0030",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0030"
+  ]
+}

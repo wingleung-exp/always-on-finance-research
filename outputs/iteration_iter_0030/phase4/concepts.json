@@ -1,0 +1,777 @@
+[
+  {
+    "slug": "extend_and_pretend_cre_resolution",
+    "definition": "Extend-and-pretend (loan modification and forbearance) is the dominant resolution mechanism for the current CRE distress cycle, producing a gradual multi-year loss recognition pattern analogous to Japan's 1990s experience rather than an acute GFC-style crisis. Supported by political incentives, 13-14% CET1 capital buffers, and a historical base rate where 4 of 5 post-1980 CRE crises resolved through slow bleed.",
+    "confidence": 9,
+    "evidence": [
+      "Loan modifications running at 2-4x normal levels since 2023",
+      "CET1 ratios at 13-14% vs ~6% pre-GFC provide 2.5x loss-absorption buffer",
+      "4 of 5 post-1980 CRE crises resolved through slow bleed not acute cascade",
+      "FDIC handling of Signature Bank CRE portfolio sold slowly over 2+ years is revealed preference",
+      "No administration wants bank failures before elections (political incentive)"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Resolution timeline: 5-7 years vs by 2027-2028",
+      "Whether CMBS rated-final maturities create hard-stop loss recognition within 24-36 months for securitized portion",
+      "Whether forbearance accumulates fragility for eventual larger crystallization event (Taleb fragilista setup)",
+      "Key signpost: nominal GDP growth rate vs CRE lease rollover rate determines US 1990s vs Japan path"
+    ],
+    "related_concepts": [
+      "regional_bank_cre_earnings_drag",
+      "japan_1990s_cre_analogue",
+      "cre_maturity_wall",
+      "cmbs_structural_loss_recognition"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "office_to_residential_conversion_limits",
+    "definition": "Physical engineering constraints, cost economics, and zoning barriers limit office-to-residential conversion to at most 10-15% of distressed office stock ($20-50B of ~$3.5T), making it irrelevant as a solution to the 2025-2027 CRE maturity wall.",
+    "confidence": 9,
+    "evidence": [
+      "Floor plate depth >65ft eliminates 50-60% of stock",
+      "Structural and MEP failures eliminate 30-40% of remainder",
+      "Zoning removes 20-30% of what passes physical filters",
+      "Costs of $150-400/sqft viable only at acquisition below $100-200/sqft",
+      "Total addressable less than 1.5% of office asset class",
+      "Multiple independent sources (CBRE JLL RealPage Brookings) confirm 10-15% feasibility range"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether policy changes could expand the feasible percentage",
+      "Self-referential dynamic: conversion only viable at acquisition basis below current marks so further declines are prerequisite"
+    ],
+    "related_concepts": [
+      "office_structural_demand_uncertainty",
+      "cre_maturity_wall",
+      "intra_sector_cre_dispersion"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "appraisal_based_cre_index_bias",
+    "definition": "Appraisal-based CRE indexes (e.g. NCREIF) systematically understate true price declines by 15-25 percentage points, with a desmoothing coefficient of 0.6-0.7 implying true volatility approximately 2x reported. The current gap is at the high end of historical precedent due to depressed transaction volumes.",
+    "confidence": 8,
+    "evidence": [
+      "NCREIF office returns show -18 to -22% from peak vs Green Street CPPI showing -35 to -42%",
+      "Desmoothing coefficient 0.6-0.7 per Geltner 1991 1993 and Fisher Geltner Webb 1994",
+      "Current 15-25pp gap at high end of historical precedent consistent with low transaction volumes",
+      "Transaction selection bias during downturns (only most distressed transact) partially offsets appraisal upward bias placing true values between the two measures"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "equity_analyst_01",
+      "quant_researcher_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Precise location of true values between appraisal-based and transaction-based measures",
+      "Combined effect with survivorship bias on institutional CRE allocation decisions"
+    ],
+    "related_concepts": [
+      "cre_survivorship_bias",
+      "private_credit_cre_nav_overstatement",
+      "credit_dashboard_cre_blind_spot"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "regional_bank_cre_earnings_drag",
+    "definition": "Regional bank CRE exposure (~$870-900B at 380-420 banks exceeding 300% CRE-to-capital concentration thresholds) creates a multi-year earnings drag but not a systemic banking crisis, contained by 13-14% CET1 ratios, FDIC resolution infrastructure, and regulatory forbearance. Sector-differentiated losses estimated at $110-160B.",
+    "confidence": 8,
+    "evidence": [
+      "~$870-900B CRE at ~380-420 banks exceeding 300% CRE-to-capital thresholds",
+      "CET1 ratios at 13-14% with post-stress CET1 of 6-8% above regulatory minimums",
+      "Loss estimates: $40-75B historical median to $110-160B sector-differentiated severity",
+      "Sector-differentiated approach won debate by capturing fat left tail in office losses",
+      "Tail risk of systemic intervention at 5-10% probability driven by macro recession interaction not CRE alone",
+      "Existing KB cre_bank_contagion: contagion mechanism real (7/10) but systemic cascade probability low (3-8%)"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Probability of systemic cascade: 3-8% vs 15-25% vs 25-35% depending on contagion definition",
+      "Whether CRE plus macro recession interaction could trigger the tail",
+      "Need standardization of what outcome is being probability-estimated across agents"
+    ],
+    "related_concepts": [
+      "extend_and_pretend_cre_resolution",
+      "cre_maturity_wall",
+      "factor_rotation_cre_repricing",
+      "clo_warehouse_cre_transmission",
+      "municipal_finance_cre_feedback"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "intra_sector_cre_dispersion",
+    "definition": "Dispersion across CRE sectors has reached historically extreme levels (300-500bp cap rate spread between best and worst sectors vs 100-200bp historical norm), driven by structural factors including remote work, e-commerce, AI compute demand, supply constraints, and geopolitical reshoring. Aggregate CRE statistics are analytically useless.",
+    "confidence": 8,
+    "evidence": [
+      "300-500bp cap rate spread between best and worst CRE sectors vs 100-200bp historical norm",
+      "Office down 25-45% multifamily flat to -10% industrial roughly flat data centers appreciating",
+      "Structural drivers: remote work (office negative) e-commerce (industrial positive) AI compute (data centers) supply constraints (residential)",
+      "Geopolitical reshoring via CHIPS Act and IRA as industrial CRE demand driver",
+      "Forward return ranking: residential > industrial/logistics > diversified > retail > office"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether dispersion narrows as cyclical recovery occurs or remains structurally elevated",
+      "How to properly benchmark and allocate across CRE sectors",
+      "Data center classification question: CRE vs technology infrastructure"
+    ],
+    "related_concepts": [
+      "office_structural_demand_uncertainty",
+      "residential_cre_cycle_decoupling",
+      "credit_dashboard_cre_blind_spot",
+      "cap_rate_decompression_lag"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "credit_dashboard_cre_blind_spot",
+    "definition": "Standard credit monitoring dashboards (HY/IG OAS) systematically miss CRE stress because the $4.5-5.8T CRE debt market sits primarily in bank balance sheets (~$2.7T), CMBS (~$650B), life insurers (~$700B), and private credit (~$400B+) rather than in corporate bond indices. Only ~$200B of REIT debt is in IG indices.",
+    "confidence": 8,
+    "evidence": [
+      "CRE debt distribution: banks ~$2.7T CMBS ~$650B life insurers ~$700B private credit ~$400B+",
+      "Only ~$200B of REIT debt in IG indices and virtually no CRE in HY",
+      "HY OAS at ~350bp measuring an entirely different population",
+      "Operative CRE stress metrics require: CMBX indices REIT unsecured spreads bank provision language FDIC classified asset ratios CMBS special servicing rates"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Whether composite CRE stress dashboards using alternative metrics can be constructed with sufficient timeliness",
+      "Insurance company CRE exposure (~$600-700B) identified as largest analytical gap"
+    ],
+    "related_concepts": [
+      "cmbs_bifurcation",
+      "cre_tail_risk_priced_consensus",
+      "insurance_company_cre_analytical_gap"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "japan_1990s_cre_analogue",
+    "definition": "The Japan 1990s experience is structurally closer than the GFC 2008 template for the current CRE cycle, sharing concentrated CRE lending in smaller institutions, regulatory forbearance, and gradual loss recognition. The critical distinction: 2008 was a liquidity crisis amplified by mark-to-market; the current episode is a solvency adjustment managed through time. The US has a CMBS layer Japan lacked.",
+    "confidence": 8,
+    "evidence": [
+      "Mechanism match: concentrated CRE in smaller institutions plus regulatory forbearance plus gradual loss recognition",
+      "2008 was liquidity crisis amplified by mark-to-market and securitization-chain forced selling",
+      "Current episode is solvency adjustment being managed through time",
+      "US has CMBS securitized layer (~$650B) Japan's bank-intermediated market lacked creating hard-stop timelines",
+      "1990-95 US S&L resolution adds RTC precedent with 4-7 year trough-to-recovery timeline"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether US can grow into excess supply (1990s US path) vs prolonged stagnation (Japan path)",
+      "Key signpost: nominal GDP growth rate vs CRE lease rollover rate",
+      "How CMBS hard-stop timelines modify the Japan slow-bleed template"
+    ],
+    "related_concepts": [
+      "extend_and_pretend_cre_resolution",
+      "cmbs_structural_loss_recognition",
+      "five_phase_cre_cycle_sequencing",
+      "fiscal_policy_cre_crosscurrent"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "office_structural_demand_uncertainty",
+    "definition": "Remote/hybrid work has permanently reduced office demand (Kastle badge data plateaued at 50-60% of pre-COVID, vacancy at 18-22% vs 12-13% pre-COVID), but the equilibrium could be a manageable 15-20% permanent demand reduction or a devastating 30-40% reduction. This single variable determines whether office is 20% or 50% overbuilt. Unresolvable with current data.",
+    "confidence": 6,
+    "evidence": [
+      "Kastle badge data utilization plateaued at 50-60% of pre-COVID since mid-2023",
+      "National vacancy at 18-22% up from 12-13% pre-COVID",
+      "Base rate for structural shift calls in CRE being correct is only ~25-35%",
+      "1993-94 Manhattan recovery from 18% to <4% vacancy weakened as analogue by remote work technology",
+      "Remote work has stronger evidence than prior structural obsolescence candidates"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Cyclical with recovery or structurally permanent: the single most consequential unresolved question",
+      "Equilibrium utilization rate requires 3-5 more years of observation",
+      "AI impact on in-person collaboration needs",
+      "Monitor: lease rollover outcomes corporate headcount trends"
+    ],
+    "related_concepts": [
+      "intra_sector_cre_dispersion",
+      "office_to_residential_conversion_limits",
+      "cap_rate_decompression_lag",
+      "five_phase_cre_cycle_sequencing"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cap_rate_decompression_lag",
+    "definition": "CRE cap rates have expanded from ~4.5% (2021) to ~6.0-6.5% for core office (40-60% complete), and historical event studies show cap rates continue rising 12-30 months after the first rate cut in recessionary episodes. Illiquidity and property-specific risk premiums have structurally repriced higher.",
+    "confidence": 7,
+    "evidence": [
+      "Cap rates expanded from ~4.5% (2021) to ~6.0-6.5% for core office",
+      "Historical spread of 200-300bp over 10Y Treasury implies equilibrium of 6.5-7.5%",
+      "In 3/3 recessionary easing episodes cap rates rose 12-30 months post-first-cut (mean ~20 months)",
+      "Illiquidity premium and property-specific risk have structurally repriced higher via four-component decomposition"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "quant_researcher_01",
+      "credit_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "n=3 recessionary episodes too small for statistical significance",
+      "For office specifically the lag may represent permanent repricing rather than cyclical delay",
+      "Applicable to multifamily/industrial with reasonable confidence but office may never compress"
+    ],
+    "related_concepts": [
+      "term_premium_cre_valuation_driver",
+      "office_structural_demand_uncertainty",
+      "intra_sector_cre_dispersion",
+      "fiscal_policy_cre_crosscurrent"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cmbs_bifurcation",
+    "definition": "CMBS markets have bifurcated so severely that aggregate spread statistics are meaningless. Conduit AAA trades at 85-110bp over swaps while BBB- on office-heavy pools trades at 800-1500bp. SASB subordinate tranches on non-trophy office trade at 20-40 cents. Analysis must be tranche-by-tranche and collateral-by-collateral.",
+    "confidence": 8,
+    "evidence": [
+      "Conduit AAA at 85-110bp over swaps vs BBB- on office-heavy pools at 800-1500bp",
+      "SASB subordinate tranches on non-trophy office at 20-40 cents",
+      "Special servicing at 7-9% overall but 18-25% for office-only pools",
+      "Upper end of observed spreads (1500bp) already implies loss severity previously claimed as unpriced"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether BBB- spreads at 1500bp adequately price tail scenarios",
+      "How special servicing rate trajectory maps to recovery timelines"
+    ],
+    "related_concepts": [
+      "credit_dashboard_cre_blind_spot",
+      "cmbs_structural_loss_recognition",
+      "intra_sector_cre_dispersion",
+      "cre_maturity_wall"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cre_maturity_wall",
+    "definition": "The $1.5-2.0T CRE maturity wall (2024-2028) is the arithmetic forcing function for loss recognition timing, but systemic distress requires a conjunction of 5+ conditions with joint probability of only ~3-8%. A single trigger (recession) could violate partial-independence and raise joint probability substantially.",
+    "confidence": 7,
+    "evidence": [
+      "$1.5-2.0T in CRE maturities scheduled 2024-2028",
+      "Conjunction of 5 conditions required: rates elevated AND valuations depressed AND no extensions AND insufficient alternative capital AND no regulatory forbearance",
+      "Joint probability ~3-8% even with generous positive correlation",
+      "Single trigger (recession) could make multiple conditions true simultaneously"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether recession could violate partial-independence and dramatically increase joint probability",
+      "How interest rate cap expirations on 2020-21 vintage loans interact with maturity schedule",
+      "Whether $400B+ dry powder provides sufficient alternative capital"
+    ],
+    "related_concepts": [
+      "extend_and_pretend_cre_resolution",
+      "interest_rate_cap_expiration_trigger",
+      "regional_bank_cre_earnings_drag",
+      "cre_tail_risk_priced_consensus"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cre_tail_risk_priced_consensus",
+    "definition": "CRE tail risk has become widely priced consensus (KRE persistently shorted, CMBS BBB- at 800-1500bp, thesis ubiquitous at conferences, banks preemptively raising capital), limiting risk-reward for bearish positioning and creating self-attenuating dynamics where proactive de-risking reduces crisis probability.",
+    "confidence": 7,
+    "evidence": [
+      "KRE persistently shorted since March 2023",
+      "CMBS BBB- at 800-1500bp",
+      "Regional bank management teams preemptively raised capital",
+      "Historical pattern: widely anticipated crises (Y2K 2011 European sovereign China 2015) tend to self-attenuate",
+      "The crises that produce worst outcomes are the ones nobody is positioned for"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Priced does not mean cannot happen only that risk-reward for bearish bets is poor",
+      "Whether self-attenuating dynamic is sufficient to prevent the tail entirely"
+    ],
+    "related_concepts": [
+      "cre_maturity_wall",
+      "regional_bank_cre_earnings_drag",
+      "credit_dashboard_cre_blind_spot"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "term_premium_cre_valuation_driver",
+    "definition": "The term premium, not the policy rate, is the dominant driver of CRE equity valuations because CRE assets are long-duration (5-20 year leases). Fiscal supply ($2-2.5T/yr Treasury issuance) provides a structural floor under term premium, meaning Fed rate cuts alone are insufficient for meaningful CRE cap rate compression.",
+    "confidence": 7,
+    "evidence": [
+      "ACM term premium currently ~50-75bp up from -50bp in 2020-21",
+      "Fiscal supply of $2-2.5T/yr Treasury issuance provides structural floor",
+      "If Fed cuts 100-150bp but term premium stays at 50-100bp the 10Y falls only 25-75bp insufficient for meaningful cap rate compression",
+      "Historical CRE recovery requires not just rate cuts but term premium collapse via recession or aggressive QE"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether recession or aggressive QE could collapse term premium",
+      "Interaction with fiscal policy Kalecki channel",
+      "Single-source at this specificity level"
+    ],
+    "related_concepts": [
+      "cap_rate_decompression_lag",
+      "fiscal_policy_cre_crosscurrent",
+      "japan_1990s_cre_analogue"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "private_credit_cre_nav_overstatement",
+    "definition": "Private credit CRE vehicles overstate NAV by an estimated 10-25%, evidenced by BREIT NAV down only ~7% vs public REIT indices down 25-35%, secondary LP interests at 85-92 cents on NAV, and loan sale realizations at 70-85 cents for office. True value lies between BREIT NAV and public REIT pricing.",
+    "confidence": 6,
+    "evidence": [
+      "BREIT NAV down only ~7% vs public REIT indices down 25-35%",
+      "Secondary LP interest trades at 85-92 cents on NAV",
+      "Loan sale realizations at 70-85 cents for office",
+      "Latent loss estimate $50-100B spans factor of 2x barely falsifiable",
+      "BREIT comparison overstates gap because public markets overshoot on downside"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Precise location of true value between BREIT NAV and public REIT pricing",
+      "Whether forced redemptions could trigger mark-to-market recognition",
+      "Magnitude downgraded from 15-30% to 10-25% after debate"
+    ],
+    "related_concepts": [
+      "appraisal_based_cre_index_bias",
+      "credit_dashboard_cre_blind_spot",
+      "cre_survivorship_bias"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "residential_cre_cycle_decoupling",
+    "definition": "Residential and commercial real estate cycles have structurally decoupled post-2010, with correlation dropping from r=0.55-0.65 (1990-2006) to r=0.05-0.15 (2020-2025), driven by a cumulative housing supply deficit of 3.5-5.5M units. The combined real estate allocation bucket is analytically incoherent.",
+    "confidence": 7,
+    "evidence": [
+      "Correlation dropped from r=0.55-0.65 (1990-2006) to r=0.05-0.15 (2020-2025)",
+      "Chow test for structural break at 2010 p<0.05",
+      "Housing starts averaged 1.1-1.3M/yr vs 1.5-1.7M household formation",
+      "Cumulative housing deficit of 3.5-5.5M units"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Chow test p-value overstated due to pre-testing bias and GFC outlier inflating pre-break correlation",
+      "Whether supply constraints are permanent or policy-sensitive",
+      "Single-source for statistical evidence"
+    ],
+    "related_concepts": [
+      "intra_sector_cre_dispersion",
+      "immigration_housing_demand_driver",
+      "office_structural_demand_uncertainty"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "factor_rotation_cre_repricing",
+    "definition": "During CRE repricing, factor rotation strongly favors Quality and Low Volatility over Value because Russell 1000 Value carries 22-25% financials plus 5-7% REITs, making Value implicitly CRE-long. A 15-25% regional bank drawdown plus REIT repricing creates 4.5-8.5% drag on Value from CRE-linked sectors alone.",
+    "confidence": 7,
+    "evidence": [
+      "Kenneth French data (1963-2024): Quality outperforms Value by median 550bp annualized in growth-deceleration inflation-sticky regimes",
+      "Russell 1000 Value has 22-25% financials plus 5-7% REITs weight",
+      "15-25% regional bank drawdown plus REIT repricing creates 4.5-8.5% Value drag from CRE-linked sectors",
+      "Mechanistic link is structural not spurious"
+    ],
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Single-source at this specificity level",
+      "Whether factor timing based on CRE cycle is reliable or introduces additional noise"
+    ],
+    "related_concepts": [
+      "regional_bank_cre_earnings_drag",
+      "intra_sector_cre_dispersion"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "fiscal_policy_cre_crosscurrent",
+    "definition": "Fiscal deficits create a genuine cross-current for CRE: simultaneously supporting corporate profits via the Kalecki channel (offsetting CRE earnings headwinds) while keeping long-end rates elevated via Treasury supply (preventing cap rate compression). This interaction explains why the current CRE cycle is more prolonged and less V-shaped.",
+    "confidence": 7,
+    "evidence": [
+      "Fiscal deficits support corporate profits via Kalecki profit equation",
+      "$2-2.5T/yr Treasury issuance elevates term premium",
+      "Neither force clearly dominates the other",
+      "Current CRE cycle more prolonged and less V-shaped than historical analogues"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Which force dominates in current regime",
+      "Whether fiscal trajectory changes alter the balance",
+      "Deserves dedicated KB concept per synthesis recommendation"
+    ],
+    "related_concepts": [
+      "term_premium_cre_valuation_driver",
+      "regional_bank_cre_earnings_drag",
+      "japan_1990s_cre_analogue",
+      "cap_rate_decompression_lag"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cmbs_structural_loss_recognition",
+    "definition": "CMBS structural mechanics (rated-final maturities, servicer advance limits, B-piece holder rights) create hard-stop loss recognition timelines within 24-36 months that cannot be extended through forbearance, modifying the Japan-style slow-bleed pattern for the securitized portion of CRE debt (~$650B).",
+    "confidence": 7,
+    "evidence": [
+      "CMBS rated-final maturities create hard stop to forbearance on securitized loans",
+      "Servicer advance limits constrain extend-and-pretend for CMBS",
+      "B-piece holder rights force resolution within structural timelines",
+      "Blended outcome: Japan-style for bank bilateral loans plus time-bound for CMBS ~$650B"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Whether CMBS loss recognition triggers broader mark-to-market contagion to bank bilateral loans",
+      "How servicer discretion affects actual timelines vs structural limits"
+    ],
+    "related_concepts": [
+      "extend_and_pretend_cre_resolution",
+      "cmbs_bifurcation",
+      "japan_1990s_cre_analogue",
+      "cre_maturity_wall"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "eighteen_year_cre_supercycle_debunked",
+    "definition": "The claimed 18-year real estate supercycle (Hoyt/Harrison periodicity) is an artifact of pattern-matching bias with n=10 observations, a 48-year gap requiring ad-hoc exclusion, intervals ranging 14-48 years, and mixed international evidence. Flagged as anti-knowledge that misleads CRE cycle analysis.",
+    "confidence": 5,
+    "evidence": [
+      "n=10 with 48-year gap (1925-1973) requiring ad-hoc exclusion",
+      "Intervals range from 14 to 48 years",
+      "International evidence mixed (Japan no comparable peak in 35+ years)",
+      "Can fit 18-year cycle to random data with similar success",
+      "No other panel agent relies on or references this periodicity"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Whether any CRE periodicity survives rigorous statistical testing",
+      "Whether pattern has conditional predictive value in specific regimes"
+    ],
+    "related_concepts": [
+      "five_phase_cre_cycle_sequencing",
+      "appraisal_based_cre_index_bias"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "cre_survivorship_bias",
+    "definition": "Survivorship bias in CRE index return data overstates historical returns by an estimated 150-300bp annually, as properties that are foreclosed, demolished, or converted are dropped from NCREIF and similar indices. This compounds with appraisal smoothing to make historical CRE return data systematically too optimistic.",
+    "confidence": 5,
+    "evidence": [
+      "Peer-reviewed: Fisher Geltner and Webb 1994",
+      "Properties foreclosed demolished or converted dropped from NCREIF",
+      "Appraisal smoothing suppresses measured volatility by 40-60%",
+      "Direction uncontested though 150-300bp magnitude from older literature"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether magnitude estimate holds for current index vintages",
+      "Combined impact with appraisal bias on institutional allocation calibration"
+    ],
+    "related_concepts": [
+      "appraisal_based_cre_index_bias",
+      "private_credit_cre_nav_overstatement"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "clo_warehouse_cre_transmission",
+    "definition": "A potential contagion channel where CRE losses impair regional bank capital leading to warehouse line contraction ($30-50B), CLO formation shortfall ($40-70B), and leveraged loan demand removal. Logically sound but empirically untested at scale, with the agent's own 2015-16 analogue undermining the claimed severity.",
+    "confidence": 4,
+    "evidence": [
+      "Mechanism: CRE losses to bank capital impairment to warehouse line contraction to CLO formation shortfall to leveraged loan demand removal",
+      "2015-16 analogue: CLO formation fell ~30% loans widened ~150bp",
+      "Own analogue undermines 200-400bp severity estimate",
+      "Substitution effects from large banks insufficiently addressed"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Whether large banks would fill warehouse gaps via substitution",
+      "Empirical validation at current scale needed",
+      "Severity of 150bp (analogue) vs 200-400bp (claimed) unresolved"
+    ],
+    "related_concepts": [
+      "regional_bank_cre_earnings_drag",
+      "credit_dashboard_cre_blind_spot"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "china_crossborder_cre_contagion",
+    "definition": "China CRE stress transmits internationally through three channels: forced liquidation of overseas holdings ($20-40B), collapse of Chinese marginal buyer (15-25% of foreign purchases pre-2020), and second-order demand destruction. Mechanisms are real but macro impact on US CRE aggregates is negligible at ~0.1-0.2% of total value.",
+    "confidence": 5,
+    "evidence": [
+      "$20-40B identifiable overseas holdings subject to forced liquidation",
+      "Chinese buyers 15-25% of foreign purchases in key markets pre-2020",
+      "Second-order channels: tourism students business travel",
+      "$20-40B is ~0.1-0.2% of total US CRE value",
+      "Meaningful in specific micro-markets (Manhattan luxury Sydney prime) but not macro-relevant"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Micro-market vs macro relevance distinction",
+      "What current market pricing embeds for Chinese capital withdrawal"
+    ],
+    "related_concepts": [
+      "geopolitical_premium_safe_haven_cre",
+      "intra_sector_cre_dispersion"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "five_phase_cre_cycle_sequencing",
+    "definition": "CRE cycles follow a five-phase pattern (transaction collapse, selective price discovery, credit tightening, forced selling/clearing, recovery) consistent across 5 major post-1980 episodes. Current cycle entered transaction collapse H2 2022. Sequencing pattern is robust but specific timing (clearing at 2027-2028) is illustrative not predictive.",
+    "confidence": 5,
+    "evidence": [
+      "Five-phase model consistent across 5 major post-1980 episodes",
+      "Current cycle entered transaction collapse H2 2022",
+      "Won debate vs coarser 4-phase model",
+      "Timing limited by n=3-4 and structural novelty of remote work demand shock"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether remote work structural novelty invalidates timing from historical analogues",
+      "Sequencing pattern robust but timing illustrative"
+    ],
+    "related_concepts": [
+      "japan_1990s_cre_analogue",
+      "extend_and_pretend_cre_resolution",
+      "cre_maturity_wall"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "immigration_housing_demand_driver",
+    "definition": "In low-fertility OECD economies, immigration is the primary swing variable for housing demand, with each +-1M in net migration equaling approximately 400-500K units of housing demand. Policy volatility (US net migration from ~3.3M in FY2023 to sharply lower) creates boom-bust conditions standard models do not capture.",
+    "confidence": 5,
+    "evidence": [
+      "Each +-1M net migration approximately 400-500K units housing demand",
+      "US net migration swung from ~3.3M in FY2023 to sharply lower under restrictive policy",
+      "Supported by demographic arithmetic in low-fertility economies",
+      "Makes housing fundamentally a geopolitical asset class"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Untested as CRE-cycle predictor",
+      "Policy volatility creates rental market boom-bust not captured by standard models"
+    ],
+    "related_concepts": [
+      "residential_cre_cycle_decoupling",
+      "intra_sector_cre_dispersion"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "municipal_finance_cre_feedback",
+    "definition": "CRE distress creates a negative feedback loop with municipal finance because CRE accounts for 20-40% of city revenue. Property tax declines from CRE devaluation reduce municipal services, further depressing commercial property values in affected metros.",
+    "confidence": 5,
+    "evidence": [
+      "CRE accounts for 20-40% of city revenue in major metros",
+      "Mechanism: CRE devaluation to property tax decline to reduced municipal services to further CRE depression"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Magnitude of feedback loop in practice",
+      "Whether federal/state fiscal transfers attenuate the mechanism",
+      "Which cities are most vulnerable"
+    ],
+    "related_concepts": [
+      "regional_bank_cre_earnings_drag",
+      "office_structural_demand_uncertainty"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "interest_rate_cap_expiration_trigger",
+    "definition": "Interest rate cap expirations on 2020-2021 vintage floating-rate CRE loans act as a performing-to-non-performing trigger, as borrowers who purchased caps at near-zero rates face dramatically higher debt service costs upon expiration, creating a wave of NPL transitions.",
+    "confidence": 6,
+    "evidence": [
+      "2020-21 vintage loans originated with low-cost interest rate caps",
+      "Cap expirations force borrowers to absorb full floating-rate exposure",
+      "Creates wave of performing-to-NPL transitions"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Volume of caps expiring by year",
+      "Whether refinancing availability can offset the trigger",
+      "Interaction with maturity wall timing"
+    ],
+    "related_concepts": [
+      "cre_maturity_wall",
+      "extend_and_pretend_cre_resolution",
+      "cmbs_bifurcation"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "insurance_company_cre_analytical_gap",
+    "definition": "Insurance company CRE exposure (~$600-700B) represents the largest analytical gap across all panel agents, with insufficient coverage of how life insurers' CRE portfolios interact with the broader distress cycle despite being the third-largest holder of CRE debt.",
+    "confidence": 5,
+    "evidence": [
+      "Life insurer CRE exposure ~$600-700B",
+      "No agent provided detailed analysis of this channel",
+      "Insurance companies are third-largest CRE debt holder after banks and CMBS"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How insurance company CRE portfolios are marked and reported",
+      "Whether insurance regulatory frameworks create similar or different forbearance dynamics",
+      "Interaction with insurance company liability management"
+    ],
+    "related_concepts": [
+      "credit_dashboard_cre_blind_spot",
+      "private_credit_cre_nav_overstatement",
+      "appraisal_based_cre_index_bias"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  },
+  {
+    "slug": "geopolitical_premium_safe_haven_cre",
+    "definition": "Sanctions-driven capital flow bifurcation (OFAC, Corporate Transparency Act, CFIUS) is creating a two-tier CRE market between allied and non-aligned jurisdictions. The directional trend is durable and observable but any quantification of the premium (claimed 50-150bp) is unfalsifiable.",
+    "confidence": 4,
+    "evidence": [
+      "OFAC enforcement Corporate Transparency Act CFIUS expansion increase friction for non-aligned capital",
+      "Two-tier market between allied and non-aligned jurisdictions is observable",
+      "Structural trend is durable"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "No methodology can isolate geopolitical premium from interest rate differentials liquidity premiums governance premiums and currency risk",
+      "Whether premium is real but unmeasurable or not present"
+    ],
+    "related_concepts": [
+      "china_crossborder_cre_contagion",
+      "intra_sector_cre_dispersion"
+    ],
+    "topic": "real_estate_cycles",
+    "iteration_id": "iter_0030"
+  }
+]
