@@ -1,0 +1,37 @@
+{
+  "slug": "pervasive_small_n_problem",
+  "definition": "All probability estimates in the fiscal dominance literature suffer from a pervasive small-n problem that makes point estimates nearly uninformative. When the best evidence consists of single-digit counts, any implied precision better than ±20 percentage points is almost certainly overstated.",
+  "confidence": 9,
+  "evidence": [
+    "Fiscal dominance sequence: n=3",
+    "Consolidation success: n=13 (4 successes), 95% CI [9%, 61%]",
+    "Above-threshold term premium: n=7",
+    "Basis trade unwind: n=1",
+    "Reserve currency issuers with r≈g: n≈3",
+    "Current configuration: n=0",
+    "Confirmed in all 4 debates as meta-finding"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is there a principled methodology for calibrating confidence in genuinely novel situations?",
+    "Should a mechanical confidence cap (e.g., 5-6/10) be applied to all extrapolative claims?",
+    "How should the distinction between factual claims and extrapolative claims be operationalized?"
+  ],
+  "related_concepts": [
+    "us_fiscal_unprecedented_configuration",
+    "fiscal_consolidation_difficulty",
+    "doom_loop",
+    "r_g_convergence"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

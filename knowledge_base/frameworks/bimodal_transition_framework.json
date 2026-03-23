@@ -1,0 +1,25 @@
+{
+  "slug": "bimodal_transition_framework",
+  "purpose": "Classifies economies into gradual or acute fiscal dominance transition paths based on institutional absorption capacity, enabling scenario-specific risk assessment.",
+  "components": [
+    "Gradual path features (10-25 years): reserve currency status, dollar-denominated debt, deep domestic capital markets, high domestic ownership of government debt, current account surplus",
+    "Acute path features (months): current account deficit, high foreign ownership of government debt, leveraged amplification mechanisms (basis trade), political fragmentation",
+    "No historical moderate-paced transitions observed (n=5)",
+    "Mechanism: institutional absorption capacity determines whether fiscal pressure accumulates slowly or breaks through suddenly"
+  ],
+  "current_assessment": "The US has a mix of gradual (reserve currency, deep markets) and acute (current account deficit ~3-3.5% GDP, ~30% foreign ownership, basis trade amplification) features. Currently on the gradual path per term premium velocity.",
+  "limitations": [
+    "Based on n=5 historical cases — small sample",
+    "The US's mixed feature set has no direct precedent",
+    "Does not specify conditions for path-switching from gradual to acute",
+    "The basis trade as a path-switching mechanism is theorized but untested (n=0 for this specific scenario)"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "fx_factor_hlz_survival",
+  "definition": "Only three FX factors survive Harvey-Liu-Zhu multiple-testing thresholds (t-stat ≥ 3.0) with robust out-of-sample evidence: the dollar factor (PC1), carry, and momentum. PPP-based value is marginal (t=1.5-2.5). Exotic factors (output gap, external balance, Taylor rule residual) are subsumed by carry + momentum in spanning regressions. Multi-factor FX products based on exotic factors are selling noise.",
+  "confidence": 8.0,
+  "evidence": [
+    "Carry achieves t-stat 3.5-5.0 across specifications",
+    "Momentum passes at t-stat 2.5-3.5",
+    "PPP value at t-stat 1.5-2.5 falls short of HLZ threshold",
+    "Exotic factors subsumed by carry + momentum in spanning regressions",
+    "Not directly contested in any debate"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Whether PPP value factor's marginal significance reflects genuine long-run information or in-sample overfitting",
+    "Whether new factors will emerge from alternative data sources that survive HLZ thresholds"
+  ],
+  "related_concepts": [
+    "carry_sharpe_structural_decline",
+    "carry_momentum_correlation_regime_switch",
+    "g10_fx_pca_stress_collapse"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

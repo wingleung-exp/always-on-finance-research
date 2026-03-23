@@ -991,5 +991,484 @@
     ],
     "topic": "ai_and_tech_disruption",
     "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "Credit spreads always lead equity in signaling risk-off transitions",
+    "reason": "Post-2020 evidence falsifies this sequencing. Fed credit facilities, CLO structural bid, and private credit absorption have structurally altered credit market dynamics, breaking the historical lead-lag relationship. Credit now often lags equity signals due to these structural support mechanisms.",
+    "refuted_by": [
+      "credit_analyst",
+      "cross_asset_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "r-star (natural rate of interest) can be used as a real-time threshold for policy assessment",
+    "reason": "Operationally vacuous — the 300bp confidence interval around r-star estimates makes it useless as a real-time decision variable. The uncertainty band is wider than the typical policy-relevant range, rendering any threshold-based framework built on r-star non-actionable.",
+    "refuted_by": [
+      "rates_strategist",
+      "macro_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Risk-off episodes are uniformly getting shorter over time",
+    "reason": "2022 falsifies this claim with a sustained multi-quarter drawdown across both equities and bonds. The original claim relied on selective post-GFC sampling that excluded the 2022 episode and cherry-picked recovery speeds during a period of unprecedented monetary accommodation.",
+    "refuted_by": [
+      "cross_asset_strategist",
+      "volatility_analyst"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "$6.5T money market fund balances represent a reliable demand buffer for risk assets",
+    "reason": "Decomposition problem — the aggregate headline figure includes institutional cash management allocations, regulatory liquidity buffers, and other non-discretionary holdings that will not rotate into risk assets regardless of conditions. Taking the $6.5T at face value dramatically overstates the marginal demand available for risk asset rotation.",
+    "refuted_by": [
+      "macro_strategist",
+      "cross_asset_strategist"
+    ],
+    "topic": "risk_appetite_regimes",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "The CIP basis is a reliable 1-3 day leading indicator for cross-asset stress.",
+    "reason": "Self-contradictory assessment: rated 8/10 while simultaneously flagging need for 'more rigorous testing.' Leading indicator property holds only at extreme levels (-80bp+), making it a crisis indicator, not a general leading indicator. Mechanism survives at 8/10; leading indicator property revised to 5/10.",
+    "refuted_by": [
+      "generalist_01",
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The EM carry basket (long BRL/MXN, short TRY/INR) provides a 'built-in hedge' against dollar-commodity dynamics.",
+    "reason": "Correlation structure between long and short legs is regime-dependent. During March 2020 liquidity events, the BRL-TRY spread compressed as all EM currencies sold off together. The hedge fails precisely in the tail events it is designed to protect against.",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The DXY exhibits statistically significant 15-17 year super-cycles.",
+    "reason": "Monte Carlo permutation test yields p=0.22 with zero residual degrees of freedom (3 observed cycles, 3 estimated parameters). Hurst exponent of 0.62 shows mild mean-reversion consistent with PPP, not cyclicality. Dollar super-cycle is a narrative organizing device, not a statistical finding. Any strategy built on 'the dollar cycle' should be discounted.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ]
+  },
+  {
+    "claim": "The Bundesbank post-reunification tightening (1990-92) is 'the closest historical analogue' to BoJ normalization.",
+    "reason": "Fundamental differences: Bundesbank tightened aggressively into a fixed exchange rate regime (ERM); BoJ is normalizing glacially in a free-floating regime. The ERM crisis was about institutional incompatibility; BoJ normalization is about catch-up. The originator's own 2004-07 analogue (7.5 similarity) is actually better than the Bundesbank (6.0). Downgraded from 7/10 to 5/10 (illustrative only).",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "Carry is 'the single most potent generator of leveraged positioning in global markets.'",
+    "reason": "The Treasury basis trade ($800B-$1T at 50-100x leverage), equity margin lending, credit derivatives, and interest rate swaps all generate more leveraged positioning by notional. FX carry is a significant source of leveraged positioning but calling it the most potent is unsupported hyperbole.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "The dollar smile theory is 'unfalsifiable.'",
+    "reason": "The framework is falsifiable in specific form — it predicts dollar weakness in moderate economic conditions. The low predictive value critique survives; the unfalsifiability claim does not. The dollar smile is hard to test and low-information, but not impossible to test.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Crisis-regime carry Sharpe ratio of -1.0 to -2.0.",
+    "reason": "Conflates individual pair-level blowups (USD/JPY October 1998) with diversified G10 HML carry factor returns. Actual factor data shows mean -1.18%/month above vol threshold with max -12.3% single month, which is more consistent with diversified factor returns. Original claim overstated severity by approximately 2-3x.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "pair_2_debate"
+    ]
+  },
+  {
+    "claim": "Stocks-to-use ratios in key grains predict CIP deviations with 3-6 month lead.",
+    "reason": "Conflates correlation during extreme events with systematic prediction. CIP deviations have well-established financial explanations (Basel III balance sheet constraints) that must be ruled out before positing agricultural causes. Cherry-picked examples from Chile/copper and Brazil/soybeans. Remains an untested hypothesis requiring out-of-sample validation.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  },
+  {
+    "claim": "Specific peg-break probability estimates: HKD 5-8%, CNY 3-5%, SAR 2-4%.",
+    "reason": "False precision without disclosed methodology. Inconsistent with Meese-Rogoff finding that no model demonstrates forecasting skill at these horizons. The qualitative vulnerability assessment (which pegs are stressed and why) survives; the specific probability numbers are unsupported.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Food inflation '2-4x multiplier' from EM vs DM rate differential shifts.",
+    "reason": "Too imprecise to be analytically useful. Egypt implies a multiplier far exceeding 4x; Brazil might produce barely 1.5x given food self-sufficiency. The directional claim is correct but the quantification compresses a highly nonlinear, country-specific relationship into a misleading single range.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  },
+  {
+    "claim": "Fed monetary policy regime conditions ALL FX factor returns (carry, value, and momentum).",
+    "reason": "After orthogonalizing against dollar returns, value conditioning vanishes (F=1.3, p=0.27) and momentum conditioning vanishes (F=0.9, p=0.41). Only carry conditioning survives (F=5.2, p=0.006). The original claim conflated Fed policy with dollar dynamics. Value and momentum apparent conditioning was entirely a dollar-regime artifact.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The ~9.5% FX vol threshold is an actionable trading or hedging signal for timing carry exposure.",
+    "reason": "The relationship is partly tautological — carry drawdowns ARE high-vol events by definition. Out-of-sample vol-timing Sharpe improvement degrades from 0.2-0.4 to 0.05-0.15 and becomes statistically insignificant after transaction costs. By the time realized vol reaches 9.5%, the initial carry drawdown has already occurred. The threshold remains useful only as a risk management monitoring heuristic.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The JPY carry unwind reflexive loop has no natural circuit breaker.",
+    "reason": "August 2024 itself demonstrated a circuit breaker: 30-60% of positions liquidated, markets recovered within weeks, and the BoJ paused normalization. Central banks routinely pause without permanent credibility damage (Fed 2019 pivot, BoE 2022 gilt intervention). If the BoJ paused and the crisis resolved, the BoJ reaction function IS the circuit breaker. However, the circuit breaker activates after initial damage, and reliability under more extreme stress is untested.",
+    "refuted_by": [
+      "challenger_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Q3 (July-September) represents a specific, novel seasonal timing signal for carry fragility.",
+    "reason": "The 5/6 episode clustering is confounded by subjective episode selection (ERM 1992 is a peg break not a carry unwind; taper tantrum started in May), non-independence of events, and summer liquidity effects that are already known and separate from carry dynamics. Summer liquidity thinning amplifies carry unwind severity (valid, well-documented by BIS), but this is a separate, already-known insight, not a novel carry-specific seasonality finding.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Gold-TIPS divergence serves as an amber signal for dollar regime change within the dollar trap monitoring framework.",
+    "reason": "The gold-TIPS correlation erosion (r approximately -0.65 vs pre-2022 r approximately -0.80) is explained by a known, specific factor (central bank gold purchases of ~1,000-1,100 tonnes/year driven by sanctions risk) rather than the hypothesized factor (loss of confidence in dollar reserve status). The indicator is not signaling what was claimed. Dollar trap monitoring framework should read 0/3 signals triggered, not 0 red + 1 amber.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The carry trade's return profile is comparable to equity investing.",
+    "reason": "True only for the unlevered academic carry factor. The actual institutional carry trade at 5-20x leverage transforms a -15% underlying move into -150% to -600% capital destruction. The comparison table conflated unlevered and levered carry without separating leverage effects. The steamroller metaphor is wrong for unlevered carry and right for levered carry.",
+    "refuted_by": [
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Three-way central bank divergence statistically produces larger FX moves than two-way divergences (3/4 episodes).",
+    "reason": "No comparison set of two-way divergences was provided. No base rate for large FX moves in any random period. The unconditional probability of outsized FX moves may be ~40-50%, making 3/4 barely distinguishable from noise at n=4. The concentration-of-carry-capital mechanism is theoretically sound but empirically unvalidated.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The six-stage carry unwind sequence exhibits consistent regularity across 6+ episodes.",
+    "reason": "Diverse episodes were shoehorned into a template: 2013 was primarily EM rates/bonds not carry; August 2024 skipped the cross-asset contagion stage; 2018 was concentrated in TRY/ARS. The credit-cycle turning-point binary discriminator is the more useful and better-supported classification than the sequential stages.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Caloric Concentration Index predicts 2-3x higher FX volatility during crop stress for calorically concentrated importers.",
+    "reason": "A claim presented with a specific multiplier (2-3x) that the author admits is untested should not carry meaningful confidence. It is a hypothesis, not a finding. The framework concept is potentially valuable but requires cross-country empirical validation across multiple crop stress episodes before quantitative claims are warranted.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Relative value scorecard can provide specific Sharpe ratios to two decimal places across asset classes for positioning.",
+    "reason": "EM local-currency bond Sharpe of 0.5-0.8 depends on dollar stability, which is the very question the analysis is trying to answer. Short-duration credit Sharpe of 1.2-1.5 assumes no credit cycle turn, which the analysis itself flags as a risk. The ranking of G10 carry at the bottom survives as directionally valid, but the specific numbers are illustrative, not analytical.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The credit cycle discriminator achieves 'perfect classification' between contained and systemic carry unwinds.",
+    "reason": "With n=5 episodes and 3-5 candidate discriminators tested, probability of at least one achieving perfect separation by chance exceeds 25%. The definition of 'credit cycle turning point' is retrospectively assigned and unfalsifiable. The 2022 JPY carry drawdown is a potential out-of-sample miss. The qualitative mechanism survives but the statistical classification claim is dead.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The compressed spring p-value of p<0.001 (Fisher's exact test) survives correction for multiple hypothesis testing.",
+    "reason": "Both the rate divergence threshold and vol condition threshold were selected post-hoc from continuous variables, creating at minimum 4 degrees of freedom. The Hansen (1996) test was designed for a single break point in a univariate context, not a bivariate joint condition. Under HLZ-adjusted significance thresholds, the signal likely does not clear t-stat of 3.0. The directional finding survives; the specific p-value does not.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "CIP basis is the 'highest-fidelity early warning indicator' for carry crises.",
+    "reason": "No ROC curve, precision-recall analysis, or false positive rate is provided. With ~5% crisis base rate and ~15-20% signal-firing rate, positive predictive value cannot exceed ~25% even if the signal is genuinely informative. The 2-4 week lead time is measured without specifying threshold or counting false alarms. The basis has real-time stress measurement properties but the 'early warning' and 'highest-fidelity' framings are unsupported.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The vol threshold of 9.5% merits 8.5/10 confidence as claimed by quant_researcher_02.",
+    "reason": "Carry drawdowns mechanically produce elevated realized vol (a 15% unwind over 4 weeks contributes ~40-60% annualized vol), creating a partial tautology. 'Carry performs badly when vol is high' partially reduces to 'carry performs badly when carry has recently performed badly.' The t-stat drops from 3.87 to ~2.0-2.5 after removing carry-attributable vol. The endogeneity was never addressed. Appropriate confidence: ~6.5/10.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The Kelly criterion framework produces a meaningful constraint on convexity allocation under the compressed spring.",
+    "reason": "The analysis calculates f*=0.55, applies half-Kelly (~27%), then quarter-Kelly (~14%), then recommends 5-8% — a three-step retreat from the model output. Kelly requires well-estimated probability (CI [36%, 83%]), well-estimated payoff ('5-12x' range), and repeated independent bets (compressed spring is a one-shot event). With full uncertainty, allocations range from ~5% to ~60%, providing no constraint. The recommendation is justified by institutional intuition, not the Kelly framework.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The credit-carry lag has systematically compressed from 6-9 months to 3-4 days due to algorithmic position management.",
+    "reason": "The five episodes (1998, 2007-08, 2015, 2020, 2024) are fundamentally different shock types — sovereign default, structured credit, equity crash, pandemic, macro data + BoJ. Declining lag is more parsimoniously explained by shock type (pandemic is inherently faster than slow-building subprime) than market evolution. The 2007-08 entry shows both a 6-month and 1-week lag, demonstrating lag depends on signal clarity, not market speed.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The dual commodity channel model explains '15-25% more REER variance' than the single-factor commodity ToT model.",
+    "reason": "Presented as a finding but is actually an unestimated conjecture. Supporting evidence is a single case study (Egypt 2022) and a theoretical table. No panel regression is run or cited. The qualitative distinction between energy (current account) and agricultural (inflation expectations) channels is sound; the specific quantitative improvement claim is fabricated precision.",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "'Exactly five' prior compressed spring episodes constitute an exhaustive analogue set.",
+    "reason": "The identification criteria (rate divergence in top percentiles + FX vol below average) are continuous, not binary. Episode count depends entirely on threshold placement. 1992-93 (ERM crisis), 2013-14 (Fed taper), and other periods may qualify depending on cutoffs. The qualitative sequencing insight is valuable but should be framed as 'observations from a handful of similar episodes' rather than an exhaustive set.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "Equity, rates, and credit cannot all be correct simultaneously (strong form trilemma)",
+    "reason": "The winner-take-all scenario allows all three markets to be approximately right: concentrated AI value capture justifies Mag-7 multiples, absence of economy-wide productivity diffusion leaves r* unchanged, no immediate incumbent disruption keeps credit tight. Historical support from 4/5 GPT analogues where builders captured less value than users. The strong trilemma is wrong; the weaker monitoring tension survives.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Mag-7 represent ~30% of IG corporate bond outstanding",
+    "reason": "Combined tech outstanding debt ~$300-400B against a $7-8T IG market = 4-5%, not 30%. The agent's own supporting evidence (spread impact of only 5-10bp from removal) is consistent with 4-5%, contradicting the 30% headline. Likely a conflation of market cap weight with debt weight.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Regime-hedged portfolio achieves Sharpe ratio of 0.6-0.9",
+    "reason": "Every leg bleeds carry: short rates (negative carry in upward-sloping curve), long puts (negative theta), long CDS on disrupted sectors (negative carry at tight spreads), long single-stock/short index vol (historically negative carry from overwriter supply). Realistic Sharpe for relative-value convergence trades with uncertain timing: 0.2-0.4.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "S&P 500 returns driven by falling real rates",
+    "reason": "Real rates rose from ~1.2% (Jan 2023) to ~2.1% (current). Multiple expansion occurred despite rising real rates, driven by ERP compression for perceived AI beneficiaries. The agent's own ERP analysis provides the correct explanation, directly contradicting the falling real rates claim.",
+    "refuted_by": [
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Hyperscaler accruals deterioration as Sloan-type operating accruals signal",
+    "reason": "Sloan (1996) studied operating accruals (working capital, receivables, inventory). The FCF compression here is driven by investment accruals (capex). The distinction matters for predictive mechanism and timescale. The underlying concern (FCF compression) is valid; the academic backing from Sloan is overstated.",
+    "refuted_by": [
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Activision acquisition ($69B) classified as AI-related goodwill",
+    "reason": "Activision was acquired for gaming franchises (Call of Duty, WoW, Candy Crush) and mobile distribution, not AI. Reclassifying $69B as AI-related inflates the goodwill impairment risk estimate and undermines the $300-500B aggregate figure.",
+    "refuted_by": [
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "DXY correction to low 80s (20-25% decline) on AI capex reversal",
+    "reason": "Starting conditions differ materially from 2001: current dollar overvaluation less extreme (8-15% BEER vs larger then), US now net energy exporter, eurozone structural weakness worse than 2002. EUR/USD at 1.40-1.50 requires a eurozone growth renaissance no agent identifies as plausible. Directional claim (eventual correction) defensible; magnitude not.",
+    "refuted_by": [
+      "fx_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Services export disruption as sudden stop risk for Philippines/India",
+    "reason": "Sudden stop (Calvo 1998) refers to abrupt capital account reversals, not gradual current account erosion. AI automation of BPO is a slow structural decline in comparative advantage — the opposite of sudden. The agent's own confidence section concedes 'could be 3 years or 15 years,' directly contradicting the sudden stop framing.",
+    "refuted_by": [
+      "fx_strategist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "10Y yields to 5.5-6.0% under positive AI productivity scenario",
+    "reason": "Mechanically applies Golden Rule (r* ≈ trend growth) without accounting for its documented breakdown since 2000s. Trend growth ~3.5% in late 1990s coexisted with 10Y at 5.5-6.0%, but trend growth ~2.5% in 2017-19 coexisted with 10Y at 2.0-3.0%. A 50-75bp increase to 5.0-5.25% would be more defensible.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "AI energy channel as underappreciated for FX",
+    "reason": "Incremental AI energy demand for Germany's data centers is perhaps EUR 2-5B of EUR 100-150B total energy bill (2-4%, well under 0.1% GDP). AI copper demand at 2-5% of global consumption by 2030. The channel exists but is too small to be 'underappreciated' — it is appropriately priced as second-order.",
+    "refuted_by": [
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Cardinal similarity scores for historical analogues (0.78, 0.65, 0.55, 0.52, 0.42) as precise quantitative measures",
+    "reason": "Subjective assessments presented as quantitative outputs. The difference between 0.55 and 0.52 (railroads vs PC/IT) is meaningless noise. The ordinal ranking is defensible; the cardinal scores create false confidence and precision where none exists.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Gold's $400-600/oz residual implies 60-70% market probability of fiscal dominance within 5 years.",
+    "reason": "Regression residual cannot be attributed to single narrative without testing alternatives. Post-sanctions reserve diversification is equally plausible. Implied probability uses arbitrary sensitivity coefficients (20% change shifts probability 15-25pp). Gold models degrade 40-60% out-of-sample. 95% CI on fiscal attribution is approximately [15%, 85%].",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "120-280bp of term premium is attributable to current fiscal posture.",
+    "reason": "Linear extrapolation (20-40bp × 6-7pp deficit) contradicts the stated nonlinearity claim. Only the above-threshold portion should use the steep-regime elasticity. Arithmetic error inflates estimate by ~40-60%. Corrected range: approximately 60-160bp.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "Quality factor premium expands 2-3x under fiscal dominance.",
+    "reason": "Based on Japan (n=1 with confounding from deflation, demographics, corporate governance) and a 'partially confirmed' 2022 episode with contested attribution. By quantitative framework's own standards, a specific magnitude from n=1 should be 3-4/10. The directional claim survives but the '2-3x' multiplier is false precision.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "UK 2022 (Truss) is a predictive analogue for US fiscal trajectory.",
+    "reason": "£2.5T gilt market vs. $27T Treasury market. LDI concentration has no US equivalent. UK lacks reserve currency status. Episode was a specific policy error resolved by reversal in days, not a debt sustainability crisis. Only the speed of credibility evaporation (~100bp in days) is transferable.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "Natural gas is a 'second-order fiscal dominance play' with a $3.00-3.50 Henry Hub floor.",
+    "reason": "Defense spending → gas demand link is hand-waved (military procurement ≠ direct gas consumption). LNG expansion is supply-driven and predates fiscal dominance thesis. Price floor asserted without supply-demand model.",
+    "refuted_by": [
+      "commodities_analyst_02",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "Gold residual decomposition: 60% reserve diversification / 25% fiscal dominance / 15% momentum.",
+    "reason": "Model-dependent with $200+ specification sensitivity. Re-specifying with sanctions-era dummy absorbs $150-250 of residual, dramatically shifting decomposition. False precision from inherently ambiguous attribution.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "Specific 4-6 quarter lag from fiscal consolidation to credit downshift.",
+    "reason": "Actual historical range is 2 quarters (UK 2010-11) to 8+ quarters (Canada 1990s). The central estimate restates 'we don't know when' in quantitative clothing. Not usable as a calibrated parameter.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "Fed Reserve Management Purchases represent 'the earliest stage of fiscal dominance pathway.'",
+    "reason": "$40B/month in T-bill purchases for reserve adequacy management is operationally distinct from yield curve control or QE. Conflating reserve management with fiscal accommodation requires a much stronger argument. The Fed has historically managed reserve levels without fiscal subordination.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "60% transition probability within 15 years from early-stage to entrenched fiscal dominance.",
+    "reason": "Derived from 3/5 DM cases. With n=5 and massive structural heterogeneity, the CI spans roughly 20-90%. The directional claim (early signals more often than not progress) is defensible; the specific 60% is not statistically meaningful.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "claim": "The 1940s is 'the most relevant commodity analogue' for current fiscal dominance.",
+    "reason": "Self-refuting: rated 5/10 by originator with four explicit structural disanalogies (Bretton Woods, post-war reconstruction, fixed gold, no futures markets). An analogue labeled 'most relevant' while the author's own confidence is 50% is an internal contradiction.",
+    "refuted_by": [
+      "challenger_02",
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
   }
 ]

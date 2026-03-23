@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "vta_carry_vulnerability_assessment",
+    "purpose": "Track in real time when carry trades are vulnerable to systemic unwind by monitoring four prerequisite conditions simultaneously.",
+    "components": [
+      "Rate divergence extreme: DM rate differentials at 85th-97th percentile of post-1990 distribution",
+      "Vol suppression: G10 implied vol at 7-9%, below the ~9-10% regime threshold",
+      "Positioning overhang: Carry-to-vol ratios at 90th+ percentile, crowding at 65th-75th percentile; carry as latent short-vol (~$4-6T notional)",
+      "Credit cycle state: Credit conditions as amplifier/dampener of unwind severity; currently in intermediate zone"
+    ],
+    "current_assessment": "All four VTA prerequisites are currently satisfied. This is the most complete alignment of prerequisites in the available sample. Rate divergence extreme, vol suppressed, positioning elevated, credit cycle intermediate. However, individual base rates carry wide confidence intervals and the joint distribution is uncharacterized.",
+    "limitations": [
+      "Individual base rates carry wide confidence intervals",
+      "No joint probability distribution framework combining the four conditions (quant_researcher_01)",
+      "Individual marginal risk statistics are nearly useless when indicator correlations are high and state-dependent",
+      "The reference distribution for 'extreme' divergence may not be stationary (KD5)"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "compressed_spring_detection",
+    "purpose": "Identify conditions where extreme DM rate divergence combined with suppressed FX vol creates materially elevated probability of outsized G10 FX pair moves within 12 months.",
+    "components": [
+      "DM rate divergence: percentile ranking in post-1990 distribution (currently 85th-97th percentile)",
+      "FX vol condition: realized and implied G10 vol relative to ~9-10% threshold (currently 7-9%)",
+      "Carry-to-vol ratio: current readings at 90th+ percentile in USD/CHF and USD/JPY",
+      "Historical base rate: ~8-12 effective independent episodes, CI [26%, 88%] for 20%+ moves",
+      "August 2024 out-of-sample validation"
+    ],
+    "current_assessment": "Spring currently compressed. Directional risk elevated with CI lower bound 2.5-3.3x unconditional probability. The 61% point estimate is inflated by small-sample inference and post-hoc threshold selection. Point estimates should not be used for position sizing; the directional finding supports convexity-seeking strategies.",
+    "limitations": [
+      "Effective independent episodes n≈8-12 with 95% CI of [26%, 88%]",
+      "Post-hoc threshold selection on two continuous variables inflates significance",
+      "P-value of p<0.001 does not survive HLZ multiple-testing correction",
+      "Reference distribution stationarity is unresolved (KD5)",
+      "Kelly framework produces allocation range of 5-60%, providing no meaningful constraint"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "em_carry_factor_decomposition",
+    "purpose": "Separate the genuine EM carry premium from dollar beta and credit risk exposure to determine whether residual 'pure' carry compensates for tail risk.",
+    "components": [
+      "Dollar beta attribution: ~40-50% of gross EM carry returns (47% primary estimate)",
+      "Credit beta attribution: ~23% of gross EM carry returns",
+      "Residual 'pure' carry: Sharpe 0.15-0.30 with confidence interval including zero",
+      "Survivorship bias adjustment: estimated 30-40% degradation of reported Sharpe",
+      "Power analysis: 520 monthly observations needed for 80% power at Sharpe 0.22"
+    ],
+    "current_assessment": "EM carry is predominantly leveraged dollar-short plus credit risk exposure. The existence of a genuine carry premium independent of these factors is an unresolved empirical question, not an established fact. The data structurally cannot answer whether the pure premium exists.",
+    "limitations": [
+      "Structurally underpowered: 520 months needed vs ~240 available",
+      "Survivorship bias of 30-40% further degrades estimates",
+      "Dollar beta may be time-varying across monetary policy regimes",
+      "Only ~6 EM currencies with sufficient data quality"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "fx_factor_zoo_pruning",
+    "purpose": "Identify which FX factors survive rigorous multiple-testing thresholds (Harvey-Liu-Zhu) to distinguish genuine risk premia from data-mined noise.",
+    "components": [
+      "HLZ threshold: t-stat ≥ 3.0 for credibility",
+      "Dollar factor (PC1): survives with robust out-of-sample evidence",
+      "Carry factor: t-stat 3.5-5.0 across specifications — survives",
+      "Momentum factor: t-stat 2.5-3.5 — survives",
+      "PPP value factor: t-stat 1.5-2.5 — marginal, fails threshold",
+      "Spanning regressions: exotic factors subsumed by carry + momentum"
+    ],
+    "current_assessment": "Three-factor model (dollar, carry, momentum) is the empirically defensible minimum. Multi-factor FX products based on exotic factors (output gap, external balance, Taylor rule residual) are selling noise. Static diversified factor harvesting with vol targeting dominates dynamic timing for most institutional horizons.",
+    "limitations": [
+      "HLZ is conservative and may over-prune factors with genuine but weaker signals",
+      "Three surviving factors collapse to ~1.2-1.5 effective factors during stress (PCA collapse)",
+      "Factor timing skepticism: theoretical IR 0.3-0.5 degrades to implementable 0.1-0.2"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "dual_commodity_fx_channel",
+    "purpose": "Distinguish between energy (current account) and agricultural (inflation expectations) channels of commodity-to-FX transmission for proper country-specific risk assessment.",
+    "components": [
+      "Energy channel: operates through current account balance, 1-3 month transmission lag, dominant for energy-intensive economies (JPY, EUR, NOK)",
+      "Agricultural channel: operates through inflation expectations and central bank reaction functions, 3-12 month lag, dominant for food-importing EMs (EGP, PKR, BDT, with 30-50% CPI food weights)",
+      "Interaction effects: alignment amplifies FX moves 2-3x; conflict partially cancels",
+      "Commodity export threshold: ~15% of GDP determines which channel dominates"
+    ],
+    "current_assessment": "Energy leg loosening (OPEC+ surplus, oil heading to 0.5-1.0mb/d surplus by Q4 2026). Agricultural leg tightening (thin crop buffers on convex price-stocks curve). Net vulnerability requires integrating both channels with proper weights — currently impossible due to missing framework.",
+    "limitations": [
+      "Quantitative improvement claim (15-25% more REER variance) is unsubstantiated",
+      "15% GDP threshold may be an approximation rather than empirically validated (BIS citation vague)",
+      "Denominator neglect: partial R² after dollar control never reported (KD6)",
+      "Country-specific segmentation by relative energy vs agricultural import shares not performed"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "frontier_to_core_cascade_monitor",
+    "purpose": "Track propagation of EM stress from frontier to core economies using historical lag patterns, twin-deficit vulnerability filters, and push/pull classification.",
+    "components": [
+      "Historical lag: 3-6 month propagation from frontier to core across four episodes (2013, 2015-16, 2018, 2022)",
+      "Twin-deficit filter: CA deficit + fiscal deficit >5% of GDP flags vulnerable core EMs",
+      "Push vs pull classification: Fed hiking (push) vs commodity shock (pull) affects severity and speed",
+      "Currently flagged core EMs: Turkey, Colombia, Chile"
+    ],
+    "current_assessment": "Month 2-4 of predicted cascade sequence. Frontier stress (Egypt, Pakistan, Nigeria) is food-security-driven (atypical vs prior financial-imbalance-driven episodes). Current Fed hold may lengthen lag and reduce severity vs 3/4 prior episodes where Fed was actively hiking.",
+    "limitations": [
+      "Only 4 historical episodes for calibration",
+      "Current stress is food-security-driven vs financial-imbalance-driven in prior episodes",
+      "Fed hold fundamentally differs from prior hiking episodes",
+      "3-6 month lag may not be stable across different shock types"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "dollar_trap_monitoring_dashboard",
+    "purpose": "Track Triffin tipping point risk and dollar reserve substitution in real time using structured, observable indicators.",
+    "components": [
+      "COFER USD share: declining from 59.5% to ~57.8% (amber)",
+      "Central bank gold purchases: 1,000+ tonnes annually, ~$50-70bn/year USD substitution (amber)",
+      "SWIFT settlement share and CIPS data: incomplete coverage, no signal (green)",
+      "Cross-currency basis: monitoring for dollar demand stress signals"
+    ],
+    "current_assessment": "Dashboard shows 2 amber, 1 green. Direction of travel (declining USD share) is probably correct. Pace and significance are likely overstated: against daily FX turnover of $7.5T+, annual reserve substitution flow is noise. Cross-asset implications predicted by the thesis have not materialized.",
+    "limitations": [
+      "SWIFT coverage issues and CIPS incompleteness create significant data gaps",
+      "Annual substitution flow is noise relative to daily FX turnover",
+      "Central bank gold purchases could reflect sanctions hedging rather than systemic dollar abandonment",
+      "Predicted cross-asset implications (basis narrowing, term premium expansion) have not materialized"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "slug": "boj_cumulative_probability",
+    "purpose": "Estimate cumulative probability of carry disruption across multiple BoJ normalization steps, accounting for serial dependence and survivor leverage bias.",
+    "components": [
+      "Per-step base rate: 10-15% point estimate, CI [2%, 35%] (Clopper-Pearson)",
+      "Serial dependence: surviving positions are selection-biased toward higher leverage after each step",
+      "Step count: 4-6 expected normalization steps toward policy rate of 1.0%+",
+      "2006-07 analogue: only historical template (foreshock July 2006 → main event August 2007, 13-month interval)"
+    ],
+    "current_assessment": "Cumulative disruption probability estimated at 35-55% across remaining steps. Direction is clear but precision is illusory. Per-step CI width makes point estimates nearly uninformative for portfolio sizing. The compounding logic (survivor leverage bias) is sound as a qualitative mechanism.",
+    "limitations": [
+      "Per-step CI of [2%, 35%] is nearly uninformative for portfolio sizing",
+      "'Foreshock' metaphor imports seismological regularity that doesn't apply to markets",
+      "BoJ has been the 'graveyard of hawkish forecasts' for 30 years",
+      "Only one historical analogue (2006-07) for calibration",
+      "Independence assumption between steps may not hold in either direction"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  }
+]

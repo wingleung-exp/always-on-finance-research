@@ -1,0 +1,20 @@
+{
+  "concept_a": "cross_currency_basis_stress_indicator",
+  "concept_b": "swap_line_capacity_mismatch",
+  "mechanism": "Basis widening reflects dollar funding stress that would trigger swap line activation, but authorized capacity (~$600B) cannot meet potential demand ($4T+). The basis is the observable surface manifestation of the underlying structural capacity mismatch.",
+  "direction": "correlated",
+  "confidence": 7.0,
+  "regime_dependence": "Relevant during dollar funding stress episodes; dormant in normal funding conditions.",
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

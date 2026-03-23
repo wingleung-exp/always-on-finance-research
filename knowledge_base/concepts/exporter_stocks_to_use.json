@@ -1,0 +1,32 @@
+{
+  "slug": "exporter_stocks_to_use",
+  "definition": "Exporter stocks-to-use (not global) is the relevant vulnerability metric for agricultural supply shocks. Global wheat stocks-to-use at ~32.7% looks comfortable, but major exporter stocks-to-use is only ~16%. Non-linear price response at low exporter stocks: 5% production shortfall triggers 30-50% price spike.",
+  "confidence": 7,
+  "evidence": [
+    "Global wheat stocks-to-use ~32.7% vs. exporter stocks-to-use ~16%",
+    "Non-linear price response: 5% shortfall → 30-50% price spike",
+    "One of the most robust empirical relationships in commodity markets",
+    "Not yet corroborated by other agents"
+  ],
+  "originating_agents": [
+    "commodities_analyst_02"
+  ],
+  "open_questions": [
+    "How do exporter stocks-to-use interact with trade policy under fiscal stress?",
+    "What is the threshold level for exporter stocks-to-use that triggers non-linear dynamics?",
+    "Are current stock levels trending toward or away from vulnerability?"
+  ],
+  "related_concepts": [
+    "agricultural_supply_shock_trilemma",
+    "demand_destruction_thermostat_break",
+    "biofuel_mandate_inflation_ratchet"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

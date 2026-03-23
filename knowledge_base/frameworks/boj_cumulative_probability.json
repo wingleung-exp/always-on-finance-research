@@ -1,0 +1,26 @@
+{
+  "slug": "boj_cumulative_probability",
+  "purpose": "Estimate cumulative probability of carry disruption across multiple BoJ normalization steps, accounting for serial dependence and survivor leverage bias.",
+  "components": [
+    "Per-step base rate: 10-15% point estimate, CI [2%, 35%] (Clopper-Pearson)",
+    "Serial dependence: surviving positions are selection-biased toward higher leverage after each step",
+    "Step count: 4-6 expected normalization steps toward policy rate of 1.0%+",
+    "2006-07 analogue: only historical template (foreshock July 2006 → main event August 2007, 13-month interval)"
+  ],
+  "current_assessment": "Cumulative disruption probability estimated at 35-55% across remaining steps. Direction is clear but precision is illusory. Per-step CI width makes point estimates nearly uninformative for portfolio sizing. The compounding logic (survivor leverage bias) is sound as a qualitative mechanism.",
+  "limitations": [
+    "Per-step CI of [2%, 35%] is nearly uninformative for portfolio sizing",
+    "'Foreshock' metaphor imports seismological regularity that doesn't apply to markets",
+    "BoJ has been the 'graveyard of hawkish forecasts' for 30 years",
+    "Only one historical analogue (2006-07) for calibration",
+    "Independence assumption between steps may not hold in either direction"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

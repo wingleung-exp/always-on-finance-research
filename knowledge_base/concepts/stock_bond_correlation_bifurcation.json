@@ -1,0 +1,34 @@
+{
+  "slug": "stock_bond_correlation_bifurcation",
+  "definition": "A maturity-dependent correlation regime where 2Y-SPX correlation is negative (-0.15 to -0.30, reflecting Fed credibility) while 30Y-SPX correlation is positive (+0.05 to +0.15, reflecting fiscal supply dynamics). This bifurcation is a leading indicator of fiscal dominance. Falsifiable prediction: when 2Y-SPX correlation turns positive, the regime has fully shifted.",
+  "confidence": 7,
+  "evidence": [
+    "2Y-SPX correlation: -0.15 to -0.30",
+    "30Y-SPX correlation: +0.05 to +0.15",
+    "Independently confirmed by two agents (generalist_01 and quant_researcher_02)",
+    "Pair_0 identified as 'specific, testable, and genuinely original claim'",
+    "Falsifiable prediction provides disconfirmation criteria"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Over what time window should the correlation be measured for regime identification?",
+    "What is the noise-to-signal ratio in real-time correlation tracking?",
+    "Does the bifurcation persist across different volatility regimes?"
+  ],
+  "related_concepts": [
+    "term_premium_fiscal_signal",
+    "fiscal_dominance_as_regime_variable",
+    "carry_trap"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

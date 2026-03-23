@@ -1,0 +1,39 @@
+{
+  "slug": "term_premium_fiscal_signal",
+  "definition": "The term premium is the primary market-based signal of fiscal dominance progression. ACM term premium swung from -50bp (2020) to +50-100bp (early 2026). The velocity of term premium change is more operationally useful than the absolute level for regime identification.",
+  "confidence": 7,
+  "evidence": [
+    "ACM term premium: -50bp (2020) to +50-100bp (early 2026)",
+    "Pre-QE regression: 20-40bp per 1pp deficit/GDP above ~3-4% structural threshold",
+    "UK Truss validated supply channel out-of-sample (~100bp in 4 days)",
+    "Clinton 1993 consolidation validated reverse direction (80-100bp compression)",
+    "Post-QE structural break is severe; QT-era sample (~3 years) too short for reliable re-estimation"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Where is the specific threshold level for term premium that signals regime shift?",
+    "How should the post-QE structural break be incorporated into estimation?",
+    "Is the QT-era sample sufficient for any reliable re-estimation?"
+  ],
+  "related_concepts": [
+    "term_premium_velocity",
+    "stock_bond_correlation_bifurcation",
+    "doom_loop",
+    "bimodal_transition_distribution",
+    "us_fiscal_unprecedented_configuration"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

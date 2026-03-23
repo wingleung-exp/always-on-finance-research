@@ -1,0 +1,19 @@
+{
+  "concept_a": "boj_normalization_cumulative_risk",
+  "concept_b": "jgb_fx_vol_divergence_trade",
+  "mechanism": "JGB swaption vol correctly prices BoJ uncertainty while USD/JPY vol is suppressed by carry flows, creating a cross-asset mispricing. BoJ normalization would resolve the divergence through higher USD/JPY vol.",
+  "direction": "a_causes_b",
+  "confidence": 7.0,
+  "regime_dependence": "Divergence persists as long as carry flows suppress FX vol; resolves when BoJ acts decisively or carry positions unwind.",
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

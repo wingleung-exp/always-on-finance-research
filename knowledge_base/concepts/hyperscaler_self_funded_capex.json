@@ -1,0 +1,40 @@
+{
+  "slug": "hyperscaler_self_funded_capex",
+  "definition": "Hyperscaler AI capex is funded from operating cash flows (hedge finance in Minsky's taxonomy), structurally different from the debt-funded telecom boom of 2000. Microsoft OCF ~$100B/capex ~$55-65B; Google OCF ~$90-100B/capex ~$50-55B; Amazon OCF ~$85-95B/capex ~$55-65B; Meta OCF ~$65-75B/capex ~$40-45B. All are FCF-positive with combined cash positions ~$300B+.",
+  "confidence": 8,
+  "evidence": [
+    "Microsoft: OCF ~$100B, capex ~$55-65B (FCF-positive)",
+    "Google: OCF ~$90-100B, capex ~$50-55B (FCF-positive)",
+    "Amazon: OCF ~$85-95B, capex ~$55-65B (FCF-positive)",
+    "Meta: OCF ~$65-75B, capex ~$40-45B (FCF-positive)",
+    "Combined cash positions ~$300B+",
+    "Pair_3 debate confirmed both sides agreed on hedge finance classification"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "challenger_02",
+    "generalist_02",
+    "equity_analyst_02",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Does hedge finance status prevent value destruction if ROIC on AI capex stays below WACC?",
+    "What triggers voluntary capex rationalization absent the forced liquidation mechanism of debt-funded booms?",
+    "Is the Minsky classification adequate or does value-destructive-but-solvent require a new category?"
+  ],
+  "related_concepts": [
+    "ai_capex_revenue_validation_gap",
+    "ai_capex_roic_dilution",
+    "mid_1990s_internet_primary_analogue",
+    "ai_capex_kalecki_profit_channel",
+    "minsky_ai_capex_classification"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

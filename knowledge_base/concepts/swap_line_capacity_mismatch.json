@@ -1,0 +1,31 @@
+{
+  "slug": "swap_line_capacity_mismatch",
+  "definition": "Central bank swap line capacity (~$600B authorized) is structurally mismatched against potential dollar funding demand ($4T+) during a systemic carry unwind. A moral hazard feedback loop operates: swap line confidence suppresses vol, enabling more carry accumulation, which overwhelms eventual demand. This is a genuine Minsky dynamic and the most underappreciated quantitative contribution in the analysis.",
+  "confidence": 7.0,
+  "evidence": [
+    "Debate pair_3: 'deserves a dedicated claim rather than being buried'",
+    "$4T+ potential demand vs ~$600B authorized capacity arithmetic",
+    "Moral hazard feedback loop: swap line confidence → vol suppression → more carry → overwhelming demand"
+  ],
+  "originating_agents": [
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Whether swap lines would be expanded in extremis as during COVID",
+    "Whether the moral hazard loop is priced into any market instrument",
+    "Whether the $4T+ demand estimate is realistic under stressed conditions"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "cross_currency_basis_stress_indicator",
+    "compressed_spring_elevated_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

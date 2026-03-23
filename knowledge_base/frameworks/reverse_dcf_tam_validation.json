@@ -1,0 +1,27 @@
+{
+  "slug": "reverse_dcf_tam_validation",
+  "purpose": "Tests whether current Mag-7 valuations are consistent with credible bottom-up AI TAM estimates by reverse-engineering implied revenue and earnings growth rates.",
+  "components": [
+    "Reverse DCF implied earnings CAGR: 15-18% for 7-10 years at 40x forward",
+    "Implied total revenue: ~$3.5-4T by 2035 (from ~$1.8T current)",
+    "Incremental revenue requirement: $1.7-2.2T above current base",
+    "Bottom-up TAM benchmark: Gartner/IDC enterprise AI TAM $300-500B by 2030",
+    "WACC sensitivity analysis (pair_1 noted internal inconsistency that understates bearish case)",
+    "Two-speed earnings decomposition: Mag-7 at 20-25% growth vs S&P 493 at 3-5%"
+  ],
+  "current_assessment": "Implied incremental AI revenue of $600B-$1T by 2035 exceeds all credible bottom-up TAM estimates. Gap is directionally robust across WACC parameterizations. Current valuations price an AI revenue outcome with no historical or bottom-up support.",
+  "limitations": [
+    "TAM estimates may miss entirely new AI-created markets",
+    "WACC sensitivity is significant — small discount rate changes produce large implied revenue changes",
+    "Assumes current earnings multiples are maintained",
+    "Does not account for potential buyback-driven EPS growth decoupled from revenue"
+  ],
+  "topic": "",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

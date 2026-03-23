@@ -1,0 +1,36 @@
+{
+  "slug": "credit_cycle_carry_amplification",
+  "definition": "Credit cycle conditions amplify carry unwind severity through shared balance sheet and funding channels. When a credit cycle turn coincides with carry stress, the unwind is likely systemic. The qualitative mechanism is robust (7/10), but the claim of 'perfect classification' between contained and systemic episodes is statistically vacuous at n=5 (3/10 on the classifier).",
+  "confidence": 7.0,
+  "evidence": [
+    "Economic mechanism (credit stress amplifies forced selling and funding withdrawal) not contested by any agent",
+    "Both generalists agree credit at cycle tights provides 'temporary comfort about severity, not probability'",
+    "Multiple-comparisons argument: with n=5 episodes and 3-5 discriminators, >25% chance of perfect separation by chance",
+    "2022 JPY carry drawdown (credit widening but not crisis levels) is a potential out-of-sample miss"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Whether the discriminator can be reformulated with continuous rather than binary credit cycle metrics",
+    "What credit metric threshold separates contained from systemic carry unwinds with proper out-of-sample testing",
+    "Whether 2022 JPY constitutes a genuine out-of-sample failure of the framework"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "compressed_spring_elevated_risk",
+    "cross_currency_basis_stress_indicator"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

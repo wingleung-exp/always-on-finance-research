@@ -1,0 +1,32 @@
+{
+  "slug": "term_premium_velocity",
+  "definition": "The speed of term premium change is more important than the level for distinguishing gradual from acute fiscal dominance pathways. >100bp/quarter indicates acute path; <50bp/quarter indicates gradual path. The US is currently on the gradual path.",
+  "confidence": 7,
+  "evidence": [
+    "Pair_0 resolution favored velocity over level framework",
+    "UK Truss episode: ~100bp in 4 days (acute)",
+    "Japan: gradual multi-decade term premium evolution",
+    "US currently below 50bp/quarter threshold"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What causes the transition from gradual to acute velocity?",
+    "Are there intermediate velocity ranges that are analytically meaningful?",
+    "Can velocity spikes be reliably distinguished from noise in real-time?"
+  ],
+  "related_concepts": [
+    "term_premium_fiscal_signal",
+    "bimodal_transition_distribution",
+    "treasury_basis_trade_vulnerability"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

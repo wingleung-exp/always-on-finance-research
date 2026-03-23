@@ -1,0 +1,36 @@
+{
+  "slug": "ai_capex_revenue_validation_gap",
+  "definition": "The ratio of AI-related capital expenditure to identifiable AI revenue stands at approximately 4-6x ($200-250B capex vs $40-60B revenue), representing the central vulnerability of the current AI investment cycle. The telecom bust triggered when this ratio (inverse) fell below 0.2x, providing a directly monitorable historical threshold.",
+  "confidence": 8,
+  "evidence": [
+    "$200-250B capex vs $40-60B identifiable AI revenue = 4-6x ratio (0.3-0.5x inverse)",
+    "Telecom bust triggered when inverse ratio fell below 0.2x",
+    "Current levels have not yet breached the telecom threshold",
+    "Directly monitorable from quarterly earnings reports",
+    "Pair_0 debate confirmed as shared finding with complementary evidence"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "How should indirect AI revenue (AI-enhanced existing products) be attributed?",
+    "Is the telecom 0.2x threshold applicable given self-funded nature of current capex?",
+    "At what point does the ratio need to improve to sustain current valuations?"
+  ],
+  "related_concepts": [
+    "hyperscaler_self_funded_capex",
+    "ai_capex_roic_dilution",
+    "mag7_implied_revenue_gap",
+    "depreciation_lag_margin_headwind"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

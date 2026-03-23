@@ -1,0 +1,38 @@
+{
+  "slug": "r_g_convergence",
+  "definition": "The gap between the effective interest rate on federal debt and nominal GDP growth is mechanically tightening. Effective rate rose from ~1.5% (2021) to ~3.3% (2024) and is converging toward marginal rates of ~4.5-5.0%, while nominal GDP growth is ~5.5%. Cross-country evidence suggests 35-40% probability of fiscal stress within 10 years when r≈g.",
+  "confidence": 6,
+  "evidence": [
+    "Effective federal debt interest rate: ~1.5% (2021) → ~3.3% (2024) → converging toward ~4.5-5.0%",
+    "Nominal GDP growth ~5.5%",
+    "Cross-country panel (Mauro & Zhou 2021): 35-40% fiscal stress probability within 10 years at r≈g",
+    "Panel dominated by non-reserve-currency issuers",
+    "Reserve-currency adjustment essentially unidentified from data (n≈3)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Does reserve currency status permanently modify or merely delay the threshold?",
+    "Is the bimodal outcome distribution at r≈g more informative than the 35-40% point probability?",
+    "Could AI productivity growth (0.5-1.0pp additional real GDP) invalidate the entire framework?"
+  ],
+  "related_concepts": [
+    "us_fiscal_unprecedented_configuration",
+    "doom_loop",
+    "ai_productivity_structural_break",
+    "pervasive_small_n_problem"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

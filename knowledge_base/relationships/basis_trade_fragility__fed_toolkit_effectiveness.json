@@ -3,7 +3,7 @@
   "concept_b": "basis_trade_fragility",
   "mechanism": "Fed standing repo facilities and emergency lending programs are the primary circuit breakers for basis trade fragility, but their effectiveness is untested during simultaneous high inflation, creating conditional dependency on an unproven backstop",
   "direction": "bidirectional",
-  "confidence": 7,
+  "confidence": 7.0,
   "regime_dependence": "Relationship only becomes load-bearing during acute stress events requiring Fed intervention; irrelevant during normal market functioning when basis trade operates within risk limits",
   "originating_agents": [
     "rates_strategist",
@@ -11,10 +11,11 @@
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-22T17:00:44Z",
+  "last_updated": "2026-03-23T02:02:30Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0014"
+    "iter_0014",
+    "iter_0001"
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "slug": "boj_normalization_cumulative_risk",
+  "definition": "BoJ normalization is the most plausible endogenous catalyst for G10 carry disruption, with cumulative dislocation probability across 4-6 expected normalization steps estimated at 35-55%. Surviving positions after each step are selection-biased toward higher leverage, making subsequent steps more dangerous. The per-step base rate CI of [2%, 35%] renders point estimates nearly uninformative.",
+  "confidence": 6.5,
+  "evidence": [
+    "All agents agree BoJ is the key risk",
+    "2006-07 analogue: foreshock July 2006 → main event August 2007, 13-month interval",
+    "Compounding logic (survivor leverage bias) is sound and fills a genuine gap from prior iterations",
+    "Per-step CI of [2%, 35%] (Clopper-Pearson) makes point estimate nearly uninformative"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "risk_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Whether the 'foreshock' metaphor from seismology validly applies to sequential policy moves",
+    "Whether this BoJ cycle differs fundamentally from prior failed normalization attempts",
+    "Whether current carry position size is large enough for the compounding leverage argument to apply"
+  ],
+  "related_concepts": [
+    "compressed_spring_elevated_risk",
+    "jgb_fx_vol_divergence_trade",
+    "cross_currency_basis_stress_indicator"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

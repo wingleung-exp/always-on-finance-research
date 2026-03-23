@@ -1,0 +1,35 @@
+{
+  "slug": "gold_sovereign_risk_pricing",
+  "definition": "Gold at $2,800-3,000 is partially pricing sovereign/fiscal risk, with central bank buying at 1,037t (2023) and 1,045t (2024) as observable data. However, the $400-600/oz residual above traditional four-factor drivers competes with geopolitical diversification (post-sanctions), momentum, and model misspecification, making quantitative attribution irresolvable.",
+  "confidence": 5,
+  "evidence": [
+    "Gold $2,800-3,000 is expensive vs. traditional four-factor model",
+    "Central bank buying: 1,037t (2023), 1,045t (2024)",
+    "$400-600/oz residual has multiple competing explanations",
+    "Re-specifying with sanctions-era dummy absorbs $150-250 of residual",
+    "CB buying persistence: 5-8 year portfolio rebalancing toward 10-15% gold allocation",
+    "Gold models degrade 40-60% out-of-sample"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Can fiscal vs. geopolitical attribution ever be resolved?",
+    "Is central bank buying driven by fiscal concerns, sanctions risk, or portfolio rebalancing?",
+    "What is the 95% CI on fiscal attribution share? (estimated [15%, 85%])"
+  ],
+  "related_concepts": [
+    "gold_copper_ratio_indicator",
+    "financial_repression_modal_outcome",
+    "pervasive_small_n_problem"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

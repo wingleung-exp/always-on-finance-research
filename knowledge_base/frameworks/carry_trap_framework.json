@@ -1,0 +1,25 @@
+{
+  "slug": "carry_trap_framework",
+  "purpose": "Identifies the negatively skewed payoff profile where fiscal deficits simultaneously compress credit spreads (rewarding carry) and increase fiscal dominance risk (increasing tail risk).",
+  "components": [
+    "Kalecki-Levy identity: deficits → corporate profits → credit spread compression",
+    "Fiscal dominance risk: same deficits → debt sustainability deterioration → tail risk",
+    "Payoff profile: carry narrows as underlying risk rises",
+    "Regime-conditional factor allocation: shift from carry-seeking to tail-hedging as fiscal dominance signals activate"
+  ],
+  "current_assessment": "The carry trap is currently operating — credit spreads are compressed while fiscal fundamentals deteriorate. The deficit is the common cause of both phenomena, creating a feedback loop that rewards complacency.",
+  "limitations": [
+    "No precise threshold for when the trap becomes a measurably bad risk-reward",
+    "Requires regime identification, which is itself subject to the small-n problem",
+    "Harvey-Liu-Zhu framework shows fiscal dominance beta would fail t-stat threshold of ~3.0 in cross-sectional tests",
+    "Timing the regime shift is not possible with available tools"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

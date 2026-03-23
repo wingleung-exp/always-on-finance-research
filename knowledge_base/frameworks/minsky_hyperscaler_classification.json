@@ -1,0 +1,27 @@
+{
+  "slug": "minsky_hyperscaler_classification",
+  "purpose": "Classifies the AI capex cycle within Minsky's hedge-speculative-Ponzi taxonomy, while identifying the taxonomy's limitations for value-destructive-but-solvent conditions.",
+  "components": [
+    "Hedge finance test: OCF exceeds capex (currently all hyperscalers pass)",
+    "Speculative finance test: requires capital market access for capex (currently no)",
+    "Ponzi finance test: requires asset appreciation to service obligations (currently no)",
+    "Value destruction diagnostic: ROIC dilution can destroy per-share value even in hedge finance",
+    "Bust mechanism: voluntary capex rationalization (not forced liquidation) — different timing and signaling",
+    "Transition monitoring: legacy business OCF trajectory relative to capex commitments"
+  ],
+  "current_assessment": "Hyperscalers unambiguously in hedge finance: OCF exceeds capex, cash ~$300B+. This is a first-order structural difference from 2000. However, hedge finance doesn't prevent value destruction — ROIC below WACC destroys value while remaining solvent. The bust mechanism is voluntary rationalization with different signaling characteristics than forced liquidation.",
+  "limitations": [
+    "Minsky's taxonomy designed for credit-intermediated investment, not self-funded corporate capex",
+    "Hedge finance status doesn't prevent value destruction when ROIC < WACC",
+    "Framework doesn't address whether voluntary capex cuts are more or less predictable than forced ones",
+    "Transition from hedge to speculative could happen quickly if legacy business deteriorates"
+  ],
+  "topic": "",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "frontier_to_core_cascade_monitor",
+  "purpose": "Track propagation of EM stress from frontier to core economies using historical lag patterns, twin-deficit vulnerability filters, and push/pull classification.",
+  "components": [
+    "Historical lag: 3-6 month propagation from frontier to core across four episodes (2013, 2015-16, 2018, 2022)",
+    "Twin-deficit filter: CA deficit + fiscal deficit >5% of GDP flags vulnerable core EMs",
+    "Push vs pull classification: Fed hiking (push) vs commodity shock (pull) affects severity and speed",
+    "Currently flagged core EMs: Turkey, Colombia, Chile"
+  ],
+  "current_assessment": "Month 2-4 of predicted cascade sequence. Frontier stress (Egypt, Pakistan, Nigeria) is food-security-driven (atypical vs prior financial-imbalance-driven episodes). Current Fed hold may lengthen lag and reduce severity vs 3/4 prior episodes where Fed was actively hiking.",
+  "limitations": [
+    "Only 4 historical episodes for calibration",
+    "Current stress is food-security-driven vs financial-imbalance-driven in prior episodes",
+    "Fed hold fundamentally differs from prior hiking episodes",
+    "3-6 month lag may not be stable across different shock types"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ai_behavioral_bias_inflation",
+  "definition": "Six specific cognitive biases systematically inflate AI return expectations and compress expected timelines: narrative fallacy (Shiller), anchoring to 2023-2025 returns, availability bias from direct LLM interaction, overconfidence (Tetlock calibration: 0.2-0.3 correlation at 3-5yr horizons), career-risk herding (asymmetric payoff), and recency bias from pandemic digital acceleration. The conjunction fallacy in AI winner identification shows implicit probabilities of 70-80% vs base rates of 20-35%.",
+  "confidence": 8,
+  "evidence": [
+    "Conjunction fallacy: implicit winner probabilities of 70-80% vs base rates of 20-35% (Tetlock Good Judgment Project)",
+    "Tetlock calibration data: 0.2-0.3 correlation between confidence and outcomes at 3-5yr horizons",
+    "Career-risk herding: underweight AI = individual career risk, overweight AI = shared loss",
+    "Pair_3 debate confirmed herding mechanism as analytically independent of AI's merits",
+    "Six biases with specific literature backing identified"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "How much of the current equity premium is attributable to these biases vs rational expectations?",
+    "Can contrarianism itself become a systematic bias (challenger_02 Open Q7)?",
+    "What fraction of analyst AI predictions will be approximately correct at 3-5yr horizons?"
+  ],
+  "related_concepts": [
+    "selective_analogy_deployment_bias",
+    "ai_equity_concentration_amplification",
+    "sbc_reflexivity_loop",
+    "erp_ai_compression"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

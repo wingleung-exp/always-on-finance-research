@@ -1,0 +1,35 @@
+{
+  "slug": "doom_loop",
+  "definition": "A self-reinforcing cycle where large deficits raise term premium, increasing interest costs, widening deficits further. The probability is approximately 20-30% over 5 years — materially lower than typically stated due to the conjunction fallacy (requires multiple links to hold simultaneously) and underweighted circuit-breakers.",
+  "confidence": 6,
+  "evidence": [
+    "Requires simultaneous: (a) large deficits, (b) significant term premium rise, (c) blended rate exceeds nominal GDP growth, (d) no credible consolidation, (e) Fed cannot intervene without inflation",
+    "Links are positively correlated, so joint probability exceeds independent product",
+    "Circuit-breakers: Treasury maturity management (30-50bp compression 2023-24), political response (1990, 1993, 1997, 2011 produced adjustment), denominator inflation",
+    "Fair estimate: 20-30% over 5 years, not 40-50% from naive 6/10 or 8-17% from independent links"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "What are the specific conditions under which the doom loop activates vs. the dollar smile suppresses it?",
+    "How do circuit-breakers interact with each other?",
+    "Can the basis trade amplification convert the stagnation path into the crisis path?"
+  ],
+  "related_concepts": [
+    "treasury_basis_trade_vulnerability",
+    "r_g_convergence",
+    "term_premium_fiscal_signal",
+    "dollar_smile_bifurcation",
+    "fiscal_consolidation_difficulty"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

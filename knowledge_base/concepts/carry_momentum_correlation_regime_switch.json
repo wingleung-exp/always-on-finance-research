@@ -5,7 +5,11 @@
   "evidence": [
     "Independent convergence: quant_researcher_02 (8.5/10) and quant_researcher_01 (+0.90 estimate)",
     "Confirmed as one of the best-replicated findings in cross-asset factor research",
-    "Not contested in any debate across iterations"
+    "Not contested in any debate across iterations",
+    "Barroso & Santa-Clara (2015) and Daniel & Moskowitz (2016) provide independent academic confirmation",
+    "FX carry-momentum swing of 0.90 exceeds equity value-momentum analog (~0.40-0.60)",
+    "Debate pair_2: 'one of the best-replicated findings in cross-asset factor research'",
+    "Replicated across asset classes and sample periods"
   ],
   "originating_agents": [
     "quant_researcher_02",
@@ -13,18 +17,25 @@
   ],
   "open_questions": [
     "Specific timing of correlation transition between regimes",
-    "Whether this applies equally to EM FX vs. G10"
+    "Whether this applies equally to EM FX vs. G10",
+    "Whether the correlation flip magnitude is increasing over time due to factor crowding",
+    "Whether regime-switching models can be estimated precisely enough to improve real-time portfolio construction"
   ],
   "related_concepts": [
     "carry_dollar_credit_double_counting",
-    "regime_conditional_rate_fx_relationship"
+    "regime_conditional_rate_fx_relationship",
+    "carry_trade_negative_skewness",
+    "g10_fx_pca_stress_collapse",
+    "carry_crowding_tail_only_signal",
+    "fx_factor_hlz_survival"
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-22T21:50:58Z",
-  "last_updated": "2026-03-22T21:50:58Z",
+  "last_updated": "2026-03-23T02:02:34Z",
   "originating_iteration": "iter_0009",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0009"
+    "iter_0009",
+    "iter_0008"
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "cross_currency_basis_stress_indicator",
+  "definition": "Cross-currency basis widens during dollar funding stress and functions as a valuable real-time stress indicator (7/10), but not a reliable early-warning predictor (5/10). With ~5% crisis base rate and ~15-20% false alarm rate, positive predictive value is only 15-25%. Portfolio thresholds (-60bp JPY, -35bp EUR) are useful but should not be the primary risk management tool.",
+  "confidence": 7.0,
+  "evidence": [
+    "Mechanistic explanation sound: dollar funding stress manifests in basis swaps before broader markets",
+    "Bayesian critique: positive predictive value cannot exceed ~25% even if signal is genuinely informative",
+    "No ROC curve, precision-recall analysis, or false positive rate provided",
+    "Useful portfolio thresholds: -60bp JPY / -35bp EUR triggers"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "What is the proper false-positive framework for basis widening as a crisis indicator",
+    "Whether the early-warning window is genuinely shrinking or shock heterogeneity explains apparent compression",
+    "Whether decomposition into regulatory/credit/residual components improves signal quality"
+  ],
+  "related_concepts": [
+    "credit_cycle_carry_amplification",
+    "swap_line_capacity_mismatch",
+    "boj_normalization_cumulative_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

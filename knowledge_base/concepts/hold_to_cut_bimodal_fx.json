@@ -1,0 +1,31 @@
+{
+  "slug": "hold_to_cut_bimodal_fx",
+  "definition": "Hold-to-cut transitions produce bimodal FX outcomes: 7/12 currencies strengthen during a credible hold, but the transition to cutting produces a median -8% move over 6 months, with magnitude proportional to hold duration (r~0.55). The current Fed hold (~18 months) is the longest in the 12-episode database, implying the eventual move could be 12-15%.",
+  "confidence": 7.0,
+  "evidence": [
+    "12-episode G10 database with clear bimodal pattern",
+    "Debate pair_0 calls this 'actionable'",
+    "Current ~18-month hold is the longest in the database, implying upper-range move"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Whether the current hold being out-of-sample on duration invalidates the 12-15% estimate",
+    "Whether the Fed's specific communication strategy differs enough from prior holds to alter outcomes",
+    "Whether the r~0.55 correlation is robust to different hold duration definitions"
+  ],
+  "related_concepts": [
+    "compressed_spring_elevated_risk",
+    "carry_sharpe_structural_decline",
+    "boj_normalization_cumulative_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "compressed_spring_detection",
+  "purpose": "Identify conditions where extreme DM rate divergence combined with suppressed FX vol creates materially elevated probability of outsized G10 FX pair moves within 12 months.",
+  "components": [
+    "DM rate divergence: percentile ranking in post-1990 distribution (currently 85th-97th percentile)",
+    "FX vol condition: realized and implied G10 vol relative to ~9-10% threshold (currently 7-9%)",
+    "Carry-to-vol ratio: current readings at 90th+ percentile in USD/CHF and USD/JPY",
+    "Historical base rate: ~8-12 effective independent episodes, CI [26%, 88%] for 20%+ moves",
+    "August 2024 out-of-sample validation"
+  ],
+  "current_assessment": "Spring currently compressed. Directional risk elevated with CI lower bound 2.5-3.3x unconditional probability. The 61% point estimate is inflated by small-sample inference and post-hoc threshold selection. Point estimates should not be used for position sizing; the directional finding supports convexity-seeking strategies.",
+  "limitations": [
+    "Effective independent episodes n≈8-12 with 95% CI of [26%, 88%]",
+    "Post-hoc threshold selection on two continuous variables inflates significance",
+    "P-value of p<0.001 does not survive HLZ multiple-testing correction",
+    "Reference distribution stationarity is unresolved (KD5)",
+    "Kelly framework produces allocation range of 5-60%, providing no meaningful constraint"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

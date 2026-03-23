@@ -1,0 +1,25 @@
+{
+  "slug": "dollar_trap_monitoring_dashboard",
+  "purpose": "Track Triffin tipping point risk and dollar reserve substitution in real time using structured, observable indicators.",
+  "components": [
+    "COFER USD share: declining from 59.5% to ~57.8% (amber)",
+    "Central bank gold purchases: 1,000+ tonnes annually, ~$50-70bn/year USD substitution (amber)",
+    "SWIFT settlement share and CIPS data: incomplete coverage, no signal (green)",
+    "Cross-currency basis: monitoring for dollar demand stress signals"
+  ],
+  "current_assessment": "Dashboard shows 2 amber, 1 green. Direction of travel (declining USD share) is probably correct. Pace and significance are likely overstated: against daily FX turnover of $7.5T+, annual reserve substitution flow is noise. Cross-asset implications predicted by the thesis have not materialized.",
+  "limitations": [
+    "SWIFT coverage issues and CIPS incompleteness create significant data gaps",
+    "Annual substitution flow is noise relative to daily FX turnover",
+    "Central bank gold purchases could reflect sanctions hedging rather than systemic dollar abandonment",
+    "Predicted cross-asset implications (basis narrowing, term premium expansion) have not materialized"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

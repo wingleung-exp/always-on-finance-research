@@ -1,0 +1,31 @@
+{
+  "slug": "thinning_crop_buffer_convexity",
+  "definition": "Global crop balance sheets are in a 'thinning buffer' phase — corn stocks-to-use ex-China below 15%, wheat ~32% (down from ~35%), soybeans ~27% — placing the system on the convex portion of the price-stocks curve where the next weather disruption triggers disproportionate price responses. The FX transmission runs through EM food inflation → rate differential widening → carry stress.",
+  "confidence": 7.0,
+  "evidence": [
+    "Balance sheet data publicly verifiable from USDA WASDE",
+    "Convex price-stocks relationship well-established in agricultural economics (Wright 2011, Cafiero et al. 2011)",
+    "FX transmission chain: thinning buffers → smaller weather shock needed → EM food inflation → rate widening → carry stress"
+  ],
+  "originating_agents": [
+    "commodities_analyst_02"
+  ],
+  "open_questions": [
+    "System can persist in thin-buffer state for multiple seasons if weather cooperates",
+    "Whether precision agriculture and yield improvements are offsetting buffer thinning",
+    "What specific stocks-to-use threshold triggers the convex price response"
+  ],
+  "related_concepts": [
+    "export_ban_contagion_prisoners_dilemma",
+    "agricultural_sticky_floor_em_rates",
+    "commodity_rate_nonlinear_interaction"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

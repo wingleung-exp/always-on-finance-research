@@ -1,0 +1,20 @@
+{
+  "concept_a": "uip_investable_premium_gap",
+  "concept_b": "carry_sharpe_structural_decline",
+  "mechanism": "The logical gap between UIP failure as a statistical anomaly and an exploitable carry premium means the true investable Sharpe is lower than anomaly-based estimates suggest. The full return distribution including the left tail was never presented, systematically overstating expected returns.",
+  "direction": "a_causes_b",
+  "confidence": 8.0,
+  "regime_dependence": "Always applicable; the gap between anomaly and investable premium is structural, not regime-dependent.",
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

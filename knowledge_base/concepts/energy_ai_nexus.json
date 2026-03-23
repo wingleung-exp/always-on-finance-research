@@ -1,0 +1,37 @@
+{
+  "slug": "energy_ai_nexus",
+  "definition": "AI data center power demand creates novel cross-asset relationships: projected 150-300+ TWh by 2028-2030 in US (from ~60 TWh in 2024). PJM capacity auction prices up 10x; natural gas forwards up $0.50-1.00/MMBtu; nuclear restarts (TMI Unit 1, Palisades) tied to AI demand; copper demand increment of 5-16%. The relationship is genuinely novel and differentiating from prior tech cycles, but macro significance is second-order (CPI impact only 0.06-0.24pp).",
+  "confidence": 6,
+  "evidence": [
+    "AI data center power demand projected 150-300+ TWh by 2028-2030 (from ~60 TWh in 2024)",
+    "PJM capacity auction prices increased 10x",
+    "Natural gas forward curves shifted up $0.50-1.00/MMBtu",
+    "Nuclear restarts (TMI Unit 1, Palisades) directly tied to AI demand",
+    "Copper demand increment of 5-16%",
+    "CPI impact only 0.06-0.24pp — second-order for macro",
+    "Pair_0 confirmed as genuinely differentiating from prior tech cycles"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_01",
+    "fx_strategist_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Does energy demand scale linearly with AI compute or are there efficiency gains?",
+    "Is the energy-AI nexus large enough relative to total energy to drive macro variables?",
+    "AI × energy transition creating mutually reinforcing capex streams at ~2-2.5% of GDP — stable or fragile?"
+  ],
+  "related_concepts": [
+    "ai_capex_structural_dollar_support",
+    "ai_capex_revenue_validation_gap"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

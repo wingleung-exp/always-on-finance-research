@@ -1,0 +1,29 @@
+{
+  "slug": "ai_behavioral_bias_framework",
+  "purpose": "Identifies and systematizes six cognitive biases inflating AI return expectations, providing a debiasing checklist for AI investment analysis grounded in academic literature.",
+  "components": [
+    "Narrative fallacy (Shiller): compelling transformation story overrides statistical analysis",
+    "Anchoring to 2023-2025 returns: recent exceptional returns treated as sustainable",
+    "Availability bias: direct LLM interaction makes capabilities salient and overweighted",
+    "Overconfidence (Tetlock): 0.2-0.3 correlation between confidence and outcomes at 3-5yr horizons",
+    "Career-risk herding: underweight AI = individual career risk, overweight = shared loss",
+    "Recency bias: pandemic digital acceleration extrapolated as permanent trend",
+    "Conjunction fallacy: AI winner identification probabilities (70-80%) exceed base rates (20-35%)",
+    "Meta-awareness: contrarianism can become its own bias"
+  ],
+  "current_assessment": "All six biases actively operating and identifiable. Herding mechanism confirmed as analytically independent of AI's actual merits. The conjunction fallacy in winner identification is formally structured via Tetlock Good Judgment Project data. Selective analogy deployment amplifies the bias framework.",
+  "limitations": [
+    "Identifying biases doesn't necessarily mean markets are mispriced — biases can coexist with correct pricing",
+    "Small N problem for GPT base rates makes probability estimates inherently imprecise",
+    "Career-risk herding is individually rational even if collectively irrational",
+    "Quantifying aggregate pricing impact of biases is extremely difficult"
+  ],
+  "topic": "",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "concept_a": "em_carry_dollar_beta",
+  "concept_b": "carry_portfolio_double_counting",
+  "mechanism": "EM carry's 40-50% dollar beta and 23% credit beta create direct factor overlap with standard 60/40 portfolio exposures (dollar beta ~0.1-0.3, credit beta ~0.4-0.5), making carry allocation a concentration rather than diversification for USD-based investors.",
+  "direction": "a_causes_b",
+  "confidence": 7.5,
+  "regime_dependence": "Always present for USD-based investors; non-USD investors (JPY, EUR base) may genuinely diversify with carry.",
+  "originating_agents": [
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "term_premium_monitoring_framework",
+  "purpose": "Provides observable, real-time market signals for tracking fiscal dominance progression and distinguishing gradual from acute pathways.",
+  "components": [
+    "ACM term premium level (currently +50-100bp) and velocity (<50bp/quarter = gradual, >100bp/quarter = acute)",
+    "10Y auction bid-to-cover ratio (currently ~2.3-2.5x, declining)",
+    "Indirect bidder share at Treasury auctions (currently ~65%, down from 72%)",
+    "5Y5Y breakeven inflation (currently 2.3-2.5%, well below 3.0% trigger)",
+    "Stock-bond correlation bifurcation (2Y-SPX negative vs. 30Y-SPX positive)",
+    "Gold/copper ratio correlation regime (tentative, confidence 3/10)"
+  ],
+  "current_assessment": "All indicators are in the early/gradual zone. Term premium velocity is below the acute threshold. Auction metrics are deteriorating but not at crisis levels. Breakevens remain well-anchored. The correlation bifurcation is emerging.",
+  "limitations": [
+    "Post-QE structural break makes pre-QE regression coefficients unreliable",
+    "QT-era sample (~3 years) is too short for reliable re-estimation",
+    "Specific threshold values (e.g., 150bp term premium) carry 4-5/10 confidence",
+    "Real-time correlation measurement is noisy",
+    "No single indicator is sufficient — requires composite assessment"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "fx_factor_zoo_pruning",
+  "purpose": "Identify which FX factors survive rigorous multiple-testing thresholds (Harvey-Liu-Zhu) to distinguish genuine risk premia from data-mined noise.",
+  "components": [
+    "HLZ threshold: t-stat ≥ 3.0 for credibility",
+    "Dollar factor (PC1): survives with robust out-of-sample evidence",
+    "Carry factor: t-stat 3.5-5.0 across specifications — survives",
+    "Momentum factor: t-stat 2.5-3.5 — survives",
+    "PPP value factor: t-stat 1.5-2.5 — marginal, fails threshold",
+    "Spanning regressions: exotic factors subsumed by carry + momentum"
+  ],
+  "current_assessment": "Three-factor model (dollar, carry, momentum) is the empirically defensible minimum. Multi-factor FX products based on exotic factors (output gap, external balance, Taylor rule residual) are selling noise. Static diversified factor harvesting with vol targeting dominates dynamic timing for most institutional horizons.",
+  "limitations": [
+    "HLZ is conservative and may over-prune factors with genuine but weaker signals",
+    "Three surviving factors collapse to ~1.2-1.5 effective factors during stress (PCA collapse)",
+    "Factor timing skepticism: theoretical IR 0.3-0.5 degrades to implementable 0.1-0.2"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

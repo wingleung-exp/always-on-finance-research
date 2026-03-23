@@ -1,0 +1,35 @@
+{
+  "slug": "us_fiscal_unprecedented_configuration",
+  "definition": "The US is running 6-7% deficits at sub-4% unemployment, a combination with zero peacetime precedent in 74 annual observations (1947-2024). Net interest has nearly tripled in 5 years ($350B FY2020 to ~$1T FY2025-26). Every regression-based fiscal impact estimate is being applied outside its estimation sample.",
+  "confidence": 9,
+  "evidence": [
+    "0/74 annual observations of this deficit-unemployment combination pre-2022 (census result, not statistical estimate)",
+    "Net interest nearly tripled: $350B FY2020 to ~$1T FY2025-26",
+    "Every multiplier estimate, deficit-to-term-premium regression, and Kalecki calibration is out-of-sample",
+    "Wartime precedent 1942-1951 exists but under fundamentally different structural conditions (Bretton Woods, capital controls, closed capital account)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Does the wartime precedent (1942-1951) provide useful guidance despite structural differences?",
+    "How much should uncertainty bounds on downstream claims be widened?",
+    "Is AI productivity growth creating a structural break that makes historical comparisons even less valid?"
+  ],
+  "related_concepts": [
+    "r_g_convergence",
+    "pervasive_small_n_problem",
+    "term_premium_fiscal_signal",
+    "doom_loop",
+    "fiscal_consolidation_difficulty"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

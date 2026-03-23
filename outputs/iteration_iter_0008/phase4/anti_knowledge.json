@@ -1,0 +1,79 @@
+[
+  {
+    "claim": "The credit cycle discriminator achieves 'perfect classification' between contained and systemic carry unwinds.",
+    "reason": "With n=5 episodes and 3-5 candidate discriminators tested, probability of at least one achieving perfect separation by chance exceeds 25%. The definition of 'credit cycle turning point' is retrospectively assigned and unfalsifiable. The 2022 JPY carry drawdown is a potential out-of-sample miss. The qualitative mechanism survives but the statistical classification claim is dead.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The compressed spring p-value of p<0.001 (Fisher's exact test) survives correction for multiple hypothesis testing.",
+    "reason": "Both the rate divergence threshold and vol condition threshold were selected post-hoc from continuous variables, creating at minimum 4 degrees of freedom. The Hansen (1996) test was designed for a single break point in a univariate context, not a bivariate joint condition. Under HLZ-adjusted significance thresholds, the signal likely does not clear t-stat of 3.0. The directional finding survives; the specific p-value does not.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "CIP basis is the 'highest-fidelity early warning indicator' for carry crises.",
+    "reason": "No ROC curve, precision-recall analysis, or false positive rate is provided. With ~5% crisis base rate and ~15-20% signal-firing rate, positive predictive value cannot exceed ~25% even if the signal is genuinely informative. The 2-4 week lead time is measured without specifying threshold or counting false alarms. The basis has real-time stress measurement properties but the 'early warning' and 'highest-fidelity' framings are unsupported.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The vol threshold of 9.5% merits 8.5/10 confidence as claimed by quant_researcher_02.",
+    "reason": "Carry drawdowns mechanically produce elevated realized vol (a 15% unwind over 4 weeks contributes ~40-60% annualized vol), creating a partial tautology. 'Carry performs badly when vol is high' partially reduces to 'carry performs badly when carry has recently performed badly.' The t-stat drops from 3.87 to ~2.0-2.5 after removing carry-attributable vol. The endogeneity was never addressed. Appropriate confidence: ~6.5/10.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The Kelly criterion framework produces a meaningful constraint on convexity allocation under the compressed spring.",
+    "reason": "The analysis calculates f*=0.55, applies half-Kelly (~27%), then quarter-Kelly (~14%), then recommends 5-8% — a three-step retreat from the model output. Kelly requires well-estimated probability (CI [36%, 83%]), well-estimated payoff ('5-12x' range), and repeated independent bets (compressed spring is a one-shot event). With full uncertainty, allocations range from ~5% to ~60%, providing no constraint. The recommendation is justified by institutional intuition, not the Kelly framework.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The credit-carry lag has systematically compressed from 6-9 months to 3-4 days due to algorithmic position management.",
+    "reason": "The five episodes (1998, 2007-08, 2015, 2020, 2024) are fundamentally different shock types — sovereign default, structured credit, equity crash, pandemic, macro data + BoJ. Declining lag is more parsimoniously explained by shock type (pandemic is inherently faster than slow-building subprime) than market evolution. The 2007-08 entry shows both a 6-month and 1-week lag, demonstrating lag depends on signal clarity, not market speed.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The dual commodity channel model explains '15-25% more REER variance' than the single-factor commodity ToT model.",
+    "reason": "Presented as a finding but is actually an unestimated conjecture. Supporting evidence is a single case study (Egypt 2022) and a theoretical table. No panel regression is run or cited. The qualitative distinction between energy (current account) and agricultural (inflation expectations) channels is sound; the specific quantitative improvement claim is fabricated precision.",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "'Exactly five' prior compressed spring episodes constitute an exhaustive analogue set.",
+    "reason": "The identification criteria (rate divergence in top percentiles + FX vol below average) are continuous, not binary. Episode count depends entirely on threshold placement. 1992-93 (ERM crisis), 2013-14 (Fed taper), and other periods may qualify depending on cutoffs. The qualitative sequencing insight is valuable but should be framed as 'observations from a handful of similar episodes' rather than an exhaustive set.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "concept_a": "rate_differential_regime_conditionality",
+  "concept_b": "fx_vol_rate_divergence_mispricing",
+  "mechanism": "Rate differentials explain FX variance only when vol is low (8-12% R²); current suppressed vol (7-9%) keeps differentials explanatory, but the vol level itself is inconsistent with the rate divergence extreme, creating a fragile equilibrium that could snap in either direction.",
+  "direction": "bidirectional",
+  "confidence": 7.5,
+  "regime_dependence": "Holds in current low-vol regime; relationship breaks down when vol crosses ~9-10% threshold.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

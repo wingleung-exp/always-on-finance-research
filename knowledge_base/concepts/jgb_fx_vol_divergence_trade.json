@@ -1,0 +1,31 @@
+{
+  "slug": "jgb_fx_vol_divergence_trade",
+  "definition": "The JGB swaption vol / USD/JPY vol divergence is a compelling cross-asset relative value opportunity: JGB swaption vol prices BoJ uncertainty while USD/JPY vol is suppressed by carry flows. The trade construction (long USD/JPY risk reversals funded by short JGB swaption vol) provides bounded loss in the dovish scenario and convex upside in the hawkish scenario. August 2024 provides out-of-sample validation.",
+  "confidence": 7.0,
+  "evidence": [
+    "Debate pair_0: 'concrete, has a clear mechanism, an out-of-sample validation (August 2024), and asymmetric payoff'",
+    "Information-theoretic argument: one vol market is mispricing BoJ risk",
+    "Carry flows structurally suppress FX gamma demand, independently supported by vol-regime literature"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "How long the divergence can persist given carry flows as a powerful vol suppression mechanism",
+    "Specific options pricing requires live market levels to validate trade construction",
+    "Whether BoJ's 30-year track record of disappointing hawks applies to the current cycle"
+  ],
+  "related_concepts": [
+    "boj_normalization_cumulative_risk",
+    "fx_vol_rate_divergence_mispricing",
+    "compressed_spring_elevated_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

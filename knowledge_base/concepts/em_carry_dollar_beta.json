@@ -1,0 +1,35 @@
+{
+  "slug": "em_carry_dollar_beta",
+  "definition": "EM carry is predominantly a dollar trade: 40-50% of gross returns are attributable to dollar beta, with a residual 'pure' carry Sharpe of 0.15-0.30 whose confidence interval includes zero. The available 20-year, 6-currency sample is structurally underpowered (520 monthly observations needed for 80% power). Strategies marketed as 'EM carry' predominantly deliver leveraged dollar-short plus credit risk exposure.",
+  "confidence": 8.0,
+  "evidence": [
+    "Near-identical decomposition figures arrived at independently from different methodologies",
+    "Power analysis: detecting Sharpe of 0.22 at 80% power requires ~520 monthly observations (43 years)",
+    "Survivorship bias degrades estimates by an estimated 30-40%",
+    "Debate pair_2: 'near-identical figures arrived at independently'"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the pure carry premium exists at all after dollar and credit decomposition",
+    "Whether longer time series or more currencies would yield statistically significant residual Sharpe",
+    "Whether the dollar beta is stable or time-varying across monetary policy regimes"
+  ],
+  "related_concepts": [
+    "carry_sharpe_structural_decline",
+    "carry_portfolio_double_counting",
+    "agricultural_sticky_floor_em_rates",
+    "frontier_core_em_cascade"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

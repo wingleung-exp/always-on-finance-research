@@ -3,7 +3,7 @@
   "concept_b": "boj_normalization_asymmetric_risk",
   "mechanism": "Energy import flows ($8-12bn/month) can overwhelm speculative carry flows ($3-5bn/month), meaning JPY dynamics are substantially determined by energy prices regardless of BoJ policy. The yen safe-haven property is rate-environment-contingent, complicating BoJ normalization calculus since energy shocks can offset or amplify rate policy effects.",
   "direction": "a_causes_b",
-  "confidence": 7,
+  "confidence": 7.0,
   "regime_dependence": "Strongest during energy price spikes. Nuclear restarts and renewable buildout could reduce Japan's energy import sensitivity over time.",
   "originating_agents": [
     "commodities_analyst_01",
@@ -11,10 +11,11 @@
   ],
   "topic": "fx_rates_divergence",
   "created_at": "2026-03-23T00:27:56Z",
-  "last_updated": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T02:02:31Z",
   "originating_iteration": "iter_0006",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0006",
     "iter_0006"
   ]
 }

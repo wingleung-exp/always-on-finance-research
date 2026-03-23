@@ -1,0 +1,251 @@
+[
+  {
+    "concept_a": "us_fiscal_unprecedented_configuration",
+    "concept_b": "term_premium_fiscal_signal",
+    "mechanism": "Large deficits at full employment increase Treasury supply, raising term premium. Pre-QE regression estimates 20-40bp per 1pp deficit/GDP above structural threshold. But the unprecedented nature of the current configuration means all such estimates are out-of-sample.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Relationship holds in all regimes but the elasticity differs pre-QE vs. post-QE. Post-QE structural break is severe and QT-era sample is too short for reliable re-estimation.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "treasury_basis_trade_vulnerability",
+    "concept_b": "bimodal_transition_distribution",
+    "mechanism": "The basis trade is the key swing variable that could convert the gradual stagnation path into the acute crisis path. At 20-100x leverage, forced deleveraging creates non-linear market dynamics that overwhelm absorption capacity.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The amplification mechanism is always present but only activates under financing cost shocks, regulatory triggers (SEC clearing mandate), or liquidity withdrawal (ON RRP depletion).",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "kalecki_levy_profit_channel",
+    "concept_b": "demand_destruction_thermostat_break",
+    "mechanism": "The Kalecki identity channels government deficits into corporate profits and household incomes, sustaining demand even at elevated price levels. This prevents the traditional self-correcting demand destruction from high commodity prices.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Operates when deficits are large enough to dominate the sectoral balance equation. Breaks down if fiscal consolidation significantly reduces transfers.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "commodities_analyst_02",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "r_g_convergence",
+    "concept_b": "doom_loop",
+    "mechanism": "As the effective interest rate on federal debt approaches nominal GDP growth, the debt dynamics become self-reinforcing. Each percentage point of r>g adds to the debt/GDP ratio, requiring larger primary surpluses to stabilize — surpluses that are politically unattainable.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The relationship activates when r crosses g. Below this threshold, debt dynamics are self-stabilizing. Cross-country base rate: 35-40% fiscal stress within 10 years at r≈g, but dominated by non-reserve-currency issuers.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "sec_clearing_mandate_catalyst",
+    "concept_b": "treasury_basis_trade_vulnerability",
+    "mechanism": "Central clearing increases margin requirements and counterparty transparency, both of which reduce leverage capacity. This directly targets the 20-100x leverage that makes the basis trade a systemic vulnerability, potentially triggering deleveraging independent of macro conditions.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Calendar-specific: CMESC Q2 2026 implementation. Impact depends on phase-in speed and cross-margining offsets. Interacts with quarter-end repo stress as a compound risk.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "term_premium_fiscal_signal",
+    "concept_b": "doom_loop",
+    "mechanism": "Rising term premium increases government borrowing costs, widening the deficit, which in turn increases Treasury supply and raises term premium further. This is the core self-reinforcing mechanism of the doom loop.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "The feedback loop requires term premium to be above the threshold where interest expense growth exceeds revenue growth. Circuit-breakers (Treasury maturity management, political response) can interrupt the cycle.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "opec_fiscal_breakeven_amplifier",
+    "concept_b": "bimodal_transition_distribution",
+    "mechanism": "Under the gradual path, sustained DM fiscal expansion keeps oil demand above OPEC+ breakevens, maintaining cartel cohesion. Under the acute path, demand shock pushes oil below breakevens, triggering OPEC+ discord simultaneously with DM financial stress — a correlated shock amplifying the crisis.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Pro-cyclical: amplifies whichever path is dominant. The interaction is strongest at the transition between paths. Saudi breakeven at $85-96/bbl (2025-26) sets the threshold.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "agricultural_supply_shock_trilemma",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "A major food price shock forces the Fed to choose between tightening (worsening doom loop), accommodating (de-anchoring expectations), or financial repression. The trilemma pushes toward formal adoption of the financial repression channel, accelerating the modal outcome.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Only operative under fiscal dominance conditions. In normal regimes, the Fed can tighten without fiscal consequences. The channel operates primarily through EM intermediation.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "biofuel_mandate_inflation_ratchet",
+    "concept_b": "fiscal_consolidation_difficulty",
+    "mechanism": "The RFS (~36% of corn to ethanol) creates a politically embedded demand floor because farm-state senators control marginal debt ceiling votes. SNAP/farm bill (~$120B/year) adds to the fiscal consolidation trap. Together they make spending cuts in agriculture politically infeasible.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Always operative but becomes binding during fiscal consolidation attempts. Political economy mechanism is precise: farm-state senators as veto players on debt ceiling.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "stock_bond_correlation_bifurcation",
+    "concept_b": "fiscal_dominance_as_regime_variable",
+    "mechanism": "The maturity-dependent correlation bifurcation (2Y negative, 30Y positive vs. SPX) is an observable indicator of the fiscal dominance regime. Tracking this bifurcation helps identify when to shift from normal to fiscal-dominance-conditional portfolio allocation.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The bifurcation is the regime indicator itself. It transitions when fiscal supply dynamics begin dominating the long end while Fed credibility still anchors the short end.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "carry_trap",
+    "concept_b": "treasury_basis_trade_vulnerability",
+    "mechanism": "The Kalecki-driven carry compression encourages leverage (including basis trade leverage) precisely when fiscal tail risk is rising. Basis trade participants are paid narrowing carry to bear exponentially growing unwind risk.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Operates continuously but becomes dangerous when carry compression reaches levels that incentivize maximum leverage while fiscal fundamentals deteriorate.",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "doom_loop",
+    "concept_b": "dollar_smile_bifurcation",
+    "mechanism": "Logical contradiction: doom loop predicts fiscal expansion → capital flight → dollar weakness, while dollar smile predicts fiscal expansion → capital inflows → dollar strength. If dollar smile holds, it suppresses the doom loop. If doom loop activates, dollar smile breaks. Resolution likely involves sequencing at a tipping point.",
+    "direction": "bidirectional",
+    "confidence": 4,
+    "regime_dependence": "Dollar smile may hold in steady state while doom loop activates at a tipping point. No agent specifies the transition mechanism or conditions. The sequencing is unresolved.",
+    "originating_agents": [
+      "challenger_02",
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "boj_normalization_contagion",
+    "concept_b": "term_premium_fiscal_signal",
+    "mechanism": "Japanese institutions holding ~$1.1T US Treasuries may repatriate as JGB yields rise 100bp+, adding selling pressure to US long-end and pushing term premium higher. This external channel compounds domestic fiscal supply dynamics.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Activated by BoJ policy normalization. Second-order relative to domestic dynamics but could compound with domestic pressures during periods of elevated stress.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "on_rrp_depletion",
+    "concept_b": "treasury_basis_trade_vulnerability",
+    "mechanism": "ON RRP depletion removes a >$2T liquidity buffer that previously cushioned funding market stress. Without this buffer, basis trade financing disruptions propagate more directly to the broader funding complex.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "The plumbing change is structural and permanent. Impact is amplified during quarter-end stress periods (25bp SOFR spikes) and during any market stress requiring rapid liquidity redistribution.",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "china_copper_demand_rotation",
+    "concept_b": "demand_destruction_thermostat_break",
+    "mechanism": "China's shift to copper-intensive industries (grid, EVs) creates sustained structural demand. If China also implements financial repression (YCC on CGBs, directed lending), the copper demand rotation accelerates, further breaking the price self-correction mechanism.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The rotation is structural and policy-independent, but accelerates under Chinese financial repression. Independent of but amplified by US fiscal dominance.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "ai_productivity_structural_break",
+    "concept_b": "r_g_convergence",
+    "mechanism": "AI productivity growth of 0.5-1.0pp additional real GDP would increase g, widening the r-g gap in favor of sustainability. Could make large deficits self-funding if financing productivity transformation, potentially preventing fiscal dominance activation entirely.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Requires sustained, broad-based productivity growth — not just tech sector gains. Timeline and magnitude are the single largest unresolvable uncertainty. No historical precedent for this type of structural break.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "pervasive_small_n_problem",
+    "concept_b": "fiscal_dominance_five_signal_sequence",
+    "mechanism": "The 5-signal sequence is fitted to n=3-4 cases. A 5-parameter model on 4 data points has zero degrees of freedom, meaning the framework is definitionally over-fitted and cannot generate reliable out-of-sample predictions.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "This is a permanent statistical limitation, not regime-dependent. Applies regardless of which regime is being analyzed.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "concept_a": "exporter_stocks_to_use",
+    "concept_b": "agricultural_supply_shock_trilemma",
+    "mechanism": "When exporter stocks-to-use fall below critical thresholds (~16% for wheat), small production shortfalls (5%) trigger non-linear price spikes (30-50%), increasing the probability and severity of the agricultural supply shock that activates the Fed's trilemma.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The non-linear price response is structural and operates in all regimes. Under fiscal dominance, the consequences of the price shock are amplified because the Fed's response options are constrained.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  }
+]

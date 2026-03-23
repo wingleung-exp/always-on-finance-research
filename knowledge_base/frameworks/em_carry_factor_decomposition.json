@@ -1,0 +1,26 @@
+{
+  "slug": "em_carry_factor_decomposition",
+  "purpose": "Separate the genuine EM carry premium from dollar beta and credit risk exposure to determine whether residual 'pure' carry compensates for tail risk.",
+  "components": [
+    "Dollar beta attribution: ~40-50% of gross EM carry returns (47% primary estimate)",
+    "Credit beta attribution: ~23% of gross EM carry returns",
+    "Residual 'pure' carry: Sharpe 0.15-0.30 with confidence interval including zero",
+    "Survivorship bias adjustment: estimated 30-40% degradation of reported Sharpe",
+    "Power analysis: 520 monthly observations needed for 80% power at Sharpe 0.22"
+  ],
+  "current_assessment": "EM carry is predominantly leveraged dollar-short plus credit risk exposure. The existence of a genuine carry premium independent of these factors is an unresolved empirical question, not an established fact. The data structurally cannot answer whether the pure premium exists.",
+  "limitations": [
+    "Structurally underpowered: 520 months needed vs ~240 available",
+    "Survivorship bias of 30-40% further degrades estimates",
+    "Dollar beta may be time-varying across monetary policy regimes",
+    "Only ~6 EM currencies with sufficient data quality"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

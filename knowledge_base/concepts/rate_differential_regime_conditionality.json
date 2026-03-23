@@ -1,0 +1,34 @@
+{
+  "slug": "rate_differential_regime_conditionality",
+  "definition": "Rate differential explanatory power for FX is regime-conditional: 8-12% of variance in low-vol environments vs. 0-2% in high-vol environments, with a threshold near 9-10% realized G10 FX vol. The non-linearity itself is robust (Chow test F=7.2, p<0.01), but the specific threshold has endogeneity issues: carry drawdowns mechanically produce elevated vol, inflating apparent predictive power.",
+  "confidence": 8.0,
+  "evidence": [
+    "Panel interaction regression, n≈15,000 pair-months, Chow test F=7.2, p<0.01",
+    "Confirmed across pre-GFC and post-GFC subsamples and implied/realized vol specifications",
+    "Partial tautology identified: t-stat drops from 3.87 to ~2.0-2.5 after correcting for carry-attributable vol",
+    "Debate pair_2 confirmed both agents agree non-linearity is robust"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the threshold is stable over time or shifts with structural changes in FX market microstructure",
+    "Whether constructing realized vol using only non-carry returns resolves the endogeneity (KD4)",
+    "Out-of-sample validation of the specific threshold level"
+  ],
+  "related_concepts": [
+    "fx_vol_rate_divergence_mispricing",
+    "carry_trade_negative_skewness",
+    "compressed_spring_elevated_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "five_signal_fiscal_dominance_sequence",
+    "purpose": "Stages fiscal dominance progression from early warning to entrenched regime, providing an organizing heuristic for where a country stands on the spectrum.",
+    "components": [
+      "Signal 1: Persistent primary deficits above structural threshold",
+      "Signal 2: r-g convergence and debt dynamics deterioration",
+      "Signal 3: Implicit Treasury-Fed coordination (inherently ambiguous)",
+      "Signal 4: Term premium reflecting fiscal supply rather than monetary policy",
+      "Signal 5: Inflation expectations de-anchoring and formal financial repression"
+    ],
+    "current_assessment": "US scores 2.0-2.5 of 5 signals as of early 2026, with Japan circa 2005-10 as closest analogue. Currently on the gradual path (<50bp/quarter term premium velocity).",
+    "limitations": [
+      "Fitted to n=3-4 cases with zero degrees of freedom — definitionally over-fitted",
+      "Not falsifiable: no specified time horizon, no progression probability, no disconfirmation criteria",
+      "Signal 3 is inherently ambiguous and not operationally measurable",
+      "'2.5 of 5' should NOT be read as '50% of the way to fiscal dominance'",
+      "Appropriate for scenario organization, not probability estimation"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "slug": "three_channel_transmission_framework",
+    "purpose": "Categorizes how fiscal dominance transmits through the financial system, with distinct asset class sequencing per channel, enabling scenario-specific portfolio construction.",
+    "components": [
+      "Channel A — Financial Repression (~50% for US): gradual, negative real rates, wealth transfer from creditors to debtors over 10-20 years. Precedents: US 1942-51, France 1945-63, Japan 2016-present",
+      "Channel B — Acute Crisis (~25% for US): rapid term premium spike, market dislocation, forced policy response. Precedents: Italy 2011, UK 2022",
+      "Channel C — Monetization (<5% for US): explicit debt monetization, high/hyperinflation. Precedents: Argentina, Weimar",
+      "Residual (~20%): fiscal consolidation, productivity growth, or other resolution avoiding all three channels"
+    ],
+    "current_assessment": "The US is most likely on Channel A (financial repression / boring middle scenario), producing 3-6% inflation and persistently negative real bond returns. The basis trade is the key swing variable that could shift to Channel B.",
+    "limitations": [
+      "Probability assignments (50/25/5/20) are ordinal rankings from n=7, not reliable cardinal numbers",
+      "Directional ranking (repression > acute > monetization) is well-supported; specific percentages are not",
+      "Does not specify transition conditions between channels",
+      "Each channel has its own internal sub-variants not fully explored"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "slug": "term_premium_monitoring_framework",
+    "purpose": "Provides observable, real-time market signals for tracking fiscal dominance progression and distinguishing gradual from acute pathways.",
+    "components": [
+      "ACM term premium level (currently +50-100bp) and velocity (<50bp/quarter = gradual, >100bp/quarter = acute)",
+      "10Y auction bid-to-cover ratio (currently ~2.3-2.5x, declining)",
+      "Indirect bidder share at Treasury auctions (currently ~65%, down from 72%)",
+      "5Y5Y breakeven inflation (currently 2.3-2.5%, well below 3.0% trigger)",
+      "Stock-bond correlation bifurcation (2Y-SPX negative vs. 30Y-SPX positive)",
+      "Gold/copper ratio correlation regime (tentative, confidence 3/10)"
+    ],
+    "current_assessment": "All indicators are in the early/gradual zone. Term premium velocity is below the acute threshold. Auction metrics are deteriorating but not at crisis levels. Breakevens remain well-anchored. The correlation bifurcation is emerging.",
+    "limitations": [
+      "Post-QE structural break makes pre-QE regression coefficients unreliable",
+      "QT-era sample (~3 years) is too short for reliable re-estimation",
+      "Specific threshold values (e.g., 150bp term premium) carry 4-5/10 confidence",
+      "Real-time correlation measurement is noisy",
+      "No single indicator is sufficient — requires composite assessment"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "slug": "carry_trap_framework",
+    "purpose": "Identifies the negatively skewed payoff profile where fiscal deficits simultaneously compress credit spreads (rewarding carry) and increase fiscal dominance risk (increasing tail risk).",
+    "components": [
+      "Kalecki-Levy identity: deficits → corporate profits → credit spread compression",
+      "Fiscal dominance risk: same deficits → debt sustainability deterioration → tail risk",
+      "Payoff profile: carry narrows as underlying risk rises",
+      "Regime-conditional factor allocation: shift from carry-seeking to tail-hedging as fiscal dominance signals activate"
+    ],
+    "current_assessment": "The carry trap is currently operating — credit spreads are compressed while fiscal fundamentals deteriorate. The deficit is the common cause of both phenomena, creating a feedback loop that rewards complacency.",
+    "limitations": [
+      "No precise threshold for when the trap becomes a measurably bad risk-reward",
+      "Requires regime identification, which is itself subject to the small-n problem",
+      "Harvey-Liu-Zhu framework shows fiscal dominance beta would fail t-stat threshold of ~3.0 in cross-sectional tests",
+      "Timing the regime shift is not possible with available tools"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "slug": "bimodal_transition_framework",
+    "purpose": "Classifies economies into gradual or acute fiscal dominance transition paths based on institutional absorption capacity, enabling scenario-specific risk assessment.",
+    "components": [
+      "Gradual path features (10-25 years): reserve currency status, dollar-denominated debt, deep domestic capital markets, high domestic ownership of government debt, current account surplus",
+      "Acute path features (months): current account deficit, high foreign ownership of government debt, leveraged amplification mechanisms (basis trade), political fragmentation",
+      "No historical moderate-paced transitions observed (n=5)",
+      "Mechanism: institutional absorption capacity determines whether fiscal pressure accumulates slowly or breaks through suddenly"
+    ],
+    "current_assessment": "The US has a mix of gradual (reserve currency, deep markets) and acute (current account deficit ~3-3.5% GDP, ~30% foreign ownership, basis trade amplification) features. Currently on the gradual path per term premium velocity.",
+    "limitations": [
+      "Based on n=5 historical cases — small sample",
+      "The US's mixed feature set has no direct precedent",
+      "Does not specify conditions for path-switching from gradual to acute",
+      "The basis trade as a path-switching mechanism is theorized but untested (n=0 for this specific scenario)"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  },
+  {
+    "slug": "doom_loop_probability_framework",
+    "purpose": "Estimates the probability of a self-reinforcing fiscal stress spiral by decomposing into required links, correcting for conjunction fallacy and positively correlated conditions.",
+    "components": [
+      "Link A: Deficits remain large (high probability given political dynamics)",
+      "Link B: Term premium rises significantly (moderate probability, partially offset by maturity management)",
+      "Link C: Blended rate exceeds nominal GDP growth (mechanically tightening via r-g convergence)",
+      "Link D: No credible consolidation occurs (high probability given structural barriers)",
+      "Link E: Fed cannot intervene without inflation consequences (conditional on inflation regime)",
+      "Circuit-breakers: Treasury maturity management (30-50bp compression), political response to deficit salience, denominator inflation",
+      "Positive correlation adjustment: links are not independent, so joint probability exceeds independent product"
+    ],
+    "current_assessment": "Fair estimate: 20-30% over 5 years. Not 40-50% (naive reading of 6/10 confidence) nor 8-17% (challenger_02's independent-link calculation which underweights positive correlation). Basis trade amplification is the key swing variable.",
+    "limitations": [
+      "All individual link probabilities are themselves uncertain",
+      "Positive correlation structure is estimated, not measured",
+      "Circuit-breakers may not function in novel configurations",
+      "The conjunction fallacy correction itself depends on modeling assumptions",
+      "n=0 for the specific US current configuration"
+    ],
+    "topic": "fiscal_dominance",
+    "iteration_id": "iter_0016"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "slug": "ai_capex_roic_dilution",
+  "definition": "AI capital expenditure is pulling hyperscaler blended returns on invested capital toward cost of capital. Legacy ROIC (Google ~25%, Meta ~20%, Microsoft ~30%, Amazon AWS ~35%+) is diluted by estimated incremental AI capex ROIC of 3-8% (base case) to 10-12% (bull case), reducing blended ROIC from ~25% to ~15-18%. Even bull-case AI revenue scenarios produce ROIC dilution relative to legacy business.",
+  "confidence": 7,
+  "evidence": [
+    "Legacy ROIC: Google ~25%, Meta ~20%, Microsoft ~30%, Amazon AWS ~35%+",
+    "Estimated incremental AI capex ROIC: 3-8% (base), 10-12% (bull)",
+    "Blended ROIC declining from ~25% to ~15-18%",
+    "Pair_1 debate: clearest articulation of how AI capex can destroy per-share value even while growing revenue",
+    "Even bull-case AI revenue scenarios produce ROIC dilution relative to legacy business"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "At what blended ROIC level does the market begin to penalize hyperscaler multiples?",
+    "How long can revenue growth mask per-share value destruction?",
+    "Does the market differentiate between reported ROIC and ROIC adjusted for SBC?"
+  ],
+  "related_concepts": [
+    "hyperscaler_self_funded_capex",
+    "ai_capex_revenue_validation_gap",
+    "depreciation_lag_margin_headwind",
+    "mag7_implied_revenue_gap"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

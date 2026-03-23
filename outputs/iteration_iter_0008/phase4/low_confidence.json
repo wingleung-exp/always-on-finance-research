@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Dedollarization of commodity invoicing has shifted ~5-8pp of global commodity trade away from USD settlement ($250-480B annually), constituting a measurable structural drag on dollar demand.",
+    "source_agent": "generalist_01",
+    "needs": "Higher-quality settlement data (SWIFT/CIPS coverage gaps must be closed); evidence that predicted cross-asset implications (basis narrowing, term premium expansion) materialize; demonstration that annual flow is significant relative to daily FX turnover of $7.5T+. Debate pair_0 verdict: 'below the evidence threshold for inclusion' at claimed magnitude.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The energy transition is creating a slow structural migration of commodity-FX betas: lithium-CLP elasticity rising from ~0 to ~0.15, nickel-IDR sensitivity increasing, oil-NOK beta declining from ~0.35 to ~0.20.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Longer post-2020 time series for lithium-CLP sensitivity; disentangling Indonesia's nickel-IDR from policy interventions (export bans, processing mandates); confirmation that Norway's declining oil beta reflects energy transition rather than GPFG sterilization. The 5-10 year forecast horizon and small current magnitudes reduce actionability.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The green transition agricultural cost channel (biofuel mandates, land competition, water reallocation) will raise baseline EM food inflation by 50-150bp over the next decade.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Quantification of countervailing forces (precision agriculture, yield improvements, dietary shifts, policy reversals); evidence biofuel mandates add incremental cost beyond already-priced structures (US corn ethanol at 35%+ since ~2015); land competition evidence beyond <1% of global cropland cited. Debate pair_1: 'the weakest claim in either analysis.'",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "China's strategic agricultural reserves (50-65% of global corn, 35-50% of wheat, 60-70% of rice) represent the single largest source of unpriced tail risk in the agricultural-FX nexus.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Leading indicators for SINOGRAIN release/accumulation decisions; narrower confidence interval on actual reserve volumes (currently ±15-20%); historical analysis of reserve action FX impacts with proper controls; removal of speculative BoJ interaction scenario.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The fiscal-driven stock-bond correlation flip is more likely than the inflation-driven flip to be the marginal driver of correlation regime instability, with asymmetric implications for carry (fiscal-driven is worse because rate differentials narrow as bond hedge fails).",
+    "source_agent": "generalist_01",
+    "needs": "Addressing the Japan counterfactual (decades of fiscal excess without correlation flip due to BoJ monetization); assessment of whether Fed might follow BoJ playbook; validation of monitoring thresholds (currently 2 amber, 1 green) with larger historical sample.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The yen's safe-haven property is regime-conditional with precisely two historical states, and BoJ normalization toward 1.0%+ creates an unprecedented third state where the mechanism could operate through carry unwind repatriation rather than flight-to-quality.",
+    "source_agent": "generalist_02",
+    "needs": "Resolution of whether safe-haven depends on carry unwind mechanics (diminished at BoJ 1.0%+) or structural creditor position ($3.5T+ NIIP); Japan has never had meaningfully positive rates during a modern global crisis, making this genuinely unprecedented and unresolvable from historical data alone.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "Dollar cycle analysis across five post-Bretton Woods cycles suggests the current cycle (15 years from trough) is the longest and most PPP-overvalued (15-25%), matching the pre-Plaza 1983-85 configuration on 4/5 indicators but critically lacking a coordinated policy correction mechanism.",
+    "source_agent": "generalist_02",
+    "needs": "Resolution of reference distribution stationarity (KD5: was 1990-2010 convergence the anomaly?); larger cycle population than n=5; assessment of whether pre-Bretton Woods cycles are comparable despite structural differences (capital controls, different monetary regimes).",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The commodity-adjusted current account balance predicts REER movements 6-12 months ahead with r~0.45-0.55 for economies with commodity trade >10% of GDP.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Formal specification details (estimation period, controls, in-sample vs out-of-sample split); independent replication (r~0.45-0.55 is suspiciously high for REER forecasting where r~0.20-0.30 is considered strong); timing catalysts for specific trade signals cited (BRL undervalued 8-12%, ZAR undervalued 5-8%, NOK overvalued 3-5%).",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  }
+]

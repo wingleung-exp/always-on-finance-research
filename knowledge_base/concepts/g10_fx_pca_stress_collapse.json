@@ -1,0 +1,32 @@
+{
+  "slug": "g10_fx_pca_stress_collapse",
+  "definition": "PCA dimensionality of G10 FX returns collapses during stress: effective factor count drops from 2.5-3.0 to ~1.2-1.5, with eigenvalue ratio expanding from ~3:1 to ~8:1+. This renders multi-factor diversification illusory in crisis. The indicator is contemporaneous, not predictive, limiting early-warning value but confirming it as a real-time risk measurement.",
+  "confidence": 8.0,
+  "evidence": [
+    "Documented across GFC (2008-09), eurozone crisis (2011-12), COVID (2020-03), and rate shock (2022 Q3-Q4)",
+    "Normal-regime 3-factor structure: dollar 50-70%, carry 15-20%, momentum 8-12%",
+    "Mechanically verifiable in real-time data",
+    "Both quant researchers agree the indicator is contemporaneous, not predictive"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Whether PCA compression rate (speed of dimensionality collapse) has predictive content even if level does not",
+    "Whether the threshold factor count (e.g., dropping below 2.0) can serve as a real-time risk-off trigger"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "carry_momentum_correlation_regime_switch",
+    "compressed_spring_elevated_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

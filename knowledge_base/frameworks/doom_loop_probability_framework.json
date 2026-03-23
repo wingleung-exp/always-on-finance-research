@@ -1,0 +1,29 @@
+{
+  "slug": "doom_loop_probability_framework",
+  "purpose": "Estimates the probability of a self-reinforcing fiscal stress spiral by decomposing into required links, correcting for conjunction fallacy and positively correlated conditions.",
+  "components": [
+    "Link A: Deficits remain large (high probability given political dynamics)",
+    "Link B: Term premium rises significantly (moderate probability, partially offset by maturity management)",
+    "Link C: Blended rate exceeds nominal GDP growth (mechanically tightening via r-g convergence)",
+    "Link D: No credible consolidation occurs (high probability given structural barriers)",
+    "Link E: Fed cannot intervene without inflation consequences (conditional on inflation regime)",
+    "Circuit-breakers: Treasury maturity management (30-50bp compression), political response to deficit salience, denominator inflation",
+    "Positive correlation adjustment: links are not independent, so joint probability exceeds independent product"
+  ],
+  "current_assessment": "Fair estimate: 20-30% over 5 years. Not 40-50% (naive reading of 6/10 confidence) nor 8-17% (challenger_02's independent-link calculation which underweights positive correlation). Basis trade amplification is the key swing variable.",
+  "limitations": [
+    "All individual link probabilities are themselves uncertain",
+    "Positive correlation structure is estimated, not measured",
+    "Circuit-breakers may not function in novel configurations",
+    "The conjunction fallacy correction itself depends on modeling assumptions",
+    "n=0 for the specific US current configuration"
+  ],
+  "topic": "fiscal_dominance",
+  "created_at": "2026-03-23T02:04:12Z",
+  "last_updated": "2026-03-23T02:04:12Z",
+  "originating_iteration": "iter_0016",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0016"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "compressed_spring_elevated_risk",
+  "definition": "The 'compressed spring' condition (extreme DM rate divergence plus suppressed FX vol) is associated with materially elevated probability of a 20%+ G10 pair move within 12 months. The directional finding is robust (CI lower bound of ~26-36% is 2.5-3.3x the unconditional 11%) but the specific 61% point estimate is inflated by small-sample inference (n≈8-12 effective independent episodes, 95% CI [26%, 88%]).",
+  "confidence": 7.5,
+  "evidence": [
+    "Validated through two independent methods: statistical base rate and historical episode sequencing",
+    "August 2024 out-of-sample episode provides partial validation",
+    "Debate pair_0: 'the highest-conviction finding across both analyses'",
+    "Even CI lower bound of ~26-36% is 2.5-3.3x the unconditional 11% base rate"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Whether the reference distribution for 'extreme' divergence is stationary (KD5: 1990-2010 convergence may have been the anomaly)",
+    "Whether the compressed spring is at the 60th or 97th percentile depending on reference period choice",
+    "Resolution of p-value under proper multiple-testing correction"
+  ],
+  "related_concepts": [
+    "fx_vol_rate_divergence_mispricing",
+    "boj_normalization_cumulative_risk",
+    "hold_to_cut_bimodal_fx",
+    "rate_differential_regime_conditionality"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

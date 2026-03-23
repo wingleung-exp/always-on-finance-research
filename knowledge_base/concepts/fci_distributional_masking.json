@@ -1,0 +1,35 @@
+{
+  "slug": "fci_distributional_masking",
+  "definition": "Financial conditions indices mask distributional reality: GS FCI is ~50-75bp easier than policy rate alone implies, driven by cap-weighted equity component where top 10 stocks (35% of S&P weight) dominate. Top 10% of households own 93% of equities, concentrating wealth effects in high-NW/low-MPC segments. The Fed may be running rates appropriate for the AI-benefiting 35% of the economy but too tight for the remaining 65%.",
+  "confidence": 7,
+  "evidence": [
+    "GS FCI ~50-75bp easier than policy rate alone implies",
+    "Top 10 stocks (35% of S&P weight) dominate cap-weighted FCI equity component",
+    "Equal-weighted vs cap-weighted divergence: 800-1200bp in 2024-2025 (widest since late 1990s)",
+    "Top 10% of households own 93% of equities",
+    "Pair_3 confirmed both sides agreed on masking mechanism"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Should the Fed construct alternative financial conditions measures adjusted for concentration?",
+    "What is the actual MPC differential between AI-benefiting and non-benefiting economic segments?",
+    "AI capex as financial conditions easing impulse (~50-75bp offset to policy rate) — how is this transmitted?"
+  ],
+  "related_concepts": [
+    "ai_equity_concentration_amplification",
+    "central_bank_ai_put",
+    "erp_ai_compression",
+    "fci_superior_to_policy_rate"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T02:02:35Z",
+  "last_updated": "2026-03-23T02:02:35Z",
+  "originating_iteration": "iter_0014",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0014"
+  ]
+}

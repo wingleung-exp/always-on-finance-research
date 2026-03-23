@@ -1,0 +1,21 @@
+{
+  "concept_a": "carry_trade_negative_skewness",
+  "concept_b": "g10_fx_pca_stress_collapse",
+  "mechanism": "Non-Gaussian carry tail events drive correlation amplification (carry-equity correlation 0.3-0.4 → 0.7-0.8 during stress), causing PCA dimensionality to collapse as all risk assets converge to a single dollar factor.",
+  "direction": "a_causes_b",
+  "confidence": 9.0,
+  "regime_dependence": "Operates during stress regimes only; in normal regimes the 3-factor PCA structure (dollar 50-70%, carry 15-20%, momentum 8-12%) is stable.",
+  "originating_agents": [
+    "risk_analyst_01",
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}

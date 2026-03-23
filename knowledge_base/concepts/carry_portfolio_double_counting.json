@@ -1,0 +1,30 @@
+{
+  "slug": "carry_portfolio_double_counting",
+  "definition": "For USD-based investors with standard 60/40 allocations, carry is a portfolio double-counting error that concentrates rather than diversifies existing factor exposures. A 60/40 portfolio already has dollar beta ~0.1-0.3 and credit beta ~0.4-0.5; adding carry (47% dollar beta, 23% credit beta) concentrates these exposures. The residual 'pure carry' (Sharpe 0.22, CI including zero) provides near-zero marginal diversification.",
+  "confidence": 7.0,
+  "evidence": [
+    "Debate pair_0: 'the single most original contribution across both analyses'",
+    "Arithmetic is straightforward: factor decomposition shows direct overlap",
+    "Reframe from 'should we run carry' to factor-exposure audit is actionable"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether non-USD-based investors (JPY, EUR base portfolios) may genuinely diversify with carry",
+    "Whether career-risk dynamics prevent institutional acceptance regardless of analytical validity"
+  ],
+  "related_concepts": [
+    "em_carry_dollar_beta",
+    "carry_sharpe_structural_decline",
+    "uip_investable_premium_gap"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T02:02:34Z",
+  "last_updated": "2026-03-23T02:02:34Z",
+  "originating_iteration": "iter_0008",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0008"
+  ]
+}
