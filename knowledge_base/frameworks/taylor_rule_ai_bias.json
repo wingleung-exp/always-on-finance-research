@@ -1,0 +1,26 @@
+{
+  "slug": "taylor_rule_ai_bias",
+  "purpose": "Estimates systematic Fed policy rate bias from AI-related productivity mismeasurement",
+  "components": [
+    "BLS service sector quality adjustment gaps",
+    "Intangible capital undercounting in GDP/productivity statistics",
+    "1990s revision precedent (1.0-1.5pp upward productivity revision after the fact)",
+    "50-100bp estimated Taylor rule bias",
+    "AI Solow paradox window: 2-4 year period of maximum policy error risk"
+  ],
+  "current_assessment": "If AI is genuinely boosting productivity but measurement fails to capture it, the Taylor rule output gap estimate is too pessimistic and the implied policy rate is too low — risking inflation. Conversely, if AI is not boosting productivity, current pricing is correct. The Solow paradox window creates maximum uncertainty.",
+  "limitations": [
+    "Mismeasurement magnitude is itself unmeasurable in real time",
+    "1990s revision precedent may not apply — different statistical methodology now",
+    "Four indistinguishable data interpretations require opposite policy responses",
+    "The 50-100bp bias estimate is highly model-dependent"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

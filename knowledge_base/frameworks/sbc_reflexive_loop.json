@@ -1,0 +1,26 @@
+{
+  "slug": "sbc_reflexive_loop",
+  "purpose": "Models the feedback loop between stock prices and reported profitability through stock-based compensation",
+  "components": [
+    "Rising stock prices → lower perceived SBC cost per option/RSU",
+    "Lower SBC cost → better reported non-GAAP margins",
+    "Better margins → higher stock prices",
+    "'SBC vega': sensitivity of reported margins to stock price",
+    "Creates GAAP vs. non-GAAP P/E gap (10-15 turns for pure-play AI, 1.5-2.0 turns for S&P 500)"
+  ],
+  "current_assessment": "The reflexive loop is currently amplifying apparent profitability. Aggregate Mag-7 SBC ~$75-80B annually. The mechanism works in reverse during drawdowns.",
+  "limitations": [
+    "Quantifying the exact magnitude of the distortion requires knowing the true cost of SBC",
+    "The reflexive loop may persist indefinitely if markets remain in expansion",
+    "GAAP accounting partially captures SBC cost but market focuses on non-GAAP",
+    "Does not predict when the loop reverses"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

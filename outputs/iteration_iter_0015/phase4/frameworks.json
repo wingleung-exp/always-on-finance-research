@@ -1,0 +1,336 @@
+[
+  {
+    "slug": "four_gate_productivity_transmission",
+    "purpose": "Assesses where AI stands in the multi-stage process from task-level gains to aggregate TFP acceleration",
+    "components": [
+      "Gate 1: Task-level productivity gains (cleared — demonstrable AI task acceleration)",
+      "Gate 2: Firm-level productivity gains (in progress — 15-25% of firms showing measurable gains)",
+      "Gate 3: Sectoral diffusion and competitive reallocation (not started)",
+      "Gate 4: Aggregate TFP acceleration visible in macro data (not started)"
+    ],
+    "current_assessment": "Gate 1 cleared, Gate 2 in progress at 15-25% of firms, Gates 3-4 not started. Aggregate TFP visibility requires all four gates to clear sequentially.",
+    "limitations": [
+      "Cannot predict gate transition speeds",
+      "Assumes sequential progression when some parallelism may exist",
+      "Does not account for AI's potential to accelerate its own diffusion (recursive reorganization)",
+      "Historical base rates drawn from structurally different GPTs"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "three_phase_productivity_lag",
+    "purpose": "Decomposes the AI-to-productivity lag into distinct phases with quantified historical durations",
+    "components": [
+      "Phase 1: Diffusion — technology availability and initial adoption (shortest phase)",
+      "Phase 2: Reorganization — organizational restructuring to exploit technology (60-70% of total delay)",
+      "Phase 3: Measurement — statistical infrastructure captures the gains (varies by national statistics capacity)"
+    ],
+    "current_assessment": "AI is in late Phase 1 / early Phase 2. The reorganization phase is the binding constraint and has historically taken 60-70% of total lag duration across four GPT analogues.",
+    "limitations": [
+      "Historical calibration from only 4 GPT analogues",
+      "Phase 2 duration may be compressible if AI assists its own organizational restructuring (recursive reorganization)",
+      "Measurement phase depends on statistical agency capacity and methodology, which varies by country",
+      "Phases overlap in practice — the sequential framing is a simplification"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "capex_kill_zone_dual_threshold",
+    "purpose": "Identifies when hyperscaler capex spending becomes unsustainable, triggering retrenchment",
+    "components": [
+      "Threshold 1: ROIC below WACC for 4+ consecutive quarters",
+      "Threshold 2: Capex/OCF ratio exceeding 55-65%",
+      "Kill zone requires BOTH thresholds to be crossed simultaneously",
+      "Derived from 5 historical analogues of capex cycles"
+    ],
+    "current_assessment": "Aggregate capex/OCF at 50-65% and approaching threshold. Meta and Amazon at or near 70%. At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027. ROIC threshold harder to assess due to bundling.",
+    "limitations": [
+      "4 of 5 historical analogues were debt-funded — structurally different from self-funded hyperscalers",
+      "Self-funded entities may tolerate higher capex/OCF ratios",
+      "ROIC is nearly unmeasurable when AI is bundled into existing products",
+      "Prisoner's dilemma may prevent rational individual retrenchment before collective pain"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "eva_ai_capex_value_destruction",
+    "purpose": "Formalizes whether AI capex creates or destroys economic value added on a per-share basis",
+    "components": [
+      "Legacy capital base (~$500B) at ~25% ROIC generating ~$77.5B EVA",
+      "AI invested capital (~$600B cumulative) at 3-12% ROIC",
+      "Bull case: AI capital generates $15B EVA (16% of total from 55% of capital)",
+      "Blended ROIC trajectory: ~25% declining to ~15-18%"
+    ],
+    "current_assessment": "Even in the bull case, AI capital is value-dilutive on a per-share basis. Revenue growth may mask the dilution in absolute terms but not in return-on-capital terms.",
+    "limitations": [
+      "AI-specific ROIC is nearly unmeasurable when bundled into existing products",
+      "Revenue attribution between AI and legacy products is arbitrary",
+      "Specific magnitudes are illustrative, not precise (direction at 6/10, magnitudes at 4/10)",
+      "Does not capture option value of AI investment or strategic positioning benefits"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "hedge_destructive_minsky_taxonomy",
+    "purpose": "Extends classical Minsky taxonomy to classify self-funded entities that systematically destroy per-share value",
+    "components": [
+      "Hedge financing: income covers debt service and principal (classical)",
+      "Speculative financing: income covers interest but requires refinancing for principal (classical)",
+      "Ponzi financing: income insufficient for interest, dependent on asset appreciation (classical)",
+      "Hedge-destructive (new): solvent and self-funding but investing at sub-WACC returns, destroying per-share value over time"
+    ],
+    "current_assessment": "Hyperscaler AI capex may fit the hedge-destructive category: financially sound companies with strong OCF systematically investing in projects returning below cost of capital. Implies duration risk (slow grind) not drawdown risk (sudden stop).",
+    "limitations": [
+      "Novel category — needs broader corroboration",
+      "Timing prediction limited — Japanese corporates sustained hedge-destructive behavior for decades",
+      "Requires ROIC measurement which is contested",
+      "Market may not reprice until the value destruction becomes undeniable in reported metrics"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "kalecki_profit_identity_ai_application",
+    "purpose": "Links AI capex decisions to aggregate corporate profits and macro growth through accounting identity",
+    "components": [
+      "Kalecki equation: Profits = Investment + Government Deficit + Net Exports - Household Saving",
+      "Federal deficit (~$1.8-2T) as dominant profit sustainer",
+      "AI capex (~$250B) as marginal growth contributor",
+      "25% capex cut → ~$60-75B profit reduction → ~2.5-3% S&P 500 earnings impact",
+      "Four-channel demand decomposition: capital income, complementary labor, consumer surplus, fiscal redistribution"
+    ],
+    "current_assessment": "The Kalecki identity transforms AI capex from a sector story to a macro story. The fiscal deficit is doing the heavy lifting, but AI capex is the marginal contributor responsible for profit growth.",
+    "limitations": [
+      "Accounting identity does not specify causation or dynamics",
+      "Assumes investment term is independent of other terms (may not hold if capex cuts trigger fiscal response)",
+      "Single-channel underconsumption arguments are insufficient — the four-channel decomposition is required",
+      "Does not predict timing of capex cuts"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "augmentation_substitution_ratio_framework",
+    "purpose": "Predicts labor market outcomes based on the ratio of AI-augmented to AI-substituted tasks",
+    "components": [
+      "Ratio >1.5:1 → net employment gains within 10 years",
+      "Ratio 1.0-1.5:1 → historically ambiguous zone",
+      "Ratio <0.8:1 → 15-25 year painful adjustment period",
+      "Current estimated ratio: 1.0-1.3:1",
+      "Time-varying: ratio may decline as agent capabilities mature"
+    ],
+    "current_assessment": "AI sits in the historically ambiguous zone at 1.0-1.3:1. More a monitoring framework than a confident prediction. The time-varying nature (ratio declining as capabilities improve) is an important non-obvious consideration.",
+    "limitations": [
+      "Calibrated from only n=5-8 GPTs",
+      "Depends heavily on survey data of uncertain quality",
+      "Ratio is time-varying and may shift rapidly with capability improvements",
+      "Does not distinguish within-sector from across-sector effects"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "tripartite_em_segmentation_framework",
+    "purpose": "Classifies EM economies by their AI-era vulnerability/opportunity profile for FX analysis",
+    "components": [
+      "Segment A: Supply chain beneficiaries (Taiwan, Korea) — semiconductor/hardware exposure, strong current accounts",
+      "Segment B: Services-threatened (Philippines, India BPO, Bangladesh) — vulnerable to AI automation of exported cognitive services",
+      "Segment C: Commodity-adjacent — indirect exposure through AI energy demand and investment cycle effects",
+      "Distinct FX factor exposures for each segment"
+    ],
+    "current_assessment": "Directional divergence already observable (TWD/KRW outperforming PHP/BDT since 2023). FDI flows support segmentation. Analytically clean but boundaries are fuzzy (India spans A and B) and operationalization requires unavailable data.",
+    "limitations": [
+      "Boundaries between segments are fuzzy",
+      "Operationalization requires data not currently available",
+      "No independent agent corroboration",
+      "India spanning segments A and B limits clean categorization",
+      "A research agenda, not yet an investable framework"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "capex_dollar_framework",
+    "purpose": "Explains dollar overvaluation through technology investment inflows independent of rate differentials",
+    "components": [
+      "Technology investment inflows tracked via TIC data ($40-60B/month)",
+      "EPFR fund flow data ($300B+ into US tech funds)",
+      "Dot-com parallel (1997-2001): DXY +25% when Fed not systematically tighter",
+      "Captive flow premium (3-5% of overvaluation) from US-China tech bifurcation",
+      "Monitorable signposts: capex-to-revenue ratio, foreign equity ownership, DXY-PPP deviation"
+    ],
+    "current_assessment": "The capex dollar is currently the dominant FX regime factor, operating orthogonally to rate differentials. This explains why DXY remains elevated despite 100-150bp of Fed cuts.",
+    "limitations": [
+      "n=1 historical analogue (dot-com) with different fiscal/geopolitical backdrop",
+      "Captive flow premium magnitude uncertain",
+      "Dollar-tech correlation may reflect common factors, not causal chain",
+      "Technology landscape evolves rapidly — European/Asian alternatives could gain share"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "bimodal_terminal_rate_framework",
+    "purpose": "Models the terminal rate distribution under discrete AI productivity outcomes",
+    "components": [
+      "AI bust scenario: terminal rate 2.0-2.5%",
+      "AI muddle-through (current OIS pricing): 3.4-3.7%",
+      "AI productivity realized: terminal rate 4.5-5.0%",
+      "200-300bp gap between extreme scenarios",
+      "Potential 2-3x mispricing in OTM swaption wings (15-20x claim refuted)"
+    ],
+    "current_assessment": "Bimodality is structurally real given discrete AI outcomes. OIS curve prices the muddle-through central mode. Valuable as a conceptual tool but specific trade expressions require careful sizing given that uncertain probabilities propagate enormously.",
+    "limitations": [
+      "Treats AI outcomes as discrete when they may be continuous",
+      "Swaptions price all macro scenarios, not just AI-conditional",
+      "Uncertain scenario probabilities (30-40% range = 10pp uncertainty)",
+      "Carry costs of holding convergence positions erode theoretical edge",
+      "15-20x mispricing claim refuted — 2-3x is upper bound"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "credit_impulse_leading_indicator",
+    "purpose": "Uses the second derivative of credit (change in new credit flow) to predict growth inflections",
+    "components": [
+      "Biggs-Mayer-Pick (2009) framework",
+      "Bank lending credit impulse",
+      "Non-bank credit offset (private credit, fintech — 25-30% of consumer origination)",
+      "Total credit impulse including shadow banking (BIS data)",
+      "Track record: correctly predicted 2008, European crisis, 2020 recovery, 2023-2024 resilience"
+    ],
+    "current_assessment": "Bank lending credit impulse decelerating since mid-2024. Non-bank credit partially offsets. Total credit impulse still positive but declining. Signals growth deceleration masked by fiscal offsets.",
+    "limitations": [
+      "Measuring total credit impulse including shadow banking is increasingly difficult",
+      "Fintech and private credit channels may not respond to same drivers as bank lending",
+      "Real-time utility reduced by measurement difficulty",
+      "Kalecki fiscal floor may override credit impulse signal"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "sbc_reflexive_loop",
+    "purpose": "Models the feedback loop between stock prices and reported profitability through stock-based compensation",
+    "components": [
+      "Rising stock prices → lower perceived SBC cost per option/RSU",
+      "Lower SBC cost → better reported non-GAAP margins",
+      "Better margins → higher stock prices",
+      "'SBC vega': sensitivity of reported margins to stock price",
+      "Creates GAAP vs. non-GAAP P/E gap (10-15 turns for pure-play AI, 1.5-2.0 turns for S&P 500)"
+    ],
+    "current_assessment": "The reflexive loop is currently amplifying apparent profitability. Aggregate Mag-7 SBC ~$75-80B annually. The mechanism works in reverse during drawdowns.",
+    "limitations": [
+      "Quantifying the exact magnitude of the distortion requires knowing the true cost of SBC",
+      "The reflexive loop may persist indefinitely if markets remain in expansion",
+      "GAAP accounting partially captures SBC cost but market focuses on non-GAAP",
+      "Does not predict when the loop reverses"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "fci_distributional_distortion",
+    "purpose": "Quantifies how AI concentration distorts financial conditions indices used for monetary policy calibration",
+    "components": [
+      "Cap-weighted FCI equity component captures top-decile firm reality",
+      "Median firm conditions 75-100bp tighter than FCI suggests",
+      "Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative",
+      "Top 10 firms: 35% index weight, 3-4% employment",
+      "NFIB and regional Fed surveys show more stress than aggregate data"
+    ],
+    "current_assessment": "FCI is systematically biased toward loose readings due to AI concentration. Creates cliff risk where policy appears appropriate until median-firm stress cascades into aggregate data.",
+    "limitations": [
+      "75-100bp FCI distortion is model-dependent",
+      "Alternative FCI constructions (equal-weighted, employment-weighted) are not standardized",
+      "Unclear whether the Fed is aware of and adjusting for this distortion",
+      "The cliff risk prediction assumes median-firm stress eventually cascades, which is unproven"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "winner_take_all_load_bearing",
+    "purpose": "Analyzes how AI value concentration in 5-7 companies creates systemic macro dependencies",
+    "components": [
+      "Winner-take-all as partial reconciliation of cross-asset signals",
+      "Kalecki mechanism linking narrow capex to aggregate profits",
+      "Financial conditions reflexivity loop (35% AI index weight embeds AI capex momentum)",
+      "Systemic dependence on small number of corporate investment decisions",
+      "Slow burn as modal outcome vs. sudden stop"
+    ],
+    "current_assessment": "The winner-take-all structure is currently load-bearing for the entire macro regime via Kalecki profit identity and FCI construction. This transforms sector risk into macro regime risk.",
+    "limitations": [
+      "No mechanism identified for why the structure would remain stable indefinitely",
+      "The 2022 tech drawdown counterexample suggests cascades are not automatic",
+      "Slow burn modal outcome depends on unprecedented corporate self-restraint",
+      "The structure's stability has not been tested under a genuine AI-thesis-breaking event"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "taylor_rule_ai_bias",
+    "purpose": "Estimates systematic Fed policy rate bias from AI-related productivity mismeasurement",
+    "components": [
+      "BLS service sector quality adjustment gaps",
+      "Intangible capital undercounting in GDP/productivity statistics",
+      "1990s revision precedent (1.0-1.5pp upward productivity revision after the fact)",
+      "50-100bp estimated Taylor rule bias",
+      "AI Solow paradox window: 2-4 year period of maximum policy error risk"
+    ],
+    "current_assessment": "If AI is genuinely boosting productivity but measurement fails to capture it, the Taylor rule output gap estimate is too pessimistic and the implied policy rate is too low — risking inflation. Conversely, if AI is not boosting productivity, current pricing is correct. The Solow paradox window creates maximum uncertainty.",
+    "limitations": [
+      "Mismeasurement magnitude is itself unmeasurable in real time",
+      "1990s revision precedent may not apply — different statistical methodology now",
+      "Four indistinguishable data interpretations require opposite policy responses",
+      "The 50-100bp bias estimate is highly model-dependent"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "five_step_productivity_decomposition",
+    "purpose": "Breaks down AI productivity transmission into five discrete steps with distinct speeds",
+    "components": [
+      "Step 1: Technology availability (AI models exist and are accessible)",
+      "Step 2: Firm adoption (companies deploy AI tools)",
+      "Step 3: Task-level gains (individual tasks performed faster/better)",
+      "Step 4: Firm-level gains (overall firm productivity improves)",
+      "Step 5: Sector/aggregate TFP (macro-visible productivity acceleration)"
+    ],
+    "current_assessment": "Step 1 is complete, Step 2 is well underway but uneven across sectors, Step 3 is observable in early-adopter tasks, Steps 4-5 are not yet measurable. Anchoring asymmetry: bulls anchor to Step 2 speed, bears anchor to Steps 4-5 lags.",
+    "limitations": [
+      "Assumes sequential progression which may not hold strictly",
+      "Each step has different measurement challenges",
+      "The anchoring asymmetry critique applies to the framework itself — which step is most informative?",
+      "Does not predict speeds, only identifies where bottlenecks exist"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "plug_and_play_vs_reorganization_gpt",
+    "purpose": "Classifies general-purpose technologies by whether they can be adopted with or without organizational restructuring",
+    "components": [
+      "Plug-and-play GPTs: can be adopted within existing organizational structures (incremental efficiency gains)",
+      "Reorganization-dependent GPTs: require fundamental restructuring of work processes, management, and organizational design",
+      "Reorganization is 60-70% of total productivity lag historically",
+      "AI is reorganization-dependent but may partially self-accelerate Phase 2 (recursive reorganization)"
+    ],
+    "current_assessment": "AI is a reorganization-dependent GPT, which explains the long productivity lag. The key unresolvable question is whether AI's ability to assist in its own organizational restructuring compresses the historical timeline.",
+    "limitations": [
+      "Binary classification may be too coarse — GPTs exist on a spectrum",
+      "Recursive reorganization hypothesis is untestable until it either happens or doesn't",
+      "Does not specify which organizations need what type of reorganization",
+      "Historical analogy base is small (4 GPTs)"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  }
+]

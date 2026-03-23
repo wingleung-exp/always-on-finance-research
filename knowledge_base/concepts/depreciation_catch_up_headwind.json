@@ -1,0 +1,35 @@
+{
+  "slug": "depreciation_catch_up_headwind",
+  "definition": "$200-250B annual hyperscaler capex over 5-7 year useful lives generates escalating depreciation and amortization reaching $150-200B annually by 2028 vs. current ~$80-100B, creating a 300-500bp margin headwind by 2027-2029. Useful-life extensions are already observable (Microsoft: 4→6 years; Google similar), which is an early-warning signal of management awareness of the pressure.",
+  "confidence": 8,
+  "evidence": [
+    "$200-250B annual capex over 5-7yr useful lives → escalating D&A",
+    "D&A reaching $150-200B annually by 2028 vs. current ~$80-100B",
+    "Microsoft useful life extension 4→6 years, Google similar",
+    "pair_0 challenged precision — not all capex is AI-related — but directional mechanics unchallengeable"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "How much revenue growth could absorb the margin headwind in the denominator?",
+    "Will useful-life extensions further distort reported profitability before the headwind hits?",
+    "What fraction of capex is genuinely AI-specific vs. general infrastructure maintenance?"
+  ],
+  "related_concepts": [
+    "hyperscaler_capex_hedge_financing",
+    "incremental_roic_value_dilution",
+    "sbc_profitability_overstatement",
+    "capex_ocf_stress_threshold"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

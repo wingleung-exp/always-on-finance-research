@@ -1,0 +1,33 @@
+{
+  "slug": "fci_ai_concentration_distortion",
+  "definition": "Financial conditions indices are systematically distorted by AI-driven equity concentration. Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative (2024-H1 2026), widest since 1999-2000. Top 10 firms represent ~35% of index weight but only ~3-4% of US employment, so the FCI equity component captures conditions of firms employing ~3-4% of workforce extrapolated to the economy. Creates 'cliff risk' where aggregate data stays resilient until median-firm stress cascades.",
+  "confidence": 7,
+  "evidence": [
+    "Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative",
+    "Top 10 firms: ~35% of index weight but ~3-4% of US employment",
+    "NFIB small business optimism and regional Fed surveys show more stress than aggregate data",
+    "75-100bp FCI distortion estimate is model-dependent"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can the 75-100bp FCI distortion be measured with sufficient precision to be actionable?",
+    "When does the median-firm stress become visible in aggregate data?",
+    "Is the Fed aware of and adjusting for this FCI distortion?"
+  ],
+  "related_concepts": [
+    "equity_market_concentration",
+    "fed_ai_r_star_trilemma",
+    "credit_channel_bifurcation"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

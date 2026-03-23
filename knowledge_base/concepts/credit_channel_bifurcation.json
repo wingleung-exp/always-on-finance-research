@@ -1,0 +1,35 @@
+{
+  "slug": "credit_channel_bifurcation",
+  "definition": "The credit transmission mechanism is structurally bifurcated: top 5 hyperscalers hold ~$350-400B cash and generate ~$300B+ annual FCF, making 85-90% of AI capex self-funded and rate-insensitive (200bp hike changes WACC by 20-30bp). Simultaneously, fintech's ~25-30% share of consumer lending (up from ~10% in 2019) attenuates the traditional bank lending channel. SLOOS systematically overstates credit tightening as a result.",
+  "confidence": 7,
+  "evidence": [
+    "Top 5 hyperscalers: ~$350-400B cash, ~$300B+ annual FCF",
+    "85-90% of AI capex self-funded",
+    "200bp rate hike changes hyperscaler WACC by only 20-30bp",
+    "Fintech share of consumer lending ~25-30% (up from ~10% in 2019)",
+    "Fed Board research (Jagtiani & Lemieux 2019, Fuster et al. 2022)"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Does rate insensitivity of the dominant investment channel fundamentally break monetary policy transmission?",
+    "Is the fintech credit channel more or less procyclical than traditional bank lending?",
+    "How should the Fed calibrate policy when SLOOS systematically overstates tightening?"
+  ],
+  "related_concepts": [
+    "hyperscaler_capex_hedge_financing",
+    "fed_ai_r_star_trilemma",
+    "fci_ai_concentration_distortion",
+    "credit_impulse_deceleration"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

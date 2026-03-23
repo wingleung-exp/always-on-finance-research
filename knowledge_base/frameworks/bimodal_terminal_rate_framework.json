@@ -1,0 +1,27 @@
+{
+  "slug": "bimodal_terminal_rate_framework",
+  "purpose": "Models the terminal rate distribution under discrete AI productivity outcomes",
+  "components": [
+    "AI bust scenario: terminal rate 2.0-2.5%",
+    "AI muddle-through (current OIS pricing): 3.4-3.7%",
+    "AI productivity realized: terminal rate 4.5-5.0%",
+    "200-300bp gap between extreme scenarios",
+    "Potential 2-3x mispricing in OTM swaption wings (15-20x claim refuted)"
+  ],
+  "current_assessment": "Bimodality is structurally real given discrete AI outcomes. OIS curve prices the muddle-through central mode. Valuable as a conceptual tool but specific trade expressions require careful sizing given that uncertain probabilities propagate enormously.",
+  "limitations": [
+    "Treats AI outcomes as discrete when they may be continuous",
+    "Swaptions price all macro scenarios, not just AI-conditional",
+    "Uncertain scenario probabilities (30-40% range = 10pp uncertainty)",
+    "Carry costs of holding convergence positions erode theoretical edge",
+    "15-20x mispricing claim refuted — 2-3x is upper bound"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

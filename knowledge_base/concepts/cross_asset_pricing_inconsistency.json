@@ -1,36 +1,52 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7,
+  "confidence": 7.5,
   "evidence": [
     "S&P ~21x forward P/E requires ~4.0% unemployment consumption levels",
     "Rates pricing 75-100bp of easing implies labor softening",
     "Credit (HY OAS 350-420bp) leans equity-side",
     "Reverse DCF: nominal revenue growth of ~6-7% for 10 years needed, requiring either above-target inflation (contradicts multiples) or heroic productivity (unproven)",
-    "pair_0 called this 'the most actionable insight'; pair_1 praised reverse DCF as 'the strongest valuation argument'"
+    "pair_0 called this 'the most actionable insight'; pair_1 praised reverse DCF as 'the strongest valuation argument'",
+    "S&P 500 at 21-22x forward implies >2% structural real growth",
+    "10Y TIPS at ~2.1% real yield prices ~1.5-1.8% real growth",
+    "Gap is ~100bp — widest since 2000-2001",
+    "challenger_02's multi-horizon partial reconciliation survived pair_3 debate",
+    "1996 analyst identifying the same pattern was four years early"
   ],
   "originating_agents": [
     "generalist_01",
-    "equity_analyst_02"
+    "equity_analyst_02",
+    "equity_analyst_01",
+    "rates_strategist_02",
+    "challenger_02"
   ],
   "open_questions": [
     "Which asset class reprices first?",
     "Could an AI productivity acceleration resolve the inconsistency?",
-    "What is the timing horizon for convergence?"
+    "What is the timing horizon for convergence?",
+    "Is the inconsistency a genuine mispricing or rational multi-horizon pricing?",
+    "What is the historical base rate for cross-asset inconsistency convergence timelines?",
+    "Does the winner-take-all equilibrium fully or only partially reconcile the signals?"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
     "stock_bond_correlation_labor_driven",
     "unit_labor_cost_margin_driver",
     "credit_leads_labor_sequencing",
-    "sbc_earnings_degradation"
+    "sbc_earnings_degradation",
+    "no_aggregate_tfp_breakthrough",
+    "erp_compression",
+    "winner_take_all_equilibrium",
+    "bimodal_terminal_rate_distribution"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-22T17:50:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0003"
+    "iter_0003",
+    "iter_0015"
   ]
 }

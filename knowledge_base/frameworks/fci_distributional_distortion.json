@@ -1,0 +1,26 @@
+{
+  "slug": "fci_distributional_distortion",
+  "purpose": "Quantifies how AI concentration distorts financial conditions indices used for monetary policy calibration",
+  "components": [
+    "Cap-weighted FCI equity component captures top-decile firm reality",
+    "Median firm conditions 75-100bp tighter than FCI suggests",
+    "Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative",
+    "Top 10 firms: 35% index weight, 3-4% employment",
+    "NFIB and regional Fed surveys show more stress than aggregate data"
+  ],
+  "current_assessment": "FCI is systematically biased toward loose readings due to AI concentration. Creates cliff risk where policy appears appropriate until median-firm stress cascades into aggregate data.",
+  "limitations": [
+    "75-100bp FCI distortion is model-dependent",
+    "Alternative FCI constructions (equal-weighted, employment-weighted) are not standardized",
+    "Unclear whether the Fed is aware of and adjusting for this distortion",
+    "The cliff risk prediction assumes median-firm stress eventually cascades, which is unproven"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "erp_compression",
+  "definition": "The equity risk premium has compressed to 2.5-3.0% (10th-15th percentile post-1960), driven by AI mega-cap concentration. Multiple estimation methods converge. Equal-weighted S&P 500 implies 4.5-5.0% ERP; the 200bp gap is entirely attributable to AI-adjacent mega-cap valuations — the largest cap-weighted vs. equal-weighted gap since 1999-2000.",
+  "confidence": 9,
+  "evidence": [
+    "Fed model, DDM-implied, and cross-sectional decomposition all converge on 2.5-3.0% ERP",
+    "Equal-weighted S&P 500 implies 4.5-5.0% ERP",
+    "200bp gap entirely attributable to AI-adjacent mega-cap valuations",
+    "Five-year forward returns from this ERP percentile historically averaged 3-5% nominal annualized — below bond yields",
+    "Independently confirmed by both equity analysts in pair_1"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does the ERP compression reflect rational repricing of AI-driven growth or speculative excess?",
+    "What is the regional ERP differential (US vs. non-US) asymmetric risk/reward?"
+  ],
+  "related_concepts": [
+    "equity_market_concentration",
+    "sbc_profitability_overstatement",
+    "cross_asset_pricing_inconsistency",
+    "winner_take_all_equilibrium"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

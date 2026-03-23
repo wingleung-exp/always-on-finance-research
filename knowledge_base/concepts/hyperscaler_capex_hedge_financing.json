@@ -1,0 +1,37 @@
+{
+  "slug": "hyperscaler_capex_hedge_financing",
+  "definition": "Aggregate hyperscaler operating cash flow ($350-450B) exceeds capex ($250-300B) at a 1.5-1.7x coverage ratio, meaning AI infrastructure investment is self-funded rather than debt-financed. This structural difference from prior investment booms (e.g., telecom CLECs at >100% capex/OCF) prevents a Minsky sudden-stop from the hyperscaler layer.",
+  "confidence": 9,
+  "evidence": [
+    "Aggregate hyperscaler OCF ~$350-450B vs. capex ~$250-300B, coverage ratio 1.5-1.7x from public filings",
+    "Telecom CLECs were debt-funded at >100% capex/OCF — structurally different",
+    "All four pairwise debates confirmed this as the single most reliable claim",
+    "pair_0: 'the single most reliable claim across both analyses'"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_01",
+    "equity_analyst_02",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "At what capex/OCF ratio does self-funding become insufficient?",
+    "Does competitive pressure (prisoner's dilemma) override financial discipline before stress thresholds are reached?"
+  ],
+  "related_concepts": [
+    "capex_ocf_stress_threshold",
+    "depreciation_catch_up_headwind",
+    "kalecki_identity_capex_profits",
+    "hedge_destructive_minsky_category",
+    "incremental_roic_value_dilution"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

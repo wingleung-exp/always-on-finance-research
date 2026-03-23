@@ -1,0 +1,291 @@
+[
+  {
+    "concept_a": "hyperscaler_capex_hedge_financing",
+    "concept_b": "kalecki_identity_capex_profits",
+    "mechanism": "Hyperscaler capex (~$250B) is the marginal contributor to aggregate profits via the Kalecki identity. Self-funded capex sustains the investment term in the profit equation without requiring credit expansion.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as fiscal deficit remains the dominant profit sustainer (6-7% GDP). If fiscal consolidation occurs, AI capex becomes a larger share of the profit floor, increasing macro sensitivity.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "hyperscaler_capex_hedge_financing",
+    "concept_b": "depreciation_catch_up_headwind",
+    "mechanism": "Current high capex levels mechanically generate escalating depreciation and amortization over 5-7 year useful lives, creating future margin pressure regardless of revenue outcomes.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Accounting relationship that holds unconditionally. Useful-life extensions can delay but not prevent the headwind. Revenue growth in the denominator is the only mitigant.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "equity_market_concentration",
+    "concept_b": "fci_ai_concentration_distortion",
+    "mechanism": "Top 10 firms at ~35% of index weight but ~3-4% of employment means FCI equity component captures conditions of a tiny employment slice extrapolated to the economy. Passive indexation (55% of AUM) mechanically amplifies this distortion.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Worsens as concentration increases and passive share grows. Would reverse if equal-weighted or employment-weighted indices were used for FCI construction.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "ai_productivity_transmission_lag",
+    "concept_b": "no_aggregate_tfp_breakthrough",
+    "mechanism": "The 5-15 year transmission lag explains why no TFP breakthrough is visible despite massive AI investment. The reorganization phase (60-70% of total delay) has barely begun.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds under the base case historical analogy framework. Would break if AI's software-native deployment characteristics genuinely compress the lag to 2-3 years (15-25% probability).",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "no_aggregate_tfp_breakthrough",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Equities price >2% structural real growth (implying TFP breakthrough imminent), while bonds price ~1.5-1.8% real growth (no breakthrough). The absence of measured TFP validates the bond market's pricing.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The inconsistency narrows if TFP breakthrough becomes measurable (validating equities) or if equities reprice lower (converging to bonds). The winner-take-all equilibrium partially reconciles without TFP.",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "sbc_profitability_overstatement",
+    "concept_b": "erp_compression",
+    "mechanism": "SBC inflates non-GAAP earnings by 15-40% for AI companies, which mechanically compresses the measured ERP when using non-GAAP forward earnings estimates. The reflexive loop amplifies: rising prices → lower perceived SBC cost → better margins → lower ERP → higher prices.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Amplifies in rising markets (reflexive loop) and reverses in falling markets. The accounting distortion persists regardless of market direction; the reflexive component is regime-dependent.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "winner_take_all_equilibrium",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "If AI value accrues to 5-7 companies without diffusion, equity concentration is rational (no ERP expansion needed), rates are correct (no r* shift), and credit is correct (no disruption). Partially reconciles the apparent mispricing.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Holds only if the winner-take-all structure is stable. If it fragments (antitrust, competition, capex cuts), the reconciliation breaks and the inconsistency reasserts with force.",
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "kalecki_identity_capex_profits",
+    "concept_b": "dollar_overvaluation_ai_inflows",
+    "mechanism": "AI capex sustains profits via Kalecki → profits attract capital inflows from global investors → capital inflows sustain dollar overvaluation. The 'capex dollar' is the investment channel of this loop.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Self-reinforcing loop in expansion phase. Vulnerable to reversal if capex cuts reduce profits, reducing capital inflow attractiveness. The DOGE fiscal paradox suggests fiscal consolidation could independently break the loop.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "fci_ai_concentration_distortion",
+    "concept_b": "fed_ai_r_star_trilemma",
+    "mechanism": "Distorted FCI provides misleading signals to the Fed about the aggregate economy's financial conditions, compounding the r* uncertainty from unmeasured AI productivity effects. Policy calibrated to top-decile firm reality while median firm is 75-100bp tighter.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The distortion increases with equity concentration. Would diminish if the Fed adopted alternative FCI measures (equal-weighted, employment-weighted, or regional surveys).",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "incremental_roic_value_dilution",
+    "concept_b": "hedge_destructive_minsky_category",
+    "mechanism": "Sub-WACC incremental ROIC from AI capex combined with self-funding capability creates the hedge-destructive dynamic: companies are financially sound but systematically destroying per-share value through continued investment.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Requires ROIC to remain below WACC while companies maintain sufficient OCF to self-fund. Breaks if AI monetization improves ROIC or if capex/OCF stress forces external financing.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "credit_impulse_deceleration",
+    "concept_b": "minsky_speculative_ponzi_transition",
+    "mechanism": "Decelerating credit impulse removes the marginal financing that sustains speculative positioning, pushing leveraged borrowers toward Ponzi characteristics (dependent on asset appreciation rather than cash flows for solvency).",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The Kalecki fiscal floor may extend the speculative phase by sustaining profits despite credit deceleration. Breaks if both fiscal and credit impulse decline simultaneously.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "china_ai_competitiveness_catalyst",
+    "concept_b": "dollar_overvaluation_ai_inflows",
+    "mechanism": "China AI success (e.g., DeepSeek) reduces the 'captive flow premium' (3-5% of dollar overvaluation) by offering alternative technology investment destinations and reducing the US tech monopoly narrative.",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Sensitive to geopolitical regime: US-China tech bifurcation makes the captive flow premium persistent; detente or Chinese AI breakthrough could trigger discontinuous reversal.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "equity_market_concentration",
+    "concept_b": "bimodal_terminal_rate_distribution",
+    "mechanism": "Extreme concentration creates binary macro outcomes: if concentrated leadership persists (AI realized), higher terminal rate; if concentration unwinds (AI disappoints), much lower terminal rate. The gap between scenarios widens with concentration.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The bimodality increases with concentration. Would flatten toward unimodal if equity market leadership broadened or if the winner-take-all structure fragmented gradually rather than abruptly.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "bubble_vs_revolution_false_binary",
+    "concept_b": "incremental_roic_value_dilution",
+    "mechanism": "The value-creating AND investor-destroying historical pattern implies AI can simultaneously produce genuine economic value while delivering sub-WACC returns to equity investors — exactly the ROIC dilution mechanism. This is the modal historical GPT outcome, not an anomaly.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Applies when technology creates large positive externalities (consumer surplus, infrastructure) that are not capturable by investors. Stronger when the technology is a platform/infrastructure layer.",
+    "originating_agents": [
+      "challenger_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "credit_channel_bifurcation",
+    "concept_b": "fed_ai_r_star_trilemma",
+    "mechanism": "Rate insensitivity of the dominant investment channel (85-90% AI capex self-funded) plus fintech attenuation of consumer lending channel fundamentally impairs monetary policy transmission, compounding the Fed's uncertainty about appropriate policy rates.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Intensifies as hyperscaler cash positions grow and fintech share increases. Would diminish if hyperscalers depleted cash reserves and required external financing.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "dollar_overvaluation_ai_inflows",
+    "concept_b": "bpo_it_services_current_account_erosion",
+    "mechanism": "AI-driven dollar strength compounds the structural erosion of services exports from EM economies by making their labor costs relatively cheaper but their current account positions weaker as AI automation substitutes for exported services.",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Holds as long as AI automation progresses and US technology companies dominate cloud/AI services. Timeline is 5-25 years for the current account impact to become visible.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "monetary_policy_divergence_usd_bid",
+    "concept_b": "em_central_bank_ai_trilemma",
+    "mechanism": "Structural USD bid from differential AI adoption constrains EM central bank policy space — easing to support AI adoption weakens FX, tightening to defend FX constrains domestic AI investment.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Intensifies with the US-EM AI investment gap. Would diminish if EM economies developed competitive AI sectors or if USD weakened from other factors.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "fx_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "capex_ocf_stress_threshold",
+    "concept_b": "kalecki_identity_capex_profits",
+    "mechanism": "If hyperscalers breach kill-zone thresholds and retrench capex, the Kalecki mechanism transmits the investment reduction directly to aggregate profits, making a sector-level stress event into a macro event.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The transmission strength depends on the fiscal deficit level. With deficit at 6-7% GDP, a 25% capex cut (~$60-75B) is material but not dominant. If fiscal consolidation narrows the deficit, the same capex cut becomes proportionally larger.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "ai_productivity_transmission_lag",
+    "concept_b": "stock_bond_correlation_regime",
+    "mechanism": "Different stages of AI productivity transmission produce different stock-bond correlation regimes: Stage 1 (demand-driven, current) creates ambiguous correlation; Stage 2+ (supply-driven) creates negative correlation favorable for 60/40 portfolios.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Requires AI productivity transmission to be the dominant correlation driver, which may not hold given competing influences from monetary policy, fiscal, and geopolitics.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "concept_a": "twd_krw_semiconductor_decoupling",
+    "concept_b": "em_tripartite_segmentation",
+    "mechanism": "TWD/KRW decoupling from traditional EM factors and toward semiconductor cycle proxy status is the concrete manifestation of segment A (supply chain beneficiaries) in the tripartite framework, validating the segmentation empirically.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Strengthens as semiconductor revenue mix shifts toward AI/HPC. Geopolitical tail risk (Taiwan Strait) could override the economic factor model entirely.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "fx_strategist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  }
+]

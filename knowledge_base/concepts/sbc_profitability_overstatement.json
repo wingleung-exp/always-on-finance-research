@@ -1,0 +1,33 @@
+{
+  "slug": "sbc_profitability_overstatement",
+  "definition": "Stock-based compensation overstates AI-sector profitability by 15-40%. Aggregate Mag-7 SBC is ~$75-80B annually, creating a GAAP vs. non-GAAP P/E gap of 10-15 turns for pure-play AI companies and 1.5-2.0 P/E turns (~$14-16/share) for the S&P 500. A reflexive loop mechanism exists where rising prices lower perceived SBC cost, improving reported margins, driving further price increases.",
+  "confidence": 9,
+  "evidence": [
+    "Aggregate Mag-7 SBC ~$75-80B annually",
+    "GAAP vs. non-GAAP P/E gap of 10-15 turns for pure-play AI companies",
+    "$27B SBC attributable to S&P 500 × 1.5 P/E turns / index divisor ≈ $14-16/share",
+    "Reflexive loop survived pair_1 debate at 9/10"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "equity_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "At what stock price level does the SBC reflexive loop reverse (higher prices needed to retain talent while dilution pressure mounts)?",
+    "How does SBC vega (sensitivity of reported margins to stock price) interact with index rebalancing?"
+  ],
+  "related_concepts": [
+    "erp_compression",
+    "incremental_roic_value_dilution",
+    "equity_market_concentration"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

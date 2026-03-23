@@ -1,0 +1,32 @@
+{
+  "slug": "augmentation_substitution_ratio",
+  "definition": "A framework grounded in Acemoglu & Restrepo (2019) using the ratio of AI-augmented to AI-substituted tasks to predict labor outcomes. Historical calibration: >1.5:1 augmentation-to-substitution ratio leads to net gains within 10 years; <0.8:1 leads to 15-25 year painful adjustment. Current evidence places AI at 1.0-1.3:1 — the historically ambiguous zone. The ratio may decline as agent capabilities mature, making it time-varying.",
+  "confidence": 4,
+  "evidence": [
+    "Grounded in Acemoglu & Restrepo (2019)",
+    "Historical calibration from n=5-8 GPTs",
+    "Current survey/case study evidence: 1.0-1.3:1",
+    "generalist_02 self-rates at 5/10 citing thin evidence base"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Will the ratio shift toward substitution as AI agent capabilities mature?",
+    "Is the n=5-8 GPT sample sufficient for calibration?",
+    "Can the ratio be measured in real time with sufficient accuracy to be predictive?"
+  ],
+  "related_concepts": [
+    "white_collar_displacement_novelty",
+    "ai_productivity_transmission_lag",
+    "no_aggregate_tfp_breakthrough"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "em_tripartite_segmentation",
+  "definition": "EM economies segment into three AI-relevant categories: (A) supply chain beneficiaries (TWD, KRW), (B) services-threatened (PHP, INR, BDT), and (C) commodity-adjacent. Directional divergence already observable (TWD/KRW outperforming PHP/BDT since 2023). FDI flow data supports segmentation. But boundaries are fuzzy (India spans A and B), operationalization requires unavailable data, and no independent corroboration exists.",
+  "confidence": 5,
+  "evidence": [
+    "Directional divergence observable: TWD/KRW outperforming PHP/BDT since 2023",
+    "FDI flow data supports segmentation",
+    "Analytically clean framework",
+    "No independent agent corroboration"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Can the fuzzy boundaries (India spanning segments) be resolved with additional data?",
+    "What FX factor model modifications would operationalize this segmentation?",
+    "Does commodity-adjacent EM require sub-segmentation by AI energy demand exposure?"
+  ],
+  "related_concepts": [
+    "twd_krw_semiconductor_decoupling",
+    "bpo_it_services_current_account_erosion",
+    "em_central_bank_ai_trilemma"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "eva_ai_capex_value_destruction",
+  "purpose": "Formalizes whether AI capex creates or destroys economic value added on a per-share basis",
+  "components": [
+    "Legacy capital base (~$500B) at ~25% ROIC generating ~$77.5B EVA",
+    "AI invested capital (~$600B cumulative) at 3-12% ROIC",
+    "Bull case: AI capital generates $15B EVA (16% of total from 55% of capital)",
+    "Blended ROIC trajectory: ~25% declining to ~15-18%"
+  ],
+  "current_assessment": "Even in the bull case, AI capital is value-dilutive on a per-share basis. Revenue growth may mask the dilution in absolute terms but not in return-on-capital terms.",
+  "limitations": [
+    "AI-specific ROIC is nearly unmeasurable when bundled into existing products",
+    "Revenue attribution between AI and legacy products is arbitrary",
+    "Specific magnitudes are illustrative, not precise (direction at 6/10, magnitudes at 4/10)",
+    "Does not capture option value of AI investment or strategic positioning benefits"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

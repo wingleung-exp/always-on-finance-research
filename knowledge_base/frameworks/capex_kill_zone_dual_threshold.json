@@ -1,0 +1,25 @@
+{
+  "slug": "capex_kill_zone_dual_threshold",
+  "purpose": "Identifies when hyperscaler capex spending becomes unsustainable, triggering retrenchment",
+  "components": [
+    "Threshold 1: ROIC below WACC for 4+ consecutive quarters",
+    "Threshold 2: Capex/OCF ratio exceeding 55-65%",
+    "Kill zone requires BOTH thresholds to be crossed simultaneously",
+    "Derived from 5 historical analogues of capex cycles"
+  ],
+  "current_assessment": "Aggregate capex/OCF at 50-65% and approaching threshold. Meta and Amazon at or near 70%. At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027. ROIC threshold harder to assess due to bundling.",
+  "limitations": [
+    "4 of 5 historical analogues were debt-funded — structurally different from self-funded hyperscalers",
+    "Self-funded entities may tolerate higher capex/OCF ratios",
+    "ROIC is nearly unmeasurable when AI is bundled into existing products",
+    "Prisoner's dilemma may prevent rational individual retrenchment before collective pain"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

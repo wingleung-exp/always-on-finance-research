@@ -1,0 +1,35 @@
+{
+  "slug": "winner_take_all_equilibrium",
+  "definition": "If AI value accrues to 5-7 companies without diffusion, equity concentration is rational, rates are correct (no r* shift), and credit is correct (no disruption). This partially reconciles cross-asset signals but creates macro fragility because the structure becomes systemically load-bearing. The Kalecki mechanism links narrow capex decisions to aggregate profit flows, making the entire macro regime dependent on a small number of corporate investment decisions.",
+  "confidence": 6.5,
+  "evidence": [
+    "Partial reconciliation of cross-asset signals identified in iter_0014 at 6/10",
+    "generalist_01's Kalecki linkage is logically sound",
+    "challenger_02's time-horizon challenge partially weakens inconsistency narrative",
+    "Does not address systemic dependence on narrow capex decisions"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is the winner-take-all structure stable or inherently fragile?",
+    "What mechanism could trigger the transition from stable concentration to cascading unwinding?",
+    "Does the Kalecki dependence on narrow capex create a policy vulnerability?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "kalecki_identity_capex_profits",
+    "equity_market_concentration",
+    "erp_compression"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

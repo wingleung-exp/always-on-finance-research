@@ -1,0 +1,82 @@
+[
+  {
+    "claim": "Swaption mispricing of 15-20x in OTM wings based on AI-conditional scenario probabilities",
+    "reason": "Treats uncertain scenario probabilities (30-40% range with 10pp uncertainty) as known parameters. Swaptions price all macro scenarios, not just AI-conditional ones. The enormous propagation of probability uncertainty makes 15-20x an artifact of false precision. A 2-3x mispricing might survive but not 15-20x.",
+    "refuted_by": [
+      "challenger_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "Barbell portfolio Sharpe ratio of 0.5-0.8 across multi-leg cross-asset position",
+    "reason": "Multi-leg position combining short single-stock vol, long infrastructure equity, short-dated credit, OTM index puts, rate straddles, and gold with unknown regime-conditional correlations between components cannot produce a meaningful ex-ante Sharpe estimate. The analyst's own Open Question 6 acknowledges the unknown correlation structure creating hidden concentration risk.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "AI-energy nexus as macro-regime-changing inflation factor",
+    "reason": "The analyst's own evidence shows CPI impact of only 0.06-0.24pp — noise in the context of 2.5-2.8% core PCE. The claim that this is 'the difference between the Fed cutting 75bp and 25bp' requires the FOMC to be exquisitely sensitive to a single sub-component of energy CPI indistinguishable from broader demand. Infrastructure bottleneck is real; macro inflation story is not.",
+    "refuted_by": [
+      "equity_analyst_02",
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "S&P 493 'AI optionality premium' is identifiable and measurable in current valuations",
+    "reason": "Confounding factors (rate cuts, soft-landing narrative, earnings recovery) prevent clean attribution of the 2.5-turn P/E expansion. Earnings quality metrics for S&P 493 companies citing AI have NOT improved. The reframing as 'testable hypothesis' is more honest but the proposed test confuses causation with correlation. Self-downgraded to 4/10 by originating analyst.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "1920s mechanization as clean analogy for AI demand deficiency and underconsumption",
+    "reason": "Real wages rose 20-25% during the 1920s (BLS data), contradicting the 'stagnant wages' claim. Conflates absolute wages (which rose) with labor share (which declined). Gold standard, immigration acts, agricultural depression, and speculative leverage are critical confounders omitted from the causal chain. The valid element — productivity-capital concentration coexisting with financial fragility — is a Minsky observation, not a Kalecki underconsumption one.",
+    "refuted_by": [
+      "challenger_02",
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "Factor rotation timing of '3-6 months continued momentum' with directional confidence",
+    "reason": "6/10 confidence is below the threshold where directional timing calls are useful. The four catalyst categories (rate shock, capex disappointment, earnings breadth, regulatory) cover essentially all possible negative scenarios, making the framework unfalsifiable. The analyst's own caveat — factor rotation calls have historically been early more often than late — should have led to withdrawing the timing estimate.",
+    "refuted_by": [
+      "equity_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "'Sudden stop' crisis framing for services-exporting EM economies from AI automation",
+    "reason": "Structural comparative advantage erosion doesn't cause Calvo-style sudden stops — those require confidence crises and liquidity events. Philippines has ~$100B reserves, IG rating, flexible exchange rate. A 10-15% BPO growth reduction widening the current account by 1.5-2% of GDP over 2-3 years is gradual adjustment, not crisis. The vulnerability direction is correct; the crisis mechanism is wrong.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "claim": "FX vol surface mispricing from AI-driven compression creating cheap tail-risk optionality",
+    "reason": "Internal logical contradiction: argues AI-compressed vol creates cheap tail-risk optionality, then concedes vol-selling has generated persistent positive returns for a decade 'precisely because the AI-driven compression is structural, not temporary.' If structural, the surface is correctly priced for the new regime. Flash crashes (CHF 2015, GBP 2016, JPY 2019) are liquidity events, not dollar regime changes.",
+    "refuted_by": [
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  }
+]

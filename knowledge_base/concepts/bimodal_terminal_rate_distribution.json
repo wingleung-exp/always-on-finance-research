@@ -1,0 +1,34 @@
+{
+  "slug": "bimodal_terminal_rate_distribution",
+  "definition": "A structurally real bimodal terminal rate distribution exists: 2.0-2.5% in an AI bust scenario vs. 4.5-5.0% if AI productivity is realized — a 200-300bp gap. OIS curve prices ~3.4-3.7%, consistent with 'muddle through' as central mode. The 15-20x swaption mispricing claim was refuted, but a 2-3x mispricing in the wings remains plausible. Valuable as a conceptual tool for understanding rate uncertainty but specific trade expressions require careful sizing.",
+  "confidence": 6,
+  "evidence": [
+    "200-300bp scenario gap between AI-bust and AI-realized terminal rates is logically sound",
+    "OIS curve prices ~3.4-3.7% — consistent with muddle-through",
+    "15-20x swaption mispricing refuted but 2-3x plausible",
+    "Specific mispricing magnitude at 4/10 confidence"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can the bimodal distribution be traded without the carry costs eroding theoretical edge?",
+    "What is the probability of the 'muddle through' central mode persisting vs. resolving to either extreme?",
+    "Does the Fed framework review create a catalyst for repricing the wings?"
+  ],
+  "related_concepts": [
+    "fed_ai_r_star_trilemma",
+    "cross_asset_pricing_inconsistency",
+    "no_aggregate_tfp_breakthrough",
+    "ai_productivity_transmission_lag"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

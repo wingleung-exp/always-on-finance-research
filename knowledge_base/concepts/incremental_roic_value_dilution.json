@@ -1,0 +1,36 @@
+{
+  "slug": "incremental_roic_value_dilution",
+  "definition": "Incremental ROIC on AI capex (3-12%) is below legacy ROIC (20-35%), creating per-share value dilution even as revenue grows. In the bull case, AI capital at 55% of total generates only 16% of total EVA. Blended ROIC trajectory: ~25% declining to ~15-18%. However, AI-specific ROIC is nearly unmeasurable when bundled into existing products (Google Search + AI Overviews, Microsoft Office + Copilot). Direction is high-confidence; specific magnitudes are illustrative.",
+  "confidence": 6,
+  "evidence": [
+    "EVA framework: bull case AI capital (55% of total) generates 16% of total EVA",
+    "Blended ROIC trajectory: ~25% declining to ~15-18%",
+    "pair_1: 'the clearest articulation of how AI capex can destroy per-share value while growing revenue'",
+    "ROIC attribution problem when AI is bundled into existing products acknowledged"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "equity_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can hyperscalers disaggregate AI-specific revenue in earnings disclosures to resolve the measurement problem?",
+    "If they don't disaggregate, does the measurement opacity itself signal unfavorable ROIC?",
+    "At what blended ROIC level does per-share value destruction become visible to the market?"
+  ],
+  "related_concepts": [
+    "depreciation_catch_up_headwind",
+    "sbc_profitability_overstatement",
+    "hedge_destructive_minsky_category",
+    "capex_ocf_stress_threshold",
+    "bubble_vs_revolution_false_binary"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,967 @@
+[
+  {
+    "slug": "hyperscaler_capex_hedge_financing",
+    "definition": "Aggregate hyperscaler operating cash flow ($350-450B) exceeds capex ($250-300B) at a 1.5-1.7x coverage ratio, meaning AI infrastructure investment is self-funded rather than debt-financed. This structural difference from prior investment booms (e.g., telecom CLECs at >100% capex/OCF) prevents a Minsky sudden-stop from the hyperscaler layer.",
+    "confidence": 9,
+    "evidence": [
+      "Aggregate hyperscaler OCF ~$350-450B vs. capex ~$250-300B, coverage ratio 1.5-1.7x from public filings",
+      "Telecom CLECs were debt-funded at >100% capex/OCF — structurally different",
+      "All four pairwise debates confirmed this as the single most reliable claim",
+      "pair_0: 'the single most reliable claim across both analyses'"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "At what capex/OCF ratio does self-funding become insufficient?",
+      "Does competitive pressure (prisoner's dilemma) override financial discipline before stress thresholds are reached?"
+    ],
+    "related_concepts": [
+      "capex_ocf_stress_threshold",
+      "depreciation_catch_up_headwind",
+      "kalecki_identity_capex_profits",
+      "hedge_destructive_minsky_category",
+      "incremental_roic_value_dilution"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "no_aggregate_tfp_breakthrough",
+    "definition": "BLS nonfarm business sector labor productivity remains at ~1.5-2.0% annualized with no structural break from the pre-AI trend through early 2026. Expert productivity estimates span a 10x range (Acemoglu 0.06pp/yr vs. McKinsey 0.6pp/yr), and the rates market's refusal to price an r* uplift is consistent with no measurable breakthrough.",
+    "confidence": 9,
+    "evidence": [
+      "BLS nonfarm business sector labor productivity at ~1.5-2.0% annualized, no structural break",
+      "10x range across expert productivity estimates (Acemoglu 0.06pp/yr vs. McKinsey 0.6pp/yr)",
+      "Rates market refusal to price r* uplift",
+      "Four interpretations of data documented by rates_strategist_02, all consistent with no breakthrough"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "challenger_02",
+      "rates_strategist_02",
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Is the absence of measured TFP a genuine absence or a measurement lag?",
+      "Could AI's software-native deployment compress the historical productivity emergence timeline?",
+      "When would the absence of TFP breakthrough become inconsistent with equity market pricing?"
+    ],
+    "related_concepts": [
+      "ai_productivity_transmission_lag",
+      "cross_asset_pricing_inconsistency",
+      "fed_ai_r_star_trilemma",
+      "bimodal_terminal_rate_distribution"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "sbc_profitability_overstatement",
+    "definition": "Stock-based compensation overstates AI-sector profitability by 15-40%. Aggregate Mag-7 SBC is ~$75-80B annually, creating a GAAP vs. non-GAAP P/E gap of 10-15 turns for pure-play AI companies and 1.5-2.0 P/E turns (~$14-16/share) for the S&P 500. A reflexive loop mechanism exists where rising prices lower perceived SBC cost, improving reported margins, driving further price increases.",
+    "confidence": 9,
+    "evidence": [
+      "Aggregate Mag-7 SBC ~$75-80B annually",
+      "GAAP vs. non-GAAP P/E gap of 10-15 turns for pure-play AI companies",
+      "$27B SBC attributable to S&P 500 × 1.5 P/E turns / index divisor ≈ $14-16/share",
+      "Reflexive loop survived pair_1 debate at 9/10"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "At what stock price level does the SBC reflexive loop reverse (higher prices needed to retain talent while dilution pressure mounts)?",
+      "How does SBC vega (sensitivity of reported margins to stock price) interact with index rebalancing?"
+    ],
+    "related_concepts": [
+      "erp_compression",
+      "incremental_roic_value_dilution",
+      "equity_market_concentration"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "erp_compression",
+    "definition": "The equity risk premium has compressed to 2.5-3.0% (10th-15th percentile post-1960), driven by AI mega-cap concentration. Multiple estimation methods converge. Equal-weighted S&P 500 implies 4.5-5.0% ERP; the 200bp gap is entirely attributable to AI-adjacent mega-cap valuations — the largest cap-weighted vs. equal-weighted gap since 1999-2000.",
+    "confidence": 9,
+    "evidence": [
+      "Fed model, DDM-implied, and cross-sectional decomposition all converge on 2.5-3.0% ERP",
+      "Equal-weighted S&P 500 implies 4.5-5.0% ERP",
+      "200bp gap entirely attributable to AI-adjacent mega-cap valuations",
+      "Five-year forward returns from this ERP percentile historically averaged 3-5% nominal annualized — below bond yields",
+      "Independently confirmed by both equity analysts in pair_1"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the ERP compression reflect rational repricing of AI-driven growth or speculative excess?",
+      "What is the regional ERP differential (US vs. non-US) asymmetric risk/reward?"
+    ],
+    "related_concepts": [
+      "equity_market_concentration",
+      "sbc_profitability_overstatement",
+      "cross_asset_pricing_inconsistency",
+      "winner_take_all_equilibrium"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "equity_market_concentration",
+    "definition": "Top 10 S&P 500 stocks comprise ~35-38% of index weight, exceeding the 2000 dot-com peak of ~27%. Passive vehicles (~55% of US equity AUM), momentum factor (~70% overlap with AI names), and vol-targeting strategies create mechanical cascade amplification channels. Repricing of even one Mag-7 name propagates through indexation, factor strategies, and risk-parity.",
+    "confidence": 9,
+    "evidence": [
+      "Top 10 at ~35-38% exceeds 2000 dot-com peak of ~27%",
+      "Passive vehicles ~55% of US equity AUM",
+      "Momentum factor ~70% overlap with AI names",
+      "challenger_02 challenged cascade prediction citing 2022 tech drawdown (no systemic cascade) but not the structural observation"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Why did the 2022 tech drawdown not produce a systemic cascade — is that a reliable precedent or a different risk type?",
+      "At what concentration level does the mechanical cascade risk become dominant over fundamental-driven repricing?"
+    ],
+    "related_concepts": [
+      "erp_compression",
+      "fci_ai_concentration_distortion",
+      "winner_take_all_equilibrium",
+      "kalecki_identity_capex_profits"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "ai_productivity_transmission_lag",
+    "definition": "AI-to-aggregate-productivity transmission requires 5-15 years for visibility, not the 2-3 years priced by equities. Four independent frameworks converge on this timeline: generalist_01's 4-stage transmission, generalist_02's 3-phase decomposition (with reorganization being 60-70% of total delay), equity_analyst_01's 4-gate framework, and equity_analyst_02's 3-bottleneck model. Historical compression trend extrapolates to AI ~5-12 years. Only 15-25% probability assigned to the 2-3 year timeline.",
+    "confidence": 8,
+    "evidence": [
+      "Four independent analytical frameworks converge on 5-15 year timeline",
+      "GPT diffusion literature (David 1990, Brynjolfsson 2000)",
+      "Historical compression trend: electricity ~30yr, IT ~15yr, internet ~7-12yr",
+      "15-25% probability assigned to 2-3yr timeline by both equity analysts independently",
+      "pair_0: 'convergence through different analytical routes strengthens confidence'"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Can AI's software-native deployment and recursive reorganization capability compress below 5 years?",
+      "Is the reorganization phase (60-70% of delay) genuinely compressible by AI-assisted management restructuring?",
+      "Does sectoral sequencing (finance first, government last) create measurable cross-sector divergence before aggregate visibility?"
+    ],
+    "related_concepts": [
+      "no_aggregate_tfp_breakthrough",
+      "cross_asset_pricing_inconsistency",
+      "augmentation_substitution_ratio",
+      "stock_bond_correlation_regime"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Equities (S&P 500 at 21-22x forward) imply >2% structural real growth, while bonds (10Y TIPS at ~2.1% real yield) price ~1.5-1.8% real growth — a ~100bp gap, the widest since 2000-2001. The observation is arithmetic fact, but different asset classes may legitimately price different horizons (equities: 5-10yr revenue stream; rates: 1-3yr macro trajectory; credit: 3-7yr default probability), partially reconciling the apparent inconsistency.",
+    "confidence": 8,
+    "evidence": [
+      "S&P 500 at 21-22x forward implies >2% structural real growth",
+      "10Y TIPS at ~2.1% real yield prices ~1.5-1.8% real growth",
+      "Gap is ~100bp — widest since 2000-2001",
+      "challenger_02's multi-horizon partial reconciliation survived pair_3 debate",
+      "1996 analyst identifying the same pattern was four years early"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "rates_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is the inconsistency a genuine mispricing or rational multi-horizon pricing?",
+      "What is the historical base rate for cross-asset inconsistency convergence timelines?",
+      "Does the winner-take-all equilibrium fully or only partially reconcile the signals?"
+    ],
+    "related_concepts": [
+      "no_aggregate_tfp_breakthrough",
+      "erp_compression",
+      "winner_take_all_equilibrium",
+      "bimodal_terminal_rate_distribution"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "depreciation_catch_up_headwind",
+    "definition": "$200-250B annual hyperscaler capex over 5-7 year useful lives generates escalating depreciation and amortization reaching $150-200B annually by 2028 vs. current ~$80-100B, creating a 300-500bp margin headwind by 2027-2029. Useful-life extensions are already observable (Microsoft: 4→6 years; Google similar), which is an early-warning signal of management awareness of the pressure.",
+    "confidence": 8,
+    "evidence": [
+      "$200-250B annual capex over 5-7yr useful lives → escalating D&A",
+      "D&A reaching $150-200B annually by 2028 vs. current ~$80-100B",
+      "Microsoft useful life extension 4→6 years, Google similar",
+      "pair_0 challenged precision — not all capex is AI-related — but directional mechanics unchallengeable"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "How much revenue growth could absorb the margin headwind in the denominator?",
+      "Will useful-life extensions further distort reported profitability before the headwind hits?",
+      "What fraction of capex is genuinely AI-specific vs. general infrastructure maintenance?"
+    ],
+    "related_concepts": [
+      "hyperscaler_capex_hedge_financing",
+      "incremental_roic_value_dilution",
+      "sbc_profitability_overstatement",
+      "capex_ocf_stress_threshold"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "kalecki_identity_capex_profits",
+    "definition": "Via the Kalecki profit equation (Profits = Investment + Government Deficit + Net Exports - Household Saving), the federal deficit (~$1.8-2T, 6-7% GDP) is the dominant profit sustainer, while AI capex (~$250B) is the marginal contributor — approximately the entire growth margin of US private investment. A 25% capex cut (~$60-75B) mechanically reduces aggregate profits by a comparable amount, transforming AI capex from a sector story to a macro story.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki profit equation is an accounting identity",
+      "Federal deficit ~$1.8-2T (6-7% GDP) is dominant profit sustainer",
+      "AI capex ~$250B is approximately the entire growth margin of US private investment",
+      "25% capex cut (~$60-75B) mechanically reduces aggregate profits by comparable amount"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "equity_analyst_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "If fiscal consolidation reduces the deficit floor, does the macro sensitivity to AI capex increase or decrease?",
+      "Is the Kalecki channel strong enough to propagate a hyperscaler capex cut into a recession?",
+      "How does the DOGE fiscal paradox (consolidation as dollar-negative) interact with the Kalecki mechanism?"
+    ],
+    "related_concepts": [
+      "hyperscaler_capex_hedge_financing",
+      "winner_take_all_equilibrium",
+      "dollar_overvaluation_ai_inflows",
+      "minsky_speculative_ponzi_transition"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "dollar_overvaluation_ai_inflows",
+    "definition": "DXY at 103-107 despite Fed cutting 100-150bp and narrowing rate differential, sustained by technology investment inflows rather than rate differentials. TIC data shows net equity inflows $40-60B/month concentrated in technology. EPFR: $300B+ into US tech-focused funds vs. $45B EM outflows over 18 months. The 'capex dollar' operates orthogonally to rate differentials, paralleling the 1997-2001 dot-com DXY appreciation (~25%) when the Fed was not systematically tighter than peers.",
+    "confidence": 8,
+    "evidence": [
+      "DXY at 103-107 despite 100-150bp Fed cuts and narrowing rate differential",
+      "TIC data: net equity inflows $40-60B/month concentrated in technology",
+      "EPFR: $300B+ into US tech funds vs. $45B EM outflows over 18 months",
+      "BEA financial account: $300-400B annual net inflows to US equities",
+      "pair_2: 'highest-confidence shared claim across both FX analyses'"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "At what capex-to-revenue ratio do technology investment inflows reverse?",
+      "How rapidly could the captive flow premium (3-5% of dollar overvaluation) unwind?",
+      "Does the dot-com parallel (DXY +25% then correction) apply given different fiscal/geopolitical backdrop?"
+    ],
+    "related_concepts": [
+      "kalecki_identity_capex_profits",
+      "monetary_policy_divergence_usd_bid",
+      "china_ai_competitiveness_catalyst",
+      "dollar_cycle_plateau_correction",
+      "dollar_invoicing_premium_ai"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "white_collar_displacement_novelty",
+    "definition": "AI targets middle- and upper-middle-wage cognitive work, unlike all prior high-substitution episodes (power looms, containerization, agricultural mechanization) which displaced low-wage manual labor. Historical adjustment mechanisms (geographic migration, upskilling from manual to cognitive) may not apply within the cognitive labor market. Displaced knowledge workers are more politically organized and the segmented labor market complicates the Phillips curve.",
+    "confidence": 7,
+    "evidence": [
+      "All prior high-substitution episodes displaced low-wage manual labor",
+      "Historical adjustment mechanisms may not apply within cognitive labor market",
+      "Augmentation-to-substitution ratio (1.0-1.3:1) places AI in historically ambiguous zone",
+      "Segmented labor market (white-collar loosening / blue-collar tightening) identified"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Will the augmentation-to-substitution ratio shift toward substitution as agent capabilities mature?",
+      "Do displaced knowledge workers' political organization alter the policy response timeline?",
+      "Is the Phillips curve structurally broken by the two-speed labor market?"
+    ],
+    "related_concepts": [
+      "augmentation_substitution_ratio",
+      "ai_productivity_transmission_lag",
+      "no_aggregate_tfp_breakthrough"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "fci_ai_concentration_distortion",
+    "definition": "Financial conditions indices are systematically distorted by AI-driven equity concentration. Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative (2024-H1 2026), widest since 1999-2000. Top 10 firms represent ~35% of index weight but only ~3-4% of US employment, so the FCI equity component captures conditions of firms employing ~3-4% of workforce extrapolated to the economy. Creates 'cliff risk' where aggregate data stays resilient until median-firm stress cascades.",
+    "confidence": 7,
+    "evidence": [
+      "Cap-weighted vs. equal-weighted S&P 500 divergence of 1000-1500bp cumulative",
+      "Top 10 firms: ~35% of index weight but ~3-4% of US employment",
+      "NFIB small business optimism and regional Fed surveys show more stress than aggregate data",
+      "75-100bp FCI distortion estimate is model-dependent"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can the 75-100bp FCI distortion be measured with sufficient precision to be actionable?",
+      "When does the median-firm stress become visible in aggregate data?",
+      "Is the Fed aware of and adjusting for this FCI distortion?"
+    ],
+    "related_concepts": [
+      "equity_market_concentration",
+      "fed_ai_r_star_trilemma",
+      "credit_channel_bifurcation"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "winner_take_all_equilibrium",
+    "definition": "If AI value accrues to 5-7 companies without diffusion, equity concentration is rational, rates are correct (no r* shift), and credit is correct (no disruption). This partially reconciles cross-asset signals but creates macro fragility because the structure becomes systemically load-bearing. The Kalecki mechanism links narrow capex decisions to aggregate profit flows, making the entire macro regime dependent on a small number of corporate investment decisions.",
+    "confidence": 6.5,
+    "evidence": [
+      "Partial reconciliation of cross-asset signals identified in iter_0014 at 6/10",
+      "generalist_01's Kalecki linkage is logically sound",
+      "challenger_02's time-horizon challenge partially weakens inconsistency narrative",
+      "Does not address systemic dependence on narrow capex decisions"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is the winner-take-all structure stable or inherently fragile?",
+      "What mechanism could trigger the transition from stable concentration to cascading unwinding?",
+      "Does the Kalecki dependence on narrow capex create a policy vulnerability?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "kalecki_identity_capex_profits",
+      "equity_market_concentration",
+      "erp_compression"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "fed_ai_r_star_trilemma",
+    "definition": "The Fed cannot simultaneously maintain data-dependent credibility, price an unobservable structural shift from AI, and avoid policy error. Laubach-Williams r* at ~1.0-1.2% with AI-contingent range of 0.5-2.0%. SEP longer-run dot dispersion widened from ~50bp (2017-2019) to ~125bp+ (2025-2026). SEP longer-run GDP growth unchanged at 1.8-2.0% despite the largest AI investment boom in history. 2020-era institutional transparency makes Greenspan-style model overrides impractical.",
+    "confidence": 7,
+    "evidence": [
+      "Laubach-Williams r* at ~1.0-1.2% with AI-contingent range of 0.5-2.0%",
+      "SEP longer-run dot dispersion widened from ~50bp to ~125bp+",
+      "SEP longer-run GDP growth unchanged at 1.8-2.0%",
+      "2020-2021 zero-rate hold cited as counterexample but was pandemic (different type of uncertainty)"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Will the 2025-2026 framework review address AI productivity uncertainty explicitly?",
+      "Is the widening SEP dispersion a signal of genuine disagreement or strategic ambiguity?",
+      "How does the AI Solow paradox window (2-4 years of maximum policy error risk) resolve?"
+    ],
+    "related_concepts": [
+      "no_aggregate_tfp_breakthrough",
+      "fci_ai_concentration_distortion",
+      "bimodal_terminal_rate_distribution",
+      "fed_framework_review_event_risk"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "credit_impulse_deceleration",
+    "definition": "Bank lending credit impulse has been decelerating since mid-2024, with non-bank credit (private credit, fintech) partially offsetting. Total credit impulse including shadow banking is still positive but declining per BIS data. The Biggs-Mayer-Pick (2009) framework correctly predicted 2008, European crisis, 2020 recovery, and 2023-2024 resilience, giving it a strong track record as a leading indicator.",
+    "confidence": 7,
+    "evidence": [
+      "Biggs-Mayer-Pick credit impulse framework track record across 2008, European crisis, 2020 recovery, 2023-2024",
+      "Bank lending credit impulse decelerating since mid-2024",
+      "Fintech 25-30% of consumer origination offsets bank tightening by 3-5pp",
+      "Total credit impulse including shadow banking increasingly difficult to measure"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Can total credit impulse including shadow banking be measured with sufficient accuracy for real-time use?",
+      "Does the fintech offset fundamentally change the credit impulse's predictive power?",
+      "At what level does the fiscal offset cease to mask credit deceleration?"
+    ],
+    "related_concepts": [
+      "credit_channel_bifurcation",
+      "minsky_speculative_ponzi_transition",
+      "kalecki_identity_capex_profits"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "credit_channel_bifurcation",
+    "definition": "The credit transmission mechanism is structurally bifurcated: top 5 hyperscalers hold ~$350-400B cash and generate ~$300B+ annual FCF, making 85-90% of AI capex self-funded and rate-insensitive (200bp hike changes WACC by 20-30bp). Simultaneously, fintech's ~25-30% share of consumer lending (up from ~10% in 2019) attenuates the traditional bank lending channel. SLOOS systematically overstates credit tightening as a result.",
+    "confidence": 7,
+    "evidence": [
+      "Top 5 hyperscalers: ~$350-400B cash, ~$300B+ annual FCF",
+      "85-90% of AI capex self-funded",
+      "200bp rate hike changes hyperscaler WACC by only 20-30bp",
+      "Fintech share of consumer lending ~25-30% (up from ~10% in 2019)",
+      "Fed Board research (Jagtiani & Lemieux 2019, Fuster et al. 2022)"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Does rate insensitivity of the dominant investment channel fundamentally break monetary policy transmission?",
+      "Is the fintech credit channel more or less procyclical than traditional bank lending?",
+      "How should the Fed calibrate policy when SLOOS systematically overstates tightening?"
+    ],
+    "related_concepts": [
+      "hyperscaler_capex_hedge_financing",
+      "fed_ai_r_star_trilemma",
+      "fci_ai_concentration_distortion",
+      "credit_impulse_deceleration"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "monetary_policy_divergence_usd_bid",
+    "definition": "Differential AI adoption rates create structural monetary policy divergence supporting USD. US AI R&D ~$100-120B/yr vs. EU ~$10-15B/yr. US ~65% of top 100 AI companies. AI capex/GDP: US ~1.0% vs. eurozone ~0.15-0.2% vs. Japan ~0.1-0.3%. If this differential adds 0.5-1.0pp to US TFP, r* gap widens 0.3-0.5pp. ECB faces impossible-trinity bind where EUR depreciation from AI outflows imports inflation, constraining easing.",
+    "confidence": 7,
+    "evidence": [
+      "US AI R&D ~$100-120B/yr vs. EU ~$10-15B/yr",
+      "US ~65% of top 100 AI companies by revenue",
+      "AI capex/GDP: US ~1.0%, eurozone ~0.15-0.2%, Japan ~0.1-0.3%",
+      "ECB impossible-trinity bind from EUR depreciation importing inflation",
+      "BoJ amplified version with USD/JPY structurally above 150-160"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Could faster European/Asian AI catch-up narrow the divergence?",
+      "What is the EU AI Act's net effect — regulatory drag vs. trust-based adoption advantage?",
+      "Does the differential investment rate permanently alter potential growth or just extend a temporary gap?"
+    ],
+    "related_concepts": [
+      "dollar_overvaluation_ai_inflows",
+      "dollar_invoicing_premium_ai",
+      "em_central_bank_ai_trilemma"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "bubble_vs_revolution_false_binary",
+    "definition": "'Bubble vs. revolution' is a false binary. The historical modal outcome for general-purpose technologies is 'value-creating AND investor-destroying.' Railroad era: $4.6B investment (~$150B 2025$), 192 railroads failed in 1893, AND transportation costs fell 90%+. Telecom: ~$2T investor capital destroyed AND $20T+ digital economy infrastructure created. AI's current capex-to-investor-return ratio (4-6x) is within the historical range of railroads (3-5x) and telecom (5-8x).",
+    "confidence": 7,
+    "evidence": [
+      "Railroad era: $4.6B invested, 192 railroads failed 1893, transportation costs fell 90%+",
+      "Telecom: ~$2T destroyed AND $20T+ digital economy infrastructure created",
+      "Capex-to-investor-return ratios: railroads 3-5x, telecom 5-8x, AI current 4-6x",
+      "pair_3: 'the single most important framing correction'"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does the value-creating, investor-destroying scenario have distinct FX implications from the standard bimodal framework?",
+      "Can the self-funded nature of hyperscaler capex produce a different outcome than the debt-funded historical analogues?",
+      "What is the timeline from value creation to investor destruction in the AI case?"
+    ],
+    "related_concepts": [
+      "incremental_roic_value_dilution",
+      "hedge_destructive_minsky_category",
+      "hyperscaler_capex_hedge_financing",
+      "capex_ocf_stress_threshold"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "incremental_roic_value_dilution",
+    "definition": "Incremental ROIC on AI capex (3-12%) is below legacy ROIC (20-35%), creating per-share value dilution even as revenue grows. In the bull case, AI capital at 55% of total generates only 16% of total EVA. Blended ROIC trajectory: ~25% declining to ~15-18%. However, AI-specific ROIC is nearly unmeasurable when bundled into existing products (Google Search + AI Overviews, Microsoft Office + Copilot). Direction is high-confidence; specific magnitudes are illustrative.",
+    "confidence": 6,
+    "evidence": [
+      "EVA framework: bull case AI capital (55% of total) generates 16% of total EVA",
+      "Blended ROIC trajectory: ~25% declining to ~15-18%",
+      "pair_1: 'the clearest articulation of how AI capex can destroy per-share value while growing revenue'",
+      "ROIC attribution problem when AI is bundled into existing products acknowledged"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can hyperscalers disaggregate AI-specific revenue in earnings disclosures to resolve the measurement problem?",
+      "If they don't disaggregate, does the measurement opacity itself signal unfavorable ROIC?",
+      "At what blended ROIC level does per-share value destruction become visible to the market?"
+    ],
+    "related_concepts": [
+      "depreciation_catch_up_headwind",
+      "sbc_profitability_overstatement",
+      "hedge_destructive_minsky_category",
+      "capex_ocf_stress_threshold",
+      "bubble_vs_revolution_false_binary"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "capex_ocf_stress_threshold",
+    "definition": "Current aggregate hyperscaler capex/OCF at 50-65%, approaching generalist_02's kill-zone dual threshold: ROIC below WACC for 4+ quarters AND capex/OCF >55-65%. At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027. Meta and Amazon already at or near 70% capex/OCF. Thresholds derived from 5 historical analogues, though 4 of 5 were debt-funded (structurally different), suggesting self-funded entities may tolerate higher ratios.",
+    "confidence": 6,
+    "evidence": [
+      "Current aggregate hyperscaler capex/OCF at 50-65%",
+      "Dual threshold derived from 5 historical analogues",
+      "At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027",
+      "Meta and Amazon already at or near 70% capex/OCF",
+      "4 of 5 analogues were debt-funded — structural difference challenged in pair_0"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Is the kill-zone threshold higher for self-funded entities?",
+      "Does the prisoner's dilemma in capex rationalization prevent individual firms from pulling back first?",
+      "What signals management language shifts on capex discipline?"
+    ],
+    "related_concepts": [
+      "hyperscaler_capex_hedge_financing",
+      "incremental_roic_value_dilution",
+      "depreciation_catch_up_headwind",
+      "kalecki_identity_capex_profits"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "china_ai_competitiveness_catalyst",
+    "definition": "Chinese AI competitiveness (exemplified by DeepSeek R1 demonstrating frontier capabilities at a fraction of training cost) is a material but uncertain catalyst for capital flows. The 'captive flow premium' (3-5% of dollar overvaluation) is supported by TIC data on $200-400B cumulative portfolio flow redirection from China to US tech. Three scenarios: 25% China success, 50% stalemate, 25% China failure. The mechanism is real but magnitude and timing are highly uncertain.",
+    "confidence": 6,
+    "evidence": [
+      "DeepSeek R1: frontier-competitive at fraction of training cost",
+      "CNY strengthened ~1%, NVDA fell ~17% intraday on DeepSeek announcement",
+      "TIC data: $200-400B cumulative portfolio flow redirection from China to US tech",
+      "Dollar-tech correlation may reflect common factors, not causal chain"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the dollar-tech correlation causal or driven by common factors?",
+      "Would sustained Chinese AI competitiveness trigger a discontinuous captive flow reversal or gradual reallocation?",
+      "How does the US-China tech bifurcation evolve under different geopolitical scenarios?"
+    ],
+    "related_concepts": [
+      "dollar_overvaluation_ai_inflows",
+      "monetary_policy_divergence_usd_bid",
+      "twd_krw_semiconductor_decoupling"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "ai_energy_infrastructure_bottleneck",
+    "definition": "AI energy infrastructure faces genuine bottlenecks: PJM capacity auction prices ~10x increase, data center electricity rising from 4-5% to 8-12% of US generation by 2028-2030, grid interconnection queue 2,600+ GW with ~15% completion rate. However, the CPI impact is only 0.06-0.24pp — quantitatively immaterial for macro regime classification. The actionable expression is the infrastructure bottleneck premium rather than a direct commodity or inflation play.",
+    "confidence": 6,
+    "evidence": [
+      "PJM capacity auction prices ~10x increase",
+      "Data center electricity 4-5% of US generation rising to 8-12% by 2028-2030",
+      "Grid interconnection queue 2,600+ GW with ~15% completion rate",
+      "CPI impact 0.06-0.24pp — 'quantitatively immaterial for macro regime classification'"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Does the infrastructure bottleneck constrain AI capex growth before financial thresholds are reached?",
+      "Is the infrastructure bottleneck premium already priced into utilities with data center exposure?",
+      "Could nuclear capacity additions change the bottleneck timeline?"
+    ],
+    "related_concepts": [
+      "hyperscaler_capex_hedge_financing",
+      "capex_ocf_stress_threshold",
+      "depreciation_catch_up_headwind"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "bpo_it_services_current_account_erosion",
+    "definition": "Services-exporting EM economies face structural current account erosion from AI automation. India IT services ~$200B/yr (~6% GDP); Philippines BPO ~$33-35B (~8% GDP). McKinsey estimates 60% of current BPO tasks automatable by 2030-2040. NDF forwards do not embed this structural shift. However, the 'sudden stop' framing was refuted — this is gradual comparative advantage erosion over 5-25 years, not a Calvo-style crisis.",
+    "confidence": 5.5,
+    "evidence": [
+      "India IT services ~$200B/yr (~6% GDP); Philippines BPO ~$33-35B (~8% GDP)",
+      "McKinsey: 60% of BPO tasks automatable by 2030-2040",
+      "NDF forwards do not embed this structural shift",
+      "Philippines has $100B reserves, IG rating, flexible exchange rate — not crisis-prone",
+      "pair_2 partially refuted sudden stop framing"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can India and Philippines diversify services exports fast enough to offset AI automation?",
+      "At what automation penetration rate does the current account impact become visible in FX markets?",
+      "Does the NDF market's failure to embed this risk create an asymmetric opportunity?"
+    ],
+    "related_concepts": [
+      "em_tripartite_segmentation",
+      "em_central_bank_ai_trilemma",
+      "monetary_policy_divergence_usd_bid"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "minsky_speculative_ponzi_transition",
+    "definition": "The current credit cycle shows Minsky speculative-to-Ponzi transition characteristics in leveraged lending and private credit. Covenant-lite issuance >90% of leveraged loans, PIK toggle features in private credit, private credit AUM doubling from $800B to $1.8T (2019-2026), Russell 2000 >40% unprofitable, private debt-to-GDP ~150%. The Kalecki fiscal floor may extend the speculative phase beyond historical analogues, but the composition shift toward riskier structures is clear.",
+    "confidence": 6,
+    "evidence": [
+      "Covenant-lite issuance >90% of leveraged loans",
+      "PIK toggle features in private credit",
+      "Private credit AUM $800B→$1.8T (2019→2026)",
+      "Russell 2000: >40% unprofitable",
+      "Private debt-to-GDP ~150%"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Does the Kalecki fiscal floor prevent or merely delay the speculative-to-Ponzi transition?",
+      "Can Minsky classification be applied to self-funded entities (hyperscalers) or only to debt-funded ones?",
+      "What is the trigger for the transition from fragility to crisis given the fiscal backstop?"
+    ],
+    "related_concepts": [
+      "kalecki_identity_capex_profits",
+      "credit_impulse_deceleration",
+      "hedge_destructive_minsky_category",
+      "credit_channel_bifurcation"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "twd_krw_semiconductor_decoupling",
+    "definition": "TWD and KRW are decoupling from traditional EM FX factor models toward semiconductor cycle proxy status. TWD/KRW correlation with SOX index rising from ~0.3 to ~0.7; R-squared against standard EM factors (VIX, EMBI spread, DXY) declining. TSMC AI/HPC revenue rose from ~10% to ~50% of total. Taiwan current account surplus ~14% of GDP. Geopolitical tail risk is qualitatively different from standard EM political risk (discontinuous, not gradual).",
+    "confidence": 6,
+    "evidence": [
+      "TWD/KRW correlation with SOX rising from ~0.3 to ~0.7",
+      "R-squared against standard EM factors declining",
+      "TSMC AI/HPC revenue from ~10% to ~50% of total",
+      "Samsung/SK Hynix HBM revenue up 5x",
+      "Taiwan current account surplus ~14% of GDP"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Should TWD/KRW be reclassified out of EM benchmarks for portfolio construction purposes?",
+      "How does the discontinuous geopolitical tail risk (Taiwan Strait) interact with the semiconductor proxy status?",
+      "Does the decoupling create mispricing in traditional EM benchmarks that mix TWD/KRW with BRL/ZAR/TRY?"
+    ],
+    "related_concepts": [
+      "em_tripartite_segmentation",
+      "china_ai_competitiveness_catalyst",
+      "monetary_policy_divergence_usd_bid"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "bimodal_terminal_rate_distribution",
+    "definition": "A structurally real bimodal terminal rate distribution exists: 2.0-2.5% in an AI bust scenario vs. 4.5-5.0% if AI productivity is realized — a 200-300bp gap. OIS curve prices ~3.4-3.7%, consistent with 'muddle through' as central mode. The 15-20x swaption mispricing claim was refuted, but a 2-3x mispricing in the wings remains plausible. Valuable as a conceptual tool for understanding rate uncertainty but specific trade expressions require careful sizing.",
+    "confidence": 6,
+    "evidence": [
+      "200-300bp scenario gap between AI-bust and AI-realized terminal rates is logically sound",
+      "OIS curve prices ~3.4-3.7% — consistent with muddle-through",
+      "15-20x swaption mispricing refuted but 2-3x plausible",
+      "Specific mispricing magnitude at 4/10 confidence"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can the bimodal distribution be traded without the carry costs eroding theoretical edge?",
+      "What is the probability of the 'muddle through' central mode persisting vs. resolving to either extreme?",
+      "Does the Fed framework review create a catalyst for repricing the wings?"
+    ],
+    "related_concepts": [
+      "fed_ai_r_star_trilemma",
+      "cross_asset_pricing_inconsistency",
+      "no_aggregate_tfp_breakthrough",
+      "ai_productivity_transmission_lag"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "hedge_destructive_minsky_category",
+    "definition": "A novel extension of Minsky taxonomy: solvent, self-funding companies systematically destroying per-share value through sub-WACC investment. Historical analogues: Japanese corporates 1990s-2000s (internally funded, sub-WACC investment for decades), energy majors 2010-2014 (6-8% project IRR vs. 10-12% WACC). Implies slow grind of underperformance rather than sudden stop — duration risk, not drawdown risk.",
+    "confidence": 5,
+    "evidence": [
+      "Japanese corporates 1990s-2000s: internally funded sub-WACC investment for decades",
+      "Energy majors 2010-2014: 6-8% project IRR vs. 10-12% WACC",
+      "pair_1: 'the clearest articulation' of hyperscaler risk",
+      "Implies slow grind, not sudden stop — duration risk, not drawdown risk"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Does the prisoner's dilemma prevent individual hyperscalers from breaking the pattern?",
+      "How long can hedge-destructive behavior persist before equity markets reprice?",
+      "Is the Japanese corporate analogy applicable given the different shareholder activism environment?"
+    ],
+    "related_concepts": [
+      "incremental_roic_value_dilution",
+      "minsky_speculative_ponzi_transition",
+      "bubble_vs_revolution_false_binary",
+      "hyperscaler_capex_hedge_financing"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "dollar_invoicing_premium_ai",
+    "definition": "Extension of Gopinath's dominant currency paradigm to cloud services. US ~65-70% of global hyperscale cloud revenue (~$350B, growing 20-25%). Structural current account inflows from recurring AI/cloud subscription revenue with high switching costs (data gravity, API lock-in). IMF COFER reserve diversification (~0.5-0.7pp/yr USD share decline) is a stock adjustment while technology invoicing flows represent growing private-sector demand.",
+    "confidence": 6,
+    "evidence": [
+      "US ~65-70% of global hyperscale cloud revenue (~$350B, growing 20-25%)",
+      "Switching costs from data gravity and API lock-in create stickiness",
+      "IMF COFER: ~0.5-0.7pp/yr USD share decline is stock adjustment",
+      "Partially corroborated by fx_strategist_02's dollar liquidity illusion framework"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Could European/Asian cloud alternatives gain sufficient share to erode the invoicing premium?",
+      "Is the technology invoicing flow structurally different from goods invoicing in terms of currency substitution risk?",
+      "Does the subscription model create more or less currency stickiness than transaction-based trade?"
+    ],
+    "related_concepts": [
+      "dollar_overvaluation_ai_inflows",
+      "monetary_policy_divergence_usd_bid",
+      "dollar_cycle_plateau_correction"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "em_tripartite_segmentation",
+    "definition": "EM economies segment into three AI-relevant categories: (A) supply chain beneficiaries (TWD, KRW), (B) services-threatened (PHP, INR, BDT), and (C) commodity-adjacent. Directional divergence already observable (TWD/KRW outperforming PHP/BDT since 2023). FDI flow data supports segmentation. But boundaries are fuzzy (India spans A and B), operationalization requires unavailable data, and no independent corroboration exists.",
+    "confidence": 5,
+    "evidence": [
+      "Directional divergence observable: TWD/KRW outperforming PHP/BDT since 2023",
+      "FDI flow data supports segmentation",
+      "Analytically clean framework",
+      "No independent agent corroboration"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can the fuzzy boundaries (India spanning segments) be resolved with additional data?",
+      "What FX factor model modifications would operationalize this segmentation?",
+      "Does commodity-adjacent EM require sub-segmentation by AI energy demand exposure?"
+    ],
+    "related_concepts": [
+      "twd_krw_semiconductor_decoupling",
+      "bpo_it_services_current_account_erosion",
+      "em_central_bank_ai_trilemma"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "fed_framework_review_event_risk",
+    "definition": "The Fed's 2025-2026 framework review is an under-priced front-end event risk. The 2020 FAIT precedent caused a 10-15bp 2Y move and 18+ months of reshaped guidance. Current market prices zero premium for the review. The asymmetry (known date, zero pricing, non-trivial probability of 15-30bp impact) makes it worth monitoring, though the outcome is highly uncertain and could produce minimal changes.",
+    "confidence": 5,
+    "evidence": [
+      "Review is real with known timeline",
+      "2020 FAIT precedent: 10-15bp 2Y move, 18+ months of reshaped guidance",
+      "Current market prices zero premium",
+      "pair_3: 'the most tradeable claim' that the challenger missed"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Will the framework review explicitly address AI productivity uncertainty?",
+      "Is the zero-pricing rational (likely minimal changes) or an oversight?",
+      "What probability of substantive policy changes justifies the carry cost of positioning?"
+    ],
+    "related_concepts": [
+      "fed_ai_r_star_trilemma",
+      "bimodal_terminal_rate_distribution",
+      "no_aggregate_tfp_breakthrough"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "dollar_cycle_plateau_correction",
+    "definition": "55% probability assigned to a 'plateau-then-correction' dollar path with a 15-25% correction over 3-5 years, calibrated against the 1995-2001 dollar cycle. Monitorable signposts: capex-to-revenue ratio (currently 4-6x, needing 1.5-2.0x by 2028-2030), foreign equity ownership (~18-20%), DXY-PPP deviation (+12-18%). But the n=1 historical analogue has a fundamentally different fiscal/geopolitical backdrop, and the specific DXY target (low-to-mid 80s) is overconfident.",
+    "confidence": 5,
+    "evidence": [
+      "Three-scenario framework calibrated against 1995-2001 dollar cycle",
+      "Capex-to-revenue, foreign equity ownership, and DXY-PPP as monitorable signposts",
+      "n=1 historical analogue with different fiscal/geopolitical backdrop",
+      "pair_2: specific DXY target is overconfident"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Can the correction be traded given unknown timing and carry costs?",
+      "Is the fiscal/geopolitical backdrop difference invalidating for the analogy?",
+      "What would trigger the transition from plateau to correction?"
+    ],
+    "related_concepts": [
+      "dollar_overvaluation_ai_inflows",
+      "monetary_policy_divergence_usd_bid",
+      "china_ai_competitiveness_catalyst"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "augmentation_substitution_ratio",
+    "definition": "A framework grounded in Acemoglu & Restrepo (2019) using the ratio of AI-augmented to AI-substituted tasks to predict labor outcomes. Historical calibration: >1.5:1 augmentation-to-substitution ratio leads to net gains within 10 years; <0.8:1 leads to 15-25 year painful adjustment. Current evidence places AI at 1.0-1.3:1 — the historically ambiguous zone. The ratio may decline as agent capabilities mature, making it time-varying.",
+    "confidence": 4,
+    "evidence": [
+      "Grounded in Acemoglu & Restrepo (2019)",
+      "Historical calibration from n=5-8 GPTs",
+      "Current survey/case study evidence: 1.0-1.3:1",
+      "generalist_02 self-rates at 5/10 citing thin evidence base"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Will the ratio shift toward substitution as AI agent capabilities mature?",
+      "Is the n=5-8 GPT sample sufficient for calibration?",
+      "Can the ratio be measured in real time with sufficient accuracy to be predictive?"
+    ],
+    "related_concepts": [
+      "white_collar_displacement_novelty",
+      "ai_productivity_transmission_lag",
+      "no_aggregate_tfp_breakthrough"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "em_central_bank_ai_trilemma",
+    "definition": "EM central banks face a trilemma among FX stability, AI adoption facilitation, and inflation credibility. Analytically clean framework mapping observed policy divergences (India prioritizes FX stability, Brazil prioritizes inflation credibility). Currently more theoretical than actionable — most EM central banks are not yet explicitly managing AI adoption as a policy objective.",
+    "confidence": 4,
+    "evidence": [
+      "Maps to observed policy divergences (India, Brazil)",
+      "Analytically clean framework",
+      "Most EM central banks not yet explicitly managing AI adoption",
+      "Prospective — will gain relevance as AI economic impact becomes visible in EM data"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "When will EM central banks begin explicitly managing AI adoption as a policy variable?",
+      "Does the trilemma produce stable corner solutions or oscillation between objectives?",
+      "Is the trilemma distinct from the standard impossible trinity or an extension of it?"
+    ],
+    "related_concepts": [
+      "monetary_policy_divergence_usd_bid",
+      "bpo_it_services_current_account_erosion",
+      "em_tripartite_segmentation"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  },
+  {
+    "slug": "stock_bond_correlation_regime",
+    "definition": "The stock-bond correlation regime is stage-dependent on AI productivity transmission. Stage 1 (current, demand-driven): ambiguous correlation. Stage 2 (competitive pricing): negative correlation (favorable for 60/40 portfolios). Current 60/40 portfolios implicitly bet on Stage 2+ outcome. Theoretically grounded but many other correlation determinants (monetary policy, fiscal, geopolitics) make AI-specific isolation difficult.",
+    "confidence": 5,
+    "evidence": [
+      "AI creates simultaneous disinflationary supply shock and inflationary demand shock",
+      "Net effect on correlation depends on which dominates",
+      "Stage 1 demand-driven creates ambiguous correlation",
+      "Many other correlation determinants prevent clean isolation"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can the AI-specific correlation effect be isolated from monetary policy, fiscal, and geopolitical drivers?",
+      "How long does Stage 1 (ambiguous correlation) persist?",
+      "What signals the transition from Stage 1 to Stage 2?"
+    ],
+    "related_concepts": [
+      "ai_productivity_transmission_lag",
+      "cross_asset_pricing_inconsistency",
+      "bimodal_terminal_rate_distribution"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0015"
+  }
+]

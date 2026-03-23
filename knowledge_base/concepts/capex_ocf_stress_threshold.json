@@ -1,0 +1,36 @@
+{
+  "slug": "capex_ocf_stress_threshold",
+  "definition": "Current aggregate hyperscaler capex/OCF at 50-65%, approaching generalist_02's kill-zone dual threshold: ROIC below WACC for 4+ quarters AND capex/OCF >55-65%. At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027. Meta and Amazon already at or near 70% capex/OCF. Thresholds derived from 5 historical analogues, though 4 of 5 were debt-funded (structurally different), suggesting self-funded entities may tolerate higher ratios.",
+  "confidence": 6,
+  "evidence": [
+    "Current aggregate hyperscaler capex/OCF at 50-65%",
+    "Dual threshold derived from 5 historical analogues",
+    "At 30-50% capex growth rates, 2-3 hyperscalers could cross by late 2027",
+    "Meta and Amazon already at or near 70% capex/OCF",
+    "4 of 5 analogues were debt-funded — structural difference challenged in pair_0"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "equity_analyst_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Is the kill-zone threshold higher for self-funded entities?",
+    "Does the prisoner's dilemma in capex rationalization prevent individual firms from pulling back first?",
+    "What signals management language shifts on capex discipline?"
+  ],
+  "related_concepts": [
+    "hyperscaler_capex_hedge_financing",
+    "incremental_roic_value_dilution",
+    "depreciation_catch_up_headwind",
+    "kalecki_identity_capex_profits"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "hedge_destructive_minsky_taxonomy",
+  "purpose": "Extends classical Minsky taxonomy to classify self-funded entities that systematically destroy per-share value",
+  "components": [
+    "Hedge financing: income covers debt service and principal (classical)",
+    "Speculative financing: income covers interest but requires refinancing for principal (classical)",
+    "Ponzi financing: income insufficient for interest, dependent on asset appreciation (classical)",
+    "Hedge-destructive (new): solvent and self-funding but investing at sub-WACC returns, destroying per-share value over time"
+  ],
+  "current_assessment": "Hyperscaler AI capex may fit the hedge-destructive category: financially sound companies with strong OCF systematically investing in projects returning below cost of capital. Implies duration risk (slow grind) not drawdown risk (sudden stop).",
+  "limitations": [
+    "Novel category — needs broader corroboration",
+    "Timing prediction limited — Japanese corporates sustained hedge-destructive behavior for decades",
+    "Requires ROIC measurement which is contested",
+    "Market may not reprice until the value destruction becomes undeniable in reported metrics"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "equity_market_concentration",
+  "definition": "Top 10 S&P 500 stocks comprise ~35-38% of index weight, exceeding the 2000 dot-com peak of ~27%. Passive vehicles (~55% of US equity AUM), momentum factor (~70% overlap with AI names), and vol-targeting strategies create mechanical cascade amplification channels. Repricing of even one Mag-7 name propagates through indexation, factor strategies, and risk-parity.",
+  "confidence": 9,
+  "evidence": [
+    "Top 10 at ~35-38% exceeds 2000 dot-com peak of ~27%",
+    "Passive vehicles ~55% of US equity AUM",
+    "Momentum factor ~70% overlap with AI names",
+    "challenger_02 challenged cascade prediction citing 2022 tech drawdown (no systemic cascade) but not the structural observation"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Why did the 2022 tech drawdown not produce a systemic cascade — is that a reliable precedent or a different risk type?",
+    "At what concentration level does the mechanical cascade risk become dominant over fundamental-driven repricing?"
+  ],
+  "related_concepts": [
+    "erp_compression",
+    "fci_ai_concentration_distortion",
+    "winner_take_all_equilibrium",
+    "kalecki_identity_capex_profits"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

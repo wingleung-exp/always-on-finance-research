@@ -1,0 +1,21 @@
+{
+  "concept_a": "sbc_profitability_overstatement",
+  "concept_b": "erp_compression",
+  "mechanism": "SBC inflates non-GAAP earnings by 15-40% for AI companies, which mechanically compresses the measured ERP when using non-GAAP forward earnings estimates. The reflexive loop amplifies: rising prices → lower perceived SBC cost → better margins → lower ERP → higher prices.",
+  "direction": "a_causes_b",
+  "confidence": 9,
+  "regime_dependence": "Amplifies in rising markets (reflexive loop) and reverses in falling markets. The accounting distortion persists regardless of market direction; the reflexive component is regime-dependent.",
+  "originating_agents": [
+    "equity_analyst_02",
+    "equity_analyst_01",
+    "generalist_01"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "credit_impulse_leading_indicator",
+  "purpose": "Uses the second derivative of credit (change in new credit flow) to predict growth inflections",
+  "components": [
+    "Biggs-Mayer-Pick (2009) framework",
+    "Bank lending credit impulse",
+    "Non-bank credit offset (private credit, fintech — 25-30% of consumer origination)",
+    "Total credit impulse including shadow banking (BIS data)",
+    "Track record: correctly predicted 2008, European crisis, 2020 recovery, 2023-2024 resilience"
+  ],
+  "current_assessment": "Bank lending credit impulse decelerating since mid-2024. Non-bank credit partially offsets. Total credit impulse still positive but declining. Signals growth deceleration masked by fiscal offsets.",
+  "limitations": [
+    "Measuring total credit impulse including shadow banking is increasingly difficult",
+    "Fintech and private credit channels may not respond to same drivers as bank lending",
+    "Real-time utility reduced by measurement difficulty",
+    "Kalecki fiscal floor may override credit impulse signal"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T01:33:48Z",
+  "originating_iteration": "iter_0015",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0015"
+  ]
+}
