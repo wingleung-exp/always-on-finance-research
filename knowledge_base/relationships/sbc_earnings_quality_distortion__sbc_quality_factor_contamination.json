@@ -1,0 +1,20 @@
+{
+  "concept_a": "sbc_earnings_quality_distortion",
+  "concept_b": "sbc_quality_factor_contamination",
+  "mechanism": "SBC inflates non-GAAP earnings used to construct quality factor sorts, placing SBC-heavy Mag-7 names in higher quality quintiles than GAAP would warrant, contaminating the quality premium by 100-200bp (30-40% of measured QMJ)",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Persistent as long as quality factors use non-GAAP earnings as input; breaks if factor providers switch to GAAP-based sorts",
+  "originating_agents": [
+    "quant_researcher_02",
+    "equity_analyst_02"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

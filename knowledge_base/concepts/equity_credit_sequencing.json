@@ -1,0 +1,38 @@
+{
+  "slug": "equity_credit_sequencing",
+  "definition": "A four-stage cross-asset pattern (breadth deterioration, secondary beneficiary peaking, curve signal, credit widening) where equity leads credit by 6-12 months with 83% historical hit rate. Currently active in AI-disrupted sectors: legacy media equity down 25-30% while IG spreads at 120-180bp vs historical distressed 300-500bp.",
+  "confidence": 7,
+  "evidence": [
+    "Pattern appeared in 3/3 well-documented episodes (1998-2002, 2005-2008, 2012-2016)",
+    "5/6 episodes where negative equity-credit basis exceeded 2-sigma, equity was correct forward signal",
+    "Legacy media equity down 25-30% from peaks while IG spreads remain 120-180bp",
+    "Breadth deterioration signal (equal-weighted underperformance 800-1200bp) already active, matching 1998 timing",
+    "Credit widening should accelerate by H2 2026-H1 2027 if historical 6-12 month lead holds"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "quant_researcher_02",
+    "equity_analyst_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Whether current divergence will follow historical sequencing or resolve differently",
+    "Which specific AI-disrupted sectors show the widest equity-credit basis",
+    "Whether passive credit indexation distorts the Stage 4 signal"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "basis_trade_equity_coupling",
+    "mid_1990s_internet_analogue",
+    "self_funded_capex_bust"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

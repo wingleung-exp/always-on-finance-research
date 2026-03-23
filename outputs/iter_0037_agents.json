@@ -1,0 +1,162 @@
+{
+  "selected": [
+    {
+      "role_id": "generalist_02",
+      "name": "Historical Analogue & Pattern Recognition Specialist",
+      "category": "generalist",
+      "ucb_score": 1.936996234096235,
+      "reason": "generalist slot (constraint: at least 2 generalists)"
+    },
+    {
+      "role_id": "generalist_01",
+      "name": "Cross-Asset Strategist",
+      "category": "generalist",
+      "ucb_score": 1.864752234096235,
+      "reason": "generalist slot (constraint: at least 2 generalists)"
+    },
+    {
+      "role_id": "challenger_01",
+      "name": "Devil's Advocate & Consensus Contrarian",
+      "category": "challenger",
+      "ucb_score": 2.3831765220257206,
+      "reason": "challenger slot (constraint: at least 1 challenger)"
+    },
+    {
+      "role_id": "quant_researcher_02",
+      "name": "Factor Model & Risk Premia Specialist",
+      "category": "specialist",
+      "ucb_score": 2.82293036844146,
+      "reason": "selected by UCB1 score"
+    },
+    {
+      "role_id": "equity_analyst_02",
+      "name": "Earnings Quality & Valuation Specialist",
+      "category": "specialist",
+      "ucb_score": 2.81757336844146,
+      "reason": "selected by UCB1 score"
+    },
+    {
+      "role_id": "fx_strategist_01",
+      "name": "FX Regime & Dollar Cycle Specialist",
+      "category": "specialist",
+      "ucb_score": 2.78820836844146,
+      "reason": "selected by UCB1 score"
+    },
+    {
+      "role_id": "risk_analyst_02",
+      "name": "Geopolitical Risk & Political Economy Specialist",
+      "category": "specialist",
+      "ucb_score": 2.78820836844146,
+      "reason": "selected by UCB1 score"
+    },
+    {
+      "role_id": "risk_analyst_01",
+      "name": "Tail Risk & Crisis Mechanics Specialist",
+      "category": "specialist",
+      "ucb_score": 2.77233536844146,
+      "reason": "selected by UCB1 score"
+    }
+  ],
+  "all_scores": {
+    "macro_strategist_01": {
+      "ucb_score": 2.7425733684414597,
+      "mean_contribution": 0.732143,
+      "times_selected": 2
+    },
+    "macro_strategist_02": {
+      "ucb_score": 2.71281136844146,
+      "mean_contribution": 0.702381,
+      "times_selected": 2
+    },
+    "credit_analyst_01": {
+      "ucb_score": 2.71876336844146,
+      "mean_contribution": 0.708333,
+      "times_selected": 2
+    },
+    "credit_analyst_02": {
+      "ucb_score": 2.71281136844146,
+      "mean_contribution": 0.702381,
+      "times_selected": 2
+    },
+    "rates_strategist_01": {
+      "ucb_score": 2.75418036844146,
+      "mean_contribution": 0.74375,
+      "times_selected": 2
+    },
+    "rates_strategist_02": {
+      "ucb_score": 2.5325355220257206,
+      "mean_contribution": 0.891026,
+      "times_selected": 3
+    },
+    "equity_analyst_01": {
+      "ucb_score": 2.4998425220257205,
+      "mean_contribution": 0.858333,
+      "times_selected": 3
+    },
+    "equity_analyst_02": {
+      "ucb_score": 2.81757336844146,
+      "mean_contribution": 0.807143,
+      "times_selected": 2
+    },
+    "fx_strategist_01": {
+      "ucb_score": 2.78820836844146,
+      "mean_contribution": 0.777778,
+      "times_selected": 2
+    },
+    "fx_strategist_02": {
+      "ucb_score": 2.4563245220257204,
+      "mean_contribution": 0.814815,
+      "times_selected": 3
+    },
+    "commodities_analyst_01": {
+      "ucb_score": 2.69931936844146,
+      "mean_contribution": 0.688889,
+      "times_selected": 2
+    },
+    "commodities_analyst_02": {
+      "ucb_score": 2.7515013684414598,
+      "mean_contribution": 0.741071,
+      "times_selected": 2
+    },
+    "quant_researcher_01": {
+      "ucb_score": 2.5859545220257205,
+      "mean_contribution": 0.944445,
+      "times_selected": 3
+    },
+    "quant_researcher_02": {
+      "ucb_score": 2.82293036844146,
+      "mean_contribution": 0.8125,
+      "times_selected": 2
+    },
+    "risk_analyst_01": {
+      "ucb_score": 2.77233536844146,
+      "mean_contribution": 0.761905,
+      "times_selected": 2
+    },
+    "risk_analyst_02": {
+      "ucb_score": 2.78820836844146,
+      "mean_contribution": 0.777778,
+      "times_selected": 2
+    },
+    "generalist_01": {
+      "ucb_score": 1.864752234096235,
+      "mean_contribution": 0.790132,
+      "times_selected": 7
+    },
+    "generalist_02": {
+      "ucb_score": 1.936996234096235,
+      "mean_contribution": 0.862376,
+      "times_selected": 7
+    },
+    "challenger_01": {
+      "ucb_score": 2.3831765220257206,
+      "mean_contribution": 0.741667,
+      "times_selected": 3
+    },
+    "challenger_02": {
+      "ucb_score": 2.3271439466283255,
+      "mean_contribution": 0.905555,
+      "times_selected": 4
+    }
+  }
+}

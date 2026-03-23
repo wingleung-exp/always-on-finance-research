@@ -1,0 +1,31 @@
+{
+  "slug": "real_rates_cross_asset_fulcrum",
+  "definition": "Real rates at ~2.0-2.2% 10Y TIPS are the cross-asset fulcrum with asymmetric impacts. 50bp rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%. 50bp decline helps equities but weakens dollar, stressing the capex-profit-inflow feedback loop. Creates a 'no good outcome' dynamic for US-centric multi-asset portfolios.",
+  "confidence": 7,
+  "evidence": [
+    "50bp real rate rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%",
+    "50bp real rate decline helps equities but weakens dollar",
+    "Asymmetry creates no-good-outcome for US multi-asset portfolios",
+    "Sensitivity estimates subject to plus/minus 30% estimation error"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the no-good-outcome dynamic holds across all rate move magnitudes",
+    "Interaction with Fed policy path and forward guidance"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "dollar_capex_plateau",
+    "stock_bond_correlation_regime"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

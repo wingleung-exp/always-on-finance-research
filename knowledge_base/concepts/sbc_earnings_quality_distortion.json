@@ -1,0 +1,35 @@
+{
+  "slug": "sbc_earnings_quality_distortion",
+  "definition": "Stock-based compensation creates ~$75-80B annual Mag-7 earnings quality distortion through an SBC-restructuring-buyback triangle that is multiplicative, making true FCF-to-equity approximately 60-70% of reported non-GAAP FCF, with reverse reflexive amplification potential of 1.5-2.0x on drawdowns.",
+  "confidence": 8,
+  "evidence": [
+    "Mag-7 SBC ~$75-80B annually",
+    "True FCF-to-equity ~60-70% of reported non-GAAP FCF",
+    "25% Mag-7 decline mechanically increases SBC cost by $15-25B, compressing non-GAAP margins 100-200bp",
+    "Meta 2022 partial validation: SBC/revenue rose from ~18% to 25%+",
+    "Quality factor contamination: 100-200bp (30-40% of measured QMJ premium) is SBC artifact"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Whether SBC expense acceleration during drawdowns could trigger a reflexive spiral",
+    "Degree to which investors have already adjusted for SBC distortion"
+  ],
+  "related_concepts": [
+    "sbc_quality_factor_contamination",
+    "sbc_reverse_reflexivity",
+    "cross_asset_pricing_inconsistency",
+    "useful_life_depreciation_cliff"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

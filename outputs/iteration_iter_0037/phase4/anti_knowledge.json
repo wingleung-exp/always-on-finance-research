@@ -1,0 +1,142 @@
+[
+  {
+    "claim": "Capex-to-revenue ratio is 1.5-3.0x after proper AI revenue attribution including defensive capex and haircutting dubious SaaS attribution",
+    "reason": "Inclusion of $50-100B of legacy revenue protected by competitive AI positioning as AI revenue is definitional gerrymandering — revenue you did not lose is not revenue you gained. Stripping defensive capex yields ~2.5-4.0x not 1.5-3.0x. The 40-60% undercounting claim does not hold.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Prisoner's dilemma in AI capex is empirically falsified by Meta's 2023 capex cut",
+    "reason": "Meta's 2023 cut was metaverse retrenchment before the AI capex race. The prisoner's dilemma applies to simultaneous multi-player competition for the same prize which is structurally different from 2023. Falsified is too strong; downgraded to qualified.",
+    "refuted_by": [
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Quality-adjusted ERP at 0% to -1.0% has occurred only twice since 1960",
+    "reason": "Methodological inconsistency: uses GAAP EPS as denominator while comparing to historical ERP benchmarks calculated with operating/non-GAAP earnings. Historical precedents were identified using the same earnings measure the market used. Requires recalculating historical ERP using GAAP throughout to be valid.",
+    "refuted_by": [
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "A 20% AI equity drawdown mechanically produces 9-11% dollar weakness through linear correlation extrapolation",
+    "reason": "Linear extrapolation from correlation coefficient. Correlation measures co-movement direction not beta magnitude — need volatility ratio for beta which was not provided. Correlation would likely change regime during stress due to safe-haven dynamics and yen carry unwind.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Petrodollar and Teradollar are of equivalent magnitude at $300-400B vs $350B",
+    "reason": "Compares net capital flow (petrodollar recycling) to gross revenue figure (cloud subscriptions). Actual dollar demand from cloud is the portion paid by foreign customers (~30-40% of $350B) not gross revenue. Inflates the Teradollar concept by 2-3x.",
+    "refuted_by": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Hidden short-vol XIV analogy with $200-500B forced selling over 5-10 days from passive and systematic strategies",
+    "reason": "XIV was a levered inverse VIX product with explicit path-dependent blow-up trigger. Passive index funds, risk-parity, and momentum strategies have no analogous trigger — they rebalance gradually not liquidate to zero. 2022 (33% NASDAQ drawdown with passive AUM >50%) produced no cascade.",
+    "refuted_by": [
+      "generalist_02",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Merton-model equity-implied CDS of 15-25bp for cash-rich hyperscalers is a meaningful market signal indicating negative basis",
+    "reason": "For companies with net cash exceeding $300B collectively the Merton model produces effectively zero default probability regardless of equity vol inputs. Distance-to-default is enormous. The 15-25bp is model noise not market signal. The negative basis inference is an artifact.",
+    "refuted_by": [
+      "quant_researcher_02",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Goodwill impairment cascade of $300-500B from AI-related acquisitions analogous to 2001-2002",
+    "reason": "The anchor example (Microsoft/Activision $69B) is gaming not AI. Hyperscaler AI investments are primarily capex and R&D not goodwill-generating M&A. The 2001-2002 comparison ($750B impairments) followed massive debt-funded M&A at inflated valuations with no current parallel.",
+    "refuted_by": [
+      "quant_researcher_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "FX liquidity mirage producing 3-5% intraday dislocation in G10 majors from AI narrative shock",
+    "reason": "Cited flash crashes (CHF 2015, GBP 2016, JPY 2019) occurred under dissimilar conditions (policy discontinuity, thin-liquidity hours). A 3-5% intraday EUR/USD move during normal hours requires market-maker withdrawal in the deepest most liquid market on earth — not credible for a narrative shock.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Cardinal similarity scores of 0.72, 0.61, and 0.55 for historical analogues provide quantitative basis for analogue selection",
+    "reason": "Methodological theater: subjective assessments dressed in quantitative clothing. No replicable measurement methodology exists for similarity scores based on four structural criteria with no formal weighting. The ordinal ranking survives but cardinal scores should be discarded.",
+    "refuted_by": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "25-75bp US central bank independence risk premium calibrated from Turkish experience of 400-600bp",
+    "reason": "Calibrating US independence premium from Turkish experience is like calibrating US default risk from Argentine experience. US institutional barriers (statutory independence, 14-year terms, Senate confirmation) are categorically stronger. US has never priced a meaningful independence premium post-Volcker.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "NDF positioning against services EM currencies (India, Philippines) as actionable trade on AI automation thesis",
+    "reason": "Structural erosion occurs over 5-25 years while NDF tenors max out at 2-5 years. The claim that 2-3 year NDF forwards capture a 5-25 year structural shift is internally contradictory. The structural concern is valid but packaging it as a standard-tenor FX trade is not.",
+    "refuted_by": [
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Relative value Sharpe ratio scorecard with decimal-place precision for forward 12-24 month returns across asset classes",
+    "reason": "Forward Sharpe ratios to one decimal place implies estimation precision that does not exist. The ranking reverses under the 30-40% probability AI miracle scenario the agent acknowledges. Ordinal insights are useful but cardinal Sharpe estimates are false precision.",
+    "refuted_by": [
+      "generalist_02",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "AI revenue is overstated by 40-60% placing true capex/revenue at 6-10x",
+    "reason": "Whether AI-enhanced Search revenue counts as AI revenue has no objectively correct answer. The philosophical question of AI-caused vs AI-coincident revenue has no empirical resolution. Directional revenue bundling opacity concern is valid but the specific 40-60% overstatement is asserted without methodology.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  }
+]

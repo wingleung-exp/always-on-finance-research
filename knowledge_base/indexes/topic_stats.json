@@ -8,14 +8,19 @@
     "avg_confidence": 0.0
   },
   "ai_and_tech_disruption": {
-    "concept_count": 57,
-    "relationship_count": 40,
-    "framework_count": 17,
+    "concept_count": 88,
+    "relationship_count": 58,
+    "framework_count": 26,
     "top_concepts": [
       {
         "slug": "ai_equity_concentration_amplification",
         "confidence": 9,
         "definition": "Equity market concentration in AI-adjacent names exceeds dot-com peak levels, with top 10 S&P 500 weight at ~35-38% vs 2000 peak of ~27% (30-40% highe"
+      },
+      {
+        "slug": "ai_equity_concentration_risk",
+        "confidence": 9,
+        "definition": "Top-10 S&P 500 weight at 35-38% (vs 27% at 2000 peak) creates mechanical amplification risk through coupling of passive (~55% AUM), momentum (70%+ ove"
       },
       {
         "slug": "ai_tfp_no_structural_break",
@@ -38,6 +43,16 @@
         "definition": "Aggregate hyperscaler operating cash flow ($350-450B) exceeds capex ($250-300B) at a 1.5-1.7x coverage ratio, meaning AI infrastructure investment is "
       },
       {
+        "slug": "inter_factor_correlation_collapse",
+        "confidence": 9,
+        "definition": "Momentum-quality inter-factor correlation has tripled from +0.15-0.25 to +0.50-0.60, meaning multi-factor portfolios holding both are running approxim"
+      },
+      {
+        "slug": "momentum_enb_collapse",
+        "confidence": 9,
+        "definition": "Momentum factor effective number of bets (Meucci entropy-based metric) has collapsed to ~25-35, below both the 2007 quant quake (~30-40) and March 202"
+      },
+      {
         "slug": "no_aggregate_tfp_breakthrough",
         "confidence": 9,
         "definition": "BLS nonfarm business sector labor productivity remains at ~1.5-2.0% annualized with no structural break from the pre-AI trend through early 2026. Expe"
@@ -46,21 +61,6 @@
         "slug": "sbc_profitability_overstatement",
         "confidence": 9.0,
         "definition": "Stock-based compensation overstates AI-sector profitability by 15-40%. Aggregate Mag-7 SBC is ~$75-80B annually, creating a GAAP vs. non-GAAP P/E gap "
-      },
-      {
-        "slug": "sbc_reflexivity_loop",
-        "confidence": 9,
-        "definition": "A positive feedback mechanism where rising share prices reduce the perceived cost of stock-based compensation, inflating reported margins, which drive"
-      },
-      {
-        "slug": "ai_behavioral_bias_inflation",
-        "confidence": 8,
-        "definition": "Six specific cognitive biases systematically inflate AI return expectations and compress expected timelines: narrative fallacy (Shiller), anchoring to"
-      },
-      {
-        "slug": "ai_capex_revenue_validation_gap",
-        "confidence": 8,
-        "definition": "The ratio of AI-related capital expenditure to identifiable AI revenue stands at approximately 4-6x ($200-250B capex vs $40-60B revenue), representing"
       }
     ],
     "all_concept_slugs": [
@@ -71,58 +71,89 @@
       "ai_capex_structural_dollar_support",
       "ai_energy_infrastructure_bottleneck",
       "ai_equity_concentration_amplification",
+      "ai_equity_concentration_risk",
+      "ai_governance_fragmentation",
       "ai_productivity_transmission_lag",
       "ai_r_star_destabilization",
       "ai_tfp_no_structural_break",
       "augmentation_substitution_ratio",
+      "basis_trade_equity_coupling",
       "bimodal_terminal_rate_distribution",
       "bpo_it_services_current_account_erosion",
       "bubble_vs_revolution_false_binary",
       "capex_ocf_stress_threshold",
+      "capex_revenue_validation_gap",
       "central_bank_ai_put",
       "china_ai_competitiveness_catalyst",
       "china_ai_trajectory_swing_factor",
+      "cma_factor_sign_flip",
+      "compound_supply_chain_tax",
       "credit_channel_bifurcation",
       "credit_impulse_deceleration",
       "depreciation_catch_up_headwind",
       "depreciation_lag_margin_headwind",
+      "dollar_capex_plateau",
       "dollar_cycle_plateau_correction",
       "dollar_invoicing_premium_ai",
       "dollar_overvaluation_ai_inflows",
       "em_central_bank_ai_trilemma",
       "em_tripartite_segmentation",
       "energy_ai_nexus",
+      "equity_credit_sequencing",
       "equity_market_concentration",
       "erp_ai_compression",
       "erp_compression",
       "fci_ai_concentration_distortion",
       "fci_distributional_masking",
+      "fed_ai_put_impairment",
       "fed_ai_r_star_trilemma",
       "fed_framework_review_event_risk",
       "gpt_diffusion_lag",
+      "gpt_value_capture_base_rate",
       "hedge_destructive_minsky_category",
       "hyperscaler_capex_hedge_financing",
       "hyperscaler_self_funded_capex",
       "incremental_roic_value_dilution",
+      "inter_factor_correlation_collapse",
       "investment_leaders_value_capture_gap",
+      "kalecki_ai_profit_channel",
       "kalecki_identity_capex_profits",
+      "liquidity_mirage",
       "mag7_implied_revenue_gap",
+      "mid_1990s_internet_analogue",
       "mid_1990s_internet_primary_analogue",
       "minsky_speculative_ponzi_transition",
+      "momentum_enb_collapse",
       "monetary_policy_divergence_usd_bid",
       "no_aggregate_tfp_breakthrough",
+      "pc1_ai_contamination",
+      "productivity_equity_return_independence",
+      "real_rates_cross_asset_fulcrum",
       "regional_erp_ai_differential",
+      "roic_vintage_decomposition",
+      "sbc_earnings_quality_distortion",
       "sbc_profitability_overstatement",
+      "sbc_quality_factor_contamination",
       "sbc_reflexivity_loop",
+      "sbc_reverse_reflexivity",
       "selective_analogy_deployment_bias",
+      "self_funded_capex_bust",
+      "semiconductor_export_control_ratchet",
+      "sovereign_ai_fiscal_path_dependency",
       "stock_bond_correlation_regime",
+      "triple_margin_headwind",
+      "tsmc_concentration_systemic_risk",
       "twd_krw_semiconductor_decoupling",
+      "twd_krw_semiconductor_proxy",
       "two_tier_em_fx_ai_regime",
+      "uranium_haleu_bottleneck",
+      "useful_life_depreciation_cliff",
+      "value_spread_asymmetry",
       "white_collar_displacement_novelty",
       "winner_take_all_cross_asset_reconciliation",
       "winner_take_all_equilibrium"
     ],
-    "avg_confidence": 6.9
+    "avg_confidence": 7.1
   },
   "central_bank_balance_sheets": {
     "concept_count": 21,

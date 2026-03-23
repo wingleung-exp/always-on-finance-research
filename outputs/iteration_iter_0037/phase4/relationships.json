@@ -1,0 +1,252 @@
+[
+  {
+    "concept_a": "ai_equity_concentration_risk",
+    "concept_b": "basis_trade_equity_coupling",
+    "mechanism": "Multi-strategy hedge funds hold both AI equity positions and Treasury basis trades with cross-margining, creating wrong-way risk where AI equity losses trigger Treasury position liquidation through shared collateral pools",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active when multi-strategy funds maintain cross-margined positions; amplifies during equity drawdowns exceeding ~15-20% where margin calls cascade across books",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "self_funded_capex_bust",
+    "concept_b": "equity_credit_sequencing",
+    "mechanism": "Self-funded capex dynamics mean credit markets receive no early warning from debt stress, so equities lead credit by historical 6-12 months as expectations reprice before credit spreads widen",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when companies are self-funding (OCF/capex >1.0x); breaks down if capex growth forces balance sheet leverage",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "capex_revenue_validation_gap",
+    "concept_b": "roic_vintage_decomposition",
+    "mechanism": "The persistent gap between AI capex and AI revenue directly feeds declining ROIC for recent capital vintages; if the 2.5-4.5x ratio persists, 2022-2027 vintage capital earns below WACC, mechanically dragging blended ROIC toward cost of capital",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Arithmetic relationship holds regardless of regime; magnitude depends on capex growth rate and revenue realization pace",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "capex_revenue_validation_gap",
+    "concept_b": "dollar_capex_plateau",
+    "mechanism": "AI capex drives capital inflows supporting the dollar; if the capex-revenue gap triggers retrenchment, inflows decline and the dollar AI premium erodes. The ratio must compress for both equity valuations and dollar support to sustain",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Strongest when international investors are a large share of marginal buyers (~$40-60B/month); breaks if domestic savings replace foreign inflows",
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "kalecki_ai_profit_channel",
+    "concept_b": "dollar_capex_plateau",
+    "mechanism": "AI capex sustains corporate profits via Kalecki identity, sustaining equity prices, attracting capital inflows, supporting the dollar. Self-reinforcing loop: capex to profits to equity to inflows to dollar to margins to capex",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Loop is self-reinforcing in both directions. Fiscal deficit floor ($1.8-2T) provides partial insulation on the downside. International capital flow sensitivity determines loop magnitude",
+    "originating_agents": [
+      "generalist_01",
+      "fx_strategist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "useful_life_depreciation_cliff",
+    "concept_b": "triple_margin_headwind",
+    "mechanism": "Useful-life exhaustion is one of three headwinds converging 2027-2029; the $8-12B annual benefit cannot extend further and reverses as assets reach extended endpoints, contributing 300-500bp of the total 400-700bp margin pressure",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Mechanically certain regardless of regime; timing depends on capex installation dates and accounting elections",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "sbc_earnings_quality_distortion",
+    "concept_b": "sbc_quality_factor_contamination",
+    "mechanism": "SBC inflates non-GAAP earnings used to construct quality factor sorts, placing SBC-heavy Mag-7 names in higher quality quintiles than GAAP would warrant, contaminating the quality premium by 100-200bp (30-40% of measured QMJ)",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Persistent as long as quality factors use non-GAAP earnings as input; breaks if factor providers switch to GAAP-based sorts",
+    "originating_agents": [
+      "quant_researcher_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "sbc_quality_factor_contamination",
+    "concept_b": "inter_factor_correlation_collapse",
+    "mechanism": "SBC contamination means quality and momentum factors both overweight the same AI names, driving momentum-quality correlation from +0.15-0.25 to +0.50-0.60 and eliminating diversification between factors",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Active as long as AI names dominate both momentum and SBC-contaminated quality; would reverse if AI names underperform and quality sorts normalize",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "semiconductor_export_control_ratchet",
+    "concept_b": "capex_revenue_validation_gap",
+    "mechanism": "Export controls permanently shrink achievable AI TAM by 15-25% by excluding China and restricted markets, widening the capex-revenue gap on the denominator side without reducing capex numerator",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Directional effect is permanent given institutional ratchet dynamics; magnitude depends on scope of future restrictions and enforcement",
+    "originating_agents": [
+      "risk_analyst_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "semiconductor_export_control_ratchet",
+    "concept_b": "tsmc_concentration_systemic_risk",
+    "mechanism": "Export controls intensify TSMC's strategic importance as the chokepoint for advanced semiconductor access, increasing geopolitical salience of Taiwan and raising the stakes of any contingency",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Strengthens with each escalation round; only weakens if significant non-Taiwan advanced fab capacity comes online (8-12 year timeline)",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "real_rates_cross_asset_fulcrum",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Real rates connect equity valuations through duration and DCF, credit spreads through funding costs, and the dollar through capital flows. Any real rate move tightens at least one inconsistency while widening another",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Most powerful at current real rate levels of 2.0-2.2%; the no-good-outcome asymmetry diminishes if real rates move significantly in either direction",
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "basis_trade_equity_coupling",
+    "concept_b": "fed_ai_put_impairment",
+    "mechanism": "The basis trade could impair the Fed's Treasury transmission: Fed intervention to stabilize basis trade raises fiscal dominance concerns, while standing pat risks a deleveraging cascade through cross-margined positions",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active only during stress events where both AI equities and Treasury basis trade are unwinding simultaneously; dormant during normal markets",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "productivity_equity_return_independence",
+    "concept_b": "gpt_value_capture_base_rate",
+    "mechanism": "The independence of productivity gains from equity returns during GPT investment phases is explained by the value capture base rate: infrastructure builders create productivity but users capture value. Both findings independently confirm the same mechanism",
+    "direction": "correlated",
+    "confidence": 8,
+    "regime_dependence": "Strongest during investment/deployment phase of GPT cycles; may weaken if builders maintain bottleneck control",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "sovereign_ai_fiscal_path_dependency",
+    "concept_b": "kalecki_ai_profit_channel",
+    "mechanism": "Sovereign AI spending creates a fiscal floor compounding with the Kalecki profit channel: even if private AI capex slows, government industrial policy partially maintains the profit channel through public investment",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active as long as sovereign AI programs remain funded; political path dependency makes this likely for 5-10 years but fiscal crises could override",
+    "originating_agents": [
+      "risk_analyst_02",
+      "fx_strategist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "stock_bond_correlation_regime",
+    "concept_b": "ai_equity_concentration_risk",
+    "mechanism": "Positive stock-bond correlation means 60/40 and risk parity portfolios run ~20-30% more equity-equivalent risk, amplifying exposure to AI concentration. A correction would not be offset by bond gains as in 2010-2020 negative correlation regime",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active while correlation remains positive under current three-force regime; would reverse if AI productivity breakthrough creates disinflationary supply shock",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "mid_1990s_internet_analogue",
+    "concept_b": "cma_factor_sign_flip",
+    "mechanism": "CMA factor sign flip (~3 years in) matches the 1995-2000 pattern (5-year duration), supporting the analogue mapping. CMA reversal timing could serve as a cycle phase indicator",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Pattern-dependent on the analogue holding; small-n of 2-3 episodes limits reliability",
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "liquidity_mirage",
+    "concept_b": "ai_equity_concentration_risk",
+    "mechanism": "Declining top-of-book depth (40-60% since 2019) in Mag-7 means concentrated passive/momentum selling encounters a thinner order book than volume suggests, amplifying drawdown speed and magnitude during stress",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Dormant in calm markets where volume masks thin depth; activates during directional selling pressure exceeding market-maker capacity",
+    "originating_agents": [
+      "risk_analyst_01",
+      "quant_researcher_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "concept_a": "compound_supply_chain_tax",
+    "concept_b": "triple_margin_headwind",
+    "mechanism": "The 23-40% compound tax adds to hyperscaler hardware procurement costs, feeding into the depreciation cliff and energy cost components through higher capitalized asset values and elevated input costs",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Increases with each tariff escalation round; partially mitigable through domestic production but on 8-12 year timelines",
+    "originating_agents": [
+      "risk_analyst_02",
+      "equity_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  }
+]

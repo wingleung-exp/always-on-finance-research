@@ -1,0 +1,895 @@
+[
+  {
+    "slug": "ai_equity_concentration_risk",
+    "definition": "Top-10 S&P 500 weight at 35-38% (vs 27% at 2000 peak) creates mechanical amplification risk through coupling of passive (~55% AUM), momentum (70%+ overlap with AI names), and systematic strategies, with PC1 explaining 45-50% of return variance vs 30-35% historical.",
+    "confidence": 9,
+    "evidence": [
+      "Top-10 S&P 500 weight ~35-38% vs 27% at 2000 peak",
+      "Passive vehicles ~55% of AUM",
+      "Momentum factor 70%+ overlap with AI names",
+      "PC1 explains 45-50% of return variance vs 30-35% historical",
+      "Momentum ENB collapsed to ~25-35, below 2007 quant quake (~30-40) and March 2020 (~40-50)",
+      "Momentum-quality inter-factor correlation tripled from +0.15-0.25 to +0.50-0.60"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Whether $40-60B/month international capital flows create a non-linearity mechanism absent in prior concentration episodes",
+      "What would trigger rebalancing cascades vs gradual reversion",
+      "Whether 3 years of post-ChatGPT data is sufficient for definitive factor attribution"
+    ],
+    "related_concepts": [
+      "momentum_enb_collapse",
+      "inter_factor_correlation_collapse",
+      "pc1_ai_contamination",
+      "basis_trade_equity_coupling",
+      "value_spread_asymmetry",
+      "liquidity_mirage"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "momentum_enb_collapse",
+    "definition": "Momentum factor effective number of bets (Meucci entropy-based metric) has collapsed to ~25-35, below both the 2007 quant quake (~30-40) and March 2020 (~40-50), indicating risk models underestimate momentum exposure by 3-4x.",
+    "confidence": 9,
+    "evidence": [
+      "ENB ~25-35 current vs ~30-40 in 2007 and ~40-50 in 2020",
+      "Risk models underestimate momentum exposure by 3-4x",
+      "Multi-factor portfolios holding both momentum and quality run ~2x intended AI exposure"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "At what ENB level does forced rebalancing cascade begin",
+      "Whether risk model recalibration by large allocators would itself trigger the unwind"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "inter_factor_correlation_collapse",
+      "liquidity_mirage"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "inter_factor_correlation_collapse",
+    "definition": "Momentum-quality inter-factor correlation has tripled from +0.15-0.25 to +0.50-0.60, meaning multi-factor portfolios holding both are running approximately 2x intended AI exposure with no diversification benefit between these factors.",
+    "confidence": 9,
+    "evidence": [
+      "Momentum-quality correlation tripled from +0.15-0.25 to +0.50-0.60",
+      "Multi-factor portfolios running ~2x intended AI exposure",
+      "Diversification benefit between momentum and quality factors has collapsed"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Whether factor decorrelation could occur gradually or requires a shock",
+      "Impact on risk parity and factor-neutral strategies at scale"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "momentum_enb_collapse",
+      "sbc_quality_factor_contamination"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "self_funded_capex_bust",
+    "definition": "Hyperscaler OCF/capex ratio of 1.5-1.7x eliminates the debt-driven bust mechanism seen in prior tech cycles, converting potential crash risk to slow-grind duration risk over 3-7+ years. Historical analogues (Japan 1990s-2000s, energy majors 2010-2014) both produced slow grinds because no creditor-imposed stop-loss existed.",
+    "confidence": 8,
+    "evidence": [
+      "OCF/capex ratio 1.5-1.7x for hyperscalers",
+      "Japanese corporates 1990s-2000s: TOPIX underperformed MSCI World by ~60% over 13 years",
+      "Energy majors 2010-2014: P/E compressed from 14x to 8x over 2 years",
+      "Hyperscaler CDS tight: MSFT 5Y ~30bp, AMZN ~40bp",
+      "No creditor-imposed stop-loss in either historical analogue"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "risk_analyst_01",
+      "equity_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Whether $40-60B/month international capital flows create a non-linearity absent in Japan/energy analogues",
+      "Whether US shareholder activism provides capex discipline mechanism altering the slow-grind pattern",
+      "N=2 for self-funded bust analogues is thin"
+    ],
+    "related_concepts": [
+      "capex_revenue_validation_gap",
+      "kalecki_ai_profit_channel",
+      "dollar_capex_plateau",
+      "cma_factor_sign_flip",
+      "mid_1990s_internet_analogue"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "sbc_earnings_quality_distortion",
+    "definition": "Stock-based compensation creates ~$75-80B annual Mag-7 earnings quality distortion through an SBC-restructuring-buyback triangle that is multiplicative, making true FCF-to-equity approximately 60-70% of reported non-GAAP FCF, with reverse reflexive amplification potential of 1.5-2.0x on drawdowns.",
+    "confidence": 8,
+    "evidence": [
+      "Mag-7 SBC ~$75-80B annually",
+      "True FCF-to-equity ~60-70% of reported non-GAAP FCF",
+      "25% Mag-7 decline mechanically increases SBC cost by $15-25B, compressing non-GAAP margins 100-200bp",
+      "Meta 2022 partial validation: SBC/revenue rose from ~18% to 25%+",
+      "Quality factor contamination: 100-200bp (30-40% of measured QMJ premium) is SBC artifact"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Whether SBC expense acceleration during drawdowns could trigger a reflexive spiral",
+      "Degree to which investors have already adjusted for SBC distortion"
+    ],
+    "related_concepts": [
+      "sbc_quality_factor_contamination",
+      "sbc_reverse_reflexivity",
+      "cross_asset_pricing_inconsistency",
+      "useful_life_depreciation_cliff"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "sbc_reverse_reflexivity",
+    "definition": "In equity drawdowns, SBC expense mechanically increases (more shares needed for same dollar compensation), creating a reverse reflexive loop: a 25% Mag-7 decline increases SBC cost by $15-25B and compresses non-GAAP margins 100-200bp, amplifying the drawdown by 1.5-2.0x.",
+    "confidence": 8,
+    "evidence": [
+      "25% decline produces $15-25B additional SBC cost",
+      "100-200bp non-GAAP margin compression from reflexive SBC increase",
+      "Meta 2022 precedent: SBC/revenue rose from ~18% to 25%+",
+      "Amplification factor estimated at 1.5-2.0x"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Whether companies would restructure compensation to break the loop",
+      "Interaction with share buyback programs during drawdowns"
+    ],
+    "related_concepts": [
+      "sbc_earnings_quality_distortion",
+      "ai_equity_concentration_risk"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "useful_life_depreciation_cliff",
+    "definition": "Server useful-life extensions (Microsoft from 4 to 6 years, adding $3.7B annually to operating income) are a one-directional earnings management ratchet. Further extensions face physical obsolescence constraints (GPU cycles 18-30 months) and auditor pushback. The depreciation cliff when current lives expire is mechanically certain. Aggregate Mag-7 impact: ~$8-12B annually.",
+    "confidence": 9,
+    "evidence": [
+      "Microsoft 10-K: server life extended 4 to 6 years, $3.7B annual operating income impact (~4% of total)",
+      "Google: ~$2.8B estimated impact",
+      "Aggregate Mag-7: ~$8-12B annually",
+      "GPU generation cycles of 18-30 months constrain further extensions",
+      "One-directional ratchet: no further extension possible beyond 6-7 years"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Exact timing of depreciation cliff for each hyperscaler",
+      "Whether new accounting interpretations could further extend useful lives"
+    ],
+    "related_concepts": [
+      "triple_margin_headwind",
+      "sbc_earnings_quality_distortion",
+      "capex_revenue_validation_gap",
+      "roic_vintage_decomposition"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "capex_revenue_validation_gap",
+    "definition": "The ratio of AI-related capital expenditure to attributable AI revenue remains elevated at ~2.5-4.5x after debate adjustment (KB estimate 4-6x), representing the central vulnerability metric for AI equity valuations. Both numerator uncertainty (what counts as AI capex) and denominator uncertainty (what counts as AI revenue) persist.",
+    "confidence": 8,
+    "evidence": [
+      "KB original estimate: 4-6x at confidence 8",
+      "Debate-adjusted range: ~2.5-4.5x after stress-testing from both sides",
+      "Challenger_01's 1.5-3.0x refuted (defensive capex inclusion = definitional gerrymandering)",
+      "Export controls permanently shrink achievable TAM by 15-25%",
+      "Ratio must compress for both equity valuations and dollar capital flow support to sustain"
+    ],
+    "originating_agents": [
+      "equity_analyst_02",
+      "fx_strategist_01",
+      "generalist_01",
+      "generalist_02",
+      "challenger_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether AI revenue definition can ever be standardized across companies",
+      "Timeline for capex/revenue ratio to converge to sustainable levels",
+      "Whether defensive capex should be partially attributed to AI"
+    ],
+    "related_concepts": [
+      "roic_vintage_decomposition",
+      "self_funded_capex_bust",
+      "dollar_capex_plateau",
+      "gpt_value_capture_base_rate",
+      "semiconductor_export_control_ratchet"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "productivity_equity_return_independence",
+    "definition": "The 1990s demonstrate that equity returns and productivity realization are independent during the investment phase of a GPT cycle: NASDAQ declined 78% in 2000-2002 while productivity grew 4.1% in 2002. Value accrued to infrastructure users (retailers, banks), not builders (WorldCom, Nortel). Current AI prices conflate 'AI productivity is real' with 'AI investors capture the value.'",
+    "confidence": 8,
+    "evidence": [
+      "NASDAQ -78% coincident with 4.1% productivity growth in 2002",
+      "WorldCom and Nortel bankrupt by 2002 despite building productivity-enabling infrastructure",
+      "Value captured by users of infrastructure, not builders",
+      "GPT value capture base rate: 1/6 episodes where investors captured value"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether hyperscaler vertical integration (cloud + data + compute + distribution) breaks the historical pattern",
+      "Whether the builder/user distinction applies differently to cloud platforms that are both"
+    ],
+    "related_concepts": [
+      "gpt_value_capture_base_rate",
+      "mid_1990s_internet_analogue",
+      "capex_revenue_validation_gap"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "equity_credit_sequencing",
+    "definition": "A four-stage cross-asset pattern (breadth deterioration, secondary beneficiary peaking, curve signal, credit widening) where equity leads credit by 6-12 months with 83% historical hit rate. Currently active in AI-disrupted sectors: legacy media equity down 25-30% while IG spreads at 120-180bp vs historical distressed 300-500bp.",
+    "confidence": 7,
+    "evidence": [
+      "Pattern appeared in 3/3 well-documented episodes (1998-2002, 2005-2008, 2012-2016)",
+      "5/6 episodes where negative equity-credit basis exceeded 2-sigma, equity was correct forward signal",
+      "Legacy media equity down 25-30% from peaks while IG spreads remain 120-180bp",
+      "Breadth deterioration signal (equal-weighted underperformance 800-1200bp) already active, matching 1998 timing",
+      "Credit widening should accelerate by H2 2026-H1 2027 if historical 6-12 month lead holds"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "quant_researcher_02",
+      "equity_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Whether current divergence will follow historical sequencing or resolve differently",
+      "Which specific AI-disrupted sectors show the widest equity-credit basis",
+      "Whether passive credit indexation distorts the Stage 4 signal"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "basis_trade_equity_coupling",
+      "mid_1990s_internet_analogue",
+      "self_funded_capex_bust"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "value_spread_asymmetry",
+    "definition": "Value-growth spread at 5th-8th percentile post-1963 implies 400-700bp annualized value factor returns over 5-7 years, with no negative 5-year outcome in sample. Uniquely asymmetric: cheap quintile is non-distressed (financials, utilities, energy at 8-12x with stable cash flows) while expensive quintile is entirely AI narrative-driven.",
+    "confidence": 9,
+    "evidence": [
+      "Value spread at 5th-8th percentile post-1963",
+      "No negative 5-year outcome in historical sample at these levels",
+      "Cheap quintile: financials, utilities, energy at 8-12x with stable cash flows",
+      "Expensive quintile entirely AI narrative-driven",
+      "Historical 400-700bp annualized returns over 5-7 years from similar levels"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Timing unreliable: 1999-2000 spread widened further 12-18 months before reverting violently",
+      "Whether AI narrative moderation alone is sufficient catalyst or macro shock needed"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "cma_factor_sign_flip",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "semiconductor_export_control_ratchet",
+    "definition": "US semiconductor export controls operate as an institutional ratchet with 60-70% probability of further tightening vs <10% rollback. Three rounds of escalation (Oct 2022, Oct 2023, Jan 2025) demonstrate asymmetric institutional dynamics where tightening is costless politically while loosening requires multiple veto points. Bipartisan consensus makes de-escalation <15% regardless of election outcome.",
+    "confidence": 8,
+    "evidence": [
+      "Three rounds of escalation: Oct 2022, Oct 2023, Jan 2025",
+      "NSC, BIS, and congressional committees all favor tightening; no actor benefits from loosening",
+      "NVIDIA China revenue declined from ~25% to ~12-15%",
+      "Compound supply chain tax: 15-25% tariff + 5-10% rerouting + 3-5% compliance = 23-40% effective cost",
+      "China hawk is zero-cost politically; China dove is career-ending"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether further tightening targets foundry access (TSMC) or specific chip architectures",
+      "Impact of enforcement gaps and third-country circumvention on effective control"
+    ],
+    "related_concepts": [
+      "tsmc_concentration_systemic_risk",
+      "capex_revenue_validation_gap",
+      "compound_supply_chain_tax",
+      "ai_governance_fragmentation"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "tsmc_concentration_systemic_risk",
+    "definition": "TSMC's ~90% share of advanced node (<5nm) production is underpriced systemic geopolitical risk qualitatively different from standard tail risks due to non-substitutability. No semiconductor strategic reserve exists (2-8 week inventories). A Taiwan contingency simultaneously disrupts physical supply, triggers $300-500B+ forced divestment, and freezes AI capex for 12-24+ months.",
+    "confidence": 7,
+    "evidence": [
+      "~90% of sub-5nm production concentrated in Taiwan",
+      "Finished chip inventories: 2-8 weeks with no strategic reserve",
+      "CHIPS Act diversification timeline: 8-12 years for meaningful non-Taiwan capacity",
+      "Taiwan CDS at 30-40bp implies ~2-3% probability vs analyst assessments of 5-8% cumulative over 5 years",
+      "Conjunction of supply disruption + forced divestment + capex freeze uncaptured by any single hedge"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Whether accelerated CHIPS Act spending could meaningfully reduce the 8-12 year diversification timeline",
+      "How to hedge a risk that no single instrument captures",
+      "Whether Samsung/Intel backfill could partially substitute at lower nodes"
+    ],
+    "related_concepts": [
+      "semiconductor_export_control_ratchet",
+      "twd_krw_semiconductor_proxy",
+      "uranium_haleu_bottleneck"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "The divergence between equity valuations (Mag-7 forward P/E 35-40x non-GAAP), rates (10Y TIPS 2.0-2.2% consistent with 1.5-1.8% trend GDP), and credit (tight spreads) has widened. Duration math confirms rates ARE relevant: 50bp real rate move produces 12-15% Mag-7 fair value change. At 35-40x forward, Mag-7 effective equity duration is ~25-30 years.",
+    "confidence": 8,
+    "evidence": [
+      "Mag-7 forward P/E 35-40x (non-GAAP)",
+      "10Y TIPS at 2.0-2.2% consistent with 1.5-1.8% trend GDP growth",
+      "Capex-to-revenue ratio has NOT improved despite continued 30-50% capex growth",
+      "50bp real rate move = 12-15% Mag-7 fair value change",
+      "Mag-7 effective equity duration ~25-30 years at current multiples"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Fraction attributable to equilibrium winner-take-all vs mispricing remains undetermined",
+      "Whether capex/revenue improving 3+ quarters would resolve the inconsistency"
+    ],
+    "related_concepts": [
+      "real_rates_cross_asset_fulcrum",
+      "capex_revenue_validation_gap",
+      "equity_credit_sequencing",
+      "value_spread_asymmetry"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "mid_1990s_internet_analogue",
+    "definition": "The mid-1990s internet cycle is the primary historical analogue for the current AI cycle, with structural criteria matching (incumbent-led, GPT, tight labor market). Current cycle maps to ~1996-1998 (mid-cycle expansion), with 1-3 years of expansion runway under the modal outcome. Base rate: 0/5 analogues produced bust directly from mid-cycle without identifiable late-cycle signals.",
+    "confidence": 7,
+    "evidence": [
+      "Structural criteria match: incumbent-led, GPT, tight labor market",
+      "0/5 analogues produced bust from mid-cycle without late-cycle signals",
+      "CMA factor sign flip ~3 years in matching 1995-2000 duration of 5 years",
+      "Ordinal ranking survives: internet mid-1990s best analogue, telecom second"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Timing uncertainty is wide at plus/minus 1-3 years per phase",
+      "Whether self-funded nature makes this cycle systematically different from 1990s",
+      "Cardinal similarity scores refuted as methodological theater"
+    ],
+    "related_concepts": [
+      "productivity_equity_return_independence",
+      "gpt_value_capture_base_rate",
+      "cma_factor_sign_flip",
+      "self_funded_capex_bust"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "kalecki_ai_profit_channel",
+    "definition": "The Kalecki profit identity links AI capex (~$250B) to aggregate S&P 500 earnings as the marginal growth driver, though the fiscal deficit ($1.8-2T) is 10-15x larger and provides a floor. A 25% capex cut (~$60-75B) is only 3-4% of the fiscal deficit floor. The directional channel is real but magnitude is more modest than initially framed.",
+    "confidence": 7,
+    "evidence": [
+      "AI capex ~$250B sustains growth at the margin",
+      "Fiscal deficit floor ~$1.8-2T provides insulation",
+      "25% AI capex cut (~$60-75B) is 3-4% of fiscal deficit floor",
+      "Accounting identity is irrefutable; magnitude was moderated in debate"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Whether fiscal floor erodes if consolidation occurs simultaneously",
+      "Second-order effects through employment and supplier networks"
+    ],
+    "related_concepts": [
+      "dollar_capex_plateau",
+      "self_funded_capex_bust",
+      "fed_ai_put_impairment",
+      "sovereign_ai_fiscal_path_dependency"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "dollar_capex_plateau",
+    "definition": "The US dollar is in a capex-sustained plateau with an AI capital flow premium estimated at 5-8 cents EUR/USD (wide confidence intervals: 3-12 cents). DXY at 103-107 despite 100-150bp Fed cuts confirms rate differentials are not the primary driver. TIC data shows $40-60B/month net equity inflows concentrated in tech.",
+    "confidence": 6,
+    "evidence": [
+      "DXY 103-107 despite 100-150bp Fed cuts",
+      "TIC data: $40-60B/month net equity inflows concentrated in tech",
+      "ECB-Fed differential narrowed ~100bp+ with minimal EUR/USD response",
+      "Historical parallel: 1997-2001 DXY +25% without systematic rate advantage",
+      "AI premium is structural (3-5 year), not cyclical"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "The 5-8 cent premium estimate could range from 3-12 cents",
+      "Whether capital flow reversal would be gradual or discontinuous"
+    ],
+    "related_concepts": [
+      "kalecki_ai_profit_channel",
+      "capex_revenue_validation_gap",
+      "twd_krw_semiconductor_proxy"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "basis_trade_equity_coupling",
+    "definition": "Treasury basis trade at $800B-$1T at 50-100x leverage creates the most important systemic amplification channel through cross-margining with AI equity positions at multi-strategy hedge funds. This is the primary mechanism by which an AI equity event could become a rates crisis. Dealer inventory capacity at $30-40B vs $250B pre-GFC.",
+    "confidence": 7,
+    "evidence": [
+      "Basis trade $800B-$1T at 50-100x leverage",
+      "Cross-margining links AI equity and Treasury positions at multi-strategy funds",
+      "March 2020 validated channel at approximately half current scale",
+      "Dealer inventory capacity $30-40B vs $250B pre-GFC",
+      "SEC central clearing mandate Q2 2026 creates calendar-identifiable catalyst"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether current scale vs 2020 creates qualitatively different dynamics",
+      "Impact of SEC central clearing mandate on basis trade economics",
+      "Whether Fed would intervene proactively given known vulnerability"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "fed_ai_put_impairment",
+      "liquidity_mirage",
+      "zero_dte_gamma_amplification"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "triple_margin_headwind",
+    "definition": "Three mechanically certain margin headwinds converge 2027-2029 for hyperscalers: depreciation cliff ($70-120B delta = 300-500bp), useful-life benefit exhaustion ($8-12B fully captured), and rising energy costs (data center electricity 4-5% to 8-12% of US generation). Combined: 400-700bp operating margin pressure.",
+    "confidence": 7,
+    "evidence": [
+      "Depreciation: $200-250B annual capex at 5yr/6yr life = ~$170-210B D&A by 2028 vs ~$80-100B current",
+      "Delta: $70-120B = 300-500bp margin pressure",
+      "Useful-life benefit: $8-12B fully captured, no further extensions possible",
+      "Energy: PJM capacity 10x, data center electricity rising from 4-5% to 8-12% of US generation"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Whether AI revenue growth could offset margin compression in the denominator",
+      "Exact timing of convergence depends on capex trajectory 2025-2027"
+    ],
+    "related_concepts": [
+      "useful_life_depreciation_cliff",
+      "roic_vintage_decomposition",
+      "capex_revenue_validation_gap",
+      "compound_supply_chain_tax"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "gpt_value_capture_base_rate",
+    "definition": "Across six historical General Purpose Technology episodes, infrastructure builders captured primary value in only 1/6 (17% naive). Adjusted to 25-40% for hyperscaler vertical integration (cloud + data + compute + distribution). Market-implied probability of 70-80% represents a conjunction fallacy dramatically exceeding the adjusted base rate.",
+    "confidence": 7,
+    "evidence": [
+      "1/6 GPT episodes where infrastructure builders captured value (17% naive)",
+      "Differentiating variable is bottleneck control",
+      "Hyperscalers control distribution, data, compute, and customer relationships — unprecedented",
+      "Adjusted base rate 25-40% vs market-implied 70-80%"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether vertical integration genuinely raises the base rate or just delays value leakage",
+      "Which specific bottleneck controls are most durable over time"
+    ],
+    "related_concepts": [
+      "productivity_equity_return_independence",
+      "capex_revenue_validation_gap",
+      "mid_1990s_internet_analogue"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "roic_vintage_decomposition",
+    "definition": "ROIC decomposition by capital vintage shows inexorable blended ROIC decline toward WACC. Pre-2022 legacy capital (~$600-800B) earns 25-35% ROIC; 2022-2024 AI-era capital (~$350-500B) earns an estimated 5-10%; 2025-2027 incremental (~$400-600B) assumed 3-8%. At 30-50% capex growth, blended ROIC reaches ~12-15% by 2028, approaching 9-11% WACC.",
+    "confidence": 7,
+    "evidence": [
+      "Pre-2022 capital: legacy ROIC 25-35%",
+      "2022-2024 AI-era capital: estimated ROIC 5-10%",
+      "2025-2027 incremental: assumed 3-8%",
+      "At zero capex growth blended declines from ~22-25% to ~14-17% by 2028",
+      "At 30-50% growth blended reaches ~12-15%, approaching 9-11% WACC"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "2022-2024 vintage ROIC has plus/minus 5pp uncertainty due to revenue attribution opacity",
+      "Whether newer GPU architectures improve capital efficiency of later vintages"
+    ],
+    "related_concepts": [
+      "capex_revenue_validation_gap",
+      "triple_margin_headwind",
+      "useful_life_depreciation_cliff"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "stock_bond_correlation_regime",
+    "definition": "Stock-bond correlation is currently positive (+0.1 to +0.3 average) driven by three forces: AI capex demand (inflationary), no productivity supply yet (no TFP break), and fiscal dominance (inflationary). Risk parity portfolios calibrated to 2010-2020 negative correlation regime are running ~20-30% more equity-equivalent risk than intended.",
+    "confidence": 6,
+    "evidence": [
+      "Rolling 6-month stock-bond correlation: +0.15 to +0.35 since mid-2024",
+      "Three-force decomposition: AI capex demand + no TFP break + fiscal dominance",
+      "Risk parity portfolios running ~20-30% excess equity-equivalent risk",
+      "Regime is stage-dependent (could shift with AI productivity supply), not permanent"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Whether AI productivity breakthrough would flip correlation back to negative",
+      "Timeline for portfolio reallocation by institutional investors"
+    ],
+    "related_concepts": [
+      "real_rates_cross_asset_fulcrum",
+      "ai_equity_concentration_risk",
+      "basis_trade_equity_coupling"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "real_rates_cross_asset_fulcrum",
+    "definition": "Real rates at ~2.0-2.2% 10Y TIPS are the cross-asset fulcrum with asymmetric impacts. 50bp rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%. 50bp decline helps equities but weakens dollar, stressing the capex-profit-inflow feedback loop. Creates a 'no good outcome' dynamic for US-centric multi-asset portfolios.",
+    "confidence": 7,
+    "evidence": [
+      "50bp real rate rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%",
+      "50bp real rate decline helps equities but weakens dollar",
+      "Asymmetry creates no-good-outcome for US multi-asset portfolios",
+      "Sensitivity estimates subject to plus/minus 30% estimation error"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether the no-good-outcome dynamic holds across all rate move magnitudes",
+      "Interaction with Fed policy path and forward guidance"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "dollar_capex_plateau",
+      "stock_bond_correlation_regime"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "sovereign_ai_fiscal_path_dependency",
+    "definition": "Global sovereign AI industrial policy ($600B+) creates fiscal path dependency constraining consolidation by 0.3-0.5% GDP in the US. Once a $20B fab is under construction, political cost of failure exceeds economic cost of continuation (F-35 analogy: distributed across 45 states to prevent cancellation).",
+    "confidence": 7,
+    "evidence": [
+      "US CHIPS Act: $52B + $24B tax credits",
+      "EU Chips Act: EUR43B; Japan ~$25-65B; South Korea ~$450B including private",
+      "F-35 analogy: distributed across 45 states for political lock-in",
+      "Sunk-cost political economy makes expenditures sticky regardless of ROI"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether fiscal consolidation pressure could override political path dependency",
+      "Impact on sovereign credit ratings and term premia"
+    ],
+    "related_concepts": [
+      "kalecki_ai_profit_channel",
+      "fed_ai_put_impairment",
+      "semiconductor_export_control_ratchet"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "fed_ai_put_impairment",
+    "definition": "The Fed 'AI put' is structurally impaired relative to 1998-2001 precedent. Current inflation at 2.5-3.5% limits easing to 150-250bp within 6 months (vs 550bp in 2001). The Fed faces a trilemma: intervene in Treasuries (fiscal dominance), cut rates (unanchor inflation), or stand pat (deleveraging cascade). The basis trade could impair Treasury transmission.",
+    "confidence": 6,
+    "evidence": [
+      "Current inflation 2.5-3.5% vs less than 2% in 2000-2001",
+      "Easing capacity: 150-250bp in 6 months vs 550bp in 2001",
+      "Average easing/tightening asymmetry ratio: 3.5x across 3 episodes",
+      "2020 precedent misleading: Fed printed into deflationary shock; AI bust with 3%+ inflation has no analogue"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether inflation would decelerate enough during an AI bust to widen easing capacity",
+      "How basis trade coupling would interact with Fed Treasury operations"
+    ],
+    "related_concepts": [
+      "basis_trade_equity_coupling",
+      "kalecki_ai_profit_channel",
+      "stock_bond_correlation_regime"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "cma_factor_sign_flip",
+    "definition": "The CMA (conservative-minus-aggressive) factor is ~3 years into a potential 5-7 year sign flip cycle where aggressive investment outperforms conservative. Self-funded booms persist longer. Historical mean reversion produces 3-5 sigma losses within 12 months. Monitoring metric: capex/OCF crossing 55-65% for 2-3 hyperscalers (projected late 2027).",
+    "confidence": 6,
+    "evidence": [
+      "CMA returned -200 to -400bp in 1994-2000, -150 to -300bp in 2010-2014, -200 to -350bp currently",
+      "2000-2001 reversal: +25% cumulative CMA return within 18 months",
+      "Self-funded booms persist longer due to no financing constraint",
+      "Small-n problem: 2-3 episodes"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Whether capex/OCF threshold is the right trigger indicator",
+      "Small-n problem limits precision on timing and magnitude"
+    ],
+    "related_concepts": [
+      "self_funded_capex_bust",
+      "value_spread_asymmetry",
+      "mid_1990s_internet_analogue"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "ai_governance_fragmentation",
+    "definition": "Three incompatible AI regulatory regimes (EU AI Act, US EO, China regulations) create de facto market segmentation with $2-8B annual compliance costs across top 20 firms. EU-compliant AI models may be structurally less capable due to data restrictions, creating a regulatory capability gap and a structural EUR-negative factor independent of monetary policy.",
+    "confidence": 6,
+    "evidence": [
+      "Three incompatible regulatory regimes",
+      "$2-8B annual compliance costs across top 20 firms",
+      "EU-compliant models face data restrictions and transparency requirements",
+      "Brussels Effect applies but creates capability gap"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether regulatory convergence is possible on any meaningful timeline",
+      "Whether the capability gap widens or narrows over time"
+    ],
+    "related_concepts": [
+      "semiconductor_export_control_ratchet",
+      "dollar_capex_plateau",
+      "sovereign_ai_fiscal_path_dependency"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "twd_krw_semiconductor_proxy",
+    "definition": "TWD and KRW have functionally reclassified from EM currencies to semiconductor proxy status. TWD/KRW-SOX correlation has risen from ~0.3 to ~0.7 while R-squared against traditional EM factors (VIX, EMBI, DXY) has declined. EM FX strategies including TWD/KRW in standard baskets are systematically mispricing factor exposure.",
+    "confidence": 6,
+    "evidence": [
+      "TWD/KRW-SOX correlation risen from ~0.3 to ~0.7",
+      "R-squared against traditional EM factors declining",
+      "Taiwan CA surplus ~14% GDP from TSMC",
+      "Geopolitical tail risk qualitatively different from standard EM political risk"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "How to properly classify these currencies in portfolio construction",
+      "Whether other EM currencies will similarly reclassify around specific industries"
+    ],
+    "related_concepts": [
+      "tsmc_concentration_systemic_risk",
+      "semiconductor_export_control_ratchet",
+      "dollar_capex_plateau"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "uranium_haleu_bottleneck",
+    "definition": "The AI-driven nuclear renaissance faces a uranium/HALEU supply-chain geopolitical bottleneck. Kazakhstan (43% global uranium, Russian sphere) and Russia (35-40% global enrichment) dominate supply. US imports ~90% enriched uranium. Centrus produces ~900 kg HALEU/year vs 40+ tonnes commercial need by 2030.",
+    "confidence": 6,
+    "evidence": [
+      "Kazakhstan: 43% global uranium production in Russian sphere of influence",
+      "Russia: 35-40% global enrichment capacity",
+      "US imports ~90% of enriched uranium",
+      "Centrus: ~900 kg HALEU/year vs 40+ tonnes needed by 2030",
+      "5-10 GW AI-driven nuclear capacity announced"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Timeline for US domestic enrichment capacity buildout",
+      "Whether SMR deployment timelines are realistic given HALEU constraints"
+    ],
+    "related_concepts": [
+      "tsmc_concentration_systemic_risk",
+      "semiconductor_export_control_ratchet",
+      "triple_margin_headwind"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "sbc_quality_factor_contamination",
+    "definition": "Stock-based compensation contaminates the quality (QMJ) factor: 100-200bp of the measured quality premium (30-40% of total) is an SBC artifact. When sorted on GAAP rather than non-GAAP earnings, 2-3 Mag-7 names shift from the top quintile to the 2nd-3rd quintile.",
+    "confidence": 8,
+    "evidence": [
+      "100-200bp of QMJ premium is SBC artifact (30-40% of measured premium)",
+      "2-3 Mag-7 names shift from top to 2nd-3rd quintile on GAAP sort",
+      "Quality factor contamination confirmed across independent analytical frameworks"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Whether factor providers will recalibrate quality definitions to account for SBC",
+      "Impact on smart beta products tracking quality factors"
+    ],
+    "related_concepts": [
+      "sbc_earnings_quality_distortion",
+      "inter_factor_correlation_collapse",
+      "ai_equity_concentration_risk"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "pc1_ai_contamination",
+    "definition": "PC1 explains 45-50% of S&P 500 return variance (vs 30-35% historical), contaminating market-neutral portfolios with ~15-25% unhedged AI directional exposure. Evidence from 2022: 3-8% unexplained drawdowns in nominally market-neutral strategies.",
+    "confidence": 8,
+    "evidence": [
+      "PC1 explains 45-50% of variance vs 30-35% historical",
+      "Market-neutral portfolios carry ~15-25% unhedged AI directional exposure",
+      "2022: 3-8% unexplained drawdowns in market-neutral strategies"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Whether explicit AI factor hedging is feasible and cost-effective",
+      "How risk models should incorporate PC1 contamination"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "momentum_enb_collapse",
+      "inter_factor_correlation_collapse"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "liquidity_mirage",
+    "definition": "Top-of-book depth in Mag-7 has declined ~40-60% since 2019 despite rising volume, creating an appearance of liquidity that evaporates under stress. Combined with 0DTE options creating concentrated negative gamma (daily notional >$1T), market-makers must sell into declining prices during stress.",
+    "confidence": 7,
+    "evidence": [
+      "Top-of-book depth in Mag-7 declined ~40-60% since 2019",
+      "Volume rising despite depth declining",
+      "0DTE daily notional >$1T creating concentrated negative gamma",
+      "Market-makers hedging short gamma must sell into declines"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Whether 0DTE gamma effects are large enough to trigger cross-asset cascades",
+      "Interaction between declining depth and passive rebalancing flows"
+    ],
+    "related_concepts": [
+      "ai_equity_concentration_risk",
+      "basis_trade_equity_coupling",
+      "momentum_enb_collapse"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "compound_supply_chain_tax",
+    "definition": "Semiconductor and AI hardware supply chains face a compound effective cost increase of 23-40% from the combination of tariffs (15-25%), rerouting costs (5-10%), and compliance overhead (3-5%), calculated from statutory inputs. This compounds with export control restrictions.",
+    "confidence": 8,
+    "evidence": [
+      "15-25% tariff component",
+      "5-10% rerouting cost component",
+      "3-5% compliance cost component",
+      "23-40% total effective cost from statutory inputs"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Whether supply chain reorganization could reduce the rerouting component over time",
+      "Impact of potential tariff escalation scenarios"
+    ],
+    "related_concepts": [
+      "semiconductor_export_control_ratchet",
+      "capex_revenue_validation_gap",
+      "triple_margin_headwind"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  }
+]

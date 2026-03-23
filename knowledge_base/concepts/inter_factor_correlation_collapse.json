@@ -1,0 +1,30 @@
+{
+  "slug": "inter_factor_correlation_collapse",
+  "definition": "Momentum-quality inter-factor correlation has tripled from +0.15-0.25 to +0.50-0.60, meaning multi-factor portfolios holding both are running approximately 2x intended AI exposure with no diversification benefit between these factors.",
+  "confidence": 9,
+  "evidence": [
+    "Momentum-quality correlation tripled from +0.15-0.25 to +0.50-0.60",
+    "Multi-factor portfolios running ~2x intended AI exposure",
+    "Diversification benefit between momentum and quality factors has collapsed"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Whether factor decorrelation could occur gradually or requires a shock",
+    "Impact on risk parity and factor-neutral strategies at scale"
+  ],
+  "related_concepts": [
+    "ai_equity_concentration_risk",
+    "momentum_enb_collapse",
+    "sbc_quality_factor_contamination"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

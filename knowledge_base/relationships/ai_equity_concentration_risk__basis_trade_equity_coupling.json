@@ -1,0 +1,20 @@
+{
+  "concept_a": "ai_equity_concentration_risk",
+  "concept_b": "basis_trade_equity_coupling",
+  "mechanism": "Multi-strategy hedge funds hold both AI equity positions and Treasury basis trades with cross-margining, creating wrong-way risk where AI equity losses trigger Treasury position liquidation through shared collateral pools",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Active when multi-strategy funds maintain cross-margined positions; amplifies during equity drawdowns exceeding ~15-20% where margin calls cascade across books",
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

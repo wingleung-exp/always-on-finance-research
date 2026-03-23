@@ -1,0 +1,26 @@
+{
+  "slug": "cross_asset_sequencing_framework",
+  "purpose": "Identifies the current phase of the AI cycle by monitoring a four-stage cross-asset deterioration pattern with monitorable signposts and historical hit rate of 83%",
+  "components": [
+    "Stage 1: Breadth deterioration — equal-weighted underperformance of 800-1200bp (CURRENTLY ACTIVE)",
+    "Stage 2: Secondary beneficiary peaking — 15% underperformance threshold for secondary AI beneficiary basket",
+    "Stage 3: Curve signal — yield curve behavior signaling macro stress",
+    "Stage 4: Credit widening — IG spreads move from 120-180bp toward historical distressed 300-500bp",
+    "Historical lead time: equity leads credit by 6-12 months, 83% hit rate across 6 episodes"
+  ],
+  "current_assessment": "Currently in Stage 1 with breadth deterioration active matching 1998 timing. Legacy media equity down 25-30% while IG spreads remain tight at 120-180bp. Credit widening expected H2 2026-H1 2027 if historical lead holds.",
+  "limitations": [
+    "N=3 for fully documented four-stage episodes",
+    "Passive credit indexation may distort Stage 4 signal",
+    "Self-funded capex bust may alter historical timing patterns",
+    "Phase transitions are not deterministic and false signals are possible"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

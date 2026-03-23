@@ -1,0 +1,32 @@
+{
+  "slug": "triple_margin_headwind",
+  "definition": "Three mechanically certain margin headwinds converge 2027-2029 for hyperscalers: depreciation cliff ($70-120B delta = 300-500bp), useful-life benefit exhaustion ($8-12B fully captured), and rising energy costs (data center electricity 4-5% to 8-12% of US generation). Combined: 400-700bp operating margin pressure.",
+  "confidence": 7,
+  "evidence": [
+    "Depreciation: $200-250B annual capex at 5yr/6yr life = ~$170-210B D&A by 2028 vs ~$80-100B current",
+    "Delta: $70-120B = 300-500bp margin pressure",
+    "Useful-life benefit: $8-12B fully captured, no further extensions possible",
+    "Energy: PJM capacity 10x, data center electricity rising from 4-5% to 8-12% of US generation"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Whether AI revenue growth could offset margin compression in the denominator",
+    "Exact timing of convergence depends on capex trajectory 2025-2027"
+  ],
+  "related_concepts": [
+    "useful_life_depreciation_cliff",
+    "roic_vintage_decomposition",
+    "capex_revenue_validation_gap",
+    "compound_supply_chain_tax"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

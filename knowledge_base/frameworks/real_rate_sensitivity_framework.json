@@ -1,0 +1,25 @@
+{
+  "slug": "real_rate_sensitivity_framework",
+  "purpose": "Quantifies cross-asset impact of real rate moves to demonstrate asymmetric positioning risk and the no-good-outcome dynamic for US-centric multi-asset portfolios",
+  "components": [
+    "50bp real rate rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%",
+    "50bp real rate decline: equities helped but dollar weakened stressing feedback loop",
+    "Effective equity duration: Mag-7 at ~25-30 years at 35-40x forward P/E",
+    "No-good-outcome asymmetry: every direction hurts at least one portfolio component"
+  ],
+  "current_assessment": "At 2.0-2.2% 10Y TIPS real rates are the cross-asset fulcrum. Rising rates hurt equities directly; falling rates help equities but weaken dollar threatening capex-profit-inflow loop. US-centric portfolios face no safe direction under current conditions.",
+  "limitations": [
+    "Sensitivity estimates subject to plus/minus 30% estimation error",
+    "Linear sensitivity may break down for moves greater than 100bp",
+    "Correlation regime could shift during large rate moves",
+    "Does not account for Fed policy response to rate moves"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

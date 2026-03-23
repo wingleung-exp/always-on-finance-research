@@ -1,0 +1,31 @@
+{
+  "slug": "liquidity_mirage",
+  "definition": "Top-of-book depth in Mag-7 has declined ~40-60% since 2019 despite rising volume, creating an appearance of liquidity that evaporates under stress. Combined with 0DTE options creating concentrated negative gamma (daily notional >$1T), market-makers must sell into declining prices during stress.",
+  "confidence": 7,
+  "evidence": [
+    "Top-of-book depth in Mag-7 declined ~40-60% since 2019",
+    "Volume rising despite depth declining",
+    "0DTE daily notional >$1T creating concentrated negative gamma",
+    "Market-makers hedging short gamma must sell into declines"
+  ],
+  "originating_agents": [
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Whether 0DTE gamma effects are large enough to trigger cross-asset cascades",
+    "Interaction between declining depth and passive rebalancing flows"
+  ],
+  "related_concepts": [
+    "ai_equity_concentration_risk",
+    "basis_trade_equity_coupling",
+    "momentum_enb_collapse"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

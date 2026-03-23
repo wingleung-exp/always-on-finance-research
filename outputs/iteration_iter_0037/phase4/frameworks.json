@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "cross_asset_sequencing_framework",
+    "purpose": "Identifies the current phase of the AI cycle by monitoring a four-stage cross-asset deterioration pattern with monitorable signposts and historical hit rate of 83%",
+    "components": [
+      "Stage 1: Breadth deterioration — equal-weighted underperformance of 800-1200bp (CURRENTLY ACTIVE)",
+      "Stage 2: Secondary beneficiary peaking — 15% underperformance threshold for secondary AI beneficiary basket",
+      "Stage 3: Curve signal — yield curve behavior signaling macro stress",
+      "Stage 4: Credit widening — IG spreads move from 120-180bp toward historical distressed 300-500bp",
+      "Historical lead time: equity leads credit by 6-12 months, 83% hit rate across 6 episodes"
+    ],
+    "current_assessment": "Currently in Stage 1 with breadth deterioration active matching 1998 timing. Legacy media equity down 25-30% while IG spreads remain tight at 120-180bp. Credit widening expected H2 2026-H1 2027 if historical lead holds.",
+    "limitations": [
+      "N=3 for fully documented four-stage episodes",
+      "Passive credit indexation may distort Stage 4 signal",
+      "Self-funded capex bust may alter historical timing patterns",
+      "Phase transitions are not deterministic and false signals are possible"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "kalecki_fx_equity_feedback_loop",
+    "purpose": "Maps the self-reinforcing feedback loop connecting AI capex, corporate profits, equity prices, capital flows, and the US dollar to identify systemic vulnerabilities",
+    "components": [
+      "AI capex (~$250B) sustains corporate profits via Kalecki identity",
+      "Profits sustain equity prices and S&P 500 earnings growth",
+      "Equity prices attract international capital inflows ($40-60B/month)",
+      "Capital inflows support dollar strength (AI premium 5-8 cents EUR/USD)",
+      "Dollar strength supports margins for US multinationals",
+      "Margins sustain capex capacity (OCF/capex 1.5-1.7x) and loop restarts",
+      "Fiscal deficit floor ($1.8-2T) provides partial insulation against collapse"
+    ],
+    "current_assessment": "Loop currently in strengthening mode with all linkages active. Fiscal floor means 25% AI capex cut is only 3-4% of fiscal floor, limiting Kalecki-driven earnings collapse. Key vulnerability is international capital flow persistence.",
+    "limitations": [
+      "AI capex is marginal not dominant driver vs fiscal deficit (10-15x larger)",
+      "Dollar-equity beta is qualitative; linear extrapolation was refuted",
+      "Loop reversal dynamics are theoretically sound but empirically untested at this scale",
+      "Fiscal consolidation could paradoxically weaken the loop through Kalecki channel"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "roic_vintage_decomposition_framework",
+    "purpose": "Decomposes hyperscaler ROIC by capital vintage to demonstrate the arithmetic certainty of blended ROIC convergence toward WACC regardless of assumptions",
+    "components": [
+      "Pre-2022 capital (~$600-800B): legacy ROIC 25-35%",
+      "2022-2024 AI-era capital (~$350-500B): estimated ROIC 5-10%",
+      "2025-2027 incremental capital (~$400-600B): assumed ROIC 3-8%",
+      "Blended ROIC weighted by capital stock proportions",
+      "WACC reference: 9-11% for hyperscalers"
+    ],
+    "current_assessment": "At zero capex growth blended ROIC declines from ~22-25% to ~14-17% by 2028. At 30-50% growth blended reaches ~12-15% approaching 9-11% WACC. Blending arithmetic is mechanical and irrefutable.",
+    "limitations": [
+      "2022-2024 vintage ROIC has plus/minus 5pp uncertainty due to revenue attribution opacity",
+      "Revenue bundling creates irreducible denominator uncertainty",
+      "Assumes current capital stock retains productivity; accelerated obsolescence would worsen",
+      "Does not account for potential ROIC improvement from learning curve effects"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "gpt_value_capture_framework",
+    "purpose": "Establishes the historical base rate for whether infrastructure builders vs users capture primary economic value from General Purpose Technology deployments",
+    "components": [
+      "Six GPT episodes analyzed: 1/6 (17% naive) where builders captured value",
+      "Differentiating variable: bottleneck control during deployment phase",
+      "Hyperscaler adjustment for vertical integration raises rate to 25-40%",
+      "Market-implied probability at 70-80% represents conjunction fallacy",
+      "Current prices conflate AI productivity is real with AI investors capture the value"
+    ],
+    "current_assessment": "Market prices imply 70-80% value capture probability significantly exceeding the adjusted base rate of 25-40%. Even granting vertical integration as genuinely different, the gap represents a conjunction premium.",
+    "limitations": [
+      "N=6 GPT episodes is a small sample",
+      "Each GPT has unique characteristics making direct comparison imprecise",
+      "Vertical integration adjustment of 25-40% is subjective",
+      "Does not distinguish hyperscalers that both build and use infrastructure"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "self_funded_bust_analogue_framework",
+    "purpose": "Categorizes the current AI capex cycle as a self-funded bust distinct from debt-funded busts to predict correction dynamics of slow grind rather than crash",
+    "components": [
+      "Self-funded criterion: OCF/capex greater than 1.0x (currently 1.5-1.7x)",
+      "Analogue 1: Japanese corporates 1990s-2000s — TOPIX underperformed ~60% over 13 years",
+      "Analogue 2: Energy majors 2010-2014 — P/E compressed 14x to 8x over 2 years",
+      "No creditor-imposed stop-loss; discipline is internal or shareholder-driven",
+      "Behavioral model: 12-18 months tolerance then 2-quarter compressed capitulation",
+      "Phase transition indicators: capex/revenue stalling 3+ quarters, sequential AI revenue decline, management language shift"
+    ],
+    "current_assessment": "Current cycle maps to early-to-mid-cycle by both analogues. No phase transition indicators active. Modal outcome is 5-10% annual underperformance compounding over years rather than sharp drawdown. Unresolved whether capital flows create non-linearity absent in analogues.",
+    "limitations": [
+      "N=2 for self-funded bust analogues is thin",
+      "Japan had home bias and energy majors had no FX feedback; current cycle has both",
+      "US shareholder activism may provide discipline absent in Japanese analogues",
+      "Cannot determine slow grind vs sharp correction until initial repricing reveals capital flow persistence"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "fed_trilemma_framework",
+    "purpose": "Maps the three-way constraint the Fed faces during a potential AI bust with above-target inflation to assess the structural impairment of the Fed put",
+    "components": [
+      "Option 1: Intervene in Treasuries creates fiscal dominance concerns especially with basis trade unwinding",
+      "Option 2: Cut rates aggressively risks unanchoring inflation expectations starting at 2.5-3.5%",
+      "Option 3: Stand pat risks deleveraging cascade through cross-margined positions",
+      "Current inflation 2.5-3.5% limits easing to 150-250bp in 6 months vs 550bp in 2001",
+      "Historical easing/tightening asymmetry ratio averages 3.5x across 3 episodes"
+    ],
+    "current_assessment": "Fed AI put is structurally impaired vs 1998-2001. No clean analogue exists for an AI bust with 3%+ inflation. The 2020 precedent is misleading because Fed could print into deflationary shock. Basis trade adds novel dimension where Treasury intervention itself could be destabilizing.",
+    "limitations": [
+      "Trilemma assumes all three options equally constrained; Fed may find a hierarchy in practice",
+      "Inflation might decelerate during AI bust partially relaxing constraint",
+      "Historical asymmetry ratio may not apply given novel conditions",
+      "Does not account for coordination with other central banks or fiscal authorities"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "concentration_risk_measurement_framework",
+    "purpose": "Provides three independent analytical approaches to measuring AI equity concentration risk that converge on the same conclusion of extreme and underestimated concentration",
+    "components": [
+      "PCA: PC1 explains 45-50% of return variance vs 30-35% historical",
+      "ENB via Meucci entropy: momentum ENB at ~25-35 below 2007 and 2020 precedents",
+      "Factor correlations: momentum-quality tripled from +0.15-0.25 to +0.50-0.60",
+      "Convergence of three independent metrics indicates systematic risk model underestimation"
+    ],
+    "current_assessment": "All three metrics at or near historical extremes simultaneously. Multi-factor portfolios holding momentum and quality running ~2x intended AI exposure. Market-neutral portfolios carry ~15-25% unhedged AI directional exposure.",
+    "limitations": [
+      "ENB comparison across time periods faces regime-change uncertainty",
+      "PC1 elevation could partially reflect genuine fundamental correlation not just crowding",
+      "Factor correlations could persist if AI-driven fundamentals justify co-movement",
+      "Three years of post-ChatGPT data too short for definitive factor attribution"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "real_rate_sensitivity_framework",
+    "purpose": "Quantifies cross-asset impact of real rate moves to demonstrate asymmetric positioning risk and the no-good-outcome dynamic for US-centric multi-asset portfolios",
+    "components": [
+      "50bp real rate rise: Mag-7 -12-15%, S&P 500 -6-8%, IG spreads +10-20bp, DXY +2-3%",
+      "50bp real rate decline: equities helped but dollar weakened stressing feedback loop",
+      "Effective equity duration: Mag-7 at ~25-30 years at 35-40x forward P/E",
+      "No-good-outcome asymmetry: every direction hurts at least one portfolio component"
+    ],
+    "current_assessment": "At 2.0-2.2% 10Y TIPS real rates are the cross-asset fulcrum. Rising rates hurt equities directly; falling rates help equities but weaken dollar threatening capex-profit-inflow loop. US-centric portfolios face no safe direction under current conditions.",
+    "limitations": [
+      "Sensitivity estimates subject to plus/minus 30% estimation error",
+      "Linear sensitivity may break down for moves greater than 100bp",
+      "Correlation regime could shift during large rate moves",
+      "Does not account for Fed policy response to rate moves"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "slug": "phase_transition_monitoring_framework",
+    "purpose": "Converts vague cycle-phase assessment into practical monitoring indicators for timing the AI cycle transition from expansion to correction",
+    "components": [
+      "Capex/revenue ratio failing to improve for 3+ consecutive quarters",
+      "First hyperscaler reporting sequential AI revenue decline",
+      "Management language shifting from investment to discipline",
+      "Capex/OCF crossing 55-65% for 2-3 hyperscalers (projected late 2027)",
+      "Secondary beneficiary basket underperforming by 15%+ threshold",
+      "Equal-weighted vs cap-weighted underperformance exceeding 800-1200bp (already active)"
+    ],
+    "current_assessment": "Mid-cycle expansion with 1-3 years of runway under modal outcome. Equal-weighted underperformance already active matching Stage 1. No other phase transition indicators triggered. Carry cost of being 12-24 months early on anti-AI positions is the binding constraint.",
+    "limitations": [
+      "Indicators pattern-matched from small sample of prior cycles",
+      "Lag between indicator triggering and market repricing is uncertain",
+      "Multiple indicators could trigger simultaneously rather than sequentially",
+      "Self-funded nature may alter indicator sensitivity vs historical precedents"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  }
+]

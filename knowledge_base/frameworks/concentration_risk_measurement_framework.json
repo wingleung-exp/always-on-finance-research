@@ -1,0 +1,25 @@
+{
+  "slug": "concentration_risk_measurement_framework",
+  "purpose": "Provides three independent analytical approaches to measuring AI equity concentration risk that converge on the same conclusion of extreme and underestimated concentration",
+  "components": [
+    "PCA: PC1 explains 45-50% of return variance vs 30-35% historical",
+    "ENB via Meucci entropy: momentum ENB at ~25-35 below 2007 and 2020 precedents",
+    "Factor correlations: momentum-quality tripled from +0.15-0.25 to +0.50-0.60",
+    "Convergence of three independent metrics indicates systematic risk model underestimation"
+  ],
+  "current_assessment": "All three metrics at or near historical extremes simultaneously. Multi-factor portfolios holding momentum and quality running ~2x intended AI exposure. Market-neutral portfolios carry ~15-25% unhedged AI directional exposure.",
+  "limitations": [
+    "ENB comparison across time periods faces regime-change uncertainty",
+    "PC1 elevation could partially reflect genuine fundamental correlation not just crowding",
+    "Factor correlations could persist if AI-driven fundamentals justify co-movement",
+    "Three years of post-ChatGPT data too short for definitive factor attribution"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

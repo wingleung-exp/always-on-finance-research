@@ -1,0 +1,32 @@
+{
+  "slug": "twd_krw_semiconductor_proxy",
+  "definition": "TWD and KRW have functionally reclassified from EM currencies to semiconductor proxy status. TWD/KRW-SOX correlation has risen from ~0.3 to ~0.7 while R-squared against traditional EM factors (VIX, EMBI, DXY) has declined. EM FX strategies including TWD/KRW in standard baskets are systematically mispricing factor exposure.",
+  "confidence": 6,
+  "evidence": [
+    "TWD/KRW-SOX correlation risen from ~0.3 to ~0.7",
+    "R-squared against traditional EM factors declining",
+    "Taiwan CA surplus ~14% GDP from TSMC",
+    "Geopolitical tail risk qualitatively different from standard EM political risk"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "How to properly classify these currencies in portfolio construction",
+    "Whether other EM currencies will similarly reclassify around specific industries"
+  ],
+  "related_concepts": [
+    "tsmc_concentration_systemic_risk",
+    "semiconductor_export_control_ratchet",
+    "dollar_capex_plateau"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

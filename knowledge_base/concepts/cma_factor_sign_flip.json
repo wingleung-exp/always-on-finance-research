@@ -1,0 +1,31 @@
+{
+  "slug": "cma_factor_sign_flip",
+  "definition": "The CMA (conservative-minus-aggressive) factor is ~3 years into a potential 5-7 year sign flip cycle where aggressive investment outperforms conservative. Self-funded booms persist longer. Historical mean reversion produces 3-5 sigma losses within 12 months. Monitoring metric: capex/OCF crossing 55-65% for 2-3 hyperscalers (projected late 2027).",
+  "confidence": 6,
+  "evidence": [
+    "CMA returned -200 to -400bp in 1994-2000, -150 to -300bp in 2010-2014, -200 to -350bp currently",
+    "2000-2001 reversal: +25% cumulative CMA return within 18 months",
+    "Self-funded booms persist longer due to no financing constraint",
+    "Small-n problem: 2-3 episodes"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Whether capex/OCF threshold is the right trigger indicator",
+    "Small-n problem limits precision on timing and magnitude"
+  ],
+  "related_concepts": [
+    "self_funded_capex_bust",
+    "value_spread_asymmetry",
+    "mid_1990s_internet_analogue"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-23T13:15:23Z",
+  "originating_iteration": "iter_0037",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0037"
+  ]
+}

@@ -2234,5 +2234,61 @@
     "needs": "Resolution of whether immigration reversal's construction impact is overestimated or lumber is mispriced. No other agent engages with this observation. Construction labor supply and demand data needed.",
     "topic": "labor_market_dynamics",
     "iteration_id": "iter_0036"
+  },
+  {
+    "claim": "Bearish consensus on AI is itself becoming crowded, implying positioning asymmetry favors upside on 3-12 month horizon. BofA GFS shows AI/tech allocation declining to roughly neutral, NASDAQ put/call at 1.3x, NVDA short interest up to 3.5%.",
+    "source_agent": "challenger_01",
+    "needs": "AI-specific positioning data (AI ETF flows, company-level aggregated shorts) rather than broad NASDAQ positioning data which conflates rate views and tariff risk with AI-specific sentiment",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "BLS multifactor productivity measurement is the weakest link, potentially understating AI impact by 0.1-0.5pp annually due to 18-24 month lag, establishment survey weights, and hedonic adjustment gaps.",
+    "source_agent": "challenger_01",
+    "needs": "Updated BLS methodology review specific to AI-era output; replication of Nordhaus digital services mismeasurement estimate with current data; Boskin Commission-style recalibration study",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Agent AI capabilities may compress GPT diffusion lag from historical 5-15 years to 4-12 years with bimodal distribution across software-native vs regulated/physical sectors.",
+    "source_agent": "challenger_01",
+    "needs": "Enterprise-scale deployment data rather than lab demonstrations (SWE-bench); n>0 examples of agent AI transforming 50,000+ person enterprise workflows; regulatory friction timeline estimates from regulated industries",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "China's AI trajectory is the highest-variance binary swing factor for the dollar cycle with $200-400B annual capital flow differential between scenarios.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Empirically calibrated probability distribution rather than the current 25/50/25 assumption; more granular TIC data separating China-to-US tech redirected flows from general portfolio reallocation",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Services-exporting EM economies (India IT ~$200B/6% GDP, Philippines BPO ~$33-35B/8% GDP) face 5-15 year structural current account erosion from AI automation.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Better calibrated automation timeline estimates than McKinsey's historically poor forecasts; NDF trade construction with appropriate tenor matching the 5-25 year structural thesis rather than 2-3 year standard tenors",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "S&P 493 AI narrative premium of ~1-2 P/E turns ($200-800B market cap) driven by earnings call AI mention frequency rather than genuine AI adoption.",
+    "source_agent": "equity_analyst_02",
+    "needs": "Controlled study separating AI mention frequency from actual AI adoption and margin improvement to establish causal direction; more precise magnitude estimate beyond the illustrative $500-800B range",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Political economy of white-collar displacement creates 25-40% probability of meaningful AI-specific labor regulation in 2+ G7 economies by 2028.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Formally specified sample of major displacement episodes for base rate calculation; clearer transmission mechanism from political influence to specific regulatory outcomes; precedent analysis of white-collar displacement regulatory responses",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
+  },
+  {
+    "claim": "Fiscal consolidation is paradoxically dollar-negative through the Kalecki profit channel: reducing deficit shrinks profit floor, reduces equity earnings, reduces capital inflows, weakens capex dollar.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Empirical validation from at least one historical episode where this specific mechanism dominated; the logic is sound within the framework but has never been tested as the dominant FX transmission channel",
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0037"
   }
 ]
