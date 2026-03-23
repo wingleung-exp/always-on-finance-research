@@ -1,30 +1,43 @@
 {
   "slug": "credit_factor_crowding",
   "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compressed dispersion indicates the market is not discriminating between credit qualities, and diversification across credit sub-sectors is illusory.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "First PC explains >65% of variance across HY, leveraged loans, CLO equity",
     "Compressed dispersion as crowding signal",
-    "Market not discriminating between credit qualities"
+    "Market not discriminating between credit qualities",
+    "PC1 explains >65% of variance across HY, loans, and CLO equity",
+    "Effective dimensionality ~1.5-2.0",
+    "BB-CCC spread ratio compressed from 3.0-3.5x to ~2.0-2.5x",
+    "FX carry analogy suggests crowding only predictive at >90th percentile",
+    "Current levels may be elevated but not tail per quant_researcher_02 own caveat"
   ],
   "originating_agents": [
     "quant_researcher_02"
   ],
   "open_questions": [
     "What level of dispersion would signal crowding is unwinding?",
-    "How quickly can crowding reverse during stress?"
+    "How quickly can crowding reverse during stress?",
+    "Is current crowding at or above the >90th percentile predictive threshold?",
+    "How does private credit allocation affect measured crowding in public markets?",
+    "What triggers the transition from crowded-but-stable to crowded-and-unwinding?"
   ],
   "related_concepts": [
     "credit_premium_compression",
     "credit_equity_correlation_regime_dependence",
-    "credit_returns_short_put_optionality"
+    "credit_returns_short_put_optionality",
+    "cross_capital_structure_compression_tail_risk",
+    "bearish_credit_positioning_asymmetry",
+    "intra_credit_cascade_sequence",
+    "credit_inefficient_risk_premium"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T09:11:53Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0029"
   ]
 }

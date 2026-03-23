@@ -1,0 +1,21 @@
+{
+  "concept_a": "maturity_wall_conditional_amplifier",
+  "concept_b": "hy_default_rate_mispricing",
+  "mechanism": "The maturity wall forces refinancing at 200-400bp higher costs, potentially increasing realized defaults well above market-implied rates. However, this is conditional on recession occurring simultaneously, making the amplification probabilistic rather than certain.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Conditional on recession: systemic with recession (2/2 historical), orderly without (0/2). Active during 2025-2028 window.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

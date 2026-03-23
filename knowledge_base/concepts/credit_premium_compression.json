@@ -1,35 +1,45 @@
 {
   "slug": "credit_premium_compression",
   "definition": "Investors are accepting 30-40% less compensation per unit of default risk than the post-2000 median. HY OAS at 350-420bp (40th-55th percentile) with higher expected losses due to the covenant-lite era implies a thinner residual risk premium, though the expected loss component has a 65bp uncertainty range.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "HY OAS at 350-420bp (40th-55th percentile)",
     "Expected loss component has 65bp range (175-240bp), reducing precision of compression estimate",
     "Directional claim survives debate; original 8/10 confidence reduced to 6/10",
-    "Term premium vs credit premium divergence: rates price risk expensive while credit prices it cheap"
+    "Term premium vs credit premium divergence: rates price risk expensive while credit prices it cheap",
+    "Base-rate expected loss (4.1% x 60% LGD = 246bp), risk premium = 370 - 246 = 124bp vs post-2000 median ~180-220bp",
+    "quant_researcher_01 explicitly identified this as the default rate mispricing claim in different form",
+    "challenger_01 compositional argument narrows gap further",
+    "EBITDA addbacks partially offset composition improvement"
   ],
   "originating_agents": [
     "quant_researcher_02",
-    "quant_researcher_01"
+    "quant_researcher_01",
+    "generalist_01"
   ],
   "open_questions": [
     "What is the precise expected loss component given addback adjustments?",
     "Is compression driven by search-for-yield or structural improvements in credit markets?",
-    "Which will converge: term premium or credit premium?"
+    "Which will converge: term premium or credit premium?",
+    "Is there any independent information in credit premium compression beyond default rate mispricing?",
+    "What is the net compression after adjusting for both composition and addbacks?"
   ],
   "related_concepts": [
     "ebitda_addback_leverage_inflation",
     "credit_factor_crowding",
     "hy_default_rate_mispricing",
     "credit_returns_short_put_optionality",
-    "term_premium_credit_premium_divergence"
+    "term_premium_credit_premium_divergence",
+    "hy_index_composition_improvement",
+    "credit_inefficient_risk_premium"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-23T09:11:53Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0029"
   ]
 }

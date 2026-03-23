@@ -1,0 +1,28 @@
+{
+  "slug": "intra_credit_cascade_monitoring",
+  "purpose": "Provides a sequential early warning system for credit cycle turning points by monitoring the established cascade from leveraged loans through CCC HY, BB HY, BBB IG to equities",
+  "components": [
+    "CLO BB/equity tranche pricing as first signal in the cascade",
+    "CCC default rate crossing 6% threshold as confirmation signal",
+    "Amend-and-extend activity surges as 12-18 month leading indicator of defaults",
+    "BB-CCC spread ratio expansion from compressed 2.0-2.5x toward historical 3.0-3.5x",
+    "Credit-equity lead-lag observation for timing calibration (currently 0-2 months vs historical 6-8 months)",
+    "Private credit secondary market NAV discounts as supplementary early warning"
+  ],
+  "current_assessment": "Early cascade signals (CLO tranche pricing, CCC defaults) are not triggered. Amend-and-extend activity should be monitored as the maturity wall approaches 2025-2028. The compressed lead-lag, if confirmed, reduces the actionable warning window significantly.",
+  "limitations": [
+    "Sequence established over n=4 episodes; small sample may not capture regime changes from private credit, CLO structures, or passive investing",
+    "Credit-equity lead-lag compression if structural reduces time available to act on signals",
+    "Private credit migration means some early distress signals may be invisible in public markets",
+    "Exogenous catalyst requirement means monitoring can identify fragility but not predict the trigger",
+    "Post-2015 lead-lag compression has n<5 turning points, insufficient for confirmation"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

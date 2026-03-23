@@ -165,11 +165,6 @@
         "definition": "The private sector must absorb ~$2.0-2.6T/year in net Treasury duration (new issuance + QT runoff) vs a pre-pandemic norm of $500-800B. The marginal b"
       },
       {
-        "slug": "covenant_lite_default_dynamics",
-        "confidence": 7,
-        "definition": "Over 90% of institutional loans are covenant-lite with EBITDA addbacks averaging 25-40%, eliminating maintenance covenant early-warning systems. This "
-      },
-      {
         "slug": "fed_balance_sheet_endogeneity",
         "confidence": 7,
         "definition": "The Fed's balance sheet trajectory is constrained by Treasury issuance composition (which the Fed does not control), bank regulatory demand for reserv"
@@ -178,6 +173,11 @@
         "slug": "mixed_signal_rate_cuts_qt",
         "confidence": 7,
         "definition": "The Fed can simultaneously ease at the front end (rate cuts) while tightening via balance sheet at the back end (QT), creating a mixed signal that cre"
+      },
+      {
+        "slug": "new_issue_concession_widening",
+        "confidence": 7,
+        "definition": "New-issue concessions in high-yield markets have widened to 15-25bp in 2025-2026 from near-zero during QE, representing a specific and observable QT t"
       }
     ],
     "all_concept_slugs": [
@@ -203,7 +203,7 @@
       "srf_untested_backstop",
       "stock_bond_correlation_endogeneity"
     ],
-    "avg_confidence": 7.2
+    "avg_confidence": 7.1
   },
   "commodity_inflation_transmission": {
     "concept_count": 27,
@@ -378,6 +378,88 @@
     ],
     "avg_confidence": 7.3
   },
+  "corporate_credit": {
+    "concept_count": 22,
+    "relationship_count": 19,
+    "framework_count": 7,
+    "top_concepts": [
+      {
+        "slug": "credit_cycle_indicator_degradation",
+        "confidence": 8,
+        "definition": "Traditional credit cycle indicators (credit impulse, VIX, bank lending surveys) have structurally degraded as leading indicators. The credit impulse t"
+      },
+      {
+        "slug": "ig_energy_spread_cyclical_compression",
+        "confidence": 8,
+        "definition": "IG energy spread compression (~100-120bp from ~140-160bp) is driven by cyclical balance sheet discipline (net debt/EBITDA falling from >3x to <1x via "
+      },
+      {
+        "slug": "intra_credit_cascade_sequence",
+        "confidence": 8,
+        "definition": "Credit cycle turning points follow a consistent cascade: leveraged loans, then CCC HY, then BB HY, then BBB IG, then equities. This sequence held acro"
+      },
+      {
+        "slug": "china_property_structural_demand_reduction",
+        "confidence": 7,
+        "definition": "China property sector restructuring represents a structural (not cyclical) demand reduction for metals. Housing starts fell from ~15M/year peak to ~7-"
+      },
+      {
+        "slug": "cross_capital_structure_compression_tail_risk",
+        "confidence": 7,
+        "definition": "Simultaneous compression of ERP (2.5-3.0%, 10th-15th percentile), credit premium, and ROIC-WACC (3.5-5.0pp, tightest since 2007-08) amplifies tail ris"
+      },
+      {
+        "slug": "exogenous_catalyst_requirement",
+        "confidence": 7,
+        "definition": "Tight credit spread regimes rarely end from endogenous deterioration \u2014 they require an exogenous catalyst. Historical examples: LTCM (1998), subprime "
+      },
+      {
+        "slug": "hy_index_composition_improvement",
+        "confidence": 7,
+        "definition": "HY index composition has structurally improved (BB share 38% to 52%, energy exposure 15% to 9%), narrowing true spread compression. The 65bp uncertain"
+      },
+      {
+        "slug": "maturity_wall_conditional_amplifier",
+        "confidence": 7,
+        "definition": "The sub-investment-grade maturity wall ($900B-$1.5T, 2025-2028) produces 200-400bp higher refinancing costs and 40-60% cash interest increases for B-r"
+      },
+      {
+        "slug": "private_credit_informational_degradation",
+        "confidence": 7,
+        "definition": "Private credit ($1.7T) has structurally degraded the informational content of public credit spreads. Worst credits migrate to private markets creating"
+      },
+      {
+        "slug": "roic_wacc_amplification_channel",
+        "confidence": 7,
+        "definition": "At ROIC-WACC spreads of 3.5-5.0pp (tightest since 2007-08), a 100bp WACC increase destroys ~25% of EVA, creating a novel mechanical feedback loop from"
+      }
+    ],
+    "all_concept_slugs": [
+      "basis_trade_contagion_channel",
+      "bearish_credit_positioning_asymmetry",
+      "china_property_structural_demand_reduction",
+      "credit_cycle_indicator_degradation",
+      "credit_inefficient_risk_premium",
+      "cross_capital_structure_compression_tail_risk",
+      "currency_hedged_non_us_credit_value",
+      "dollar_cycle_corporate_spread_variance",
+      "em_corporate_credit_bifurcation",
+      "exogenous_catalyst_requirement",
+      "futures_curve_credit_input",
+      "gold_miner_central_bank_floor",
+      "hy_index_composition_improvement",
+      "ig_energy_spread_cyclical_compression",
+      "intra_credit_cascade_sequence",
+      "maturity_wall_conditional_amplifier",
+      "private_credit_informational_degradation",
+      "roic_wacc_amplification_channel",
+      "sanctions_shadow_credit_rating",
+      "sovereign_corporate_credit_nexus",
+      "strategic_geopolitical_zombies",
+      "twin_deficit_credit_constraint"
+    ],
+    "avg_confidence": 6.2
+  },
   "credit_cycles": {
     "concept_count": 29,
     "relationship_count": 20,
@@ -385,13 +467,8 @@
     "top_concepts": [
       {
         "slug": "ebitda_addback_leverage_inflation",
-        "confidence": 9,
+        "confidence": 8.5,
         "definition": "EBITDA addbacks and covenant-lite structures systematically inflate reported leverage metrics, with true leverage 1.5-2x higher than reported. Merton-"
-      },
-      {
-        "slug": "kalecki_fiscal_buffer",
-        "confidence": 8,
-        "definition": "The Kalecki profit identity channel, with fiscal deficits at 6-7% of GDP, is the dominant force suppressing the credit cycle turn by directly sustaini"
       },
       {
         "slug": "roic_wacc_bimodality",
@@ -409,13 +486,13 @@
         "definition": "Traditional credit cycle indicators (credit impulse, VIX, HY OAS, SLOOS, default rates) have structurally degraded and now monitor a shrinking fractio"
       },
       {
-        "slug": "credit_equity_lead_lag_compression",
-        "confidence": 7,
-        "definition": "The credit-leads-equity relationship has compressed from 6-8 months (pre-2015) to 0-2 months (post-2015), driven by HY ETF growth and algorithmic arbi"
+        "slug": "kalecki_fiscal_buffer",
+        "confidence": 7.5,
+        "definition": "The Kalecki profit identity channel, with fiscal deficits at 6-7% of GDP, is the dominant force suppressing the credit cycle turn by directly sustaini"
       },
       {
         "slug": "credit_factor_crowding",
-        "confidence": 7,
+        "confidence": 7.0,
         "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compr"
       },
       {
@@ -432,6 +509,11 @@
         "slug": "energy_sector_hy_canary_obsolescence",
         "confidence": 7,
         "definition": "The energy sector is no longer the HY credit cycle canary. E&P net debt/EBITDA declined to 0.5-1.0x (vs. 3-4x in 2015), and HY index energy weight fel"
+      },
+      {
+        "slug": "fallen_angel_forced_selling",
+        "confidence": 7,
+        "definition": "Fallen angel risk ($350-500B BBB at elevated downgrade risk) creates a quantifiable forced-selling factor with predictable abnormal returns: 8-15% und"
       }
     ],
     "all_concept_slugs": [
@@ -465,7 +547,7 @@
       "term_premium_credit_premium_divergence",
       "traditional_credit_indicator_degradation"
     ],
-    "avg_confidence": 6.2
+    "avg_confidence": 6.1
   },
   "credit_equity_linkage": {
     "concept_count": 18,

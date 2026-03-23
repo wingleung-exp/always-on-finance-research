@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "intra_credit_cascade_monitoring",
+    "purpose": "Provides a sequential early warning system for credit cycle turning points by monitoring the established cascade from leveraged loans through CCC HY, BB HY, BBB IG to equities",
+    "components": [
+      "CLO BB/equity tranche pricing as first signal in the cascade",
+      "CCC default rate crossing 6% threshold as confirmation signal",
+      "Amend-and-extend activity surges as 12-18 month leading indicator of defaults",
+      "BB-CCC spread ratio expansion from compressed 2.0-2.5x toward historical 3.0-3.5x",
+      "Credit-equity lead-lag observation for timing calibration (currently 0-2 months vs historical 6-8 months)",
+      "Private credit secondary market NAV discounts as supplementary early warning"
+    ],
+    "current_assessment": "Early cascade signals (CLO tranche pricing, CCC defaults) are not triggered. Amend-and-extend activity should be monitored as the maturity wall approaches 2025-2028. The compressed lead-lag, if confirmed, reduces the actionable warning window significantly.",
+    "limitations": [
+      "Sequence established over n=4 episodes; small sample may not capture regime changes from private credit, CLO structures, or passive investing",
+      "Credit-equity lead-lag compression if structural reduces time available to act on signals",
+      "Private credit migration means some early distress signals may be invisible in public markets",
+      "Exogenous catalyst requirement means monitoring can identify fragility but not predict the trigger",
+      "Post-2015 lead-lag compression has n<5 turning points, insufficient for confirmation"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "maturity_wall_conditional_assessment",
+    "purpose": "Evaluates whether the 2025-2028 sub-IG maturity wall produces systemic outcomes or orderly absorption, conditional on the macroeconomic environment",
+    "components": [
+      "Maturity wall size: $900B-$1.5T sub-IG across 2025-2028",
+      "Refinancing cost arithmetic: 200-400bp higher, 40-60% cash interest increase for B-rated",
+      "Historical base rate: n=4, recession leads to systemic (2/2), no recession leads to orderly (0/2)",
+      "Amend-and-extend capacity assessment and willingness indicators",
+      "Private credit as alternative refinancing channel capacity",
+      "Fed rate cut path and fiscal intervention probability",
+      "Covenant-lite interaction: enables amend-and-extend but may create cliff dynamics"
+    ],
+    "current_assessment": "The arithmetic of higher refinancing costs is near-certain. Systemic outcome requires independent recession prediction. Without recession, expect elevated dispersion and idiosyncratic defaults but manageable aggregate stress. Kalecki fiscal buffer and private credit refinancing provide additional absorption capacity not present in prior episodes.",
+    "limitations": [
+      "Systemic outcome prediction requires recession forecast which is independently uncertain",
+      "Private credit refinancing channel capacity is opaque and untested at this scale",
+      "Covenant-lite interaction with higher absolute funding costs is untested (n=0 full cycles)",
+      "Amend-and-extend may delay but concentrate defaults, changing timing but not ultimate magnitude"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "kalecki_profit_identity_application",
+    "purpose": "Assesses how fiscal deficit levels mechanically support corporate profits and suppress default rates via the Kalecki accounting identity, and whether this invalidates historical default comparisons",
+    "components": [
+      "Kalecki identity: corporate profits equal investment plus dividends minus household savings plus government deficit plus trade surplus",
+      "Current deficit: 6-7% GDP (~$1.4-1.7T annually) versus no prior stress episode above 3.5%",
+      "Political durability assessment: DOGE initiative, TCJA expiration, fiscal consolidation pressure",
+      "Transmission to defaults: directionally clear but magnitude unquantified",
+      "Cross-asset implications: if buffer rationalizes credit, it likely rationalizes ERP and ROIC-WACC compression too"
+    ],
+    "current_assessment": "The identity is mathematically sound and the fiscal buffer is historically unprecedented during non-recessionary periods. This is the single most important empirical question for credit markets: whether it fundamentally changes the credit cycle or merely extends it. Directional importance is high-confidence; quantification remains an assertion.",
+    "limitations": [
+      "No methodology exists for translating deficit levels to specific basis-point credit threshold elevation",
+      "Elasticity of default rates to fiscal spending is unknown",
+      "Political durability is uncertain; buffer could collapse through choice or persist through inertia",
+      "If buffer rationalizes all compressed premia simultaneously, multi-factor observations lose independence"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "five_component_spread_decomposition",
+    "purpose": "Decomposes observed credit spreads into constituent risk factors to identify which components are compressed and where mispricing may exist",
+    "components": [
+      "Risk-free rate component",
+      "Expected loss: default probability multiplied by loss given default",
+      "Credit migration risk premium: compensation for rating transition risk",
+      "Systematic credit beta: compensation for correlation with the market factor",
+      "Liquidity premium: compensation for bid-ask spreads and market impact"
+    ],
+    "current_assessment": "Expected loss estimates span a 65bp range depending on assumptions (unconditional base rate vs market-implied vs addback-adjusted). Credit premium (residual after expected loss) is compressed 30-40% vs post-2000 median, but inherits all uncertainty from default rate estimation. Implementation-adjusted Sharpe of 0.25-0.35 suggests credit is less efficient than backtests indicate.",
+    "limitations": [
+      "65bp uncertainty range in expected loss may eliminate apparent compression entirely at lower bound",
+      "Credit premium compression is not independent of default rate mispricing — same claim in different form",
+      "Higher-moment adjustments (skewness, kurtosis) are model-dependent",
+      "Private credit migration degrades representativeness of public market spread data"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "cross_asset_premium_divergence",
+    "purpose": "Identifies and interprets divergences between term premium, credit premium, and equity risk premium to detect potential mispricings across the capital structure",
+    "components": [
+      "Term premium: 80-130bp elevated, pricing fiscal and supply risk",
+      "Credit premium: compressed 30-40% vs historical median",
+      "ERP: 2.5-3.0% at 10th-15th percentile",
+      "ROIC-WACC spread: 3.5-5.0pp, tightest since 2007-08",
+      "Historical resolution pattern: n=3 prior divergences, 2/3 resolved via credit widening"
+    ],
+    "current_assessment": "Term premium and credit premium are pricing apparently contradictory macro states. The maturity wall is the transmission mechanism. However, the two premia may not be pricing the same state variable, and the Kalecki buffer may rationalize all compressed premia simultaneously, making the divergence less anomalous than it appears.",
+    "limitations": [
+      "n=3 prior episodes insufficient for statistical confidence",
+      "Different premia may price different state variables making divergence consistent not anomalous",
+      "Kalecki buffer may simultaneously rationalize all compressed premia",
+      "Quantification of the anomaly is model-dependent"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "bayesian_vs_frequentist_regime_change",
+    "purpose": "Provides a methodological framework for reasoning about credit risk under potential structural breaks where historical frequencies may not apply",
+    "components": [
+      "Frequentist approach: base rates from n=42 years of HY default data with serial correlation adjustments",
+      "Bayesian approach: mechanism-based reasoning about structural changes including private credit, CLOs, covenant-lite, and fiscal buffer",
+      "Structural break testing: Chow test for credit impulse relationship confirmed break at p<0.01",
+      "Documented limitation: mechanism-based reasoning has history of overestimating tail probabilities",
+      "Practical implication: untestable structural changes require Bayesian priors but data to update them is unavailable"
+    ],
+    "current_assessment": "The most intellectually honest framework for the core methodological challenge: multiple structural changes mean historical base rates may not apply, but mechanism-based reasoning tends to overestimate tail risk. This tension cannot be resolved with available data and requires observing the next full cycle.",
+    "limitations": [
+      "n=0 full cycles with current structural features",
+      "Mechanism-based reasoning documented to overestimate tail probabilities",
+      "Bayesian priors on structural changes are subjective and unverifiable until next cycle",
+      "The framework identifies the problem but does not resolve it"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "private_credit_regime_dependent_assessment",
+    "purpose": "Assesses whether private credit functions as a shock absorber or amplifier conditional on the type and speed of stress",
+    "components": [
+      "Slow-burn stress regime: locked-up capital absorbs losses, suppresses volatility transmission, likely absorbed",
+      "Sudden liquidity event regime: $300B+ semi-liquid vehicles with quarterly redemptions, mark-to-model opacity, likely amplified",
+      "NAV autocorrelation of 0.5-0.7 suppresses measured volatility by 2-3x",
+      "Secondary market NAV discount trends as potential early warning indicator",
+      "Historical analogue: pre-2008 SIVs as partial but imperfect comparison"
+    ],
+    "current_assessment": "The binary framing (absorber vs amplifier) was refuted. The answer is regime-dependent: opacity absorbs slow-burn stress but may amplify sudden liquidity events. The $300B+ semi-liquid tranche is the fault line. Private credit could be the locus of surprise in the next downturn because risk is less visible, not necessarily larger.",
+    "limitations": [
+      "No clean historical analogue for current private credit structure",
+      "NAV-based early warning indicators are conceptual and not backtested",
+      "Semi-liquid vehicle behavior under stress is entirely untested",
+      "Opacity means the regime transition from absorbed to amplified may not be observable in advance"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  }
+]

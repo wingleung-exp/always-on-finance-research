@@ -1,32 +1,48 @@
 {
   "slug": "covenant_lite_default_dynamics",
   "definition": "Over 90% of institutional loans are covenant-lite with EBITDA addbacks averaging 25-40%, eliminating maintenance covenant early-warning systems. This creates bimodal default distribution: either successful refinancing or liquidity crisis with limited recovery, bypassing gradual deterioration. True leverage is 5.5-7.5x (not reported 4.0-4.5x) and true coverage is 2.5-3.5x (not reported 4.0-4.5x).",
-  "confidence": 7,
+  "confidence": 6.0,
   "evidence": [
     ">90% of institutional loans are covenant-lite",
     "EBITDA addbacks average 25-40%",
     "True leverage 5.5-7.5x vs reported 4.0-4.5x",
     "True coverage 2.5-3.5x vs reported 4.0-4.5x",
-    "Identified in pair_1 debate as most important insight either agent produces"
+    "Identified in pair_1 debate as most important insight either agent produces",
+    "S&P LCD: covenant-lite first-lien loans defaulted at 2.2% cumulative vs 3.8% covenant-heavy through COVID",
+    "COVID tested covenant-lite under unprecedented policy support, not organic deterioration",
+    "Mechanism for suppression: eliminating false-positive technical defaults",
+    "Mechanism for bimodality: no early warning triggers until distress is severe",
+    "n=0 full cycles without policy rescue; interaction with higher funding costs untested"
   ],
   "originating_agents": [
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "challenger_01",
+    "quant_researcher_01",
+    "generalist_01"
   ],
   "open_questions": [
     "How will bimodal default distribution affect recovery rates in the next downturn?",
-    "Are rating agencies adjusting for EBITDA addback inflation?"
+    "Are rating agencies adjusting for EBITDA addback inflation?",
+    "How will covenant-lite perform under organic deterioration without policy rescue?",
+    "Does interaction with higher absolute funding costs produce different outcomes?",
+    "Are recovery rates meaningfully lower for covenant-lite defaults?",
+    "Does covenant-lite reduce aggregate defaults or just delay and concentrate them?"
   ],
   "related_concepts": [
     "private_credit_structural_exposure",
     "maturity_wall_qt_interaction",
-    "clo_arbitrage_transmission"
+    "clo_arbitrage_transmission",
+    "maturity_wall_conditional_amplifier",
+    "ebitda_addback_leverage_inflation",
+    "kalecki_fiscal_buffer"
   ],
   "topic": "central_bank_balance_sheets",
   "created_at": "2026-03-23T00:09:57Z",
-  "last_updated": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T09:11:53Z",
   "originating_iteration": "iter_0013",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0013"
+    "iter_0013",
+    "iter_0029"
   ]
 }

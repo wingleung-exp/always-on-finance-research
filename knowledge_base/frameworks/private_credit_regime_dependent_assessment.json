@@ -1,0 +1,26 @@
+{
+  "slug": "private_credit_regime_dependent_assessment",
+  "purpose": "Assesses whether private credit functions as a shock absorber or amplifier conditional on the type and speed of stress",
+  "components": [
+    "Slow-burn stress regime: locked-up capital absorbs losses, suppresses volatility transmission, likely absorbed",
+    "Sudden liquidity event regime: $300B+ semi-liquid vehicles with quarterly redemptions, mark-to-model opacity, likely amplified",
+    "NAV autocorrelation of 0.5-0.7 suppresses measured volatility by 2-3x",
+    "Secondary market NAV discount trends as potential early warning indicator",
+    "Historical analogue: pre-2008 SIVs as partial but imperfect comparison"
+  ],
+  "current_assessment": "The binary framing (absorber vs amplifier) was refuted. The answer is regime-dependent: opacity absorbs slow-burn stress but may amplify sudden liquidity events. The $300B+ semi-liquid tranche is the fault line. Private credit could be the locus of surprise in the next downturn because risk is less visible, not necessarily larger.",
+  "limitations": [
+    "No clean historical analogue for current private credit structure",
+    "NAV-based early warning indicators are conceptual and not backtested",
+    "Semi-liquid vehicle behavior under stress is entirely untested",
+    "Opacity means the regime transition from absorbed to amplified may not be observable in advance"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

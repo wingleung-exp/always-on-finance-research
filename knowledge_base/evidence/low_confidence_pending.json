@@ -1800,5 +1800,75 @@
     "needs": "Resolution of internal inconsistency where funding leg (short equity vol) generates losses when primary leg (long credit vol) pays off due to correlation spike; carry-adjusted expected payoff calculation under the agent's own stress scenario",
     "topic": "credit_cycles",
     "iteration_id": "iter_0028"
+  },
+  {
+    "claim": "The basis trade ($800B-$1T at 50-100x leverage) has structurally altered the Treasury-to-credit contagion channel, impairing the flight-to-quality assumption",
+    "source_agent": "generalist_01",
+    "needs": "Independent corroboration from multiple agents, updated size and leverage estimates post-2020 regulatory response, quantification of degree of flight-to-quality impairment",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Credit-equity lead-lag has compressed from 6-8 months to 0-2 months post-2015, potentially eliminating the most actionable cross-asset early warning signal",
+    "source_agent": "quant_researcher_01",
+    "needs": "More than 5 independent turning points post-2015 to confirm structural rather than low-vol regime artifact; out-of-sample validation across regimes",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Covenant-lite structures reduce aggregate default rates not just delay them, with 2.2% cumulative vs 3.8% for covenant-heavy through COVID",
+    "source_agent": "challenger_01",
+    "needs": "Observation of a full credit cycle without unprecedented policy support; testing under organic deterioration with higher absolute funding costs; longer time series beyond one cycle plus COVID",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Sanctions architecture functions as a shadow credit rating system with embedded credit options, validated by Russia 2022",
+    "source_agent": "risk_analyst_02",
+    "needs": "Independent corroboration, rigorous methodology for estimating sanctions probability for China/Taiwan, framework for sanctions-adjusted recovery rate modeling",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Strategic zombies sustained by national security rationale represent a new class of firms with distinct credit dynamics synthesizing Japan and geopolitical mechanisms",
+    "source_agent": "risk_analyst_02",
+    "needs": "Independent corroboration, quantification of total scale of geopolitically-subsidized firms, assessment of subsidy durability through fiscal consolidation",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Gold miner credit is in a structurally favorable position due to central bank buying regime shift of 1,000+ tonnes per year post-2022",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Independent corroboration, analysis of whether central bank buying is front-loaded diversification that plateaus, credit metric sensitivity at various gold price scenarios",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Currency-hedged non-US credit offers structural 150-300bp pickup versus US IG",
+    "source_agent": "fx_strategist_01",
+    "needs": "Analysis of persistence under convergent central bank policies, identification of regulatory and institutional arbitrage barriers, hedging cost volatility assessment",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Futures curve structure (contango vs backwardation) is a first-order credit input for commodity producers that is genuinely underappreciated",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Backtested relationship between curve structure changes and commodity issuer spread moves, forward-looking utility assessment given curve unpredictability",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "EM corporate credit is bifurcating along a dollar-exposure axis with India/ASEAN structurally improving while frontier markets remain vulnerable",
+    "source_agent": "fx_strategist_01",
+    "needs": "Stress testing of bifurcation under extreme dollar strengthening, analysis of whether taper tantrum and 2018 EM episodes represent informative partial tests",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "claim": "Twin deficit trajectory requiring $2.5-3T annual foreign capital inflow may become a binding constraint on foreign demand for US corporate credit",
+    "source_agent": "fx_strategist_01",
+    "needs": "Identification of nonlinear threshold at which twin deficits become binding with no clean historical analog, decomposition of marginal corporate bond buyer nationality and Treasury crowding-out sensitivity",
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
   }
 ]

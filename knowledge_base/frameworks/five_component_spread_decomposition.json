@@ -1,0 +1,26 @@
+{
+  "slug": "five_component_spread_decomposition",
+  "purpose": "Decomposes observed credit spreads into constituent risk factors to identify which components are compressed and where mispricing may exist",
+  "components": [
+    "Risk-free rate component",
+    "Expected loss: default probability multiplied by loss given default",
+    "Credit migration risk premium: compensation for rating transition risk",
+    "Systematic credit beta: compensation for correlation with the market factor",
+    "Liquidity premium: compensation for bid-ask spreads and market impact"
+  ],
+  "current_assessment": "Expected loss estimates span a 65bp range depending on assumptions (unconditional base rate vs market-implied vs addback-adjusted). Credit premium (residual after expected loss) is compressed 30-40% vs post-2000 median, but inherits all uncertainty from default rate estimation. Implementation-adjusted Sharpe of 0.25-0.35 suggests credit is less efficient than backtests indicate.",
+  "limitations": [
+    "65bp uncertainty range in expected loss may eliminate apparent compression entirely at lower bound",
+    "Credit premium compression is not independent of default rate mispricing — same claim in different form",
+    "Higher-moment adjustments (skewness, kurtosis) are model-dependent",
+    "Private credit migration degrades representativeness of public market spread data"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

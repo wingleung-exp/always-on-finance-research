@@ -1,0 +1,33 @@
+{
+  "slug": "intra_credit_cascade_sequence",
+  "definition": "Credit cycle turning points follow a consistent cascade: leveraged loans, then CCC HY, then BB HY, then BBB IG, then equities. This sequence held across 1990, 2000-01, 2007-08, and 2015-16 episodes spanning 35 years and 4 independent episodes. Confirmed as the single most actionable finding across all analyses.",
+  "confidence": 8,
+  "evidence": [
+    "Sequence held across 4 independent episodes over 35 years",
+    "Confirmed as highest-confidence claim and single most actionable finding in pair_0 debate",
+    "Monitorable signposts: CLO BB/equity tranche pricing, CCC default rate crossing 6%, amend-and-extend surges preceding defaults by 12-18 months"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Has private credit growth altered the leading indicators within this cascade?",
+    "Does credit-equity lead-lag compression change the actionability of this sequence?",
+    "Is the cascade timing itself compressing alongside the lead-lag compression?"
+  ],
+  "related_concepts": [
+    "credit_equity_lead_lag_compression",
+    "credit_factor_crowding",
+    "exogenous_catalyst_requirement",
+    "maturity_wall_conditional_amplifier"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

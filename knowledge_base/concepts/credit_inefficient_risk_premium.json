@@ -1,0 +1,33 @@
+{
+  "slug": "credit_inefficient_risk_premium",
+  "definition": "Credit offers an inefficient risk premium after higher-moment adjustments. Return distribution exhibits skewness of -1.2 to -1.8 and excess kurtosis of 4-8. Implementation-adjusted Sharpe ratio compresses from backtested 0.5-0.7 to 0.25-0.35 after bid-ask spreads, roll-down assumptions, and asymmetric rebalancing costs. Directional conclusion is robust; uncertainty is plus/minus 0.10 on Sharpe.",
+  "confidence": 6,
+  "evidence": [
+    "Skewness -1.2 to -1.8, excess kurtosis 4-8 in credit returns",
+    "Sharpe compresses from 0.5-0.7 backtested to 0.25-0.35 implementation-adjusted",
+    "Under Harvey-Liu-Zhu framework, barely survives t-stat threshold of 2.0",
+    "Pair_2 confirmed as genuinely useful finding challenging institutional allocation",
+    "Uncertainty plus/minus 0.10 on Sharpe; directional conclusion robust"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "How does implementation-adjusted Sharpe compare to other fixed income asset classes?",
+    "Does the inefficiency justify reduced institutional allocation to credit?",
+    "How does the Sharpe vary across credit quality tiers after adjustments?"
+  ],
+  "related_concepts": [
+    "credit_premium_compression",
+    "credit_factor_crowding",
+    "cross_capital_structure_compression_tail_risk"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "bayesian_vs_frequentist_regime_change",
+  "purpose": "Provides a methodological framework for reasoning about credit risk under potential structural breaks where historical frequencies may not apply",
+  "components": [
+    "Frequentist approach: base rates from n=42 years of HY default data with serial correlation adjustments",
+    "Bayesian approach: mechanism-based reasoning about structural changes including private credit, CLOs, covenant-lite, and fiscal buffer",
+    "Structural break testing: Chow test for credit impulse relationship confirmed break at p<0.01",
+    "Documented limitation: mechanism-based reasoning has history of overestimating tail probabilities",
+    "Practical implication: untestable structural changes require Bayesian priors but data to update them is unavailable"
+  ],
+  "current_assessment": "The most intellectually honest framework for the core methodological challenge: multiple structural changes mean historical base rates may not apply, but mechanism-based reasoning tends to overestimate tail risk. This tension cannot be resolved with available data and requires observing the next full cycle.",
+  "limitations": [
+    "n=0 full cycles with current structural features",
+    "Mechanism-based reasoning documented to overestimate tail probabilities",
+    "Bayesian priors on structural changes are subjective and unverifiable until next cycle",
+    "The framework identifies the problem but does not resolve it"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

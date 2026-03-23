@@ -1,0 +1,37 @@
+{
+  "slug": "cross_capital_structure_compression_tail_risk",
+  "definition": "Simultaneous compression of ERP (2.5-3.0%, 10th-15th percentile), credit premium, and ROIC-WACC (3.5-5.0pp, tightest since 2007-08) amplifies tail risk through regime-dependent correlation (0.3-0.4 normal to 0.7-0.9 crisis). At current ROIC-WACC levels, 100bp WACC increase destroys ~25% of EVA, creating mechanical feedback from credit widening to equity fundamental impairment.",
+  "confidence": 7,
+  "evidence": [
+    "ERP at 2.5-3.0% (10th-15th percentile historically)",
+    "ROIC-WACC spread at 3.5-5.0pp, tightest since 2007-08",
+    "Regime-dependent correlation: 0.3-0.4 normal to 0.7-0.9 crisis",
+    "100bp WACC increase destroys ~25% of EVA at current spreads",
+    "Pair_2 confirmed ROIC-WACC channel as genuinely novel",
+    "Kalecki buffer may rationalize all premia simultaneously, reducing independence"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "If Kalecki buffer rationalizes credit, does it also rationalize ERP and ROIC-WACC?",
+    "What is the threshold WACC increase that triggers nonlinear EVA destruction?",
+    "How correlated would the unwind actually be across equity and credit?"
+  ],
+  "related_concepts": [
+    "roic_wacc_amplification_channel",
+    "kalecki_fiscal_buffer",
+    "credit_premium_compression",
+    "credit_factor_crowding",
+    "basis_trade_contagion_channel"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

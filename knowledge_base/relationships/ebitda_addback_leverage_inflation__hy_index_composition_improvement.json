@@ -1,0 +1,20 @@
+{
+  "concept_a": "ebitda_addback_leverage_inflation",
+  "concept_b": "hy_index_composition_improvement",
+  "mechanism": "Addbacks inflate EBITDA and reduce reported leverage, causing borrowers to receive higher credit ratings than true leverage justifies. BB-rated borrowers may be B-rated on adjusted metrics, meaning the 38%-to-52% BB share improvement is partially inflated by suspect ratings.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Holds persistently; magnitude varies with addback prevalence by vintage and sector",
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

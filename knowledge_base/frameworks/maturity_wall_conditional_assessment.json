@@ -1,0 +1,28 @@
+{
+  "slug": "maturity_wall_conditional_assessment",
+  "purpose": "Evaluates whether the 2025-2028 sub-IG maturity wall produces systemic outcomes or orderly absorption, conditional on the macroeconomic environment",
+  "components": [
+    "Maturity wall size: $900B-$1.5T sub-IG across 2025-2028",
+    "Refinancing cost arithmetic: 200-400bp higher, 40-60% cash interest increase for B-rated",
+    "Historical base rate: n=4, recession leads to systemic (2/2), no recession leads to orderly (0/2)",
+    "Amend-and-extend capacity assessment and willingness indicators",
+    "Private credit as alternative refinancing channel capacity",
+    "Fed rate cut path and fiscal intervention probability",
+    "Covenant-lite interaction: enables amend-and-extend but may create cliff dynamics"
+  ],
+  "current_assessment": "The arithmetic of higher refinancing costs is near-certain. Systemic outcome requires independent recession prediction. Without recession, expect elevated dispersion and idiosyncratic defaults but manageable aggregate stress. Kalecki fiscal buffer and private credit refinancing provide additional absorption capacity not present in prior episodes.",
+  "limitations": [
+    "Systemic outcome prediction requires recession forecast which is independently uncertain",
+    "Private credit refinancing channel capacity is opaque and untested at this scale",
+    "Covenant-lite interaction with higher absolute funding costs is untested (n=0 full cycles)",
+    "Amend-and-extend may delay but concentrate defaults, changing timing but not ultimate magnitude"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

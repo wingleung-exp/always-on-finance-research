@@ -3,7 +3,7 @@
   "concept_b": "hy_default_rate_mispricing",
   "mechanism": "EBITDA addbacks inflate reported leverage metrics, causing systematic underestimation of default probabilities. True leverage 1.5-2x higher shifts median B-rated 5-year PD from ~3.5% to ~8-14%, creating a wedge between market-implied and fundamental default rates.",
   "direction": "a_causes_b",
-  "confidence": 9,
+  "confidence": 8.5,
   "regime_dependence": "Always present but magnitude increases in late-cycle when addbacks are largest and realization rates decline during economic weakness",
   "originating_agents": [
     "quant_researcher_01",
@@ -11,10 +11,11 @@
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:47Z",
-  "last_updated": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T09:11:53Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0029"
   ]
 }

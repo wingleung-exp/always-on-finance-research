@@ -1,0 +1,32 @@
+{
+  "slug": "currency_hedged_non_us_credit_value",
+  "definition": "Currency-hedged non-US credit offers 150-300bp pickup versus US IG, based on straightforward observable market arithmetic. Persistence depends on ECB/BoJ policy paths, and structural impediments (regulatory, institutional) can prevent arbitrage for years.",
+  "confidence": 5,
+  "evidence": [
+    "150-300bp hedged pickup observable in market data",
+    "Arithmetic is straightforward and verifiable",
+    "Persistence depends on central bank policy divergence",
+    "Single agent origination"
+  ],
+  "originating_agents": [
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "How persistent is the hedged pickup under convergent central bank policies?",
+    "What institutional and regulatory barriers prevent full arbitrage?",
+    "Does hedging cost volatility create additional unpriced risk?"
+  ],
+  "related_concepts": [
+    "dollar_cycle_corporate_spread_variance",
+    "sovereign_corporate_credit_nexus",
+    "em_corporate_credit_bifurcation"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "selected_topic": "corporate_credit",
+  "display_name": "Corporate Credit Quality & Spread Analysis",
+  "category": "credit_and_rates",
+  "mode": "overview",
+  "depth_level": 2,
+  "confidence_score": 5.5,
+  "score": 60.87,
+  "focus": {
+    "knowledge_gaps": [
+      "Maturity wall sizing and refi risk timeline",
+      "Interest coverage ratio distribution in leveraged space",
+      "CCC-rated survival analysis under different rate paths"
+    ],
+    "connections_to_explore": [
+      "credit_cycles",
+      "monetary_policy",
+      "equity_cycles"
+    ],
+    "instruction": "Build foundational understanding: define core concepts, establish theoretical frameworks, identify key empirical patterns, and map connections to related topics."
+  },
+  "related_topics": {
+    "credit_cycles": {
+      "display_name": "Credit Cycle Dynamics & Late-Stage Signals",
+      "confidence_score": 6.0,
+      "depth_level": 4
+    },
+    "monetary_policy": {
+      "display_name": "Monetary Policy Transmission & Central Bank Strategy",
+      "confidence_score": 5.6,
+      "depth_level": 3
+    },
+    "equity_cycles": {
+      "display_name": "Equity Market Cycles & Valuation Regimes",
+      "confidence_score": 5.3,
+      "depth_level": 3
+    }
+  },
+  "runners_up": [
+    {
+      "topic": "real_estate_cycles",
+      "score": 60.87
+    },
+    {
+      "topic": "yield_curve_dynamics",
+      "score": 60.12
+    },
+    {
+      "topic": "deglobalization",
+      "score": 58.37
+    },
+    {
+      "topic": "energy_transition",
+      "score": 57.37
+    },
+    {
+      "topic": "fiscal_policy",
+      "score": 56.78
+    }
+  ],
+  "key_concepts": [
+    "credit_spread",
+    "interest_coverage_ratio",
+    "default_probability"
+  ]
+}

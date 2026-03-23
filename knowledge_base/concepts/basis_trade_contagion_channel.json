@@ -1,0 +1,33 @@
+{
+  "slug": "basis_trade_contagion_channel",
+  "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) has potentially altered the Treasury-to-credit contagion channel. March 2020 provided partial validation: Treasury dysfunction led to repo spike led to credit freeze. The traditional flight-to-quality assumption may be structurally impaired, though the degree of impairment is unknown.",
+  "confidence": 5,
+  "evidence": [
+    "Estimated $800B-$1T at 50-100x leverage",
+    "March 2020 validation: Treasury dysfunction to repo spike to credit freeze",
+    "Pair_0 confirmed as genuine structural insight with portfolio implications",
+    "Single agent origination; current size and leverage estimates uncertain",
+    "Regulatory response may have partially mitigated since March 2020"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Have regulatory responses partially mitigated the channel since March 2020?",
+    "What is the current accurate size and leverage?",
+    "To what degree is flight-to-quality impaired vs merely delayed?"
+  ],
+  "related_concepts": [
+    "private_credit_informational_degradation",
+    "cross_capital_structure_compression_tail_risk",
+    "credit_factor_crowding"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

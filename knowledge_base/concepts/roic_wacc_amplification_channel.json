@@ -1,0 +1,33 @@
+{
+  "slug": "roic_wacc_amplification_channel",
+  "definition": "At ROIC-WACC spreads of 3.5-5.0pp (tightest since 2007-08), a 100bp WACC increase destroys ~25% of EVA, creating a novel mechanical feedback loop from credit spread widening to equity fundamental impairment. This generates cross-asset correlation not captured by traditional models.",
+  "confidence": 7,
+  "evidence": [
+    "ROIC-WACC at 3.5-5.0pp, tightest since 2007-08",
+    "100bp WACC increase destroys ~25% of EVA mechanically",
+    "Pair_2 confirmed as genuinely novel channel",
+    "Kalecki buffer may rationalize compression, reducing independence of the signal"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Is ROIC-WACC compression rationalized by the Kalecki buffer?",
+    "What is the sector-level distribution of ROIC-WACC spreads?",
+    "At what spread does the feedback loop become self-reinforcing?"
+  ],
+  "related_concepts": [
+    "cross_capital_structure_compression_tail_risk",
+    "kalecki_fiscal_buffer",
+    "credit_premium_compression",
+    "maturity_wall_conditional_amplifier"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

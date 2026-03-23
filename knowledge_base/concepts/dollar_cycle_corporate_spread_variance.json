@@ -1,0 +1,32 @@
+{
+  "slug": "dollar_cycle_corporate_spread_variance",
+  "definition": "The dollar cycle explains 30-40% of global corporate spread variance in bivariate analysis, but independent explanatory power drops to 10-20% in multivariate regressions after controlling for VIX, global growth expectations, and other risk factors. The synchronization claim is directionally correct but quantitatively inflated.",
+  "confidence": 6,
+  "evidence": [
+    "BIS dollar-as-risk-factor literature (Bruno and Shin) is well-established",
+    "DXY 15% appreciation (2021-22) coincided with EM spread widening ~200bp, US IG compression ~30bp",
+    "Multivariate regressions show marginal dollar contribution at 10-20%",
+    "30-40% bivariate R-squared overstates independent power via shared variance"
+  ],
+  "originating_agents": [
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "What is the dollar's true independent contribution after all controls?",
+    "Does the dollar channel amplify during specific regimes such as rapid appreciation?"
+  ],
+  "related_concepts": [
+    "em_corporate_credit_bifurcation",
+    "sovereign_corporate_credit_nexus",
+    "ig_energy_spread_cyclical_compression",
+    "currency_hedged_non_us_credit_value"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

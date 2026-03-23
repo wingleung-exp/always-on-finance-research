@@ -1,31 +1,45 @@
 {
   "slug": "term_premium_credit_premium_divergence",
   "definition": "An internal inconsistency where rates markets price risk expensive (elevated term premium) while credit markets price it cheap (compressed spreads). This divergence suggests one market is mispriced and convergence is likely during risk-off events.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "Term premium elevated in rates markets",
     "Credit spreads compressed simultaneously",
-    "Internal inconsistency between rate and credit risk pricing"
+    "Internal inconsistency between rate and credit risk pricing",
+    "Term premium at 80-130bp pricing fiscal/supply risk",
+    "Credit premium simultaneously compressing",
+    "n=3 prior episodes, 2/3 resolved via credit widening",
+    "Identified as most original contribution in pair_0 debate",
+    "Critical flaw: two premia may not price the same macro state variable"
   ],
   "originating_agents": [
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "generalist_01"
   ],
   "open_questions": [
     "Which market will converge to the other?",
     "What structural factors explain the divergence?",
-    "Is this divergence sustainable or a precursor to repricing?"
+    "Is this divergence sustainable or a precursor to repricing?",
+    "Are term premium and credit premium pricing the same macro state variable?",
+    "Can term premium reflect fiscal supply dynamics without implying growth uncertainty?",
+    "Will resolution come through credit widening, term premium compression, or Fed intervention?"
   ],
   "related_concepts": [
     "credit_premium_compression",
     "self_referential_fiscal_instability",
-    "credit_equity_correlation_regime_dependence"
+    "credit_equity_correlation_regime_dependence",
+    "maturity_wall_conditional_amplifier",
+    "sovereign_corporate_credit_nexus",
+    "cross_capital_structure_compression_tail_risk",
+    "kalecki_fiscal_buffer"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:47Z",
-  "last_updated": "2026-03-23T08:42:47Z",
+  "last_updated": "2026-03-23T09:11:53Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0029"
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "credit_cycle_indicator_degradation",
+  "definition": "Traditional credit cycle indicators (credit impulse, VIX, bank lending surveys) have structurally degraded as leading indicators. The credit impulse to GDP growth R-squared declined from 0.38 pre-2010 to 0.12 post-2010, with a statistically significant structural break (Chow test p<0.01). Primary mechanism is declining bank credit share as private credit grew from $200B to $1.7T.",
+  "confidence": 8,
+  "evidence": [
+    "Chow test structural break in credit impulse to GDP growth significant at p<0.01",
+    "R-squared decline from 0.38 pre-2010 to 0.12 post-2010",
+    "Bank credit share declined as private credit grew from $200B to $1.7T",
+    "Corporate bonds doubled; 0DTE options altered VIX construction",
+    "Confirmed as most statistically robust finding in pair_2 debate"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Can adding a private credit proxy restore historical R-squared?",
+    "What alternative leading indicators replace degraded traditional ones?",
+    "Is degradation explained by multiple factors or primarily private credit?"
+  ],
+  "related_concepts": [
+    "private_credit_informational_degradation",
+    "credit_factor_crowding",
+    "credit_equity_lead_lag_compression"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

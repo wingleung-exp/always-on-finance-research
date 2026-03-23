@@ -1,0 +1,35 @@
+{
+  "slug": "bearish_credit_positioning_asymmetry",
+  "definition": "Bearish credit positioning is tactically crowded (BofA FMS net -12% HY underweight vs +5% historical median, $28B trailing 12-month HY outflows, CDX HY skew at 1.8x vs 1.3x average), creating 100-150bp tightening potential on positive surprises. However, $1.7T private credit longs and $1.3-1.5T CLO structural longs mean total credit exposure is not bearish. The ~50-100bp annualized carry cost is a structural headwind to the short thesis.",
+  "confidence": 6,
+  "evidence": [
+    "BofA FMS net -12% HY underweight vs +5% historical median",
+    "$28B trailing 12-month HY outflows",
+    "CDX HY skew at 1.8x vs 1.3x average",
+    "100-150bp tightening potential on positive surprise",
+    "$1.7T private credit + $1.3-1.5T CLOs = massive structural longs regardless of survey sentiment",
+    "~50-100bp annualized carry cost as structural headwind to short thesis"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What is the precise decomposition of tactical vs mandated/structural credit exposure?",
+    "How quickly could structural longs become forced sellers?",
+    "Is the carry cost sustainable for tactical shorts?"
+  ],
+  "related_concepts": [
+    "credit_factor_crowding",
+    "cross_capital_structure_compression_tail_risk",
+    "credit_premium_compression",
+    "exogenous_catalyst_requirement"
+  ],
+  "topic": "corporate_credit",
+  "created_at": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-23T09:11:53Z",
+  "originating_iteration": "iter_0029",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0029"
+  ]
+}

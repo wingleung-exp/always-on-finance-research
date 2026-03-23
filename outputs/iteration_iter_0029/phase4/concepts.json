@@ -1,0 +1,843 @@
+[
+  {
+    "slug": "ebitda_addback_leverage_inflation",
+    "definition": "EBITDA addbacks systematically inflate reported leverage by 25-40%, placing true leverage at 5.5-7.5x versus reported 4.0-4.5x. Only 50-70% of projected addbacks materialize within 2 years, creating a nonlinear shift in 5-year cumulative default probability from ~3.5% to ~8-14%.",
+    "confidence": 8,
+    "evidence": [
+      "S&P LCD, Moody's, and PitchBook data confirm direction and magnitude independently",
+      "Moody's realization studies show 50-70% addback materialization within 2 years",
+      "Nonlinear leverage-to-default mapping shifts 5-year cumulative default probability from ~3.5% to ~8-14%",
+      "Confirmed as highest-confidence empirical finding across all analyses in pair_2 debate",
+      "No agent challenged this finding; practitioner consensus is broad"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Are addback practices worsening or stabilizing over time?",
+      "How do addbacks vary by sector and vintage?",
+      "How many BB-rated issuers would be reclassified as B on addback-adjusted leverage?"
+    ],
+    "related_concepts": [
+      "hy_default_rate_mispricing",
+      "hy_index_composition_improvement",
+      "maturity_wall_conditional_amplifier",
+      "credit_premium_compression"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "credit_cycle_indicator_degradation",
+    "definition": "Traditional credit cycle indicators (credit impulse, VIX, bank lending surveys) have structurally degraded as leading indicators. The credit impulse to GDP growth R-squared declined from 0.38 pre-2010 to 0.12 post-2010, with a statistically significant structural break (Chow test p<0.01). Primary mechanism is declining bank credit share as private credit grew from $200B to $1.7T.",
+    "confidence": 8,
+    "evidence": [
+      "Chow test structural break in credit impulse to GDP growth significant at p<0.01",
+      "R-squared decline from 0.38 pre-2010 to 0.12 post-2010",
+      "Bank credit share declined as private credit grew from $200B to $1.7T",
+      "Corporate bonds doubled; 0DTE options altered VIX construction",
+      "Confirmed as most statistically robust finding in pair_2 debate"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can adding a private credit proxy restore historical R-squared?",
+      "What alternative leading indicators replace degraded traditional ones?",
+      "Is degradation explained by multiple factors or primarily private credit?"
+    ],
+    "related_concepts": [
+      "private_credit_informational_degradation",
+      "credit_factor_crowding",
+      "credit_equity_lead_lag_compression"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "intra_credit_cascade_sequence",
+    "definition": "Credit cycle turning points follow a consistent cascade: leveraged loans, then CCC HY, then BB HY, then BBB IG, then equities. This sequence held across 1990, 2000-01, 2007-08, and 2015-16 episodes spanning 35 years and 4 independent episodes. Confirmed as the single most actionable finding across all analyses.",
+    "confidence": 8,
+    "evidence": [
+      "Sequence held across 4 independent episodes over 35 years",
+      "Confirmed as highest-confidence claim and single most actionable finding in pair_0 debate",
+      "Monitorable signposts: CLO BB/equity tranche pricing, CCC default rate crossing 6%, amend-and-extend surges preceding defaults by 12-18 months"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Has private credit growth altered the leading indicators within this cascade?",
+      "Does credit-equity lead-lag compression change the actionability of this sequence?",
+      "Is the cascade timing itself compressing alongside the lead-lag compression?"
+    ],
+    "related_concepts": [
+      "credit_equity_lead_lag_compression",
+      "credit_factor_crowding",
+      "exogenous_catalyst_requirement",
+      "maturity_wall_conditional_amplifier"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "kalecki_fiscal_buffer",
+    "definition": "The Kalecki profit identity (an accounting tautology) means fiscal deficits at 6-7% of GDP (~$1.4-1.7T annually) mechanically sustain corporate profits. This historically unprecedented non-recessionary deficit level is a first-order variable suppressing corporate default rates, invalidating backward-looking default comparisons. Directional importance is high-confidence; quantification is an unresolved assertion.",
+    "confidence": 7,
+    "evidence": [
+      "Kalecki profit identity is an accounting tautology with deficits mechanically sustaining profits",
+      "Current deficit at 6-7% GDP is historically unprecedented during non-recessionary periods",
+      "No prior credit stress episode operated with deficits above 3.5%",
+      "All 8 agents reference this as significant",
+      "The 100-150bp threshold estimate was refuted as uncalibrated in pair_0 debate",
+      "Neither party in any debate estimated the elasticity of default rates to fiscal spending"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01",
+      "risk_analyst_02",
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_02",
+      "commodities_analyst_01",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "What is the elasticity of default rates to fiscal spending?",
+      "Will the buffer collapse through political choice (DOGE, TCJA expiration) or persist through inertia?",
+      "Does the buffer fundamentally change the credit cycle or merely extend it?",
+      "At what deficit level does the buffer become inflationary and self-defeating?"
+    ],
+    "related_concepts": [
+      "hy_default_rate_mispricing",
+      "cross_capital_structure_compression_tail_risk",
+      "maturity_wall_conditional_amplifier",
+      "credit_premium_compression",
+      "roic_wacc_amplification_channel"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "maturity_wall_conditional_amplifier",
+    "definition": "The sub-investment-grade maturity wall ($900B-$1.5T, 2025-2028) produces 200-400bp higher refinancing costs and 40-60% cash interest increases for B-rated issuers. It is a conditional amplifier, not an independent causal variable: base-rate analysis (n=4) shows 2/2 maturity walls with recession produced systemic outcomes, 0/2 without recession were orderly.",
+    "confidence": 7,
+    "evidence": [
+      "200-400bp higher refinancing costs, 40-60% cash interest increase for B-rated issuers",
+      "Base-rate analysis (n=4): 2/2 with recession systemic, 0/2 without recession orderly",
+      "Pair_2 debate refuted near-mechanical regime shift framing, confirmed conditional amplifier frame",
+      "Amend-and-extend activity surges precede defaults by 12-18 months"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_02",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will a recession coincide with the 2025-2028 maturity wall?",
+      "How much can amend-and-extend, rate cuts, and fiscal intervention absorb?",
+      "What is private credit's capacity as an alternative refinancing channel?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "term_premium_credit_premium_divergence",
+      "covenant_lite_default_dynamics",
+      "sovereign_corporate_credit_nexus",
+      "hy_default_rate_mispricing"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "private_credit_informational_degradation",
+    "definition": "Private credit ($1.7T) has structurally degraded the informational content of public credit spreads. Worst credits migrate to private markets creating survivorship bias, NAV autocorrelation of 0.5-0.7 suppresses measured volatility by 2-3x, and portfolios with 10-15% private credit underestimate true volatility by 15-25% during stress. Confirmed as genuinely novel with no clean historical analogue.",
+    "confidence": 7,
+    "evidence": [
+      "Four independent agents converge on this finding",
+      "NAV autocorrelation 0.5-0.7 suppresses measured volatility by 2-3x",
+      "Portfolios with 10-15% private credit underestimate true portfolio volatility by 15-25% during stress",
+      "$1.7T excluded entirely from public default statistics",
+      "$300B+ in semi-liquid private credit vehicles have quarterly redemption features",
+      "Closest partial analogue is pre-2008 SIVs"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is private credit a systemic fragility source or shock absorber (regime-dependent)?",
+      "How will $300B+ semi-liquid vehicles perform under sudden liquidity stress?",
+      "Can secondary market NAV discounts serve as early warning indicators?"
+    ],
+    "related_concepts": [
+      "credit_cycle_indicator_degradation",
+      "hy_index_composition_improvement",
+      "credit_factor_crowding",
+      "basis_trade_contagion_channel"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "ig_energy_spread_cyclical_compression",
+    "definition": "IG energy spread compression (~100-120bp from ~140-160bp) is driven by cyclical balance sheet discipline (net debt/EBITDA falling from >3x to <1x via reinvestment rates of 30-50% vs >100% pre-2020), not structural re-rating. Historical precedent from 2004-07 and 2010-14 shows discipline erodes when prices sustain above full-cycle breakevens.",
+    "confidence": 8,
+    "evidence": [
+      "Net debt/EBITDA for US E&P fell from >3x (2020) to <1x (2023-24)",
+      "Reinvestment rates 30-50% vs >100% pre-2020",
+      "Historical precedent from 2004-07 and 2010-14 shows discipline erosion",
+      "M&A acceleration signals cycle aging",
+      "Pair_1 confirmed fundamentals-driven rather than dollar-driven safe-haven explanation"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "When will capex discipline erode in the current cycle?",
+      "How does ESG-driven cost-of-capital wedge affect energy credit duration?"
+    ],
+    "related_concepts": [
+      "credit_premium_compression",
+      "futures_curve_credit_input",
+      "dollar_cycle_corporate_spread_variance"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "hy_default_rate_mispricing",
+    "definition": "HY default rates appear directionally mispriced (market-implied ~2.5% vs. unconditional base rate ~4.1%), but statistical significance weakens after adjusting for serial correlation (t-stat falls from ~2.4 to ~1.8, p~0.08 with effective sample ~25). The Kalecki fiscal buffer and HY index composition changes are legitimate confounds that could rationalize current pricing.",
+    "confidence": 6,
+    "evidence": [
+      "At n=42 years, gap significant (t-stat ~2.4, p<0.02) under i.i.d. assumption",
+      "After serial correlation adjustment (autocorrelation ~0.4), effective sample ~25, t-stat ~1.8, p~0.08",
+      "HY index BB share increased from 38% to 52%, energy exposure fell from 15% to 9%",
+      "Pair_2 confirmed more likely mispriced than not but insufficient for high-conviction call"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the Kalecki fiscal buffer rationalize current HY pricing?",
+      "How much of the gap is explained by composition improvement vs genuine mispricing?",
+      "How do EBITDA addbacks affect true default probabilities relative to market-implied rates?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_leverage_inflation",
+      "kalecki_fiscal_buffer",
+      "hy_index_composition_improvement",
+      "credit_premium_compression",
+      "maturity_wall_conditional_amplifier"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "credit_premium_compression",
+    "definition": "Credit premium is compressed 30-40% per unit of risk relative to post-2000 medians (risk premium ~124bp vs ~180-220bp median). However, this is not independent of the default rate mispricing finding — it inherits identical uncertainty and adds no independent information. Using market-implied expected loss, there is no compression at all.",
+    "confidence": 6,
+    "evidence": [
+      "Base-rate expected loss (4.1% x 60% LGD = 246bp), risk premium = 370 - 246 = 124bp vs post-2000 median ~180-220bp",
+      "quant_researcher_01 explicitly identified this as the default rate mispricing claim in different form",
+      "challenger_01 compositional argument narrows gap further",
+      "EBITDA addbacks partially offset composition improvement"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is there any independent information in credit premium compression beyond default rate mispricing?",
+      "What is the net compression after adjusting for both composition and addbacks?"
+    ],
+    "related_concepts": [
+      "hy_default_rate_mispricing",
+      "hy_index_composition_improvement",
+      "ebitda_addback_leverage_inflation",
+      "credit_inefficient_risk_premium"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "term_premium_credit_premium_divergence",
+    "definition": "Term premium has rebuilt to 80-130bp (pricing fiscal/supply risk expensive) while credit premium compresses simultaneously — a genuine anomaly. The maturity wall is the transmission mechanism converting the rates signal into credit events. Historical base rate: 2/3 prior episodes resolved via credit widening, but exception (2018-19) required a Fed pivot.",
+    "confidence": 6,
+    "evidence": [
+      "Term premium at 80-130bp pricing fiscal/supply risk",
+      "Credit premium simultaneously compressing",
+      "n=3 prior episodes, 2/3 resolved via credit widening",
+      "Identified as most original contribution in pair_0 debate",
+      "Critical flaw: two premia may not price the same macro state variable"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Are term premium and credit premium pricing the same macro state variable?",
+      "Can term premium reflect fiscal supply dynamics without implying growth uncertainty?",
+      "Will resolution come through credit widening, term premium compression, or Fed intervention?"
+    ],
+    "related_concepts": [
+      "maturity_wall_conditional_amplifier",
+      "sovereign_corporate_credit_nexus",
+      "cross_capital_structure_compression_tail_risk",
+      "kalecki_fiscal_buffer"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "dollar_cycle_corporate_spread_variance",
+    "definition": "The dollar cycle explains 30-40% of global corporate spread variance in bivariate analysis, but independent explanatory power drops to 10-20% in multivariate regressions after controlling for VIX, global growth expectations, and other risk factors. The synchronization claim is directionally correct but quantitatively inflated.",
+    "confidence": 6,
+    "evidence": [
+      "BIS dollar-as-risk-factor literature (Bruno and Shin) is well-established",
+      "DXY 15% appreciation (2021-22) coincided with EM spread widening ~200bp, US IG compression ~30bp",
+      "Multivariate regressions show marginal dollar contribution at 10-20%",
+      "30-40% bivariate R-squared overstates independent power via shared variance"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "What is the dollar's true independent contribution after all controls?",
+      "Does the dollar channel amplify during specific regimes such as rapid appreciation?"
+    ],
+    "related_concepts": [
+      "em_corporate_credit_bifurcation",
+      "sovereign_corporate_credit_nexus",
+      "ig_energy_spread_cyclical_compression",
+      "currency_hedged_non_us_credit_value"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "credit_factor_crowding",
+    "definition": "PCA analysis shows PC1 explains >65% of variance across HY, loans, and CLO equity, comparable to G10 FX dollar factor. Effective dimensionality of ~1.5-2.0 means diversification across credit sub-asset classes is largely illusory. BB-CCC spread ratio compression from 3.0-3.5x to ~2.0-2.5x confirms lack of quality discrimination.",
+    "confidence": 7,
+    "evidence": [
+      "PC1 explains >65% of variance across HY, loans, and CLO equity",
+      "Effective dimensionality ~1.5-2.0",
+      "BB-CCC spread ratio compressed from 3.0-3.5x to ~2.0-2.5x",
+      "FX carry analogy suggests crowding only predictive at >90th percentile",
+      "Current levels may be elevated but not tail per quant_researcher_02 own caveat"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Is current crowding at or above the >90th percentile predictive threshold?",
+      "How does private credit allocation affect measured crowding in public markets?",
+      "What triggers the transition from crowded-but-stable to crowded-and-unwinding?"
+    ],
+    "related_concepts": [
+      "cross_capital_structure_compression_tail_risk",
+      "bearish_credit_positioning_asymmetry",
+      "intra_credit_cascade_sequence",
+      "credit_inefficient_risk_premium"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "sovereign_corporate_credit_nexus",
+    "definition": "The sovereign-corporate credit nexus is tightening through multiple transmission channels: fiscal deficit creating structural Treasury yield floors, TCJA extension tax policy uncertainty, and European doom loop 2.0 dynamics (France deficit ~5.5% GDP, debt >110% GDP, bank-sovereign linkage). Direction is clear and mechanisms are measurable, but may not be mispriced.",
+    "confidence": 7,
+    "evidence": [
+      "Multiple observable transmission channels identified",
+      "Fiscal deficit creating structural Treasury yield floor",
+      "TCJA extension uncertainty affecting corporate tax planning",
+      "France deficit ~5.5% GDP, debt >110% GDP with bank-sovereign linkage",
+      "Pair_3 noted risks may be present but not necessarily mispriced"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Are sovereign-corporate nexus risks mispriced or merely present and priced?",
+      "How does European doom loop 2.0 transmit to US corporate credit?",
+      "What is probability of TCJA non-extension and its credit impact?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "maturity_wall_conditional_amplifier",
+      "term_premium_credit_premium_divergence",
+      "twin_deficit_credit_constraint"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "china_property_structural_demand_reduction",
+    "definition": "China property sector restructuring represents a structural (not cyclical) demand reduction for metals. Housing starts fell from ~15M/year peak to ~7-8M. Demographics (shrinking working-age population, urbanization ~65%) preclude return to prior peaks. A multi-year demand valley between declining property demand and growing green demand stresses mining credits with fixed cost structures.",
+    "confidence": 7,
+    "evidence": [
+      "China accounts for ~50% of global base metals demand",
+      "Housing starts fell from ~15M/year peak to ~7-8M",
+      "Demographics preclude return to prior peaks: shrinking working-age population, urbanization near saturation at ~65%",
+      "Green demand substitution growing from smaller base creates timing mismatch"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "How fast will green demand substitution close the demand valley?",
+      "Which specific mining credits are most exposed?",
+      "Will Chinese fiscal stimulus partially offset the structural decline?"
+    ],
+    "related_concepts": [
+      "futures_curve_credit_input",
+      "ig_energy_spread_cyclical_compression",
+      "gold_miner_central_bank_floor"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "bearish_credit_positioning_asymmetry",
+    "definition": "Bearish credit positioning is tactically crowded (BofA FMS net -12% HY underweight vs +5% historical median, $28B trailing 12-month HY outflows, CDX HY skew at 1.8x vs 1.3x average), creating 100-150bp tightening potential on positive surprises. However, $1.7T private credit longs and $1.3-1.5T CLO structural longs mean total credit exposure is not bearish. The ~50-100bp annualized carry cost is a structural headwind to the short thesis.",
+    "confidence": 6,
+    "evidence": [
+      "BofA FMS net -12% HY underweight vs +5% historical median",
+      "$28B trailing 12-month HY outflows",
+      "CDX HY skew at 1.8x vs 1.3x average",
+      "100-150bp tightening potential on positive surprise",
+      "$1.7T private credit + $1.3-1.5T CLOs = massive structural longs regardless of survey sentiment",
+      "~50-100bp annualized carry cost as structural headwind to short thesis"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the precise decomposition of tactical vs mandated/structural credit exposure?",
+      "How quickly could structural longs become forced sellers?",
+      "Is the carry cost sustainable for tactical shorts?"
+    ],
+    "related_concepts": [
+      "credit_factor_crowding",
+      "cross_capital_structure_compression_tail_risk",
+      "credit_premium_compression",
+      "exogenous_catalyst_requirement"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "cross_capital_structure_compression_tail_risk",
+    "definition": "Simultaneous compression of ERP (2.5-3.0%, 10th-15th percentile), credit premium, and ROIC-WACC (3.5-5.0pp, tightest since 2007-08) amplifies tail risk through regime-dependent correlation (0.3-0.4 normal to 0.7-0.9 crisis). At current ROIC-WACC levels, 100bp WACC increase destroys ~25% of EVA, creating mechanical feedback from credit widening to equity fundamental impairment.",
+    "confidence": 7,
+    "evidence": [
+      "ERP at 2.5-3.0% (10th-15th percentile historically)",
+      "ROIC-WACC spread at 3.5-5.0pp, tightest since 2007-08",
+      "Regime-dependent correlation: 0.3-0.4 normal to 0.7-0.9 crisis",
+      "100bp WACC increase destroys ~25% of EVA at current spreads",
+      "Pair_2 confirmed ROIC-WACC channel as genuinely novel",
+      "Kalecki buffer may rationalize all premia simultaneously, reducing independence"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "If Kalecki buffer rationalizes credit, does it also rationalize ERP and ROIC-WACC?",
+      "What is the threshold WACC increase that triggers nonlinear EVA destruction?",
+      "How correlated would the unwind actually be across equity and credit?"
+    ],
+    "related_concepts": [
+      "roic_wacc_amplification_channel",
+      "kalecki_fiscal_buffer",
+      "credit_premium_compression",
+      "credit_factor_crowding",
+      "basis_trade_contagion_channel"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "hy_index_composition_improvement",
+    "definition": "HY index composition has structurally improved (BB share 38% to 52%, energy exposure 15% to 9%), narrowing true spread compression. The 65bp uncertainty range in expected loss estimates could eliminate the compression claim at the lower bound. However, EBITDA addbacks (8/10 confidence) mean improved ratings are suspect — BB borrowers with 25-40% addbacks may actually be B-rated on adjusted metrics.",
+    "confidence": 7,
+    "evidence": [
+      "ICE BofA HY Index: BB share increased from 38% to 52%",
+      "Energy weight declined from 15% to 9%",
+      "65bp uncertainty range in expected loss estimates",
+      "Pair_3 confirmed challenger_01 compositional argument",
+      "EBITDA addbacks at 8/10 confidence partially offset composition improvement"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the net effect of composition improvement after accounting for addbacks?",
+      "How many BB-rated issuers would be reclassified on addback-adjusted leverage?",
+      "Is composition improvement itself a result of survivorship bias from private credit migration?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_leverage_inflation",
+      "credit_premium_compression",
+      "hy_default_rate_mispricing",
+      "private_credit_informational_degradation"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "credit_inefficient_risk_premium",
+    "definition": "Credit offers an inefficient risk premium after higher-moment adjustments. Return distribution exhibits skewness of -1.2 to -1.8 and excess kurtosis of 4-8. Implementation-adjusted Sharpe ratio compresses from backtested 0.5-0.7 to 0.25-0.35 after bid-ask spreads, roll-down assumptions, and asymmetric rebalancing costs. Directional conclusion is robust; uncertainty is plus/minus 0.10 on Sharpe.",
+    "confidence": 6,
+    "evidence": [
+      "Skewness -1.2 to -1.8, excess kurtosis 4-8 in credit returns",
+      "Sharpe compresses from 0.5-0.7 backtested to 0.25-0.35 implementation-adjusted",
+      "Under Harvey-Liu-Zhu framework, barely survives t-stat threshold of 2.0",
+      "Pair_2 confirmed as genuinely useful finding challenging institutional allocation",
+      "Uncertainty plus/minus 0.10 on Sharpe; directional conclusion robust"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "How does implementation-adjusted Sharpe compare to other fixed income asset classes?",
+      "Does the inefficiency justify reduced institutional allocation to credit?",
+      "How does the Sharpe vary across credit quality tiers after adjustments?"
+    ],
+    "related_concepts": [
+      "credit_premium_compression",
+      "credit_factor_crowding",
+      "cross_capital_structure_compression_tail_risk"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "basis_trade_contagion_channel",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) has potentially altered the Treasury-to-credit contagion channel. March 2020 provided partial validation: Treasury dysfunction led to repo spike led to credit freeze. The traditional flight-to-quality assumption may be structurally impaired, though the degree of impairment is unknown.",
+    "confidence": 5,
+    "evidence": [
+      "Estimated $800B-$1T at 50-100x leverage",
+      "March 2020 validation: Treasury dysfunction to repo spike to credit freeze",
+      "Pair_0 confirmed as genuine structural insight with portfolio implications",
+      "Single agent origination; current size and leverage estimates uncertain",
+      "Regulatory response may have partially mitigated since March 2020"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Have regulatory responses partially mitigated the channel since March 2020?",
+      "What is the current accurate size and leverage?",
+      "To what degree is flight-to-quality impaired vs merely delayed?"
+    ],
+    "related_concepts": [
+      "private_credit_informational_degradation",
+      "cross_capital_structure_compression_tail_risk",
+      "credit_factor_crowding"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "credit_equity_lead_lag_compression",
+    "definition": "The credit-equity lead-lag relationship has compressed from 6-8 months to 0-2 months post-2015, based on rolling cross-correlation analysis. If confirmed, this eliminates the most actionable cross-asset early warning signal. However, n<5 independent turning points post-2015 is insufficient for confirmation, and the compression could be temporary (low-vol regime) rather than structural.",
+    "confidence": 5,
+    "evidence": [
+      "Rolling cross-correlation: peak shifted from 4-6 month lag to 0-1 month",
+      "Pair_2 confirmed as novel insight",
+      "n<5 independent turning points post-2015 insufficient for confirmation",
+      "Could be temporary low-vol regime artifact rather than structural"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Is the compression structural or a low-volatility regime artifact?",
+      "Does ETF/passive growth explain the compression?",
+      "How does this interact with the intra-credit cascade sequence timing?"
+    ],
+    "related_concepts": [
+      "intra_credit_cascade_sequence",
+      "credit_cycle_indicator_degradation",
+      "credit_factor_crowding"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "covenant_lite_default_dynamics",
+    "definition": "Covenant-lite structures dominate leveraged lending with contested default implications. S&P LCD data shows covenant-lite defaulted at 2.2% cumulative vs 3.8% covenant-heavy through COVID. Alternative hypothesis: eliminating technical defaults creates bimodal cliff dynamics where defaults are lower but recovery rates worse when they occur. N=0 full cycles without unprecedented policy support have been observed.",
+    "confidence": 5,
+    "evidence": [
+      "S&P LCD: covenant-lite first-lien loans defaulted at 2.2% cumulative vs 3.8% covenant-heavy through COVID",
+      "COVID tested covenant-lite under unprecedented policy support, not organic deterioration",
+      "Mechanism for suppression: eliminating false-positive technical defaults",
+      "Mechanism for bimodality: no early warning triggers until distress is severe",
+      "n=0 full cycles without policy rescue; interaction with higher funding costs untested"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How will covenant-lite perform under organic deterioration without policy rescue?",
+      "Does interaction with higher absolute funding costs produce different outcomes?",
+      "Are recovery rates meaningfully lower for covenant-lite defaults?",
+      "Does covenant-lite reduce aggregate defaults or just delay and concentrate them?"
+    ],
+    "related_concepts": [
+      "maturity_wall_conditional_amplifier",
+      "ebitda_addback_leverage_inflation",
+      "kalecki_fiscal_buffer"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "sanctions_shadow_credit_rating",
+    "definition": "Sanctions architecture functions as a shadow credit rating system with embedded credit options. Russia 2022 provides empirical validation where IG issuers became untradeable overnight. The framework identifies a real gap in sanctions-adjusted recovery analysis, though no other agent independently developed this concept.",
+    "confidence": 5,
+    "evidence": [
+      "Russia 2022: IG issuers became untradeable overnight",
+      "Pair_3 confirmed as genuinely original and analytically productive",
+      "Single agent origination with no independent corroboration",
+      "Extension to China (5-15% Taiwan contingency) presented without methodology"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "What methodology should estimate China/Taiwan sanctions probability?",
+      "How should sanctions-adjusted recovery rates be modeled?",
+      "Are credit markets pricing any sanctions risk premium for China-exposed issuers?"
+    ],
+    "related_concepts": [
+      "strategic_geopolitical_zombies",
+      "sovereign_corporate_credit_nexus",
+      "em_corporate_credit_bifurcation"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "strategic_geopolitical_zombies",
+    "definition": "A new class of zombie firms sustained by national security rationale rather than market viability. Synthesizes Japan demographic zombie mechanism with geopolitical subsidy mechanisms (CHIPS Act, defense industrial base, critical minerals programs). Scale and durability through fiscal consolidation pressures are unknown.",
+    "confidence": 5,
+    "evidence": [
+      "CHIPS Act, defense industrial base subsidies, critical minerals programs are observable",
+      "Pair_3 confirmed as novel synthesis",
+      "Parallels Japan demographic zombie mechanism via capital-market rather than bank-based mechanisms",
+      "Single agent origination; scale and durability unknown"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "What is the total scale of firms sustained primarily by geopolitical subsidies?",
+      "How durable are these subsidies through fiscal consolidation pressures?",
+      "Do strategic zombies absorb capital from more productive firms?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "sanctions_shadow_credit_rating",
+      "sovereign_corporate_credit_nexus"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "gold_miner_central_bank_floor",
+    "definition": "Gold miner credit is in a structurally favorable position due to central bank buying regime shift (1,000+ tonnes/year post-2022). AISC coverage ratio at 1.5-1.7x at current prices is robust. Key uncertainty is whether central bank demand is durable or front-loaded diversification that plateaus.",
+    "confidence": 5,
+    "evidence": [
+      "AISC coverage ratio 1.5-1.7x at current gold prices",
+      "Central bank buying at 1,000+ tonnes/year post-2022",
+      "Single agent origination with no corroboration"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will central bank gold buying plateau as diversification objectives are met?",
+      "How does the gold price floor translate to specific credit metric thresholds?",
+      "Is the buying regime structural or could it reverse with geopolitical shifts?"
+    ],
+    "related_concepts": [
+      "china_property_structural_demand_reduction",
+      "futures_curve_credit_input"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "currency_hedged_non_us_credit_value",
+    "definition": "Currency-hedged non-US credit offers 150-300bp pickup versus US IG, based on straightforward observable market arithmetic. Persistence depends on ECB/BoJ policy paths, and structural impediments (regulatory, institutional) can prevent arbitrage for years.",
+    "confidence": 5,
+    "evidence": [
+      "150-300bp hedged pickup observable in market data",
+      "Arithmetic is straightforward and verifiable",
+      "Persistence depends on central bank policy divergence",
+      "Single agent origination"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "How persistent is the hedged pickup under convergent central bank policies?",
+      "What institutional and regulatory barriers prevent full arbitrage?",
+      "Does hedging cost volatility create additional unpriced risk?"
+    ],
+    "related_concepts": [
+      "dollar_cycle_corporate_spread_variance",
+      "sovereign_corporate_credit_nexus",
+      "em_corporate_credit_bifurcation"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "futures_curve_credit_input",
+    "definition": "Commodity futures curve structure (contango vs backwardation) is a first-order credit input for commodity producers, affecting hedge book economics, margin requirements, and cash flow predictability. Rating agencies are increasingly incorporating hedge book analysis. Forward curve structure is difficult to predict, limiting forward-looking utility.",
+    "confidence": 5,
+    "evidence": [
+      "Pair_1 flagged as genuinely underappreciated and strongest novel contribution",
+      "Mechanical relationship between curve structure and producer cash flows is clear",
+      "Rating agencies increasingly incorporating hedge book analysis",
+      "Forward curve structure itself is difficult to predict"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Can futures curve regime be reliably predicted?",
+      "How should curve structure be incorporated into commodity credit models?",
+      "What is the historical correlation between curve structure changes and commodity issuer spreads?"
+    ],
+    "related_concepts": [
+      "ig_energy_spread_cyclical_compression",
+      "china_property_structural_demand_reduction",
+      "gold_miner_central_bank_floor"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "em_corporate_credit_bifurcation",
+    "definition": "EM corporate credit is bifurcating along a dollar-exposure axis. High local-currency debt countries (India ~85%, ASEAN) are structurally improving, while dollar-dependent frontier markets remain vulnerable. However, sufficiently violent dollar strengthening may overwhelm bifurcation as correlations approach 1 in stress.",
+    "confidence": 5,
+    "evidence": [
+      "India ~85% local-currency debt represents structural improvement",
+      "2013 taper tantrum and 2018 Turkey/Argentina episodes suggest partial bifurcation survival",
+      "Dollar stress episodes tend to push correlations toward 1",
+      "Single agent origination"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "At what dollar appreciation threshold does bifurcation break down?",
+      "Is India/ASEAN decoupling genuine or merely delayed transmission?",
+      "How does China property restructuring affect ASEAN corporate credit?"
+    ],
+    "related_concepts": [
+      "dollar_cycle_corporate_spread_variance",
+      "china_property_structural_demand_reduction",
+      "sanctions_shadow_credit_rating"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "twin_deficit_credit_constraint",
+    "definition": "The US twin deficit trajectory (fiscal plus current account, requiring ~$2.5-3T annual foreign capital inflow) may become a binding constraint on foreign demand for US corporate credit through Treasury crowding out. The US has run twin deficits for decades without this binding, and whether current magnitude has crossed a nonlinear threshold has no clean historical analog.",
+    "confidence": 4,
+    "evidence": [
+      "Combined ~$2.5-3T annual foreign capital inflow requirement",
+      "Treasury issuance potentially crowding out marginal corporate bond buyer",
+      "Japan repatriation pressure and China diversification are suggestive",
+      "US has run twin deficits for decades without this binding"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Has the twin deficit magnitude crossed a nonlinear threshold?",
+      "What would trigger the shift from non-binding to binding?",
+      "How would Treasury crowding out of corporate demand manifest in spreads?"
+    ],
+    "related_concepts": [
+      "sovereign_corporate_credit_nexus",
+      "dollar_cycle_corporate_spread_variance",
+      "kalecki_fiscal_buffer"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "roic_wacc_amplification_channel",
+    "definition": "At ROIC-WACC spreads of 3.5-5.0pp (tightest since 2007-08), a 100bp WACC increase destroys ~25% of EVA, creating a novel mechanical feedback loop from credit spread widening to equity fundamental impairment. This generates cross-asset correlation not captured by traditional models.",
+    "confidence": 7,
+    "evidence": [
+      "ROIC-WACC at 3.5-5.0pp, tightest since 2007-08",
+      "100bp WACC increase destroys ~25% of EVA mechanically",
+      "Pair_2 confirmed as genuinely novel channel",
+      "Kalecki buffer may rationalize compression, reducing independence of the signal"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Is ROIC-WACC compression rationalized by the Kalecki buffer?",
+      "What is the sector-level distribution of ROIC-WACC spreads?",
+      "At what spread does the feedback loop become self-reinforcing?"
+    ],
+    "related_concepts": [
+      "cross_capital_structure_compression_tail_risk",
+      "kalecki_fiscal_buffer",
+      "credit_premium_compression",
+      "maturity_wall_conditional_amplifier"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  },
+  {
+    "slug": "exogenous_catalyst_requirement",
+    "definition": "Tight credit spread regimes rarely end from endogenous deterioration — they require an exogenous catalyst. Historical examples: LTCM (1998), subprime (2007), oil collapse (2015), pandemic (2020). The identity of the catalyst is unknowable; the actionable question is whether the system is fragile enough that a moderate shock produces nonlinear outcomes.",
+    "confidence": 7,
+    "evidence": [
+      "Historical pattern across 4 episodes: 1998 LTCM, 2007 subprime, 2015 oil, 2020 pandemic",
+      "No instance of tight-spread regime ending from purely endogenous deterioration",
+      "Confirmed across multiple debates as important check on endogenous-deterioration narratives"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the current system fragile enough for moderate shocks to produce nonlinear outcomes?",
+      "Does the Kalecki fiscal buffer raise the threshold for a sufficient catalyst?",
+      "Can regime fragility be measured independently of knowing the catalyst?"
+    ],
+    "related_concepts": [
+      "cross_capital_structure_compression_tail_risk",
+      "maturity_wall_conditional_amplifier",
+      "bearish_credit_positioning_asymmetry",
+      "intra_credit_cascade_sequence"
+    ],
+    "topic": "corporate_credit",
+    "iteration_id": "iter_0029"
+  }
+]
