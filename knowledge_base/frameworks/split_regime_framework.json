@@ -1,0 +1,27 @@
+{
+  "slug": "split_regime_framework",
+  "purpose": "Describes the bifurcated monetary-fiscal regime where the front-end of the yield curve follows conventional monetary policy while the long-end is dominated by fiscal supply dynamics, with distinct implications for each segment.",
+  "components": [
+    "Front-end (2Y): conventional monetary policy transmission, negative stock-bond correlation, Fed credibility intact",
+    "Long-end (30Y): fiscal supply dominance, positive stock-bond correlation, term premium driven by supply/demand composition",
+    "Transition zone (5-10Y): mixed regime, 5Y5Y forward as regime indicator, fiscal wedge observable in cross-country comparison",
+    "Forward guidance horizon: credible within 6 months, structurally non-credible beyond",
+    "Butterfly spread (5s10s30s): potential sovereign stress signal within the split regime"
+  ],
+  "current_assessment": "Split regime is active. 2Y-SPX correlation -0.15 to -0.30, 30Y-SPX +0.05 to +0.15. 5Y5Y forward at 3.8-4.2% includes estimated fiscal wedge vs German 5Y5Y at 2.5-2.8%. MOVE index elevated at 95-130 confirms degraded transmission across the curve.",
+  "limitations": [
+    "Only two historical resolution precedents (1965-69, 2003-06), N=2",
+    "Precise maturity at which regime transitions is unstable and time-varying",
+    "Current fiscal configuration (6.5% deficit at sub-4% unemployment) has zero peacetime precedent",
+    "Resolution path unknown — front-end could follow long-end into fiscal dominance, or long-end could normalize",
+    "r* vs term premium separation may be impossible with available data, complicating measurement"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

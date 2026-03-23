@@ -1,0 +1,129 @@
+[
+  {
+    "slug": "sovereign_stress_sequencing",
+    "purpose": "Maps the progression of sovereign stress from early warning through crisis, providing real-time placement of sovereigns along a six-stage continuum.",
+    "components": [
+      "Stage 1: Fiscal arithmetic deterioration (rising debt service, WAC rollover, widening comprehensive vs headline deficit gap)",
+      "Stage 2: Market signal emergence (term premium expansion, correlation bifurcation, auction tail widening, cross-asset inconsistency)",
+      "Stage 3: Policy constraint binding (rate ceiling activation, forward guidance degradation, Taylor coefficient compression)",
+      "Stage 4: Transmission mechanism stress (basis trade fragility, demand composition tipping, sovereign-corporate channel loading)",
+      "Stage 5: Institutional capitulation (~300-400bp spread widening from European crisis template)",
+      "Stage 6: Crisis resolution (financial repression, restructuring, inflation erosion, or positive-tail productivity resolution)"
+    ],
+    "current_assessment": "US placed at Stage 1-2: fiscal arithmetic deteriorating (WAC rollover underway), early market signals emerging (correlation bifurcation, auction tail widening), but policy constraints not yet binding at current rate levels.",
+    "limitations": [
+      "Stage progression is not necessarily linear or monotonic — stages can be skipped or reversed",
+      "N=2-3 for full progression in advanced economies",
+      "Individual stages can persist for years without advancing",
+      "External shocks (geopolitical, pandemic) can accelerate or decelerate progression",
+      "The framework does not assign probabilities to progression between stages"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "cross_asset_inconsistency_framework",
+    "purpose": "Identifies which asset classes are mispricing the sovereign debt regime by mapping their implied fiscal trajectories against each other, providing an organizing analytical framework for sovereign risk assessment.",
+    "components": [
+      "Equity valuation signal (forward P/E) — implied fiscal trajectory (currently: benign)",
+      "Credit spread signal (IG/HY) — implied fiscal trajectory (currently: benign)",
+      "Rates signal (term premium, 5Y5Y forward, fiscal wedge) — implied fiscal trajectory (currently: stress)",
+      "Gold and CB reserve allocation signal — implied fiscal trajectory (currently: stress)",
+      "Stock-bond correlation by maturity — regime identification signal (currently: split)"
+    ],
+    "current_assessment": "Equities and credit price benign fiscal trajectory; rates and gold price fiscal stress. At least two asset classes are mispricing. The inconsistency is directly observable in market prices. Which market is 'wrong' carries more uncertainty than the inconsistency itself.",
+    "limitations": [
+      "Cannot determine which side of the inconsistency will resolve",
+      "Kalecki-Levy identity may make equity pricing internally consistent even under fiscal stress",
+      "Gold pricing confounded by post-Russia-sanctions diversification, EM reserve composition shift, momentum",
+      "Time horizon of resolution is unknown — inconsistency can persist for years",
+      "Credit spreads reflect both fiscal and structural-demand (CLO, insurance) factors"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "post_wwii_deleveraging_channel_analysis",
+    "purpose": "Evaluates the availability and effectiveness of four historical deleveraging channels under current structural conditions to determine which paths remain open for DM sovereign debt resolution.",
+    "components": [
+      "Financial repression / negative real rates: partially available but constrained by capital mobility, digital alternatives, and agricultural supply shocks. Operating band narrowed from ~4-5pp to ~2-3pp.",
+      "Strong real GDP growth: impaired by demographics but potentially reopened by AI productivity. Structural vs cyclical determination of current ~2.7% labor productivity is the key uncertainty.",
+      "Primary surplus: blocked by entitlement spending at 14-15% of GDP vs 3-4% in 1945. IMF base rate for required consolidation <10%.",
+      "Inflation erosion: constrained by above-target starting point, agricultural supply shocks, and narrowed operating band. Above-target inflation sustained for years required for meaningful deleveraging."
+    ],
+    "current_assessment": "Only financial repression remains clearly available, at reduced effectiveness (1-2pp/year vs 4pp/year post-WWII). Overall structural similarity to the post-WWII template estimated at 0.35. The modal outcome is a slow, multi-decade deleveraging via repression with periodic interruptions.",
+    "limitations": [
+      "Post-WWII is N=1 for successful advanced-economy deleveraging at this scale",
+      "Modern capital mobility has no historical parallel for comparison",
+      "AI productivity could reopen the growth channel in ways not captured by historical analysis",
+      "Channel interactions are poorly understood — channels may substitute or conflict",
+      "Biofuel mandates may structurally narrow the repression operating band in ways without historical parallel"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "sovereign_corporate_transmission_framework",
+    "purpose": "Maps the five distinct channels through which sovereign fiscal stress transmits to corporate credit markets, enabling assessment of whether a sovereign-led credit repricing is imminent.",
+    "components": [
+      "Funding cost channel: sovereign yields set floor for corporate borrowing costs, with passthrough lagged by corporate maturity profile",
+      "Crowding-out channel: Treasury supply competes for fixed-income allocation, widening corporate spreads at the margin",
+      "Basis trade amplifier: Treasury market stress propagates via leveraged positions into broader fixed-income and equity markets",
+      "Kalecki-reverse channel: fiscal consolidation (if attempted) reduces corporate earnings via the Kalecki-Levy identity",
+      "Rating migration channel: sovereign downgrade triggers corporate downgrades through sovereign ceiling constraints"
+    ],
+    "current_assessment": "All five channels loading bearish simultaneously for the first time since at least the European crisis. Historical precedent N=2-3 makes this a tail risk rather than base case. The correlation structure across channels is the critical unknown.",
+    "limitations": [
+      "Kalecki-reverse only activates during consolidation, which has <10% base rate of occurring at required magnitude",
+      "Private credit ($1.5T+) is a structural blind spot in measuring channel effects",
+      "Rating migration timing depends on rating agency behavior, which is difficult to predict",
+      "No historical template for simultaneous loading of all five channels in a reserve-currency issuer",
+      "CLO structural demand and insurance regulatory demand may structurally suppress credit spreads regardless of sovereign stress"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "em_vulnerability_classification_framework",
+    "purpose": "Classifies EM sovereign vulnerability using food-trade balance, commodity/services structure, and standard macro indicators to predict cross-sectional stress distribution during global tightening episodes.",
+    "components": [
+      "Food trade balance (net importer vs exporter) — amplifier of vulnerability, correlated with but partially independent from standard factors",
+      "Commodity vs services export structure — determines China LGFV deflation export exposure and terms-of-trade sensitivity",
+      "FX reserve adequacy (months of import cover) — standard crisis resilience indicator",
+      "Local-currency market depth — determines refinancing alternatives to hard-currency borrowing",
+      "Hard-currency maturity profile — calendar-identifiable stress catalyst",
+      "China deflation export exposure — structural EM risk factor through manufacturing margin compression"
+    ],
+    "current_assessment": "Commodity exporters (Brazil, Indonesia) structurally outperform food importers (Egypt, Bangladesh). Top-tier EMs (India, Indonesia, Mexico) showing DM-EM risk gap narrowing. AI automation creates emerging risk for services EMs. Food-importing EMs face triple squeeze during tightening episodes.",
+    "limitations": [
+      "Food trade balance is correlated with standard vulnerability factors — independent contribution hard to isolate",
+      "DM-EM risk gap narrowing concentrated in 5-8 countries, not broad EM",
+      "China LGFV impact estimates (0.5-1.5% GDP) are too wide for precision",
+      "Classification does not account for political risk, governance quality, or institutional strength",
+      "AI automation risk for services EMs is speculative and unquantified"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "split_regime_framework",
+    "purpose": "Describes the bifurcated monetary-fiscal regime where the front-end of the yield curve follows conventional monetary policy while the long-end is dominated by fiscal supply dynamics, with distinct implications for each segment.",
+    "components": [
+      "Front-end (2Y): conventional monetary policy transmission, negative stock-bond correlation, Fed credibility intact",
+      "Long-end (30Y): fiscal supply dominance, positive stock-bond correlation, term premium driven by supply/demand composition",
+      "Transition zone (5-10Y): mixed regime, 5Y5Y forward as regime indicator, fiscal wedge observable in cross-country comparison",
+      "Forward guidance horizon: credible within 6 months, structurally non-credible beyond",
+      "Butterfly spread (5s10s30s): potential sovereign stress signal within the split regime"
+    ],
+    "current_assessment": "Split regime is active. 2Y-SPX correlation -0.15 to -0.30, 30Y-SPX +0.05 to +0.15. 5Y5Y forward at 3.8-4.2% includes estimated fiscal wedge vs German 5Y5Y at 2.5-2.8%. MOVE index elevated at 95-130 confirms degraded transmission across the curve.",
+    "limitations": [
+      "Only two historical resolution precedents (1965-69, 2003-06), N=2",
+      "Precise maturity at which regime transitions is unstable and time-varying",
+      "Current fiscal configuration (6.5% deficit at sub-4% unemployment) has zero peacetime precedent",
+      "Resolution path unknown — front-end could follow long-end into fiscal dominance, or long-end could normalize",
+      "r* vs term premium separation may be impossible with available data, complicating measurement"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  }
+]

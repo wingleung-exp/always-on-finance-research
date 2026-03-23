@@ -1,0 +1,39 @@
+{
+  "slug": "treasury_basis_trade_crash_mechanism",
+  "definition": "The Treasury basis trade ($800B-$1T+ notional) is a validated crash mechanism whose current scale is 2-3x March 2020 levels. The Fed will intervene each time, but the cost is paid in transmission mechanism credibility and moral hazard expansion, not immediate market outcomes.",
+  "confidence": 7.5,
+  "evidence": [
+    "March 2020: $300B notional required $1.6T Fed intervention",
+    "UK 2022 LDI crisis validated the leveraged-position blowup mechanism",
+    "Current notional 2-3x larger than March 2020",
+    "SEC clearing mandate (potentially Q2 2026) is a calendar-identifiable catalyst",
+    "New positive long-end stock-bond correlation means equities sell off simultaneously — dual amplification absent in March 2020"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Does the SEC clearing mandate defuse or detonate the trade?",
+    "Does central clearing reduce bilateral risk or force deleveraging?",
+    "What phase-in terms will the SEC mandate include?",
+    "Does the Standing Repo Facility adequately backstop the mechanism?"
+  ],
+  "related_concepts": [
+    "fed_asymmetric_rate_ceiling",
+    "stock_bond_correlation_bifurcation",
+    "cross_asset_inconsistent_pricing",
+    "treasury_demand_composition_shift"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

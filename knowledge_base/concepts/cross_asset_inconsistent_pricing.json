@@ -1,0 +1,35 @@
+{
+  "slug": "cross_asset_inconsistent_pricing",
+  "definition": "Cross-asset markets are pricing mutually inconsistent sovereign debt outcomes. Equities (21-22x forward P/E) and credit (IG ~90-110bp) price benign fiscal trajectory, while rates (term premium 50-100bp+, positive 30Y-SPX correlation) and gold ($2,800-3,000+, CB buying >1,000t/year) price fiscal stress. At least two asset classes are mispricing the regime.",
+  "confidence": 7.5,
+  "evidence": [
+    "Equities at 21-22x forward P/E and IG credit at ~90-110bp price benign trajectory",
+    "Term premium 50-100bp+, positive 30Y-SPX correlation price fiscal stress",
+    "Gold at $2,800-3,000+ with CB buying >1,000t/year prices fiscal stress",
+    "Directly observable in market prices, not model output"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Which asset classes are mispricing — equities/credit or rates/gold?",
+    "What catalyst resolves the inconsistency?",
+    "Does the Kalecki-Levy identity make equity pricing internally consistent even under fiscal stress?"
+  ],
+  "related_concepts": [
+    "stock_bond_correlation_bifurcation",
+    "kalecki_levy_fiscal_earnings_paradox",
+    "sovereign_corporate_transmission_channels",
+    "treasury_basis_trade_crash_mechanism"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

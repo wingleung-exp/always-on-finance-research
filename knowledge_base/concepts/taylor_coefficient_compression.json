@@ -1,0 +1,34 @@
+{
+  "slug": "taylor_coefficient_compression",
+  "definition": "The Taylor coefficient has compressed to ~1.0-1.2 and is state-dependent: operating near ~1.5 during acute inflation (the Fed did hike 525bp) and near ~1.0 during 'close to target' periods. This represents a structural shift from pre-2020 as the fiscal cost per unit of tightening has roughly quadrupled.",
+  "confidence": 6,
+  "evidence": [
+    "Fed hiked 525bp during acute inflation phase (coefficient near ~1.5)",
+    "Coefficient near ~1.0 during 'close to target' periods",
+    "Fiscal cost per unit of tightening has roughly quadrupled from pre-2020",
+    "State-dependent formulation resolved in pair_3 debate"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "generalist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Is the compression permanent or will it normalize if debt/GDP declines?",
+    "How does state-dependent coefficient interact with the Fed's inflation targeting framework?",
+    "At what debt/GDP level does the coefficient become permanently sub-1.0?"
+  ],
+  "related_concepts": [
+    "fed_asymmetric_rate_ceiling",
+    "forward_guidance_structural_degradation",
+    "wac_rollover_fiscal_pressure"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

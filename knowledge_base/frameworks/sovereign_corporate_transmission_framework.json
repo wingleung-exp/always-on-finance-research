@@ -1,0 +1,27 @@
+{
+  "slug": "sovereign_corporate_transmission_framework",
+  "purpose": "Maps the five distinct channels through which sovereign fiscal stress transmits to corporate credit markets, enabling assessment of whether a sovereign-led credit repricing is imminent.",
+  "components": [
+    "Funding cost channel: sovereign yields set floor for corporate borrowing costs, with passthrough lagged by corporate maturity profile",
+    "Crowding-out channel: Treasury supply competes for fixed-income allocation, widening corporate spreads at the margin",
+    "Basis trade amplifier: Treasury market stress propagates via leveraged positions into broader fixed-income and equity markets",
+    "Kalecki-reverse channel: fiscal consolidation (if attempted) reduces corporate earnings via the Kalecki-Levy identity",
+    "Rating migration channel: sovereign downgrade triggers corporate downgrades through sovereign ceiling constraints"
+  ],
+  "current_assessment": "All five channels loading bearish simultaneously for the first time since at least the European crisis. Historical precedent N=2-3 makes this a tail risk rather than base case. The correlation structure across channels is the critical unknown.",
+  "limitations": [
+    "Kalecki-reverse only activates during consolidation, which has <10% base rate of occurring at required magnitude",
+    "Private credit ($1.5T+) is a structural blind spot in measuring channel effects",
+    "Rating migration timing depends on rating agency behavior, which is difficult to predict",
+    "No historical template for simultaneous loading of all five channels in a reserve-currency issuer",
+    "CLO structural demand and insurance regulatory demand may structurally suppress credit spreads regardless of sovereign stress"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

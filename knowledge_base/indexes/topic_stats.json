@@ -2218,9 +2218,9 @@
     "avg_confidence": 7.8
   },
   "sovereign_debt": {
-    "concept_count": 18,
-    "relationship_count": 12,
-    "framework_count": 8,
+    "concept_count": 34,
+    "relationship_count": 27,
+    "framework_count": 13,
     "top_concepts": [
       {
         "slug": "currency_regime_sovereign_risk_classifier",
@@ -2233,9 +2233,19 @@
         "definition": "G7 fiscal positions have diverged to post-WWII extremes: US ~120% debt/GDP with 6-7% deficits, Japan ~260%, Italy ~140%, France ~115% (rising), UK ~10"
       },
       {
+        "slug": "japan_us_debt_analogue_invalidity",
+        "confidence": 9,
+        "definition": "Japan is not a valid analogue for US sovereign debt sustainability. The US fails all five structural conditions that sustain Japan's 260% debt/GDP: po"
+      },
+      {
         "slug": "r_g_differential_debt_dynamics",
         "confidence": 9,
         "definition": "The debt sustainability equation delta(Debt/GDP) = (r - g) x (Debt/GDP) - Primary Balance/GDP is the governing identity for sovereign debt trajectorie"
+      },
+      {
+        "slug": "wac_rollover_fiscal_pressure",
+        "confidence": 9,
+        "definition": "The weighted average coupon rollover creates mechanically certain fiscal pressure through 2028 as ~$8T in sub-2% pandemic-era Treasuries roll into 4.5"
       },
       {
         "slug": "japan_non_generalizability",
@@ -2248,52 +2258,58 @@
         "definition": "The dollar cycle is the primary exogenous driver of EM sovereign stress, operating through three positively correlated channels: balance-sheet effects"
       },
       {
+        "slug": "fiscal_consolidation_base_rate",
+        "confidence": 8,
+        "definition": "Fiscal consolidation of the required magnitude (~4.5-5.5pp primary balance swing) has a historical base rate below 10% among advanced economies. Only "
+      },
+      {
+        "slug": "post_wwii_deleveraging_impairment",
+        "confidence": 8,
+        "definition": "Of four historical deleveraging channels (financial repression, negative real rates, strong growth, primary surplus), three are structurally impaired."
+      },
+      {
         "slug": "threshold_seeking_bias",
         "confidence": 8,
         "definition": "The persistent tendency in sovereign debt analysis to impose discontinuous thresholds (Reinhart-Rogoff 90%, 5-signal fiscal dominance sequences, r>g a"
-      },
-      {
-        "slug": "dm_em_asymmetry_bias",
-        "confidence": 7,
-        "definition": "Sovereign debt analysis exhibits a systematic bias: DM risk analyzed through a 'slow deterioration' lens (5-20 year horizon) while EM risk analyzed th"
-      },
-      {
-        "slug": "em_common_cause_not_contagion",
-        "confidence": 7,
-        "definition": "EM sovereign stress operates through common-cause exposure to shared vulnerabilities (pegged FX, current account deficits, USD debt, low reserves) rat"
-      },
-      {
-        "slug": "em_hard_currency_maturity_wall",
-        "confidence": 7,
-        "definition": "~$300-400B in frontier/lower-rated EM hard-currency maturities face concentrated refinancing risk in 2025-2028 at spreads 200-600bp wider than issuanc"
-      },
-      {
-        "slug": "monetary_transmission_impairment",
-        "confidence": 7,
-        "definition": "The monetary policy transmission mechanism is partially impaired by sovereign debt dynamics. Rate hikes generate a fiscal impulse (each 100bp adds ~$2"
       }
     ],
     "all_concept_slugs": [
+      "china_lgfv_deflation_export",
+      "cross_asset_inconsistent_pricing",
       "currency_regime_sovereign_risk_classifier",
       "deleveraging_toolkit_degradation",
       "dm_em_asymmetry_bias",
+      "dm_em_risk_gap_narrowing",
       "dollar_cycle_em_stress_driver",
       "em_common_cause_not_contagion",
       "em_hard_currency_maturity_wall",
+      "em_vulnerability_heterogeneity",
       "fed_asymmetric_constraint",
+      "fed_asymmetric_rate_ceiling",
+      "fiscal_consolidation_base_rate",
+      "forward_guidance_structural_degradation",
       "g7_fiscal_divergence",
       "japan_non_generalizability",
+      "japan_repatriation_risk",
+      "japan_us_debt_analogue_invalidity",
       "kalecki_levy_fiscal_earnings_paradox",
       "monetary_transmission_impairment",
+      "post_wwii_deleveraging_impairment",
       "r_g_differential_debt_dynamics",
       "reverse_dcf_sovereign_valuation",
+      "sovereign_corporate_transmission_channels",
+      "sovereign_earnings_quality_deterioration",
       "sovereign_stress_sequencing",
+      "taylor_coefficient_compression",
       "threshold_seeking_bias",
       "treasury_basis_trade_amplifier",
+      "treasury_basis_trade_crash_mechanism",
+      "treasury_demand_composition_shift",
       "truss_gilt_crisis_analogue",
-      "us_fiscal_spillover_multiplicative"
+      "us_fiscal_spillover_multiplicative",
+      "wac_rollover_fiscal_pressure"
     ],
-    "avg_confidence": 7.3
+    "avg_confidence": 7.2
   },
   "volatility_regimes": {
     "concept_count": 19,

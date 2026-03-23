@@ -1,0 +1,589 @@
+[
+  {
+    "slug": "japan_us_debt_analogue_invalidity",
+    "definition": "Japan is not a valid analogue for US sovereign debt sustainability. The US fails all five structural conditions that sustain Japan's 260% debt/GDP: positive NIIP (+70% vs -65%), domestic ownership (>90% vs ~70%), central bank ownership (>50% vs ~20%), current account surplus vs deficit, and deflationary backdrop vs above-target inflation.",
+    "confidence": 9,
+    "evidence": [
+      "US NIIP at -65% vs Japan's +70%",
+      "US domestic Treasury ownership ~70% vs Japan's >90%",
+      "Fed ownership ~20% vs BoJ >50%",
+      "US runs persistent current account deficit vs Japan's surplus",
+      "US above-target inflation vs Japan's deflationary backdrop"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "fx_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Does Japan's YCC exit experiment reveal whether the configuration survives removal of the deflation pillar?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "japan_repatriation_risk",
+      "post_wwii_deleveraging_impairment"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "wac_rollover_fiscal_pressure",
+    "definition": "The weighted average coupon rollover creates mechanically certain fiscal pressure through 2028 as ~$8T in sub-2% pandemic-era Treasuries roll into 4.5-5.0% coupons, adding ~$224B/year in incremental interest expense. This is arithmetic, not forecast.",
+    "confidence": 9,
+    "evidence": [
+      "~$8T in sub-2% pandemic-era Treasuries outstanding",
+      "Rollover clusters: ~$2.5T in 2025, ~$2.0T in 2026",
+      "Effective sovereign borrowing cost rising from ~2.5% (2023) to ~3.8-4.2% (2028)",
+      "Incremental interest expense ~$224B/year is mechanical arithmetic"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "credit_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What exact coupon rates will prevail at rollover within the narrow projected band?"
+    ],
+    "related_concepts": [
+      "fed_asymmetric_rate_ceiling",
+      "fiscal_consolidation_base_rate",
+      "treasury_demand_composition_shift",
+      "sovereign_earnings_quality_deterioration"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "post_wwii_deleveraging_impairment",
+    "definition": "Of four historical deleveraging channels (financial repression, negative real rates, strong growth, primary surplus), three are structurally impaired. Only sustained moderate inflation and financial repression remain available, and even that channel is constrained by digital capital mobility and agricultural supply shocks.",
+    "confidence": 8,
+    "evidence": [
+      "Entitlement spending at 14-15% of GDP vs 3-4% in 1945 blocks primary surpluses",
+      "Demographics have reversed the post-war growth tailwind",
+      "Digital capital mobility constrains repression effectiveness vs Reg Q era",
+      "Estimated 1-2pp/year deleveraging vs post-WWII's 4pp/year survived debate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Can agricultural supply shocks interrupt even the remaining inflation/repression channel?",
+      "Is 1-2pp/year deleveraging sufficient given current debt trajectory?",
+      "Could AI-driven productivity growth reopen the growth channel?"
+    ],
+    "related_concepts": [
+      "financial_repression_modal_outcome",
+      "fiscal_consolidation_base_rate",
+      "japan_us_debt_analogue_invalidity",
+      "biofuel_mandate_repression_narrowing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "fiscal_consolidation_base_rate",
+    "definition": "Fiscal consolidation of the required magnitude (~4.5-5.5pp primary balance swing) has a historical base rate below 10% among advanced economies. Only 6-8 of ~30 IMF episodes achieved 4pp+, all requiring crisis catalyst, external discipline, or uniquely favorable conditions the US lacks.",
+    "confidence": 8,
+    "evidence": [
+      "IMF Fiscal Monitor: median advanced-economy consolidation achieves 2.5pp over 5 years",
+      "Only 6-8 of ~30 episodes achieved 4pp+",
+      "Largest economy to succeed was Canada (~7% of current US GDP), requiring simultaneous US boom",
+      "US cannot depreciate against itself, has no external anchor, faces stronger veto points (separation of powers) than parliamentary systems that succeeded"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Could AI-driven productivity growth change the required consolidation magnitude?",
+      "Does the US political system preclude consolidation of any magnitude absent crisis?",
+      "Is the 1993-2000 deficit reduction experience (coexisting with productivity boom) replicable?"
+    ],
+    "related_concepts": [
+      "post_wwii_deleveraging_impairment",
+      "wac_rollover_fiscal_pressure",
+      "financial_repression_modal_outcome",
+      "kalecki_levy_fiscal_earnings_paradox"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "em_hard_currency_maturity_wall",
+    "definition": "The EM hard-currency maturity wall of $300-400B (2025-2028) is a genuine, calendar-identifiable stress catalyst. Kenya's 2024 Eurobond refinancing at 10.375% vs original 6.875% is the validated template. Most vulnerable: Nigeria, Tunisia, Pakistan, El Salvador, Bahrain.",
+    "confidence": 8,
+    "evidence": [
+      "Kenya 2024 Eurobond refinancing at 10.375% vs original 6.875%",
+      "Nigeria ($5B, FX reserves declining), Tunisia (CDS ~1,000bp), Pakistan (~$9B reserves, ~2 months import cover)",
+      "El Salvador ($800M 2025), Bahrain among most vulnerable",
+      "Compressed carry-to-vol ratios (Sharpe ~0.50 vs 0.7+ inflow threshold) reduce traditional refinancing effectiveness",
+      "Broad convergence across five agents with no debate challenging core claim"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Will compressed carry-to-vol prevent traditional high-coupon refinancing?",
+      "Which specific EM sovereigns will require IMF or bilateral support?",
+      "How does China LGFV deflation export interact with maturity wall stress?"
+    ],
+    "related_concepts": [
+      "treasury_demand_composition_shift",
+      "china_lgfv_deflation_export",
+      "em_vulnerability_heterogeneity",
+      "dm_em_risk_gap_narrowing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "fed_asymmetric_rate_ceiling",
+    "definition": "The Fed faces an asymmetric rate ceiling at ~5-5.5% imposed by sovereign debt arithmetic. At 120% debt/GDP, each 100bp adds ~$280-350B in annual debt service. The constraint is state-dependent: binding during 'close to target' inflation periods, less so during acute inflation episodes.",
+    "confidence": 7.5,
+    "evidence": [
+      "At 120% debt/GDP, each 100bp adds ~$280-350B in annual debt service",
+      "Fed paused at 5.25-5.50% with core PCE at 4.3% (revealed preference)",
+      "Volcker tightened to 20%+ at 32% debt/GDP; same arithmetic at 120% would add ~$2T+ in debt service",
+      "Fed did hike 525bp without triggering doom loop, but constraint is state-dependent not absolute"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "At what inflation level does the Fed ignore the debt service constraint entirely?",
+      "Does the ceiling rise or fall as debt/GDP increases further?",
+      "How does the ceiling interact with the basis trade stability constraint?"
+    ],
+    "related_concepts": [
+      "wac_rollover_fiscal_pressure",
+      "taylor_coefficient_compression",
+      "treasury_basis_trade_crash_mechanism",
+      "forward_guidance_structural_degradation"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "treasury_basis_trade_crash_mechanism",
+    "definition": "The Treasury basis trade ($800B-$1T+ notional) is a validated crash mechanism whose current scale is 2-3x March 2020 levels. The Fed will intervene each time, but the cost is paid in transmission mechanism credibility and moral hazard expansion, not immediate market outcomes.",
+    "confidence": 7.5,
+    "evidence": [
+      "March 2020: $300B notional required $1.6T Fed intervention",
+      "UK 2022 LDI crisis validated the leveraged-position blowup mechanism",
+      "Current notional 2-3x larger than March 2020",
+      "SEC clearing mandate (potentially Q2 2026) is a calendar-identifiable catalyst",
+      "New positive long-end stock-bond correlation means equities sell off simultaneously — dual amplification absent in March 2020"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Does the SEC clearing mandate defuse or detonate the trade?",
+      "Does central clearing reduce bilateral risk or force deleveraging?",
+      "What phase-in terms will the SEC mandate include?",
+      "Does the Standing Repo Facility adequately backstop the mechanism?"
+    ],
+    "related_concepts": [
+      "fed_asymmetric_rate_ceiling",
+      "stock_bond_correlation_bifurcation",
+      "cross_asset_inconsistent_pricing",
+      "treasury_demand_composition_shift"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "stock_bond_correlation_bifurcation",
+    "definition": "A maturity-dependent stock-bond correlation bifurcation signals partial fiscal dominance: 2Y-SPX correlation remains negative (-0.15 to -0.30) reflecting residual Fed credibility, while 30Y-SPX has turned positive (+0.05 to +0.15) reflecting fiscal supply dominance. This directly affects whether 60/40 portfolios function.",
+    "confidence": 7.5,
+    "evidence": [
+      "2Y-SPX correlation: -0.15 to -0.30 (negative, conventional monetary regime)",
+      "30Y-SPX correlation: +0.05 to +0.15 (positive, fiscal dominance)",
+      "Current fiscal configuration (6.5% deficit at sub-4% unemployment) has zero peacetime precedent",
+      "Cross-country natural experiments (Japan, Australia, UK 2022) isolate fiscal channel from inflation effects",
+      "Only two historical resolution precedents (1965-69, 2003-06), N=2"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "How does the bifurcation resolve — does the front-end follow the long-end or vice versa?",
+      "What are the implications for 60/40 portfolio construction?",
+      "At what maturity does the regime transition occur?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistent_pricing",
+      "treasury_basis_trade_crash_mechanism",
+      "forward_guidance_structural_degradation",
+      "fed_asymmetric_rate_ceiling"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "cross_asset_inconsistent_pricing",
+    "definition": "Cross-asset markets are pricing mutually inconsistent sovereign debt outcomes. Equities (21-22x forward P/E) and credit (IG ~90-110bp) price benign fiscal trajectory, while rates (term premium 50-100bp+, positive 30Y-SPX correlation) and gold ($2,800-3,000+, CB buying >1,000t/year) price fiscal stress. At least two asset classes are mispricing the regime.",
+    "confidence": 7.5,
+    "evidence": [
+      "Equities at 21-22x forward P/E and IG credit at ~90-110bp price benign trajectory",
+      "Term premium 50-100bp+, positive 30Y-SPX correlation price fiscal stress",
+      "Gold at $2,800-3,000+ with CB buying >1,000t/year prices fiscal stress",
+      "Directly observable in market prices, not model output"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Which asset classes are mispricing — equities/credit or rates/gold?",
+      "What catalyst resolves the inconsistency?",
+      "Does the Kalecki-Levy identity make equity pricing internally consistent even under fiscal stress?"
+    ],
+    "related_concepts": [
+      "stock_bond_correlation_bifurcation",
+      "kalecki_levy_fiscal_earnings_paradox",
+      "sovereign_corporate_transmission_channels",
+      "treasury_basis_trade_crash_mechanism"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "forward_guidance_structural_degradation",
+    "definition": "Forward guidance is structurally non-credible beyond 6 months. The Fed's reaction function now depends on at least three variables it does not control: fiscal trajectory, term premium, and basis trade stability. EM central banks face worse credibility problems.",
+    "confidence": 7,
+    "evidence": [
+      "MOVE index sustained at 95-130 vs pre-pandemic 60-70",
+      "Median dot-plot error ~120bp since 2021 vs ~50bp in 2015-2019",
+      "Fed reaction function depends on fiscal trajectory, term premium, and basis trade stability — none controlled by the Fed",
+      "Brazil BCB forced to reverse forward guidance; Turkey as extreme case"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "rates_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Can the Fed develop a credible communication framework for multi-variable reaction functions?",
+      "Does elevated MOVE index represent permanent regime shift or extended transition?",
+      "How should investors price duration risk when guidance is non-credible?"
+    ],
+    "related_concepts": [
+      "fed_asymmetric_rate_ceiling",
+      "stock_bond_correlation_bifurcation",
+      "treasury_basis_trade_crash_mechanism",
+      "taylor_coefficient_compression"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "kalecki_levy_fiscal_earnings_paradox",
+    "definition": "The Kalecki-Levy accounting identity means fiscal deficits mechanically support ~7-15% of S&P 500 EPS ($20-40/share with +/-50% uncertainty, effectively $10-60/share). Direction is certain but magnitude is imprecise. Creates a 'Kalecki trap' where cheap portfolio insurance and fiscally-inflated earnings cannot coexist.",
+    "confidence": 6.5,
+    "evidence": [
+      "Kalecki-Levy profit equation is an accounting identity (direction certain)",
+      "Magnitude estimate $20-40/share with +/-50% uncertainty (effectively $10-60/share)",
+      "1993-2000 counter-case: deficit reduction coexisted with earnings growth during productivity boom",
+      "Compounding four +/-30% uncertainties produces essentially directional estimate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the fiscal earnings support temporary or structural?",
+      "Does the 1993-2000 productivity boom experience generalize to current conditions?",
+      "Can the Kalecki-Levy magnitude be narrowed with better sectoral data?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistent_pricing",
+      "fiscal_consolidation_base_rate",
+      "sovereign_corporate_transmission_channels",
+      "financial_repression_modal_outcome"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "financial_repression_modal_outcome",
+    "definition": "Financial repression is the most likely DM deleveraging outcome, with Basel III regulatory captive demand (~$4T) functioning as modern Reg Q. Durability is contested: crypto/tokenized assets ($2.5T), ~$25T in non-bank financial assets, and agricultural supply shocks pose headwinds absent in the post-WWII template.",
+    "confidence": 6.5,
+    "evidence": [
+      "Basel III regulatory captive demand ~$4T functions as modern Reg Q",
+      "1945-1975 repression survived the 1972-74 food crisis",
+      "Crypto/tokenized assets at $2.5T and ~$25T non-bank financial assets as escape valves",
+      ">95% probability of crop failure per 15-year window as interruption risk"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is Basel III regulatory architecture a sufficient substitute for Reg Q-era directed investment?",
+      "Can financial repression sustain 10-25 years under modern capital mobility?",
+      "Do agricultural supply shocks interrupt or merely slow the repression cycle?"
+    ],
+    "related_concepts": [
+      "post_wwii_deleveraging_impairment",
+      "fiscal_consolidation_base_rate",
+      "japan_us_debt_analogue_invalidity",
+      "biofuel_mandate_repression_narrowing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "china_lgfv_deflation_export",
+    "definition": "China's LGFV-driven deflation export is an underpriced EM sovereign risk factor. Observable overcapacity (solar at 2.5-3x demand, EV batteries at 2,500 GWh vs ~800 GWh demand) compresses manufacturing margins and tax bases in competing EMs, with estimated 0.5-1.5% GDP fiscal widening. LGFV resolution timeline of 5-10+ years makes this structural.",
+    "confidence": 6,
+    "evidence": [
+      "Solar overcapacity at 2.5-3x global demand",
+      "EV battery capacity at 2,500 GWh vs ~800 GWh demand",
+      "Vietnam steel margins collapsed from ~15% to ~3-5%",
+      "LGFV resolution timeline of 5-10+ years",
+      "Convergence from five agents with opposing priors"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "What is the precise GDP fiscal widening per affected EM?",
+      "Does the agricultural channel (demand suppression → acreage underinvestment → delayed supply shock) materialize?",
+      "What is the actual LGFV resolution timeline?"
+    ],
+    "related_concepts": [
+      "em_vulnerability_heterogeneity",
+      "em_hard_currency_maturity_wall",
+      "dm_em_risk_gap_narrowing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "japan_repatriation_risk",
+    "definition": "Japan repatriation is a real but chronically mispriced risk with a 20-year track record of false alarms. The reflexive loop (repatriation → JPY strength → more repatriation) is logically sound but the August 2024 carry unwind self-corrected. Best framed as 12-24 month risk compounding with domestic fiscal supply if BoJ normalizes to ~1.5%+, with 15-30bp term premium impact.",
+    "confidence": 5.5,
+    "evidence": [
+      "Six agents identify the mechanism, all assign 5-6/10 confidence",
+      "August 2024 carry unwind self-corrected, suggesting damping not amplification",
+      "Post-YCC, Japanese institutions increased foreign holdings",
+      "20-year track record of false alarms",
+      "Estimated 15-30bp US term premium impact if activated"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What BoJ policy rate triggers the repatriation threshold (estimates range 0.75% to 1.5%)?",
+      "Is this a 2026 risk or 2028+ risk?",
+      "Does the reflexive loop amplify or dampen?",
+      "How does JPY strengthening (EM positive via weaker dollar) net against UST term premium rise (EM negative)?"
+    ],
+    "related_concepts": [
+      "treasury_demand_composition_shift",
+      "japan_us_debt_analogue_invalidity",
+      "fed_asymmetric_rate_ceiling"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "sovereign_earnings_quality_deterioration",
+    "definition": "Comprehensive US deficits at 13-21% of GDP far exceed headline 6-7% when including Social Security/Medicare accruals, GSE guarantees, and unfunded pensions. EM equivalents include food subsidy contingent liabilities understating deficits by 0.5-3.0% of GDP. Markets have never priced comprehensive deficits as the items are long-dated and probabilistic.",
+    "confidence": 5.5,
+    "evidence": [
+      "Comprehensive US deficits at 13-21% of GDP vs headline 6-7%",
+      "India FCI arrears, Egypt GASC, Morocco Caisse de Compensation understate EM deficits by 0.5-3.0% of GDP",
+      "Corporate analogy (adjusted EBITDA vs reported) is sharp framing",
+      "Markets have never priced comprehensive deficits because items won't crystallize simultaneously"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "credit_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Will markets ever price comprehensive deficits, or are they permanently ignored?",
+      "Can the 13-21% range be narrowed with better actuarial data?",
+      "What catalyst would force market attention to comprehensive deficits?"
+    ],
+    "related_concepts": [
+      "fiscal_consolidation_base_rate",
+      "cross_asset_inconsistent_pricing",
+      "em_vulnerability_heterogeneity"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "taylor_coefficient_compression",
+    "definition": "The Taylor coefficient has compressed to ~1.0-1.2 and is state-dependent: operating near ~1.5 during acute inflation (the Fed did hike 525bp) and near ~1.0 during 'close to target' periods. This represents a structural shift from pre-2020 as the fiscal cost per unit of tightening has roughly quadrupled.",
+    "confidence": 6,
+    "evidence": [
+      "Fed hiked 525bp during acute inflation phase (coefficient near ~1.5)",
+      "Coefficient near ~1.0 during 'close to target' periods",
+      "Fiscal cost per unit of tightening has roughly quadrupled from pre-2020",
+      "State-dependent formulation resolved in pair_3 debate"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is the compression permanent or will it normalize if debt/GDP declines?",
+      "How does state-dependent coefficient interact with the Fed's inflation targeting framework?",
+      "At what debt/GDP level does the coefficient become permanently sub-1.0?"
+    ],
+    "related_concepts": [
+      "fed_asymmetric_rate_ceiling",
+      "forward_guidance_structural_degradation",
+      "wac_rollover_fiscal_pressure"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "em_vulnerability_heterogeneity",
+    "definition": "EM vulnerability is heterogeneous along food-trade-balance and commodity/services lines. Food-importing EMs face a triple squeeze (refinancing + food import bills + food subsidies). Food trade balance is correlated with standard vulnerability factors, making independent contribution hard to isolate — best treated as an amplifier, not standalone first-order factor.",
+    "confidence": 6.5,
+    "evidence": [
+      "2022 spread performance: Brazil EMBI -50bp, Indonesia -20bp outperformed Egypt +400bp, Bangladesh +300bp",
+      "Indonesia's nickel downstream transformation ($2B → $18-20B exports) is structural improvement",
+      "Food trade balance correlated with standard vulnerability factors"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "How much independent explanatory power does food trade balance have vs standard vulnerability factors?",
+      "Does AI automation risk create a new vulnerability dimension for services EMs (India IT, Philippines BPO)?",
+      "How does China LGFV deflation export interact with the commodity/services classification?"
+    ],
+    "related_concepts": [
+      "em_hard_currency_maturity_wall",
+      "china_lgfv_deflation_export",
+      "dm_em_risk_gap_narrowing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "dm_em_risk_gap_narrowing",
+    "definition": "The DM-EM risk gap is narrowing for top-tier EMs (India, Indonesia, Mexico), while UK 2022 demonstrated DM sudden-stop capability. However, narrowing is concentrated in 5-8 countries, not broad EM.",
+    "confidence": 6,
+    "evidence": [
+      "UK 2022 LDI crisis demonstrated DM sudden-stop capability",
+      "India: $620B reserves, 15+ years inflation targeting",
+      "Indonesia: near-zero current account deficit",
+      "Mexico: deep local-currency curve, $40B foreign holdings",
+      "Narrowing concentrated in 5-8 countries, not broad EM"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Does simultaneous G7 fiscal deterioration accelerate or decelerate convergence?",
+      "Will top-tier EM local-currency curves develop sufficient depth to attract institutional capital at scale?",
+      "Does this create a tradable convergence opportunity?"
+    ],
+    "related_concepts": [
+      "em_vulnerability_heterogeneity",
+      "em_hard_currency_maturity_wall",
+      "cross_asset_inconsistent_pricing"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "treasury_demand_composition_shift",
+    "definition": "Treasury supply marginal demand has shifted from price-insensitive buyers (Fed, foreign CBs) to price-sensitive buyers (hedge funds via basis trade, domestic asset managers, Basel III-constrained banks). Each incremental $100B now produces 8-15bp of term premium expansion vs 2-5bp in QE era.",
+    "confidence": 7,
+    "evidence": [
+      "Fed QT removing ~$60B/month",
+      "China reducing Treasury holdings from $1.3T to ~$770B",
+      "Auction tails widening from ~0.5bp to ~1.5-2.0bp",
+      "Marginal buyer now hedge funds (basis trade), domestic asset managers, banks (Basel III constrained)"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "At what yield level do price-sensitive buyers become buyers of size?",
+      "Does the demand composition shift reverse if the Fed restarts QE?",
+      "What is the term premium elasticity per $100B of incremental supply under current demand composition?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade_crash_mechanism",
+      "japan_repatriation_risk",
+      "wac_rollover_fiscal_pressure",
+      "fed_asymmetric_rate_ceiling"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "slug": "sovereign_corporate_transmission_channels",
+    "definition": "Five sovereign-to-corporate transmission channels are simultaneously loading bearish: funding cost, crowding-out, basis trade amplifier, Kalecki-reverse, and rating migration. Historical precedent for all five loading together is N=2-3, making this a tail risk rather than base case. The correlation structure is the critical insight.",
+    "confidence": 6,
+    "evidence": [
+      "All five channels loading in same (bearish) direction simultaneously",
+      "Historical precedent for simultaneous loading is N=2-3",
+      "Identified as highest-value-added claim from credit_analyst_01 in pair_1 debate",
+      "Private credit ($1.5T+) is a structural blind spot in channel measurement"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is the correlation structure across channels during stress?",
+      "Does the Kalecki-reverse channel offset or amplify the funding cost channel?",
+      "What is the estimated combined impact on IG/HY spreads if all five channels activate?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistent_pricing",
+      "kalecki_levy_fiscal_earnings_paradox",
+      "treasury_basis_trade_crash_mechanism",
+      "wac_rollover_fiscal_pressure"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  }
+]

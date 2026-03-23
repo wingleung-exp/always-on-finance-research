@@ -3688,5 +3688,75 @@
     ],
     "topic": "fx_regimes",
     "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Treasury supply crowds out commodity market-making, increasing food price volatility and term premium",
+    "reason": "Causal chain has too many unquantified links. Agricultural price volatility 15-25% higher post-2020 is fatally confounded by pandemic, Ukraine war, and El Nino cycles. Commodity market-making withdrawal predates Treasury supply surge (began with Dodd-Frank/Volcker Rule in 2014). A hypothesis in search of evidence.",
+    "refuted_by": [
+      "commodities_analyst_02",
+      "rates_strategist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Analogue-weighted crisis probability methodology (15-25% from five-episode composite) is a valid base rate for US sovereign stress",
+    "reason": "Weighting crisis rates across structurally dissimilar episodes (post-WWII, 1970s, European 2010-12, UK 2022, Japan) is not a valid statistical operation. Episodes share no common causal structure. Similarity scores (0.35, 0.45, 0.55) create false precision — subjective rankings dressed as decimal measures. The 15-25% should be read as an intuitive prior, not an evidence-derived base rate.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Gold's $400-600/oz residual above factor models is attributable specifically to sovereign fiscal risk",
+    "reason": "A 15-85% confidence interval is saying 'we don't know.' Gold repricing could equally reflect post-Russia-sanctions diversification, structural EM reserve composition shift, or momentum. Using gold as evidence of fiscal mispricing while assuming gold prices fiscal risk is circular reasoning.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Agricultural supply shocks make 15-25 year financial repression unrealistic (absolute version)",
+    "reason": "The 1945-1975 repression survived the 1972-74 food crisis — the worst of the 20th century. The 2022 tightening was driven by multi-factor inflation, not agriculture alone. Each shock disrupts but does not necessarily terminate repression. The narrower claim (shocks constrain the repression operating band and increase interruption risk) survives; the absolute claim does not.",
+    "refuted_by": [
+      "rates_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "The HY-IG spread differential is a 'false complacency signal' warranting 50-80bp adjustment",
+    "reason": "Internal inconsistency: CLO adjustment (30-50bp) treats persistent structural demand as distortion rather than the market itself. Kalecki adjustment assumes fiscal earnings support is temporary, but credit_analyst_01's own framework asks whether it might be permanent. If structurally higher deficits produce structurally higher EPS, the headline spread is correct and the 'adjusted' spread is the distortion.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Sovereign CDS reflects only 50-70% of total country-level external vulnerability",
+    "reason": "If mispricing were this large and well-understood, it would be arbitraged. No methodology provided — no regression, structural model, or backtest. Turkey and Argentina are extremes, not base cases. Directionally correct (CDS understates vulnerability when corporate USD exposure included) but the quantitative claim is unsubstantiated.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Forward guidance underprices hawkish reversals by 30-50%",
+    "reason": "No methodology provided. Professional EM local-currency investors routinely discount forward guidance — EM rate options markets already price fat-tailed hawkish outcomes. The directional claim (EM duration risk is systematically underestimated) is plausible; the 30-50% quantitative figure is asserted, not demonstrated.",
+    "refuted_by": [
+      "challenger_01",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
   }
 ]

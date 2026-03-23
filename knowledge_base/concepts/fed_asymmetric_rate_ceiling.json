@@ -1,0 +1,37 @@
+{
+  "slug": "fed_asymmetric_rate_ceiling",
+  "definition": "The Fed faces an asymmetric rate ceiling at ~5-5.5% imposed by sovereign debt arithmetic. At 120% debt/GDP, each 100bp adds ~$280-350B in annual debt service. The constraint is state-dependent: binding during 'close to target' inflation periods, less so during acute inflation episodes.",
+  "confidence": 7.5,
+  "evidence": [
+    "At 120% debt/GDP, each 100bp adds ~$280-350B in annual debt service",
+    "Fed paused at 5.25-5.50% with core PCE at 4.3% (revealed preference)",
+    "Volcker tightened to 20%+ at 32% debt/GDP; same arithmetic at 120% would add ~$2T+ in debt service",
+    "Fed did hike 525bp without triggering doom loop, but constraint is state-dependent not absolute"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "At what inflation level does the Fed ignore the debt service constraint entirely?",
+    "Does the ceiling rise or fall as debt/GDP increases further?",
+    "How does the ceiling interact with the basis trade stability constraint?"
+  ],
+  "related_concepts": [
+    "wac_rollover_fiscal_pressure",
+    "taylor_coefficient_compression",
+    "treasury_basis_trade_crash_mechanism",
+    "forward_guidance_structural_degradation"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

@@ -1,32 +1,49 @@
 {
   "slug": "em_hard_currency_maturity_wall",
   "definition": "~$300-400B in frontier/lower-rated EM hard-currency maturities face concentrated refinancing risk in 2025-2028 at spreads 200-600bp wider than issuance. This creates a concrete, near-term catalyst for frontier sovereign stress, underpriced by macro investors who don't track EM amortization schedules.",
-  "confidence": 7,
+  "confidence": 7.5,
   "evidence": [
     "Kenya refinanced 2024 Eurobond at 10.375% vs. original 6.875%",
     "Next tier at risk: Nigeria ($5B 2025-2029), Tunisia (CDS ~1,000bp), El Salvador ($800M 2025), Bahrain",
     "Adds $2-6B/year in debt service across the cohort",
-    "Identified as 'most actionable insight' in pair_2 debate"
+    "Identified as 'most actionable insight' in pair_2 debate",
+    "Kenya 2024 Eurobond refinancing at 10.375% vs original 6.875%",
+    "Nigeria ($5B, FX reserves declining), Tunisia (CDS ~1,000bp), Pakistan (~$9B reserves, ~2 months import cover)",
+    "El Salvador ($800M 2025), Bahrain among most vulnerable",
+    "Compressed carry-to-vol ratios (Sharpe ~0.50 vs 0.7+ inflow threshold) reduce traditional refinancing effectiveness",
+    "Broad convergence across five agents with no debate challenging core claim"
   ],
   "originating_agents": [
-    "fx_strategist_02"
+    "fx_strategist_02",
+    "credit_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "commodities_analyst_02"
   ],
   "open_questions": [
     "Which specific frontier sovereigns are most likely to require debt restructuring?",
     "Will multilateral support (IMF, World Bank) prevent defaults or merely delay them?",
-    "How does the refinancing wall interact with the dollar cycle?"
+    "How does the refinancing wall interact with the dollar cycle?",
+    "Will compressed carry-to-vol prevent traditional high-coupon refinancing?",
+    "Which specific EM sovereigns will require IMF or bilateral support?",
+    "How does China LGFV deflation export interact with maturity wall stress?"
   ],
   "related_concepts": [
     "dollar_cycle_em_stress_driver",
     "em_common_cause_not_contagion",
-    "us_fiscal_spillover_multiplicative"
+    "us_fiscal_spillover_multiplicative",
+    "treasury_demand_composition_shift",
+    "china_lgfv_deflation_export",
+    "em_vulnerability_heterogeneity",
+    "dm_em_risk_gap_narrowing"
   ],
   "topic": "sovereign_debt",
   "created_at": "2026-03-23T02:39:05Z",
-  "last_updated": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-23T14:49:16Z",
   "originating_iteration": "iter_0017",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0017"
+    "iter_0017",
+    "iter_0040"
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "slug": "japan_repatriation_risk",
+  "definition": "Japan repatriation is a real but chronically mispriced risk with a 20-year track record of false alarms. The reflexive loop (repatriation → JPY strength → more repatriation) is logically sound but the August 2024 carry unwind self-corrected. Best framed as 12-24 month risk compounding with domestic fiscal supply if BoJ normalizes to ~1.5%+, with 15-30bp term premium impact.",
+  "confidence": 5.5,
+  "evidence": [
+    "Six agents identify the mechanism, all assign 5-6/10 confidence",
+    "August 2024 carry unwind self-corrected, suggesting damping not amplification",
+    "Post-YCC, Japanese institutions increased foreign holdings",
+    "20-year track record of false alarms",
+    "Estimated 15-30bp US term premium impact if activated"
+  ],
+  "originating_agents": [
+    "fx_strategist_02",
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "credit_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What BoJ policy rate triggers the repatriation threshold (estimates range 0.75% to 1.5%)?",
+    "Is this a 2026 risk or 2028+ risk?",
+    "Does the reflexive loop amplify or dampen?",
+    "How does JPY strengthening (EM positive via weaker dollar) net against UST term premium rise (EM negative)?"
+  ],
+  "related_concepts": [
+    "treasury_demand_composition_shift",
+    "japan_us_debt_analogue_invalidity",
+    "fed_asymmetric_rate_ceiling"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

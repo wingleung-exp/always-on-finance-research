@@ -1,0 +1,215 @@
+[
+  {
+    "concept_a": "wac_rollover_fiscal_pressure",
+    "concept_b": "fed_asymmetric_rate_ceiling",
+    "mechanism": "WAC rollover increases the fiscal cost per unit of monetary tightening, reinforcing the rate ceiling. Higher rates at rollover mechanically increase debt service, constraining the Fed's ability to maintain or raise rates.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Active whenever debt/GDP exceeds ~80% and significant Treasury maturity clusters exist. Intensifies as rollover clusters approach (2025-2026 peak).",
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "fed_asymmetric_rate_ceiling",
+    "concept_b": "treasury_basis_trade_crash_mechanism",
+    "mechanism": "The rate ceiling implies the Fed will intervene during basis trade blowups, creating moral hazard that grows the trade. The basis trade's fragility simultaneously reinforces the ceiling by adding financial stability to the Fed's constraint set.",
+    "direction": "bidirectional",
+    "confidence": 7.5,
+    "regime_dependence": "Strongest when basis trade notional exceeds ~$500B and Fed is near the rate ceiling. Moral hazard feedback intensifies after each intervention.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "treasury_demand_composition_shift",
+    "concept_b": "treasury_basis_trade_crash_mechanism",
+    "mechanism": "As price-insensitive buyers (Fed via QT, foreign CBs) exit, marginal demand increasingly relies on levered basis trade participants, concentrating fragility risk in a single mechanism.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Intensifies during QT and periods of foreign official sector Treasury selling. Would reverse under QE restart.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "stock_bond_correlation_bifurcation",
+    "concept_b": "cross_asset_inconsistent_pricing",
+    "mechanism": "The maturity-dependent correlation bifurcation is a direct manifestation of the cross-asset inconsistency — front-end prices conventional monetary regime while long-end prices fiscal dominance, creating internally contradictory signals across asset classes.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Present when fiscal supply dominates the long end while the Fed retains short-end credibility. Resolves if fiscal trajectory clearly improves or clearly deteriorates.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "post_wwii_deleveraging_impairment",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "Impairment of three out of four historical deleveraging channels makes financial repression the default outcome by elimination — the only remaining structurally available path.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as entitlement spending blocks primary surpluses and demographics constrain growth. Could shift if AI productivity reopens growth channel.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "china_lgfv_deflation_export",
+    "concept_b": "em_vulnerability_heterogeneity",
+    "mechanism": "China's deflation exports compress manufacturing margins and tax bases in competing EMs, disproportionately affecting manufacturing-dependent economies (Vietnam, Thailand) while commodity exporters and services economies face indirect effects through different channels.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active during LGFV resolution period (5-10+ years) when Chinese overcapacity is being exported. Stronger during periods of CNY weakness.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "japan_repatriation_risk",
+    "concept_b": "treasury_demand_composition_shift",
+    "mechanism": "Japanese repatriation would accelerate the shift from price-insensitive to price-sensitive Treasury buyers by removing one of the largest remaining foreign official-sector holders, adding to term premium pressure.",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Activates if BoJ normalizes to ~0.75-1.5%+ and Japanese institutions begin net selling of foreign bonds. Currently dormant but compounds with domestic fiscal supply pressure.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "kalecki_levy_fiscal_earnings_paradox",
+    "concept_b": "cross_asset_inconsistent_pricing",
+    "mechanism": "The Kalecki-Levy identity means fiscal deficits mechanically support corporate earnings, providing a structural explanation for why equities price benign outcomes despite fiscal stress signals in rates and gold.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Active as long as fiscal deficits persist at elevated levels (>4% of GDP). Reverses if consolidation occurs.",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "taylor_coefficient_compression",
+    "concept_b": "fed_asymmetric_rate_ceiling",
+    "mechanism": "The compressed Taylor coefficient is the transmission mechanism through which sovereign debt arithmetic constrains monetary policy. Higher debt/GDP mechanically reduces the coefficient by increasing the fiscal cost per unit of tightening.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "State-dependent: coefficient near 1.5 during acute inflation, near 1.0 during 'close to target' periods. The compression worsens as debt/GDP rises.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "forward_guidance_structural_degradation",
+    "concept_b": "stock_bond_correlation_bifurcation",
+    "mechanism": "Both phenomena are driven by the same split regime. Degraded forward guidance reflects the Fed's diminished ability to credibly commit beyond 6 months, which is the temporal analog of the maturity-dependent correlation split where the long end escapes Fed control.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both driven by fiscal dominance at the long end. Both resolve if fiscal trajectory improves or if fiscal dominance fully displaces monetary credibility.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "em_hard_currency_maturity_wall",
+    "concept_b": "em_vulnerability_heterogeneity",
+    "mechanism": "The maturity wall's impact is filtered through country-specific vulnerability factors: food-trade balance, commodity export structure, reserve adequacy, and local-currency market depth determine which sovereigns face refinancing stress.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Binding during the 2025-2028 maturity cluster. Heterogeneity determines cross-sectional distribution of stress.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "sovereign_corporate_transmission_channels",
+    "concept_b": "kalecki_levy_fiscal_earnings_paradox",
+    "mechanism": "The Kalecki-reverse channel within the five-channel framework is the mechanism by which fiscal consolidation would reduce corporate earnings. Conversely, sustained deficits support earnings via the Kalecki-Levy identity. Direction flips with fiscal trajectory.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Kalecki positive under sustained deficits; Kalecki-reverse activates only during consolidation (which has <10% base rate of occurring at required magnitude).",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "fiscal_consolidation_base_rate",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "The sub-10% base rate for required-magnitude consolidation makes repression the default by ruling out the voluntary adjustment path. If consolidation is improbable, the system converges toward repression or crisis.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Holds as long as required consolidation exceeds historical base rates. Could shift if external crisis imposes discipline or productivity growth reduces the required swing.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "wac_rollover_fiscal_pressure",
+    "concept_b": "sovereign_earnings_quality_deterioration",
+    "mechanism": "WAC rollover mechanically increases interest expense, widening the gap between headline and comprehensive deficits as more fiscal capacity is absorbed by debt service rather than discretionary or entitlement spending.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active through the 2025-2028 rollover cluster period. The mechanism is mechanical and continuous.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "concept_a": "dm_em_risk_gap_narrowing",
+    "concept_b": "em_hard_currency_maturity_wall",
+    "mechanism": "Top-tier EMs with narrowing DM-EM risk gaps face less stress from the maturity wall due to better reserve positions, local-currency market depth, and institutional credibility, creating a two-track EM universe.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Concentrated in 5-8 top-tier EMs. Does not apply to broad EM. Strengthens if DM fiscal deterioration continues.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  }
+]

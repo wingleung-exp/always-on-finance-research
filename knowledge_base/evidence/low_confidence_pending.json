@@ -2409,5 +2409,61 @@
     "needs": "Framework for measuring PBOC transmission through administered channels (window guidance, RRR, relending) rather than interest rate channel. Determination of whether rate-based pass-through comparison is even meaningful given fundamentally different transmission mechanisms.",
     "topic": "fx_regimes",
     "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "r* is endogenous to fiscal policy at ~20-35bp per 1pp deficit/GDP, implying the Fed was systematically less restrictive than believed during 2022-2024 and offering a novel explanation for 'immaculate disinflation'",
+    "source_agent": "rates_strategist_02",
+    "needs": "Econometric identification separating r* from term premium with available data; cross-country panel regressions with valid fiscal instruments; longer post-2020 time series; replication of the US vs Germany 5Y5Y forward comparison with controls",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "EM 'Original Sin' has migrated from sovereign to corporate balance sheets, with EM corporate USD borrowing growing from ~$1.2T to ~$3.5T (2012-2025) while sovereign local-currency share improved to ~75%",
+    "source_agent": "fx_strategist_02",
+    "needs": "Corroboration from other agents; methodology for estimating sovereign-corporate feedback loop magnitude; backtest showing corporate USD exposure predicts sovereign stress better than traditional metrics; refutation of the arbitrage argument against the 50-70% CDS claim",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "Biofuel mandates (US RFS consuming ~37-40% of corn crop) structurally narrow the financial repression operating band from ~4-5pp to ~2-3pp by creating a price floor at ~$3.50-4.00/bu vs pre-2005 $1.50-2.00",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Corroboration from rates or macro agents; empirical test comparing repression episodes with and without structural agricultural price floors; quantification of the repression band narrowing through a formal model",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "The 3m10Y spread recession signal is corrupted by fiscal supply dynamics — the 2022-2024 inversion understated recession risk by ~70bp due to positive term premium offsetting inverted expected rate path",
+    "source_agent": "rates_strategist_01",
+    "needs": "Independent replication of the term premium decomposition; out-of-sample validation of the adjusted recession signal; corroboration from other macro or rates agents",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "The convergence trap compresses DM central bank effective policy space to ~150-250bp (fiscal ceiling constrains tightening, r>g stability condition constrains easing), insufficient for standard recession requiring 400-500bp",
+    "source_agent": "rates_strategist_02",
+    "needs": "Historical precedent beyond N=1 for this specific configuration; empirical evidence of constrained policy bandwidth in practice; analysis of whether unconventional tools (QE, YCC, forward guidance) can substitute for compressed conventional space",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "The KB's own consensus is a crowded intellectual trade — 17 concepts uniformly aligned toward fiscal pessimism with zero bullish concepts — requiring explicit positive-tail representation at 15-25% probability (vs KB implicit 5-10%)",
+    "source_agent": "challenger_01",
+    "needs": "Systematic assessment of whether uniform directionality reflects genuine risk asymmetry or analytical bias; explicit modeling of the AI-productivity positive tail (labor productivity ~2.7% YoY Q4 2025); comparison with market-implied fiscal probabilities",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "The SEC clearing mandate (Q2 2026) is a calendar-identifiable stress test for the Treasury transmission mechanism, potentially causing 25-75bp term premium spike via forced deleveraging from 50-100x to 20-33x leverage",
+    "source_agent": "rates_strategist_02",
+    "needs": "Finalized SEC phase-in terms; analysis of whether central clearing reduces or increases fragility (multilateral netting vs forced deleveraging); historical analogues of clearing mandate transitions in other derivatives markets",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
+  },
+  {
+    "claim": "China's strategic grain stockpiling (50-60% of global wheat stocks, 65-70% of corn stocks) is a hidden systemic risk — whether China draws down (easing supply) or panic-buys (amplifying crisis) is a genuine binary with unknown probabilities",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Analysis from multiple agents outside commodities; scenario modeling of drawdown vs panic-buy paths with probability assignments; assessment of China's strategic intentions based on observable policy signals; quantification of global food price impact under each scenario",
+    "topic": "sovereign_debt",
+    "iteration_id": "iter_0040"
   }
 ]

@@ -1,0 +1,34 @@
+{
+  "slug": "treasury_demand_composition_shift",
+  "definition": "Treasury supply marginal demand has shifted from price-insensitive buyers (Fed, foreign CBs) to price-sensitive buyers (hedge funds via basis trade, domestic asset managers, Basel III-constrained banks). Each incremental $100B now produces 8-15bp of term premium expansion vs 2-5bp in QE era.",
+  "confidence": 7,
+  "evidence": [
+    "Fed QT removing ~$60B/month",
+    "China reducing Treasury holdings from $1.3T to ~$770B",
+    "Auction tails widening from ~0.5bp to ~1.5-2.0bp",
+    "Marginal buyer now hedge funds (basis trade), domestic asset managers, banks (Basel III constrained)"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "At what yield level do price-sensitive buyers become buyers of size?",
+    "Does the demand composition shift reverse if the Fed restarts QE?",
+    "What is the term premium elasticity per $100B of incremental supply under current demand composition?"
+  ],
+  "related_concepts": [
+    "treasury_basis_trade_crash_mechanism",
+    "japan_repatriation_risk",
+    "wac_rollover_fiscal_pressure",
+    "fed_asymmetric_rate_ceiling"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}

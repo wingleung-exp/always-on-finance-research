@@ -1,0 +1,34 @@
+{
+  "slug": "wac_rollover_fiscal_pressure",
+  "definition": "The weighted average coupon rollover creates mechanically certain fiscal pressure through 2028 as ~$8T in sub-2% pandemic-era Treasuries roll into 4.5-5.0% coupons, adding ~$224B/year in incremental interest expense. This is arithmetic, not forecast.",
+  "confidence": 9,
+  "evidence": [
+    "~$8T in sub-2% pandemic-era Treasuries outstanding",
+    "Rollover clusters: ~$2.5T in 2025, ~$2.0T in 2026",
+    "Effective sovereign borrowing cost rising from ~2.5% (2023) to ~3.8-4.2% (2028)",
+    "Incremental interest expense ~$224B/year is mechanical arithmetic"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "credit_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What exact coupon rates will prevail at rollover within the narrow projected band?"
+  ],
+  "related_concepts": [
+    "fed_asymmetric_rate_ceiling",
+    "fiscal_consolidation_base_rate",
+    "treasury_demand_composition_shift",
+    "sovereign_earnings_quality_deterioration"
+  ],
+  "topic": "sovereign_debt",
+  "created_at": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-23T14:49:16Z",
+  "originating_iteration": "iter_0040",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0040"
+  ]
+}
