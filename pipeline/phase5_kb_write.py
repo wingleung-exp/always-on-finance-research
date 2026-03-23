@@ -62,15 +62,55 @@ def weighted_avg(old_val: float, old_weight: int,
     return round((old_val * old_weight + new_val * new_weight) / total_weight, 2)
 
 
-def merge_unique(existing: list, new_items: list) -> list:
-    """Merge two lists, deduplicating by string equality."""
+MAX_EVIDENCE = 10  # Cap evidence arrays to prevent unbounded growth
+MAX_OPEN_QUESTIONS = 8
+
+
+def merge_unique(existing: list, new_items: list,
+                 max_items: int = 0) -> list:
+    """Merge two lists, deduplicating by string equality.
+    If max_items > 0, keep only the most recent max_items entries."""
     combined = list(existing)
     existing_set = set(str(item) for item in existing)
     for item in new_items:
         if str(item) not in existing_set:
             combined.append(item)
             existing_set.add(str(item))
+    if max_items > 0 and len(combined) > max_items:
+        combined = combined[-max_items:]
     return combined
+
+
+def slug_token_overlap(slug_a: str, slug_b: str) -> float:
+    """Compute token overlap ratio between two slugs."""
+    tokens_a = set(slug_a.lower().split("_"))
+    tokens_b = set(slug_b.lower().split("_"))
+    if not tokens_a or not tokens_b:
+        return 0.0
+    intersection = tokens_a & tokens_b
+    return len(intersection) / min(len(tokens_a), len(tokens_b))
+
+
+def check_dedup(slug: str, topic: str, concepts_dir: str,
+                log_file: str) -> str | None:
+    """Check if a new concept slug might be a duplicate of an existing one.
+    Returns the existing slug if overlap > 60%, else None."""
+    for fname in os.listdir(concepts_dir):
+        if not fname.endswith(".json"):
+            continue
+        existing_slug = fname[:-5]
+        if existing_slug == slug:
+            continue  # same slug = merge, not dedup issue
+        # Only check within same topic for speed
+        existing_data = load_json(os.path.join(concepts_dir, fname))
+        if existing_data and existing_data.get("topic") == topic:
+            overlap = slug_token_overlap(slug, existing_slug)
+            if overlap >= 0.6:
+                log(f"DEDUP WARNING: '{slug}' has {overlap:.0%} token overlap "
+                    f"with existing '{existing_slug}' (same topic: {topic})",
+                    log_file)
+                return existing_slug
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -96,6 +136,10 @@ def write_concepts(concepts: list, kb_dir: str, iteration_id: str,
         concept_path = os.path.join(concepts_dir, f"{slug}.json")
         existing = load_json(concept_path)
 
+        # Dedup check for new concepts
+        if existing is None:
+            check_dedup(slug, concept.get("topic", ""), concepts_dir, log_file)
+
         if existing is not None:
             # Merge: update confidence (weighted avg), append evidence, etc.
             old_confidence = existing.get("confidence", 5.0)
@@ -106,11 +150,13 @@ def write_concepts(concepts: list, kb_dir: str, iteration_id: str,
             )
             existing["evidence"] = merge_unique(
                 existing.get("evidence", []),
-                concept.get("evidence", [])
+                concept.get("evidence", []),
+                max_items=MAX_EVIDENCE,
             )
             existing["open_questions"] = merge_unique(
                 existing.get("open_questions", []),
-                concept.get("open_questions", [])
+                concept.get("open_questions", []),
+                max_items=MAX_OPEN_QUESTIONS,
             )
             existing["related_concepts"] = merge_unique(
                 existing.get("related_concepts", []),
@@ -471,6 +517,19 @@ def main() -> None:
     update_index(kb_dir, args.iteration_id, args.topic,
                  args.topic_category, stats)
     log("KB index updated", log_file)
+
+    # --- Rebuild derived search indexes ---
+    rebuild_script = os.path.join(kb_dir, "rebuild_indexes.py")
+    if os.path.isfile(rebuild_script):
+        import subprocess
+        try:
+            subprocess.run(
+                ["python3", rebuild_script, "--kb-dir", kb_dir],
+                capture_output=True, text=True, timeout=30
+            )
+            log("Search indexes rebuilt", log_file)
+        except Exception as e:
+            log(f"WARNING: Index rebuild failed: {e}", log_file)
 
     log("Phase 5 KB write complete", log_file)
 

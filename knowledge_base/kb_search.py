@@ -129,6 +129,67 @@ def expand_query(keyword):
     return expanded
 
 
+def load_inverted_index():
+    """Load pre-built inverted index if available."""
+    idx_path = KB_DIR / "indexes" / "inverted_index.json"
+    if idx_path.exists():
+        try:
+            with open(idx_path) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return None
+
+
+def load_topic_graph():
+    """Load pre-built topic graph if available."""
+    graph_path = KB_DIR / "indexes" / "topic_graph.json"
+    if graph_path.exists():
+        try:
+            with open(graph_path) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return None
+
+
+def load_topic_stats():
+    """Load pre-built topic stats if available."""
+    stats_path = KB_DIR / "indexes" / "topic_stats.json"
+    if stats_path.exists():
+        try:
+            with open(stats_path) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return None
+
+
+def index_search(keyword, inverted_index, min_confidence=0, exact=False):
+    """Fast search using the inverted index. Returns candidate (type, slug) pairs
+    scored by how many query tokens matched."""
+    if exact:
+        terms = {keyword}
+    else:
+        terms = expand_query(keyword)
+
+    # Tokenize all terms
+    query_tokens = set()
+    for t in terms:
+        query_tokens.update(re.findall(r'[a-z0-9]{2,}', t.lower()))
+
+    # Score each entry by number of matching tokens
+    scores = {}  # (type, slug) -> match_count
+    for token in query_tokens:
+        for entry_ref in inverted_index.get(token, []):
+            key = tuple(entry_ref)
+            scores[key] = scores.get(key, 0) + 1
+
+    # Sort by score descending
+    ranked = sorted(scores.items(), key=lambda x: -x[1])
+    return ranked, terms
+
+
 def fuzzy_slug_match(keyword, slug, threshold=0.6):
     """Fuzzy match keyword against a concept slug."""
     kw = keyword.lower().replace(" ", "_")
@@ -176,20 +237,104 @@ def load_all(subdir):
 def search_keyword(keyword, min_confidence=0, exact=False):
     """Search across concepts, relationships, and frameworks by keyword.
 
+    Uses pre-built inverted index for O(1) token lookup when available.
+    Falls back to full-scan regex if indexes aren't built yet.
     By default, expands the query to include semantically related finance terms.
-    Use exact=True for literal substring matching only.
     """
+    inverted = load_inverted_index()
+
+    if inverted:
+        return _search_indexed(keyword, inverted, min_confidence, exact)
+    else:
+        return _search_fullscan(keyword, min_confidence, exact)
+
+
+def _search_indexed(keyword, inverted, min_confidence=0, exact=False):
+    """Fast search path using inverted index."""
+    ranked, terms = index_search(keyword, inverted, min_confidence, exact)
+
+    results = {"concepts": [], "relationships": [], "frameworks": []}
+    kw_pattern = re.compile(re.escape(keyword), re.IGNORECASE)
+    seen = set()
+
+    for (entry_type, slug), score in ranked:
+        if slug in seen:
+            continue
+        seen.add(slug)
+
+        if entry_type == "concept":
+            c = load_json("concepts", slug)
+            if not c or c.get("confidence", 0) < min_confidence:
+                continue
+            is_direct = bool(kw_pattern.search(
+                f"{slug} {c.get('definition', '')} {c.get('topic', '')}"))
+            results["concepts"].append({
+                "slug": slug,
+                "definition": c.get("definition", "")[:200],
+                "confidence": c.get("confidence", 0),
+                "topic": c.get("topic", ""),
+                "related": c.get("related_concepts", []),
+                "match_type": "direct" if is_direct else "expanded",
+                "_score": score,
+            })
+
+        elif entry_type == "relationship":
+            r = load_json("relationships", slug)
+            if not r or r.get("confidence", 0) < min_confidence:
+                continue
+            is_direct = bool(kw_pattern.search(
+                f"{r.get('concept_a', '')} {r.get('concept_b', '')} {r.get('mechanism', '')}"))
+            results["relationships"].append({
+                "concept_a": r.get("concept_a", ""),
+                "concept_b": r.get("concept_b", ""),
+                "mechanism": r.get("mechanism", "")[:200],
+                "direction": r.get("direction", ""),
+                "confidence": r.get("confidence", 0),
+                "topic": r.get("topic", ""),
+                "match_type": "direct" if is_direct else "expanded",
+                "_score": score,
+            })
+
+        elif entry_type == "framework":
+            fw = load_json("frameworks", slug)
+            if not fw:
+                continue
+            results["frameworks"].append({
+                "slug": slug,
+                "purpose": fw.get("purpose", "")[:200],
+                "topic": fw.get("topic", ""),
+            })
+
+    # Sort: direct first, then by score, then confidence
+    results["concepts"].sort(
+        key=lambda x: (0 if x["match_type"] == "direct" else 1,
+                       -x.get("_score", 0), -x["confidence"]))
+    results["relationships"].sort(
+        key=lambda x: (0 if x["match_type"] == "direct" else 1,
+                       -x.get("_score", 0), -x["confidence"]))
+
+    # Remove internal score from output
+    for c in results["concepts"]:
+        c.pop("_score", None)
+    for r in results["relationships"]:
+        r.pop("_score", None)
+
+    if not exact:
+        results["_expanded_terms"] = sorted(terms)
+
+    return results
+
+
+def _search_fullscan(keyword, min_confidence=0, exact=False):
+    """Fallback full-scan search (used when indexes aren't built)."""
     if exact:
         terms = {keyword}
     else:
         terms = expand_query(keyword)
 
-    # Build a combined regex pattern for all expanded terms
-    # Match both underscore and space variants
     escaped = []
     for t in terms:
         escaped.append(re.escape(t))
-        # Also match the space/underscore variant
         if "_" in t:
             escaped.append(re.escape(t.replace("_", " ")))
         elif " " in t:
@@ -207,7 +352,6 @@ def search_keyword(keyword, min_confidence=0, exact=False):
         matched = pattern.search(text) or (not exact and fuzzy_slug_match(keyword, slug))
         if matched and slug not in seen_concepts:
             seen_concepts.add(slug)
-            # Score: boost direct keyword match over expansion-only match
             kw_pattern = re.compile(re.escape(keyword), re.IGNORECASE)
             is_direct = bool(kw_pattern.search(text))
             results["concepts"].append({
@@ -244,7 +388,6 @@ def search_keyword(keyword, min_confidence=0, exact=False):
                 "topic": fw.get("topic", ""),
             })
 
-    # Sort: direct matches first, then by confidence
     results["concepts"].sort(key=lambda x: (0 if x["match_type"] == "direct" else 1, -x["confidence"]))
     results["relationships"].sort(key=lambda x: (0 if x["match_type"] == "direct" else 1, -x["confidence"]))
 
@@ -290,10 +433,15 @@ def search_topic(topic):
 
 
 def find_related(slug, depth=1):
-    """Graph traversal: find concepts connected via relationships and related_concepts fields."""
+    """Graph traversal: find concepts connected via relationships and related_concepts fields.
+
+    Uses pre-built topic graph for O(1) neighbor lookup when available.
+    Falls back to full scan otherwise.
+    """
+    topic_graph = load_topic_graph()
     visited = set()
     frontier = {slug}
-    graph = {"nodes": [], "edges": []}
+    result = {"nodes": [], "edges": []}
 
     for d in range(depth):
         next_frontier = set()
@@ -304,39 +452,55 @@ def find_related(slug, depth=1):
 
             concept = load_json("concepts", s)
             if concept:
-                graph["nodes"].append({
+                result["nodes"].append({
                     "slug": s,
                     "definition": concept.get("definition", "")[:150],
                     "confidence": concept.get("confidence", 0),
                     "topic": concept.get("topic", ""),
                     "hop": d,
                 })
-                for rel in concept.get("related_concepts", []):
-                    next_frontier.add(rel)
 
-        # Also check relationships
-        for r in load_all("relationships"):
-            a, b = r.get("concept_a", ""), r.get("concept_b", "")
-            if a in frontier or b in frontier:
-                graph["edges"].append({
-                    "from": a,
-                    "to": b,
-                    "mechanism": r.get("mechanism", "")[:150],
-                    "direction": r.get("direction", ""),
-                    "confidence": r.get("confidence", 0),
-                })
-                if a in frontier:
-                    next_frontier.add(b)
-                if b in frontier:
-                    next_frontier.add(a)
+            if topic_graph and s in topic_graph:
+                # Fast path: use pre-built adjacency list
+                node_data = topic_graph[s]
+                for neighbor in node_data.get("neighbors", []):
+                    next_frontier.add(neighbor)
+                for edge in node_data.get("relationships", []):
+                    result["edges"].append({
+                        "from": edge.get("concept_a", ""),
+                        "to": edge.get("concept_b", ""),
+                        "mechanism": edge.get("mechanism", "")[:150],
+                        "direction": edge.get("direction", ""),
+                        "confidence": edge.get("confidence", 0),
+                    })
+            else:
+                # Slow path: scan related_concepts field
+                if concept:
+                    for rel in concept.get("related_concepts", []):
+                        next_frontier.add(rel)
+                # Scan all relationships
+                for r in load_all("relationships"):
+                    a, b = r.get("concept_a", ""), r.get("concept_b", "")
+                    if a == s or b == s:
+                        result["edges"].append({
+                            "from": a,
+                            "to": b,
+                            "mechanism": r.get("mechanism", "")[:150],
+                            "direction": r.get("direction", ""),
+                            "confidence": r.get("confidence", 0),
+                        })
+                        if a == s:
+                            next_frontier.add(b)
+                        if b == s:
+                            next_frontier.add(a)
 
         frontier = next_frontier - visited
 
-    # Pick up any remaining frontier nodes
+    # Pick up frontier nodes at final depth
     for s in frontier:
         concept = load_json("concepts", s)
         if concept and s not in visited:
-            graph["nodes"].append({
+            result["nodes"].append({
                 "slug": s,
                 "definition": concept.get("definition", "")[:150],
                 "confidence": concept.get("confidence", 0),
@@ -344,8 +508,18 @@ def find_related(slug, depth=1):
                 "hop": depth,
             })
 
-    graph["nodes"].sort(key=lambda x: (x["hop"], -x["confidence"]))
-    return graph
+    # Deduplicate edges
+    seen_edges = set()
+    unique_edges = []
+    for e in result["edges"]:
+        key = f"{e['from']}:{e['to']}"
+        if key not in seen_edges:
+            seen_edges.add(key)
+            unique_edges.append(e)
+    result["edges"] = unique_edges
+
+    result["nodes"].sort(key=lambda x: (x["hop"], -x["confidence"]))
+    return result
 
 
 def list_topics():
@@ -361,6 +535,33 @@ def list_topics():
 def get_concept(slug):
     """Get full detail for a concept."""
     return load_json("concepts", slug)
+
+
+def get_topic_summary(topic_name):
+    """Get pre-computed topic stats and top concepts for a topic."""
+    stats = load_topic_stats()
+    if not stats:
+        # Fallback: compute on the fly
+        return search_topic(topic_name)
+
+    if topic_name not in stats:
+        # Try partial match
+        matches = [t for t in stats if topic_name.lower() in t.lower()]
+        if matches:
+            topic_name = matches[0]
+        else:
+            return {"error": f"Topic '{topic_name}' not found",
+                    "available_topics": sorted(stats.keys())}
+
+    data = stats[topic_name]
+    return {
+        "topic": topic_name,
+        "concept_count": data["concept_count"],
+        "relationship_count": data["relationship_count"],
+        "framework_count": data["framework_count"],
+        "avg_confidence": data["avg_confidence"],
+        "top_concepts": data["top_concepts"],
+    }
 
 
 def format_text(data, command, show_expansion=False):
@@ -430,6 +631,24 @@ def format_text(data, command, show_expansion=False):
         else:
             lines.append("Concept not found.")
 
+    elif command == "summary":
+        if "error" in data:
+            lines.append(f"Error: {data['error']}")
+            if "available_topics" in data:
+                lines.append(f"Available: {', '.join(data['available_topics'])}")
+        else:
+            lines.append(f"TOPIC SUMMARY: {data['topic']}")
+            lines.append(f"  Concepts: {data['concept_count']}")
+            lines.append(f"  Relationships: {data['relationship_count']}")
+            lines.append(f"  Frameworks: {data['framework_count']}")
+            lines.append(f"  Avg Confidence: {data['avg_confidence']}")
+            lines.append("")
+            lines.append("TOP CONCEPTS:")
+            for c in data.get("top_concepts", []):
+                lines.append(f"  [{c['confidence']:.0f}] {c['slug']}")
+                lines.append(f"       {c['definition']}")
+                lines.append("")
+
     return "\n".join(lines)
 
 
@@ -460,6 +679,10 @@ def main():
     p_get.add_argument("slug")
     p_get.add_argument("--json", action="store_true")
 
+    p_summary = sub.add_parser("summary", help="Get topic summary with stats and top concepts")
+    p_summary.add_argument("topic_name")
+    p_summary.add_argument("--json", action="store_true")
+
     args = parser.parse_args()
 
     if args.command == "search":
@@ -472,6 +695,8 @@ def main():
         data = list_topics()
     elif args.command == "get":
         data = get_concept(args.slug)
+    elif args.command == "summary":
+        data = get_topic_summary(args.topic_name)
 
     if getattr(args, "json", False):
         print(json.dumps(data, indent=2))
