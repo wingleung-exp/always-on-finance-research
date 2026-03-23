@@ -1,0 +1,218 @@
+[
+  {
+    "concept_a": "banking_channel_activation",
+    "concept_b": "credit_equity_correlation_bimodality",
+    "mechanism": "Banking channel activation is the primary trigger that shifts credit-equity correlation from normal regime (0.3-0.4) to crisis regime (0.7-0.9). All historical crisis-regime transitions coincide with banking channel stress.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Relationship holds across all 7 tabulated episodes. Strength of activation depends on bank capitalization levels — 13-14% CET1 may raise the activation threshold vs historical 4-8%.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "kalecki_levy_profit_identity",
+    "concept_b": "credit_equity_correlation_bimodality",
+    "mechanism": "The Kalecki fiscal buffer mechanically compresses credit spreads and supports equity valuations, suppressing the correlation regime from transitioning to crisis mode. Acts as an absorber of shocks that would otherwise trigger regime change.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as fiscal deficits remain at 6-7% of GDP. Fiscal consolidation >2pp GDP would remove the buffer within 4-6 quarters. Buffer is quality-differentiated: effective for IG/upper HY, insufficient for CCC/leveraged loans.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "ebitda_addbacks_covenant_lite",
+    "concept_b": "maturity_wall",
+    "mechanism": "EBITDA addbacks inflate reported metrics, masking the true leverage (7.5-8.5x vs reported 6x) of borrowers approaching the maturity wall. Covenant-lite eliminates early warning triggers, allowing distressed borrowers to reach the wall with higher true leverage and producing higher loss severity upon default.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always active. Effect amplified when refinancing costs rise (current 200-400bp higher for B-rated) because the gap between reported and true debt service capacity widens.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "clo_oc_test_threshold",
+    "concept_b": "maturity_wall",
+    "mechanism": "Downgrades from maturity wall stress push CCC-bucket utilization toward the 7.5% OC test threshold. Breach triggers cash flow diversion and shuts down new CLO formation, removing ~65-70% of leveraged loan demand precisely when maturity wall borrowers need refinancing.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Conditional on maturity wall coinciding with credit deterioration. Current CCC-bucket at 4-6.5% is one downgrade wave from threshold. CLO managers actively trade to manage exposure, creating partial offset.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "credit_equity_correlation_bimodality",
+    "mechanism": "Mark-to-model NAVs with autocorrelation 0.5-0.7 delay measured correlation increase by 12-18 months after economic correlation shifts. This creates false impression of normal regime persisting when crisis regime may have already begun at the fundamental level.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Effect scales with private credit market size ($1.7-1.8T). More significant than in prior cycles when private credit was <$200B. Direction of bias is consistently toward false optimism.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "basis_trade_contagion",
+    "concept_b": "term_premium_credit_common_factor",
+    "mechanism": "The basis trade suppresses term premium by 20-40bp in calm periods (through leveraged Treasury buying) and amplifies term premium in stress (through forced selling). Creates a bimodal distribution of term premium outcomes that feeds into credit-equity co-movement.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Calm regime: basis trade suppresses term premium, compressing credit spreads. Stress regime: basis trade unwind amplifies term premium, widening credit. Transition is non-linear and potentially self-reinforcing.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "godley_sectoral_balance",
+    "concept_b": "kalecki_levy_profit_identity",
+    "mechanism": "The Godley identity (Private + Government + Foreign ≡ 0) constrains the sustainability of the Kalecki profit channel. The private sector surplus of 3-4% GDP depends entirely on the government deficit. Both resolution paths (consolidation → profit reduction, continuation → term premium loading) eventually undermine the Kalecki buffer.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as accounting identity at all times. The binding constraint emerges when deficit-driven issuance pushes term premium high enough to offset the profit support — timing is unknown but direction is certain.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "clo_reinvestment_period_expiration",
+    "concept_b": "maturity_wall",
+    "mechanism": "$250-350B of CLO reinvestment periods expiring removes the marginal bid for leveraged loans at the same time maturity wall borrowers need refinancing. Creates a supply-demand headwind independent of credit deterioration that widens spreads through structural demand withdrawal.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Timing-dependent: the 18-month expiration window coincides with peak maturity wall refinancing. SOFR levels determine whether resets (the historical defusing mechanism) are feasible. CLO arbitrage breaks at SOFR ~4.3-4.5%.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "kalecki_levy_profit_identity",
+    "concept_b": "convex_em_transmission",
+    "mechanism": "US fiscal deficits that sustain corporate profits via Kalecki simultaneously generate Treasury issuance that elevates the dollar and term premium, tightening EM financial conditions. The same channel protecting DM credit IS the channel stressing EM.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Operates whenever US fiscal deficits are large enough to drive meaningful Treasury issuance. More acute when EM central banks hold large Treasury reserves vulnerable to mark-to-market losses during dysfunction.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "deficit_term_premium_reflexive_loop",
+    "concept_b": "basis_trade_contagion",
+    "mechanism": "Higher deficits → more Treasury issuance → higher term premium → higher interest expense → larger deficit. This loop loads the basis trade channel by increasing both the volume of Treasuries and the volatility of term premium, raising the probability of disorderly unwind.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Non-linear: deficit-term premium relationship is insensitive below 3-4% deficit/GDP but becomes sensitive above. Current 6-7% deficit is well into the sensitive zone but US reserve currency status may raise the activation threshold.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "cet1_structural_break",
+    "concept_b": "banking_channel_activation",
+    "mechanism": "Higher CET1 ratios (13-14% vs historical 4-8%) raise the threshold at which banking channel activates. More capital absorbs more losses before triggering credit contraction, deposit flight, and interbank stress. SVB/Signature/FRC containment in 2023 is direct evidence.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Structural change that applies across cycles. However, CRE concentration at regional banks (28-30%) means the effective buffer for the most exposed institutions may be smaller than the aggregate figure suggests.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "synthetic_credit_reverse_causality",
+    "concept_b": "credit_equity_lead_lag",
+    "mechanism": "CDX HY open interest (~$900B) and credit ETFs (~$400B) create equity-to-credit transmission at high frequency. Equity vol mechanically widens CDX through hedge demand, compressing and potentially reversing the historical credit-leads-equity signal at intraday-to-weekly frequencies.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "More pronounced in stress periods when hedge demand spikes. Effect is high-frequency (5-30 minute CDX lag behind SPX observed intraday). Fundamental multi-month signal may survive but this requires unperformed frequency-domain validation.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "structural_bifurcation_megacap_leveraged",
+    "concept_b": "credit_equity_correlation_bimodality",
+    "mechanism": "When mega-cap net-cash companies dominate index returns while leveraged credit stress affects mid-cap firms, aggregate correlation measures understate true credit-equity stress. Equal-weight/cap-weight SPX ratio is a more accurate diagnostic than aggregate HY-SPX correlation.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "More pronounced in periods of high market concentration. Equal-weighted S&P 500 underperformance of ~15-20% vs cap-weighted since late 2022 is evidence of this masking effect in the current environment.",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "kalecki_quality_differentiation",
+    "concept_b": "maturity_wall",
+    "mechanism": "The Kalecki fiscal buffer operates at aggregate level but the maturity wall operates at individual firm level. CCC/leveraged borrowers at 8x true leverage are below the Kalecki floor's effective altitude — their interest coverage collapses regardless of aggregate demand support, making the maturity wall's firm-level arithmetic binding.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Active when both conditions hold: high fiscal deficits (Kalecki buffer present) AND rising refinancing costs (maturity wall binding). The wider the credit quality bifurcation, the more firms fall below the Kalecki floor.",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "banking_channel_activation",
+    "mechanism": "Private credit shifts risk from leveraged banks (systemic via deposit runs) to locked-up capital (insurance, pension). This may structurally reduce banking channel activation probability even as it degrades measurement. The direction of net systemic effect (stabilizing vs destabilizing) is the key unresolved disagreement.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Untested at current scale ($1.7-1.8T). May be stabilizing in moderate stress (prevents forced selling cascades) but destabilizing in severe stress (insurance RBC impairment, BDC redemptions, information contagion). The distinction depends on stress magnitude.",
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_02",
+      "macro_strategist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  }
+]

@@ -1,32 +1,49 @@
 {
   "slug": "basis_trade_contagion",
   "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) creates a novel cross-market contagion channel: unwind triggers Treasury selling → swap spread widening → higher funding costs → reduced dealer liquidity → wider credit bid-asks → forced selling by levered credit funds → VIX spike → equity risk-parity deleveraging. Fundamentally alters the flight-to-quality dynamic by converting the Treasury market from safe haven to contagion source.",
-  "confidence": 7,
+  "confidence": 6.5,
   "evidence": [
     "Partially validated by September 2019 repo crisis and March 2020 Treasury dysfunction",
     "Treasury market becomes contagion source rather than safe haven",
     "Identified as rates_strategist_01's strongest unique contribution in pair_3 debate",
-    "$800B-$1T estimated size at 50-100x leverage"
+    "$800B-$1T estimated size at 50-100x leverage",
+    "March 2020 partially validated mechanism ($1.6T Fed emergency intervention required)",
+    "Current notional 2-3x March 2020 level",
+    "Dealer inventory decline from ~$250B to ~$30-40B impairs shock absorption",
+    "Post-2020 regulatory attention may have reduced risk",
+    "SEC central clearing mandate Q2 2026 may force position adjustment"
   ],
   "originating_agents": [
     "rates_strategist_01",
-    "macro_strategist_01"
+    "macro_strategist_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_02",
+    "fx_strategist_02"
   ],
   "open_questions": [
     "What is the current size and leverage of the basis trade?",
     "Has post-2020 regulatory attention reduced the risk?",
-    "Could cross-margining requirements trigger credit margin calls from Treasury unwinds?"
+    "Could cross-margining requirements trigger credit margin calls from Treasury unwinds?",
+    "How much has post-2020 regulatory attention actually reduced the risk?",
+    "What are the exact size and leverage estimates for current basis trade positions?",
+    "Will the SEC central clearing mandate cause orderly adjustment or disruptive unwind?"
   ],
   "related_concepts": [
     "term_premium_channel",
-    "modified_taylor_rule_credit_term"
+    "modified_taylor_rule_credit_term",
+    "term_premium_credit_common_factor",
+    "deficit_term_premium_reflexive_loop",
+    "sec_central_clearing_mandate",
+    "reserve_adequacy_framework_breakdown"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-23T11:56:19Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0004"
+    "iter_0004",
+    "iter_0035"
   ]
 }

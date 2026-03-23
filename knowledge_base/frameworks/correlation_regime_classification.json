@@ -1,0 +1,27 @@
+{
+  "slug": "correlation_regime_classification",
+  "purpose": "Identifies the current credit-equity correlation regime and provides early warning of transitions",
+  "components": [
+    "Bimodal regime taxonomy: normal (0.3-0.4) vs crisis (0.7-0.9)",
+    "Early warning window: correlation rising from 0.3 to 0.5, lasting 2-5 months historically",
+    "Banking channel activation as primary transition trigger",
+    "Private credit opacity delaying measured correlation by 12-18 months",
+    "Structural bifurcation masking: equal-weight/cap-weight ratio as alternative diagnostic",
+    "Synthetic credit reverse causality contaminating high-frequency measurement"
+  ],
+  "current_assessment": "NORMAL REGIME. HY OAS at 350-420bp near cycle tights, VIX 13-18, KRE stable. generalist_01's claim of early stress decorrelation was refuted. Correct characterization: normal regime with elevated structural loading. Equal-weight/cap-weight divergence of ~15-20% suggests underlying stress not captured by aggregate indicators.",
+  "limitations": [
+    "Early warning window may be compressing (2020 transition <1 month vs historical 2-5 months)",
+    "Private credit opacity means measured correlation may lag economic correlation by 12-18 months",
+    "Structural bifurcation between mega-cap and leveraged universe means aggregate measures systematically understate stress",
+    "Frequency-domain decomposition needed to separate genuine fundamental signal from synthetic credit contamination"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

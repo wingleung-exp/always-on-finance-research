@@ -1,0 +1,20 @@
+{
+  "concept_a": "basis_trade_contagion",
+  "concept_b": "term_premium_credit_common_factor",
+  "mechanism": "The basis trade suppresses term premium by 20-40bp in calm periods (through leveraged Treasury buying) and amplifies term premium in stress (through forced selling). Creates a bimodal distribution of term premium outcomes that feeds into credit-equity co-movement.",
+  "direction": "bidirectional",
+  "confidence": 6,
+  "regime_dependence": "Calm regime: basis trade suppresses term premium, compressing credit spreads. Stress regime: basis trade unwind amplifies term premium, widening credit. Transition is non-linear and potentially self-reinforcing.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_02"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

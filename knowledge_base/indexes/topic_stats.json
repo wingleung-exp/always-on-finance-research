@@ -550,10 +550,15 @@
     "avg_confidence": 6.1
   },
   "credit_equity_linkage": {
-    "concept_count": 18,
-    "relationship_count": 14,
-    "framework_count": 5,
+    "concept_count": 39,
+    "relationship_count": 28,
+    "framework_count": 11,
     "top_concepts": [
+      {
+        "slug": "banking_channel_activation",
+        "confidence": 9,
+        "definition": "The engagement of the banking sector as a transmission mechanism in credit-equity stress episodes. When regional bank equities fall in sympathy with H"
+      },
       {
         "slug": "credit_equity_labor_sequencing",
         "confidence": 9,
@@ -570,62 +575,78 @@
         "definition": "Banking channel involvement is the key discriminant of credit-equity episode severity. When the banking channel is active (1990, 2007-08), median equi"
       },
       {
+        "slug": "cre_concentration_regional_banks",
+        "confidence": 8,
+        "definition": "Commercial real estate concentration at regional banks stands at 28-30% of assets vs 6-8% at large banks. This constitutes loading of the banking chan"
+      },
+      {
+        "slug": "credit_equity_correlation_bimodality",
+        "confidence": 8,
+        "definition": "Credit-equity correlation operates in two distinct regimes: normal (0.3-0.4) and crisis (0.7-0.9). Crisis regime is active approximately 7% of calenda"
+      },
+      {
         "slug": "credit_equity_correlation_regime_dependence",
         "confidence": 8.0,
         "definition": "Credit-equity correlation varies dramatically by regime: ~0.3-0.4 in normal periods, ~0.7-0.9 during crises (active only ~7% of calendar time or 30 of"
       },
       {
-        "slug": "credit_equity_lead_lag",
-        "confidence": 8,
-        "definition": "Credit markets generally lead equity markets by 2-6 months in fundamental deteriorations, but the direction and magnitude of the lead-lag is regime-de"
-      },
-      {
         "slug": "ebitda_addbacks_covenant_lite",
-        "confidence": 8,
+        "confidence": 8.0,
         "definition": "EBITDA addbacks of 15-40% and covenant-lite structures (>90% of leveraged loans) create hidden leverage where true leverage is 7.5-8.5x vs reported ~6"
       },
       {
-        "slug": "kalecki_fiscal_channel",
-        "confidence": 7.5,
-        "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest cover"
+        "slug": "kalecki_levy_profit_identity",
+        "confidence": 8,
+        "definition": "The accounting identity (Profits \u2261 Investment + Government Deficit + Net Exports \u2212 Household Savings) that mechanically channels 6-7% fiscal deficits "
       },
       {
-        "slug": "basis_trade_contagion",
-        "confidence": 7,
-        "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) creates a novel cross-market contagion channel: unwind triggers Treasury selling \u2192 swap sprea"
-      },
-      {
-        "slug": "clo_oc_test_contagion",
-        "confidence": 7,
-        "definition": "CLO overcollateralization test mechanics create a discrete, non-linear contagion channel: when CCC-bucket holdings breach the 7.5% threshold, cash flo"
-      },
-      {
-        "slug": "cre_bank_contagion",
-        "confidence": 7,
-        "definition": "CRE-to-bank-equity contagion operates through a multi-stage regional bank balance sheet mechanism: mark-to-market losses \u2192 provisioning \u2192 lending pull"
+        "slug": "structural_bifurcation_megacap_leveraged",
+        "confidence": 8,
+        "definition": "The divergence between mega-cap net-cash equities (~35% of S&P 500 market cap, top 10 holding ~$500B net cash, 85-90% self-funded) and the leveraged c"
       }
     ],
     "all_concept_slugs": [
+      "banking_channel_activation",
       "banking_channel_severity_discriminant",
       "basis_trade_contagion",
+      "cet1_structural_break",
       "clo_oc_test_contagion",
+      "clo_oc_test_threshold",
+      "clo_reinvestment_period_expiration",
+      "contagion_chain_completion_probability",
+      "convex_em_transmission",
       "cre_bank_contagion",
+      "cre_concentration_regional_banks",
+      "credit_equity_correlation_bimodality",
       "credit_equity_correlation_regime_dependence",
       "credit_equity_labor_sequencing",
       "credit_equity_lead_lag",
       "credit_impulse_degradation",
+      "deficit_term_premium_reflexive_loop",
       "ebitda_addbacks_covenant_lite",
       "fallen_angel_risk",
       "financial_accelerator_loaded",
+      "godley_sectoral_balance",
+      "hidden_fragility_partially_priced",
       "hy_oas_current_level",
       "hy_spread_threshold_zone",
+      "japan_fiscal_parallel",
+      "kalecki_em_paradox",
       "kalecki_fiscal_channel",
+      "kalecki_levy_profit_identity",
+      "kalecki_quality_differentiation",
       "merton_model_limitations",
       "modified_taylor_rule_credit_term",
+      "private_credit_as_stabilizer",
+      "reserve_adequacy_framework_breakdown",
+      "sec_central_clearing_mandate",
+      "structural_bifurcation_megacap_leveraged",
       "synthetic_credit_reverse_causality",
-      "term_premium_channel"
+      "term_premium_channel",
+      "term_premium_credit_common_factor",
+      "yield_curve_contagion_sequence"
     ],
-    "avg_confidence": 7.3
+    "avg_confidence": 6.7
   },
   "deglobalization": {
     "concept_count": 23,
@@ -1478,14 +1499,14 @@
         "definition": "Traditional leading indicators including yield curve inversion, Conference Board LEI, ISM PMI, and the Sahm Rule have exhibited degraded predictive po"
       },
       {
-        "slug": "maturity_wall",
-        "confidence": 9.0,
-        "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear fun"
-      },
-      {
         "slug": "output_gap_measurement_error",
         "confidence": 9,
         "definition": "Real-time output gap estimation is unreliable with mean absolute revisions of 1.0-2.0 percentage points, rendering it nearly useless for real-time pol"
+      },
+      {
+        "slug": "maturity_wall",
+        "confidence": 8.67,
+        "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear fun"
       },
       {
         "slug": "ai_productivity_lag",
@@ -2069,7 +2090,7 @@
       },
       {
         "slug": "private_credit_opacity",
-        "confidence": 7.5,
+        "confidence": 7.2,
         "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain bu"
       },
       {

@@ -1,33 +1,43 @@
 {
   "slug": "synthetic_credit_reverse_causality",
   "definition": "CDX HY open interest growth from ~$200B to ~$900B and credit ETFs at ~$400B create reverse causality: equity vol rises → managers buy CDX protection or short HYG as proxy hedge → mechanical spread widening → analysts cite credit stress → equity investors sell → confirmation loop. Supported by intraday evidence showing CDX lags SPX by 5-30 minutes during stress. Dealer inventory decline from ~$250B to ~$30-40B amplifies non-fundamental flow impact. A significant portion of high-frequency credit-equity correlation may be equity-to-credit, not credit-to-equity.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "CDX HY open interest grown from ~$200B to ~$900B",
     "Credit ETFs at ~$400B",
     "Intraday evidence: CDX lags SPX by 5-30 minutes during stress",
     "Largest ETF outflows correlate with equity vol spikes not credit-specific events",
     "Dealer inventory decline from ~$250B to ~$30-40B amplifies non-fundamental flow impact",
-    "Pair_3 debate identified this as important novel insight"
+    "Pair_3 debate identified this as important novel insight",
+    "CDX HY open interest ~$900B, credit ETFs ~$400B",
+    "Intraday evidence shows CDX lagging SPX by 5-30 minutes during stress",
+    "Multi-month fundamental signal claimed to survive",
+    "Frequency-domain decomposition required but not performed"
   ],
   "originating_agents": [
-    "challenger_01"
+    "challenger_01",
+    "credit_analyst_01",
+    "generalist_01"
   ],
   "open_questions": [
     "What portion of high-frequency credit-equity correlation is equity-to-credit vs credit-to-equity?",
     "Does the reverse causality channel invalidate longer-horizon (multi-month) credit leading indicators?",
-    "Can fundamental vs flow-driven spread moves be decomposed in real time?"
+    "Can fundamental vs flow-driven spread moves be decomposed in real time?",
+    "Does the fundamental-horizon signal truly survive or does high-frequency contamination bleed into lower frequencies?",
+    "What rigorous frequency-domain decomposition would validate the claim?"
   ],
   "related_concepts": [
     "credit_equity_lead_lag",
-    "credit_equity_correlation_regime_dependence"
+    "credit_equity_correlation_regime_dependence",
+    "credit_equity_correlation_bimodality"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-23T11:56:19Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0004"
+    "iter_0004",
+    "iter_0035"
   ]
 }

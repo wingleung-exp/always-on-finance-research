@@ -1,0 +1,36 @@
+{
+  "slug": "clo_oc_test_threshold",
+  "definition": "The contractually specified 7.5% CCC-bucket threshold in CLO overcollateralization tests. Breach triggers cash flow diversion from equity to senior tranches, CLO equity return destruction, forced loan selling, new CLO formation shutdown, and removal of ~65-70% of leveraged loan demand. Current CCC-bucket utilization of 4-6.5%.",
+  "confidence": 7,
+  "evidence": [
+    "Mechanism is contractually specified in CLO documentation",
+    "Current CCC-bucket utilization of 4-6.5% is one downgrade wave from 7.5% threshold",
+    "CLO managers actively trade to manage exposure but non-linear character at margin is established",
+    "2020 resilience argument is contaminated by $1.6T Fed emergency liquidity injection"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "CCC-bucket utilization data is the most operationally critical data gap (requires Intex/LCD)",
+    "How effectively can CLO managers pre-emptively sell approaching-CCC credits to prevent breach?",
+    "What is the distribution of proximity to breach across the CLO universe?"
+  ],
+  "related_concepts": [
+    "maturity_wall",
+    "clo_reinvestment_period_expiration",
+    "ebitda_addbacks_covenant_lite",
+    "banking_channel_activation"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

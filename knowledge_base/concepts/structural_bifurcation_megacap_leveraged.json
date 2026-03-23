@@ -1,0 +1,33 @@
+{
+  "slug": "structural_bifurcation_megacap_leveraged",
+  "definition": "The divergence between mega-cap net-cash equities (~35% of S&P 500 market cap, top 10 holding ~$500B net cash, 85-90% self-funded) and the leveraged credit universe (~$3.5T of $2-5B market-cap companies at true 7.5-8.5x leverage). These are economically separate ecosystems measured by the same aggregate indicators, causing systematic understatement of credit-equity stress.",
+  "confidence": 8,
+  "evidence": [
+    "Top 10 S&P 500 companies hold ~$500B net cash and are 85-90% self-funded",
+    "Merton model is mechanically irrelevant for net-cash mega-caps",
+    "Equal-weighted S&P 500 has underperformed cap-weighted by ~15-20% since late 2022",
+    "HY/leveraged loan universe consists of $2-5B market-cap companies at true 7.5-8.5x leverage"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "credit_analyst_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Is the equal-weight/cap-weight ratio a reliable real-time credit-equity diagnostic or does it reflect other factors?",
+    "At what point does leveraged credit stress spill over into mega-cap earnings through demand channels?"
+  ],
+  "related_concepts": [
+    "kalecki_quality_differentiation",
+    "ebitda_addbacks_covenant_lite",
+    "credit_equity_correlation_bimodality"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

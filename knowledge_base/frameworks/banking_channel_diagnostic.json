@@ -1,0 +1,26 @@
+{
+  "slug": "banking_channel_diagnostic",
+  "purpose": "Determines whether the banking channel — the single most important severity discriminant — is active, loading, or dormant in real time",
+  "components": [
+    "KRE (regional bank equities) sympathy with HY widening",
+    "Bank CDS spread levels and trend",
+    "CET1 ratio adequacy relative to loss exposure",
+    "CRE concentration at regional vs large banks (28-30% vs 6-8%)",
+    "CLO warehouse lines from regional banks as second-order channel"
+  ],
+  "current_assessment": "NOT ACTIVATED. KRE stable, bank CDS range-bound, CET1 13-14%. CRE concentration constitutes loading but not activation. Current capital buffers are a genuine structural break vs historical episodes (4-8% CET1).",
+  "limitations": [
+    "Quantitative calibration of how much CET1 structural break reduces activation probability is unknown",
+    "CRE loss rates that would trigger activation at current capital levels not modeled",
+    "Regional bank heterogeneity (CRE concentration varies widely) not captured by aggregate CET1",
+    "Private credit risk transfer may have changed the banking channel's effective scope"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

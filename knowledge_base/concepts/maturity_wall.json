@@ -1,18 +1,18 @@
 {
   "slug": "maturity_wall",
   "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear function of the rate path: manageable at consensus GDP of 2.0-2.5% but becomes a solvency wall at a growth downshift to 0-1%.",
-  "confidence": 9.0,
+  "confidence": 8.67,
   "evidence": [
-    "Bond maturity dates and coupon step-ups are calculable arithmetic, not debatable",
-    "Benign scenario (Fed cuts to 3.5-4.0%): drag ~10-15bp GDP",
-    "Adverse scenario (rates held at 4.5-5.0%): drag ~20-35bp, $30-50B/yr cost increase",
-    "Severe scenario (spread widening + rate holds): self-reinforcing feedback loop",
-    "pair_1 debate confirmed as highest-conviction shared claim",
     "Average 400bp coupon step-up on $900B yields ~$36B incremental annual interest expense",
     "14% increase for HY universe, 3-5pp FCF margin erosion",
     "Borrowers at true 7.5-8.5x leverage have debt service consuming 70-80% of actual cash EBITDA at 500bp+ OAS",
     "Forces binary outcome: refinance at higher costs (equity repricing) or default (credit repricing)",
-    "Survived all four debates without challenge"
+    "Survived all four debates without challenge",
+    "Maturities are contractual facts with arithmetic certainty",
+    "B-rated borrowers face 200-400bp higher all-in refinancing costs",
+    "At true leverage 7.5-8.5x, debt service at 500bp+ OAS consumes 70-80% of actual cash EBITDA",
+    "Base rate of maturity walls producing systemic stress is 0-for-4 in modern markets (2012, 2014, 2019)",
+    "Prior walls defused by amend-and-extend under ZIRP conditions unavailable today"
   ],
   "originating_agents": [
     "credit_analyst_01",
@@ -29,7 +29,10 @@
     "How does the maturity wall interact with private credit refinancing channels?",
     "Will CLO arbitrage conditions allow smooth refinancing?",
     "What will be the rate/spread environment at refinancing time?",
-    "How many simultaneous defaults can the Kalecki fiscal floor absorb during the maturity wall window?"
+    "How many simultaneous defaults can the Kalecki fiscal floor absorb during the maturity wall window?",
+    "Will the maturity wall coincide with recession (the key conditional for systemic outcome)?",
+    "How much of the wall can be defused by amend-and-extend at current rate levels?",
+    "What share of borrowers are above vs below the Kalecki floor's effective altitude?"
   ],
   "related_concepts": [
     "ebitda_addback_distortion",
@@ -40,15 +43,19 @@
     "hy_spread_threshold_zone",
     "fallen_angel_risk",
     "kalecki_fiscal_channel",
-    "clo_oc_test_contagion"
+    "clo_oc_test_contagion",
+    "kalecki_quality_differentiation",
+    "clo_oc_test_threshold",
+    "clo_reinvestment_period_expiration"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-22T18:21:43Z",
+  "last_updated": "2026-03-23T11:56:19Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0002",
-    "iter_0004"
+    "iter_0004",
+    "iter_0035"
   ]
 }

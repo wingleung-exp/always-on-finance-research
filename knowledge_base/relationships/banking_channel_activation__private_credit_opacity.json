@@ -1,0 +1,21 @@
+{
+  "concept_a": "private_credit_opacity",
+  "concept_b": "banking_channel_activation",
+  "mechanism": "Private credit shifts risk from leveraged banks (systemic via deposit runs) to locked-up capital (insurance, pension). This may structurally reduce banking channel activation probability even as it degrades measurement. The direction of net systemic effect (stabilizing vs destabilizing) is the key unresolved disagreement.",
+  "direction": "a_causes_b",
+  "confidence": 5,
+  "regime_dependence": "Untested at current scale ($1.7-1.8T). May be stabilizing in moderate stress (prevents forced selling cascades) but destabilizing in severe stress (insurance RBC impairment, BDC redemptions, information contagion). The distinction depends on stress magnitude.",
+  "originating_agents": [
+    "challenger_01",
+    "credit_analyst_02",
+    "macro_strategist_02"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

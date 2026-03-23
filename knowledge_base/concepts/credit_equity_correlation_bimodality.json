@@ -1,0 +1,37 @@
+{
+  "slug": "credit_equity_correlation_bimodality",
+  "definition": "Credit-equity correlation operates in two distinct regimes: normal (0.3-0.4) and crisis (0.7-0.9). Crisis regime is active approximately 7% of calendar time (~30 of 420 months since 1990), with transitions that are non-linear. Early warning window (correlation rising from 0.3 to 0.5) lasts 2-5 months historically but may be compressing.",
+  "confidence": 8,
+  "evidence": [
+    "Six transitions since 1990 with peak crisis correlation of 0.79-0.94",
+    "Crisis regime occupies only ~30 of 420 months",
+    "2020 transition occurred in <1 month suggesting compression",
+    "Private credit mark-to-model NAV autocorrelation 0.5-0.7 delays measured correlation increase by 12-18 months",
+    "Current classification is normal regime, not early stress"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Is the early warning window compressing due to algorithmic trading and ETF growth?",
+    "How should correlation regime assessment incorporate private credit's delayed measurement?",
+    "What observable triggers reliably precede the jump from 0.3-0.4 to 0.7-0.9?"
+  ],
+  "related_concepts": [
+    "banking_channel_activation",
+    "private_credit_opacity",
+    "synthetic_credit_reverse_causality",
+    "structural_bifurcation_megacap_leveraged"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

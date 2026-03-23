@@ -1,0 +1,20 @@
+{
+  "concept_a": "deficit_term_premium_reflexive_loop",
+  "concept_b": "basis_trade_contagion",
+  "mechanism": "Higher deficits → more Treasury issuance → higher term premium → higher interest expense → larger deficit. This loop loads the basis trade channel by increasing both the volume of Treasuries and the volatility of term premium, raising the probability of disorderly unwind.",
+  "direction": "a_causes_b",
+  "confidence": 5,
+  "regime_dependence": "Non-linear: deficit-term premium relationship is insensitive below 3-4% deficit/GDP but becomes sensitive above. Current 6-7% deficit is well into the sensitive zone but US reserve currency status may raise the activation threshold.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "macro_strategist_02"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

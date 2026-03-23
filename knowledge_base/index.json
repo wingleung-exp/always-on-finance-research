@@ -28,9 +28,9 @@
     "concept:private_credit_opacity": {
       "type": "concept",
       "slug": "private_credit_opacity",
-      "confidence": 7.5,
-      "last_updated": "2026-03-23T02:02:30Z",
-      "research_iterations": 4,
+      "confidence": 7.2,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 5,
       "topic": "risk_appetite_regimes"
     },
     "concept:minsky_framework": {
@@ -236,9 +236,9 @@
     "concept:maturity_wall": {
       "type": "concept",
       "slug": "maturity_wall",
-      "confidence": 9.0,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 2,
+      "confidence": 8.67,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 3,
       "topic": "growth_models"
     },
     "concept:covenant_lite_default_delay": {
@@ -876,9 +876,9 @@
     "concept:ebitda_addbacks_covenant_lite": {
       "type": "concept",
       "slug": "ebitda_addbacks_covenant_lite",
-      "confidence": 8,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 1,
+      "confidence": 8.0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "concept:credit_equity_correlation_regime_dependence": {
@@ -948,17 +948,17 @@
     "concept:basis_trade_contagion": {
       "type": "concept",
       "slug": "basis_trade_contagion",
-      "confidence": 7,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 1,
+      "confidence": 6.5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "concept:credit_equity_lead_lag": {
       "type": "concept",
       "slug": "credit_equity_lead_lag",
-      "confidence": 8,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 1,
+      "confidence": 7.5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "concept:clo_oc_test_contagion": {
@@ -972,9 +972,9 @@
     "concept:synthetic_credit_reverse_causality": {
       "type": "concept",
       "slug": "synthetic_credit_reverse_causality",
-      "confidence": 6,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 1,
+      "confidence": 6.0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "concept:hy_oas_current_level": {
@@ -1052,9 +1052,9 @@
     "relationship:credit_equity_lead_lag__synthetic_credit_reverse_causality": {
       "type": "relationship",
       "slug": "credit_equity_lead_lag__synthetic_credit_reverse_causality",
-      "confidence": 6,
-      "last_updated": "2026-03-22T18:21:43Z",
-      "research_iterations": 1,
+      "confidence": 6.0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "relationship:credit_equity_correlation_regime_dependence__merton_model_limitations": {
@@ -13064,6 +13064,334 @@
       "last_updated": "2026-03-23T11:23:51Z",
       "research_iterations": 1,
       "topic": "fiscal_policy"
+    },
+    "concept:cre_concentration_regional_banks": {
+      "type": "concept",
+      "slug": "cre_concentration_regional_banks",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:term_premium_credit_common_factor": {
+      "type": "concept",
+      "slug": "term_premium_credit_common_factor",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:credit_equity_correlation_bimodality": {
+      "type": "concept",
+      "slug": "credit_equity_correlation_bimodality",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:structural_bifurcation_megacap_leveraged": {
+      "type": "concept",
+      "slug": "structural_bifurcation_megacap_leveraged",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:clo_oc_test_threshold": {
+      "type": "concept",
+      "slug": "clo_oc_test_threshold",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:reserve_adequacy_framework_breakdown": {
+      "type": "concept",
+      "slug": "reserve_adequacy_framework_breakdown",
+      "confidence": 4,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:private_credit_as_stabilizer": {
+      "type": "concept",
+      "slug": "private_credit_as_stabilizer",
+      "confidence": 4,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:yield_curve_contagion_sequence": {
+      "type": "concept",
+      "slug": "yield_curve_contagion_sequence",
+      "confidence": 5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:kalecki_em_paradox": {
+      "type": "concept",
+      "slug": "kalecki_em_paradox",
+      "confidence": 5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:convex_em_transmission": {
+      "type": "concept",
+      "slug": "convex_em_transmission",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:kalecki_levy_profit_identity": {
+      "type": "concept",
+      "slug": "kalecki_levy_profit_identity",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:clo_reinvestment_period_expiration": {
+      "type": "concept",
+      "slug": "clo_reinvestment_period_expiration",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:cet1_structural_break": {
+      "type": "concept",
+      "slug": "cet1_structural_break",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:kalecki_quality_differentiation": {
+      "type": "concept",
+      "slug": "kalecki_quality_differentiation",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:hidden_fragility_partially_priced": {
+      "type": "concept",
+      "slug": "hidden_fragility_partially_priced",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:banking_channel_activation": {
+      "type": "concept",
+      "slug": "banking_channel_activation",
+      "confidence": 9,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:contagion_chain_completion_probability": {
+      "type": "concept",
+      "slug": "contagion_chain_completion_probability",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:deficit_term_premium_reflexive_loop": {
+      "type": "concept",
+      "slug": "deficit_term_premium_reflexive_loop",
+      "confidence": 4,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:japan_fiscal_parallel": {
+      "type": "concept",
+      "slug": "japan_fiscal_parallel",
+      "confidence": 4,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:godley_sectoral_balance": {
+      "type": "concept",
+      "slug": "godley_sectoral_balance",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "concept:sec_central_clearing_mandate": {
+      "type": "concept",
+      "slug": "sec_central_clearing_mandate",
+      "confidence": 4,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:ebitda_addbacks_covenant_lite__maturity_wall": {
+      "type": "relationship",
+      "slug": "ebitda_addbacks_covenant_lite__maturity_wall",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:basis_trade_contagion__deficit_term_premium_reflexive_loop": {
+      "type": "relationship",
+      "slug": "basis_trade_contagion__deficit_term_premium_reflexive_loop",
+      "confidence": 5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:kalecki_quality_differentiation__maturity_wall": {
+      "type": "relationship",
+      "slug": "kalecki_quality_differentiation__maturity_wall",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:godley_sectoral_balance__kalecki_levy_profit_identity": {
+      "type": "relationship",
+      "slug": "godley_sectoral_balance__kalecki_levy_profit_identity",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:clo_oc_test_threshold__maturity_wall": {
+      "type": "relationship",
+      "slug": "clo_oc_test_threshold__maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:banking_channel_activation__private_credit_opacity": {
+      "type": "relationship",
+      "slug": "banking_channel_activation__private_credit_opacity",
+      "confidence": 5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:clo_reinvestment_period_expiration__maturity_wall": {
+      "type": "relationship",
+      "slug": "clo_reinvestment_period_expiration__maturity_wall",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_correlation_bimodality__kalecki_levy_profit_identity": {
+      "type": "relationship",
+      "slug": "credit_equity_correlation_bimodality__kalecki_levy_profit_identity",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_correlation_bimodality__structural_bifurcation_megacap_leveraged": {
+      "type": "relationship",
+      "slug": "credit_equity_correlation_bimodality__structural_bifurcation_megacap_leveraged",
+      "confidence": 8,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:banking_channel_activation__cet1_structural_break": {
+      "type": "relationship",
+      "slug": "banking_channel_activation__cet1_structural_break",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:banking_channel_activation__credit_equity_correlation_bimodality": {
+      "type": "relationship",
+      "slug": "banking_channel_activation__credit_equity_correlation_bimodality",
+      "confidence": 9,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:credit_equity_correlation_bimodality__private_credit_opacity": {
+      "type": "relationship",
+      "slug": "credit_equity_correlation_bimodality__private_credit_opacity",
+      "confidence": 7,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:basis_trade_contagion__term_premium_credit_common_factor": {
+      "type": "relationship",
+      "slug": "basis_trade_contagion__term_premium_credit_common_factor",
+      "confidence": 6,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "relationship:convex_em_transmission__kalecki_levy_profit_identity": {
+      "type": "relationship",
+      "slug": "convex_em_transmission__kalecki_levy_profit_identity",
+      "confidence": 5,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:maturity_wall_conditional_amplifier": {
+      "type": "framework",
+      "slug": "maturity_wall_conditional_amplifier",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:banking_channel_diagnostic": {
+      "type": "framework",
+      "slug": "banking_channel_diagnostic",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:correlation_regime_classification": {
+      "type": "framework",
+      "slug": "correlation_regime_classification",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:godley_dual_instability": {
+      "type": "framework",
+      "slug": "godley_dual_instability",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:contagion_chain_assessment": {
+      "type": "framework",
+      "slug": "contagion_chain_assessment",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
+    },
+    "framework:kalecki_fiscal_buffer_framework": {
+      "type": "framework",
+      "slug": "kalecki_fiscal_buffer_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-23T11:56:19Z",
+      "research_iterations": 1,
+      "topic": "credit_equity_linkage"
     }
   },
   "iterations": [
@@ -13599,7 +13927,20 @@
         "anti_knowledge_entries": 8,
         "low_confidence_entries": 9
       }
+    },
+    {
+      "iteration_id": "iter_0035",
+      "topic": "credit_equity_linkage",
+      "topic_category": "cross_asset",
+      "timestamp": "2026-03-23T11:56:19Z",
+      "stats": {
+        "concepts_written": 27,
+        "relationships_written": 15,
+        "frameworks_written": 6,
+        "anti_knowledge_entries": 9,
+        "low_confidence_entries": 6
+      }
     }
   ],
-  "last_updated": "2026-03-23T11:23:51Z"
+  "last_updated": "2026-03-23T11:56:19Z"
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "deficit_term_premium_reflexive_loop",
+  "definition": "A reflexive loop where deficit → issuance → term premium → higher interest expense → larger deficit. Net interest rising from ~$350B (FY2020) to ~$1T (FY2025/26). Each 100bp additional rates generates ~$250-320B additional interest, of which 10-25% recycles as spending. The US-specific activation threshold given reserve currency status is unknown.",
+  "confidence": 4,
+  "evidence": [
+    "Net interest rising from ~$350B (FY2020) to ~$1T (FY2025/26)",
+    "Blended borrowing rate (~4.5%) vs nominal GDP growth (~5.5%) margin of ~100bp is historically thin",
+    "Each 100bp additional rates → ~$250-320B additional interest",
+    "10-25% recycled as spending partially offsetting monetary tightening",
+    "UK gilt crisis validates for non-reserve-currency sovereigns"
+  ],
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "What is the US-specific activation threshold given reserve currency status?",
+    "Does the reflexive loop accelerate gradually or trigger suddenly?",
+    "How much of the interest payment increase recycled as spending offsets tightening?"
+  ],
+  "related_concepts": [
+    "godley_sectoral_balance",
+    "kalecki_levy_profit_identity",
+    "basis_trade_contagion",
+    "term_premium_credit_common_factor"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

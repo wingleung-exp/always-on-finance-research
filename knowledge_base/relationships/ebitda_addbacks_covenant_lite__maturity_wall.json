@@ -1,0 +1,21 @@
+{
+  "concept_a": "ebitda_addbacks_covenant_lite",
+  "concept_b": "maturity_wall",
+  "mechanism": "EBITDA addbacks inflate reported metrics, masking the true leverage (7.5-8.5x vs reported 6x) of borrowers approaching the maturity wall. Covenant-lite eliminates early warning triggers, allowing distressed borrowers to reach the wall with higher true leverage and producing higher loss severity upon default.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Always active. Effect amplified when refinancing costs rise (current 200-400bp higher for B-rated) because the gap between reported and true debt service capacity widens.",
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

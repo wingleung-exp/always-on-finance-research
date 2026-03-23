@@ -1,0 +1,19 @@
+{
+  "concept_a": "clo_reinvestment_period_expiration",
+  "concept_b": "maturity_wall",
+  "mechanism": "$250-350B of CLO reinvestment periods expiring removes the marginal bid for leveraged loans at the same time maturity wall borrowers need refinancing. Creates a supply-demand headwind independent of credit deterioration that widens spreads through structural demand withdrawal.",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Timing-dependent: the 18-month expiration window coincides with peak maturity wall refinancing. SOFR levels determine whether resets (the historical defusing mechanism) are feasible. CLO arbitrage breaks at SOFR ~4.3-4.5%.",
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

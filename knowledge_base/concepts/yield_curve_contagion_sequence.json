@@ -1,0 +1,34 @@
+{
+  "slug": "yield_curve_contagion_sequence",
+  "definition": "Historical contagion sequence: yield curve inversion → bear steepener → credit blowout → equity drawdown, documented in 4-5 of 6 post-1970 recession episodes with 14-18 month median lag. Current cycle has exceeded historical maximum lag by 80%+ (inversion began July 2022, 32+ months ago). May be interrupted by fiscal channel.",
+  "confidence": 5,
+  "evidence": [
+    "Documented in 4-5 of 6 post-1970 recession episodes",
+    "14-18 month median lag from inversion to equity peak",
+    "Current lag exceeds historical maximum by 80%+",
+    "Current steepening is term-premium-driven not expectations-driven — mechanistically distinct",
+    "Stages 1-2 claimed complete but steepening mechanism differs from historical template"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "Is the current lag broken or merely extended?",
+    "Does the fiscal channel genuinely interrupt the sequence (no precedent)?",
+    "Does term-premium-driven steepening produce the same contagion dynamics as expectations-driven?"
+  ],
+  "related_concepts": [
+    "term_premium_credit_common_factor",
+    "kalecki_levy_profit_identity",
+    "basis_trade_contagion"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

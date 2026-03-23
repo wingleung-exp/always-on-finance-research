@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:56:20Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -1474,20 +1474,25 @@
     "credit_equity_linkage": {
       "category": "cross_asset",
       "display_name": "Credit-Equity Linkage & Contagion Channels",
-      "last_researched": "2026-03-22T18:21:43Z",
-      "depth_level": 1,
-      "confidence_score": 7.4,
-      "research_count": 1,
+      "last_researched": "2026-03-23T11:56:20Z",
+      "depth_level": 2,
+      "confidence_score": 6.8,
+      "research_count": 2,
       "knowledge_gaps": [
-        "Private credit spillover operates through Godley sectoral balance (flow-of-funds) disruption rather than price contagion, transmitting chronically over quarters-to-years.",
         "HY spread widening equity market impact threshold",
+        "Private credit may be a net systemic risk reducer rather than amplifier by shifting risk from leveraged, runnable banks to locked-up long-duration capital",
         "The credit impulse-to-equity R-squared has experienced a structural break from 0.38 to 0.12, reflecting genuine post-GFC funding shift rather than extended lag structure.",
         "Credit and equity market composition has structurally decoupled: top 10 S&P 500 hold ~$500B net cash with zero Merton linkage, while HY issuers are $2-5B market-cap leveraged companies.",
-        "A yield-curve-mediated contagion sequence operates as: inversion → bear steepener → credit blowout → equity drawdown.",
+        "The Kalecki fiscal buffer raising the HY threshold by 100-150bp is itself destabilizing because more credit damage accumulates before equities register the problem — analogous to suppressing small forest fires.",
+        "US fiscal expansion simultaneously supports DM credit quality and tightens EM conditions through the same channel (Kalecki EM paradox)",
         "Multi-step contagion chains complete only ~15-25% of the time (median ~38%), with policy intervention as primary chain-breaker.",
         "CRE-to-bank-equity contagion mechanism",
         "Private credit-to-public market spillover channels",
-        "The Kalecki fiscal buffer raising the HY threshold by 100-150bp is itself destabilizing because more credit damage accumulates before equities register the problem — analogous to suppressing small forest fires."
+        "Japan's experience (fiscal support sustained economy but not asset prices — equity -60%+ despite deficits) is a cautionary parallel for the US Kalecki thesis",
+        "Reserve adequacy frameworks (Guidotti-Greenspan, IMF ARA) may be structurally broken if Treasuries become illiquid during stress",
+        "SEC central clearing mandate (Q2 2026) is a calendar-identifiable catalyst for basis trade position adjustment",
+        "A yield-curve-mediated contagion sequence operates as: inversion → bear steepener → credit blowout → equity drawdown.",
+        "The deficit-term premium reflexive loop is activating and inherently destabilizing, with net interest rising from ~$350B to ~$1T"
       ],
       "connections": [
         "credit_cycles",
@@ -1501,11 +1506,19 @@
         "private_credit_spillover"
       ],
       "key_concepts": [
+        "banking_channel_activation",
         "banking_channel_severity_discriminant",
         "basis_trade_contagion",
+        "cet1_structural_break",
         "clo_oc_test_contagion",
+        "clo_oc_test_threshold",
+        "clo_reinvestment_period_expiration",
+        "contagion_chain_completion_probability",
+        "convex_em_transmission",
         "cre_bank_contagion",
+        "cre_concentration_regional_banks",
         "credit_equity_contagion",
+        "credit_equity_correlation_bimodality",
         "credit_equity_correlation_regime_dependence",
         "credit_equity_labor_sequencing",
         "credit_equity_lead_lag",
@@ -1514,16 +1527,22 @@
         "ebitda_addbacks_covenant_lite",
         "fallen_angel_risk",
         "financial_accelerator_loaded",
+        "godley_sectoral_balance",
+        "hidden_fragility_partially_priced",
         "hy_oas_current_level",
         "hy_spread_threshold_zone",
         "kalecki_fiscal_channel",
+        "kalecki_levy_profit_identity",
+        "kalecki_quality_differentiation",
         "maturity_wall",
         "merton_model",
         "merton_model_limitations",
         "modified_taylor_rule_credit_term",
         "private_credit_opacity",
+        "structural_bifurcation_megacap_leveraged",
         "synthetic_credit_reverse_causality",
-        "term_premium_channel"
+        "term_premium_channel",
+        "term_premium_credit_common_factor"
       ]
     },
     "commodity_inflation_transmission": {

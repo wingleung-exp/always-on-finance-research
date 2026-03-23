@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "banking_channel_diagnostic",
+    "purpose": "Determines whether the banking channel — the single most important severity discriminant — is active, loading, or dormant in real time",
+    "components": [
+      "KRE (regional bank equities) sympathy with HY widening",
+      "Bank CDS spread levels and trend",
+      "CET1 ratio adequacy relative to loss exposure",
+      "CRE concentration at regional vs large banks (28-30% vs 6-8%)",
+      "CLO warehouse lines from regional banks as second-order channel"
+    ],
+    "current_assessment": "NOT ACTIVATED. KRE stable, bank CDS range-bound, CET1 13-14%. CRE concentration constitutes loading but not activation. Current capital buffers are a genuine structural break vs historical episodes (4-8% CET1).",
+    "limitations": [
+      "Quantitative calibration of how much CET1 structural break reduces activation probability is unknown",
+      "CRE loss rates that would trigger activation at current capital levels not modeled",
+      "Regional bank heterogeneity (CRE concentration varies widely) not captured by aggregate CET1",
+      "Private credit risk transfer may have changed the banking channel's effective scope"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "slug": "kalecki_fiscal_buffer_framework",
+    "purpose": "Assesses whether the fiscal-to-profit channel is intact, sufficient, and sustainable for supporting credit-equity valuations",
+    "components": [
+      "Kalecki-Lévy profit identity: Profits ≡ Investment + Government Deficit + Net Exports − Household Savings",
+      "Fiscal deficit level (current 6-7% GDP, ~$1.5-1.8T annually)",
+      "Quality differentiation: buffer sufficient for IG/upper HY, insufficient for CCC/leveraged loans",
+      "Godley sectoral balance constraint: both resolution paths lead toward instability",
+      "Deficit-term premium reflexive loop as endogenous destabilizer"
+    ],
+    "current_assessment": "Fully operational. S&P 500 EPS grew 8-10% annualized despite restrictive monetary policy. Configuration is genuinely unprecedented in credit-equity analogue set. Neither party has austerity mandate, DOGE impact is $100-200B/yr vs $2T+ deficit. Buffer is durable on 1-2 year horizon but structurally unsustainable per Godley.",
+    "limitations": [
+      "No observable stopping rule to distinguish approaching instability from years of continued compression",
+      "Aggregate mechanism does not protect individual firm cash flows (Kalecki quality differentiation)",
+      "Japan parallel: fiscal support sustained economy but NOT asset prices — 60%+ equity decline despite deficits",
+      "Threshold of fiscal consolidation that cracks the floor not quantified",
+      "Political economy makes consolidation >2pp GDP unlikely but bond market reaction (à la UK gilt crisis) could force it"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "slug": "contagion_chain_assessment",
+    "purpose": "Estimates the probability and pathway of full credit-equity contagion chain completion from current structural loading",
+    "components": [
+      "Banking channel activation status (primary severity discriminant)",
+      "Maturity wall arithmetic ($900B-$1.5T, 2025-2028)",
+      "CLO OC test CCC-bucket utilization (4-6.5% vs 7.5% threshold)",
+      "CLO reinvestment period expirations ($250-350B over 18 months)",
+      "Basis trade notional ($800B-$1T at 50-100x leverage)",
+      "Kalecki fiscal buffer status",
+      "Fed policy flexibility (inflation constraint is swing variable)",
+      "Episode analogue base rate (3/7 severe outcomes = ~35-40% unconditional)"
+    ],
+    "current_assessment": "Normal regime with elevated structural loading. ~35-40% unconditional completion probability (from analogue base rate), reducible to ~20-25% with operational Fed put or inflatable to ~40-50% with inflation-constrained Fed. P(inflation constrains Fed | credit stress emerges) is the most decision-relevant unknown. No current indicators suggest imminent transition.",
+    "limitations": [
+      "Only 7 analogues — small sample for probability estimation",
+      "Structural changes (CET1 break, private credit, fiscal configuration) make historical base rates potentially unreliable",
+      "Conditional probabilities (joint probability of recession AND maturity wall AND constrained Fed) not rigorously estimated",
+      "0-for-4 base rate of maturity walls producing systemic stress in modern markets suggests maturity wall alone is insufficient"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "slug": "correlation_regime_classification",
+    "purpose": "Identifies the current credit-equity correlation regime and provides early warning of transitions",
+    "components": [
+      "Bimodal regime taxonomy: normal (0.3-0.4) vs crisis (0.7-0.9)",
+      "Early warning window: correlation rising from 0.3 to 0.5, lasting 2-5 months historically",
+      "Banking channel activation as primary transition trigger",
+      "Private credit opacity delaying measured correlation by 12-18 months",
+      "Structural bifurcation masking: equal-weight/cap-weight ratio as alternative diagnostic",
+      "Synthetic credit reverse causality contaminating high-frequency measurement"
+    ],
+    "current_assessment": "NORMAL REGIME. HY OAS at 350-420bp near cycle tights, VIX 13-18, KRE stable. generalist_01's claim of early stress decorrelation was refuted. Correct characterization: normal regime with elevated structural loading. Equal-weight/cap-weight divergence of ~15-20% suggests underlying stress not captured by aggregate indicators.",
+    "limitations": [
+      "Early warning window may be compressing (2020 transition <1 month vs historical 2-5 months)",
+      "Private credit opacity means measured correlation may lag economic correlation by 12-18 months",
+      "Structural bifurcation between mega-cap and leveraged universe means aggregate measures systematically understate stress",
+      "Frequency-domain decomposition needed to separate genuine fundamental signal from synthetic credit contamination"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "slug": "maturity_wall_conditional_amplifier",
+    "purpose": "Determines whether the maturity wall produces orderly refinancing or systemic stress, conditional on macro environment",
+    "components": [
+      "Maturity arithmetic: $900B-$1.5T sub-IG, 2025-2028",
+      "Refinancing cost increase: 200-400bp for B-rated, representing 40-60% cash interest increase",
+      "True leverage exposure: 7.5-8.5x after EBITDA addback adjustment vs reported ~6x",
+      "Historical base rate: 2/2 walls coinciding with recession = systemic, 0/2 without recession = orderly",
+      "CLO demand withdrawal: reinvestment period expirations + potential OC test breach",
+      "ZIRP unavailability: prior defusing via amend-and-extend less feasible at current rates"
+    ],
+    "current_assessment": "Arithmetic is certain. Systemic outcome conditional on recession coincidence. Currently 0-for-4 in modern markets for producing systemic stress. Key conditional: if recession coincides with peak refinancing window AND CLO demand withdrawal AND constrained Fed, the wall becomes amplifier rather than orderly refinancing exercise.",
+    "limitations": [
+      "0-for-4 base rate suggests maturity walls are necessary but not sufficient for systemic stress",
+      "This time is different reasoning (higher rates) demands lower confidence",
+      "Share of borrowers above vs below Kalecki floor's effective altitude not quantified",
+      "CLO manager active trading partially softens the step-function framing of OC test breach"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "slug": "godley_dual_instability",
+    "purpose": "Demonstrates why both fiscal resolution paths (consolidation and continuation) lead toward credit-equity instability",
+    "components": [
+      "Godley sectoral balance identity: Private + Government + Foreign ≡ 0",
+      "Path A (consolidation): reduces corporate profits via Kalecki identity, triggering credit cycle downshift within 4-6 quarters",
+      "Path B (continuation): generates $2T+ annual Treasury issuance, elevating term premium and loading basis trade channel",
+      "Deficit-term premium reflexive loop: deficit → issuance → term premium → higher interest → larger deficit",
+      "Non-linear deficit-term premium relationship: insensitive below 3-4% deficit/GDP, sensitive above"
+    ],
+    "current_assessment": "Current configuration is in the sensitive zone (6-7% deficit/GDP). Political economy makes Path A unlikely (neither party has austerity mandate). Path B is the default trajectory, with the reflexive loop as the endogenous destabilizer. The question is timing and trigger, not direction. The blended borrowing rate (~4.5%) vs nominal GDP growth (~5.5%) margin of ~100bp is historically thin.",
+    "limitations": [
+      "US reserve currency status may raise the activation threshold vs non-reserve-currency sovereigns",
+      "The deficit-term premium activation threshold for the US is unknown",
+      "Clinton consolidation and Truss expansion are the only available event studies for calibration",
+      "10-25% recycling of interest payments as spending creates partial monetary policy offset that complicates analysis"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  }
+]

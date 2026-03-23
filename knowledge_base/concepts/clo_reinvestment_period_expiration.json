@@ -1,0 +1,33 @@
+{
+  "slug": "clo_reinvestment_period_expiration",
+  "definition": "$250-350B in CLO reinvestment periods expiring over 18 months, converting active CLOs into amortizing vehicles that stop buying new loans without becoming forced sellers. This gradual demand withdrawal coincides with the maturity wall's peak refinancing window and represents a supply-demand headwind independent of credit deterioration.",
+  "confidence": 6,
+  "evidence": [
+    "Post-reinvestment CLOs become amortizing vehicles that stop buying new loans",
+    "Coincides with maturity wall peak refinancing window",
+    "Current SOFR levels make reset activity (historical defusing mechanism) less favorable",
+    "2019 CLO cliff was pre-empted by resets at lower rates",
+    "Analytically distinct from OC test breach story"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How much of the $250-350B can be defused by resets at current SOFR levels?",
+    "What is the CLO arbitrage breakeven SOFR level (estimated ~4.3-4.5%)?",
+    "What is the net demand impact when combined with the maturity wall?"
+  ],
+  "related_concepts": [
+    "clo_oc_test_threshold",
+    "maturity_wall",
+    "ebitda_addbacks_covenant_lite"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

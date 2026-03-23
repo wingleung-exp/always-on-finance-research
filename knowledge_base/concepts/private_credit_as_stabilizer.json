@@ -1,0 +1,33 @@
+{
+  "slug": "private_credit_as_stabilizer",
+  "definition": "The hypothesis that private credit may be a net systemic risk reducer by shifting credit risk from leveraged, runnable banks to locked-up long-duration capital (insurance, pension, endowments with 7-10 year lockups). Mark-to-model smoothing prevents forced-selling cascades. Theoretically sound but untested in severe stress.",
+  "confidence": 4,
+  "evidence": [
+    "Shifts risk from leveraged banks (systemic via deposit runs) to locked-up capital",
+    "Mark-to-model smoothing prevents forced-selling cascades",
+    "Insurance/pension losses create slower but potentially significant second-order channels",
+    "Not corroborated by other agents but not refuted either",
+    "Untested in severe stress at $1.7T scale"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What is the actual loss absorption capacity of insurance and pension holders?",
+    "At what loss threshold do BDC/interval fund redemptions create spillover?",
+    "Does mark-to-model smoothing prevent or merely delay systemic transmission?"
+  ],
+  "related_concepts": [
+    "private_credit_opacity",
+    "banking_channel_activation",
+    "cet1_structural_break"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

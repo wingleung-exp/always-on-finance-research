@@ -1,0 +1,27 @@
+{
+  "slug": "maturity_wall_conditional_amplifier",
+  "purpose": "Determines whether the maturity wall produces orderly refinancing or systemic stress, conditional on macro environment",
+  "components": [
+    "Maturity arithmetic: $900B-$1.5T sub-IG, 2025-2028",
+    "Refinancing cost increase: 200-400bp for B-rated, representing 40-60% cash interest increase",
+    "True leverage exposure: 7.5-8.5x after EBITDA addback adjustment vs reported ~6x",
+    "Historical base rate: 2/2 walls coinciding with recession = systemic, 0/2 without recession = orderly",
+    "CLO demand withdrawal: reinvestment period expirations + potential OC test breach",
+    "ZIRP unavailability: prior defusing via amend-and-extend less feasible at current rates"
+  ],
+  "current_assessment": "Arithmetic is certain. Systemic outcome conditional on recession coincidence. Currently 0-for-4 in modern markets for producing systemic stress. Key conditional: if recession coincides with peak refinancing window AND CLO demand withdrawal AND constrained Fed, the wall becomes amplifier rather than orderly refinancing exercise.",
+  "limitations": [
+    "0-for-4 base rate suggests maturity walls are necessary but not sufficient for systemic stress",
+    "This time is different reasoning (higher rates) demands lower confidence",
+    "Share of borrowers above vs below Kalecki floor's effective altitude not quantified",
+    "CLO manager active trading partially softens the step-function framing of OC test breach"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

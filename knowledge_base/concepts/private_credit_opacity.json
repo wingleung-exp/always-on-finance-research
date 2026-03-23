@@ -1,23 +1,18 @@
 {
   "slug": "private_credit_opacity",
   "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain but the magnitude is uncertain, creating underappreciated systemic risk.",
-  "confidence": 7.5,
+  "confidence": 7.2,
   "evidence": [
-    "Structural analysis of private credit reporting incentives favoring optimism",
-    "Comparison of observable vs. estimated true underlying credit quality",
-    "Mark-to-model practices reducing reported volatility below economic reality",
-    "Private credit NAVs are manager-determined and smoothed",
-    "PIK toggle usage allows hidden stress accumulation",
-    "Private borrowers absent from public default statistics, HY spread indices, and financial conditions indices",
-    "pair_1 confirmed existence of opacity problem is near-certain",
-    "Gap between marks and true recoverable value could be 5% or 25%",
-    "Mark-to-model practices, quarterly reporting lags, manager-determined NAVs",
-    "PIK toggle usage at 5-8% up from ~2% in 2022",
-    "Outside all public indices, default statistics, and financial conditions measures",
     "No historical analogue at this scale",
     "Base rate framework from 5 analogues (S&Ls, SIVs, junk bonds, Japanese jusen, AT1) shows 60-80% disorderly repricing rate with 4-5 year median lag",
     "Three spillover channels: BDC/interval fund redemptions (~$300B), insurance RBC (~$700B), information contagion",
-    "Mark-to-recovery gap could be 5% or 25% — too wide to be actionable"
+    "Mark-to-recovery gap could be 5% or 25% — too wide to be actionable",
+    "Mark-to-model NAVs suppress measured volatility by 2-3x",
+    "PIK toggle usage rising from ~2% to 5-8%",
+    "Credit impulse R² declined from 0.38 to 0.12, partially attributable to $200B→$1.7T private credit growth",
+    "Six agents converge on direction of bias",
+    "15-25% portfolio volatility underestimation figure is analytically derived but not empirically validated",
+    "Asset class has never been tested through a full cycle at this scale"
   ],
   "originating_agents": [
     "credit_analyst",
@@ -29,19 +24,18 @@
     "macro_strategist_01",
     "macro_strategist_02",
     "rates_strategist_01",
-    "challenger_01"
+    "challenger_01",
+    "fx_strategist_02"
   ],
   "open_questions": [
-    "What is the true magnitude of the optimism bias?",
-    "At what point does opacity itself become a trigger as credibility erodes?",
-    "How correlated are private credit exposures across ostensibly diversified portfolios?",
-    "What is the magnitude of the optimism bias from private credit opacity?",
-    "How will semi-liquid vehicles (interval funds, BDCs) behave in a downturn?",
     "Does private credit opacity create systemic risk or is it contained?",
     "What is the actual mark-to-recovery gap?",
     "Which spillover channel activates first?",
     "Is there a true historical analogue at $1.7T scale?",
-    "What is the actual default rate vs reported in private credit?"
+    "What is the actual default rate vs reported in private credit?",
+    "What is the actual magnitude of volatility suppression vs the analytically derived 15-25%?",
+    "What is the loss absorption capacity of insurance companies and pension funds for private credit losses?",
+    "At what scale do BDC/interval fund redemptions ($300B), insurance RBC impairment ($700B), or information contagion create systemic spillover?"
   ],
   "related_concepts": [
     "maturity_wall_2025_2027",
@@ -55,17 +49,22 @@
     "credit_impulse_degradation",
     "private_credit_flow_disruption",
     "clo_oc_test_contagion",
-    "basis_trade_contagion"
+    "basis_trade_contagion",
+    "credit_equity_correlation_bimodality",
+    "ebitba_addbacks_covenant_lite",
+    "private_credit_as_stabilizer",
+    "banking_channel_activation"
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-23T02:02:30Z",
+  "last_updated": "2026-03-23T11:56:19Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 4,
+  "research_iterations": 5,
   "iteration_history": [
     "iter_0014",
     "iter_0002",
     "iter_0004",
-    "iter_0001"
+    "iter_0001",
+    "iter_0035"
   ]
 }

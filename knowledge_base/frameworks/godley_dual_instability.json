@@ -1,0 +1,26 @@
+{
+  "slug": "godley_dual_instability",
+  "purpose": "Demonstrates why both fiscal resolution paths (consolidation and continuation) lead toward credit-equity instability",
+  "components": [
+    "Godley sectoral balance identity: Private + Government + Foreign ≡ 0",
+    "Path A (consolidation): reduces corporate profits via Kalecki identity, triggering credit cycle downshift within 4-6 quarters",
+    "Path B (continuation): generates $2T+ annual Treasury issuance, elevating term premium and loading basis trade channel",
+    "Deficit-term premium reflexive loop: deficit → issuance → term premium → higher interest → larger deficit",
+    "Non-linear deficit-term premium relationship: insensitive below 3-4% deficit/GDP, sensitive above"
+  ],
+  "current_assessment": "Current configuration is in the sensitive zone (6-7% deficit/GDP). Political economy makes Path A unlikely (neither party has austerity mandate). Path B is the default trajectory, with the reflexive loop as the endogenous destabilizer. The question is timing and trigger, not direction. The blended borrowing rate (~4.5%) vs nominal GDP growth (~5.5%) margin of ~100bp is historically thin.",
+  "limitations": [
+    "US reserve currency status may raise the activation threshold vs non-reserve-currency sovereigns",
+    "The deficit-term premium activation threshold for the US is unknown",
+    "Clinton consolidation and Truss expansion are the only available event studies for calibration",
+    "10-25% recycling of interest payments as spending creates partial monetary policy offset that complicates analysis"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}

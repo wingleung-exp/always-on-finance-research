@@ -1,0 +1,96 @@
+[
+  {
+    "claim": "Current regime is in early stress decorrelation phase",
+    "reason": "HY OAS at 350-420bp near cycle tights, KRE stable-to-higher, bank CDS range-bound, VIX 13-18 — every indicator reads normal, not early stress. The agent self-downgrades to 6/10 and admits HY OAS argues against stress. The label appears motivated by the need to justify the trade recommendation.",
+    "refuted_by": [
+      "generalist_02",
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "Cross-asset trade (long CDX protection + long equal-weight / short cap-weight SPX) is actionable with positive expected return",
+    "reason": "Three self-identified problems destroy the trade's edge: Merton model has 50-100bp systematic errors and 40-60% Type I error rate reducing tradeable basis to 20-40bp; CDX protection costs 3.5-4.2% annually in carry; resolution time horizon uncertain. If true basis is 20-40bp with 3.5-4.2% carry, trade is negative expected value unless it resolves within 6-9 months.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "Credit-equity basis has precision of 50-75bp",
+    "reason": "Depends on addback-adjusted leverage inputs fed into Merton model with acknowledged systematic errors of 50-100bp. The addback adjustment adds 25-35bp but is itself a judgment call. Model output presented with confidence of a market observable. Directionally suggestive but precision overstates what methodology can deliver.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "The Merton structural model gets the causality backwards",
+    "reason": "Overstated. Merton model's 50-70% cross-sectional R² (which the agent concedes) is substantial evidence that equity values contain information about credit risk. Post-Keynesian framework is superior for macro-cyclical dynamics but cannot price individual credits. The claim implies equity has no informational content about credit risk, contradicting the agent's own R² acknowledgment.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "Credit factor crowding constitutes Ponzi finance in Minsky's framework",
+    "reason": "PC1 >65% and skewness/kurtosis statistics are real, but Ponzi finance requires cash flows insufficient to cover principal or interest, requiring asset sales or new borrowing. Holding a correlated portfolio is mispriced risk, not Ponzi finance. The Minsky taxonomy is stretched beyond its definitional boundaries.",
+    "refuted_by": [
+      "challenger_01",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "Contagion chain completion probability is only 15-25%",
+    "reason": "Not derived from transparent sample. generalist_02's ~35-40% from explicit analogue tabulation (3/7 episodes severe) is more defensible. The agent acknowledges probability rises to 35-50% if inflation blocks Fed, converging with the unconditional estimate. Lower bound appears deflated by conditioning on favorable Fed response without labeling as conditional.",
+    "refuted_by": [
+      "generalist_02",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "EM carry basket is collecting pennies in front of a steamroller",
+    "reason": "Agent assigns 6/10 confidence and admits framing has been wrong-but-early many times. Residual pure carry Sharpe of 0.15-0.30 with confidence interval including zero is unremarkable for single-factor strategies. Steamroller metaphor implies near-certainty of timing while evidence supports only elevated conditional probability.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "Maturity wall is single most predictable catalyst for systemic contagion at 9/10 confidence",
+    "reason": "The arithmetic deserves 9-10/10. The systemic claim does not. Base rate of maturity walls producing systemic stress is 0-for-4 in modern markets. This time is different reasoning (higher rates) demands lower confidence. Maturity wall is necessary but not sufficient condition. Downgraded to 6-7/10 for systemic outcome.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  },
+  {
+    "claim": "2020 CLO stress test demonstrates structural resilience without intervention",
+    "reason": "2020 CLO equity returns were excellent precisely because the Fed injected $1.6T in emergency liquidity and produced V-shaped recovery. Using the outcome of a massively intervened episode to argue intervention isn't needed is survivorship reasoning. A slow grind without Fed support would be fundamentally different.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "credit_equity_linkage",
+    "iteration_id": "iter_0035"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "concept_a": "clo_oc_test_threshold",
+  "concept_b": "maturity_wall",
+  "mechanism": "Downgrades from maturity wall stress push CCC-bucket utilization toward the 7.5% OC test threshold. Breach triggers cash flow diversion and shuts down new CLO formation, removing ~65-70% of leveraged loan demand precisely when maturity wall borrowers need refinancing.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Conditional on maturity wall coinciding with credit deterioration. Current CCC-bucket at 4-6.5% is one downgrade wave from threshold. CLO managers actively trade to manage exposure, creating partial offset.",
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_01"
+  ],
+  "topic": "credit_equity_linkage",
+  "created_at": "2026-03-23T11:56:19Z",
+  "last_updated": "2026-03-23T11:56:19Z",
+  "originating_iteration": "iter_0035",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0035"
+  ]
+}
