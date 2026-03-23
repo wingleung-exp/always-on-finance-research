@@ -1,0 +1,33 @@
+{
+  "slug": "jpy_carry_em_contagion_lag",
+  "definition": "JPY carry unwind transmits to EM high-beta currencies with a 2-5 trading day lag at 1.5-2.0x magnitude. August 2024 data: USD/JPY moved July 31-August 5; EM high-beta (ZAR -7%, BRL -5%, MXN -8%) peaked August 5-7. Mechanism operates through margin calls triggering EM carry liquidation then stop-loss cascades.",
+  "confidence": 6.5,
+  "evidence": [
+    "August 2024 sequencing: USD/JPY July 31-Aug 5, EM peaks Aug 5-7",
+    "EM magnitudes: ZAR -7%, BRL -5%, MXN -8%",
+    "Margin call → EM carry liquidation → stop-loss cascade mechanism",
+    "Operationally valuable but n=1 for precise sequencing"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Is the 2-5 day lag stable across different market structure regimes?",
+    "Does the 1.5-2.0x magnitude hold for smaller JPY moves?",
+    "How does EM reserve adequacy affect contagion magnitude?"
+  ],
+  "related_concepts": [
+    "jpy_carry_unwind_mechanism",
+    "credit_cycle_carry_severity_discriminant",
+    "em_reserve_adequacy_bifurcation",
+    "carry_to_vol_ratio_overstatement"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

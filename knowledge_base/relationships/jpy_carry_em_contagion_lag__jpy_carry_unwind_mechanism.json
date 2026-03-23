@@ -1,0 +1,19 @@
+{
+  "concept_a": "jpy_carry_unwind_mechanism",
+  "concept_b": "jpy_carry_em_contagion_lag",
+  "mechanism": "JPY carry unwind triggers margin calls on leveraged JPY-funded positions, which then cascade into EM carry liquidation with a 2-5 trading day lag as different asset classes and geographies are hit sequentially. Magnitude amplifies 1.5-2.0x from JPY move to EM high-beta currencies through stop-loss cascades.",
+  "direction": "a_causes_b",
+  "confidence": 6.5,
+  "regime_dependence": "Documented in August 2024 episode. Lag and magnitude likely vary with market liquidity conditions, EM positioning concentration, and whether EM carry positions are funded in JPY directly or through correlated structures.",
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

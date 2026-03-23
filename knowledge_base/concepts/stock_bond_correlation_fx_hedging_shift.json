@@ -1,0 +1,32 @@
+{
+  "slug": "stock_bond_correlation_fx_hedging_shift",
+  "definition": "The shift in stock-bond correlation from negative to positive (+0.15 to +0.35) alters FX hedging calculus for global portfolios. Foreign investors face a triple hit (equity losses + bond losses + potential dollar depreciation), shifting equilibrium hedge ratio from ~50% to ~80-90%. Near-term this supports the dollar through increased hedging demand; medium-term it creates larger forced selling in portfolio reallocation.",
+  "confidence": 6,
+  "evidence": [
+    "Correlation shift from negative to +0.15 to +0.35",
+    "Equilibrium hedge ratio shift from ~50% to ~80-90%",
+    "pair_0 praised as genuinely valuable",
+    "Maturity-dependent bifurcation (2Y-SPX negative vs. 30Y-SPX positive) as transition diagnostic"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Is the correlation regime shift permanent or cyclical?",
+    "At what portfolio allocation threshold does forced selling overwhelm hedging demand?",
+    "How does the maturity-dependent bifurcation evolve through the rate cycle?"
+  ],
+  "related_concepts": [
+    "fci_policy_rate_divergence",
+    "dollar_late_stage_transitional_regime",
+    "basis_trade_cross_asset_channel"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

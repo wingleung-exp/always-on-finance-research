@@ -1,38 +1,54 @@
 {
   "slug": "move_fx_vol_divergence",
   "definition": "Rates volatility (MOVE index) has diverged from FX volatility by 1.8 standard deviations. Historical resolution pattern: 4/5 prior episodes resolved via FX vol repricing higher. Current episode duration (~18 months) exceeds median persistence of prior inversions (~12 months). However, against a 1973-2007 baseline, current G10 FX vol (7-9%) is ~35th-40th percentile, making the anomaly partially a reference period artifact.",
-  "confidence": 6.5,
+  "confidence": 6.25,
   "evidence": [
     "1.8 sigma divergence between MOVE and FX vol",
     "4/5 historical episodes resolved via FX vol repricing",
     "Current episode ~18 months vs median ~12 months persistence",
     "2005-06 precedent of similar divergence preceded carry unwind",
     "Against 1973-2007 baseline, current vol is 35th-40th percentile, not suppressed",
-    "Against 2010-2019 baseline, near median"
+    "Against 2010-2019 baseline, near median",
+    "4/4 historical episodes resolved via FX vol repricing higher",
+    "Against 1973-2007 baseline: G10 FX vol at 35th-40th percentile — unremarkable",
+    "Count discrepancy between agents (4/5 vs 4/4) flagged in pair_0",
+    "Structural arguments for permanently lower vol (algorithmic liquidity, CB communication, automated hedging) are plausible but untested"
   ],
   "originating_agents": [
     "generalist_01",
     "fx_strategist_02",
     "fx_strategist_01",
-    "challenger_02"
+    "challenger_02",
+    "generalist_02",
+    "rates_strategist_02",
+    "challenger_01"
   ],
   "open_questions": [
     "Correct reference distribution for vol anomaly detection (the single most important unresolved methodological issue per challenger_02)",
     "Whether structural changes in FX market microstructure permanently altered vol dynamics",
-    "Whether the 2005-06 precedent is the only valid prior or if the sample should be expanded"
+    "Whether the 2005-06 precedent is the only valid prior or if the sample should be expanded",
+    "What is the correct reference period for FX vol — the single most important unresolved methodological question",
+    "Have FX markets permanently structurally changed post-2010?",
+    "Will the n=4 historical pattern hold given potential structural breaks?",
+    "How much of the divergence is explained by forward guidance vol suppression?"
   ],
   "related_concepts": [
     "regime_conditional_rate_fx",
     "carry_to_vol_regime_adjustment",
     "jpy_carry_unwind_risk",
-    "forward_guidance_credibility_erosion"
+    "forward_guidance_credibility_erosion",
+    "forward_guidance_vol_suppression",
+    "carry_to_vol_ratio_overstatement",
+    "dollar_smile_framework_unfalsifiability",
+    "anti_carry_consensus_crowding"
   ],
   "topic": "fx_regimes",
   "created_at": "2026-03-22T23:41:55Z",
-  "last_updated": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-23T14:18:26Z",
   "originating_iteration": "iter_0012",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0012"
+    "iter_0012",
+    "iter_0039"
   ]
 }

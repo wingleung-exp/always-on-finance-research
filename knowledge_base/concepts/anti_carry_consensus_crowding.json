@@ -1,0 +1,32 @@
+{
+  "slug": "anti_carry_consensus_crowding",
+  "definition": "The anti-carry/long gamma consensus trade may be approaching the point of self-defeat. If everyone owns gamma and no one owns carry, gamma becomes expensive and carry becomes cheap. The carry Sharpe confidence interval of [0.04, 0.72] shows the point estimate of 0.30-0.38 is far less precise than it appears.",
+  "confidence": 5,
+  "evidence": [
+    "Compressed spring evidence (n=18, p<0.001) underlying gamma trade is hard to dismiss",
+    "Second-order concern: universal gamma ownership makes gamma expensive and carry cheap",
+    "Carry Sharpe CI [0.04, 0.72] around point estimate 0.30-0.38",
+    "Not yet corroborated by other agents"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What positioning data would confirm gamma crowding?",
+    "At what point does gamma pricing become prohibitive relative to expected vol repricing?",
+    "Could carry become tactically attractive precisely because of anti-carry consensus?"
+  ],
+  "related_concepts": [
+    "carry_to_vol_ratio_overstatement",
+    "move_fx_vol_divergence",
+    "forward_guidance_vol_suppression"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

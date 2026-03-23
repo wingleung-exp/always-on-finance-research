@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "dollar_smile",
+    "purpose": "Provides a descriptive framework for understanding dollar behavior across three macroeconomic regimes: risk-off strength, risk-on weakness, and US exceptionalism strength.",
+    "components": [
+      "Risk-off regime: dollar strengthens during global risk events due to safe-haven demand",
+      "Risk-on regime: dollar weakens as capital flows to higher-yielding and growth assets globally",
+      "US exceptionalism regime: dollar strengthens when US growth outperforms relative to the rest of the world",
+      "Fiscal smirk modification: adds fiscal deficit dynamics as a fourth dimension that can reinforce or undermine any of the three regimes"
+    ],
+    "current_assessment": "Descriptively useful but unfalsifiable — three collectively exhaustive regimes mean any outcome can be explained ex post. No documented ex-ante regime identification rules with hit rates exist. The fiscal smirk modification adds another degree of freedom. The framework persists because Meese-Rogoff (1983) shows random walk beats all FX models at short horizons, leaving an analytical void.",
+    "limitations": [
+      "Collectively exhaustive regimes make the framework unfalsifiable",
+      "No ex-ante regime identification rule with documented hit rates",
+      "Historical counterexamples (2017-18, Q2-Q3 2020) dismissed as transitional rather than framework failures",
+      "Fiscal smirk adds another degree of freedom, further reducing falsifiability",
+      "Any invocation should require stated ex-ante regime calls with documented hit rates"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_crisis_five_signal_archetype",
+    "purpose": "Identifies EM economies at risk of FX crises by tracking five early warning signals, with consistent pre-crisis sequencing from reserves depletion through to devaluation.",
+    "components": [
+      "Five-signal scoring: 80% hit rate at 4-5 signals, 45% at 3 signals",
+      "Pre-crisis sequencing: reserves depletion → forward stress → capital controls → devaluation",
+      "NDF-onshore spread as earliest tradeable signal",
+      "Currently 8-12 economies show 3+ signals",
+      "Vulnerability rotation: from CA-deficit-driven (1990s-2018) to fiscal-monetary conflict (2025-26)"
+    ],
+    "current_assessment": "Validated across 15+ episodes. 8-12 economies currently at 3+ signals. Key vulnerable countries include Egypt, Nigeria, Pakistan, Ethiopia, Ghana. The rotation from CA-driven to fiscal-monetary conflict crises is significant because CA crises are self-correcting while fiscal-monetary crises create vicious circles. Goodhart's Law objection was refuted by recent crisis evidence.",
+    "limitations": [
+      "45% hit rate at 3 signals means significant false positive rate",
+      "Vulnerability migration to corporate balance sheets (original sin reloaded) may not be captured by sovereign-focused signals",
+      "Signal weights may need recalibration for fiscal-monetary conflict type vs. CA-deficit type",
+      "Sample may be too small in some sub-categories to establish robust base rates"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "credit_cycle_carry_severity_hierarchy",
+    "purpose": "Classifies carry unwind events into three tiers based on credit cycle position at the time of the unwind, enabling conditional severity assessment.",
+    "components": [
+      "Contained tier: tight credit (IG <130bp, HY <400bp) — examples: 2013, 2018, Aug 2024",
+      "Amplified tier: turning credit — example: 1998 LTCM",
+      "Systemic tier: late-cycle credit — example: 2008 GFC",
+      "Current positioning: IG ~110bp, HY ~380bp → toward contained classification",
+      "Time-varying risk from 2025-2027 maturity wall"
+    ],
+    "current_assessment": "Current credit spreads place the next carry unwind toward contained classification. The 2025-2027 maturity wall introduces time-varying risk that could shift classification over the projection horizon. The hierarchy is the most empirically robust finding in the entire analysis with no agent challenging it.",
+    "limitations": [
+      "Credit spread thresholds between tiers are not precisely defined",
+      "The transition from contained to amplified to systemic may not be gradual",
+      "Maturity wall creates calendar-dependent risk that complicates static classification",
+      "Framework assumes credit cycle is observable in real-time; turning points are often identified only retrospectively"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "four_dimensional_dedollarization",
+    "purpose": "Decomposes dollar dominance into four distinct dimensions to avoid conflating marginal reserve reallocation with structural displacement.",
+    "components": [
+      "Reserve allocation: declining 0.5-0.8pp/year — factual but tactically irrelevant against $7.5T daily FX turnover",
+      "Trade invoicing: stable — USD still dominant in commodity and manufactured goods invoicing",
+      "Financial intermediation: stable to growing — USD involved in 88% of FX turnover, unchanged over 20 years",
+      "Settlement infrastructure: challenged — CIPS growth real but inflated by domestic volumes, lacks CNY safe-asset depth"
+    ],
+    "current_assessment": "Reserve allocation is declining at the margin but all other dimensions remain stable or growing. CNY reserve share plateaued at 2.3-2.7%. Gold purchases reflect portfolio rebalancing and sanctions-proofing, not strategic dollar replacement. Sterling-to-dollar transition analogue took 30+ years requiring conditions China does not meet.",
+    "limitations": [
+      "Reserve allocation decline could accelerate non-linearly if geopolitical conditions change",
+      "Difficult to weight the four dimensions — does settlement infrastructure matter more than reserves?",
+      "CIPS volume data quality is questionable (domestic vs. international volume mix)",
+      "Framework is descriptive; does not predict transition triggers or thresholds"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "fci_decomposition_rosetta_stone",
+    "purpose": "Resolves the apparent triple cross-asset inconsistency (SPX 21x, rates pricing 50-75bp cuts, DXY 103-106) by decomposing the ~75-100bp FCI-policy rate gap into its component sources.",
+    "components": [
+      "Equity appreciation: ~30-35bp easing contribution",
+      "Credit spread compression: ~20-25bp easing contribution",
+      "Mortgage rate decline: ~15-20bp easing contribution",
+      "Asymmetric tightening speed: FCI eases over months but tightens in days (~75-100bp instantaneously)",
+      "Resolution: equities price loose FCI, rates price Fed convergence to those conditions, dollar prices non-rate capital flow factors"
+    ],
+    "current_assessment": "Four agents independently validated the same magnitudes from different analytical frames. The decomposition is near-consensus as an explanatory framework. Key risk is the asymmetric tightening speed — if equities or credit correct, FCI can tighten by the equivalent of 3-4 simultaneous rate hikes in days.",
+    "limitations": [
+      "Component magnitudes may shift as market conditions change",
+      "Does not predict when FCI reconvergence will occur",
+      "Equity multiple expansion (not earnings growth) driving FCI loosening creates reflexivity risk",
+      "Assumes FCI components are roughly additive; interaction effects may be significant"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "guidotti_greenspan_reserve_adequacy",
+    "purpose": "Assesses EM reserve adequacy by measuring whether reserves cover short-term external debt, with ratio below 1.0 indicating vulnerability.",
+    "components": [
+      "Ratio = reserves / short-term external debt (maturity < 1 year)",
+      "Below 1.0 indicates inability to cover short-term obligations without market access",
+      "Currently 12-15 EM economies below 1.0 vs. 8-10 in 2019",
+      "Bifurcation: commodity exporters at 15-25 months import cover, importers at 2-4 months",
+      "Country examples: Saudi $420B (18+ months) vs. Pakistan $9B (~2 months)"
+    ],
+    "current_assessment": "Reserve coverage has deteriorated with 12-15 economies below the critical 1.0 threshold. Sharp bifurcation between commodity exporters and importers. Country-level granularity shows extreme vulnerability concentration in import-dependent managed-rate economies (Egypt, Pakistan, Ethiopia).",
+    "limitations": [
+      "Reserves can be window-dressed through swaps and other off-balance-sheet arrangements",
+      "Does not capture corporate dollar debt vulnerability (original sin reloaded)",
+      "Import cover months assume constant import levels; crisis typically compresses imports",
+      "Effective liquid reserves may differ significantly from reported reserves (China: ~$2.0-2.2T liquid vs. $3.2T reported)"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  }
+]

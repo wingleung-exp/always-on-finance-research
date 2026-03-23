@@ -1,0 +1,26 @@
+{
+  "slug": "credit_cycle_carry_severity_hierarchy",
+  "purpose": "Classifies carry unwind events into three tiers based on credit cycle position at the time of the unwind, enabling conditional severity assessment.",
+  "components": [
+    "Contained tier: tight credit (IG <130bp, HY <400bp) — examples: 2013, 2018, Aug 2024",
+    "Amplified tier: turning credit — example: 1998 LTCM",
+    "Systemic tier: late-cycle credit — example: 2008 GFC",
+    "Current positioning: IG ~110bp, HY ~380bp → toward contained classification",
+    "Time-varying risk from 2025-2027 maturity wall"
+  ],
+  "current_assessment": "Current credit spreads place the next carry unwind toward contained classification. The 2025-2027 maturity wall introduces time-varying risk that could shift classification over the projection horizon. The hierarchy is the most empirically robust finding in the entire analysis with no agent challenging it.",
+  "limitations": [
+    "Credit spread thresholds between tiers are not precisely defined",
+    "The transition from contained to amplified to systemic may not be gradual",
+    "Maturity wall creates calendar-dependent risk that complicates static classification",
+    "Framework assumes credit cycle is observable in real-time; turning points are often identified only retrospectively"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

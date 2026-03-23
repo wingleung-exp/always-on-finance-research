@@ -1,0 +1,32 @@
+{
+  "slug": "forward_guidance_vol_suppression",
+  "definition": "A proposed mechanism where central bank forward guidance narrows policy distributions, compressing rate volatility, which suppresses FX volatility and enables carry accumulation that further suppresses vol. Partially refuted: you cannot claim vol is suppressed without establishing the correct baseline; if current vol is 35th-40th percentile against 1973-2007, no suppression explanation is needed.",
+  "confidence": 5,
+  "evidence": [
+    "Mechanism is logical: guidance → narrowed policy distributions → compressed rate vol → FX vol suppression → carry accumulation",
+    "Partially refuted: baseline question unresolved",
+    "Current vol 35th-40th percentile against 1973-2007 — potentially unremarkable",
+    "Alternative explanations (dealer hedging, structural market changes) plausible"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "What is the correct baseline period for FX vol assessment?",
+    "Can the suppression mechanism be isolated from structural market changes?",
+    "Does forward guidance credibility gradient across G4 (Fed conditional, ECB rebuilding, BoJ impaired) create differential vol regimes?"
+  ],
+  "related_concepts": [
+    "move_fx_vol_divergence",
+    "carry_to_vol_ratio_overstatement",
+    "dollar_smile_framework_unfalsifiability"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

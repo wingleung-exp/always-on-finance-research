@@ -1,0 +1,26 @@
+{
+  "slug": "fci_decomposition_rosetta_stone",
+  "purpose": "Resolves the apparent triple cross-asset inconsistency (SPX 21x, rates pricing 50-75bp cuts, DXY 103-106) by decomposing the ~75-100bp FCI-policy rate gap into its component sources.",
+  "components": [
+    "Equity appreciation: ~30-35bp easing contribution",
+    "Credit spread compression: ~20-25bp easing contribution",
+    "Mortgage rate decline: ~15-20bp easing contribution",
+    "Asymmetric tightening speed: FCI eases over months but tightens in days (~75-100bp instantaneously)",
+    "Resolution: equities price loose FCI, rates price Fed convergence to those conditions, dollar prices non-rate capital flow factors"
+  ],
+  "current_assessment": "Four agents independently validated the same magnitudes from different analytical frames. The decomposition is near-consensus as an explanatory framework. Key risk is the asymmetric tightening speed — if equities or credit correct, FCI can tighten by the equivalent of 3-4 simultaneous rate hikes in days.",
+  "limitations": [
+    "Component magnitudes may shift as market conditions change",
+    "Does not predict when FCI reconvergence will occur",
+    "Equity multiple expansion (not earnings growth) driving FCI loosening creates reflexivity risk",
+    "Assumes FCI components are roughly additive; interaction effects may be significant"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

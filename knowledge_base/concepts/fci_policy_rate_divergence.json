@@ -1,32 +1,48 @@
 {
   "slug": "fci_policy_rate_divergence",
   "definition": "Financial conditions have diverged from the Fed policy rate by ~75-100bp in the easing direction, driven primarily by equity appreciation (~30-35bp), credit spread compression (~20-25bp), mortgage rates (~15-20bp), and FX (~10-15bp), with actual rate cuts contributing only ~15-20bp. The ECB is more FX-sensitive than the Fed because European equity/credit channels provide less loosening.",
-  "confidence": 7,
+  "confidence": 7.5,
   "evidence": [
     "Decomposition: equity ~30-35bp, credit ~20-25bp, mortgage ~15-20bp, FX ~10-15bp, rate cuts ~15-20bp",
     "Pair_3 debate called this the most actionable insight in either analysis",
     "Asymmetric cross-central-bank FX sensitivity (ECB more FX-sensitive than Fed)",
-    "Precise magnitude depends on FCI construction methodology, varying across providers"
+    "Precise magnitude depends on FCI construction methodology, varying across providers",
+    "Four agents converge on identical component magnitudes independently",
+    "Equities price loose FCI, rates price eventual Fed convergence, dollar prices non-rate capital flow factors",
+    "pair_3 called this the strongest consensus finding with two opposed frames validating same mechanism",
+    "FCI can ease gradually over months but tighten in days (~75-100bp instantaneously)",
+    "Asymmetric tightening speed equivalent to 3-4 simultaneous rate hikes"
   ],
   "originating_agents": [
-    "rates_strategist_02"
+    "rates_strategist_02",
+    "challenger_01",
+    "generalist_01",
+    "equity_analyst_02"
   ],
   "open_questions": [
     "Whether the equity/credit channel loosening is durable or reflexive (market declines would tighten conditions rapidly)",
     "How to reconcile this with the triple cross-asset inconsistency",
-    "Which FCI construction methodology is most appropriate"
+    "Which FCI construction methodology is most appropriate",
+    "What triggers FCI reconvergence with the policy rate?",
+    "Is the reflexive FCI-equity loop (multiple expansion driving FCI loosening) stable?",
+    "How does FCI asymmetric tightening speed interact with carry unwind dynamics?"
   ],
   "related_concepts": [
     "dollar_transitional_regime",
     "triple_cross_asset_inconsistency",
-    "boj_normalization_catalyst"
+    "boj_normalization_catalyst",
+    "dollar_late_stage_transitional_regime",
+    "roic_currency_mismatch_distortion",
+    "ecb_bank_channel_structural_dependency",
+    "forward_guidance_vol_suppression"
   ],
   "topic": "fx_regimes",
   "created_at": "2026-03-22T23:41:55Z",
-  "last_updated": "2026-03-22T23:41:55Z",
+  "last_updated": "2026-03-23T14:18:26Z",
   "originating_iteration": "iter_0012",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0012"
+    "iter_0012",
+    "iter_0039"
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "slug": "roic_currency_mismatch_distortion",
+  "definition": "ROIC for multinationals is systematically distorted by 200-400bp due to currency mismatch: NOPAT calculated at average exchange rates divided by invested capital at historical exchange rates. A 10% euro depreciation reduces NOPAT proportionally but leaves the denominator largely unchanged, making ROIC trend analysis unreliable without explicit currency normalization.",
+  "confidence": 8,
+  "evidence": [
+    "Mechanically airtight and arithmetically demonstrable",
+    "pair_1 confirmed as genuinely underappreciated",
+    "~85% of multinationals with >30% international revenue report constant-currency metrics",
+    "SEC comment letters (2015, 2018, 2022) document asymmetric non-GAAP practices"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Do sophisticated investors already adjust for this or does the market misprice it (lower confidence 5.5/10)?",
+    "What is the aggregate impact on index-level ROIC during major FX moves?",
+    "Could standardized currency-normalized ROIC become a reporting requirement?"
+  ],
+  "related_concepts": [
+    "non_gaap_fx_reporting_asymmetry",
+    "fci_policy_rate_divergence",
+    "dollar_late_stage_transitional_regime"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

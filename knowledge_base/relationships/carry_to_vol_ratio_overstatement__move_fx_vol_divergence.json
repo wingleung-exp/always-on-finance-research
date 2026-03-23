@@ -1,0 +1,21 @@
+{
+  "concept_a": "move_fx_vol_divergence",
+  "concept_b": "carry_to_vol_ratio_overstatement",
+  "mechanism": "Suppressed FX vol relative to rates vol causes carry-to-vol ratios to appear more attractive than regime-adjusted measures justify. The nominal ratio of 0.9-1.1 masks the regime-adjusted 0.5-0.7. When vol converges (historically via FX vol repricing higher), carry trades suffer drawdowns exceeding what the nominal ratio implied.",
+  "direction": "a_causes_b",
+  "confidence": 6.5,
+  "regime_dependence": "Holds when FX vol is below its regime-appropriate level relative to rates vol. Becomes less relevant if current FX vol (7-9%) is actually appropriate for a post-2010 structural regime (35th-40th percentile against 1973-2007). Entirely dependent on unresolved reference period question.",
+  "originating_agents": [
+    "generalist_01",
+    "fx_strategist_01",
+    "fx_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

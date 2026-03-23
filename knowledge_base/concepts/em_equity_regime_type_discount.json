@@ -1,0 +1,32 @@
+{
+  "slug": "em_equity_regime_type_discount",
+  "definition": "EM equity valuations are claimed to embed a 15-40% discount attributable to FX regime risk. The range is too wide to be informative: 15% implies modest FX risk pricing while 40% implies existential regime threat. Governance, liquidity, and growth premia independently justify large discounts, creating an unresolved identification problem.",
+  "confidence": 4,
+  "evidence": [
+    "Range 15-40% too wide to be informative",
+    "pair_1: range spans modest risk pricing to existential threat",
+    "Governance, liquidity, and growth premia independently justify large discounts",
+    "Attribution to FX regime risk specifically is an unresolved identification problem"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Can FX regime risk premium be isolated from governance and liquidity premia?",
+    "Does the discount vary systematically with de jure/de facto regime mismatch?",
+    "What natural experiment or methodology could resolve the identification problem?"
+  ],
+  "related_concepts": [
+    "de_jure_de_facto_fx_regime_mismatch",
+    "em_crisis_five_signal_archetype",
+    "em_original_sin_reloaded"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

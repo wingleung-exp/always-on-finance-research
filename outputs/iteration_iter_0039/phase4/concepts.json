@@ -1,0 +1,852 @@
+[
+  {
+    "slug": "credit_cycle_carry_severity_discriminant",
+    "definition": "Credit cycle position is the primary severity discriminant for carry unwind events. Tight credit produces contained unwinds, turning credit produces amplified unwinds, and late-cycle credit produces systemic unwinds. Functions as a near-perfect classifier across 6+ episodes from 1992-2024.",
+    "confidence": 8.5,
+    "evidence": [
+      "Tight credit → contained: 2013, 2018, Aug 2024",
+      "Turning credit → amplified: 1998 LTCM",
+      "Late-cycle credit → systemic: 2008 GFC",
+      "Current IG ~110bp and HY ~380bp place next carry unwind toward contained classification",
+      "pair_0 debate judged this the most empirically robust claim with convergence from completely different analytical lenses",
+      "generalist_01 calls it a perfect classifier; generalist_02 derives same conclusion from three-tier historical severity hierarchy"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Does the 2025-2027 maturity wall introduce sufficient time-varying risk to shift classification?",
+      "At what credit spread thresholds do regime transitions occur?",
+      "Is the classifier robust to simultaneous BoJ normalization and credit deterioration?"
+    ],
+    "related_concepts": [
+      "jpy_carry_unwind_mechanism",
+      "carry_to_vol_ratio_overstatement",
+      "em_crisis_five_signal_archetype"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "fci_policy_rate_divergence",
+    "definition": "Financial conditions have diverged approximately 75-100bp easier than the policy rate, decomposed into equity appreciation (~30-35bp), credit spread compression (~20-25bp), and mortgage rate decline (~15-20bp). This decomposition resolves the apparent triple cross-asset inconsistency between SPX valuations, rate cut pricing, and DXY levels.",
+    "confidence": 8,
+    "evidence": [
+      "Four agents converge on identical component magnitudes independently",
+      "Equities price loose FCI, rates price eventual Fed convergence, dollar prices non-rate capital flow factors",
+      "pair_3 called this the strongest consensus finding with two opposed frames validating same mechanism",
+      "FCI can ease gradually over months but tighten in days (~75-100bp instantaneously)",
+      "Asymmetric tightening speed equivalent to 3-4 simultaneous rate hikes"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_01",
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "What triggers FCI reconvergence with the policy rate?",
+      "Is the reflexive FCI-equity loop (multiple expansion driving FCI loosening) stable?",
+      "How does FCI asymmetric tightening speed interact with carry unwind dynamics?"
+    ],
+    "related_concepts": [
+      "dollar_late_stage_transitional_regime",
+      "roic_currency_mismatch_distortion",
+      "ecb_bank_channel_structural_dependency",
+      "forward_guidance_vol_suppression"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "dedollarization_reserve_invoicing_distinction",
+    "definition": "Dedollarization is real at the margin in reserve allocation (declining 0.5-0.8pp/year) but tactically irrelevant against $7.5T daily FX turnover. The critical analytical distinction is between four dimensions: reserve allocation (declining), trade invoicing (stable), financial intermediation (stable-to-growing), and settlement infrastructure (challenged). USD remains involved in 88% of FX turnover, unchanged over 20 years.",
+    "confidence": 8,
+    "evidence": [
+      "CNY reserve share plateaued at 2.3-2.7% since 2022",
+      "CIPS growth ($6T→$14T) likely inflated by domestic volumes",
+      "Gold purchases (1,000+ tonnes/year) better explained by portfolio rebalancing and sanctions-proofing",
+      "Sterling-to-dollar transition took 30+ years (1914-1944) requiring conditions China does not yet meet",
+      "pair_3 called the four-dimensional decomposition Agent B's strongest contribution"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "At what pace could CNY reserve share accelerate if China opens capital account?",
+      "Does settlement infrastructure challenge (CIPS) create meaningful friction for dollar alternatives?",
+      "What threshold of reserve share decline becomes tactically relevant?"
+    ],
+    "related_concepts": [
+      "three_tier_currency_fragmentation",
+      "dollar_late_stage_transitional_regime",
+      "pboc_administered_regime_stored_adjustment"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "dollar_late_stage_transitional_regime",
+    "definition": "The dollar is in a late-stage transitional regime characterized by DXY lower highs (114.8→108.0→107.3) over 42 months and narrowing US growth differential (+2.0pp to +0.5-1.0pp), but without a confirmed weakening cycle. No catalyst equivalent to Plaza Accord (1985) or current account crisis (2002) is identifiable. The extended 42-month transition suggests genuinely opposing forces producing an unstable equilibrium.",
+    "confidence": 7.5,
+    "evidence": [
+      "DXY has not broken below 100 support",
+      "Current account deficit (~3-4% GDP) below 2006 peak (~6%)",
+      "42-month transition exceeds typical 12-24 month window",
+      "AI capex inflows and fiscal smirk vs. BEER overvaluation, twin deficits, and growth convergence",
+      "pair_2 called this the most robust shared conclusion"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Will resolution be toward further weakening or renewed strengthening?",
+      "What is the catalyst threshold for breaking below DXY 100?",
+      "Does the 2018-19 muddled middle (22 months range-trading) repeat?",
+      "Is the fiscal dollar smirk durable support or time bomb?"
+    ],
+    "related_concepts": [
+      "ai_capex_dollar_flows",
+      "fiscal_dominance_left_tail",
+      "dedollarization_reserve_invoicing_distinction",
+      "dollar_smile_framework_unfalsifiability"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "jpy_carry_unwind_mechanism",
+    "definition": "JPY carry unwind is a validated mechanism with speculative exposure of ~$300-500B (not the $4-6T headline which includes banks, corporates, and naturally hedged positions). August 2024 validated the mechanism (USD/JPY 162→142, Nikkei -12%, VIX >65). CFTC positioning has rebuilt to ~120K contracts (~60-70% of pre-August peaks) and carry cushion compressed from ~5.5% to ~3.5-4.0%.",
+    "confidence": 7.5,
+    "evidence": [
+      "August 2024 unwind: USD/JPY 162→142, Nikkei -12%, VIX >65",
+      "challenger_01 decomposition of $4-6T into speculative ($300-500B) vs. hedged survived debate",
+      "CFTC positioning rebuilt to ~60-70% of pre-August peaks",
+      "BoJ capitulated after August 2024 stress — circuit-breaker function, not resilience",
+      "pair_3 refuted resilience framing: BoJ intervention made the test pass",
+      "Six agents engaged this topic — most broadly analyzed claim"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is the BoJ circuit-breaker (willingness to pause normalization) durable?",
+      "What credit cycle conditions would produce systemic rather than contained unwind?",
+      "Has market structure changed enough since August 2024 to alter unwind dynamics?"
+    ],
+    "related_concepts": [
+      "credit_cycle_carry_severity_discriminant",
+      "boj_normalization_transmission_paradox",
+      "jpy_carry_em_contagion_lag",
+      "carry_to_vol_ratio_overstatement"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "dollar_smile_framework_unfalsifiability",
+    "definition": "The Dollar Smile framework posits three collectively exhaustive regimes (risk-off dollar strength, risk-on dollar weakness, US exceptionalism dollar strength) but lacks ex-ante regime identification rules with documented hit rates. Historical counterexamples (2017-18 US outperformance with dollar weakness; Q2-Q3 2020 risk-off with dollar weakness) are dismissed as transitional rather than treated as framework failures.",
+    "confidence": 7.5,
+    "evidence": [
+      "No ex-ante regime identification rule with documented hit rates exists",
+      "Counterexamples dismissed as transitional rather than framework failures",
+      "pair_3 judged the unfalsifiability critique logically airtight",
+      "Fiscal smirk modification adds another degree of freedom",
+      "Meese-Rogoff (1983, replicated) shows random walk beats all FX models at short horizons",
+      "fx_strategist_01 doesn't even try to defend it"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can the framework be made falsifiable with stated ex-ante regime calls and hit rates?",
+      "Does the fiscal smirk modification improve or degrade analytical value?",
+      "Is descriptive usefulness sufficient justification for continued use?"
+    ],
+    "related_concepts": [
+      "dollar_late_stage_transitional_regime",
+      "forward_guidance_vol_suppression",
+      "move_fx_vol_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "carry_to_vol_ratio_overstatement",
+    "definition": "Carry-to-vol ratios in G10 are systematically overstated: nominal ratios of 0.9-1.1 drop to regime-adjusted 0.5-0.7. The regime-conditional R-squared collapses from 8-12% to 0-2% (Chow test F=7.2). Implied volatility systematically understates realized volatility during drawdowns, making carry appear to offer sufficient compensation when it does not.",
+    "confidence": 7,
+    "evidence": [
+      "Regime-conditional R-squared collapse from 8-12% to 0-2%, Chow test F=7.2",
+      "Implied vol systematically understates realized vol during drawdowns",
+      "pair_2 confirmed genuine analytical convergence",
+      "Agricultural sticky floor mechanically widens carry attractiveness when EM fundamentals deteriorate",
+      "Carry looks cheap exactly when it is most dangerous"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Is the regime-adjusted ratio stable across different stress episodes?",
+      "Can regime-conditional carry-to-vol be estimated in real-time with sufficient accuracy to be tradeable?",
+      "How does the agricultural sticky floor interact with carry mispricing in EM?"
+    ],
+    "related_concepts": [
+      "credit_cycle_carry_severity_discriminant",
+      "move_fx_vol_divergence",
+      "anti_carry_consensus_crowding",
+      "agricultural_fx_doom_loop"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_crisis_five_signal_archetype",
+    "definition": "A five-signal early warning framework for EM FX crises validated across 15+ episodes with 80% hit rate at 4-5 signals and 45% hit rate at 3 signals. Pre-crisis sequencing is consistent: reserves depletion → forward stress → capital controls → devaluation. Currently 8-12 economies show 3+ signals. Vulnerability has rotated from current-account-driven crises to fiscal-monetary conflict.",
+    "confidence": 7,
+    "evidence": [
+      "80% hit rate at 4-5 signals across 15+ episodes",
+      "45% hit rate at 3 signals",
+      "8-12 economies currently show 3+ signals",
+      "Consistent pre-crisis sequencing documented by generalist_02",
+      "CA crises are self-correcting while fiscal-monetary crises create vicious circles",
+      "Recent crises (Turkey 2021-23, Sri Lanka 2022, Pakistan 2022-23, Egypt 2023-24) refute Goodhart's Law degradation"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Which of the current 8-12 economies at 3+ signals are most vulnerable?",
+      "Does the rotation to fiscal-monetary conflict change the sequencing timeline?",
+      "What is the false positive rate and has it changed over time?"
+    ],
+    "related_concepts": [
+      "em_original_sin_reloaded",
+      "em_reserve_adequacy_bifurcation",
+      "agricultural_fx_doom_loop",
+      "de_jure_de_facto_fx_regime_mismatch",
+      "commodity_exporter_crisis_origin_shift"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "move_fx_vol_divergence",
+    "definition": "MOVE index and FX volatility have diverged by 1.8 sigma. Historical resolution (4/4 episodes: 1997-98, 2005-06, 2014-15, 2019) saw FX vol reprice higher. However, the anomaly designation depends entirely on reference period: against 1973-2007 baseline, current G10 FX vol (7-9%) is 35th-40th percentile and unremarkable; against 2010-2024, it appears anomalously low.",
+    "confidence": 6,
+    "evidence": [
+      "1.8 sigma divergence between MOVE and FX vol",
+      "4/4 historical episodes resolved via FX vol repricing higher",
+      "Against 1973-2007 baseline: G10 FX vol at 35th-40th percentile — unremarkable",
+      "Count discrepancy between agents (4/5 vs 4/4) flagged in pair_0",
+      "Structural arguments for permanently lower vol (algorithmic liquidity, CB communication, automated hedging) are plausible but untested"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the correct reference period for FX vol — the single most important unresolved methodological question",
+      "Have FX markets permanently structurally changed post-2010?",
+      "Will the n=4 historical pattern hold given potential structural breaks?",
+      "How much of the divergence is explained by forward guidance vol suppression?"
+    ],
+    "related_concepts": [
+      "forward_guidance_vol_suppression",
+      "carry_to_vol_ratio_overstatement",
+      "dollar_smile_framework_unfalsifiability",
+      "anti_carry_consensus_crowding"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_original_sin_reloaded",
+    "definition": "EM dollar vulnerability has migrated from sovereign to corporate balance sheets. Local currency share of EM sovereign debt rose from ~55% (2012) to ~75% (2025), but EM corporate dollar borrowing grew from ~$1.2T to ~$3.5T. Sovereign-focused vulnerability metrics now appear improved while systemic risk may not have declined.",
+    "confidence": 7.5,
+    "evidence": [
+      "BIS data: EM sovereign local currency share ~55% (2012) → ~75% (2025)",
+      "EM corporate dollar borrowing ~$1.2T → ~$3.5T",
+      "Petrobras, PEMEX, Chinese property developers validated mechanism during 2015 commodity downturn",
+      "pair_2 called this the single most valuable novel insight across both analyses",
+      "Sovereign metrics improved but system may not be safer"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "What is the current maturity profile of EM corporate dollar debt?",
+      "Which sectors/countries have the highest concentration of unhedged corporate dollar exposure?",
+      "Does corporate dollar debt create the same forced-selling dynamics as sovereign crises?"
+    ],
+    "related_concepts": [
+      "em_crisis_five_signal_archetype",
+      "em_reserve_adequacy_bifurcation",
+      "em_fx_nonlinear_dollar_response",
+      "dollar_late_stage_transitional_regime"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_fx_nonlinear_dollar_response",
+    "definition": "EM FX response to dollar moves is non-linear with a beta of 1.5-2.0x and convex relationship. Gradual dollar weakness benefits EM (2017: DXY -10% → EM FX +15-20%), but disorderly dollar decline hurts through risk-off contagion (March 2020: DXY +8% → EM FX -15-25%). Disorderly dollar decline would be accompanied by rates vol triggering risk-off positioning that overwhelms mechanical benefits.",
+    "confidence": 6.5,
+    "evidence": [
+      "2017 DXY -10% produced EM FX +15-20%",
+      "March 2020 DXY +8% produced EM FX -15-25%",
+      "EM FX beta to DXY is 1.5-2.0x with convex relationship",
+      "pair_2 called this Agent B's most important analytical contribution",
+      "Disorderly decline accompanied by MOVE spike triggering risk-off"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "What dollar decline velocity threshold separates orderly from disorderly?",
+      "How does EM reserve adequacy bifurcation affect the non-linearity?",
+      "Is the convexity symmetric across EM regions?"
+    ],
+    "related_concepts": [
+      "dollar_late_stage_transitional_regime",
+      "em_reserve_adequacy_bifurcation",
+      "jpy_carry_em_contagion_lag",
+      "move_fx_vol_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_reserve_adequacy_bifurcation",
+    "definition": "EM reserve adequacy has bifurcated sharply between commodity exporters (15-25 months import cover) and importers with managed exchange rates (2-4 months). Guidotti-Greenspan ratio below 1.0 for 12-15 EM economies versus 8-10 in 2019, indicating deteriorating coverage.",
+    "confidence": 7.5,
+    "evidence": [
+      "Saudi Arabia ~$420B (18+ months), UAE ~$180B vs. Egypt ~$35B (~3.5 months), Pakistan ~$9B (~2 months), Ethiopia ~$1.5B (~1 month)",
+      "IMF data is authoritative",
+      "Guidotti-Greenspan ratio below 1.0 for 12-15 EM economies vs. 8-10 in 2019"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Which of the 12-15 economies below Guidotti-Greenspan 1.0 face nearest-term stress?",
+      "How quickly can reserve drawdown accelerate under capital flight?",
+      "Does the bifurcation amplify contagion risk between commodity-linked and importing EMs?"
+    ],
+    "related_concepts": [
+      "em_crisis_five_signal_archetype",
+      "em_original_sin_reloaded",
+      "commodity_exporter_crisis_origin_shift"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "agricultural_fx_doom_loop",
+    "definition": "A validated EM crisis mechanism for countries with >30% food CPI weight whereby currency depreciation raises food import costs, generating inflation that prevents central banks from easing, which maintains or widens carry attractiveness while fundamentals deteriorate. The biological supply replacement timeline of 6-18 months is an irreducible physical constraint on monetary policy response.",
+    "confidence": 6.5,
+    "evidence": [
+      "Documented across three major episodes: 2007-08, 2010-11, 2022-23",
+      "Biological supply replacement 6-18 months as irreducible physical constraint",
+      "pair_1 praised as the most genuinely novel insight",
+      "Dollar invoicing asymmetric pass-through: 0.15-0.40 for EM vs. 0.03-0.08 for DM",
+      "pair_1 validated mechanism but refuted primacy claim over rate differentials"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Which specific countries currently have >30% food CPI weight and vulnerable FX regimes?",
+      "How do strategic grain reserves (particularly China's) alter doom loop dynamics?",
+      "Can the mechanism be quantitatively separated from rate differential effects?"
+    ],
+    "related_concepts": [
+      "em_crisis_five_signal_archetype",
+      "carry_to_vol_ratio_overstatement",
+      "de_jure_de_facto_fx_regime_mismatch",
+      "pboc_administered_regime_stored_adjustment"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "ai_capex_dollar_flows",
+    "definition": "AI-related capital expenditure flows of $40-60B/month documented in TIC data provide real dollar support. The capex dollar is structurally distinct from carry/positioning flows — it reverses only when the investment thesis deteriorates, not on risk sentiment shifts. However, the structural break framing is not supported, as the dot-com parallel (1997-2001) ended in one of the sharpest dollar corrections in modern history.",
+    "confidence": 6,
+    "evidence": [
+      "TIC data documents $40-60B/month flows",
+      "Capex dollar distinction praised in pair_0 as analytically precise",
+      "Dot-com parallel cited as support ended in sharp dollar correction",
+      "AI capex premium estimate 3-12 cents EUR/USD is too wide to be actionable",
+      "Flow persistence is a judgment call, not a data point (challenger_01 own words)"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "How long will AI capex flows persist at current levels?",
+      "What would cause the AI investment thesis to deteriorate?",
+      "Is the 3-12 cent EUR/USD premium narrowable with better data?",
+      "How much of AI capex is truly incremental vs. redirected from other investment?"
+    ],
+    "related_concepts": [
+      "dollar_late_stage_transitional_regime",
+      "dedollarization_reserve_invoicing_distinction",
+      "stock_bond_correlation_fx_hedging_shift"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "roic_currency_mismatch_distortion",
+    "definition": "ROIC for multinationals is systematically distorted by 200-400bp due to currency mismatch: NOPAT calculated at average exchange rates divided by invested capital at historical exchange rates. A 10% euro depreciation reduces NOPAT proportionally but leaves the denominator largely unchanged, making ROIC trend analysis unreliable without explicit currency normalization.",
+    "confidence": 8,
+    "evidence": [
+      "Mechanically airtight and arithmetically demonstrable",
+      "pair_1 confirmed as genuinely underappreciated",
+      "~85% of multinationals with >30% international revenue report constant-currency metrics",
+      "SEC comment letters (2015, 2018, 2022) document asymmetric non-GAAP practices"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Do sophisticated investors already adjust for this or does the market misprice it (lower confidence 5.5/10)?",
+      "What is the aggregate impact on index-level ROIC during major FX moves?",
+      "Could standardized currency-normalized ROIC become a reporting requirement?"
+    ],
+    "related_concepts": [
+      "non_gaap_fx_reporting_asymmetry",
+      "fci_policy_rate_divergence",
+      "dollar_late_stage_transitional_regime"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "non_gaap_fx_reporting_asymmetry",
+    "definition": "Non-GAAP FX reporting is systematically asymmetric, favoring management. Companies asymmetrically exclude unfavorable FX translation effects while retaining favorable transaction gains. Approximately 85% of multinationals with >30% international revenue report constant-currency metrics.",
+    "confidence": 7.5,
+    "evidence": [
+      "~85% of multinationals with >30% international revenue report constant-currency metrics",
+      "Asymmetric exclusion of unfavorable FX translation while retaining favorable gains",
+      "Documented by SEC comment letters in 2015, 2018, and 2022",
+      "pair_1 validated"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Has SEC scrutiny reduced the asymmetry over time?",
+      "What is the quantitative impact on reported earnings growth rates?",
+      "Which sectors show the greatest asymmetry?"
+    ],
+    "related_concepts": [
+      "roic_currency_mismatch_distortion",
+      "fci_policy_rate_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "pboc_administered_regime_stored_adjustment",
+    "definition": "The PBOC administered exchange rate regime stores 5-12% of adjustment energy through daily fixing divergence (500-1500 pips), 20% forward reserve requirement, and state bank intervention ($5-15B/month). Effective liquid reserves are ~$2.0-2.2T versus $3.2T reported (~$1T illiquid). The 2015 precedent showed a 3% administered devaluation triggered ~$1T in capital outflows.",
+    "confidence": 6,
+    "evidence": [
+      "Daily fixing divergence 500-1500 pips from market-implied levels",
+      "20% forward reserve requirement",
+      "State bank intervention $5-15B/month",
+      "Effective liquid reserves ~$2.0-2.2T vs. $3.2T reported",
+      "2015: 3% administered devaluation triggered ~$1T capital outflows",
+      "Asian EM pass-through of 40-60% of any CNY move"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "At what point does stored adjustment energy become destabilizing?",
+      "What triggers PBOC to allow larger adjustment?",
+      "How would a disorderly CNY depreciation transmit through Asian EM?"
+    ],
+    "related_concepts": [
+      "de_jure_de_facto_fx_regime_mismatch",
+      "em_crisis_five_signal_archetype",
+      "three_tier_currency_fragmentation",
+      "pboc_pass_through_efficiency"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "de_jure_de_facto_fx_regime_mismatch",
+    "definition": "The mismatch between declared and actual FX regimes affects approximately 40-50% of countries (Reinhart-Rogoff 2004), likely worsening to 50-55% post-COVID. Managed regimes that claim to float produce 30-60% discrete devaluations versus 15-25% continuous adjustment in credible floaters. India (RBI suppressing USD/INR vol to 3-4% vs. peer-implied 7-9%) is the clearest current case.",
+    "confidence": 6.5,
+    "evidence": [
+      "Core ~40-50% finding validated by Reinhart-Rogoff 2004",
+      "Post-COVID increase to 50-55% is directional judgment, not formal reclassification",
+      "India: RBI suppresses USD/INR vol to 3-4% vs. peer-implied 7-9%",
+      "Managed regimes produce 30-60% discrete devaluations vs. 15-25% continuous adjustment in credible floaters"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Which additional countries have widened de jure/de facto gaps post-COVID?",
+      "Does the mismatch rate predict crisis severity or just crisis occurrence?",
+      "What triggers the shift from managed to disorderly adjustment?"
+    ],
+    "related_concepts": [
+      "pboc_administered_regime_stored_adjustment",
+      "em_crisis_five_signal_archetype",
+      "em_reserve_adequacy_bifurcation"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "boj_normalization_transmission_paradox",
+    "definition": "Each BoJ 25bp rate hike simultaneously narrows carry, strengthens JPY, tightens domestic financial conditions via equity wealth effect (Nikkei-USD/JPY correlation ~0.7), and compresses the inflation expectations that justify continued normalization. Terminal rate ceiling is likely ~1.25-1.50%. August 2024 showed destabilization at merely 0.25%, though the system has since absorbed 0.75% without equivalent disruption.",
+    "confidence": 6,
+    "evidence": [
+      "Nikkei-USD/JPY correlation ~0.7 creates equity wealth channel feedback",
+      "August 2024 destabilization at 0.25% rate",
+      "System subsequently absorbed 0.75% without equivalent disruption",
+      "pair_3 praised this as the deeper insight versus challenger_01 decomposition",
+      "Testable claim with specific mechanism"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Has the system adapted sufficiently to handle further normalization beyond 0.75%?",
+      "What is the precise terminal rate at which the paradox becomes binding?",
+      "Does forward guidance credibility affect the paradox threshold?"
+    ],
+    "related_concepts": [
+      "jpy_carry_unwind_mechanism",
+      "jpy_carry_em_contagion_lag",
+      "fci_policy_rate_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "ecb_bank_channel_structural_dependency",
+    "definition": "The ECB is structurally more rate-differential-sensitive than the Fed due to ~70% bank intermediation dependency versus ~30% in the US. When bank lending standards tighten, the ECB loses its primary transmission channel while the Fed retains capital market transmission. Current bank lending pass-through at 60-70% versus historical 85-90%.",
+    "confidence": 6,
+    "evidence": [
+      "~70% bank intermediation for ECB vs. ~30% for US",
+      "Current pass-through 60-70% vs. historical 85-90%",
+      "pair_3 called this genuinely useful structural insight for EUR/USD analysis",
+      "Explains ECB FX sensitivity through transmission channel dependency, not trade exposure"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the ECB developing capital market alternatives that could reduce bank dependency?",
+      "How does this structural difference affect EUR/USD response to symmetric rate changes?",
+      "Does the pass-through degradation (85-90% → 60-70%) indicate secular decline or cyclical compression?"
+    ],
+    "related_concepts": [
+      "fci_policy_rate_divergence",
+      "dollar_late_stage_transitional_regime",
+      "forward_guidance_vol_suppression"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "commodity_exporter_crisis_origin_shift",
+    "definition": "Post-2010 EM FX crises have shifted to originate predominantly from commodity exporters (4/7: Russia 2014, Nigeria 2015-16, Angola 2018, Colombia/Chile 2022) versus the 1990s pattern of importer crises (Mexico 94, Asia 97-98, Brazil 99). The Dutch Disease mechanism is well-specified but the sample (n=7) may be too small to confirm a structural shift versus the 2014-16 oil collapse dominating.",
+    "confidence": 6.5,
+    "evidence": [
+      "4/7 post-2010 crises originated in commodity exporters",
+      "1990s importers dominated: Mexico 94, Asia 97-98, Brazil 99",
+      "Dutch Disease mechanism well-specified",
+      "Sample potentially dominated by 2014-16 oil collapse"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is this a genuine structural shift or artifact of the 2014-16 oil price collapse?",
+      "Does the shift change optimal early warning indicators?",
+      "How does the commodity exporter pattern interact with fiscal-monetary conflict rotation?"
+    ],
+    "related_concepts": [
+      "em_crisis_five_signal_archetype",
+      "em_reserve_adequacy_bifurcation",
+      "agricultural_fx_doom_loop"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "stock_bond_correlation_fx_hedging_shift",
+    "definition": "The shift in stock-bond correlation from negative to positive (+0.15 to +0.35) alters FX hedging calculus for global portfolios. Foreign investors face a triple hit (equity losses + bond losses + potential dollar depreciation), shifting equilibrium hedge ratio from ~50% to ~80-90%. Near-term this supports the dollar through increased hedging demand; medium-term it creates larger forced selling in portfolio reallocation.",
+    "confidence": 6,
+    "evidence": [
+      "Correlation shift from negative to +0.15 to +0.35",
+      "Equilibrium hedge ratio shift from ~50% to ~80-90%",
+      "pair_0 praised as genuinely valuable",
+      "Maturity-dependent bifurcation (2Y-SPX negative vs. 30Y-SPX positive) as transition diagnostic"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the correlation regime shift permanent or cyclical?",
+      "At what portfolio allocation threshold does forced selling overwhelm hedging demand?",
+      "How does the maturity-dependent bifurcation evolve through the rate cycle?"
+    ],
+    "related_concepts": [
+      "fci_policy_rate_divergence",
+      "dollar_late_stage_transitional_regime",
+      "basis_trade_cross_asset_channel"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "jpy_carry_em_contagion_lag",
+    "definition": "JPY carry unwind transmits to EM high-beta currencies with a 2-5 trading day lag at 1.5-2.0x magnitude. August 2024 data: USD/JPY moved July 31-August 5; EM high-beta (ZAR -7%, BRL -5%, MXN -8%) peaked August 5-7. Mechanism operates through margin calls triggering EM carry liquidation then stop-loss cascades.",
+    "confidence": 6.5,
+    "evidence": [
+      "August 2024 sequencing: USD/JPY July 31-Aug 5, EM peaks Aug 5-7",
+      "EM magnitudes: ZAR -7%, BRL -5%, MXN -8%",
+      "Margin call → EM carry liquidation → stop-loss cascade mechanism",
+      "Operationally valuable but n=1 for precise sequencing"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Is the 2-5 day lag stable across different market structure regimes?",
+      "Does the 1.5-2.0x magnitude hold for smaller JPY moves?",
+      "How does EM reserve adequacy affect contagion magnitude?"
+    ],
+    "related_concepts": [
+      "jpy_carry_unwind_mechanism",
+      "credit_cycle_carry_severity_discriminant",
+      "em_reserve_adequacy_bifurcation",
+      "carry_to_vol_ratio_overstatement"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "fiscal_dominance_left_tail",
+    "definition": "A hypothetical US-origin fiscal crisis producing simultaneous dollar weakness and equity weakness. Zero post-1971 US precedent exists — the dollar has strengthened in every post-1971 recession/crisis. The UK mini-budget (September 2022, GBP -5%) is the only DM analogue but involves a much smaller economy without reserve currency status.",
+    "confidence": 3.5,
+    "evidence": [
+      "Zero post-1971 US precedent",
+      "Dollar strengthened in every post-1971 recession/crisis",
+      "UK mini-budget September 2022 (GBP -5%) only DM analogue",
+      "Current account deficit (~3-4% GDP) below 2006 peak (~6%)",
+      "pair_0 judged generalist_02's 3/10 calibration more appropriate"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What early warning signals would precede this scenario (term premium >50bp/quarter, auction bid-to-cover <2.0x, gold outperforming both USTs and USD)?",
+      "At what debt/GDP ratio does the capital inflow channel become fragile?",
+      "Could n=0 mean the probability is genuinely near-zero or that the conditions have never been met?"
+    ],
+    "related_concepts": [
+      "dollar_late_stage_transitional_regime",
+      "dollar_smile_framework_unfalsifiability",
+      "basis_trade_cross_asset_channel"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "three_tier_currency_fragmentation",
+    "definition": "A hypothetical future state of currency markets fragmenting into dollar bloc, CNY-anchored bloc, and floating middle. The 1930s sterling area is the only historical analogue with fundamentally incomparable conditions. No CNY-denominated safe-asset market deep enough for reserve store of value exists. Conjunction probability of BRICS prerequisites estimated at <0.1%.",
+    "confidence": 4,
+    "evidence": [
+      "1930s sterling area only historical analogue",
+      "pair_2 judged critic stronger: a highway without destinations",
+      "CIPS can process payments but lacks deep CNY safe-asset market",
+      "Conjunction probability of BRICS prerequisites <0.1%",
+      "Descriptively useful as framing, not predictive"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "What minimum conditions would be required for a CNY bloc to form?",
+      "Could a fragmented system emerge without a formal CNY bloc?",
+      "What is the minimum timeline for meaningful fragmentation?"
+    ],
+    "related_concepts": [
+      "dedollarization_reserve_invoicing_distinction",
+      "pboc_administered_regime_stored_adjustment",
+      "dollar_late_stage_transitional_regime"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "basis_trade_cross_asset_channel",
+    "definition": "The Treasury basis trade ($800B-$1.5T notional, with the nearly 2x spread signaling deep uncertainty about actual exposure) as a potential cross-asset channel linking Treasury market stability to FX regime stability. The SEC clearing mandate (Q2 2026) is a calendar-identifiable catalyst forcing 30-50% leverage compression with zero event premium currently priced.",
+    "confidence": 5,
+    "evidence": [
+      "SEC clearing mandate Q2 2026 forcing 30-50% leverage compression",
+      "Zero event premium currently priced",
+      "Notional range $800B-$1.5T (nearly 2x spread signals uncertainty)",
+      "LTCM comparison refuted: concentrated fund vs. distributed position",
+      "Transmission chain from Treasury to FX is multi-step and untested"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How will SEC clearing mandate affect basis trade leverage and positioning?",
+      "What is the actual notional — is $800B or $1.5T closer to reality?",
+      "Is the Treasury-to-FX transmission chain viable or does it attenuate before reaching FX?"
+    ],
+    "related_concepts": [
+      "move_fx_vol_divergence",
+      "dollar_late_stage_transitional_regime",
+      "stock_bond_correlation_fx_hedging_shift",
+      "fci_policy_rate_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "forward_guidance_vol_suppression",
+    "definition": "A proposed mechanism where central bank forward guidance narrows policy distributions, compressing rate volatility, which suppresses FX volatility and enables carry accumulation that further suppresses vol. Partially refuted: you cannot claim vol is suppressed without establishing the correct baseline; if current vol is 35th-40th percentile against 1973-2007, no suppression explanation is needed.",
+    "confidence": 5,
+    "evidence": [
+      "Mechanism is logical: guidance → narrowed policy distributions → compressed rate vol → FX vol suppression → carry accumulation",
+      "Partially refuted: baseline question unresolved",
+      "Current vol 35th-40th percentile against 1973-2007 — potentially unremarkable",
+      "Alternative explanations (dealer hedging, structural market changes) plausible"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the correct baseline period for FX vol assessment?",
+      "Can the suppression mechanism be isolated from structural market changes?",
+      "Does forward guidance credibility gradient across G4 (Fed conditional, ECB rebuilding, BoJ impaired) create differential vol regimes?"
+    ],
+    "related_concepts": [
+      "move_fx_vol_divergence",
+      "carry_to_vol_ratio_overstatement",
+      "dollar_smile_framework_unfalsifiability"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "em_equity_regime_type_discount",
+    "definition": "EM equity valuations are claimed to embed a 15-40% discount attributable to FX regime risk. The range is too wide to be informative: 15% implies modest FX risk pricing while 40% implies existential regime threat. Governance, liquidity, and growth premia independently justify large discounts, creating an unresolved identification problem.",
+    "confidence": 4,
+    "evidence": [
+      "Range 15-40% too wide to be informative",
+      "pair_1: range spans modest risk pricing to existential threat",
+      "Governance, liquidity, and growth premia independently justify large discounts",
+      "Attribution to FX regime risk specifically is an unresolved identification problem"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "Can FX regime risk premium be isolated from governance and liquidity premia?",
+      "Does the discount vary systematically with de jure/de facto regime mismatch?",
+      "What natural experiment or methodology could resolve the identification problem?"
+    ],
+    "related_concepts": [
+      "de_jure_de_facto_fx_regime_mismatch",
+      "em_crisis_five_signal_archetype",
+      "em_original_sin_reloaded"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "anti_carry_consensus_crowding",
+    "definition": "The anti-carry/long gamma consensus trade may be approaching the point of self-defeat. If everyone owns gamma and no one owns carry, gamma becomes expensive and carry becomes cheap. The carry Sharpe confidence interval of [0.04, 0.72] shows the point estimate of 0.30-0.38 is far less precise than it appears.",
+    "confidence": 5,
+    "evidence": [
+      "Compressed spring evidence (n=18, p<0.001) underlying gamma trade is hard to dismiss",
+      "Second-order concern: universal gamma ownership makes gamma expensive and carry cheap",
+      "Carry Sharpe CI [0.04, 0.72] around point estimate 0.30-0.38",
+      "Not yet corroborated by other agents"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What positioning data would confirm gamma crowding?",
+      "At what point does gamma pricing become prohibitive relative to expected vol repricing?",
+      "Could carry become tactically attractive precisely because of anti-carry consensus?"
+    ],
+    "related_concepts": [
+      "carry_to_vol_ratio_overstatement",
+      "move_fx_vol_divergence",
+      "forward_guidance_vol_suppression"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "slug": "pboc_pass_through_efficiency",
+    "definition": "PBOC monetary policy pass-through efficiency is claimed to be ~30-40% of Fed equivalence, driven by NIM compression to 1.5-1.7% impairing the bank lending channel. However, PBOC's primary tools (window guidance, RRR, relending) operate outside the interest rate channel, making rate-based pass-through comparisons misleading.",
+    "confidence": 4.5,
+    "evidence": [
+      "NIM compression to 1.5-1.7% impairs bank lending channel",
+      "Directional claim (less rate-sensitive) is sound",
+      "Specific 30-40% ratio is false precision per pair_3",
+      "Administered channels operate outside interest rate channel, making comparison misleading"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "How should PBOC transmission be measured if rate-based comparisons are misleading?",
+      "Is NIM compression accelerating or stabilizing?",
+      "What are the relative efficacy weights of PBOC's non-rate tools?"
+    ],
+    "related_concepts": [
+      "pboc_administered_regime_stored_adjustment",
+      "ecb_bank_channel_structural_dependency",
+      "fci_policy_rate_divergence"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  }
+]

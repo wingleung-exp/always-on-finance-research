@@ -1,0 +1,19 @@
+{
+  "concept_a": "roic_currency_mismatch_distortion",
+  "concept_b": "non_gaap_fx_reporting_asymmetry",
+  "mechanism": "The systematic 200-400bp ROIC distortion from currency mismatch is compounded by asymmetric non-GAAP reporting that excludes unfavorable FX translation while retaining favorable gains. Together they create a persistent upward bias in reported multinational profitability during periods of dollar strength.",
+  "direction": "bidirectional",
+  "confidence": 7.5,
+  "regime_dependence": "Most distortive during large FX moves. Direction of bias depends on whether the dollar is strengthening (ROIC appears better through denominator effect) or weakening (asymmetric reporting selectively presents favorable view). Always present for multinationals with >30% international revenue.",
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

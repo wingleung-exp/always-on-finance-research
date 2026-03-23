@@ -1,0 +1,32 @@
+{
+  "slug": "ecb_bank_channel_structural_dependency",
+  "definition": "The ECB is structurally more rate-differential-sensitive than the Fed due to ~70% bank intermediation dependency versus ~30% in the US. When bank lending standards tighten, the ECB loses its primary transmission channel while the Fed retains capital market transmission. Current bank lending pass-through at 60-70% versus historical 85-90%.",
+  "confidence": 6,
+  "evidence": [
+    "~70% bank intermediation for ECB vs. ~30% for US",
+    "Current pass-through 60-70% vs. historical 85-90%",
+    "pair_3 called this genuinely useful structural insight for EUR/USD analysis",
+    "Explains ECB FX sensitivity through transmission channel dependency, not trade exposure"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the ECB developing capital market alternatives that could reduce bank dependency?",
+    "How does this structural difference affect EUR/USD response to symmetric rate changes?",
+    "Does the pass-through degradation (85-90% → 60-70%) indicate secular decline or cyclical compression?"
+  ],
+  "related_concepts": [
+    "fci_policy_rate_divergence",
+    "dollar_late_stage_transitional_regime",
+    "forward_guidance_vol_suppression"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

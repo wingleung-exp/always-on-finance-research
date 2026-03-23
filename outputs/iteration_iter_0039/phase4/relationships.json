@@ -1,0 +1,223 @@
+[
+  {
+    "concept_a": "credit_cycle_carry_severity_discriminant",
+    "concept_b": "jpy_carry_unwind_mechanism",
+    "mechanism": "Credit cycle position at the time of carry unwind determines whether the event is contained (tight credit, IG ~110bp), amplified (turning credit), or systemic (late-cycle credit). This applies to JPY carry specifically because JPY carry is the largest G10 carry trade and its unwind severity is contingent on broader financial system stress absorption capacity.",
+    "direction": "a_causes_b",
+    "confidence": 8.5,
+    "regime_dependence": "Applies in all carry unwind episodes. Strongest discriminant power when credit is clearly at an extreme (very tight or very loose). Less discriminating in the transitional zone between tight and turning.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "jpy_carry_unwind_mechanism",
+    "concept_b": "jpy_carry_em_contagion_lag",
+    "mechanism": "JPY carry unwind triggers margin calls on leveraged JPY-funded positions, which then cascade into EM carry liquidation with a 2-5 trading day lag as different asset classes and geographies are hit sequentially. Magnitude amplifies 1.5-2.0x from JPY move to EM high-beta currencies through stop-loss cascades.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Documented in August 2024 episode. Lag and magnitude likely vary with market liquidity conditions, EM positioning concentration, and whether EM carry positions are funded in JPY directly or through correlated structures.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "boj_normalization_transmission_paradox",
+    "concept_b": "jpy_carry_unwind_mechanism",
+    "mechanism": "Each BoJ rate hike narrows carry spread, strengthens JPY, and tightens Japanese financial conditions via Nikkei-USD/JPY correlation (~0.7), creating a self-reinforcing feedback loop that can trigger carry unwind. The normalization itself generates the conditions for destabilization.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Binding above terminal rate of ~1.25-1.50%. System absorbed 0.75% without August 2024-equivalent disruption, suggesting some adaptation. Most dangerous when BoJ normalization coincides with credit cycle turning point.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "fci_policy_rate_divergence",
+    "concept_b": "dollar_late_stage_transitional_regime",
+    "mechanism": "FCI loosening relative to policy rate resolves the apparent cross-asset inconsistency supporting the dollar's transitional state. Equities price loose FCI (supporting multiple expansion), rates price eventual Fed convergence, and the dollar prices non-rate capital flow factors. The asymmetric tightening speed of FCI creates a latent risk of rapid dollar regime change.",
+    "direction": "bidirectional",
+    "confidence": 7.5,
+    "regime_dependence": "The divergence is sustainable as long as equity multiple expansion and credit compression continue. FCI can tighten by 75-100bp in days (equivalent to 3-4 rate hikes), which would abruptly change dollar dynamics.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_01",
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "agricultural_fx_doom_loop",
+    "concept_b": "em_crisis_five_signal_archetype",
+    "mechanism": "For countries with >30% food CPI weight, currency depreciation raises food import costs, generating inflation that prevents central bank easing, maintaining carry attractiveness while fundamentals deteriorate. This agricultural channel feeds into the 5-signal crisis archetype as an accelerant, though it does not supersede rate differentials as a primary driver.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active only in countries with >30% food CPI weight and import-dependent food supply. Biological supply replacement timeline of 6-18 months creates an irreducible physical constraint. Dollar invoicing pass-through is asymmetric (0.15-0.40 for EM vs. 0.03-0.08 for DM).",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "em_original_sin_reloaded",
+    "concept_b": "em_crisis_five_signal_archetype",
+    "mechanism": "Migration of dollar vulnerability from sovereign to corporate balance sheets ($1.2T → $3.5T) means traditional sovereign-focused early warning signals may understate true system vulnerability. Corporate dollar debt creates different transmission channels (supply chain disruption, employment effects) than sovereign debt crises.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most acute during dollar strengthening episodes when corporate balance sheet stress compounds. Less relevant during orderly dollar weakness. Sector concentration matters: commodity exporters (Petrobras, PEMEX) and property developers validated during 2015 downturn.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "dollar_late_stage_transitional_regime",
+    "concept_b": "em_fx_nonlinear_dollar_response",
+    "mechanism": "The manner of dollar transition resolution (gradual vs. disorderly) determines whether EM benefits or suffers. Gradual dollar weakness benefits EM through improved terms of trade and reduced debt burden; disorderly decline triggers risk-off contagion via MOVE spike that overwhelms mechanical benefits. EM FX beta 1.5-2.0x amplifies either direction.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Non-linearity is convex: relationship is roughly linear for moderate dollar moves but becomes highly non-linear for large or rapid moves. Threshold between orderly and disorderly is not precisely identified.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "move_fx_vol_divergence",
+    "concept_b": "carry_to_vol_ratio_overstatement",
+    "mechanism": "Suppressed FX vol relative to rates vol causes carry-to-vol ratios to appear more attractive than regime-adjusted measures justify. The nominal ratio of 0.9-1.1 masks the regime-adjusted 0.5-0.7. When vol converges (historically via FX vol repricing higher), carry trades suffer drawdowns exceeding what the nominal ratio implied.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Holds when FX vol is below its regime-appropriate level relative to rates vol. Becomes less relevant if current FX vol (7-9%) is actually appropriate for a post-2010 structural regime (35th-40th percentile against 1973-2007). Entirely dependent on unresolved reference period question.",
+    "originating_agents": [
+      "generalist_01",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "de_jure_de_facto_fx_regime_mismatch",
+    "concept_b": "pboc_administered_regime_stored_adjustment",
+    "mechanism": "China is the largest and most consequential case of de jure/de facto mismatch. The managed float stores 5-12% of adjustment energy through daily fixing divergence and intervention. When stored adjustment energy exceeds containment capacity, the result is discrete devaluation (as in 2015: 3% administered move triggering $1T outflows) rather than continuous adjustment.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Always present in administered regimes but only consequential when external pressures (capital outflows, trade shocks, growth divergence) exceed the system's absorption capacity. Asian EM pass-through of 40-60% means CNY adjustment propagates regionally.",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "ecb_bank_channel_structural_dependency",
+    "concept_b": "fci_policy_rate_divergence",
+    "mechanism": "ECB's ~70% bank intermediation dependency means its transmission channel is more vulnerable to bank lending standard tightening than the Fed's capital-market-based system. When pass-through degrades (current 60-70% vs. historical 85-90%), the ECB loses effective control over financial conditions, widening FCI divergence from policy rate in the eurozone context.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most binding when bank lending standards tighten. Less relevant during periods of accommodative lending conditions. The structural asymmetry explains why ECB is more FX-sensitive — through transmission channel dependency, not trade exposure.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "stock_bond_correlation_fx_hedging_shift",
+    "concept_b": "dollar_late_stage_transitional_regime",
+    "mechanism": "Positive stock-bond correlation (+0.15 to +0.35) shifts global portfolio equilibrium hedge ratio from ~50% to ~80-90%. Near-term increased hedging demand supports the dollar. Medium-term: larger forced selling in any portfolio reallocation creates latent dollar selling pressure. The maturity-dependent bifurcation (2Y-SPX negative vs. 30Y-SPX positive) creates an additional diagnostic for regime transition.",
+    "direction": "bidirectional",
+    "confidence": 5.5,
+    "regime_dependence": "Near-term supports dollar through hedging demand. Medium-term creates larger forced selling overhang. The net effect depends on whether we are in a hedging-accumulation phase or a reallocation-liquidation phase.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "ai_capex_dollar_flows",
+    "concept_b": "dollar_late_stage_transitional_regime",
+    "mechanism": "$40-60B/month AI capex flows provide real dollar support that is structurally distinct from carry flows — reversing only when the investment thesis deteriorates, not on risk sentiment. This creates one of the genuinely opposing forces producing the unstable equilibrium in the dollar's transitional regime.",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Persistent as long as AI investment thesis holds. The dot-com parallel suggests these flows can persist for 3-5 years but terminate abruptly. Durability is a judgment call, not a data point.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "em_reserve_adequacy_bifurcation",
+    "concept_b": "em_crisis_five_signal_archetype",
+    "mechanism": "Reserve levels directly feed into the 5-signal crisis framework as a leading indicator. The bifurcation between commodity exporters (15-25 months) and importers (2-4 months) means crisis vulnerability is highly asymmetric. Guidotti-Greenspan ratio below 1.0 for 12-15 economies vs. 8-10 in 2019 indicates deteriorating systemic reserve coverage.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Reserve adequacy is a slow-moving variable but can deteriorate rapidly during capital flight episodes. Most predictive when combined with other crisis signals. Less useful as standalone indicator because reserves can be window-dressed.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "forward_guidance_vol_suppression",
+    "concept_b": "move_fx_vol_divergence",
+    "mechanism": "Central bank forward guidance narrows policy rate distributions, compressing rate vol, which mechanically suppresses FX vol and enables carry accumulation that further suppresses vol through a positive feedback loop. This is one proposed explanation for the 1.8 sigma MOVE-FX divergence.",
+    "direction": "a_causes_b",
+    "confidence": 4.5,
+    "regime_dependence": "Only explanatory if current FX vol is genuinely suppressed below structural equilibrium. If current vol is 35th-40th percentile against appropriate baseline, no suppression mechanism is needed. Credibility gradient across G4 (Fed conditional, ECB rebuilding, BoJ impaired) creates differential effects.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "carry_to_vol_ratio_overstatement",
+    "concept_b": "anti_carry_consensus_crowding",
+    "mechanism": "Recognition that carry-to-vol ratios are overstated drives consensus toward anti-carry/long gamma positioning. But universal adoption of this view creates a second-order problem: gamma becomes expensive and carry becomes cheap, potentially making the anti-carry consensus self-defeating. The compressed spring evidence (n=18, p<0.001) supports gamma but crowding may reduce its payoff.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Becomes relevant when positioning data shows extreme gamma ownership and minimal carry exposure. May create tactical opportunities in carry precisely when consensus most strongly opposes it.",
+    "originating_agents": [
+      "challenger_01",
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "concept_a": "roic_currency_mismatch_distortion",
+    "concept_b": "non_gaap_fx_reporting_asymmetry",
+    "mechanism": "The systematic 200-400bp ROIC distortion from currency mismatch is compounded by asymmetric non-GAAP reporting that excludes unfavorable FX translation while retaining favorable gains. Together they create a persistent upward bias in reported multinational profitability during periods of dollar strength.",
+    "direction": "bidirectional",
+    "confidence": 7.5,
+    "regime_dependence": "Most distortive during large FX moves. Direction of bias depends on whether the dollar is strengthening (ROIC appears better through denominator effect) or weakening (asymmetric reporting selectively presents favorable view). Always present for multinationals with >30% international revenue.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  }
+]

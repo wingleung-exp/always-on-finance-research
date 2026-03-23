@@ -1,0 +1,31 @@
+{
+  "slug": "non_gaap_fx_reporting_asymmetry",
+  "definition": "Non-GAAP FX reporting is systematically asymmetric, favoring management. Companies asymmetrically exclude unfavorable FX translation effects while retaining favorable transaction gains. Approximately 85% of multinationals with >30% international revenue report constant-currency metrics.",
+  "confidence": 7.5,
+  "evidence": [
+    "~85% of multinationals with >30% international revenue report constant-currency metrics",
+    "Asymmetric exclusion of unfavorable FX translation while retaining favorable gains",
+    "Documented by SEC comment letters in 2015, 2018, and 2022",
+    "pair_1 validated"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Has SEC scrutiny reduced the asymmetry over time?",
+    "What is the quantitative impact on reported earnings growth rates?",
+    "Which sectors show the greatest asymmetry?"
+  ],
+  "related_concepts": [
+    "roic_currency_mismatch_distortion",
+    "fci_policy_rate_divergence"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

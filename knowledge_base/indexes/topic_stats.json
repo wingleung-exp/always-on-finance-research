@@ -1453,9 +1453,9 @@
     "avg_confidence": 7.4
   },
   "fx_regimes": {
-    "concept_count": 19,
-    "relationship_count": 15,
-    "framework_count": 7,
+    "concept_count": 46,
+    "relationship_count": 31,
+    "framework_count": 12,
     "top_concepts": [
       {
         "slug": "dedollarization_pace",
@@ -1468,9 +1468,19 @@
         "definition": "Gopinath's dominant currency paradigm establishes that trade invoicing predominantly in USD creates a co-movement channel across currencies during str"
       },
       {
+        "slug": "credit_cycle_carry_severity_discriminant",
+        "confidence": 8.5,
+        "definition": "Credit cycle position is the primary severity discriminant for carry unwind events. Tight credit produces contained unwinds, turning credit produces a"
+      },
+      {
         "slug": "carry_momentum_correlation_switch",
         "confidence": 8,
         "definition": "Carry and momentum FX strategies exhibit a correlation regime switch from normal-state -0.2 to -0.3 to stress-state +0.5 to +0.9. This creates a diver"
+      },
+      {
+        "slug": "dedollarization_reserve_invoicing_distinction",
+        "confidence": 8,
+        "definition": "Dedollarization is real at the margin in reserve allocation (declining 0.5-0.8pp/year) but tactically irrelevant against $7.5T daily FX turnover. The "
       },
       {
         "slug": "dollar_smile_framework",
@@ -1496,40 +1506,57 @@
         "slug": "regime_conditional_rate_fx",
         "confidence": 8,
         "definition": "The relationship between interest rate differentials and FX moves is strongly regime-dependent: 8-12% R-squared in low-volatility environments versus "
-      },
-      {
-        "slug": "exorbitant_privilege",
-        "confidence": 7,
-        "definition": "Persistent capital account inflows to the US bid the dollar above fundamentals, potentially sustaining overvaluation for years and rendering tradition"
-      },
-      {
-        "slug": "fci_policy_rate_divergence",
-        "confidence": 7,
-        "definition": "Financial conditions have diverged from the Fed policy rate by ~75-100bp in the easing direction, driven primarily by equity appreciation (~30-35bp), "
       }
     ],
     "all_concept_slugs": [
+      "agricultural_fx_doom_loop",
+      "ai_capex_dollar_flows",
+      "anti_carry_consensus_crowding",
+      "basis_trade_cross_asset_channel",
+      "boj_normalization_transmission_paradox",
       "carry_momentum_correlation_switch",
+      "carry_to_vol_ratio_overstatement",
       "carry_to_vol_regime_adjustment",
       "central_bank_gold_structural_shift",
+      "commodity_exporter_crisis_origin_shift",
+      "credit_cycle_carry_severity_discriminant",
+      "de_jure_de_facto_fx_regime_mismatch",
       "dedollarization_pace",
+      "dedollarization_reserve_invoicing_distinction",
       "dollar_beer_overvaluation",
+      "dollar_late_stage_transitional_regime",
       "dollar_smile_framework",
+      "dollar_smile_framework_unfalsifiability",
       "dollar_transitional_regime",
       "dominant_currency_paradigm",
+      "ecb_bank_channel_structural_dependency",
       "em_crisis_archetype",
+      "em_crisis_five_signal_archetype",
+      "em_equity_regime_type_discount",
+      "em_fx_nonlinear_dollar_response",
+      "em_original_sin_reloaded",
+      "em_reserve_adequacy_bifurcation",
       "exorbitant_privilege",
       "fci_policy_rate_divergence",
       "fiscal_dollar_smile",
+      "forward_guidance_vol_suppression",
       "fx_regime_classification_mismatch",
       "fx_translation_earnings_distortion",
+      "jpy_carry_em_contagion_lag",
+      "jpy_carry_unwind_mechanism",
       "jpy_carry_unwind_risk",
       "move_fx_vol_divergence",
+      "non_gaap_fx_reporting_asymmetry",
+      "pboc_administered_regime_stored_adjustment",
+      "pboc_pass_through_efficiency",
       "regime_conditional_rate_fx",
+      "roic_currency_mismatch_distortion",
+      "stock_bond_correlation_fx_hedging_shift",
+      "three_tier_currency_fragmentation",
       "triple_cross_asset_inconsistency",
       "us_twin_deficit_headwinds"
     ],
-    "avg_confidence": 7.1
+    "avg_confidence": 6.7
   },
   "growth_models": {
     "concept_count": 17,

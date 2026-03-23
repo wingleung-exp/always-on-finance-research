@@ -1,0 +1,26 @@
+{
+  "slug": "guidotti_greenspan_reserve_adequacy",
+  "purpose": "Assesses EM reserve adequacy by measuring whether reserves cover short-term external debt, with ratio below 1.0 indicating vulnerability.",
+  "components": [
+    "Ratio = reserves / short-term external debt (maturity < 1 year)",
+    "Below 1.0 indicates inability to cover short-term obligations without market access",
+    "Currently 12-15 EM economies below 1.0 vs. 8-10 in 2019",
+    "Bifurcation: commodity exporters at 15-25 months import cover, importers at 2-4 months",
+    "Country examples: Saudi $420B (18+ months) vs. Pakistan $9B (~2 months)"
+  ],
+  "current_assessment": "Reserve coverage has deteriorated with 12-15 economies below the critical 1.0 threshold. Sharp bifurcation between commodity exporters and importers. Country-level granularity shows extreme vulnerability concentration in import-dependent managed-rate economies (Egypt, Pakistan, Ethiopia).",
+  "limitations": [
+    "Reserves can be window-dressed through swaps and other off-balance-sheet arrangements",
+    "Does not capture corporate dollar debt vulnerability (original sin reloaded)",
+    "Import cover months assume constant import levels; crisis typically compresses imports",
+    "Effective liquid reserves may differ significantly from reported reserves (China: ~$2.0-2.2T liquid vs. $3.2T reported)"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

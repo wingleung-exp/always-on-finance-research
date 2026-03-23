@@ -3577,5 +3577,116 @@
     ],
     "topic": "fiscal_dominance",
     "iteration_id": "iter_0038"
+  },
+  {
+    "claim": "August 2024 proved the system's resilience to JPY carry unwind",
+    "reason": "The BoJ capitulated — officials signaled no further hikes within days. This is a circuit-breaker functioning, not systemic resilience. If the stress test only passes because the examiner intervenes, it has not been passed. The episode demonstrates BoJ willingness to intervene, not systemic robustness.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Agricultural-FX doom loop supersedes interest rate differentials as a crisis predictor",
+    "reason": "Turkey's crisis was driven by unorthodox monetary policy first, food prices second. Argentina's crises are fiscal/institutional. The 2013 Taper Tantrum hit EMs by rate differential expectations regardless of food CPI weight. The doom loop is a predictor, not the predictor that supersedes rates. No comparative predictive accuracy test was provided.",
+    "refuted_by": [
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Export ban contagion amplifies FX impact by 30-60% with >60% conditional probability",
+    "reason": "Three episodes with heterogeneous triggers, responses, and outcomes cannot generate a reliable confidence interval. The game-theoretic mechanism is sound but the specific quantification is false precision from n=3.",
+    "refuted_by": [
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Regime-conditional earnings quality is a direct analogue to carry-to-vol ratio overstatement",
+    "reason": "Agent explicitly acknowledged lacking sector-level data linking vol regimes to accruals quality directly. Borrowing the Chow test F-statistic from rate-FX R-squared to lend credibility to an untested earnings quality hypothesis is a methodological red flag.",
+    "refuted_by": [
+      "generalist_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "AI capex flows constitute a structural break sustainable for 3-5 years, supported by the dot-com parallel",
+    "reason": "The dot-com parallel cited as evidence of persistence ended in one of the sharpest dollar corrections in modern history. Calling a pattern a structural break when the best analogue terminated in a crash is incoherent. The AI capex premium CI (3-12 cents EUR/USD) is too wide to be actionable. The flows are real but the structural break label is not earned.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "The dollar is in a bimodal distribution with the muddled middle having lower probability than either tail",
+    "reason": "The supporting Kalecki feedback loop argument is theoretical, not empirical. DXY ranged 95-99 for 22 months in 2018-19 under weaker fiscal conditions. The agent's own probability split (55%/35%/10%) contradicts strict bimodality — 55% plateau-then-correction implies an extended middle. Agent self-conceded bimodality is a structural inference, not a measured distribution.",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "EM crisis archetype is losing predictive power via Goodhart's Law",
+    "reason": "Recent evidence directly contradicts — Turkey 2021-23, Sri Lanka 2022, Pakistan 2022-23, Egypt 2023-24. EM crises keep happening despite supposedly reflexive learning. No evidence provided of rising false positive rates or falling hit rates.",
+    "refuted_by": [
+      "fx_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "PBOC will defend food price stability over export competitiveness",
+    "reason": "China has extensive buffers — strategic grain reserves (50-65% of global wheat stocks), administered pricing, fiscal subsidies. The 2015-16 CNY depreciation occurred alongside elevated pork prices without PBOC prioritizing food stability. Agriculture is an input to PBOC decisions, not the binding constraint.",
+    "refuted_by": [
+      "generalist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Basis trade is 8-10x larger than LTCM",
+    "reason": "Conflates a single highly-leveraged fund with a distributed market-wide position held by hundreds of participants with different risk management, correlation structures, and unwind timelines. The alarm is directionally warranted but the comparison inflates perceived severity.",
+    "refuted_by": [
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Dollar cycle median peak-to-trough of 7-9 years functions as a predictive framework",
+    "reason": "With n≤4 complete post-Bretton Woods cycles, the confidence interval includes essentially any outcome. Agent acknowledged small sample but used the framework as though it had predictive power. Structural breaks identified (technology flows, AI capex) are sufficient to invalidate cyclical extrapolation.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
+  },
+  {
+    "claim": "Specific trade expression P&L estimates of +100-250bp with Sharpe 0.4-0.7 for FX regime trades",
+    "reason": "Scenario probabilities are purely judgmental. Shifting 5% probability between scenarios changes expected value by 60-80bp. The scenario framework is useful as a thinking tool but the numerical precision is false. Agent self-rated confidence at 5/10.",
+    "refuted_by": [
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "fx_regimes",
+    "iteration_id": "iter_0039"
   }
 ]

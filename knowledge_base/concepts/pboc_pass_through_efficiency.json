@@ -1,0 +1,32 @@
+{
+  "slug": "pboc_pass_through_efficiency",
+  "definition": "PBOC monetary policy pass-through efficiency is claimed to be ~30-40% of Fed equivalence, driven by NIM compression to 1.5-1.7% impairing the bank lending channel. However, PBOC's primary tools (window guidance, RRR, relending) operate outside the interest rate channel, making rate-based pass-through comparisons misleading.",
+  "confidence": 4.5,
+  "evidence": [
+    "NIM compression to 1.5-1.7% impairs bank lending channel",
+    "Directional claim (less rate-sensitive) is sound",
+    "Specific 30-40% ratio is false precision per pair_3",
+    "Administered channels operate outside interest rate channel, making comparison misleading"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "How should PBOC transmission be measured if rate-based comparisons are misleading?",
+    "Is NIM compression accelerating or stabilizing?",
+    "What are the relative efficacy weights of PBOC's non-rate tools?"
+  ],
+  "related_concepts": [
+    "pboc_administered_regime_stored_adjustment",
+    "ecb_bank_channel_structural_dependency",
+    "fci_policy_rate_divergence"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "carry_to_vol_ratio_overstatement",
+  "definition": "Carry-to-vol ratios in G10 are systematically overstated: nominal ratios of 0.9-1.1 drop to regime-adjusted 0.5-0.7. The regime-conditional R-squared collapses from 8-12% to 0-2% (Chow test F=7.2). Implied volatility systematically understates realized volatility during drawdowns, making carry appear to offer sufficient compensation when it does not.",
+  "confidence": 7,
+  "evidence": [
+    "Regime-conditional R-squared collapse from 8-12% to 0-2%, Chow test F=7.2",
+    "Implied vol systematically understates realized vol during drawdowns",
+    "pair_2 confirmed genuine analytical convergence",
+    "Agricultural sticky floor mechanically widens carry attractiveness when EM fundamentals deteriorate",
+    "Carry looks cheap exactly when it is most dangerous"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "commodities_analyst_02"
+  ],
+  "open_questions": [
+    "Is the regime-adjusted ratio stable across different stress episodes?",
+    "Can regime-conditional carry-to-vol be estimated in real-time with sufficient accuracy to be tradeable?",
+    "How does the agricultural sticky floor interact with carry mispricing in EM?"
+  ],
+  "related_concepts": [
+    "credit_cycle_carry_severity_discriminant",
+    "move_fx_vol_divergence",
+    "anti_carry_consensus_crowding",
+    "agricultural_fx_doom_loop"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:26Z",
+  "last_updated": "2026-03-23T14:18:26Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

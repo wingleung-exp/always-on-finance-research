@@ -1,0 +1,19 @@
+{
+  "concept_a": "forward_guidance_vol_suppression",
+  "concept_b": "move_fx_vol_divergence",
+  "mechanism": "Central bank forward guidance narrows policy rate distributions, compressing rate vol, which mechanically suppresses FX vol and enables carry accumulation that further suppresses vol through a positive feedback loop. This is one proposed explanation for the 1.8 sigma MOVE-FX divergence.",
+  "direction": "a_causes_b",
+  "confidence": 4.5,
+  "regime_dependence": "Only explanatory if current FX vol is genuinely suppressed below structural equilibrium. If current vol is 35th-40th percentile against appropriate baseline, no suppression mechanism is needed. Credibility gradient across G4 (Fed conditional, ECB rebuilding, BoJ impaired) creates differential effects.",
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "concept_a": "credit_cycle_carry_severity_discriminant",
+  "concept_b": "jpy_carry_unwind_mechanism",
+  "mechanism": "Credit cycle position at the time of carry unwind determines whether the event is contained (tight credit, IG ~110bp), amplified (turning credit), or systemic (late-cycle credit). This applies to JPY carry specifically because JPY carry is the largest G10 carry trade and its unwind severity is contingent on broader financial system stress absorption capacity.",
+  "direction": "a_causes_b",
+  "confidence": 8.5,
+  "regime_dependence": "Applies in all carry unwind episodes. Strongest discriminant power when credit is clearly at an extreme (very tight or very loose). Less discriminating in the transitional zone between tight and turning.",
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "fx_strategist_01",
+    "fx_strategist_02"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

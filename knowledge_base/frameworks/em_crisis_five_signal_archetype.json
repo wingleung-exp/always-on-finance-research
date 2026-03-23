@@ -1,0 +1,26 @@
+{
+  "slug": "em_crisis_five_signal_archetype",
+  "purpose": "Identifies EM economies at risk of FX crises by tracking five early warning signals, with consistent pre-crisis sequencing from reserves depletion through to devaluation.",
+  "components": [
+    "Five-signal scoring: 80% hit rate at 4-5 signals, 45% at 3 signals",
+    "Pre-crisis sequencing: reserves depletion → forward stress → capital controls → devaluation",
+    "NDF-onshore spread as earliest tradeable signal",
+    "Currently 8-12 economies show 3+ signals",
+    "Vulnerability rotation: from CA-deficit-driven (1990s-2018) to fiscal-monetary conflict (2025-26)"
+  ],
+  "current_assessment": "Validated across 15+ episodes. 8-12 economies currently at 3+ signals. Key vulnerable countries include Egypt, Nigeria, Pakistan, Ethiopia, Ghana. The rotation from CA-driven to fiscal-monetary conflict crises is significant because CA crises are self-correcting while fiscal-monetary crises create vicious circles. Goodhart's Law objection was refuted by recent crisis evidence.",
+  "limitations": [
+    "45% hit rate at 3 signals means significant false positive rate",
+    "Vulnerability migration to corporate balance sheets (original sin reloaded) may not be captured by sovereign-focused signals",
+    "Signal weights may need recalibration for fiscal-monetary conflict type vs. CA-deficit type",
+    "Sample may be too small in some sub-categories to establish robust base rates"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:27Z",
+  "last_updated": "2026-03-23T14:18:27Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}

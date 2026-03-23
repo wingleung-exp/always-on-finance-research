@@ -1,0 +1,37 @@
+{
+  "slug": "credit_cycle_carry_severity_discriminant",
+  "definition": "Credit cycle position is the primary severity discriminant for carry unwind events. Tight credit produces contained unwinds, turning credit produces amplified unwinds, and late-cycle credit produces systemic unwinds. Functions as a near-perfect classifier across 6+ episodes from 1992-2024.",
+  "confidence": 8.5,
+  "evidence": [
+    "Tight credit → contained: 2013, 2018, Aug 2024",
+    "Turning credit → amplified: 1998 LTCM",
+    "Late-cycle credit → systemic: 2008 GFC",
+    "Current IG ~110bp and HY ~380bp place next carry unwind toward contained classification",
+    "pair_0 debate judged this the most empirically robust claim with convergence from completely different analytical lenses",
+    "generalist_01 calls it a perfect classifier; generalist_02 derives same conclusion from three-tier historical severity hierarchy"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "fx_strategist_01",
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "Does the 2025-2027 maturity wall introduce sufficient time-varying risk to shift classification?",
+    "At what credit spread thresholds do regime transitions occur?",
+    "Is the classifier robust to simultaneous BoJ normalization and credit deterioration?"
+  ],
+  "related_concepts": [
+    "jpy_carry_unwind_mechanism",
+    "carry_to_vol_ratio_overstatement",
+    "em_crisis_five_signal_archetype"
+  ],
+  "topic": "fx_regimes",
+  "created_at": "2026-03-23T14:18:26Z",
+  "last_updated": "2026-03-23T14:18:26Z",
+  "originating_iteration": "iter_0039",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0039"
+  ]
+}
