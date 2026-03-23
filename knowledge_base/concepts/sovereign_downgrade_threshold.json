@@ -1,0 +1,34 @@
+{
+  "slug": "sovereign_downgrade_threshold",
+  "definition": "A sovereign downgrade below AA would trigger significant regulatory and plumbing consequences through three channels (Basel III risk-weight, repo eligibility/haircuts, insurance/pension mandates), but the binding threshold is more distant than initially presented — AA+ to AA does NOT cross the Basel III 0% to 20% risk-weight threshold; only A+ would.",
+  "confidence": 5,
+  "evidence": [
+    "Current ratings: S&P AA+, Fitch AA+, Moody's Aa1 (downgraded May 2025) — two notches above binding threshold",
+    "Basel III risk-weight change (0% to 20%) triggered only at A+ or below",
+    "2011 template (S&P AAA to AA+) was benign because it stayed above regulatory thresholds",
+    "Japan serial downgrades (Aaa to A1) produced negligible impact due to ~90% domestic ownership and regulatory accommodation",
+    "U.S. ~30-40% foreign holdings makes Japan pathway partially unavailable"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "At what rating level would repo eligibility and insurance mandate restrictions become binding?",
+    "Could regulatory accommodation preempt mechanical consequences of a downgrade?"
+  ],
+  "related_concepts": [
+    "doom_loop_slow_burn",
+    "reserve_currency_exceptionalism"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "tbill_maturity_shortening_risk",
+  "definition": "T-bill share of outstanding debt increased from 15% to 22%, compressing term premium by an estimated 30-50bp but concentrating rollover risk. ~$5-6T in bills reprices within 12 months, and at current short rates (~4.3-4.5%), interest cost on bills exceeds coupons locked in at lower rates, accelerating effective rate convergence.",
+  "confidence": 7,
+  "evidence": [
+    "T-bill share rose from 15% to 22% of outstanding",
+    "Bills absorbed by money market funds (~$6T AUM) and bank reserve substitution",
+    "Estimated 30-50bp term premium compression from maturity shortening",
+    "~$5-6T in bills reprices within 12 months",
+    "Current short rates (~4.3-4.5%) exceed many locked-in coupon rates"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "At what T-bill share does rollover concentration risk become systemically concerning?",
+    "How does TBAC refunding composition signal changes in term premium?"
+  ],
+  "related_concepts": [
+    "doom_loop_slow_burn",
+    "fiscal_supply_duration_pricing"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

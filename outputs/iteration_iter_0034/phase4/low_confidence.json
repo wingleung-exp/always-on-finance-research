@@ -1,0 +1,65 @@
+[
+  {
+    "claim": "The 5y5y forward rate is contaminated by 50-75bp of fiscal term premium, overstating the market's neutral rate estimate",
+    "source_agent": "rates_strategist_01",
+    "needs": "Model-independent decomposition of fiscal vs. non-fiscal term premium components. Counterfactual for fiscal-specific component vs. historical norms. Cross-validation across ACM and Kim-Wright frameworks.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "The Fama-French HML factor carries ~1-2% annualized excess return attributable to fiscal policy",
+    "source_agent": "equity_analyst_01",
+    "needs": "Identification strategy separating fiscal policy effects from coincident early-cycle recovery and inflation expectations. t-stats (2.1-2.4) must survive multiple-hypothesis correction with N~6 episodes. Larger episode sample or natural experiment.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "ACM vs. Kim-Wright term premium model divergence (30-50bp) is itself a diagnostic signal of fiscal regime uncertainty",
+    "source_agent": "rates_strategist_01",
+    "needs": "Formal testing of whether the inter-model divergence specifically reflects fiscal supply vs. expectations driver-mix shifts, rather than general model specification differences. Out-of-sample validation.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "The bilateral U.S.-China fiscal accelerator adds an estimated 0.5-1.0% GDP to combined fiscal commitments per decade",
+    "source_agent": "risk_analyst_02",
+    "needs": "Methodology for the magnitude estimate. Historical calibration of bilateral fiscal competition dynamics. Identification of de-escalation scenarios and their probability.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Central bank independence erosion operates through appointment dynamics on a 4-8 year cycle, with the U.S. currently at early stage",
+    "source_agent": "risk_analyst_02",
+    "needs": "Comparative institutional analysis of U.S. vs. EM precedents (Turkey, India, Hungary). Assessment of Senate confirmation friction and Fed cultural resistance. Market-based indicators of independence erosion.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "AI capex ($200-250B/yr from hyperscalers) may partially substitute for the Kalecki fiscal channel in supporting corporate profits",
+    "source_agent": "equity_analyst_01",
+    "needs": "Determination of whether AI capex is self-sustaining or bubble-dependent. NIPA-level decomposition of AI capex contribution to corporate profits. Framework for assessing substitutability between fiscal and private investment channels.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "The tariff-fiscal nexus is net-negative for deficit reduction, with revenue gains offset by GDP drag",
+    "source_agent": "risk_analyst_02",
+    "needs": "Net fiscal impact modeling under specific effective tariff rate assumptions. Trade elasticity estimation at current tariff levels. Retaliation scenario analysis. Resolution of 2018-19 ~55% realization rate applicability to current regime.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Private credit opacity ($1.8T) represents the critical unknown Minsky variable",
+    "source_agent": "macro_strategist_02",
+    "needs": "Unquantifiable from public data by definition. Would require: regulatory reporting requirements for private credit funds, independent mark-to-market audits, PIK toggle prevalence data. Stress event may be the only mechanism for information revelation.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "The crowded duration short (CFTC 95th percentile) creates contrarian mean-reversion risk on a 3-6 month tactical horizon",
+    "source_agent": "challenger_01",
+    "needs": "Separation of tactical positioning signal from structural term premium trajectory. Confirmation that 7/10 historical hit rate (positive 6-month returns at 90th+ percentile shorts since 1990) holds in current regime. Assessment of whether a 50bp tactical unwind is consistent with a structural grind higher.",
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "slug": "sectoral_balance_constraint",
+  "definition": "The Godley sectoral balance identity (Private + Government + Foreign ≡ 0) constrains fiscal consolidation pathways. Current configuration: private +3%, government -6.5%, foreign +3.5%. If the deficit shrinks by 3pp, the private sector surplus must shrink by 3pp or the current account must improve by 3pp — making large deficit reduction without recession arithmetically difficult.",
+  "confidence": 6,
+  "evidence": [
+    "Godley identity is accounting arithmetic (trivially true)",
+    "Current sectoral configuration: private +3%, government -6.5%, foreign +3.5%",
+    "Dollar depreciation could shift current account 1-2pp over 3-5 years (not only private adjustment)",
+    "Framework is most valuable as stress test for DOGE scenarios",
+    "Identity constrains flows at a point in time but does not constrain adjustment paths or ensure stability"
+  ],
+  "originating_agents": [
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Can the sectoral balance framework generate falsifiable predictions about sustainability beyond restating the accounting identity?",
+    "What adjustment channel absorbs fiscal consolidation: private balance deterioration or current account improvement?"
+  ],
+  "related_concepts": [
+    "doge_underdelivery",
+    "fiscal_contraction_multiplier_asymmetry",
+    "fiscal_uncanny_valley"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

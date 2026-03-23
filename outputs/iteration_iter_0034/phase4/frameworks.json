@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "vulnerability_trigger_amplification",
+    "purpose": "Systematically assessing crisis mechanics by decomposing systemic risk into vulnerability (leverage, maturity mismatch, dealer concentration, opacity), trigger (fiscal event or sentiment shift), and amplification (basis trade, forced selling, correlation breakdown) components.",
+    "components": [
+      "Leverage assessment: basis trade 50-100x, corporate leverage stratification (IG vs. HY vs. Russell 2000)",
+      "Maturity mismatch: T-bill concentration ($5-6T within 12 months), effective rate convergence (50-70bp/year)",
+      "Dealer concentration: indirect bidder decline (72% to 65%), balance sheet constraints",
+      "Opacity: private credit $1.8T mark-to-model, PIK toggle prevalence",
+      "Amplification channels: basis trade unwind, repo haircut spirals, correlation regime breaks"
+    ],
+    "current_assessment": "Green/amber across stress indicators. The structural observation that crises begin from green/amber, not red, is itself a high-confidence finding. Basis trade notional at $800B-$1T is the dominant vulnerability.",
+    "limitations": [
+      "Framework is better at identifying vulnerability than predicting timing",
+      "Opacity component (private credit) is unquantifiable by definition",
+      "SRF capacity under stress is untested and may alter amplification dynamics",
+      "Cross-country contagion channels (European rearmament bond supply) not fully integrated"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "slug": "doom_loop_regime_classification",
+    "purpose": "Classifying the current state of the fiscal doom loop and identifying monitoring criteria for transitions between dormant, slow burn, and acute phases.",
+    "components": [
+      "Dormant: r << g, stable debt/GDP, no term premium pressure",
+      "Slow burn (CURRENT): r ≈ g, rising effective rate (~50-70bp/year), net interest ~$1T, three active stabilizers (reserve currency, T-bill management, foreign official buying)",
+      "Acute: r >> g, forced selling cascades, basis trade unwinds, political crisis (UK 2022 template: 4 trading days)",
+      "Monitoring criteria for transition: term premium acceleration, auction tail frequency, basis trade notional growth, foreign demand at auctions"
+    ],
+    "current_assessment": "Slow burn mode. Blended effective rate 3.3% rising toward 4.5-5.0% marginal rate. IMF cross-country base rate: 35-40% fiscal stress probability within 10 years. Can persist for years (Japan decades) or accelerate in days (UK 2022).",
+    "limitations": [
+      "Japan analogy has structural differences (current account surplus, 90% domestic ownership, deflationary regime)",
+      "UK 2022 transition to acute was triggered by a specific policy error — hard to model systematically",
+      "Transition from slow burn to acute may be driven by events outside the fiscal domain (geopolitical shock, bank failure)",
+      "Framework does not model reversal from slow burn to dormant (requires sustained r < g)"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "slug": "godley_sectoral_balance",
+    "purpose": "Constraining feasible fiscal consolidation pathways using the accounting identity that Private + Government + Foreign sector balances must sum to zero.",
+    "components": [
+      "Current configuration: Private sector +3%, Government -6.5%, Foreign +3.5%",
+      "Adjustment channels: private balance deterioration (recessionary), current account improvement (requires dollar depreciation), or some combination",
+      "Stress test application: if deficit shrinks by Xpp, specify where the adjustment falls",
+      "Dollar depreciation channel: 1-2pp current account improvement over 3-5 years is feasible"
+    ],
+    "current_assessment": "Large deficit reduction without recession or private balance deterioration is arithmetically difficult given current foreign balance of +3.5%. Most valuable as a stress test forcing DOGE scenario analysts to specify adjustment channels explicitly.",
+    "limitations": [
+      "Identity is trivially true (accounting arithmetic) — behavioral predictions about which channel adjusts require additional assumptions",
+      "Does not constrain adjustment paths or ensure stability, only constrains flows at a point in time",
+      "Overstates private balance deterioration as the only channel — ignores dollar depreciation pathway",
+      "Cannot generate falsifiable predictions about sustainability beyond restating the identity"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "slug": "minsky_fragility_taxonomy",
+    "purpose": "Classifying financial units as hedge, speculative, or Ponzi financing to assess systemic fragility and crisis transmission pathways.",
+    "components": [
+      "Household sector classification: hedge financing (~95% mortgage lock-in below 5%, DSR 9.7%)",
+      "IG corporate classification: mostly hedge (interest coverage >4x)",
+      "HY/leveraged classification: advancing toward speculative (covenant-lite >90%, PIK toggle)",
+      "Russell 2000 small caps: 40%+ unprofitable (Ponzi by definition)",
+      "Private credit: unclassifiable due to opacity ($1.8T mark-to-model)",
+      "Aggregate hedge share: ~55-60%, down from ~70% in 2019"
+    ],
+    "current_assessment": "Bifurcated: household sector is unprecedentedly insulated (hedge financing via rate lock-in) while corporate/financial sector drifts toward speculative/Ponzi. The implication — a financial crisis that doesn't propagate to households — would be unprecedented and underexplored.",
+    "limitations": [
+      "Private credit opacity prevents accurate aggregate classification",
+      "No precedent for a crisis with bifurcated household vs. corporate fragility — models cannot predict transmission",
+      "Classification is static; Minsky dynamics are inherently procyclical and can shift rapidly",
+      "Level vs. direction: level remains below 2007 peaks even as direction is adverse"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "slug": "stock_bond_correlation_regime_taxonomy",
+    "purpose": "Identifying the current stock-bond correlation regime and inferring portfolio construction implications by mapping the full chronology of six correlation regimes from 1942 to present.",
+    "components": [
+      "Six identified regimes from 1942 to present",
+      "Two prior split-correlation episodes: 1965-69 (resolved to fiscal/inflation dominance) and 2003-06 (resolved to monetary dominance)",
+      "Current state: 2Y-SPX negative (-0.25 to -0.35), 30Y-SPX positive (+0.05 to +0.15)",
+      "Resolution timeline: 2-4 years in both prior episodes",
+      "Portfolio implication: long-duration Treasuries losing hedging property for equity portfolios"
+    ],
+    "current_assessment": "Current split is a transitional state. The 1965-69 resolution pathway (toward fiscal dominance) is more probable given structural deficits, but the 2003-06 counterexample prevents high conviction. N=2 is explicitly insufficient for statistical inference.",
+    "limitations": [
+      "N=2 for prior split-correlation episodes — insufficient for statistical inference",
+      "Prior episodes had different institutional contexts (pre-QE, different Fed frameworks)",
+      "Framework identifies the regime but cannot predict resolution direction",
+      "Value is in the framework itself, not in directional prediction"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "slug": "fiscal_uncanny_valley_framework",
+    "purpose": "Identifying the zone of fiscal consolidation that is large enough to contract GDP but insufficient to stabilize the debt trajectory, producing the worst risk-adjusted outcomes.",
+    "components": [
+      "Four failure cases: Eurozone 2010-13, Japan 1997, UK 2010-13, Argentina 2018",
+      "Successful counterexamples: Clinton 1993, Canada 1994-97, Sweden 1994-98, Ireland 1987",
+      "Required offsets for success: 200bp+ monetary easing, 10-25% currency depreciation, or external demand boom",
+      "2026 initial conditions: Fed constrained (above-target inflation), dollar reserve status limits depreciation, no external demand boom",
+      "Adjusted base rate for pure domestic consolidation without offset: ~0/7"
+    ],
+    "current_assessment": "DOGE consolidation scenarios map closer to the uncanny valley than to successful consolidation cases. None of the three required offsets (monetary easing, currency depreciation, external demand boom) appear available in 2026.",
+    "limitations": [
+      "Mixing Argentina (EM, non-reserve-currency) with DM cases weakens the base rate",
+      "Ireland's 'success' relied on EC structural funds — arguably an external transfer",
+      "The boundary between 'too small to matter' and 'uncanny valley' is not precisely defined",
+      "Does not account for potential private sector offsets (e.g., AI capex)"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  }
+]

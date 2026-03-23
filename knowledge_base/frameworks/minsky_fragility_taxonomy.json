@@ -1,0 +1,27 @@
+{
+  "slug": "minsky_fragility_taxonomy",
+  "purpose": "Classifying financial units as hedge, speculative, or Ponzi financing to assess systemic fragility and crisis transmission pathways.",
+  "components": [
+    "Household sector classification: hedge financing (~95% mortgage lock-in below 5%, DSR 9.7%)",
+    "IG corporate classification: mostly hedge (interest coverage >4x)",
+    "HY/leveraged classification: advancing toward speculative (covenant-lite >90%, PIK toggle)",
+    "Russell 2000 small caps: 40%+ unprofitable (Ponzi by definition)",
+    "Private credit: unclassifiable due to opacity ($1.8T mark-to-model)",
+    "Aggregate hedge share: ~55-60%, down from ~70% in 2019"
+  ],
+  "current_assessment": "Bifurcated: household sector is unprecedentedly insulated (hedge financing via rate lock-in) while corporate/financial sector drifts toward speculative/Ponzi. The implication — a financial crisis that doesn't propagate to households — would be unprecedented and underexplored.",
+  "limitations": [
+    "Private credit opacity prevents accurate aggregate classification",
+    "No precedent for a crisis with bifurcated household vs. corporate fragility — models cannot predict transmission",
+    "Classification is static; Minsky dynamics are inherently procyclical and can shift rapidly",
+    "Level vs. direction: level remains below 2007 peaks even as direction is adverse"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

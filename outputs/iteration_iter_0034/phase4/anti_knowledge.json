@@ -1,0 +1,84 @@
+[
+  {
+    "claim": "DOGE as procurement reform with near-zero fiscal multiplier",
+    "reason": "Self-rated 4/10. Fails on its own evidence: DOGE's actual implementation targets broader workforce and program cuts (USAID, EPA, Education), not waste/procurement. The $236B GAO improper payments figure includes definitional errors, not recoverable waste. A hypothesis tested and rejected by the agent's own analysis.",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Three years of stability constitutes evidence for a stable new equilibrium",
+    "reason": "N=3 annual observations is inadequate for inference about tail risk. Commits survivorship fallacy (2006-07 housing was 'stable' until it wasn't). Agent's own Bayesian update (30% to 18-22% annual crisis probability) still implies alarmingly high risk. 'Equilibrium' implies self-correction; no evidence supports self-correction. Japan analogy weakened by structural differences (current account surplus, ~90% domestic ownership, 15-25% savings rate).",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "The rates market is early and correct, equities/credit are late (at 8/10 confidence)",
+    "reason": "Cross-asset inconsistency itself is real (8/10 factual finding), but the directional resolution call was refuted. Agent's own Open Question #1 admits 'historical precedent is ambiguous,' contradicting 8/10 confidence. The 2003-06 episode saw equivalent split resolve back toward monetary dominance. Resolution direction should be 5/10 at best, not high-conviction.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Crowding out is permanently refuted by endogenous money theory",
+    "reason": "Internal contradiction: agent immediately reintroduces crowding-out operating through term premium channel while claiming to have killed it. Loanable funds model is empirically weak (agreed), but the phenomenon of government borrowing raising private borrowing costs persists through fiscal supply channel. Partial correlation drop from -0.38 to -0.12 shows effect weakened during exceptional monetary regime (QE/ZLB), not vanished. Semantic, not substantive distinction.",
+    "refuted_by": [
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Quality factor premium expands 2-3x under fiscal dominance (specific magnitude)",
+    "reason": "Directional claim plausible (quality outperforms under fiscal dominance stress), but magnitude fabricated. Supporting evidence from structurally dissimilar cases (Japan, Italy, UK, Argentina). No reserve-currency fiscal dominance transition has occurred in modern factor-investing era. The 2-3x multiplier is extrapolated precision from non-comparable contexts.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "Sector allocation conditional on fiscal regime produces 150-300bp annual alpha over static weights",
+    "reason": "In-sample backtest (1962-2024) with three acknowledged structural breaks: IRA (sector-specific industrial policy), tariffs (trade barriers), AI capex ($200B+/yr). These fundamentally alter the sectoral return-generating process. The alpha estimate describes a historical pattern whose generating conditions no longer hold.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "S&P 500 expected value of ~4,970 (specific point estimate)",
+    "reason": "Three subjective probabilities times three subjective price targets produce false precision. The directional claim (negative skew, fat left tail) survives, but the quantification gives it specificity the inputs do not support.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "claim": "$1.5-2.5T Fed intervention required as a calibrated estimate",
+    "reason": "Linear scaling from one episode (March 2020: $1.6T for ~$500B trade) in fundamentally different context (deflationary vs. potentially inflationary). Acute March 2020 intervention was ~$300-400B in first two weeks; $1.6T includes months of subsequent purchases. SRF now exists. Correctly reclassified as 'illustrative, not calibrated.'",
+    "refuted_by": [
+      "rates_strategist_01",
+      "challenger_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  }
+]

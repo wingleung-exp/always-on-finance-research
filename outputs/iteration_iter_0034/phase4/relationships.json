@@ -1,0 +1,223 @@
+[
+  {
+    "concept_a": "treasury_basis_trade_amplification",
+    "concept_b": "doom_loop_slow_burn",
+    "mechanism": "The basis trade is the primary amplification mechanism that can accelerate the doom loop from slow burn to acute phase. A fiscal-supply-driven selloff triggers basis trade unwinds, forcing dealer balance sheet compression and further selling in a reflexive cascade.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Amplification is strongest when dealer balance sheets are constrained and Fed intervention capacity is limited by inflationary context. SRF may dampen in routine stress but is untested at crisis scale.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "rates_strategist_01",
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "fiscal_supply_duration_pricing",
+    "concept_b": "stock_bond_correlation_bifurcation",
+    "mechanism": "Fiscal supply dominance beyond 5Y drives the long-end toward positive stock-bond correlation (both respond to fiscal/growth outlook), while the front end remains governed by monetary policy expectations (maintaining negative correlation).",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as fiscal supply remains the marginal price-setter for duration >5Y. Would revert if QE resumes or fiscal consolidation materially reduces issuance.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "fiscal_contraction_multiplier_asymmetry",
+    "concept_b": "fiscal_uncanny_valley",
+    "mechanism": "Asymmetrically large contraction multipliers create the uncanny valley: moderate consolidation contracts GDP (via high contraction multiplier) more than it improves the debt trajectory (via denominator shrinkage exceeding numerator savings).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Asymmetry widens at higher debt/GDP levels and when monetary policy offset is constrained (as in 2026 with above-target inflation). Most dangerous without currency depreciation or external demand offset.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "doge_underdelivery",
+    "concept_b": "fiscal_contraction_multiplier_asymmetry",
+    "mechanism": "If DOGE delivers $50-200B in cuts (workforce/program cuts rather than waste elimination), the asymmetric contraction multiplier (1.2-1.8x) means GDP impact exceeds the nominal savings, potentially worsening the debt/GDP ratio. The multiplier literature gap on workforce reductions adds uncertainty.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Depends on composition of actual cuts (workforce vs. transfer vs. procurement). Workforce reduction multipliers are underresearched relative to transfer/tax change multipliers.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "geopolitical_spending_floor",
+    "concept_b": "doge_underdelivery",
+    "mechanism": "The geopolitical spending floor (~1.5-2.0% GDP) constrains DOGE's addressable budget. With defense explicitly exempted and mandatory spending comprising 70%, only ~15% of the budget is realistically targetable.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds as long as alliance architecture and great power competition persist. Renegotiable only in a fundamental shift in U.S. geopolitical posture.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "kalecki_profit_channel_erosion",
+    "concept_b": "bifurcated_minsky_fragility",
+    "mechanism": "The Kalecki profit floor supports corporate earnings and thus sustains hedge financing for IG corporates. As the channel erodes (deficit composition shifting to interest payments with lower MPC), the profit floor weakens, potentially accelerating the corporate sector's drift from hedge toward speculative/Ponzi financing.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The reflexivity is strongest when corporate leverage is elevated and profit margins are dependent on fiscal transfers. Household sector remains insulated via mortgage rate lock-in regardless of Kalecki dynamics.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "equity_analyst_01",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "reserve_currency_exceptionalism",
+    "concept_b": "doom_loop_slow_burn",
+    "mechanism": "Reserve currency demand provides structural bid for Treasuries that dampens the doom loop, extending the slow burn phase potentially by decades. However, declining foreign official holdings (33% to 23%) and sanctions-driven reserve diversification are eroding this stabilizer.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds as long as USD remains dominant reserve asset (currently 58% of global reserves). Gradual erosion via sanctions-driven diversification is possible but no viable alternative reserve asset currently exists at scale.",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "tbill_maturity_shortening_risk",
+    "concept_b": "doom_loop_slow_burn",
+    "mechanism": "T-bill maturity shortening compresses near-term term premium (30-50bp estimated) but concentrates rollover risk (~$5-6T within 12 months) and accelerates effective-rate convergence toward marginal rates, feeding the doom loop's interest expense growth.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Effect is mechanical and operates continuously. Accelerates when short rates remain elevated and when bill share exceeds historical norms.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "european_rearmament_fiscal_shift",
+    "concept_b": "fiscal_supply_duration_pricing",
+    "mechanism": "European defense spending increases global sovereign duration supply, potentially raising Bund term premium. The cross-country elasticity of substitution determines whether this raises UST term premium (supply competition) or lowers it (relative safe-asset substitution).",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Direction of impact depends on whether European bonds are substitutes or complements for UST at the margin. Answer may differ by investor type (reserve managers vs. real money).",
+    "originating_agents": [
+      "rates_strategist_01",
+      "challenger_01",
+      "risk_analyst_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "sectoral_balance_constraint",
+    "concept_b": "doge_underdelivery",
+    "mechanism": "The Godley identity forces any deficit reduction to manifest as either private sector surplus shrinkage (recessionary) or current account improvement (requires dollar depreciation). This arithmetic constraint explains why DOGE consolidation beyond modest amounts ($50-200B) would produce self-defeating GDP contraction.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Accounting identity always holds. The behavioral prediction (private balance deterioration as primary adjustment channel) is regime-dependent: dollar depreciation could shift current account 1-2pp over 3-5 years.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "equity_implied_hy_spread_divergence",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "The 50-75bp divergence between equity-implied and actual HY spreads is a concrete, tradeable expression of the broader cross-asset inconsistency. Equity markets capitalize long-duration fiscal risk differently than credit markets anchored by near-term default/carry dynamics.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Signal is most meaningful when divergence exceeds the 20-30bp historical average (2021-23). Three of four historical episodes resolved via credit widening.",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "doom_loop_slow_burn",
+    "concept_b": "sovereign_downgrade_threshold",
+    "mechanism": "Sustained doom loop dynamics (rising effective rates, growing interest expense) increase the probability of further sovereign downgrades. However, the binding regulatory threshold (A+) is distant, and intermediate downgrades may have limited market impact given the 2011 precedent.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Nonlinear: impact is minimal until the A+ threshold is approached, at which point Basel III risk-weight changes create a cliff effect. Japan's experience suggests regulatory accommodation can offset even serial downgrades.",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "monetary_policy_trap",
+    "concept_b": "treasury_basis_trade_amplification",
+    "mechanism": "The monetary policy trap constrains Fed intervention capacity during a basis trade unwind. If the unwind occurs in an inflationary context, the Fed cannot deploy the March 2020 playbook (massive QE) without contradicting its price stability mandate, leaving the amplification mechanism unchecked.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Only binding when inflation is above target or when Fed credibility on inflation is fragile. In a deflationary crisis (like March 2020), intervention and price stability are directionally aligned.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "kalecki_profit_channel_erosion",
+    "concept_b": "doge_underdelivery",
+    "mechanism": "If DOGE achieves significant consolidation ($100-200B), the Kalecki profit floor weakens proportionally. However, DOGE underdelivery paradoxically preserves the profit floor — the political economy constraint that prevents consolidation also preserves the fiscal stimulus supporting corporate profits.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "The reflexivity operates continuously: the same fiscal architecture creating stability (profit floor) is what is threatened by consolidation. Kalecki-leverage reflexivity means vulnerability and trigger share a root cause.",
+    "originating_agents": [
+      "risk_analyst_01",
+      "equity_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "bifurcated_minsky_fragility",
+    "mechanism": "Private credit opacity prevents accurate classification of the corporate/financial sector's true Minsky state. If a significant share of $1.8T private credit is Ponzi financing disguised as performing (via mark-to-model and PIK toggles), the true fragility level is worse than observed metrics suggest.",
+    "direction": "a_causes_b",
+    "confidence": 3,
+    "regime_dependence": "Risk crystallizes during credit stress when mark-to-model diverges from mark-to-market. Opacity is permanent until a stress event forces recognition.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0034"
+  }
+]

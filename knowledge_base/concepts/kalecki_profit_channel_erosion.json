@@ -1,0 +1,37 @@
+{
+  "slug": "kalecki_profit_channel_erosion",
+  "definition": "The Kalecki profit channel provides a material floor under corporate profits (~$45-65 S&P EPS, 15-35% of total), with R² of 0.55-0.65 between deficits and profits. However, the floor is eroding as deficit composition shifts toward interest payments (MPC ~0.3-0.5) away from transfers (MPC ~0.7-1.2).",
+  "confidence": 6,
+  "evidence": [
+    "R² 0.55-0.65 between fiscal deficits and corporate profits (KB source)",
+    "Granger causality t-stat 3.2-4.8",
+    "VAR impulse: +0.4-0.7pp GDP profit increase per 1pp deficit shock",
+    "R² of 0.55-0.65 is extraordinarily high for a single macro variable vs. monetary policy (~0.15-0.25) or GDP growth (~0.35-0.45)",
+    "Interest expense rising to $1T+ (projected $1.5T by 2030) reduces effective fiscal impulse",
+    "No clean empirical decomposition exists for interest-vs-transfer multiplier differential"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "macro_strategist_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Can the Kalecki R² be re-estimated with a composition-adjusted deficit variable separating interest from primary spending?",
+    "Does AI capex ($200-250B/yr from hyperscalers) partially substitute for the Kalecki fiscal channel?",
+    "Does the Kalecki channel work differently when deficits are dominated by interest payments?"
+  ],
+  "related_concepts": [
+    "bifurcated_minsky_fragility",
+    "doge_underdelivery",
+    "fiscal_contraction_multiplier_asymmetry"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

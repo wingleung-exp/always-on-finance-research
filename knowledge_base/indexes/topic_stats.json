@@ -1071,6 +1071,11 @@
         "definition": "The Treasury basis trade ($800B-$1.5T notional at 20-100x leverage) is the single most concrete and dangerous amplification mechanism in the current f"
       },
       {
+        "slug": "stock_bond_correlation_bifurcation",
+        "confidence": 7.33,
+        "definition": "A maturity-dependent correlation regime where 2Y-SPX correlation is negative (-0.15 to -0.30, reflecting Fed credibility) while 30Y-SPX correlation is"
+      },
+      {
         "slug": "bimodal_transition_distribution",
         "confidence": 7,
         "definition": "The transition from early-stage to entrenched fiscal dominance follows a bimodal distribution: either gradual (10-25 years) or acute (months), with no"
@@ -1094,11 +1099,6 @@
         "slug": "kalecki_levy_profit_channel",
         "confidence": 7,
         "definition": "The Kalecki-Levy framework establishes an accounting identity linking government deficits to corporate profits \u2014 this is irrefutable by construction. "
-      },
-      {
-        "slug": "opec_fiscal_breakeven_amplifier",
-        "confidence": 7,
-        "definition": "OPEC+ fiscal breakevens create a pro-cyclical amplifier that interacts with DM fiscal dominance. Saudi breakeven rising from $65-70/bbl (2019) to $85-"
       }
     ],
     "all_concept_slugs": [
@@ -1134,12 +1134,12 @@
       "treasury_fed_accord_precedent",
       "us_fiscal_unprecedented_configuration"
     ],
-    "avg_confidence": 6.2
+    "avg_confidence": 6.3
   },
   "fiscal_policy": {
-    "concept_count": 20,
-    "relationship_count": 12,
-    "framework_count": 5,
+    "concept_count": 41,
+    "relationship_count": 26,
+    "framework_count": 9,
     "top_concepts": [
       {
         "slug": "fiscal_multiplier_deep_uncertainty",
@@ -1157,9 +1157,24 @@
         "definition": "When analyzing an explicitly 'unprecedented' regime, confidence in predictions about its effects should decrease, not increase. Assigning 9/10 confide"
       },
       {
+        "slug": "cross_asset_inconsistency",
+        "confidence": 8,
+        "definition": "Equities, credit, and rates are telling mutually contradictory stories about fiscal sustainability. Rates market pricing significant fiscal risk (elev"
+      },
+      {
         "slug": "debt_gdp_threshold_debunked",
         "confidence": 8,
         "definition": "No robust nonlinear debt/GDP threshold exists in the data. The Reinhart-Rogoff '90% threshold' was debunked (Herndon-Ash-Pollin 2013). A modest linear"
+      },
+      {
+        "slug": "doge_political_economy_paradox",
+        "confidence": 8,
+        "definition": "The governing coalition's most federally dependent electoral base ($1.30-$1.80 received per tax dollar) creates a political economy paradox for DOGE: "
+      },
+      {
+        "slug": "doge_underdelivery",
+        "confidence": 8,
+        "definition": "DOGE will substantially underdeliver against announced targets, with achievable deficit reduction of $50-200B against $1-2T announced. 70% mandatory s"
       },
       {
         "slug": "expansionary_austerity_debunked",
@@ -1167,54 +1182,60 @@
         "definition": "The Alesina-Ardagna (2010) 'expansionary austerity' result does not survive narrative identification methodology (Guajardo et al. 2014). Under proper "
       },
       {
+        "slug": "fiscal_supply_duration_pricing",
+        "confidence": 8,
+        "definition": "Fiscal supply has displaced monetary policy as the marginal price-setter for duration beyond 5 years. ACM term premium swung from -50bp (2020) to +50-"
+      },
+      {
         "slug": "g7_fiscal_divergence_extreme",
         "confidence": 8,
         "definition": "G7 fiscal divergence is at its widest since post-WWII: U.S. at -6.5 to -7.0% of GDP, Euro Area ~-3%, Canada ~-1.5 to -2.0%, Germany ~-2%, Japan ~-4% a"
-      },
-      {
-        "slug": "opec_fiscal_breakeven_supply_constraint",
-        "confidence": 8,
-        "definition": "OPEC+ fiscal breakeven oil prices constrain the global supply response. Aggregate weighted breakeven: $78-85/bbl (Saudi $85-96, UAE $60-65, Iraq $85-9"
-      },
-      {
-        "slug": "term_premium_fiscal_supply_nonlinear",
-        "confidence": 8,
-        "definition": "Fiscal deficits raise the term premium on long-duration government bonds through a supply channel. The relationship is non-linear: insensitive below ~"
-      },
-      {
-        "slug": "basis_trade_fiscal_amplification",
-        "confidence": 7,
-        "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) is a systemic amplification mechanism connecting fiscal vulnerability to financial crisis. Tr"
-      },
-      {
-        "slug": "china_commodity_demand_mix_shift",
-        "confidence": 7,
-        "definition": "China's fiscal pivot from property-sector-financed infrastructure to central government bond-financed strategic industrial investment shifts the commo"
       }
     ],
     "all_concept_slugs": [
       "ag_shock_em_fiscal_leading_indicator",
       "basis_trade_fiscal_amplification",
+      "bifurcated_minsky_fragility",
       "china_commodity_demand_mix_shift",
       "confidence_calibration_regime_novelty",
       "consolidation_recession_conditional_probability",
+      "correlation_regime_taxonomy",
+      "cross_asset_inconsistency",
       "crowding_out_post2008_attenuation",
       "debt_gdp_threshold_debunked",
       "deficit_term_premium_doom_loop",
+      "doge_political_economy_paradox",
       "doge_realization_gap",
+      "doge_underdelivery",
+      "doom_loop_slow_burn",
+      "equity_implied_hy_spread_divergence",
+      "european_rearmament_fiscal_shift",
       "expansionary_austerity_debunked",
+      "financial_repression_analogue",
+      "fiscal_contraction_multiplier_asymmetry",
       "fiscal_dominance_early_stage",
       "fiscal_multiplier_deep_uncertainty",
+      "fiscal_supply_duration_pricing",
+      "fiscal_uncanny_valley",
       "g7_fiscal_divergence_extreme",
+      "geopolitical_spending_floor",
       "gold_fiscal_dominance_pricing",
       "kalecki_channel_empirical_partial",
+      "kalecki_profit_channel_erosion",
+      "monetary_policy_trap",
       "opec_fiscal_breakeven_supply_constraint",
       "r_g_transition_sustainability",
+      "reserve_currency_exceptionalism",
+      "sectoral_balance_constraint",
       "single_factor_dominance_bias",
+      "sovereign_downgrade_threshold",
+      "tbill_maturity_shortening_risk",
       "term_premium_fiscal_supply_nonlinear",
-      "unprecedented_fiscal_configuration"
+      "treasury_basis_trade_amplification",
+      "unprecedented_fiscal_configuration",
+      "us_china_fiscal_accelerator"
     ],
-    "avg_confidence": 7.0
+    "avg_confidence": 6.8
   },
   "fx_rates_divergence": {
     "concept_count": 86,

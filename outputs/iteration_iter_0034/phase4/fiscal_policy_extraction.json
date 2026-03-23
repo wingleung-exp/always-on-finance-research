@@ -1,0 +1,805 @@
+{
+  "concepts": [
+    {
+      "slug": "treasury_basis_trade_amplification",
+      "definition": "The Treasury basis trade ($800B-$1T notional at 50-100x leverage) is the primary amplification mechanism connecting fiscal vulnerability to systemic crisis. March 2020 validated the mechanism with $1.6T Fed intervention for ~$500B in positions; current notional is 60-100% larger.",
+      "confidence": 8,
+      "evidence": [
+        "March 2020 required $1.6T Fed intervention for ~$500B basis trade position",
+        "Current notional 60-100% larger than March 2020 per OFR/Fed data",
+        "50-100x leverage documented in basis trade positions",
+        "Post-2020 SRF exists but was designed for routine liquidity, not $800B-$1T crisis unwinds",
+        "Inflationary context constraint did not exist in 2020, limiting Fed intervention capacity"
+      ],
+      "originating_agents": ["risk_analyst_01", "rates_strategist_01", "macro_strategist_02", "generalist_01", "generalist_02", "equity_analyst_01", "risk_analyst_02", "challenger_01"],
+      "open_questions": [
+        "What are the SRF's actual operational limits under stress, and at what scale would the Fed need to expand beyond SRF to emergency QE?",
+        "Can the Fed intervene in a fiscal-supply-driven basis trade unwind without reigniting inflation expectations?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "fiscal_supply_duration_pricing", "tbill_maturity_shortening_risk"]
+    },
+    {
+      "slug": "stock_bond_correlation_bifurcation",
+      "definition": "The stock-bond correlation has bifurcated by maturity: 2Y-SPX negative (-0.25 to -0.35) and 30Y-SPX positive (+0.05 to +0.15), signaling a transitional regime between monetary and fiscal dominance. The front end is governed by Fed expectations while the long end reflects fiscal supply and term premium.",
+      "confidence": 8,
+      "evidence": [
+        "Identical correlation ranges cited independently across 5 agents",
+        "Front end governed by Fed expectations, long end by fiscal supply/term premium",
+        "Two prior split-correlation episodes identified: 1965-69 and 2003-06",
+        "1965-69 resolved into fiscal/inflation dominance (positive correlation)",
+        "2003-06 resolved back to monetary dominance (negative correlation)",
+        "Long-duration Treasuries losing hedging property agreed across all agents"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_02", "equity_analyst_01", "rates_strategist_01"],
+      "open_questions": [
+        "Will the current split resolve toward fiscal dominance (1965-69 pattern) or back to monetary dominance (2003-06 pattern)?",
+        "Are there leading indicators that distinguish which resolution pathway is more likely?",
+        "N=2 for prior transitions — is this sufficient for inference?"
+      ],
+      "related_concepts": ["fiscal_supply_duration_pricing", "correlation_regime_taxonomy", "doom_loop_slow_burn"]
+    },
+    {
+      "slug": "fiscal_contraction_multiplier_asymmetry",
+      "definition": "Fiscal contraction multipliers are asymmetrically larger than expansion multipliers (1.2-1.8x vs. 0.6-0.9x), with the asymmetry widening at higher debt/GDP levels. Three convergent mechanisms drive this: downward nominal wage rigidity, hysteresis/scarring effects, and credit channel amplification at elevated private debt.",
+      "confidence": 7,
+      "evidence": [
+        "Episode-level evidence across 9 consolidation episodes",
+        "Guajardo et al. narrative identification methodology confirms asymmetry",
+        "Described as 'among the more robust findings in fiscal policy research' in debate",
+        "2013 sequester — key counterexample — required QE3 monetary offset unavailable in 2026",
+        "Application to DOGE workforce cuts (vs. transfer/tax changes dominating the literature) carries additional uncertainty"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_02", "equity_analyst_01", "risk_analyst_01"],
+      "open_questions": [
+        "How do workforce reduction multipliers compare to transfer/tax change multipliers?",
+        "Does the multiplier literature gap on government workforce reduction affect DOGE impact estimates?"
+      ],
+      "related_concepts": ["doge_underdelivery", "fiscal_uncanny_valley", "sectoral_balance_constraint"]
+    },
+    {
+      "slug": "fiscal_supply_duration_pricing",
+      "definition": "Fiscal supply has displaced monetary policy as the marginal price-setter for duration beyond 5 years. ACM term premium swung from -50bp (2020) to +50-100bp (2026), a 100-150bp move, driven by $2-2.5T annual gross issuance and QT removing ~$60B/month.",
+      "confidence": 8,
+      "evidence": [
+        "ACM term premium swing from -50bp (2020) to +50-100bp (2026)",
+        "Indirect bidder share declined from 72% to 65%",
+        "QT removing ~$60B/month compounds supply pressure",
+        "$2-2.5T annual gross issuance is the single largest structural force",
+        "Claim that fiscal supply explains 60-70% of yield moves is overprecise and model-dependent"
+      ],
+      "originating_agents": ["rates_strategist_01", "risk_analyst_01", "generalist_01", "equity_analyst_01"],
+      "open_questions": [
+        "Does European defense spending raising Bund term premium raise or lower UST term premium (cross-country elasticity of substitution)?",
+        "What share of yield variance is attributable to fiscal supply vs. other factors?"
+      ],
+      "related_concepts": ["stock_bond_correlation_bifurcation", "doom_loop_slow_burn", "european_rearmament_fiscal_shift", "tbill_maturity_shortening_risk"]
+    },
+    {
+      "slug": "doge_underdelivery",
+      "definition": "DOGE will substantially underdeliver against announced targets, with achievable deficit reduction of $50-200B against $1-2T announced. 70% mandatory spending constraint plus defense protection leaves ~15% of budget addressable, and historical realization rates are 0.3-0.6x.",
+      "confidence": 8,
+      "evidence": [
+        "70% mandatory spending constraint + defense protection leaves ~15% of budget",
+        "Historical realization rate of 0.3-0.6x for announced spending cuts",
+        "Political economy paradox: most federally dependent states ($1.30-$1.80 per tax dollar) are governing coalition's electoral base",
+        "DOGE actual execution targets workforce/programs, not zero-multiplier procurement reform",
+        "$236B GAO improper payments figure includes definitional errors, not recoverable waste"
+      ],
+      "originating_agents": ["risk_analyst_02", "risk_analyst_01", "generalist_01", "generalist_02", "challenger_01"],
+      "open_questions": [
+        "What is the 12-18 month political feedback cycle from federal dependency to electoral consequences?",
+        "What fraction of GAO-identified improper payments is actually recoverable?"
+      ],
+      "related_concepts": ["fiscal_contraction_multiplier_asymmetry", "fiscal_uncanny_valley", "geopolitical_spending_floor", "sectoral_balance_constraint"]
+    },
+    {
+      "slug": "european_rearmament_fiscal_shift",
+      "definition": "European rearmament is a structural, geopolitically locked-in fiscal shift of ~$100-150B/yr incremental by 2028, driven by NATO commitments that exhibit ratchet properties. Germany's EUR 500B fund was legislated in March 2025 with constitutional debt brake reform.",
+      "confidence": 7,
+      "evidence": [
+        "Germany EUR 500B defense fund legislated March 2025 (constitutional debt brake reform)",
+        "France LPM €413B over 2024-30",
+        "Poland at 4%+ GDP defense spending",
+        "NATO commitments exhibit ratchet property — does not reverse",
+        "Upper bound estimates of $400B/yr exceed all proposals; $100-150B/yr aligns with 1.3-1.8% to 2.0-3.0% GDP transition"
+      ],
+      "originating_agents": ["challenger_01", "risk_analyst_02", "generalist_01", "generalist_02"],
+      "open_questions": [
+        "How does European fiscal expansion affect UST term premium via cross-country substitution?",
+        "Does European rearmament narrow the G7 fiscal divergence narrative?"
+      ],
+      "related_concepts": ["fiscal_supply_duration_pricing", "geopolitical_spending_floor"]
+    },
+    {
+      "slug": "equity_implied_hy_spread_divergence",
+      "definition": "The equity-implied vs. actual HY spread divergence of 50-75bp is a meaningful signal with a 75% historical base rate of resolving via credit widening (3 of 4 episodes). The gap widened from a 20-30bp average during 2021-23.",
+      "confidence": 7,
+      "evidence": [
+        "Three agents independently identify the same 50-75bp gap",
+        "Historical episodes: late 2007 (credit widened, 6mo), mid-2011 (credit widened, 3mo), late 2015 (equity-implied narrowed, 6mo — the exception), early 2020 (credit widened, 1mo)",
+        "Mechanism: equity capitalizes long-duration risk, credit anchored by near-term default/carry",
+        "Merton-derived equity-implied calculation is model-dependent"
+      ],
+      "originating_agents": ["equity_analyst_01", "generalist_01", "generalist_02"],
+      "open_questions": [
+        "Is the Merton-derived equity-implied spread calculation robust across regimes?",
+        "What distinguishes the late 2015 counter-episode (equity-implied narrowed) from the other three?"
+      ],
+      "related_concepts": ["stock_bond_correlation_bifurcation", "bifurcated_minsky_fragility", "kalecki_profit_channel_erosion"]
+    },
+    {
+      "slug": "doom_loop_slow_burn",
+      "definition": "The fiscal doom loop is active in a dampened 'slow burn' mode, with the r≈g convergence creating a zone of instability. Blended effective rate (~3.3%) rising toward marginal rate (~4.5-5.0%) at ~50-70bp/year as ~16% of stock reprices annually. Net interest rose from $350B (FY2020) to ~$1T (FY2025/26).",
+      "confidence": 7,
+      "evidence": [
+        "Blended effective rate (~3.3%) rising toward marginal rate (~4.5-5.0%) at ~50-70bp/year",
+        "~16% of debt stock reprices annually",
+        "Net interest from $350B (FY2020) to ~$1T (FY2025/26)",
+        "IMF cross-country base rate: 35-40% probability of fiscal stress within 10 years when r≈g",
+        "Three stabilizers: reserve currency demand, T-bill maturity management (15% to 22%), residual foreign official buying",
+        "Can persist for years (Japan: decades) or accelerate in days (UK 2022: 4 trading days)"
+      ],
+      "originating_agents": ["risk_analyst_01", "rates_strategist_01", "generalist_01", "macro_strategist_02"],
+      "open_questions": [
+        "Under what conditions does the institutional/political doom loop mechanism produce outcomes economically equivalent to genuine solvency failure?",
+        "What monitoring criteria distinguish transition from slow burn to acute phase?"
+      ],
+      "related_concepts": ["treasury_basis_trade_amplification", "reserve_currency_exceptionalism", "tbill_maturity_shortening_risk", "fiscal_supply_duration_pricing"]
+    },
+    {
+      "slug": "kalecki_profit_channel_erosion",
+      "definition": "The Kalecki profit channel provides a material floor under corporate profits (~$45-65 S&P EPS, 15-35% of total), with R² of 0.55-0.65 between deficits and profits. However, the floor is eroding as deficit composition shifts toward interest payments (MPC ~0.3-0.5) away from transfers (MPC ~0.7-1.2).",
+      "confidence": 6,
+      "evidence": [
+        "R² 0.55-0.65 between fiscal deficits and corporate profits (KB source)",
+        "Granger causality t-stat 3.2-4.8",
+        "VAR impulse: +0.4-0.7pp GDP profit increase per 1pp deficit shock",
+        "R² of 0.55-0.65 is extraordinarily high for a single macro variable vs. monetary policy (~0.15-0.25) or GDP growth (~0.35-0.45)",
+        "Interest expense rising to $1T+ (projected $1.5T by 2030) reduces effective fiscal impulse",
+        "No clean empirical decomposition exists for interest-vs-transfer multiplier differential"
+      ],
+      "originating_agents": ["equity_analyst_01", "generalist_01", "macro_strategist_02", "challenger_01"],
+      "open_questions": [
+        "Can the Kalecki R² be re-estimated with a composition-adjusted deficit variable separating interest from primary spending?",
+        "Does AI capex ($200-250B/yr from hyperscalers) partially substitute for the Kalecki fiscal channel?",
+        "Does the Kalecki channel work differently when deficits are dominated by interest payments?"
+      ],
+      "related_concepts": ["bifurcated_minsky_fragility", "doge_underdelivery", "fiscal_contraction_multiplier_asymmetry"]
+    },
+    {
+      "slug": "sovereign_downgrade_threshold",
+      "definition": "A sovereign downgrade below AA would trigger significant regulatory and plumbing consequences through three channels (Basel III risk-weight, repo eligibility/haircuts, insurance/pension mandates), but the binding threshold is more distant than initially presented — AA+ to AA does NOT cross the Basel III 0% to 20% risk-weight threshold; only A+ would.",
+      "confidence": 5,
+      "evidence": [
+        "Current ratings: S&P AA+, Fitch AA+, Moody's Aa1 (downgraded May 2025) — two notches above binding threshold",
+        "Basel III risk-weight change (0% to 20%) triggered only at A+ or below",
+        "2011 template (S&P AAA to AA+) was benign because it stayed above regulatory thresholds",
+        "Japan serial downgrades (Aaa to A1) produced negligible impact due to ~90% domestic ownership and regulatory accommodation",
+        "U.S. ~30-40% foreign holdings makes Japan pathway partially unavailable"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "risk_analyst_01", "macro_strategist_02"],
+      "open_questions": [
+        "At what rating level would repo eligibility and insurance mandate restrictions become binding?",
+        "Could regulatory accommodation preempt mechanical consequences of a downgrade?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "reserve_currency_exceptionalism"]
+    },
+    {
+      "slug": "reserve_currency_exceptionalism",
+      "definition": "Reserve currency status is systematically underweighted in panel-regression fiscal sustainability models. The U.S. is the only issuer of the global reserve asset (88% of FX transactions, 58% of global reserves), making treatment as one of 20 advanced economies methodologically suspect. Reserve currency status buys time (decades not years) but 'delay vs. prevent' remains unresolved.",
+      "confidence": 6,
+      "evidence": [
+        "USD: 88% of FX transactions, 58% of global reserves",
+        "Japan at 250%+ debt/GDP for 28+ years without crisis despite minor reserve status (~5% of reserves)",
+        "UK Truss analogy misleading: sterling is ~5% of reserves",
+        "Japan structural differences: current account surplus vs. U.S. deficit, ~90% domestic ownership vs. ~60%, deflationary vs. inflationary regime",
+        "Foreign official holdings declining from 33% to 23%, replaced by structurally captive domestic institutions"
+      ],
+      "originating_agents": ["challenger_01", "macro_strategist_02"],
+      "open_questions": [
+        "Does reserve currency status delay fiscal crises or prevent them entirely?",
+        "How does sanctions-driven reserve diversification affect the exceptionalism argument?",
+        "What is the marginal buyer composition shift doing to the demand structure for Treasuries?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "sovereign_downgrade_threshold"]
+    },
+    {
+      "slug": "sectoral_balance_constraint",
+      "definition": "The Godley sectoral balance identity (Private + Government + Foreign ≡ 0) constrains fiscal consolidation pathways. Current configuration: private +3%, government -6.5%, foreign +3.5%. If the deficit shrinks by 3pp, the private sector surplus must shrink by 3pp or the current account must improve by 3pp — making large deficit reduction without recession arithmetically difficult.",
+      "confidence": 6,
+      "evidence": [
+        "Godley identity is accounting arithmetic (trivially true)",
+        "Current sectoral configuration: private +3%, government -6.5%, foreign +3.5%",
+        "Dollar depreciation could shift current account 1-2pp over 3-5 years (not only private adjustment)",
+        "Framework is most valuable as stress test for DOGE scenarios",
+        "Identity constrains flows at a point in time but does not constrain adjustment paths or ensure stability"
+      ],
+      "originating_agents": ["macro_strategist_02"],
+      "open_questions": [
+        "Can the sectoral balance framework generate falsifiable predictions about sustainability beyond restating the accounting identity?",
+        "What adjustment channel absorbs fiscal consolidation: private balance deterioration or current account improvement?"
+      ],
+      "related_concepts": ["doge_underdelivery", "fiscal_contraction_multiplier_asymmetry", "fiscal_uncanny_valley"]
+    },
+    {
+      "slug": "tbill_maturity_shortening_risk",
+      "definition": "T-bill share of outstanding debt increased from 15% to 22%, compressing term premium by an estimated 30-50bp but concentrating rollover risk. ~$5-6T in bills reprices within 12 months, and at current short rates (~4.3-4.5%), interest cost on bills exceeds coupons locked in at lower rates, accelerating effective rate convergence.",
+      "confidence": 7,
+      "evidence": [
+        "T-bill share rose from 15% to 22% of outstanding",
+        "Bills absorbed by money market funds (~$6T AUM) and bank reserve substitution",
+        "Estimated 30-50bp term premium compression from maturity shortening",
+        "~$5-6T in bills reprices within 12 months",
+        "Current short rates (~4.3-4.5%) exceed many locked-in coupon rates"
+      ],
+      "originating_agents": ["rates_strategist_01", "risk_analyst_01"],
+      "open_questions": [
+        "At what T-bill share does rollover concentration risk become systemically concerning?",
+        "How does TBAC refunding composition signal changes in term premium?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "fiscal_supply_duration_pricing"]
+    },
+    {
+      "slug": "financial_repression_analogue",
+      "definition": "The post-WWII financial repression period (1946-1980) is a structurally relevant analogue for debt sustainability, with comparable starting debt/GDP (~120% then vs. ~124% now). r-g of -2% at 124% debt/GDP reduces debt/GDP by ~2.5pp/year. Actual deleveraging: ~90pp over 35 years via inflation erosion (~40pp), real GDP growth (~30pp), primary surpluses (~20pp).",
+      "confidence": 6,
+      "evidence": [
+        "Starting debt/GDP comparable: ~120% (1946) vs ~124% (2026)",
+        "Base rate: 2/5 post-war advanced economy episodes succeeded",
+        "Institutional differences: open capital account (vs. capital controls), lower domestic ownership (60% vs. 85%), shorter average maturity (6.2 vs. 9-10 years), lower inflation tolerance (2% target vs. post-war normalization)",
+        "Path is arithmetically feasible but institutionally harder"
+      ],
+      "originating_agents": ["generalist_02"],
+      "open_questions": [
+        "Is financial repression achievable with open capital accounts and institutional inflation targeting?",
+        "What domestic ownership threshold is required for repression to succeed?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "reserve_currency_exceptionalism"]
+    },
+    {
+      "slug": "fiscal_uncanny_valley",
+      "definition": "The 'fiscal uncanny valley' describes consolidation large enough to contract GDP but insufficient to stabilize the debt trajectory, producing the worst risk-adjusted outcomes. Documented across Eurozone 2010-13, Japan 1997, UK 2010-13, Argentina 2018. Successful consolidations each required at least one of: 200bp+ monetary easing, 10-25% currency depreciation, or external demand boom.",
+      "confidence": 6,
+      "evidence": [
+        "Four failure cases: Eurozone 2010-13, Japan 1997, UK 2010-13, Argentina 2018 — all showed GDP contraction without term premium compression",
+        "Successful counterexamples (Clinton 1993, Canada 1994-97, Sweden 1994-98, Ireland 1987) each required monetary/currency/demand offset",
+        "For DOGE 2026: Fed constrained by above-target inflation, dollar reserve status limits depreciation, no external demand boom",
+        "Adjusted base rate for pure domestic consolidation without offset: approximately 0/7",
+        "Mixing Argentina (EM) with DM cases weakens base rate; Ireland relied on EC structural funds"
+      ],
+      "originating_agents": ["generalist_02"],
+      "open_questions": [
+        "What magnitude of consolidation falls into the uncanny valley vs. being too small to matter?",
+        "Can AI capex or other private investment substitute for the missing monetary/currency/demand offsets?"
+      ],
+      "related_concepts": ["fiscal_contraction_multiplier_asymmetry", "doge_underdelivery", "sectoral_balance_constraint"]
+    },
+    {
+      "slug": "bifurcated_minsky_fragility",
+      "definition": "Household sector is structurally insulated (hedge financing) via ~95% mortgage debt locked below 5% and debt service ratio ~9.7% (vs. 13.2% peak Q3 2007). Corporate/financial leverage is advancing toward speculative/Ponzi: 40%+ of Russell 2000 unprofitable, covenant-lite >90% of leveraged loans, PIK toggle proliferation. Hedge share ~55-60%, down from ~70% in 2019.",
+      "confidence": 6,
+      "evidence": [
+        "~95% of outstanding mortgage debt locked below 5%",
+        "Household debt service ratio ~9.7% vs. 13.2% peak (Q3 2007)",
+        "Household net worth ~$160T+",
+        "40%+ of Russell 2000 unprofitable (Ponzi by definition)",
+        "Covenant-lite >90% of leveraged loans",
+        "PIK toggle proliferation in private credit",
+        "Hedge share ~55-60%, down from ~70% in 2019, but below 2007 peaks"
+      ],
+      "originating_agents": ["macro_strategist_02"],
+      "open_questions": [
+        "Is a financial crisis that doesn't propagate to households unprecedented, and what would that look like?",
+        "How does private credit opacity ($1.8T) affect the true Minsky classification of the corporate sector?",
+        "Could corporate Ponzi financing unwind while household sector remains in hedge mode?"
+      ],
+      "related_concepts": ["kalecki_profit_channel_erosion", "equity_implied_hy_spread_divergence", "private_credit_opacity"]
+    },
+    {
+      "slug": "geopolitical_spending_floor",
+      "definition": "Geopolitical commitments create a structural fiscal spending floor of ~1.5-2.0% GDP that is politically non-discretionary. NATO pledges, CHIPS Act ($280B), AUKUS ($368B/30yr), IIJA/IRA implementation, and sanctions enforcement infrastructure constitute alliance commitments creating a Schelling commitment problem where unilateral unwinding is catastrophic for credibility.",
+      "confidence": 6,
+      "evidence": [
+        "NATO 2%+ pledges (23/32 members now compliant)",
+        "CHIPS Act $280B, AUKUS $368B/30yr",
+        "DOGE has explicitly exempted defense",
+        "Bilateral U.S.-China fiscal accelerator (CHIPS vs. Made in China 2025, defense modernization)",
+        "No credible de-escalation mechanism exists"
+      ],
+      "originating_agents": ["risk_analyst_02"],
+      "open_questions": [
+        "Where is the boundary between 'geopolitically locked-in' and 'politically renegotiable' spending?",
+        "What is the precise magnitude of the geopolitical spending floor?"
+      ],
+      "related_concepts": ["doge_underdelivery", "european_rearmament_fiscal_shift", "us_china_fiscal_accelerator"]
+    },
+    {
+      "slug": "correlation_regime_taxonomy",
+      "definition": "A six-regime chronology of stock-bond correlation from 1942 to present identifies two prior split-correlation episodes (1965-69 and 2003-06) that resolved in opposite directions within 2-4 years. The current split is identified as a transitional state, but N=2 is insufficient for statistical inference on resolution direction.",
+      "confidence": 5,
+      "evidence": [
+        "Six identified regimes from 1942 to present",
+        "1965-69: resolved into fiscal/inflation dominance (positive correlation)",
+        "2003-06: resolved back to monetary dominance (negative correlation)",
+        "Both prior episodes resolved within 2-4 years",
+        "Divergent resolutions prevent high conviction on current direction"
+      ],
+      "originating_agents": ["generalist_02"],
+      "open_questions": [
+        "Which structural features distinguish the 1965-69 vs. 2003-06 resolution pathways?",
+        "Does the current fiscal backdrop make the 1965-69 resolution more probable?"
+      ],
+      "related_concepts": ["stock_bond_correlation_bifurcation", "fiscal_supply_duration_pricing"]
+    },
+    {
+      "slug": "doge_political_economy_paradox",
+      "definition": "The governing coalition's most federally dependent electoral base ($1.30-$1.80 received per tax dollar) creates a political economy paradox for DOGE: actual spending cuts would disproportionately harm the political support base, with a 12-18 month feedback cycle from cuts to electoral consequences.",
+      "confidence": 8,
+      "evidence": [
+        "Most federally dependent states receive $1.30-$1.80 per tax dollar paid",
+        "These states constitute the governing coalition's electoral base",
+        "12-18 month political feedback cycle from federal dependency to electoral consequences",
+        "Historical realization rate of announced cuts: 0.3-0.6x"
+      ],
+      "originating_agents": ["risk_analyst_02"],
+      "open_questions": [
+        "How does the 12-18 month feedback cycle manifest in midterm election dynamics?",
+        "Can DOGE target spending cuts to avoid politically sensitive constituencies?"
+      ],
+      "related_concepts": ["doge_underdelivery", "geopolitical_spending_floor"]
+    },
+    {
+      "slug": "cross_asset_inconsistency",
+      "definition": "Equities, credit, and rates are telling mutually contradictory stories about fiscal sustainability. Rates market pricing significant fiscal risk (elevated term premium), credit spreads remain tight (limited default concern), and equities near highs (limited earnings risk). The equity-implied vs. actual HY spread divergence of 50-75bp is a concrete expression of this inconsistency.",
+      "confidence": 8,
+      "evidence": [
+        "Term premium at +50-100bp vs. tight credit spreads vs. elevated equities",
+        "50-75bp equity-implied vs. actual HY spread divergence",
+        "Historical precedent ambiguous on which market resolves first: 2007 credit was wrong, 2011 equities overreacted, 2022 UK rates led"
+      ],
+      "originating_agents": ["generalist_01", "equity_analyst_01", "generalist_02"],
+      "open_questions": [
+        "Which market resolves the inconsistency first?",
+        "Is there a systematic pattern in which asset class leads adjustment?"
+      ],
+      "related_concepts": ["stock_bond_correlation_bifurcation", "equity_implied_hy_spread_divergence", "doom_loop_slow_burn"]
+    },
+    {
+      "slug": "us_china_fiscal_accelerator",
+      "definition": "The bilateral U.S.-China fiscal dynamic operates as a prisoner's dilemma with no credible commitment mechanism for mutual de-escalation. CHIPS Act vs. Made in China 2025 and parallel defense modernization create a fiscal accelerator estimated at 0.5-1.0% GDP per decade of combined commitments, with concentrated beneficiary lobbying ensuring retention.",
+      "confidence": 4,
+      "evidence": [
+        "Game-theoretic prisoner's dilemma logic with no credible de-escalation mechanism",
+        "Concentrated beneficiaries (defense contractors, semiconductor firms) lobby for retention per Olson's collective action",
+        "CHIPS Act ($280B) vs. Made in China 2025",
+        "0.5-1.0% GDP/decade magnitude estimate is speculative with no methodology"
+      ],
+      "originating_agents": ["risk_analyst_02"],
+      "open_questions": [
+        "What would a credible de-escalation mechanism look like?",
+        "Is a tech plateau or grand bargain scenario plausible?"
+      ],
+      "related_concepts": ["geopolitical_spending_floor", "european_rearmament_fiscal_shift"]
+    },
+    {
+      "slug": "private_credit_opacity",
+      "definition": "Private credit ($1.8T) represents a critical unknown in the Minsky fragility assessment. Mark-to-model pricing, PIK toggle prevalence, and manager-lender conflicts create genuine opacity. It is impossible to assess from public data whether 20% or 50% of private credit is Ponzi financing.",
+      "confidence": 3,
+      "evidence": [
+        "Private credit AUM ~$1.8T",
+        "Mark-to-model pricing, PIK toggle prevalence, manager-lender conflicts",
+        "Unquantifiable risk by definition from public data"
+      ],
+      "originating_agents": ["macro_strategist_02"],
+      "open_questions": [
+        "What share of private credit is performing vs. Ponzi financing?",
+        "If a significant share is Ponzi financing, does the Kalecki profit floor prove insufficient?"
+      ],
+      "related_concepts": ["bifurcated_minsky_fragility", "kalecki_profit_channel_erosion"]
+    },
+    {
+      "slug": "cb_independence_erosion",
+      "definition": "Central bank independence erosion operates through appointment dynamics on a 4-8 year cycle. The U.S. has 2-3 FOMC appointment opportunities through 2028, with the Burns precedent (1970) as historical template. Contemporary parallels in Turkey, India, and Hungary, though U.S. institutional checks create friction.",
+      "confidence": 4,
+      "evidence": [
+        "2-3 FOMC appointment opportunities through 2028",
+        "Burns precedent (1970) in U.S. history",
+        "Turkey, India, Hungary provide contemporary parallels",
+        "U.S. institutional checks (Senate confirmation, Fed culture, legal framework) create friction EM precedents lack"
+      ],
+      "originating_agents": ["risk_analyst_02"],
+      "open_questions": [
+        "How effective are U.S. institutional checks against appointment-driven erosion?",
+        "What would be the market signal of diminished Fed independence?"
+      ],
+      "related_concepts": ["doom_loop_slow_burn", "reserve_currency_exceptionalism"]
+    },
+    {
+      "slug": "monetary_policy_trap",
+      "definition": "In a fiscal-supply-driven crisis, the Fed faces a forced choice between financial stability (requiring intervention/QE) and price stability (requiring restrictive policy). The SRF was designed for routine liquidity, not crisis-scale absorption, and the inflationary context that didn't exist in March 2020 would make intervention self-contradictory.",
+      "confidence": 7,
+      "evidence": [
+        "March 2020 intervention was in a deflationary emergency where QE was directionally consistent",
+        "Future intervention in inflationary or ambiguous context forces tradeoff",
+        "SRF designed for routine liquidity provision, not crisis-scale absorption",
+        "Identified as the single most important unresolved question for crisis mechanics"
+      ],
+      "originating_agents": ["risk_analyst_01", "rates_strategist_01", "challenger_01"],
+      "open_questions": [
+        "What are the SRF's actual operational limits under stress?",
+        "At what scale would the Fed need to expand beyond SRF to emergency QE?",
+        "Can targeted intervention (e.g., SRF expansion) avoid reigniting inflation expectations?"
+      ],
+      "related_concepts": ["treasury_basis_trade_amplification", "doom_loop_slow_burn", "fiscal_supply_duration_pricing"]
+    }
+  ],
+  "relationships": [
+    {
+      "concept_a": "treasury_basis_trade_amplification",
+      "concept_b": "doom_loop_slow_burn",
+      "mechanism": "The basis trade is the primary amplification mechanism that can accelerate the doom loop from slow burn to acute phase. A fiscal-supply-driven selloff triggers basis trade unwinds, forcing dealer balance sheet compression and further selling in a reflexive cascade.",
+      "direction": "bidirectional",
+      "confidence": 8,
+      "regime_dependence": "Amplification is strongest when dealer balance sheets are constrained and Fed intervention capacity is limited by inflationary context. SRF may dampen in routine stress but is untested at crisis scale.",
+      "originating_agents": ["risk_analyst_01", "rates_strategist_01", "macro_strategist_02", "generalist_01"]
+    },
+    {
+      "concept_a": "fiscal_supply_duration_pricing",
+      "concept_b": "stock_bond_correlation_bifurcation",
+      "mechanism": "Fiscal supply dominance beyond 5Y drives the long-end toward positive stock-bond correlation (both respond to fiscal/growth outlook), while the front end remains governed by monetary policy expectations (maintaining negative correlation).",
+      "direction": "a_causes_b",
+      "confidence": 8,
+      "regime_dependence": "Holds as long as fiscal supply remains the marginal price-setter for duration >5Y. Would revert if QE resumes or fiscal consolidation materially reduces issuance.",
+      "originating_agents": ["rates_strategist_01", "generalist_01", "generalist_02", "equity_analyst_01"]
+    },
+    {
+      "concept_a": "fiscal_contraction_multiplier_asymmetry",
+      "concept_b": "fiscal_uncanny_valley",
+      "mechanism": "Asymmetrically large contraction multipliers create the uncanny valley: moderate consolidation contracts GDP (via high contraction multiplier) more than it improves the debt trajectory (via denominator shrinkage exceeding numerator savings).",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Asymmetry widens at higher debt/GDP levels and when monetary policy offset is constrained (as in 2026 with above-target inflation). Most dangerous without currency depreciation or external demand offset.",
+      "originating_agents": ["generalist_02", "generalist_01", "macro_strategist_02"]
+    },
+    {
+      "concept_a": "doge_underdelivery",
+      "concept_b": "fiscal_contraction_multiplier_asymmetry",
+      "mechanism": "If DOGE delivers $50-200B in cuts (workforce/program cuts rather than waste elimination), the asymmetric contraction multiplier (1.2-1.8x) means GDP impact exceeds the nominal savings, potentially worsening the debt/GDP ratio. The multiplier literature gap on workforce reductions adds uncertainty.",
+      "direction": "bidirectional",
+      "confidence": 7,
+      "regime_dependence": "Depends on composition of actual cuts (workforce vs. transfer vs. procurement). Workforce reduction multipliers are underresearched relative to transfer/tax change multipliers.",
+      "originating_agents": ["generalist_01", "generalist_02", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "geopolitical_spending_floor",
+      "concept_b": "doge_underdelivery",
+      "mechanism": "The geopolitical spending floor (~1.5-2.0% GDP) constrains DOGE's addressable budget. With defense explicitly exempted and mandatory spending comprising 70%, only ~15% of the budget is realistically targetable.",
+      "direction": "a_causes_b",
+      "confidence": 8,
+      "regime_dependence": "Holds as long as alliance architecture and great power competition persist. Renegotiable only in a fundamental shift in U.S. geopolitical posture.",
+      "originating_agents": ["risk_analyst_02", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "kalecki_profit_channel_erosion",
+      "concept_b": "bifurcated_minsky_fragility",
+      "mechanism": "The Kalecki profit floor supports corporate earnings and thus sustains hedge financing for IG corporates. As the channel erodes (deficit composition shifting to interest payments with lower MPC), the profit floor weakens, potentially accelerating the corporate sector's drift from hedge toward speculative/Ponzi financing.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "The reflexivity is strongest when corporate leverage is elevated and profit margins are dependent on fiscal transfers. Household sector remains insulated via mortgage rate lock-in regardless of Kalecki dynamics.",
+      "originating_agents": ["macro_strategist_02", "equity_analyst_01", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "reserve_currency_exceptionalism",
+      "concept_b": "doom_loop_slow_burn",
+      "mechanism": "Reserve currency demand provides structural bid for Treasuries that dampens the doom loop, extending the slow burn phase potentially by decades. However, declining foreign official holdings (33% to 23%) and sanctions-driven reserve diversification are eroding this stabilizer.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Holds as long as USD remains dominant reserve asset (currently 58% of global reserves). Gradual erosion via sanctions-driven diversification is possible but no viable alternative reserve asset currently exists at scale.",
+      "originating_agents": ["challenger_01", "macro_strategist_02", "risk_analyst_02"]
+    },
+    {
+      "concept_a": "tbill_maturity_shortening_risk",
+      "concept_b": "doom_loop_slow_burn",
+      "mechanism": "T-bill maturity shortening compresses near-term term premium (30-50bp estimated) but concentrates rollover risk (~$5-6T within 12 months) and accelerates effective-rate convergence toward marginal rates, feeding the doom loop's interest expense growth.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Effect is mechanical and operates continuously. Accelerates when short rates remain elevated and when bill share exceeds historical norms.",
+      "originating_agents": ["rates_strategist_01", "risk_analyst_01"]
+    },
+    {
+      "concept_a": "european_rearmament_fiscal_shift",
+      "concept_b": "fiscal_supply_duration_pricing",
+      "mechanism": "European defense spending increases global sovereign duration supply, potentially raising Bund term premium. The cross-country elasticity of substitution determines whether this raises UST term premium (supply competition) or lowers it (relative safe-asset substitution).",
+      "direction": "a_causes_b",
+      "confidence": 5,
+      "regime_dependence": "Direction of impact depends on whether European bonds are substitutes or complements for UST at the margin. Answer may differ by investor type (reserve managers vs. real money).",
+      "originating_agents": ["rates_strategist_01", "challenger_01", "risk_analyst_02"]
+    },
+    {
+      "concept_a": "sectoral_balance_constraint",
+      "concept_b": "doge_underdelivery",
+      "mechanism": "The Godley identity forces any deficit reduction to manifest as either private sector surplus shrinkage (recessionary) or current account improvement (requires dollar depreciation). This arithmetic constraint explains why DOGE consolidation beyond modest amounts ($50-200B) would produce self-defeating GDP contraction.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Accounting identity always holds. The behavioral prediction (private balance deterioration as primary adjustment channel) is regime-dependent: dollar depreciation could shift current account 1-2pp over 3-5 years.",
+      "originating_agents": ["macro_strategist_02", "generalist_02"]
+    },
+    {
+      "concept_a": "equity_implied_hy_spread_divergence",
+      "concept_b": "cross_asset_inconsistency",
+      "mechanism": "The 50-75bp divergence between equity-implied and actual HY spreads is a concrete, tradeable expression of the broader cross-asset inconsistency. Equity markets capitalize long-duration fiscal risk differently than credit markets anchored by near-term default/carry dynamics.",
+      "direction": "correlated",
+      "confidence": 7,
+      "regime_dependence": "Signal is most meaningful when divergence exceeds the 20-30bp historical average (2021-23). Three of four historical episodes resolved via credit widening.",
+      "originating_agents": ["equity_analyst_01", "generalist_01", "generalist_02"]
+    },
+    {
+      "concept_a": "doom_loop_slow_burn",
+      "concept_b": "sovereign_downgrade_threshold",
+      "mechanism": "Sustained doom loop dynamics (rising effective rates, growing interest expense) increase the probability of further sovereign downgrades. However, the binding regulatory threshold (A+) is distant, and intermediate downgrades may have limited market impact given the 2011 precedent.",
+      "direction": "a_causes_b",
+      "confidence": 5,
+      "regime_dependence": "Nonlinear: impact is minimal until the A+ threshold is approached, at which point Basel III risk-weight changes create a cliff effect. Japan's experience suggests regulatory accommodation can offset even serial downgrades.",
+      "originating_agents": ["generalist_01", "risk_analyst_01", "macro_strategist_02"]
+    },
+    {
+      "concept_a": "monetary_policy_trap",
+      "concept_b": "treasury_basis_trade_amplification",
+      "mechanism": "The monetary policy trap constrains Fed intervention capacity during a basis trade unwind. If the unwind occurs in an inflationary context, the Fed cannot deploy the March 2020 playbook (massive QE) without contradicting its price stability mandate, leaving the amplification mechanism unchecked.",
+      "direction": "bidirectional",
+      "confidence": 7,
+      "regime_dependence": "Only binding when inflation is above target or when Fed credibility on inflation is fragile. In a deflationary crisis (like March 2020), intervention and price stability are directionally aligned.",
+      "originating_agents": ["risk_analyst_01", "rates_strategist_01"]
+    },
+    {
+      "concept_a": "kalecki_profit_channel_erosion",
+      "concept_b": "doge_underdelivery",
+      "mechanism": "If DOGE achieves significant consolidation ($100-200B), the Kalecki profit floor weakens proportionally. However, DOGE underdelivery paradoxically preserves the profit floor — the political economy constraint that prevents consolidation also preserves the fiscal stimulus supporting corporate profits.",
+      "direction": "bidirectional",
+      "confidence": 6,
+      "regime_dependence": "The reflexivity operates continuously: the same fiscal architecture creating stability (profit floor) is what is threatened by consolidation. Kalecki-leverage reflexivity means vulnerability and trigger share a root cause.",
+      "originating_agents": ["risk_analyst_01", "equity_analyst_01", "macro_strategist_02"]
+    },
+    {
+      "concept_a": "private_credit_opacity",
+      "concept_b": "bifurcated_minsky_fragility",
+      "mechanism": "Private credit opacity prevents accurate classification of the corporate/financial sector's true Minsky state. If a significant share of $1.8T private credit is Ponzi financing disguised as performing (via mark-to-model and PIK toggles), the true fragility level is worse than observed metrics suggest.",
+      "direction": "a_causes_b",
+      "confidence": 3,
+      "regime_dependence": "Risk crystallizes during credit stress when mark-to-model diverges from mark-to-market. Opacity is permanent until a stress event forces recognition.",
+      "originating_agents": ["macro_strategist_02"]
+    }
+  ],
+  "frameworks": [
+    {
+      "slug": "vulnerability_trigger_amplification",
+      "purpose": "Systematically assessing crisis mechanics by decomposing systemic risk into vulnerability (leverage, maturity mismatch, dealer concentration, opacity), trigger (fiscal event or sentiment shift), and amplification (basis trade, forced selling, correlation breakdown) components.",
+      "components": [
+        "Leverage assessment: basis trade 50-100x, corporate leverage stratification (IG vs. HY vs. Russell 2000)",
+        "Maturity mismatch: T-bill concentration ($5-6T within 12 months), effective rate convergence (50-70bp/year)",
+        "Dealer concentration: indirect bidder decline (72% to 65%), balance sheet constraints",
+        "Opacity: private credit $1.8T mark-to-model, PIK toggle prevalence",
+        "Amplification channels: basis trade unwind, repo haircut spirals, correlation regime breaks"
+      ],
+      "current_assessment": "Green/amber across stress indicators. The structural observation that crises begin from green/amber, not red, is itself a high-confidence finding. Basis trade notional at $800B-$1T is the dominant vulnerability.",
+      "limitations": [
+        "Framework is better at identifying vulnerability than predicting timing",
+        "Opacity component (private credit) is unquantifiable by definition",
+        "SRF capacity under stress is untested and may alter amplification dynamics",
+        "Cross-country contagion channels (European rearmament bond supply) not fully integrated"
+      ]
+    },
+    {
+      "slug": "doom_loop_regime_classification",
+      "purpose": "Classifying the current state of the fiscal doom loop and identifying monitoring criteria for transitions between dormant, slow burn, and acute phases.",
+      "components": [
+        "Dormant: r << g, stable debt/GDP, no term premium pressure",
+        "Slow burn (CURRENT): r ≈ g, rising effective rate (~50-70bp/year), net interest ~$1T, three active stabilizers (reserve currency, T-bill management, foreign official buying)",
+        "Acute: r >> g, forced selling cascades, basis trade unwinds, political crisis (UK 2022 template: 4 trading days)",
+        "Monitoring criteria for transition: term premium acceleration, auction tail frequency, basis trade notional growth, foreign demand at auctions"
+      ],
+      "current_assessment": "Slow burn mode. Blended effective rate 3.3% rising toward 4.5-5.0% marginal rate. IMF cross-country base rate: 35-40% fiscal stress probability within 10 years. Can persist for years (Japan decades) or accelerate in days (UK 2022).",
+      "limitations": [
+        "Japan analogy has structural differences (current account surplus, 90% domestic ownership, deflationary regime)",
+        "UK 2022 transition to acute was triggered by a specific policy error — hard to model systematically",
+        "Transition from slow burn to acute may be driven by events outside the fiscal domain (geopolitical shock, bank failure)",
+        "Framework does not model reversal from slow burn to dormant (requires sustained r < g)"
+      ]
+    },
+    {
+      "slug": "godley_sectoral_balance",
+      "purpose": "Constraining feasible fiscal consolidation pathways using the accounting identity that Private + Government + Foreign sector balances must sum to zero.",
+      "components": [
+        "Current configuration: Private sector +3%, Government -6.5%, Foreign +3.5%",
+        "Adjustment channels: private balance deterioration (recessionary), current account improvement (requires dollar depreciation), or some combination",
+        "Stress test application: if deficit shrinks by Xpp, specify where the adjustment falls",
+        "Dollar depreciation channel: 1-2pp current account improvement over 3-5 years is feasible"
+      ],
+      "current_assessment": "Large deficit reduction without recession or private balance deterioration is arithmetically difficult given current foreign balance of +3.5%. Most valuable as a stress test forcing DOGE scenario analysts to specify adjustment channels explicitly.",
+      "limitations": [
+        "Identity is trivially true (accounting arithmetic) — behavioral predictions about which channel adjusts require additional assumptions",
+        "Does not constrain adjustment paths or ensure stability, only constrains flows at a point in time",
+        "Overstates private balance deterioration as the only channel — ignores dollar depreciation pathway",
+        "Cannot generate falsifiable predictions about sustainability beyond restating the identity"
+      ]
+    },
+    {
+      "slug": "minsky_fragility_taxonomy",
+      "purpose": "Classifying financial units as hedge, speculative, or Ponzi financing to assess systemic fragility and crisis transmission pathways.",
+      "components": [
+        "Household sector classification: hedge financing (~95% mortgage lock-in below 5%, DSR 9.7%)",
+        "IG corporate classification: mostly hedge (interest coverage >4x)",
+        "HY/leveraged classification: advancing toward speculative (covenant-lite >90%, PIK toggle)",
+        "Russell 2000 small caps: 40%+ unprofitable (Ponzi by definition)",
+        "Private credit: unclassifiable due to opacity ($1.8T mark-to-model)",
+        "Aggregate hedge share: ~55-60%, down from ~70% in 2019"
+      ],
+      "current_assessment": "Bifurcated: household sector is unprecedentedly insulated (hedge financing via rate lock-in) while corporate/financial sector drifts toward speculative/Ponzi. The implication — a financial crisis that doesn't propagate to households — would be unprecedented and underexplored.",
+      "limitations": [
+        "Private credit opacity prevents accurate aggregate classification",
+        "No precedent for a crisis with bifurcated household vs. corporate fragility — models cannot predict transmission",
+        "Classification is static; Minsky dynamics are inherently procyclical and can shift rapidly",
+        "Level vs. direction: level remains below 2007 peaks even as direction is adverse"
+      ]
+    },
+    {
+      "slug": "stock_bond_correlation_regime_taxonomy",
+      "purpose": "Identifying the current stock-bond correlation regime and inferring portfolio construction implications by mapping the full chronology of six correlation regimes from 1942 to present.",
+      "components": [
+        "Six identified regimes from 1942 to present",
+        "Two prior split-correlation episodes: 1965-69 (resolved to fiscal/inflation dominance) and 2003-06 (resolved to monetary dominance)",
+        "Current state: 2Y-SPX negative (-0.25 to -0.35), 30Y-SPX positive (+0.05 to +0.15)",
+        "Resolution timeline: 2-4 years in both prior episodes",
+        "Portfolio implication: long-duration Treasuries losing hedging property for equity portfolios"
+      ],
+      "current_assessment": "Current split is a transitional state. The 1965-69 resolution pathway (toward fiscal dominance) is more probable given structural deficits, but the 2003-06 counterexample prevents high conviction. N=2 is explicitly insufficient for statistical inference.",
+      "limitations": [
+        "N=2 for prior split-correlation episodes — insufficient for statistical inference",
+        "Prior episodes had different institutional contexts (pre-QE, different Fed frameworks)",
+        "Framework identifies the regime but cannot predict resolution direction",
+        "Value is in the framework itself, not in directional prediction"
+      ]
+    },
+    {
+      "slug": "fiscal_uncanny_valley_framework",
+      "purpose": "Identifying the zone of fiscal consolidation that is large enough to contract GDP but insufficient to stabilize the debt trajectory, producing the worst risk-adjusted outcomes.",
+      "components": [
+        "Four failure cases: Eurozone 2010-13, Japan 1997, UK 2010-13, Argentina 2018",
+        "Successful counterexamples: Clinton 1993, Canada 1994-97, Sweden 1994-98, Ireland 1987",
+        "Required offsets for success: 200bp+ monetary easing, 10-25% currency depreciation, or external demand boom",
+        "2026 initial conditions: Fed constrained (above-target inflation), dollar reserve status limits depreciation, no external demand boom",
+        "Adjusted base rate for pure domestic consolidation without offset: ~0/7"
+      ],
+      "current_assessment": "DOGE consolidation scenarios map closer to the uncanny valley than to successful consolidation cases. None of the three required offsets (monetary easing, currency depreciation, external demand boom) appear available in 2026.",
+      "limitations": [
+        "Mixing Argentina (EM, non-reserve-currency) with DM cases weakens the base rate",
+        "Ireland's 'success' relied on EC structural funds — arguably an external transfer",
+        "The boundary between 'too small to matter' and 'uncanny valley' is not precisely defined",
+        "Does not account for potential private sector offsets (e.g., AI capex)"
+      ]
+    }
+  ],
+  "provenance": {
+    "generalist_01": {
+      "claims_made": 9,
+      "claims_survived": 7
+    },
+    "generalist_02": {
+      "claims_made": 8,
+      "claims_survived": 8
+    },
+    "equity_analyst_01": {
+      "claims_made": 8,
+      "claims_survived": 5
+    },
+    "rates_strategist_01": {
+      "claims_made": 7,
+      "claims_survived": 6
+    },
+    "macro_strategist_02": {
+      "claims_made": 10,
+      "claims_survived": 9
+    },
+    "risk_analyst_01": {
+      "claims_made": 7,
+      "claims_survived": 7
+    },
+    "risk_analyst_02": {
+      "claims_made": 6,
+      "claims_survived": 6
+    },
+    "challenger_01": {
+      "claims_made": 9,
+      "claims_survived": 5
+    }
+  },
+  "anti_knowledge": [
+    {
+      "claim": "DOGE as procurement reform with near-zero fiscal multiplier",
+      "reason": "Self-rated 4/10. Fails on its own evidence: DOGE's actual implementation targets broader workforce and program cuts (USAID, EPA, Education), not waste/procurement. The $236B GAO improper payments figure includes definitional errors, not recoverable waste. A hypothesis tested and rejected by the agent's own analysis.",
+      "refuted_by": ["challenger_01", "risk_analyst_02", "generalist_02"]
+    },
+    {
+      "claim": "Three years of stability constitutes evidence for a stable new equilibrium",
+      "reason": "N=3 annual observations is inadequate for inference about tail risk. Commits survivorship fallacy (2006-07 housing was 'stable' until it wasn't). Agent's own Bayesian update (30% to 18-22% annual crisis probability) still implies alarmingly high risk. 'Equilibrium' implies self-correction; no evidence supports self-correction. Japan analogy weakened by structural differences (current account surplus, ~90% domestic ownership, 15-25% savings rate).",
+      "refuted_by": ["challenger_01", "risk_analyst_01", "macro_strategist_02"]
+    },
+    {
+      "claim": "The rates market is early and correct, equities/credit are late (at 8/10 confidence)",
+      "reason": "Cross-asset inconsistency itself is real (8/10 factual finding), but the directional resolution call was refuted. Agent's own Open Question #1 admits 'historical precedent is ambiguous,' contradicting 8/10 confidence. The 2003-06 episode saw equivalent split resolve back toward monetary dominance. Resolution direction should be 5/10 at best, not high-conviction.",
+      "refuted_by": ["generalist_01", "generalist_02"]
+    },
+    {
+      "claim": "Crowding out is permanently refuted by endogenous money theory",
+      "reason": "Internal contradiction: agent immediately reintroduces crowding-out operating through term premium channel while claiming to have killed it. Loanable funds model is empirically weak (agreed), but the phenomenon of government borrowing raising private borrowing costs persists through fiscal supply channel. Partial correlation drop from -0.38 to -0.12 shows effect weakened during exceptional monetary regime (QE/ZLB), not vanished. Semantic, not substantive distinction.",
+      "refuted_by": ["macro_strategist_02", "rates_strategist_01"]
+    },
+    {
+      "claim": "Quality factor premium expands 2-3x under fiscal dominance (specific magnitude)",
+      "reason": "Directional claim plausible (quality outperforms under fiscal dominance stress), but magnitude fabricated. Supporting evidence from structurally dissimilar cases (Japan, Italy, UK, Argentina). No reserve-currency fiscal dominance transition has occurred in modern factor-investing era. The 2-3x multiplier is extrapolated precision from non-comparable contexts.",
+      "refuted_by": ["equity_analyst_01", "generalist_02"]
+    },
+    {
+      "claim": "Sector allocation conditional on fiscal regime produces 150-300bp annual alpha over static weights",
+      "reason": "In-sample backtest (1962-2024) with three acknowledged structural breaks: IRA (sector-specific industrial policy), tariffs (trade barriers), AI capex ($200B+/yr). These fundamentally alter the sectoral return-generating process. The alpha estimate describes a historical pattern whose generating conditions no longer hold.",
+      "refuted_by": ["equity_analyst_01", "generalist_01"]
+    },
+    {
+      "claim": "S&P 500 expected value of ~4,970 (specific point estimate)",
+      "reason": "Three subjective probabilities times three subjective price targets produce false precision. The directional claim (negative skew, fat left tail) survives, but the quantification gives it specificity the inputs do not support.",
+      "refuted_by": ["equity_analyst_01", "generalist_02"]
+    },
+    {
+      "claim": "$1.5-2.5T Fed intervention required as a calibrated estimate",
+      "reason": "Linear scaling from one episode (March 2020: $1.6T for ~$500B trade) in fundamentally different context (deflationary vs. potentially inflationary). Acute March 2020 intervention was ~$300-400B in first two weeks; $1.6T includes months of subsequent purchases. SRF now exists. Correctly reclassified as 'illustrative, not calibrated.'",
+      "refuted_by": ["rates_strategist_01", "challenger_01"]
+    }
+  ],
+  "low_confidence": [
+    {
+      "claim": "The 5y5y forward rate is contaminated by 50-75bp of fiscal term premium, overstating the market's neutral rate estimate",
+      "source_agent": "rates_strategist_01",
+      "needs": "Model-independent decomposition of fiscal vs. non-fiscal term premium components. Counterfactual for fiscal-specific component vs. historical norms. Cross-validation across ACM and Kim-Wright frameworks."
+    },
+    {
+      "claim": "The Fama-French HML factor carries ~1-2% annualized excess return attributable to fiscal policy",
+      "source_agent": "equity_analyst_01",
+      "needs": "Identification strategy separating fiscal policy effects from coincident early-cycle recovery and inflation expectations. t-stats (2.1-2.4) must survive multiple-hypothesis correction with N~6 episodes. Larger episode sample or natural experiment."
+    },
+    {
+      "claim": "ACM vs. Kim-Wright term premium model divergence (30-50bp) is itself a diagnostic signal of fiscal regime uncertainty",
+      "source_agent": "rates_strategist_01",
+      "needs": "Formal testing of whether the inter-model divergence specifically reflects fiscal supply vs. expectations driver-mix shifts, rather than general model specification differences. Out-of-sample validation."
+    },
+    {
+      "claim": "The bilateral U.S.-China fiscal accelerator adds an estimated 0.5-1.0% GDP to combined fiscal commitments per decade",
+      "source_agent": "risk_analyst_02",
+      "needs": "Methodology for the magnitude estimate. Historical calibration of bilateral fiscal competition dynamics. Identification of de-escalation scenarios and their probability."
+    },
+    {
+      "claim": "Central bank independence erosion operates through appointment dynamics on a 4-8 year cycle, with the U.S. currently at early stage",
+      "source_agent": "risk_analyst_02",
+      "needs": "Comparative institutional analysis of U.S. vs. EM precedents (Turkey, India, Hungary). Assessment of Senate confirmation friction and Fed cultural resistance. Market-based indicators of independence erosion."
+    },
+    {
+      "claim": "AI capex ($200-250B/yr from hyperscalers) may partially substitute for the Kalecki fiscal channel in supporting corporate profits",
+      "source_agent": "equity_analyst_01",
+      "needs": "Determination of whether AI capex is self-sustaining or bubble-dependent. NIPA-level decomposition of AI capex contribution to corporate profits. Framework for assessing substitutability between fiscal and private investment channels."
+    },
+    {
+      "claim": "The tariff-fiscal nexus is net-negative for deficit reduction, with revenue gains offset by GDP drag",
+      "source_agent": "risk_analyst_02",
+      "needs": "Net fiscal impact modeling under specific effective tariff rate assumptions. Trade elasticity estimation at current tariff levels. Retaliation scenario analysis. Resolution of 2018-19 ~55% realization rate applicability to current regime."
+    },
+    {
+      "claim": "Private credit opacity ($1.8T) represents the critical unknown Minsky variable",
+      "source_agent": "macro_strategist_02",
+      "needs": "Unquantifiable from public data by definition. Would require: regulatory reporting requirements for private credit funds, independent mark-to-market audits, PIK toggle prevalence data. Stress event may be the only mechanism for information revelation."
+    },
+    {
+      "claim": "The crowded duration short (CFTC 95th percentile) creates contrarian mean-reversion risk on a 3-6 month tactical horizon",
+      "source_agent": "challenger_01",
+      "needs": "Separation of tactical positioning signal from structural term premium trajectory. Confirmation that 7/10 historical hit rate (positive 6-month returns at 90th+ percentile shorts since 1990) holds in current regime. Assessment of whether a 50bp tactical unwind is consistent with a structural grind higher."
+    }
+  ]
+}

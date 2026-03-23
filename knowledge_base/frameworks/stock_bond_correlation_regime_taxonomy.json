@@ -1,0 +1,26 @@
+{
+  "slug": "stock_bond_correlation_regime_taxonomy",
+  "purpose": "Identifying the current stock-bond correlation regime and inferring portfolio construction implications by mapping the full chronology of six correlation regimes from 1942 to present.",
+  "components": [
+    "Six identified regimes from 1942 to present",
+    "Two prior split-correlation episodes: 1965-69 (resolved to fiscal/inflation dominance) and 2003-06 (resolved to monetary dominance)",
+    "Current state: 2Y-SPX negative (-0.25 to -0.35), 30Y-SPX positive (+0.05 to +0.15)",
+    "Resolution timeline: 2-4 years in both prior episodes",
+    "Portfolio implication: long-duration Treasuries losing hedging property for equity portfolios"
+  ],
+  "current_assessment": "Current split is a transitional state. The 1965-69 resolution pathway (toward fiscal dominance) is more probable given structural deficits, but the 2003-06 counterexample prevents high conviction. N=2 is explicitly insufficient for statistical inference.",
+  "limitations": [
+    "N=2 for prior split-correlation episodes — insufficient for statistical inference",
+    "Prior episodes had different institutional contexts (pre-QE, different Fed frameworks)",
+    "Framework identifies the regime but cannot predict resolution direction",
+    "Value is in the framework itself, not in directional prediction"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

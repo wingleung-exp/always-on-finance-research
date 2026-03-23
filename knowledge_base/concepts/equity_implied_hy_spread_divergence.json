@@ -1,0 +1,33 @@
+{
+  "slug": "equity_implied_hy_spread_divergence",
+  "definition": "The equity-implied vs. actual HY spread divergence of 50-75bp is a meaningful signal with a 75% historical base rate of resolving via credit widening (3 of 4 episodes). The gap widened from a 20-30bp average during 2021-23.",
+  "confidence": 7,
+  "evidence": [
+    "Three agents independently identify the same 50-75bp gap",
+    "Historical episodes: late 2007 (credit widened, 6mo), mid-2011 (credit widened, 3mo), late 2015 (equity-implied narrowed, 6mo — the exception), early 2020 (credit widened, 1mo)",
+    "Mechanism: equity capitalizes long-duration risk, credit anchored by near-term default/carry",
+    "Merton-derived equity-implied calculation is model-dependent"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Is the Merton-derived equity-implied spread calculation robust across regimes?",
+    "What distinguishes the late 2015 counter-episode (equity-implied narrowed) from the other three?"
+  ],
+  "related_concepts": [
+    "stock_bond_correlation_bifurcation",
+    "bifurcated_minsky_fragility",
+    "kalecki_profit_channel_erosion"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}

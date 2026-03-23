@@ -1,0 +1,25 @@
+{
+  "slug": "doom_loop_regime_classification",
+  "purpose": "Classifying the current state of the fiscal doom loop and identifying monitoring criteria for transitions between dormant, slow burn, and acute phases.",
+  "components": [
+    "Dormant: r << g, stable debt/GDP, no term premium pressure",
+    "Slow burn (CURRENT): r ≈ g, rising effective rate (~50-70bp/year), net interest ~$1T, three active stabilizers (reserve currency, T-bill management, foreign official buying)",
+    "Acute: r >> g, forced selling cascades, basis trade unwinds, political crisis (UK 2022 template: 4 trading days)",
+    "Monitoring criteria for transition: term premium acceleration, auction tail frequency, basis trade notional growth, foreign demand at auctions"
+  ],
+  "current_assessment": "Slow burn mode. Blended effective rate 3.3% rising toward 4.5-5.0% marginal rate. IMF cross-country base rate: 35-40% fiscal stress probability within 10 years. Can persist for years (Japan decades) or accelerate in days (UK 2022).",
+  "limitations": [
+    "Japan analogy has structural differences (current account surplus, 90% domestic ownership, deflationary regime)",
+    "UK 2022 transition to acute was triggered by a specific policy error — hard to model systematically",
+    "Transition from slow burn to acute may be driven by events outside the fiscal domain (geopolitical shock, bank failure)",
+    "Framework does not model reversal from slow burn to dormant (requires sustained r < g)"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-23T11:23:51Z",
+  "originating_iteration": "iter_0034",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0034"
+  ]
+}
