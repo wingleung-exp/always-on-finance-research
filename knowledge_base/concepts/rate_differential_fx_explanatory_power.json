@@ -1,0 +1,49 @@
+{
+  "slug": "rate_differential_fx_explanatory_power",
+  "definition": "Rate differentials explain approximately 12% of major FX pair variance. Sub-period correlations are 0.2-0.4 between 2Y rate differentials and EUR/USD. Changes in differentials outperform levels (R-squared 5-8% vs 1-3%, p<0.01). The 2017-2018 EUR/USD episode — Fed hiked 175bp over ECB yet EUR/USD rose from 1.05 to 1.25 — cleanly falsifies rate divergence as a reliable FX driver.",
+  "confidence": 8.5,
+  "evidence": [
+    "Sub-period correlations of 0.2-0.4 between 2Y rate differentials and EUR/USD",
+    "Change in differentials outperforms level (R-squared 5-8% vs 1-3%, p<0.01)",
+    "2017-2018 counterexample: Fed hiked 175bp over ECB, EUR/USD rose 1.05 to 1.25",
+    "Pair_3 debate: challenger_02 judged 'decisively stronger' on this point",
+    "Panel interaction regression (n~15,000 pair-months, B3 significant at p<0.01, Chow test F=7.2)",
+    "Holds across pre-GFC and post-GFC subsamples, across implied and realized vol specifications, and across freely-floating pairs only",
+    "Analogue decomposition across 10+ episodes independently confirms: low-vol R²~15-25% at 3M horizons, high-vol R²<3%",
+    "Hansen test identifies threshold at ~9.5%; three-zone model (below 9%, 9-12% transitional, above 12%) proposed as more realistic"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "What explains the remaining ~88% of FX variance?",
+    "Are there specific regimes where rate differentials become temporarily dominant?",
+    "Whether monitoring proximity to the 9.5% threshold adds meaningful risk information beyond tracking positioning and cross-currency basis",
+    "Causal direction: does low vol enable rate differentials to matter, or do both reflect stable macro environments?",
+    "Requires instrumental variable approach not yet attempted"
+  ],
+  "related_concepts": [
+    "uip_failure",
+    "meese_rogoff_random_walk",
+    "commodity_terms_of_trade_fx_driver",
+    "lng_eur_usd_structural_shift",
+    "fx_vol_carry_threshold",
+    "compressed_spring_configuration",
+    "dm_rate_divergence_current",
+    "carry_trade_negative_skewness"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

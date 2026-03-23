@@ -1,0 +1,34 @@
+{
+  "slug": "vta_boj_normalization_framework",
+  "purpose": "Decompose BoJ normalization tail risk into Vulnerability, Trigger, and Amplification components for structured scenario analysis and monitoring.",
+  "components": [
+    "Vulnerability assessment: JPY carry position size ($500B-$4T range), leverage concentration, duration mismatch, opacity of true exposure",
+    "Trigger identification: BoJ rate hike magnitude and pace, JPY appreciation past technical levels, exogenous risk-off event forcing yen short covering",
+    "Amplification mechanism: Reflexive loop (hike -> appreciation -> carry losses -> forced unwind -> more appreciation), cross-asset contagion via equity and credit correlations, absence of a natural circuit breaker",
+    "Historical calibration: August 2024 foreshock (15bp -> VIX >65, Nikkei -12%), Danish Maastricht 1992 analogy for foreshock/mainshock dynamics",
+    "Vulnerability assessment: leverage ($500B-$4T JPY carry), maturity mismatch (3M forwards funding long-term), concentration (single dollar factor 50-70%), opacity (8x uncertainty on position size)",
+    "Trigger identification: BoJ normalization as primary, with base rate of 10-15% dislocation probability per action",
+    "Amplification channels: carry-equity correlation spike (0.3-0.4 to 0.7-0.8), PCA dimensionality collapse (~2.5 to ~1.5), credit cycle interaction",
+    "Circuit breaker assessment: BoJ pause capability, central bank swap lines, Fed standing facilities"
+  ],
+  "current_assessment": "All four vulnerability conditions confirmed as active. Compressed spring configuration currently active (Q4 2025-Q1 2026). August 2024 foreshock liquidated 30-50% of conservative positioning estimates but residual vulnerability remains substantial. BoJ circuit breaker demonstrated but reliability under more extreme stress is untested.",
+  "limitations": [
+    "Position size estimates span an order of magnitude ($500B to $4T)",
+    "BoJ has been the graveyard of hawkish forecasts for 30 years — normalization may stall again",
+    "Bundesbank analogue was downgraded from 7/10 to 5/10 as institutional context differs fundamentally",
+    "The rapid August 2024 recovery makes it difficult to assess how much vulnerability was actually cleared",
+    "JPY carry positioning estimates have 8x uncertainty band ($500B to $4T)",
+    "Conjunction fallacy risk: probability of specific dramatic scenario lower than individual components suggest",
+    "Circuit breaker reliability under more extreme stress is untested",
+    "Does not address timing — only vulnerability assessment"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

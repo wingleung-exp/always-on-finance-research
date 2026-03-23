@@ -1,0 +1,31 @@
+{
+  "slug": "em_carry_push_pull_sequencing",
+  "definition": "EM carry during DM tightening follows a push versus pull pattern: push episodes (DM-driven, dollar strength) produce correlated but moderate losses (10-25%), while pull episodes (EM-specific BoP crises) produce idiosyncratic, severe crises (30-70% depreciation). Frontier-to-core cascade takes 3-6 months in push episodes.",
+  "confidence": 7.5,
+  "evidence": [
+    "Five episodes decomposed: push (2013 taper tantrum, 2018 Fed hiking, 2022 broad dollar strength) vs pull (1997-98 Asian crisis, 2022 frontier crises)",
+    "Twin-deficit filter (CA + fiscal deficit >5% GDP) has 70-80% hit rate for >20% depreciation in push episodes",
+    "Current environment maps to push scenario — monitoring frontier-to-core cascade is key"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Whether frontier weakness (Egypt, Pakistan) will cascade to core EM (Brazil, Mexico)",
+    "Whether twin-deficit filter performs equally well out-of-sample"
+  ],
+  "related_concepts": [
+    "em_carry_survivorship_bias",
+    "dm_rate_divergence_current",
+    "em_twin_deficit_vulnerability",
+    "credit_cycle_carry_discriminator"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

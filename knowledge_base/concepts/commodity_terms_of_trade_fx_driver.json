@@ -1,0 +1,43 @@
+{
+  "slug": "commodity_terms_of_trade_fx_driver",
+  "definition": "Commodity terms-of-trade shocks are co-equal or dominant FX drivers for commodity-exporting currencies, explaining 25-40% of REER variance versus 15-25% for rate differentials (BIS 2023). Correlations: AUD/USD-iron ore r=0.75, NOK/USD-Brent r=0.65, CLP/USD-copper r=0.70. Energy dominates balance-of-payments flows while agriculture dominates inflation expectations — both matter through different mechanisms.",
+  "confidence": 8.25,
+  "evidence": [
+    "BIS (2023): commodity ToT shocks explain 25-40% of REER variance for commodity exporters vs 15-25% for rate differentials",
+    "AUD/USD-iron ore r=0.75; NOK/USD-Brent r=0.65; CLP/USD-copper r=0.70",
+    "2022: AUD underperformed despite RBA hiking faster than expected because iron ore fell 35%",
+    "Energy vs agriculture distinction confirmed in pair_1 debate",
+    "BIS (2023) data confirms 25-40% range versus 15-25% for rate differentials",
+    "Japan 2022: ¥11 trillion energy import bill surge generated $8-12bn/month real USD buying, 2-3x speculative carry",
+    "Turkey: rate hikes from 8.5% to 42.5% could not overcome ~$45bn/year energy import structural USD demand",
+    "Channel is mechanistically distinct from carry — real USD buying operates on different timescales and price sensitivity"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01",
+    "commodities_analyst_02",
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "How will the energy transition reshape commodity-FX linkages for exporters?",
+    "Does financialization of commodity markets amplify or dampen FX transmission?",
+    "Whether post-2022 market learning has reduced exploitability of commodity-FX linkages",
+    "How green energy transition will alter commodity-FX transmission over 5-10 year horizon"
+  ],
+  "related_concepts": [
+    "local_currency_cost_curves",
+    "agricultural_biological_lag",
+    "lng_eur_usd_structural_shift",
+    "energy_bop_jpy_driver",
+    "rate_differential_fx_explanatory_power"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

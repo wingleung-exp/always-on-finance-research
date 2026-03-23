@@ -1,0 +1,40 @@
+{
+  "slug": "g10_fx_pca_structure",
+  "definition": "A single dollar factor (PC1) explains 50-70% of G10 FX variance. PC2 (carry) explains 15-20%, PC3 (momentum) 8-12%. A manager running 9 G10 carry pairs has ~2-3 independent risk factors, not 9. Stress-period dimensionality collapse (correlations spike to 0.85+) further reduces effective diversification when it matters most.",
+  "confidence": 8.5,
+  "evidence": [
+    "Covariance decomposition: PC1 (dollar) 50-70%, PC2 (carry) 15-20%, PC3 (momentum) 8-12%",
+    "Stress-period correlations spike to 0.85+ across G10 FX pairs",
+    "Naive diversification across 9 G10 pairs dramatically understates risk concentration",
+    "Near-mechanical result from covariance decomposition, robust across samples, methodologies, and numeraire choices",
+    "August 2024: pairwise correlations among G10 carry positions spiked to 0.85+, collapsing effective dimensionality to ~1.5",
+    "Position sizing based on pair count overstates diversification by 3-4x"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Does the PCA structure help predict the dollar, or is it purely a risk-management tool?",
+    "How stable are the PC loadings across different monetary policy regimes?",
+    "Whether factor-based risk budgeting can be implemented in real-time given estimation uncertainty during transitions"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "carry_momentum_correlation_flip",
+    "dollar_trap_tension",
+    "carry_equity_stress_correlation",
+    "dm_rate_divergence_current",
+    "fed_carry_conditioning"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

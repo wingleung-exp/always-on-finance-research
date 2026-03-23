@@ -1,0 +1,23 @@
+{
+  "concept_a": "dm_rate_divergence_current",
+  "concept_b": "carry_unwind_sequence",
+  "mechanism": "Current extreme DM rate divergence creates the conditions for carry unwind by incentivizing large carry positions. The divergence is both the fuel (creating carry opportunity) and the vulnerability (positioning that must eventually unwind when divergence narrows).",
+  "direction": "b_causes_a",
+  "confidence": 8.0,
+  "regime_dependence": "Proportional to divergence magnitude. Current 85th-97th percentile divergence creates historically elevated unwind risk. Two prior comparable episodes both preceded violent reversals.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "carry_trade_negative_skewness",
+  "definition": "Carry trade returns exhibit negative skewness (-0.8 to -1.5 for G10) and fat tails (excess kurtosis 3-8), with max monthly drawdowns of -8% to -15%. Standard VaR underestimates drawdown frequency and magnitude by 2-5x. The Sharpe ratio of ~0.5 has a 95% CI of [0.15, 0.85], meaning the carry premium compensates for crash risk, not alpha.",
+  "confidence": 9.5,
+  "evidence": [
+    "Five events exceeding 4-sigma under Gaussian assumptions in 28 years of data",
+    "Sharpe 95% CI of [0.15, 0.85] — cannot reject true Sharpe below equity premium",
+    "Max monthly drawdowns of -8% to -15% across G10 carry strategies",
+    "Brunnermeier-Nagel-Pedersen (2009) and Farhi-Gabaix (2016) confirm crash risk compensation mechanism",
+    "Five 4-sigma carry drawdowns in 28 years (1998, 2008, 2015, 2020, 2024) versus one expected per ~2,600 years",
+    "Statistics identical across all three agents' independent calculations",
+    "Standard VaR models underestimate carry drawdown frequency and magnitude by 2-5x",
+    "Distribution is fundamentally non-Gaussian, not slightly fat-tailed"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Has post-GFC central bank intervention structurally altered the tail distribution?",
+    "Is the carry Sharpe declining as more capital chases the strategy (out-of-sample Sharpe 0.25-0.35 for 2015-2024)?",
+    "Whether higher-moment risk metrics can be reliably estimated in real-time given regime shifts"
+  ],
+  "related_concepts": [
+    "carry_unwind_sequence",
+    "fx_vol_carry_threshold",
+    "g10_fx_pca_structure",
+    "carry_momentum_correlation_flip",
+    "uip_failure",
+    "carry_equity_stress_correlation"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

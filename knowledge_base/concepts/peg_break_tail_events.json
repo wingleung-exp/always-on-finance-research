@@ -1,0 +1,30 @@
+{
+  "slug": "peg_break_tail_events",
+  "definition": "Peg and managed float breaks produce the most extreme tail events in FX markets (10-30% gap moves), following a consistent pattern: peg suppresses vol, encourages unhedged positioning, reserve defense follows convex cost curve, then discontinuous release at breaking point. Analytically equivalent to writing naked puts.",
+  "confidence": 7.5,
+  "evidence": [
+    "GBP/ERM 1992 (-15% in 24h), THB 1997 (-50% in 6 months), CHF/EUR 2015 (-30% in minutes), CNY 2015 (-7% controlled)",
+    "Current vulnerability map: HKD, CNY managed float, GCC pegs",
+    "A disorderly CNY break would be the single most destabilizing FX event possible given China's trade centrality"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Specific probability estimates for current pegs are inherently uncertain",
+    "Whether reserve adequacy indicators can provide sufficient early warning"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "dm_rate_divergence_current"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "em_carry_survivorship_bias",
+  "definition": "EM carry index providers drop countries after capital control events and restructurings, creating selection bias that inflates historical returns by 2-4% p.a. A full-inclusion EM carry index reduces the Sharpe ratio from 0.5-0.7 to 0.2-0.4, a material correction to the standard evidence base for EM carry attractiveness.",
+  "confidence": 7.0,
+  "evidence": [
+    "Argentina, Russia, Egypt examples of post-event index exclusion",
+    "Full-inclusion index Sharpe 0.2-0.4 vs standard index Sharpe 0.5-0.7",
+    "Not directly contested in any debate",
+    "Sequential orthogonalization on 6-currency EM basket (2005-2025, n=240): DXY R²=47%, EMBI credit incremental R²=23%, residual 30%",
+    "Pure carry Sharpe 0.22 (95% CI: [0.02, 0.42])",
+    "Survivorship bias examples: Argentina, Russia, Egypt capital control events excluded from indices reduce full-sample Sharpe from 0.5-0.7 to 0.2-0.4"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Is the 2-4% magnitude robust to different inclusion criteria and crisis-period pricing assumptions?",
+    "Does DM carry also suffer from survivorship bias (e.g., exclusion of countries that adopted the euro)?",
+    "Decomposition sensitivity to currency inclusion (TRY vs MXN dominate results)",
+    "Whether the 6-currency basket is representative of the broader EM carry opportunity set"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "em_twin_deficit_vulnerability",
+    "uip_failure",
+    "em_carry_push_pull_sequencing"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

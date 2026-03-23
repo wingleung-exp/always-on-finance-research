@@ -1,0 +1,19 @@
+{
+  "concept_a": "carry_unwind_sequence",
+  "concept_b": "carry_momentum_correlation_flip",
+  "mechanism": "During the cascade stages of carry unwinds, momentum signals reverse simultaneously with carry positions. The correlation flips from -0.3 to +0.6, eliminating the diversification benefit of multi-factor FX portfolios precisely during the sudden-stop episodes that determine long-run wealth.",
+  "direction": "a_causes_b",
+  "confidence": 7.5,
+  "regime_dependence": "The flip occurs specifically during sudden stops (1998, 2007, 2008, 2024). Gradual carry deterioration may preserve the negative correlation between factors.",
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:27:56Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0006"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "concept_a": "rate_fx_endogeneity",
+  "concept_b": "uip_failure",
+  "mechanism": "Endogeneity undermines the causal interpretation of UIP regression results. Since rates and FX are jointly determined, the negative Fama coefficient may partly reflect reverse causation (central banks raising rates in response to depreciation) rather than purely the carry premium.",
+  "direction": "bidirectional",
+  "confidence": 7.5,
+  "regime_dependence": "Always present but most empirically visible during EM crises (Turkey 2023) where the causal reversal is starkest. Harder to identify in G10 where policy responses are more gradual.",
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

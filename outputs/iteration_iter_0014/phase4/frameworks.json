@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "ai_capex_validation_monitor",
+    "purpose": "Real-time monitoring framework for whether AI capex is translating into revenue, using the capex-to-revenue ratio as central metric with historical thresholds from the telecom bust.",
+    "components": [
+      "AI capex-to-identifiable-revenue ratio (current: 4-6x or 0.3-0.5x inverse)",
+      "Telecom bust threshold: inverse ratio below 0.2x triggered bust",
+      "Quarterly earnings report tracking of identifiable AI revenue streams",
+      "Hyperscaler FCF trajectory (negative FCF = analogue shift signal)",
+      "Zero-revenue AI startup proliferation as late-cycle indicator",
+      "Revenue/capex ratio by tier: infrastructure, platform, application"
+    ],
+    "current_assessment": "Ratio at 4-6x has not breached telecom bust threshold of 0.2x (inverse). However, the gap between capex and identified revenue remains the central vulnerability. Directly monitorable from quarterly earnings. Capex intensity at ~0.8-1.0% GDP vs telecom peak ~1.2%, railroad peak ~1.5%.",
+    "limitations": [
+      "AI revenue attribution is ambiguous — AI-enhanced existing products may not appear as identifiable AI revenue",
+      "Telecom threshold may not be directly applicable given self-funded (vs debt-funded) capex",
+      "Revenue recognition timing may lag actual AI value creation",
+      "Different hyperscalers have different business model mixes, making aggregate ratios potentially misleading"
+    ]
+  },
+  {
+    "slug": "reverse_dcf_tam_validation",
+    "purpose": "Tests whether current Mag-7 valuations are consistent with credible bottom-up AI TAM estimates by reverse-engineering implied revenue and earnings growth rates.",
+    "components": [
+      "Reverse DCF implied earnings CAGR: 15-18% for 7-10 years at 40x forward",
+      "Implied total revenue: ~$3.5-4T by 2035 (from ~$1.8T current)",
+      "Incremental revenue requirement: $1.7-2.2T above current base",
+      "Bottom-up TAM benchmark: Gartner/IDC enterprise AI TAM $300-500B by 2030",
+      "WACC sensitivity analysis (pair_1 noted internal inconsistency that understates bearish case)",
+      "Two-speed earnings decomposition: Mag-7 at 20-25% growth vs S&P 493 at 3-5%"
+    ],
+    "current_assessment": "Implied incremental AI revenue of $600B-$1T by 2035 exceeds all credible bottom-up TAM estimates. Gap is directionally robust across WACC parameterizations. Current valuations price an AI revenue outcome with no historical or bottom-up support.",
+    "limitations": [
+      "TAM estimates may miss entirely new AI-created markets",
+      "WACC sensitivity is significant — small discount rate changes produce large implied revenue changes",
+      "Assumes current earnings multiples are maintained",
+      "Does not account for potential buyback-driven EPS growth decoupled from revenue"
+    ]
+  },
+  {
+    "slug": "minsky_hyperscaler_classification",
+    "purpose": "Classifies the AI capex cycle within Minsky's hedge-speculative-Ponzi taxonomy, while identifying the taxonomy's limitations for value-destructive-but-solvent conditions.",
+    "components": [
+      "Hedge finance test: OCF exceeds capex (currently all hyperscalers pass)",
+      "Speculative finance test: requires capital market access for capex (currently no)",
+      "Ponzi finance test: requires asset appreciation to service obligations (currently no)",
+      "Value destruction diagnostic: ROIC dilution can destroy per-share value even in hedge finance",
+      "Bust mechanism: voluntary capex rationalization (not forced liquidation) — different timing and signaling",
+      "Transition monitoring: legacy business OCF trajectory relative to capex commitments"
+    ],
+    "current_assessment": "Hyperscalers unambiguously in hedge finance: OCF exceeds capex, cash ~$300B+. This is a first-order structural difference from 2000. However, hedge finance doesn't prevent value destruction — ROIC below WACC destroys value while remaining solvent. The bust mechanism is voluntary rationalization with different signaling characteristics than forced liquidation.",
+    "limitations": [
+      "Minsky's taxonomy designed for credit-intermediated investment, not self-funded corporate capex",
+      "Hedge finance status doesn't prevent value destruction when ROIC < WACC",
+      "Framework doesn't address whether voluntary capex cuts are more or less predictable than forced ones",
+      "Transition from hedge to speculative could happen quickly if legacy business deteriorates"
+    ]
+  },
+  {
+    "slug": "ai_behavioral_bias_framework",
+    "purpose": "Identifies and systematizes six cognitive biases inflating AI return expectations, providing a debiasing checklist for AI investment analysis grounded in academic literature.",
+    "components": [
+      "Narrative fallacy (Shiller): compelling transformation story overrides statistical analysis",
+      "Anchoring to 2023-2025 returns: recent exceptional returns treated as sustainable",
+      "Availability bias: direct LLM interaction makes capabilities salient and overweighted",
+      "Overconfidence (Tetlock): 0.2-0.3 correlation between confidence and outcomes at 3-5yr horizons",
+      "Career-risk herding: underweight AI = individual career risk, overweight = shared loss",
+      "Recency bias: pandemic digital acceleration extrapolated as permanent trend",
+      "Conjunction fallacy: AI winner identification probabilities (70-80%) exceed base rates (20-35%)",
+      "Meta-awareness: contrarianism can become its own bias"
+    ],
+    "current_assessment": "All six biases actively operating and identifiable. Herding mechanism confirmed as analytically independent of AI's actual merits. The conjunction fallacy in winner identification is formally structured via Tetlock Good Judgment Project data. Selective analogy deployment amplifies the bias framework.",
+    "limitations": [
+      "Identifying biases doesn't necessarily mean markets are mispriced — biases can coexist with correct pricing",
+      "Small N problem for GPT base rates makes probability estimates inherently imprecise",
+      "Career-risk herding is individually rational even if collectively irrational",
+      "Quantifying aggregate pricing impact of biases is extremely difficult"
+    ]
+  },
+  {
+    "slug": "cross_asset_ai_pricing_diagnostic",
+    "purpose": "Tests coherence of equity, rate, and credit market pricing of AI scenarios, identifying tensions and the winner-take-all reconciliation mechanism.",
+    "components": [
+      "Equity pricing: Mag-7 at 25-35x GAAP implies AI transformation materializes",
+      "Rate pricing: 10Y ~4.0-4.5% implies no structural r* increase",
+      "Credit pricing: IG spreads 90-130bp implies no immediate incumbent disruption",
+      "Winner-take-all reconciliation: concentrated capture without broad diffusion allows all three to be approximately correct",
+      "Equal-weighted vs cap-weighted divergence as concentration diagnostic",
+      "Regional ERP differential as AI repricing hedge",
+      "Equity-credit basis in AI-disrupted sectors as mispricing diagnostic"
+    ],
+    "current_assessment": "Strong trilemma refuted — winner-take-all provides coherent reconciliation. Weaker tension claim survives as monitoring target. The equity-rates gap (equities price miracle, rates don't) is clearest expression of timing mismatch. Winner-take-all is arguably the most likely resolution but underdeveloped.",
+    "limitations": [
+      "Winner-take-all may be wrong — AI could diffuse broadly or disappoint entirely",
+      "Cross-asset convergence trades carry significant negative carry",
+      "Realistic Sharpe for convergence trades: 0.2-0.4 (not 0.6-0.9 as initially claimed)",
+      "Timing of any convergence is inherently uncertain"
+    ]
+  },
+  {
+    "slug": "em_ai_tiering_framework",
+    "purpose": "Disaggregates emerging markets into AI-adjacent and AI-disrupted tiers based on economic exposure to AI value chains, replacing analytically misleading aggregate EM FX approaches.",
+    "components": [
+      "AI-adjacent tier: economies in AI hardware supply chain (Taiwan TSMC, South Korea Samsung/SK Hynix)",
+      "AI-disrupted tier: services export economies vulnerable to AI automation (Philippines BPO, India IT)",
+      "Capital quality diagnostic: FDI/supply chain investment (stickier) vs carry-sensitive hot money",
+      "REER performance tracking: TWD/KRW vs PHP/BDT divergence since 2023",
+      "Updated vulnerability frameworks: Guidotti-Greenspan and IMF ARA adjusted for digital economy",
+      "ASEAN Dutch disease risk from concentrated semiconductor FDI",
+      "China binary swing factor as regime-shifting variable"
+    ],
+    "current_assessment": "Two-tier regime observable in price data (TWD/KRW outperforming PHP/BDT since 2023) and capital flow quality. Aggregate EM baskets conflate fundamentally different AI exposures. Portfolio construction must disaggregate. Standard vulnerability frameworks need digital economy updates.",
+    "limitations": [
+      "AI-disrupted tier may evolve slowly (3-15 years), limiting near-term actionability",
+      "Some economies span both tiers (India: IT services exposure + semiconductor ambitions)",
+      "China outcome could reshape tiering entirely",
+      "Sudden stop framing was refuted — disruption is gradual current account erosion"
+    ]
+  },
+  {
+    "slug": "ai_analogue_falsification_framework",
+    "purpose": "Provides structured approach to selecting and falsifying historical analogues for the AI cycle, with specific monitoring criteria for detecting phase transitions.",
+    "components": [
+      "Primary analogue: mid-1990s internet/telecom boom",
+      "Falsification criteria for late-1990s shift: revenue/capex <0.2x, negative hyperscaler FCF, zero-revenue AI startup proliferation, LLM scaling diminishing returns",
+      "Compression trend: 30yr → 14yr → 7-12yr successive GPT lags",
+      "Capex intensity benchmarks: current ~0.8-1.0% GDP vs telecom ~1.2%, railroad ~1.5%",
+      "Concentration duration estimate: 7-12 years from onset, currently ~5 years in",
+      "Investment leader profile matching: self-funded incumbents vs speculative startups",
+      "Ordinal analogue ranking: mid-1990s internet > electricity > railroads > PC/IT > dot-com bust"
+    ],
+    "current_assessment": "Mid-1990s internet boom is the stronger primary analogue. None of the falsification criteria are currently breached. Cardinal similarity scores (0.78, 0.42, etc.) are false precision, but ordinal ranking is defensible. The cycle could evolve from mid-1990s to late-1990s — monitoring criteria provide the transition framework.",
+    "limitations": [
+      "Small N problem: only 5-6 GPT analogues, limiting statistical inference",
+      "Selective analogy deployment to support predetermined conclusions is itself a documented bias",
+      "Each GPT episode has unique features limiting analogical reasoning",
+      "Falsification criteria may trigger with significant lag, reducing real-time utility"
+    ]
+  },
+  {
+    "slug": "ai_bust_modality_framework",
+    "purpose": "Distinguishes between deflationary and inflationary AI bust scenarios, which require fundamentally different hedging portfolios and have different macro transmission mechanisms.",
+    "components": [
+      "Deflationary bust: demand collapse, equity/credit repricing, long duration hedges work",
+      "Inflationary bust: stranded energy infrastructure costs persist, supply-side constraints, bonds impaired",
+      "Hedging portfolio divergence: deflationary = long duration; inflationary = gold, short-duration TIPS, cash",
+      "Bust mechanism: voluntary capex rationalization (hedge finance) vs forced liquidation (debt-funded)",
+      "Cascade analysis: equity → credit → FX → commodities from concentrated market",
+      "Correlation regime asymmetry: AI bull = negative stock-bond correlation (60/40 improves); AI bust = path-dependent"
+    ],
+    "current_assessment": "Bimodal bust distribution. Most agents implicitly assume deflationary bust. Inability to determine modality ex ante makes hedging structurally difficult. The muddled middle may be the true mode. All hedge legs bleed carry, making 1-3 year positioning expensive.",
+    "limitations": [
+      "Muddled middle may be true mode rather than bimodal extremes",
+      "Correlation regimes may shift faster than portfolios can adjust",
+      "Energy infrastructure stranding requires specific conditions that may not materialize",
+      "Carrying hedges for 1-3 years is expensive (negative carry on all legs)"
+    ]
+  }
+]

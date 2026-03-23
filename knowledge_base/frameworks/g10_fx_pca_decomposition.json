@@ -1,0 +1,36 @@
+{
+  "slug": "g10_fx_pca_decomposition",
+  "purpose": "Assess true portfolio diversification and risk factor concentration in G10 FX strategies to avoid overstating diversification benefits.",
+  "components": [
+    "PC1 (dollar factor): 50-70% of G10 FX variance — the dominant and inescapable risk factor",
+    "PC2 (carry factor): 15-20% — the factor carry strategies explicitly target",
+    "PC3 (momentum factor): 8-12% — secondary factor with conditional correlation to carry",
+    "Stress-period dimensionality collapse: correlations spike to 0.85+, effective independent factors approach 1",
+    "Portfolio implication: 9 G10 carry pairs contain only 2-3 independent risk factors",
+    "PC1 (dollar factor): 50-70% of variance in normal regime",
+    "PC2 (carry factor): 15-20% of variance",
+    "PC3 (momentum factor): 8-12% of variance",
+    "Stress dimensionality collapse: effective dimensions from ~2.5-3.0 to ~1.5",
+    "Diversification adjustment: pair-count-based sizing overstates diversification by 3-4x",
+    "Factor-based risk budgeting: allocate to factor exposures, not individual pairs"
+  ],
+  "current_assessment": "Highest-confidence structural finding (9/10). Dollar factor dominance means most G10 FX portfolios are effectively dollar bets. August 2024 confirmed stress dimensionality collapse pattern. Factor-based risk budgeting should be standard practice.",
+  "limitations": [
+    "Does not predict the dollar direction — purely a risk management framework",
+    "PC loadings may shift across monetary policy regimes",
+    "Does not capture non-linear tail dependencies that exceed what PCA implies",
+    "Stress-period loadings estimated from rare events with limited observations",
+    "Factor estimation uncertainty during regime transitions",
+    "Real-time implementation requires rolling estimation windows that may lag during rapid transitions",
+    "Does not account for higher-order dependencies beyond linear correlation"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

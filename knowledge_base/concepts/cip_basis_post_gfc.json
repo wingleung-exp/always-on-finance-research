@@ -1,0 +1,41 @@
+{
+  "slug": "cip_basis_post_gfc",
+  "definition": "Covered interest parity deviations became structural post-GFC, averaging 20-50bp for major pairs versus a pre-GFC mean of -3bp (Welch t-test p<0.001). Driven by Basel III balance sheet constraints, money market reform, and quarter-end window-dressing. Functions as a 'dollar funding premium' largely orthogonal to carry (correlation ~0.2-0.3), effectively taxing non-US investors' returns on US assets by 15-50bp annually.",
+  "confidence": 8.75,
+  "evidence": [
+    "Pre-GFC mean basis: -3bp vs post-GFC: -30bp (Welch t-test p<0.001)",
+    "EUR/USD basis ~-15 to -25bp, JPY/USD ~-30 to -50bp currently",
+    "Basel III leverage ratio and money market reform as identified causal mechanisms",
+    "Basis reduces true attractiveness of US bonds below headline differentials for non-US investors",
+    "Panel regression (n~900 pair-months, R²=52%): quarter-end +18bp (t=6.8), year-end +32bp (t=4.1), Fed balance sheet -12bp/$1T (t=-3.4), bank CDS +0.8bp/10bp (t=2.4, p=0.02)",
+    "Structural -20 to -30bp baseline means only 10-20bp of additional widening crosses into stress zone versus ~40bp pre-GFC",
+    "Cross-currency basis is the highest-fidelity early warning indicator with 2-4 week lead time"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Will Basel III endgame modifications reduce or increase the basis?",
+    "Is the basis purely a regulatory artifact or does it contain credit risk information?",
+    "Whether CIP basis is economically viable as an investable factor beyond bank-affiliated desks (implementable Sharpe closer to 0.0-0.2 after frictions)",
+    "How Fed balance sheet normalization will affect the regulatory component"
+  ],
+  "related_concepts": [
+    "cross_currency_basis_warning",
+    "rate_differential_fx_explanatory_power",
+    "dollar_trap_tension",
+    "dm_rate_divergence_current"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

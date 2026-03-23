@@ -1,0 +1,46 @@
+{
+  "slug": "dm_rate_divergence_current",
+  "definition": "Current developed-market rate divergence is in the 85th-97th percentile of post-Bretton Woods observations. Fed ~4.25-4.50%, ECB ~2.50-2.75%, BoJ ~0.50%, SNB ~0.25%. Cross-sectional standard deviation of G10 policy rates is ~250-350bp versus a historical mean of ~175bp. The two prior comparable periods (2006-07 and 2018-19) both preceded violent carry reversals.",
+  "confidence": 8.25,
+  "evidence": [
+    "Cross-sectional SD of G10 policy rates ~250-350bp vs historical mean ~175bp",
+    "97th percentile of cross-sectional SD; top decile of policy rate range",
+    "When divergence is top-quartile, probability of 15%+ annual G10 pair move rises from 22% to 33%",
+    "Both prior comparable periods (2006-07, 2018-19) preceded carry reversals",
+    "Range in approximately 85th-95th percentile since 1990",
+    "VTA framework confirms all four vulnerability conditions: leverage (JPY carry $500B-$4T), maturity mismatch, concentration (single dollar factor = 50-70%), opacity (8x uncertainty band on position size)",
+    "Two prior comparable divergence episodes (2006-07, 2018-19) both preceded violent carry reversals",
+    "Compressed spring finding: 61% of comparable configurations preceded 20%+ G10 pair move within 12 months vs 11% unconditional (p<0.001)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "generalist_01",
+    "generalist_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Is the BoJ leg structural or cyclical — and does this change expected FX move magnitude?",
+    "Will divergence normalize through rate convergence or through FX adjustment?",
+    "Timing of divergence resolution",
+    "Whether resolution occurs via FX adjustment or rate convergence",
+    "Whether circuit breakers (central bank pauses, swap lines) can contain the eventual unwind"
+  ],
+  "related_concepts": [
+    "carry_unwind_sequence",
+    "boj_normalization_asymmetric_risk",
+    "structural_vs_cyclical_divergence",
+    "carry_trade_negative_skewness",
+    "compressed_spring_configuration",
+    "rate_differential_fx_explanatory_power"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

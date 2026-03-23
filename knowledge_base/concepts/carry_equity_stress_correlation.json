@@ -1,0 +1,35 @@
+{
+  "slug": "carry_equity_stress_correlation",
+  "definition": "Carry-equity correlation amplifies from 0.3-0.4 in normal conditions to 0.7-0.8 during stress, making carry effectively leveraged equity beta during unwinds. This correlation regime change is documented across 1998, 2007-08, 2020, and 2024 episodes.",
+  "confidence": 9.0,
+  "evidence": [
+    "Documented across four major stress episodes",
+    "Carry + momentum diversification is a fair-weather benefit that reverses in the ~15% of periods that determine portfolio survival",
+    "Carry-momentum correlation undergoes 0.90 swing from -0.25 to +0.60 during vol spikes"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "quant_researcher_02",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Whether explicit tail hedging can cost-effectively replace diversification benefit lost during stress",
+    "Whether correlation regime change is predictable with sufficient lead time"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "carry_momentum_correlation_flip",
+    "g10_fx_pca_structure",
+    "credit_cycle_carry_discriminator",
+    "carry_unwind_sequence"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

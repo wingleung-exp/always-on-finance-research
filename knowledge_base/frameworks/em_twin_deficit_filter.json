@@ -1,0 +1,36 @@
+{
+  "slug": "em_twin_deficit_filter",
+  "purpose": "Screen EM currencies for ex ante vulnerability to depreciation during DM tightening cycles using balance-sheet and flow indicators.",
+  "components": [
+    "Current account deficit as percentage of GDP (contributes to twin deficit threshold of >5% combined)",
+    "Fiscal deficit as percentage of GDP (contributes to twin deficit threshold)",
+    "Short-term external debt to reserves ratio (high ratio indicates rollover vulnerability)",
+    "Reserve adequacy in months of import cover (current EM median ~7 months vs ~5 in 2013)",
+    "Complementary exporter/importer filter to capture terms-of-trade channel alongside balance-sheet channel",
+    "Twin-deficit threshold: current account deficit + fiscal deficit exceeding 5% of GDP",
+    "Push vs pull classification: filter applies to push (DM-driven) episodes only",
+    "Hit rate: 70-80% for >20% depreciation when filter triggered during push episodes",
+    "Frontier-to-core cascade monitoring: 3-6 month transmission lag from frontier to core EM",
+    "Current vulnerability map: Egypt, Pakistan as frontier; Brazil, Mexico as core EM to monitor"
+  ],
+  "current_assessment": "Current environment maps to push scenario (DM tightening, broad dollar strength). Monitoring whether frontier weakness cascades to core EM is the key signpost for severity assessment.",
+  "limitations": [
+    "70-80% hit rate means 20-30% false positive rate",
+    "Thresholds may need adjustment for countries with large sovereign wealth funds",
+    "Does not capture political and institutional risk (capital controls, central bank independence)",
+    "Historical sample is dominated by a few large episodes and may not capture novel stress channels",
+    "Out-of-sample performance not formally validated",
+    "Does not differentiate within the vulnerable set which currencies will be most affected",
+    "Pull episodes require different analytical framework",
+    "Reserve adequacy and external debt maturity may improve discrimination but are not yet incorporated"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

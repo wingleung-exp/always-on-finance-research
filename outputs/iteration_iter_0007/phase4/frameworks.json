@@ -1,0 +1,161 @@
+[
+  {
+    "slug": "vta_boj_normalization_framework",
+    "purpose": "Systematically assess carry trade vulnerability by evaluating Vulnerability conditions (leverage, maturity mismatch, concentration, opacity), potential Triggers (primarily BoJ normalization), and Amplification mechanisms (correlation spike, dimensionality collapse, reflexive loops).",
+    "components": [
+      "Vulnerability assessment: leverage ($500B-$4T JPY carry), maturity mismatch (3M forwards funding long-term), concentration (single dollar factor 50-70%), opacity (8x uncertainty on position size)",
+      "Trigger identification: BoJ normalization as primary, with base rate of 10-15% dislocation probability per action",
+      "Amplification channels: carry-equity correlation spike (0.3-0.4 to 0.7-0.8), PCA dimensionality collapse (~2.5 to ~1.5), credit cycle interaction",
+      "Circuit breaker assessment: BoJ pause capability, central bank swap lines, Fed standing facilities"
+    ],
+    "current_assessment": "All four vulnerability conditions confirmed as active. Compressed spring configuration currently active (Q4 2025-Q1 2026). August 2024 foreshock liquidated 30-50% of conservative positioning estimates but residual vulnerability remains substantial. BoJ circuit breaker demonstrated but reliability under more extreme stress is untested.",
+    "limitations": [
+      "JPY carry positioning estimates have 8x uncertainty band ($500B to $4T)",
+      "Conjunction fallacy risk: probability of specific dramatic scenario lower than individual components suggest",
+      "Circuit breaker reliability under more extreme stress is untested",
+      "Does not address timing — only vulnerability assessment"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "carry_unwind_sequence_framework",
+    "purpose": "Classify carry unwinds as contained or systemic based on credit cycle conditions, replacing the refuted six-stage sequential model.",
+    "components": [
+      "Binary credit cycle discriminator: is a credit cycle turning point coincident?",
+      "Contained template: no credit turn, positioning adjustment, recovery within weeks (2013, 2018, August 2024)",
+      "Systemic template: credit cycle turn present, cross-asset contagion, self-reinforcing dynamics (1998, 2008)",
+      "Correlation amplification: carry-equity from 0.3-0.4 to 0.7-0.8 in both types, but persistence differs",
+      "Credit market monitoring: IG spreads ~130bp and HY ~450bp as boundary conditions"
+    ],
+    "current_assessment": "Current late-cycle environment (maturity wall 2025-2027, covenant-lite structures, EBITDA addback distortions) elevates probability that next unwind would be systemic. IG and HY spreads currently below threshold levels, favoring contained outcome for now.",
+    "limitations": [
+      "Perfect historical classification may not hold for novel crisis types",
+      "Credit cycle turning point identification in real-time is difficult",
+      "Only ~6 episodes in the classification sample",
+      "Does not predict timing of unwind initiation"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "em_twin_deficit_filter",
+    "purpose": "Screen EM currencies for vulnerability to >20% depreciation during DM tightening push episodes using twin-deficit threshold.",
+    "components": [
+      "Twin-deficit threshold: current account deficit + fiscal deficit exceeding 5% of GDP",
+      "Push vs pull classification: filter applies to push (DM-driven) episodes only",
+      "Hit rate: 70-80% for >20% depreciation when filter triggered during push episodes",
+      "Frontier-to-core cascade monitoring: 3-6 month transmission lag from frontier to core EM",
+      "Current vulnerability map: Egypt, Pakistan as frontier; Brazil, Mexico as core EM to monitor"
+    ],
+    "current_assessment": "Current environment maps to push scenario (DM tightening, broad dollar strength). Monitoring whether frontier weakness cascades to core EM is the key signpost for severity assessment.",
+    "limitations": [
+      "Out-of-sample performance not formally validated",
+      "Does not differentiate within the vulnerable set which currencies will be most affected",
+      "Pull episodes require different analytical framework",
+      "Reserve adequacy and external debt maturity may improve discrimination but are not yet incorporated"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "fx_vol_threshold_model",
+    "purpose": "Define the regime boundary where rate differential FX explanatory power undergoes non-linear collapse, useful as a risk management heuristic.",
+    "components": [
+      "Three-zone classification: below 9% realized G10 FX vol (rate differentials explain 8-12%), 9-12% transitional zone, above 12% (rate differentials explain 0-2%)",
+      "Hansen test threshold: ~9.5% (p<0.01)",
+      "Risk management application: monitor proximity, reduce position size as vol approaches threshold",
+      "Explicit non-actionability: NOT a trading or hedging signal due to tautological issues and out-of-sample degradation"
+    ],
+    "current_assessment": "Currently in the low-vol regime where rate differentials have explanatory power. Compressed spring configuration (extreme divergence + low vol) is active, suggesting transition risk is elevated.",
+    "limitations": [
+      "Partly tautological: carry drawdowns ARE high-vol events by definition",
+      "Out-of-sample vol-timing Sharpe degrades from 0.2-0.4 to 0.05-0.15 after transaction costs",
+      "By the time realized vol reaches threshold, initial carry drawdown has already occurred",
+      "Causal direction unresolved without instrumental variable approach"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "g10_fx_pca_decomposition",
+    "purpose": "Decompose G10 FX risk into factor exposures for position sizing and risk budgeting, replacing naive pair-count-based diversification.",
+    "components": [
+      "PC1 (dollar factor): 50-70% of variance in normal regime",
+      "PC2 (carry factor): 15-20% of variance",
+      "PC3 (momentum factor): 8-12% of variance",
+      "Stress dimensionality collapse: effective dimensions from ~2.5-3.0 to ~1.5",
+      "Diversification adjustment: pair-count-based sizing overstates diversification by 3-4x",
+      "Factor-based risk budgeting: allocate to factor exposures, not individual pairs"
+    ],
+    "current_assessment": "Highest-confidence structural finding (9/10). Dollar factor dominance means most G10 FX portfolios are effectively dollar bets. August 2024 confirmed stress dimensionality collapse pattern. Factor-based risk budgeting should be standard practice.",
+    "limitations": [
+      "Factor estimation uncertainty during regime transitions",
+      "Real-time implementation requires rolling estimation windows that may lag during rapid transitions",
+      "Does not account for higher-order dependencies beyond linear correlation"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "structural_vs_cyclical_taxonomy",
+    "purpose": "Classify rate divergences as structural or cyclical to estimate FX adjustment magnitude, using three discriminant variables.",
+    "components": [
+      "Output gap differential between economies",
+      "5Y-5Y forward rate differential",
+      "Structural current account balance differential",
+      "Classification output: structural (implying larger, more persistent FX adjustment ~20-35%) vs cyclical (implying moderate, mean-reverting adjustment ~10-15%)",
+      "Current readings: ECB-Fed classified as cyclical, BoJ-Fed classified as structural"
+    ],
+    "current_assessment": "75% cross-validated accuracy on 8 episodes (6/8 correct). Both misclassifications involved policy surprises. Directional distinction survives but specific FX magnitude ranges propagate too much uncertainty.",
+    "limitations": [
+      "Only 75% accuracy on 8 episodes — directional framework only, not suitable for positioning decisions",
+      "Both misclassifications involved policy surprises, suggesting the framework cannot account for policy regime changes",
+      "Fisher exact test p=0.14 on related divergence resolution analysis (n=14)",
+      "Specific FX magnitude estimates have confidence intervals too wide for practical use"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "carry_commodity_reflexive_loop",
+    "purpose": "Describe the reflexive feedback between carry positioning, commodity prices, and FX during stress episodes, and determine whether the loop stays contained or becomes self-reinforcing.",
+    "components": [
+      "Initial carry unwind triggers commodity-linked currency depreciation",
+      "Commodity price decline amplifies via reduced commodity demand expectations",
+      "FX depreciation feeds back to carry losses, creating reflexive loop",
+      "Credit cycle discriminator determines containment: no credit turn means contained (positioning adjustment), credit turn means self-reinforcing",
+      "August 2024 example: copper -8.4%, Brent -7.3%, AUD/USD -4.5% in 48 hours despite no physical fundamentals change"
+    ],
+    "current_assessment": "Loop is real and documented but the carry-equity correlation spike during stress is coincident, not leading — it cannot be used for prediction. The credit cycle discriminator is the operational bridge for determining whether the loop will be contained or self-reinforcing. Current credit conditions favor containment.",
+    "limitations": [
+      "Correlation spike is coincident, not predictive",
+      "Theoretical circularity between carry causing equity drawdowns and vice versa is unresolved",
+      "Limited precedent for full three-factor conjunction (low spare capacity + crowded carry + BoJ normalization)",
+      "2008 is closest analogue but with significant confounds"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "slug": "early_warning_dashboard",
+    "purpose": "Monitor five indicators for approaching carry dislocation, with a 3-of-5 trigger threshold for risk reduction.",
+    "components": [
+      "G10 FX realized vol exceeding 9.5%",
+      "JPY cross-currency basis wider than -60bp",
+      "IG credit spreads more than 100bp above trough",
+      "CFTC net JPY short positioning above 75th percentile",
+      "BoJ policy rate above 0.75% with narrowing rate differential",
+      "Trigger: 3 of 5 indicators breached simultaneously"
+    ],
+    "current_assessment": "Dashboard is an underappreciated monitoring tool. Current readings should be checked against all five indicators. The vol threshold component has been partially undermined (not actionable as trading signal) but retains monitoring value.",
+    "limitations": [
+      "Vol threshold component partly tautological per REFUTED #2",
+      "Specific threshold levels may need recalibration across regimes",
+      "Interaction effects between indicators not formally modeled",
+      "Historical validation limited by small number of qualifying episodes"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "slug": "carry_unwind_sequence_framework",
+  "purpose": "Identify the current stage of a carry buildup-unwind cycle and distinguish contained from systemic episodes using real-time observables.",
+  "components": [
+    "Stage 1: Gradual carry accumulation with rising position concentration",
+    "Stage 2: Volatility compression as carry supply suppresses realized vol",
+    "Stage 3: Positioning crowding reaches detectable extremes (CFTC data, option skew)",
+    "Stage 4: Exogenous trigger event (policy surprise, geopolitical shock)",
+    "Stage 5: Margin-call / stop-loss cascade with funding currency surge",
+    "Stage 6: Cross-asset contagion as carry-equity correlations spike to 0.7-0.8",
+    "Credit-cycle discriminator: contained (2013, 2018, Aug 2024) vs systemic (1998, 2008) depends on whether carry event coincides with a credit cycle turning point — monitor IG/HY spreads concurrently",
+    "Binary credit cycle discriminator: is a credit cycle turning point coincident?",
+    "Contained template: no credit turn, positioning adjustment, recovery within weeks (2013, 2018, August 2024)",
+    "Systemic template: credit cycle turn present, cross-asset contagion, self-reinforcing dynamics (1998, 2008)",
+    "Correlation amplification: carry-equity from 0.3-0.4 to 0.7-0.8 in both types, but persistence differs",
+    "Credit market monitoring: IG spreads ~130bp and HY ~450bp as boundary conditions"
+  ],
+  "current_assessment": "Current late-cycle environment (maturity wall 2025-2027, covenant-lite structures, EBITDA addback distortions) elevates probability that next unwind would be systemic. IG and HY spreads currently below threshold levels, favoring contained outcome for now.",
+  "limitations": [
+    "Only 6 well-documented episodes — small sample limits statistical inference",
+    "True position size is unobservable (CFTC covers a fraction of actual FX exposure)",
+    "The credit-cycle discriminator requires identifying the credit turning point in real-time, which is itself difficult",
+    "Stage identification is clearer ex post than ex ante",
+    "The sequence assumes a sudden trigger — gradual normalization may bypass the cascade entirely",
+    "Perfect historical classification may not hold for novel crisis types",
+    "Credit cycle turning point identification in real-time is difficult",
+    "Only ~6 episodes in the classification sample",
+    "Does not predict timing of unwind initiation"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

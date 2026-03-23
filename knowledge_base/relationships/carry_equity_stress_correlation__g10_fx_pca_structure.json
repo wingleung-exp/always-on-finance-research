@@ -1,0 +1,20 @@
+{
+  "concept_a": "g10_fx_pca_structure",
+  "concept_b": "carry_equity_stress_correlation",
+  "mechanism": "The dollar factor (PC1, 50-70% of variance) concentrates G10 FX risk into a single dimension. During stress, effective dimensionality collapses from ~2.5-3.0 to ~1.5, amplifying pairwise correlations to 0.85+ and driving the carry-equity correlation from 0.3-0.4 to 0.7-0.8.",
+  "direction": "a_causes_b",
+  "confidence": 9.0,
+  "regime_dependence": "Dimensionality collapse is stress-specific. Normal regime: ~2.5-3.0 effective dimensions, moderate correlations. Stress regime: ~1.5 dimensions, extreme correlations.",
+  "originating_agents": [
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

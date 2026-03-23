@@ -1,0 +1,31 @@
+{
+  "slug": "compressed_spring_configuration",
+  "definition": "The joint condition of extreme rate divergence AND low FX vol is historically associated with elevated subsequent FX dislocation. In 18 qualifying months since 1990, 61% preceded a 20%+ G10 pair move within 12 months versus 11% unconditional (Fisher exact p<0.001). This condition is currently active (Q4 2025-Q1 2026).",
+  "confidence": 7.0,
+  "evidence": [
+    "n=18 months in 420-month sample; 95% CI [36%, 83%] — even lower bound is 3x unconditional",
+    "Two prior clustered episodes (late 1999-2000, mid 2006-early 2007) both preceded major FX dislocations",
+    "Mechanistically: extreme divergence incentivizes large carry positions, low vol compresses risk measures allowing higher leverage"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Does not identify which pair will move or when",
+    "Whether the signal retains power after controlling for other early warning indicators"
+  ],
+  "related_concepts": [
+    "dm_rate_divergence_current",
+    "rate_differential_fx_explanatory_power",
+    "carry_trade_negative_skewness",
+    "boj_normalization_asymmetric_risk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

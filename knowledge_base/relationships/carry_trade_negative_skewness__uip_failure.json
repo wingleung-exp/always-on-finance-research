@@ -1,0 +1,23 @@
+{
+  "concept_a": "uip_failure",
+  "concept_b": "carry_trade_negative_skewness",
+  "mechanism": "UIP failure creates persistent carry profitability that attracts positioning, which in turn produces the negative skewness and fat tails in carry returns. The unconditional Fama beta averages two regimes: one where carry works strongly (beta -2 to -3) and one where UIP briefly holds during crises (beta +0.5 to +1), creating the asymmetric return distribution.",
+  "direction": "a_causes_b",
+  "confidence": 9.0,
+  "regime_dependence": "Relationship is structural and holds across all regimes. The UIP failure magnitude varies by regime (stronger in low-vol, weaker during crises) but the positioning dynamic that creates negative skewness operates continuously.",
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01",
+    "generalist_02",
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

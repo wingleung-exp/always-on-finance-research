@@ -1,0 +1,36 @@
+{
+  "slug": "fx_vol_threshold_model",
+  "purpose": "Provide a real-time monitoring threshold for switching between carry-favorable and carry-adverse FX regimes.",
+  "components": [
+    "Threshold level: ~9.5% G10 FX realized volatility (Hansen threshold regression, p<0.01)",
+    "Below threshold regime: carry +0.58%/month (t=3.87, n=360 months) — positive expected returns",
+    "Above threshold regime: carry -1.18%/month (t=-2.11, n=144 months) — negative expected returns",
+    "Current reading: G10 FX vol at 7-9%, near the threshold — knife-edge positioning",
+    "Vol-of-vol as supplementary monitoring metric, potentially more informative than vol level post-2015",
+    "Three-zone classification: below 9% realized G10 FX vol (rate differentials explain 8-12%), 9-12% transitional zone, above 12% (rate differentials explain 0-2%)",
+    "Hansen test threshold: ~9.5% (p<0.01)",
+    "Risk management application: monitor proximity, reduce position size as vol approaches threshold",
+    "Explicit non-actionability: NOT a trading or hedging signal due to tautological issues and out-of-sample degradation"
+  ],
+  "current_assessment": "Currently in the low-vol regime where rate differentials have explanatory power. Compressed spring configuration (extreme divergence + low vol) is active, suggesting transition risk is elevated.",
+  "limitations": [
+    "Partially tautological: carry drawdowns mechanically produce volatility, so conditioning on vol is partly conditioning on the outcome",
+    "Threshold has wider confidence intervals post-2015",
+    "Out-of-sample improvement from vol timing is near zero according to some analysts",
+    "Moreira & Muir (2017) show only modest 0.1-0.2 Sharpe improvement, contested by others",
+    "The vol signal typically arrives after most drawdown damage has already occurred",
+    "Partly tautological: carry drawdowns ARE high-vol events by definition",
+    "Out-of-sample vol-timing Sharpe degrades from 0.2-0.4 to 0.05-0.15 after transaction costs",
+    "By the time realized vol reaches threshold, initial carry drawdown has already occurred",
+    "Causal direction unresolved without instrumental variable approach"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

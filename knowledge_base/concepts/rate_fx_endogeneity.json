@@ -1,0 +1,38 @@
+{
+  "slug": "rate_fx_endogeneity",
+  "definition": "Rate differentials and exchange rates are jointly determined in a simultaneous system, creating a first-order methodological problem. Turkey's rates rose from 8.5% to 42.5% in response to lira depreciation — treating the differential widening as causing stability reverses actual causation. Acknowledged in academia (Engel 2014, Itskhoki & Mukhin 2021) but almost entirely absent from practitioner analysis.",
+  "confidence": 7.5,
+  "evidence": [
+    "Turkey: rates rose 8.5% to 42.5% in response to lira depreciation, not causing stability",
+    "Brazil's high real rate compensates for BRL fragility rather than causing BRL stability",
+    "Engel (2014) and Itskhoki & Mukhin (2021) acknowledge the simultaneity problem",
+    "No agent contested the logic in any debate",
+    "Academically established by Engel (2014) and Itskhoki & Mukhin (2021)",
+    "Turkey 2023: treating rate hike as causing TRY stability reverses actual causal chain",
+    "Brazil: high real rates partly compensate for structural BRL fragility rather than causing stability"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Can instrumental variable approaches using monetary policy surprises isolate the causal direction?",
+    "How should practitioners adjust their frameworks for simultaneity?",
+    "Valid instruments for resolving the endogeneity econometrically are scarce",
+    "How to incorporate endogeneity into practical trading frameworks without rendering them unusable"
+  ],
+  "related_concepts": [
+    "uip_failure",
+    "rate_differential_fx_explanatory_power",
+    "em_twin_deficit_vulnerability",
+    "meese_rogoff_random_walk"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

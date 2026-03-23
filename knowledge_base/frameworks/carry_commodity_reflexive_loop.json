@@ -1,0 +1,36 @@
+{
+  "slug": "carry_commodity_reflexive_loop",
+  "purpose": "Map the cross-asset contagion mechanism between FX carry positioning and commodity markets for integrated risk monitoring.",
+  "components": [
+    "CFTC positioning correlations: r=0.50-0.60 between commodity longs and JPY shorts indicate correlated speculative exposure",
+    "Carry unwind trigger: forced liquidation of carry positions triggers correlated commodity position unwinding",
+    "Commodity price decline amplifier: commodity weakness hits exporter currencies, triggering further carry losses",
+    "Local-currency cost curve stabilizer: producer-currency weakness caps commodity downside but perpetuates FX weakness",
+    "August 2024 as confirming episode of the full reflexive loop in action",
+    "Initial carry unwind triggers commodity-linked currency depreciation",
+    "Commodity price decline amplifies via reduced commodity demand expectations",
+    "FX depreciation feeds back to carry losses, creating reflexive loop",
+    "Credit cycle discriminator determines containment: no credit turn means contained (positioning adjustment), credit turn means self-reinforcing",
+    "August 2024 example: copper -8.4%, Brent -7.3%, AUD/USD -4.5% in 48 hours despite no physical fundamentals change"
+  ],
+  "current_assessment": "Loop is real and documented but the carry-equity correlation spike during stress is coincident, not leading — it cannot be used for prediction. The credit cycle discriminator is the operational bridge for determining whether the loop will be contained or self-reinforcing. Current credit conditions favor containment.",
+  "limitations": [
+    "CFTC data covers only a fraction of total FX and commodity positioning",
+    "Correlation between commodity and FX positioning may reflect common cause (risk appetite) rather than direct cross-market linkage",
+    "Local-currency cost curve offset varies significantly by commodity and producer country",
+    "August 2024 episode was brief — longer episodes may propagate differently",
+    "Correlation spike is coincident, not predictive",
+    "Theoretical circularity between carry causing equity drawdowns and vice versa is unresolved",
+    "Limited precedent for full three-factor conjunction (low spare capacity + crowded carry + BoJ normalization)",
+    "2008 is closest analogue but with significant confounds"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

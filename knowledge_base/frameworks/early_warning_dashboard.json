@@ -1,0 +1,27 @@
+{
+  "slug": "early_warning_dashboard",
+  "purpose": "Monitor five indicators for approaching carry dislocation, with a 3-of-5 trigger threshold for risk reduction.",
+  "components": [
+    "G10 FX realized vol exceeding 9.5%",
+    "JPY cross-currency basis wider than -60bp",
+    "IG credit spreads more than 100bp above trough",
+    "CFTC net JPY short positioning above 75th percentile",
+    "BoJ policy rate above 0.75% with narrowing rate differential",
+    "Trigger: 3 of 5 indicators breached simultaneously"
+  ],
+  "current_assessment": "Dashboard is an underappreciated monitoring tool. Current readings should be checked against all five indicators. The vol threshold component has been partially undermined (not actionable as trading signal) but retains monitoring value.",
+  "limitations": [
+    "Vol threshold component partly tautological per REFUTED #2",
+    "Specific threshold levels may need recalibration across regimes",
+    "Interaction effects between indicators not formally modeled",
+    "Historical validation limited by small number of qualifying episodes"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

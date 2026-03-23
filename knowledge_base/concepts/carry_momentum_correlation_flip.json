@@ -1,0 +1,38 @@
+{
+  "slug": "carry_momentum_correlation_flip",
+  "definition": "Carry and momentum FX factors exhibit conditional correlation that flips from -0.3 in normal conditions (natural hedge) to +0.6 during crises (simultaneous reversal). Multi-factor FX diversification is a fair-weather benefit that disappears precisely during the sudden-stop episodes that determine long-run wealth outcomes.",
+  "confidence": 8.25,
+  "evidence": [
+    "Normal conditions: momentum naturally hedges carry as signals reverse during depreciation",
+    "Documented simultaneous reversal in 1998, 2007, 2008, and 2024",
+    "Analogous to equity-bond correlation breakdown in risk-off regimes",
+    "Documented across multiple stress episodes",
+    "0.90 swing magnitude described as largest documented factor correlation regime change in any asset class",
+    "Portfolio construction implication: explicit tail hedging required as third factor allocation"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Can alternative factor construction preserve the diversification benefit in stress regimes?",
+    "What is the transition speed from negative to positive correlation — is there a usable warning signal?",
+    "Whether explicit tail hedging is cost-effective as replacement for lost fair-weather diversification"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "carry_unwind_sequence",
+    "g10_fx_pca_structure",
+    "fx_vol_carry_threshold",
+    "carry_equity_stress_correlation"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

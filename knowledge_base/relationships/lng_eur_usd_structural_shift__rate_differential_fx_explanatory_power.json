@@ -1,0 +1,20 @@
+{
+  "concept_a": "lng_eur_usd_structural_shift",
+  "concept_b": "rate_differential_fx_explanatory_power",
+  "mechanism": "The LNG structural break introduces a major non-rate-differential FX driver for EUR/USD (~$40-50bn/year USD demand), reducing the share of EUR/USD variance that rate differential models can explain. Any EUR/USD fair-value model omitting this channel is mis-specified for the post-2022 regime.",
+  "direction": "a_causes_b",
+  "confidence": 7.0,
+  "regime_dependence": "Post-2022 regime only. Infrastructure lock-in (20+ year terminal lives) makes this persistent. Seasonal energy demand amplifies the effect (e.g., cold snaps).",
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

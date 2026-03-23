@@ -1,0 +1,20 @@
+{
+  "concept_a": "fx_vol_carry_threshold",
+  "concept_b": "carry_trade_negative_skewness",
+  "mechanism": "The 9.5% realized vol threshold separates positive carry (+0.58%/month) from negative carry (-1.18%/month) regimes. The negative regime above threshold generates the fat-tail losses that produce the overall negative skewness in unconditional carry return distributions.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Partially tautological since carry drawdowns mechanically produce volatility. Threshold has wider confidence intervals post-2015. Vol-of-vol may be a better discriminant than vol level.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:27:56Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0006"
+  ]
+}

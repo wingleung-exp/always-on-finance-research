@@ -1,0 +1,93 @@
+[
+  {
+    "claim": "Fed monetary policy regime conditions ALL FX factor returns (carry, value, and momentum).",
+    "reason": "After orthogonalizing against dollar returns, value conditioning vanishes (F=1.3, p=0.27) and momentum conditioning vanishes (F=0.9, p=0.41). Only carry conditioning survives (F=5.2, p=0.006). The original claim conflated Fed policy with dollar dynamics. Value and momentum apparent conditioning was entirely a dollar-regime artifact.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The ~9.5% FX vol threshold is an actionable trading or hedging signal for timing carry exposure.",
+    "reason": "The relationship is partly tautological — carry drawdowns ARE high-vol events by definition. Out-of-sample vol-timing Sharpe improvement degrades from 0.2-0.4 to 0.05-0.15 and becomes statistically insignificant after transaction costs. By the time realized vol reaches 9.5%, the initial carry drawdown has already occurred. The threshold remains useful only as a risk management monitoring heuristic.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The JPY carry unwind reflexive loop has no natural circuit breaker.",
+    "reason": "August 2024 itself demonstrated a circuit breaker: 30-60% of positions liquidated, markets recovered within weeks, and the BoJ paused normalization. Central banks routinely pause without permanent credibility damage (Fed 2019 pivot, BoE 2022 gilt intervention). If the BoJ paused and the crisis resolved, the BoJ reaction function IS the circuit breaker. However, the circuit breaker activates after initial damage, and reliability under more extreme stress is untested.",
+    "refuted_by": [
+      "challenger_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Q3 (July-September) represents a specific, novel seasonal timing signal for carry fragility.",
+    "reason": "The 5/6 episode clustering is confounded by subjective episode selection (ERM 1992 is a peg break not a carry unwind; taper tantrum started in May), non-independence of events, and summer liquidity effects that are already known and separate from carry dynamics. Summer liquidity thinning amplifies carry unwind severity (valid, well-documented by BIS), but this is a separate, already-known insight, not a novel carry-specific seasonality finding.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Gold-TIPS divergence serves as an amber signal for dollar regime change within the dollar trap monitoring framework.",
+    "reason": "The gold-TIPS correlation erosion (r approximately -0.65 vs pre-2022 r approximately -0.80) is explained by a known, specific factor (central bank gold purchases of ~1,000-1,100 tonnes/year driven by sanctions risk) rather than the hypothesized factor (loss of confidence in dollar reserve status). The indicator is not signaling what was claimed. Dollar trap monitoring framework should read 0/3 signals triggered, not 0 red + 1 amber.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The carry trade's return profile is comparable to equity investing.",
+    "reason": "True only for the unlevered academic carry factor. The actual institutional carry trade at 5-20x leverage transforms a -15% underlying move into -150% to -600% capital destruction. The comparison table conflated unlevered and levered carry without separating leverage effects. The steamroller metaphor is wrong for unlevered carry and right for levered carry.",
+    "refuted_by": [
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Three-way central bank divergence statistically produces larger FX moves than two-way divergences (3/4 episodes).",
+    "reason": "No comparison set of two-way divergences was provided. No base rate for large FX moves in any random period. The unconditional probability of outsized FX moves may be ~40-50%, making 3/4 barely distinguishable from noise at n=4. The concentration-of-carry-capital mechanism is theoretically sound but empirically unvalidated.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The six-stage carry unwind sequence exhibits consistent regularity across 6+ episodes.",
+    "reason": "Diverse episodes were shoehorned into a template: 2013 was primarily EM rates/bonds not carry; August 2024 skipped the cross-asset contagion stage; 2018 was concentrated in TRY/ARS. The credit-cycle turning-point binary discriminator is the more useful and better-supported classification than the sequential stages.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Caloric Concentration Index predicts 2-3x higher FX volatility during crop stress for calorically concentrated importers.",
+    "reason": "A claim presented with a specific multiplier (2-3x) that the author admits is untested should not carry meaningful confidence. It is a hypothesis, not a finding. The framework concept is potentially valuable but requires cross-country empirical validation across multiple crop stress episodes before quantitative claims are warranted.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Relative value scorecard can provide specific Sharpe ratios to two decimal places across asset classes for positioning.",
+    "reason": "EM local-currency bond Sharpe of 0.5-0.8 depends on dollar stability, which is the very question the analysis is trying to answer. Short-duration credit Sharpe of 1.2-1.5 assumes no credit cycle turn, which the analysis itself flags as a risk. The ranking of G10 carry at the bottom survives as directionally valid, but the specific numbers are illustrative, not analytical.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  }
+]

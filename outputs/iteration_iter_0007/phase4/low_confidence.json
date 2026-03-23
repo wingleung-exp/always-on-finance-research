@@ -1,0 +1,93 @@
+[
+  {
+    "claim": "PBOC/CNY competitive devaluation would amplify BoJ normalization into a regional FX crisis via the chain: BoJ normalizes, JPY strengthens, Chinese exporters gain share, PBOC allows CNY depreciation, triggering Asian EM contagion.",
+    "source_agent": "generalist_01",
+    "needs": "Historical precedent actually undermines it (2012-2015 Abenomics period, PBOC did not competitively devalue). Requires evidence of PBOC willingness to use competitive devaluation as a policy tool, cross-country analysis of CNY depreciation transmission to Asian EM, and assessment of PBOC opacity constraints on forecasting.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Divergence resolution follows different patterns based on type: single-outlier episodes resolve primarily through FX adjustment (~75%) versus multi-bank divergence resolving through rate convergence (~60%).",
+    "source_agent": "quant_researcher_01",
+    "needs": "Larger sample size (current n=14 with Fisher exact p=0.14). The 75% rate CI is approximately [48%, 93%], barely excluding a coin flip. Needs formal statistical validation with expanded episode classification and out-of-sample testing.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Structural vs cyclical divergence discriminant using output gap, 5Y-5Y forwards, and structural current account achieves 75% cross-validated accuracy on 8 episodes, with implied FX magnitudes of ~10-15% for cyclical and ~20-35% for structural.",
+    "source_agent": "quant_researcher_01",
+    "needs": "Larger validation sample (only 8 episodes, both misclassifications from policy surprises). FX magnitude estimates propagate too much uncertainty from the 75%-accurate classifier. Directional distinction needs validation separate from specific magnitude ranges.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Dollar super-cycles have predictive value based on n=6 observed cycles with lengths of 7, 7, 10, 7, 9, 11 years.",
+    "source_agent": "generalist_02",
+    "needs": "Cannot distinguish true cyclical process from random mean-reversion or discrete policy-driven structural breaks with only 6 observations. CI for mean cycle length (~6.6-10.4 years) is too wide. Current mixed signal produces a probability distribution so wide (35/40/20) as to be nearly uninformative. Would require formal statistical test against random walk null.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Simultaneous unwind of FX-unhedged foreign Treasury holdings (~$8T) and domestic basis trades ($800B-$1T) could invert the flight-to-quality pattern for US Treasuries.",
+    "source_agent": "risk_analyst_01",
+    "needs": "March 2020 provides only partial validation. Requires multiple simultaneous failures. Japanese institutions have historically been slow to adjust Treasury allocations. Fed standing facilities (repo, FIMA) may truncate the tail. Needs formal scenario probability assessment and analysis of Fed facility capacity constraints.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Caloric Concentration Index (weighting food imports by caloric contribution rather than dollar value) is a more predictive FX fragility indicator than aggregate food import ratios, with 2-3x higher FX volatility for concentrated importers.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Cross-country empirical validation across multiple crop stress episodes. The 2-3x multiplier is an untested estimate. Egypt example (60% wheat import dependence, 35% caloric share) is illustrative but n=1 for formal testing. Needs constructed index, backtested across 10+ countries and 5+ stress episodes.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Gold residual ($900-1,100/oz above real-rate model) signals FX-regime fragmentation, correlating with EM central bank purchases at r=0.80.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Formal decomposition of the residual across central bank buying, geopolitical risk premium, Chinese/Indian retail demand, and CTA momentum. The correlation with central bank buying explains the gold-TIPS divergence but does not necessarily confirm FX-regime fragmentation. Needs attribution analysis isolating the fragmentation component.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Biofuel mandates create a meaningful price floor that extends food inflation persistence during carry stress, fundamentally altering commodity-FX dynamics.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Evidence that mandate floors are hard rather than soft (EPA granted partial RFS waivers in 2008 and 2012; Indonesia adjusted levies repeatedly). The corn ethanol mandate predates 2022, so it is not a structural break. Needs quantification of the mandate floor effect on carry re-entry timing across multiple episodes.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "OPEC+ spare capacity levels below 2mb/d interact with carry fragility by determining energy-FX shock amplitude, creating a three-factor conjunction risk.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Individual components (spare capacity impacts oil vol, oil vol impacts energy-FX) are well-established but the three-factor conjunction (low spare capacity + crowded carry + BoJ normalization) has limited precedent. 2008 is closest but with significant confounds. The 2mb/d threshold is hypothesized but not formally tested. Needs historical analysis of carry performance stratified by spare capacity levels.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "CIP basis is an investable factor with implementable Sharpe ratio of 0.2-0.4.",
+    "source_agent": "quant_researcher_02",
+    "needs": "The 0.2-0.4 is an upper bound for bank-affiliated desks only. For broader investment community, implementable Sharpe is closer to 0.0-0.2 after bilateral credit, margin, and regulatory capital costs. The basis persists precisely because it is not easily arbitrageable. Needs practical implementation study with realistic friction estimates across different institutional types.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Hold-phase FX dynamics follow a bimodal pattern determined by credibility of the hold, with median -8% FX move over 6 months during hold-to-cut transitions.",
+    "source_agent": "generalist_02",
+    "needs": "12-episode database is empirically substantive but the credibility-of-the-hold discriminant is partially tautological (strong economy leads to credible hold leads to strong currency). Needs formal test of whether hold credibility can be assessed ex ante using observable variables. Current Fed positioning maps to credible hold sub-sample.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The fertilizer-FX nexus is a first-order missing variable in FX models, where regional gas price differentials create divergent fertilizer cost structures affecting crop production costs and FX.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Morocco/Tunisia comparison is N=1 with multiple confounders. The channel exists but the missing variable framing exceeds the evidence. Fertilizer channel matters for a narrow set of frontier currencies (EGP, PKR, NGN, BDT) only. Needs cross-country panel regression controlling for energy BoP, rate differentials, and other first-order drivers to isolate the fertilizer channel.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Seasonal crop calendar concentrates carry tail risk in predictable June-August windows, making this exploitable for hedging.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Sample of only ~6-8 major crop failures in 20 years is too small. Confounded by summer liquidity reduction (separate, already-known phenomenon). The June-August window is barely more specific than the already-known advice to reduce carry in summer. Needs larger sample with formal statistical test against random timing null, controlling for liquidity seasonality.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "slug": "credit_cycle_carry_discriminator",
+  "definition": "The credit cycle turning point is the critical discriminator between contained and systemic carry unwinds, with perfect classification across all examined episodes: contained unwinds did NOT coincide with credit cycle turns; systemic unwinds DID.",
+  "confidence": 8.5,
+  "evidence": [
+    "Contained: 2013 taper tantrum, 2018 EM crisis, August 2024 — no credit cycle turns",
+    "Systemic: LTCM 1998, GFC 2008 — credit cycle turns present",
+    "Current late-cycle environment (maturity wall 2025-2027, covenant-lite structures, EBITDA addback distortions) elevates systemic probability",
+    "IG spreads below ~130bp and HY below ~450bp favor contained outcomes"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Whether the credit cycle turning point can be identified in real-time with sufficient lead time",
+    "Whether unprecedented central bank intervention capacity alters the historical pattern"
+  ],
+  "related_concepts": [
+    "carry_unwind_sequence",
+    "carry_equity_stress_correlation",
+    "dm_rate_divergence_current",
+    "carry_trade_negative_skewness"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

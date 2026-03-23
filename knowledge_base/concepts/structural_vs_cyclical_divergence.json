@@ -1,0 +1,40 @@
+{
+  "slug": "structural_vs_cyclical_divergence",
+  "definition": "The structural-versus-cyclical classification of rate divergence is the critical first-order analytical question. Across 8 historical episodes: structural divergences (different economic regimes) produced 25-50% FX moves over 2-4 years; cyclical divergences (timing differences) produced 10-20% moves reverting in 12-18 months. Current configuration is mixed: ECB leg likely cyclical, BoJ leg possibly structural.",
+  "confidence": 6.25,
+  "evidence": [
+    "8 historical episodes classified with consistent magnitude-duration separation",
+    "Structural: 25-50% moves over 2-4 years; cyclical: 10-20% reverting in 12-18 months",
+    "Judged 'the most important analytical contribution' in pair_0 debate",
+    "Generalist_01 skipped this classification entirely — identified as a gap",
+    "6/8 correct in leave-one-out cross-validation (75% accuracy)",
+    "Both misclassifications involved policy surprises",
+    "Three-variable discriminant function applied to 8 historical episodes"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Can structural vs cyclical be classified in real-time with sufficient confidence to act on?",
+    "What diagnostic signals distinguish structural from cyclical during the first 6 months?",
+    "Specific FX magnitude ranges propagate too much uncertainty from the 75%-accurate classifier",
+    "Whether additional discriminant variables would improve accuracy",
+    "Directional distinction survives but quantitative precision does not"
+  ],
+  "related_concepts": [
+    "dm_rate_divergence_current",
+    "boj_normalization_asymmetric_risk",
+    "carry_unwind_sequence",
+    "rate_differential_fx_explanatory_power"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

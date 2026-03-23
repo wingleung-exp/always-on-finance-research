@@ -1,0 +1,36 @@
+{
+  "slug": "structural_vs_cyclical_taxonomy",
+  "purpose": "Classify rate divergence episodes as structural or cyclical to determine expected FX move magnitude, duration, and appropriate portfolio positioning.",
+  "components": [
+    "Structural divergence: fundamentally different economic regimes (e.g., BoJ zero-rate vs Fed restrictive) -> 25-50% FX moves over 2-4 years, unlikely to mean-revert without regime change",
+    "Cyclical divergence: same direction, different timing (e.g., ECB lagging Fed cuts) -> 10-20% FX moves reverting in 12-18 months as cycles re-sync",
+    "Diagnostic criteria: duration of underlying economic divergence, policy framework differences, structural imbalance persistence, labor market and inflation regime comparison",
+    "Mixed configurations: current example has ECB leg likely cyclical, BoJ leg possibly structural — requires pair-specific rather than aggregate analysis",
+    "Output gap differential between economies",
+    "5Y-5Y forward rate differential",
+    "Structural current account balance differential",
+    "Classification output: structural (implying larger, more persistent FX adjustment ~20-35%) vs cyclical (implying moderate, mean-reverting adjustment ~10-15%)",
+    "Current readings: ECB-Fed classified as cyclical, BoJ-Fed classified as structural"
+  ],
+  "current_assessment": "75% cross-validated accuracy on 8 episodes (6/8 correct). Both misclassifications involved policy surprises. Directional distinction survives but specific FX magnitude ranges propagate too much uncertainty.",
+  "limitations": [
+    "Only 8 episodes classified — too small for robust statistical inference",
+    "Classification is most valuable early in an episode when it is hardest to determine",
+    "Mixed configurations reduce framework precision and require pair-specific analysis",
+    "No formal diagnostic criteria established — relies on qualitative judgment",
+    "Structural can become cyclical (or vice versa) as conditions evolve",
+    "Only 75% accuracy on 8 episodes — directional framework only, not suitable for positioning decisions",
+    "Both misclassifications involved policy surprises, suggesting the framework cannot account for policy regime changes",
+    "Fisher exact test p=0.14 on related divergence resolution analysis (n=14)",
+    "Specific FX magnitude estimates have confidence intervals too wide for practical use"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

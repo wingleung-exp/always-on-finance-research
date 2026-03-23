@@ -1,0 +1,44 @@
+{
+  "slug": "carry_unwind_sequence",
+  "definition": "Carry unwinds follow a consistent six-stage sequence across 6+ major episodes (1992, 1998, 2008, 2013, 2018, August 2024): gradual accumulation, vol compression, positioning crowding, exogenous trigger, margin-call/stop-loss cascade, and cross-asset contagion. Median drawdown: 15-30% over 4-8 weeks, exceeding 2-4 years of accumulated carry. The critical discriminator between contained and systemic unwinds is whether the event coincides with a credit cycle turning point.",
+  "confidence": 8.5,
+  "evidence": [
+    "Consistent pattern documented across six episodes spanning 1992-2024",
+    "Carry-equity correlation spikes from ~0.3-0.4 (normal) to 0.7-0.8 (stress)",
+    "Contained episodes (2013, 2018, Aug 2024) did not coincide with credit cycle turns; systemic ones (1998, 2008) did",
+    "Median time from peak to trough: 4-8 weeks",
+    "Six-stage sequential model refuted: diverse episodes shoehorned into template",
+    "Credit cycle discriminator has perfect classification across all episodes",
+    "Correlation amplification from 0.3-0.4 to 0.7-0.8 is the key dynamic",
+    "Contained unwinds recover within weeks; systemic unwinds compound across asset classes"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "risk_analyst_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What fraction of JPY carry was liquidated in August 2024 (estimates span 30-60%)?",
+    "Can the contained-vs-systemic distinction be identified in real-time using credit spreads?",
+    "Whether a less rigid framework can capture common dynamics without overfitting to historical episodes"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "boj_normalization_asymmetric_risk",
+    "dm_rate_divergence_current",
+    "carry_momentum_correlation_flip",
+    "structural_vs_cyclical_divergence",
+    "credit_cycle_carry_discriminator",
+    "carry_equity_stress_correlation"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

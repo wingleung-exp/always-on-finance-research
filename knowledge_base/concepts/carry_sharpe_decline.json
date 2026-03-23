@@ -1,0 +1,31 @@
+{
+  "slug": "carry_sharpe_decline",
+  "definition": "The G10 carry Sharpe ratio has declined from ~0.5 (pre-GFC) to ~0.25-0.35 (post-2015), but the decline is statistically marginal (p=0.09-0.16) and cannot be definitively attributed to structural causes versus adverse sampling.",
+  "confidence": 6.0,
+  "evidence": [
+    "Welch t-test p=0.09, bootstrap p=0.12, Ledoit-Wolf Sharpe test p=0.16",
+    "Post-2010 Sharpe 95% CI: [0.05, 0.55]",
+    "Three competing explanations undifferentiated: crowding ($30B to $100-150B+ AUM), central bank swap lines, low-rate compression"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Post-COVID rate normalization provides a natural experiment; sufficient data for assessment ~2028-2030",
+    "Whether carry returns reviving despite higher crowding would confirm cyclical (low-rate) explanation"
+  ],
+  "related_concepts": [
+    "uip_failure",
+    "carry_trade_negative_skewness",
+    "dm_rate_divergence_current"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

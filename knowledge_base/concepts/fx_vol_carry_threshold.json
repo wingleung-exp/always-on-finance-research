@@ -1,0 +1,44 @@
+{
+  "slug": "fx_vol_carry_threshold",
+  "definition": "FX volatility exhibits a non-linear threshold at ~9.5% realized vol (Hansen test p<0.01) separating positive and negative carry regimes. Below threshold (n=360 months): carry +0.58%/month (t=3.87). Above threshold (n=144): carry -1.18%/month (t=-2.11). Current G10 FX vol at 7-9% places the market near the threshold.",
+  "confidence": 7.0,
+  "evidence": [
+    "Hansen threshold test p<0.01 for 9.5% breakpoint",
+    "Below 9.5%: carry +0.58%/month (t=3.87); above: carry -1.18%/month (t=-2.11)",
+    "Threshold has wider confidence intervals post-2015",
+    "Vol-of-vol matters more than vol level in some sub-periods",
+    "Hansen test identifies threshold at ~9.5% (p<0.01)",
+    "Three-zone model: below 9% (rate differentials matter), 9-12% (transitional), above 12% (rate differentials irrelevant)",
+    "Out-of-sample vol-timing Sharpe degrades from 0.2-0.4 to 0.05-0.15 after transaction costs (statistically insignificant)",
+    "By the time realized vol reaches 9.5%, initial carry drawdown has already occurred"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "challenger_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Is the 9.5% threshold stable across sub-samples and regimes?",
+    "Is conditioning on vol partly tautological since carry drawdowns mechanically produce volatility?",
+    "Can vol signals arrive early enough to be actionable before most drawdown damage occurs?",
+    "Whether monitoring proximity adds information beyond tracking positioning and cross-currency basis",
+    "Causal direction requires instrumental variable approach not yet attempted"
+  ],
+  "related_concepts": [
+    "carry_trade_negative_skewness",
+    "carry_unwind_sequence",
+    "carry_momentum_correlation_flip",
+    "rate_differential_fx_explanatory_power",
+    "compressed_spring_configuration"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

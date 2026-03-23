@@ -1,0 +1,30 @@
+{
+  "slug": "yen_safe_haven_conditionality",
+  "definition": "The yen's safe-haven status is conditional on Japan being a zero-rate outlier relative to global rates, and was cleanly falsified in 2022 when USD/JPY rose 32% during a global equity bear market. The mechanism depends on carry-trade-unwind repatriation flows which require Japan to be a zero-rate funding source.",
+  "confidence": 7.0,
+  "evidence": [
+    "Five supporting episodes (1998, 2008, 2011, 2016, 2020: JPY strengthened)",
+    "2022 falsification: JPY weakened 32% during -25% SPX, global bond rout, geopolitical crisis",
+    "When BoJ YCC maintained zero rates while global rates rose, repatriation incentive was overwhelmed by incentive to stay invested abroad"
+  ],
+  "originating_agents": [
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Whether BoJ normalization to 1.0%+ would re-engage carry-unwind repatriation mechanism",
+    "Whether institutional structural changes (Japanese lifers locked-in foreign allocations, GPIF allocation floors) prevent return to pre-2022 dynamics"
+  ],
+  "related_concepts": [
+    "boj_normalization_asymmetric_risk",
+    "carry_unwind_sequence",
+    "energy_bop_jpy_driver"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

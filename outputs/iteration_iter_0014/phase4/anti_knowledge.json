@@ -1,0 +1,79 @@
+[
+  {
+    "claim": "Equity, rates, and credit cannot all be correct simultaneously (strong form trilemma)",
+    "reason": "The winner-take-all scenario allows all three markets to be approximately right: concentrated AI value capture justifies Mag-7 multiples, absence of economy-wide productivity diffusion leaves r* unchanged, no immediate incumbent disruption keeps credit tight. Historical support from 4/5 GPT analogues where builders captured less value than users. The strong trilemma is wrong; the weaker monitoring tension survives.",
+    "refuted_by": ["generalist_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Mag-7 represent ~30% of IG corporate bond outstanding",
+    "reason": "Combined tech outstanding debt ~$300-400B against a $7-8T IG market = 4-5%, not 30%. The agent's own supporting evidence (spread impact of only 5-10bp from removal) is consistent with 4-5%, contradicting the 30% headline. Likely a conflation of market cap weight with debt weight.",
+    "refuted_by": ["generalist_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Regime-hedged portfolio achieves Sharpe ratio of 0.6-0.9",
+    "reason": "Every leg bleeds carry: short rates (negative carry in upward-sloping curve), long puts (negative theta), long CDS on disrupted sectors (negative carry at tight spreads), long single-stock/short index vol (historically negative carry from overwriter supply). Realistic Sharpe for relative-value convergence trades with uncertain timing: 0.2-0.4.",
+    "refuted_by": ["generalist_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "S&P 500 returns driven by falling real rates",
+    "reason": "Real rates rose from ~1.2% (Jan 2023) to ~2.1% (current). Multiple expansion occurred despite rising real rates, driven by ERP compression for perceived AI beneficiaries. The agent's own ERP analysis provides the correct explanation, directly contradicting the falling real rates claim.",
+    "refuted_by": ["equity_analyst_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Hyperscaler accruals deterioration as Sloan-type operating accruals signal",
+    "reason": "Sloan (1996) studied operating accruals (working capital, receivables, inventory). The FCF compression here is driven by investment accruals (capex). The distinction matters for predictive mechanism and timescale. The underlying concern (FCF compression) is valid; the academic backing from Sloan is overstated.",
+    "refuted_by": ["equity_analyst_01"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Activision acquisition ($69B) classified as AI-related goodwill",
+    "reason": "Activision was acquired for gaming franchises (Call of Duty, WoW, Candy Crush) and mobile distribution, not AI. Reclassifying $69B as AI-related inflates the goodwill impairment risk estimate and undermines the $300-500B aggregate figure.",
+    "refuted_by": ["equity_analyst_01"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "DXY correction to low 80s (20-25% decline) on AI capex reversal",
+    "reason": "Starting conditions differ materially from 2001: current dollar overvaluation less extreme (8-15% BEER vs larger then), US now net energy exporter, eurozone structural weakness worse than 2002. EUR/USD at 1.40-1.50 requires a eurozone growth renaissance no agent identifies as plausible. Directional claim (eventual correction) defensible; magnitude not.",
+    "refuted_by": ["fx_strategist_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Services export disruption as sudden stop risk for Philippines/India",
+    "reason": "Sudden stop (Calvo 1998) refers to abrupt capital account reversals, not gradual current account erosion. AI automation of BPO is a slow structural decline in comparative advantage — the opposite of sudden. The agent's own confidence section concedes 'could be 3 years or 15 years,' directly contradicting the sudden stop framing.",
+    "refuted_by": ["fx_strategist_01"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "10Y yields to 5.5-6.0% under positive AI productivity scenario",
+    "reason": "Mechanically applies Golden Rule (r* ≈ trend growth) without accounting for its documented breakdown since 2000s. Trend growth ~3.5% in late 1990s coexisted with 10Y at 5.5-6.0%, but trend growth ~2.5% in 2017-19 coexisted with 10Y at 2.0-3.0%. A 50-75bp increase to 5.0-5.25% would be more defensible.",
+    "refuted_by": ["generalist_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "AI energy channel as underappreciated for FX",
+    "reason": "Incremental AI energy demand for Germany's data centers is perhaps EUR 2-5B of EUR 100-150B total energy bill (2-4%, well under 0.1% GDP). AI copper demand at 2-5% of global consumption by 2030. The channel exists but is too small to be 'underappreciated' — it is appropriately priced as second-order.",
+    "refuted_by": ["fx_strategist_02", "challenger_02"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  },
+  {
+    "claim": "Cardinal similarity scores for historical analogues (0.78, 0.65, 0.55, 0.52, 0.42) as precise quantitative measures",
+    "reason": "Subjective assessments presented as quantitative outputs. The difference between 0.55 and 0.52 (railroads vs PC/IT) is meaningless noise. The ordinal ranking is defensible; the cardinal scores create false confidence and precision where none exists.",
+    "refuted_by": ["generalist_01"],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0014"
+  }
+]

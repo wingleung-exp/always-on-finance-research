@@ -1,0 +1,40 @@
+{
+  "slug": "cross_currency_basis_warning",
+  "definition": "Cross-currency basis widening serves as an early warning for dollar funding stress. A -40bp threshold signals elevated stress. Leading property varies by crisis type: endogenous crises show 2-4 weeks advance signal (GFC basis widening began July 2007, ~14 months before Lehman); exogenous shocks like COVID show no lead time. The mechanism is sound but the leading indicator property is weaker than originally claimed.",
+  "confidence": 7.5,
+  "evidence": [
+    "GFC: basis widening July 2007, ~14 months before Lehman collapse",
+    "European sovereign crisis: ~3 months before acute Greek stress",
+    "March 2020: concurrent with shock onset, no lead time",
+    "Banks reduce FX swap counterparty exposure at first sign of uncertainty",
+    "2-4 week lead time documented across multiple crisis episodes",
+    "Ranked at top of stress indicator hierarchy by lead time and signal quality",
+    "Only 10-20bp additional widening now needed vs ~40bp pre-GFC buffer"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "What distinguishes basis widening that leads to crisis from widening that reverses?",
+    "Has the post-GFC regulatory environment changed the signal's reliability?",
+    "Whether reduced buffer means earlier false signals or genuinely reduced systemic resilience"
+  ],
+  "related_concepts": [
+    "cip_basis_post_gfc",
+    "boj_normalization_asymmetric_risk",
+    "carry_unwind_sequence",
+    "dm_rate_divergence_current",
+    "credit_cycle_carry_discriminator"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0006",
+    "iter_0007"
+  ]
+}

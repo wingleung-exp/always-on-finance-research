@@ -1,0 +1,20 @@
+{
+  "concept_a": "cip_basis_post_gfc",
+  "concept_b": "rate_differential_fx_explanatory_power",
+  "mechanism": "The structural CIP basis acts as a hidden tax of 15-50bp on hedged foreign demand for US assets. Headline rate differentials overstate true carry for non-US investors, meaning the theoretical arbitrage linkage between rates and FX is structurally impaired. This contributes to the low R-squared of rate differentials for FX.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Persistent post-GFC due to regulatory structure. Widens at quarter-end and during stress, temporarily further reducing the rate-FX linkage.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "generalist_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:27:56Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0006"
+  ]
+}

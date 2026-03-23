@@ -1,0 +1,21 @@
+{
+  "concept_a": "credit_cycle_carry_discriminator",
+  "concept_b": "carry_unwind_sequence",
+  "mechanism": "The credit cycle turning point determines whether a carry unwind remains contained (positioning adjustment, recovery within weeks) or becomes systemic (cross-asset contagion, self-reinforcing). Perfect classification across all examined episodes: contained when no credit turn, systemic when credit cycle turns.",
+  "direction": "a_causes_b",
+  "confidence": 8.5,
+  "regime_dependence": "Always operative. IG spreads below ~130bp and HY below ~450bp favor contained outcomes. Late-cycle conditions (maturity wall, covenant-lite structures) elevate systemic probability.",
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "commodities_analyst_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}

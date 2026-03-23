@@ -1,0 +1,19 @@
+{
+  "concept_a": "g10_fx_pca_structure",
+  "concept_b": "carry_trade_negative_skewness",
+  "mechanism": "PC1 (dollar factor) accounting for 50-70% of variance means carry portfolios are heavily exposed to a single risk factor regardless of pair count. Stress-period dimensionality collapse (correlations to 0.85+) concentrates all pairs onto a single factor, explaining why nominally diversified carry portfolios experience extreme drawdowns.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Dimensionality collapse is specifically a stress phenomenon. During calm markets, effective independent risk factors approach 2-3, providing some diversification benefit.",
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:27:56Z",
+  "last_updated": "2026-03-23T00:27:56Z",
+  "originating_iteration": "iter_0006",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0006"
+  ]
+}

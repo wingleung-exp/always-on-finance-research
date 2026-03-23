@@ -1,0 +1,21 @@
+{
+  "concept_a": "fx_vol_carry_threshold",
+  "concept_b": "rate_differential_fx_explanatory_power",
+  "mechanism": "The vol threshold at ~9-10% realized G10 FX vol defines the regime boundary where rate-FX explanatory power collapses from 8-12% of variance to 0-2%. The threshold functions as a structural break in the carry regime, not as a predictive signal.",
+  "direction": "a_causes_b",
+  "confidence": 8.0,
+  "regime_dependence": "Relationship is definitional: the threshold separates the low-vol regime (where rate differentials explain FX) from the high-vol regime (where they do not). Transitional zone exists at 9-12%.",
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "topic": "fx_rates_divergence",
+  "created_at": "2026-03-23T00:44:54Z",
+  "last_updated": "2026-03-23T00:44:54Z",
+  "originating_iteration": "iter_0007",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0007"
+  ]
+}
