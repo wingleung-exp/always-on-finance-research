@@ -1,12 +1,15 @@
 {
   "slug": "fci_miscalibration",
   "definition": "Financial Conditions Indices are miscalibrated by an estimated 75-150bp in policy-rate-equivalent terms, driven by the AI equity rally loosening conditions through a channel orthogonal to monetary policy. Direction almost certainly correct but magnitude could be 40-200bp with different proxy methodology.",
-  "confidence": 5,
+  "confidence": 5.0,
   "evidence": [
     "AI equity rally loosened conditions by ~150bp through non-monetary channel",
     "Equal-weight vs. cap-weight proxy shows divergence",
     "Goldman FCI eased ~1.0 point despite restrictive rates",
-    "pair_2 noted the 75-150bp range could easily be 40-200bp with different proxy"
+    "pair_2 noted the 75-150bp range could easily be 40-200bp with different proxy",
+    "AI equity rally added $10-15T market cap with wealth effects of $300-750B",
+    "Equal-weight vs. cap-weight proxy has its own biases",
+    "Direction almost certainly right but magnitude relies on crude proxy"
   ],
   "originating_agents": [
     "rates_strategist_02"
@@ -14,19 +17,24 @@
   "open_questions": [
     "What is the true magnitude given the 40-200bp uncertainty range?",
     "Should FCIs exclude or downweight equity wealth effects from AI-driven gains?",
-    "How does this miscalibration affect Fed policy calibration and communication?"
+    "How does this miscalibration affect Fed policy calibration and communication?",
+    "What proxy would provide a more precise FCI miscalibration estimate?",
+    "Is the miscalibration temporary (AI-specific) or structural?",
+    "Should the Fed develop AI-adjusted FCI measures?"
   ],
   "related_concepts": [
     "broken_monetary_transmission",
     "effective_taylor_rule_coefficient",
-    "cross_asset_pricing_inconsistency"
+    "cross_asset_pricing_inconsistency",
+    "equity_concentration_correlation_illusion"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

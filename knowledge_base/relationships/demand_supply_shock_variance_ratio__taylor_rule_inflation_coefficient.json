@@ -1,0 +1,20 @@
+{
+  "concept_a": "taylor_rule_inflation_coefficient",
+  "concept_b": "demand_supply_shock_variance_ratio",
+  "mechanism": "The central bank reaction function (φ_π) determines whether supply shocks are accommodated (positive correlation) or offset (negative correlation). φ_π > 1.5 ensures determinacy and demand-shock dominance of the correlation",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "φ_π < 1 always produces positive correlation; φ_π > 1.5 allows shock type to determine sign; 1.0-1.5 is the transition zone",
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

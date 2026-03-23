@@ -1307,5 +1307,159 @@
     "needs": "Larger sample of true geopolitical correlation events beyond Russia-Ukraine. Methodology to isolate the geopolitical channel from concurrent monetary and fiscal dynamics. Quantification of the ratchet's cumulative correlation impact and whether it saturates at some level of geopolitical tension.",
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Petrodollar recycling erosion is a meaningful structural variable connecting dollar dynamics to the correlation regime through declining price-insensitive Treasury demand",
+    "source_agent": "fx_strategist_01",
+    "needs": "Quantitative decomposition isolating petrodollar recycling impact from larger forces of inflation expectations and monetary policy; has been widely discussed since 2015 without empirical confirmation of magnitude; causal chain requires several intermediate steps",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "USD/JPY encodes global duration risk appetite and serves as a 1-3 month early-warning system for correlation regime shifts via carry unwind signaling",
+    "source_agent": "fx_strategist_01",
+    "needs": "Multiple confirming observations beyond October 2023 episode; filtering mechanism to reduce false positives from BOJ intervention, idiosyncratic Japanese macro; corroboration from other agents",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Phillips Curve convexity near the zero output gap makes the current economy maximally sensitive to small shocks producing 0.15-0.25 correlation swings in rolling 3-month windows",
+    "source_agent": "macro_strategist_01",
+    "needs": "Empirical validation at this specific output gap level; confirmation that the convexity relationship holds across different inflation regimes; larger sample of near-zero output gap observations",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The NAIRU has shifted up 0.3-0.5pp to ~4.3-4.5% meaning current 4.1% unemployment is tighter than it appears",
+    "source_agent": "macro_strategist_01",
+    "needs": "Real-time NAIRU estimates are notoriously imprecise (±1pp confidence bands per Staiger-Stock-Watson 1997); shift could reverse with immigration policy changes or participation recovery; needs sustained wage data confirmation",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The Taiwan contingency is the single largest underpriced tail risk for rates-equity correlation given 90% semiconductor disruption and potential Chinese Treasury liquidation (~$800B)",
+    "source_agent": "risk_analyst_02",
+    "needs": "Probability assessment is inherently uncertain (intelligence estimates range 5-35%); the claim that it is underpriced requires more granular options market evidence; correlation mechanics conditional on the event are high confidence but probability-weighted assessment is speculative",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Geopolitical fragmentation (defense spending, tech decoupling, reshoring) is a substantial independent driver of positive correlation beyond the standard inflation and fiscal channels",
+    "source_agent": "risk_analyst_02",
+    "needs": "Empirical isolation of geopolitical fragmentation effect from standard fiscal/inflation channels; may be better understood as a political economy explanation for why fiscal consolidation is unavailable rather than an independent driver",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The BOJ YCC abandonment provides a natural experiment suggesting transmission restoration initially promotes positive correlation with a 12-18 month lag",
+    "source_agent": "rates_strategist_02",
+    "needs": "N=1 observation from Japan; institutional context (decades of deflation, yen depreciation channel, different household portfolios) limits generalizability; directional insight needs confirmation from additional cases of transmission restoration",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Unstable oscillation may constitute a permanent third regime rather than a transition between positive and negative correlation regimes",
+    "source_agent": "challenger_01",
+    "needs": "Two within-year reversals do not distinguish between stable positive regime with temporary shocks, regime transition in progress, or permanent instability; expensive to position for if correlation stabilizes; requires multi-year evidence and theoretical foundations for a stable third equilibrium",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "AI-driven supply-side productivity gains (50-100bp annual TFP growth) could be the most powerful structural force restoring negative correlation, overriding fiscal dominance regardless of fiscal policy or central bank reaction functions",
+    "source_agent": "challenger_01",
+    "needs": "Evidence of AI productivity appearing in macro aggregates (not just corporate capex), historical assessment of Solow paradox timing for GPTs, a formal model showing AI TFP growth can override fiscal dominance at current debt/GDP levels, and 3-5 years of measured TFP data",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "EUR/USD carry-adjusted appreciation functions as a 2-4 month leading indicator for correlation regime shifts based on three historical validations",
+    "source_agent": "fx_strategist_01",
+    "needs": "Larger sample size beyond 3 validations and acknowledged false positives, out-of-sample testing across additional currency pairs, clarification of conditions under which trade balance shifts invalidate the indicator",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Passive investing (~50% of equity AUM) extends the correlation-regime equity repricing lag from 18-36 months to 36-60 months and concentrates repricing into shorter, sharper events",
+    "source_agent": "generalist_02",
+    "needs": "Formal model or empirical evidence linking passive AUM share to repricing lag duration, more than three data points for the magnitude estimate, cross-country evidence from markets with different passive penetration rates",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Italy's BTP-FTSE MIB correlation trajectory provides a 12-18 month advanced preview of the US correlation regime based on chronological parallels",
+    "source_agent": "generalist_02",
+    "needs": "Controlling for currency union effects (redenomination risk has no US equivalent), adjusting for vastly different equity market composition (bank-heavy vs. tech-heavy), evidence that the timeline parallels are causal rather than coincidental",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "FCI miscalibration is specifically 75-150bp in policy-rate-equivalent terms due to AI equity rally effects",
+    "source_agent": "rates_strategist_02",
+    "needs": "A more precise proxy than crude equal-weight vs. cap-weight comparison, independent estimation from multiple methodologies to narrow the 40-200bp plausible range, formal decomposition of AI vs. non-AI contributions to FCI loosening",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The 2006-07 FX regime is the most informative dollar-cycle analogue for current conditions based on seven-metric dimensional comparison",
+    "source_agent": "fx_strategist_01",
+    "needs": "Formal quantitative analogue scoring against alternative candidates, assessment of how the 3-4x worse fiscal starting point changes timing and severity projections, out-of-sample validation of the dimensional comparison methodology",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "BOJ normalization would add 30-180bp to US term premium via $100-300B in Japanese selling pressure over 12-18 months, representing the single largest underpriced exogenous shock",
+    "source_agent": "rates_strategist_02",
+    "needs": "Narrowing the 6x magnitude range (30-180bp) to an actionable estimate, evidence that Japanese selling pressure has not already been largely absorbed since 2022, comparative ranking against tariff, fiscal, and recession risks to validate 'single largest' claim",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Geopolitical escalation produces a ratchet effect biasing expected correlation permanently positive over geopolitical cycles through irreversible fiscal commitments",
+    "source_agent": "risk_analyst_02",
+    "needs": "Larger sample of geopolitical correlation events beyond Russia-Ukraine, methodology to isolate geopolitical channel from concurrent monetary and fiscal dynamics, evidence of ratchet persistence beyond the current geopolitical cycle",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The LNG-EUR/USD channel structurally constrains ECB monetary policy space via ~$40-50B/year structural USD demand from Europe's shift to USD-denominated LNG, shifting TTF-EUR/USD correlation from r=-0.15 to r=-0.45",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Validation from FX and macro specialists; independent corroboration of the correlation shift magnitude; assessment of whether LNG supply diversification will moderate the effect",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Gold at $3,000+ prices structural loss of monetary policy credibility rather than cyclical real-rate dynamics, with $400-600/oz residual above real-rate-implied levels",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Decomposition of the gold-real rate residual between fiscal dominance attribution and post-Russia sanctions reserve diversification; assessment of central bank buying persistence and concentration",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "The Fed framework review (2025-2026) is mispriced event risk with ~50% non-event probability",
+    "source_agent": "challenger_01",
+    "needs": "Historical base rate analysis of prior framework review outcomes; assessment of institutional inertia strength; analysis of whether SEP dot dispersion widening (50bp to 125bp+) signals genuine framework instability",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "China's monetary/fiscal policy mix is the single most important driver of base metals outcomes given 55% copper consumption share and rotation toward copper-intensive applications",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Broader corroboration from macro and commodity specialists; quantification of demand rotation magnitude (steel to copper-intensive); assessment of China's property sector drag on overall commodity demand",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "The credit-equity basis (equity-implied spreads 20-40bp wider than actual credit spreads) signals credit market overoptimism with historical 2006-07 precedent",
+    "source_agent": "generalist_01",
+    "needs": "Assessment of whether private credit ($1.7T) structurally changes the signal reliability; timing analysis given the basis can persist 12-18+ months; verification that the Merton-model conversion parameters are appropriate for current market structure",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Dollar weaponization creates a parallel monetary transmission channel bypassing central banks via OFAC compliance burden and bank self-sanctioning",
+    "source_agent": "risk_analyst_02",
+    "needs": "Quantitative assessment of the regulatory tax magnitude on cross-border intermediation; evidence on whether self-sanctioning extends meaningfully beyond comprehensively sanctioned countries; decomposition of EM policy space compression between sanctions-driven and traditional rate differential factors",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
   }
 ]

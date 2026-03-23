@@ -1,0 +1,27 @@
+{
+  "slug": "campbell_pflueger_viceira_framework",
+  "purpose": "Explains the sign of stock-bond correlation as a function of the dominant macroeconomic shock type (demand vs. supply) mediated by the central bank reaction function",
+  "components": [
+    "Demand shock identification (growth-driven → negative correlation)",
+    "Supply shock identification (inflation-driven → positive correlation)",
+    "Central bank reaction function (Taylor Rule coefficient φ_π)",
+    "Phillips Curve slope as mediating parameter",
+    "Inflation expectations anchoring as boundary condition"
+  ],
+  "current_assessment": "All eight agents anchor on this framework. Current ambiguous shock mix (residual supply-side inflation + demand softening) places the US in the framework's indeterminate zone. The effective Taylor coefficient has diverged from textbook values (1.0-1.2 vs. 1.5-2.0), and fiscal dominance may make the reaction function endogenous — a modification but not a falsification of the framework.",
+  "limitations": [
+    "Assumes exogenous central bank reaction function; fiscal dominance makes it endogenous",
+    "Phillips Curve slope (0.1-0.5) is a critical parameter the literature cannot pin down",
+    "Mixed-shock environments produce indeterminate predictions",
+    "Does not incorporate fiscal dynamics as an independent channel",
+    "Maturity-dependent correlation bifurcation requires extending the framework"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:25:42Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

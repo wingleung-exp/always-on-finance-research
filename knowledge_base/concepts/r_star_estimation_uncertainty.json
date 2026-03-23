@@ -1,0 +1,35 @@
+{
+  "slug": "r_star_estimation_uncertainty",
+  "definition": "R* estimation uncertainty spans ~480bp in combined 90% CIs across three leading models (Laubach-Williams, Holston-Laubach-Williams, Lubik-Matthes), exceeding the entire policy-relevant range of ~300-400bp. The Fed cannot statistically determine whether policy is restrictive, neutral, or accommodative within ±150bp, rendering r* near-useless for real-time calibration.",
+  "confidence": 9,
+  "evidence": [
+    "Three models produce point estimates ranging from 1.18% to 2.28%",
+    "Combined 90% CIs span [-0.8%, 4.0%] — a 480bp width",
+    "Policy-relevant range is only ~300-400bp, narrower than the CI",
+    "Current cross-asset pricing internally consistent only at r* ~2.0-2.5%",
+    "Published model outputs directly verifiable from NY Fed, SF Fed, and Richmond Fed public data"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can alternative identification strategies (narrative FOMC transcript analysis, event-study methodology) narrow the range?",
+    "Is r* even a useful construct for policy given the estimation uncertainty?"
+  ],
+  "related_concepts": [
+    "effective_taylor_rule_coefficient",
+    "bimodal_terminal_rate_distribution",
+    "cross_asset_pricing_inconsistency",
+    "fci_effective_stance_gap"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

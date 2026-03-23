@@ -1,0 +1,26 @@
+{
+  "slug": "three_condition_conjunction_trigger",
+  "purpose": "Specifies falsifiable conditions that must be simultaneously met for positive stock-bond correlation to lock in persistently",
+  "components": [
+    "Condition 1: Core inflation exceeds central bank tolerance threshold",
+    "Condition 2: Adjusted term premium exceeds 100bp",
+    "Condition 3: Output gap near zero (preventing demand-channel offset)",
+    "Dollar break below DXY 100 as supplementary FX condition (fx_strategist_01 extension)",
+    "Current status: Two of three conditions met or approaching"
+  ],
+  "current_assessment": "Falsifiable specification that fits all observed transitions. Two of three conditions are met or approaching. The conjunction requirement explains why positive correlation has not locked in despite some conditions being present. The FX extension adds explanatory power for why oscillation continues.",
+  "limitations": [
+    "Derived from limited historical transitions",
+    "Specific thresholds may need recalibration for current fiscal environment",
+    "Does not specify which condition is binding",
+    "Adjusted term premium estimation itself carries significant uncertainty (50-130bp range)"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:25:42Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

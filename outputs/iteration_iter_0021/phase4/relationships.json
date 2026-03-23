@@ -1,0 +1,275 @@
+[
+  {
+    "concept_a": "broken_monetary_transmission",
+    "concept_b": "partial_fiscal_dominance",
+    "mechanism": "Kalecki channel recycles 10-25% of rate-hike contractionary intent back as fiscal stimulus to bondholders, partially offsetting tightening. Conversely, fiscal constraints limit the Fed's ability to raise rates high enough to overcome transmission impairment.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Holds when debt/GDP >100% and the Kalecki channel is active. Relationship strengthens as debt service rises relative to GDP. Weakens if fiscal consolidation reduces deficit spending.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "partial_fiscal_dominance",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "Fiscal credibility concerns drive the long-end of the yield curve to exhibit positive correlation with equities (compounding losses) while the short-end maintains negative correlation (hedging function), expressing the market's differentiated trust in cyclical vs fiscal management.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when fiscal trajectory is perceived as unsustainable at the long end. Would collapse if fiscal consolidation restored long-end credibility. Front-end relationship depends on continued Fed cyclical credibility.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "r_star_estimation_uncertainty",
+    "concept_b": "effective_taylor_rule_coefficient",
+    "mechanism": "R* enters the Taylor rule directly; ±150bp uncertainty in r* propagates into a range of 0.25 to 2.6 for the estimated phi_pi coefficient, creating near-circularity that makes both quantities jointly unidentifiable from observed data alone.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Always holds — this is a fundamental identification problem in macroeconometrics, not regime-dependent. Worsens during periods of structural change when r* is shifting.",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "non_gaap_earnings_masking",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "Non-GAAP adjustments make ~20-25% of monetary policy transmission to corporate profitability invisible to dominant valuation frameworks. Rate-driven costs (restructuring, refinancing, goodwill impairments) are excluded from headline earnings, causing markets to underestimate transmission already occurring.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds during tightening cycles when rate-sensitive adjustments expand. Effect is asymmetric: non-GAAP gap widens during tightening but may not compress symmetrically during easing due to SFAS 142 reflexivity.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "basis_trade_synthetic_qe",
+    "concept_b": "qt_endgame_nonlinear_threshold",
+    "mechanism": "Basis trade absorbs roughly half of QT's intended duration redistribution, functioning as synthetic QE and suppressing the apparent impact of balance sheet reduction. Unwind of basis trade would simultaneously reveal accumulated QT impact and create a Brunnermeier-Pedersen liquidity spiral.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Holds while basis trade is active and growing. Relationship reverses sharply during forced unwind. Depends on repo market functioning and margin requirements remaining stable.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "extended_monetary_transmission_lags",
+    "concept_b": "corporate_debt_maturity_wall",
+    "mechanism": "The 2025-2027 maturity wall ($2.5T) is the most reliable calendar for when full monetary transmission will arrive, as fixed-rate corporate debt insulation (IG WAM ~10.5 years, only 9.5% annual refinancing) is a primary driver of extended lags.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "Holds until the maturity wall passes. The relationship is mechanically determined by debt maturity structure. Weakens for floating-rate or shorter-duration borrowers already exposed to current rates.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "capex_dollar_em_flow_redirection",
+    "concept_b": "three_tier_em_credibility_segmentation",
+    "mechanism": "AI-driven capital flows into US tech equity ($40-60B/month) reduce the pool available for EM allocation, compressing EM carry-to-vol ratios below systematic allocation thresholds. The resulting selectivity amplifies the differentiation between credibility tiers, with Tier 1 capturing disproportionate residual flows.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds during periods of strong US tech outperformance and AI investment boom. Would weaken if AI returns disappoint and capital reallocates. Dollar strength amplifies the effect.",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "forward_guidance_asymmetric_attenuation",
+    "concept_b": "transitional_correlation_regime",
+    "mechanism": "Positive stock-bond correlation causes rate cuts to simultaneously signal weakness (risk-off), validate inflation concerns, and weaken the dollar (importing inflation), partially offsetting intended stimulus and attenuating forward guidance effectiveness by an estimated ~50%.",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Applies only conditional on supply-driven inflation remaining elevated at the time of cutting. If the Fed cuts because inflation is falling, the standard rally mechanism may remain intact. Regime-specific to positive correlation periods.",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "partial_fiscal_dominance",
+    "concept_b": "financial_repression_modal_outcome",
+    "mechanism": "Fiscal dominance, if persistent, most likely resolves through financial repression (4/7 historical base rate) rather than default (0/5 base rate) or hyperinflation (0/5 base rate). The mechanism involves sustained negative real rates, regulatory captive buying, and inflation tolerance above target.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds for own-currency-issuing advanced economies. Historical analogues assumed capital controls and regulated banking, which may not apply under modern capital mobility. UK gilt crisis demonstrated market enforcement of real-rate discipline.",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "opec_fiscal_breakeven_reflexivity",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "OPEC+ fiscal breakeven reflexivity amplifies monetary policy pro-cyclically: during tightening, oil price decline triggers fiscal stress, compliance breakdown, additional supply, further price decline, reinforcing the tightening impulse through the commodity channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activates when oil prices approach or fall below Saudi fiscal breakeven ($85-96/bbl). Operates symmetrically in reverse during easing. Dampened when OPEC+ has large spare capacity buffer.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "gold_structural_credibility_loss",
+    "concept_b": "partial_fiscal_dominance",
+    "mechanism": "Fiscal dominance erodes long-run monetary credibility, driving non-Western central banks to accumulate gold as a reserve diversification hedge. The $400-600/oz residual above real-rate-implied gold prices partly reflects this structural credibility loss, though post-Russia sanctions reserve diversification is a competing explanation.",
+    "direction": "b_causes_a",
+    "confidence": 5,
+    "regime_dependence": "Holds under conditions of persistent fiscal dominance and geopolitical sanctions risk. Competing explanation (post-Russia sanctions diversification) may dominate in the short term. Dollar reserve share decline (59% to 57%) is glacial.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "qt_fiscal_crowding_out_premium",
+    "concept_b": "roic_wacc_spread_compression",
+    "mechanism": "QT-fiscal crowding-out adds 50-100bp to corporate cost of capital embedded in the risk-free rate component rather than appearing as credit spread, making it invisible in standard WACC calculations and compressing the apparent ROIC-WACC spread beyond what is recognized.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds during periods of simultaneous QT and large fiscal deficits requiring substantial private-sector Treasury absorption. Weakens if QT ends or fiscal deficits narrow.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "boj_normalization_shock",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "BoJ normalization could trigger Japanese institutional repatriation from long-duration USTs, amplifying the positive correlation at the long end while leaving short-end dynamics driven by Fed cyclical policy unchanged, widening the maturity-dependent bifurcation.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds if BoJ normalization is rapid rather than gradual. Japanese institutional inertia (historical repatriation ~30% of model-predicted) dampens the effect. Depends on currency hedging economics and BoJ communication.",
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "dollar_weaponization_parallel_channel",
+    "concept_b": "three_tier_em_credibility_segmentation",
+    "mechanism": "Sanctions risk and OFAC compliance burden create a compound geopolitical premium that differentially affects EM central banks based on their exposure to sanctioned trade flows and reliance on dollar-denominated intermediation, reinforcing the tier structure.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds in the current geopolitical configuration with active Western sanctions regimes. Generalizability limited — strongest for economies with direct sanctions exposure, weaker for US allies.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "fx_strategist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "lng_eur_usd_structural_channel",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "The shift to USD-denominated LNG creates a structural channel constraining ECB policy space: gas price spikes simultaneously weaken EUR (current account deterioration) and boost CPI (energy pass-through), creating a double constraint that limits ECB's ability to ease independently of the Fed.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds as long as Europe depends on USD-denominated LNG (~120bcm/year). Would weaken if Europe diversifies LNG sourcing or returns to pipeline gas. Strongest during periods of gas price volatility.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "simultaneous_cuts_qt_unprecedented",
+    "concept_b": "qt_endgame_nonlinear_threshold",
+    "mechanism": "Running QT during an easing cycle creates conflicting signals across channels: front-end easing supports demand while back-end tightening constrains duration supply and trade finance, potentially accelerating the approach to the nonlinear reserve scarcity threshold.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds during the current policy configuration of rate cuts plus QT. The 2019 precedent suggests this combination is unstable. Fed has demonstrated willingness to taper QT (slowed from $60B to $25B/month) which partially mitigates.",
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "sfas_142_goodwill_impairment_mechanism",
+    "concept_b": "non_gaap_earnings_masking",
+    "mechanism": "SFAS 142 goodwill testing mechanically links policy rates to impairment recognition: higher rates lower fair values triggering impairments ($80B+ surge in 2022-23), which are then excluded from non-GAAP earnings, directly inflating the GAAP-to-non-GAAP gap.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds during tightening cycles. Reflexive: rate cuts would mechanically raise fair values, preventing impairment recognition even if underlying cash flows deteriorate, creating a false signal of recovery.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "local_currency_cost_curve_self_defeating",
+    "concept_b": "broken_monetary_transmission",
+    "mechanism": "USD strength lowers EM producer breakevens in local currency, keeping marginal commodity supply online despite USD price pressure. This caps USD commodity prices, preventing the commodity channel from transmitting monetary tightening to US inflation — a self-defeating feedback loop.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds when USD is strengthening and EM producer costs are largely in local currency. Breaks down if commodity demand destruction is severe enough to overwhelm the cost-curve effect.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "broken_monetary_transmission",
+    "concept_b": "extended_monetary_transmission_lags",
+    "mechanism": "The same structural factors that impair transmission (mortgage lock-in, private credit substitution, AI wealth effects) also extend the time horizon over which transmission eventually occurs. The observation is that both phenomena share root causes but are measured on different axes: degree vs timing.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds in the current structural environment of fixed-rate debt dominance, private credit growth, and technology-driven wealth effects. Would weaken in a reversion to floating-rate norms or private credit contraction.",
+    "originating_agents": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "concept_a": "toolkit_bandwidth_compression",
+    "concept_b": "partial_fiscal_dominance",
+    "mechanism": "The fiscal ceiling at ~5.0-5.5% directly compresses the upper bound of the Fed's rate toolkit, while the Kalecki fiscal offset attenuates the impact of whatever rate increases are implemented. Together these reduce effective bandwidth from ~500bp+ to ~155-240bp.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "Holds at current debt/GDP levels (>100%). Bandwidth would expand if fiscal consolidation lowered the ceiling constraint or if debt refinancing reduced the Kalecki offset. Bandwidth compression is cumulative across multiple constraining factors.",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  }
+]

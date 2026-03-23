@@ -1,0 +1,32 @@
+{
+  "slug": "index_concentration_distortion",
+  "definition": "S&P 500 index concentration (top 10 = ~35%) potentially distorts measured stock-bond correlation. Mega-cap tech with exceptional ROIC and net-cash balance sheets may mask the broader S&P 493 already being in robustly positive correlation territory.",
+  "confidence": 5,
+  "evidence": [
+    "equity_analyst_02 bifurcated analogue: mega-cap ≈ 1994-2000, broad market ≈ 1967-1982",
+    "Multiple agents raise the issue but none resolve it empirically",
+    "No agent provides equal-weight SPX correlation test",
+    "Flagged as highest-priority data question for future research"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether equal-weight SPX correlation with bonds looks meaningfully different",
+    "How concentration changes over time affect aggregate correlation measurement"
+  ],
+  "related_concepts": [
+    "cross_asset_valuation_inconsistency",
+    "roic_wacc_compression_convexity",
+    "earnings_quality_amplification"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

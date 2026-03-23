@@ -1,19 +1,20 @@
 {
   "concept_a": "corridor_of_instability",
   "concept_b": "transitional_correlation_regime",
-  "mechanism": "The US occupying the corridor interior (core PCE ~2.7%, deficit ~6.5% GDP) is the structural cause of the transitional regime: inflation moderate enough for CB credibility on the front end (negative 2Y-SPX) but deficits large enough for term premium pressure on the back end (positive 30Y-SPX).",
+  "mechanism": "The two-dimensional corridor (core inflation 2.0-3.5% × fiscal deficit 4.5-7.0% GDP) prevents correlation regime resolution by keeping both demand-dominant and supply-dominant forces active simultaneously. Exit from the corridor on either dimension would resolve the regime.",
   "direction": "a_causes_b",
-  "confidence": 6,
-  "regime_dependence": "Holds only while both parameters remain within the corridor bounds (inflation 2.0-3.5%, deficits 4.5-7.0% GDP). Exiting on either dimension resolves the correlation regime.",
+  "confidence": 6.0,
+  "regime_dependence": "Regime instability occurs only while parameters remain inside the corridor boundaries",
   "originating_agents": [
     "generalist_02"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

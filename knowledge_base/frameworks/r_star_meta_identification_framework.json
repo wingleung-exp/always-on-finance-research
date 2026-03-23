@@ -1,0 +1,25 @@
+{
+  "slug": "r_star_meta_identification_framework",
+  "purpose": "Diagnose the fundamental unidentifiability of the natural rate of interest (r*) and its downstream consequences for monetary policy calibration and cross-asset pricing.",
+  "components": [
+    "Three-model comparison: Laubach-Williams (1.18%), Holston-Laubach-Williams (1.66%), Lubik-Matthes (2.28%) — point estimates spanning 110bp",
+    "Combined 90% CI: [-0.8%, 4.0%] — a 480bp range exceeding the entire policy-relevant range of ~300-400bp",
+    "Downstream identification failure: r* uncertainty propagates into Taylor coefficient estimates (phi_pi ranges 0.25-2.6), making the monetary policy stance unidentifiable",
+    "Cross-asset pricing implication: current asset prices internally consistent only at r* ~2.0-2.5%, with ±100bp CI spanning two entirely different macro regimes"
+  ],
+  "current_assessment": "R* estimation uncertainty is the highest-confidence finding across the entire synthesis (9/10). The uncertainty is not reducible with current econometric methods because it reflects fundamental model uncertainty, not sampling error. This meta-finding undermines all downstream claims dependent on precisely identified monetary policy parameters.",
+  "limitations": [
+    "Framework diagnoses the problem but does not offer a solution",
+    "Alternative identification strategies (narrative analysis, event studies) have not been systematically applied",
+    "The 480bp width assumes independence of model errors, which may overstate total uncertainty",
+    "Does not address whether r* is time-varying in a way that makes the concept itself obsolete"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

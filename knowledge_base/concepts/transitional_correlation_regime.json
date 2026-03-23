@@ -1,7 +1,7 @@
 {
   "slug": "transitional_correlation_regime",
   "definition": "The current stock-bond correlation regime (Q1 2022-Q1 2026) is transitional and unstable, oscillating between -0.2 and +0.4, and has not settled into persistent positive territory. This is the single strongest convergence across all eight independent analytical lenses.",
-  "confidence": 9,
+  "confidence": 9.0,
   "evidence": [
     "Rolling 1-year correlation oscillating between -0.2 and +0.4 since 2022",
     "4-year duration at upper end of monetary-policy-driven transitions (12-36 months) but within fiscal stalemate transitions (5-7 years)",
@@ -9,7 +9,10 @@
     "Two of three conjunction conditions met or approaching per rates_strategist_02",
     "DXY has not broken below 100, preventing correlation lock-in per fx_strategist_01",
     "Index-level valuations price two contradictory macro states simultaneously per equity_analyst_02",
-    "challenger_01 critiques 'oscillating' as unfalsifiable consensus but does not dispute empirical instability"
+    "challenger_01 critiques 'oscillating' as unfalsifiable consensus but does not dispute empirical instability",
+    "Eight independent analytical lenses converge on transitional characterization",
+    "Four-year duration at upper end of monetary-policy-driven transitions (12-36 months) but within fiscal stalemate transitions (5-7 years)",
+    "60/40 demand-dominant vs. supply-dominant probability split estimated by macro_strategist_01"
   ],
   "originating_agents": [
     "generalist_01",
@@ -25,21 +28,27 @@
     "Will the transitional regime persist 1-3 more years (fiscal stalemate analogue) or is resolution imminent?",
     "Does the 'oscillating regime' thesis meet falsifiability standards as challenger_01 demands?",
     "Is a crystallizing event (recession, financial stress) required for resolution, or can a soft landing resolve it?",
-    "How does 50% passive AUM affect the dynamics of regime transition?"
+    "How does 50% passive AUM affect the dynamics of regime transition?",
+    "Is the oscillating regime thesis unfalsifiable as challenger_01 contends?",
+    "Will resolution come from a crystallizing event or gradual parametric drift?",
+    "How long will the transition persist: 1-3 more years (fiscal stalemate analogue) or less?"
   ],
   "related_concepts": [
     "corridor_of_instability",
     "fiscal_stalemate_transition_duration",
     "correlation_signpost_hierarchy",
     "cross_asset_pricing_inconsistency",
-    "demand_supply_shock_correlation_driver"
+    "demand_supply_shock_correlation_driver",
+    "demand_supply_shock_correlation_taxonomy",
+    "correlation_flip_signpost_hierarchy"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

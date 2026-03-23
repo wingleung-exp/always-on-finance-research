@@ -1,32 +1,47 @@
 {
   "slug": "basis_trade_synthetic_qe",
   "definition": "The Treasury cash-futures basis trade at 50-100x leverage (~$800B-$1T current scale) absorbs cash Treasury duration, economically replicating QE at a scale comparable to a medium-sized purchase program. It provides pro-cyclical liquidity that unwinds during stress (March 2020, October 2023), suppressing term premium by an estimated 20-40bp. Scale has grown from $200-300B during QT1 to $800B-$1T currently.",
-  "confidence": 7,
+  "confidence": 6.5,
   "evidence": [
     "Current basis trade size: ~$800B-$1T at 50-100x leverage",
     "Pro-cyclical unwinding during March 2020 and October 2023",
     "Scaling: QT1 $200-300B, COVID $500B, current $800B-$1T",
-    "Identified in pair_0 debate as most important structural observation"
+    "Identified in pair_0 debate as most important structural observation",
+    "Basis trade notional $800B-$1T at 50-100x leverage",
+    "Absorbed roughly half of QT's duration redistribution",
+    "Current notional 3-4x March 2020 level",
+    "March 2020 unwind is sole episode at scale (n=1)",
+    "Brunnermeier-Pedersen liquidity spiral theory provides mechanism"
   ],
   "originating_agents": [
     "rates_strategist_01",
-    "generalist_02"
+    "generalist_02",
+    "quant_researcher_01",
+    "generalist_01",
+    "fx_strategist_02"
   ],
   "open_questions": [
     "What is the threshold at which basis trade unwinding triggers systemic stress?",
-    "How much term premium is being suppressed by basis trade duration absorption?"
+    "How much term premium is being suppressed by basis trade duration absorption?",
+    "What would trigger an unwind at current scale?",
+    "What is the actual term premium suppression magnitude?",
+    "Can the basis trade unwind without systemic contagion given 3-4x larger notional vs 2020?"
   ],
   "related_concepts": [
     "qt_term_premium_channel",
     "compound_duration_absorption",
-    "risk_migration_to_nbfi"
+    "risk_migration_to_nbfi",
+    "qt_endgame_nonlinear_threshold",
+    "simultaneous_cuts_qt_unprecedented",
+    "qe_qt_asymmetry_ratio"
   ],
   "topic": "central_bank_balance_sheets",
   "created_at": "2026-03-23T00:09:57Z",
-  "last_updated": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-23T04:46:43Z",
   "originating_iteration": "iter_0013",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0013"
+    "iter_0013",
+    "iter_0021"
   ]
 }

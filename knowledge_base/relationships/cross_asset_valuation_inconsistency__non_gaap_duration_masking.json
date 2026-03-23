@@ -1,0 +1,19 @@
+{
+  "concept_a": "non_gaap_duration_masking",
+  "concept_b": "cross_asset_valuation_inconsistency",
+  "mechanism": "Non-GAAP practices hide ~30-40% of equity market duration from standard risk models, making the cross-asset inconsistency larger than it appears in standard frameworks. The true equity sensitivity to rate changes is underestimated",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Effect is proportional to the GAAP/non-GAAP gap, which widens during periods of high SBC (tech-heavy market composition)",
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "channel_by_channel_transmission_assessment",
+  "purpose": "Assesses the state of monetary policy transmission through each individual channel to determine the overall degree of transmission impairment under positive correlation",
+  "components": [
+    "Interest rate channel: near-full functionality (rate-sensitive sectors respond)",
+    "Credit channel: moderately impaired by $1.5T+ private credit substitution bypassing bank lending",
+    "Expectations channel: degraded but not broken (forward guidance attenuated 30-50%)",
+    "Asset price channel: partially offset (bond and equity channels can work against each other under positive correlation)",
+    "Overall assessment: 'partially functional' — attenuation, not collapse"
+  ],
+  "current_assessment": "Transmission is impaired but functional. The interest rate channel works, the credit channel leaks through private credit, forward guidance is attenuated 30-50%, and the asset price channel partially self-cancels. The system works well enough to prevent the correlation regime from locking positive but not well enough to drive it clearly negative",
+  "limitations": [
+    "Channel assessments are qualitative rather than precisely quantified",
+    "Channels interact in complex ways not captured by individual assessment",
+    "Private credit channel leakage is a new structural feature with limited data",
+    "Relative importance of channels may shift across the cycle"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

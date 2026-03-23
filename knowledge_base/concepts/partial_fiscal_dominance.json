@@ -1,38 +1,65 @@
 {
   "slug": "partial_fiscal_dominance",
   "definition": "A state where fiscal dynamics partially override monetary policy as the dominant macro force, reflected in maturity-dependent correlation bifurcation. The front end still transmits monetary policy intent (negative 2Y-SPX) while the back end transmits fiscal supply pressure (positive 30Y-SPX). Full fiscal dominance would be signaled by 2Y-SPX turning positive.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
     "Bianchi-Melosi fiscal theory extension of NK model provides theoretical foundation",
     "2Y-SPX negative = monetary credibility; 30Y-SPX positive = fiscal reality",
     "US at ~6.5% deficit/GDP with ~125% debt/GDP and no credible consolidation path",
     "Fiscal dominance makes CB reaction function endogenous (challenger_01)",
-    "Falsifiable prediction: 2Y-SPX turning positive signals transition to full fiscal dominance"
+    "Falsifiable prediction: 2Y-SPX turning positive signals transition to full fiscal dominance",
+    "Maturity bifurcation documented by six independent agents",
+    "Bianchi-Melosi fiscal theory extension of NK model formalizes the mechanism",
+    "Fiscal dominance makes the Taylor Rule reaction function endogenous",
+    "$2T+ annual issuance with no consolidation path is the structural driver",
+    "$36T+ debt with net interest ~$1T/year approaching post-WWII maximum",
+    "Every 100bp generating ~$250-320B incremental debt service",
+    "0/0 base rate for FFR exceeding 5.5% with debt/GDP >100%",
+    "Pause at 5.25-5.50% with core PCE at 4.3% is observable revealed preference",
+    "UK Truss episode (2022) provides quasi-experimental confirmation of market-imposed fiscal discipline",
+    "Kalecki channel recycles 10-25% of rate-hike contractionary intent as fiscal stimulus to bondholders"
   ],
   "originating_agents": [
     "macro_strategist_01",
     "generalist_01",
     "rates_strategist_02",
-    "challenger_01"
+    "challenger_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "risk_analyst_02",
+    "equity_analyst_02",
+    "fx_strategist_02"
   ],
   "open_questions": [
     "What are the precise conditions for transition from partial to full fiscal dominance?",
     "Is partial fiscal dominance reversible without fiscal consolidation?",
     "How does debt/GDP trajectory interact with the degree of fiscal dominance?",
-    "At what point does interest expense as % of revenue make fiscal dominance self-reinforcing?"
+    "At what point does interest expense as % of revenue make fiscal dominance self-reinforcing?",
+    "What specific conditions would trigger the transition from partial to full fiscal dominance?",
+    "Is 2Y-SPX turning positive a reliable signal or could it reflect other dynamics?",
+    "At what debt/GDP ratio does fiscal dominance become irreversible?",
+    "Is the binding constraint structural (fiscal arithmetic) or political (appointment capture, mandate erosion)?",
+    "What are the relative weights of structural vs political drivers?",
+    "Does the Truss analogue apply to the US given reserve currency status?"
   ],
   "related_concepts": [
     "maturity_dependent_correlation_bifurcation",
     "fiscal_correlation_determinant",
     "effective_taylor_rule_coefficient",
-    "term_premium_dynamics"
+    "term_premium_dynamics",
+    "fiscal_correlation_codetermination",
+    "kalecki_fiscal_offset",
+    "financial_repression_modal_outcome",
+    "qt_fiscal_crowding_out_premium"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:46:43Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 3,
   "iteration_history": [
-    "iter_0020"
+    "iter_0020",
+    "iter_0020",
+    "iter_0021"
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "slug": "cross_asset_valuation_inconsistency",
+  "definition": "SPX at 21-22x forward P/E implicitly prices negative correlation (ERP ~4.5-5.0% consistent with bonds-as-hedge). Under persistent positive correlation, required ERP rises 50-100bp, implying fair value of 18-19x — a 10-15% gap. Credit spreads add a third inconsistency.",
+  "confidence": 7,
+  "evidence": [
+    "IG OAS ~90-110bp implies near-zero recession probability",
+    "Equity valuations lagged correlation regime shifts by 18-36 months in every prior transition",
+    "Nifty Fifty valuations persisted 4+ years into 1968 positive regime",
+    "Pair_0 debate concluded mispricing is real but should not be expected to resolve quickly",
+    "Three resolution paths: equities derate, bonds rally confirming equity bet, or inconsistency persists"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Whether different investor bases with different models can sustain the inconsistency indefinitely",
+    "Timing of resolution — base rate suggests 18-36 month lag"
+  ],
+  "related_concepts": [
+    "positive_correlation_return_distinction",
+    "roic_wacc_compression_convexity",
+    "non_gaap_duration_masking"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

@@ -1,26 +1,26 @@
 [
   {
-    "concept_a": "demand_supply_shock_correlation_driver",
+    "concept_a": "demand_supply_shock_correlation_taxonomy",
     "concept_b": "transitional_correlation_regime",
-    "mechanism": "The current ambiguous shock mix (residual supply-side inflation persistence + demand softening) prevents either demand or supply dynamics from dominating, producing the observed oscillating transitional regime with rolling correlation between -0.2 and +0.4.",
+    "mechanism": "The current mixed shock environment (residual supply-side inflation + demand softening) prevents either demand-dominant or supply-dominant regime from locking in, producing the observed oscillation between -0.2 and +0.4 correlation",
     "direction": "a_causes_b",
     "confidence": 9,
-    "regime_dependence": "Always holds — the correlation regime is by definition a function of the dominant shock type. When one shock clearly dominates, the regime resolves.",
+    "regime_dependence": "Holds when shock mix is ambiguous; resolves when one shock type clearly dominates",
     "originating_agents": [
       "macro_strategist_01",
-      "generalist_01",
-      "generalist_02"
+      "generalist_02",
+      "rates_strategist_02"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
     "concept_a": "inflation_expectations_anchoring",
-    "concept_b": "demand_supply_shock_correlation_driver",
-    "mechanism": "Anchored expectations flatten the Phillips Curve, allowing the Fed to look through supply shocks (correlation stays negative). De-anchored expectations steepen the curve, forcing the Fed to tighten into weakness, converting supply shocks into positive correlation drivers.",
+    "concept_b": "demand_supply_shock_correlation_taxonomy",
+    "mechanism": "Anchored inflation expectations flatten the Phillips Curve, allowing the Fed to look through supply shocks (producing negative correlation). De-anchored expectations steepen the Phillips Curve, forcing the Fed to tighten into weakness (producing positive correlation). Expectations anchoring determines the effective shock classification.",
     "direction": "a_causes_b",
     "confidence": 8,
-    "regime_dependence": "Critical at the boundary: 5Y breakevens at 2.3-2.5% near the upper edge of the anchored band. A breach above 3.5% sustained for 2-3 quarters could flip the dominant shock classification.",
+    "regime_dependence": "Holds across all regimes; the anchoring state determines which regime prevails",
     "originating_agents": [
       "macro_strategist_01",
       "rates_strategist_02",
@@ -30,42 +30,27 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "fiscal_correlation_determinant",
-    "concept_b": "term_premium_dynamics",
-    "mechanism": "Fiscal deficits drive Treasury supply ($2T+ annual issuance), which pushes up term premium (80-130bp adjusted), while petrodollar erosion and BOJ normalization reduce price-insensitive demand, amplifying the supply effect on term premium.",
-    "direction": "a_causes_b",
-    "confidence": 8,
-    "regime_dependence": "Strengthens as deficits exceed ~4.5% GDP and foreign demand declines. Would attenuate if fiscal consolidation occurred or if new price-insensitive buyers emerged.",
-    "originating_agents": [
-      "macro_strategist_01",
-      "rates_strategist_02",
-      "fx_strategist_01"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "term_premium_dynamics",
+    "concept_a": "fiscal_correlation_codetermination",
     "concept_b": "maturity_dependent_correlation_bifurcation",
-    "mechanism": "Elevated term premium drives positive 30Y-SPX correlation while the 2Y, dominated by policy rate expectations, maintains negative SPX correlation. The bifurcation is the direct observable expression of term premium driven by fiscal supply vs. policy-rate driven by CB credibility.",
+    "mechanism": "Fiscal supply pressure ($2T+/year issuance) drives term premium at the long end, producing positive 30Y-SPX correlation, while front-end rates still reflect monetary policy expectations (negative 2Y-SPX correlation). The bifurcation is a direct manifestation of partial fiscal dominance.",
     "direction": "a_causes_b",
     "confidence": 8,
-    "regime_dependence": "Holds under partial fiscal dominance. Would collapse (both positive) under full fiscal dominance when term premium effects dominate even the front end.",
+    "regime_dependence": "Holds under partial fiscal dominance; under full fiscal dominance, the bifurcation would collapse as 2Y-SPX also turns positive",
     "originating_agents": [
       "generalist_01",
-      "rates_strategist_02",
-      "macro_strategist_01"
+      "macro_strategist_01",
+      "rates_strategist_02"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "roic_wacc_compression",
+    "concept_a": "roic_wacc_spread_compression",
     "concept_b": "cross_asset_pricing_inconsistency",
-    "mechanism": "Compressed ROIC-WACC spreads (~3.5-5.0pp) make equity earnings 1.5-2.0x more rate-sensitive than in prior episodes, amplifying the fundamental channel through which rising rates damage equities and widening the gap between equity valuations (negative correlation assumption) and rate market pricing (positive correlation signal).",
+    "mechanism": "Compressed ROIC-WACC spreads make equity valuations ~1.5-2.0x more sensitive to rate increases through the fundamental earnings channel. This amplifies the contradiction between equity markets pricing negative correlation (bonds as insurance) and rates markets pricing positive correlation (term premium), because the fundamental damage from positive correlation is larger than historical analogues.",
     "direction": "a_causes_b",
     "confidence": 8,
-    "regime_dependence": "Amplifies under positive correlation regime where rates and equities move together. Less relevant under negative correlation (rates falling as equities fall, supporting EVA).",
+    "regime_dependence": "Amplification effect is strongest when spreads are compressed (<5pp); at wider spreads (>8pp), the relationship weakens",
     "originating_agents": [
       "equity_analyst_02",
       "generalist_01"
@@ -74,12 +59,52 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "effective_taylor_rule_coefficient",
-    "concept_b": "partial_fiscal_dominance",
-    "mechanism": "Fiscal dominance makes the central bank reaction function endogenous: the Fed cannot credibly commit to φ_π > 1.5 when rate hikes increase the deficit via interest expense on $35T+ debt, reducing the effective coefficient to ~1.0-1.2 and creating partial fiscal dominance.",
-    "direction": "bidirectional",
+    "concept_a": "corporate_debt_maturity_wall",
+    "concept_b": "roic_wacc_spread_compression",
+    "mechanism": "As $2.5T of ZIRP-era debt refinances at 5.5-6.5% (vs. original 2.5-3.5% coupon), incremental interest expense mechanically compresses ROIC-WACC spreads further, particularly for the S&P 493. This creates a time-stamped, foreseeable amplifier of equity rate sensitivity.",
+    "direction": "a_causes_b",
     "confidence": 7,
-    "regime_dependence": "Strengthens as debt/GDP rises and deficit increases. Higher debt service burden further constrains the effective coefficient. A fiscal consolidation would break the feedback loop.",
+    "regime_dependence": "Concentrated in 2025-2027 maturity window; attenuated if Fed cuts rates significantly or private credit absorbs refinancing",
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "concept_a": "corridor_of_instability",
+    "concept_b": "transitional_correlation_regime",
+    "mechanism": "The two-dimensional corridor (core inflation 2.0-3.5% × fiscal deficit 4.5-7.0% GDP) prevents correlation regime resolution by keeping both demand-dominant and supply-dominant forces active simultaneously. Exit from the corridor on either dimension would resolve the regime.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Regime instability occurs only while parameters remain inside the corridor boundaries",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "concept_a": "fiscal_stalemate_transition_duration",
+    "concept_b": "transitional_correlation_regime",
+    "mechanism": "The structural standoff between fiscal expansion and monetary tightening extends correlation transitions to 5-7 years (vs. 12-36 months for clean monetary transitions). The current 4-year transition is within the fiscal stalemate analogue range, suggesting 1-3 more years.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds when fiscal and monetary authorities are pulling in opposite directions; resolves if policy alignment occurs",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "concept_a": "broken_monetary_transmission",
+    "concept_b": "effective_taylor_rule_coefficient",
+    "mechanism": "When the asset price channel works counterproductively (AI rally loosening conditions despite hiking), the effective Taylor coefficient is reduced because rate hikes do not transmit to financial conditions as expected. The Fed's revealed preference coefficient of 1.0-1.2 partly reflects this transmission breakdown.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest when equity market rallies are driven by factors orthogonal to monetary policy (e.g., AI)",
     "originating_agents": [
       "rates_strategist_02",
       "challenger_01"
@@ -88,25 +113,12 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "broken_monetary_transmission",
-    "concept_b": "transitional_correlation_regime",
-    "mechanism": "Partially broken transmission (especially the counterproductive asset price channel where AI rally counteracted tightening) prevents the correlation regime from resolving because the Fed's tools are less effective at shifting the demand/supply shock balance, keeping the economy in the ambiguous zone.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Most binding when equity wealth effects offset rate tightening, as during the 2023-2025 AI rally period. Would attenuate if equity valuations corrected, restoring the asset price channel.",
-    "originating_agents": [
-      "rates_strategist_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "fiscal_correlation_determinant",
+    "concept_a": "fiscal_correlation_codetermination",
     "concept_b": "kalecki_levy_fiscal_earnings_paradox",
-    "mechanism": "The same fiscal expansion that pushes term premium higher (positive correlation) simultaneously flows into corporate profits through the Kalecki-Levy accounting identity (~$400-600B/year), supporting near-term earnings and masking the underlying valuation inconsistency.",
+    "mechanism": "The same fiscal deficits ($2T+/year) that drive term premium higher (pushing long-end correlation positive) also channel ~$400-600B annually into corporate profits, sustaining near-term earnings. The earnings resilience and the multiple compression share a single fiscal cause.",
     "direction": "a_causes_b",
     "confidence": 6,
-    "regime_dependence": "Holds as long as fiscal deficits remain above ~4% GDP. Would reverse under fiscal consolidation, reducing earnings but potentially restoring negative correlation.",
+    "regime_dependence": "Operates whenever fiscal deficits are large enough to materially affect both Treasury supply and corporate profit pools (roughly >4% GDP)",
     "originating_agents": [
       "equity_analyst_02"
     ],
@@ -114,26 +126,39 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "corporate_debt_maturity_wall",
-    "concept_b": "roic_wacc_compression",
-    "mechanism": "Refinancing $2.5T at 300bp+ higher coupons directly increases WACC for the S&P 493, further compressing already-tight ROIC-WACC spreads and amplifying equity rate sensitivity through the fundamental earnings channel.",
+    "concept_a": "partial_fiscal_dominance",
+    "concept_b": "effective_taylor_rule_coefficient",
+    "mechanism": "Fiscal dominance makes the central bank reaction function endogenous: the Fed cannot credibly commit to φ_π > 1.5 when rate hikes increase interest expense on $35T+ debt, potentially destabilizing the fiscal trajectory. This constrains the effective coefficient to ~1.0-1.2.",
     "direction": "a_causes_b",
     "confidence": 7,
-    "regime_dependence": "Time-stamped: concentrated 2025-2027. Impact diminishes if rates fall materially before peak refinancing or if private credit substitution absorbs a significant portion.",
+    "regime_dependence": "Binding when debt/GDP is high enough that interest expense is a material share of the budget (current ~125% debt/GDP)",
     "originating_agents": [
-      "equity_analyst_02",
-      "generalist_01"
+      "challenger_01",
+      "rates_strategist_02"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "usdjpy_carry_trade_accelerator",
+    "concept_a": "geopolitical_correlation_ratchet",
+    "concept_b": "fiscal_correlation_codetermination",
+    "mechanism": "Geopolitical escalation triggers immediate and permanent fiscal commitments (defense spending, supply chain duplication, sanctions compliance infrastructure) that expand the structural fiscal deficit, reinforcing fiscal-driven positive correlation pressure.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Activated by geopolitical escalation events; the fiscal commitment persists even after the triggering event partially normalizes",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "concept_a": "usdjpy_carry_trade_acceleration",
     "concept_b": "transitional_correlation_regime",
-    "mechanism": "Large carry trade positioning ($500B-$1T) can convert gradual correlation shifts into abrupt regime flips through forced deleveraging cascades hitting both equity and bond markets simultaneously, as demonstrated in July 2024 (VIX to 38, correlation to +0.5).",
+    "mechanism": "Large carry trade positioning ($500B-$1T) converts gradual correlation shifts into abrupt flips through forced deleveraging. Yen strengthening triggers margin calls on yen-funded positions that simultaneously hit equity and bond markets, producing rapid positive correlation spikes.",
     "direction": "a_causes_b",
     "confidence": 6,
-    "regime_dependence": "Activated by BOJ tightening or yen appreciation shocks. Effect is episodic (days to weeks) rather than continuous. July 2024 provides the calibration event.",
+    "regime_dependence": "Operative when USD/JPY carry positioning is large and BOJ is normalizing; amplifier effect rather than independent cause",
     "originating_agents": [
       "fx_strategist_01",
       "rates_strategist_02"
@@ -142,27 +167,16 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "corridor_of_instability",
-    "concept_b": "transitional_correlation_regime",
-    "mechanism": "The US occupying the corridor interior (core PCE ~2.7%, deficit ~6.5% GDP) is the structural cause of the transitional regime: inflation moderate enough for CB credibility on the front end (negative 2Y-SPX) but deficits large enough for term premium pressure on the back end (positive 30Y-SPX).",
-    "direction": "a_causes_b",
-    "confidence": 6,
-    "regime_dependence": "Holds only while both parameters remain within the corridor bounds (inflation 2.0-3.5%, deficits 4.5-7.0% GDP). Exiting on either dimension resolves the correlation regime.",
+    "concept_a": "cross_asset_pricing_inconsistency",
+    "concept_b": "bimodal_correlation_distribution",
+    "mechanism": "The inconsistency between equity pricing (assuming negative correlation) and rates/term premium pricing (reflecting positive correlation) is the market-observable manifestation of the bimodal distribution. Different asset classes price different modes of the distribution.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Persists as long as the regime is transitional and the distribution remains bimodal",
     "originating_agents": [
-      "generalist_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "geopolitical_correlation_ratchet",
-    "concept_b": "fiscal_correlation_determinant",
-    "mechanism": "Geopolitical escalation triggers permanent fiscal commitments (defense spending, supply chain duplication, sanctions compliance) that structurally increase deficits and Treasury supply, reinforcing the fiscal channel of positive correlation with no symmetric de-escalation offset.",
-    "direction": "a_causes_b",
-    "confidence": 5,
-    "regime_dependence": "Cumulative and irreversible: each geopolitical escalation adds to the fiscal burden. De-escalation does not remove sunk commitments. Accelerates under multiple simultaneous geopolitical tensions.",
-    "originating_agents": [
-      "risk_analyst_02"
+      "generalist_01",
+      "macro_strategist_01",
+      "equity_analyst_02"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
@@ -170,10 +184,10 @@
   {
     "concept_a": "equity_concentration_correlation_illusion",
     "concept_b": "cross_asset_pricing_inconsistency",
-    "mechanism": "If index-level correlation primarily reflects mega-cap tech correlation with bonds (driven by ~35% market cap concentration), the apparent cross-asset pricing inconsistency may be less severe at the economy-wide level than index-level analysis suggests.",
+    "mechanism": "If index-level correlation primarily reflects mega-cap tech behavior rather than broad equity dynamics, the apparent cross-asset pricing inconsistency may be partially explained by market-cap-weighting artifacts rather than genuine mispricing across asset classes.",
     "direction": "a_causes_b",
-    "confidence": 5,
-    "regime_dependence": "Depends on concentration levels (currently ~35% top-10 weight). Would matter less if concentration declines or if mega-cap tech loses its duration characteristics.",
+    "confidence": 7,
+    "regime_dependence": "Effect is proportional to market concentration; currently ~35% in top 10 stocks, exceeding historical norms",
     "originating_agents": [
       "challenger_01",
       "equity_analyst_02"
@@ -183,11 +197,11 @@
   },
   {
     "concept_a": "positive_correlation_trade_crowding",
-    "concept_b": "bimodal_correlation_distribution",
-    "mechanism": "Crowded positioning for positive correlation creates asymmetric resolution risk: if positioning unwinds, the negative correlation tail of the bimodal distribution receives a higher probability weight than fundamentals alone would suggest, introducing a contrarian bias.",
+    "concept_b": "transitional_correlation_regime",
+    "mechanism": "Crowded positioning for positive correlation creates contrarian asymmetry: if a growth shock materializes or positioning unwinds, the forced covering amplifies the negative correlation move. The crowding may explain why the regime oscillates rather than locking into positive territory.",
     "direction": "a_causes_b",
-    "confidence": 6,
-    "regime_dependence": "Most relevant during transition periods when positioning can overshoot or undershoot fundamental correlation. Less relevant during stable regimes.",
+    "confidence": 7,
+    "regime_dependence": "Relevant when positioning surveys and options skew indicate crowded directional bets; attenuated when positioning is balanced",
     "originating_agents": [
       "challenger_01"
     ],
@@ -195,94 +209,14 @@
     "iteration_id": "iter_0020"
   },
   {
-    "concept_a": "soft_landing_correlation_resolution",
-    "concept_b": "transitional_correlation_regime",
-    "mechanism": "The zero historical base rate for soft-landing correlation resolution (0/5 episodes) suggests the transitional regime will persist until some form of growth shock or financial stress occurs, extending the expected duration and requiring monitoring of the signpost hierarchy for early warning.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Historical pattern from 5 episodes. May not hold if current environment is structurally novel (50% passive AUM, AI productivity, unique fiscal configuration).",
-    "originating_agents": [
-      "generalist_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "treasury_basis_trade_fragility",
-    "concept_b": "portfolio_risk_correlation_instability",
-    "mechanism": "The basis trade at $800B-$1T+ with 50-100x leverage creates acute fragility during correlation transitions: forced unwinding would simultaneously stress Treasury and equity markets, amplifying the correlation shift through deleveraging cascades with no historical precedent for this leverage during a transition.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Risk increases with leverage and trade size. Most dangerous during rapid correlation shifts where margin calls cascade across asset classes.",
-    "originating_agents": [
-      "generalist_01"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "r_star_level_shift",
-    "concept_b": "bimodal_correlation_distribution",
-    "mechanism": "Higher r* restores two-sided rate risk (rates can both rise and fall meaningfully), structurally shifting the unconditional correlation toward zero and increasing the probability weight on the positive-correlation mode relative to the post-GFC near-zero-r* baseline.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Permanent structural shift if r* remains elevated. Would reverse if secular stagnation dynamics reassert and r* falls back toward zero.",
-    "originating_agents": [
-      "macro_strategist_01"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
     "concept_a": "sbc_hidden_equity_duration",
-    "concept_b": "roic_wacc_compression",
-    "mechanism": "Excluding SBC from non-GAAP earnings understates the true WACC sensitivity of equity values by ~25-35%, meaning the already-compressed ROIC-WACC spread is even more dangerous than headline metrics suggest when measured on a true economic cost basis including SBC duration.",
+    "concept_b": "roic_wacc_spread_compression",
+    "mechanism": "Excluding SBC from non-GAAP earnings systematically understates the true WACC burden on equity valuations by ~25-35%, making the already-compressed ROIC-WACC spread appear wider than its economic reality. This compounds the fundamental rate sensitivity.",
     "direction": "a_causes_b",
     "confidence": 6,
-    "regime_dependence": "Concentrated in tech sector where SBC is highest (~$180-200B annual S&P 500 aggregate). Impact scales with SBC/revenue ratios and market multiple levels.",
+    "regime_dependence": "Most impactful for tech-heavy indices where SBC/revenue ratios are highest",
     "originating_agents": [
       "equity_analyst_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "forward_guidance_asymmetric_attenuation",
-    "concept_b": "broken_monetary_transmission",
-    "mechanism": "Dovish guidance losing ~50% potency under positive correlation while hawkish guidance retains full effect is a specific manifestation of the broader transmission breakdown, creating an asymmetric policy tool less effective when easing is most needed.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Only holds under positive or transitional correlation regimes. Under stable negative correlation, dovish guidance should retain full potency as rate cuts signal both lower discount rates and supportive conditions.",
-    "originating_agents": [
-      "rates_strategist_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "phillips_curve_slope",
-    "concept_b": "inflation_expectations_anchoring",
-    "mechanism": "The Phillips Curve slope and inflation expectations anchoring interact dynamically: anchored expectations flatten the curve, while a steep curve puts more pressure on expectations to de-anchor under supply shocks, creating a potential feedback loop at the boundary.",
-    "direction": "bidirectional",
-    "confidence": 6,
-    "regime_dependence": "Most critical at the boundary of anchoring (5Y breakevens 2.3-2.5%). If expectations de-anchor, the curve steepens, which puts further pressure on expectations — a potential nonlinear transition.",
-    "originating_agents": [
-      "macro_strategist_01",
-      "rates_strategist_02"
-    ],
-    "topic": "rates_equity_correlation",
-    "iteration_id": "iter_0020"
-  },
-  {
-    "concept_a": "recession_tail_underweighting",
-    "concept_b": "bimodal_correlation_distribution",
-    "mechanism": "The 25-30% unconditional recession probability in any 18-month window heavily favors the demand-dominant (negative correlation) mode of the bimodal distribution, since correlation goes sharply negative in every recession since 1990, potentially making the 55-60% Regime D probability weight understated.",
-    "direction": "a_causes_b",
-    "confidence": 7,
-    "regime_dependence": "Always relevant as a background base rate. Becomes more critical when leading indicators (ISM, claims, credit spreads) begin activating in the signpost hierarchy.",
-    "originating_agents": [
-      "challenger_01",
-      "macro_strategist_01"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"

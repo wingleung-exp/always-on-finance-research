@@ -1,0 +1,34 @@
+{
+  "slug": "convexity_based_hedging",
+  "definition": "Portfolio construction should shift 10-15% from nominal duration toward convexity-based hedging including trend-following (CTA), long volatility, and real assets (TIPS, gold, commodity producers). Under positive/unstable correlation, only strategies with positive convexity in both tails provide genuine diversification.",
+  "confidence": 7,
+  "evidence": [
+    "2022: SG CTA Index +20% while 60/40 lost ~16%",
+    "TIPS at 2.3-2.5% real yield provide inflation protection",
+    "Contrarian TLT call overlay exploits elevated put skew",
+    "Ordinal ranking (short-duration > long-duration equities, real > nominal bonds) is high conviction",
+    "10-15% reallocation magnitude is 'a judgment call, not a derived optimum'"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "challenger_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Execution details add 200-300bp uncertainty to Sharpe estimates",
+    "Whether CTA strategies remain effective if correlation oscillation becomes the norm"
+  ],
+  "related_concepts": [
+    "positive_correlation_return_distinction",
+    "vol_targeting_amplification",
+    "earnings_quality_amplification"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

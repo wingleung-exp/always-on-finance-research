@@ -1,0 +1,32 @@
+{
+  "slug": "fiscal_correlation_feedback_loop",
+  "definition": "A potential self-reinforcing doom loop where positive correlation → higher term premium → larger deficits (interest expense) → more long-end pressure → more positive correlation. Alternatively, a self-correcting mechanism where financial conditions tightening slows the economy and reduces deficits through automatic stabilizers.",
+  "confidence": 5,
+  "evidence": [
+    "Identified by generalist_01 as 'most important unanswered question'",
+    "Neither agent in any pair attempted to resolve this",
+    "Flagged in pair_0 debate as the critical gap",
+    "Direction of feedback loop has massive implications for regime stability"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the loop is self-reinforcing (explosive) or self-correcting (stable)",
+    "Empirical tests to distinguish between doom loop and stabilization dynamics",
+    "Time horizon over which the feedback loop operates"
+  ],
+  "related_concepts": [
+    "fiscal_trajectory_correlation_driver",
+    "maturity_dependent_correlation_bifurcation",
+    "vol_targeting_amplification"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

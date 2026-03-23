@@ -1,0 +1,25 @@
+{
+  "slug": "bimodal_mixture_model",
+  "purpose": "Provides an explicit probability-weighted model of the correlation distribution for portfolio construction, showing why unconditional correlation estimates are misleading",
+  "components": [
+    "Regime D (demand-dominant): 55-60% probability, correlation -0.30 to -0.50",
+    "Regime S (supply-dominant): 40-45% probability, correlation +0.20 to +0.40",
+    "Unconditional average: approximately -0.06 (near zero)",
+    "Critical insight: distribution is bimodal, invalidating mean-variance optimization with the unconditional estimate"
+  ],
+  "current_assessment": "More actionable for portfolio construction than conjunction triggers. Unconditional near-zero correlation is robust to ±0.15 perturbations in regime weights. Regime probabilities are calibrated judgment rather than model output. Portfolio optimization using the unconditional correlation would be suboptimal.",
+  "limitations": [
+    "Regime probabilities are calibrated judgment, not derived from a formal model",
+    "Two-regime assumption may be oversimplified (transitional subregimes exist)",
+    "Does not specify transition dynamics between regimes",
+    "Weights may not be stable over the 2-3 year forecast horizon"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:25:42Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

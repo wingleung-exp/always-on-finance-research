@@ -1,0 +1,32 @@
+{
+  "slug": "roic_wacc_compression_convexity",
+  "definition": "ROIC-WACC spread compression from ~6-8pp (2020-21) to ~4-5pp currently creates nonlinear equity sensitivity to rate changes. At a 4pp spread, a 1pp WACC increase destroys ~25% of economic profit vs ~10% at a 10pp spread, making the equity market structurally more rate-sensitive.",
+  "confidence": 7,
+  "evidence": [
+    "Mathematical relationship is definitional (not model-dependent)",
+    "Pair_1 debate rated this 'genuinely useful reframing'",
+    "Rates now damage equity fundamentals (earnings) not just valuations (P/E)",
+    "Next equity downturn potentially more rate-sensitive than any since 1970s"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether mega-cap tech with high ROIC is immune to this dynamic",
+    "How quickly ROIC-WACC spreads can re-expand in a rate-cutting cycle"
+  ],
+  "related_concepts": [
+    "corporate_debt_maturity_wall",
+    "cross_asset_valuation_inconsistency",
+    "non_gaap_duration_masking"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

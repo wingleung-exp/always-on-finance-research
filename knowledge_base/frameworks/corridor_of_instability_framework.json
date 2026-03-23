@@ -7,22 +7,31 @@
     "Below corridor on inflation (<2.0%) OR deficit (<4.5% declining): negative correlation dominates",
     "Above corridor on inflation (>3.5-4.0% sustained): positive correlation locks in",
     "Inside corridor: structurally unstable, oscillating correlation with maturity bifurcation",
-    "Current US position: core PCE ~2.7%, deficit ~6.5% GDP — interior of corridor"
+    "Current US position: core PCE ~2.7%, deficit ~6.5% GDP — interior of corridor",
+    "Core inflation dimension: <2.0% → negative correlation stable; 2.0-3.5% → unstable; >4.0% → positive correlation locks in",
+    "Fiscal deficit dimension: <4.0% declining → negative correlation; 4.5-7.0% → unstable; potentially higher → positive locks in",
+    "Current US position: core PCE ~2.7%, deficit ~6.5% GDP (inside corridor)",
+    "Exit conditions: movement outside corridor on either dimension resolves regime"
   ],
-  "current_assessment": "More operationally useful than unidimensional inflation focus per pair_0. The US occupying the corridor interior explains the 4-year oscillating regime. Movement requires either inflation breaking above 3.5%, fiscal consolidation below 4.5%, or a crystallizing event.",
+  "current_assessment": "More operationally useful than unidimensional inflation focus. The US clearly occupies the corridor. Parameter boundaries carry ±1pp uncertainty. The concept is more robust than the specific numerical boundaries. Derived from 4 G10 episodes.",
   "limitations": [
     "Derived from only 4 G10 episodes — small sample for parameter calibration",
     "Parameter boundaries carry ±1pp uncertainty",
     "Does not account for structural differences across economies (currency issuer vs. user, reserve currency status)",
     "The concept is more robust than the specific numerical boundaries",
-    "Does not specify transition dynamics when exiting the corridor"
+    "Does not specify transition dynamics when exiting the corridor",
+    "Parameter boundaries derive from small sample (4 G10 episodes)",
+    "±1pp boundary uncertainty is significant relative to corridor width",
+    "Does not specify dynamics within the corridor (path dependency)",
+    "May not account for structural breaks (AI productivity, passive investing)"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

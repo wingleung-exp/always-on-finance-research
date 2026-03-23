@@ -1,0 +1,31 @@
+{
+  "slug": "fci_mismeasurement",
+  "definition": "Financial conditions indices systematically mismeasure the policy stance under positive correlation, understating tightening by the equivalent of the portfolio vol increase (~40-46%). 60/40 vol rises from ~8.4% (ρ=-0.30) to ~12.3% (ρ=+0.30), triggering deleveraging not captured by standard FCI measures.",
+  "confidence": 6,
+  "evidence": [
+    "46% portfolio vol increase arithmetic is uncontested",
+    "Triggers VaR-based deleveraging, risk-parity rebalancing, pension ALM pressure",
+    "Not captured by Goldman FCI, Chicago Fed NFCI, or Bloomberg FCI",
+    "Pair_2 debate upgraded assessment: 'logic is tighter than confidence score reflected'"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Whether the Fed accounts for this mismeasurement informally",
+    "Precise magnitude of mismeasurement vs its existence"
+  ],
+  "related_concepts": [
+    "vol_targeting_amplification",
+    "forward_guidance_attenuation",
+    "taylor_rule_inflation_coefficient"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

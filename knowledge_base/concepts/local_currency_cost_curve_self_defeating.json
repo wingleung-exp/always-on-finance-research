@@ -1,0 +1,31 @@
+{
+  "slug": "local_currency_cost_curve_self_defeating",
+  "definition": "USD strength creates a self-defeating tightening mechanism for commodity-channel transmission: dollar appreciation lowers EM producer breakevens in local currency terms, keeping marginal supply online, capping USD commodity prices, and preventing the commodity channel from transmitting monetary tightening.",
+  "confidence": 6,
+  "evidence": [
+    "USD strength reduces EM producer breakevens in local currency",
+    "Marginal commodity supply stays online despite USD price pressure",
+    "Caps USD commodity prices, preventing commodity-channel transmission"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "At what USD strength level does this mechanism break down?",
+    "Does this apply equally across all commodity categories?",
+    "How does it interact with OPEC+ fiscal breakeven dynamics?"
+  ],
+  "related_concepts": [
+    "broken_monetary_transmission",
+    "opec_fiscal_breakeven_reflexivity",
+    "capex_dollar_em_flow_redirection"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

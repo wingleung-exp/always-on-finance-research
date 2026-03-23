@@ -1,0 +1,27 @@
+{
+  "slug": "cross_asset_pricing_inconsistency_framework",
+  "purpose": "Identify mutually inconsistent monetary policy outcomes currently priced across asset classes, revealing where markets disagree and where repricing is most likely.",
+  "components": [
+    "Equities pricing soft landing with continued AI earnings growth (r* ~2.5-3.0% implied)",
+    "Credit spreads pricing benign default environment (investment-grade spreads ~50bp above rate models)",
+    "Rates market pricing ~100bp of cuts with terminal ~3.4-3.7%",
+    "Gold pricing structural monetary credibility loss ($400-600/oz residual above real-rate model)",
+    "Dollar pricing technology capital flows rather than interest rate differentials",
+    "Credit-equity basis: equity-implied spreads 20-40bp wider than actual credit spreads"
+  ],
+  "current_assessment": "Multiple asset classes cannot simultaneously be correct. The cross-asset pricing is internally consistent only at r* ~2.0-2.5%, but each asset class embeds different assumptions about AI productivity, fiscal trajectory, and transmission timing. The resolution will produce a repricing cascade across whichever assets are wrong. Gold and equities present the widest divergence from each other's implied macro scenarios.",
+  "limitations": [
+    "Framework identifies inconsistency but cannot determine which asset class is correct",
+    "Inconsistencies can persist for extended periods (12-18+ months) without resolution",
+    "Private credit ($1.7T) may absorb risk not visible in public market pricing",
+    "Each asset class may be pricing different time horizons, making apparent inconsistency partly an artifact of horizon mismatch"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

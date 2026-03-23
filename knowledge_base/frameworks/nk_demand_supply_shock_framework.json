@@ -1,0 +1,26 @@
+{
+  "slug": "nk_demand_supply_shock_framework",
+  "purpose": "Determines the structural correlation sign between stocks and bonds based on the relative variance of demand versus supply shocks filtered through the central bank reaction function",
+  "components": [
+    "New Keynesian three-equation model (IS, Phillips Curve, Taylor Rule)",
+    "Demand shock channel: growth fears → rate cuts → countercyclical bonds → negative correlation",
+    "Supply shock channel: cost-push inflation → discount rate repricing → positive correlation",
+    "Shock mix estimation: currently ~55-60% supply-driven (down from ~75% in 2022)",
+    "Central bank reaction function determines whether supply shocks are accommodated or offset"
+  ],
+  "current_assessment": "Current shock mix is roughly balanced with slight supply-side tilt, producing oscillating correlation. The framework correctly predicted the 2022 positive correlation episode and the subsequent partial normalization",
+  "limitations": [
+    "Difficult to decompose shock mix in real time",
+    "Assumes the central bank reaction function is observable and stable",
+    "Does not account for fiscal channel separately from monetary channel",
+    "Binary demand/supply classification may miss hybrid shocks"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

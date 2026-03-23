@@ -1,20 +1,21 @@
 {
   "concept_a": "equity_concentration_correlation_illusion",
   "concept_b": "cross_asset_pricing_inconsistency",
-  "mechanism": "If index-level correlation primarily reflects mega-cap tech correlation with bonds (driven by ~35% market cap concentration), the apparent cross-asset pricing inconsistency may be less severe at the economy-wide level than index-level analysis suggests.",
+  "mechanism": "If index-level correlation primarily reflects mega-cap tech behavior rather than broad equity dynamics, the apparent cross-asset pricing inconsistency may be partially explained by market-cap-weighting artifacts rather than genuine mispricing across asset classes.",
   "direction": "a_causes_b",
-  "confidence": 5,
-  "regime_dependence": "Depends on concentration levels (currently ~35% top-10 weight). Would matter less if concentration declines or if mega-cap tech loses its duration characteristics.",
+  "confidence": 6.0,
+  "regime_dependence": "Effect is proportional to market concentration; currently ~35% in top 10 stocks, exceeding historical norms",
   "originating_agents": [
     "challenger_01",
     "equity_analyst_02"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

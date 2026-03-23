@@ -1,0 +1,42 @@
+{
+  "slug": "qt_endgame_nonlinear_threshold",
+  "definition": "QT endgame is a nonlinear threshold event where the reserve scarcity threshold is unknowable ex ante. The September 2019 repo spike occurred when the Fed's own model estimated the threshold at ~$0.8T vs actual ~$1.5T — a 2x miss. The base rate for full balance sheet normalization after QE is 0/3.",
+  "confidence": 8,
+  "evidence": [
+    "September 2019 repo spike: SOFR to 5.25% intraday from ~2.0%",
+    "Fed's 2x model miss on scarcity threshold ($0.8T estimated vs $1.5T actual)",
+    "Current reserves ~$3.2-3.4T within Fed's $2.5-3.5T comfort range — a $1T uncertainty band",
+    "0/3 base rate for full balance sheet normalization post-QE",
+    "Top 8 banks hold ~50% of reserves creating distributional concentration risk",
+    "March 2023 SVB demonstrated stress at aggregate-ample reserves",
+    "Standing Repo Facility untested at scale (zero stress-test episodes)"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_01",
+    "equity_analyst_02",
+    "fx_strategist_02",
+    "commodities_analyst_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "What is the actual reserve scarcity threshold?",
+    "Can the Standing Repo Facility prevent a 2019-style dislocation?",
+    "Probability of funding dislocation within 18 months: 5-15% (revised down from 15-25%)"
+  ],
+  "related_concepts": [
+    "basis_trade_synthetic_qe",
+    "simultaneous_cuts_qt_unprecedented",
+    "qe_qt_asymmetry_ratio"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

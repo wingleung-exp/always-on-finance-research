@@ -1,0 +1,31 @@
+{
+  "slug": "three_way_cross_asset_disagreement",
+  "definition": "A three-way inconsistency exists across asset classes: equities price negative correlation and no recession (21-22x P/E), bonds price positive correlation and term premium (high yields), and credit prices neither recession nor correlation stress (IG OAS ~90-110bp). This extends beyond the standard stocks-vs-bonds framing.",
+  "confidence": 7,
+  "evidence": [
+    "Rated 'most original contribution' in pair_0 debate",
+    "Each asset class reflects a different investor base with different models",
+    "Historical base rate: cross-asset disagreements can persist for years",
+    "Resolution requires one or more markets to reprice"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Which market reprices first and in which direction",
+    "Whether the inconsistency is arbitrageable or reflects genuinely different information"
+  ],
+  "related_concepts": [
+    "cross_asset_valuation_inconsistency",
+    "positive_correlation_return_distinction",
+    "vol_targeting_amplification"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

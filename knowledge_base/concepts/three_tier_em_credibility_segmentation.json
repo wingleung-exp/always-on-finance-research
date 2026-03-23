@@ -1,0 +1,30 @@
+{
+  "slug": "three_tier_em_credibility_segmentation",
+  "definition": "EM central banks segment into three credibility tiers: Tier 1 (Brazil BCB, Mexico Banxico, Czech CNB — credible with demonstrated willingness to maintain high real rates), Tier 2 (India RBI, Indonesia BI — credible but FX-constrained), Tier 3 (Turkey TCMB, Argentina BCRA — politically subordinated). These tiers map to differentiated IIF portfolio flows.",
+  "confidence": 6,
+  "evidence": [
+    "Observable IIF flow patterns differentiated by tier",
+    "Observable policy behavior across central banks",
+    "Brazil Selic at 14.25% with only ~4.5% inflation demonstrates Tier 1 credibility"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "How stable are tier boundaries?",
+    "What triggers migration between tiers?",
+    "Does the framework adequately capture China's unique position?"
+  ],
+  "related_concepts": [
+    "capex_dollar_em_flow_redirection",
+    "dollar_weaponization_parallel_channel"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

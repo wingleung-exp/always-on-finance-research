@@ -1,7 +1,7 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7.67,
+  "confidence": 7.75,
   "evidence": [
     "S&P ~21x forward P/E requires ~4.0% unemployment consumption levels",
     "Rates pricing 75-100bp of easing implies labor softening",
@@ -18,7 +18,12 @@
     "IG credit spreads at ~90-110bp price near-zero probability of regime where Fed cannot aggressively ease",
     "Gold at all-time highs prices inflation/monetary regime uncertainty",
     "Mega-cap tech implies ERP of 2.0-3.0% while S&P 493 implies 5.0-6.5% — index ERP is averaging artifact",
-    "Historical base rate: equity valuations lag correlation regime shifts by 18-36 months, possibly extended to 36-60 months by ~50% passive AUM"
+    "Historical base rate: equity valuations lag correlation regime shifts by 18-36 months, possibly extended to 36-60 months by ~50% passive AUM",
+    "S&P 500 ERP of ~4.0-4.5% justifiable only under negative correlation assumption",
+    "ACM term premium at +50-80bp inconsistent with bonds-as-insurance",
+    "Mega-cap tech implies ERP of 2.0-3.0% while S&P 493 implies 5.0-6.5% — index ERP is an averaging artifact",
+    "IG credit spreads at ~90-110bp near post-GFC tights",
+    "Historical base rate: equity valuations lag correlation regime shifts by 18-36 months"
   ],
   "originating_agents": [
     "generalist_01",
@@ -38,7 +43,10 @@
     "Is the equity market mispriced or does it reflect an informed forward-looking view of inflation normalization?",
     "Will resolution come through equity repricing, rates repricing, or correlation reassertion?",
     "Does 50% passive AUM structurally delay repricing?",
-    "Does equity market concentration create a correlation illusion that overstates the inconsistency at the economy-wide level?"
+    "Does equity market concentration create a correlation illusion that overstates the inconsistency at the economy-wide level?",
+    "Is the equity market mispricing or making an informed forward-looking bet on negative correlation reassertion?",
+    "Which market will reprice — equities down or rates/term premium down?",
+    "Does passive investing (~50% AUM) extend the repricing lag to 36-60 months?"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
@@ -54,16 +62,19 @@
     "roic_wacc_compression",
     "transitional_correlation_regime",
     "passive_investing_repricing_lag",
-    "kalecki_levy_fiscal_earnings_paradox"
+    "kalecki_levy_fiscal_earnings_paradox",
+    "roic_wacc_spread_compression",
+    "bimodal_correlation_distribution"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0003",
     "iter_0015",
+    "iter_0020",
     "iter_0020"
   ]
 }

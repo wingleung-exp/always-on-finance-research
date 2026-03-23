@@ -1,35 +1,56 @@
 {
   "slug": "effective_taylor_rule_coefficient",
   "definition": "The Fed's effective Taylor Rule inflation coefficient (φ_π_eff) has diverged from stated values, estimated at ~1.0-1.2 via revealed preference (pausing at 5.25-5.50% with core PCE 4.3%, cutting with core PCE 2.7%), compared to textbook 1.5-2.0. The Taylor Principle is barely satisfied, making the correlation sign more shock-dependent than models assuming credible aggressive central bank would suggest.",
-  "confidence": 7,
+  "confidence": 6.33,
   "evidence": [
     "Backward estimation from actual Fed behavior: pause and cut points reveal φ_π_eff of ~1.0-1.2",
     "pair_2 judged this stronger than macro_strategist_01's textbook calibration",
     "Fiscal dominance makes reaction function endogenous: Fed cannot credibly commit to φ_π >1.5 when rate hikes increase deficit on $35T+ debt",
-    "Specific coefficient estimate carries ±0.2 uncertainty"
+    "Specific coefficient estimate carries ±0.2 uncertainty",
+    "Backward estimation from actual Fed behavior vs. textbook calibrations",
+    "Fiscal dominance makes the reaction function endogenous — Fed cannot credibly commit to φ_π > 1.5 when rate hikes blow up deficit via interest on $35T+ debt",
+    "Contrasts with textbook 1.5 (Taylor 1993) or 2.0 (Taylor 1999)",
+    "Pair_2 judged this stronger than textbook calibration approach",
+    "phi_pi ranges from 0.25 to 2.6 depending on assumed r*",
+    "r* uncertain by ±150bp creating near-circularity in estimation",
+    "Fed pause at 5.25-5.50% with core PCE at 4.3% consistent with low coefficient",
+    "pair_2 debate confirmed identification problem as near-fatal for precision"
   ],
   "originating_agents": [
     "rates_strategist_02",
-    "challenger_01"
+    "challenger_01",
+    "quant_researcher_01",
+    "generalist_01"
   ],
   "open_questions": [
     "Is the ±0.2 uncertainty range understated given measurement challenges?",
     "Is the endogenous reaction function temporary (cyclical) or permanent (structural)?",
     "How does the effective coefficient change under different fiscal trajectories?",
-    "Does the coefficient vary between tightening and easing cycles (asymmetric response)?"
+    "Does the coefficient vary between tightening and easing cycles (asymmetric response)?",
+    "What is the precise coefficient estimate (±0.2 uncertainty)?",
+    "Has the effective coefficient shifted permanently or cyclically?",
+    "Does fiscal dominance structurally prevent the coefficient from returning above 1.5?",
+    "Can narrative FOMC transcript analysis narrow the identification?",
+    "Can event-study methodology around surprise decisions help identify phi_pi?",
+    "Is the concept of a single coefficient meaningful given regime-dependence?"
   ],
   "related_concepts": [
     "demand_supply_shock_correlation_driver",
     "fiscal_correlation_determinant",
     "partial_fiscal_dominance",
-    "broken_monetary_transmission"
+    "broken_monetary_transmission",
+    "fiscal_correlation_codetermination",
+    "demand_supply_shock_correlation_taxonomy",
+    "r_star_estimation_uncertainty"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:46:43Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 3,
   "iteration_history": [
-    "iter_0020"
+    "iter_0020",
+    "iter_0020",
+    "iter_0021"
   ]
 }

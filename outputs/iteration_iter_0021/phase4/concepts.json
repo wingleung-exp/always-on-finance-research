@@ -1,0 +1,802 @@
+[
+  {
+    "slug": "broken_monetary_transmission",
+    "definition": "Monetary policy transmission is materially impaired with the financial conditions paradox historically unprecedented (1/7 tightening cycles since 1980). Goldman FCI eased ~100bp equivalent despite 525bp of hikes, concentrated in the equity/wealth-effect channel where AI rally added $10-15T in market cap, producing wealth effects that exceeded tightening impulse.",
+    "confidence": 8,
+    "evidence": [
+      "Goldman FCI eased ~100bp equivalent despite 525bp of hikes",
+      "1/7 historical base rate for FCI easing during tightening (14%, 95% CI: [0.4%, 58%])",
+      "85%+ of outstanding mortgages below 5% creating mortgage lock-in with no pre-2020 parallel",
+      "AI wealth effect of $10-15T documented in market data and TIC flows",
+      "Stripping equities from FCI, remaining components show tightening consistent with prior cycles",
+      "Channel effectiveness: interest rate ~60%, credit ~80%, exchange rate ~50%, asset-price negative",
+      "2004-06 Conundrum closest analogue (7.5/10 similarity), resolved discontinuously with IG spreads 50bp to 600bp+"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "equity_analyst_02",
+      "fx_strategist_02",
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Is the break qualitatively novel (reversed channel) or a more severe version of historical episodes?",
+      "Does resolution depend on AI equity normalization or structural toolkit reform?",
+      "What is the most likely resolution path — historical pattern suggests longer broken leads to more violent reconnection"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "non_gaap_earnings_masking",
+      "fci_effective_stance_gap",
+      "extended_monetary_transmission_lags",
+      "basis_trade_synthetic_qe",
+      "toolkit_bandwidth_compression"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "partial_fiscal_dominance",
+    "definition": "Fiscal constraints are already limiting the Fed's reaction function with an implicit rate ceiling at ~5.0-5.5%. With $36T+ debt, every 100bp generates ~$250-320B in incremental debt service, net interest at ~$1T/year (~3.3% GDP). A self-referential loop operates: rate hikes raise debt service, widen deficit, increase Treasury supply, and push up term premium.",
+    "confidence": 8,
+    "evidence": [
+      "$36T+ debt with net interest ~$1T/year approaching post-WWII maximum",
+      "Every 100bp generating ~$250-320B incremental debt service",
+      "0/0 base rate for FFR exceeding 5.5% with debt/GDP >100%",
+      "Pause at 5.25-5.50% with core PCE at 4.3% is observable revealed preference",
+      "UK Truss episode (2022) provides quasi-experimental confirmation of market-imposed fiscal discipline",
+      "Kalecki channel recycles 10-25% of rate-hike contractionary intent as fiscal stimulus to bondholders"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "risk_analyst_02",
+      "equity_analyst_02",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Is the binding constraint structural (fiscal arithmetic) or political (appointment capture, mandate erosion)?",
+      "What are the relative weights of structural vs political drivers?",
+      "Does the Truss analogue apply to the US given reserve currency status?"
+    ],
+    "related_concepts": [
+      "effective_taylor_rule_coefficient",
+      "maturity_dependent_correlation_bifurcation",
+      "kalecki_fiscal_offset",
+      "financial_repression_modal_outcome",
+      "qt_fiscal_crowding_out_premium"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "qt_endgame_nonlinear_threshold",
+    "definition": "QT endgame is a nonlinear threshold event where the reserve scarcity threshold is unknowable ex ante. The September 2019 repo spike occurred when the Fed's own model estimated the threshold at ~$0.8T vs actual ~$1.5T — a 2x miss. The base rate for full balance sheet normalization after QE is 0/3.",
+    "confidence": 8,
+    "evidence": [
+      "September 2019 repo spike: SOFR to 5.25% intraday from ~2.0%",
+      "Fed's 2x model miss on scarcity threshold ($0.8T estimated vs $1.5T actual)",
+      "Current reserves ~$3.2-3.4T within Fed's $2.5-3.5T comfort range — a $1T uncertainty band",
+      "0/3 base rate for full balance sheet normalization post-QE",
+      "Top 8 banks hold ~50% of reserves creating distributional concentration risk",
+      "March 2023 SVB demonstrated stress at aggregate-ample reserves",
+      "Standing Repo Facility untested at scale (zero stress-test episodes)"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "equity_analyst_02",
+      "fx_strategist_02",
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "What is the actual reserve scarcity threshold?",
+      "Can the Standing Repo Facility prevent a 2019-style dislocation?",
+      "Probability of funding dislocation within 18 months: 5-15% (revised down from 15-25%)"
+    ],
+    "related_concepts": [
+      "basis_trade_synthetic_qe",
+      "simultaneous_cuts_qt_unprecedented",
+      "qe_qt_asymmetry_ratio"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "r_star_estimation_uncertainty",
+    "definition": "R* estimation uncertainty spans ~480bp in combined 90% CIs across three leading models (Laubach-Williams, Holston-Laubach-Williams, Lubik-Matthes), exceeding the entire policy-relevant range of ~300-400bp. The Fed cannot statistically determine whether policy is restrictive, neutral, or accommodative within ±150bp, rendering r* near-useless for real-time calibration.",
+    "confidence": 9,
+    "evidence": [
+      "Three models produce point estimates ranging from 1.18% to 2.28%",
+      "Combined 90% CIs span [-0.8%, 4.0%] — a 480bp width",
+      "Policy-relevant range is only ~300-400bp, narrower than the CI",
+      "Current cross-asset pricing internally consistent only at r* ~2.0-2.5%",
+      "Published model outputs directly verifiable from NY Fed, SF Fed, and Richmond Fed public data"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can alternative identification strategies (narrative FOMC transcript analysis, event-study methodology) narrow the range?",
+      "Is r* even a useful construct for policy given the estimation uncertainty?"
+    ],
+    "related_concepts": [
+      "effective_taylor_rule_coefficient",
+      "bimodal_terminal_rate_distribution",
+      "cross_asset_pricing_inconsistency",
+      "fci_effective_stance_gap"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "extended_monetary_transmission_lags",
+    "definition": "Monetary policy transmission lags have structurally extended to 1.5-2x the post-1990 median. The 2022 cycle is now 36+ months with unemployment increase of only ~+0.3pp vs the +0.5pp threshold. Multiple mechanisms converge: fixed-rate corporate debt insulation, private credit opacity, Kalecki fiscal offset, mortgage lock-in, and labor hoarding.",
+    "confidence": 7,
+    "evidence": [
+      "36+ months since first hike with delta unemployment only +0.3pp",
+      "IG weighted-average maturity ~10.5 years up from ~7.5 in 2010, only ~9.5% of stock refinances annually",
+      "Private credit at $1.7T AUM with mark-to-model valuations deferring impairment 6-12 months",
+      "Kalecki fiscal offset of $400-600B annual deficit-to-profit channel",
+      "Quits rate fell from 3.0% to 2.1% without layoff spikes (labor hoarding)",
+      "Maturity wall of $2.5T in 2025-2027 as most reliable calendar for full transmission"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "equity_analyst_02",
+      "generalist_02",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will the 2025-2027 maturity wall force discontinuous transmission?",
+      "Is the 1.5-2x quantification reliable given n=7 and overdetermined causation?",
+      "How much of the extended lag is cyclical vs structurally permanent?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "non_gaap_earnings_masking",
+      "corporate_debt_maturity_wall",
+      "opec_fiscal_breakeven_reflexivity"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "non_gaap_earnings_masking",
+    "definition": "Non-GAAP earnings adjustments expanded 40-60% during the tightening cycle, with the S&P 500 GAAP-to-non-GAAP gap widening from ~$18-22/share (2020-21) to ~$28-38/share (2024-25E). Restructuring charges doubled, refinancing costs tripled, goodwill impairments nearly tripled — each directly traceable to rate increases, making ~20-25% of monetary transmission invisible to dominant valuation frameworks.",
+    "confidence": 8,
+    "evidence": [
+      "S&P 500 GAAP-to-non-GAAP gap: $18-22/share (2020-21) to $28-38/share (2024-25E)",
+      "Restructuring charges: $5 to $10/share",
+      "Refinancing costs: $2 to $6/share",
+      "Goodwill impairments: $3 to $8/share",
+      "Non-GAAP P/E ~21-22x vs GAAP P/E ~26-29x",
+      "Data directly observable in company filings and verifiable from FactSet/S&P Capital IQ",
+      "Confirmed as most empirically grounded insight in pair_1 debate"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How will the gap resolve — compression of non-GAAP or recognition in GAAP?",
+      "Does the gap carry information about future earnings revisions?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "sfas_142_goodwill_impairment_mechanism",
+      "roic_wacc_spread_compression",
+      "qt_fiscal_crowding_out_premium"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "The 2Y-SPX correlation at -0.25 to -0.35 vs 30Y-SPX at +0.05 to +0.15 reflects a fiscal credibility split. Markets trust the Fed on short-term cyclical management (2Y hedges work) but not on long-term fiscal sustainability (30Y compounds losses). This bifurcation is the yield curve's expression of partial fiscal dominance.",
+    "confidence": 7,
+    "evidence": [
+      "2Y-SPX correlation at -0.25 to -0.35 directly observable in market data",
+      "30Y-SPX correlation at +0.05 to +0.15 directly observable",
+      "Agreed in pair_0 debate without challenge"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Will the bifurcation widen further with fiscal deterioration?",
+      "At what point does the front-end hedge also break down?"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "transitional_correlation_regime",
+      "boj_normalization_shock"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "fci_effective_stance_gap",
+    "definition": "The current FCI-implied effective monetary policy stance is substantially looser than the nominal FFR of 4.25-4.50%, though the precise gap is unquantifiable. The direction is almost certainly correct but specific estimates (e.g., 150-250bp gap) are pseudo-precise because channels are nonlinear, interact, and operate on different time horizons.",
+    "confidence": 6,
+    "evidence": [
+      "All evidence points to effective policy being looser than nominal FFR",
+      "Goldman FCI easing despite 525bp of hikes",
+      "Specific 150-250bp quantification refuted in pair_0 debate as dimensionally confused",
+      "Cannot multiply policy rate by scalar transmission efficiency due to channel nonlinearity"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Can alternative measurement approaches quantify the gap without channel-linearity assumptions?",
+      "Does the gap narrow if AI equity valuations normalize?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "r_star_estimation_uncertainty",
+      "toolkit_bandwidth_compression"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "bimodal_terminal_rate_distribution",
+    "definition": "The terminal rate distribution may be bimodal (AI bust scenario ~2.0-2.5% vs AI productivity scenario ~4.5-5.0%), making the consensus ~3.4-3.7% potentially the least informative price. Equity valuation is convex in the discount rate, making single-point DCFs systematically biased. However, intermediate AI productivity scenarios are plausible given S-curve adoption patterns.",
+    "confidence": 5,
+    "evidence": [
+      "Equity valuation convexity in discount rate is mathematical",
+      "Wide uncertainty in AI productivity impact on r*",
+      "Technology adoption historically follows S-curves with gradual productivity gains",
+      "Capex-to-revenue ratio of 4-6x misleading for infrastructure with 5-10+ year return horizons"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does AI adoption follow S-curves making intermediate scenarios likely?",
+      "Is the specific -3-5% valuation adjustment from bimodality defensible?",
+      "How should portfolio construction account for bimodality?"
+    ],
+    "related_concepts": [
+      "r_star_estimation_uncertainty",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "financial_repression_modal_outcome",
+    "definition": "Financial repression is the modal long-horizon outcome for resolving fiscal dominance, with a historical base rate of 4/7 episodes producing repression and 0/5 for default/hyperinflation in own-currency-issuing advanced economies. However, modern capital mobility may constrain this path compared to historical episodes under capital controls.",
+    "confidence": 5,
+    "evidence": [
+      "4/7 historical fiscal dominance episodes produced financial repression",
+      "0/5 for default or hyperinflation in own-currency issuers",
+      "UK gilt crisis (2022) demonstrated markets can enforce real-rate discipline even on own-currency issuers",
+      "Historical sample conflates capital controls/regulated banking with modern capital mobility"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Do modern capital mobility conditions invalidate historical analogues?",
+      "What form would financial repression take in current institutional context?",
+      "Is the 50% probability estimate defensible or does modern capital mobility reduce it?"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "gold_structural_credibility_loss"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "boj_normalization_shock",
+    "definition": "BoJ normalization represents a major underpriced exogenous risk for global rates markets, with Japanese institutional repatriation historically ~30% of model-predicted and domestic political constraints (JGB-dependent bank balance sheets ¥150T, pension fund exposure ¥350T+). First-principles construction yields 7-18bp UST term premium impact under gradual normalization.",
+    "confidence": 6,
+    "evidence": [
+      "Japanese institutional repatriation historically ~30% of model-predicted",
+      "JGB-dependent bank balance sheets with ~¥150T exposure",
+      "Pension fund duration losses ¥350T+ exposure",
+      "Currency hedging economics dampen flow impact",
+      "7-18bp UST term premium impact under gradual normalization (quant_researcher_01)",
+      "15-30bp represents upper bound under rapid normalization"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "What is the pace and terminal level of BoJ normalization?",
+      "How much repatriation will actually occur vs model predictions?",
+      "Can domestic political constraints prevent normalization entirely?"
+    ],
+    "related_concepts": [
+      "maturity_dependent_correlation_bifurcation",
+      "usdjpy_carry_trade_acceleration"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "capex_dollar_em_flow_redirection",
+    "definition": "The capex dollar phenomenon redirects $40-60B/month in capital flows into US tech equity during what should be an EM-favorable Fed easing cycle. IIF EM portfolio flows are roughly flat (~$5-10B/month) vs ~$25B/month during 2019 easing. Carry-to-vol compression to ~0.3-0.4 sits below the ~0.5 threshold for systematic EM carry allocation.",
+    "confidence": 6,
+    "evidence": [
+      "TIC data: $40-60B/month net equity inflows concentrated in US tech",
+      "IIF EM flows flat to marginally positive vs ~$25B/month during 2019 easing",
+      "Carry-to-vol compression to ~0.3-0.4 below ~0.5 systematic allocation threshold",
+      "Global portfolio managers choosing 20-40% US tech returns over 300-500bp EM carry"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the dollar-EM relationship direct substitution or are EM-specific factors independently at work?",
+      "How long can the capex dollar persist if AI returns moderate?",
+      "Does this represent a structural break in the Fed-easing-to-EM-inflows channel?"
+    ],
+    "related_concepts": [
+      "three_tier_em_credibility_segmentation",
+      "dollar_cycle_persistence",
+      "broken_monetary_transmission"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "forward_guidance_asymmetric_attenuation",
+    "definition": "Forward guidance effectiveness is asymmetrically attenuated under the current positive stock-bond correlation regime. Rate cuts simultaneously signal economic weakness, validate inflation concerns, and weaken the dollar (importing inflation), partially offsetting intended stimulus. The Fed put effective strike price is lower than consensus assumes.",
+    "confidence": 6,
+    "evidence": [
+      "Logical mechanism under positive correlation: rate cuts trigger risk-off, inflation validation, and dollar weakness simultaneously",
+      "~50% attenuation estimate (indicative, not calibrated)",
+      "Applies conditional on supply-driven inflation remaining elevated at time of cutting"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does this apply only conditional on supply-driven inflation remaining elevated?",
+      "If Fed cuts because inflation is falling, does the rally mechanism remain intact?",
+      "Can the ~50% attenuation be empirically calibrated?"
+    ],
+    "related_concepts": [
+      "transitional_correlation_regime",
+      "broken_monetary_transmission",
+      "toolkit_bandwidth_compression"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "opec_fiscal_breakeven_reflexivity",
+    "definition": "OPEC+ fiscal breakeven reflexivity creates a pro-cyclical amplifier for monetary policy. Saudi breakeven has risen to $85-96/bbl. Below $75 oil, fiscal stress triggers compliance breakdown, increasing supply, further depressing prices, and amplifying monetary tightening. The reverse operates symmetrically, amplifying easing.",
+    "confidence": 7,
+    "evidence": [
+      "Saudi fiscal breakeven at $85-96/bbl",
+      "Reflexive loop documented across 4+ cycles with IMF fiscal breakeven data",
+      "Sub-$75 oil triggers fiscal stress, compliance breakdown, additional supply, further price decline",
+      "Reverse loop operates symmetrically for price increases"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "At what specific oil price does the reflexive loop trigger for each major OPEC+ producer?",
+      "How quickly does compliance break down under fiscal stress?",
+      "Does US shale production cap the upside of the reflexive loop?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "extended_monetary_transmission_lags"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "basis_trade_synthetic_qe",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) functions as synthetic QE suppressing term premium by an estimated ~20-40bp, having absorbed roughly half the duration QT was supposed to redistribute. Current notional is 3-4x the March 2020 level. Unwind risk follows Brunnermeier-Pedersen liquidity spiral dynamics.",
+    "confidence": 6,
+    "evidence": [
+      "Basis trade notional $800B-$1T at 50-100x leverage",
+      "Absorbed roughly half of QT's duration redistribution",
+      "Current notional 3-4x March 2020 level",
+      "March 2020 unwind is sole episode at scale (n=1)",
+      "Brunnermeier-Pedersen liquidity spiral theory provides mechanism"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "What would trigger an unwind at current scale?",
+      "What is the actual term premium suppression magnitude?",
+      "Can the basis trade unwind without systemic contagion given 3-4x larger notional vs 2020?"
+    ],
+    "related_concepts": [
+      "qt_endgame_nonlinear_threshold",
+      "simultaneous_cuts_qt_unprecedented",
+      "qe_qt_asymmetry_ratio"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "three_tier_em_credibility_segmentation",
+    "definition": "EM central banks segment into three credibility tiers: Tier 1 (Brazil BCB, Mexico Banxico, Czech CNB — credible with demonstrated willingness to maintain high real rates), Tier 2 (India RBI, Indonesia BI — credible but FX-constrained), Tier 3 (Turkey TCMB, Argentina BCRA — politically subordinated). These tiers map to differentiated IIF portfolio flows.",
+    "confidence": 6,
+    "evidence": [
+      "Observable IIF flow patterns differentiated by tier",
+      "Observable policy behavior across central banks",
+      "Brazil Selic at 14.25% with only ~4.5% inflation demonstrates Tier 1 credibility"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "How stable are tier boundaries?",
+      "What triggers migration between tiers?",
+      "Does the framework adequately capture China's unique position?"
+    ],
+    "related_concepts": [
+      "capex_dollar_em_flow_redirection",
+      "dollar_weaponization_parallel_channel"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "simultaneous_cuts_qt_unprecedented",
+    "definition": "Simultaneous rate cuts plus QT is structurally unprecedented at this scale. QT only existed as a tool for 2 of 9 post-1970 easing cycles, and the only prior attempt (2019) was abandoned within months. The net financial conditions impact is ambiguous because rate cuts and QT operate through partially distinct channels.",
+    "confidence": 7,
+    "evidence": [
+      "QT existed for only 2 of 9 post-1970 easing cycles",
+      "2019 attempt abandoned within months",
+      "Rate cuts and QT operate through partially distinct channels",
+      "Corrected framing (1/2 vs misleading 1/9) is actually more alarming"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Can rate cuts and QT coexist sustainably if they operate through distinct channels?",
+      "What signal would indicate the combination is failing?",
+      "At what QT pace does the conflict with rate cuts become binding?"
+    ],
+    "related_concepts": [
+      "qt_endgame_nonlinear_threshold",
+      "basis_trade_synthetic_qe",
+      "broken_monetary_transmission"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "qt_fiscal_crowding_out_premium",
+    "definition": "Combined $2.7-3.3T annual private-sector Treasury absorption (QT runoff ~$720B + net new issuance ~$2.0-2.6T) is 5-6x the QE-era level, adding an estimated 50-100bp to corporate cost of capital above what the policy rate implies. IG corporate yield (5.3-5.8%) exceeds standard models of default probability plus risk-free rate by this amount.",
+    "confidence": 5,
+    "evidence": [
+      "$2.7-3.3T annual private-sector Treasury absorption",
+      "5-6x QE-era level of absorption",
+      "IG corporate yield 50-100bp above standard model predictions"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How much of the 50-100bp residual is crowding-out vs global risk aversion or dollar liquidity premium?",
+      "Is the premium sensitive to QT pace changes?",
+      "Does private credit absorb some of this pressure?"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "roic_wacc_spread_compression",
+      "basis_trade_synthetic_qe"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "lng_eur_usd_structural_channel",
+    "definition": "Europe's shift to ~120bcm/year of USD-denominated LNG from EUR-denominated Russian pipeline gas created ~$40-50B/year in structural USD demand, shifting TTF-EUR/USD correlation from r=-0.15 to r=-0.45. Gas price spikes now simultaneously weaken EUR and boost CPI, creating a double constraint on ECB easing.",
+    "confidence": 5,
+    "evidence": [
+      "~120bcm/year LNG import shift to USD denomination",
+      "~$40-50B/year new structural USD demand",
+      "TTF-EUR/USD correlation shifted from r=-0.15 to r=-0.45",
+      "Recognized as genuinely novel in pair_1 debate"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Needs validation from FX and macro specialists",
+      "Is the correlation shift permanent or will it moderate as LNG supply diversifies?",
+      "How does this interact with ECB's ability to diverge from Fed policy?"
+    ],
+    "related_concepts": [
+      "capex_dollar_em_flow_redirection",
+      "opec_fiscal_breakeven_reflexivity"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "gold_structural_credibility_loss",
+    "definition": "Gold at $3,000+ may price structural loss of monetary policy credibility rather than a cyclical real-rate trade. The gold-real rate relationship (historically r~-0.85 against 10Y TIPS) has broken down since 2022 with a $400-600/oz residual. Central bank buying at 1,000+ tonnes/year (2-3x the 2010-2021 average) is the dominant driver.",
+    "confidence": 5,
+    "evidence": [
+      "Gold-real rate relationship breakdown since 2022 with $400-600/oz residual",
+      "Central bank buying 1,000+ tonnes/year, 2-3x 2010-2021 average",
+      "Buying concentrated in non-Western central banks",
+      "Dollar reserve share declined only from ~59% to ~57%"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Is the driver fiscal dominance or post-Russia sanctions reserve diversification?",
+      "How much of the residual is explained by sanctions-driven buying alone?",
+      "Is the glacial pace of dollar reserve decline inconsistent with structural shift narrative?"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "dollar_weaponization_parallel_channel",
+      "financial_repression_modal_outcome"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "fed_framework_review_event_risk",
+    "definition": "The Fed's 2025-2026 framework review is potentially mispriced event risk. SEP longer-run dot dispersion has widened from ~50bp to ~125bp+, revealing genuine contradictions. However, the historical base rate for framework reviews producing meaningful changes is low, with institutional inertia favoring the non-event outcome (~50% probability).",
+    "confidence": 4,
+    "evidence": [
+      "SEP longer-run dot dispersion widened from ~50bp to ~125bp+",
+      "Genuine contradictions in current framework exist",
+      "Historical base rate for meaningful framework review outcomes is low"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Will institutional inertia dominate?",
+      "Could the review produce meaningful changes to the inflation target or framework?",
+      "Is the risk mispriced in the dovish or hawkish direction?"
+    ],
+    "related_concepts": [
+      "partial_fiscal_dominance",
+      "r_star_estimation_uncertainty",
+      "effective_taylor_rule_coefficient"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "china_monetary_fiscal_base_metals_driver",
+    "definition": "China's monetary/fiscal policy mix may be the single most important driver of base metals outcomes. China holds ~55% of global copper consumption and is rotating from construction-heavy steel consumption (-2-3%/yr) toward copper-intensive applications (+4-6%/yr via grid investment, EVs, data centers).",
+    "confidence": 5,
+    "evidence": [
+      "China ~55% of global copper consumption",
+      "Rotation from construction steel (-2-3%/yr) to copper-intensive grid/EV/AI (+4-6%/yr)",
+      "Supported by customs data and industry sources",
+      "China credit impulse independently flagged by fx_strategist_02 as underweighted EM factor"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Needs broader corroboration for single most important framing",
+      "How does China's property sector downturn offset copper-intensive investment?",
+      "What are the implications for copper supply adequacy at scale?"
+    ],
+    "related_concepts": [
+      "capex_dollar_em_flow_redirection"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "credit_equity_basis_signal",
+    "definition": "The credit-equity basis (equity-implied spreads 20-40bp wider than actual credit spreads via Merton-model conversion) may signal credit market overoptimism. The 2006-07 historical pattern saw this basis resolve via credit widening. However, timing is unreliable (can persist 12-18+ months) and private credit may absorb risk that historically appeared in public credit.",
+    "confidence": 4,
+    "evidence": [
+      "Observable 20-40bp basis between equity-implied and actual credit spreads",
+      "Merton-model conversion is theoretically sound",
+      "2006-07 precedent resolved via credit widening",
+      "Private credit at $1.7T may absorb risk historically in public markets"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does private credit at $1.7T structurally change the signal's reliability?",
+      "What is the expected timing for resolution?",
+      "Can the basis persist indefinitely in the new market structure?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "broken_monetary_transmission"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "dollar_weaponization_parallel_channel",
+    "definition": "Dollar weaponization via OFAC compliance burdens and self-sanctioning by global banks creates a parallel monetary transmission channel bypassing central banks. OFAC compliance functions as a de facto regulatory tax on cross-border intermediation, reducing credit lines to non-sanctioned economies.",
+    "confidence": 5,
+    "evidence": [
+      "OFAC compliance burden observable as regulatory cost",
+      "Self-sanctioning behavior by global banks documented",
+      "Russia precedent demonstrates the mechanism at scale",
+      "Generalizability challenged — Russia case applies to comprehensively sanctioned countries, not US allies"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "How significant is this for mainstream monetary transmission vs only comprehensively sanctioned countries?",
+      "Does self-sanctioning extend meaningfully beyond directly sanctioned entities?",
+      "How does this interact with de-dollarization trends?"
+    ],
+    "related_concepts": [
+      "gold_structural_credibility_loss",
+      "three_tier_em_credibility_segmentation"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "toolkit_bandwidth_compression",
+    "definition": "The Fed's effective toolkit bandwidth has compressed to ~155-240bp (from ~500bp+ in 2019), combining the fiscal ceiling constraint (cannot raise above ~5.5%), transmission attenuation (channels operating at 50-80% efficiency), and positive correlation effects (cutting produces partially self-defeating dynamics).",
+    "confidence": 6,
+    "evidence": [
+      "Fiscal ceiling at ~5.0-5.5% limits upside policy room",
+      "Transmission channels operating at 50-80% efficiency",
+      "Positive stock-bond correlation attenuates forward guidance",
+      "Combined bandwidth estimate of ~155-240bp derived from stacking constraints",
+      "Counterfactual test framing: would the economy look materially different if Fed held rates at zero?"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Is the bandwidth estimate stable or deteriorating further?",
+      "How does the bandwidth interact with balance sheet tools?",
+      "Could macroprudential tools compensate for reduced rate bandwidth?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "partial_fiscal_dominance",
+      "forward_guidance_asymmetric_attenuation",
+      "fci_effective_stance_gap"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "qe_qt_asymmetry_ratio",
+    "definition": "QE compresses term premium 1.5-2.5x more than QT adds back because QE operates during stress when risk aversion amplifies the portfolio balance channel. This asymmetry means QT-era term premium remains lower than pre-QE levels even after significant balance sheet reduction.",
+    "confidence": 6,
+    "evidence": [
+      "1.5-2.5x asymmetry ratio between QE compression and QT decompression",
+      "QE operates during stress when risk aversion amplifies portfolio balance channel",
+      "Basis trade absorption of ~half of QT duration redistribution compounds the asymmetry"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Is the asymmetry ratio stable across different QT speeds?",
+      "Does the asymmetry imply a permanent regime shift in term premium?",
+      "How does the ratio interact with fiscal supply dynamics?"
+    ],
+    "related_concepts": [
+      "qt_endgame_nonlinear_threshold",
+      "basis_trade_synthetic_qe",
+      "simultaneous_cuts_qt_unprecedented"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "sfas_142_goodwill_impairment_mechanism",
+    "definition": "SFAS 142 goodwill impairment testing creates a reflexive channel for monetary policy: lower policy rates mechanically raise fair values in goodwill testing, preventing recognition of underlying cash flow deterioration. Higher rates trigger impairments ($80B+ surge in 2022-23) that appear as non-GAAP adjustments, masking transmission.",
+    "confidence": 7,
+    "evidence": [
+      "$80B+ impairment surge in 2022-23 directly traceable to rate increases",
+      "Goodwill impairments nearly tripled from $3 to $8/share in S&P 500",
+      "Lower rates mechanically raise fair values in SFAS 142 testing",
+      "Mechanism is reflexive — rate cuts would hide impairment, rate hikes reveal it"
+    ],
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "open_questions": [
+      "How much of the non-GAAP adjustment expansion is specifically SFAS 142 driven vs other categories?",
+      "Does the mechanism create a false signal of recovery when rates decline?"
+    ],
+    "related_concepts": [
+      "non_gaap_earnings_masking",
+      "broken_monetary_transmission"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "local_currency_cost_curve_self_defeating",
+    "definition": "USD strength creates a self-defeating tightening mechanism for commodity-channel transmission: dollar appreciation lowers EM producer breakevens in local currency terms, keeping marginal supply online, capping USD commodity prices, and preventing the commodity channel from transmitting monetary tightening.",
+    "confidence": 6,
+    "evidence": [
+      "USD strength reduces EM producer breakevens in local currency",
+      "Marginal commodity supply stays online despite USD price pressure",
+      "Caps USD commodity prices, preventing commodity-channel transmission"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "At what USD strength level does this mechanism break down?",
+      "Does this apply equally across all commodity categories?",
+      "How does it interact with OPEC+ fiscal breakeven dynamics?"
+    ],
+    "related_concepts": [
+      "broken_monetary_transmission",
+      "opec_fiscal_breakeven_reflexivity",
+      "capex_dollar_em_flow_redirection"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "effective_taylor_rule_coefficient",
+    "definition": "The estimated effective Taylor coefficient (phi_pi) of ~1.0-1.2 is far less robust than the fiscal dominance diagnosis it supports. The estimate ranges from 0.25 to 2.6 depending on assumed r*, which is itself uncertain by ±150bp, creating near-circularity. The directional claim (below textbook 1.5-2.0) is plausible but the confidence interval is wide enough to include the textbook value.",
+    "confidence": 5,
+    "evidence": [
+      "phi_pi ranges from 0.25 to 2.6 depending on assumed r*",
+      "r* uncertain by ±150bp creating near-circularity in estimation",
+      "Fed pause at 5.25-5.50% with core PCE at 4.3% consistent with low coefficient",
+      "pair_2 debate confirmed identification problem as near-fatal for precision"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can narrative FOMC transcript analysis narrow the identification?",
+      "Can event-study methodology around surprise decisions help identify phi_pi?",
+      "Is the concept of a single coefficient meaningful given regime-dependence?"
+    ],
+    "related_concepts": [
+      "r_star_estimation_uncertainty",
+      "partial_fiscal_dominance"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  }
+]

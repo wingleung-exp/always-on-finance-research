@@ -1,0 +1,33 @@
+{
+  "slug": "fci_effective_stance_gap",
+  "definition": "The current FCI-implied effective monetary policy stance is substantially looser than the nominal FFR of 4.25-4.50%, though the precise gap is unquantifiable. The direction is almost certainly correct but specific estimates (e.g., 150-250bp gap) are pseudo-precise because channels are nonlinear, interact, and operate on different time horizons.",
+  "confidence": 6,
+  "evidence": [
+    "All evidence points to effective policy being looser than nominal FFR",
+    "Goldman FCI easing despite 525bp of hikes",
+    "Specific 150-250bp quantification refuted in pair_0 debate as dimensionally confused",
+    "Cannot multiply policy rate by scalar transmission efficiency due to channel nonlinearity"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "challenger_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Can alternative measurement approaches quantify the gap without channel-linearity assumptions?",
+    "Does the gap narrow if AI equity valuations normalize?"
+  ],
+  "related_concepts": [
+    "broken_monetary_transmission",
+    "r_star_estimation_uncertainty",
+    "toolkit_bandwidth_compression"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

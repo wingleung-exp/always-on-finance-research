@@ -1,0 +1,122 @@
+[
+  {
+    "claim": "Forward guidance collapses to near-zero under positive correlation",
+    "reason": "rates_strategist_02's own evidence contradicts: R-squared declined from 0.15-0.25 to 0.05-0.10, showing attenuation not collapse. The bond channel still functions mechanically. Surviving estimate is 30-50% attenuation per Del Negro et al. (2023)",
+    "refuted_by": [
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Specific flip trigger thresholds of 100-150bp term premium and 75bp breakeven gap above target are operationally useful",
+    "reason": "Drawn from at most 2-3 historical episodes. The term premium threshold of 100-150bp is defined with ±50bp precision using the ACM measure which itself has ±50bp estimation error. Not operationally useful. The directional sequencing logic survives but specific thresholds should be discarded",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "EUR/USD is the single most informative real-time indicator of correlation regime risk",
+    "reason": "Three grounds: 26 years of EUR/USD data is insufficient for superlative claims; author concedes it is coincident to slightly lagging not truly leading; both EUR/USD and correlation could be driven by the same underlying shock without EUR/USD being causally informative",
+    "refuted_by": [
+      "fx_strategist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "FX carry is a superior diversifier to duration under positive correlation",
+    "reason": "fx_strategist_01's own evidence states EM carry currencies depreciate sharply alongside equities in risk-off events — a fatal flaw for any hedge instrument. A diversifier that works in calm markets and fails in crises is definitionally inferior. EM carry offers positive expected returns but is a carry trade not a hedge",
+    "refuted_by": [
+      "fx_strategist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Central bank independence erosion is the single most important structural driver of persistent positive correlation",
+    "reason": "The Fed's 525bp tightening against political pressure is the most powerful demonstration of central bank independence in a generation — direct evidence contradicting the claim. Supporting examples (Turkey, BOJ, ECB) are three different phenomena that do not aggregate into a coherent global trend. Political pressure is a risk factor (2-3/10 as primary driver) not the dominant structural driver",
+    "refuted_by": [
+      "challenger_01",
+      "risk_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Specific Sharpe ratio estimates in correlation-adjusted relative value scorecards (e.g. commodity producers 0.5-0.7)",
+    "reason": "Correlation-adjusted Sharpe ratios depend on the assumed correlation matrix which is exactly the uncertain variable. Using the uncertain input to compute precise-seeming Sharpe ratios is circular. The ordinal ranking survives but specific Sharpe estimates are unfounded",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The cross-asset inconsistency represents a 150-250bp gap in implied discount rates",
+    "reason": "Requires assuming a specific model for correlation-to-ERP mapping that is highly sensitive to investor heterogeneity and time horizon assumptions. generalist_01's own evidence shows the ERP difference is 50-100bp (the portfolio hedge premium), mapping to ~2-3 multiple points, not 150-250bp",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The 1987 portfolio insurance episode provides a reliable 12-36 month timing framework for vol-targeting cascade risk",
+    "reason": "Pattern-matching across fundamentally different episodes (1987 equity-only, LTCM fixed-income, 2007 equity factor crowding, 2018 short-vol ETN structural flaw) that share mechanical selling but differ in every other dimension. At 4 years into the current transition without a major event the timing framework is uninformative",
+    "refuted_by": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Reverse-DCF implies the market prices a terminal 10Y yield of approximately 3.5-3.8%",
+    "reason": "Small changes in terminal growth assumptions (3.5% vs 4.5%) shift the implied risk-free rate by 100bp+. The specific figure is an artifact of the author's parameterization. The market embeds an implicit bet on some rate normalization (directionally sound) but the precise terminal yield is unknowable through reverse-DCF",
+    "refuted_by": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "The 1946-51 analogue deserves an upgrade from 5-6/10 to 7/10 similarity",
+    "reason": "The sector rotation match partially broke in 2024 (AI-driven tech rally) — acknowledged but not downgraded, suggesting confirmation bias. Capital flow parallel operates through different mechanisms. 75 years of financial innovation limits applicability. Remains at 5-6/10 similarity",
+    "refuted_by": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Positive correlation always signals transmission mechanism failure",
+    "reason": "Conflates two distinct situations: transmission working correctly under cost-push shock (positive correlation is the correct Taylor Rule outcome) and genuine transmission impairment. A perfectly credible central bank facing an oil supply shock produces positive correlation — that is the model working not failing",
+    "refuted_by": [
+      "rates_strategist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "claim": "Accruals factor performance numbers (~15pp spread in 2020-21, ~12pp in 2022-23) as empirical findings",
+    "reason": "Presented without data sources; suspiciously round; acknowledged by the author as based on one cycle. The theoretical mechanism is sound but the specific performance numbers should be treated as a hypothesis not a finding",
+    "refuted_by": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  }
+]

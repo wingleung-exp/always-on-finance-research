@@ -1,0 +1,20 @@
+{
+  "concept_a": "forward_guidance_attenuation",
+  "concept_b": "fci_mismeasurement",
+  "mechanism": "Attenuated forward guidance transmission (30-50%) combined with unmeasured portfolio vol increase (~46%) means standard FCI indices overstate the ease of financial conditions during positive correlation, creating a systematic policy calibration error",
+  "direction": "correlated",
+  "confidence": 6,
+  "regime_dependence": "Both effects are proportional to the degree of positive correlation; neither exists under stable negative correlation",
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

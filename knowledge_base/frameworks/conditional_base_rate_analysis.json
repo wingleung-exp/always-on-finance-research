@@ -1,0 +1,26 @@
+{
+  "slug": "conditional_base_rate_analysis",
+  "purpose": "Provides historical base rates for correlation regime persistence conditioned on the fiscal environment, refining unconditional base rates",
+  "components": [
+    "Unconditional base rate: 25-35% of zero-crossings become persistent regime shifts",
+    "Conditional on moderate declining inflation + fiscal deficits below 5% GDP: 75-80% revert to negative (4/4 episodes)",
+    "Conditional on moderate declining inflation + fiscal deficits above 5% GDP: n=2, ambiguous results",
+    "Current configuration: moderate declining inflation + 6-7% deficit falls in uncertain zone",
+    "Bayesian updating framework for incorporating new data"
+  ],
+  "current_assessment": "The unconditional base rate (25-35%) is a useful anchor that consensus has ignored, but conditioning on the fiscal variable reduces its informativeness. Today's 6-7% deficit places us in genuinely uncertain territory with insufficient historical analogues",
+  "limitations": [
+    "Treats all zero-crossings as drawn from the same distribution",
+    "Small sample sizes especially in the high-deficit conditional",
+    "Conditioning on fiscal deficits may miss other important variables",
+    "Base rates assume stationarity of the underlying process"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

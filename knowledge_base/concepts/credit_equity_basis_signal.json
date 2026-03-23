@@ -1,0 +1,31 @@
+{
+  "slug": "credit_equity_basis_signal",
+  "definition": "The credit-equity basis (equity-implied spreads 20-40bp wider than actual credit spreads via Merton-model conversion) may signal credit market overoptimism. The 2006-07 historical pattern saw this basis resolve via credit widening. However, timing is unreliable (can persist 12-18+ months) and private credit may absorb risk that historically appeared in public credit.",
+  "confidence": 4,
+  "evidence": [
+    "Observable 20-40bp basis between equity-implied and actual credit spreads",
+    "Merton-model conversion is theoretically sound",
+    "2006-07 precedent resolved via credit widening",
+    "Private credit at $1.7T may absorb risk historically in public markets"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does private credit at $1.7T structurally change the signal's reliability?",
+    "What is the expected timing for resolution?",
+    "Can the basis persist indefinitely in the new market structure?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "broken_monetary_transmission"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

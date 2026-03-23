@@ -1,18 +1,18 @@
 [
   {
-    "claim": "60/40 returns of ~+34% cumulative over 2.25 years (2023-Q1 2025) refute the correlation regime-shift narrative.",
-    "reason": "Textbook error in the inference: positive stock-bond correlation matters for drawdown protection, not average returns. The 2023-2025 period was a bull market in equities where no hedging mechanism was tested. The data showing positive returns is correct but the conclusion that this refutes regime-shift risks is wrong — correlation sign does not determine return sign. Positive correlation's danger is conditional on stress periods; average returns during a benign period say nothing about the hedging mechanism.",
+    "claim": "60/40 returns of ~+34% cumulative (2023-Q1 2025) refute the correlation regime-shift narrative",
+    "reason": "Textbook error: positive correlation matters for drawdown protection, not average returns. The 2023-2025 period was a bull market where no hedging mechanism was tested. Correlation sign does not equal return sign. Positive correlation's danger is conditional on stress periods; benign-period average returns say nothing about the hedging mechanism.",
     "refuted_by": [
+      "challenger_01",
       "generalist_01",
-      "generalist_02",
-      "macro_strategist_01"
+      "generalist_02"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "The historical base rate for soft-landing correlation regime reassertion to negative is exactly 0%.",
-    "reason": "Statistically meaningless from n=5 — Laplace correction gives ~14%, and the 95% confidence interval extends to ~45%. Internally inconsistent with the same agent's argument that the current environment is structurally unprecedented (50% passive AUM), which undermines reliance on historical base rates. The directional finding (no soft landing has independently resolved correlation) is genuine; the '0%' framing is rhetorical overreach.",
+    "claim": "The historical base rate for soft-landing correlation reassertion is exactly 0%",
+    "reason": "Statistically meaningless from n=5 — Laplace correction gives ~14%, 95% CI extends to ~45%. Internally inconsistent with the same agent's argument that the current environment is structurally unprecedented (50% passive AUM), which undermines historical base rate definitiveness. The directional finding (no soft landing has resolved correlation without crisis) survives but the 0% framing is rhetorical overreach.",
     "refuted_by": [
       "generalist_01",
       "challenger_01"
@@ -21,28 +21,28 @@
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "The Taylor Rule framework has been falsified by the 2022-2025 period.",
-    "reason": "The 2022 outcome is consistent with the Campbell-Shiller-Viceira framework once the shock is correctly classified as supply-side. The Taylor Rule predicts correlation based on the reaction function conditional on shock type — a hawkish Fed facing a supply shock is a different test case than a hawkish Fed facing a demand shock. Calling correct shock classification an 'epicycle' is a mischaracterization. Fiscal dominance making the reaction function endogenous is a modification of the framework, not a falsification. The modified framework retains explanatory power.",
+    "claim": "The Taylor Rule framework has been falsified by the 2022-2025 period",
+    "reason": "The 2022 outcome is consistent with the Campbell-Shiller-Viceira framework once the shock is correctly classified as supply-side. Calling correct shock classification an 'epicycle' is a mischaracterization. Fiscal dominance making the reaction function endogenous is a modification of the framework, not a falsification. The modified framework with endogenous φ_π retains explanatory power.",
     "refuted_by": [
-      "macro_strategist_01",
-      "rates_strategist_02"
+      "generalist_02",
+      "macro_strategist_01"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "Dollar Smile zones map directly onto maturity-bifurcated correlation, providing a regime-conditional hedging strategy.",
-    "reason": "The Dollar Smile framework is unfalsifiable by construction because its three zones exhaust all possible macro states. Mapping a second framework onto an unfalsifiable framework does not produce falsifiable predictions. The R-squared figures cited (8-12%) are too low to support the implied precision of a regime-conditional hedging strategy. The maturity bifurcation is real and well-documented through other channels; the Dollar Smile mapping adds rhetorical structure but no predictive content.",
+    "claim": "Dollar Smile zones map directly onto maturity-bifurcated correlation with predictive content",
+    "reason": "The Dollar Smile framework is unfalsifiable by construction — three zones exhaust all possible macro states. Mapping a second framework onto an unfalsifiable framework does not produce falsifiable predictions. R-squared of 8-12% is too low to support the implied precision of a regime-conditional hedging strategy. The maturity bifurcation is real but the Dollar Smile mapping adds rhetorical structure without predictive content.",
     "refuted_by": [
-      "generalist_01",
-      "equity_analyst_02"
+      "equity_analyst_02",
+      "generalist_01"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "Election cycle clustering in 2026-2027 represents an unusually dense correlation-positive impulse.",
-    "reason": "Elections are always clustering somewhere across the US, Europe, and Japan — no 18-month window lacks major elections in at least two of these regions. No baseline for typical election density was provided to demonstrate that 2026-2027 is genuinely unusual. Internally inconsistent with the same agent's argument that fiscal commitments are politically irreversible and structurally driven regardless of election timing.",
+    "claim": "Election cycle clustering 2026-2027 represents unusually dense correlation-positive impulse",
+    "reason": "Elections are always clustering across the US, Europe, and Japan — no 18-month window lacks major elections in at least two regions. No baseline for typical election density is provided. Internally inconsistent with the same agent's argument that fiscal commitments are politically irreversible and structurally driven regardless of election timing.",
     "refuted_by": [
       "challenger_01",
       "generalist_02"
@@ -51,8 +51,8 @@
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "Alternative portfolio strategies (real duration + trend-following + convexity) outperform naive 60/40 by 250-350bp annually under positive correlation.",
-    "reason": "The magnitude is inflated by backtested reconstructions that ignore implementation costs including transaction costs, slippage, and rebalancing frictions. Realistic outperformance after implementation costs is 100-200bp. The directional recommendation (replace 15-25% nominal duration with TIPS, commodities, and trend-following) survives and is supported by both historical evidence and theoretical framework.",
+    "claim": "Alternative portfolio construction outperforms by 250-350bp annually under positive correlation",
+    "reason": "Inflated by backtested reconstructions ignoring implementation costs (transaction costs, bid-ask spreads, rebalancing slippage). Realistic outperformance estimate is 100-200bp. The directional recommendation to replace nominal duration with real duration plus convexity survives.",
     "refuted_by": [
       "generalist_01",
       "challenger_01"
@@ -61,8 +61,8 @@
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "Quality factor experiences 3-5x amplification under positive stock-bond correlation regime.",
-    "reason": "The 3-5x ratio is derived from a single observation and cannot be treated as a structural parameter. A single data point provides no basis for estimating a structural multiplier. The directional finding that quality is more valuable under positive correlation survives as it has a clear theoretical basis, but the specific multiple does not.",
+    "claim": "Quality factor amplification is 3-5x during positive correlation episodes",
+    "reason": "Ratio derived from a single observation (one episode) is not a structural parameter. Cannot be generalized from one data point. The directional finding that quality is more valuable under positive correlation survives.",
     "refuted_by": [
       "challenger_01"
     ],
@@ -70,11 +70,11 @@
     "iteration_id": "iter_0020"
   },
   {
-    "claim": "Positive correlation regime produces 12-18% present value destruction in equity terminal values vs. 8-12% under negative correlation.",
-    "reason": "The specific percentage ranges were presented without derivation or specification of growth rate, terminal multiple, or discount rate assumptions. The direction (positive correlation exposes more terminal value to rate shocks through the duration channel) survives as it follows from basic DCF mechanics, but the specific ranges are unsubstantiated and should not be used for quantitative analysis.",
+    "claim": "Rate shocks destroy 12-18% of present value in positive correlation vs. 8-12% in negative correlation regimes",
+    "reason": "Presented without derivation or specification of growth and terminal value assumptions. Cannot be verified or replicated. The directional finding that positive correlation exposes more terminal value to rate shocks survives.",
     "refuted_by": [
       "challenger_01",
-      "rates_strategist_02"
+      "generalist_01"
     ],
     "topic": "rates_equity_correlation",
     "iteration_id": "iter_0020"

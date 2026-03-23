@@ -1,0 +1,35 @@
+{
+  "slug": "signpost_hierarchy_framework",
+  "purpose": "Provides operationally actionable early-warning system for correlation regime flips with ranked leading indicators, lead times, and approximate hit rates",
+  "components": [
+    "Tier 1: IG credit spreads widening >75bp from trough (18-month lead, 6/7 hit rate)",
+    "Tier 2a: ISM manufacturing <47 for 2+ consecutive months (12-month lead, 5/6)",
+    "Tier 2b: Yield curve un-inversion (6-12 months, 4/5)",
+    "Tier 3: Initial claims >300K (3-6 months, 7/8)",
+    "Tier 4: Fed cumulative cuts >100bp (1-3 months, ~100%)",
+    "Current status (March 2026): Only Tier 2b active",
+    "Leading indicators: FCI trajectory (is the easing reversing?), repo market stress (approaching reserve scarcity?), AI capex-to-revenue ratio (is the wealth effect sustainable?)",
+    "Coincident indicators: core PCE momentum (is transmission reaching consumer prices?), 2Y-SPX correlation sign (has the hedging relationship flipped?)",
+    "Structural indicators: Treasury auction metrics (tail sizes, bid-to-cover ratios), Fed QT communication (tapering signals, balance sheet projections)"
+  ],
+  "current_assessment": "Leading indicators currently mixed: FCI still easy, repo markets calm, AI capex-to-revenue elevated at 4-6x but returns accruing over 5-10+ year horizons. Coincident indicators show no reconnection. Structural indicators showing stress at margins ($2.7-3.3T annual private absorption). Historical pattern suggests longer broken transmission leads to more violent eventual reconnection.",
+  "limitations": [
+    "Small sample (7 transitions) limits statistical power",
+    "Hit rates should be treated as approximate, not precise probabilities",
+    "Current fiscal environment may change lead times",
+    "Hit rates may not be stable across different macro regimes",
+    "Framework is qualitative and relies on subjective threshold judgments for each indicator",
+    "Signpost ordering may not hold — structural stress could emerge before leading indicators turn",
+    "Historical base rate for broken transmission resolution: 2/4 ended in sharp corrections, but n=4 is insufficient for reliable base rates",
+    "The framework does not specify actionable trigger levels for portfolio repositioning"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0020",
+    "iter_0021"
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "nk_demand_supply_shock_framework",
+    "purpose": "Determines the structural correlation sign between stocks and bonds based on the relative variance of demand versus supply shocks filtered through the central bank reaction function",
+    "components": [
+      "New Keynesian three-equation model (IS, Phillips Curve, Taylor Rule)",
+      "Demand shock channel: growth fears → rate cuts → countercyclical bonds → negative correlation",
+      "Supply shock channel: cost-push inflation → discount rate repricing → positive correlation",
+      "Shock mix estimation: currently ~55-60% supply-driven (down from ~75% in 2022)",
+      "Central bank reaction function determines whether supply shocks are accommodated or offset"
+    ],
+    "current_assessment": "Current shock mix is roughly balanced with slight supply-side tilt, producing oscillating correlation. The framework correctly predicted the 2022 positive correlation episode and the subsequent partial normalization",
+    "limitations": [
+      "Difficult to decompose shock mix in real time",
+      "Assumes the central bank reaction function is observable and stable",
+      "Does not account for fiscal channel separately from monetary channel",
+      "Binary demand/supply classification may miss hybrid shocks"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "taylor_rule_correlation_mapping",
+    "purpose": "Maps the central bank inflation coefficient (φ_π) to correlation regime outcomes, providing a single institutional variable that determines regime stability",
+    "components": [
+      "φ_π < 1.0: indeterminacy zone, generates persistent positive correlation",
+      "φ_π 1.0-1.5: danger/transition zone with unstable correlation",
+      "φ_π > 1.5: determinacy zone, generates negative correlation",
+      "Revealed preference estimation from policy actions (hiking cycles, easing phases)",
+      "Current estimate: φ_π ≈ 1.3-1.7 based on easing phase behavior"
+    ],
+    "current_assessment": "The Fed demonstrated φ_π ≈ 1.8-2.0 during the 2022-23 hiking cycle but the current easing phase suggests φ_π ≈ 1.3-1.7, placing the regime in the transition zone. The aggressive tightening against political pressure is strong evidence of intact credibility",
+    "limitations": [
+      "φ_π is not directly observable and must be inferred from policy actions",
+      "Estimates are retrospective — the current easing phase estimate is preliminary",
+      "Does not account for balance sheet policy (QE/QT) as a separate instrument",
+      "Assumes a single reaction function rather than state-dependent responses"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "five_phase_resolution_sequence",
+    "purpose": "Provides a structured analogue framework for how positive-to-negative correlation regime transitions resolve, based on the 1994-98 experience",
+    "components": [
+      "Phase 1: Term premium shock (1994 bond massacre) — PRESENT TODAY",
+      "Phase 2: Fiscal consolidation credibility — UNAVAILABLE at 6-7% GDP deficits",
+      "Phase 3: Exogenous EM crisis providing catalyst — possible but not predictable",
+      "Phase 4: LTCM/safe-haven validation demonstrating bond hedge — requires Phase 3",
+      "Phase 5: Productivity boom (1990s tech) — AI potential but requires Phase 2 context"
+    ],
+    "current_assessment": "Today has completed Phase 1 only. Phase 2 is unavailable absent fiscal consolidation, which has no political pathway through 2028. Without Phase 2, subsequent phases cannot replicate their 1990s effects. The oscillating correlation environment is likely to persist",
+    "limitations": [
+      "Single historical sequence (N=1) as the template",
+      "Phases may not need to occur in exact order",
+      "An alternative resolution path not captured by this sequence may exist",
+      "AI productivity boom may not require fiscal consolidation as a prerequisite"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "four_path_bifurcation_resolution",
+    "purpose": "Classifies the possible resolution paths for the maturity-dependent correlation bifurcation based on international case studies",
+    "components": [
+      "Path A - Fiscal consolidation (~10%): US 1994-98, Canada 1995-97",
+      "Path B - Central bank backstop (~30%): ECB OMT 2012, BoE Sept 2022, Fed March 2020",
+      "Path C - Inflation de-anchoring (~15%): Brazil 2015-16, Turkey 2018-19",
+      "Path D - Managed financial repression (~30%): Japan 2003 VaR shock → YCC, Italy 2012 pre-OMT",
+      "Remaining ~15% for alternative or hybrid paths"
+    ],
+    "current_assessment": "Today's trajectory most closely maps to Paths B or D (~60% combined), both involving central bank accommodation of fiscal dynamics. Consistent with fiscal dominance findings. Path A is politically unavailable; Path C is a tail risk",
+    "limitations": [
+      "Probability assignments are subjective",
+      "International cases may not transfer to US institutional context",
+      "Paths may combine rather than being discrete",
+      "Timeline for resolution is unspecified"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "three_factor_conjunction_model",
+    "purpose": "Identifies the three conditions that must be simultaneously present for a durable correlation regime shift, explaining why the 2022-25 episode produced oscillation rather than entrenchment",
+    "components": [
+      "Factor 1: Inflation expectations persistently above target (partially present at 2.2-2.5% breakevens)",
+      "Factor 2: Term premium sustained above threshold (partially present)",
+      "Factor 3: Dollar breakdown / structural weakening (absent — DXY 100-107)",
+      "All three must be simultaneously present for durable positive correlation",
+      "Missing any one factor produces oscillation rather than entrenchment"
+    ],
+    "current_assessment": "Two of three factors are partially present; the dollar factor is absent. This correctly predicts the observed oscillating behavior since 2022 and suggests entrenchment requires dollar weakness",
+    "limitations": [
+      "N=4 regime transitions as empirical base — small sample",
+      "Dollar dynamics are endogenous to the other two factors",
+      "Threshold levels for each factor are not precisely defined",
+      "Model may miss structural breaks that change the conjunction requirements"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "channel_by_channel_transmission_assessment",
+    "purpose": "Assesses the state of monetary policy transmission through each individual channel to determine the overall degree of transmission impairment under positive correlation",
+    "components": [
+      "Interest rate channel: near-full functionality (rate-sensitive sectors respond)",
+      "Credit channel: moderately impaired by $1.5T+ private credit substitution bypassing bank lending",
+      "Expectations channel: degraded but not broken (forward guidance attenuated 30-50%)",
+      "Asset price channel: partially offset (bond and equity channels can work against each other under positive correlation)",
+      "Overall assessment: 'partially functional' — attenuation, not collapse"
+    ],
+    "current_assessment": "Transmission is impaired but functional. The interest rate channel works, the credit channel leaks through private credit, forward guidance is attenuated 30-50%, and the asset price channel partially self-cancels. The system works well enough to prevent the correlation regime from locking positive but not well enough to drive it clearly negative",
+    "limitations": [
+      "Channel assessments are qualitative rather than precisely quantified",
+      "Channels interact in complex ways not captured by individual assessment",
+      "Private credit channel leakage is a new structural feature with limited data",
+      "Relative importance of channels may shift across the cycle"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "conditional_base_rate_analysis",
+    "purpose": "Provides historical base rates for correlation regime persistence conditioned on the fiscal environment, refining unconditional base rates",
+    "components": [
+      "Unconditional base rate: 25-35% of zero-crossings become persistent regime shifts",
+      "Conditional on moderate declining inflation + fiscal deficits below 5% GDP: 75-80% revert to negative (4/4 episodes)",
+      "Conditional on moderate declining inflation + fiscal deficits above 5% GDP: n=2, ambiguous results",
+      "Current configuration: moderate declining inflation + 6-7% deficit falls in uncertain zone",
+      "Bayesian updating framework for incorporating new data"
+    ],
+    "current_assessment": "The unconditional base rate (25-35%) is a useful anchor that consensus has ignored, but conditioning on the fiscal variable reduces its informativeness. Today's 6-7% deficit places us in genuinely uncertain territory with insufficient historical analogues",
+    "limitations": [
+      "Treats all zero-crossings as drawn from the same distribution",
+      "Small sample sizes especially in the high-deficit conditional",
+      "Conditioning on fiscal deficits may miss other important variables",
+      "Base rates assume stationarity of the underlying process"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "slug": "recession_trigger_taxonomy",
+    "purpose": "Classifies recessions by trigger type to predict the correlation sign during economic downturns",
+    "components": [
+      "Fed-triggered recessions (1970, 1980, 1982): 3/3 immediate negative correlation",
+      "Exogenous-shock recessions (1974, 1990, 2001, 2008, 2020): 2/5 initial positive correlation",
+      "Overall: 7/8 recessions eventually produce negative correlation",
+      "Fed rate-cutting response is the most powerful negative-correlation mechanism",
+      "Time to negative assertion: immediate for Fed-triggered, 1-3 months for exogenous-shock"
+    ],
+    "current_assessment": "The 7/8 overall hit rate is strong, supporting maintenance of some duration exposure even under positive correlation. The Fed's historical willingness to cut aggressively in recessions (2001: cut despite 2.6% core CPI; 2020: cut to zero) suggests this pattern will repeat",
+    "limitations": [
+      "Recession trigger type is rarely identifiable in advance",
+      "Sample size is small (8 recessions)",
+      "Future recessions may have novel trigger types (e.g., AI-driven)",
+      "The 1/8 exception (likely 1974) may be more relevant if inflation is elevated"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  }
+]

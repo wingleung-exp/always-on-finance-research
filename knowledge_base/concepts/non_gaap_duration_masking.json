@@ -1,12 +1,16 @@
 {
   "slug": "non_gaap_duration_masking",
   "definition": "Non-GAAP earnings practices systematically understate equity portfolio duration by 30-40%. S&P 500 GAAP EPS (~$200-210) vs non-GAAP (~$250-260) shows a ~25% gap. At GAAP P/E of ~25-27x, approximately 55-65% of present value sits in terminal value with duration sensitivity of ~15-20% per 100bp. At non-GAAP P/E of ~21x, terminal value share drops to ~45-50% and duration sensitivity to ~12-15%.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "GAAP EPS ~$200-210 vs non-GAAP ~$250-260, approximately 25% gap",
     "GAAP P/E ~25-27x implies 55-65% terminal value share; non-GAAP P/E ~21x implies 45-50%",
     "Duration sensitivity difference: ~15-20% vs ~12-15% per 100bp rate change",
-    "Debate pair_1: 'the single most original contribution across both analyses'"
+    "Debate pair_1: 'the single most original contribution across both analyses'",
+    "At GAAP multiples (26-29x), 55-65% of PV in terminal value with ~15-20% sensitivity per 100bp",
+    "At non-GAAP multiples (21-22x), 45-50% terminal value with ~12-15% sensitivity",
+    "Pair_1 debate rated this 'genuinely original'",
+    "Direction 'almost certainly correct' but 30-40% magnitude is author's construction"
   ],
   "originating_agents": [
     "equity_analyst_02"
@@ -14,19 +18,25 @@
   "open_questions": [
     "How much of the GAAP/non-GAAP gap is SBC (secularly growing) vs one-time items?",
     "Do investors actually use non-GAAP multiples for rate sensitivity analysis, or is this a measurement issue without behavioral consequence?",
-    "Is the 30-40% understatement estimate robust to different discount rate assumptions?"
+    "Is the 30-40% understatement estimate robust to different discount rate assumptions?",
+    "Needs wider empirical study — magnitude is author's construction not widely validated",
+    "Whether risk models will incorporate this adjustment"
   ],
   "related_concepts": [
     "equity_valuations_correlation_inconsistency",
     "roic_wacc_spread_compression",
-    "correlation_regime_shift_portfolio_impact"
+    "correlation_regime_shift_portfolio_impact",
+    "roic_wacc_compression_convexity",
+    "cross_asset_valuation_inconsistency",
+    "earnings_quality_amplification"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T03:59:53Z",
-  "last_updated": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T04:21:39Z",
   "originating_iteration": "iter_0018",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0018"
+    "iter_0018",
+    "iter_0019"
   ]
 }

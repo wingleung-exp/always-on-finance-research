@@ -1,0 +1,247 @@
+[
+  {
+    "concept_a": "demand_supply_shock_variance_ratio",
+    "concept_b": "transitional_oscillating_correlation",
+    "mechanism": "When demand and supply shocks are roughly balanced (~55-60% supply vs ~40-45% demand), the correlation oscillates around zero rather than locking into either sign",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds when neither shock type decisively dominates; breaks down during pure demand recessions (strongly negative) or pure supply shocks (strongly positive)",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "taylor_rule_inflation_coefficient",
+    "concept_b": "demand_supply_shock_variance_ratio",
+    "mechanism": "The central bank reaction function (φ_π) determines whether supply shocks are accommodated (positive correlation) or offset (negative correlation). φ_π > 1.5 ensures determinacy and demand-shock dominance of the correlation",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "φ_π < 1 always produces positive correlation; φ_π > 1.5 allows shock type to determine sign; 1.0-1.5 is the transition zone",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "fiscal_trajectory_correlation_driver",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "Fiscal deficits at 6-7% GDP dominate long-end pricing through supply absorption (term premium), pushing 30Y-SPX positive, while the short end remains responsive to monetary expectations",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Bifurcation emerges when fiscal deficits exceed ~5% GDP and the central bank retains short-end credibility",
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "vol_targeting_amplification",
+    "concept_b": "transitional_oscillating_correlation",
+    "mechanism": "Reflexive loop: correlation rise triggers portfolio vol increase, which triggers forced selling, which raises actual correlation. Endogenous deleveraging can also create growth scares that restore negative correlation, producing oscillation",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Amplification occurs during correlation regime transitions; the self-correcting mechanism may dominate in the absence of a crystallizing exogenous shock",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "roic_wacc_compression_convexity",
+    "concept_b": "corporate_debt_maturity_wall",
+    "mechanism": "Compressed ROIC-WACC spreads increase sensitivity to refinancing costs from the maturity wall; the earnings channel and the valuation channel operate additively, creating dual-channel positive correlation amplification",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Amplification is strongest when ROIC-WACC spreads are below 5pp and a significant share of debt is maturing at above-market rates",
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "fiscal_trajectory_correlation_driver",
+    "concept_b": "resolution_sequence_1994_98",
+    "mechanism": "Fiscal consolidation was Phase 2 of the 1994-98 resolution sequence. Without fiscal consolidation (impossible at 6-7% GDP deficits), the subsequent phases cannot replicate, blocking the resolution pathway",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The resolution sequence requires fiscal deficits declining toward 3-4% GDP; current 6-7% makes this unavailable through at least 2028",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "validating_crisis_requirement",
+    "concept_b": "transitional_oscillating_correlation",
+    "mechanism": "Without a discrete crisis demonstrating bonds' safe-haven function, the regime cannot resolve to stable negative correlation, prolonging the oscillation phase. Investors must experience the hedge to perpetuate it through portfolio construction",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Applies to positive→negative transitions only; negative→positive transitions emerge gradually without requiring a crisis",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "dollar_cycle_persistence",
+    "concept_b": "transitional_oscillating_correlation",
+    "mechanism": "Strong dollar (DXY 100-107) prevents the three-factor conjunction from completing, explaining why positive correlation oscillates rather than entrenching. Dollar breakdown is the missing third factor",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Dollar strength prevents persistent positive correlation; dollar breakdown would complete the conjunction for durable positive regime",
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "forward_guidance_attenuation",
+    "concept_b": "fci_mismeasurement",
+    "mechanism": "Attenuated forward guidance transmission (30-50%) combined with unmeasured portfolio vol increase (~46%) means standard FCI indices overstate the ease of financial conditions during positive correlation, creating a systematic policy calibration error",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Both effects are proportional to the degree of positive correlation; neither exists under stable negative correlation",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "qe_qt_independent_channel",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "QT restores duration risk to private portfolios, disproportionately affecting the long end where fiscal supply already dominates, amplifying the maturity bifurcation. QT cessation (late 2026-27) would remove this amplifier",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "QT amplification is additive to fiscal supply effects; cessation is necessary but not sufficient for bifurcation resolution",
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "non_gaap_duration_masking",
+    "concept_b": "cross_asset_valuation_inconsistency",
+    "mechanism": "Non-GAAP practices hide ~30-40% of equity market duration from standard risk models, making the cross-asset inconsistency larger than it appears in standard frameworks. The true equity sensitivity to rate changes is underestimated",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Effect is proportional to the GAAP/non-GAAP gap, which widens during periods of high SBC (tech-heavy market composition)",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "geopolitical_fiscal_constraints",
+    "concept_b": "fiscal_trajectory_correlation_driver",
+    "mechanism": "Geopolitical imperatives (defense, CHIPS Act, industrial policy) lock in structural fiscal commitments that are not politically discretionary, making fiscal consolidation unavailable and extending the positive correlation impulse from the fiscal channel",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds as long as geopolitical tensions remain elevated; would weaken under a significant de-escalation",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "recession_trigger_type",
+    "concept_b": "validating_crisis_requirement",
+    "mechanism": "Fed-triggered recessions produce immediate negative correlation (3/3 base rate) and serve as validating crises. Exogenous-shock recessions may initially show positive correlation (2/5 cases) before the Fed response eventually shifts it negative within 1-3 months",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Fed-triggered recessions are the cleanest validating crises; exogenous shocks produce ambiguous initial signals",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "phillips_curve_convexity",
+    "concept_b": "transitional_oscillating_correlation",
+    "mechanism": "Near the zero output gap, firms adjust prices more aggressively to small shocks, producing outsized correlation swings (0.15-0.25 in rolling 3-month windows) that sustain the oscillating regime character",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Maximum effect near closed output gap; attenuates as output gap widens in either direction",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "fiscal_correlation_feedback_loop",
+    "concept_b": "fiscal_trajectory_correlation_driver",
+    "mechanism": "Potential doom loop: positive correlation → higher term premium → larger deficits via interest expense → more long-end pressure. Or self-correcting: tighter financial conditions → slower economy → reduced deficits via automatic stabilizers. Direction is unresolved",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Doom loop dominates if fiscal deficits are primarily structural; self-correction dominates if deficits are primarily cyclical",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "earnings_quality_amplification",
+    "concept_b": "demand_supply_shock_variance_ratio",
+    "mechanism": "Positive correlation regime systematically signals transition from growth-rewarded to cash-conversion-rewarded markets. Quality factor spread amplifies 3-5x under supply-shock-driven positive correlation as low-quality firms face simultaneous earnings and valuation compression",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Amplification occurs specifically under supply-shock-driven positive correlation; may not hold under demand-shock-driven positive correlation",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "index_concentration_distortion",
+    "concept_b": "cross_asset_valuation_inconsistency",
+    "mechanism": "Mega-cap tech with exceptional ROIC and net-cash balance sheets may be masking a broader S&P 493 already in robustly positive correlation, making aggregate measures understate the true cross-asset inconsistency for most stocks",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Distortion grows with index concentration; currently at ~35% top-10 weight",
+    "originating_agents": [
+      "equity_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  },
+  {
+    "concept_a": "ricardian_term_premium_separation",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "Fiscal expansion with partial Ricardian offset (multiplier 0.5-0.8) fails to boost demand sufficiently to affect short-end expectations but pushes long-end yields higher through supply absorption, directly producing the maturity-dependent bifurcation",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Requires fiscal deficits large enough to create material supply pressure and household sector with sufficient Ricardian behavior to offset demand channel",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0019"
+  }
+]

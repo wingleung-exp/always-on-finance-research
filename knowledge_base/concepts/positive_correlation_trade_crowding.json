@@ -1,12 +1,16 @@
 {
   "slug": "positive_correlation_trade_crowding",
   "definition": "Positioning for positive stock-bond correlation is crowded based on BofA survey data, CFTC positioning, and TLT options skew, creating contrarian asymmetry favoring negative correlation reassertion if positioning unwinds.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
     "BofA survey data showing consensus positioning for positive correlation",
     "CFTC positioning data confirms directional crowding",
     "TLT options skew indicates directional bias",
-    "Well-documented contrarian setup per challenger_01"
+    "Well-documented contrarian setup per challenger_01",
+    "BofA survey data shows consensus positioning for positive correlation",
+    "CFTC positioning reflects widespread duration-short positioning",
+    "TLT options skew confirms directional crowding",
+    "25-30% base rate for recession in any 18-month window with correlation going sharply negative in every recession since 1990"
   ],
   "originating_agents": [
     "challenger_01"
@@ -14,19 +18,24 @@
   "open_questions": [
     "What catalyst would trigger a positioning unwind?",
     "How rapidly could unwinding occur and what would be the market impact?",
-    "Does positioning crowding affect the correlation regime itself or only transition dynamics?"
+    "Does positioning crowding affect the correlation regime itself or only transition dynamics?",
+    "How quickly could crowded positioning unwind?",
+    "Does the crowding create a self-reinforcing dynamic or a contrarian opportunity?",
+    "What is the threshold event that would trigger positioning unwind?"
   ],
   "related_concepts": [
     "transitional_correlation_regime",
     "bimodal_correlation_distribution",
-    "portfolio_risk_correlation_instability"
+    "portfolio_risk_correlation_instability",
+    "soft_landing_resolution_impossibility"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

@@ -1,0 +1,81 @@
+[
+  {
+    "claim": "The FCI-implied effective policy rate is precisely 2.0-3.0% (150-250bp gap from nominal FFR)",
+    "reason": "The methodology of multiplying FFR by a blended transmission efficiency is dimensionally confused. Channels are nonlinear, interact, and operate on different time horizons. You cannot produce a meaningful effective rate by applying a scalar discount to the policy rate. The qualitative finding (effective stance substantially looser) survives but the specific quantification is pseudo-precise and misleading.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Commodity supply constraints are THE binding constraint on the terminal rate",
+    "reason": "The Fed's dual mandate is explicitly employment and prices. Commodity supply is a second-order input to PCE; energy's direct weight in core PCE is zero. Goods deflation can coexist with services inflation. The claim is defensible as a floor on goods inflation but not as the binding constraint on the terminal rate.",
+    "refuted_by": [
+      "equity_analyst_02",
+      "commodities_analyst_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "EM monetary policy transmission lags have shortened from 12-18 months to 6-9 months",
+    "reason": "The originating agent's own core framework (dollar liquidity channel primacy) logically requires that EM transmission follows DM transmission — and DM transmission has lengthened. BIS NDF turnover data and algorithmic trading growth support faster market pricing, not faster real economic transmission. Conflates market microstructure speed with macroeconomic adjustment speed.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "fx_strategist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Central bank independence is under structural siege across G10 economies",
+    "reason": "Evidence shows normal political friction, not structural erosion. The Fed survived 2018-2019 pressure without altering its rate path. The ECB tightened aggressively despite Southern European fiscal fragility. The BoJ began normalization on its own terms. Comparison to Turkey (CB independence index 0.25) is misleading given enormous institutional distance. A weaker version (political pressure exists and may intensify during 2026-2028 election cycles) survives.",
+    "refuted_by": [
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "The middle of the terminal rate distribution is unstable because AI investment is inherently binary",
+    "reason": "Technology adoption follows S-curves, not step functions. Historical parallels (electrification, computing, internet) show decades-long adoption curves with gradual, uneven productivity gains. The capex-to-revenue ratio of 4-6x is misleading for infrastructure investment with 5-10+ year return horizons. Intermediate AI productivity scenarios (0.2-0.3pp TFP) are plausible and can persist.",
+    "refuted_by": [
+      "generalist_02",
+      "risk_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Reserve scarcity probability is 15-25% within 18 months",
+    "reason": "The Standing Repo Facility (established 2021, absent in 2019), the Fed's demonstrated willingness to taper QT (already slowed from $60B to $25B/month), and more sophisticated monitoring reduce the probability. A more defensible range is 5-15%. The nonlinear threshold mechanism is fully supported; the specific probability was overconfident.",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "equity_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "Buyback ROIC of 4.8% vs WACC of 8.5-9.5% proves buybacks are value-destructive",
+    "reason": "The methodology conflates one-period earnings yield with multi-period ROIC and embeds an undisclosed strong-form efficient market assumption. If shares are undervalued relative to intrinsic value, effective ROIC exceeds the earnings yield. The directional point (buybacks at cycle-peak valuations are riskier) survives; the categorical value-destructive conclusion does not.",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "equity_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "claim": "The 1/9 base rate for simultaneous rate cuts plus QT",
+    "reason": "Self-refuted: QT only existed as a policy tool for 2 of the 9 easing cycles, making the denominator misleading. The corrected framing — 1/2 QT-era easing cycles, and the prior attempt was abandoned within months — actually conveys more alarm than the original inflated denominator.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  }
+]

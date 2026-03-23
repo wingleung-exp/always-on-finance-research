@@ -1,13 +1,17 @@
 {
   "slug": "bimodal_correlation_distribution",
   "definition": "The unconditional stock-bond correlation for the next 2-3 years is approximately -0.10 to +0.10, reflecting a mixture of 55-60% Regime D (demand-dominant, ρ = -0.30 to -0.50) and 40-45% Regime S (supply-dominant, ρ = +0.20 to +0.40). The bimodal distribution invalidates mean-variance optimization using the unconditional near-zero correlation.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "Explicit mixture model producing unconditional average of ~-0.06",
     "Near-zero unconditional is robust to plausible perturbations in probability weights (±0.15 range)",
     "Portfolio optimization using unconditional correlation would be suboptimal because distribution is bimodal, not normal",
     "pair_2 recognized this as 'more actionable for portfolio construction' than conjunction triggers",
-    "Specific regime probabilities are calibrated judgment, not model output"
+    "Specific regime probabilities are calibrated judgment, not model output",
+    "Explicit mixture model: 55-60% Regime D + 40-45% Regime S producing unconditional ~-0.06",
+    "Near-zero unconditional robust to ±0.15 perturbations in regime weights",
+    "Portfolio optimization using unconditional correlation would be suboptimal due to bimodality",
+    "Regime probabilities are calibrated judgment, not model output"
   ],
   "originating_agents": [
     "macro_strategist_01",
@@ -17,20 +21,26 @@
     "Are the regime probability weights (55-60% / 40-45%) well-calibrated?",
     "How should portfolio construction operationally account for bimodality vs. unimodal assumptions?",
     "What events would materially shift the probability weights between regimes?",
-    "Does the bimodal model adequately capture the full distribution including tail scenarios?"
+    "Does the bimodal model adequately capture the full distribution including tail scenarios?",
+    "Can the bimodal distribution be formally tested against a unimodal alternative?",
+    "How should portfolio optimization incorporate bimodality?",
+    "Are the 55-60%/40-45% regime weights stable or themselves time-varying?"
   ],
   "related_concepts": [
     "transitional_correlation_regime",
     "portfolio_risk_correlation_instability",
     "demand_supply_shock_correlation_driver",
-    "recession_tail_underweighting"
+    "recession_tail_underweighting",
+    "cross_asset_pricing_inconsistency",
+    "correlation_regime_portfolio_risk"
   ],
   "topic": "rates_equity_correlation",
   "created_at": "2026-03-23T04:13:17Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0020",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
+    "iter_0020",
     "iter_0020"
   ]
 }

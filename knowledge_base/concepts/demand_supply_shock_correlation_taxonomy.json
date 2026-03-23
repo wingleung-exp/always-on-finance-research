@@ -1,0 +1,39 @@
+{
+  "slug": "demand_supply_shock_correlation_taxonomy",
+  "definition": "The sign of stock-bond correlation is determined by the dominant macroeconomic shock type: demand shocks produce negative correlation (central bank eases as equities fall, bonds rally) while supply shocks produce positive correlation (central bank tightens into weakening growth, both fall). The central bank reaction function mediates the transmission.",
+  "confidence": 9,
+  "evidence": [
+    "Campbell-Pflueger-Viceira (2020) framework endorsed by all eight agents",
+    "Across 13 documented post-1960 transitions, 6/7 flips to negative triggered by growth shocks, 5/6 flips to positive by inflation shocks",
+    "Median lead time of 2-4 months from shock identification to correlation flip",
+    "Current ambiguous shock mix (residual supply-side inflation persistence + demand softening) explains unresolved regime"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_02",
+    "fx_strategist_01",
+    "challenger_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Which shock type will dominate going forward given the mixed signal environment?",
+    "How does endogenous fiscal dominance modify the CB reaction function relative to the standard CPV framework?"
+  ],
+  "related_concepts": [
+    "transitional_correlation_regime",
+    "inflation_expectations_anchoring",
+    "effective_taylor_rule_coefficient",
+    "corridor_of_instability"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:25:42Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

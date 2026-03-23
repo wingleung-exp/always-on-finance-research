@@ -1,0 +1,37 @@
+{
+  "slug": "channel_by_channel_transmission_diagnostic",
+  "purpose": "Provides systematic assessment of which monetary policy transmission channels are functioning vs. broken, explaining why the correlation regime has not resolved despite shock mix evolution",
+  "components": [
+    "Interest rate channel: ~60% effective (mortgage lock-in effect)",
+    "Credit channel: ~80% effective (still working)",
+    "Asset price channel: negative effectiveness (AI rally counterproductive)",
+    "Exchange rate channel: ~50% effective (goods only 25% of core PCE)",
+    "Expectations channel: ~50-70% effective (forward guidance attenuated)",
+    "FCI miscalibration: 75-150bp in policy-rate-equivalent terms",
+    "Interest rate channel: ~60% effectiveness due to mortgage lock-in (85%+ below 5%) and fixed-rate corporate debt insulation (IG WAM 10.5yr)",
+    "Credit channel: ~80% effectiveness due to private credit substitution ($1.7T AUM) absorbing borrowers shut out of public markets",
+    "Exchange rate channel: ~50% effectiveness due to capex dollar phenomenon and AI-driven USD strength",
+    "Asset-price channel: negative effectiveness — AI rally ($10-15T market cap) producing $300-750B wealth effects that exceed tightening impulse",
+    "Kalecki fiscal offset channel: 10-25% of tightening recycled as fiscal stimulus to bondholders"
+  ],
+  "current_assessment": "Transmission breakdown is concentrated in the asset-price/wealth-effect channel rather than being systemic across all channels. Stripping equities from FCI, remaining components show tightening consistent with prior cycles. This means resolution depends primarily on AI equity normalization timing.",
+  "limitations": [
+    "Effectiveness percentages are estimated, not precisely measured",
+    "FCI miscalibration magnitude highly uncertain (40-200bp range)",
+    "Unclear whether transmission breakdown is cyclical or structural",
+    "Channel interactions may be nonlinear and are not captured",
+    "Channel effectiveness percentages are qualitatively reasonable but cannot be verified statistically given n=7 tightening cycles",
+    "Channels are nonlinear, interact, and operate on different time horizons — simple additive decomposition is an approximation",
+    "Private credit opacity ($1.7T with mark-to-model) means credit channel assessment may understate hidden impairment",
+    "Historical analogues are limited — no prior cycle featured a technology-driven wealth effect of this magnitude"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0020",
+    "iter_0021"
+  ]
+}

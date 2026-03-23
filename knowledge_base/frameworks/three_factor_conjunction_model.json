@@ -1,0 +1,26 @@
+{
+  "slug": "three_factor_conjunction_model",
+  "purpose": "Identifies the three conditions that must be simultaneously present for a durable correlation regime shift, explaining why the 2022-25 episode produced oscillation rather than entrenchment",
+  "components": [
+    "Factor 1: Inflation expectations persistently above target (partially present at 2.2-2.5% breakevens)",
+    "Factor 2: Term premium sustained above threshold (partially present)",
+    "Factor 3: Dollar breakdown / structural weakening (absent — DXY 100-107)",
+    "All three must be simultaneously present for durable positive correlation",
+    "Missing any one factor produces oscillation rather than entrenchment"
+  ],
+  "current_assessment": "Two of three factors are partially present; the dollar factor is absent. This correctly predicts the observed oscillating behavior since 2022 and suggests entrenchment requires dollar weakness",
+  "limitations": [
+    "N=4 regime transitions as empirical base — small sample",
+    "Dollar dynamics are endogenous to the other two factors",
+    "Threshold levels for each factor are not precisely defined",
+    "Model may miss structural breaks that change the conjunction requirements"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "channel_by_channel_transmission_diagnostic",
+    "purpose": "Diagnose which specific channels of monetary policy transmission are impaired and to what degree, enabling targeted forecasting of when and how transmission will reconnect.",
+    "components": [
+      "Interest rate channel: ~60% effectiveness due to mortgage lock-in (85%+ below 5%) and fixed-rate corporate debt insulation (IG WAM 10.5yr)",
+      "Credit channel: ~80% effectiveness due to private credit substitution ($1.7T AUM) absorbing borrowers shut out of public markets",
+      "Exchange rate channel: ~50% effectiveness due to capex dollar phenomenon and AI-driven USD strength",
+      "Asset-price channel: negative effectiveness — AI rally ($10-15T market cap) producing $300-750B wealth effects that exceed tightening impulse",
+      "Kalecki fiscal offset channel: 10-25% of tightening recycled as fiscal stimulus to bondholders"
+    ],
+    "current_assessment": "Transmission breakdown is concentrated in the asset-price/wealth-effect channel rather than being systemic across all channels. Stripping equities from FCI, remaining components show tightening consistent with prior cycles. This means resolution depends primarily on AI equity normalization timing.",
+    "limitations": [
+      "Channel effectiveness percentages are qualitatively reasonable but cannot be verified statistically given n=7 tightening cycles",
+      "Channels are nonlinear, interact, and operate on different time horizons — simple additive decomposition is an approximation",
+      "Private credit opacity ($1.7T with mark-to-model) means credit channel assessment may understate hidden impairment",
+      "Historical analogues are limited — no prior cycle featured a technology-driven wealth effect of this magnitude"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "signpost_hierarchy_framework",
+    "purpose": "Provide a three-tier monitoring framework for detecting when broken monetary transmission begins to reconnect, prioritizing leading over lagging indicators.",
+    "components": [
+      "Leading indicators: FCI trajectory (is the easing reversing?), repo market stress (approaching reserve scarcity?), AI capex-to-revenue ratio (is the wealth effect sustainable?)",
+      "Coincident indicators: core PCE momentum (is transmission reaching consumer prices?), 2Y-SPX correlation sign (has the hedging relationship flipped?)",
+      "Structural indicators: Treasury auction metrics (tail sizes, bid-to-cover ratios), Fed QT communication (tapering signals, balance sheet projections)"
+    ],
+    "current_assessment": "Leading indicators currently mixed: FCI still easy, repo markets calm, AI capex-to-revenue elevated at 4-6x but returns accruing over 5-10+ year horizons. Coincident indicators show no reconnection. Structural indicators showing stress at margins ($2.7-3.3T annual private absorption). Historical pattern suggests longer broken transmission leads to more violent eventual reconnection.",
+    "limitations": [
+      "Framework is qualitative and relies on subjective threshold judgments for each indicator",
+      "Signpost ordering may not hold — structural stress could emerge before leading indicators turn",
+      "Historical base rate for broken transmission resolution: 2/4 ended in sharp corrections, but n=4 is insufficient for reliable base rates",
+      "The framework does not specify actionable trigger levels for portfolio repositioning"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "four_scenario_resolution_framework",
+    "purpose": "Map probability-weighted resolution paths for the current period of broken monetary policy transmission, with historical base rates where available.",
+    "components": [
+      "Muddling through (45%): transmission gradually reconnects as maturity wall arrives (2025-2027), AI valuations moderate, private credit marks-to-market; no single discontinuity",
+      "Discontinuous correction (25%): transmission reconnects violently as in 2004-06 Conundrum (IG spreads 50bp to 600bp+ over months); triggered by credit event, AI bust, or repo market stress",
+      "Stop-go policy (20%): Fed oscillates between tightening and easing as partially broken transmission produces delayed and uneven effects, resembling 1970s pattern",
+      "QT accident (10%): nonlinear reserve scarcity threshold is hit, producing a funding market seizure analogous to September 2019 but at larger scale"
+    ],
+    "current_assessment": "Historical pattern suggests 2/4 episodes of broken transmission ended in sharp corrections, supporting a higher probability on the discontinuous path than muddling through. However, the Fed's demonstrated willingness to adjust QT pace (slowed to $25B/month) and the SRF reduce QT accident probability. The specific probability weights are subjective and self-assessed at 5/10 confidence.",
+    "limitations": [
+      "Probability weights are subjective and not calibrated to historical frequencies beyond rough base rates",
+      "Scenarios are not mutually exclusive — elements of multiple paths can combine",
+      "Timing is unknowable even if the eventual path is correctly identified",
+      "The framework does not account for exogenous shocks (geopolitical, pandemic) that could override transmission dynamics"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "three_tier_em_credibility_framework",
+    "purpose": "Segment EM central banks by credibility for differentiated portfolio allocation and monetary transmission analysis, mapping institutional quality to expected flow patterns.",
+    "components": [
+      "Tier 1 — Credible and demonstrated: Brazil BCB, Mexico Banxico, Czech CNB. Demonstrated willingness to maintain high real rates and break inflation expectations. Attract portfolio flows even in risk-off environments.",
+      "Tier 2 — Credible but FX-constrained: India RBI, Indonesia BI. Institutional credibility established but constrained by FX reserve adequacy and current account dynamics. Policy choices subordinated to FX stability at stress points.",
+      "Tier 3 — Politically subordinated: Turkey TCMB, Argentina BCRA. Central bank independence index ~0.25 or below. Political appointment cycle dominates policy. Carry attracts speculative rather than structural allocation."
+    ],
+    "current_assessment": "Tier differentiation is widening. Tier 1 banks (e.g., Brazil Selic at 14.25% with 4.5% inflation) demonstrate credibility but face capex dollar headwinds that compress carry-to-vol below systematic allocation thresholds (~0.3-0.4 vs ~0.5 needed). Tier 3 may see temporary improvement (Turkey) but institutional sustainability is unproven.",
+    "limitations": [
+      "Tier boundaries are subjective and countries can migrate between tiers rapidly",
+      "Framework does not capture China's unique position (neither credibility-constrained nor politically subordinated in the standard sense)",
+      "Does not account for compound geopolitical premium (sanctions risk, supply chain disruption, AI-driven USD bid) layered onto traditional rate differentials",
+      "Single-agent contribution without independent corroboration"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "r_star_meta_identification_framework",
+    "purpose": "Diagnose the fundamental unidentifiability of the natural rate of interest (r*) and its downstream consequences for monetary policy calibration and cross-asset pricing.",
+    "components": [
+      "Three-model comparison: Laubach-Williams (1.18%), Holston-Laubach-Williams (1.66%), Lubik-Matthes (2.28%) — point estimates spanning 110bp",
+      "Combined 90% CI: [-0.8%, 4.0%] — a 480bp range exceeding the entire policy-relevant range of ~300-400bp",
+      "Downstream identification failure: r* uncertainty propagates into Taylor coefficient estimates (phi_pi ranges 0.25-2.6), making the monetary policy stance unidentifiable",
+      "Cross-asset pricing implication: current asset prices internally consistent only at r* ~2.0-2.5%, with ±100bp CI spanning two entirely different macro regimes"
+    ],
+    "current_assessment": "R* estimation uncertainty is the highest-confidence finding across the entire synthesis (9/10). The uncertainty is not reducible with current econometric methods because it reflects fundamental model uncertainty, not sampling error. This meta-finding undermines all downstream claims dependent on precisely identified monetary policy parameters.",
+    "limitations": [
+      "Framework diagnoses the problem but does not offer a solution",
+      "Alternative identification strategies (narrative analysis, event studies) have not been systematically applied",
+      "The 480bp width assumes independence of model errors, which may overstate total uncertainty",
+      "Does not address whether r* is time-varying in a way that makes the concept itself obsolete"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency_framework",
+    "purpose": "Identify mutually inconsistent monetary policy outcomes currently priced across asset classes, revealing where markets disagree and where repricing is most likely.",
+    "components": [
+      "Equities pricing soft landing with continued AI earnings growth (r* ~2.5-3.0% implied)",
+      "Credit spreads pricing benign default environment (investment-grade spreads ~50bp above rate models)",
+      "Rates market pricing ~100bp of cuts with terminal ~3.4-3.7%",
+      "Gold pricing structural monetary credibility loss ($400-600/oz residual above real-rate model)",
+      "Dollar pricing technology capital flows rather than interest rate differentials",
+      "Credit-equity basis: equity-implied spreads 20-40bp wider than actual credit spreads"
+    ],
+    "current_assessment": "Multiple asset classes cannot simultaneously be correct. The cross-asset pricing is internally consistent only at r* ~2.0-2.5%, but each asset class embeds different assumptions about AI productivity, fiscal trajectory, and transmission timing. The resolution will produce a repricing cascade across whichever assets are wrong. Gold and equities present the widest divergence from each other's implied macro scenarios.",
+    "limitations": [
+      "Framework identifies inconsistency but cannot determine which asset class is correct",
+      "Inconsistencies can persist for extended periods (12-18+ months) without resolution",
+      "Private credit ($1.7T) may absorb risk not visible in public market pricing",
+      "Each asset class may be pricing different time horizons, making apparent inconsistency partly an artifact of horizon mismatch"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0021"
+  }
+]

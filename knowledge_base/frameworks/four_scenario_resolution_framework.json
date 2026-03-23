@@ -1,0 +1,25 @@
+{
+  "slug": "four_scenario_resolution_framework",
+  "purpose": "Map probability-weighted resolution paths for the current period of broken monetary policy transmission, with historical base rates where available.",
+  "components": [
+    "Muddling through (45%): transmission gradually reconnects as maturity wall arrives (2025-2027), AI valuations moderate, private credit marks-to-market; no single discontinuity",
+    "Discontinuous correction (25%): transmission reconnects violently as in 2004-06 Conundrum (IG spreads 50bp to 600bp+ over months); triggered by credit event, AI bust, or repo market stress",
+    "Stop-go policy (20%): Fed oscillates between tightening and easing as partially broken transmission produces delayed and uneven effects, resembling 1970s pattern",
+    "QT accident (10%): nonlinear reserve scarcity threshold is hit, producing a funding market seizure analogous to September 2019 but at larger scale"
+  ],
+  "current_assessment": "Historical pattern suggests 2/4 episodes of broken transmission ended in sharp corrections, supporting a higher probability on the discontinuous path than muddling through. However, the Fed's demonstrated willingness to adjust QT pace (slowed to $25B/month) and the SRF reduce QT accident probability. The specific probability weights are subjective and self-assessed at 5/10 confidence.",
+  "limitations": [
+    "Probability weights are subjective and not calibrated to historical frequencies beyond rough base rates",
+    "Scenarios are not mutually exclusive — elements of multiple paths can combine",
+    "Timing is unknowable even if the eventual path is correctly identified",
+    "The framework does not account for exogenous shocks (geopolitical, pandemic) that could override transmission dynamics"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

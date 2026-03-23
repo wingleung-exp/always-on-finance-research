@@ -1,7 +1,7 @@
 {
   "slug": "kalecki_levy_fiscal_earnings_paradox",
   "definition": "The Kalecki-Levy profit equation shows fiscal deficits mechanically support corporate earnings. The US 6-7% deficit contributes an estimated $20-40/share of S&P 500 EPS (7-15%). Any fiscal consolidation sufficient to stabilize debt/GDP would directly reduce the earnings base, creating a consolidation paradox where fiscal improvement triggers earnings recession.",
-  "confidence": 7.0,
+  "confidence": 6.67,
   "evidence": [
     "The Kalecki-Levy accounting identity is definitional",
     "European austerity 2011-2014: EPS fell 10-15%, multiples barely rose, indices flat to down",
@@ -10,7 +10,11 @@
     "At $2T+ deficit (~6-7% GDP), ~$400-600B flows into corporate profit pools after savings offset and net export leakage",
     "Same fiscal expansion sustaining resilient EPS ($230-260) drives positive long-end correlation via term premium",
     "Reverse scenario: deficit narrowing from 6.5% to 3.5% GDP mechanically reduces EPS ~6-10% but enables multiple expansion",
-    "pair_1 recognized this as 'genuinely valuable'"
+    "pair_1 recognized this as 'genuinely valuable'",
+    "Accounting identity: fiscal deficit flows into corporate profits after savings offset and net export leakage",
+    "~25-35% of S&P 500 net income attributable to deficit channel",
+    "Reverse scenario analysis: deficit narrowing trades ~6-10% EPS decline for 2-4x multiple expansion",
+    "Equity analysts seeing resilient earnings as bullish ignore that the earnings source compresses the multiple"
   ],
   "originating_agents": [
     "equity_analyst_01",
@@ -24,7 +28,10 @@
     "Does the paradox create a political economy trap that prevents consolidation entirely?",
     "What is the actual savings rate offset and corporate profit share (±30% uncertainty on key parameters)?",
     "Would multiple expansion from negative correlation reassertion fully offset EPS decline?",
-    "How quickly would the earnings channel respond to fiscal consolidation?"
+    "How quickly would the earnings channel respond to fiscal consolidation?",
+    "What is the precise savings rate offset and corporate profit share (±30% uncertainty)?",
+    "How quickly would multiple expansion offset EPS decline under deficit narrowing?",
+    "Does the Kalecki-Levy identity hold at this scale in the current financial system?"
   ],
   "related_concepts": [
     "r_g_differential_debt_dynamics",
@@ -33,15 +40,18 @@
     "fed_asymmetric_constraint",
     "fiscal_correlation_determinant",
     "cross_asset_pricing_inconsistency",
-    "roic_wacc_compression"
+    "roic_wacc_compression",
+    "fiscal_correlation_codetermination",
+    "roic_wacc_spread_compression"
   ],
   "topic": "sovereign_debt",
   "created_at": "2026-03-23T02:39:05Z",
-  "last_updated": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:25:42Z",
   "originating_iteration": "iter_0017",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0017",
+    "iter_0020",
     "iter_0020"
   ]
 }

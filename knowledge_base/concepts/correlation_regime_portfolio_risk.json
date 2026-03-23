@@ -1,0 +1,32 @@
+{
+  "slug": "correlation_regime_portfolio_risk",
+  "definition": "Portfolio risk from correlation instability is ~40-50% higher than naive constant-correlation models capture. Moving correlation from -0.30 to +0.30 raises 60/40 portfolio volatility from ~8.4% to ~12.3% (46% increase). Vol-targeting ($500B-$1T AUM) and risk parity ($200-400B AUM) strategies mechanically amplify correlation transitions through forced deleveraging.",
+  "confidence": 7,
+  "evidence": [
+    "Mechanical calculation: correlation shift from -0.30 to +0.30 produces 46% volatility increase",
+    "Vol-targeting and risk parity assume locally stable correlations by construction",
+    "Treasury basis trade ($800B-$1T+ at 50-100x leverage) adds acute fragility",
+    "Sophisticated institutional models (MSCI Barra, Axioma) do incorporate regime-switching — the claim applies to systematic strategies, not all risk management"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What fraction of institutional AUM actually uses naive constant-correlation models?",
+    "How quickly do vol-targeting strategies deleverage during correlation transitions?",
+    "Is the Treasury basis trade at current leverage a systemic risk during correlation transition?"
+  ],
+  "related_concepts": [
+    "transitional_correlation_regime",
+    "bimodal_correlation_distribution",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:25:42Z",
+  "last_updated": "2026-03-23T04:25:42Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

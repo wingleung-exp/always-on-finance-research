@@ -1,32 +1,44 @@
 {
   "slug": "fed_framework_review_event_risk",
   "definition": "The Fed's 2025-2026 framework review is an under-priced front-end event risk. The 2020 FAIT precedent caused a 10-15bp 2Y move and 18+ months of reshaped guidance. Current market prices zero premium for the review. The asymmetry (known date, zero pricing, non-trivial probability of 15-30bp impact) makes it worth monitoring, though the outcome is highly uncertain and could produce minimal changes.",
-  "confidence": 5,
+  "confidence": 4.5,
   "evidence": [
     "Review is real with known timeline",
     "2020 FAIT precedent: 10-15bp 2Y move, 18+ months of reshaped guidance",
     "Current market prices zero premium",
-    "pair_3: 'the most tradeable claim' that the challenger missed"
+    "pair_3: 'the most tradeable claim' that the challenger missed",
+    "SEP longer-run dot dispersion widened from ~50bp to ~125bp+",
+    "Genuine contradictions in current framework exist",
+    "Historical base rate for meaningful framework review outcomes is low"
   ],
   "originating_agents": [
-    "rates_strategist_02"
+    "rates_strategist_02",
+    "challenger_01",
+    "risk_analyst_02"
   ],
   "open_questions": [
     "Will the framework review explicitly address AI productivity uncertainty?",
     "Is the zero-pricing rational (likely minimal changes) or an oversight?",
-    "What probability of substantive policy changes justifies the carry cost of positioning?"
+    "What probability of substantive policy changes justifies the carry cost of positioning?",
+    "Will institutional inertia dominate?",
+    "Could the review produce meaningful changes to the inflation target or framework?",
+    "Is the risk mispriced in the dovish or hawkish direction?"
   ],
   "related_concepts": [
     "fed_ai_r_star_trilemma",
     "bimodal_terminal_rate_distribution",
-    "no_aggregate_tfp_breakthrough"
+    "no_aggregate_tfp_breakthrough",
+    "partial_fiscal_dominance",
+    "r_star_estimation_uncertainty",
+    "effective_taylor_rule_coefficient"
   ],
   "topic": "ai_and_tech_disruption",
   "created_at": "2026-03-23T01:33:48Z",
-  "last_updated": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T04:46:43Z",
   "originating_iteration": "iter_0015",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0015"
+    "iter_0015",
+    "iter_0021"
   ]
 }

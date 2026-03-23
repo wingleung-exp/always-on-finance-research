@@ -1,0 +1,30 @@
+{
+  "slug": "sfas_142_goodwill_impairment_mechanism",
+  "definition": "SFAS 142 goodwill impairment testing creates a reflexive channel for monetary policy: lower policy rates mechanically raise fair values in goodwill testing, preventing recognition of underlying cash flow deterioration. Higher rates trigger impairments ($80B+ surge in 2022-23) that appear as non-GAAP adjustments, masking transmission.",
+  "confidence": 7,
+  "evidence": [
+    "$80B+ impairment surge in 2022-23 directly traceable to rate increases",
+    "Goodwill impairments nearly tripled from $3 to $8/share in S&P 500",
+    "Lower rates mechanically raise fair values in SFAS 142 testing",
+    "Mechanism is reflexive — rate cuts would hide impairment, rate hikes reveal it"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "How much of the non-GAAP adjustment expansion is specifically SFAS 142 driven vs other categories?",
+    "Does the mechanism create a false signal of recovery when rates decline?"
+  ],
+  "related_concepts": [
+    "non_gaap_earnings_masking",
+    "broken_monetary_transmission"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T04:46:43Z",
+  "originating_iteration": "iter_0021",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0021"
+  ]
+}

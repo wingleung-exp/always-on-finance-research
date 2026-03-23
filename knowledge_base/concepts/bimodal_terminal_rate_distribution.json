@@ -1,34 +1,45 @@
 {
   "slug": "bimodal_terminal_rate_distribution",
   "definition": "A structurally real bimodal terminal rate distribution exists: 2.0-2.5% in an AI bust scenario vs. 4.5-5.0% if AI productivity is realized — a 200-300bp gap. OIS curve prices ~3.4-3.7%, consistent with 'muddle through' as central mode. The 15-20x swaption mispricing claim was refuted, but a 2-3x mispricing in the wings remains plausible. Valuable as a conceptual tool for understanding rate uncertainty but specific trade expressions require careful sizing.",
-  "confidence": 6,
+  "confidence": 5.5,
   "evidence": [
     "200-300bp scenario gap between AI-bust and AI-realized terminal rates is logically sound",
     "OIS curve prices ~3.4-3.7% — consistent with muddle-through",
     "15-20x swaption mispricing refuted but 2-3x plausible",
-    "Specific mispricing magnitude at 4/10 confidence"
+    "Specific mispricing magnitude at 4/10 confidence",
+    "Equity valuation convexity in discount rate is mathematical",
+    "Wide uncertainty in AI productivity impact on r*",
+    "Technology adoption historically follows S-curves with gradual productivity gains",
+    "Capex-to-revenue ratio of 4-6x misleading for infrastructure with 5-10+ year return horizons"
   ],
   "originating_agents": [
     "rates_strategist_02",
-    "generalist_01"
+    "generalist_01",
+    "challenger_01",
+    "equity_analyst_02"
   ],
   "open_questions": [
     "Can the bimodal distribution be traded without the carry costs eroding theoretical edge?",
     "What is the probability of the 'muddle through' central mode persisting vs. resolving to either extreme?",
-    "Does the Fed framework review create a catalyst for repricing the wings?"
+    "Does the Fed framework review create a catalyst for repricing the wings?",
+    "Does AI adoption follow S-curves making intermediate scenarios likely?",
+    "Is the specific -3-5% valuation adjustment from bimodality defensible?",
+    "How should portfolio construction account for bimodality?"
   ],
   "related_concepts": [
     "fed_ai_r_star_trilemma",
     "cross_asset_pricing_inconsistency",
     "no_aggregate_tfp_breakthrough",
-    "ai_productivity_transmission_lag"
+    "ai_productivity_transmission_lag",
+    "r_star_estimation_uncertainty"
   ],
   "topic": "ai_and_tech_disruption",
   "created_at": "2026-03-23T01:33:48Z",
-  "last_updated": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T04:46:43Z",
   "originating_iteration": "iter_0015",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0015"
+    "iter_0015",
+    "iter_0021"
   ]
 }

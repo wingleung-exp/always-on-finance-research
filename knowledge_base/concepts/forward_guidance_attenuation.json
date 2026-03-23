@@ -1,0 +1,32 @@
+{
+  "slug": "forward_guidance_attenuation",
+  "definition": "Forward guidance transmission is attenuated by approximately 30-50% under positive correlation. Under negative correlation, dovish guidance eases through both bond and equity channels simultaneously (amplifying 1.5-2x); under positive correlation, channels partially offset.",
+  "confidence": 7,
+  "evidence": [
+    "Del Negro, Giannoni & Patterson (2023) estimate 30-50% attenuation",
+    "R-squared of FOMC-day yield changes on equity returns declined from 0.15-0.25 to 0.05-0.10",
+    "Bond channel still functions mechanically — attenuation, not collapse",
+    "Original 'near-zero' claim from rates_strategist_02 refuted in pair_2 debate"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Whether attenuation is stable or varies with correlation magnitude",
+    "Implications for next easing cycle effectiveness"
+  ],
+  "related_concepts": [
+    "taylor_rule_inflation_coefficient",
+    "fci_mismeasurement",
+    "demand_supply_shock_variance_ratio"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}

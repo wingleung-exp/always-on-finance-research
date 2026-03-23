@@ -1,0 +1,37 @@
+{
+  "slug": "demand_supply_shock_variance_ratio",
+  "definition": "The correlation sign between stocks and bonds is structurally determined by the relative variance of demand versus supply shocks, filtered through the central bank reaction function. When demand shocks dominate, countercyclical monetary policy drives negative correlation; when supply shocks dominate, simultaneous discount-rate repricing drives positive correlation.",
+  "confidence": 9,
+  "evidence": [
+    "Campbell-Sunderam-Viceira (2017) empirical anchor",
+    "NK three-equation model derivation (Galí 2015)",
+    "2022: S&P 500 EPS grew ~4% yet index fell ~19% on P/E compression while bonds lost ~13%",
+    "Current shock mix estimated ~55-60% supply-driven, down from ~75% in 2022",
+    "Survived all four debate rounds without challenge"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "generalist_01",
+    "fx_strategist_01",
+    "challenger_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "How to measure the demand/supply shock mix in real time with precision",
+    "Whether AI-driven productivity gains shift the mix toward demand-dominated"
+  ],
+  "related_concepts": [
+    "taylor_rule_inflation_coefficient",
+    "transitional_oscillating_correlation",
+    "phillips_curve_convexity"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:21:39Z",
+  "last_updated": "2026-03-23T04:21:39Z",
+  "originating_iteration": "iter_0019",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0019"
+  ]
+}
