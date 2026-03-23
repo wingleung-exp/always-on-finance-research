@@ -228,17 +228,58 @@ def main() -> None:
 
     # Parse JSON from output
     json_str = extract_json_block(raw_output)
+    extracted = None
 
     try:
         extracted = json.loads(json_str)
     except json.JSONDecodeError as e:
-        log(f"ERROR: Failed to parse extraction JSON: {e}", log_file)
+        log(f"WARNING: Failed to parse extraction JSON from stdout: {e}",
+            log_file)
         log(f"Raw JSON string (first 500 chars): {json_str[:500]}", log_file)
-        # Write raw output for debugging
-        debug_path = os.path.join(phase4_dir, "extraction_raw_debug.txt")
-        with open(debug_path, "w", encoding="utf-8") as f:
-            f.write(raw_output)
-        sys.exit(1)
+
+        # Fallback: Claude sometimes writes output to a file in iter_dir
+        # instead of returning JSON to stdout. Check for any .json file
+        # in the iteration directory that looks like extraction output.
+        log("Checking for extraction file written by Claude...", log_file)
+        for fname in os.listdir(iter_dir):
+            if fname.endswith(".json") and "extraction" in fname:
+                fallback_path = os.path.join(iter_dir, fname)
+                try:
+                    with open(fallback_path, "r", encoding="utf-8") as fb:
+                        candidate = json.load(fb)
+                    if isinstance(candidate, dict) and "concepts" in candidate:
+                        extracted = candidate
+                        log(f"Recovered extraction from file: {fname} "
+                            f"({len(candidate.get('concepts', []))} concepts)",
+                            log_file)
+                        break
+                except (json.JSONDecodeError, OSError):
+                    continue
+
+        if extracted is None:
+            # Also check phase4 dir for any written JSON
+            for fname in os.listdir(phase4_dir):
+                if fname.endswith(".json") and fname != "extraction_raw_debug.txt":
+                    fallback_path = os.path.join(phase4_dir, fname)
+                    try:
+                        with open(fallback_path, "r", encoding="utf-8") as fb:
+                            candidate = json.load(fb)
+                        if isinstance(candidate, dict) and "concepts" in candidate:
+                            extracted = candidate
+                            log(f"Recovered extraction from phase4: {fname}",
+                                log_file)
+                            break
+                    except (json.JSONDecodeError, OSError):
+                        continue
+
+        if extracted is None:
+            # Write raw output for debugging and fail
+            debug_path = os.path.join(phase4_dir, "extraction_raw_debug.txt")
+            with open(debug_path, "w", encoding="utf-8") as f:
+                f.write(raw_output)
+            log("ERROR: No extraction data found via stdout or file fallback",
+                log_file)
+            sys.exit(1)
 
     # Add metadata to each section
     metadata = {
