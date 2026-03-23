@@ -1,0 +1,21 @@
+{
+  "concept_a": "term_premium_dynamics",
+  "concept_b": "maturity_dependent_correlation_bifurcation",
+  "mechanism": "Elevated term premium drives positive 30Y-SPX correlation while the 2Y, dominated by policy rate expectations, maintains negative SPX correlation. The bifurcation is the direct observable expression of term premium driven by fiscal supply vs. policy-rate driven by CB credibility.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Holds under partial fiscal dominance. Would collapse (both positive) under full fiscal dominance when term premium effects dominate even the front end.",
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_02",
+    "macro_strategist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "three_condition_conjunction_trigger",
+  "definition": "Falsifiable specification for positive correlation lock-in requiring simultaneous satisfaction of three conditions: (1) core inflation persistently exceeds CB tolerance (>2.5-3.0%), (2) adjusted term premium exceeds 100bp, (3) output gap near zero or positive. Framework fits all observed historical transitions. Currently two of three conditions are met or approaching.",
+  "confidence": 7,
+  "evidence": [
+    "Fits all observed transitions per rates_strategist_02",
+    "Current status: two of three conditions met or approaching as of March 2026",
+    "Explains why correlation oscillates rather than locks in despite individual conditions being met",
+    "Provides falsifiable predictions unlike some competing frameworks"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the term premium threshold of 100bp robust across measurement approaches?",
+    "Does fiscal dominance modify the output gap condition?",
+    "What is the typical lead time from all three conditions being met to correlation lock-in?"
+  ],
+  "related_concepts": [
+    "correlation_signpost_hierarchy",
+    "transitional_correlation_regime",
+    "term_premium_dynamics",
+    "inflation_expectations_anchoring"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

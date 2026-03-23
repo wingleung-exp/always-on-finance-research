@@ -1,0 +1,37 @@
+{
+  "slug": "correlation_regime_shift_portfolio_impact",
+  "definition": "A stock-bond correlation regime shift mechanically devastates traditional 60/40 and risk-parity portfolios. A 60/40 portfolio sees volatility rise from ~8.4% at rho=-0.30 to ~12.3% at rho=+0.30 — a 46% increase with no change in asset-level volatility. However, positive correlation does NOT equal poor returns; 60/40 returned +12.1%, +14.3%, and ~+8% in 2023-2025 despite weakly positive correlation. Catastrophic failure requires positive correlation AND negative returns (stagflation).",
+  "confidence": 9,
+  "evidence": [
+    "Portfolio math: 60% SPX (sigma 16%), 40% UST 10Y+ (sigma 12%) — vol rises 46% from rho=-0.30 to rho=+0.30",
+    "Risk parity (~$200-400B AUM) forces either reduced leverage or portfolio restructuring under positive correlation",
+    "60/40 returned +12.1%, +14.3%, ~+8% in 2023-2025 despite weakly positive correlation — contradicts 'death of 60/40' narrative",
+    "Standard FCIs systematically understate tightening under positive correlation by treating components as independent"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_02",
+    "generalist_02",
+    "rates_strategist_02",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Is the 'death of 60/40' a crowded consensus trade or a genuine structural insight? BofA FMS shows it in top-3 consensus themes",
+    "Does the next recession produce a sharp bond rally (vindicating 60/40) or do bonds fail to rally (confirming structural change)?",
+    "How much of risk-parity AUM has already adapted to higher correlation assumptions?"
+  ],
+  "related_concepts": [
+    "vol_targeting_risk_parity_amplifier",
+    "current_correlation_regime_instability",
+    "fci_mismeasurement_positive_correlation",
+    "equity_valuations_correlation_inconsistency"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

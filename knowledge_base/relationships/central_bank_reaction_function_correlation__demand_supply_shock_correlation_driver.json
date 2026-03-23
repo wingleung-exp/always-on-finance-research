@@ -1,0 +1,21 @@
+{
+  "concept_a": "central_bank_reaction_function_correlation",
+  "concept_b": "demand_supply_shock_correlation_driver",
+  "mechanism": "The Taylor Rule coefficient (phi_pi) determines how effectively the central bank offsets demand shocks. High phi_pi → demand shocks fully offset → only supply shocks reach asset prices → negative correlation. Low phi_pi → demand shocks partially transmitted → mixed shock correlation → positive correlation.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "CB credibility is necessary but not sufficient for negative correlation. Even a credible CB cannot produce negative correlation if supply shocks dominate the macro environment (e.g., 2022 under a credible Fed).",
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "challenger_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

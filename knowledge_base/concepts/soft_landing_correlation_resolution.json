@@ -1,0 +1,33 @@
+{
+  "slug": "soft_landing_correlation_resolution",
+  "definition": "Historical analysis of 5 episodes finds 0/5 cases where a soft landing independently resolved a correlation regime from positive/unstable to durably negative. Some form of growth shock or financial stress has been required in every observed transition, though the 95% CI from n=5 extends to ~45% base rate.",
+  "confidence": 7,
+  "evidence": [
+    "0/5 soft-landing resolution cases examined by generalist_02",
+    "Laplace correction gives ~14% base rate; 95% CI extends to ~45%",
+    "Market consensus assigns ~40-50% probability to the no-recession gradual-disinflation scenario",
+    "Current environment may be structurally novel (50% passive AUM, AI productivity)",
+    "pair_0 validated directional finding as 'genuine empirical' contribution while refuting '0%' framing"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Is the current environment sufficiently novel to produce the first soft-landing resolution?",
+    "What minimum severity of crisis is required — mild recession or severe financial stress?",
+    "Does the analogue base rate of zero meaningfully update prior beliefs given n=5?"
+  ],
+  "related_concepts": [
+    "transitional_correlation_regime",
+    "correlation_signpost_hierarchy",
+    "recession_tail_underweighting"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

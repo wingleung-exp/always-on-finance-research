@@ -1,0 +1,32 @@
+{
+  "slug": "fci_miscalibration",
+  "definition": "Financial Conditions Indices are miscalibrated by an estimated 75-150bp in policy-rate-equivalent terms, driven by the AI equity rally loosening conditions through a channel orthogonal to monetary policy. Direction almost certainly correct but magnitude could be 40-200bp with different proxy methodology.",
+  "confidence": 5,
+  "evidence": [
+    "AI equity rally loosened conditions by ~150bp through non-monetary channel",
+    "Equal-weight vs. cap-weight proxy shows divergence",
+    "Goldman FCI eased ~1.0 point despite restrictive rates",
+    "pair_2 noted the 75-150bp range could easily be 40-200bp with different proxy"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "What is the true magnitude given the 40-200bp uncertainty range?",
+    "Should FCIs exclude or downweight equity wealth effects from AI-driven gains?",
+    "How does this miscalibration affect Fed policy calibration and communication?"
+  ],
+  "related_concepts": [
+    "broken_monetary_transmission",
+    "effective_taylor_rule_coefficient",
+    "cross_asset_pricing_inconsistency"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

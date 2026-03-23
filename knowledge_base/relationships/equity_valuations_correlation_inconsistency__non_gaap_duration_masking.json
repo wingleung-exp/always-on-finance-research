@@ -1,0 +1,19 @@
+{
+  "concept_a": "non_gaap_duration_masking",
+  "concept_b": "equity_valuations_correlation_inconsistency",
+  "mechanism": "Non-GAAP earnings inflate apparent earnings yield and reduce apparent equity duration by ~30-40%, causing investors to systematically underestimate rate sensitivity. This measurement error makes equities appear less exposed to correlation regime shifts than they actually are.",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "The masking effect is persistent as long as GAAP/non-GAAP divergence persists (~25% gap currently). SBC is secularly growing, widening the gap over time. Effect is strongest for tech-heavy indices.",
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

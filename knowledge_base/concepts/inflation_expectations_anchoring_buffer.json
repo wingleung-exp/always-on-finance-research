@@ -1,0 +1,36 @@
+{
+  "slug": "inflation_expectations_anchoring_buffer",
+  "definition": "Inflation expectations remain anchored but the buffer is thinner than at any point since the late 1990s. 5Y breakevens at ~2.3-2.5% remain within the 'anchored' band (1.8-2.5%), and the Coibion-Gorodnichenko threshold for de-anchoring (sustained 5Y breakeven divergence >75-100bp for >6 months) has not been breached. However, the distribution has shifted rightward toward the upper bound.",
+  "confidence": 8,
+  "evidence": [
+    "5Y breakevens at ~2.3-2.5%, within historical anchored range (1.8-2.5%)",
+    "Michigan 5-10Y consumer expectations at 3.0-3.2% — elevated but not de-anchored",
+    "5Y breakevens peaked at ~3.0-3.1% briefly in early 2022, settled back to 2.3-2.5%",
+    "Fed hiked 525bp and inflation dropped from 5.6% to ~2.5-2.8% without recession — transmission working with a lag"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "challenger_01",
+    "rates_strategist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Will tariff-driven goods inflation push realized inflation above 3.5% for 2-3 consecutive quarters, triggering Phillips Curve shift from 'anchored, flat' to 'de-anchoring, steepening'?",
+    "At what point does the rightward distribution shift breach the anchoring threshold?",
+    "Is the Coibion-Gorodnichenko threshold itself regime-dependent?"
+  ],
+  "related_concepts": [
+    "central_bank_reaction_function_correlation",
+    "current_correlation_regime_instability",
+    "demand_supply_shock_correlation_driver",
+    "geopolitical_supply_fragmentation_premium"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7.5,
+  "confidence": 7.67,
   "evidence": [
     "S&P ~21x forward P/E requires ~4.0% unemployment consumption levels",
     "Rates pricing 75-100bp of easing implies labor softening",
@@ -12,14 +12,21 @@
     "10Y TIPS at ~2.1% real yield prices ~1.5-1.8% real growth",
     "Gap is ~100bp — widest since 2000-2001",
     "challenger_02's multi-horizon partial reconciliation survived pair_3 debate",
-    "1996 analyst identifying the same pattern was four years early"
+    "1996 analyst identifying the same pattern was four years early",
+    "S&P 500 ERP of ~4.0-4.5% justifiable only if bonds provide portfolio insurance (negative correlation)",
+    "ACM term premium at +50-80bp prices duration risk inconsistent with bonds-as-insurance",
+    "IG credit spreads at ~90-110bp price near-zero probability of regime where Fed cannot aggressively ease",
+    "Gold at all-time highs prices inflation/monetary regime uncertainty",
+    "Mega-cap tech implies ERP of 2.0-3.0% while S&P 493 implies 5.0-6.5% — index ERP is averaging artifact",
+    "Historical base rate: equity valuations lag correlation regime shifts by 18-36 months, possibly extended to 36-60 months by ~50% passive AUM"
   ],
   "originating_agents": [
     "generalist_01",
     "equity_analyst_02",
     "equity_analyst_01",
     "rates_strategist_02",
-    "challenger_02"
+    "challenger_02",
+    "generalist_02"
   ],
   "open_questions": [
     "Which asset class reprices first?",
@@ -27,7 +34,11 @@
     "What is the timing horizon for convergence?",
     "Is the inconsistency a genuine mispricing or rational multi-horizon pricing?",
     "What is the historical base rate for cross-asset inconsistency convergence timelines?",
-    "Does the winner-take-all equilibrium fully or only partially reconcile the signals?"
+    "Does the winner-take-all equilibrium fully or only partially reconcile the signals?",
+    "Is the equity market mispriced or does it reflect an informed forward-looking view of inflation normalization?",
+    "Will resolution come through equity repricing, rates repricing, or correlation reassertion?",
+    "Does 50% passive AUM structurally delay repricing?",
+    "Does equity market concentration create a correlation illusion that overstates the inconsistency at the economy-wide level?"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
@@ -38,15 +49,21 @@
     "no_aggregate_tfp_breakthrough",
     "erp_compression",
     "winner_take_all_equilibrium",
-    "bimodal_terminal_rate_distribution"
+    "bimodal_terminal_rate_distribution",
+    "equity_concentration_correlation_illusion",
+    "roic_wacc_compression",
+    "transitional_correlation_regime",
+    "passive_investing_repricing_lag",
+    "kalecki_levy_fiscal_earnings_paradox"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-23T04:13:17Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0003",
-    "iter_0015"
+    "iter_0015",
+    "iter_0020"
   ]
 }

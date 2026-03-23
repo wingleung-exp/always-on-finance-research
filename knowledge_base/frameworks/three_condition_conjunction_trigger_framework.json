@@ -1,0 +1,27 @@
+{
+  "slug": "three_condition_conjunction_trigger_framework",
+  "purpose": "Specifies the falsifiable conditions for positive stock-bond correlation lock-in, explaining why correlation oscillates when some but not all conditions are met.",
+  "components": [
+    "Condition 1: Core inflation persistently exceeds central bank tolerance threshold (>2.5-3.0%)",
+    "Condition 2: Adjusted term premium exceeds 100bp",
+    "Condition 3: Output gap near zero or positive (economy not in recession)",
+    "Lock-in requires simultaneous satisfaction of all three conditions",
+    "Failure of any one condition allows oscillation rather than lock-in"
+  ],
+  "current_assessment": "Two of three conditions are met or approaching as of March 2026. The conjunction approach explains why correlation hasn't locked in despite individual conditions being met at different times. Framework fits all observed historical transitions. Provides falsifiable predictions unlike some competing frameworks.",
+  "limitations": [
+    "Derived from a limited number of historical transitions",
+    "Term premium measurement uncertainty (ACM vs. adjusted estimates differ by 30-50bp)",
+    "Does not specify dynamics between states or transition speed",
+    "Output gap condition may be modified by fiscal dominance making the CB reaction function endogenous",
+    "Specific threshold values carry calibration uncertainty"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

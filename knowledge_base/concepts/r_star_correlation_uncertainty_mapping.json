@@ -1,0 +1,32 @@
+{
+  "slug": "r_star_correlation_uncertainty_mapping",
+  "definition": "The 250bp range of r-star estimates (0.5% secular stagnation to 3.0% AI optimism) maps directly to correlation regime uncertainty. Low r-star implies deep recession coming and strongly negative correlation. High r-star implies economy running hot with limited Fed room and unstable or positive correlation. The consensus estimate (1.5-2.0%) is the least informative, implying a gradual transition pushable in either direction by small shocks.",
+  "confidence": 6,
+  "evidence": [
+    "r-star estimates range from 0.5% (secular stagnation) to 3.0% (AI supply-side optimism)",
+    "Each r-star value implies different policy stance, recession probability, and correlation regime",
+    "Debate pair_2 confirmed this is 'a r-star debate in disguise'",
+    "Novel mapping from single agent but analytically powerful"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Can r-star be estimated with sufficient precision to be operationally useful for correlation regime prediction?",
+    "Does the r-star range narrow as more post-pandemic data accumulates?",
+    "How does AI productivity potential affect the r-star distribution and therefore the correlation regime?"
+  ],
+  "related_concepts": [
+    "central_bank_reaction_function_correlation",
+    "current_correlation_regime_instability",
+    "output_gap_correlation_instability"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

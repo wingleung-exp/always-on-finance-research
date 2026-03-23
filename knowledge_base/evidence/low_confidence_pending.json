@@ -1027,5 +1027,285 @@
     "needs": "Corroboration from other agents. Must address the limitation that sovereigns have coercive taxing power and transfer payments serve social insurance functions not captured by multiplier analysis.",
     "topic": "sovereign_debt",
     "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "Gold model residual ($900-1,100/oz above real-rate fair value) serves as a quantitative measure of FX system fragmentation, correlating r=0.80 with cumulative central bank gold purchases since 2022.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Decomposition of the gold residual into geopolitical risk premium, retail demand, speculative flows, and FX fragmentation components. Independent corroboration from non-gold indicators of system fragmentation. The single-agent r=0.80 claim requires validation across different model specifications."
+  },
+  {
+    "claim": "Export ban contagion is the most under-modeled tail risk in FX-rates divergence, with game-theoretic cascade mechanics across food-exporting nations.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Formal game-theoretic modeling with calibrated payoffs. Systematic ranking against other tail risks to validate the 'most under-modeled' claim. Out-of-sample evidence beyond the three confirming episodes (2007-08, 2010-11, 2022), each of which had significant confounding factors."
+  },
+  {
+    "claim": "FX-unhedged Treasury holdings by Japanese institutions create dual fragility with the domestic basis trade, risking a pro-cyclical doom loop in the benchmark safe asset under a Fed-cuts/BoJ-hikes scenario.",
+    "source_agent": "risk_analyst_01",
+    "needs": "Observable rather than estimated data on the magnitude of unhedged Japanese UST holdings. Stress testing of the combined scenario (foreign unhedged sellers + domestic basis trade unwind). More rigorous historical precedent analysis beyond the partial March 2020 example."
+  },
+  {
+    "claim": "Carry factor crowding is currently elevated in the top quartile of historical observations, with 60% conditional probability of negative carry returns.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Broader positioning data beyond CFTC futures (which cover only a fraction of actual FX exposure). The 60% conditional probability barely exceeds the unconditional base rate, undermining the signal's value. Pair_2 debate judged this 'a qualitative heuristic dressed up as a quantitative finding.'"
+  },
+  {
+    "claim": "Agricultural seasonality creates a predictable 'carry fragility window' during Northern Hemisphere growing season (June-August).",
+    "source_agent": "commodities_analyst_02",
+    "needs": "More than 3 cited episodes (2010, 2012, 2022) over 12 years, each with heavy confounding factors (Russian geopolitics, US drought, Ukraine war). Formal separation from quarter-end rebalancing and summer liquidity thinning as alternative explanations. Out-of-sample testing across multiple agricultural cycles."
+  },
+  {
+    "claim": "Fed regime conditions ALL FX factor returns (carry, value, momentum) — not just carry — with statistically different return distributions across Fed policy regimes.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Sufficient number of complete Fed rate cycles in the modern floating-rate sample to achieve statistical power. The carry conditioning on the 'hold' regime (Sharpe 0.6-0.8) is well-documented; the value and momentum conditioning requires independent confirmation with larger samples."
+  },
+  {
+    "claim": "EM carry should be decomposed into pure carry (2-3%), sovereign credit (2-4%), convertibility risk (1-3%), and liquidity premium (1-2%), with 40-60% of total return attributed to credit/institutional risk.",
+    "source_agent": "quant_researcher_02",
+    "needs": "Formal decomposition methodology rather than assertion. The specific percentage allocations could range from 25-75% depending on the currency and time period. Country-specific calibration across multiple EM currencies. The conceptual framework is valuable but the quantitative estimates are unsubstantiated."
+  },
+  {
+    "claim": "PBOC/CNY competitive devaluation would amplify BoJ normalization into a regional FX crisis via the chain: BoJ normalizes, JPY strengthens, Chinese exporters gain share, PBOC allows CNY depreciation, triggering Asian EM contagion.",
+    "source_agent": "generalist_01",
+    "needs": "Historical precedent actually undermines it (2012-2015 Abenomics period, PBOC did not competitively devalue). Requires evidence of PBOC willingness to use competitive devaluation as a policy tool, cross-country analysis of CNY depreciation transmission to Asian EM, and assessment of PBOC opacity constraints on forecasting.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Divergence resolution follows different patterns based on type: single-outlier episodes resolve primarily through FX adjustment (~75%) versus multi-bank divergence resolving through rate convergence (~60%).",
+    "source_agent": "quant_researcher_01",
+    "needs": "Larger sample size (current n=14 with Fisher exact p=0.14). The 75% rate CI is approximately [48%, 93%], barely excluding a coin flip. Needs formal statistical validation with expanded episode classification and out-of-sample testing.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Structural vs cyclical divergence discriminant using output gap, 5Y-5Y forwards, and structural current account achieves 75% cross-validated accuracy on 8 episodes, with implied FX magnitudes of ~10-15% for cyclical and ~20-35% for structural.",
+    "source_agent": "quant_researcher_01",
+    "needs": "Larger validation sample (only 8 episodes, both misclassifications from policy surprises). FX magnitude estimates propagate too much uncertainty from the 75%-accurate classifier. Directional distinction needs validation separate from specific magnitude ranges.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Dollar super-cycles have predictive value based on n=6 observed cycles with lengths of 7, 7, 10, 7, 9, 11 years.",
+    "source_agent": "generalist_02",
+    "needs": "Cannot distinguish true cyclical process from random mean-reversion or discrete policy-driven structural breaks with only 6 observations. CI for mean cycle length (~6.6-10.4 years) is too wide. Current mixed signal produces a probability distribution so wide (35/40/20) as to be nearly uninformative. Would require formal statistical test against random walk null.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Simultaneous unwind of FX-unhedged foreign Treasury holdings (~$8T) and domestic basis trades ($800B-$1T) could invert the flight-to-quality pattern for US Treasuries.",
+    "source_agent": "risk_analyst_01",
+    "needs": "March 2020 provides only partial validation. Requires multiple simultaneous failures. Japanese institutions have historically been slow to adjust Treasury allocations. Fed standing facilities (repo, FIMA) may truncate the tail. Needs formal scenario probability assessment and analysis of Fed facility capacity constraints.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Caloric Concentration Index (weighting food imports by caloric contribution rather than dollar value) is a more predictive FX fragility indicator than aggregate food import ratios, with 2-3x higher FX volatility for concentrated importers.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Cross-country empirical validation across multiple crop stress episodes. The 2-3x multiplier is an untested estimate. Egypt example (60% wheat import dependence, 35% caloric share) is illustrative but n=1 for formal testing. Needs constructed index, backtested across 10+ countries and 5+ stress episodes.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Gold residual ($900-1,100/oz above real-rate model) signals FX-regime fragmentation, correlating with EM central bank purchases at r=0.80.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Formal decomposition of the residual across central bank buying, geopolitical risk premium, Chinese/Indian retail demand, and CTA momentum. The correlation with central bank buying explains the gold-TIPS divergence but does not necessarily confirm FX-regime fragmentation. Needs attribution analysis isolating the fragmentation component.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Biofuel mandates create a meaningful price floor that extends food inflation persistence during carry stress, fundamentally altering commodity-FX dynamics.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Evidence that mandate floors are hard rather than soft (EPA granted partial RFS waivers in 2008 and 2012; Indonesia adjusted levies repeatedly). The corn ethanol mandate predates 2022, so it is not a structural break. Needs quantification of the mandate floor effect on carry re-entry timing across multiple episodes.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "OPEC+ spare capacity levels below 2mb/d interact with carry fragility by determining energy-FX shock amplitude, creating a three-factor conjunction risk.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Individual components (spare capacity impacts oil vol, oil vol impacts energy-FX) are well-established but the three-factor conjunction (low spare capacity + crowded carry + BoJ normalization) has limited precedent. 2008 is closest but with significant confounds. The 2mb/d threshold is hypothesized but not formally tested. Needs historical analysis of carry performance stratified by spare capacity levels.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "CIP basis is an investable factor with implementable Sharpe ratio of 0.2-0.4.",
+    "source_agent": "quant_researcher_02",
+    "needs": "The 0.2-0.4 is an upper bound for bank-affiliated desks only. For broader investment community, implementable Sharpe is closer to 0.0-0.2 after bilateral credit, margin, and regulatory capital costs. The basis persists precisely because it is not easily arbitrageable. Needs practical implementation study with realistic friction estimates across different institutional types.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Hold-phase FX dynamics follow a bimodal pattern determined by credibility of the hold, with median -8% FX move over 6 months during hold-to-cut transitions.",
+    "source_agent": "generalist_02",
+    "needs": "12-episode database is empirically substantive but the credibility-of-the-hold discriminant is partially tautological (strong economy leads to credible hold leads to strong currency). Needs formal test of whether hold credibility can be assessed ex ante using observable variables. Current Fed positioning maps to credible hold sub-sample.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The fertilizer-FX nexus is a first-order missing variable in FX models, where regional gas price differentials create divergent fertilizer cost structures affecting crop production costs and FX.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Morocco/Tunisia comparison is N=1 with multiple confounders. The channel exists but the missing variable framing exceeds the evidence. Fertilizer channel matters for a narrow set of frontier currencies (EGP, PKR, NGN, BDT) only. Needs cross-country panel regression controlling for energy BoP, rate differentials, and other first-order drivers to isolate the fertilizer channel.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Seasonal crop calendar concentrates carry tail risk in predictable June-August windows, making this exploitable for hedging.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Sample of only ~6-8 major crop failures in 20 years is too small. Confounded by summer liquidity reduction (separate, already-known phenomenon). The June-August window is barely more specific than the already-known advice to reduce carry in summer. Needs larger sample with formal statistical test against random timing null, controlling for liquidity seasonality.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Dedollarization of commodity invoicing has shifted ~5-8pp of global commodity trade away from USD settlement ($250-480B annually), constituting a measurable structural drag on dollar demand.",
+    "source_agent": "generalist_01",
+    "needs": "Higher-quality settlement data (SWIFT/CIPS coverage gaps must be closed); evidence that predicted cross-asset implications (basis narrowing, term premium expansion) materialize; demonstration that annual flow is significant relative to daily FX turnover of $7.5T+. Debate pair_0 verdict: 'below the evidence threshold for inclusion' at claimed magnitude.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The energy transition is creating a slow structural migration of commodity-FX betas: lithium-CLP elasticity rising from ~0 to ~0.15, nickel-IDR sensitivity increasing, oil-NOK beta declining from ~0.35 to ~0.20.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Longer post-2020 time series for lithium-CLP sensitivity; disentangling Indonesia's nickel-IDR from policy interventions (export bans, processing mandates); confirmation that Norway's declining oil beta reflects energy transition rather than GPFG sterilization. The 5-10 year forecast horizon and small current magnitudes reduce actionability.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The green transition agricultural cost channel (biofuel mandates, land competition, water reallocation) will raise baseline EM food inflation by 50-150bp over the next decade.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Quantification of countervailing forces (precision agriculture, yield improvements, dietary shifts, policy reversals); evidence biofuel mandates add incremental cost beyond already-priced structures (US corn ethanol at 35%+ since ~2015); land competition evidence beyond <1% of global cropland cited. Debate pair_1: 'the weakest claim in either analysis.'",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "China's strategic agricultural reserves (50-65% of global corn, 35-50% of wheat, 60-70% of rice) represent the single largest source of unpriced tail risk in the agricultural-FX nexus.",
+    "source_agent": "commodities_analyst_02",
+    "needs": "Leading indicators for SINOGRAIN release/accumulation decisions; narrower confidence interval on actual reserve volumes (currently ±15-20%); historical analysis of reserve action FX impacts with proper controls; removal of speculative BoJ interaction scenario.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The fiscal-driven stock-bond correlation flip is more likely than the inflation-driven flip to be the marginal driver of correlation regime instability, with asymmetric implications for carry (fiscal-driven is worse because rate differentials narrow as bond hedge fails).",
+    "source_agent": "generalist_01",
+    "needs": "Addressing the Japan counterfactual (decades of fiscal excess without correlation flip due to BoJ monetization); assessment of whether Fed might follow BoJ playbook; validation of monitoring thresholds (currently 2 amber, 1 green) with larger historical sample.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The yen's safe-haven property is regime-conditional with precisely two historical states, and BoJ normalization toward 1.0%+ creates an unprecedented third state where the mechanism could operate through carry unwind repatriation rather than flight-to-quality.",
+    "source_agent": "generalist_02",
+    "needs": "Resolution of whether safe-haven depends on carry unwind mechanics (diminished at BoJ 1.0%+) or structural creditor position ($3.5T+ NIIP); Japan has never had meaningfully positive rates during a modern global crisis, making this genuinely unprecedented and unresolvable from historical data alone.",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "Dollar cycle analysis across five post-Bretton Woods cycles suggests the current cycle (15 years from trough) is the longest and most PPP-overvalued (15-25%), matching the pre-Plaza 1983-85 configuration on 4/5 indicators but critically lacking a coordinated policy correction mechanism.",
+    "source_agent": "generalist_02",
+    "needs": "Resolution of reference distribution stationarity (KD5: was 1990-2010 convergence the anomaly?); larger cycle population than n=5; assessment of whether pre-Bretton Woods cycles are comparable despite structural differences (capital controls, different monetary regimes).",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The commodity-adjusted current account balance predicts REER movements 6-12 months ahead with r~0.45-0.55 for economies with commodity trade >10% of GDP.",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Formal specification details (estimation period, controls, in-sample vs out-of-sample split); independent replication (r~0.45-0.55 is suspiciously high for REER forecasting where r~0.20-0.30 is considered strong); timing catalysts for specific trade signals cited (BRL undervalued 8-12%, ZAR undervalued 5-8%, NOK overvalued 3-5%).",
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "Correlation regime acts as an earnings quality factor rotation signal, with high-accruals quintile performance flipping between positive and negative correlation regimes.",
+    "source_agent": "equity_analyst_02",
+    "needs": "More than n=1 episode to validate the signal. Out-of-sample testing across additional historical correlation regime transitions. Sector-neutral version to isolate the correlation channel from concurrent factor rotations.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "A Taiwan Strait crisis is the most underpriced geopolitical correlation risk, with options markets pricing Taiwan risk through equity vol but not rate vol or cross-asset correlation.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Better probability estimation methodology (current 8-12% over 3 years is acknowledged false precision). Empirical validation of the three-phase correlation transition model against historical geopolitical disruptions. Testable options market analysis of the equity-rate vol pricing asymmetry.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "The 1947-1951 financial repression period is an underappreciated analogue for the current stock-bond correlation regime.",
+    "source_agent": "generalist_02",
+    "needs": "Analysis of whether opposite fiscal trajectory (surplus then vs deficit now) invalidates the analogue. Corroboration from additional agents. Quantified comparison of CB balance sheet dynamics then vs now.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Sanctions-driven global correlation regime bifurcation is creating distinct US/EU, China, and non-aligned EM correlation blocs.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Sufficient empirical data accumulation to validate the three-bloc framework. Improved EM and Chinese market data quality for reliable correlation measurement. Analysis of practical barriers (capital controls, sanctions compliance) to exploiting cross-bloc diversification.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "A Russia-Ukraine settlement is the most powerful single catalyst for returning to negative stock-bond correlation, with market pricing potentially underweighting this tail at ~15% probability.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Independent geopolitical probability assessment beyond risk_analyst_02's estimate. Analysis of whether partial settlement (frozen conflict) has similar correlation impact to full resolution. Quantification of the energy risk premium and fiscal pressure channels.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Standard Financial Conditions Indices systematically mismeasure tightening under positive correlation regimes by treating stock and bond components as independent.",
+    "source_agent": "rates_strategist_02",
+    "needs": "Empirical quantification of the mismeasurement magnitude in basis-point-equivalent terms. Validation against macro outcomes to confirm the mismeasured FCI is actually less predictive. Investigation of whether the Fed internally adjusts for this channel.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "AI-driven supply-side productivity gains could be the most powerful structural force restoring negative correlation, potentially overriding fiscal dominance regardless of fiscal policy or central bank reaction functions within 3-5 years.",
+    "source_agent": "challenger_01",
+    "needs": "Evidence that AI productivity gains are appearing in macro TFP aggregates rather than just corporate capex and deployment metrics. Historical validation that positive supply shocks can override fiscal dominance. Resolution of the Solow paradox timing question (electricity took 30+ years, internet 10-15 years). A cited model supporting the claim that AI would override fiscal dominance 'regardless of' policy.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "EUR/USD carry-adjusted appreciation functions as a 2-4 month leading indicator for stock-bond correlation regime shifts.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Larger sample beyond 3 historical validations with acknowledged false-positive episodes (2011-12 eurozone crisis). Validation that the indicator works when EUR/USD is driven by trade balance shifts rather than portfolio flows. Current flat reading is consistent with muddled regime but not signaling.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Passive investing (~50% of equity AUM) extends the correlation-regime equity repricing lag from the historical 18-36 months to 36-60 months.",
+    "source_agent": "generalist_02",
+    "needs": "Empirical measurement of passive flow impact on correlation regime repricing speed beyond 'three data points stitched together with intuition.' A mechanism explaining the specific 36-60 month range. Analysis of whether passive flows concentrate the eventual repricing into a shorter, sharper event.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Italy's BTP-FTSE MIB correlation trajectory provides a 12-18 month advanced preview of the US stock-bond correlation regime.",
+    "source_agent": "generalist_02",
+    "needs": "Accounting for fundamental structural differences: Italy operates within a currency union (redenomination risk has no US equivalent), Italian equity market is bank-heavy and cyclical (opposite of US tech-heavy), ECB TPI backstop involves moral hazard from other eurozone members (no Fed analogue). Evidence that timeline parallels are causal rather than coincidental.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Financial Conditions Index miscalibration is 75-150bp in policy-rate-equivalent terms due to AI equity rally loosening conditions through a non-monetary channel.",
+    "source_agent": "rates_strategist_02",
+    "needs": "Alternative proxy methodologies beyond crude equal-weight vs. cap-weight to narrow the 40-200bp uncertainty range. Independent validation of the specific AI equity rally contribution to FCI loosening. Reconciliation with the Goldman FCI methodology and official Fed financial conditions assessments.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The 2006-07 FX regime is the most informative dollar-cycle analogue for predicting the current dollar and correlation trajectory.",
+    "source_agent": "fx_strategist_01",
+    "needs": "Accounting for the critical fiscal starting point difference (2% deficit and 62% debt/GDP in 2006-07 vs. 6-7% deficit and ~125% debt/GDP today), which could change timing and severity by a factor of 2-3x. Validation that the dimensional comparison methodology weights the right factors.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "BOJ normalization is the single largest underpriced exogenous shock to US term premium and global correlation regimes, potentially adding 30-180bp to US term premium over 12-18 months.",
+    "source_agent": "rates_strategist_02",
+    "needs": "Narrowing of the 6x magnitude range (30-180bp) which currently undermines precision. Evidence that Japanese institutional selling would materially exceed the gradual reduction already underway since 2022 with limited measurable impact. Substantiation of ranking as largest underpriced shock vs. tariff escalation, fiscal expansion, and recession risks.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The geopolitical correlation ratchet creates a structurally positive correlation bias through asymmetric escalation-spike vs. de-escalation-normalization dynamics and permanent sunk fiscal commitments.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Larger sample of true geopolitical correlation events beyond Russia-Ukraine. Methodology to isolate the geopolitical channel from concurrent monetary and fiscal dynamics. Quantification of the ratchet's cumulative correlation impact and whether it saturates at some level of geopolitical tension.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
   }
 ]

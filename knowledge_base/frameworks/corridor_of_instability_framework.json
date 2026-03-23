@@ -1,0 +1,28 @@
+{
+  "slug": "corridor_of_instability_framework",
+  "purpose": "Maps the two-dimensional parameter space (core inflation × fiscal deficit/GDP) that determines whether stock-bond correlation is stable (resolved to positive or negative) or structurally unstable (oscillating).",
+  "components": [
+    "X-axis: Core inflation rate with thresholds at 2.0% (lower) and 3.5% (upper)",
+    "Y-axis: Fiscal deficit as percent of GDP with thresholds at 4.5% (lower) and 7.0% (upper)",
+    "Below corridor on inflation (<2.0%) OR deficit (<4.5% declining): negative correlation dominates",
+    "Above corridor on inflation (>3.5-4.0% sustained): positive correlation locks in",
+    "Inside corridor: structurally unstable, oscillating correlation with maturity bifurcation",
+    "Current US position: core PCE ~2.7%, deficit ~6.5% GDP — interior of corridor"
+  ],
+  "current_assessment": "More operationally useful than unidimensional inflation focus per pair_0. The US occupying the corridor interior explains the 4-year oscillating regime. Movement requires either inflation breaking above 3.5%, fiscal consolidation below 4.5%, or a crystallizing event.",
+  "limitations": [
+    "Derived from only 4 G10 episodes — small sample for parameter calibration",
+    "Parameter boundaries carry ±1pp uncertainty",
+    "Does not account for structural differences across economies (currency issuer vs. user, reserve currency status)",
+    "The concept is more robust than the specific numerical boundaries",
+    "Does not specify transition dynamics when exiting the corridor"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

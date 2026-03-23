@@ -1,0 +1,33 @@
+{
+  "slug": "treasury_basis_trade_fragility",
+  "definition": "The Treasury basis trade ($800B-$1T+ at 50-100x leverage) represents systemic fragility with no historical analogue during a correlation transition. Forced unwinding would amplify correlation instability through simultaneous Treasury and equity market stress via margin calls and deleveraging cascades.",
+  "confidence": 7,
+  "evidence": [
+    "$800B-$1T+ notional at 50-100x leverage — most specific fragility identified",
+    "No historical analogue for this leverage structure during a correlation transition",
+    "Forced unwinding would hit both Treasury and equity markets simultaneously",
+    "Identified as structural amplifier alongside vol-targeting and risk parity strategies"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the current exact size and leverage profile of the basis trade?",
+    "What triggers (rate moves, margin changes, regulatory action) would force unwinding?",
+    "Can regulatory intervention prevent a disorderly unwind?",
+    "How does the basis trade interact with the carry trade and risk parity as amplifiers?"
+  ],
+  "related_concepts": [
+    "portfolio_risk_correlation_instability",
+    "transitional_correlation_regime",
+    "usdjpy_carry_trade_accelerator"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

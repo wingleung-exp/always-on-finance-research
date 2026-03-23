@@ -1,0 +1,53 @@
+{
+  "slug": "demand_supply_shock_correlation_driver",
+  "definition": "The mix of demand vs. supply shocks is the fundamental determinant of stock-bond correlation sign. Demand shocks move output and inflation in the same direction, producing negative stock-bond price correlation under an optimizing central bank. Supply/inflation shocks move them in opposite directions, producing positive correlation. Derived structurally from the New Keynesian three-equation model.",
+  "confidence": 9.0,
+  "evidence": [
+    "2022 episode: S&P 500 EPS grew ~4% yet index fell ~19%, entirely driven by discount rate repricing during supply-shock-dominated inflation surge",
+    "CPI prints became dominant single-day co-mover of both asset classes in 2022",
+    "Campbell, Sunderam & Viceira (2017) canonical empirical validation: inflation-consumption growth correlation sign determines bond hedging properties",
+    "NK three-equation model (IS, Phillips Curve, Taylor Rule) derives this structurally via impulse response sign restrictions",
+    "Campbell-Pflueger-Viceira (2020) framework endorsed by all 8 agents as highest-confidence theoretical foundation",
+    "6/7 flips to negative triggered by growth shocks across 13 documented post-1960 transitions",
+    "5/6 flips to positive triggered by inflation shocks with median lead time 2-4 months",
+    "Current ambiguous shock mix (residual supply-side inflation persistence + demand softening) explains why correlation regime remains unresolved",
+    "No agent contested the underlying mechanism; all debate concerns which shock type dominates going forward"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "generalist_01",
+    "equity_analyst_02",
+    "challenger_01",
+    "generalist_02",
+    "fx_strategist_01",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "How do tariff shocks classify — demand or supply? Mixed shocks with ambiguous correlation implications",
+    "Does the framework oversimplify by collapsing inflation uncertainty, monetary regime, fiscal stance, and risk appetite into a single inflation regime variable?",
+    "Which shock type will dominate going forward given the current ambiguous mix of residual supply-side inflation persistence and demand softening?",
+    "How to decompose demand vs. supply shocks in real-time when components are mixed?",
+    "Does fiscal dominance alter the shock taxonomy by making the CB reaction function endogenous?"
+  ],
+  "related_concepts": [
+    "central_bank_reaction_function_correlation",
+    "geopolitical_supply_fragmentation_premium",
+    "output_gap_correlation_instability",
+    "negative_correlation_historical_anomaly",
+    "inflation_expectations_anchoring",
+    "transitional_correlation_regime",
+    "effective_taylor_rule_coefficient",
+    "phillips_curve_slope",
+    "corridor_of_instability"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 2,
+  "iteration_history": [
+    "iter_0018",
+    "iter_0020"
+  ]
+}

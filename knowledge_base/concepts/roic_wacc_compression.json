@@ -1,0 +1,36 @@
+{
+  "slug": "roic_wacc_compression",
+  "definition": "ROIC-WACC spread has compressed to ~3.5-5.0pp (tightest since 2007-08), creating nonlinear, convex equity sensitivity to rate changes via the EVA identity. At current spreads, a 100bp WACC increase destroys ~25% of EVA vs. ~14% at historical 7pp spreads — a 1.8x amplification making earnings ~1.5-2.0x more rate-sensitive than any prior positive correlation episode.",
+  "confidence": 9,
+  "evidence": [
+    "Mathematical identity: EVA = Invested Capital × (ROIC - WACC) — not an empirical claim",
+    "S&P 500 ROIC declined from cyclical peaks of ~14-15% (2021) to ~11-12% (2025E)",
+    "WACC risen from ~6-7% to ~8-9%",
+    "Current ~3.5-5.0pp spread is tightest since 2007-08; prior positive correlation episodes had 8-12pp spreads",
+    "Rate increases now damage earnings through fundamental channel, not just multiple compression",
+    "pair_1 called this 'genuinely novel and indisputable'"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the precise current spread estimate (±50bp uncertainty)?",
+    "How does the amplification vary across sectors and between mega-cap tech (net cash) vs. S&P 493?",
+    "Does consensus systematically underestimate equity vulnerability by treating rates as primarily a multiple effect?"
+  ],
+  "related_concepts": [
+    "corporate_debt_maturity_wall",
+    "cross_asset_pricing_inconsistency",
+    "sbc_hidden_equity_duration",
+    "maturity_dependent_correlation_bifurcation"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

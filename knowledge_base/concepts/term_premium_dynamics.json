@@ -1,0 +1,38 @@
+{
+  "slug": "term_premium_dynamics",
+  "definition": "Term premium has rebuilt to 50-80bp (ACM), with adjusted estimates of 80-130bp, driven primarily by fiscal supply pressure ($2T+ annual issuance), reduced price-insensitive foreign demand (petrodollar erosion, BOJ normalization), and inflation uncertainty. Term premium is the primary channel transmitting fiscal policy to the correlation regime.",
+  "confidence": 7,
+  "evidence": [
+    "ACM term premium at 50-80bp with adjusted estimate 80-130bp accounting for measurement issues",
+    "$2T+ annual Treasury issuance creating persistent supply pressure",
+    "Petrodollar erosion and BOJ normalization reduce price-insensitive demand",
+    "Each 25bp BOJ hike narrows Fed-BOJ spread, reducing carry incentive for Japanese UST holdings",
+    "Term premium rebuilding is the structural mechanism behind positive long-end correlation"
+  ],
+  "originating_agents": [
+    "rates_strategist_02",
+    "macro_strategist_01",
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "What is the true term premium after adjusting for model limitations?",
+    "How elastic is foreign demand to yield differentials and what is the substitution rate?",
+    "What term premium level would force fiscal consolidation or trigger financial instability?",
+    "Is the term premium rebuilding structural or cyclical?"
+  ],
+  "related_concepts": [
+    "fiscal_correlation_determinant",
+    "partial_fiscal_dominance",
+    "boj_normalization_shock",
+    "maturity_dependent_correlation_bifurcation",
+    "three_condition_conjunction_trigger"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

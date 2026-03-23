@@ -1,0 +1,32 @@
+{
+  "slug": "backward_looking_reaction_function",
+  "definition": "The Fed exhibits a backward-looking reaction function with asymmetric lag: less than 72 hours for financial stability threats (SVB) vs. approximately 9 months for inflation recognition. This institutional mechanism contributes to correlation instability by creating predictable asymmetric responses.",
+  "confidence": 7,
+  "evidence": [
+    "SVB response in <72 hours vs. ~9 months for inflation recognition",
+    "Institutional mechanism documented by rates_strategist_02",
+    "Creates predictable asymmetric response pattern that market participants can front-run",
+    "Contributes to the overall broken transmission diagnosis"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the asymmetric lag a feature of the current Fed leadership or an institutional constant?",
+    "How does the lag asymmetry interact with the effective Taylor Rule coefficient?",
+    "Does the market's awareness of this asymmetry dampen or amplify its correlation effects?"
+  ],
+  "related_concepts": [
+    "effective_taylor_rule_coefficient",
+    "broken_monetary_transmission",
+    "transitional_correlation_regime"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

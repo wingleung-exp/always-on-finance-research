@@ -1,0 +1,21 @@
+{
+  "concept_a": "vol_targeting_risk_parity_amplifier",
+  "concept_b": "correlation_regime_shift_portfolio_impact",
+  "mechanism": "$500B-$1T in vol-targeting and risk-parity AUM mechanically amplifies correlation regime transitions through forced deleveraging, bond leverage unwinding, and basis trade unwinds. These strategies did not exist at scale during any historical correlation regime transition, making current transitions potentially faster and more volatile.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Amplification is strongest during sharp, unexpected correlation shifts. Gradual transitions may allow orderly rebalancing. The basis trade ($800B-$1T+ notional at 50-100x leverage) is the most acute amplifier.",
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

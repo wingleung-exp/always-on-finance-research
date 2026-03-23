@@ -197,8 +197,9 @@ if python3 "${SCRIPT_DIR}/phase4_knowledge_extraction.py" \
     write_heartbeat "phase4_complete"
     log "Phase 4 complete."
 else
+    phase4_exit=$?
     stop_heartbeat
-    log "Phase 4 FAILED (exit $?) — retrying once..."
+    log "Phase 4 FAILED (exit $phase4_exit) — retrying once..."
     write_heartbeat "phase4_retry"
     start_heartbeat "phase4_retry"
     if python3 "${SCRIPT_DIR}/phase4_knowledge_extraction.py" \
@@ -210,8 +211,9 @@ else
         write_heartbeat "phase4_complete"
         log "Phase 4 complete (retry succeeded)."
     else
+        phase4_exit=$?
         stop_heartbeat
-        log "Phase 4 FAILED on retry — skipping phases 5-6 for this iteration."
+        log "Phase 4 FAILED on retry (exit $phase4_exit) — skipping phases 5-6 for this iteration."
         write_heartbeat "phase4_failed"
         return 1 2>/dev/null || exit 1
     fi

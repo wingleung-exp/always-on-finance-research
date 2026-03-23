@@ -1,0 +1,37 @@
+{
+  "slug": "correlation_signpost_hierarchy",
+  "definition": "A ranked hierarchy of leading indicators for correlation regime flips with specific lead times and hit rates: (1) IG credit spreads >75bp from trough (18mo, 6/7), (2) ISM <47 for 2+ months (12mo, 5/6), (3) yield curve un-inversion (6-12mo, 4/5), (4) initial claims >300K (3-6mo, 7/8), (5) Fed cuts >100bp cumulative (1-3mo, ~100%).",
+  "confidence": 8,
+  "evidence": [
+    "Systematic evidence across 13 transitions with sequencing logic grounded in transmission mechanism",
+    "Credit markets reprice fastest (institutional), then manufacturing (real economy), then labor (lagged), then Fed (institutional response)",
+    "Current status March 2026: only Tier 2b (yield curve un-inversion) is active",
+    "pair_0 called this 'the most operationally actionable output across both analyses'",
+    "Hit rates approximate due to 7-transition sample"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Are the hit rates stable across different macro regimes and institutional configurations?",
+    "Does 50% passive AUM or the $800B+ basis trade alter the signpost sequencing?",
+    "When will IG OAS cross 150bp or ISM sustain below 47?",
+    "Do fiscal stalemate transitions follow the same signpost sequence as monetary transitions?"
+  ],
+  "related_concepts": [
+    "transitional_correlation_regime",
+    "demand_supply_shock_correlation_driver",
+    "soft_landing_correlation_resolution",
+    "three_condition_conjunction_trigger"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

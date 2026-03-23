@@ -1551,5 +1551,388 @@
     ],
     "topic": "sovereign_debt",
     "iteration_id": "iter_0017"
+  },
+  {
+    "claim": "The CIP basis is a reliable 1-3 day leading indicator for cross-asset stress.",
+    "reason": "Self-contradictory assessment: rated 8/10 while simultaneously flagging need for 'more rigorous testing.' Leading indicator property holds only at extreme levels (-80bp+), making it a crisis indicator, not a general leading indicator. Mechanism survives at 8/10; leading indicator property revised to 5/10.",
+    "refuted_by": [
+      "generalist_01",
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The EM carry basket (long BRL/MXN, short TRY/INR) provides a 'built-in hedge' against dollar-commodity dynamics.",
+    "reason": "Correlation structure between long and short legs is regime-dependent. During March 2020 liquidity events, the BRL-TRY spread compressed as all EM currencies sold off together. The hedge fails precisely in the tail events it is designed to protect against.",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "The DXY exhibits statistically significant 15-17 year super-cycles.",
+    "reason": "Monte Carlo permutation test yields p=0.22 with zero residual degrees of freedom (3 observed cycles, 3 estimated parameters). Hurst exponent of 0.62 shows mild mean-reversion consistent with PPP, not cyclicality. Dollar super-cycle is a narrative organizing device, not a statistical finding. Any strategy built on 'the dollar cycle' should be discounted.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ]
+  },
+  {
+    "claim": "The Bundesbank post-reunification tightening (1990-92) is 'the closest historical analogue' to BoJ normalization.",
+    "reason": "Fundamental differences: Bundesbank tightened aggressively into a fixed exchange rate regime (ERM); BoJ is normalizing glacially in a free-floating regime. The ERM crisis was about institutional incompatibility; BoJ normalization is about catch-up. The originator's own 2004-07 analogue (7.5 similarity) is actually better than the Bundesbank (6.0). Downgraded from 7/10 to 5/10 (illustrative only).",
+    "refuted_by": [
+      "pair_0_debate"
+    ]
+  },
+  {
+    "claim": "Carry is 'the single most potent generator of leveraged positioning in global markets.'",
+    "reason": "The Treasury basis trade ($800B-$1T at 50-100x leverage), equity margin lending, credit derivatives, and interest rate swaps all generate more leveraged positioning by notional. FX carry is a significant source of leveraged positioning but calling it the most potent is unsupported hyperbole.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "The dollar smile theory is 'unfalsifiable.'",
+    "reason": "The framework is falsifiable in specific form — it predicts dollar weakness in moderate economic conditions. The low predictive value critique survives; the unfalsifiability claim does not. The dollar smile is hard to test and low-information, but not impossible to test.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Crisis-regime carry Sharpe ratio of -1.0 to -2.0.",
+    "reason": "Conflates individual pair-level blowups (USD/JPY October 1998) with diversified G10 HML carry factor returns. Actual factor data shows mean -1.18%/month above vol threshold with max -12.3% single month, which is more consistent with diversified factor returns. Original claim overstated severity by approximately 2-3x.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "pair_2_debate"
+    ]
+  },
+  {
+    "claim": "Stocks-to-use ratios in key grains predict CIP deviations with 3-6 month lead.",
+    "reason": "Conflates correlation during extreme events with systematic prediction. CIP deviations have well-established financial explanations (Basel III balance sheet constraints) that must be ruled out before positing agricultural causes. Cherry-picked examples from Chile/copper and Brazil/soybeans. Remains an untested hypothesis requiring out-of-sample validation.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  },
+  {
+    "claim": "Specific peg-break probability estimates: HKD 5-8%, CNY 3-5%, SAR 2-4%.",
+    "reason": "False precision without disclosed methodology. Inconsistent with Meese-Rogoff finding that no model demonstrates forecasting skill at these horizons. The qualitative vulnerability assessment (which pegs are stressed and why) survives; the specific probability numbers are unsupported.",
+    "refuted_by": [
+      "pair_3_debate"
+    ]
+  },
+  {
+    "claim": "Food inflation '2-4x multiplier' from EM vs DM rate differential shifts.",
+    "reason": "Too imprecise to be analytically useful. Egypt implies a multiplier far exceeding 4x; Brazil might produce barely 1.5x given food self-sufficiency. The directional claim is correct but the quantification compresses a highly nonlinear, country-specific relationship into a misleading single range.",
+    "refuted_by": [
+      "pair_1_debate"
+    ]
+  },
+  {
+    "claim": "Fed monetary policy regime conditions ALL FX factor returns (carry, value, and momentum).",
+    "reason": "After orthogonalizing against dollar returns, value conditioning vanishes (F=1.3, p=0.27) and momentum conditioning vanishes (F=0.9, p=0.41). Only carry conditioning survives (F=5.2, p=0.006). The original claim conflated Fed policy with dollar dynamics. Value and momentum apparent conditioning was entirely a dollar-regime artifact.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The ~9.5% FX vol threshold is an actionable trading or hedging signal for timing carry exposure.",
+    "reason": "The relationship is partly tautological — carry drawdowns ARE high-vol events by definition. Out-of-sample vol-timing Sharpe improvement degrades from 0.2-0.4 to 0.05-0.15 and becomes statistically insignificant after transaction costs. By the time realized vol reaches 9.5%, the initial carry drawdown has already occurred. The threshold remains useful only as a risk management monitoring heuristic.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The JPY carry unwind reflexive loop has no natural circuit breaker.",
+    "reason": "August 2024 itself demonstrated a circuit breaker: 30-60% of positions liquidated, markets recovered within weeks, and the BoJ paused normalization. Central banks routinely pause without permanent credibility damage (Fed 2019 pivot, BoE 2022 gilt intervention). If the BoJ paused and the crisis resolved, the BoJ reaction function IS the circuit breaker. However, the circuit breaker activates after initial damage, and reliability under more extreme stress is untested.",
+    "refuted_by": [
+      "challenger_02",
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Q3 (July-September) represents a specific, novel seasonal timing signal for carry fragility.",
+    "reason": "The 5/6 episode clustering is confounded by subjective episode selection (ERM 1992 is a peg break not a carry unwind; taper tantrum started in May), non-independence of events, and summer liquidity effects that are already known and separate from carry dynamics. Summer liquidity thinning amplifies carry unwind severity (valid, well-documented by BIS), but this is a separate, already-known insight, not a novel carry-specific seasonality finding.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Gold-TIPS divergence serves as an amber signal for dollar regime change within the dollar trap monitoring framework.",
+    "reason": "The gold-TIPS correlation erosion (r approximately -0.65 vs pre-2022 r approximately -0.80) is explained by a known, specific factor (central bank gold purchases of ~1,000-1,100 tonnes/year driven by sanctions risk) rather than the hypothesized factor (loss of confidence in dollar reserve status). The indicator is not signaling what was claimed. Dollar trap monitoring framework should read 0/3 signals triggered, not 0 red + 1 amber.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The carry trade's return profile is comparable to equity investing.",
+    "reason": "True only for the unlevered academic carry factor. The actual institutional carry trade at 5-20x leverage transforms a -15% underlying move into -150% to -600% capital destruction. The comparison table conflated unlevered and levered carry without separating leverage effects. The steamroller metaphor is wrong for unlevered carry and right for levered carry.",
+    "refuted_by": [
+      "risk_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Three-way central bank divergence statistically produces larger FX moves than two-way divergences (3/4 episodes).",
+    "reason": "No comparison set of two-way divergences was provided. No base rate for large FX moves in any random period. The unconditional probability of outsized FX moves may be ~40-50%, making 3/4 barely distinguishable from noise at n=4. The concentration-of-carry-capital mechanism is theoretically sound but empirically unvalidated.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The six-stage carry unwind sequence exhibits consistent regularity across 6+ episodes.",
+    "reason": "Diverse episodes were shoehorned into a template: 2013 was primarily EM rates/bonds not carry; August 2024 skipped the cross-asset contagion stage; 2018 was concentrated in TRY/ARS. The credit-cycle turning-point binary discriminator is the more useful and better-supported classification than the sequential stages.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Caloric Concentration Index predicts 2-3x higher FX volatility during crop stress for calorically concentrated importers.",
+    "reason": "A claim presented with a specific multiplier (2-3x) that the author admits is untested should not carry meaningful confidence. It is a hypothesis, not a finding. The framework concept is potentially valuable but requires cross-country empirical validation across multiple crop stress episodes before quantitative claims are warranted.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "Relative value scorecard can provide specific Sharpe ratios to two decimal places across asset classes for positioning.",
+    "reason": "EM local-currency bond Sharpe of 0.5-0.8 depends on dollar stability, which is the very question the analysis is trying to answer. Short-duration credit Sharpe of 1.2-1.5 assumes no credit cycle turn, which the analysis itself flags as a risk. The ranking of G10 carry at the bottom survives as directionally valid, but the specific numbers are illustrative, not analytical.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0007"
+  },
+  {
+    "claim": "The credit cycle discriminator achieves 'perfect classification' between contained and systemic carry unwinds.",
+    "reason": "With n=5 episodes and 3-5 candidate discriminators tested, probability of at least one achieving perfect separation by chance exceeds 25%. The definition of 'credit cycle turning point' is retrospectively assigned and unfalsifiable. The 2022 JPY carry drawdown is a potential out-of-sample miss. The qualitative mechanism survives but the statistical classification claim is dead.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The compressed spring p-value of p<0.001 (Fisher's exact test) survives correction for multiple hypothesis testing.",
+    "reason": "Both the rate divergence threshold and vol condition threshold were selected post-hoc from continuous variables, creating at minimum 4 degrees of freedom. The Hansen (1996) test was designed for a single break point in a univariate context, not a bivariate joint condition. Under HLZ-adjusted significance thresholds, the signal likely does not clear t-stat of 3.0. The directional finding survives; the specific p-value does not.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "CIP basis is the 'highest-fidelity early warning indicator' for carry crises.",
+    "reason": "No ROC curve, precision-recall analysis, or false positive rate is provided. With ~5% crisis base rate and ~15-20% signal-firing rate, positive predictive value cannot exceed ~25% even if the signal is genuinely informative. The 2-4 week lead time is measured without specifying threshold or counting false alarms. The basis has real-time stress measurement properties but the 'early warning' and 'highest-fidelity' framings are unsupported.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The vol threshold of 9.5% merits 8.5/10 confidence as claimed by quant_researcher_02.",
+    "reason": "Carry drawdowns mechanically produce elevated realized vol (a 15% unwind over 4 weeks contributes ~40-60% annualized vol), creating a partial tautology. 'Carry performs badly when vol is high' partially reduces to 'carry performs badly when carry has recently performed badly.' The t-stat drops from 3.87 to ~2.0-2.5 after removing carry-attributable vol. The endogeneity was never addressed. Appropriate confidence: ~6.5/10.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The Kelly criterion framework produces a meaningful constraint on convexity allocation under the compressed spring.",
+    "reason": "The analysis calculates f*=0.55, applies half-Kelly (~27%), then quarter-Kelly (~14%), then recommends 5-8% — a three-step retreat from the model output. Kelly requires well-estimated probability (CI [36%, 83%]), well-estimated payoff ('5-12x' range), and repeated independent bets (compressed spring is a one-shot event). With full uncertainty, allocations range from ~5% to ~60%, providing no constraint. The recommendation is justified by institutional intuition, not the Kelly framework.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The credit-carry lag has systematically compressed from 6-9 months to 3-4 days due to algorithmic position management.",
+    "reason": "The five episodes (1998, 2007-08, 2015, 2020, 2024) are fundamentally different shock types — sovereign default, structured credit, equity crash, pandemic, macro data + BoJ. Declining lag is more parsimoniously explained by shock type (pandemic is inherently faster than slow-building subprime) than market evolution. The 2007-08 entry shows both a 6-month and 1-week lag, demonstrating lag depends on signal clarity, not market speed.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The dual commodity channel model explains '15-25% more REER variance' than the single-factor commodity ToT model.",
+    "reason": "Presented as a finding but is actually an unestimated conjecture. Supporting evidence is a single case study (Egypt 2022) and a theoretical table. No panel regression is run or cited. The qualitative distinction between energy (current account) and agricultural (inflation expectations) channels is sound; the specific quantitative improvement claim is fabricated precision.",
+    "refuted_by": [
+      "commodities_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "'Exactly five' prior compressed spring episodes constitute an exhaustive analogue set.",
+    "reason": "The identification criteria (rate divergence in top percentiles + FX vol below average) are continuous, not binary. Episode count depends entirely on threshold placement. 1992-93 (ERM crisis), 2013-14 (Fed taper), and other periods may qualify depending on cutoffs. The qualitative sequencing insight is valuable but should be framed as 'observations from a handful of similar episodes' rather than an exhaustive set.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "fx_rates_divergence",
+    "iteration_id": "iter_0008"
+  },
+  {
+    "claim": "The dollar cycle is the 'fundamental' driver of stock-bond correlation regimes.",
+    "reason": "Self-refuted within the same analysis. The evidence section states 'the mechanism is inflation expectations' and concedes the correlation regime is 'essentially a derivative of the inflation regime.' If the dollar is a derivative of inflation and correlation is a derivative of inflation, the dollar is a co-symptom, not a cause. The 2022 counterexample is fatal: DXY strengthened to 114 while positive correlation emerged — wrong temporal ordering for causation.",
+    "refuted_by": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Stock-bond correlation regime persistence base rate is '15-25 years.'",
+    "reason": "Three data points (15 years, 33 years, 20 years) spanning fundamentally different macro regimes do not constitute a meaningful statistical base rate. The range (15-33 years) is nearly unfalsifiable. The three regimes ended for completely different reasons (Great Inflation, credible inflation targeting, fiscal expansion + supply shock). Should be reframed as: 'Historical correlation regimes have lasted at least a full business cycle, and reversal has required a policy regime change.'",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Central banks 'lost the ability to anchor inflation expectations' post-2020.",
+    "reason": "Contradicted by data. 5Y breakevens peaked at ~3.0-3.1% briefly in early 2022 and settled at 2.3-2.5% — within the historical anchored range. The Fed hiked 525bp and inflation dropped from 5.6% to ~2.5-2.8% without recession. This is transmission working with a lag, not 'impaired transmission.' Short-run uncertainty about the terminal rate is very different from structural loss of anchoring ability.",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "The contrarian trade (positioning for negative correlation reassertion) has a risk-reward ratio of '3:1 to 5:1.'",
+    "reason": "The ratio depends on unstated timing assumptions and critically fails the stagflation stress test. If recession triggers positive correlation (as in 1973-74, when 60/40 lost -14.7% annually), TLT calls don't pay off because long bonds sell off even as equities fall. The contrarian trade fails precisely in the genuine structural break scenario. The specific ratio claim does not survive adversarial scrutiny.",
+    "refuted_by": [
+      "risk_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "The populist policy toolkit is 'uniformly' correlation-positive.",
+    "reason": "'Uniformly' is too strong. Immigration restriction's lag structure is highly uncertain. Industrial policy (CHIPS Act, IRA) increases fiscal supply but also increases productive capacity — the supply-side investment channel is potentially deflationary in the medium term (more domestic semiconductor capacity = lower long-run chip costs). The originating agent acknowledges this contradiction but doesn't reconcile it with the 'uniformly' claim.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "EUR/USD and USD/JPY are the 'most informative' FX signals for correlation regime anticipation.",
+    "reason": "Self-rated at only 5/10 with the admission that 'FX markets incorporate many factors beyond the stock-bond correlation regime.' Specific threshold levels lack demonstrated out-of-sample predictive power. The 2022-23 counterexample (DXY peaked near 114 coincident with the most positive correlation, contradicting the directional claim) is disqualifying.",
+    "refuted_by": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Reverse-DCF implies a terminal 10Y yield of '3.5-3.8%' as a precise finding.",
+    "reason": "The math is mechanically correct but the precision is illusory. The result is highly sensitive to assumed 11% EPS growth and 4% terminal growth — changes of 1pp in either swing the implied rate by 50-100bp. The directional insight (equities implicitly price rate normalization) survives at 7/10. The specific level and derived '50-100bp gap' are point estimates masquerading as findings.",
+    "refuted_by": [
+      "fx_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "60/40 returns of ~+34% cumulative over 2.25 years (2023-Q1 2025) refute the correlation regime-shift narrative.",
+    "reason": "Textbook error in the inference: positive stock-bond correlation matters for drawdown protection, not average returns. The 2023-2025 period was a bull market in equities where no hedging mechanism was tested. The data showing positive returns is correct but the conclusion that this refutes regime-shift risks is wrong — correlation sign does not determine return sign. Positive correlation's danger is conditional on stress periods; average returns during a benign period say nothing about the hedging mechanism.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The historical base rate for soft-landing correlation regime reassertion to negative is exactly 0%.",
+    "reason": "Statistically meaningless from n=5 — Laplace correction gives ~14%, and the 95% confidence interval extends to ~45%. Internally inconsistent with the same agent's argument that the current environment is structurally unprecedented (50% passive AUM), which undermines reliance on historical base rates. The directional finding (no soft landing has independently resolved correlation) is genuine; the '0%' framing is rhetorical overreach.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "The Taylor Rule framework has been falsified by the 2022-2025 period.",
+    "reason": "The 2022 outcome is consistent with the Campbell-Shiller-Viceira framework once the shock is correctly classified as supply-side. The Taylor Rule predicts correlation based on the reaction function conditional on shock type — a hawkish Fed facing a supply shock is a different test case than a hawkish Fed facing a demand shock. Calling correct shock classification an 'epicycle' is a mischaracterization. Fiscal dominance making the reaction function endogenous is a modification of the framework, not a falsification. The modified framework retains explanatory power.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Dollar Smile zones map directly onto maturity-bifurcated correlation, providing a regime-conditional hedging strategy.",
+    "reason": "The Dollar Smile framework is unfalsifiable by construction because its three zones exhaust all possible macro states. Mapping a second framework onto an unfalsifiable framework does not produce falsifiable predictions. The R-squared figures cited (8-12%) are too low to support the implied precision of a regime-conditional hedging strategy. The maturity bifurcation is real and well-documented through other channels; the Dollar Smile mapping adds rhetorical structure but no predictive content.",
+    "refuted_by": [
+      "generalist_01",
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Election cycle clustering in 2026-2027 represents an unusually dense correlation-positive impulse.",
+    "reason": "Elections are always clustering somewhere across the US, Europe, and Japan — no 18-month window lacks major elections in at least two of these regions. No baseline for typical election density was provided to demonstrate that 2026-2027 is genuinely unusual. Internally inconsistent with the same agent's argument that fiscal commitments are politically irreversible and structurally driven regardless of election timing.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Alternative portfolio strategies (real duration + trend-following + convexity) outperform naive 60/40 by 250-350bp annually under positive correlation.",
+    "reason": "The magnitude is inflated by backtested reconstructions that ignore implementation costs including transaction costs, slippage, and rebalancing frictions. Realistic outperformance after implementation costs is 100-200bp. The directional recommendation (replace 15-25% nominal duration with TIPS, commodities, and trend-following) survives and is supported by both historical evidence and theoretical framework.",
+    "refuted_by": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Quality factor experiences 3-5x amplification under positive stock-bond correlation regime.",
+    "reason": "The 3-5x ratio is derived from a single observation and cannot be treated as a structural parameter. A single data point provides no basis for estimating a structural multiplier. The directional finding that quality is more valuable under positive correlation survives as it has a clear theoretical basis, but the specific multiple does not.",
+    "refuted_by": [
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "claim": "Positive correlation regime produces 12-18% present value destruction in equity terminal values vs. 8-12% under negative correlation.",
+    "reason": "The specific percentage ranges were presented without derivation or specification of growth rate, terminal multiple, or discount rate assumptions. The direction (positive correlation exposes more terminal value to rate shocks through the duration channel) survives as it follows from basic DCF mechanics, but the specific ranges are unsubstantiated and should not be used for quantitative analysis.",
+    "refuted_by": [
+      "challenger_01",
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
   }
 ]

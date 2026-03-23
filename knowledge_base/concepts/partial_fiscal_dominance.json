@@ -1,0 +1,38 @@
+{
+  "slug": "partial_fiscal_dominance",
+  "definition": "A state where fiscal dynamics partially override monetary policy as the dominant macro force, reflected in maturity-dependent correlation bifurcation. The front end still transmits monetary policy intent (negative 2Y-SPX) while the back end transmits fiscal supply pressure (positive 30Y-SPX). Full fiscal dominance would be signaled by 2Y-SPX turning positive.",
+  "confidence": 8,
+  "evidence": [
+    "Bianchi-Melosi fiscal theory extension of NK model provides theoretical foundation",
+    "2Y-SPX negative = monetary credibility; 30Y-SPX positive = fiscal reality",
+    "US at ~6.5% deficit/GDP with ~125% debt/GDP and no credible consolidation path",
+    "Fiscal dominance makes CB reaction function endogenous (challenger_01)",
+    "Falsifiable prediction: 2Y-SPX turning positive signals transition to full fiscal dominance"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "generalist_01",
+    "rates_strategist_02",
+    "challenger_01"
+  ],
+  "open_questions": [
+    "What are the precise conditions for transition from partial to full fiscal dominance?",
+    "Is partial fiscal dominance reversible without fiscal consolidation?",
+    "How does debt/GDP trajectory interact with the degree of fiscal dominance?",
+    "At what point does interest expense as % of revenue make fiscal dominance self-reinforcing?"
+  ],
+  "related_concepts": [
+    "maturity_dependent_correlation_bifurcation",
+    "fiscal_correlation_determinant",
+    "effective_taylor_rule_coefficient",
+    "term_premium_dynamics"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

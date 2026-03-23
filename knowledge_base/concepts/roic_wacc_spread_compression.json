@@ -1,0 +1,32 @@
+{
+  "slug": "roic_wacc_spread_compression",
+  "definition": "The ROIC-WACC spread has compressed from ~8-10pp (2020-21, near-zero rates) to ~4-5pp currently. The mathematical relationship is convex: at a 10pp spread, 1pp WACC increase destroys ~10% of economic profit; at a 4pp spread, the same 1pp destroys ~25%. This explains the nonlinear increase in equity sensitivity to rate moves.",
+  "confidence": 6,
+  "evidence": [
+    "ROIC-WACC spread compressed from ~8-10pp to ~4-5pp",
+    "Convex mathematical relationship: rate sensitivity ~2.5x higher at current spreads vs 2020-21",
+    "Debate pair_1 confirmed the math is 'correct and underappreciated'",
+    "Single-source but follows from first principles"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Is the spread compression uniform across sectors or concentrated in specific industries?",
+    "How does mega-cap tech (high ROIC, net cash) distort the aggregate metric?",
+    "Does the convexity create a potential nonlinear correction risk for equities under further rate increases?"
+  ],
+  "related_concepts": [
+    "equity_valuations_correlation_inconsistency",
+    "non_gaap_duration_masking",
+    "correlation_regime_shift_portfolio_impact"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

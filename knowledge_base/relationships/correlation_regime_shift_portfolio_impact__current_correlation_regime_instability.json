@@ -1,0 +1,21 @@
+{
+  "concept_a": "current_correlation_regime_instability",
+  "concept_b": "correlation_regime_shift_portfolio_impact",
+  "mechanism": "Oscillation between growth scares (negative correlation) and inflation scares (positive correlation) creates uncertainty about true portfolio correlation, making risk-targeting strategies unable to set stable leverage ratios and creating path-dependent portfolio outcomes.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Impact is proportional to portfolio leverage and the frequency of oscillation. Higher-frequency oscillation is more damaging to vol-targeting strategies than a stable positive or negative regime.",
+  "originating_agents": [
+    "challenger_01",
+    "risk_analyst_02",
+    "generalist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

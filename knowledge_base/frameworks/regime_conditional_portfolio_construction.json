@@ -1,0 +1,25 @@
+{
+  "slug": "regime_conditional_portfolio_construction",
+  "purpose": "Provides a shock-type-identified allocation framework that adapts portfolio construction to the current correlation regime, answering: how should multi-asset portfolios be positioned given identified shock type?",
+  "components": [
+    "Demand shock identification → long duration, standard 60/40 allocation (bonds hedge equities)",
+    "Supply shock identification → short duration + commodities, reduced bond allocation (bonds amplify equity losses)",
+    "Mixed/uncertain shock environment → barbell construction (short-duration safe assets + commodities + selective equity exposure)",
+    "Drawdown magnitude non-linearity: bonds may still rally in severe drawdowns (>15%) but fail in moderate stress (5-10%), changing optimal hedge construction"
+  ],
+  "current_assessment": "Current environment is mixed/uncertain — oscillating between growth scares and inflation scares with output gap near zero. Framework recommends barbell positioning with lower bond duration than traditional 60/40. The 60/40 performance of 2023-2025 (+12%, +14%, +8%) demonstrates that positive correlation does not guarantee poor returns, but catastrophic failure occurs under positive correlation AND negative returns (stagflation).",
+  "limitations": [
+    "Shock identification in real-time is difficult — lags of weeks to months before dominant shock type is clear",
+    "Does not account for regime transition dynamics (overshooting, mean reversion, positioning feedback loops)",
+    "The 'both paths lead to positive correlation' insight (crisis path and repression path) limits hedge options",
+    "Vol-targeting and risk-parity mechanical effects can overwhelm the framework's signal"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

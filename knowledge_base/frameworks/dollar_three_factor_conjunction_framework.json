@@ -1,0 +1,27 @@
+{
+  "slug": "dollar_three_factor_conjunction_framework",
+  "purpose": "Explains why the positive correlation regime has oscillated rather than locked in by identifying the US dollar as the missing third factor required alongside inflation expectations and term premium for full correlation lock-in.",
+  "components": [
+    "Factor 1: Inflation expectations de-anchoring (5Y breakevens, Michigan surveys)",
+    "Factor 2: Term premium exceeding threshold (~100bp adjusted)",
+    "Factor 3: Dollar breaking below DXY 100 (signaling capital flow reversal from US assets)",
+    "All three required simultaneously for positive correlation to lock in permanently",
+    "Dollar as binding constraint: DXY has not broken below 100, preventing lock-in despite other conditions approaching"
+  ],
+  "current_assessment": "Dollar identified as the 'missing third leg' of correlation lock-in by fx_strategist_01. The 2006-07 FX regime provides the most informative analogue. Current DXY above 100 prevents the third condition, explaining oscillation. EUR/USD carry-adjusted indicator is flat, consistent with muddled regime.",
+  "limitations": [
+    "Dollar Smile framework mapping was refuted (R4) as unfalsifiable",
+    "DXY 100 threshold may not be robust across different cycles",
+    "EUR/USD carry-adjusted indicator has false-positive episodes and only 3 validations",
+    "Dollar dynamics are affected by many factors beyond the correlation regime",
+    "The dollar channel may be endogenous to the other two factors rather than independent"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

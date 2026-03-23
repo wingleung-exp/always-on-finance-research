@@ -1,0 +1,37 @@
+{
+  "slug": "central_bank_reaction_function_correlation",
+  "definition": "The central bank reaction function — specifically the Taylor Rule inflation coefficient (phi_pi) — is the key institutional determinant of the stock-bond correlation regime. Historical calibration shows Burns-Miller Fed (phi_pi 0.8-1.0, violating Taylor Principle) produced positive correlation; Greenspan-Bernanke (phi_pi 1.5-2.0) produced negative correlation. Cross-country CB independence index correlates strongly with correlation sign.",
+  "confidence": 8,
+  "evidence": [
+    "Burns-Miller Fed (phi_pi 0.8-1.0) → positive correlation; Greenspan-Bernanke (phi_pi 1.5-2.0) → negative correlation",
+    "CB independence index across 20+ countries: Switzerland (0.92 independence → -0.35 correlation) vs Turkey (0.25 → +0.50 to +0.70)",
+    "Powell Fed 525bp hiking cycle demonstrated credibility (phi_pi approximately 1.5-2.0)",
+    "Five agents independently identified CB credibility as the critical mediating variable"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "risk_analyst_02",
+    "challenger_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "What is the current Powell Fed reaction function? 60% probability Fed maintains Taylor Rule adherence, 30% somewhat compromised, 10% fundamentally impaired",
+    "How will political pressure on Fed independence and fiscal dominance dynamics affect the reaction function?",
+    "Can central banks unilaterally restore negative correlation, or are structural factors beyond their control?"
+  ],
+  "related_concepts": [
+    "demand_supply_shock_correlation_driver",
+    "r_star_correlation_uncertainty_mapping",
+    "inflation_expectations_anchoring_buffer",
+    "fiscal_dynamics_positive_correlation"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

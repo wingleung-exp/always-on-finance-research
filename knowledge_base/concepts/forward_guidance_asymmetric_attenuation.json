@@ -1,0 +1,32 @@
+{
+  "slug": "forward_guidance_asymmetric_attenuation",
+  "definition": "Under positive stock-bond correlation, dovish forward guidance loses approximately 50% of its potency while hawkish guidance retains full effect. Rate cuts in a supply-shock environment validate inflation concerns rather than supporting risk assets, creating a policy asymmetry that makes easing less effective precisely when needed most.",
+  "confidence": 7,
+  "evidence": [
+    "Mechanically sound derivation from the correlation regime framework",
+    "Consistent with broader broken monetary transmission diagnosis",
+    "Limited empirical sample constrains calibration precision",
+    "Forward guidance was historically most powerful under negative correlation when cuts signaled both lower discount rates and easing conditions"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the ~50% attenuation estimate robust across different episodes and institutional contexts?",
+    "Does the asymmetry fully reverse under negative correlation?",
+    "How should the Fed adapt communication strategy to account for this asymmetry?"
+  ],
+  "related_concepts": [
+    "broken_monetary_transmission",
+    "effective_taylor_rule_coefficient",
+    "demand_supply_shock_correlation_driver"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "nk_three_equation_structural_model",
+  "purpose": "Derives stock-bond correlation sign from first principles via impulse response sign restrictions, answering: given the current shock type and monetary policy regime, what correlation should we expect?",
+  "components": [
+    "IS Curve: links output gap to real interest rate, demand shocks, and expectations",
+    "Phillips Curve: links inflation to output gap, supply shocks, and expectations — convex near zero output gap",
+    "Taylor Rule: links policy rate to inflation and output gap via coefficients (phi_pi critical). phi_pi >= 1.5 → negative correlation; phi_pi < 1.0 → positive correlation",
+    "Shock decomposition: demand shocks → negative correlation (output and inflation co-move); supply shocks → positive correlation (output and inflation diverge)"
+  ],
+  "current_assessment": "The model correctly predicted the 2022 correlation flip (supply shock dominated) and the subsequent oscillation (mixed shocks). Current environment: closed output gap maximizes Phillips Curve convexity, making the system maximally sensitive to small shocks of either type. Powell Fed phi_pi estimated at 1.5-2.0 but with uncertainty due to political pressure and fiscal dominance.",
+  "limitations": [
+    "Collapses four distinct drivers (inflation uncertainty, monetary regime, fiscal stance, risk appetite) into 'inflation regime' — oversimplification per challenger_01",
+    "Does not account for structural amplifiers (risk parity, basis trade, vol-targeting) that are absent from the theoretical model",
+    "The term premium channel (fiscal supply → long-end correlation) is not cleanly captured in the basic three-equation setup",
+    "Assumes a single representative central bank — does not handle global CB divergence"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "inflation_expectations_anchoring",
+  "definition": "Inflation expectations anchoring is the critical state variable determining which correlation regime can prevail. Anchored expectations produce a flat Phillips Curve allowing the Fed to look through supply shocks (negative correlation); de-anchored expectations produce a steep Phillips Curve forcing the Fed to tighten into weakness (positive correlation).",
+  "confidence": 8,
+  "evidence": [
+    "5Y breakevens at 2.3-2.5% sit at upper bound of historical anchored band (1.8-2.5%)",
+    "Michigan 5Y-10Y expectations at 3.0-3.2% are elevated but below Coibion-Gorodnichenko de-anchoring threshold",
+    "De-anchoring threshold: sustained >75-100bp survey-market divergence for >6 months",
+    "Buffer is thinner than at any point since the late 1990s (rates_strategist_02)",
+    "Tariff-driven goods inflation sustained above 3.5% for 2-3 quarters could breach threshold",
+    "pair_2 confirmed as shared finding between macro_strategist_01 and rates_strategist_02"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "macro_strategist_01",
+    "rates_strategist_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Will tariff-driven inflation breach the de-anchoring threshold?",
+    "Is the Coibion-Gorodnichenko threshold still valid in the current institutional regime?",
+    "How does the narrow buffer interact with fiscal dominance and term premium dynamics?"
+  ],
+  "related_concepts": [
+    "demand_supply_shock_correlation_driver",
+    "corridor_of_instability",
+    "effective_taylor_rule_coefficient",
+    "phillips_curve_slope"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

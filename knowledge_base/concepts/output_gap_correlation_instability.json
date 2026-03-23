@@ -1,0 +1,32 @@
+{
+  "slug": "output_gap_correlation_instability",
+  "definition": "An output gap near zero creates maximum correlation instability. At a closed output gap, small shocks can push the economy in either direction, the Phillips Curve is at its steepest (convexity), and supply shocks have maximum impact because there is no demand shortfall to absorb them. Current output gap estimates converge at approximately -0.5% to +0.5% of potential GDP.",
+  "confidence": 7,
+  "evidence": [
+    "CBO, FRB/US, IMF output gap estimates all near zero (-0.5% to +0.5%)",
+    "Every sustained positive correlation episode (1973-82, 2022) preceded by output gap at zero or positive",
+    "Sustained negative correlation episodes (2001-03, 2008-09) occurred with deeply negative output gaps",
+    "Debate pair_2: 'a structural insight that goes beyond the demand-vs-supply decomposition'"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Is the current output gap estimate reliable given post-pandemic measurement challenges?",
+    "How does Phillips Curve convexity near zero gap interact with tariff-driven supply shocks specifically?",
+    "Would a recession (deeply negative gap) reliably restore negative correlation even under current fiscal conditions?"
+  ],
+  "related_concepts": [
+    "current_correlation_regime_instability",
+    "demand_supply_shock_correlation_driver",
+    "inflation_expectations_anchoring_buffer"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

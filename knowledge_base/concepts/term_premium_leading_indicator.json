@@ -1,0 +1,34 @@
+{
+  "slug": "term_premium_leading_indicator",
+  "definition": "The term premium is the cleanest leading indicator for correlation regime identification because it directly measures compensation for duration risk — the mechanism through which fiscal/supply dynamics transmit to correlation. Historical thresholds: ~200bp+ associated with 1967-68 correlation flip; ~0bp associated with 1998-2000 flip to negative. Current ACM estimate of 50-80bp is consistent with mid-transition.",
+  "confidence": 7,
+  "evidence": [
+    "Term premium rose from ~50bp to ~200bp+ over 18 months before 1967-68 correlation flip",
+    "Term premium fell from ~150bp to ~0bp before 1998-2000 flip to negative",
+    "Current ACM estimate 50-80bp consistent with mid-transition but below ~150bp+ for fully-established positive regime",
+    "Debate pair_0: term premium is 'stronger' than multi-indicator frameworks because it is the market price of the correlation driver"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "macro_strategist_01",
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "Are historical threshold levels (~150bp) applicable given different market structure with risk parity, basis trade, and leveraged structures?",
+    "Does the current threshold differ from historical levels, and if so, is it higher or lower?",
+    "How does basis trade leverage ($800B-$1T+ notional at 50-100x) affect term premium dynamics?"
+  ],
+  "related_concepts": [
+    "fiscal_dynamics_positive_correlation",
+    "current_correlation_regime_instability",
+    "vol_targeting_risk_parity_amplifier"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

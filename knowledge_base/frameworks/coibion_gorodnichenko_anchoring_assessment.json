@@ -1,0 +1,25 @@
+{
+  "slug": "coibion_gorodnichenko_anchoring_assessment",
+  "purpose": "Provides a threshold-based framework for assessing whether inflation expectations are anchored or de-anchoring, which determines whether the correlation buffer holds",
+  "components": [
+    "5Y breakeven inflation as primary market-based measure",
+    "De-anchoring threshold: sustained 5Y breakeven divergence from target by >75-100bp for >6 months",
+    "Michigan 5-10Y consumer expectations as secondary survey-based measure",
+    "Anchored band: 1.8-2.5% for 5Y breakevens"
+  ],
+  "current_assessment": "5Y breakevens at ~2.3-2.5% remain within the anchored band. Michigan 5-10Y expectations at 3.0-3.2% are elevated but not de-anchored. The de-anchoring threshold has not been breached. However, the distribution has shifted rightward — closer to the upper bound than at any point in the 2010-2019 era. The buffer is thinner than at any point since the late 1990s.",
+  "limitations": [
+    "The threshold itself may be regime-dependent — calibrated on a different macro environment",
+    "Does not account for asymmetric de-anchoring risk (upside inflation risk vs downside)",
+    "Survey-based measures (Michigan) may lag actual expectations shifts",
+    "Tariff-driven goods inflation creates a novel test case for the framework"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

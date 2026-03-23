@@ -1,0 +1,20 @@
+{
+  "concept_a": "roic_wacc_compression",
+  "concept_b": "cross_asset_pricing_inconsistency",
+  "mechanism": "Compressed ROIC-WACC spreads (~3.5-5.0pp) make equity earnings 1.5-2.0x more rate-sensitive than in prior episodes, amplifying the fundamental channel through which rising rates damage equities and widening the gap between equity valuations (negative correlation assumption) and rate market pricing (positive correlation signal).",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Amplifies under positive correlation regime where rates and equities move together. Less relevant under negative correlation (rates falling as equities fall, supporting EVA).",
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

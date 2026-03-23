@@ -1,0 +1,27 @@
+{
+  "slug": "campbell_pflueger_viceira_shock_taxonomy",
+  "purpose": "Explains the fundamental determinant of stock-bond correlation sign based on whether demand or supply shocks dominate, mediated by the central bank reaction function and the Phillips Curve slope.",
+  "components": [
+    "Demand shock identification: growth/financial stress events → CB eases → bonds rally as equities fall → negative correlation",
+    "Supply shock identification: inflation/cost-push events → CB tightens → bonds and equities fall together → positive correlation",
+    "Central bank reaction function (Taylor Rule): converts shock type into policy response via inflation coefficient φ_π",
+    "Phillips Curve slope (0.1-0.5): determines how aggressively the CB must respond to supply shocks",
+    "Inflation expectations anchoring: determines whether CB can look through supply shocks without tightening"
+  ],
+  "current_assessment": "Universally accepted as the theoretical foundation by all 8 agents. Current ambiguity arises from mixed shock environment. The effective Taylor Rule coefficient (~1.0-1.2) is lower than textbook calibrations (1.5-2.0), making the correlation sign more shock-dependent. No agent contested the mechanism; all debate concerns parameterization and which shock dominates.",
+  "limitations": [
+    "Does not account for fiscal dominance as a separate channel — requires Bianchi-Melosi extension",
+    "Assumes monetary transmission works as specified, which is partially broken (asset price channel counterproductive)",
+    "Phillips Curve slope parameter (0.1-0.5) is unresolved and conditions all predictions",
+    "Does not distinguish maturity-dependent correlation patterns without extension",
+    "Challenger_01 argues the framework produces unfalsifiable epicycles when applied to ambiguous shock mixes"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

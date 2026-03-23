@@ -1,0 +1,24 @@
+{
+  "slug": "campbell_sunderam_viceira_correlation_framework",
+  "purpose": "Provides the canonical empirical framework for stock-bond correlation, answering: under what conditions do bonds hedge equities vs amplify equity losses?",
+  "components": [
+    "Inflation-consumption growth correlation as the key state variable",
+    "Positive inflation-consumption correlation (demand-driven economy) → bonds hedge equities → negative stock-bond price correlation",
+    "Negative inflation-consumption correlation (supply-driven economy) → bonds amplify equity losses → positive stock-bond price correlation",
+    "Time-varying betas between bond returns and stock returns driven by the inflation regime"
+  ],
+  "current_assessment": "The 2022 episode validated the framework — CPI prints became the dominant single-day co-mover of both asset classes during supply-shock-dominated inflation. Current oscillation between demand and supply shocks creates unstable hedging properties for bonds. The framework correctly predicts the current transitional state.",
+  "limitations": [
+    "Does not distinguish between different maturities — misses the 2Y-30Y correlation bifurcation",
+    "Empirical framework, not structural — cannot distinguish between supply shock types (energy, tariffs, reshoring)",
+    "Assumes a stationary inflation regime, but the current environment may be a non-stationary transition"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "recession_tail_underweighting",
+  "definition": "Consensus underweights the 25-30% base rate for recession in any 18-month window. Historical correlation goes sharply negative in every recession since 1990, making this a permanently relevant tail risk that receives insufficient analytical weight in the current debate.",
+  "confidence": 8,
+  "evidence": [
+    "25-30% unconditional base rate for recession in any 18-month window",
+    "Stock-bond correlation goes sharply negative in every recession since 1990",
+    "Consensus assigns too little probability to this permanently relevant tail",
+    "Recession scenario would resolve the transitional regime decisively toward negative correlation"
+  ],
+  "originating_agents": [
+    "challenger_01"
+  ],
+  "open_questions": [
+    "Is the 25-30% base rate applicable given current macro conditions?",
+    "Would a recession in the current fiscal dominance environment produce the same negative correlation as historical recessions?",
+    "How should portfolio construction weight this tail given the base rate vs. current indicators?"
+  ],
+  "related_concepts": [
+    "demand_supply_shock_correlation_driver",
+    "bimodal_correlation_distribution",
+    "soft_landing_correlation_resolution",
+    "correlation_signpost_hierarchy"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

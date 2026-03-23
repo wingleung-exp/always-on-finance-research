@@ -1,0 +1,36 @@
+{
+  "slug": "equity_concentration_correlation_illusion",
+  "definition": "The hypothesis that equity market concentration (top 10 stocks ~35% of market cap) may create a correlation illusion at the index level, where S&P 500-bond correlation primarily reflects mega-cap-tech-bond correlation rather than economy-wide dynamics. This is the single most testable and highest-priority unresolved empirical question across the entire research stream.",
+  "confidence": 5,
+  "evidence": [
+    "Top 10 stocks represent ~35% of S&P 500 market cap",
+    "Mega-cap tech implies ERP of 2.0-3.0% (long-duration, rate-sensitive) vs. S&P 493 at 5.0-6.5%",
+    "pair_3 called this 'the most important unresolved empirical question'",
+    "Cap-weighted vs. equal-weight SPX correlation comparison with 10Y yields has not been conducted",
+    "Neither challenger_01 nor equity_analyst_02 ran the definitive test despite both identifying the question"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "What does cap-weighted vs. equal-weight SPX correlation with 10Y yields show empirically?",
+    "Does the concentration effect amplify or dampen correlation regime transitions?",
+    "Would a mega-cap to broad-market rotation change the observed correlation regime?",
+    "Is the 'two ERP' phenomenon a concentration artifact or a genuine dual-regime signal?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "sbc_hidden_equity_duration",
+    "roic_wacc_compression",
+    "corporate_debt_maturity_wall"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

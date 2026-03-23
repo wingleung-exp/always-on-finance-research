@@ -1,0 +1,32 @@
+{
+  "slug": "fci_mismeasurement_positive_correlation",
+  "definition": "Standard Financial Conditions Indices treat components as independent and therefore understate effective tightening when coincident stock-bond declines raise realized portfolio volatility, trigger VaR-based deleveraging, and reduce risk appetite. A 60/40 portfolio faces ~15-20% higher volatility when correlation flips from -0.2 to +0.3. This implies the Fed may be underestimating actual financial conditions.",
+  "confidence": 5,
+  "evidence": [
+    "Standard FCIs treat stock and bond components as independent",
+    "60/40 portfolio faces ~15-20% higher vol when correlation moves from -0.2 to +0.3",
+    "VaR-based deleveraging triggered by coincident drawdowns not captured by headline FCI",
+    "Debate pair_2: 'operationally important and underappreciated'"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "How large is the FCI mismeasurement in practice — basis points equivalent?",
+    "Does the Fed internally adjust for this, even if the published FCI does not?",
+    "Could an adjusted FCI be constructed and validated against macro outcomes?"
+  ],
+  "related_concepts": [
+    "correlation_regime_shift_portfolio_impact",
+    "vol_targeting_risk_parity_amplifier",
+    "central_bank_reaction_function_correlation"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "r_star_level_shift",
+  "definition": "A higher neutral interest rate (r*) restores two-sided rate risk, structurally raising unconditional stock-bond correlation toward zero compared to the post-GFC near-zero r* environment where rates could only fall. Derived from Del Negro et al. (2019) and Kiley (2024).",
+  "confidence": 7,
+  "evidence": [
+    "Higher r* eliminates the effective lower bound as a binding constraint",
+    "Two-sided rate risk means rates can both rise and fall meaningfully",
+    "Del Negro et al. (2019) and Kiley (2024) provide theoretical grounding",
+    "Well-derived structural shift within the NK framework"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "What is the current r* estimate and how confident is the literature?",
+    "How much does higher r* independently shift unconditional correlation vs. other forces?",
+    "Does fiscal dominance affect the r* estimate itself through the sovereign risk premium channel?"
+  ],
+  "related_concepts": [
+    "demand_supply_shock_correlation_driver",
+    "bimodal_correlation_distribution",
+    "effective_taylor_rule_coefficient"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

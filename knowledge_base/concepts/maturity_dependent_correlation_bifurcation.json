@@ -1,31 +1,64 @@
 {
   "slug": "maturity_dependent_correlation_bifurcation",
   "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while long duration (30Y) shows positive correlation (+0.05 to +0.15). Hedging properties depend critically on duration selection, making this operationally essential for portfolio construction.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
     "2Y correlation at -0.25 to -0.35 vs 30Y at +0.05 to +0.15",
     "Operationally critical for duration selection in hedging portfolios",
     "Unique contribution — no other agent raises this",
-    "Connected to iter_0008 findings on cross-asset dynamics"
+    "Connected to iter_0008 findings on cross-asset dynamics",
+    "Four historical precedents: 1993-94 bond massacre, 2011 Italian BTP crisis, 2013 Taper Tantrum, 2022 UK gilt crisis — resolution timelines of 3-14 months",
+    "In 3 of 4 precedent episodes, bifurcation was resolved by policy intervention (fiscal consolidation or central bank backstop)",
+    "Short end reflects expected policy rate (Taylor Rule), long end reflects term premium (fiscal supply)",
+    "Debate pair_0 found the combined structural-empirical case 'materially stronger than either alone'",
+    "Six agents independently document and interpret the pattern across three analytical vocabularies",
+    "2Y approximates expected policy rate; 30Y approximates expected rate plus term premium",
+    "Front end transmits policy intent; back end transmits fiscal supply (rates_strategist_02)",
+    "Bianchi-Melosi fiscal theory extension of NK model (macro_strategist_01)",
+    "Falsifiable prediction endorsed by three agents: 2Y-SPX turning positive signals full fiscal dominance",
+    "Pattern survived scrutiny in pair_0, pair_1, and pair_2 debates"
   ],
   "originating_agents": [
-    "generalist_01"
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "equity_analyst_02",
+    "risk_analyst_02",
+    "challenger_01",
+    "rates_strategist_02",
+    "fx_strategist_01"
   ],
   "open_questions": [
     "What is the optimal maturity point for maximum hedge effectiveness?",
     "Is the bifurcation stable across different macro regimes?",
-    "How does the bifurcation change during crisis periods?"
+    "How does the bifurcation change during crisis periods?",
+    "Is the bifurcation a fiscal dominance signal or a transient phenomenon? Challenger_01 identified an internal contradiction: Fed cannot simultaneously be credible enough to anchor 2Y and impotent at 30Y",
+    "Alternative explanations: QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium",
+    "Without policy intervention, will the current bifurcation persist longer than any historical precedent?",
+    "Is the +0.05 to +0.15 long-end correlation statistically distinguishable from zero given the sample?",
+    "Is the bifurcation over-fitted to a 3-5 year sample with only 4 historical precedents (challenger_01)?",
+    "What would trigger 2Y-SPX turning positive, signaling full fiscal dominance?"
   ],
   "related_concepts": [
     "correlation_regime_shifts",
-    "yield_curve_vol_regime_dependence"
+    "yield_curve_vol_regime_dependence",
+    "fiscal_dynamics_positive_correlation",
+    "central_bank_reaction_function_correlation",
+    "term_premium_leading_indicator",
+    "demand_supply_shock_correlation_driver",
+    "partial_fiscal_dominance",
+    "fiscal_correlation_determinant",
+    "term_premium_dynamics",
+    "effective_taylor_rule_coefficient"
   ],
   "topic": "volatility_regimes",
   "created_at": "2026-03-22T22:22:52Z",
-  "last_updated": "2026-03-22T22:22:52Z",
+  "last_updated": "2026-03-23T04:13:17Z",
   "originating_iteration": "iter_0010",
-  "research_iterations": 1,
+  "research_iterations": 3,
   "iteration_history": [
-    "iter_0010"
+    "iter_0010",
+    "iter_0018",
+    "iter_0020"
   ]
 }

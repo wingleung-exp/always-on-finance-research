@@ -1,0 +1,19 @@
+{
+  "concept_a": "correlation_regime_shift_portfolio_impact",
+  "concept_b": "fci_mismeasurement_positive_correlation",
+  "mechanism": "Standard FCIs miss the tightening from collapsed diversification when stocks and bonds co-move. The ~15-20% higher portfolio volatility from correlation flip triggers VaR-based deleveraging and reduces risk appetite — a transmission channel from market structure to real financial conditions that headline FCI does not capture.",
+  "direction": "a_causes_b",
+  "confidence": 5,
+  "regime_dependence": "Mismeasurement is specific to positive correlation regimes. Under negative correlation, standard FCIs accurately capture the diversification benefit. The error is proportional to the correlation level and the share of leveraged multi-asset portfolios.",
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

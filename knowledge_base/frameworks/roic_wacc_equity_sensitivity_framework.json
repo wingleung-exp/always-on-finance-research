@@ -1,0 +1,28 @@
+{
+  "slug": "roic_wacc_equity_sensitivity_framework",
+  "purpose": "Quantifies the nonlinear, convex relationship between interest rate changes and equity fundamental value through the Economic Value Added (EVA) identity, demonstrating that current compressed spreads make equities ~1.5-2.0x more rate-sensitive than in any prior positive correlation episode.",
+  "components": [
+    "EVA identity: EVA = Invested Capital × (ROIC - WACC)",
+    "At historical 7pp spread: 100bp WACC increase → ~14% EVA destruction",
+    "At current ~4pp spread: 100bp WACC increase → ~25% EVA destruction (1.8x amplification)",
+    "S&P 500 ROIC: ~11-12% (2025E, down from 14-15% in 2021)",
+    "S&P 500 WACC: ~8-9% (up from 6-7% pre-hiking cycle)",
+    "Impact bifurcation: mega-cap tech (net cash, 1-5% interest/EBIT) vs. S&P 493 (18%+ interest/EBIT)"
+  ],
+  "current_assessment": "This is a mathematical identity, not an empirical claim — labeled 'indisputable' by pair_1. Rate increases now damage equity earnings through the fundamental channel (not just multiple compression) approximately 1.5-2.0x more powerfully than any prior positive correlation episode. The structural implication that consensus models systematically underestimate equity vulnerability survives all debate.",
+  "limitations": [
+    "Precise current spread estimate has ±50bp uncertainty",
+    "Does not account for sector-level variation in ROIC-WACC dynamics",
+    "Aggregate framework may mask offsetting movements within the index",
+    "Does not specify the timing of fundamental earnings impact vs. market price reaction",
+    "Corporate debt maturity wall interaction amplifies the effect but timing is uncertain"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

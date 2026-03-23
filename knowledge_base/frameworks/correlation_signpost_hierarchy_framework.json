@@ -1,0 +1,28 @@
+{
+  "slug": "correlation_signpost_hierarchy_framework",
+  "purpose": "Provides ranked leading indicators with specific lead times and hit rates for timing stock-bond correlation regime flips from positive/unstable to negative, ordered by the economic transmission sequence.",
+  "components": [
+    "Tier 1: IG credit spreads widening >75bp from trough — 18-month lead, 6/7 historical hit rate",
+    "Tier 2a: ISM manufacturing <47 for 2+ consecutive months — 12-month lead, 5/6 hit rate",
+    "Tier 2b: Yield curve un-inversion — 6-12 month lead, 4/5 hit rate",
+    "Tier 3: Initial claims >300K — 3-6 month lead, 7/8 hit rate",
+    "Tier 4: Fed cumulative cuts >100bp — 1-3 month lead, ~100% hit rate",
+    "Sequencing logic: credit markets (institutional, fastest) → manufacturing (real economy) → labor market (lagged) → Fed response (institutional)"
+  ],
+  "current_assessment": "As of March 2026, only Tier 2b (yield curve un-inversion) is active. Probability of correlation flip within 12 months is below the historical base rate for multi-tier confirmation. Next critical signals to monitor: IG OAS crossing 150bp and ISM sustaining below 47.",
+  "limitations": [
+    "Based on only 7 transitions — small sample limits statistical power",
+    "Hit rates are approximate, not precise probabilities",
+    "May not account for structural changes: 50% passive AUM, $800B+ basis trade, fiscal dominance",
+    "Fiscal stalemate transitions may follow different signpost patterns than clean monetary transitions",
+    "Does not distinguish between demand-shock and supply-shock driven flips"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

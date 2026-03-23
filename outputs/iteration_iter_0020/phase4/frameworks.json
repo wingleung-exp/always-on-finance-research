@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "campbell_pflueger_viceira_shock_taxonomy",
+    "purpose": "Explains the fundamental determinant of stock-bond correlation sign based on whether demand or supply shocks dominate, mediated by the central bank reaction function and the Phillips Curve slope.",
+    "components": [
+      "Demand shock identification: growth/financial stress events → CB eases → bonds rally as equities fall → negative correlation",
+      "Supply shock identification: inflation/cost-push events → CB tightens → bonds and equities fall together → positive correlation",
+      "Central bank reaction function (Taylor Rule): converts shock type into policy response via inflation coefficient φ_π",
+      "Phillips Curve slope (0.1-0.5): determines how aggressively the CB must respond to supply shocks",
+      "Inflation expectations anchoring: determines whether CB can look through supply shocks without tightening"
+    ],
+    "current_assessment": "Universally accepted as the theoretical foundation by all 8 agents. Current ambiguity arises from mixed shock environment. The effective Taylor Rule coefficient (~1.0-1.2) is lower than textbook calibrations (1.5-2.0), making the correlation sign more shock-dependent. No agent contested the mechanism; all debate concerns parameterization and which shock dominates.",
+    "limitations": [
+      "Does not account for fiscal dominance as a separate channel — requires Bianchi-Melosi extension",
+      "Assumes monetary transmission works as specified, which is partially broken (asset price channel counterproductive)",
+      "Phillips Curve slope parameter (0.1-0.5) is unresolved and conditions all predictions",
+      "Does not distinguish maturity-dependent correlation patterns without extension",
+      "Challenger_01 argues the framework produces unfalsifiable epicycles when applied to ambiguous shock mixes"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "correlation_signpost_hierarchy_framework",
+    "purpose": "Provides ranked leading indicators with specific lead times and hit rates for timing stock-bond correlation regime flips from positive/unstable to negative, ordered by the economic transmission sequence.",
+    "components": [
+      "Tier 1: IG credit spreads widening >75bp from trough — 18-month lead, 6/7 historical hit rate",
+      "Tier 2a: ISM manufacturing <47 for 2+ consecutive months — 12-month lead, 5/6 hit rate",
+      "Tier 2b: Yield curve un-inversion — 6-12 month lead, 4/5 hit rate",
+      "Tier 3: Initial claims >300K — 3-6 month lead, 7/8 hit rate",
+      "Tier 4: Fed cumulative cuts >100bp — 1-3 month lead, ~100% hit rate",
+      "Sequencing logic: credit markets (institutional, fastest) → manufacturing (real economy) → labor market (lagged) → Fed response (institutional)"
+    ],
+    "current_assessment": "As of March 2026, only Tier 2b (yield curve un-inversion) is active. Probability of correlation flip within 12 months is below the historical base rate for multi-tier confirmation. Next critical signals to monitor: IG OAS crossing 150bp and ISM sustaining below 47.",
+    "limitations": [
+      "Based on only 7 transitions — small sample limits statistical power",
+      "Hit rates are approximate, not precise probabilities",
+      "May not account for structural changes: 50% passive AUM, $800B+ basis trade, fiscal dominance",
+      "Fiscal stalemate transitions may follow different signpost patterns than clean monetary transitions",
+      "Does not distinguish between demand-shock and supply-shock driven flips"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "corridor_of_instability_framework",
+    "purpose": "Maps the two-dimensional parameter space (core inflation × fiscal deficit/GDP) that determines whether stock-bond correlation is stable (resolved to positive or negative) or structurally unstable (oscillating).",
+    "components": [
+      "X-axis: Core inflation rate with thresholds at 2.0% (lower) and 3.5% (upper)",
+      "Y-axis: Fiscal deficit as percent of GDP with thresholds at 4.5% (lower) and 7.0% (upper)",
+      "Below corridor on inflation (<2.0%) OR deficit (<4.5% declining): negative correlation dominates",
+      "Above corridor on inflation (>3.5-4.0% sustained): positive correlation locks in",
+      "Inside corridor: structurally unstable, oscillating correlation with maturity bifurcation",
+      "Current US position: core PCE ~2.7%, deficit ~6.5% GDP — interior of corridor"
+    ],
+    "current_assessment": "More operationally useful than unidimensional inflation focus per pair_0. The US occupying the corridor interior explains the 4-year oscillating regime. Movement requires either inflation breaking above 3.5%, fiscal consolidation below 4.5%, or a crystallizing event.",
+    "limitations": [
+      "Derived from only 4 G10 episodes — small sample for parameter calibration",
+      "Parameter boundaries carry ±1pp uncertainty",
+      "Does not account for structural differences across economies (currency issuer vs. user, reserve currency status)",
+      "The concept is more robust than the specific numerical boundaries",
+      "Does not specify transition dynamics when exiting the corridor"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "three_condition_conjunction_trigger_framework",
+    "purpose": "Specifies the falsifiable conditions for positive stock-bond correlation lock-in, explaining why correlation oscillates when some but not all conditions are met.",
+    "components": [
+      "Condition 1: Core inflation persistently exceeds central bank tolerance threshold (>2.5-3.0%)",
+      "Condition 2: Adjusted term premium exceeds 100bp",
+      "Condition 3: Output gap near zero or positive (economy not in recession)",
+      "Lock-in requires simultaneous satisfaction of all three conditions",
+      "Failure of any one condition allows oscillation rather than lock-in"
+    ],
+    "current_assessment": "Two of three conditions are met or approaching as of March 2026. The conjunction approach explains why correlation hasn't locked in despite individual conditions being met at different times. Framework fits all observed historical transitions. Provides falsifiable predictions unlike some competing frameworks.",
+    "limitations": [
+      "Derived from a limited number of historical transitions",
+      "Term premium measurement uncertainty (ACM vs. adjusted estimates differ by 30-50bp)",
+      "Does not specify dynamics between states or transition speed",
+      "Output gap condition may be modified by fiscal dominance making the CB reaction function endogenous",
+      "Specific threshold values carry calibration uncertainty"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "bimodal_mixture_model_framework",
+    "purpose": "Provides a probabilistic portfolio construction framework under correlation regime uncertainty by explicitly modeling the unconditional correlation as a mixture of two distinct regimes rather than a point estimate.",
+    "components": [
+      "Regime D (demand-dominant): correlation -0.30 to -0.50, prior probability 55-60%",
+      "Regime S (supply-dominant): correlation +0.20 to +0.40, prior probability 40-45%",
+      "Unconditional correlation: mixture average ~-0.06 (robust to ±0.15 perturbation in weights)",
+      "Key insight: using the near-zero unconditional correlation for mean-variance optimization is suboptimal because the bimodal distribution violates normality assumptions",
+      "Application: portfolio construction should hedge against both modes rather than optimizing for the mean"
+    ],
+    "current_assessment": "More actionable for portfolio construction than conjunction trigger approaches per pair_2 because it provides explicit probability weights and conditional return distributions. The specific regime probabilities are calibrated judgment, not model output, but the near-zero unconditional is robust to plausible perturbations.",
+    "limitations": [
+      "Regime probabilities are subjective expert calibrations, not derived from a statistical model",
+      "Does not account for regime transition dynamics or persistence",
+      "Assumes only two regimes — reality may involve additional states or a continuum",
+      "Implementation requires either regime identification (hard) or hedging against both modes (costly)",
+      "The 25-30% recession base rate (challenger_01) may make the 55-60% Regime D weight understated"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "fiscal_stalemate_analogue_framework",
+    "purpose": "Categorizes correlation regime transitions by structural driver to predict duration: fiscal stalemate transitions (fiscal expansion conflicting with monetary tightening) last 5-7 years, approximately 2-3x longer than clean monetary transitions (12-36 months).",
+    "components": [
+      "Clean monetary transition: CB-driven, typically 12-36 months, resolved by credible policy shift",
+      "Fiscal stalemate transition: fiscal expansion vs. monetary tightening, 5-7 years, requires crystallizing event",
+      "Three documented analogues: US 1966-71 (5yr), UK 1972-77 (5yr), Italy 2008-14 (6yr)",
+      "Current episode classified as fiscal stalemate: started Q1 2022, 4 years elapsed, suggesting 1-3 more years",
+      "Crystallizing event (recession, financial stress, fiscal reform) typically required for resolution"
+    ],
+    "current_assessment": "Judged more appropriate than generalist_01's 12-36 month window for the current configuration per pair_0. Current 4-year transition is within range for fiscal stalemate. However, the current fiscal position (6-7% deficit, ~125% debt/GDP) exceeds all three precedents, making duration extrapolation uncertain.",
+    "limitations": [
+      "Only n=3 analogues with varying institutional contexts (US, UK, Italy)",
+      "Current fiscal position exceeds all three precedents — may extend or compress the duration",
+      "Italy analogue complicated by eurozone membership (no sovereign currency)",
+      "Does not account for structural novelties (50% passive AUM, AI, $800B basis trade)",
+      "Crystallizing event requirement is difficult to predict ex ante"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "roic_wacc_equity_sensitivity_framework",
+    "purpose": "Quantifies the nonlinear, convex relationship between interest rate changes and equity fundamental value through the Economic Value Added (EVA) identity, demonstrating that current compressed spreads make equities ~1.5-2.0x more rate-sensitive than in any prior positive correlation episode.",
+    "components": [
+      "EVA identity: EVA = Invested Capital × (ROIC - WACC)",
+      "At historical 7pp spread: 100bp WACC increase → ~14% EVA destruction",
+      "At current ~4pp spread: 100bp WACC increase → ~25% EVA destruction (1.8x amplification)",
+      "S&P 500 ROIC: ~11-12% (2025E, down from 14-15% in 2021)",
+      "S&P 500 WACC: ~8-9% (up from 6-7% pre-hiking cycle)",
+      "Impact bifurcation: mega-cap tech (net cash, 1-5% interest/EBIT) vs. S&P 493 (18%+ interest/EBIT)"
+    ],
+    "current_assessment": "This is a mathematical identity, not an empirical claim — labeled 'indisputable' by pair_1. Rate increases now damage equity earnings through the fundamental channel (not just multiple compression) approximately 1.5-2.0x more powerfully than any prior positive correlation episode. The structural implication that consensus models systematically underestimate equity vulnerability survives all debate.",
+    "limitations": [
+      "Precise current spread estimate has ±50bp uncertainty",
+      "Does not account for sector-level variation in ROIC-WACC dynamics",
+      "Aggregate framework may mask offsetting movements within the index",
+      "Does not specify the timing of fundamental earnings impact vs. market price reaction",
+      "Corporate debt maturity wall interaction amplifies the effect but timing is uncertain"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  },
+  {
+    "slug": "dollar_three_factor_conjunction_framework",
+    "purpose": "Explains why the positive correlation regime has oscillated rather than locked in by identifying the US dollar as the missing third factor required alongside inflation expectations and term premium for full correlation lock-in.",
+    "components": [
+      "Factor 1: Inflation expectations de-anchoring (5Y breakevens, Michigan surveys)",
+      "Factor 2: Term premium exceeding threshold (~100bp adjusted)",
+      "Factor 3: Dollar breaking below DXY 100 (signaling capital flow reversal from US assets)",
+      "All three required simultaneously for positive correlation to lock in permanently",
+      "Dollar as binding constraint: DXY has not broken below 100, preventing lock-in despite other conditions approaching"
+    ],
+    "current_assessment": "Dollar identified as the 'missing third leg' of correlation lock-in by fx_strategist_01. The 2006-07 FX regime provides the most informative analogue. Current DXY above 100 prevents the third condition, explaining oscillation. EUR/USD carry-adjusted indicator is flat, consistent with muddled regime.",
+    "limitations": [
+      "Dollar Smile framework mapping was refuted (R4) as unfalsifiable",
+      "DXY 100 threshold may not be robust across different cycles",
+      "EUR/USD carry-adjusted indicator has false-positive episodes and only 3 validations",
+      "Dollar dynamics are affected by many factors beyond the correlation regime",
+      "The dollar channel may be endogenous to the other two factors rather than independent"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0020"
+  }
+]

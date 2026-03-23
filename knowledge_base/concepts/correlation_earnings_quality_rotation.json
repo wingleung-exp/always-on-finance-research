@@ -1,0 +1,32 @@
+{
+  "slug": "correlation_earnings_quality_rotation",
+  "definition": "A hypothesized signal linking correlation regime to equity factor rotation: high-accruals (Q5) outperformed low-accruals (Q1) by ~15pp in 2020-21 (negative correlation regime); reversed to Q1 outperforming Q5 by ~12pp in 2022-23 (positive correlation). The mechanism (discount rate volatility exposing low-quality earnings) is logically sound but represents an n=1 observation.",
+  "confidence": 4,
+  "evidence": [
+    "Q5 (high accruals) outperformed Q1 (low accruals) by ~15pp in 2020-21",
+    "Reversed to Q1 outperforming Q5 by ~12pp in 2022-23",
+    "Mechanism: discount rate volatility under positive correlation exposes low-quality earnings",
+    "Debate pair_1 identified n=1 problem as 'disqualifying for the strength of the claim'"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Can additional historical episodes validate the signal?",
+    "Is the factor rotation driven by correlation regime per se, or by the underlying rate volatility that accompanies regime shifts?",
+    "Would a sector-neutral version of the signal be more robust?"
+  ],
+  "related_concepts": [
+    "roic_wacc_spread_compression",
+    "non_gaap_duration_masking",
+    "equity_valuations_correlation_inconsistency"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

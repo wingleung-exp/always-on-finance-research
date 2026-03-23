@@ -1,0 +1,27 @@
+{
+  "slug": "bimodal_mixture_model_framework",
+  "purpose": "Provides a probabilistic portfolio construction framework under correlation regime uncertainty by explicitly modeling the unconditional correlation as a mixture of two distinct regimes rather than a point estimate.",
+  "components": [
+    "Regime D (demand-dominant): correlation -0.30 to -0.50, prior probability 55-60%",
+    "Regime S (supply-dominant): correlation +0.20 to +0.40, prior probability 40-45%",
+    "Unconditional correlation: mixture average ~-0.06 (robust to ±0.15 perturbation in weights)",
+    "Key insight: using the near-zero unconditional correlation for mean-variance optimization is suboptimal because the bimodal distribution violates normality assumptions",
+    "Application: portfolio construction should hedge against both modes rather than optimizing for the mean"
+  ],
+  "current_assessment": "More actionable for portfolio construction than conjunction trigger approaches per pair_2 because it provides explicit probability weights and conditional return distributions. The specific regime probabilities are calibrated judgment, not model output, but the near-zero unconditional is robust to plausible perturbations.",
+  "limitations": [
+    "Regime probabilities are subjective expert calibrations, not derived from a statistical model",
+    "Does not account for regime transition dynamics or persistence",
+    "Assumes only two regimes — reality may involve additional states or a continuum",
+    "Implementation requires either regime identification (hard) or hedging against both modes (costly)",
+    "The 25-30% recession base rate (challenger_01) may make the 55-60% Regime D weight understated"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

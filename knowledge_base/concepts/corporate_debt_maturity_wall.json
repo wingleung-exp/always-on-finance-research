@@ -1,0 +1,33 @@
+{
+  "slug": "corporate_debt_maturity_wall",
+  "definition": "Approximately $2.5T in corporate debt maturing 2025-2027 with weighted average coupon of ~2.5-3.5% (ZIRP-era) refinancing at 5.5-6.5%, creating ~$50-75B incremental annual interest expense and ~$2.50-3.75 S&P 500 EPS headwind (~1.0-1.5% of earnings), concentrated in the S&P 493.",
+  "confidence": 7,
+  "evidence": [
+    "Rating agency data on maturity schedule and coupon differentials",
+    "Top-10 firms are net cash with interest expense/EBIT of ~1-5%",
+    "S&P 493 interest expense/EBIT rising from ~12% (2021) to ~18% (2025E), tracking toward 22-25% by 2027",
+    "Creates measurable quality divergence reinforcing positive correlation through earnings channel"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "How much of the maturity wall will private credit ($1.5T+ AUM) absorb?",
+    "Will rate cuts reduce the refinancing cost before the wall peaks?",
+    "What is the net impact after accounting for cash-rich companies that benefit from higher rates?"
+  ],
+  "related_concepts": [
+    "roic_wacc_compression",
+    "equity_concentration_correlation_illusion",
+    "fiscal_correlation_determinant"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

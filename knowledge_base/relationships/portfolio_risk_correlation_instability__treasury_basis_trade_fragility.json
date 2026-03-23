@@ -1,0 +1,19 @@
+{
+  "concept_a": "treasury_basis_trade_fragility",
+  "concept_b": "portfolio_risk_correlation_instability",
+  "mechanism": "The basis trade at $800B-$1T+ with 50-100x leverage creates acute fragility during correlation transitions: forced unwinding would simultaneously stress Treasury and equity markets, amplifying the correlation shift through deleveraging cascades with no historical precedent for this leverage during a transition.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Risk increases with leverage and trade size. Most dangerous during rapid correlation shifts where margin calls cascade across asset classes.",
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

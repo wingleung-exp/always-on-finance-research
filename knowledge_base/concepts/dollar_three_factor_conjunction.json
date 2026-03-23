@@ -1,0 +1,32 @@
+{
+  "slug": "dollar_three_factor_conjunction",
+  "definition": "The dollar must break below DXY 100 as the third factor alongside inflation expectations de-anchoring and term premium exceeding threshold for positive correlation to lock in. The dollar not breaking below 100 explains why correlation oscillates rather than locks in.",
+  "confidence": 6,
+  "evidence": [
+    "Three-factor model: inflation expectations + term premium + dollar break required for lock-in",
+    "DXY has not broken below 100, preventing the third condition from being met",
+    "fx_strategist_01 provides the dollar as the 'missing third leg' of correlation lock-in",
+    "Three historical validations of the EUR/USD carry-adjusted indicator"
+  ],
+  "originating_agents": [
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "Is DXY 100 a robust threshold or specific to this cycle?",
+    "What would drive a sustained dollar break below 100?",
+    "Does the dollar channel operate independently or is it endogenous to the other two factors?"
+  ],
+  "related_concepts": [
+    "transitional_correlation_regime",
+    "inflation_expectations_anchoring",
+    "term_premium_dynamics"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}

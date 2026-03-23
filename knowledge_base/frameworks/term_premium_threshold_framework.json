@@ -1,0 +1,25 @@
+{
+  "slug": "term_premium_threshold_framework",
+  "purpose": "Identifies correlation regime transitions using term premium levels as the cleanest leading indicator, answering: are we in a negative, transitional, or positive correlation regime?",
+  "components": [
+    "Term premium as direct measure of compensation for duration risk — the mechanism through which fiscal/supply dynamics transmit to correlation",
+    "Historical thresholds: ~0bp or below → negative correlation regime; 50-100bp → transitional/unstable; ~150bp+ → established positive correlation regime",
+    "ACM term premium model as primary measurement tool",
+    "12-18 month lead time observed in historical regime transitions (1967-68, 1998-2000)"
+  ],
+  "current_assessment": "ACM term premium at 50-80bp (early 2026) is in the transitional zone — consistent with mid-transition but below the ~150bp+ historically associated with a fully-established positive regime. The trajectory (rising from -50bp in 2020) suggests upward momentum, but has not yet crossed the threshold for confirmed regime change.",
+  "limitations": [
+    "Threshold levels (~150bp) are approximate and drawn from a different market structure",
+    "Risk parity, basis trade, and leveraged structures may amplify term premium moves, lowering the effective threshold",
+    "Only three historical calibration points with fundamentally different macro contexts",
+    "ACM model itself has parameter uncertainty and revision risk"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

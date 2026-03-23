@@ -1,0 +1,25 @@
+{
+  "slug": "maturity_bifurcation_decomposition",
+  "purpose": "Decomposes the yield curve into expectations and term premium components to explain why different Treasury maturities exhibit different correlations with equities",
+  "components": [
+    "Short end (2Y): dominated by expected policy rate path (Taylor Rule), countercyclical under credible CB → negative correlation with equities",
+    "Long end (30Y): dominated by term premium (fiscal supply, inflation risk premium), procyclical under current fiscal policy → positive correlation with equities",
+    "Four historical precedent episodes with resolution timelines of 3-14 months",
+    "Resolution mechanism: policy intervention (fiscal consolidation or central bank backstop) required in 3 of 4 cases"
+  ],
+  "current_assessment": "The bifurcation is a robust empirical phenomenon but its interpretation as a fiscal dominance signal is contested. The internal contradiction (Fed simultaneously credible at short end and impotent at long end) has alternative explanations: QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium. Without policy intervention, the current bifurcation may persist longer than any precedent.",
+  "limitations": [
+    "Interpretation is contested — fiscal dominance vs transient explanations",
+    "Internal logical contradiction identified by challenger_01",
+    "Resolution mechanism depends on policy intervention that has no clear path currently",
+    "Four precedent episodes is a small sample with different macro contexts"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

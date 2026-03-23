@@ -1,0 +1,19 @@
+{
+  "concept_a": "r_star_correlation_uncertainty_mapping",
+  "concept_b": "central_bank_reaction_function_correlation",
+  "mechanism": "r-star estimate range (0.5-3.0%) creates fundamental uncertainty about the current policy stance. If r-star is low, current rates are deeply restrictive and recession is coming (negative correlation). If high, rates are neutral/easy and the economy runs hot (positive correlation). The CB reaction function cannot be assessed without knowing r-star.",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "The uncertainty is maximized at the consensus r-star estimate (~1.5-2.0%), which is the least informative for correlation. Extreme r-star values would resolve the correlation question.",
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T03:59:53Z",
+  "last_updated": "2026-03-23T03:59:53Z",
+  "originating_iteration": "iter_0018",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0018"
+  ]
+}

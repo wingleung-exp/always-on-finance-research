@@ -1,0 +1,36 @@
+{
+  "slug": "usdjpy_carry_trade_accelerator",
+  "definition": "USD/JPY carry trade positioning ($500B-$1T estimated) functions as a regime-change accelerator converting gradual correlation shifts into abrupt flips through forced deleveraging. The July 2024 episode (USD/JPY 162→142, VIX spike to 38, S&P -5-6%, correlation temporarily +0.5) provides out-of-sample confirmation of the mechanism.",
+  "confidence": 6,
+  "evidence": [
+    "July 2024 episode: USD/JPY fell ~162 to ~142, VIX spiked to 38, S&P declined 5-6%",
+    "Stock-bond correlation temporarily jumped to +0.5 during the episode",
+    "Forced deleveraging from yen-funded positions hits both equity and bond markets via margin calls",
+    "pair_1 validated this as 'a real channel that equity_analyst_02 completely ignores'",
+    "BOJ communication under Ueda more transparent than under Kuroda"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "What is the actual carry positioning (estimate range $500B-$1T is wide)?",
+    "Is this an amplifier of correlation shifts or a potential independent cause?",
+    "Does more transparent BOJ communication materially reduce discontinuity risk?",
+    "How does the $450B equity ETF position interact with the carry unwind?"
+  ],
+  "related_concepts": [
+    "boj_normalization_shock",
+    "transitional_correlation_regime",
+    "portfolio_risk_correlation_instability",
+    "treasury_basis_trade_fragility"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-23T04:13:17Z",
+  "last_updated": "2026-03-23T04:13:17Z",
+  "originating_iteration": "iter_0020",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0020"
+  ]
+}
