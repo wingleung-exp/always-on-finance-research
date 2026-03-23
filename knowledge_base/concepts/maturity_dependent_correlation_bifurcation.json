@@ -1,34 +1,18 @@
 {
   "slug": "maturity_dependent_correlation_bifurcation",
   "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while long duration (30Y) shows positive correlation (+0.05 to +0.15). Hedging properties depend critically on duration selection, making this operationally essential for portfolio construction.",
-  "confidence": 7.83,
+  "confidence": 7.71,
   "evidence": [
-    "2Y correlation at -0.25 to -0.35 vs 30Y at +0.05 to +0.15",
-    "Operationally critical for duration selection in hedging portfolios",
-    "Unique contribution — no other agent raises this",
-    "Connected to iter_0008 findings on cross-asset dynamics",
-    "Four historical precedents: 1993-94 bond massacre, 2011 Italian BTP crisis, 2013 Taper Tantrum, 2022 UK gilt crisis — resolution timelines of 3-14 months",
-    "In 3 of 4 precedent episodes, bifurcation was resolved by policy intervention (fiscal consolidation or central bank backstop)",
-    "Short end reflects expected policy rate (Taylor Rule), long end reflects term premium (fiscal supply)",
-    "Debate pair_0 found the combined structural-empirical case 'materially stronger than either alone'",
-    "Six agents independently document and interpret the pattern across three analytical vocabularies",
-    "2Y approximates expected policy rate; 30Y approximates expected rate plus term premium",
-    "Front end transmits policy intent; back end transmits fiscal supply (rates_strategist_02)",
-    "Bianchi-Melosi fiscal theory extension of NK model (macro_strategist_01)",
-    "Falsifiable prediction endorsed by three agents: 2Y-SPX turning positive signals full fiscal dominance",
-    "Pattern survived scrutiny in pair_0, pair_1, and pair_2 debates",
-    "Five agents independently document and interpret the bifurcation",
-    "Short end reflects Taylor Rule expectations (demand-responsive)",
-    "Long end reflects fiscal supply dynamics (demand-independent)",
-    "Near-term earnings (25-30% of equity PV) track 2Y; terminal value (55-65%) tracks 30Y",
-    "August 2024 growth scare briefly restored negative correlation at all maturities",
-    "Expectations vs. term premium decomposition: 2Y approximates expected policy rate, 30Y approximates expected rate plus term premium",
     "Partial fiscal dominance interpretation via Bianchi-Melosi fiscal theory",
     "Pattern survived three iterations of cross-agent scrutiny",
     "Falsifiable prediction: 2Y-SPX turning positive signals full fiscal dominance",
     "2Y-SPX correlation at -0.25 to -0.35 directly observable in market data",
     "30Y-SPX correlation at +0.05 to +0.15 directly observable",
-    "Agreed in pair_0 debate without challenge"
+    "Agreed in pair_0 debate without challenge",
+    "pair_0 debate called this generalist_01's 'most distinctive contribution'",
+    "Front end approximates expected policy rate (cyclically responsive); back end reflects fiscal supply (structurally insensitive to business cycle)",
+    "KB reports 6 iterations of convergent research from 8 agents",
+    "Prescription: bifurcate curve exposure, 2-5Y for equity hedge, 10-30Y as separate correlated risk factor"
   ],
   "originating_agents": [
     "generalist_01",
@@ -38,26 +22,19 @@
     "risk_analyst_02",
     "challenger_01",
     "rates_strategist_02",
-    "fx_strategist_01"
+    "fx_strategist_01",
+    "equity_analyst_01",
+    "risk_analyst_01"
   ],
   "open_questions": [
-    "What is the optimal maturity point for maximum hedge effectiveness?",
-    "Is the bifurcation stable across different macro regimes?",
-    "How does the bifurcation change during crisis periods?",
-    "Is the bifurcation a fiscal dominance signal or a transient phenomenon? Challenger_01 identified an internal contradiction: Fed cannot simultaneously be credible enough to anchor 2Y and impotent at 30Y",
-    "Alternative explanations: QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium",
-    "Without policy intervention, will the current bifurcation persist longer than any historical precedent?",
-    "Is the +0.05 to +0.15 long-end correlation statistically distinguishable from zero given the sample?",
-    "Is the bifurcation over-fitted to a 3-5 year sample with only 4 historical precedents (challenger_01)?",
-    "What would trigger 2Y-SPX turning positive, signaling full fiscal dominance?",
-    "Is this structural (fiscal dominance) or transient (QT + supply/demand dynamics)",
-    "N=1 episode over ~3 years — can the Fed simultaneously be credible and not credible",
-    "Falsifiable test: if 2Y-SPX turns positive, it signals full transmission breakdown",
     "Is the bifurcation over-fitted to a 3-5 year sample with only 4 historical precedents?",
     "Is +0.05 to +0.15 at the long end statistically distinguishable from zero?",
     "Would the 2Y-SPX turning positive reliably signal full fiscal dominance?",
     "Will the bifurcation widen further with fiscal deterioration?",
-    "At what point does the front-end hedge also break down?"
+    "At what point does the front-end hedge also break down?",
+    "How stable is the bifurcation across regime transitions?",
+    "Could policy intervention cause the bifurcation to collapse within the 3-14 month precedent window?",
+    "Where exactly does the transitional zone (50-100bp term premium) lie on the maturity spectrum?"
   ],
   "related_concepts": [
     "correlation_regime_shifts",
@@ -76,19 +53,23 @@
     "qe_qt_independent_channel",
     "fiscal_correlation_codetermination",
     "transitional_correlation_regime",
-    "boj_normalization_shock"
+    "boj_normalization_shock",
+    "bad_steepening",
+    "erp_correlation_regime_inconsistency",
+    "supply_driven_term_premium_impact"
   ],
   "topic": "volatility_regimes",
   "created_at": "2026-03-22T22:22:52Z",
-  "last_updated": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-23T10:02:14Z",
   "originating_iteration": "iter_0010",
-  "research_iterations": 6,
+  "research_iterations": 7,
   "iteration_history": [
     "iter_0010",
     "iter_0018",
     "iter_0020",
     "iter_0019",
     "iter_0020",
-    "iter_0021"
+    "iter_0021",
+    "iter_0031"
   ]
 }

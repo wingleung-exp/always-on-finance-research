@@ -1,0 +1,269 @@
+[
+  {
+    "concept_a": "term_premium_decomposition",
+    "concept_b": "bad_steepening",
+    "mechanism": "Decomposition reveals that current steepening is predominantly term-premium-driven rather than expectations-driven, enabling correct classification as bad steepening",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Required in all regimes; most critical when raw 2s10s gives ambiguous signals",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "acm_kim_wright_model_divergence",
+    "concept_b": "term_premium_decomposition",
+    "mechanism": "30-50bp model divergence on 50-100bp estimates creates signal-to-noise approaching 1:1, undermining decomposition precision and propagating uncertainty to all downstream analysis",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always present; most damaging when term premium is in the 50-100bp transitional zone",
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "r_star_estimation_uncertainty",
+    "concept_b": "yield_curve_recession_prediction_weakness",
+    "mechanism": "480bp combined r-star CI means the expected short rate component cannot determine whether policy is restrictive or accommodative, undermining the curve's theoretical recession mechanism",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Structural; worsens when r-star models diverge from each other and from market pricing",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "fiscal_issuance_term_premium",
+    "concept_b": "bad_steepening",
+    "mechanism": "$2T+ annual Treasury issuance creates persistent supply pressure on the long end, driving term premium higher and producing bear steepening without corresponding growth improvement",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Conditional on central bank non-intervention; nullified when Fed/other CBs absorb issuance via QE",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "basis_trade_dual_distortion",
+    "concept_b": "term_premium_decomposition",
+    "mechanism": "Suppresses measured term premium by 20-40bp in calm markets (synthetic QE) and amplifies spikes during stress, distorting both calm-state and stress-state decomposition readings",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Suppression channel operates in low-vol regimes; amplification channel activates during stress/deleveraging events",
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "supply_driven_term_premium_impact",
+    "concept_b": "erp_correlation_regime_inconsistency",
+    "mechanism": "Supply-driven term premium increases compress equity valuations without reflecting improved growth, exposing the inconsistency of low ERP under positive stock-bond correlation",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Operative under positive stock-bond correlation; attenuated under negative correlation where bonds hedge equity risk",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "clo_arbitrage_nonlinear_transmission",
+    "concept_b": "bad_steepening",
+    "mechanism": "CLO arbitrage creates a binary credit supply channel: 50bp SOFR moves around the ~4.3-4.5% threshold produce regime changes in 65-70% of institutional leveraged loan funding",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Nonlinearity is most acute at SOFR 4.0-5.0%; functional below 3.5%, dead above 5.5%",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "private_credit_signal_degradation",
+    "concept_b": "yield_curve_recession_prediction_weakness",
+    "mechanism": "$1.7T in private credit with NAV smoothing (autocorrelation 0.5-0.7) masks stress for 12-18 months, degrading the yield curve's real-time information content about aggregate credit conditions",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Worsens as private credit share of total credit grows; untested through a full cycle at current scale",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "fiscal_issuance_term_premium",
+    "concept_b": "fiscal_term_premium_feedback_loop",
+    "mechanism": "Higher issuance raises term premium, increasing government interest costs, requiring yet more issuance—a self-reinforcing loop once the blended rate exceeds nominal GDP growth",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Activates when r-g gap closes and central bank does not intervene; US-specific threshold unknown; reserve currency premium may provide 200bp+ buffer",
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "boj_normalization_ust_demand_shock",
+    "concept_b": "fiscal_issuance_term_premium",
+    "mechanism": "BOJ normalization reduces carry incentive for Japan's ~$1.1T in UST holdings, reducing demand and amplifying supply pressure on term premium",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Operative when Fed-BOJ spread narrows enough to overcome institutional stickiness and hedging cost inertia",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "move_index_signal_diagnostic",
+    "concept_b": "term_premium_decomposition",
+    "mechanism": "MOVE levels help discriminate signal quality: <80 suggests expectations-driven curve moves (reliable), >120 suggests term-premium-contaminated moves (unreliable), though the diagnostic may be partially circular",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most useful at extremes (<80 or >120); diagnostically ambiguous in the 80-120 middle zone where MOVE currently resides",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "post_qe_signal_degradation",
+    "concept_b": "yield_curve_recession_prediction_weakness",
+    "mechanism": "QE stock effects distort curve signals for 3-5 years after QE ends, with estimated 40-80bp residual distortion in 2026 reducing the curve's informational content",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Decays over 3-5 years post-QE; stronger immediately after large-scale QE programs",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "basis_trade_dual_distortion",
+    "concept_b": "post_qe_signal_degradation",
+    "mechanism": "Basis trade acts as synthetic QE by absorbing duration supply in calm markets, extending the effective QE distortion even after official QE has ended",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Operative while basis trade remains large-scale ($800B-$1T); could unwind rapidly during stress events",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "steepening_trap",
+    "concept_b": "clo_arbitrage_nonlinear_transmission",
+    "mechanism": "Fed rate cuts (steepening trap trigger) lower SOFR but also precede rising defaults → CCC bucket expansion → CLO OC test failures → credit supply contraction—a specific causal chain through the CLO channel",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Operative when CLO arbitrage is in the marginal-viability zone (SOFR ~4.0-5.0%) and reinvestment periods are expiring",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "geopolitical_correlation_ratchet",
+    "concept_b": "fiscal_issuance_term_premium",
+    "mechanism": "Geopolitical escalation creates permanent sunk fiscal costs (defense industrial base, supply chain duplication) that persist after crises subside, structurally increasing fiscal issuance requirements",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Ratchet operates during escalation phases; could theoretically unwind over generational timescales (peace dividend)",
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "clo_reinvestment_expiration_cliff",
+    "concept_b": "clo_arbitrage_nonlinear_transmission",
+    "mechanism": "$250-350B in expiring reinvestment periods create asymmetric exposure: post-reinvestment CLOs cannot benefit from spread widening, amplifying the nonlinear credit supply response during stress",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Concentrated in 2025-2027 expiration window; magnitude unprecedented at current scale",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "sec_clearing_mandate_catalyst",
+    "concept_b": "basis_trade_dual_distortion",
+    "mechanism": "Central clearing mandate increases margin requirements, compressing leverage capacity of the basis trade and potentially triggering deleveraging that converts the suppression channel into the amplification channel",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Q2 2026 implementation; severity depends on phase-in speed and cross-margining offsets",
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "maturity_dependent_correlation_bifurcation",
+    "concept_b": "supply_driven_term_premium_impact",
+    "mechanism": "The bifurcation reflects that front end tracks cyclical policy expectations while back end reflects fiscal supply/term premium dynamics—supply-driven impact concentrates in the long end where positive equity correlation resides",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Emerged during term premium rebuilding regime; could collapse if term premium returns to negative territory or if inflation returns below 2%",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "concept_a": "bad_steepening",
+    "concept_b": "steepening_trap",
+    "mechanism": "The current bear-steepening (bad steepening) regime is empirically untested for the steepening trap pattern; all historical precedents were bull-steepening episodes, creating a critical gap in applicability",
+    "direction": "correlated",
+    "confidence": 5,
+    "regime_dependence": "Key disagreement: may only apply to bull-steepening (front end falling on rate cuts), making current regime informationally distinct",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_02",
+      "challenger_02",
+      "macro_strategist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "slug": "bad_steepening",
+  "definition": "Current yield curve steepening is primarily term-premium-driven (back end rising on supply/fiscal pressure) rather than growth-expectations-driven (front end falling on rate cut expectations). This 'bad steepening' carries qualitatively different implications for credit and equity markets than 'good steepening.'",
+  "confidence": 8,
+  "evidence": [
+    "ACM term premium swung from -50bp (2020) to +50-100bp (early 2026)",
+    "$2T+ annual Treasury issuance creates persistent supply pressure with no corresponding acceleration in potential output growth",
+    "Breakevens range-bound at 2.2-2.5%, not rising with real yields as good steepening would imply",
+    "2023 Q3 episode: 10Y rose 90bp driven by term premium, S&P fell ~10% with no material earnings decline—pure discount rate event"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_01",
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "generalist_02",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How long can bad steepening persist before triggering recession or policy response?",
+    "What observable conditions would mark a transition from bad to good steepening?",
+    "Does the steepening trap pattern apply when the mechanism is bear-steepening rather than bull-steepening?"
+  ],
+  "related_concepts": [
+    "term_premium_decomposition",
+    "fiscal_issuance_term_premium",
+    "supply_driven_term_premium_impact",
+    "steepening_trap",
+    "erp_correlation_regime_inconsistency"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

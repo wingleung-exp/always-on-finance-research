@@ -1,0 +1,37 @@
+{
+  "slug": "yield_curve_recession_prediction_weakness",
+  "definition": "The yield curve's recession-prediction record is substantially weaker than the canonical '7/7' claim implies. After Bayesian adjustment for variable lead times (6-24 months), false positives (1966, 1998, 2022-23), and a 25-30% base rate of recession in any 24-month window, the marginal lift is approximately 1.5-2x base rate, not near-certainty.",
+  "confidence": 8,
+  "evidence": [
+    "2022-23 inversion (-108bp, deepest since early 1980s) has not produced recession as of March 2026",
+    "At least 2-3 false positives depending on classification criteria",
+    "25-30% base rate of recession in any 24-month window shrinks marginal predictive lift",
+    "pair_2 debate explicitly refuted 'record remains intact' framing as self-contradictory",
+    "pair_3 debate agreed challenger_02 'is clearly stronger' on this point"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "generalist_02",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "What is the actual marginal predictive lift after proper Bayesian adjustment with current data?",
+    "Should the framework incorporate global curve synchronization as independent information?",
+    "Does the signal retain more value when conditioned on expectations-driven (not term-premium-driven) inversions?"
+  ],
+  "related_concepts": [
+    "r_star_estimation_uncertainty",
+    "private_credit_signal_degradation",
+    "post_qe_signal_degradation",
+    "steepening_trap",
+    "move_index_signal_diagnostic"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

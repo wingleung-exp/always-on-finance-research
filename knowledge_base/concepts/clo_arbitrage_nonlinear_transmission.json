@@ -1,0 +1,34 @@
+{
+  "slug": "clo_arbitrage_nonlinear_transmission",
+  "definition": "CLOs purchase 65-70% of institutional leveraged loans. At SOFR ~4.3-4.5%, CLO equity tranches are in a marginal-viability zone where 50bp moves produce binary outcomes—functional at ~3.5%, dead at ~5.5%. This creates a critical nonlinear transmission channel from yield curve dynamics to real credit supply.",
+  "confidence": 7,
+  "evidence": [
+    "CLOs purchase 65-70% of institutional leveraged loans",
+    "2022 episode: CLO issuance down 35% YoY validates the mechanism",
+    "Knife-edge sensitivity at current SOFR levels is structural and well-established",
+    "pair_1 debate endorsed nonlinearity as 'genuinely important'"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How do CLO credit supply and equity discount rate channels interact when they send conflicting signals?",
+    "What SOFR level represents the precise binary threshold in the current vintage mix?",
+    "How does the CLO reinvestment expiration cliff ($250-350B) amplify or modify this channel?"
+  ],
+  "related_concepts": [
+    "steepening_trap",
+    "private_credit_signal_degradation",
+    "clo_reinvestment_expiration_cliff",
+    "supply_driven_term_premium_impact",
+    "bad_steepening"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

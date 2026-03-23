@@ -1,0 +1,28 @@
+{
+  "slug": "fiscal_doom_loop_assessment",
+  "purpose": "Evaluates whether the US is approaching the self-reinforcing fiscal spiral where rising term premium → higher interest costs → more issuance → higher term premium",
+  "components": [
+    "Net interest expense relative to nominal GDP growth (r-g gap)",
+    "Average maturity and repricing speed (~16%/year at 6.2yr avg maturity)",
+    "Central bank intervention likelihood (QE return probability)",
+    "Reserve currency premium buffer (potentially 200bp+)",
+    "Geopolitical fiscal ratchet contribution",
+    "International demand dynamics (BOJ normalization, sanctions architecture)"
+  ],
+  "current_assessment": "Mechanism validated by UK gilt crisis for developed-market sovereigns. US net interest approaching $1T, blended rate ~4.5% approaching nominal GDP ~5.5%. But activation threshold is genuinely unknown: reserve currency premium could provide 200bp+ buffer; blended rate moves slowly (years, not quarters); and the loop requires multiple conditions to simultaneously hold (conjunction fallacy risk). Range of informed opinion spans 'quarters' to 'decades.'",
+  "limitations": [
+    "US-specific threshold genuinely unknown",
+    "Reserve currency premium is real but unquantifiable",
+    "Conjunction fallacy: requires multiple conditions to simultaneously hold",
+    "Japan counterexample shows central bank can override for decades",
+    "Blended rate moves slowly enough that the timeline is multi-year at minimum"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

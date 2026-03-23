@@ -1,0 +1,649 @@
+[
+  {
+    "slug": "term_premium_decomposition",
+    "definition": "The analytical separation of yield curve movements into expectations-driven and term-premium-driven components. Raw 2s10s spread is insufficient and often misleading; decomposition is required to correctly interpret the curve's economic signal.",
+    "confidence": 9,
+    "evidence": [
+      "2019 expectations-driven inversion (low MOVE) correctly signaled slowdown; 2022-23 term-premium-contaminated inversion (high MOVE) did not produce recession on historical schedule",
+      "Equity markets rallied 25%+ through the 2022-23 inversion, inconsistent with genuine recession signal",
+      "CLO issuance dropped 35% YoY in 2022 when term premium dynamics shifted—curve shape alone did not predict this",
+      "Vayanos-Vila (2021) provides theoretical grounding for the decomposition framework"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "challenger_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Can term premium be measured with sufficient real-time precision to be actionable given 30-50bp model divergence?",
+      "Is there a model-free or semi-parametric estimator using TIPS breakevens, swaption vols, and survey data to cross-check ACM/KW?"
+    ],
+    "related_concepts": [
+      "acm_kim_wright_model_divergence",
+      "bad_steepening",
+      "basis_trade_dual_distortion",
+      "move_index_signal_diagnostic",
+      "supply_driven_term_premium_impact"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "acm_kim_wright_model_divergence",
+    "definition": "ACM and Kim-Wright term premium models diverge by 30-50bp on estimates of 50-100bp, creating signal-to-noise ratios approaching 1:1. This operationally significant uncertainty propagates through all downstream yield curve analysis.",
+    "confidence": 9,
+    "evidence": [
+      "Arithmetic on published model outputs: 30-50bp divergence on 50-80bp signal",
+      "The 30-50bp divergence maps to the difference between interest coverage of 1.5x (survivable) and 1.2x (distressed) for sub-IG refinancing",
+      "All four debates reinforced this finding without challenge"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_01",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Can ensemble methods or model-averaging reduce the divergence to operationally acceptable levels?",
+      "How should downstream analysis propagate the ±30-50bp irreducible uncertainty range?"
+    ],
+    "related_concepts": [
+      "term_premium_decomposition",
+      "r_star_estimation_uncertainty",
+      "fiscal_term_premium_feedback_loop"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "r_star_estimation_uncertainty",
+    "definition": "The neutral real policy rate (r-star) is indeterminate, with combined 90% confidence intervals spanning approximately 480bp (-0.3% to 3.8%) across Laubach-Williams, Holston-Laubach-Williams, and Lubik-Matthes models. This propagates fundamental uncertainty into whether policy is restrictive, neutral, or accommodative within ±150bp.",
+    "confidence": 9,
+    "evidence": [
+      "Laubach-Williams r*=1.18%, Holston-Laubach-Williams r*=1.66%, Lubik-Matthes r*=2.28%",
+      "Combined 90% CIs span approximately -0.3% to 3.8%",
+      "Verifiable from published model outputs",
+      "pair_2 debate called it 'the single strongest standalone claim in either analysis'"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Can the range of r-star estimates be narrowed through additional model constraints or data sources?",
+      "How should policymakers and investors operate when the neutral rate is fundamentally unidentifiable?"
+    ],
+    "related_concepts": [
+      "term_premium_decomposition",
+      "yield_curve_recession_prediction_weakness",
+      "acm_kim_wright_model_divergence"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "bad_steepening",
+    "definition": "Current yield curve steepening is primarily term-premium-driven (back end rising on supply/fiscal pressure) rather than growth-expectations-driven (front end falling on rate cut expectations). This 'bad steepening' carries qualitatively different implications for credit and equity markets than 'good steepening.'",
+    "confidence": 8,
+    "evidence": [
+      "ACM term premium swung from -50bp (2020) to +50-100bp (early 2026)",
+      "$2T+ annual Treasury issuance creates persistent supply pressure with no corresponding acceleration in potential output growth",
+      "Breakevens range-bound at 2.2-2.5%, not rising with real yields as good steepening would imply",
+      "2023 Q3 episode: 10Y rose 90bp driven by term premium, S&P fell ~10% with no material earnings decline—pure discount rate event"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "generalist_02",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How long can bad steepening persist before triggering recession or policy response?",
+      "What observable conditions would mark a transition from bad to good steepening?",
+      "Does the steepening trap pattern apply when the mechanism is bear-steepening rather than bull-steepening?"
+    ],
+    "related_concepts": [
+      "term_premium_decomposition",
+      "fiscal_issuance_term_premium",
+      "supply_driven_term_premium_impact",
+      "steepening_trap",
+      "erp_correlation_regime_inconsistency"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "yield_curve_recession_prediction_weakness",
+    "definition": "The yield curve's recession-prediction record is substantially weaker than the canonical '7/7' claim implies. After Bayesian adjustment for variable lead times (6-24 months), false positives (1966, 1998, 2022-23), and a 25-30% base rate of recession in any 24-month window, the marginal lift is approximately 1.5-2x base rate, not near-certainty.",
+    "confidence": 8,
+    "evidence": [
+      "2022-23 inversion (-108bp, deepest since early 1980s) has not produced recession as of March 2026",
+      "At least 2-3 false positives depending on classification criteria",
+      "25-30% base rate of recession in any 24-month window shrinks marginal predictive lift",
+      "pair_2 debate explicitly refuted 'record remains intact' framing as self-contradictory",
+      "pair_3 debate agreed challenger_02 'is clearly stronger' on this point"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What is the actual marginal predictive lift after proper Bayesian adjustment with current data?",
+      "Should the framework incorporate global curve synchronization as independent information?",
+      "Does the signal retain more value when conditioned on expectations-driven (not term-premium-driven) inversions?"
+    ],
+    "related_concepts": [
+      "r_star_estimation_uncertainty",
+      "private_credit_signal_degradation",
+      "post_qe_signal_degradation",
+      "steepening_trap",
+      "move_index_signal_diagnostic"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "basis_trade_dual_distortion",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) simultaneously suppresses measured term premium by 20-40bp in calm markets (acting as synthetic QE) and amplifies term premium spikes during stress events, creating a dual distortion of yield curve dynamics.",
+    "confidence": 7,
+    "evidence": [
+      "March 2020 validation: Treasury dysfunction → repo spike → credit freeze, requiring $1.6T in emergency Fed purchases",
+      "Current scale exceeds March 2020 levels",
+      "pair_2 debate synthesized the dual nature: suppression in calm + amplification in stress is more informative than either alone"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the current scale after post-2020 regulatory changes?",
+      "What is the precise calm-state suppression magnitude (estimates range 10-60bp)?",
+      "How do cross-margining arrangements affect the deleveraging dynamics?"
+    ],
+    "related_concepts": [
+      "term_premium_decomposition",
+      "post_qe_signal_degradation",
+      "sec_clearing_mandate_catalyst",
+      "fiscal_issuance_term_premium"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "fiscal_issuance_term_premium",
+    "definition": "$2T+ annual Treasury issuance is a significant contributor to term premium rebuilding, but this effect is conditional on central bank non-intervention. When central banks absorb issuance (as BOJ did for decades, Fed during QE), fiscal supply can coexist with compressed term premium.",
+    "confidence": 7,
+    "evidence": [
+      "Direction broadly agreed across 7 agents",
+      "Japan counterexample: debt/GDP from 60% to 260% with compressed term premium because BOJ absorbed issuance",
+      "US 2020-21: $3T+ deficits with deeply negative term premium under QE",
+      "Current regime: Fed actively shedding duration (QT), making supply pressure operative"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "risk_analyst_02",
+      "equity_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Under what conditions would QE return and override fiscal supply effects?",
+      "How much of current term premium is attributable to fiscal supply specifically versus other factors?",
+      "Is the central bank reaction function itself endogenous to fiscal dynamics?"
+    ],
+    "related_concepts": [
+      "bad_steepening",
+      "fiscal_term_premium_feedback_loop",
+      "boj_normalization_ust_demand_shock",
+      "geopolitical_correlation_ratchet"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "steepening_trap",
+    "definition": "The historical pattern where recessions begin after the Fed has started cutting rates because transmission lags mean economic damage was already embedded during the inversion phase. Observed in 5/7 historical episodes, but all precedents involved bull-steepening (front end falling), not the current bear-steepening regime.",
+    "confidence": 6,
+    "evidence": [
+      "5/7 historical easing cycles show recession beginning after steepening commenced",
+      "Economic logic is genuine: Fed cutting often means damage already baked in during inversion",
+      "generalist_02 provides quantified steepening trade payoff data across 7 cycles"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "generalist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Does the steepening trap apply to bear-steepening regimes—no empirical test exists?",
+      "What specific, falsifiable criteria (2s10s level, decomposition, time horizon) define a steepening trap prediction?",
+      "Is the concept unfalsifiable as currently specified given the wide window that can be retroactively fitted?"
+    ],
+    "related_concepts": [
+      "bad_steepening",
+      "yield_curve_recession_prediction_weakness",
+      "clo_arbitrage_nonlinear_transmission"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "boj_normalization_ust_demand_shock",
+    "definition": "BOJ policy normalization represents a material demand-side shock to US Treasuries as narrowing Fed-BOJ spreads reduce carry incentives for Japan's ~$1.1T in UST holdings. The mechanism is clear but magnitude and timing depend on hedging costs, ALM constraints, regulatory guidance, and offsetting flows.",
+    "confidence": 5,
+    "evidence": [
+      "Japan holds ~$1.1T in USTs",
+      "Each 25bp BOJ hike narrows Fed-BOJ spread, reducing carry incentive",
+      "Japanese institutions have shown remarkable stickiness despite narrowing spreads",
+      "2014-16 counterexample: China's $1T reserve drawdown was offset by European/Japanese flows"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "risk_analyst_02",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How sticky are Japanese institutional UST holdings under sustained BOJ normalization?",
+      "What offsetting flows from other regions might emerge?",
+      "Does the reflexive loop (repatriation → steepening → FX losses → accelerated selling) activate?"
+    ],
+    "related_concepts": [
+      "fiscal_issuance_term_premium",
+      "two_tier_global_yield_curve",
+      "bad_steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "Stock-bond correlations have bifurcated by maturity: 2Y-SPX exhibits negative correlation (cyclically responsive, useful equity hedge) while 30Y-SPX exhibits positive correlation (reflecting fiscal supply dynamics, acts as correlated risk factor). This has actionable portfolio construction implications.",
+    "confidence": 7,
+    "evidence": [
+      "pair_0 debate called this generalist_01's 'most distinctive contribution'",
+      "Front end approximates expected policy rate (cyclically responsive); back end reflects fiscal supply (structurally insensitive to business cycle)",
+      "KB reports 6 iterations of convergent research from 8 agents",
+      "Prescription: bifurcate curve exposure, 2-5Y for equity hedge, 10-30Y as separate correlated risk factor"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "How stable is the bifurcation across regime transitions?",
+      "Could policy intervention cause the bifurcation to collapse within the 3-14 month precedent window?",
+      "Where exactly does the transitional zone (50-100bp term premium) lie on the maturity spectrum?"
+    ],
+    "related_concepts": [
+      "bad_steepening",
+      "erp_correlation_regime_inconsistency",
+      "supply_driven_term_premium_impact"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "fiscal_term_premium_feedback_loop",
+    "definition": "A mechanistically sound but threshold-uncertain feedback loop where rising term premium increases government interest costs (~$1T FY2025/26 at blended ~4.5%), requiring additional issuance, which further pressures term premium. The US-specific activation threshold is genuinely unknown; the reserve currency premium could provide 200bp+ of buffer.",
+    "confidence": 5,
+    "evidence": [
+      "Net interest ~$1T with blended rate approaching nominal GDP growth (~5.5%)",
+      "~16% annual repricing given 6.2yr average maturity",
+      "UK gilt crisis validates mechanism for developed-market sovereigns",
+      "r-g gap (~1pp) provides limited but not negligible buffer"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "What is the US-specific activation threshold given reserve currency status?",
+      "How large is the reserve currency premium buffer (could be 200bp+ or smaller)?",
+      "Does the slow blended-rate adjustment (only ~16bp/year from 100bp shock) make this a multi-year or multi-quarter risk?",
+      "What is the empirical relationship between debt/GDP, term premium, r-g gap, and crisis onset for varying degrees of monetary sovereignty?"
+    ],
+    "related_concepts": [
+      "fiscal_issuance_term_premium",
+      "r_star_estimation_uncertainty",
+      "acm_kim_wright_model_divergence",
+      "bad_steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "clo_arbitrage_nonlinear_transmission",
+    "definition": "CLOs purchase 65-70% of institutional leveraged loans. At SOFR ~4.3-4.5%, CLO equity tranches are in a marginal-viability zone where 50bp moves produce binary outcomes—functional at ~3.5%, dead at ~5.5%. This creates a critical nonlinear transmission channel from yield curve dynamics to real credit supply.",
+    "confidence": 7,
+    "evidence": [
+      "CLOs purchase 65-70% of institutional leveraged loans",
+      "2022 episode: CLO issuance down 35% YoY validates the mechanism",
+      "Knife-edge sensitivity at current SOFR levels is structural and well-established",
+      "pair_1 debate endorsed nonlinearity as 'genuinely important'"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How do CLO credit supply and equity discount rate channels interact when they send conflicting signals?",
+      "What SOFR level represents the precise binary threshold in the current vintage mix?",
+      "How does the CLO reinvestment expiration cliff ($250-350B) amplify or modify this channel?"
+    ],
+    "related_concepts": [
+      "steepening_trap",
+      "private_credit_signal_degradation",
+      "clo_reinvestment_expiration_cliff",
+      "supply_driven_term_premium_impact",
+      "bad_steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "move_index_signal_diagnostic",
+    "definition": "The MOVE index serves as a useful but theoretically impure diagnostic for yield curve signal quality. MOVE <80 has historically corresponded to correct curve signals, MOVE >120 to false signals. The 2019 vs 2022-23 comparison provides a near-perfect natural experiment, but the framework may be partially circular since MOVE and term premium share yield curve inputs.",
+    "confidence": 6,
+    "evidence": [
+      "2019 (MOVE <80) correct signal vs 2022-23 (MOVE >120) false signal—near-perfect natural experiment",
+      "pair_2 debate called this the 'strongest empirical contribution'",
+      "Current MOVE (~95-110) falls in diagnostically ambiguous middle zone"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_02",
+      "risk_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is the MOVE framework circular with term premium measurement?",
+      "Can survey-based inflation expectations or Blue Chip GDP forecasts provide a better independent diagnostic?",
+      "Are the thresholds (<80/80-120/>120) overfitted given derivation from essentially 5 observations?"
+    ],
+    "related_concepts": [
+      "term_premium_decomposition",
+      "yield_curve_recession_prediction_weakness"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "private_credit_signal_degradation",
+    "definition": "Private credit ($1.7T) degrades the yield curve's real-time signaling power for aggregate credit conditions. NAV smoothing with autocorrelation 0.5-0.7 creates 12-18 month delays in stress recognition. PIK toggle usage rising from 2% to 5-8%. These borrowers exist outside public indices, default statistics, and financial conditions indices.",
+    "confidence": 6,
+    "evidence": [
+      "NAV smoothing autocorrelation 0.5-0.7 creates 12-18 month delay in stress recognition",
+      "PIK toggle usage rising from 2% to 5-8% as early stress indicator",
+      "pair_1 debate called this 'genuinely novel'",
+      "No agent or debate refuted this claim"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What percentage of sub-IG credit origination has migrated to private channels (estimates range 15-30%)?",
+      "How will NAV smoothing behave through a full credit cycle at current private credit scale?",
+      "Can alternative data sources provide real-time visibility into private credit stress?"
+    ],
+    "related_concepts": [
+      "yield_curve_recession_prediction_weakness",
+      "clo_arbitrage_nonlinear_transmission"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "supply_driven_term_premium_impact",
+    "definition": "Supply-driven term premium increases are qualitatively worse for both credit and equity markets than expectations-driven rate increases. Supply-driven rises raise discount rates without reflecting improved growth prospects, producing pure valuation compression. Confirmed across 2013 Taper Tantrum, 2018 Q4, and 2023 Q3 episodes.",
+    "confidence": 8,
+    "evidence": [
+      "Three confirming episodes (2013, 2018 Q4, 2023 Q3) showed S&P declines with minimal earnings deterioration",
+      "Credit-specific: supply-driven term premium raises CLO AAA yields 1:1 without improving borrower cash flows",
+      "pair_1 debate confirmed as 'one of the highest-confidence shared findings'",
+      "Convergent across 4 independent agents"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "equity_analyst_01",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Can supply-driven episodes be identified in real-time with sufficient lead time to be actionable?",
+      "How does the 30-50bp decomposition uncertainty affect identification of supply-driven moves?",
+      "Is the small sample of clean supply-driven episodes sufficient for robust inference?"
+    ],
+    "related_concepts": [
+      "bad_steepening",
+      "erp_correlation_regime_inconsistency",
+      "clo_arbitrage_nonlinear_transmission",
+      "maturity_dependent_correlation_bifurcation",
+      "term_premium_decomposition"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "erp_correlation_regime_inconsistency",
+    "definition": "The equity risk premium at 2.5-3.0% (cap-weighted) is inconsistent with the positive stock-bond correlation regime that term premium rebuilding is producing. Sub-3% ERP was justified by negative stock-bond correlation, low inflation, and a central bank put—all three have deteriorated. Fair P/E may need to drop from ~21x to ~17-18x if ERP re-rates to 3.5-4.0%.",
+    "confidence": 6,
+    "evidence": [
+      "Gordon Growth Model sensitivity implies fair P/E drops from ~21x to ~17-18x on 50-100bp ERP re-rating",
+      "200bp cap-weighted vs equal-weighted ERP gap is the largest since 1999-2000",
+      "All three justifications for sub-3% ERP have deteriorated"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the positive stock-bond correlation regime permanent or could it revert if inflation returns below 2%?",
+      "Could AI productivity gains justify structurally lower ERP despite regime change?",
+      "How long can markets sustain 'inconsistent' pricing before correction?"
+    ],
+    "related_concepts": [
+      "bad_steepening",
+      "supply_driven_term_premium_impact",
+      "maturity_dependent_correlation_bifurcation"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "post_qe_signal_degradation",
+    "definition": "Yield curve signal quality degraded by QE takes 3-5 years to normalize after QE ends (the stock effect). Cross-central-bank evidence from Fed (2014-18), BOJ (2006-07, 2022-24), and ECB (2019) shows consistent 3-5 year normalization lags. Estimated residual distortion for 2026 is 40-80bp but imprecise.",
+    "confidence": 5,
+    "evidence": [
+      "Fed QE exit: ~4-5 years to term premium normalization (2014-18)",
+      "BOJ: >2 years, still incomplete across two episodes",
+      "ECB: >3 years after 2019 exit",
+      "Cross-central-bank consistency strengthens the finding"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the precise residual QE distortion in early 2026?",
+      "Does the basis trade's synthetic QE effect extend the normalization timeline?",
+      "Is the 3-5 year estimate stable across different QE magnitudes and durations?"
+    ],
+    "related_concepts": [
+      "yield_curve_recession_prediction_weakness",
+      "basis_trade_dual_distortion",
+      "term_premium_decomposition"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "sec_clearing_mandate_catalyst",
+    "definition": "The SEC Treasury clearing mandate (Q2 2026) is a calendar-identifiable catalyst for basis trade deleveraging. Central clearing increases margin requirements, compressing leverage capacity, and the timing coincides with Q2 quarter-end repo stress.",
+    "confidence": 5,
+    "evidence": [
+      "Central clearing increases margin requirements, directly compressing leverage capacity",
+      "Timing coincides with Q2 quarter-end repo stress",
+      "pair_2 debate called this 'the single most actionable near-term risk'",
+      "macro_strategist_01 'completely misses this despite extensive basis trade analysis'"
+    ],
+    "originating_agents": [
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Will phase-in be gradual enough to avoid dislocation?",
+      "How much do cross-margining offsets reduce the effective margin increase?",
+      "Does post-2008 derivatives clearing precedent translate to Treasury markets?"
+    ],
+    "related_concepts": [
+      "basis_trade_dual_distortion",
+      "bad_steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "geopolitical_correlation_ratchet",
+    "definition": "Geopolitical escalation creates permanent sunk fiscal costs (defense industrial base, supply chain duplication) that persist after crises subside, ratcheting the term premium floor higher over time. Post-Ukraine European defense budgets are the observable example.",
+    "confidence": 4,
+    "evidence": [
+      "Post-Ukraine European defense budget increases are observable and appear sticky",
+      "Escalation creates permanent sunk costs that persist after crises subside",
+      "pair_3 debate called this 'genuinely novel and useful'"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "What is the ratchet's magnitude versus other term premium drivers?",
+      "Can the ratchet unwind over generational timescales (as Cold War peace dividend suggests)?",
+      "How does this interact with the fiscal doom loop threshold?"
+    ],
+    "related_concepts": [
+      "fiscal_issuance_term_premium",
+      "fiscal_term_premium_feedback_loop",
+      "two_tier_global_yield_curve"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "two_tier_global_yield_curve",
+    "definition": "An emerging bifurcation of global yield curves along the sanctions perimeter: allied-bloc and non-aligned-bloc curves cannot converge due to sanctions, capital controls, and compliance costs. The US-China 10Y spread (~220bp) is not arbitrageable for most institutions.",
+    "confidence": 4,
+    "evidence": [
+      "US-China 10Y spread (~220bp) is not arbitrageable for most institutions due to sanctions/compliance",
+      "Sanctions and capital controls create friction preventing cross-perimeter yield convergence",
+      "Novel structural observation not addressed by other agents"
+    ],
+    "originating_agents": [
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Is this a transitional phase or a permanent regime change?",
+      "How does the two-tier structure affect global capital flows and reserve currency dynamics?",
+      "What is the welfare cost of the arbitrage barrier?"
+    ],
+    "related_concepts": [
+      "boj_normalization_ust_demand_shock",
+      "geopolitical_correlation_ratchet",
+      "fiscal_issuance_term_premium"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "clo_reinvestment_expiration_cliff",
+    "definition": "$250-350B in CLO reinvestment periods are expiring, creating an asymmetric response to steepening. Post-reinvestment CLOs cannot benefit from wider spreads and instead suffer rising defaults on legacy portfolios—a structural variable absent from standard macro frameworks.",
+    "confidence": 5,
+    "evidence": [
+      "pair_1 debate called this genuinely novel: 'a structural variable that doesn't appear in any standard macro framework'",
+      "This scale of simultaneous expiration is untested",
+      "Post-reinvestment CLOs have asymmetric exposure: cannot benefit from spread widening, only harmed by defaults"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How does simultaneous large-scale expiration interact with the CLO arbitrage viability threshold?",
+      "What is the precise timeline and magnitude of expirations?",
+      "Are there secondary market mechanisms that could absorb the asymmetric exposure?"
+    ],
+    "related_concepts": [
+      "clo_arbitrage_nonlinear_transmission",
+      "steepening_trap",
+      "bad_steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "asymmetric_forward_guidance_attenuation",
+    "definition": "Under positive stock-bond correlation, dovish forward guidance loses potency because bond rally + equity rally partially self-cancel in wealth effects, while hawkish guidance produces self-reinforcing bond selloff + equity selloff. The direction is sound but the specific '50% attenuation' quantification is ungrounded.",
+    "confidence": 4,
+    "evidence": [
+      "Directional logic: under positive correlation, dovish guidance effects partially self-cancel while hawkish effects reinforce",
+      "pair_2 debate endorsed direction but refuted '50%' precision as having 'limited formal empirical testing'"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Can the asymmetry be formally tested with sufficient statistical power?",
+      "How does this interact with forward guidance credibility and central bank communication strategy?",
+      "What is the actual attenuation magnitude if not 50%?"
+    ],
+    "related_concepts": [
+      "erp_correlation_regime_inconsistency",
+      "maturity_dependent_correlation_bifurcation",
+      "r_star_estimation_uncertainty"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "synchronized_global_curve_inversions",
+    "definition": "The 2022-24 period featured synchronized global yield curve inversions across major economies. Prior synchronized inversions (1980-81, 2000, 2006-07) all preceded global recessions, suggesting international inversions may carry independent recession-signaling information.",
+    "confidence": 4,
+    "evidence": [
+      "Prior synchronized inversions (1980-81, 2000, 2006-07) all preceded global recessions",
+      "2022-24 featured synchronized global inversions",
+      "pair_0 flagged as novel observation not incorporated into any agent's main analysis"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Do international inversions carry statistically independent information beyond domestic curves?",
+      "Does synchronization reflect common shocks (reducing independent information) or convergent independent signals?",
+      "How should global curve breadth be incorporated into recession probability models?"
+    ],
+    "related_concepts": [
+      "yield_curve_recession_prediction_weakness",
+      "boj_normalization_ust_demand_shock"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  }
+]

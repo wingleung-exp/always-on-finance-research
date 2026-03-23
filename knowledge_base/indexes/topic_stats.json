@@ -1518,7 +1518,7 @@
     "top_concepts": [
       {
         "slug": "r_star_estimation_uncertainty",
-        "confidence": 9,
+        "confidence": 9.0,
         "definition": "R* estimation uncertainty spans ~480bp in combined 90% CIs across three leading models (Laubach-Williams, Holston-Laubach-Williams, Lubik-Matthes), ex"
       },
       {
@@ -2010,7 +2010,7 @@
       },
       {
         "slug": "maturity_dependent_correlation_bifurcation",
-        "confidence": 7.83,
+        "confidence": 7.71,
         "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
       },
       {
@@ -2056,5 +2056,83 @@
       "yield_curve_vol_regime_dependence"
     ],
     "avg_confidence": 7.0
+  },
+  "yield_curve_dynamics": {
+    "concept_count": 18,
+    "relationship_count": 19,
+    "framework_count": 6,
+    "top_concepts": [
+      {
+        "slug": "acm_kim_wright_model_divergence",
+        "confidence": 9,
+        "definition": "ACM and Kim-Wright term premium models diverge by 30-50bp on estimates of 50-100bp, creating signal-to-noise ratios approaching 1:1. This operationall"
+      },
+      {
+        "slug": "term_premium_decomposition",
+        "confidence": 9,
+        "definition": "The analytical separation of yield curve movements into expectations-driven and term-premium-driven components. Raw 2s10s spread is insufficient and o"
+      },
+      {
+        "slug": "bad_steepening",
+        "confidence": 8,
+        "definition": "Current yield curve steepening is primarily term-premium-driven (back end rising on supply/fiscal pressure) rather than growth-expectations-driven (fr"
+      },
+      {
+        "slug": "supply_driven_term_premium_impact",
+        "confidence": 8,
+        "definition": "Supply-driven term premium increases are qualitatively worse for both credit and equity markets than expectations-driven rate increases. Supply-driven"
+      },
+      {
+        "slug": "yield_curve_recession_prediction_weakness",
+        "confidence": 8,
+        "definition": "The yield curve's recession-prediction record is substantially weaker than the canonical '7/7' claim implies. After Bayesian adjustment for variable l"
+      },
+      {
+        "slug": "basis_trade_dual_distortion",
+        "confidence": 7,
+        "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) simultaneously suppresses measured term premium by 20-40bp in calm markets (acting as synthet"
+      },
+      {
+        "slug": "clo_arbitrage_nonlinear_transmission",
+        "confidence": 7,
+        "definition": "CLOs purchase 65-70% of institutional leveraged loans. At SOFR ~4.3-4.5%, CLO equity tranches are in a marginal-viability zone where 50bp moves produc"
+      },
+      {
+        "slug": "fiscal_issuance_term_premium",
+        "confidence": 7,
+        "definition": "$2T+ annual Treasury issuance is a significant contributor to term premium rebuilding, but this effect is conditional on central bank non-intervention"
+      },
+      {
+        "slug": "erp_correlation_regime_inconsistency",
+        "confidence": 6,
+        "definition": "The equity risk premium at 2.5-3.0% (cap-weighted) is inconsistent with the positive stock-bond correlation regime that term premium rebuilding is pro"
+      },
+      {
+        "slug": "move_index_signal_diagnostic",
+        "confidence": 6,
+        "definition": "The MOVE index serves as a useful but theoretically impure diagnostic for yield curve signal quality. MOVE <80 has historically corresponded to correc"
+      }
+    ],
+    "all_concept_slugs": [
+      "acm_kim_wright_model_divergence",
+      "asymmetric_forward_guidance_attenuation",
+      "bad_steepening",
+      "basis_trade_dual_distortion",
+      "boj_normalization_ust_demand_shock",
+      "clo_arbitrage_nonlinear_transmission",
+      "clo_reinvestment_expiration_cliff",
+      "erp_correlation_regime_inconsistency",
+      "fiscal_issuance_term_premium",
+      "fiscal_term_premium_feedback_loop",
+      "move_index_signal_diagnostic",
+      "post_qe_signal_degradation",
+      "private_credit_signal_degradation",
+      "supply_driven_term_premium_impact",
+      "synchronized_global_curve_inversions",
+      "term_premium_decomposition",
+      "two_tier_global_yield_curve",
+      "yield_curve_recession_prediction_weakness"
+    ],
+    "avg_confidence": 6.3
   }
 }

@@ -2831,5 +2831,87 @@
     ],
     "topic": "real_estate_cycles",
     "iteration_id": "iter_0030"
+  },
+  {
+    "claim": "7/7 recession prediction record as a meaningful, high-precision statistic",
+    "reason": "Survivorship bias (which tenor pair, which threshold counts), flexible dating, suppressed false positives (1966, 1998, 2022-23), and 25-30% base rate of recession in any 24-month window. Bayesian lift is ~1.5-2x base rate, not near-certainty. Attempting to maintain '7/7 remains intact' while arguing the 2022-23 signal was 'contaminated' is self-contradictory.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Geopolitical fiscal lock-in is the dominant structural driver of term premium rebuilding, exceeding QT and inflation uncertainty",
+    "reason": "No empirical decomposition supports the ranking ('dominant,' 'exceeding'). Agent's own open question concedes the decomposition hasn't been done. Japan's decades of massive issuance with compressed term premium is a devastating counterexample. Survives only as 'plausible contributor, direction likely correct, magnitude and dominance undemonstrated.'",
+    "refuted_by": [
+      "challenger_02",
+      "risk_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Inversion duration correlates positively with recession severity (r=0.65, n=7)",
+    "reason": "95% CI for r with n=7 spans approximately -0.15 to +0.95, rendering it statistically meaningless. Sample includes the incomplete 2022-24 episode. This is noise presented as a finding.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Signal accuracy drops from 7/7 to 5/7 when term premium distortions exceed 75bp",
+    "reason": "The 75bp threshold is calibrated from n=2 episodes (1966 and 2022-24). Cannot estimate a threshold from two observations. The direction is plausible but the specific threshold and accuracy figure are artifacts.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Monetary transmission operates at 55-65% of historical effectiveness",
+    "reason": "No established methodology for measuring aggregate transmission effectiveness to single-digit precision. The mortgage lock-in effect and AI wealth effects are real channels, but bundling them into '55-65%' implies a weighted-average calculation that was never performed. Survives as: 'transmission is materially impaired through at least two major channels, with uncertain aggregate net effect.'",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Super-additive (convex) duration absorption: each price-insensitive buyer's departure increases required risk premium convexly",
+    "reason": "Asserting convexity requires showing the second derivative of term premium with respect to buyer withdrawal is positive. Evidence (auction tails) is consistent with both linear and convex demand functions. The 'super-additive' label overstates what evidence supports. Survives as: 'the demand function has likely shifted, requiring higher term premium to clear supply.'",
+    "refuted_by": [
+      "macro_strategist_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Yield curve shape is the single best predictor of private credit fundraising and deployment pace",
+    "reason": "The agent's own analysis acknowledges LP allocation targets and J-curve effects 'may override yield curve signals for 12-24 months.' A predictor that can be overridden for 12-24 months cannot simultaneously be 'the single best.' Survives as: 'an important input to private credit attractiveness, particularly at extremes.'",
+    "refuted_by": [
+      "credit_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "Equity duration sensitivity math: 75bp x 15yr duration = ~11% fair value decline for mega-caps",
+    "reason": "Equity duration is a conceptual analogy, not a precise mathematical identity. Stock prices respond to earnings growth, buybacks, competitive dynamics, and sentiment, all of which can offset or amplify the discount rate effect. The 2023 Q3 episode showed ~10% total S&P decline, not the mechanically implied figure. Directional point survives; specific numbers do not.",
+    "refuted_by": [
+      "equity_analyst_01"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "claim": "US election cycles create systematic, predictable yield curve distortions",
+    "reason": "Evidence shows yield curve reactions to election outcomes, not predictable pre-election patterns. A 2016-style 85bp move requires knowing the election outcome in advance. 'Election outcomes affect the curve' is trivially true; 'predictable distortions' is not supported.",
+    "refuted_by": [
+      "risk_analyst_02"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
   }
 ]

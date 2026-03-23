@@ -1,0 +1,33 @@
+{
+  "slug": "move_index_signal_diagnostic",
+  "definition": "The MOVE index serves as a useful but theoretically impure diagnostic for yield curve signal quality. MOVE <80 has historically corresponded to correct curve signals, MOVE >120 to false signals. The 2019 vs 2022-23 comparison provides a near-perfect natural experiment, but the framework may be partially circular since MOVE and term premium share yield curve inputs.",
+  "confidence": 6,
+  "evidence": [
+    "2019 (MOVE <80) correct signal vs 2022-23 (MOVE >120) false signal—near-perfect natural experiment",
+    "pair_2 debate called this the 'strongest empirical contribution'",
+    "Current MOVE (~95-110) falls in diagnostically ambiguous middle zone"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_02",
+    "risk_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is the MOVE framework circular with term premium measurement?",
+    "Can survey-based inflation expectations or Blue Chip GDP forecasts provide a better independent diagnostic?",
+    "Are the thresholds (<80/80-120/>120) overfitted given derivation from essentially 5 observations?"
+  ],
+  "related_concepts": [
+    "term_premium_decomposition",
+    "yield_curve_recession_prediction_weakness"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

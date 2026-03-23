@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "good_bad_steepening_decomposition",
+    "purpose": "Determines whether yield curve steepening reflects improving growth expectations (good, front end falling) or deteriorating fiscal/supply dynamics (bad, back end rising), with qualitatively different implications for asset allocation",
+    "components": [
+      "Term premium decomposition via ACM/Kim-Wright models",
+      "Breakeven inflation behavior (rising = growth-driven, flat = supply-driven)",
+      "MOVE index regime classification (<80/80-120/>120)",
+      "Real yield vs nominal yield decomposition",
+      "Equity market response (rallying = good, falling = bad)"
+    ],
+    "current_assessment": "Current steepening is predominantly bad (term-premium-driven). ACM term premium +50 to +100bp, breakevens range-bound at 2.2-2.5%, 2023 Q3 provides clean template. Confidence 8/10 with 1-point deduction each for model dependence and partial circularity.",
+    "limitations": [
+      "Model-dependent: relies on term premium estimates with 30-50bp irreducible uncertainty",
+      "Good/bad classification is itself partially model-dependent",
+      "Historical precedents for bad steepening are limited (2013, 2018 Q4, 2023 Q3)",
+      "Current MOVE in ambiguous middle zone (~95-110) limits diagnostic value",
+      "Cannot distinguish transient from structural bad steepening"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "bayesian_recession_signaling",
+    "purpose": "Provides a properly calibrated assessment of the yield curve's recession-predictive value, replacing the misleading '7/7' framing with Bayesian posterior probabilities",
+    "components": [
+      "Base rate of recession in any 24-month window (25-30%)",
+      "Prior yield curve inversions as evidence (including false positives: 1966, 1998, 2022-23)",
+      "Variable lead time distribution (6-24 months)",
+      "Term premium conditioning to separate expectations-driven from contaminated signals",
+      "MOVE-based signal quality diagnostic"
+    ],
+    "current_assessment": "Marginal predictive lift is approximately 1.5-2x base rate after proper Bayesian adjustment. The 2022-23 deep inversion (-108bp) without recession (as of March 2026) has either broken the record (7/8) or implies an operationally useless 3+ year lead time. Signal retains value but is far from near-certainty.",
+    "limitations": [
+      "Small sample size constrains all threshold estimates",
+      "MOVE conditioning thresholds derived from ~5 observations, likely overfitted",
+      "Cannot distinguish between 'false positive' and 'very long lead time'",
+      "Term premium conditioning adds model uncertainty",
+      "Does not incorporate global curve synchronization"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "clo_credit_transmission_channel",
+    "purpose": "Maps the nonlinear transmission mechanism from yield curve/SOFR dynamics to real credit supply through the CLO arbitrage viability threshold",
+    "components": [
+      "SOFR level relative to CLO equity tranche hurdle rate",
+      "CLO AAA spreads and liability costs",
+      "Reinvestment period status (active vs expired)",
+      "OC test headroom and CCC bucket concentration",
+      "PIK toggle usage as early stress indicator",
+      "Private credit substitution and NAV smoothing dynamics"
+    ],
+    "current_assessment": "SOFR at ~4.3-4.5% places CLO arbitrage in a marginal-viability zone. The channel is the most mechanically direct link from rates to credit supply, with 50bp moves producing binary outcomes. $250-350B in reinvestment expirations create asymmetric stress exposure. Private credit ($1.7T) masks aggregate stress signals with 12-18 month lag.",
+    "limitations": [
+      "Single-agent development (credit_analyst_02)",
+      "Binary threshold precise location depends on individual CLO vintage and structure",
+      "Interaction with equity discount rate channel not modeled",
+      "PIK toggle data may lag actual stress",
+      "Private credit signal degradation untested through full cycle at current scale"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "fiscal_doom_loop_assessment",
+    "purpose": "Evaluates whether the US is approaching the self-reinforcing fiscal spiral where rising term premium → higher interest costs → more issuance → higher term premium",
+    "components": [
+      "Net interest expense relative to nominal GDP growth (r-g gap)",
+      "Average maturity and repricing speed (~16%/year at 6.2yr avg maturity)",
+      "Central bank intervention likelihood (QE return probability)",
+      "Reserve currency premium buffer (potentially 200bp+)",
+      "Geopolitical fiscal ratchet contribution",
+      "International demand dynamics (BOJ normalization, sanctions architecture)"
+    ],
+    "current_assessment": "Mechanism validated by UK gilt crisis for developed-market sovereigns. US net interest approaching $1T, blended rate ~4.5% approaching nominal GDP ~5.5%. But activation threshold is genuinely unknown: reserve currency premium could provide 200bp+ buffer; blended rate moves slowly (years, not quarters); and the loop requires multiple conditions to simultaneously hold (conjunction fallacy risk). Range of informed opinion spans 'quarters' to 'decades.'",
+    "limitations": [
+      "US-specific threshold genuinely unknown",
+      "Reserve currency premium is real but unquantifiable",
+      "Conjunction fallacy: requires multiple conditions to simultaneously hold",
+      "Japan counterexample shows central bank can override for decades",
+      "Blended rate moves slowly enough that the timeline is multi-year at minimum"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "maturity_bifurcation_portfolio_framework",
+    "purpose": "Translates the maturity-dependent correlation bifurcation into actionable portfolio construction: which maturities hedge equities vs which add correlated risk",
+    "components": [
+      "2-5Y as equity hedge (negative stock-bond correlation, cyclically responsive)",
+      "10-30Y as separate correlated risk factor (positive correlation, fiscal supply dynamics)",
+      "Term premium level as regime indicator (transitional zone at 50-100bp)",
+      "MOVE regime for bifurcation stability assessment",
+      "RSP vs SPY as trade expression for term premium shock positioning"
+    ],
+    "current_assessment": "Bifurcation is currently operative and has been confirmed across 6 iterations by 8 agents. Term premium at 50-100bp is in the inherently unstable transitional zone with $15-20T+ in strategies calibrated to the prior negative-correlation regime. Only 3 historical transitions exist with different macro contexts.",
+    "limitations": [
+      "Only 3 historical correlation regime transitions to calibrate from",
+      "Transitional zone (50-100bp term premium) is inherently unstable",
+      "Could resolve via policy intervention within 3-14 months per KB precedents",
+      "Equal-weighted vs cap-weighted ERP gap (200bp) complicates index-level positioning",
+      "Factor rotation prescriptions carry false precision at sector level"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  },
+  {
+    "slug": "term_premium_measurement_framework",
+    "purpose": "Establishes the bounds of what can and cannot be known about the term premium in real-time, and how to propagate uncertainty through downstream analysis",
+    "components": [
+      "ACM model estimate",
+      "Kim-Wright model estimate",
+      "Model divergence range (30-50bp)",
+      "MOVE-based heuristic cross-check",
+      "TIPS breakeven cross-check",
+      "Survey-based expectations as anchor",
+      "Basis trade distortion adjustment (10-60bp range)"
+    ],
+    "current_assessment": "Term premium is estimated at 50-130bp depending on model, with 30-50bp irreducible model divergence. Any claim built on a specific point estimate carries at minimum ±30-50bp uncertainty. The basis trade further distorts readings by 10-60bp. Operationally, analysis should use ranges rather than point estimates and propagate uncertainty to all downstream claims.",
+    "limitations": [
+      "No model-free estimator currently exists",
+      "30-50bp divergence on 50-100bp estimate creates signal-to-noise approaching 1:1",
+      "Basis trade distortion (10-60bp) adds a second layer of measurement uncertainty",
+      "All downstream quantitative claims inherit this uncertainty",
+      "Real-time estimates subject to significant revision"
+    ],
+    "topic": "yield_curve_dynamics",
+    "iteration_id": "iter_0031"
+  }
+]

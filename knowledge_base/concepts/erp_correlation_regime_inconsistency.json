@@ -1,0 +1,32 @@
+{
+  "slug": "erp_correlation_regime_inconsistency",
+  "definition": "The equity risk premium at 2.5-3.0% (cap-weighted) is inconsistent with the positive stock-bond correlation regime that term premium rebuilding is producing. Sub-3% ERP was justified by negative stock-bond correlation, low inflation, and a central bank put—all three have deteriorated. Fair P/E may need to drop from ~21x to ~17-18x if ERP re-rates to 3.5-4.0%.",
+  "confidence": 6,
+  "evidence": [
+    "Gordon Growth Model sensitivity implies fair P/E drops from ~21x to ~17-18x on 50-100bp ERP re-rating",
+    "200bp cap-weighted vs equal-weighted ERP gap is the largest since 1999-2000",
+    "All three justifications for sub-3% ERP have deteriorated"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Is the positive stock-bond correlation regime permanent or could it revert if inflation returns below 2%?",
+    "Could AI productivity gains justify structurally lower ERP despite regime change?",
+    "How long can markets sustain 'inconsistent' pricing before correction?"
+  ],
+  "related_concepts": [
+    "bad_steepening",
+    "supply_driven_term_premium_impact",
+    "maturity_dependent_correlation_bifurcation"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

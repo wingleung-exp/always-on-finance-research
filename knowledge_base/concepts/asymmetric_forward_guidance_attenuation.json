@@ -1,0 +1,30 @@
+{
+  "slug": "asymmetric_forward_guidance_attenuation",
+  "definition": "Under positive stock-bond correlation, dovish forward guidance loses potency because bond rally + equity rally partially self-cancel in wealth effects, while hawkish guidance produces self-reinforcing bond selloff + equity selloff. The direction is sound but the specific '50% attenuation' quantification is ungrounded.",
+  "confidence": 4,
+  "evidence": [
+    "Directional logic: under positive correlation, dovish guidance effects partially self-cancel while hawkish effects reinforce",
+    "pair_2 debate endorsed direction but refuted '50%' precision as having 'limited formal empirical testing'"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Can the asymmetry be formally tested with sufficient statistical power?",
+    "How does this interact with forward guidance credibility and central bank communication strategy?",
+    "What is the actual attenuation magnitude if not 50%?"
+  ],
+  "related_concepts": [
+    "erp_correlation_regime_inconsistency",
+    "maturity_dependent_correlation_bifurcation",
+    "r_star_estimation_uncertainty"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

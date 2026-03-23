@@ -1,0 +1,37 @@
+{
+  "slug": "supply_driven_term_premium_impact",
+  "definition": "Supply-driven term premium increases are qualitatively worse for both credit and equity markets than expectations-driven rate increases. Supply-driven rises raise discount rates without reflecting improved growth prospects, producing pure valuation compression. Confirmed across 2013 Taper Tantrum, 2018 Q4, and 2023 Q3 episodes.",
+  "confidence": 8,
+  "evidence": [
+    "Three confirming episodes (2013, 2018 Q4, 2023 Q3) showed S&P declines with minimal earnings deterioration",
+    "Credit-specific: supply-driven term premium raises CLO AAA yields 1:1 without improving borrower cash flows",
+    "pair_1 debate confirmed as 'one of the highest-confidence shared findings'",
+    "Convergent across 4 independent agents"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "generalist_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Can supply-driven episodes be identified in real-time with sufficient lead time to be actionable?",
+    "How does the 30-50bp decomposition uncertainty affect identification of supply-driven moves?",
+    "Is the small sample of clean supply-driven episodes sufficient for robust inference?"
+  ],
+  "related_concepts": [
+    "bad_steepening",
+    "erp_correlation_regime_inconsistency",
+    "clo_arbitrage_nonlinear_transmission",
+    "maturity_dependent_correlation_bifurcation",
+    "term_premium_decomposition"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

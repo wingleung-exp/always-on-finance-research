@@ -1,0 +1,40 @@
+{
+  "slug": "term_premium_decomposition",
+  "definition": "The analytical separation of yield curve movements into expectations-driven and term-premium-driven components. Raw 2s10s spread is insufficient and often misleading; decomposition is required to correctly interpret the curve's economic signal.",
+  "confidence": 9,
+  "evidence": [
+    "2019 expectations-driven inversion (low MOVE) correctly signaled slowdown; 2022-23 term-premium-contaminated inversion (high MOVE) did not produce recession on historical schedule",
+    "Equity markets rallied 25%+ through the 2022-23 inversion, inconsistent with genuine recession signal",
+    "CLO issuance dropped 35% YoY in 2022 when term premium dynamics shifted—curve shape alone did not predict this",
+    "Vayanos-Vila (2021) provides theoretical grounding for the decomposition framework"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "challenger_02",
+    "risk_analyst_02"
+  ],
+  "open_questions": [
+    "Can term premium be measured with sufficient real-time precision to be actionable given 30-50bp model divergence?",
+    "Is there a model-free or semi-parametric estimator using TIPS breakevens, swaption vols, and survey data to cross-check ACM/KW?"
+  ],
+  "related_concepts": [
+    "acm_kim_wright_model_divergence",
+    "bad_steepening",
+    "basis_trade_dual_distortion",
+    "move_index_signal_diagnostic",
+    "supply_driven_term_premium_impact"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

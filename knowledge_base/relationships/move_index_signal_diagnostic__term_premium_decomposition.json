@@ -1,0 +1,21 @@
+{
+  "concept_a": "move_index_signal_diagnostic",
+  "concept_b": "term_premium_decomposition",
+  "mechanism": "MOVE levels help discriminate signal quality: <80 suggests expectations-driven curve moves (reliable), >120 suggests term-premium-contaminated moves (unreliable), though the diagnostic may be partially circular",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Most useful at extremes (<80 or >120); diagnostically ambiguous in the 80-120 middle zone where MOVE currently resides",
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_02",
+    "risk_analyst_01"
+  ],
+  "topic": "yield_curve_dynamics",
+  "created_at": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-23T10:02:14Z",
+  "originating_iteration": "iter_0031",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0031"
+  ]
+}

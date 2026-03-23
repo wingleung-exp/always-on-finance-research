@@ -1,30 +1,46 @@
 {
   "slug": "steepening_trap",
   "definition": "Recession historically arrives during yield curve steepening, not inversion. Markets celebrate un-inversion as an all-clear signal, but the 1990, 2001, and 2007 recessions all arrived during the steepening phase. Currently relevant with 2s10s at +20-40bp.",
-  "confidence": 7,
+  "confidence": 6.5,
   "evidence": [
     "Historical pattern in 1990, 2001, 2007 recessions",
     "Current 2s10s at +20-40bp",
-    "Tier 2b signpost active per prior KB research"
+    "Tier 2b signpost active per prior KB research",
+    "5/7 historical easing cycles show recession beginning after steepening commenced",
+    "Economic logic is genuine: Fed cutting often means damage already baked in during inversion",
+    "generalist_02 provides quantified steepening trade payoff data across 7 cycles"
   ],
   "originating_agents": [
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "equity_analyst_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "generalist_01",
+    "challenger_02"
   ],
   "open_questions": [
     "Whether current steepening is from expected-rate or term-premium channel",
-    "Whether QT era alters the steepening trap dynamics"
+    "Whether QT era alters the steepening trap dynamics",
+    "Does the steepening trap apply to bear-steepening regimes—no empirical test exists?",
+    "What specific, falsifiable criteria (2s10s level, decomposition, time horizon) define a steepening trap prediction?",
+    "Is the concept unfalsifiable as currently specified given the wide window that can be retroactively fitted?"
   ],
   "related_concepts": [
     "yield_curve_term_premium_decomposition",
     "equity_cycle_macro_causation",
-    "credit_impulse_leading_indicator"
+    "credit_impulse_leading_indicator",
+    "bad_steepening",
+    "yield_curve_recession_prediction_weakness",
+    "clo_arbitrage_nonlinear_transmission"
   ],
   "topic": "equity_cycles",
   "created_at": "2026-03-23T06:06:24Z",
-  "last_updated": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-23T10:02:14Z",
   "originating_iteration": "iter_0024",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0024"
+    "iter_0024",
+    "iter_0031"
   ]
 }

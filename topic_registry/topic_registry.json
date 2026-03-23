@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "last_updated": "2026-03-23T09:38:26Z",
+  "last_updated": "2026-03-23T10:02:14Z",
   "taxonomy": {
     "macro_frameworks": {
       "description": "Core macroeconomic frameworks and policy analysis",
@@ -327,13 +327,20 @@
     "yield_curve_dynamics": {
       "category": "credit_and_rates",
       "display_name": "Yield Curve Shape, Inversion, & Term Premium",
-      "last_researched": "2026-03-22T05:30:00Z",
-      "depth_level": 3,
+      "last_researched": "2026-03-23T10:02:14Z",
+      "depth_level": 4,
       "confidence_score": 6.5,
-      "research_count": 5,
+      "research_count": 6,
       "knowledge_gaps": [
-        "Term premium decomposition methodology",
+        "Synchronized global curve inversions (2022-24) carry independent recession-signaling information beyond domestic curves",
+        "Geopolitical correlation ratchet creates secular one-way pressure on term premium",
         "Curve shape predictive power post-QE era",
+        "The 1966-70 analogue suggests the term premium rebuild may be only 40-60% complete, implying 100-150bp of further expansion",
+        "Taiwan contingency as the largest underpriced geopolitical tail risk for yield curve dynamics (potential 150-300bp steepening)",
+        "Asymmetric forward guidance attenuation: dovish guidance loses ~50% potency under positive stock-bond correlation",
+        "Two-tier global yield curve (allied vs non-aligned) emerging from sanctions architecture",
+        "CLO reinvestment expiration cliff ($250-350B) creates asymmetric response to steepening",
+        "SEC Treasury clearing mandate (Q2 2026) as a calendar-identifiable catalyst for basis trade deleveraging",
         "International yield curve spillovers"
       ],
       "connections": [
@@ -348,9 +355,23 @@
         "inversion_signaling"
       ],
       "key_concepts": [
-        "yield_curve_inversion",
+        "acm_kim_wright_model_divergence",
+        "bad_steepening",
+        "basis_trade_dual_distortion",
+        "clo_arbitrage_nonlinear_transmission",
+        "erp_correlation_regime_inconsistency",
+        "expectations_hypothesis",
+        "fiscal_issuance_term_premium",
+        "maturity_dependent_correlation_bifurcation",
+        "move_index_signal_diagnostic",
+        "private_credit_signal_degradation",
+        "r_star_estimation_uncertainty",
+        "steepening_trap",
+        "supply_driven_term_premium_impact",
         "term_premium",
-        "expectations_hypothesis"
+        "term_premium_decomposition",
+        "yield_curve_inversion",
+        "yield_curve_recession_prediction_weakness"
       ]
     },
     "credit_cycles": {
