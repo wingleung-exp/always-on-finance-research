@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "nk_three_equation_structural_model",
+    "purpose": "Derives stock-bond correlation sign from first principles via impulse response sign restrictions, answering: given the current shock type and monetary policy regime, what correlation should we expect?",
+    "components": [
+      "IS Curve: links output gap to real interest rate, demand shocks, and expectations",
+      "Phillips Curve: links inflation to output gap, supply shocks, and expectations — convex near zero output gap",
+      "Taylor Rule: links policy rate to inflation and output gap via coefficients (phi_pi critical). phi_pi >= 1.5 → negative correlation; phi_pi < 1.0 → positive correlation",
+      "Shock decomposition: demand shocks → negative correlation (output and inflation co-move); supply shocks → positive correlation (output and inflation diverge)"
+    ],
+    "current_assessment": "The model correctly predicted the 2022 correlation flip (supply shock dominated) and the subsequent oscillation (mixed shocks). Current environment: closed output gap maximizes Phillips Curve convexity, making the system maximally sensitive to small shocks of either type. Powell Fed phi_pi estimated at 1.5-2.0 but with uncertainty due to political pressure and fiscal dominance.",
+    "limitations": [
+      "Collapses four distinct drivers (inflation uncertainty, monetary regime, fiscal stance, risk appetite) into 'inflation regime' — oversimplification per challenger_01",
+      "Does not account for structural amplifiers (risk parity, basis trade, vol-targeting) that are absent from the theoretical model",
+      "The term premium channel (fiscal supply → long-end correlation) is not cleanly captured in the basic three-equation setup",
+      "Assumes a single representative central bank — does not handle global CB divergence"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "slug": "term_premium_threshold_framework",
+    "purpose": "Identifies correlation regime transitions using term premium levels as the cleanest leading indicator, answering: are we in a negative, transitional, or positive correlation regime?",
+    "components": [
+      "Term premium as direct measure of compensation for duration risk — the mechanism through which fiscal/supply dynamics transmit to correlation",
+      "Historical thresholds: ~0bp or below → negative correlation regime; 50-100bp → transitional/unstable; ~150bp+ → established positive correlation regime",
+      "ACM term premium model as primary measurement tool",
+      "12-18 month lead time observed in historical regime transitions (1967-68, 1998-2000)"
+    ],
+    "current_assessment": "ACM term premium at 50-80bp (early 2026) is in the transitional zone — consistent with mid-transition but below the ~150bp+ historically associated with a fully-established positive regime. The trajectory (rising from -50bp in 2020) suggests upward momentum, but has not yet crossed the threshold for confirmed regime change.",
+    "limitations": [
+      "Threshold levels (~150bp) are approximate and drawn from a different market structure",
+      "Risk parity, basis trade, and leveraged structures may amplify term premium moves, lowering the effective threshold",
+      "Only three historical calibration points with fundamentally different macro contexts",
+      "ACM model itself has parameter uncertainty and revision risk"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "slug": "regime_conditional_portfolio_construction",
+    "purpose": "Provides a shock-type-identified allocation framework that adapts portfolio construction to the current correlation regime, answering: how should multi-asset portfolios be positioned given identified shock type?",
+    "components": [
+      "Demand shock identification → long duration, standard 60/40 allocation (bonds hedge equities)",
+      "Supply shock identification → short duration + commodities, reduced bond allocation (bonds amplify equity losses)",
+      "Mixed/uncertain shock environment → barbell construction (short-duration safe assets + commodities + selective equity exposure)",
+      "Drawdown magnitude non-linearity: bonds may still rally in severe drawdowns (>15%) but fail in moderate stress (5-10%), changing optimal hedge construction"
+    ],
+    "current_assessment": "Current environment is mixed/uncertain — oscillating between growth scares and inflation scares with output gap near zero. Framework recommends barbell positioning with lower bond duration than traditional 60/40. The 60/40 performance of 2023-2025 (+12%, +14%, +8%) demonstrates that positive correlation does not guarantee poor returns, but catastrophic failure occurs under positive correlation AND negative returns (stagflation).",
+    "limitations": [
+      "Shock identification in real-time is difficult — lags of weeks to months before dominant shock type is clear",
+      "Does not account for regime transition dynamics (overshooting, mean reversion, positioning feedback loops)",
+      "The 'both paths lead to positive correlation' insight (crisis path and repression path) limits hedge options",
+      "Vol-targeting and risk-parity mechanical effects can overwhelm the framework's signal"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "slug": "campbell_sunderam_viceira_correlation_framework",
+    "purpose": "Provides the canonical empirical framework for stock-bond correlation, answering: under what conditions do bonds hedge equities vs amplify equity losses?",
+    "components": [
+      "Inflation-consumption growth correlation as the key state variable",
+      "Positive inflation-consumption correlation (demand-driven economy) → bonds hedge equities → negative stock-bond price correlation",
+      "Negative inflation-consumption correlation (supply-driven economy) → bonds amplify equity losses → positive stock-bond price correlation",
+      "Time-varying betas between bond returns and stock returns driven by the inflation regime"
+    ],
+    "current_assessment": "The 2022 episode validated the framework — CPI prints became the dominant single-day co-mover of both asset classes during supply-shock-dominated inflation. Current oscillation between demand and supply shocks creates unstable hedging properties for bonds. The framework correctly predicts the current transitional state.",
+    "limitations": [
+      "Does not distinguish between different maturities — misses the 2Y-30Y correlation bifurcation",
+      "Empirical framework, not structural — cannot distinguish between supply shock types (energy, tariffs, reshoring)",
+      "Assumes a stationary inflation regime, but the current environment may be a non-stationary transition"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "slug": "coibion_gorodnichenko_anchoring_assessment",
+    "purpose": "Provides a threshold-based framework for assessing whether inflation expectations are anchored or de-anchoring, which determines whether the correlation buffer holds",
+    "components": [
+      "5Y breakeven inflation as primary market-based measure",
+      "De-anchoring threshold: sustained 5Y breakeven divergence from target by >75-100bp for >6 months",
+      "Michigan 5-10Y consumer expectations as secondary survey-based measure",
+      "Anchored band: 1.8-2.5% for 5Y breakevens"
+    ],
+    "current_assessment": "5Y breakevens at ~2.3-2.5% remain within the anchored band. Michigan 5-10Y expectations at 3.0-3.2% are elevated but not de-anchored. The de-anchoring threshold has not been breached. However, the distribution has shifted rightward — closer to the upper bound than at any point in the 2010-2019 era. The buffer is thinner than at any point since the late 1990s.",
+    "limitations": [
+      "The threshold itself may be regime-dependent — calibrated on a different macro environment",
+      "Does not account for asymmetric de-anchoring risk (upside inflation risk vs downside)",
+      "Survey-based measures (Michigan) may lag actual expectations shifts",
+      "Tariff-driven goods inflation creates a novel test case for the framework"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "slug": "maturity_bifurcation_decomposition",
+    "purpose": "Decomposes the yield curve into expectations and term premium components to explain why different Treasury maturities exhibit different correlations with equities",
+    "components": [
+      "Short end (2Y): dominated by expected policy rate path (Taylor Rule), countercyclical under credible CB → negative correlation with equities",
+      "Long end (30Y): dominated by term premium (fiscal supply, inflation risk premium), procyclical under current fiscal policy → positive correlation with equities",
+      "Four historical precedent episodes with resolution timelines of 3-14 months",
+      "Resolution mechanism: policy intervention (fiscal consolidation or central bank backstop) required in 3 of 4 cases"
+    ],
+    "current_assessment": "The bifurcation is a robust empirical phenomenon but its interpretation as a fiscal dominance signal is contested. The internal contradiction (Fed simultaneously credible at short end and impotent at long end) has alternative explanations: QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium. Without policy intervention, the current bifurcation may persist longer than any precedent.",
+    "limitations": [
+      "Interpretation is contested — fiscal dominance vs transient explanations",
+      "Internal logical contradiction identified by challenger_01",
+      "Resolution mechanism depends on policy intervention that has no clear path currently",
+      "Four precedent episodes is a small sample with different macro contexts"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  }
+]

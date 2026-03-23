@@ -1,0 +1,215 @@
+[
+  {
+    "concept_a": "demand_supply_shock_correlation_driver",
+    "concept_b": "negative_correlation_historical_anomaly",
+    "mechanism": "The 1998-2021 demand-shock-dominated period (globalization, tech disinflation, EM reserve accumulation) produced the anomalous negative correlation. Supply shock resurgence in 2022 (energy, supply chains, tariffs) flipped the correlation sign, demonstrating this is the operative driver.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always holds — the correlation sign is mechanically determined by the dominant shock type. The question is which shock type dominates in a given macro environment.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "central_bank_reaction_function_correlation",
+    "concept_b": "demand_supply_shock_correlation_driver",
+    "mechanism": "The Taylor Rule coefficient (phi_pi) determines how effectively the central bank offsets demand shocks. High phi_pi → demand shocks fully offset → only supply shocks reach asset prices → negative correlation. Low phi_pi → demand shocks partially transmitted → mixed shock correlation → positive correlation.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "CB credibility is necessary but not sufficient for negative correlation. Even a credible CB cannot produce negative correlation if supply shocks dominate the macro environment (e.g., 2022 under a credible Fed).",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "fiscal_dynamics_positive_correlation",
+    "concept_b": "maturity_dependent_correlation_bifurcation",
+    "mechanism": "$2T+ annual Treasury issuance raises term premium at the long end while the short end remains anchored to the Taylor Rule, producing negative 2Y-SPX correlation and positive 30Y-SPX correlation. The fiscal supply channel operates through the long end, not the short end.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Strongest when fiscal deficits are large (>5% GDP) and the central bank maintains short-end credibility. Weakens if the Fed loses credibility (both ends go positive) or if fiscal consolidation occurs (long-end term premium falls).",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "current_correlation_regime_instability",
+    "concept_b": "correlation_regime_shift_portfolio_impact",
+    "mechanism": "Oscillation between growth scares (negative correlation) and inflation scares (positive correlation) creates uncertainty about true portfolio correlation, making risk-targeting strategies unable to set stable leverage ratios and creating path-dependent portfolio outcomes.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Impact is proportional to portfolio leverage and the frequency of oscillation. Higher-frequency oscillation is more damaging to vol-targeting strategies than a stable positive or negative regime.",
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "vol_targeting_risk_parity_amplifier",
+    "concept_b": "correlation_regime_shift_portfolio_impact",
+    "mechanism": "$500B-$1T in vol-targeting and risk-parity AUM mechanically amplifies correlation regime transitions through forced deleveraging, bond leverage unwinding, and basis trade unwinds. These strategies did not exist at scale during any historical correlation regime transition, making current transitions potentially faster and more volatile.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Amplification is strongest during sharp, unexpected correlation shifts. Gradual transitions may allow orderly rebalancing. The basis trade ($800B-$1T+ notional at 50-100x leverage) is the most acute amplifier.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "inflation_expectations_anchoring_buffer",
+    "concept_b": "current_correlation_regime_instability",
+    "mechanism": "Anchored expectations keep the system in the unstable transition zone — neither firmly negative (anchored + demand-dominated) nor firmly positive (de-anchored). De-anchoring would resolve uncertainty by locking in persistent positive correlation. The thinner buffer increases the probability of a transition trigger.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "The buffer's effectiveness depends on realized inflation staying below ~3.5% for 2-3 consecutive quarters. Tariff-driven goods inflation is the primary threat to the buffer.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "output_gap_correlation_instability",
+    "concept_b": "current_correlation_regime_instability",
+    "mechanism": "Output gap near zero (-0.5% to +0.5%) means small shocks can push the economy in either direction, Phillips Curve is at maximum steepness (convexity), and supply shocks have maximum impact because no demand shortfall absorbs them. This structural configuration maximizes correlation instability.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The instability amplification is specific to near-zero output gaps. Deeply negative gaps (recession) reliably produce negative correlation; deeply positive gaps with inflation produce positive correlation.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "r_star_correlation_uncertainty_mapping",
+    "concept_b": "central_bank_reaction_function_correlation",
+    "mechanism": "r-star estimate range (0.5-3.0%) creates fundamental uncertainty about the current policy stance. If r-star is low, current rates are deeply restrictive and recession is coming (negative correlation). If high, rates are neutral/easy and the economy runs hot (positive correlation). The CB reaction function cannot be assessed without knowing r-star.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The uncertainty is maximized at the consensus r-star estimate (~1.5-2.0%), which is the least informative for correlation. Extreme r-star values would resolve the correlation question.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "term_premium_leading_indicator",
+    "concept_b": "current_correlation_regime_instability",
+    "mechanism": "Term premium at 50-80bp is in the mid-transition zone — below the ~150bp+ associated with established positive correlation regimes and above the ~0bp associated with negative regimes. The term premium level both reflects and predicts the correlation state.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Historical threshold levels (~150bp) may not apply directly given different market structures (risk parity, basis trade, leveraged strategies). The threshold may be lower or higher than historical levels.",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "fx_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "geopolitical_supply_fragmentation_premium",
+    "concept_b": "demand_supply_shock_correlation_driver",
+    "mechanism": "Supply chain fragmentation, energy disruption, reshoring costs, and commodity weaponization shift the shock mix toward supply-dominated. These are costs that rate hikes cannot address without inducing recession, structurally biasing the correlation toward positive.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The bias toward positive correlation holds as long as fragmentation costs create incremental new inflationary pressure. Already-absorbed price level shifts do not affect correlation. AI productivity and China overcapacity may partially offset.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "fx_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "roic_wacc_spread_compression",
+    "concept_b": "equity_valuations_correlation_inconsistency",
+    "mechanism": "Compressed ROIC-WACC spreads (~4-5pp vs ~8-10pp in 2020-21) create convex rate sensitivity — further rate increases destroy a disproportionately larger share of economic profit. Current equity valuations (~21x) do not fully reflect this amplified rate sensitivity under a positive correlation regime.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The convexity effect intensifies as the ROIC-WACC spread narrows further. At very wide spreads (>8pp), rate sensitivity is approximately linear. The relationship is strongest for companies with low ROIC relative to cost of capital.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "non_gaap_duration_masking",
+    "concept_b": "equity_valuations_correlation_inconsistency",
+    "mechanism": "Non-GAAP earnings inflate apparent earnings yield and reduce apparent equity duration by ~30-40%, causing investors to systematically underestimate rate sensitivity. This measurement error makes equities appear less exposed to correlation regime shifts than they actually are.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "The masking effect is persistent as long as GAAP/non-GAAP divergence persists (~25% gap currently). SBC is secularly growing, widening the gap over time. Effect is strongest for tech-heavy indices.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "negative_correlation_historical_anomaly",
+    "concept_b": "equity_valuations_correlation_inconsistency",
+    "mechanism": "Current equity valuations were formed during and priced for the anomalous 1998-2021 negative correlation era. If the anomaly has ended and positive correlation persists, the valuation framework (lower ERP, bonds as hedge) is structurally misapplied, implying 10-25% overvaluation.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The inconsistency only matters if positive correlation is the new persistent regime. If negative correlation reasserts (as the equity market implicitly prices), current valuations may be appropriate.",
+    "originating_agents": [
+      "challenger_01",
+      "equity_analyst_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "fiscal_dynamics_positive_correlation",
+    "concept_b": "central_bank_reaction_function_correlation",
+    "mechanism": "Fiscal dominance dynamics (6-7% GDP deficits, $2T+ issuance, no consolidation path) constrain central bank degrees of freedom. CB control over the correlation regime degrades as fiscal dominance intensifies — the CB can influence powerfully when fiscal policy is supportive but loses control at high debt/GDP without consolidation.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "The constraint binding depends on debt/GDP level and trajectory. At low debt with fiscal surplus, CB is fully unconstrained. At current US levels (~125% debt/GDP, 6-7% deficits), CB influence is partially impaired.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "rates_strategist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "concept_a": "correlation_regime_shift_portfolio_impact",
+    "concept_b": "fci_mismeasurement_positive_correlation",
+    "mechanism": "Standard FCIs miss the tightening from collapsed diversification when stocks and bonds co-move. The ~15-20% higher portfolio volatility from correlation flip triggers VaR-based deleveraging and reduces risk appetite — a transmission channel from market structure to real financial conditions that headline FCI does not capture.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Mismeasurement is specific to positive correlation regimes. Under negative correlation, standard FCIs accurately capture the diversification benefit. The error is proportional to the correlation level and the share of leveraged multi-asset portfolios.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  }
+]

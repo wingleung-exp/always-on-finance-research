@@ -1,0 +1,670 @@
+{
+  "concepts": [
+    {
+      "slug": "demand_supply_shock_correlation_driver",
+      "definition": "The mix of demand vs. supply shocks is the fundamental driver of stock-bond correlation sign. Demand shocks move output and inflation in the same direction, producing negative stock-bond price correlation under an optimizing central bank. Supply/inflation shocks move them in opposite directions, producing positive correlation.",
+      "confidence": 9,
+      "evidence": [
+        "New Keynesian three-equation model (IS curve, Phillips Curve, Taylor Rule) derives this structurally from impulse response sign restrictions",
+        "Campbell, Sunderam & Viceira (2017) provide canonical empirical validation: inflation-consumption growth covariance determines bond hedging properties",
+        "2022 textbook case: S&P 500 EPS grew ~4% yet index fell ~19%, entirely driven by discount rate repricing during supply-shock-dominated inflation surge",
+        "CPI prints became the dominant single-day co-mover of both asset classes in 2022",
+        "All four debate reports confirmed without meaningful challenge"
+      ],
+      "originating_agents": ["macro_strategist_01", "rates_strategist_02", "generalist_01", "equity_analyst_02", "challenger_01", "generalist_02"],
+      "open_questions": [
+        "Framework oversimplifies by collapsing four distinct drivers (inflation uncertainty, monetary policy regime, fiscal stance, risk appetite) into a single inflation regime variable",
+        "How to decompose shocks in real-time when demand and supply components are mixed?"
+      ],
+      "related_concepts": ["central_bank_reaction_function_correlation", "output_gap_correlation_instability", "geopolitical_supply_fragmentation_premium"]
+    },
+    {
+      "slug": "negative_correlation_historical_anomaly",
+      "definition": "The 1998-2021 sustained negative stock-bond correlation was historically anomalous, not the structural norm. Positive correlation governed approximately 48 of 75 post-war years (~64%). The negative regime coincided with credible inflation targeting, disinflationary secular forces, massive EM/petrodollar reserve accumulation, and demand-shock-dominated cycles.",
+      "confidence": 9,
+      "evidence": [
+        "Positive stock-bond correlation governed ~64% of post-war years empirically",
+        "Negative correlation era coincided with specific institutional configuration: credible inflation targeting, globalization, demographics, technology as disinflationary forces",
+        "Structural UST demand from EM/petrodollar reserve accumulation created price-insensitive buying",
+        "Debate pair_0 called it 'essentially an empirical fact, not an analytical judgment'"
+      ],
+      "originating_agents": ["generalist_02", "generalist_01", "rates_strategist_02", "macro_strategist_01", "fx_strategist_01"],
+      "open_questions": [
+        "Whether negative correlation is the 'natural' state under good policy or a historical anomaly is a framing disagreement with real portfolio implications",
+        "NK model predicts negative correlation under credible inflation targeting — does this make it the equilibrium or still the exception?"
+      ],
+      "related_concepts": ["central_bank_reaction_function_correlation", "demand_supply_shock_correlation_driver", "current_correlation_regime_instability"]
+    },
+    {
+      "slug": "central_bank_reaction_function_correlation",
+      "definition": "The central bank reaction function, specifically the Taylor Rule inflation coefficient, is the key institutional determinant of the stock-bond correlation regime. Historical calibration shows Taylor Principle violations (phi_pi < 1) produce positive correlation while adherence (phi_pi > 1.5) produces negative correlation.",
+      "confidence": 8,
+      "evidence": [
+        "Burns-Miller Fed (phi_pi = 0.8-1.0, violating Taylor Principle) produced positive correlation; Greenspan-Bernanke (phi_pi = 1.5-2.0) produced negative correlation",
+        "Cross-country evidence: CB independence index correlates strongly with correlation sign across 20+ countries",
+        "Switzerland (0.92 independence) shows -0.35 correlation; Turkey (0.25 independence) shows +0.50 to +0.70 correlation",
+        "Powell Fed's 525bp hiking cycle demonstrated credibility (phi_pi approx 1.5-2.0)",
+        "Debate pair_3 confirmed: 'Both agree on the mechanism'"
+      ],
+      "originating_agents": ["macro_strategist_01", "rates_strategist_02", "risk_analyst_02", "challenger_01", "generalist_01"],
+      "open_questions": [
+        "Current Powell Fed reaction function is uncertain — political pressure on Fed independence creates Bayesian updating problem",
+        "macro_strategist_01 estimates 60% probability Fed maintains Taylor Rule adherence, 30% somewhat compromised, 10% fundamentally impaired",
+        "Can central banks unilaterally restore negative correlation, or are structural factors beyond their control?"
+      ],
+      "related_concepts": ["inflation_expectations_anchoring_buffer", "fiscal_dynamics_positive_correlation", "demand_supply_shock_correlation_driver"]
+    },
+    {
+      "slug": "maturity_dependent_correlation_bifurcation",
+      "definition": "A robust empirical phenomenon where short-duration Treasuries (2Y) maintain negative correlation with equities while long-duration (30Y) show positive correlation. The short end reflects expected policy rate (Taylor Rule, countercyclical) while the long end reflects term premium (fiscal supply, procyclical under current fiscal policy).",
+      "confidence": 8,
+      "evidence": [
+        "Six agents confirmed the pattern independently",
+        "Four historical precedent episodes: 1993-94, 2011 Italian BTP, 2013 Taper Tantrum, 2022 UK gilt crisis",
+        "Resolution timelines of 3-14 months in precedent episodes",
+        "In 3 of 4 historical episodes, bifurcation resolved by policy intervention (fiscal consolidation or CB backstop)",
+        "Debate pair_0 found the combined case 'materially stronger than either alone'"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_01", "equity_analyst_02", "risk_analyst_02", "challenger_01"],
+      "open_questions": [
+        "Causal attribution to fiscal dominance specifically is contested — challenger_01 offers four alternatives: QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium",
+        "Internal contradiction identified: Fed cannot simultaneously be credible enough to anchor 2Y and impotent at 30Y",
+        "Without fiscal consolidation or CB backstop, current bifurcation may persist longer than any precedent"
+      ],
+      "related_concepts": ["fiscal_dynamics_positive_correlation", "term_premium_regime_indicator", "central_bank_reaction_function_correlation"]
+    },
+    {
+      "slug": "correlation_regime_portfolio_impact",
+      "definition": "A stock-bond correlation regime shift mechanically devastates traditional 60/40 and risk-parity portfolios. Portfolio volatility rises ~46% (from ~8.4% to ~12.3%) when correlation shifts from -0.30 to +0.30 with no change in asset-level volatility. However, positive correlation does NOT equal poor returns — 60/40 fails only under positive correlation AND negative returns (stagflation).",
+      "confidence": 9,
+      "evidence": [
+        "Arithmetic: 60/40 portfolio (60% SPX at sigma=16%, 40% UST 10Y+ at sigma=12%) vol rises 46% from rho=-0.30 to rho=+0.30",
+        "Risk parity strategies (~$200-400B AUM) forced to reduce leverage or restructure under positive correlation",
+        "60/40 returned +12.1%, +14.3%, ~+8% in 2023-2025 despite weakly positive correlation",
+        "Standard FCIs systematically understate tightening under positive correlation (treat components as independent)",
+        "challenger_01 correction upheld: positive correlation plus positive returns is possible (reflation, goldilocks-with-volatility)"
+      ],
+      "originating_agents": ["generalist_01", "equity_analyst_02", "generalist_02", "rates_strategist_02", "risk_analyst_02", "challenger_01"],
+      "open_questions": [
+        "Is the 'death of 60/40' narrative a crowded consensus trade or genuine structural insight?",
+        "Does the next recession produce bond rally alongside equity drawdown (negative correlation reassertion) or bonds fail to rally?"
+      ],
+      "related_concepts": ["current_correlation_regime_instability", "vol_targeting_transition_amplifier", "fci_mismeasurement"]
+    },
+    {
+      "slug": "current_correlation_regime_instability",
+      "definition": "The current stock-bond correlation regime is unstable/transitional, not locked into persistent positive territory. The rolling 1-year correlation has oscillated between growth scares (negative) and inflation scares (positive) since 2022, with reversals during August 2024 and Q1 2025. This instability emerged from convergence between adversarial analytical frames.",
+      "confidence": 8,
+      "evidence": [
+        "challenger_01 (contrarian) and risk_analyst_02 (geopolitical bull) independently arrived at 'oscillating/unstable'",
+        "Debate pair_3 called this convergence 'the strongest finding in either report'",
+        "Rolling 1-year correlation has not been persistently positive since 2022 spike",
+        "rates_strategist_02's claim of persistent positive correlation since Q1 2022 was corrected as overstating persistence",
+        "Historical base rate: correlation regime transitions take 12-36 months through unstable near-zero phase",
+        "Current ~3-year instability at upper end of transition window"
+      ],
+      "originating_agents": ["challenger_01", "risk_analyst_02", "generalist_02", "macro_strategist_01"],
+      "open_questions": [
+        "Is this imminent resolution or a genuinely novel unstable equilibrium?",
+        "45% probability assigned to oscillating state by risk_analyst_02",
+        "Will the regime resolve toward persistent positive or revert to negative?"
+      ],
+      "related_concepts": ["demand_supply_shock_correlation_driver", "output_gap_correlation_instability", "inflation_expectations_anchoring_buffer"]
+    },
+    {
+      "slug": "inflation_expectations_anchoring_buffer",
+      "definition": "Inflation expectations remain anchored (5Y breakevens at ~2.3-2.5%, Michigan 5-10Y at 3.0-3.2%) but represent the critical buffer against persistent positive correlation. The buffer is thinner than any point since the late 1990s, with the distribution shifted rightward toward the upper bound of the anchored range.",
+      "confidence": 8,
+      "evidence": [
+        "5Y breakevens at ~2.3-2.5% within historical 'anchored' band (1.8-2.5%)",
+        "Michigan 5-10Y consumer expectations at 3.0-3.2% elevated but not de-anchored",
+        "Coibion-Gorodnichenko threshold (sustained 5Y breakeven divergence from target by >75-100bp for >6 months) not breached",
+        "Distribution shifted rightward — closer to upper bound than any point in 2010-2019"
+      ],
+      "originating_agents": ["macro_strategist_01", "challenger_01", "rates_strategist_02", "generalist_01"],
+      "open_questions": [
+        "If tariff-driven goods inflation pushes realized inflation above 3.5% for 2-3 consecutive quarters, does the Phillips Curve shift from anchored-flat to de-anchoring-steepening?",
+        "What is the current Coibion-Gorodnichenko threshold given changed market structure?"
+      ],
+      "related_concepts": ["central_bank_reaction_function_correlation", "demand_supply_shock_correlation_driver", "geopolitical_supply_fragmentation_premium"]
+    },
+    {
+      "slug": "fiscal_dynamics_positive_correlation",
+      "definition": "US fiscal deficits at 6-7% of GDP, $2T+ annual Treasury issuance, and no credible consolidation path create structural support for elevated term premium and positive long-end correlation. The ACM term premium moved from ~-50bp (2020) to +50-80bp (early 2026). However, markets have partially priced this, and the correlation-relevant question is incremental supply vs. expectations.",
+      "confidence": 7,
+      "evidence": [
+        "Six agents independently identify fiscal dynamics as structural driver",
+        "Political economy lock: neither party will pursue deficit reduction through 2028",
+        "ACM term premium moved from ~-50bp (2020) to +50-80bp (early 2026)",
+        "Both crisis path (r > g) and repression path (r < g) lead to positive correlation; only disinflation + consolidation restores negative",
+        "QT deceleration toward terminal balance sheet (late 2026-2027) may reduce a primary mechanical driver"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_01", "fx_strategist_01", "risk_analyst_02", "equity_analyst_02"],
+      "open_questions": [
+        "For fiscal supply to continue driving positive correlation, deficits must be larger than expected — is the marginal surprise still positive?",
+        "Does QT cessation in late 2026-2027 remove the mechanical supply driver?",
+        "Is the only path to negative correlation (disinflation + consolidation) also the lowest-probability outcome?"
+      ],
+      "related_concepts": ["term_premium_regime_indicator", "maturity_dependent_correlation_bifurcation", "central_bank_reaction_function_correlation"]
+    },
+    {
+      "slug": "seventies_analogue_limitations",
+      "definition": "The 1970s analogue is directionally instructive (inflation uncertainty produces positive correlation) but non-generalizable to current conditions. Structural conditions that sustained 1970s positive correlation are largely absent: no oil embargoes, no wage-price spirals, no fully unanchored expectations, no gold window closure. Better analogues include 1993-94 bond massacre and 1994-96/2004-06 moderate inflation episodes.",
+      "confidence": 7,
+      "evidence": [
+        "All six addressing agents agree the mechanism is valid but conditions differ",
+        "Fed demonstrated inflation-fighting credibility with 525bp in 16 months",
+        "1993-94 bond massacre identified as highest-similarity analogue (8/10) for maturity bifurcation",
+        "Historical falsification: moderate declining inflation (2.5-3.5% core PCE) has never produced persistent positive correlation in post-war sample",
+        "Every previous episode at current inflation level reverted to negative correlation within 1-3 years"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_01", "challenger_01", "fx_strategist_01", "equity_analyst_02"],
+      "open_questions": [
+        "Does the current trajectory of 2.5-3.5% core PCE follow the historical base rate of reversion?",
+        "Are structural differences from 1970s sufficient to invalidate the analogue entirely?"
+      ],
+      "related_concepts": ["demand_supply_shock_correlation_driver", "negative_correlation_historical_anomaly", "inflation_expectations_anchoring_buffer"]
+    },
+    {
+      "slug": "term_premium_regime_indicator",
+      "definition": "The term premium is the cleanest leading indicator for correlation regime identification because it directly measures compensation for duration risk — the mechanism through which fiscal/supply dynamics transmit to correlation. Historical thresholds: ~150bp+ associated with fully-established positive regime. Current ACM estimate of 50-80bp is consistent with mid-transition.",
+      "confidence": 7,
+      "evidence": [
+        "Term premium rose from ~50bp to ~200bp+ over 18 months before 1967-68 correlation flip",
+        "Term premium fell from ~150bp to ~0bp before 1998-2000 flip to negative",
+        "Current ACM estimate of 50-80bp below the ~150bp+ historically associated with fully-established positive regime",
+        "Debate pair_0 found this stronger than generalist_01's three-indicator framework"
+      ],
+      "originating_agents": ["generalist_02", "macro_strategist_01", "fx_strategist_01"],
+      "open_questions": [
+        "Threshold levels (~150bp) drawn from different market structure — may differ given risk parity, basis trade, and leveraged structures",
+        "Does the existence of $800B-1T+ basis trade lower the effective threshold?"
+      ],
+      "related_concepts": ["fiscal_dynamics_positive_correlation", "maturity_dependent_correlation_bifurcation", "vol_targeting_transition_amplifier"]
+    },
+    {
+      "slug": "vol_targeting_transition_amplifier",
+      "definition": "Vol-targeting and risk-parity strategies ($500B-$1T AUM) plus the Treasury basis trade ($800B-$1T+ notional at 50-100x leverage) are structural amplifiers of correlation regime transitions with no historical precedent. These strategies mechanically reduce exposure or amplify forced selling when portfolio vol rises from correlation shifts.",
+      "confidence": 7,
+      "evidence": [
+        "Risk parity portfolios lever bonds to equalize risk contribution — positive correlation makes bond leverage additive to risk",
+        "Vol-targeting strategies mechanically reduce exposure when portfolio vol rises from correlation shift",
+        "Basis trade amplifies forced selling in Treasuries during stress",
+        "No historical correlation regime transition (1967, 1994, 1998) included these strategies at scale"
+      ],
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_01"],
+      "open_questions": [
+        "The factual claim (no precedent) is near-certain but the implication (faster/more volatile transitions) is logical but untested",
+        "How do these strategies interact with each other during a sustained positive correlation regime?"
+      ],
+      "related_concepts": ["correlation_regime_portfolio_impact", "term_premium_regime_indicator", "current_correlation_regime_instability"]
+    },
+    {
+      "slug": "output_gap_correlation_instability",
+      "definition": "When the output gap is near zero (~-0.5% to +0.5% of potential GDP currently), correlation instability is maximized because small shocks can push the economy in either direction, the Phillips Curve is at its steepest (convexity), and supply shocks have maximum impact with no demand shortfall to absorb them.",
+      "confidence": 7,
+      "evidence": [
+        "Current output gap estimates converge at approximately -0.5% to +0.5% (CBO, FRB/US, IMF all near zero)",
+        "Every sustained positive correlation episode (1973-82, 2022) preceded by output gap near zero or positive",
+        "Sustained negative correlation episodes (2001-03, 2008-09) occurred with deeply negative gaps",
+        "Debate pair_2 called this 'a structural insight that goes beyond the demand-vs-supply decomposition'"
+      ],
+      "originating_agents": ["macro_strategist_01"],
+      "open_questions": [
+        "Does Phillips Curve convexity near zero gap have stable empirical support across different inflation regimes?",
+        "Single-source finding — needs broader validation"
+      ],
+      "related_concepts": ["demand_supply_shock_correlation_driver", "current_correlation_regime_instability", "inflation_expectations_anchoring_buffer"]
+    },
+    {
+      "slug": "equity_valuation_correlation_inconsistency",
+      "definition": "S&P 500 at ~21-22x forward P/E implicitly prices negative correlation (bonds still hedge, lower required ERP) rather than positive correlation (higher ERP of +50-100bp, implying ~18-19x). Either equities are 10-25% overvalued relative to the true correlation regime, or the market correctly prices negative correlation reassertion.",
+      "confidence": 7,
+      "evidence": [
+        "S&P 500 forward P/E of ~21-22x consistent with negative correlation ERP assumptions",
+        "Positive correlation regime would require +50-100bp additional ERP, implying ~18-19x fair value",
+        "Debate pair_3 identified this as 'the single most valuable contrarian observation'",
+        "Cross-asset inconsistency of this magnitude should not persist"
+      ],
+      "originating_agents": ["challenger_01", "equity_analyst_02"],
+      "open_questions": [
+        "Is the equity market a better forecaster of correlation regime than bond/macro indicators?",
+        "How much of the valuation premium is attributable to mega-cap tech concentration effects?"
+      ],
+      "related_concepts": ["correlation_regime_portfolio_impact", "roic_wacc_spread_compression", "non_gaap_duration_masking"]
+    },
+    {
+      "slug": "roic_wacc_spread_compression",
+      "definition": "The ROIC-WACC spread has compressed from ~8-10pp (2020-21, near-zero rates) to ~4-5pp currently. The mathematical relationship is convex: at a 10pp spread, 1pp WACC increase destroys ~10% of economic profit; at a 4pp spread, the same 1pp destroys ~25%. This creates nonlinear equity sensitivity to rate moves.",
+      "confidence": 6,
+      "evidence": [
+        "Spread compression from ~8-10pp to ~4-5pp documented",
+        "Convex mathematical relationship: narrower spreads amplify rate impact on economic profit",
+        "Debate pair_1 confirmed the math is 'correct and underappreciated'",
+        "Single-source finding but follows from first principles"
+      ],
+      "originating_agents": ["equity_analyst_02"],
+      "open_questions": [
+        "Does the aggregate ROIC-WACC spread mask significant sector-level variation?",
+        "How does the spread interact with different correlation regimes?"
+      ],
+      "related_concepts": ["non_gaap_duration_masking", "equity_valuation_correlation_inconsistency", "correlation_regime_portfolio_impact"]
+    },
+    {
+      "slug": "non_gaap_duration_masking",
+      "definition": "Non-GAAP earnings practices systematically understate equity portfolio duration by 30-40%. S&P 500 GAAP EPS (~$200-210) vs. non-GAAP (~$250-260) shows a ~25% gap. At GAAP P/E of ~25-27x, terminal value share is ~55-65% with duration sensitivity of ~15-20% per 100bp. Non-GAAP P/E of ~21x reduces apparent sensitivity to ~12-15%.",
+      "confidence": 6,
+      "evidence": [
+        "S&P 500 GAAP vs non-GAAP EPS gap of ~25%",
+        "GAAP P/E ~25-27x implies 55-65% terminal value share; non-GAAP P/E ~21x implies 45-50%",
+        "Duration sensitivity difference of ~30-40% between GAAP and non-GAAP basis",
+        "Debate pair_1 called this 'the single most original contribution across both analyses'"
+      ],
+      "originating_agents": ["equity_analyst_02"],
+      "open_questions": [
+        "Needs broader validation — novel single-source finding",
+        "How does SBC as hidden duration interact with this effect?",
+        "Does index concentration in mega-cap tech (net cash, exceptional ROIC) offset or amplify?"
+      ],
+      "related_concepts": ["roic_wacc_spread_compression", "equity_valuation_correlation_inconsistency", "correlation_regime_portfolio_impact"]
+    },
+    {
+      "slug": "geopolitical_supply_fragmentation_premium",
+      "definition": "Geopolitical supply fragmentation embeds a structural inflation premium through four channels: energy supply fragmentation (European gas 2-3x pre-war), trade route disruption (Red Sea +$2K-$4K/container), reshoring costs (semiconductors 30-50% above Asian production), and commodity weaponization. Central banks cannot offset these without recession.",
+      "confidence": 6,
+      "evidence": [
+        "Four documented channels with quantified cost impacts",
+        "European gas prices 2-3x pre-war levels",
+        "Red Sea disruption adding $2K-$4K per container",
+        "Semiconductor reshoring 30-50% cost premium over Asian production",
+        "Debate pair_3 confirmed channel identification is 'rigorous'"
+      ],
+      "originating_agents": ["risk_analyst_02", "fx_strategist_01"],
+      "open_questions": [
+        "AI productivity and China overcapacity may offset supply fragmentation costs",
+        "Some shocks already absorbed into price level — correlation-relevant question is incremental new shocks",
+        "Magnitude of net supply premium after offsets is uncertain"
+      ],
+      "related_concepts": ["demand_supply_shock_correlation_driver", "inflation_expectations_anchoring_buffer", "central_bank_reaction_function_correlation"]
+    },
+    {
+      "slug": "r_star_correlation_uncertainty_mapping",
+      "definition": "The 250bp range of r-star estimates (0.5% secular stagnation to 3.0% AI optimism) maps directly to correlation regime uncertainty. Low r-star implies deep recession coming and strongly negative correlation. High r-star implies economy running hot with unstable/positive correlation. The consensus estimate (1.5-2.0%) is least informative as it allows small shocks to push in either direction.",
+      "confidence": 6,
+      "evidence": [
+        "R-star estimates range from 0.5% to 3.0% across models",
+        "Each r-star scenario implies different policy stance, recession probability, and correlation regime",
+        "Debate pair_2 confirmed this is 'a r-star debate in disguise'",
+        "Novel mapping from single agent but analytically powerful"
+      ],
+      "originating_agents": ["macro_strategist_01"],
+      "open_questions": [
+        "Can r-star be estimated with sufficient precision to be operationally useful for correlation forecasting?",
+        "How does AI-driven productivity growth affect r-star trajectory?"
+      ],
+      "related_concepts": ["central_bank_reaction_function_correlation", "current_correlation_regime_instability", "output_gap_correlation_instability"]
+    },
+    {
+      "slug": "fci_mismeasurement",
+      "definition": "Standard Financial Conditions Indices systematically understate effective tightening under positive stock-bond correlation because they treat components as independent. Coincident stock-bond declines raise realized portfolio vol, trigger VaR-based deleveraging, and reduce risk appetite — a tightening not captured by headline FCI readings.",
+      "confidence": 5,
+      "evidence": [
+        "60/40 portfolio faces ~15-20% higher volatility when correlation flips from -0.2 to +0.3",
+        "VaR-based deleveraging triggered by portfolio vol increase, not captured in FCI",
+        "Debate pair_2 called this 'operationally important and underappreciated'",
+        "Single-source but logically tight"
+      ],
+      "originating_agents": ["rates_strategist_02"],
+      "open_questions": [
+        "Implies the Fed may be underestimating actual financial conditions — testable by comparing FCI to market-implied measures",
+        "How large is the measurement gap in practice?"
+      ],
+      "related_concepts": ["correlation_regime_portfolio_impact", "vol_targeting_transition_amplifier", "central_bank_reaction_function_correlation"]
+    },
+    {
+      "slug": "index_concentration_correlation_distortion",
+      "definition": "Top 10 S&P 500 names (~35% of index weight) are disproportionately long-duration growth with net cash balance sheets and exceptional ROIC. They may act as a low-duration anchor, masking stronger positive correlation in the remaining 'S&P 493', meaning aggregate correlation statistics may overstate hedging for the average stock.",
+      "confidence": 5,
+      "evidence": [
+        "Top 10 S&P 500 names represent ~35% of index weight",
+        "Mega-cap tech characteristics: net cash, exceptional ROIC, long-duration growth",
+        "Raised independently by generalist_02 and equity_analyst_02 but not developed into concrete finding"
+      ],
+      "originating_agents": ["generalist_02", "equity_analyst_02"],
+      "open_questions": [
+        "What is the measured correlation for equal-weight or ex-top-10 indices?",
+        "Priority for future research identified in KEY_DISAGREEMENTS D5"
+      ],
+      "related_concepts": ["equity_valuation_correlation_inconsistency", "non_gaap_duration_masking", "correlation_regime_portfolio_impact"]
+    }
+  ],
+  "relationships": [
+    {
+      "concept_a": "demand_supply_shock_correlation_driver",
+      "concept_b": "current_correlation_regime_instability",
+      "mechanism": "The mix of demand vs. supply shocks directly determines whether stock-bond correlation is positive or negative. When the economy oscillates between growth scares (demand) and inflation scares (supply), the correlation regime oscillates correspondingly.",
+      "direction": "a_causes_b",
+      "confidence": 9,
+      "regime_dependence": "Strongest near zero output gap where small shocks push in either direction; attenuated when economy is clearly in recession (demand-dominated) or overheating (supply-constrained).",
+      "originating_agents": ["macro_strategist_01", "challenger_01"]
+    },
+    {
+      "concept_a": "central_bank_reaction_function_correlation",
+      "concept_b": "inflation_expectations_anchoring_buffer",
+      "mechanism": "Central bank credibility (Taylor Rule adherence) anchors inflation expectations. Anchored expectations ensure demand shocks dominate, which produces negative stock-bond correlation. Loss of credibility de-anchors expectations, allowing supply-side dynamics to dominate.",
+      "direction": "a_causes_b",
+      "confidence": 8,
+      "regime_dependence": "Relationship holds when fiscal policy is supportive or neutral; degrades under fiscal dominance when CB degrees of freedom are constrained regardless of commitment.",
+      "originating_agents": ["macro_strategist_01", "rates_strategist_02", "risk_analyst_02"]
+    },
+    {
+      "concept_a": "fiscal_dynamics_positive_correlation",
+      "concept_b": "maturity_dependent_correlation_bifurcation",
+      "mechanism": "Fiscal supply dynamics (large deficits, high Treasury issuance) elevate term premium at the long end while the short end remains anchored by credible monetary policy. This creates the bifurcation where 2Y-SPX is negatively correlated but 30Y-SPX is positively correlated.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Requires simultaneously credible CB (anchors short end) and unsustainable fiscal path (drives long end). Weakens if CB loses credibility (both ends decouple) or fiscal consolidation occurs (long end normalizes).",
+      "originating_agents": ["macro_strategist_01", "generalist_01", "generalist_02"]
+    },
+    {
+      "concept_a": "fiscal_dynamics_positive_correlation",
+      "concept_b": "central_bank_reaction_function_correlation",
+      "mechanism": "Fiscal dominance constrains central bank degrees of freedom. At high debt/GDP with no consolidation path, aggressive rate hikes threaten fiscal sustainability, potentially forcing CB accommodation. This erodes the CB's ability to maintain Taylor Rule adherence.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Relationship intensifies as debt/GDP rises and interest expense consumes larger share of revenue. Currently building but not yet binding — Fed completed 525bp hiking cycle without fiscal crisis.",
+      "originating_agents": ["risk_analyst_02", "rates_strategist_02", "macro_strategist_01"]
+    },
+    {
+      "concept_a": "term_premium_regime_indicator",
+      "concept_b": "current_correlation_regime_instability",
+      "mechanism": "Term premium is the market price of duration risk compensation. Its level directly reflects the correlation regime — above ~150bp historically indicates established positive correlation regime, near zero indicates negative regime. Current 50-80bp indicates mid-transition/unstable.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Historical thresholds may differ under current market structure with risk parity, basis trade, and leveraged strategies amplifying term premium moves.",
+      "originating_agents": ["generalist_02", "macro_strategist_01", "fx_strategist_01"]
+    },
+    {
+      "concept_a": "vol_targeting_transition_amplifier",
+      "concept_b": "correlation_regime_portfolio_impact",
+      "mechanism": "Vol-targeting and risk-parity strategies mechanically amplify correlation regime transitions. When correlation shifts positive, portfolio vol rises, triggering mechanical deleveraging that amplifies the sell-off. The basis trade adds forced selling pressure in Treasuries. No historical precedent exists for these strategies operating during a regime transition.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Amplification is strongest during the transition itself (from negative to positive correlation) and during stress episodes. May be self-limiting if sustained positive correlation causes these strategies to downsize permanently.",
+      "originating_agents": ["generalist_01", "generalist_02", "macro_strategist_01"]
+    },
+    {
+      "concept_a": "output_gap_correlation_instability",
+      "concept_b": "demand_supply_shock_correlation_driver",
+      "mechanism": "Near-zero output gap maximizes the impact of supply shocks (no demand shortfall to absorb them) and puts the economy at the steepest part of the Phillips Curve (convexity). This amplifies the correlation impact of any given shock and increases the probability of regime oscillation.",
+      "direction": "a_causes_b",
+      "confidence": 7,
+      "regime_dependence": "Strongest when output gap is approximately -0.5% to +0.5%. Attenuates with deeply negative gap (2008-09) where demand shocks overwhelmingly dominate or with clearly positive gap.",
+      "originating_agents": ["macro_strategist_01"]
+    },
+    {
+      "concept_a": "geopolitical_supply_fragmentation_premium",
+      "concept_b": "demand_supply_shock_correlation_driver",
+      "mechanism": "Geopolitical fragmentation embeds structural supply-side costs (energy, trade routes, reshoring) that shift the shock mix toward supply-driven. This biases the correlation regime toward positive territory because supply shocks produce positive stock-bond correlation.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "The correlation-relevant question is incremental new shocks, not backward-looking absorbed costs. AI productivity and China overcapacity may offset. Strongest if new fragmentation events occur (e.g., Taiwan Strait crisis).",
+      "originating_agents": ["risk_analyst_02", "fx_strategist_01"]
+    },
+    {
+      "concept_a": "r_star_correlation_uncertainty_mapping",
+      "concept_b": "central_bank_reaction_function_correlation",
+      "mechanism": "The 250bp range of r-star estimates means uncertainty about the neutral rate translates directly into uncertainty about whether current policy is restrictive, neutral, or accommodative. This determines the CB reaction function's effectiveness and thus the correlation regime.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Most important when r-star estimates are in the middle range (1.5-2.0%) where policy stance is ambiguous. Less relevant at extremes where the direction is clear.",
+      "originating_agents": ["macro_strategist_01"]
+    },
+    {
+      "concept_a": "roic_wacc_spread_compression",
+      "concept_b": "equity_valuation_correlation_inconsistency",
+      "mechanism": "Compressed ROIC-WACC spreads create convex equity sensitivity to rates. This means positive correlation regime (rate volatility hits equities harder) should require higher ERP and lower P/E. Current high P/E multiples are inconsistent with compressed spreads under positive correlation.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Relationship strengthens as ROIC-WACC spread narrows further. Less binding for mega-cap tech with wide spreads and net cash.",
+      "originating_agents": ["equity_analyst_02", "challenger_01"]
+    },
+    {
+      "concept_a": "non_gaap_duration_masking",
+      "concept_b": "correlation_regime_portfolio_impact",
+      "mechanism": "Non-GAAP earnings practices understate equity portfolio duration by 30-40%, causing investors to underestimate the true sensitivity of equity portfolios to rate moves. Under positive correlation (rates and equities move together), this hidden duration amplifies losses beyond expectations.",
+      "direction": "a_causes_b",
+      "confidence": 6,
+      "regime_dependence": "Most dangerous during correlation regime transitions when investors are still calibrated to old regime. The masking effect is independent of regime but its consequences are regime-dependent.",
+      "originating_agents": ["equity_analyst_02"]
+    },
+    {
+      "concept_a": "inflation_expectations_anchoring_buffer",
+      "concept_b": "demand_supply_shock_correlation_driver",
+      "mechanism": "Anchored expectations ensure that supply shocks are treated as transitory, limiting their persistence and allowing the demand-shock framework to dominate (negative correlation). De-anchoring causes supply shocks to become persistent, shifting correlation positive as the Phillips Curve steepens.",
+      "direction": "a_causes_b",
+      "confidence": 8,
+      "regime_dependence": "Buffer is currently thin (distribution near upper bound). Breach of Coibion-Gorodnichenko threshold (5Y breakeven divergence >75-100bp for >6 months) would indicate regime transition.",
+      "originating_agents": ["macro_strategist_01", "challenger_01", "generalist_01"]
+    },
+    {
+      "concept_a": "correlation_regime_portfolio_impact",
+      "concept_b": "current_correlation_regime_instability",
+      "mechanism": "Endogeneity feedback loop: positioning for positive correlation creates financial conditions tightening (portfolio vol rises, deleveraging occurs), which itself tightens conditions enough to slow growth and potentially trigger negative correlation reassertion. The positioning contains seeds of its own reversal.",
+      "direction": "bidirectional",
+      "confidence": 6,
+      "regime_dependence": "Feedback loop is strongest when positioning is most extreme and financial conditions are already tight. Less relevant when economic growth is robust enough to absorb tightening.",
+      "originating_agents": ["challenger_01"]
+    },
+    {
+      "concept_a": "fci_mismeasurement",
+      "concept_b": "central_bank_reaction_function_correlation",
+      "mechanism": "If standard FCIs understate tightening under positive correlation, the Fed may believe conditions are easier than they actually are, potentially delaying easing or maintaining restrictive policy longer than warranted. This could inadvertently cause a harder landing, which would flip correlation negative.",
+      "direction": "a_causes_b",
+      "confidence": 5,
+      "regime_dependence": "Only relevant when correlation is positive and the Fed is actively using FCI readings to calibrate policy stance.",
+      "originating_agents": ["rates_strategist_02"]
+    },
+    {
+      "concept_a": "index_concentration_correlation_distortion",
+      "concept_b": "equity_valuation_correlation_inconsistency",
+      "mechanism": "Mega-cap tech concentration in the S&P 500 (~35% weight) may mask stronger positive correlation in the broader market, causing index-level analysis to overstate the hedging benefit of bonds for the average stock position.",
+      "direction": "a_causes_b",
+      "confidence": 5,
+      "regime_dependence": "Distortion grows with concentration. If mega-cap leadership narrows further, index-level correlation becomes less informative for portfolio construction.",
+      "originating_agents": ["generalist_02", "equity_analyst_02"]
+    }
+  ],
+  "frameworks": [
+    {
+      "slug": "nk_structural_decomposition",
+      "purpose": "Derives the stock-bond correlation sign structurally from the type of shock hitting the economy, using the New Keynesian three-equation model rather than empirical pattern-matching.",
+      "components": [
+        "IS Curve: relates output gap to real interest rate — demand shocks shift this curve",
+        "Phillips Curve: relates inflation to output gap — supply shocks shift this curve; convexity near zero output gap amplifies supply shock impact",
+        "Taylor Rule: central bank reaction function with inflation coefficient phi_pi — determines whether CB reinforces or accommodates shocks",
+        "Impulse response sign restrictions: demand shock (output and inflation same direction) → negative correlation under Taylor Rule adherence; supply shock (output and inflation opposite) → positive correlation"
+      ],
+      "current_assessment": "The framework correctly predicted the 2022 correlation flip (supply-shock-dominated) and the subsequent oscillation as shock mix became less clear. Currently near zero output gap with supply-side uncertainty from tariffs and geopolitics, suggesting unstable/oscillating correlation regime. The Phillips Curve is at maximum steepness (convexity), amplifying any supply shock impact.",
+      "limitations": [
+        "Collapses four distinct drivers (inflation uncertainty, monetary policy regime, fiscal stance, risk appetite) into single inflation regime variable",
+        "Assumes stable Taylor Rule coefficient — fiscal dominance may endogenously change the reaction function",
+        "Does not capture maturity-dependent bifurcation without extending to term structure models",
+        "Treats shocks as exogenous — misses endogeneity from financial conditions feedback"
+      ]
+    },
+    {
+      "slug": "term_premium_threshold_framework",
+      "purpose": "Identifies the stock-bond correlation regime by monitoring the level of the ACM term premium relative to historically calibrated thresholds.",
+      "components": [
+        "ACM term premium estimate as primary indicator",
+        "Threshold calibration: ~150bp+ for established positive correlation regime; ~0bp or below for negative regime",
+        "Transition dynamics: term premium crosses thresholds 12-18 months before correlation regime fully establishes",
+        "Supporting indicators: 5Y breakeven inflation, fiscal deficit trajectory, QT pace"
+      ],
+      "current_assessment": "ACM term premium at 50-80bp (early 2026) is consistent with mid-transition but below the ~150bp+ associated with fully-established positive regime. This supports the 'unstable/transitional' characterization. Direction of travel (from -50bp in 2020) is toward positive territory.",
+      "limitations": [
+        "Historical threshold of ~150bp drawn from different market structure — may be lower given leveraged strategies that amplify term premium moves",
+        "Only three historical calibration points — limited statistical power",
+        "Term premium is model-estimated (ACM model), not directly observable — model uncertainty compounds regime uncertainty"
+      ]
+    },
+    {
+      "slug": "regime_conditional_portfolio_construction",
+      "purpose": "Provides asset allocation rules conditional on the identified shock type and correlation regime, rather than using static correlation assumptions.",
+      "components": [
+        "Shock identification step: classify dominant shock as demand, supply, or mixed using Phillips Curve slope and breakeven inflation direction",
+        "Demand shock allocation: long duration bonds (hedge equities), underweight commodities",
+        "Supply shock allocation: short duration bonds + commodities, reduce bond allocation",
+        "Mixed/unstable shock allocation: barbell strategy with front-end bonds (still countercyclical) + commodities + reduced overall leverage",
+        "Non-linearity adjustment: bonds may still rally in severe drawdowns (>15%) but fail in moderate stress (5-10%)"
+      ],
+      "current_assessment": "Current regime is mixed/unstable, favoring the barbell approach. The maturity bifurcation (2Y-SPX negative, 30Y-SPX positive) empirically supports front-end bond allocation over long duration. The 46% portfolio vol increase from correlation shift argues for reduced leverage.",
+      "limitations": [
+        "Shock identification is inherently noisy in real-time",
+        "Drawdown magnitude threshold for bond rally (~15%) is approximate and regime-dependent",
+        "Does not account for vol-targeting and risk-parity amplification effects on transition dynamics",
+        "Requires continuous monitoring and rebalancing — execution costs may be significant"
+      ]
+    },
+    {
+      "slug": "correlation_regime_transition_sequencing",
+      "purpose": "Maps the typical phases of a stock-bond correlation regime transition using historical precedent, providing expected duration and resolution patterns.",
+      "components": [
+        "Phase 1: Initial shock causes sharp correlation break from established regime (weeks to months)",
+        "Phase 2: Oscillation around zero as market re-prices structural vs. transitory shock interpretation (6-18 months)",
+        "Phase 3: Resolution — either settles into new regime or reverts (6-18 months)",
+        "Total transition window: 12-36 months historically",
+        "Resolution catalysts: policy intervention (fiscal consolidation, CB backstop) required in 3 of 4 historical bifurcation episodes"
+      ],
+      "current_assessment": "Currently at ~3 years from the 2022 shock, at the upper end of the 12-36 month historical transition window. The absence of policy intervention (no fiscal consolidation, no explicit CB backstop) suggests either imminent resolution or a genuinely novel unstable equilibrium. The 1993-94 analogue (most similar) resolved through fiscal consolidation — a path currently unavailable.",
+      "limitations": [
+        "Only 3-4 historical precedents — small sample",
+        "Regimes ended for completely different reasons, meaning duration is not drawn from a common generating process",
+        "Current market structure (vol-targeting, basis trade) has no precedent and may alter transition dynamics",
+        "Cannot distinguish between 'imminent resolution' and 'novel unstable equilibrium' ex ante"
+      ]
+    },
+    {
+      "slug": "maturity_bifurcation_decomposition",
+      "purpose": "Explains why different Treasury maturities exhibit different correlation signs with equities by decomposing yields into expectations and term premium components.",
+      "components": [
+        "Short-end (2Y): dominated by expected policy rate path — reflects Taylor Rule, inherently countercyclical, maintains negative equity correlation",
+        "Long-end (30Y): dominated by term premium — reflects fiscal supply dynamics, procyclical under current fiscal policy, positive equity correlation",
+        "Expectations component: mean-reverting, anchored by CB credibility and forward guidance",
+        "Term premium component: driven by supply/demand balance for duration risk — fiscal deficits, QT, foreign reserve management",
+        "Internal consistency test: Fed cannot simultaneously be fully credible (anchoring short end) and fully impotent (losing long end)"
+      ],
+      "current_assessment": "The bifurcation is empirically confirmed across six agents but its causal interpretation is contested. Four alternative explanations (QT mechanics, supply-demand imbalance, foreign investor rebalancing, inflation risk premium) compete with the fiscal dominance interpretation. QT deceleration toward terminal balance sheet (late 2026-2027) provides a natural experiment.",
+      "limitations": [
+        "Expectations vs. term premium decomposition is model-dependent (ACM, KW, etc. give different estimates)",
+        "The 'internal contradiction' identified by challenger_01 has not been fully resolved",
+        "Four precedent episodes provide base rates for resolution but current conditions differ from all precedents",
+        "Fiscal dominance is a continuum, not binary — threshold is unclear"
+      ]
+    }
+  ],
+  "provenance": {
+    "macro_strategist_01": {
+      "claims_made": 12,
+      "claims_survived": 12
+    },
+    "rates_strategist_02": {
+      "claims_made": 7,
+      "claims_survived": 6
+    },
+    "generalist_01": {
+      "claims_made": 7,
+      "claims_survived": 7
+    },
+    "generalist_02": {
+      "claims_made": 11,
+      "claims_survived": 10
+    },
+    "equity_analyst_02": {
+      "claims_made": 10,
+      "claims_survived": 9
+    },
+    "challenger_01": {
+      "claims_made": 10,
+      "claims_survived": 9
+    },
+    "fx_strategist_01": {
+      "claims_made": 7,
+      "claims_survived": 5
+    },
+    "risk_analyst_02": {
+      "claims_made": 10,
+      "claims_survived": 9
+    }
+  },
+  "anti_knowledge": [
+    {
+      "claim": "The dollar cycle is the fundamental driver of stock-bond correlation regimes",
+      "reason": "fx_strategist_01's own analysis states 'the mechanism is inflation expectations' and concedes correlation is 'essentially a derivative of the inflation regime.' If both the dollar and correlation are derivatives of inflation, the dollar is a co-symptom, not a cause. The 2022 counterexample is fatal: DXY strengthened to 114 while positive stock-bond correlation emerged; dollar weakening came after the correlation flip, wrong temporal ordering for causation.",
+      "refuted_by": ["fx_strategist_01", "challenger_01"]
+    },
+    {
+      "claim": "Stock-bond correlation regime persistence base rate is 15-25 years",
+      "reason": "Only three data points (15, 33, 20 years) spanning fundamentally different macro regimes. The range (15-33 years) is nearly unfalsifiable. The three regimes ended for completely different reasons, so duration is not drawn from a common generating process. Should be reframed as: historical regimes lasted at least a full business cycle, and reversal required a policy regime change.",
+      "refuted_by": ["generalist_01", "macro_strategist_01"]
+    },
+    {
+      "claim": "Central banks lost the ability to anchor inflation expectations post-2020",
+      "reason": "Contradicted by data: 5Y breakevens peaked at ~3.0-3.1% briefly in early 2022 and settled at 2.3-2.5% within historical anchored range. The Fed hiked 525bp and inflation dropped from 5.6% to ~2.5-2.8% without recession. This is transmission working with a lag, not impaired transmission. Short-run uncertainty about terminal rate differs from structural loss of anchoring ability.",
+      "refuted_by": ["macro_strategist_01", "challenger_01"]
+    },
+    {
+      "claim": "Contrarian bond trade offers risk-reward ratio of 3:1 to 5:1",
+      "reason": "Ratio depends on unstated timing assumptions and critically fails the stagflation stress test. If recession triggers positive correlation (as in 1973-74 when 60/40 lost -14.7% annually), TLT calls don't pay off because long bonds sell off even as equities fall. The trade fails precisely in the genuine structural break scenario.",
+      "refuted_by": ["risk_analyst_02", "macro_strategist_01"]
+    },
+    {
+      "claim": "Populist policy toolkit is uniformly correlation-positive",
+      "reason": "'Uniformly' is too strong. Immigration restriction's lag structure is highly uncertain. Industrial policy (CHIPS Act, IRA) increases fiscal supply but also increases productive capacity — the supply-side investment channel is potentially deflationary in the medium term (more domestic semiconductor capacity = lower long-run chip costs). Internal contradiction acknowledged but not reconciled.",
+      "refuted_by": ["challenger_01", "macro_strategist_01"]
+    },
+    {
+      "claim": "EUR/USD and USD/JPY are the most informative FX signals for correlation regime anticipation",
+      "reason": "Self-rated at only 5/10 with admission that FX markets incorporate many factors beyond stock-bond correlation. Specific threshold levels lack demonstrated out-of-sample predictive power. The 2022-23 counterexample (DXY peaked near 114 coincident with most positive correlation, contradicting directional claim) is disqualifying.",
+      "refuted_by": ["challenger_01", "generalist_01"]
+    },
+    {
+      "claim": "Reverse-DCF implies precise terminal 10Y yield of 3.5-3.8% with 50-100bp gap",
+      "reason": "Math is mechanically correct but precision is illusory. Result highly sensitive to assumed 11% EPS growth and 4% terminal growth — changes of 1pp in either swing implied rate by 50-100bp. Directional insight (equities implicitly price rate normalization) survives. The specific level and derived gap are point estimates masquerading as findings.",
+      "refuted_by": ["challenger_01", "macro_strategist_01"]
+    }
+  ],
+  "low_confidence": [
+    {
+      "claim": "Stock-bond correlation can serve as an earnings quality factor rotation signal, with high-accruals quintiles outperforming in negative correlation regimes and underperforming in positive correlation regimes",
+      "source_agent": "equity_analyst_02",
+      "needs": "The evidence rests on a single cycle (2020-21 vs. 2022-23) which debate pair_1 identified as a disqualifying n=1 problem. Requires validation across at least 2-3 additional correlation regime transitions with full accruals quintile data. Out-of-sample testing on international markets with different correlation regime histories would strengthen."
+    },
+    {
+      "claim": "Taiwan Strait crisis is the most underpriced geopolitical correlation risk, with a three-phase model from initial safe-haven to supply chain inflation to persistent positive correlation",
+      "source_agent": "risk_analyst_02",
+      "needs": "The 8-12% probability estimate over 3 years is false precision — reasonable analysts disagree by factor of 2-3x. The observation that options markets price Taiwan risk through equity vol but not rate vol or cross-asset correlation is testable and should be verified empirically. Historical analogues for semiconductor supply disruption at this scale are absent."
+    },
+    {
+      "claim": "The 1947-1951 financial repression period is an underappreciated analogue for current conditions given similar debt/GDP (~110% vs ~125%) and elevated CB balance sheets",
+      "source_agent": "generalist_02",
+      "needs": "The critical difference (1947-51 moved toward fiscal surplus; today moves toward larger deficits) fundamentally limits the analogue. Useful for directional guidance on real rate path and equity vs. bond relative performance, but resolution pattern is non-transferable. Requires careful decomposition of which specific mechanisms transfer and which do not."
+    },
+    {
+      "claim": "Global sanctions are driving a correlation regime bifurcation where US/EU shifts positive, China is driven by domestic policy repression, and non-aligned EM offers correlation diversification",
+      "source_agent": "risk_analyst_02",
+      "needs": "Empirical evidence is still accumulating; data quality in Chinese and EM markets is limited. Indian and Brazilian local currency bond correlation properties need systematic measurement. Sanctions compliance and capital controls create practical barriers to exploiting any diversification benefit. Requires multi-year cross-country panel data."
+    },
+    {
+      "claim": "Russia-Ukraine settlement is the most powerful single catalyst for returning to negative stock-bond correlation by collapsing energy risk premium, easing European fiscal pressure, and restoring CB credibility",
+      "source_agent": "risk_analyst_02",
+      "needs": "Geopolitical prediction is inherently low-confidence. Market pricing (~15% settlement probability) may be reasonable or may underweight the tail. The mechanism (simultaneous resolution of multiple positive-correlation drivers) is directionally sound but the probability and timing are unknowable. Useful as scenario input, not probability-weighted positioning."
+    },
+    {
+      "claim": "Standard Financial Conditions Indices systematically understate effective tightening under positive stock-bond correlation by missing VaR-based deleveraging and portfolio vol effects",
+      "source_agent": "rates_strategist_02",
+      "needs": "Single-source finding. Requires empirical measurement of the gap between standard FCI readings and market-implied tightening during confirmed positive correlation episodes. Comparison of Fed FCI, Goldman FCI, and Chicago Fed NFCI behavior during 2022 positive correlation spike would be a natural validation test."
+    }
+  ]
+}

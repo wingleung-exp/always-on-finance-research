@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Correlation regime acts as an earnings quality factor rotation signal, with high-accruals quintile performance flipping between positive and negative correlation regimes.",
+    "source_agent": "equity_analyst_02",
+    "needs": "More than n=1 episode to validate the signal. Out-of-sample testing across additional historical correlation regime transitions. Sector-neutral version to isolate the correlation channel from concurrent factor rotations.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "A Taiwan Strait crisis is the most underpriced geopolitical correlation risk, with options markets pricing Taiwan risk through equity vol but not rate vol or cross-asset correlation.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Better probability estimation methodology (current 8-12% over 3 years is acknowledged false precision). Empirical validation of the three-phase correlation transition model against historical geopolitical disruptions. Testable options market analysis of the equity-rate vol pricing asymmetry.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "The 1947-1951 financial repression period is an underappreciated analogue for the current stock-bond correlation regime.",
+    "source_agent": "generalist_02",
+    "needs": "Analysis of whether opposite fiscal trajectory (surplus then vs deficit now) invalidates the analogue. Corroboration from additional agents. Quantified comparison of CB balance sheet dynamics then vs now.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Sanctions-driven global correlation regime bifurcation is creating distinct US/EU, China, and non-aligned EM correlation blocs.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Sufficient empirical data accumulation to validate the three-bloc framework. Improved EM and Chinese market data quality for reliable correlation measurement. Analysis of practical barriers (capital controls, sanctions compliance) to exploiting cross-bloc diversification.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "A Russia-Ukraine settlement is the most powerful single catalyst for returning to negative stock-bond correlation, with market pricing potentially underweighting this tail at ~15% probability.",
+    "source_agent": "risk_analyst_02",
+    "needs": "Independent geopolitical probability assessment beyond risk_analyst_02's estimate. Analysis of whether partial settlement (frozen conflict) has similar correlation impact to full resolution. Quantification of the energy risk premium and fiscal pressure channels.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  },
+  {
+    "claim": "Standard Financial Conditions Indices systematically mismeasure tightening under positive correlation regimes by treating stock and bond components as independent.",
+    "source_agent": "rates_strategist_02",
+    "needs": "Empirical quantification of the mismeasurement magnitude in basis-point-equivalent terms. Validation against macro outcomes to confirm the mismeasured FCI is actually less predictive. Investigation of whether the Fed internally adjusts for this channel.",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0018"
+  }
+]
