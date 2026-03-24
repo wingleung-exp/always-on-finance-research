@@ -1,0 +1,33 @@
+{
+  "slug": "factor_crowding_extreme_levels",
+  "definition": "Multiple factor crowding metrics are at historically extreme descriptive levels: momentum ENB at 25-35, inter-factor correlation tripled to +0.50-0.60, PC1 explains 45-50% of variance vs 30-35% historically, and value spread at 5th-8th percentile post-1963.",
+  "confidence": 9,
+  "evidence": [
+    "All metrics directly observable from current portfolio data, not model-dependent",
+    "Multi-factor portfolios carry approximately 2x intended AI exposure with zero inter-factor diversification benefit",
+    "Only N=2 comparison points (2007 and 2020) for predictive implications, both structurally different"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Whether extreme crowding unwinds gradually or via sharp de-grossing",
+    "Out-of-sample validation for predictive implications given N=2",
+    "Whether passive flows structurally sustain crowding beyond historical precedent"
+  ],
+  "related_concepts": [
+    "erp_bifurcation_equal_vs_cap_weighted",
+    "breadth_deterioration_stage_1",
+    "passive_indexation_structural_unknown"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

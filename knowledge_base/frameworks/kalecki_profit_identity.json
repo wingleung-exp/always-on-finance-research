@@ -11,9 +11,14 @@
     "Net policy stance calculation (fiscal easing 300-400bp vs monetary tightening 525bp)",
     "Break threshold at ~4.5% GDP deficit where buffer weakens",
     "Full transmission chain: fiscal -> revenue -> EBITDA -> coverage -> OC test -> CLO -> loan demand",
-    "Historical deficit comparison across 5 credit cycle peaks (1989: 2.8%, 2006: 1.9%, current: 6-7%)"
+    "Historical deficit comparison across 5 credit cycle peaks (1989: 2.8%, 2006: 1.9%, current: 6-7%)",
+    "Private investment (AI capex at ~$250B as the entire growth margin)",
+    "Government fiscal deficit ($1.8-2T as level floor)",
+    "Trade balance and foreign savings",
+    "Corporate savings and household savings",
+    "CEO capex decisions as the binding variable (4-5 decision-makers)"
   ],
-  "current_assessment": "Mechanism is certain as accounting tautology. Current deficit at 6-7% provides unprecedented buffer. No prior credit stress episode exceeded 3.5%. Political durability is sole uncertainty. Quantitative precision requires the uncalibrated fiscal-default elasticity parameter.",
+  "current_assessment": "AI capex constitutes the entire growth margin of private investment. Fiscal deficit provides a floor but not growth. Macro regime is a call option on 4-5 capital allocation decisions with no diversification across decision-makers. A 25% capex cut implies $50-60B earnings impact with ±30-50% uncertainty.",
   "limitations": [
     "Behavioral pass-through elasticities are imprecisely estimated",
     "The 2pp consolidation threshold is a heuristic, not precisely calibrated",
@@ -23,15 +28,20 @@
     "Political durability of 6-7% deficits is unpredictable",
     "Does not account for external financing constraints via dollar cycle",
     "Transmission lags at each chain link are unspecified",
-    "Cross-country calibration data has not been applied"
+    "Cross-country calibration data has not been applied",
+    "Specific magnitude estimates carry ±30-50% uncertainty",
+    "Cannot predict CEO decision timing",
+    "DOGE fiscal consolidation as exogenous loop-breaker is unmodeled",
+    "Does not account for multiplier effects or second-round transmission timing"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T09:34:27Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0002",
-    "iter_0050"
+    "iter_0050",
+    "iter_0052"
   ]
 }

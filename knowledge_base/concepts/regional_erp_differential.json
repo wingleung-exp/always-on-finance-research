@@ -1,0 +1,33 @@
+{
+  "slug": "regional_erp_differential",
+  "definition": "US vs rest-of-world ERP differential of 200-500bp favors non-US equities on a 5-7 year horizon. S&P 500 ex-tech vs MSCI EAFE has been roughly flat since 2010, isolating AI as the single driver of US exceptionalism. In every prior instance of a gap exceeding 200bp (2000, 2007, 2015), non-US outperformed over 5-7 years.",
+  "confidence": 7,
+  "evidence": [
+    "Multiple estimation methods converge on the differential",
+    "S&P 500 ex-tech vs MSCI EAFE flat since 2010",
+    "Three prior episodes (2000, 2007, 2015) all saw non-US outperformance at 5-7 year horizon",
+    "Asymmetric payoff under most scenarios"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Whether the N=3 prior episode count provides sufficient statistical confidence",
+    "How large is the carry cost of being early on this trade",
+    "Whether winner-take-all outcome invalidates the mean-reversion assumption"
+  ],
+  "related_concepts": [
+    "erp_compression_cap_weighted",
+    "erp_bifurcation_equal_vs_cap_weighted",
+    "winner_take_all_equilibrium"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "kalecki_profit_identity",
+    "purpose": "Determines whether the macro environment supports or undermines AI capex continuation by grounding analysis in accounting identity rather than pattern-matching",
+    "components": [
+      "Private investment (AI capex at ~$250B as the entire growth margin)",
+      "Government fiscal deficit ($1.8-2T as level floor)",
+      "Trade balance and foreign savings",
+      "Corporate savings and household savings",
+      "CEO capex decisions as the binding variable (4-5 decision-makers)"
+    ],
+    "current_assessment": "AI capex constitutes the entire growth margin of private investment. Fiscal deficit provides a floor but not growth. Macro regime is a call option on 4-5 capital allocation decisions with no diversification across decision-makers. A 25% capex cut implies $50-60B earnings impact with ±30-50% uncertainty.",
+    "limitations": [
+      "Specific magnitude estimates carry ±30-50% uncertainty",
+      "Cannot predict CEO decision timing",
+      "DOGE fiscal consolidation as exogenous loop-breaker is unmodeled",
+      "Does not account for multiplier effects or second-round transmission timing"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "five_stage_boom_bust_sequence",
+    "purpose": "Provides an invariant ordering framework for cycle positioning across technology investment booms, identifying which stage the current AI cycle occupies",
+    "components": [
+      "Stage 1: Breadth deterioration (ACTIVE — confirmed with 800-1200bp equal-weighted underperformance)",
+      "Stage 2: Revenue validation failure (NOT YET TRIGGERED — no major hyperscaler AI revenue disappointment)",
+      "Stage 3: Capex rationalization (requires Stage 2 trigger)",
+      "Stage 4: Credit transmission (6-12 month lag from equity stress)",
+      "Stage 5: Macro contagion"
+    ],
+    "current_assessment": "Stage 1 is active and confirmed. Stage 2 has not triggered. The narrative validation window for Stage 2 is Q3 2026-Q2 2027 (±2-3 quarters). The self-funded capex structure may extend the patience period between stages beyond historical precedent. Stage boundaries are fuzzy but ordering is empirically strong across 7 cataloged episodes.",
+    "limitations": [
+      "Stage boundaries are fuzzy and not precisely identifiable in real-time",
+      "Self-funded capex at 55% passive has no historical precedent",
+      "Specific thresholds (55-65% capex/OCF, 4 quarters ROIC < WACC) are refuted",
+      "Cannot distinguish Stage 1 duration from false positive"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "multi_analogue_composite",
+    "purpose": "Provides a weighted historical comparison framework superior to single-analogue dependence for understanding the AI investment cycle",
+    "components": [
+      "Internet/telecom 1996-2002 at 30% weight (capex structure, revenue validation dynamics)",
+      "Nifty Fifty 1968-1974 at 20% weight (concentration premium, institutional herding, career risk)",
+      "Conglomerate era 1960s-1980s at 15% weight (ROIC dilution despite revenue growth)",
+      "Shale 2010-2016 at 15% weight (self-funded rationalization, external price signal as catalyst)",
+      "Telecom at 10% weight (capex/revenue dynamics, but N=1 for threshold analysis)",
+      "Japan 1990s-2000s at 10% weight (slow-grind duration risk, 13-year underperformance template)"
+    ],
+    "current_assessment": "Composite approach favored over single primary analogue in pair_0 debate. Current cycle has features of each analogue but none dominates. The specific weights are debatable but the composite principle is well-supported. Single-analogue dependence exhibits the selective analogy deployment bias the KB itself identifies.",
+    "limitations": [
+      "Specific weights are subjective and debatable",
+      "Each analogue has materially different macro backdrop",
+      "No analogue features ~55% passive indexation",
+      "Composite approach may underweight the truly novel aspects of the current cycle",
+      "Cross-analogue phase-position averaging produces noise (50-80% range spans nearly entire plausible range)"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "cross_asset_consistency",
+    "purpose": "Detects regime mispricing by comparing implied growth, inflation, and disruption assumptions across equities, rates, credit, and currencies",
+    "components": [
+      "Equity implied structural real growth (>2%)",
+      "Rates implied r* and growth (~1.5-1.8%)",
+      "Credit implied disruption probability (near zero)",
+      "Dollar implied capital flow sustainability",
+      "Winner-take-all equilibrium as fragile partial reconciliation"
+    ],
+    "current_assessment": "Roughly 60% genuine inconsistency across asset classes and 40% artifact of correlated estimation errors from shared input data. Winner-take-all equilibrium partially reconciles: equities right about Mag-7, rates right about broad economy, credit right about no systemic stress. The inconsistency is real but its magnitude as an independent signal is overstated.",
+    "limitations": [
+      "Equity ERP, bond r*, and credit spreads share common input data, partially deflating their independent disagreement",
+      "Different market participants with different mandates process shared data through different loss functions",
+      "Model specification choices affect measured inconsistency",
+      "No formal framework to weight asset class signals against each other"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "small_n_confidence_calibration",
+    "purpose": "Provides statistical discipline for confidence ratings by computing actual confidence intervals from available sample sizes, distinguishing analytical conviction from statistical reliability",
+    "components": [
+      "Sample size assessment for each major claim",
+      "Binomial and bootstrap confidence interval computation",
+      "Power analysis against gradual vs sudden structural shifts",
+      "Separation of descriptive confidence (observable) from predictive confidence (forecasted)",
+      "Systematic comparison of stated confidence vs statistically defensible confidence"
+    ],
+    "current_assessment": "Most KB confidence ratings are inflated relative to statistical reliability. GPT diffusion lag (N=5-6) has 95% CI spanning ~53pp. Value capture (N=6) spans ~49pp. Equity-credit sequencing (N=3-6) spans 55-72pp. The research process needs to formally distinguish analytical conviction from statistical reliability in every confidence rating. TFP structural break tests have only 20-40% power against gradual shifts.",
+    "limitations": [
+      "Cannot replace domain expertise and analytical judgment",
+      "Some claims are grounded in accounting identities or physics, not sample statistics",
+      "Low power against gradual shifts means absence of evidence is not evidence of absence",
+      "Does not address systematic biases in analogue selection"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  }
+]

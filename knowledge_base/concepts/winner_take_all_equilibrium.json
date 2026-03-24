@@ -1,12 +1,15 @@
 {
   "slug": "winner_take_all_equilibrium",
   "definition": "If AI value accrues to 5-7 companies without diffusion, equity concentration is rational, rates are correct (no r* shift), and credit is correct (no disruption). This partially reconciles cross-asset signals but creates macro fragility because the structure becomes systemically load-bearing. The Kalecki mechanism links narrow capex decisions to aggregate profit flows, making the entire macro regime dependent on a small number of corporate investment decisions.",
-  "confidence": 6.5,
+  "confidence": 5.75,
   "evidence": [
     "Partial reconciliation of cross-asset signals identified in iter_0014 at 6/10",
     "generalist_01's Kalecki linkage is logically sound",
     "challenger_02's time-horizon challenge partially weakens inconsistency narrative",
-    "Does not address systemic dependence on narrow capex decisions"
+    "Does not address systemic dependence on narrow capex decisions",
+    "challenger_02 argues it deserves more weight precisely because it is unsatisfying",
+    "generalist_01 rates it at confidence 6.5 as a fragile partial reconciliation",
+    "Currently under-explored relative to its probability"
   ],
   "originating_agents": [
     "generalist_01",
@@ -16,20 +19,27 @@
   "open_questions": [
     "Is the winner-take-all structure stable or inherently fragile?",
     "What mechanism could trigger the transition from stable concentration to cascading unwinding?",
-    "Does the Kalecki dependence on narrow capex create a policy vulnerability?"
+    "Does the Kalecki dependence on narrow capex create a policy vulnerability?",
+    "Whether winner-take-all is stable or transitional",
+    "How to size positions if this is the dominant regime",
+    "Whether value capture concentration eventually triggers antitrust or regulatory response"
   ],
   "related_concepts": [
     "cross_asset_pricing_inconsistency",
     "kalecki_identity_capex_profits",
     "equity_market_concentration",
-    "erp_compression"
+    "erp_compression",
+    "no_tfp_structural_break",
+    "erp_bifurcation_equal_vs_cap_weighted",
+    "regional_erp_differential"
   ],
   "topic": "ai_and_tech_disruption",
   "created_at": "2026-03-23T01:33:48Z",
-  "last_updated": "2026-03-23T01:33:48Z",
+  "last_updated": "2026-03-24T09:34:27Z",
   "originating_iteration": "iter_0015",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0015"
+    "iter_0015",
+    "iter_0052"
   ]
 }

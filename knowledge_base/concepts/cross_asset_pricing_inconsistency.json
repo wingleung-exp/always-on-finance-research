@@ -1,18 +1,18 @@
 {
   "slug": "cross_asset_pricing_inconsistency",
   "definition": "Cross-asset markets are pricing an internally inconsistent labor market narrative. Equities (S&P ~21x forward P/E) price robust consumption at ~4.0% unemployment. Rates (pricing 75-100bp of easing) price enough softening for Fed cuts. These are arithmetically inconsistent without an exogenous positive supply shock. Reverse DCF shows current valuations require either above-target inflation or heroic productivity.",
-  "confidence": 7.33,
+  "confidence": 7.3,
   "evidence": [
-    "Immigration reversal removes the supply-side channel that was the only mechanism for reconciling all three markets simultaneously",
-    "Mag-7 forward P/E 35-40x (non-GAAP)",
-    "10Y TIPS at 2.0-2.2% consistent with 1.5-1.8% trend GDP growth",
-    "Capex-to-revenue ratio has NOT improved despite continued 30-50% capex growth",
     "50bp real rate move = 12-15% Mag-7 fair value change",
     "Mag-7 effective equity duration ~25-30 years at current multiples",
     "Directly observable in current market data across multiple asset classes",
     "Central bank gold buying at 1,000+ tonnes/year",
     "Pair_0 debate: inconsistency is clear but resolution direction is uncertain",
-    "IG spreads ~90-110bp near cycle tights vs ACM term premium at 50-130bp"
+    "IG spreads ~90-110bp near cycle tights vs ACM term premium at 50-130bp",
+    "Different asset classes imply different AI productivity scenarios",
+    "pair_2 debate resolved as roughly 60-40 genuine vs artifactual inconsistency",
+    "Winner-take-all equilibrium serves as a fragile partial reconciliation",
+    "Equity ERP, bond r*, and credit spreads share common input data"
   ],
   "originating_agents": [
     "generalist_01",
@@ -28,14 +28,14 @@
     "credit_analyst_01"
   ],
   "open_questions": [
-    "Which asset class will reprice — equities, rates, or credit?",
-    "Is there a novel mechanism (AI productivity, fiscal expansion) that could reconcile the inconsistency without repricing?",
-    "Does the resolution direction follow any predictable pattern from observables?",
     "Fraction attributable to equilibrium winner-take-all vs mispricing remains undetermined",
     "Whether capex/revenue improving 3+ quarters would resolve the inconsistency",
     "Does inconsistency resolve by credit/equity catching up (widening) or rates/gold reverting (compressing)?",
     "What is the historical timeline for resolution of cross-asset inconsistencies of this magnitude?",
-    "Is the resolution direction an investment thesis or an analytical finding?"
+    "Is the resolution direction an investment thesis or an analytical finding?",
+    "Whether the inconsistency resolves via equities repricing down or rates repricing up",
+    "How much of the independent signal is an artifact of shared methodology",
+    "Whether winner-take-all equilibrium is stable enough to persist"
   ],
   "related_concepts": [
     "labor_market_stagflation_fulcrum",
@@ -70,13 +70,16 @@
     "equity_credit_sequencing",
     "value_spread_asymmetry",
     "carry_trap",
-    "long_duration_bond_underperformance"
+    "long_duration_bond_underperformance",
+    "erp_compression_cap_weighted",
+    "taylor_rule_informationally_empty",
+    "positive_stock_bond_correlation_regime"
   ],
   "topic": "labor_market_dynamics",
   "created_at": "2026-03-22T17:50:48Z",
-  "last_updated": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-24T09:34:27Z",
   "originating_iteration": "iter_0003",
-  "research_iterations": 9,
+  "research_iterations": 10,
   "iteration_history": [
     "iter_0003",
     "iter_0015",
@@ -86,6 +89,7 @@
     "iter_0023",
     "iter_0036",
     "iter_0037",
-    "iter_0038"
+    "iter_0038",
+    "iter_0052"
   ]
 }

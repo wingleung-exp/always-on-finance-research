@@ -4645,5 +4645,98 @@
     ],
     "topic": "commodity_supercycles",
     "iteration_id": "iter_0051"
+  },
+  {
+    "claim": "Equity-credit sequencing 83% hit rate as a statistical base rate",
+    "reason": "Binomial test of 5/6 against 50% null yields p=0.11, failing conventional significance. 3/3 well-documented episodes is even weaker (p=0.125). Episode selection is researcher-defined. The directional intuition survives qualitatively but the specific hit rate and lead time are statistically meaningless.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Value spread signal as historically unambiguous with no negative 5-year outcomes",
+    "reason": "N=5-6 entry points constitutes small N masquerading as a distributional statement. Japan 1990-2010 provides a developed-market counterexample. Expected value is likely positive but the claimed certainty is fictitious.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "SBC reflexivity loop impact of $14-16/share on S&P 500",
+    "reason": "Chain from SBC magnitude to P/E attribution to per-share index impact involves 3+ multiplicative assumptions, each ±30-50% uncertain. Compound error produces a defensible range of ~$5-30/share, not the narrow $14-16 stated. An estimate dressed as a measurement.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Telecom 0.2x capex/revenue ratio as directly monitorable historical threshold",
+    "reason": "Identified post-hoc from a single episode (N=1). Cannot distinguish from any value in the 0.1-0.4x range. No statistical inference is possible from a single observation. Additionally, a 30% change in AI revenue attribution shifts the ratio by a full turn.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Capex/OCF kill zone threshold at 55-65% for self-funded entities",
+    "reason": "Derived from 5 historical analogues, 4 debt-funded, leaving effective N=1 for self-funded entities. Shale calibration shows the financial stress threshold was not the catalyst — the external price signal (oil collapse) was. Should be replaced with bottom-up FCF analysis and revenue validation monitoring.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "60-70% through expansion phase as a meaningful estimate",
+    "reason": "Derived from averaging phase positions across 4 analogues with expansion durations ranging from 5 to 13 years under different macro regimes, market structures, and funding mechanisms. The range across analogues (50-80%) spans nearly the entire plausible range. The central tendency is noise; the wide dispersion is the real information.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Term premium mispricing of 30-60bp",
+    "reason": "Back-of-envelope calculation depends on risk aversion parameter set at 0.1 without justification. Published estimates range from 0.02 to 0.5, producing additional term premium ranging from ~7bp (noise) to ~190bp (implausible). The directional insight survives but the specific range is unfounded.",
+    "refuted_by": [
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Private credit NAV gap of 15-30% in AI-disrupted sectors",
+    "reason": "Derived from 2008 analogues assuming sudden revaluation, but AI disruption has more gradual onset allowing amend-extend-restructure activity. 5-15% portfolio average with a fat tail of individual names at 30%+ is more defensible than 15-30% across the sector.",
+    "refuted_by": [
+      "credit_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Aluminum exposure underappreciated relative to copper for AI data centers",
+    "reason": "The analyst's own numbers show data center copper demand at 2-4% of global consumption vs aluminum at 0.4-1.1%. Copper's AI demand share is 2-4x aluminum's. The comparative claim fails on the analyst's own data.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "claim": "Gas curve seasonality distortion as tradeable",
+    "reason": "$0.30-0.50/MMBtu signal against weather-driven volatility of $1-2/MMBtu is below the noise threshold. Directionally sound as a monitoring variable but calling it tradeable at current signal-to-noise ratios is premature. Reclassified to monitorable.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
   }
 ]

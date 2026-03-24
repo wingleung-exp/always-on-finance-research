@@ -1,0 +1,34 @@
+{
+  "slug": "positive_stock_bond_correlation_regime",
+  "definition": "Rolling stock-bond correlation at +0.15 to +0.35 is observable, driven by a three-force decomposition: AI capex demand-pull, no TFP supply response, and fiscal dominance. This implies 60/40 portfolios carry excess equity-equivalent risk, though the AI-specific contribution cannot be isolated from monetary, fiscal, and geopolitical drivers.",
+  "confidence": 6,
+  "evidence": [
+    "Rolling correlation at +0.15 to +0.35 is observable",
+    "Three-force decomposition is analytically coherent",
+    "Range of -0.2 to +0.4 post-2022 is within historical variation in non-AI periods",
+    "20-30% excess risk estimate challenged as unverifiable without conditioning on leverage and rebalancing"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_01",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Whether the positive correlation regime is primarily AI-driven or fiscal/monetary-driven",
+    "How to decompose portfolio risk between structural and cyclical correlation changes",
+    "Whether hedging alternatives exist at reasonable cost"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_inconsistency",
+    "fed_put_structurally_impaired",
+    "taylor_rule_informationally_empty"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

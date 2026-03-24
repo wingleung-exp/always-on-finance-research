@@ -1,0 +1,234 @@
+[
+  {
+    "concept_a": "erp_bifurcation_equal_vs_cap_weighted",
+    "concept_b": "factor_crowding_extreme_levels",
+    "mechanism": "Mag-7 concentration simultaneously compresses cap-weighted ERP and drives factor crowding through correlated AI exposure across momentum, quality, and growth factors",
+    "direction": "bidirectional",
+    "confidence": 9,
+    "regime_dependence": "Holds as long as AI narrative drives Mag-7 premium and passive flows reinforce concentration",
+    "originating_agents": [
+      "quant_researcher_01",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "self_funded_hyperscaler_capex",
+    "concept_b": "clo_disruption_transmission_channel",
+    "mechanism": "Because investment is equity-funded, credit losses occur in disrupted companies not investing companies — a distribution CLO portfolios were not constructed to absorb. Credit risk is in the wrong layer.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while hyperscalers maintain self-funding capacity and AI disruption accelerates in leveraged sectors",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "kalecki_profit_identity_ai_capex",
+    "concept_b": "breadth_deterioration_stage_1",
+    "mechanism": "AI capex constitutes the entire growth margin of private investment per Kalecki identity. If 4-5 CEOs reduce capex, the macro growth impulse disappears, accelerating breadth deterioration from Stage 1 toward Stage 2.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds while AI capex remains the marginal investment driver and fiscal deficit provides floor but not growth",
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "breadth_deterioration_stage_1",
+    "concept_b": "credit_widening_acceleration_2026_2027",
+    "mechanism": "Equity breadth deterioration leads credit widening by 6-12 months historically. The self-funded capex structure may extend this lag because credit receives no early debt-stress warning signal.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Directional pattern holds historically but specific timing lag is uncertain. Self-funded capex may extend beyond historical range.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "maturity_wall_refinancing_stress",
+    "concept_b": "clo_disruption_transmission_channel",
+    "mechanism": "$150-200B of AI-vulnerable sector maturities hitting 2026-2028 coincides with $250-300B of CLO reinvestment period expirations, creating simultaneous pressure on both borrower refinancing and CLO portfolio rotation capacity.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Calendar-driven: peaks 2026-2028 based on observable maturity and reinvestment schedules",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "basis_trade_crash_channel",
+    "concept_b": "self_funded_hyperscaler_capex",
+    "mechanism": "Self-funding eliminates Minsky sudden-stop, but basis trade at $800B-$1T and 50-100x leverage is the primary channel that could convert the resulting duration risk back into crash risk via Treasury market dislocation.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "Holds while basis trade leverage remains elevated and Treasury market liquidity is thin. SEC central clearing mandate in Q2 2026 may alter dynamics.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "no_tfp_structural_break",
+    "concept_b": "taylor_rule_informationally_empty",
+    "mechanism": "Absence of measurable TFP break creates fundamental uncertainty about r*, which is a key input to the Taylor Rule. The 0.5-2.0% r* range directly produces the uninformative 250bp policy rate band.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds until either a TFP break is measurable (8-12 quarters minimum) or AI productivity effects can be estimated through other channels",
+    "originating_agents": [
+      "rates_strategist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "mag7_triple_margin_headwind",
+    "concept_b": "erp_compression_cap_weighted",
+    "mechanism": "400-700bp margin compression mechanically reduces earnings growth below consensus 15-18% CAGR, which should expand ERP from currently compressed levels unless offset by revenue outperformance.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Timing-dependent: depreciation cliff impact concentrated 2027-2029 based on cumulative capex schedule",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "ai_power_demand_gas_not_oil",
+    "concept_b": "uranium_haleu_supply_bottleneck",
+    "mechanism": "AI data center power demand creates pull for both gas and nuclear. Gas is the near-term solution (no bottleneck except pipeline capacity), while nuclear faces genuine physical HALEU supply constraints that cannot be resolved by price on relevant timescales.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both driven by data center power demand growth. Nuclear constrained by 5-8 year enrichment capacity build time.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "positive_stock_bond_correlation_regime",
+    "concept_b": "fed_put_structurally_impaired",
+    "mechanism": "Positive stock-bond correlation means equity stress coincides with bond weakness (rising yields), compounding the Fed's difficulty in easing without reigniting inflation via the fiscal dominance and AI capex demand-pull channels.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Holds while inflation remains above 2.5% and AI capex demand-pull persists. Would reverse if deflationary recession materializes.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "passive_indexation_structural_unknown",
+    "concept_b": "factor_crowding_extreme_levels",
+    "mechanism": "55% passive share mechanically concentrates flows into the largest names, sustaining and amplifying factor crowding. Unknown whether this creates a stabilizing floor (persistent bid) or amplifying instability (reflexive selling) during unwinding.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Direction of causation inverts depending on flow direction: inflows amplify crowding, outflows could amplify de-crowding. No precedent at current passive share.",
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "ecb_fed_boj_feedback_loop",
+    "concept_b": "regional_erp_differential",
+    "mechanism": "AI adoption asymmetry across US, Europe, and Japan creates structural r* gaps that widen the ERP differential through currency, capital flow, and monetary policy channels.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Holds if AI adoption gap persists and capital flows follow productivity differentials. Could reverse if non-US economies accelerate AI adoption.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "winner_take_all_equilibrium",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Winner-take-all is the scenario that partially reconciles cross-asset pricing: equities are right about Mag-7 (value capture), rates are right about broad economy (no r* shift), credit is right about no systemic stress. Fragile but internally consistent.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds only while value capture remains concentrated and does not diffuse to broad economy. Fragile to regulatory or competitive disruption of concentration.",
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "sec_central_clearing_mandate",
+    "concept_b": "basis_trade_crash_channel",
+    "mechanism": "SEC central clearing mandate in Q2 2026 changes margin and collateral requirements for Treasury basis trade participants, potentially either stabilizing or destabilizing the $800B-$1T position depending on implementation details.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Calendar-specific: Q2 2026 implementation. Effect direction depends on phase-in details and market adaptation.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "clo_disruption_transmission_channel",
+    "concept_b": "basis_trade_crash_channel",
+    "mechanism": "CLO AAA tranche widening could trigger margin calls on basis trade participants holding CLO AAA as collateral, creating a novel cross-market contagion pathway from credit to rates.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Requires simultaneous CLO stress and basis trade leverage. A tail-risk coupling, not a base-case channel.",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "kalecki_profit_identity_ai_capex",
+    "concept_b": "ai_power_demand_gas_not_oil",
+    "mechanism": "Kalecki commodity feedback loop: AI capex rationalization transmits second-order demand effects through employment and investment channels to commodity markets, primarily natural gas given the physics of data center power.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds proportionally to the magnitude of AI capex as a share of total private investment.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "concept_a": "confidence_rating_systematic_inflation",
+    "concept_b": "cross_asset_pricing_inconsistency",
+    "mechanism": "Inflated confidence in individual asset-class models contributes to perceived cross-asset inconsistency. If confidence intervals are properly widened, the asset classes may be less inconsistent than they appear — roughly 40% of the signal is artifactual.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Methodological relationship: always applies when comparing model outputs with shared input data.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "slug": "erp_compression_cap_weighted",
+    "definition": "The cap-weighted equity risk premium is at the 10th-15th percentile of its post-1960 distribution. Conditional 5-year forward nominal returns from this percentile average 3-5% annualized with 35-45% probability of negative real returns.",
+    "confidence": 9,
+    "evidence": [
+      "Largest available sample of ~780 monthly observations over 65 years",
+      "Multiple estimation methods converge: Fed model, DDM, Fama-French",
+      "quant_researcher_01 calls it the single most statistically defensible claim"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether Mag-7 earnings growth can sustain compressed ERP or whether mean-reversion is inevitable",
+      "How long cap-weighted compression can persist while equal-weighted sits at 40th-50th percentile"
+    ],
+    "related_concepts": [
+      "erp_bifurcation_equal_vs_cap_weighted",
+      "mag7_triple_margin_headwind",
+      "regional_erp_differential",
+      "breadth_deterioration_stage_1"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "erp_bifurcation_equal_vs_cap_weighted",
+    "definition": "Equal-weighted ERP sits at the 40th-50th percentile while cap-weighted ERP is at the 10th-15th percentile, meaning the compressed return signal is entirely attributable to Mag-7 concentration. A basket excluding top-10 stocks faces normal expected returns.",
+    "confidence": 9,
+    "evidence": [
+      "Direct comparison of cap-weighted vs equal-weighted ERP distributions",
+      "Bifurcation survived pair_2 debate unchallenged",
+      "Identified as the single most important empirical insight across all eight analyses"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether this bifurcation narrows via Mag-7 compression or broad market re-rating",
+      "Implications for passive vs active allocation"
+    ],
+    "related_concepts": [
+      "erp_compression_cap_weighted",
+      "breadth_deterioration_stage_1",
+      "passive_indexation_structural_unknown",
+      "factor_crowding_extreme_levels"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "no_tfp_structural_break",
+    "definition": "BLS data show no discontinuity in aggregate total factor productivity through early 2026. However, this observation is consistent with both AI not working and AI working but not having diffused, given the KB's own 5-15 year lag framework.",
+    "confidence": 9,
+    "evidence": [
+      "BLS data show no TFP discontinuity",
+      "Structural break tests have only 20-40% power against gradual shifts of 0.3pp/yr or less",
+      "Requires 8-12 quarters to detect gradual shifts",
+      "Confirmed unfalsifiable on bear side and time-bounded on bull side in pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Whether AI productivity gains will materialize within the 5-15 year diffusion window",
+      "Whether TFP is the right metric or whether AI gains manifest in unmeasured channels",
+      "Minimum detectable effect size given current statistical power"
+    ],
+    "related_concepts": [
+      "taylor_rule_informationally_empty",
+      "winner_take_all_equilibrium",
+      "kalecki_profit_identity_ai_capex"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "factor_crowding_extreme_levels",
+    "definition": "Multiple factor crowding metrics are at historically extreme descriptive levels: momentum ENB at 25-35, inter-factor correlation tripled to +0.50-0.60, PC1 explains 45-50% of variance vs 30-35% historically, and value spread at 5th-8th percentile post-1963.",
+    "confidence": 9,
+    "evidence": [
+      "All metrics directly observable from current portfolio data, not model-dependent",
+      "Multi-factor portfolios carry approximately 2x intended AI exposure with zero inter-factor diversification benefit",
+      "Only N=2 comparison points (2007 and 2020) for predictive implications, both structurally different"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether extreme crowding unwinds gradually or via sharp de-grossing",
+      "Out-of-sample validation for predictive implications given N=2",
+      "Whether passive flows structurally sustain crowding beyond historical precedent"
+    ],
+    "related_concepts": [
+      "erp_bifurcation_equal_vs_cap_weighted",
+      "breadth_deterioration_stage_1",
+      "passive_indexation_structural_unknown"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "self_funded_hyperscaler_capex",
+    "definition": "Hyperscaler AI capex is self-funded at OCF/capex ratios of 1.5-1.7x, eliminating the possibility of a Minsky-style creditor-imposed sudden stop. This transforms potential crash risk into duration risk, with Japan 1990s-2000s and energy majors 2010-2014 as slow-grind templates.",
+    "confidence": 8,
+    "evidence": [
+      "OCF/capex at 1.5-1.7x directly observable from filings",
+      "No creditor-imposed stop-loss exists",
+      "Survived all four debates without serious challenge",
+      "Japan TOPIX underperformed MSCI World by ~60% over 13 years as duration risk template",
+      "Energy majors P/E compressed from 14x to 8x without bankruptcy"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Whether revenue disappointment alone can trigger capex rationalization without financial stress",
+      "How long shareholders tolerate declining ROIC before activist pressure materializes",
+      "Whether the basis trade ($800B-$1T at 50-100x leverage) could convert duration risk back to crash risk"
+    ],
+    "related_concepts": [
+      "kalecki_profit_identity_ai_capex",
+      "mag7_triple_margin_headwind",
+      "basis_trade_crash_channel",
+      "clo_disruption_transmission_channel"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "breadth_deterioration_stage_1",
+    "definition": "Market breadth deterioration (Stage 1 of cycle unwinding) is active and confirmed, with equal-weighted S&P 500 underperforming cap-weighted by 800-1200bp. Confirmed across 7+ historical episodes where breadth deterioration preceded broader stress.",
+    "confidence": 8,
+    "evidence": [
+      "Equal-weighted S&P 500 underperformance of 800-1200bp is directly observable",
+      "Confirmed across 7+ historical episodes",
+      "pair_0 debate confirmed as consensus",
+      "Stage 2 (revenue validation failure) has not yet triggered"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "When or whether Stage 2 (revenue validation failure) triggers",
+      "Whether any major hyperscaler reports a quarter with materially disappointing AI revenue growth",
+      "How long Stage 1 can persist without progression"
+    ],
+    "related_concepts": [
+      "erp_bifurcation_equal_vs_cap_weighted",
+      "credit_widening_acceleration_2026_2027",
+      "narrative_validation_window",
+      "five_stage_boom_bust_sequence"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "kalecki_profit_identity_ai_capex",
+    "definition": "The Kalecki profit identity (an irrefutable accounting identity) shows AI capex (~$250B) constitutes the entire growth margin of private investment, making the macro regime dependent on 4-5 CEO capex decisions. The fiscal deficit ($1.8-2T) provides a level floor but not a growth rate.",
+    "confidence": 8,
+    "evidence": [
+      "The identity itself is irrefutable accounting, confirmed in pair_0 debate",
+      "AI capex at ~$250B constitutes entire growth margin of private investment",
+      "Four independent agents engage the framework from different asset-class perspectives",
+      "Specific magnitude estimates ($50-60B earnings impact from 25% cut) carry ±30-50% uncertainty"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "commodities_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Magnitude of earnings impact from capex rationalization (±30-50% uncertainty)",
+      "Whether fiscal deficit changes (DOGE) alter the Kalecki floor",
+      "How quickly capex decisions transmit to broader macro indicators"
+    ],
+    "related_concepts": [
+      "self_funded_hyperscaler_capex",
+      "mag7_triple_margin_headwind",
+      "breadth_deterioration_stage_1",
+      "credit_widening_acceleration_2026_2027"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "ai_power_demand_gas_not_oil",
+    "definition": "AI data center power demand is material for natural gas (150-300+ TWh US load translating to 4-8 Bcf/d incremental gas demand, 15-25% of current power-sector gas burn) but negligible for oil (limited to backup diesel generation at less than 50 kb/d).",
+    "confidence": 8,
+    "evidence": [
+      "Physics and engineering of power delivery",
+      "Not challenged in any debate because the claim is physics-based",
+      "Load growth realization rate uncertain at 30-50% hit rate for announced vs built capacity"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "What percentage of announced data center capacity actually gets built (30-50% hit rate)",
+      "Whether nuclear or renewable buildout reduces incremental gas demand",
+      "Regional infrastructure constraints on gas delivery to data center clusters"
+    ],
+    "related_concepts": [
+      "uranium_haleu_supply_bottleneck",
+      "gas_seasonality_compression",
+      "kalecki_profit_identity_ai_capex"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "confidence_rating_systematic_inflation",
+    "definition": "The research process's confidence ratings exhibit systematic inflation (median 7, mean 7.1, 35%+ at 7-8, only 11% below 5.5) and over-reliance on small samples. Actual confidence intervals computed for key concepts span 49-72 percentage points, far wider than stated ratings imply.",
+    "confidence": 8,
+    "evidence": [
+      "challenger_02 documented confidence distribution: median 7, mean 7.1",
+      "quant_researcher_01 computed actual CIs: GPT diffusion lag N=5-6 spans ~53pp, value capture N=6 spans ~49pp, equity-credit sequencing N=3-6 spans 55-72pp",
+      "Identified as the most important methodological criticism in the entire exchange",
+      "Survived pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "How to formally distinguish analytical conviction from statistical reliability",
+      "Whether a probability-weighted expected return framework could aggregate disparate mechanisms",
+      "How to implement systematic calibration testing for time-bounded predictions"
+    ],
+    "related_concepts": [
+      "erp_compression_cap_weighted",
+      "cross_asset_pricing_inconsistency"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "mag7_triple_margin_headwind",
+    "definition": "Mag-7 faces 400-700bp operating margin compression by 2027-2029 from three sources: depreciation cliff ($70-120B from $500B+ cumulative AI capex), useful-life extension exhaustion ($8-12B annual boost ending), and energy cost escalation. Current consensus 15-18% EPS CAGR for 7-10 years is inconsistent with this magnitude unless revenue exceeds expectations by 400-700bp annually.",
+    "confidence": 8,
+    "evidence": [
+      "Depreciation cliff from $500B+ cumulative AI capex creates $70-120B headwind",
+      "Useful-life extension accounting boost of $8-12B annually is ending",
+      "Not challenged on accounting mechanics in pair_2 debate"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether revenue growth can offset 400-700bp margin compression",
+      "Precise timing of depreciation cliff impact",
+      "Whether useful-life assumptions get further extended"
+    ],
+    "related_concepts": [
+      "erp_compression_cap_weighted",
+      "self_funded_hyperscaler_capex",
+      "kalecki_profit_identity_ai_capex",
+      "breadth_deterioration_stage_1"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "cross_asset_pricing_inconsistency",
+    "definition": "Equities price >2% structural real growth, rates price ~1.5-1.8%, credit prices no disruption, and the dollar prices sustained inflows. Roughly 60% genuine inconsistency and 40% artifact of correlated estimation errors from shared input data across asset classes.",
+    "confidence": 7,
+    "evidence": [
+      "Different asset classes imply different AI productivity scenarios",
+      "pair_2 debate resolved as roughly 60-40 genuine vs artifactual inconsistency",
+      "Winner-take-all equilibrium serves as a fragile partial reconciliation",
+      "Equity ERP, bond r*, and credit spreads share common input data"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Whether the inconsistency resolves via equities repricing down or rates repricing up",
+      "How much of the independent signal is an artifact of shared methodology",
+      "Whether winner-take-all equilibrium is stable enough to persist"
+    ],
+    "related_concepts": [
+      "erp_compression_cap_weighted",
+      "taylor_rule_informationally_empty",
+      "positive_stock_bond_correlation_regime",
+      "winner_take_all_equilibrium"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "credit_widening_acceleration_2026_2027",
+    "definition": "Two independent methodologies converge on H2 2026-H1 2027 as the window for credit spread widening acceleration: equity-credit 6-12 month lead from mid-2025 breadth signals and cross-analogue 18-24 month lag from Stage 1 to Stage 4. The directional pattern is reasonable but specific timing and hit rates cannot be defended at high confidence.",
+    "confidence": 6,
+    "evidence": [
+      "Two independent timing methodologies converge on same calendar window",
+      "Legacy media equity down 25-30% while IG at 120-180bp represents negative equity-credit basis exceeding 2-sigma",
+      "The 83% hit rate was statistically demolished (p=0.11)",
+      "Self-funded capex structure means credit receives no early debt-stress warning"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Whether self-funded capex structure extends equity-to-credit transmission lag beyond historical precedent",
+      "Which specific sectors show credit stress first",
+      "Whether the maturity wall or CLO mechanics is the primary credit transmission channel"
+    ],
+    "related_concepts": [
+      "breadth_deterioration_stage_1",
+      "maturity_wall_refinancing_stress",
+      "clo_disruption_transmission_channel",
+      "self_funded_hyperscaler_capex"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "regional_erp_differential",
+    "definition": "US vs rest-of-world ERP differential of 200-500bp favors non-US equities on a 5-7 year horizon. S&P 500 ex-tech vs MSCI EAFE has been roughly flat since 2010, isolating AI as the single driver of US exceptionalism. In every prior instance of a gap exceeding 200bp (2000, 2007, 2015), non-US outperformed over 5-7 years.",
+    "confidence": 7,
+    "evidence": [
+      "Multiple estimation methods converge on the differential",
+      "S&P 500 ex-tech vs MSCI EAFE flat since 2010",
+      "Three prior episodes (2000, 2007, 2015) all saw non-US outperformance at 5-7 year horizon",
+      "Asymmetric payoff under most scenarios"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether the N=3 prior episode count provides sufficient statistical confidence",
+      "How large is the carry cost of being early on this trade",
+      "Whether winner-take-all outcome invalidates the mean-reversion assumption"
+    ],
+    "related_concepts": [
+      "erp_compression_cap_weighted",
+      "erp_bifurcation_equal_vs_cap_weighted",
+      "winner_take_all_equilibrium"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "positive_stock_bond_correlation_regime",
+    "definition": "Rolling stock-bond correlation at +0.15 to +0.35 is observable, driven by a three-force decomposition: AI capex demand-pull, no TFP supply response, and fiscal dominance. This implies 60/40 portfolios carry excess equity-equivalent risk, though the AI-specific contribution cannot be isolated from monetary, fiscal, and geopolitical drivers.",
+    "confidence": 6,
+    "evidence": [
+      "Rolling correlation at +0.15 to +0.35 is observable",
+      "Three-force decomposition is analytically coherent",
+      "Range of -0.2 to +0.4 post-2022 is within historical variation in non-AI periods",
+      "20-30% excess risk estimate challenged as unverifiable without conditioning on leverage and rebalancing"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Whether the positive correlation regime is primarily AI-driven or fiscal/monetary-driven",
+      "How to decompose portfolio risk between structural and cyclical correlation changes",
+      "Whether hedging alternatives exist at reasonable cost"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "fed_put_structurally_impaired",
+      "taylor_rule_informationally_empty"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "fed_put_structurally_impaired",
+    "definition": "The Fed's ability to respond to equity stress is constrained by current inflation. Policy response ratio is compressed to 1.5-2.5x vs historical 3.5x average, and core inflation at 2.5-3.5% limits easing capacity to ~150-250bp. The 1973-74 analogue (Fed unable to ease for 12+ months despite 45% equity drawdown) represents the tail scenario.",
+    "confidence": 6,
+    "evidence": [
+      "Policy response ratio compressed to 1.5-2.5x vs historical 3.5x average",
+      "Core inflation at 2.5-3.5% limits easing capacity",
+      "1973-74 analogue as tail scenario precedent",
+      "pair_3 debate noted Fed crisis creativity historically underestimated"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether the Fed would invent new tools as in 2008 (TALF/CPFF) and 2020 (corporate bond buying)",
+      "Whether inflation moderates enough to restore conventional easing capacity",
+      "How the SEC central clearing mandate interacts with Fed crisis response options"
+    ],
+    "related_concepts": [
+      "taylor_rule_informationally_empty",
+      "basis_trade_crash_channel",
+      "positive_stock_bond_correlation_regime"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "clo_disruption_transmission_channel",
+    "definition": "CLOs have 15-25% estimated AI-vulnerable sector exposure, with $250-300B of 2021-2022 vintage reinvestment periods expiring in 2026-2027. CLOs represent 60-65% of leveraged loan demand. The nonlinear pathway runs from OC test failures to cash flow diversion to reduced CLO formation to marginal demand loss. This is a plausible tail-risk mechanism, not a base-case transmission channel.",
+    "confidence": 6,
+    "evidence": [
+      "CLOs represent 60-65% of leveraged loan demand",
+      "$250-300B of 2021-2022 vintage reinvestment periods expiring 2026-2027",
+      "2015-2016 energy cycle saw 15%+ sector defaults without CLO arbitrage collapse",
+      "15-25% sector exposure estimate is self-admittedly unvalidated"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Validated AI-vulnerable sector exposure percentage in CLO portfolios",
+      "Whether CLO manager flexibility to rotate during reinvestment periods mitigates the risk sufficiently",
+      "Whether CLO AAA widening could trigger margin calls on basis trade participants (cross-market contagion)"
+    ],
+    "related_concepts": [
+      "maturity_wall_refinancing_stress",
+      "basis_trade_crash_channel",
+      "self_funded_hyperscaler_capex",
+      "credit_widening_acceleration_2026_2027"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "uranium_haleu_supply_bottleneck",
+    "definition": "HALEU supply is genuinely physically constrained: Centrus produces ~900 kg/yr vs 40+ tonnes needed by 2030. Russia controls 35-40% of global enrichment and enrichment capacity takes 5-8 years to build. This is a physical bottleneck not solvable by price on relevant timescales.",
+    "confidence": 7,
+    "evidence": [
+      "Centrus production of ~900 kg HALEU/yr vs 40+ tonnes needed by 2030",
+      "Russia controls 35-40% of global enrichment capacity",
+      "Enrichment capacity takes 5-8 years to build",
+      "Not challenged in any debate"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Whether 5-10 GW of nuclear renaissance demand actually materializes",
+      "Whether alternative enrichment technologies accelerate the timeline",
+      "Geopolitical risks to Russian enrichment supply"
+    ],
+    "related_concepts": [
+      "ai_power_demand_gas_not_oil",
+      "kalecki_profit_identity_ai_capex"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "maturity_wall_refinancing_stress",
+    "definition": "$150-200B of leveraged loans and HY bonds in AI-vulnerable sectors mature 2026-2028. Refinancing at 200-400bp wider than existing coupons converts AI revenue uncertainty into immediate cash flow stress regardless of whether AI actually displaces the business within the maturity window.",
+    "confidence": 7,
+    "evidence": [
+      "Observable maturity schedules make it monitorable",
+      "Refinancing at 200-400bp wider is based on current spread environment",
+      "Mechanism converts secular uncertainty into acute refinancing stress",
+      "Supported in pair_1 debate as credit_analyst_02's sharpest insight"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Which specific sectors and issuers face the most acute refinancing pressure",
+      "Whether amend-extend-restructure activity delays the stress",
+      "How maturity wall interacts with CLO reinvestment period expirations"
+    ],
+    "related_concepts": [
+      "clo_disruption_transmission_channel",
+      "credit_widening_acceleration_2026_2027",
+      "self_funded_hyperscaler_capex"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "taylor_rule_informationally_empty",
+    "definition": "With r* range of 0.5-2.0%, inflation measurement ambiguity of ±100bp, and output gap uncertainty of ±100bp, the Taylor Rule prescribes a rate range of 3.0-5.5% — a 250bp band that provides no actionable policy guidance. The Fed is effectively flying without instruments.",
+    "confidence": 7,
+    "evidence": [
+      "Arithmetic is straightforward and SEP dot dispersion is observable data",
+      "pair_3 debate acknowledged as one of the strongest findings",
+      "AI capex creates r* uncertainty that drives the wide band"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Whether alternative policy frameworks can replace Taylor Rule guidance",
+      "How the Fed communicates policy under Knightian uncertainty vs quantifiable risk",
+      "Whether forward guidance becomes vacuous when the state space itself is uncertain"
+    ],
+    "related_concepts": [
+      "fed_put_structurally_impaired",
+      "positive_stock_bond_correlation_regime",
+      "no_tfp_structural_break",
+      "ecb_fed_boj_feedback_loop"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "basis_trade_crash_channel",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) is the primary channel by which duration risk in self-funded AI investment could convert to crash risk. Interacts with international flow reversal ($300-500B) in a multiplicative, not additive, fashion under joint activation scenarios.",
+    "confidence": 7,
+    "evidence": [
+      "Basis trade size of $800B-$1T at 50-100x leverage",
+      "International flow reversal estimated at $300-500B",
+      "pair_0 debate concluded neither channel dominates; the combination is worse than either alone",
+      "Joint activation scenario is multiplicative"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether SEC central clearing mandate (Q2 2026) changes basis trade dynamics",
+      "Probability of joint activation of basis trade stress and international flow reversal",
+      "Whether Fed crisis tools can address Treasury market dislocation fast enough"
+    ],
+    "related_concepts": [
+      "self_funded_hyperscaler_capex",
+      "fed_put_structurally_impaired",
+      "sec_central_clearing_mandate",
+      "clo_disruption_transmission_channel"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "winner_take_all_equilibrium",
+    "definition": "A scenario where bears are right about the broad economy (no TFP), bulls are right about specific companies (value capture), and rates are right (no r* shift). This denies clean narratives to every analytical perspective and may be under-explored because it is analytically unsatisfying to all camps.",
+    "confidence": 5,
+    "evidence": [
+      "challenger_02 argues it deserves more weight precisely because it is unsatisfying",
+      "generalist_01 rates it at confidence 6.5 as a fragile partial reconciliation",
+      "Currently under-explored relative to its probability"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Whether winner-take-all is stable or transitional",
+      "How to size positions if this is the dominant regime",
+      "Whether value capture concentration eventually triggers antitrust or regulatory response"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_inconsistency",
+      "no_tfp_structural_break",
+      "erp_bifurcation_equal_vs_cap_weighted",
+      "regional_erp_differential"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "passive_indexation_structural_unknown",
+    "definition": "At ~55% of AUM, passive indexation during a potential unwinding phase has no historical precedent (2000 was ~15-20%). Whether this makes unwinding slower or more violent is a first-order uncertainty with zero empirical calibration that affects every position-sizing decision.",
+    "confidence": 4,
+    "evidence": [
+      "No analogue in any agent's library has ~55% passive during unwinding",
+      "2022 drawdown (~25-30%) was not accompanied by fundamental narrative fracture",
+      "No resolution from any debate"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether passive flows create reflexive feedback loops that amplify moves in both directions",
+      "How 0DTE gamma and declining top-of-book depth interact with passive outflows",
+      "Whether systematic strategies have sufficient circuit-breaker mechanisms"
+    ],
+    "related_concepts": [
+      "factor_crowding_extreme_levels",
+      "breadth_deterioration_stage_1",
+      "erp_bifurcation_equal_vs_cap_weighted"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "narrative_validation_window",
+    "definition": "Cross-analogue analysis suggests a narrative validation window opening Q3 2026-Q2 2027, derived from a consistent 3-5 year patience period pattern. Q4 2026 and Q1 2027 earnings cycles are the highest-probability catalysts for Stage 2 resolution, with uncertainty of ±2-3 quarters.",
+    "confidence": 5,
+    "evidence": [
+      "Consistent 3-5 year patience period pattern across analogues",
+      "Self-funded nature may extend patience beyond prior precedents",
+      "Operationally useful as monitoring focus even at low confidence"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Whether self-funded capex extends the patience period beyond historical precedent",
+      "Which specific metrics would confirm or deny Stage 2 activation",
+      "Whether AI revenue measurement ambiguity delays narrative resolution"
+    ],
+    "related_concepts": [
+      "breadth_deterioration_stage_1",
+      "self_funded_hyperscaler_capex",
+      "credit_widening_acceleration_2026_2027"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "ecb_fed_boj_feedback_loop",
+    "definition": "AI capex/GDP differentials (1.0% US vs 0.15-0.2% eurozone vs 0.1-0.3% Japan) create structural r* gaps that drive currency depreciation, imported inflation, constrained easing, wider growth gaps, and amplified capital outflows in a self-reinforcing loop.",
+    "confidence": 4,
+    "evidence": [
+      "AI capex/GDP differentials are observable",
+      "USD/JPY > 150 despite BOJ hikes provides partial corroboration",
+      "Identified as the most original contribution in either analysis in pair_3 debate",
+      "Not corroborated by any other agent"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Whether AI adoption asymmetry is the primary driver vs demographics, fiscal stance, and productivity differentials",
+      "Whether non-US economies can close the AI adoption gap",
+      "Testable predictions for the next 12-18 months"
+    ],
+    "related_concepts": [
+      "taylor_rule_informationally_empty",
+      "no_tfp_structural_break",
+      "regional_erp_differential",
+      "fed_put_structurally_impaired"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "sec_central_clearing_mandate",
+    "definition": "The SEC central clearing mandate scheduled for Q2 2026 is a calendar-identifiable catalyst that interacts with basis trade vulnerability. It changes collateral and margin requirements for Treasury market participants.",
+    "confidence": 7,
+    "evidence": [
+      "Regulatory mandate with fixed implementation date",
+      "Directly interacts with basis trade mechanics",
+      "Identified as concrete and immediately portfolio-relevant"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Whether implementation is delayed or phased",
+      "Net effect on basis trade leverage and stability",
+      "Whether clearing mandate reduces or redistributes systemic risk"
+    ],
+    "related_concepts": [
+      "basis_trade_crash_channel",
+      "fed_put_structurally_impaired"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "insurance_capital_amplification",
+    "definition": "NAIC RBC charge step-function increases 3-8x on IG-to-sub-IG downgrade. With insurance private credit allocation at $300-400B, a 5-10% migration rate could produce $15-40B in capital charges, creating a novel amplification channel entirely absent from other analyses.",
+    "confidence": 4,
+    "evidence": [
+      "NAIC RBC charge step-function is regulatory fact",
+      "Private credit allocation at $300-400B is an estimate",
+      "Identified in pair_1 debate as entirely absent from the KB"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Actual credit migration rates for AI-disruption scenarios",
+      "Whether insurance companies have hedged or diversified enough to absorb charges",
+      "Interaction with semi-liquid private credit vehicle liquidity"
+    ],
+    "related_concepts": [
+      "clo_disruption_transmission_channel",
+      "maturity_wall_refinancing_stress",
+      "semi_liquid_credit_liquidity_mismatch"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "pik_toggle_minsky_indicator",
+    "definition": "PIK toggle activation rate at 8-12% vs 2-4% historical baseline maps analytically to the speculative-to-Ponzi transition in Minsky's financial instability framework. Data is fragmentary, with BDC filings providing partial data and non-traded vehicles opaque.",
+    "confidence": 4,
+    "evidence": [
+      "Analytically elegant mapping of PIK activation to Minsky framework",
+      "BDC filings provide partial confirmation",
+      "Difference between 8% and 15% activation fundamentally changes classification"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Comprehensive PIK activation data across traded and non-traded vehicles",
+      "Whether current activation rates have accelerated",
+      "Threshold level that confirms Ponzi phase transition"
+    ],
+    "related_concepts": [
+      "clo_disruption_transmission_channel",
+      "maturity_wall_refinancing_stress",
+      "ai_synergy_ebitda_addbacks"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "ai_synergy_ebitda_addbacks",
+    "definition": "15-25% EBITDA addbacks for AI-enabled operational improvements with no historical validation, layered on 25-40% aggregate addbacks, render reported 5-6x leverage effectively 7-9x on cash-basis EBITDA.",
+    "confidence": 5,
+    "evidence": [
+      "Addback practices documented by Moody's and S&P",
+      "Consistent with historical addback innovation patterns (run-rate, COVID recovery)",
+      "Not corroborated by other agents but also not challenged"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Whether AI synergy addbacks are growing as a percentage of total",
+      "How rating agencies will treat these addbacks over time",
+      "Whether addback-adjusted leverage is a reliable credit stress indicator"
+    ],
+    "related_concepts": [
+      "maturity_wall_refinancing_stress",
+      "pik_toggle_minsky_indicator",
+      "clo_disruption_transmission_channel"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "semi_liquid_credit_liquidity_mismatch",
+    "definition": "Semi-liquid private credit vehicles totaling an estimated $200-300B have a structural liquidity mismatch analogous to auction-rate securities in 2008. A coordination-game dynamic could trigger if retail investors face first-time gates.",
+    "confidence": 3,
+    "evidence": [
+      "Auction-rate securities 2008 analogy is structurally apt",
+      "Coordination-game framing is correct",
+      "Vehicle size estimates have wide bands",
+      "Investor base differs materially from 2008"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Actual vehicle sizes and redemption terms",
+      "Behavioral assumptions about retail investor response to first-time gates",
+      "Whether regulatory intervention would prevent a coordination failure"
+    ],
+    "related_concepts": [
+      "insurance_capital_amplification",
+      "clo_disruption_transmission_channel",
+      "maturity_wall_refinancing_stress"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "gas_seasonality_compression",
+    "definition": "Summer-winter natural gas spread compression of $0.30-0.50/MMBtu observed in PJM-adjacent delivery points, driven by data center baseload demand. Signal is below the noise threshold for seasonal gas trading where weather creates $1-2/MMBtu swings.",
+    "confidence": 4,
+    "evidence": [
+      "$0.30-0.50/MMBtu compression observed at PJM-adjacent delivery points",
+      "Directional thesis is sound",
+      "Downgraded from tradeable to monitorable in pair_1 debate"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Whether signal-to-noise ratio improves as data center demand grows",
+      "Which specific delivery points show the clearest signal",
+      "When the signal becomes tradeable vs merely monitorable"
+    ],
+    "related_concepts": [
+      "ai_power_demand_gas_not_oil",
+      "uranium_haleu_supply_bottleneck"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  },
+  {
+    "slug": "qt_effectiveness_halved",
+    "definition": "Hypothesis that QT tightening of ~50-75bp is offset by AI equity easing of ~100-150bp through the FCI equity component, making QT roughly half as effective as Fed models suggest.",
+    "confidence": 4,
+    "evidence": [
+      "Directionally plausible based on FCI decomposition",
+      "GS FCI decomposition methodology is not public",
+      "Specific magnitudes carry ±40% estimation error",
+      "Not corroborated or tested by other agents"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Whether the FCI equity offset is measurable with public data",
+      "Whether Fed staff models already account for this channel",
+      "How the offset changes if equity prices decline"
+    ],
+    "related_concepts": [
+      "taylor_rule_informationally_empty",
+      "fed_put_structurally_impaired",
+      "positive_stock_bond_correlation_regime"
+    ],
+    "topic": "ai_and_tech_disruption",
+    "iteration_id": "iter_0052"
+  }
+]

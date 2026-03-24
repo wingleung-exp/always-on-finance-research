@@ -1,0 +1,26 @@
+{
+  "slug": "cross_asset_consistency",
+  "purpose": "Detects regime mispricing by comparing implied growth, inflation, and disruption assumptions across equities, rates, credit, and currencies",
+  "components": [
+    "Equity implied structural real growth (>2%)",
+    "Rates implied r* and growth (~1.5-1.8%)",
+    "Credit implied disruption probability (near zero)",
+    "Dollar implied capital flow sustainability",
+    "Winner-take-all equilibrium as fragile partial reconciliation"
+  ],
+  "current_assessment": "Roughly 60% genuine inconsistency across asset classes and 40% artifact of correlated estimation errors from shared input data. Winner-take-all equilibrium partially reconciles: equities right about Mag-7, rates right about broad economy, credit right about no systemic stress. The inconsistency is real but its magnitude as an independent signal is overstated.",
+  "limitations": [
+    "Equity ERP, bond r*, and credit spreads share common input data, partially deflating their independent disagreement",
+    "Different market participants with different mandates process shared data through different loss functions",
+    "Model specification choices affect measured inconsistency",
+    "No formal framework to weight asset class signals against each other"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

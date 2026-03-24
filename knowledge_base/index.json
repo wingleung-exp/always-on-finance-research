@@ -469,8 +469,8 @@
       "type": "framework",
       "slug": "kalecki_profit_identity",
       "confidence": 0,
-      "last_updated": "2026-03-24T08:49:12Z",
-      "research_iterations": 2,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 3,
       "topic": "growth_models"
     },
     "framework:minsky_kalecki_credit_timing": {
@@ -660,9 +660,9 @@
     "concept:cross_asset_pricing_inconsistency": {
       "type": "concept",
       "slug": "cross_asset_pricing_inconsistency",
-      "confidence": 7.33,
-      "last_updated": "2026-03-23T13:52:24Z",
-      "research_iterations": 9,
+      "confidence": 7.3,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 10,
       "topic": "labor_market_dynamics"
     },
     "concept:phillips_curve_regime_dependence": {
@@ -3908,9 +3908,9 @@
     "concept:winner_take_all_equilibrium": {
       "type": "concept",
       "slug": "winner_take_all_equilibrium",
-      "confidence": 6.5,
-      "last_updated": "2026-03-23T01:33:48Z",
-      "research_iterations": 1,
+      "confidence": 5.75,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 2,
       "topic": "ai_and_tech_disruption"
     },
     "concept:depreciation_catch_up_headwind": {
@@ -4212,9 +4212,9 @@
     "relationship:cross_asset_pricing_inconsistency__winner_take_all_equilibrium": {
       "type": "relationship",
       "slug": "cross_asset_pricing_inconsistency__winner_take_all_equilibrium",
-      "confidence": 6.5,
-      "last_updated": "2026-03-23T01:33:48Z",
-      "research_iterations": 1,
+      "confidence": 5.75,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 2,
       "topic": "ai_and_tech_disruption"
     },
     "relationship:credit_channel_bifurcation__fed_ai_r_star_trilemma": {
@@ -13228,9 +13228,9 @@
     "concept:sec_central_clearing_mandate": {
       "type": "concept",
       "slug": "sec_central_clearing_mandate",
-      "confidence": 4,
-      "last_updated": "2026-03-23T11:56:19Z",
-      "research_iterations": 1,
+      "confidence": 5.5,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 2,
       "topic": "credit_equity_linkage"
     },
     "relationship:ebitda_addbacks_covenant_lite__maturity_wall": {
@@ -19112,6 +19112,382 @@
       "last_updated": "2026-03-24T09:15:33Z",
       "research_iterations": 1,
       "topic": "commodity_supercycles"
+    },
+    "concept:erp_compression_cap_weighted": {
+      "type": "concept",
+      "slug": "erp_compression_cap_weighted",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:ai_synergy_ebitda_addbacks": {
+      "type": "concept",
+      "slug": "ai_synergy_ebitda_addbacks",
+      "confidence": 5,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:pik_toggle_minsky_indicator": {
+      "type": "concept",
+      "slug": "pik_toggle_minsky_indicator",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:gas_seasonality_compression": {
+      "type": "concept",
+      "slug": "gas_seasonality_compression",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:ai_power_demand_gas_not_oil": {
+      "type": "concept",
+      "slug": "ai_power_demand_gas_not_oil",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:credit_widening_acceleration_2026_2027": {
+      "type": "concept",
+      "slug": "credit_widening_acceleration_2026_2027",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:fed_put_structurally_impaired": {
+      "type": "concept",
+      "slug": "fed_put_structurally_impaired",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:confidence_rating_systematic_inflation": {
+      "type": "concept",
+      "slug": "confidence_rating_systematic_inflation",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:qt_effectiveness_halved": {
+      "type": "concept",
+      "slug": "qt_effectiveness_halved",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:clo_disruption_transmission_channel": {
+      "type": "concept",
+      "slug": "clo_disruption_transmission_channel",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:erp_bifurcation_equal_vs_cap_weighted": {
+      "type": "concept",
+      "slug": "erp_bifurcation_equal_vs_cap_weighted",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:regional_erp_differential": {
+      "type": "concept",
+      "slug": "regional_erp_differential",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:uranium_haleu_supply_bottleneck": {
+      "type": "concept",
+      "slug": "uranium_haleu_supply_bottleneck",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:narrative_validation_window": {
+      "type": "concept",
+      "slug": "narrative_validation_window",
+      "confidence": 5,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:taylor_rule_informationally_empty": {
+      "type": "concept",
+      "slug": "taylor_rule_informationally_empty",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:mag7_triple_margin_headwind": {
+      "type": "concept",
+      "slug": "mag7_triple_margin_headwind",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:maturity_wall_refinancing_stress": {
+      "type": "concept",
+      "slug": "maturity_wall_refinancing_stress",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:basis_trade_crash_channel": {
+      "type": "concept",
+      "slug": "basis_trade_crash_channel",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:no_tfp_structural_break": {
+      "type": "concept",
+      "slug": "no_tfp_structural_break",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:factor_crowding_extreme_levels": {
+      "type": "concept",
+      "slug": "factor_crowding_extreme_levels",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:kalecki_profit_identity_ai_capex": {
+      "type": "concept",
+      "slug": "kalecki_profit_identity_ai_capex",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:positive_stock_bond_correlation_regime": {
+      "type": "concept",
+      "slug": "positive_stock_bond_correlation_regime",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:self_funded_hyperscaler_capex": {
+      "type": "concept",
+      "slug": "self_funded_hyperscaler_capex",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:insurance_capital_amplification": {
+      "type": "concept",
+      "slug": "insurance_capital_amplification",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:breadth_deterioration_stage_1": {
+      "type": "concept",
+      "slug": "breadth_deterioration_stage_1",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:passive_indexation_structural_unknown": {
+      "type": "concept",
+      "slug": "passive_indexation_structural_unknown",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "concept:ecb_fed_boj_feedback_loop": {
+      "type": "concept",
+      "slug": "ecb_fed_boj_feedback_loop",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:factor_crowding_extreme_levels__passive_indexation_structural_unknown": {
+      "type": "relationship",
+      "slug": "factor_crowding_extreme_levels__passive_indexation_structural_unknown",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:erp_bifurcation_equal_vs_cap_weighted__factor_crowding_extreme_levels": {
+      "type": "relationship",
+      "slug": "erp_bifurcation_equal_vs_cap_weighted__factor_crowding_extreme_levels",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:basis_trade_crash_channel__self_funded_hyperscaler_capex": {
+      "type": "relationship",
+      "slug": "basis_trade_crash_channel__self_funded_hyperscaler_capex",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:ai_power_demand_gas_not_oil__kalecki_profit_identity_ai_capex": {
+      "type": "relationship",
+      "slug": "ai_power_demand_gas_not_oil__kalecki_profit_identity_ai_capex",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:clo_disruption_transmission_channel__self_funded_hyperscaler_capex": {
+      "type": "relationship",
+      "slug": "clo_disruption_transmission_channel__self_funded_hyperscaler_capex",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:ai_power_demand_gas_not_oil__uranium_haleu_supply_bottleneck": {
+      "type": "relationship",
+      "slug": "ai_power_demand_gas_not_oil__uranium_haleu_supply_bottleneck",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:basis_trade_crash_channel__clo_disruption_transmission_channel": {
+      "type": "relationship",
+      "slug": "basis_trade_crash_channel__clo_disruption_transmission_channel",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:erp_compression_cap_weighted__mag7_triple_margin_headwind": {
+      "type": "relationship",
+      "slug": "erp_compression_cap_weighted__mag7_triple_margin_headwind",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:fed_put_structurally_impaired__positive_stock_bond_correlation_regime": {
+      "type": "relationship",
+      "slug": "fed_put_structurally_impaired__positive_stock_bond_correlation_regime",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:ecb_fed_boj_feedback_loop__regional_erp_differential": {
+      "type": "relationship",
+      "slug": "ecb_fed_boj_feedback_loop__regional_erp_differential",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:breadth_deterioration_stage_1__credit_widening_acceleration_2026_2027": {
+      "type": "relationship",
+      "slug": "breadth_deterioration_stage_1__credit_widening_acceleration_2026_2027",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:basis_trade_crash_channel__sec_central_clearing_mandate": {
+      "type": "relationship",
+      "slug": "basis_trade_crash_channel__sec_central_clearing_mandate",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:clo_disruption_transmission_channel__maturity_wall_refinancing_stress": {
+      "type": "relationship",
+      "slug": "clo_disruption_transmission_channel__maturity_wall_refinancing_stress",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:no_tfp_structural_break__taylor_rule_informationally_empty": {
+      "type": "relationship",
+      "slug": "no_tfp_structural_break__taylor_rule_informationally_empty",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:confidence_rating_systematic_inflation__cross_asset_pricing_inconsistency": {
+      "type": "relationship",
+      "slug": "confidence_rating_systematic_inflation__cross_asset_pricing_inconsistency",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "relationship:breadth_deterioration_stage_1__kalecki_profit_identity_ai_capex": {
+      "type": "relationship",
+      "slug": "breadth_deterioration_stage_1__kalecki_profit_identity_ai_capex",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "framework:small_n_confidence_calibration": {
+      "type": "framework",
+      "slug": "small_n_confidence_calibration",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "framework:cross_asset_consistency": {
+      "type": "framework",
+      "slug": "cross_asset_consistency",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "framework:multi_analogue_composite": {
+      "type": "framework",
+      "slug": "multi_analogue_composite",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
+    },
+    "framework:five_stage_boom_bust_sequence": {
+      "type": "framework",
+      "slug": "five_stage_boom_bust_sequence",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:34:27Z",
+      "research_iterations": 1,
+      "topic": "ai_and_tech_disruption"
     }
   },
   "iterations": [
@@ -19868,7 +20244,20 @@
         "anti_knowledge_entries": 8,
         "low_confidence_entries": 8
       }
+    },
+    {
+      "iteration_id": "iter_0052",
+      "topic": "ai_and_tech_disruption",
+      "topic_category": "structural_themes",
+      "timestamp": "2026-03-24T09:34:27Z",
+      "stats": {
+        "concepts_written": 30,
+        "relationships_written": 17,
+        "frameworks_written": 5,
+        "anti_knowledge_entries": 10,
+        "low_confidence_entries": 10
+      }
     }
   ],
-  "last_updated": "2026-03-24T09:15:33Z"
+  "last_updated": "2026-03-24T09:34:27Z"
 }

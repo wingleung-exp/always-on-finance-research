@@ -1,0 +1,35 @@
+{
+  "slug": "breadth_deterioration_stage_1",
+  "definition": "Market breadth deterioration (Stage 1 of cycle unwinding) is active and confirmed, with equal-weighted S&P 500 underperforming cap-weighted by 800-1200bp. Confirmed across 7+ historical episodes where breadth deterioration preceded broader stress.",
+  "confidence": 8,
+  "evidence": [
+    "Equal-weighted S&P 500 underperformance of 800-1200bp is directly observable",
+    "Confirmed across 7+ historical episodes",
+    "pair_0 debate confirmed as consensus",
+    "Stage 2 (revenue validation failure) has not yet triggered"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "When or whether Stage 2 (revenue validation failure) triggers",
+    "Whether any major hyperscaler reports a quarter with materially disappointing AI revenue growth",
+    "How long Stage 1 can persist without progression"
+  ],
+  "related_concepts": [
+    "erp_bifurcation_equal_vs_cap_weighted",
+    "credit_widening_acceleration_2026_2027",
+    "narrative_validation_window",
+    "five_stage_boom_bust_sequence"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "qt_effectiveness_halved",
+  "definition": "Hypothesis that QT tightening of ~50-75bp is offset by AI equity easing of ~100-150bp through the FCI equity component, making QT roughly half as effective as Fed models suggest.",
+  "confidence": 4,
+  "evidence": [
+    "Directionally plausible based on FCI decomposition",
+    "GS FCI decomposition methodology is not public",
+    "Specific magnitudes carry ±40% estimation error",
+    "Not corroborated or tested by other agents"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Whether the FCI equity offset is measurable with public data",
+    "Whether Fed staff models already account for this channel",
+    "How the offset changes if equity prices decline"
+  ],
+  "related_concepts": [
+    "taylor_rule_informationally_empty",
+    "fed_put_structurally_impaired",
+    "positive_stock_bond_correlation_regime"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

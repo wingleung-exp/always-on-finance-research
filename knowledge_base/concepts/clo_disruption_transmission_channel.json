@@ -1,0 +1,33 @@
+{
+  "slug": "clo_disruption_transmission_channel",
+  "definition": "CLOs have 15-25% estimated AI-vulnerable sector exposure, with $250-300B of 2021-2022 vintage reinvestment periods expiring in 2026-2027. CLOs represent 60-65% of leveraged loan demand. The nonlinear pathway runs from OC test failures to cash flow diversion to reduced CLO formation to marginal demand loss. This is a plausible tail-risk mechanism, not a base-case transmission channel.",
+  "confidence": 6,
+  "evidence": [
+    "CLOs represent 60-65% of leveraged loan demand",
+    "$250-300B of 2021-2022 vintage reinvestment periods expiring 2026-2027",
+    "2015-2016 energy cycle saw 15%+ sector defaults without CLO arbitrage collapse",
+    "15-25% sector exposure estimate is self-admittedly unvalidated"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Validated AI-vulnerable sector exposure percentage in CLO portfolios",
+    "Whether CLO manager flexibility to rotate during reinvestment periods mitigates the risk sufficiently",
+    "Whether CLO AAA widening could trigger margin calls on basis trade participants (cross-market contagion)"
+  ],
+  "related_concepts": [
+    "maturity_wall_refinancing_stress",
+    "basis_trade_crash_channel",
+    "self_funded_hyperscaler_capex",
+    "credit_widening_acceleration_2026_2027"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}

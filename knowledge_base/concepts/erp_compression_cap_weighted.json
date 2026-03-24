@@ -1,0 +1,33 @@
+{
+  "slug": "erp_compression_cap_weighted",
+  "definition": "The cap-weighted equity risk premium is at the 10th-15th percentile of its post-1960 distribution. Conditional 5-year forward nominal returns from this percentile average 3-5% annualized with 35-45% probability of negative real returns.",
+  "confidence": 9,
+  "evidence": [
+    "Largest available sample of ~780 monthly observations over 65 years",
+    "Multiple estimation methods converge: Fed model, DDM, Fama-French",
+    "quant_researcher_01 calls it the single most statistically defensible claim"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Whether Mag-7 earnings growth can sustain compressed ERP or whether mean-reversion is inevitable",
+    "How long cap-weighted compression can persist while equal-weighted sits at 40th-50th percentile"
+  ],
+  "related_concepts": [
+    "erp_bifurcation_equal_vs_cap_weighted",
+    "mag7_triple_margin_headwind",
+    "regional_erp_differential",
+    "breadth_deterioration_stage_1"
+  ],
+  "topic": "ai_and_tech_disruption",
+  "created_at": "2026-03-24T09:34:27Z",
+  "last_updated": "2026-03-24T09:34:27Z",
+  "originating_iteration": "iter_0052",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0052"
+  ]
+}
