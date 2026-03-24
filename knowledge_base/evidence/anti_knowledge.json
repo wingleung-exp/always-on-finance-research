@@ -4461,5 +4461,108 @@
     ],
     "topic": "equity_cycles",
     "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "True all-in leveraged credit default rate of 6-9%",
+    "reason": "Double-counts: addback adjustment to public default rates captures the same quality deterioration that PIK proxies in private markets. PIK is a spectrum (distress to capital structure flexibility), not binary default. After removing double-counting and PIK false positives, defensible range is 4-6%, not 6-9%.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Gold's 15-20% premium to real-rate models as independent cross-asset confirmation of credit cycle risk",
+    "reason": "Central bank gold buying driven by sanctions risk and reserve diversification, not credit cycle positioning. Term premium, equity-implied spreads, and sovereign gold buying all respond to fiscal policy — correlated, not independent. The three vs one signal count is rhetorically effective but analytically dishonest.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Cross-asset correlation regime will resolve violently in one of two directions",
+    "reason": "Binary framework excludes the most probable outcome: gradual fiscal drift with partial, uneven adjustment. Historical credit cycles frequently muddle through (2015-16 aborted at stage 2, 2018-19 resolved via quiet Fed pivot). Violent binary resolution is one scenario, not a prediction.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Japanese forbearance 3x loss amplification as transferable multiplier for US amend-and-extend",
+    "reason": "Institutional differences are of kind, not degree. Japan had regulatory forbearance, bank-directed economy, single Ministry of Finance enforcing extend-and-pretend, indefinite horizons. US has capital markets with mark-to-market, PE sponsors with 7-10 year fund lives, regulatory fragmentation creating faster recognition. Direction survives; specific 3x multiplier does not.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Private credit contagion probability of ~0.9% (or ~7% with doubled inputs)",
+    "reason": "Conditional probabilities (60%/40%/50%/60%/30%/40%) are fabricated with zero empirical calibration. Output extremely sensitive to inputs (8x change from doubling). More fundamentally, multiplicative chain assumes independent links but contagion events are characterized by correlation spikes — conditional probabilities are positively correlated in stress. Framework useful qualitatively; specific numbers are analytically worthless.",
+    "refuted_by": [
+      "rates_strategist_02",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Credit cascade timeline compression to specifically 3-6 months from 12-24 months",
+    "reason": "The Minsky taxonomy application (covenant-lite eliminates speculative finance phase) is theoretically sound and survives. But the specific 3-6 month timeline is asserted without empirical basis — the 35-year, 4-episode record produced the 12-24 month baseline but zero data points exist for the compressed timeline. Honest statement: likely compressed, magnitude unknown.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Dollar preceded every major US credit stress episode since 1997",
+    "reason": "Agent's own evidence contradicts: GFC preceded by dollar weakness (2006-2008), not strength — dollar spike was coincident not preceding. For 2000-02, lead time was only 2-3 quarters with both driven by same cause. Survives only as much weaker claim: dollar strength often accompanies credit stress.",
+    "refuted_by": [
+      "rates_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Dollar weakness extends credit cycle by 12-24 months",
+    "reason": "Sole historical analogue (2003-2007) operated with maintained covenants, lower leverage, no opaque $1.7T private credit, Fed funds starting from 1%, and no 6-7% deficits. Agent acknowledges every difference but still asserts duration estimate. Dollar weakness easing conditions is defensible; specific timeline is not.",
+    "refuted_by": [
+      "rates_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Kim-Wright/ACM 40-60bp gap is informative about fiscal supply dynamics",
+    "reason": "Term premium models are notoriously sensitive to specification, sample period, and factor selection. Gap could reflect model misspecification, different ZLB treatment, or different factor loadings. Proposed test (gap narrows when supply decelerates) is untestable since no supply deceleration is projected. Self-assessed 5/10 was appropriate.",
+    "refuted_by": [
+      "rates_strategist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "FCI/policy rate divergence proves monetary policy transmission failure",
+    "reason": "Observation correct (FCI loosened 100-150bp while fed funds held) but interpretation wrong. Agent's own analysis identifies Kalecki fiscal buffer delivering 300-400bp easing and acknowledges composition improvement. FCI loosening is transmission working correctly in response to non-monetary inputs, not transmission failure. The 9/10 self-assessment was the most overrated across all agents.",
+    "refuted_by": [
+      "challenger_01",
+      "credit_analyst_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "KB's 25:1 bearish-to-bullish concept ratio proves research is a crowded bearish trade",
+    "reason": "Concept ratio in a vulnerability analysis reflects analytical catalog, not market positioning. A thorough vulnerability analysis should identify more risks than mitigants. HY OAS 350-420bp are not bubble-era tights. Conflates research thoroughness with positioning bias. The meta-concern about bearish consensus has merit but this specific evidence does not support it.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "rates_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
   }
 ]

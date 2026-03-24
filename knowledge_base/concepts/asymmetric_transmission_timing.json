@@ -1,0 +1,32 @@
+{
+  "slug": "asymmetric_transmission_timing",
+  "definition": "Fiscal supply reprices term premium in real-time through observable Treasury auctions, while defaults reprice credit premium with a 12-24 month lag through the maturity wall. This temporal asymmetry means term premium and credit premium can rationally diverge for extended periods in a fiscal-dominated regime.",
+  "confidence": 8,
+  "evidence": [
+    "Debate pair_3 called this the most analytically sophisticated claim",
+    "Term premium responds to observable supply dynamics in real-time",
+    "Credit reprices through maturity wall with 12-24 month lag",
+    "Explains rational coexistence of high term premium and compressed credit spreads"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "At what term premium level does the lag collapse as conditions overwhelm fiscal support?",
+    "Is the 12-24 month credit lag stable or compressing?"
+  ],
+  "related_concepts": [
+    "term_credit_premium_divergence",
+    "kalecki_fiscal_buffer",
+    "false_all_clear_steepening",
+    "clo_reinvestment_expiration"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

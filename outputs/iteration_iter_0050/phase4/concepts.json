@@ -1,0 +1,773 @@
+[
+  {
+    "slug": "kalecki_fiscal_buffer",
+    "definition": "Federal deficits at 6-7% GDP mechanically sustain ~$1.4-1.6T annual corporate profits via the Kalecki profit identity, an accounting tautology. No prior endogenous credit stress episode operated above 3.5% deficit, making this buffer unprecedented and structurally altering credit cycle dynamics in ways that invalidate all historical timing calibrations.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki profit identity is accounting tautology — deficits mechanically sustain corporate profits",
+      "No prior endogenous credit stress episode operated above 3.5% deficit (1989: 2.8%, 2006: 1.9%, current: 6-7%)",
+      "Net stance quantified as 300-400bp fiscal easing against 525bp monetary tightening",
+      "Both credit analysts agreed on ~4.5% GDP as approximate break threshold"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "fx_strategist_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the elasticity of default rates to fiscal spending?",
+      "At what deficit level does the buffer cease to suppress defaults?",
+      "What is the political durability of 6-7% deficits?"
+    ],
+    "related_concepts": [
+      "default_fiscal_elasticity_gap",
+      "term_credit_premium_divergence",
+      "amend_extend_forbearance",
+      "dollar_cycle_gap",
+      "kalecki_credit_transmission_chain"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "ebitda_addback_distortion",
+    "definition": "EBITDA addbacks allow issuers to inflate reported earnings by adding back projected synergies and cost savings. S&P LCD data shows 30-50% realization shortfall within 2 years, meaning reported leverage of 4.0-4.5x understates true leverage at 5.5-7.5x for median B-rated issuers, shifting 5-year cumulative default probability from ~3.5% to ~8-14%.",
+    "confidence": 8.5,
+    "evidence": [
+      "S&P LCD realization data shows 50-70% materialization within 2 years (30-50% shortfall)",
+      "Reported leverage 4.0-4.5x understates true leverage at 5.5-7.5x for median B-rated issuers",
+      "Shifts 5-year cumulative default probability from ~3.5% to ~8-14%",
+      "Both credit analysts in pair_1 agreed this has the strongest evidentiary base"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "challenger_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What percentage of current BB issuers carry B-equivalent true leverage after addback adjustment?",
+      "How does addback distortion interact with composition improvement to determine net spread adequacy?"
+    ],
+    "related_concepts": [
+      "hy_composition_improvement",
+      "credit_underpricing_adjusted",
+      "fallen_angel_pipeline",
+      "late_cycle_falsification_gap"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "composite_cycle_analysis",
+    "definition": "No single historical analogue exists for this credit cycle. Six structural features are individually precedented but collectively unprecedented: addback-inflated leverage, $1.7-1.8T opaque private credit, CLO reinvestment expiration, 6-7% GDP fiscal buffer, degraded credit indicators (R-squared from 0.38 to 0.12), and credit factor crowding (PC1 >65%).",
+    "confidence": 9,
+    "evidence": [
+      "Every single-analogue framework (2005-07, Japan 1990s, 1998) produces dangerous oversimplification",
+      "Six structural features are each precedented individually but collectively unprecedented",
+      "Debate pair_0 confirmed; generalist_02's 9/10 self-assessment judged justified"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "How should analysts weight partial analogues in composite frameworks?",
+      "Does the absence of a matching analogue increase or decrease tail risk?"
+    ],
+    "related_concepts": [
+      "sp_cre_1989_analogue",
+      "kalecki_fiscal_buffer",
+      "private_credit_opacity",
+      "clo_reinvestment_expiration",
+      "covenant_lite_untested"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "late_cycle_falsification_gap",
+    "definition": "The late-cycle thesis lacks specified, timebound, observable falsification criteria. Traditional indicators show mid-cycle but are deemed degraded; adjusted indicators show late-cycle. Indicators confirming the thesis are treated as reliable while disconfirming ones are attributed to measurement degradation, creating circular reasoning that has persisted through 50 iterations.",
+    "confidence": 8,
+    "evidence": [
+      "challenger_01 identified at 8/10 confidence; debate pair_3 confirmed both sides agreed unresolved",
+      "Partial criterion proposed (deficit below 4.5% AND defaults below 3%) but not timebound",
+      "Gap persisted through 50 iterations without resolution",
+      "A thesis that cannot be proven wrong has limited informational content for positioning"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Can a timebound falsification test be constructed from observable market variables?",
+      "Proposed test: if deficits >5% AND defaults <4% through Dec 2027, reclassify as extended plateau?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "default_fiscal_elasticity_gap",
+      "bearish_analytical_bias",
+      "ebitda_addback_distortion"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "default_fiscal_elasticity_gap",
+    "definition": "The elasticity of default rates to fiscal spending is the critical unknown binding the entire analytical framework. Without this parameter, the Kalecki buffer thesis is directionally compelling but quantitatively imprecise — a 2pp fiscal consolidation could reduce defaults by 50bp or 300bp, and the range matters enormously for positioning.",
+    "confidence": 9,
+    "evidence": [
+      "Convergent identification across 4+ agents confirmed in debates pair_1 and pair_3",
+      "No agent across 50 iterations has calibrated this relationship",
+      "The 50bp vs 300bp range from 2pp consolidation determines positioning implications"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Can fiscal-default elasticity be estimated from cross-country data?",
+      "Is the relationship linear or does it exhibit threshold effects?",
+      "How does transmission lag vary by fiscal instrument (transfers vs spending vs tax)?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "kalecki_credit_transmission_chain",
+      "late_cycle_falsification_gap",
+      "private_credit_opacity"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "structural_vulnerability_asymmetry",
+    "definition": "The knowledge base catalogs 25+ vulnerability concepts against ~1 structural improvement concept. Genuine risk-dampening factors (bank capital 2-3x pre-crisis, central bank backstops, longer maturities) are unquantified against risk-amplifying factors (covenant-lite, opacity, addbacks, CLO concentration). Until the net calculation is performed, all conclusions carry unquantified systematic bias.",
+    "confidence": 8,
+    "evidence": [
+      "Bank capital at 2-3x pre-crisis is genuine risk-dampening factor",
+      "Covenant-lite, opacity, addbacks, CLO concentration are genuine risk-amplifying factors",
+      "KB catalogs 25+ vulnerability concepts against ~1 structural improvement concept",
+      "No agent has attempted the net calculation"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How should risk-dampening and risk-amplifying factors be weighted?",
+      "Does the 25:1 ratio reflect genuine asymmetry or analytical catalog bias?"
+    ],
+    "related_concepts": [
+      "bearish_analytical_bias",
+      "central_bank_put_compression",
+      "covenant_lite_untested",
+      "catalog_bias"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "private_credit_opacity",
+    "definition": "The $1.7-1.8T private credit market exhibits NAV autocorrelation of 0.5-0.7 proving systematic return smoothing, with secondary market discounts of 5-12% to NAV (15-25% for bottom quartile) and PIK usage rising from ~2% baseline to 5-8%. The Fed is flying partially blind on 25-30% of leveraged credit.",
+    "confidence": 8,
+    "evidence": [
+      "NAV autocorrelation of 0.5-0.7 mathematically proves smoothing",
+      "Secondary market discounts of 5-12% to NAV; 15-25% for bottom quartile",
+      "PIK usage rising from ~2% baseline to 5-8% (resolved in pair_1 debate)",
+      "Fed flying partially blind on 25-30% of leveraged credit"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the contagion probability and transmission pathway from private to public credit?",
+      "What percentage of NAV discounts reflect credit deterioration vs liquidity premium?",
+      "How does 15-25% portfolio vol understatement affect institutional risk budgets?"
+    ],
+    "related_concepts": [
+      "semi_liquid_vehicle_contagion",
+      "pik_exhaustion_threshold",
+      "default_fiscal_elasticity_gap",
+      "structural_vulnerability_asymmetry"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "clo_reinvestment_expiration",
+    "definition": "Approximately $250-350B in CLO reinvestment periods expire over 18 months, structurally differentiating this maturity wall from four prior episodes. CLOs purchase 65-70% of institutional leveraged loans, and all prior walls were defused with functional CLO demand. Current episode features concurrent demand withdrawal and 40-60% higher refinancing costs.",
+    "confidence": 7,
+    "evidence": [
+      "CLOs purchase 65-70% of institutional leveraged loans",
+      "All four prior maturity walls defused with functional CLO demand and flat-to-lower refinancing rates",
+      "Current episode features concurrent demand withdrawal and 40-60% higher refinancing costs",
+      "Falsification: SOFR decline 100-150bp could pre-empt via CLO reset activity as in 2019"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Will SOFR decline 100-150bp to restore CLO reset economics?",
+      "How close are CCC buckets to the 7.5% threshold?",
+      "Can new CLO formation above 15% hurdle rates replace expiring reinvestment capacity?"
+    ],
+    "related_concepts": [
+      "clo_three_way_squeeze",
+      "amend_extend_forbearance",
+      "basis_trade_fragility",
+      "asymmetric_transmission_timing"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "term_credit_premium_divergence",
+    "definition": "Term premium at 80-130bp diverges from compressed HY OAS. This is rational in a fiscal-dominated regime: deficits simultaneously flood the long end (elevating term premium) and sustain profits (compressing credit premium). These are different state variables that can rationally diverge. Convergence forced only at 175-225bp ACM term premium.",
+    "confidence": 7,
+    "evidence": [
+      "Debate pair_2 produced strong agreement on different state variables explanation",
+      "Term premium reprices in real-time to observable supply; credit reprices with 12-24 month lag",
+      "Corrects KB framing of divergence as internal inconsistency",
+      "Convergence forced when term premium overwhelms Kalecki channel at ~175-225bp ACM"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Will term premium reach 175-225bp range where tightening overwhelms profit support?",
+      "How long can rational coexistence persist in a fiscal-dominated regime?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "false_all_clear_steepening",
+      "asymmetric_transmission_timing",
+      "basis_trade_fragility"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "false_all_clear_steepening",
+    "definition": "Post-inversion yield curve steepening is 60-70% driven by term premium expansion rather than falling rate expectations, matching stress precursor patterns (1994, 2013 taper tantrum) not benign recoveries (1992-93, 2001-03, 2019-20). The 5y5y forward at 4.0-4.5% implies structurally higher neutral rate and worsened A&E refinancing economics.",
+    "confidence": 7,
+    "evidence": [
+      "Decomposition matches 1994/2013 stress precursors, not benign recovery episodes",
+      "Debate pair_2 validated as single most valuable novel insight",
+      "Directionally robust across ACM and Kim-Wright specifications",
+      "5y5y forward at 4.0-4.5% implies A&E delays into equivalent or worse refinancing economics"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "How sensitive are results to term premium model specification?",
+      "Could the current episode represent a novel regime not in historical sample?"
+    ],
+    "related_concepts": [
+      "term_credit_premium_divergence",
+      "amend_extend_forbearance",
+      "asymmetric_transmission_timing"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "credit_underpricing_adjusted",
+    "definition": "Credit markets are directionally underpricing risk relative to rates and equity-implied measures. Residual risk premium is 0-80bp vs post-2000 median of 180-220bp (bottom decile). However, after composition adjustment, net mispricing is 30-80bp rather than the 100-150bp some analyses imply.",
+    "confidence": 6,
+    "evidence": [
+      "Spread decomposition shows residual risk premium in bottom decile of post-2000 distribution",
+      "Equity-implied spreads (Merton model) 20-40bp wider than actual",
+      "Debate pair_0: both generalists agreed credit is the outlier",
+      "After composition adjustment net mispricing likely 30-80bp not 100-150bp"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is composition-adjusted residual mispricing after addback correction?",
+      "Does central bank put account for the remaining residual?"
+    ],
+    "related_concepts": [
+      "hy_composition_improvement",
+      "ebitda_addback_distortion",
+      "central_bank_put_compression",
+      "term_credit_premium_divergence"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "hy_composition_improvement",
+    "definition": "HY index composition has shifted from 38% BB to 52% BB with energy declining from 15% to 9%, mechanically reducing expected losses by 70-130bp. This provides a material first-order explanation for spread compression, though addback adjustment partially offsets it as many current BB issuers carry B-equivalent true leverage.",
+    "confidence": 7,
+    "evidence": [
+      "14pp shift toward BB reduces expected losses by 70-130bp using KB default probability data",
+      "Debate pair_3 confirmed ignoring composition was a material analytical error",
+      "Effect partially offset by addback adjustment of current BB issuers",
+      "Remaining unexplained compression may fall within 65bp estimation error"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What percentage of current BB issuers carry B-equivalent true leverage?",
+      "Is the residual unexplained compression within estimation error?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_distortion",
+      "credit_underpricing_adjusted",
+      "central_bank_put_compression",
+      "fallen_angel_pipeline"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "credit_equity_lead_lag_compression",
+    "definition": "The credit-equity lead-lag has compressed from 6-8 months to 0-2 months, likely driven by HY ETF growth and algorithmic arbitrage. This degrades credit's traditional early-warning function and may necessitate pre-positioned convexity as the only viable hedge if transitions are too fast for active repositioning.",
+    "confidence": 6,
+    "evidence": [
+      "Both generalists agreed in debate pair_0",
+      "HY ETF growth and algorithmic arbitrage cited as structural drivers",
+      "n<5 post-2015 turning points insufficient to distinguish structural vs regime-dependent"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the compression structural or regime-dependent?",
+      "Does pre-positioned convexity remain viable if transitions are too fast for active repositioning?"
+    ],
+    "related_concepts": [
+      "credit_underpricing_adjusted",
+      "credit_factor_crowding",
+      "minsky_covenant_lite"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "central_bank_put_compression",
+    "definition": "The 2020 SMCCF ($14B purchases producing 10-50x spread compression impact) has permanently embedded 30-50bp of structural compression in credit risk premia through demonstrated backstop credibility and signaling channel dominance.",
+    "confidence": 6,
+    "evidence": [
+      "$14B purchases produced 10-50x impact in spread compression",
+      "Signaling channel dominance demonstrated",
+      "Pre/post-2020 spread regime comparison supports 30-50bp estimate"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "How much is confounded by composition improvement and search-for-yield?",
+      "Does the backstop create a self-defeating loop (compress premia -> loosen conditions -> require higher rates -> increase eventual stress)?"
+    ],
+    "related_concepts": [
+      "credit_underpricing_adjusted",
+      "hy_composition_improvement",
+      "structural_vulnerability_asymmetry",
+      "kalecki_fiscal_buffer"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "sp_cre_1989_analogue",
+    "definition": "The 1989-91 S&L/commercial real estate episode is a closer institutional analogue than 2005-07 for a corporate-credit-led downturn. Current household debt/GDP is ~75% with low debt service ratios (unlike 2005-07 mortgage leverage at 100%+ GDP). Vulnerability is concentrated in corporate leverage. The 1989-91 severity calibration (IG peaks ~200bp) differs fundamentally from 2008 (~600bp).",
+    "confidence": 7,
+    "evidence": [
+      "2005-07 transmission was household leverage at 100%+ GDP; current household debt/GDP ~75%",
+      "Current vulnerability locus is corporate leverage in private credit and leveraged loans",
+      "Debate pair_0 called this single most valuable novel insight",
+      "1989-91 pattern: IG peaks ~200bp vs ~600bp in 2008"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "How do differences in private credit market size/opacity affect the 1989-91 comparison?",
+      "Does the 200bp IG peak calibration hold with current leverage levels?"
+    ],
+    "related_concepts": [
+      "composite_cycle_analysis",
+      "private_credit_opacity",
+      "amend_extend_forbearance"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "amend_extend_forbearance",
+    "definition": "$200-400B in maturities pushed out 2-3 years through amend-and-extend strategies. This directionally extends the cycle timeline and amplifies eventual loss severity through PIK compounding at 10-13% annually. The specific severity amplification factor is uncalibrated; the Japanese 3x multiplier is not transferable due to institutional differences of kind.",
+    "confidence": 6,
+    "evidence": [
+      "$200-400B pushed out 2-3 years (KB consensus)",
+      "PIK compounding at 10-13% annually creates calculable principal accretion",
+      "Direction (forbearance extends timelines, amplifies severity) survived every historical test",
+      "US institutional context (mark-to-market, PE fund lives) produces faster resolution than Japan"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is the US-specific severity amplification factor?",
+      "Does PIK exhaustion at 15-20% EV create a binding time constraint?",
+      "How does 5y5y at 4.0-4.5% affect A&E economics at rollover?"
+    ],
+    "related_concepts": [
+      "pik_exhaustion_threshold",
+      "clo_reinvestment_expiration",
+      "false_all_clear_steepening",
+      "kalecki_fiscal_buffer"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "dollar_cycle_gap",
+    "definition": "The credit analysis framework is almost entirely US-domestic despite $13T of offshore USD debt. The dollar cycle connects to credit through FX/external financing channels and historically accompanies credit stress. Current DXY at ~104-106 (~15-20% overvalued on REER) with twin deficits at widest since 2006-08.",
+    "confidence": 7,
+    "evidence": [
+      "KB is almost entirely US-domestic despite $13T offshore USD debt",
+      "Historical pattern of dollar strength accompanying credit stress in 4+ cycles",
+      "Current DXY ~104-106, ~15-20% overvalued on REER",
+      "Twin deficits at widest since 2006-08"
+    ],
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Which dollar-credit feedback regime prevails: safe-haven strengthening or exceptionalism-unwind weakening?",
+      "If neutral rate has structurally shifted, can dollar weakness solve domestic maturity wall repricing?",
+      "How does European fiscal expansion affect EUR/USD and US credit conditions?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "term_credit_premium_divergence",
+      "basis_trade_fragility"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "basis_trade_fragility",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-70x leverage on $12-20B equity base) is a concentrated fragility node in the rates-to-credit transmission chain. The SEC clearing mandate (Q2 2026) could increase margin requirements 30-50%. Partial precedents exist (March 2020, September 2019 repo, UK LDI 2022) but the Standing Repo Facility is untested.",
+    "confidence": 6,
+    "evidence": [
+      "Size ($800B-$1T), leverage (50-70x), and thin equity ($12-20B) agreed across agents",
+      "SEC clearing mandate Q2 2026 is identifiable calendar catalyst",
+      "Partial precedents: March 2020, September 2019 repo spike, UK LDI 2022",
+      "Doom loop thesis involves multiple interruptible steps"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Will SEC clearing mandate trigger margin increases sufficient to force unwind?",
+      "Can Standing Repo Facility function as designed at scale?",
+      "Is Japanese lifer positioning a plausible FX trigger?"
+    ],
+    "related_concepts": [
+      "term_credit_premium_divergence",
+      "sofr_transmission_brittleness",
+      "clo_reinvestment_expiration"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "bearish_analytical_bias",
+    "definition": "The analytical consensus may exhibit bearish bias: 50 iterations produced a 25:1 bearish-to-bullish concept ratio. Carry cost of bearish positioning is 200-300bp annually. Catalog bias suggests widely-discussed risks may be less likely to be actual catalysts. However, HY spreads at 350-420bp are not bubble-era tights and the concept ratio reflects the analytical catalog not market positioning.",
+    "confidence": 6,
+    "evidence": [
+      "50 iterations produced 25:1 bearish-to-bullish concept ratio (factual)",
+      "Carry cost 200-300bp negative carry annually for short credit",
+      "2008 came from invisible risks, not well-known ones (catalog bias support)",
+      "HY OAS 350-420bp not at bubble-era tights"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Does the 25:1 ratio reflect genuine analytical bias or appropriate thoroughness?",
+      "What is optimal balance between vulnerability identification and structural resilience?"
+    ],
+    "related_concepts": [
+      "structural_vulnerability_asymmetry",
+      "late_cycle_falsification_gap",
+      "catalog_bias"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "asymmetric_transmission_timing",
+    "definition": "Fiscal supply reprices term premium in real-time through observable Treasury auctions, while defaults reprice credit premium with a 12-24 month lag through the maturity wall. This temporal asymmetry means term premium and credit premium can rationally diverge for extended periods in a fiscal-dominated regime.",
+    "confidence": 8,
+    "evidence": [
+      "Debate pair_3 called this the most analytically sophisticated claim",
+      "Term premium responds to observable supply dynamics in real-time",
+      "Credit reprices through maturity wall with 12-24 month lag",
+      "Explains rational coexistence of high term premium and compressed credit spreads"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "At what term premium level does the lag collapse as conditions overwhelm fiscal support?",
+      "Is the 12-24 month credit lag stable or compressing?"
+    ],
+    "related_concepts": [
+      "term_credit_premium_divergence",
+      "kalecki_fiscal_buffer",
+      "false_all_clear_steepening",
+      "clo_reinvestment_expiration"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "clo_three_way_squeeze",
+    "definition": "Post-reinvestment CLOs face a multiplicative (not additive) three-way squeeze: reinvestment expiration prevents capturing wider spreads, arbitrage deterioration prevents replacement CLO formation, and CCC migration triggers step-function cascade effects as buckets approach the 7.5% threshold.",
+    "confidence": 7,
+    "evidence": [
+      "Debate pair_1 validated as structurally insightful",
+      "Post-reinvestment CLOs cannot benefit from wider spreads unlike prior cycles",
+      "CCC bucket utilization creates discrete threshold effects at 7.5%",
+      "Multiplicative interaction means joint probability assessment required"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What is current CCC bucket utilization across CLO universe (4% vs 6.5%)?",
+      "How many CLOs are within 1-2% of the 7.5% threshold?"
+    ],
+    "related_concepts": [
+      "clo_reinvestment_expiration",
+      "amend_extend_forbearance"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "minsky_covenant_lite",
+    "definition": "Applying the Minsky taxonomy to covenant-lite credit markets: covenant-lite eliminates the speculative finance phase, creating a direct hedge-to-Ponzi transition. This implies credit cascade dynamics could be more binary (cliff-edge) than historically observed. The specific timeline compression (3-6 months) was refuted as empirically uncalibrated.",
+    "confidence": 6,
+    "evidence": [
+      "Debate pair_1 called this the strongest theoretical contribution",
+      "Covenant-lite eliminates early warning mechanisms that marked speculative phase",
+      "Zero organic downturn observations for covenant-lite regime",
+      "Specific 3-6 month timeline refuted as asserted without empirical basis"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Does covenant-lite produce cliff-edge or gradual defaults in organic downturn?",
+      "How does bimodal vs smooth default distribution affect loss severity models?"
+    ],
+    "related_concepts": [
+      "covenant_lite_untested",
+      "credit_equity_lead_lag_compression",
+      "clo_three_way_squeeze"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "catalog_bias",
+    "definition": "Framework identifying that widely-discussed and well-cataloged risks are systematically less likely to be the actual catalyst for credit stress because market positioning adjusts to known risks. The 2008 crisis materialized from risks that were invisible, not the well-known ones.",
+    "confidence": 7,
+    "evidence": [
+      "Historical support: 2008 came from invisible risks not well-known ones",
+      "Debate pair_3 validated the framework",
+      "Partially refuted as applied to KB concept ratio (ratio reflects analytical catalog not positioning)"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "How should analysts distinguish between well-known risks that are priced in vs those that are not?",
+      "Does catalog bias apply equally across investor types?"
+    ],
+    "related_concepts": [
+      "bearish_analytical_bias",
+      "structural_vulnerability_asymmetry"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "covenant_lite_untested",
+    "definition": "The covenant-lite regime has zero organic downturn observations. COVID tested covenant-lite only under $800B+ PPP, Fed purchases, and ZIRP — not an organic downturn. Whether covenant-lite produces cliff-edge or gradual defaults is literally unknown, making all tail-risk sizing exercises unreliable.",
+    "confidence": 8,
+    "evidence": [
+      "Debate pair_0 flagged as most important unanswered empirical question",
+      "COVID testing confounded by $800B+ PPP, Fed purchases, and ZIRP",
+      "No prior-cycle test of covenant-lite in organic downturn conditions"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is there any cross-jurisdictional data on covenant-lite downturn performance?",
+      "Can European covenant-lite experience provide partial calibration?"
+    ],
+    "related_concepts": [
+      "minsky_covenant_lite",
+      "structural_vulnerability_asymmetry",
+      "composite_cycle_analysis"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "kalecki_credit_transmission_chain",
+    "definition": "Full transmission chain mapping from fiscal policy to credit markets: fiscal deficit -> corporate revenue -> EBITDA -> interest coverage -> overcollateralization test -> CLO demand -> leveraged loan market demand. Each link is quantifiable and provides specific monitoring points.",
+    "confidence": 7,
+    "evidence": [
+      "Mapped as novel contribution by credit_analyst_02",
+      "Each link represents a quantifiable transmission mechanism",
+      "Provides framework for real-time fiscal-to-credit transmission monitoring"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What are the lag structures at each transmission link?",
+      "Which links are most sensitive to fiscal consolidation?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_buffer",
+      "default_fiscal_elasticity_gap",
+      "clo_reinvestment_expiration",
+      "clo_three_way_squeeze"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "fallen_angel_pipeline",
+    "definition": "Hidden fallen angel pipeline quantified at $110-310B additional beyond standard estimates, combined $460-810B total vs $1.3-1.5T IG-to-HY absorption capacity. Fallen-angel forced-selling alpha has t-stat >3.0 with structural mechanism (index reconstitution, mandate constraints) and represents the highest Sharpe ratio expression available without requiring cycle timing.",
+    "confidence": 5,
+    "evidence": [
+      "Standard + hidden pipeline estimated at $460-810B vs $1.3-1.5T absorption capacity",
+      "Fallen-angel forced-selling alpha has t-stat >3.0",
+      "Structural mechanism (index reconstitution, mandate constraints) is well-established"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the $110-310B hidden pipeline estimate reliable given addback uncertainty?",
+      "Can absorption capacity handle the high end of the range?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_distortion",
+      "hy_composition_improvement",
+      "credit_underpricing_adjusted"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "credit_factor_crowding",
+    "definition": "Credit factor crowding has reached extreme levels with PC1 explaining >65% of variance, indicating highly correlated positioning. Combined with credit indicator R-squared declining from 0.38 to 0.12, this creates vulnerability to rapid de-grossing and factor reversal.",
+    "confidence": 7,
+    "evidence": [
+      "PC1 >65% cited as one of six unprecedented structural features",
+      "Credit indicator R-squared declined from 0.38 to 0.12",
+      "Identified as contributing to degraded signal quality"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What PC1 threshold historically preceded factor reversals?",
+      "How does factor crowding interact with ETF/algorithmic arbitrage?"
+    ],
+    "related_concepts": [
+      "credit_equity_lead_lag_compression",
+      "credit_underpricing_adjusted",
+      "composite_cycle_analysis"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "sofr_transmission_brittleness",
+    "definition": "The SOFR transition eliminated the bank intermediation buffer that existed under LIBOR. SOFR-indexed $1.4T in leveraged loans now transmit rate changes mechanically with zero discretionary buffering, making monetary policy transmission more brittle. The Standing Repo Facility is designed to backstop but untested at scale.",
+    "confidence": 5,
+    "evidence": [
+      "Debate pair_3 validated as genuinely novel",
+      "$1.4T in leveraged loans transmit rate changes mechanically via SOFR",
+      "Standing Repo Facility designed to backstop but untested at scale",
+      "Interaction with basis trade and SEC clearing mandate creates plumbing-level vulnerability"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Can Standing Repo Facility function at scale?",
+      "How does zero-buffer transmission interact with basis trade leverage?"
+    ],
+    "related_concepts": [
+      "basis_trade_fragility",
+      "clo_reinvestment_expiration",
+      "asymmetric_transmission_timing"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "private_credit_portfolio_contamination",
+    "definition": "Private credit return smoothing (0.5-0.7 NAV autocorrelation) understates portfolio volatility by 15-25% across $5T+ in institutional assets that hold private credit alongside public markets, contaminating risk budgeting across pension funds and insurers.",
+    "confidence": 7,
+    "evidence": [
+      "NAV autocorrelation of 0.5-0.7 produces calculable vol understatement",
+      "$5T+ in institutional assets affected",
+      "Behavioral assumptions about risk budget reactions debated"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How do institutions actually respond when true volatility is revealed?",
+      "Does vol understatement lead to over-allocation or is it already priced in?"
+    ],
+    "related_concepts": [
+      "private_credit_opacity",
+      "semi_liquid_vehicle_contagion"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  }
+]

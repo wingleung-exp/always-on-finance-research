@@ -1,0 +1,31 @@
+{
+  "slug": "sofr_transmission_brittleness",
+  "definition": "The SOFR transition eliminated the bank intermediation buffer that existed under LIBOR. SOFR-indexed $1.4T in leveraged loans now transmit rate changes mechanically with zero discretionary buffering, making monetary policy transmission more brittle. The Standing Repo Facility is designed to backstop but untested at scale.",
+  "confidence": 5,
+  "evidence": [
+    "Debate pair_3 validated as genuinely novel",
+    "$1.4T in leveraged loans transmit rate changes mechanically via SOFR",
+    "Standing Repo Facility designed to backstop but untested at scale",
+    "Interaction with basis trade and SEC clearing mandate creates plumbing-level vulnerability"
+  ],
+  "originating_agents": [
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Can Standing Repo Facility function at scale?",
+    "How does zero-buffer transmission interact with basis trade leverage?"
+  ],
+  "related_concepts": [
+    "basis_trade_fragility",
+    "clo_reinvestment_expiration",
+    "asymmetric_transmission_timing"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

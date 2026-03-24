@@ -1,18 +1,18 @@
 {
   "slug": "private_credit_opacity",
   "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain but the magnitude is uncertain, creating underappreciated systemic risk.",
-  "confidence": 7.0,
+  "confidence": 7.14,
   "evidence": [
-    "PIK toggle usage rising from ~2% to 5-8%",
-    "Credit impulse R² declined from 0.38 to 0.12, partially attributable to $200B→$1.7T private credit growth",
-    "Six agents converge on direction of bias",
-    "15-25% portfolio volatility underestimation figure is analytically derived but not empirically validated",
     "Asset class has never been tested through a full cycle at this scale",
     "Credit impulse R-squared decline from 0.38 to 0.12",
     "Five historical analogues (S&Ls, SIVs, junk bonds, Japanese jusen, AT1s) show 60-80% disorderly repricing",
     "4-5 year median lag between opacity accumulation and repricing",
     "Pair_1 debate: 'a significant omission' from broader analysis",
-    "Traditional credit cycle dashboard structurally lagged precisely when it matters most"
+    "Traditional credit cycle dashboard structurally lagged precisely when it matters most",
+    "NAV autocorrelation of 0.5-0.7 mathematically proves smoothing",
+    "Secondary market discounts of 5-12% to NAV; 15-25% for bottom quartile",
+    "PIK usage rising from ~2% baseline to 5-8% (resolved in pair_1 debate)",
+    "Fed flying partially blind on 25-30% of leveraged credit"
   ],
   "originating_agents": [
     "credit_analyst",
@@ -25,17 +25,18 @@
     "macro_strategist_02",
     "rates_strategist_01",
     "challenger_01",
-    "fx_strategist_02"
+    "fx_strategist_02",
+    "rates_strategist_02"
   ],
   "open_questions": [
-    "Is there a true historical analogue at $1.7T scale?",
-    "What is the actual default rate vs reported in private credit?",
-    "What is the actual magnitude of volatility suppression vs the analytically derived 15-25%?",
     "What is the loss absorption capacity of insurance companies and pension funds for private credit losses?",
     "At what scale do BDC/interval fund redemptions ($300B), insurance RBC impairment ($700B), or information contagion create systemic spillover?",
     "What is the current true loss rate in private credit portfolios?",
     "Could a repricing event in private credit cascade to public markets?",
-    "What alternative indicators can substitute for degraded credit impulse measures?"
+    "What alternative indicators can substitute for degraded credit impulse measures?",
+    "What is the contagion probability and transmission pathway from private to public credit?",
+    "What percentage of NAV discounts reflect credit deterioration vs liquidity premium?",
+    "How does 15-25% portfolio vol understatement affect institutional risk budgets?"
   ],
   "related_concepts": [
     "maturity_wall_2025_2027",
@@ -56,19 +57,24 @@
     "banking_channel_activation",
     "carry_trap",
     "ebitda_addback_leverage_distortion",
-    "clo_ccc_bucket_step_function"
+    "clo_ccc_bucket_step_function",
+    "semi_liquid_vehicle_contagion",
+    "pik_exhaustion_threshold",
+    "default_fiscal_elasticity_gap",
+    "structural_vulnerability_asymmetry"
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 6,
+  "research_iterations": 7,
   "iteration_history": [
     "iter_0014",
     "iter_0002",
     "iter_0004",
     "iter_0001",
     "iter_0035",
-    "iter_0038"
+    "iter_0038",
+    "iter_0050"
   ]
 }

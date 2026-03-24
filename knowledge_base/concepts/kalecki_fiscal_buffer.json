@@ -1,18 +1,18 @@
 {
   "slug": "kalecki_fiscal_buffer",
   "definition": "The Kalecki profit identity channel, with fiscal deficits at 6-7% of GDP, is the dominant force suppressing the credit cycle turn by directly sustaining ~$1.4-1.6T of annual corporate profits. This magnitude is unprecedented alongside a mature credit cycle, making all historical timing analogues unreliable.",
-  "confidence": 7.5,
+  "confidence": 7.67,
   "evidence": [
-    "Kalecki profit identity: corporate profits approximately equal investment + fiscal deficit - household savings - current account deficit (accounting identity)",
-    "At 6-7% GDP deficit, fiscal channel sustains ~$1.4-1.6T annual corporate profits",
-    "Suppresses defaults by estimated 100-150bp of spread compression",
-    "No prior credit stress episode (1989-91, 1998-2002, 2005-08) operated with deficits above 3.5% pre-crisis",
     "Kalecki profit identity is an accounting tautology with deficits mechanically sustaining profits",
     "Current deficit at 6-7% GDP is historically unprecedented during non-recessionary periods",
     "No prior credit stress episode operated with deficits above 3.5%",
     "All 8 agents reference this as significant",
     "The 100-150bp threshold estimate was refuted as uncalibrated in pair_0 debate",
-    "Neither party in any debate estimated the elasticity of default rates to fiscal spending"
+    "Neither party in any debate estimated the elasticity of default rates to fiscal spending",
+    "Kalecki profit identity is accounting tautology — deficits mechanically sustain corporate profits",
+    "No prior endogenous credit stress episode operated above 3.5% deficit (1989: 2.8%, 2006: 1.9%, current: 6-7%)",
+    "Net stance quantified as 300-400bp fiscal easing against 525bp monetary tightening",
+    "Both credit analysts agreed on ~4.5% GDP as approximate break threshold"
   ],
   "originating_agents": [
     "risk_analyst_01",
@@ -23,16 +23,21 @@
     "risk_analyst_02",
     "quant_researcher_01",
     "commodities_analyst_01",
-    "fx_strategist_01"
+    "fx_strategist_01",
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "rates_strategist_01",
+    "rates_strategist_02"
   ],
   "open_questions": [
-    "Does the fiscal buffer merely delay or fundamentally alter the credit cycle?",
     "What magnitude of fiscal consolidation would trigger credit stress (2pp GDP threshold suggested)?",
     "Is the self-referential instability loop a binding constraint?",
     "What is the elasticity of default rates to fiscal spending?",
     "Will the buffer collapse through political choice (DOGE, TCJA expiration) or persist through inertia?",
     "Does the buffer fundamentally change the credit cycle or merely extend it?",
-    "At what deficit level does the buffer become inflationary and self-defeating?"
+    "At what deficit level does the buffer become inflationary and self-defeating?",
+    "At what deficit level does the buffer cease to suppress defaults?",
+    "What is the political durability of 6-7% deficits?"
   ],
   "related_concepts": [
     "self_referential_fiscal_instability",
@@ -42,15 +47,21 @@
     "cross_capital_structure_compression_tail_risk",
     "maturity_wall_conditional_amplifier",
     "credit_premium_compression",
-    "roic_wacc_amplification_channel"
+    "roic_wacc_amplification_channel",
+    "default_fiscal_elasticity_gap",
+    "term_credit_premium_divergence",
+    "amend_extend_forbearance",
+    "dollar_cycle_gap",
+    "kalecki_credit_transmission_chain"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0028",
-    "iter_0029"
+    "iter_0029",
+    "iter_0050"
   ]
 }

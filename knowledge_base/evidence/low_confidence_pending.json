@@ -2885,5 +2885,68 @@
     "needs": "Larger sample of energy weight troughs with outcomes; assessment of whether energy-transition terminal demand repricing invalidates historical pattern; the FCF yield spread (8-10% vs 3-4%) needs testing as standalone relative value signal",
     "topic": "equity_cycles",
     "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "PIK exhaustion threshold at 15-20% of enterprise value creates a time-bound forbearance constraint (18-24 months for weakest 10-15% of private credit)",
+    "source_agent": "credit_analyst_01",
+    "needs": "Empirical calibration on private credit data rather than first principles estimation; validation of the 15-20% threshold against actual distressed private credit outcomes",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Semi-liquid vehicles ($300B+ interval funds, non-traded BDCs) represent a significant contagion channel combining retail behavior with illiquid assets",
+    "source_agent": "credit_analyst_02",
+    "needs": "Prior-cycle test of this vehicle class at scale; evidence that gates amplify rather than prevent contagion; validation of insurance company RBC channel which was called overstated in pair_1",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "SOFR transition has made monetary policy transmission more brittle by eliminating bank intermediation buffer",
+    "source_agent": "rates_strategist_02",
+    "needs": "Corroboration from other agents; empirical comparison of rate transmission speed under LIBOR vs SOFR regimes; stress test of Standing Repo Facility at scale",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Forward-starting swap spread widening (1y forward 5y, +15-20bp vs spot) is a leading indicator of credit market stress",
+    "source_agent": "rates_strategist_01",
+    "needs": "Attribution analysis disentangling credit stress signal from bank balance sheet constraints, Treasury supply effects, and mortgage hedging flows",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "The 7-10y sector kink in butterfly spreads is a technical fingerprint of CLO and insurance demand withdrawal",
+    "source_agent": "rates_strategist_01",
+    "needs": "Robust attribution of curve shape to specific demand factors; ruling out multiple alternative explanations for sector cheapness",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Dollar-credit feedback direction is regime-dependent (safe-haven strengthening vs exceptionalism-unwind weakening), determining whether stress is self-correcting or self-reinforcing",
+    "source_agent": "fx_strategist_01",
+    "needs": "Framework for identifying which regime will prevail ex ante rather than ex post; indicators distinguishing 2008-style (vicious loop) from 2001-02 (self-correcting)",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "European fiscal expansion (German defense spending, EU joint borrowing) is a specific catalyst for structural EUR/USD re-rating extending the US credit cycle",
+    "source_agent": "fx_strategist_01",
+    "needs": "Validation of each link in long causal chain: European fiscal -> growth catch-up -> EUR/USD re-rating -> dollar weakening -> US credit easing",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "The Fed may tacitly endorse forward curve's persistent overpricing of cuts as a financial conditions management tool",
+    "source_agent": "rates_strategist_02",
+    "needs": "Fed communication analysis to test the hypothesis; currently unfalsifiable and speculative despite being flagged as genuinely recursive insight",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "claim": "Covenant-lite regime has zero organic downturn observations — default distribution shape (bimodal vs smooth) is completely unknown",
+    "source_agent": "generalist_02",
+    "needs": "An actual organic downturn to observe; cross-jurisdictional covenant-lite data as partial substitute; confidence is 8/10 on the gap existing but the outcome is literally unquantifiable",
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
   }
 ]

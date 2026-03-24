@@ -1,0 +1,26 @@
+{
+  "slug": "spread_decomposition",
+  "purpose": "Provides rigorous quantitative framework for determining whether credit spreads adequately compensate for risk by decomposing into expected loss, risk premium, and residual components.",
+  "components": [
+    "Expected loss calculation from addback-adjusted default probabilities",
+    "Composition adjustment for index quality migration (BB 38% to 52%)",
+    "Residual risk premium vs post-2000 distribution (currently 0-80bp, median 180-220bp)",
+    "Cross-validation against Merton-model equity-implied spreads (20-40bp wider than actual)",
+    "Central bank put adjustment (~30-50bp structural compression)"
+  ],
+  "current_assessment": "Net mispricing after composition adjustment is 30-80bp rather than 100-150bp. Bottom-decile residual risk premium confirmed but partially explained by composition improvement and central bank backstop. Called single most actionable insight by pair_1 debate.",
+  "limitations": [
+    "Addback adjustment introduces uncertainty propagating through all downstream calculations",
+    "Central bank put magnitude confounded by multiple factors",
+    "65bp estimation error range means residual compression may not be statistically significant",
+    "Model-dependent decomposition sensitive to default probability assumptions"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

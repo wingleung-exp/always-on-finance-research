@@ -1,34 +1,37 @@
 {
   "slug": "ebitda_addback_distortion",
   "definition": "EBITDA addback practices inflate reported leverage by 15-40%, meaning a deal at reported 6x leverage may be 7.5-8.5x on actual cash EBITDA. At 9-10% all-in cost, 8x leverage implies interest expense consuming 70-80% of cash EBITDA. This raises the economy's effective stall speed to ~1.5-2.0% GDP.",
-  "confidence": 6.67,
+  "confidence": 7.13,
   "evidence": [
-    "ECB analysis and Fed flagging confirmed 15-40% addback range",
-    "At 9-10% all-in cost and 8x actual leverage, interest expense consumes 70-80% of cash EBITDA",
-    "pair_1 called this the most concrete and alarming claim",
     "Underlying data from LCD and Refinitiv databases is well-established",
     "ECB analysis and Fed supervisory data confirm addback inflation of 15-40%",
     "Arithmetic on interest expense at true leverage is undisputed across debates",
     "Covenant-lite dominance (>90% of leveraged loans) delays default recognition by 12-24 months",
     "S&P LCD median addbacks 25-40% of reported EBITDA",
-    "Reported 5.0x leverage = 6.5-7.0x cash EBITDA"
+    "Reported 5.0x leverage = 6.5-7.0x cash EBITDA",
+    "S&P LCD realization data shows 50-70% materialization within 2 years (30-50% shortfall)",
+    "Reported leverage 4.0-4.5x understates true leverage at 5.5-7.5x for median B-rated issuers",
+    "Shifts 5-year cumulative default probability from ~3.5% to ~8-14%",
+    "Both credit analysts in pair_1 agreed this has the strongest evidentiary base"
   ],
   "originating_agents": [
     "credit_analyst_02",
     "credit_analyst_01",
     "generalist_01",
     "macro_strategist_01",
-    "rates_strategist_02"
+    "rates_strategist_02",
+    "challenger_01",
+    "generalist_02"
   ],
   "open_questions": [
-    "How widespread are addback distortions across the leveraged loan universe?",
-    "At what GDP growth rate does the distortion trigger a cascading default cycle?",
     "Can regulators effectively constrain addback practices?",
     "What is the precise distribution of addback inflation across sectors and credit tiers?",
     "How does addback distortion interact with private credit's opacity?",
     "Do addback practices vary systematically by sector or sponsor?",
     "How do auditors and rating agencies account for addbacks?",
-    "What is the aggregate impact on leveraged lending market risk?"
+    "What is the aggregate impact on leveraged lending market risk?",
+    "What percentage of current BB issuers carry B-equivalent true leverage after addback adjustment?",
+    "How does addback distortion interact with composition improvement to determine net spread adequacy?"
   ],
   "related_concepts": [
     "covenant_lite_default_delay",
@@ -41,16 +44,21 @@
     "private_credit_rate_insensitivity",
     "non_gaap_earnings_masking",
     "private_credit_impairment_deferral",
-    "pik_toggle_activation"
+    "pik_toggle_activation",
+    "hy_composition_improvement",
+    "credit_underpricing_adjusted",
+    "fallen_angel_pipeline",
+    "late_cycle_falsification_gap"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0002",
     "iter_0043",
-    "iter_0044"
+    "iter_0044",
+    "iter_0050"
   ]
 }

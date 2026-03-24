@@ -1,0 +1,21 @@
+{
+  "concept_a": "clo_reinvestment_expiration",
+  "concept_b": "amend_extend_forbearance",
+  "mechanism": "A&E pushes maturities into a period of declining CLO demand, while CLO reinvestment expiration removes the marginal buyer that historically absorbed refinancing supply. Interaction creates a demand vacuum precisely when extended maturities come due.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Mitigated if SOFR declines 100-150bp restoring CLO reset economics; amplified if rates hold and new CLO formation stays below 15% hurdle.",
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "generalist_02"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

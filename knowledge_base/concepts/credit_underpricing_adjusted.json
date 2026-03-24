@@ -1,0 +1,33 @@
+{
+  "slug": "credit_underpricing_adjusted",
+  "definition": "Credit markets are directionally underpricing risk relative to rates and equity-implied measures. Residual risk premium is 0-80bp vs post-2000 median of 180-220bp (bottom decile). However, after composition adjustment, net mispricing is 30-80bp rather than the 100-150bp some analyses imply.",
+  "confidence": 6,
+  "evidence": [
+    "Spread decomposition shows residual risk premium in bottom decile of post-2000 distribution",
+    "Equity-implied spreads (Merton model) 20-40bp wider than actual",
+    "Debate pair_0: both generalists agreed credit is the outlier",
+    "After composition adjustment net mispricing likely 30-80bp not 100-150bp"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "What is composition-adjusted residual mispricing after addback correction?",
+    "Does central bank put account for the remaining residual?"
+  ],
+  "related_concepts": [
+    "hy_composition_improvement",
+    "ebitda_addback_distortion",
+    "central_bank_put_compression",
+    "term_credit_premium_divergence"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

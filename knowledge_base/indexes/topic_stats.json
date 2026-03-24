@@ -539,19 +539,49 @@
     "avg_confidence": 6.2
   },
   "credit_cycles": {
-    "concept_count": 29,
-    "relationship_count": 20,
-    "framework_count": 5,
+    "concept_count": 50,
+    "relationship_count": 34,
+    "framework_count": 11,
     "top_concepts": [
+      {
+        "slug": "composite_cycle_analysis",
+        "confidence": 9,
+        "definition": "No single historical analogue exists for this credit cycle. Six structural features are individually precedented but collectively unprecedented: addba"
+      },
+      {
+        "slug": "default_fiscal_elasticity_gap",
+        "confidence": 9,
+        "definition": "The elasticity of default rates to fiscal spending is the critical unknown binding the entire analytical framework. Without this parameter, the Kaleck"
+      },
       {
         "slug": "ebitda_addback_leverage_inflation",
         "confidence": 8.5,
         "definition": "EBITDA addbacks and covenant-lite structures systematically inflate reported leverage metrics, with true leverage 1.5-2x higher than reported. Merton-"
       },
       {
+        "slug": "asymmetric_transmission_timing",
+        "confidence": 8,
+        "definition": "Fiscal supply reprices term premium in real-time through observable Treasury auctions, while defaults reprice credit premium with a 12-24 month lag th"
+      },
+      {
+        "slug": "covenant_lite_untested",
+        "confidence": 8,
+        "definition": "The covenant-lite regime has zero organic downturn observations. COVID tested covenant-lite only under $800B+ PPP, Fed purchases, and ZIRP \u2014 not an or"
+      },
+      {
+        "slug": "late_cycle_falsification_gap",
+        "confidence": 8,
+        "definition": "The late-cycle thesis lacks specified, timebound, observable falsification criteria. Traditional indicators show mid-cycle but are deemed degraded; ad"
+      },
+      {
         "slug": "roic_wacc_bimodality",
         "confidence": 8,
         "definition": "The aggregate ROIC-WACC spread masks extreme bimodality: mega-cap tech (ROIC 25-40%, ~30% of cap weight) is rate-immune, while the S&P 493 debt-weight"
+      },
+      {
+        "slug": "structural_vulnerability_asymmetry",
+        "confidence": 8,
+        "definition": "The knowledge base catalogs 25+ vulnerability concepts against ~1 structural improvement concept. Genuine risk-dampening factors (bank capital 2-3x pr"
       },
       {
         "slug": "sub_ig_maturity_wall",
@@ -562,47 +592,24 @@
         "slug": "traditional_credit_indicator_degradation",
         "confidence": 8,
         "definition": "Traditional credit cycle indicators (credit impulse, VIX, HY OAS, SLOOS, default rates) have structurally degraded and now monitor a shrinking fractio"
-      },
-      {
-        "slug": "kalecki_fiscal_buffer",
-        "confidence": 7.5,
-        "definition": "The Kalecki profit identity channel, with fiscal deficits at 6-7% of GDP, is the dominant force suppressing the credit cycle turn by directly sustaini"
-      },
-      {
-        "slug": "credit_factor_crowding",
-        "confidence": 7.0,
-        "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compr"
-      },
-      {
-        "slug": "credit_returns_short_put_optionality",
-        "confidence": 7,
-        "definition": "Credit returns behave as short put options with negative skewness (-1.2 to -1.8) and excess kurtosis (4-8). Mean-variance optimization systematically "
-      },
-      {
-        "slug": "credit_tightening_commodity_supply_paradox",
-        "confidence": 7,
-        "definition": "Credit tightening constrains commodity supply by reducing E&P, mining, and agricultural capex, supporting prices and creating a feedback loop with inf"
-      },
-      {
-        "slug": "energy_sector_hy_canary_obsolescence",
-        "confidence": 7,
-        "definition": "The energy sector is no longer the HY credit cycle canary. E&P net debt/EBITDA declined to 0.5-1.0x (vs. 3-4x in 2015), and HY index energy weight fel"
-      },
-      {
-        "slug": "fallen_angel_forced_selling",
-        "confidence": 7,
-        "definition": "Fallen angel risk ($350-500B BBB at elevated downgrade risk) creates a quantifiable forced-selling factor with predictable abnormal returns: 8-15% und"
       }
     ],
     "all_concept_slugs": [
       "agricultural_credit_leading_indicator",
       "amend_extend_forbearance",
+      "asymmetric_transmission_timing",
       "basis_trade_maturity_wall_doom_loop",
+      "bearish_analytical_bias",
       "biofuel_mandate_credit_rigidity",
+      "catalog_bias",
+      "central_bank_put_compression",
       "china_credit_impulse_degradation",
       "clo_reinvestment_expiration",
+      "clo_three_way_squeeze",
       "commodity_futures_curve_credit_indicator",
+      "composite_cycle_analysis",
       "covenant_lite_default_distribution",
+      "covenant_lite_untested",
       "credit_cycle_stage_assessment",
       "credit_equity_basis_early_warning",
       "credit_equity_lead_lag_compression",
@@ -610,22 +617,36 @@
       "credit_premium_compression",
       "credit_returns_short_put_optionality",
       "credit_tightening_commodity_supply_paradox",
+      "credit_underpricing_adjusted",
+      "default_fiscal_elasticity_gap",
+      "dollar_cycle_gap",
       "ebitda_addback_leverage_inflation",
       "energy_sector_hy_canary_obsolescence",
       "fallen_angel_forced_selling",
+      "fallen_angel_pipeline",
+      "false_all_clear_steepening",
       "gold_credit_hedge_repricing",
+      "hy_composition_improvement",
       "hy_default_rate_mispricing",
+      "kalecki_credit_transmission_chain",
       "kalecki_fiscal_buffer",
+      "late_cycle_falsification_gap",
+      "minsky_covenant_lite",
+      "private_credit_portfolio_contamination",
       "private_credit_structural_vulnerability",
       "roic_wacc_bimodality",
       "self_referential_fiscal_instability",
       "semi_liquid_vehicle_redemption_dynamics",
+      "sofr_transmission_brittleness",
+      "sp_cre_1989_analogue",
       "structural_improvement_vulnerability_asymmetry",
+      "structural_vulnerability_asymmetry",
       "sub_ig_maturity_wall",
+      "term_credit_premium_divergence",
       "term_premium_credit_premium_divergence",
       "traditional_credit_indicator_degradation"
     ],
-    "avg_confidence": 6.1
+    "avg_confidence": 6.5
   },
   "credit_equity_linkage": {
     "concept_count": 39,
@@ -2346,11 +2367,6 @@
         "definition": "Shifts in cross-asset correlation regimes represent the deepest portfolio risk, as they invalidate diversification assumptions simultaneously across a"
       },
       {
-        "slug": "basis_trade_fragility",
-        "confidence": 8.5,
-        "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated l"
-      },
-      {
         "slug": "kalecki_profit_channel",
         "confidence": 8.33,
         "definition": "The Kalecki profit equation mechanism through which government fiscal deficits directly sustain corporate sector profits. At ~6-7% GDP deficit, this c"
@@ -2361,14 +2377,19 @@
         "definition": "CLO market dynamics are simultaneously extending the current risk-on environment through credit intermediation while building the mechanical condition"
       },
       {
-        "slug": "minsky_framework",
-        "confidence": 7.0,
-        "definition": "The Minsky financial instability hypothesis applied as an analytical framework for understanding risk appetite regime transitions. Validated as a stru"
+        "slug": "basis_trade_fragility",
+        "confidence": 7.88,
+        "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated l"
       },
       {
         "slug": "private_credit_opacity",
-        "confidence": 7.0,
+        "confidence": 7.14,
         "definition": "The opacity of private credit markets systematically biases observable risk indicators toward false optimism. The direction of this bias is certain bu"
+      },
+      {
+        "slug": "minsky_framework",
+        "confidence": 7.0,
+        "definition": "The Minsky financial instability hypothesis applied as an analytical framework for understanding risk appetite regime transitions. Validated as a stru"
       }
     ],
     "all_concept_slugs": [

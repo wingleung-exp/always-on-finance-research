@@ -1,0 +1,29 @@
+{
+  "slug": "private_credit_portfolio_contamination",
+  "definition": "Private credit return smoothing (0.5-0.7 NAV autocorrelation) understates portfolio volatility by 15-25% across $5T+ in institutional assets that hold private credit alongside public markets, contaminating risk budgeting across pension funds and insurers.",
+  "confidence": 7,
+  "evidence": [
+    "NAV autocorrelation of 0.5-0.7 produces calculable vol understatement",
+    "$5T+ in institutional assets affected",
+    "Behavioral assumptions about risk budget reactions debated"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "How do institutions actually respond when true volatility is revealed?",
+    "Does vol understatement lead to over-allocation or is it already priced in?"
+  ],
+  "related_concepts": [
+    "private_credit_opacity",
+    "semi_liquid_vehicle_contagion"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

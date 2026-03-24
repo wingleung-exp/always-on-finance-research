@@ -1,0 +1,26 @@
+{
+  "slug": "minsky_taxonomy_covenant_lite",
+  "purpose": "Applies Minsky's financial instability framework to covenant-lite credit markets to predict default cascade dynamics and timeline compression.",
+  "components": [
+    "Hedge finance: borrower can meet all obligations from cash flows",
+    "Speculative finance: borrower can meet interest but not principal (needs refinancing) — traditionally a warning phase",
+    "Ponzi finance: borrower cannot meet interest (needs asset appreciation or forbearance)",
+    "Covenant-lite impact: eliminates speculative phase by removing covenant triggers that historically forced early restructuring",
+    "Direct hedge-to-Ponzi transition prediction: cliff-edge rather than gradual default emergence"
+  ],
+  "current_assessment": "Theoretically sound — covenant-lite removes the early warning triggers that historically delineated speculative phase. Whether this produces cliff-edge or gradual defaults in organic downturn is literally unknown. Specific 3-6 month timeline was refuted as empirically uncalibrated. Called strongest theoretical contribution by pair_1.",
+  "limitations": [
+    "Zero organic downturn observations for covenant-lite regime",
+    "COVID test confounded by $800B+ PPP and Fed purchases",
+    "Specific timeline compression (3-6 months) was refuted — honest statement is likely compressed, magnitude unknown",
+    "Bimodal vs smooth default distribution genuinely untestable ex ante"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

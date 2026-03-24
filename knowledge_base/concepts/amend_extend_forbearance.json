@@ -1,33 +1,47 @@
 {
   "slug": "amend_extend_forbearance",
   "definition": "The amend-and-extend mechanism is structurally analogous to Japanese 1990s forbearance, trading current default recognition for accumulated future severity. PIK usage is rising from ~2% to 5-8%, and $200-400B has been pushed out 2-3 years. The Japanese analogy suggests forbearance extends timelines 3-5 years but increases eventual losses 30-50%.",
-  "confidence": 5,
+  "confidence": 5.5,
   "evidence": [
     "PIK usage rising from ~2% to 5-8%",
     "$200-400B maturities pushed out 2-3 years",
     "Japanese 1990s analogy suggests 3-5 year timeline extension and 30-50% severity increase",
-    "Institutional context differs substantially (US capital markets vs Japanese bank-directed economy)"
+    "Institutional context differs substantially (US capital markets vs Japanese bank-directed economy)",
+    "$200-400B pushed out 2-3 years (KB consensus)",
+    "PIK compounding at 10-13% annually creates calculable principal accretion",
+    "Direction (forbearance extends timelines, amplifies severity) survived every historical test",
+    "US institutional context (mark-to-market, PE fund lives) produces faster resolution than Japan"
   ],
   "originating_agents": [
     "generalist_02",
-    "risk_analyst_01"
+    "risk_analyst_01",
+    "credit_analyst_02",
+    "credit_analyst_01"
   ],
   "open_questions": [
     "Is the Japanese analogy applicable given different institutional structures?",
     "How much accumulated severity is building from current amend-and-extend activity?",
-    "At what point does forbearance become unsustainable?"
+    "At what point does forbearance become unsustainable?",
+    "What is the US-specific severity amplification factor?",
+    "Does PIK exhaustion at 15-20% EV create a binding time constraint?",
+    "How does 5y5y at 4.0-4.5% affect A&E economics at rollover?"
   ],
   "related_concepts": [
     "sub_ig_maturity_wall",
     "private_credit_structural_vulnerability",
-    "covenant_lite_default_distribution"
+    "covenant_lite_default_distribution",
+    "pik_exhaustion_threshold",
+    "clo_reinvestment_expiration",
+    "false_all_clear_steepening",
+    "kalecki_fiscal_buffer"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0050"
   ]
 }

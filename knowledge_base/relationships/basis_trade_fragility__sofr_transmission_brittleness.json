@@ -1,0 +1,20 @@
+{
+  "concept_a": "basis_trade_fragility",
+  "concept_b": "sofr_transmission_brittleness",
+  "mechanism": "SOFR elimination of bank intermediation buffer means rate shocks transmit mechanically to $1.4T leveraged loans. Basis trade unwinding would cause rate volatility that SOFR immediately transmits without discretionary dampening, creating plumbing-level feedback loop.",
+  "direction": "bidirectional",
+  "confidence": 5,
+  "regime_dependence": "Relevant only during acute rates stress; Standing Repo Facility may interrupt if it functions at scale.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "rates_strategist_02"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

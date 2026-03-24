@@ -1,0 +1,26 @@
+{
+  "slug": "steepening_decomposition",
+  "purpose": "Determines whether yield curve steepening signals economic recovery (benign) or stress precursor (false all-clear) by decomposing into term premium vs rate expectations components.",
+  "components": [
+    "ACM/Kim-Wright term premium decomposition",
+    "Composition benchmark: stress precursors (1994, 2013) show 60-70% term premium; benign recoveries show 60-80% falling rate expectations",
+    "5y5y forward as structural neutral rate indicator (currently 4.0-4.5%)",
+    "Forward-starting swap spread divergence as leading indicator (1y forward 5y, +15-20bp vs spot)",
+    "Policy trilemma: Fed can suppress term premium, fight inflation, or allow credit stress — not all three"
+  ],
+  "current_assessment": "Current steepening matches stress precursor pattern at 60-70% term premium driven. 5y5y at 4.0-4.5% implies A&E delays into equivalent or worse refinancing economics. Reduced from 8/10 to 7/10 due to inherent model sensitivity.",
+  "limitations": [
+    "Term premium decomposition inherently model-dependent",
+    "ACM and Kim-Wright can disagree by 40-60bp",
+    "n<5 comparable episodes limits pattern matching",
+    "Novel fiscal-dominated regime may produce patterns not in historical sample"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

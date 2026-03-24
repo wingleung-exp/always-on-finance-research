@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "kalecki_profit_identity",
+    "purpose": "Explains how fiscal deficits mechanically sustain corporate profits and suppress default rates, providing the causal framework for why traditional late-cycle indicators produce contradictory signals.",
+    "components": [
+      "Government deficit as direct profit source (~$1.4-1.6T annually at 6-7% GDP)",
+      "Net policy stance calculation (fiscal easing 300-400bp vs monetary tightening 525bp)",
+      "Break threshold at ~4.5% GDP deficit where buffer weakens",
+      "Full transmission chain: fiscal -> revenue -> EBITDA -> coverage -> OC test -> CLO -> loan demand",
+      "Historical deficit comparison across 5 credit cycle peaks (1989: 2.8%, 2006: 1.9%, current: 6-7%)"
+    ],
+    "current_assessment": "Mechanism is certain as accounting tautology. Current deficit at 6-7% provides unprecedented buffer. No prior credit stress episode exceeded 3.5%. Political durability is sole uncertainty. Quantitative precision requires the uncalibrated fiscal-default elasticity parameter.",
+    "limitations": [
+      "Fiscal-default elasticity is uncalibrated — directionally certain, quantitatively imprecise",
+      "Political durability of 6-7% deficits is unpredictable",
+      "Does not account for external financing constraints via dollar cycle",
+      "Transmission lags at each chain link are unspecified",
+      "Cross-country calibration data has not been applied"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "spread_decomposition",
+    "purpose": "Provides rigorous quantitative framework for determining whether credit spreads adequately compensate for risk by decomposing into expected loss, risk premium, and residual components.",
+    "components": [
+      "Expected loss calculation from addback-adjusted default probabilities",
+      "Composition adjustment for index quality migration (BB 38% to 52%)",
+      "Residual risk premium vs post-2000 distribution (currently 0-80bp, median 180-220bp)",
+      "Cross-validation against Merton-model equity-implied spreads (20-40bp wider than actual)",
+      "Central bank put adjustment (~30-50bp structural compression)"
+    ],
+    "current_assessment": "Net mispricing after composition adjustment is 30-80bp rather than 100-150bp. Bottom-decile residual risk premium confirmed but partially explained by composition improvement and central bank backstop. Called single most actionable insight by pair_1 debate.",
+    "limitations": [
+      "Addback adjustment introduces uncertainty propagating through all downstream calculations",
+      "Central bank put magnitude confounded by multiple factors",
+      "65bp estimation error range means residual compression may not be statistically significant",
+      "Model-dependent decomposition sensitive to default probability assumptions"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "maturity_wall_assessment",
+    "purpose": "Evaluates whether the current maturity wall will produce systemic stress or be defused, incorporating structural differences from four prior episodes that were all resolved without crisis.",
+    "components": [
+      "Base rate: 0-for-4 prior maturity walls produced systemic stress",
+      "Structural differentiator: CLO reinvestment expiration ($250-350B over 18 months)",
+      "CLO three-way squeeze: reinvestment expiration + arbitrage deterioration + CCC migration thresholds",
+      "Refinancing cost premium: 40-60% higher than prior episodes",
+      "A&E forbearance: $200-400B pushed out 2-3 years with PIK compounding at 10-13%",
+      "Falsification: SOFR decline 100-150bp restoring CLO reset economics",
+      "Key real-time variable: CCC bucket utilization (4% vs 6.5% toward 7.5% threshold)"
+    ],
+    "current_assessment": "Current episode structurally different from prior four via concurrent CLO demand withdrawal and higher refinancing costs. Bear case has force but 0-for-4 base rate cannot be dismissed with n=4 in non-stationary environment. Monitor CLO reset activity, SOFR path, and CCC bucket utilization.",
+    "limitations": [
+      "n=4 in non-stationary environment insufficient for statistical confidence",
+      "CLO CCC bucket utilization real-time data availability limited",
+      "A&E severity amplification factor uncalibrated",
+      "Interaction between CLO expiration and fiscal buffer unmodeled"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "historical_analogue_composite",
+    "purpose": "Determines appropriate historical reference points for this credit cycle by combining partial analogues rather than relying on any single-analogue framework.",
+    "components": [
+      "1989-91 S&L/CRE: closest institutional analogue for corporate-credit-led downturn (IG peaks ~200bp)",
+      "2005-07: transmission mechanism mismatch (household vs corporate leverage)",
+      "Japan 1990s: direction valid but 3x multiplier non-transferable",
+      "1998: partial analogue for external shock transmission",
+      "ARS vs SIV: competing CLO expiration analogues (gradual repricing vs panic collapse)",
+      "Historical deficit comparison table across 5 credit cycle peaks"
+    ],
+    "current_assessment": "1989-91 is closest single analogue but no single analogue is adequate. Six features individually precedented but collectively unprecedented. Composite analysis required but methodology for weighting partial analogues is undeveloped.",
+    "limitations": [
+      "No methodology exists for weighting partial analogues",
+      "Each analogue operated in fundamentally different institutional contexts",
+      "Unique combination may produce genuinely novel dynamics",
+      "Analogue analysis itself may break down for this cycle"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "steepening_decomposition",
+    "purpose": "Determines whether yield curve steepening signals economic recovery (benign) or stress precursor (false all-clear) by decomposing into term premium vs rate expectations components.",
+    "components": [
+      "ACM/Kim-Wright term premium decomposition",
+      "Composition benchmark: stress precursors (1994, 2013) show 60-70% term premium; benign recoveries show 60-80% falling rate expectations",
+      "5y5y forward as structural neutral rate indicator (currently 4.0-4.5%)",
+      "Forward-starting swap spread divergence as leading indicator (1y forward 5y, +15-20bp vs spot)",
+      "Policy trilemma: Fed can suppress term premium, fight inflation, or allow credit stress — not all three"
+    ],
+    "current_assessment": "Current steepening matches stress precursor pattern at 60-70% term premium driven. 5y5y at 4.0-4.5% implies A&E delays into equivalent or worse refinancing economics. Reduced from 8/10 to 7/10 due to inherent model sensitivity.",
+    "limitations": [
+      "Term premium decomposition inherently model-dependent",
+      "ACM and Kim-Wright can disagree by 40-60bp",
+      "n<5 comparable episodes limits pattern matching",
+      "Novel fiscal-dominated regime may produce patterns not in historical sample"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "catalog_bias_framework",
+    "purpose": "Identifies whether widely-discussed risks are less likely to be actual catalysts because positioning adjusts, helping distinguish between analytical thoroughness and actionable risk.",
+    "components": [
+      "Concept catalog ratio assessment (bearish:bullish = 25:1 in current KB)",
+      "Historical validation: 2008 crisis from invisible risks, not well-known ones",
+      "Carry cost asymmetry: 200-300bp/year negative carry for short credit",
+      "Distinction between analytical catalog and market positioning",
+      "Spread level context: HY OAS 350-420bp vs historical tights"
+    ],
+    "current_assessment": "Meta-concern about bearish consensus has merit, but specific evidence (25:1 ratio) conflates research thoroughness with positioning bias. Carry cost is real and quantifiable. Framework valid directionally but current application overstates evidence.",
+    "limitations": [
+      "Cannot distinguish between risks priced in vs merely cataloged",
+      "Carry cost calculation assumes static spreads",
+      "Cannot identify what the novel catalyst will be",
+      "Well-known risks sometimes do materialize"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "slug": "minsky_taxonomy_covenant_lite",
+    "purpose": "Applies Minsky's financial instability framework to covenant-lite credit markets to predict default cascade dynamics and timeline compression.",
+    "components": [
+      "Hedge finance: borrower can meet all obligations from cash flows",
+      "Speculative finance: borrower can meet interest but not principal (needs refinancing) — traditionally a warning phase",
+      "Ponzi finance: borrower cannot meet interest (needs asset appreciation or forbearance)",
+      "Covenant-lite impact: eliminates speculative phase by removing covenant triggers that historically forced early restructuring",
+      "Direct hedge-to-Ponzi transition prediction: cliff-edge rather than gradual default emergence"
+    ],
+    "current_assessment": "Theoretically sound — covenant-lite removes the early warning triggers that historically delineated speculative phase. Whether this produces cliff-edge or gradual defaults in organic downturn is literally unknown. Specific 3-6 month timeline was refuted as empirically uncalibrated. Called strongest theoretical contribution by pair_1.",
+    "limitations": [
+      "Zero organic downturn observations for covenant-lite regime",
+      "COVID test confounded by $800B+ PPP and Fed purchases",
+      "Specific timeline compression (3-6 months) was refuted — honest statement is likely compressed, magnitude unknown",
+      "Bimodal vs smooth default distribution genuinely untestable ex ante"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  }
+]

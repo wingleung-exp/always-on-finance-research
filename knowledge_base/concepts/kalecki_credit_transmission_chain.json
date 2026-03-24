@@ -1,0 +1,31 @@
+{
+  "slug": "kalecki_credit_transmission_chain",
+  "definition": "Full transmission chain mapping from fiscal policy to credit markets: fiscal deficit -> corporate revenue -> EBITDA -> interest coverage -> overcollateralization test -> CLO demand -> leveraged loan market demand. Each link is quantifiable and provides specific monitoring points.",
+  "confidence": 7,
+  "evidence": [
+    "Mapped as novel contribution by credit_analyst_02",
+    "Each link represents a quantifiable transmission mechanism",
+    "Provides framework for real-time fiscal-to-credit transmission monitoring"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What are the lag structures at each transmission link?",
+    "Which links are most sensitive to fiscal consolidation?"
+  ],
+  "related_concepts": [
+    "kalecki_fiscal_buffer",
+    "default_fiscal_elasticity_gap",
+    "clo_reinvestment_expiration",
+    "clo_three_way_squeeze"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

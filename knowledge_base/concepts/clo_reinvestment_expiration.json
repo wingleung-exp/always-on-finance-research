@@ -1,36 +1,50 @@
 {
   "slug": "clo_reinvestment_expiration",
   "definition": "CLO reinvestment expirations of $250-350B over 18 months will remove the marginal bid for leveraged loans. The process is gradual and contractual (distributed over 18+ months), not a sudden funding failure. CLOs stop buying rather than become forced sellers. Testable prediction: institutional leveraged loan new-issue spreads should widen 50-100bp by late 2026.",
-  "confidence": 6,
+  "confidence": 6.5,
   "evidence": [
     "Contractual nature of CLO run-off distributed over 18+ months",
     "CLOs don't become forced sellers; they stop buying",
     "SIV analogue captures demand-withdrawal magnitude but overstates speed",
-    "Prior CLO cliffs (2019) were pre-empted by reset activity, but current SOFR levels make reset economics less favorable"
+    "Prior CLO cliffs (2019) were pre-empted by reset activity, but current SOFR levels make reset economics less favorable",
+    "CLOs purchase 65-70% of institutional leveraged loans",
+    "All four prior maturity walls defused with functional CLO demand and flat-to-lower refinancing rates",
+    "Current episode features concurrent demand withdrawal and 40-60% higher refinancing costs",
+    "Falsification: SOFR decline 100-150bp could pre-empt via CLO reset activity as in 2019"
   ],
   "originating_agents": [
     "generalist_01",
     "generalist_02",
     "risk_analyst_01",
     "commodities_analyst_01",
-    "quant_researcher_01"
+    "quant_researcher_01",
+    "credit_analyst_01",
+    "credit_analyst_02"
   ],
   "open_questions": [
     "Will CLO reset activity pre-empt the cliff as in 2019?",
     "How much spread widening will actually materialize?",
-    "At what SOFR level does CLO arbitrage become viable again?"
+    "At what SOFR level does CLO arbitrage become viable again?",
+    "Will SOFR decline 100-150bp to restore CLO reset economics?",
+    "How close are CCC buckets to the 7.5% threshold?",
+    "Can new CLO formation above 15% hurdle rates replace expiring reinvestment capacity?"
   ],
   "related_concepts": [
     "sub_ig_maturity_wall",
     "basis_trade_maturity_wall_doom_loop",
-    "credit_premium_compression"
+    "credit_premium_compression",
+    "clo_three_way_squeeze",
+    "amend_extend_forbearance",
+    "basis_trade_fragility",
+    "asymmetric_transmission_timing"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T08:42:46Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0028"
+    "iter_0028",
+    "iter_0050"
   ]
 }

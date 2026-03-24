@@ -3,24 +3,30 @@
   "definition": "Credit factor returns show extreme crowding: the first principal component explains >65% of variance across HY, leveraged loans, and CLO equity. Compressed dispersion indicates the market is not discriminating between credit qualities, and diversification across credit sub-sectors is illusory.",
   "confidence": 7.0,
   "evidence": [
-    "First PC explains >65% of variance across HY, leveraged loans, CLO equity",
     "Compressed dispersion as crowding signal",
     "Market not discriminating between credit qualities",
     "PC1 explains >65% of variance across HY, loans, and CLO equity",
     "Effective dimensionality ~1.5-2.0",
     "BB-CCC spread ratio compressed from 3.0-3.5x to ~2.0-2.5x",
     "FX carry analogy suggests crowding only predictive at >90th percentile",
-    "Current levels may be elevated but not tail per quant_researcher_02 own caveat"
+    "Current levels may be elevated but not tail per quant_researcher_02 own caveat",
+    "PC1 >65% cited as one of six unprecedented structural features",
+    "Credit indicator R-squared declined from 0.38 to 0.12",
+    "Identified as contributing to degraded signal quality"
   ],
   "originating_agents": [
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "generalist_02",
+    "generalist_01"
   ],
   "open_questions": [
     "What level of dispersion would signal crowding is unwinding?",
     "How quickly can crowding reverse during stress?",
     "Is current crowding at or above the >90th percentile predictive threshold?",
     "How does private credit allocation affect measured crowding in public markets?",
-    "What triggers the transition from crowded-but-stable to crowded-and-unwinding?"
+    "What triggers the transition from crowded-but-stable to crowded-and-unwinding?",
+    "What PC1 threshold historically preceded factor reversals?",
+    "How does factor crowding interact with ETF/algorithmic arbitrage?"
   ],
   "related_concepts": [
     "credit_premium_compression",
@@ -29,15 +35,19 @@
     "cross_capital_structure_compression_tail_risk",
     "bearish_credit_positioning_asymmetry",
     "intra_credit_cascade_sequence",
-    "credit_inefficient_risk_premium"
+    "credit_inefficient_risk_premium",
+    "credit_equity_lead_lag_compression",
+    "credit_underpricing_adjusted",
+    "composite_cycle_analysis"
   ],
   "topic": "credit_cycles",
   "created_at": "2026-03-23T08:42:46Z",
-  "last_updated": "2026-03-23T09:11:53Z",
+  "last_updated": "2026-03-24T08:49:12Z",
   "originating_iteration": "iter_0028",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0028",
-    "iter_0029"
+    "iter_0029",
+    "iter_0050"
   ]
 }

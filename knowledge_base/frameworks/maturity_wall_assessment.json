@@ -1,0 +1,28 @@
+{
+  "slug": "maturity_wall_assessment",
+  "purpose": "Evaluates whether the current maturity wall will produce systemic stress or be defused, incorporating structural differences from four prior episodes that were all resolved without crisis.",
+  "components": [
+    "Base rate: 0-for-4 prior maturity walls produced systemic stress",
+    "Structural differentiator: CLO reinvestment expiration ($250-350B over 18 months)",
+    "CLO three-way squeeze: reinvestment expiration + arbitrage deterioration + CCC migration thresholds",
+    "Refinancing cost premium: 40-60% higher than prior episodes",
+    "A&E forbearance: $200-400B pushed out 2-3 years with PIK compounding at 10-13%",
+    "Falsification: SOFR decline 100-150bp restoring CLO reset economics",
+    "Key real-time variable: CCC bucket utilization (4% vs 6.5% toward 7.5% threshold)"
+  ],
+  "current_assessment": "Current episode structurally different from prior four via concurrent CLO demand withdrawal and higher refinancing costs. Bear case has force but 0-for-4 base rate cannot be dismissed with n=4 in non-stationary environment. Monitor CLO reset activity, SOFR path, and CCC bucket utilization.",
+  "limitations": [
+    "n=4 in non-stationary environment insufficient for statistical confidence",
+    "CLO CCC bucket utilization real-time data availability limited",
+    "A&E severity amplification factor uncalibrated",
+    "Interaction between CLO expiration and fiscal buffer unmodeled"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

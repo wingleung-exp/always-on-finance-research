@@ -1,0 +1,34 @@
+{
+  "slug": "term_credit_premium_divergence",
+  "definition": "Term premium at 80-130bp diverges from compressed HY OAS. This is rational in a fiscal-dominated regime: deficits simultaneously flood the long end (elevating term premium) and sustain profits (compressing credit premium). These are different state variables that can rationally diverge. Convergence forced only at 175-225bp ACM term premium.",
+  "confidence": 7,
+  "evidence": [
+    "Debate pair_2 produced strong agreement on different state variables explanation",
+    "Term premium reprices in real-time to observable supply; credit reprices with 12-24 month lag",
+    "Corrects KB framing of divergence as internal inconsistency",
+    "Convergence forced when term premium overwhelms Kalecki channel at ~175-225bp ACM"
+  ],
+  "originating_agents": [
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "fx_strategist_01"
+  ],
+  "open_questions": [
+    "Will term premium reach 175-225bp range where tightening overwhelms profit support?",
+    "How long can rational coexistence persist in a fiscal-dominated regime?"
+  ],
+  "related_concepts": [
+    "kalecki_fiscal_buffer",
+    "false_all_clear_steepening",
+    "asymmetric_transmission_timing",
+    "basis_trade_fragility"
+  ],
+  "topic": "credit_cycles",
+  "created_at": "2026-03-24T08:49:12Z",
+  "last_updated": "2026-03-24T08:49:12Z",
+  "originating_iteration": "iter_0050",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0050"
+  ]
+}

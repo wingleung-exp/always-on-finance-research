@@ -1,0 +1,201 @@
+[
+  {
+    "concept_a": "kalecki_fiscal_buffer",
+    "concept_b": "term_credit_premium_divergence",
+    "mechanism": "Fiscal deficits simultaneously flood the Treasury long end (elevating term premium via supply) and sustain corporate profits via Kalecki identity (compressing credit premium via lower default expectations). These are different state variables responding to the same fiscal cause.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when fiscal deficits exceed ~4.5% GDP. Below that threshold, profit support weakens and divergence should narrow.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "fx_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "ebitda_addback_distortion",
+    "concept_b": "hy_composition_improvement",
+    "mechanism": "Addback adjustment reveals many current BB-rated issuers carry B-equivalent true leverage, partially offsetting the mechanical spread compression from index composition improvement. The net composition benefit is smaller than raw rating migration suggests.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Intensifies as addback realization rates decline in slowdown; less binding when revenue growth validates projections.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "challenger_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "clo_reinvestment_expiration",
+    "concept_b": "amend_extend_forbearance",
+    "mechanism": "A&E pushes maturities into a period of declining CLO demand, while CLO reinvestment expiration removes the marginal buyer that historically absorbed refinancing supply. Interaction creates a demand vacuum precisely when extended maturities come due.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Mitigated if SOFR declines 100-150bp restoring CLO reset economics; amplified if rates hold and new CLO formation stays below 15% hurdle.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "false_all_clear_steepening",
+    "concept_b": "amend_extend_forbearance",
+    "mechanism": "If steepening reflects term premium expansion (not falling rate expectations), 5y5y forward at 4.0-4.5% means A&E strategies delay into equivalent or worse refinancing economics. Benign-appearing steepening traps borrowers in higher long-term rates.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as steepening is term-premium-driven. If composition shifts to rate-expectations-driven (Fed cutting), A&E economics improve.",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "kalecki_fiscal_buffer",
+    "concept_b": "default_fiscal_elasticity_gap",
+    "mechanism": "The fiscal buffer thesis is directionally compelling but quantitatively imprecise without the fiscal-default elasticity parameter. A 2pp consolidation could reduce defaults by 50bp or 300bp — the range determines whether fiscal withdrawal triggers a credit event or merely repricing.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Always relevant; the elasticity may itself be regime-dependent (higher when leverage is elevated, lower when balance sheets are clean).",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "private_credit_opacity",
+    "concept_b": "default_fiscal_elasticity_gap",
+    "mechanism": "Opacity in $1.7-1.8T of private credit prevents accurate measurement of both actual defaults/losses and fiscal transmission to private credit, preventing calibration of the fiscal-default elasticity.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Worsens as private credit share of total leveraged credit grows; partially mitigated by secondary market price discovery.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "rates_strategist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "central_bank_put_compression",
+    "concept_b": "credit_underpricing_adjusted",
+    "mechanism": "Demonstrated Fed backstop credibility permanently compresses credit risk premia by 30-50bp, meaning some apparent underpricing is rational compensation for reduced tail risk rather than mispricing.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds as long as backstop credibility is maintained. Self-defeating loop risk: backstop compresses premia, loosens conditions, requires higher rates, increases eventual stress severity.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "credit_equity_lead_lag_compression",
+    "concept_b": "late_cycle_falsification_gap",
+    "mechanism": "Compressed lead-lag (6-8 to 0-2 months) degrades credit's traditional early-warning function, making it harder to identify cycle turning points and further undermining falsification criteria construction.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "May be structural (ETF/algo-driven) rather than regime-dependent; if structural, permanently degrades early warning.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "dollar_cycle_gap",
+    "concept_b": "kalecki_fiscal_buffer",
+    "mechanism": "Dollar dynamics determine external financing sustainability of fiscal deficits. Dollar weakness eases credit conditions (cheaper offshore USD debt service); dollar strength tightens them. The Kalecki buffer's sustainability is partly an FX/external financing question.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Dollar-credit feedback direction is regime-dependent: safe-haven strengthening (2008, self-reinforcing) vs exceptionalism-unwind weakening (self-correcting).",
+    "originating_agents": [
+      "fx_strategist_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "basis_trade_fragility",
+    "concept_b": "sofr_transmission_brittleness",
+    "mechanism": "SOFR elimination of bank intermediation buffer means rate shocks transmit mechanically to $1.4T leveraged loans. Basis trade unwinding would cause rate volatility that SOFR immediately transmits without discretionary dampening, creating plumbing-level feedback loop.",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Relevant only during acute rates stress; Standing Repo Facility may interrupt if it functions at scale.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "asymmetric_transmission_timing",
+    "concept_b": "clo_reinvestment_expiration",
+    "mechanism": "CLO reinvestment expiration creates discrete maturity tranches adding convex/step-function transmission on top of the 12-24 month credit repricing lag. Each quarter brings discrete refinancing tranches rather than linear damage accumulation.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Intensifies as more CLOs exit reinvestment periods; diminishes if rate cuts restore reset economics.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "credit_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "ebitda_addback_distortion",
+    "concept_b": "late_cycle_falsification_gap",
+    "mechanism": "Addback distortion degrades traditional leverage-based credit indicators (contributing to R-squared decline from 0.38 to 0.12), making cycle stage determination unreliable and undermining falsification attempts.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Worsens in late-cycle when addback shortfalls are higher; less relevant in early cycle when organic growth validates projections.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "covenant_lite_untested",
+    "concept_b": "minsky_covenant_lite",
+    "mechanism": "Zero organic downturn observations means the Minsky-predicted cliff-edge default pattern (direct hedge-to-Ponzi transition) is theoretically sound but empirically untestable. The prediction and the data gap are two aspects of the same structural unknown.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Will only be resolved by the next organic downturn; COVID data is confounded by massive fiscal/monetary intervention.",
+    "originating_agents": [
+      "generalist_02",
+      "credit_analyst_02"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  },
+  {
+    "concept_a": "kalecki_fiscal_buffer",
+    "concept_b": "central_bank_put_compression",
+    "mechanism": "Fiscal support and central bank backstop jointly compress credit risk premia through different channels: fiscal sustains fundamentals (revenue/profits) while the put prices reduced tail risk. Together they may account for 80-100bp of compression vs pre-2020 norms.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Both require continued policy willingness; fiscal buffer is politically determined while put credibility depends on future Fed actions.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "credit_cycles",
+    "iteration_id": "iter_0050"
+  }
+]
