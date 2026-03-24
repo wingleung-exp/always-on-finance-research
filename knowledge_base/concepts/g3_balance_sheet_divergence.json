@@ -1,12 +1,17 @@
 {
   "slug": "g3_balance_sheet_divergence",
   "definition": "Fed, ECB, and BoJ balance sheet operations represent fundamentally different interventions despite the unified label 'normalization.' The Fed does passive runoff in deep liquid markets; the ECB manages sovereign credit allocation across 20 members with fragmentation risk; the BoJ holds >50% of JGBs and IS the market. Drawing QT conclusions across these is a category error.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
     "Fed: passive Treasury/MBS runoff in deep, liquid markets",
     "ECB: TLTRO direct credit effects, BTP-Bund dynamics, 20 sovereign members",
     "BoJ: holds >50% of JGBs outstanding (~$4.5T)",
-    "Confirmed in pair_3 debate as most defensible claim (challenger_01 at 9/10)"
+    "Confirmed in pair_3 debate as most defensible claim (challenger_01 at 9/10)",
+    "Fed = sovereign currency issuer with deep capital markets — distributional and political constraints only",
+    "ECB = currency union where member states are effectively currency users — TPI conditionality may render it unavailable when needed",
+    "BoJ = holds >50% of JGBs, effectively IS the market",
+    "These are categorically different exercises, not different speeds",
+    "Unchallenged in any debate"
   ],
   "originating_agents": [
     "challenger_01",
@@ -16,23 +21,31 @@
     "generalist_02",
     "macro_strategist_01",
     "macro_strategist_02",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "quant_researcher_02"
   ],
   "open_questions": [
     "Can BoJ normalization proceed without major yield increases?",
-    "Does the divergence create exploitable cross-market dislocations?"
+    "Does the divergence create exploitable cross-market dislocations?",
+    "How does ECB TPI conditionality interact with peripheral sovereign stress during QT?",
+    "Can the BoJ create a functioning JGB market while holding majority supply?",
+    "Does the divergence imply duration absorption stress is disproportionately a USD problem?"
   ],
   "related_concepts": [
     "ecb_btp_bund_widening_risk",
     "boj_normalization_tail_risk",
-    "permanent_balance_sheet_expansion"
+    "permanent_balance_sheet_expansion",
+    "balance_sheet_ratchet_effect",
+    "compound_duration_absorption",
+    "pboc_kb_gap"
   ],
   "topic": "central_bank_balance_sheets",
   "created_at": "2026-03-23T00:09:57Z",
-  "last_updated": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-24T01:29:22Z",
   "originating_iteration": "iter_0013",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0013"
+    "iter_0013",
+    "iter_0061"
   ]
 }

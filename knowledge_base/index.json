@@ -4,9 +4,9 @@
     "concept:basis_trade_fragility": {
       "type": "concept",
       "slug": "basis_trade_fragility",
-      "confidence": 9.0,
-      "last_updated": "2026-03-23T02:02:30Z",
-      "research_iterations": 2,
+      "confidence": 8.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 3,
       "topic": "risk_appetite_regimes"
     },
     "concept:move_vix_divergence": {
@@ -2916,9 +2916,9 @@
     "concept:qe_qt_asymmetry": {
       "type": "concept",
       "slug": "qe_qt_asymmetry",
-      "confidence": 8,
-      "last_updated": "2026-03-23T00:09:57Z",
-      "research_iterations": 1,
+      "confidence": 7.0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 2,
       "topic": "central_bank_balance_sheets"
     },
     "concept:permanent_balance_sheet_expansion": {
@@ -2988,9 +2988,9 @@
     "concept:g3_balance_sheet_divergence": {
       "type": "concept",
       "slug": "g3_balance_sheet_divergence",
-      "confidence": 8,
-      "last_updated": "2026-03-23T00:09:57Z",
-      "research_iterations": 1,
+      "confidence": 8.0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 2,
       "topic": "central_bank_balance_sheets"
     },
     "concept:qt_is_curve_steepening": {
@@ -3052,9 +3052,9 @@
     "concept:compound_duration_absorption": {
       "type": "concept",
       "slug": "compound_duration_absorption",
-      "confidence": 7,
-      "last_updated": "2026-03-23T00:09:57Z",
-      "research_iterations": 1,
+      "confidence": 7.25,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 2,
       "topic": "central_bank_balance_sheets"
     },
     "concept:rrp_buffer_exhaustion": {
@@ -3068,9 +3068,9 @@
     "concept:reserve_scarcity_nonlinearity": {
       "type": "concept",
       "slug": "reserve_scarcity_nonlinearity",
-      "confidence": 8,
-      "last_updated": "2026-03-23T00:09:57Z",
-      "research_iterations": 1,
+      "confidence": 8.0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 2,
       "topic": "central_bank_balance_sheets"
     },
     "relationship:basis_trade_synthetic_qe__qt_term_premium_channel": {
@@ -15240,6 +15240,310 @@
       "last_updated": "2026-03-23T14:49:16Z",
       "research_iterations": 1,
       "topic": "sovereign_debt"
+    },
+    "concept:stress_episode_sequencing": {
+      "type": "concept",
+      "slug": "stress_episode_sequencing",
+      "confidence": 8,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:bayesian_qt_updating": {
+      "type": "concept",
+      "slug": "bayesian_qt_updating",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:commodity_financing_repricing": {
+      "type": "concept",
+      "slug": "commodity_financing_repricing",
+      "confidence": 5.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:mixed_signal_coherence": {
+      "type": "concept",
+      "slug": "mixed_signal_coherence",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:srf_overrated": {
+      "type": "concept",
+      "slug": "srf_overrated",
+      "confidence": 8,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:gold_regime_break": {
+      "type": "concept",
+      "slug": "gold_regime_break",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:balance_sheet_ratchet_effect": {
+      "type": "concept",
+      "slug": "balance_sheet_ratchet_effect",
+      "confidence": 8,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:fiscal_deficit_buffer": {
+      "type": "concept",
+      "slug": "fiscal_deficit_buffer",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:ebitda_addback_contamination": {
+      "type": "concept",
+      "slug": "ebitda_addback_contamination",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:covenant_lite_impairment": {
+      "type": "concept",
+      "slug": "covenant_lite_impairment",
+      "confidence": 5.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:qt_term_premium_effect": {
+      "type": "concept",
+      "slug": "qt_term_premium_effect",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:narrative_coherence_bias": {
+      "type": "concept",
+      "slug": "narrative_coherence_bias",
+      "confidence": 7,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:pboc_kb_gap": {
+      "type": "concept",
+      "slug": "pboc_kb_gap",
+      "confidence": 8,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:nbfi_structural_vulnerability": {
+      "type": "concept",
+      "slug": "nbfi_structural_vulnerability",
+      "confidence": 7,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "concept:private_credit_nav_smoothing": {
+      "type": "concept",
+      "slug": "private_credit_nav_smoothing",
+      "confidence": 7.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:fiscal_deficit_buffer__stress_episode_sequencing": {
+      "type": "relationship",
+      "slug": "fiscal_deficit_buffer__stress_episode_sequencing",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:covenant_lite_impairment__nbfi_structural_vulnerability": {
+      "type": "relationship",
+      "slug": "covenant_lite_impairment__nbfi_structural_vulnerability",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:reserve_scarcity_nonlinearity__stress_episode_sequencing": {
+      "type": "relationship",
+      "slug": "reserve_scarcity_nonlinearity__stress_episode_sequencing",
+      "confidence": 7.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:balance_sheet_ratchet_effect__gold_regime_break": {
+      "type": "relationship",
+      "slug": "balance_sheet_ratchet_effect__gold_regime_break",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:balance_sheet_ratchet_effect__stress_episode_sequencing": {
+      "type": "relationship",
+      "slug": "balance_sheet_ratchet_effect__stress_episode_sequencing",
+      "confidence": 8,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:nbfi_structural_vulnerability__private_credit_nav_smoothing": {
+      "type": "relationship",
+      "slug": "nbfi_structural_vulnerability__private_credit_nav_smoothing",
+      "confidence": 7,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:compound_duration_absorption__qt_term_premium_effect": {
+      "type": "relationship",
+      "slug": "compound_duration_absorption__qt_term_premium_effect",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:bayesian_qt_updating__narrative_coherence_bias": {
+      "type": "relationship",
+      "slug": "bayesian_qt_updating__narrative_coherence_bias",
+      "confidence": 7,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:basis_trade_fragility__qt_term_premium_effect": {
+      "type": "relationship",
+      "slug": "basis_trade_fragility__qt_term_premium_effect",
+      "confidence": 5.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:reserve_scarcity_nonlinearity__srf_overrated": {
+      "type": "relationship",
+      "slug": "reserve_scarcity_nonlinearity__srf_overrated",
+      "confidence": 7.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:commodity_financing_repricing__qt_term_premium_effect": {
+      "type": "relationship",
+      "slug": "commodity_financing_repricing__qt_term_premium_effect",
+      "confidence": 5.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:mixed_signal_coherence__qt_term_premium_effect": {
+      "type": "relationship",
+      "slug": "mixed_signal_coherence__qt_term_premium_effect",
+      "confidence": 6,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:nbfi_structural_vulnerability__stress_episode_sequencing": {
+      "type": "relationship",
+      "slug": "nbfi_structural_vulnerability__stress_episode_sequencing",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:compound_duration_absorption__g3_balance_sheet_divergence": {
+      "type": "relationship",
+      "slug": "compound_duration_absorption__g3_balance_sheet_divergence",
+      "confidence": 7,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:covenant_lite_impairment__ebitda_addback_contamination": {
+      "type": "relationship",
+      "slug": "covenant_lite_impairment__ebitda_addback_contamination",
+      "confidence": 6.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "relationship:basis_trade_fragility__stress_episode_sequencing": {
+      "type": "relationship",
+      "slug": "basis_trade_fragility__stress_episode_sequencing",
+      "confidence": 7.5,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:bayesian_confidence_calibration_framework": {
+      "type": "framework",
+      "slug": "bayesian_confidence_calibration_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:monetary_sovereignty_framework": {
+      "type": "framework",
+      "slug": "monetary_sovereignty_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:stress_sequencing_framework": {
+      "type": "framework",
+      "slug": "stress_sequencing_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:godley_stock_flow_consistent_framework": {
+      "type": "framework",
+      "slug": "godley_stock_flow_consistent_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:channel_decomposition_framework": {
+      "type": "framework",
+      "slug": "channel_decomposition_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:kalecki_levy_profit_framework": {
+      "type": "framework",
+      "slug": "kalecki_levy_profit_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
+    },
+    "framework:minsky_financial_instability_taxonomy": {
+      "type": "framework",
+      "slug": "minsky_financial_instability_taxonomy",
+      "confidence": 0,
+      "last_updated": "2026-03-24T01:29:22Z",
+      "research_iterations": 1,
+      "topic": "central_bank_balance_sheets"
     }
   },
   "iterations": [
@@ -15853,7 +16157,20 @@
         "anti_knowledge_entries": 7,
         "low_confidence_entries": 8
       }
+    },
+    {
+      "iteration_id": "iter_0061",
+      "topic": "central_bank_balance_sheets",
+      "topic_category": "credit_and_rates",
+      "timestamp": "2026-03-24T01:29:22Z",
+      "stats": {
+        "concepts_written": 20,
+        "relationships_written": 16,
+        "frameworks_written": 7,
+        "anti_knowledge_entries": 8,
+        "low_confidence_entries": 6
+      }
     }
   ],
-  "last_updated": "2026-03-23T14:49:16Z"
+  "last_updated": "2026-03-24T01:29:22Z"
 }

@@ -1,12 +1,17 @@
 {
   "slug": "reserve_scarcity_nonlinearity",
   "definition": "Bank reserve scarcity is nonlinear, distributional, and unknowable ex ante. The reserve demand curve is kinked (flat when ample, near-vertical when scarce), and the kink's location shifts with regulation, bank behavior, TGA volatility, and intraday payment needs. Aggregate reserve levels can appear adequate while distributional concentration causes acute stress.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
     "September 2019: reserves at ~$1.5T produced 300bp+ intraday repo spike due to uneven distribution",
     "March 2023: aggregate reserves ~$3.0T but distributional concentration caused stress at regional banks",
     "Copeland-Duffie-Yang (2021) kinked demand curve model",
-    "Fed staff estimates for lowest comfortable reserve level range $2.5-3.5T (a $1T uncertainty band)"
+    "Fed staff estimates for lowest comfortable reserve level range $2.5-3.5T (a $1T uncertainty band)",
+    "September 2019: reserves at ~$1.5T produced 300bp+ intraday repo spike — one clean observation of scarcity",
+    "Copeland-Duffie-Yang (2021) kinked demand curve framework provides theoretical foundation",
+    "Fed's own $1T uncertainty band ($2.5-3.5T) is a tacit admission of unidentifiability",
+    "Reserve demand is endogenous to bank behavior and regulatory interpretation",
+    "September 2019 involved idiosyncratic factors (tax date, JPMorgan reserve hoarding) but these do not undermine the existence claim"
   ],
   "originating_agents": [
     "challenger_01",
@@ -16,24 +21,36 @@
     "generalist_02",
     "macro_strategist_01",
     "macro_strategist_02",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "challenger_02"
   ],
   "open_questions": [
     "Where exactly is the reserve scarcity threshold?",
     "How do LCR/NSFR regulatory requirements shift the kink location over time?",
-    "Can the threshold be identified before it is breached?"
+    "Can the threshold be identified before it is breached?",
+    "Where exactly is the kink in the reserve demand curve currently?",
+    "How does the threshold shift as bank behavior, regulations, and market structure evolve?",
+    "Does September 2019 primarily reflect aggregate reserve scarcity or distributional reserve maldistribution?",
+    "What observable signposts (FRA-OIS widening, repo rate volatility, reserve distribution concentration) provide early warning?"
   ],
   "related_concepts": [
     "rrp_buffer_exhaustion",
     "srf_untested_backstop",
-    "qt_term_premium_channel"
+    "qt_term_premium_channel",
+    "stress_episode_sequencing",
+    "srf_overrated",
+    "balance_sheet_ratchet_effect",
+    "basis_trade_fragility"
   ],
   "topic": "central_bank_balance_sheets",
   "created_at": "2026-03-23T00:09:57Z",
-  "last_updated": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-24T01:29:22Z",
   "originating_iteration": "iter_0013",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0013"
+    "iter_0013",
+    "iter_0061"
   ]
 }

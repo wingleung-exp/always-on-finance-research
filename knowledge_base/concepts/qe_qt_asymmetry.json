@@ -1,12 +1,17 @@
 {
   "slug": "qe_qt_asymmetry",
   "definition": "QE compresses spreads and term premia gradually via price-insensitive buying, but QT does not produce symmetric gradual reversal. Three mechanisms drive asymmetry: the nonlinear reserve demand curve, path-dependent portfolio rebalancing and leverage structures built during QE, and empirically smaller QT term premium effects (30-60bp) vs QE compression (100-150bp).",
-  "confidence": 8,
+  "confidence": 7.0,
   "evidence": [
     "Nonlinear reserve demand curve means draining moves toward steep portion discontinuously",
     "QE-era leverage structures are path-dependent and cannot be smoothly unwound (Stein 2012, Brunnermeier-Sannikov 2014)",
     "SVB as partial confirmation of path-dependent risk structures",
-    "Li-Wei 2023 and Smith-Valcarcel 2023 estimates of QT term premium impact (20-60bp) vs QE compression (100-150bp)"
+    "Li-Wei 2023 and Smith-Valcarcel 2023 estimates of QT term premium impact (20-60bp) vs QE compression (100-150bp)",
+    "Theoretical micro-foundations: asymmetric wealth effects, loss aversion, institutional frictions",
+    "N=2-3 Fed episodes in a specific macro regime",
+    "Confidence 8 on n=2-3 identified as calibration failure by challenger_02",
+    "Non-stationarity between QT1 and QT2 raises question of whether they are draws from same distribution",
+    "Pair_3 debate noted challenger should engage with mechanism beyond sample counting"
   ],
   "originating_agents": [
     "challenger_01",
@@ -14,23 +19,34 @@
     "generalist_02",
     "macro_strategist_01",
     "macro_strategist_02",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "challenger_02",
+    "equity_analyst_02"
   ],
   "open_questions": [
     "Does the asymmetry imply a structural upward bias in central bank balance sheet size?",
-    "Is the indistinguishable-from-zero extreme for QT effects definitively ruled out?"
+    "Is the indistinguishable-from-zero extreme for QT effects definitively ruled out?",
+    "What is the correct ratio of QE compression to QT decompression?",
+    "Do theoretical micro-foundations justify higher confidence than small-sample statistics alone?",
+    "Is non-stationarity between QT1 and QT2 sufficient to invalidate cross-episode inference?"
   ],
   "related_concepts": [
     "permanent_balance_sheet_expansion",
     "qt_term_premium_channel",
-    "qt_is_curve_steepening"
+    "qt_is_curve_steepening",
+    "qt_term_premium_effect",
+    "balance_sheet_ratchet_effect",
+    "compound_duration_absorption"
   ],
   "topic": "central_bank_balance_sheets",
   "created_at": "2026-03-23T00:09:57Z",
-  "last_updated": "2026-03-23T00:09:57Z",
+  "last_updated": "2026-03-24T01:29:22Z",
   "originating_iteration": "iter_0013",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0013"
+    "iter_0013",
+    "iter_0061"
   ]
 }

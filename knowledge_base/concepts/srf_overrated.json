@@ -1,0 +1,35 @@
+{
+  "slug": "srf_overrated",
+  "definition": "The Standing Repo Facility is materially overrated as a backstop mechanism, with KB confidence of 7 that should be 3-4. With N=0 activations at scale and a 40-60% stigma-driven underutilization base rate from analogous facilities, the effective reserve floor is higher than models assuming full SRF utilization suggest.",
+  "confidence": 8,
+  "evidence": [
+    "N=0 activations at scale — entirely untested",
+    "Stigma base rate from analogous facilities (discount window post-2008, ECB LTRO 2011, Fed PDCF 2020): 40-60% of intended capacity goes unused during first stress test",
+    "OMT/TPI analogy structurally different — OMT backs a sovereign issuer while SRF backs individual counterparties facing bilateral stigma",
+    "Identified as the single most poorly calibrated number in the entire knowledge base (pair_2 debate)"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "generalist_02",
+    "challenger_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Would enhanced SRF design (broader counterparty access, anonymized usage) reduce stigma?",
+    "How much higher is the effective reserve floor given stigma-adjusted SRF capacity?",
+    "Is the SRF's mere existence (OMT-style) sufficient even without activation, or does bilateral stigma negate this?"
+  ],
+  "related_concepts": [
+    "reserve_scarcity_nonlinearity",
+    "balance_sheet_ratchet_effect",
+    "stress_episode_sequencing"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

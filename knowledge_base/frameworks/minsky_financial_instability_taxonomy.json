@@ -1,0 +1,27 @@
+{
+  "slug": "minsky_financial_instability_taxonomy",
+  "purpose": "Classifies financial positions by vulnerability to financing conditions, identifying which structures are inherently fragile and prone to discontinuous failure",
+  "components": [
+    "Hedge finance: income covers both principal and interest — survives rate increases",
+    "Speculative finance: income covers interest but requires refinancing of principal — vulnerable to credit availability",
+    "Ponzi finance: income covers neither principal nor interest — depends entirely on asset appreciation or continued cheap financing",
+    "Paradox of Tranquility: stability breeds instability as agents migrate from hedge to speculative to Ponzi positions during calm periods",
+    "Applied classification: basis trade at 50-100x leverage is Ponzi finance — income cannot service debt under even modest repo rate volatility"
+  ],
+  "current_assessment": "Basis trade cleanly fits Ponzi finance classification. However, the XIV/short-vol counterexample (challenger_02) shows not all Ponzi-classified unwinds produce systemic contagion. Central bank put (revealed preference for accommodation in every stress episode since 2008) may prevent the Minsky transition from completing. Framework is descriptive of current vulnerability but does not predict timing of transition.",
+  "limitations": [
+    "Does not predict timing or triggers for the transition from stability to crisis",
+    "The Paradox of Tranquility is descriptive, not predictive — cannot distinguish late-stability from pre-crisis",
+    "Central bank put may prevent transitions from completing, which the original framework does not address",
+    "Not all Ponzi-classified positions produce systemic crises when they unwind",
+    "Single metric (income-to-debt-service) may oversimplify multi-dimensional risk profiles"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

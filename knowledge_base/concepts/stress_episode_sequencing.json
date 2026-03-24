@@ -1,0 +1,37 @@
+{
+  "slug": "stress_episode_sequencing",
+  "definition": "Financial stress episodes follow a consistent four-phase sequence: (1) plumbing stress surfaces first because it is the funding layer, (2) leveraged positions unwind because they lose financing, (3) central banks intervene because they must, (4) balance sheets ratchet because intervention requires expansion. Pattern confirmed with day-level documentation across four episodes.",
+  "confidence": 8,
+  "evidence": [
+    "September 2019: T-bill-OIS widened → repo spike → Fed overnight repos → reserve purchases",
+    "March 2020: FX swap basis blowout → basis trade unwind → Treasury dysfunction → unlimited QE",
+    "BoE 2022: gilt yield spike → LDI margin calls → doom-loop selling → emergency purchases",
+    "ECB 2011-12: covered bond widening → sovereign spreads → interbank freeze → LTRO",
+    "2-6 week lead time from plumbing stress to forced deleveraging",
+    "Mechanism is both empirically consistent and causally logical — no agent challenged the sequencing"
+  ],
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Can Fed preemption modify the severity distribution of stress episodes?",
+    "Does NBFI intermediation change the sequencing pattern relative to bank-intermediated systems?",
+    "What is the implied survival function — how long can QT proceed before Phase 1 triggers?",
+    "Are the observable early-warning signposts (FRA-OIS, repo vol, reserve distribution) reliable leading indicators?"
+  ],
+  "related_concepts": [
+    "balance_sheet_ratchet_effect",
+    "basis_trade_fragility",
+    "reserve_scarcity_nonlinearity",
+    "nbfi_structural_vulnerability"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

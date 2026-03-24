@@ -1,0 +1,27 @@
+{
+  "slug": "godley_stock_flow_consistent_framework",
+  "purpose": "Reframes QT from a quantity-of-money question to a portfolio composition question, using sectoral balance accounting identities to clarify what QT actually does",
+  "components": [
+    "QT changes the composition of private sector portfolios (more duration, fewer reserves), not just quantity of money",
+    "Sectoral balance identity: government deficit = private sector surplus + current account deficit",
+    "Duration supply from QT IS the accounting mirror of fiscal deficits creating private sector financial assets — same flow, different ledger entries",
+    "The compound duration absorption problem is therefore a pricing question (at what term premium will portfolios rebalance?), not a solvency question",
+    "Net private sector financial position improves with government deficits — the bonds being absorbed are simultaneously the sector's wealth"
+  ],
+  "current_assessment": "Provides the correct analytical framing for understanding compound duration absorption. The double-entry insight (duration supply = fiscal deficit = private sector income) is non-obvious and underutilized in market commentary. Reframes narrative from 'who will buy all these bonds' to 'at what price will portfolios rebalance.' Currently the most sophisticated analytical frame for thinking about the QT-fiscal interaction.",
+  "limitations": [
+    "Accounting identities guarantee consistency but not equilibrium pricing levels or transition dynamics",
+    "Does not predict at what term premium level the market clears",
+    "Aggregate identity does not address distributional effects — who holds the duration matters for stability",
+    "Portfolio rebalancing friction and leverage amplification are outside the framework's scope",
+    "Framework is unfamiliar to most market participants, limiting its communicative utility"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

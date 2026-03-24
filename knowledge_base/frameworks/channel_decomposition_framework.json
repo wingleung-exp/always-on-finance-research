@@ -1,0 +1,27 @@
+{
+  "slug": "channel_decomposition_framework",
+  "purpose": "Resolves the apparent contradiction of simultaneous rate cuts and QT by decomposing monetary policy into distinct income flow and portfolio composition channels",
+  "components": [
+    "Kalecki channel (income flows): rate cuts reduce debt service on floating-rate obligations, supporting cash flows and income",
+    "Tobin channel (portfolio stocks): QT returns duration to private portfolios, changing portfolio composition, risk pricing, and term premium",
+    "Rate cuts and QT operate on different margins — they are complementary instruments, not contradictory signals",
+    "Complementarity implies both channels operate simultaneously without canceling each other",
+    "Asset-class-specific channel dominance: which channel matters more varies by sector and instrument"
+  ],
+  "current_assessment": "Validated in pair_2 debate as a genuinely useful analytical contribution. No agent contested the decomposition. However, the empirical question of which channel dominates for which asset class is entirely unresolved. No historical analog exists for simultaneous rate cuts and QT, so factor model calibration is impossible. Single-agent origination without independent replication.",
+  "limitations": [
+    "No historical analog for simultaneous rate cuts + QT to empirically validate channel dominance",
+    "Which channel dominates for which asset class is empirically unresolved",
+    "Single-agent origination (macro_strategist_02) without independent replication",
+    "Factor models cannot accommodate this regime due to lack of training data",
+    "The framework describes channels but does not quantify their relative magnitudes"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "concept_a": "basis_trade_fragility",
+  "concept_b": "qt_term_premium_effect",
+  "mechanism": "The basis trade suppresses term premium by approximately 20-40bp through leveraged Treasury demand. A basis trade unwind would release this suppression, adding to QT's direct term premium decompression. Conversely, QT-driven repo rate volatility is the most likely trigger for basis trade unwind.",
+  "direction": "bidirectional",
+  "confidence": 5.5,
+  "regime_dependence": "Active while basis trade is large (~$800B-$1T). Unwind would compound QT term premium effects. Continued basis trade growth partially offsets QT decompression. The 20-40bp suppression estimate lacks an identified natural experiment.",
+  "originating_agents": [
+    "generalist_01",
+    "quant_researcher_01",
+    "quant_researcher_02"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

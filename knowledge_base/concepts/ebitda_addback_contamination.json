@@ -1,0 +1,34 @@
+{
+  "slug": "ebitda_addback_contamination",
+  "definition": "EBITDA addbacks of 25-40% systematically contaminate equity valuations across the leveraged universe. Reported '6x EBITDA' multiples are actually 8-9x on economic cash earnings. This distortion flows through comparable transaction multiples, inflating valuations across the entire leveraged ecosystem. Sophisticated participants partially price the distortion but it persists.",
+  "confidence": 6.5,
+  "evidence": [
+    "25-40% EBITDA addbacks across >90% covenant-lite loans",
+    "Reported 6x EBITDA is actually 8-9x on economic cash earnings",
+    "Arithmetic is mechanical given documented addback levels",
+    "Pair_1 debate validated the distortion but noted sophisticated participants partially price it",
+    "Question of whether rating agencies accept sponsor-provided figures is potentially devastating"
+  ],
+  "originating_agents": [
+    "equity_analyst_02"
+  ],
+  "open_questions": [
+    "Do rating agencies accept sponsor-provided EBITDA figures?",
+    "If yes, is the entire credit rating architecture miscalibrated?",
+    "What fraction of the distortion is already priced by sophisticated buyers?",
+    "How does the addback contamination interact with private credit NAV smoothing?"
+  ],
+  "related_concepts": [
+    "covenant_lite_impairment",
+    "private_credit_nav_smoothing",
+    "nbfi_structural_vulnerability"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

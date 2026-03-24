@@ -1,0 +1,21 @@
+{
+  "concept_a": "stress_episode_sequencing",
+  "concept_b": "balance_sheet_ratchet_effect",
+  "mechanism": "Central bank intervention during Phase 3 of the stress sequence mechanically expands balance sheets. These expanded balance sheets then fail to fully normalize due to institutional endogeneity, producing the ratchet effect. The sequencing makes the ratchet causally inevitable — intervention cannot occur without expansion.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Holds in all observed post-2008 stress episodes. Requires stress severity sufficient to trigger central bank intervention. The ratchet is stronger when intervention involves outright purchases vs lending facilities.",
+  "originating_agents": [
+    "generalist_02",
+    "generalist_01",
+    "macro_strategist_02"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

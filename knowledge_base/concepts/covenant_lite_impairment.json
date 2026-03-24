@@ -1,0 +1,37 @@
+{
+  "slug": "covenant_lite_impairment",
+  "definition": "Covenant-lite structures (>90% of institutional loans) with 25-40% EBITDA addbacks impair early warning signals of credit deterioration. True leverage is 5.5-7.5x vs reported 4.0-4.5x. Absence of maintenance covenants eliminates the gradual deterioration pathway, potentially producing bimodal default distributions (healthy-appearing then suddenly distressed).",
+  "confidence": 5.5,
+  "evidence": [
+    ">90% of institutional loans are covenant-lite",
+    "25-40% EBITDA addbacks inflate reported metrics",
+    "True leverage 5.5-7.5x vs. reported 4.0-4.5x",
+    "No organic full credit cycle without policy rescue (N=0)",
+    "Maturity wall of $900B-$1.5T for 2025-2028 cited without comparison to previous successfully refinanced walls"
+  ],
+  "originating_agents": [
+    "equity_analyst_02",
+    "quant_researcher_02",
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Will the bimodal default distribution thesis be validated in the next organic credit cycle?",
+    "Can the $900B-$1.5T maturity wall be successfully refinanced like previous walls?",
+    "Do rating agencies accept sponsor-provided EBITDA figures, and if so, is the entire credit rating architecture miscalibrated?",
+    "What is the base rate for successful maturity wall resolution?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_contamination",
+    "private_credit_nav_smoothing",
+    "nbfi_structural_vulnerability"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

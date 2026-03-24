@@ -1,0 +1,27 @@
+{
+  "slug": "stress_sequencing_framework",
+  "purpose": "Predicts the temporal sequence and causal chain of financial stress episodes, identifying early warning signals and the inevitable policy response pattern",
+  "components": [
+    "Phase 1 — Plumbing stress: funding market dysfunction (repo rates, FX swap basis) surfaces first because it is the foundational financing layer",
+    "Phase 2 — Leveraged unwind: positions dependent on cheap funding (basis trade, carry trades) lose financing and delever pro-cyclically via Brunnermeier-Pedersen liquidity spiral",
+    "Phase 3 — Central bank intervention: systemic necessity forces emergency facilities, asset purchases, or rate policy reversal within days to weeks",
+    "Phase 4 — Balance sheet ratchet: intervention mechanically expands balance sheets, which fail to fully normalize (0/6 historical episodes achieved full normalization)",
+    "Observable early warnings: FRA-OIS widening, repo rate volatility increase, reserve distribution concentration across banks"
+  ],
+  "current_assessment": "Pattern confirmed across four episodes (September 2019, March 2020, BoE 2022, ECB 2011-12) with day-level documentation. Currently in pre-Phase 1 with the basis trade at 3-4x March 2020 scale. The 0/4 disruption-free QT completion rate is offset by 45 months of successful QT under current conditions. The key uncertainty is whether NBFI intermediation alters the sequencing relative to bank-intermediated historical episodes, and whether Fed preemption modifies severity.",
+  "limitations": [
+    "N=4 episodes, all in post-GFC era with active central bank backstops",
+    "NBFI migration may change propagation pathways and speed relative to bank-intermediated history",
+    "Fed preemption (demonstrated willingness to pause QT in 2019 and slow in 2024) could modify severity distribution",
+    "Framework describes sequence but not timing — lead times range from days to months across episodes",
+    "Does not incorporate dampening mechanisms (market adaptation, regulatory responses, central bank put)"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

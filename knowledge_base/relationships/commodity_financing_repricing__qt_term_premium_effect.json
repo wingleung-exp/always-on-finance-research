@@ -1,0 +1,19 @@
+{
+  "concept_a": "qt_term_premium_effect",
+  "concept_b": "commodity_financing_repricing",
+  "mechanism": "QT-driven higher short-term rates directly increase physical commodity financing costs. Higher SOFR raises the carry cost of warehouse stocks, compresses contango, and discourages speculative inventory holding. This is a concrete, arithmetic transmission mechanism from monetary policy to physical commodity markets.",
+  "direction": "a_causes_b",
+  "confidence": 5.5,
+  "regime_dependence": "Active when SOFR is materially above zero. Strength is proportional to financing rate level. Reversed by rate cuts. Attribution difficulty: LME stock declines may reflect physical tightness rather than financing cost effects.",
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "topic": "central_bank_balance_sheets",
+  "created_at": "2026-03-24T01:29:22Z",
+  "last_updated": "2026-03-24T01:29:22Z",
+  "originating_iteration": "iter_0061",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0061"
+  ]
+}

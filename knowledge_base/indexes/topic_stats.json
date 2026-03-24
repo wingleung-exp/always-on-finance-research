@@ -156,9 +156,9 @@
     "avg_confidence": 7.1
   },
   "central_bank_balance_sheets": {
-    "concept_count": 21,
-    "relationship_count": 16,
-    "framework_count": 6,
+    "concept_count": 36,
+    "relationship_count": 32,
+    "framework_count": 13,
     "top_concepts": [
       {
         "slug": "rrp_buffer_exhaustion",
@@ -166,9 +166,19 @@
         "definition": "The Fed's Reverse Repo Facility declined from ~$2.55T (peak Dec 2022) to <$200B (early 2026), marking a regime shift where QT now directly reduces ban"
       },
       {
-        "slug": "g3_balance_sheet_divergence",
+        "slug": "balance_sheet_ratchet_effect",
         "confidence": 8,
+        "definition": "Central bank balance sheets never fully normalize after QE episodes, creating a permanent upward ratchet. Institutional endogeneity \u2014 floor system res"
+      },
+      {
+        "slug": "g3_balance_sheet_divergence",
+        "confidence": 8.0,
         "definition": "Fed, ECB, and BoJ balance sheet operations represent fundamentally different interventions despite the unified label 'normalization.' The Fed does pas"
+      },
+      {
+        "slug": "pboc_kb_gap",
+        "confidence": 8,
+        "definition": "The PBoC is the most consequential central bank for industrial commodity markets but is entirely absent from the knowledge base, constituting a genuin"
       },
       {
         "slug": "permanent_balance_sheet_expansion",
@@ -176,65 +186,70 @@
         "definition": "Central bank balance sheets will not return to pre-GFC levels due to structural drivers: floor-system monetary implementation requires ample reserves,"
       },
       {
-        "slug": "qe_qt_asymmetry",
-        "confidence": 8,
-        "definition": "QE compresses spreads and term premia gradually via price-insensitive buying, but QT does not produce symmetric gradual reversal. Three mechanisms dri"
+        "slug": "reserve_scarcity_nonlinearity",
+        "confidence": 8.0,
+        "definition": "Bank reserve scarcity is nonlinear, distributional, and unknowable ex ante. The reserve demand curve is kinked (flat when ample, near-vertical when sc"
       },
       {
-        "slug": "reserve_scarcity_nonlinearity",
+        "slug": "srf_overrated",
         "confidence": 8,
-        "definition": "Bank reserve scarcity is nonlinear, distributional, and unknowable ex ante. The reserve demand curve is kinked (flat when ample, near-vertical when sc"
+        "definition": "The Standing Repo Facility is materially overrated as a backstop mechanism, with KB confidence of 7 that should be 3-4. With N=0 activations at scale "
+      },
+      {
+        "slug": "stress_episode_sequencing",
+        "confidence": 8,
+        "definition": "Financial stress episodes follow a consistent four-phase sequence: (1) plumbing stress surfaces first because it is the funding layer, (2) leveraged p"
+      },
+      {
+        "slug": "private_credit_nav_smoothing",
+        "confidence": 7.5,
+        "definition": "Private credit NAV smoothing masks true risk through systematic return deferral. Autocorrelation of 0.5-0.7 implies roughly half of each period's true"
       },
       {
         "slug": "qt_term_premium_channel",
         "confidence": 7.5,
         "definition": "QT transmits to financial conditions primarily by returning duration to private portfolios, requiring higher term premium compensation. Both New Keyne"
-      },
-      {
-        "slug": "compound_duration_absorption",
-        "confidence": 7,
-        "definition": "The private sector must absorb ~$2.0-2.6T/year in net Treasury duration (new issuance + QT runoff) vs a pre-pandemic norm of $500-800B. The marginal b"
-      },
-      {
-        "slug": "fed_balance_sheet_endogeneity",
-        "confidence": 7,
-        "definition": "The Fed's balance sheet trajectory is constrained by Treasury issuance composition (which the Fed does not control), bank regulatory demand for reserv"
-      },
-      {
-        "slug": "mixed_signal_rate_cuts_qt",
-        "confidence": 7,
-        "definition": "The Fed can simultaneously ease at the front end (rate cuts) while tightening via balance sheet at the back end (QT), creating a mixed signal that cre"
-      },
-      {
-        "slug": "new_issue_concession_widening",
-        "confidence": 7,
-        "definition": "New-issue concessions in high-yield markets have widened to 15-25bp in 2025-2026 from near-zero during QE, representing a specific and observable QT t"
       }
     ],
     "all_concept_slugs": [
+      "balance_sheet_ratchet_effect",
       "basis_trade_synthetic_qe",
+      "bayesian_qt_updating",
       "boj_normalization_tail_risk",
+      "commodity_financing_repricing",
       "compound_duration_absorption",
       "covenant_lite_default_dynamics",
+      "covenant_lite_impairment",
+      "ebitda_addback_contamination",
       "ecb_btp_bund_widening_risk",
       "fed_balance_sheet_endogeneity",
+      "fiscal_deficit_buffer",
       "g3_balance_sheet_divergence",
       "global_qt_nash_equilibrium",
+      "gold_regime_break",
       "maturity_wall_qt_interaction",
+      "mixed_signal_coherence",
       "mixed_signal_rate_cuts_qt",
+      "narrative_coherence_bias",
+      "nbfi_structural_vulnerability",
       "new_issue_concession_widening",
+      "pboc_kb_gap",
       "permanent_balance_sheet_expansion",
+      "private_credit_nav_smoothing",
       "private_credit_structural_exposure",
       "qe_qt_asymmetry",
       "qt_is_curve_steepening",
       "qt_term_premium_channel",
+      "qt_term_premium_effect",
       "reserve_scarcity_nonlinearity",
       "risk_migration_to_nbfi",
       "rrp_buffer_exhaustion",
+      "srf_overrated",
       "srf_untested_backstop",
-      "stock_bond_correlation_endogeneity"
+      "stock_bond_correlation_endogeneity",
+      "stress_episode_sequencing"
     ],
-    "avg_confidence": 7.1
+    "avg_confidence": 7.0
   },
   "commodity_inflation_transmission": {
     "concept_count": 27,
@@ -2156,11 +2171,6 @@
         "definition": "The 2025-2027 corporate debt maturity wall of $900B-$1.1T with 300-500bp coupon step-ups represents arithmetic certainty of increased refinancing cost"
       },
       {
-        "slug": "basis_trade_fragility",
-        "confidence": 9.0,
-        "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated l"
-      },
-      {
         "slug": "fiscal_impulse_trajectory",
         "confidence": 9.0,
         "definition": "The trajectory of fiscal impulse is the single most important monitoring variable for risk appetite regime determination. Persistent deficits at ~6-7%"
@@ -2179,6 +2189,11 @@
         "slug": "correlation_regime_shifts",
         "confidence": 8.67,
         "definition": "Shifts in cross-asset correlation regimes represent the deepest portfolio risk, as they invalidate diversification assumptions simultaneously across a"
+      },
+      {
+        "slug": "basis_trade_fragility",
+        "confidence": 8.5,
+        "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated l"
       },
       {
         "slug": "kalecki_profit_channel",
