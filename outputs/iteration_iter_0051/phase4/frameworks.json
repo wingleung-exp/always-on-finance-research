@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "trifurcation_framework",
+    "purpose": "Classifies commodity sub-complexes by supply elasticity to determine which are candidates for structural bull markets versus managed or episodic price dynamics",
+    "components": [
+      "Electrification metals (copper, lithium): supply elasticity ~0.05, multi-year structural tightness case, greenfield timelines 12-18 years",
+      "Hydrocarbons (oil, gas): supply elasticity ~0.5-1.0, OPEC+ managed $70-90 band, price ceiling enforced by spare capacity at 4-5Mb/d",
+      "Agriculture (wheat, corn, soy): supply elasticity ~0.5-0.7, episodic spikes mean-reverting within 12-24 months, biological production cycles"
+    ],
+    "current_assessment": "Trifurcation holds in steady state with total agent convergence (9/10). Only electrification metals have a multi-year structural case. Critical boundary condition: trifurcation fails during correlated demand shocks (March 19, 2026 evidence). 2/5 termination signals present = mid-cycle.",
+    "limitations": [
+      "Supply-side framework that does not address demand-side re-correlation during macro shocks",
+      "Does not account for financial contagion channels (trading house leverage, CLO cascades) that correlate sub-complexes",
+      "Assumes OPEC+ band maintenance, which has ~7-10 year historical breakdown intervals",
+      "Aggregate +0.28 equity correlation may mask bimodal distributions along trifurcation lines"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "reflexive_contradiction_chain",
+    "purpose": "Models the self-limiting mechanism that terminates commodity supercycles through the inflation-rates-demand destruction feedback loop, with multiple complementary transmission channels",
+    "components": [
+      "Price-to-inflation channel: commodity prices embed in headline inflation in 3-6 months",
+      "Inflation-to-rates channel: central bank tightening with novel dilemma for transition metals",
+      "Rates-to-demand channel: demand destruction operates with 12-18 month lag (~2x slower than inflation embedding)",
+      "Balance sheet channel: Kaleckian profit redistribution forces consuming-sector borrowing until credit impulse turns negative",
+      "CLO amplifier: higher rates compress CLO arbitrage, reducing issuance and tightening loan supply for commodity borrowers",
+      "Term premium channel: 5-10bp expansion per 10% copper move, independent of expected policy path",
+      "Treasury supply amplification: higher inflation raises debt service, forcing more issuance, widening term premium"
+    ],
+    "current_assessment": "All 8 agents confirmed across all 4 debate pairs. 4/4 historical supercycle terminations involved this mechanism. Timing asymmetry (inflation 2x faster than demand destruction) creates volatile transition periods. Open question: whether fiscal policy (IRA, EU Green Deal) can partially override demand destruction channel.",
+    "limitations": [
+      "Timing asymmetry creates volatile transition period that is difficult to trade",
+      "Fiscal subsidies for transition metals may weaken rate-to-demand-destruction channel — never tested at this scale",
+      "Interaction between multiple channels is not quantified",
+      "Government-financed vs. private-financed transition produces fundamentally different fragility profiles"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "five_signal_termination_framework",
+    "purpose": "Monitors supercycle phase by tracking five historical termination signals to determine cycle positioning",
+    "components": [
+      "Signal 1: Consensus recognition of supercycle — PRESENT (13/15 desks bullish, +2.1 sigma positioning)",
+      "Signal 2: Financial casualty evidence — PRESENT (Pimco -26% YTD, Conductor wound down, Millennium $1.5B loss)",
+      "Signal 3: Inventory rebuilding cycle begins — ABSENT",
+      "Signal 4: Major new supply sanctioning wave — ABSENT (permitting reform only 10-20% timeline compression)",
+      "Signal 5: Credit impulse turns negative — ABSENT (requires monitoring global private debt-to-GDP and China credit impulse)"
+    ],
+    "current_assessment": "2/5 signals present indicates mid-cycle. The absence of inventory rebuilding and supply sanctioning are genuinely informative negative signals. Replaces the refuted consensus-to-peak timing estimate (2.5-5.0 years, n=4) as the preferred cycle positioning tool.",
+    "limitations": [
+      "n=4 historical precedents with fundamentally different termination mechanisms",
+      "1970s and 2000s episodes (5-6 year lags) structurally different from war-driven episodes (1.5-2 years)",
+      "Novel features (energy transition fiscal support, post-GFC household deleveraging) may alter signal reliability",
+      "Signal weighting is qualitative, not calibrated"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "minsky_mining_taxonomy",
+    "purpose": "Classifies mining investment positions on Minsky's hedge-speculative-Ponzi spectrum to assess financial fragility of the copper supply pipeline",
+    "components": [
+      "Hedge finance: brownfield operations with cash flow covering debt service at current prices (above AISC $8-9k/t)",
+      "Speculative finance: greenfield projects requiring refinancing during 12-18 year development but expected to generate returns at forecast prices",
+      "Ponzi finance: greenfield projects where copper falls below AISC during development, requiring new borrowing to service existing debt",
+      "Zombie zone ($8-11k/t): metastable state where brownfield survives but no new supply is sanctioned, creating structural tightness"
+    ],
+    "current_assessment": "Most greenfield copper projects constitute speculative finance. The 0/8 deficit forecast base rate means the required price trajectory has never been empirically validated. The zombie zone is the current metastable equilibrium breeding Minsky-style instability through deferred supply.",
+    "limitations": [
+      "Single-agent origin (macro_strategist_02) though validated as 'genuinely original' by debate",
+      "Geological timescales (12-18 years) stretch Minsky's framework beyond its original credit-cycle context",
+      "Government subsidies and strategic stockpiling could alter the hedge/speculative boundary",
+      "Scrap supply growth may alter zombie zone boundaries"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "gold_regime_classifier",
+    "purpose": "Uses asset class sequencing (which commodity leads the cycle) to classify whether the current episode is a monetary regime disruption or a demand-pull supercycle, with distinct investment implications",
+    "components": [
+      "Monetary regime disruption pattern (1971-74): gold leads, metals follow, oil flat then spikes; structural opportunity begins AFTER regime stress resolves",
+      "Demand-pull pattern (2000s): oil and industrials lead, gold lags; broad commodity allocation is appropriate during the cycle",
+      "Falsification test: if oil and industrial metals break out together while gold consolidates, regime classification shifts to demand-pull"
+    ],
+    "current_assessment": "Current sequencing (gold $4,435 leading, copper following, oil flat) matches 1971-74 monetary disruption pattern. If correct, current copper positioning may be premature. Gold residual exceeding $2,000/oz supports monetary stress interpretation.",
+    "limitations": [
+      "n=2 historical precedents — statistically insufficient for confident classification",
+      "Energy transition demand is a structural novelty with no historical analogue",
+      "Multiple competing explanations for gold outperformance cannot be distinguished without flow-of-funds decomposition",
+      "Does not account for possibility that both monetary and structural drivers operate simultaneously"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "kaleckian_supercycle_flow",
+    "purpose": "Models inter-sectoral profit and credit flows during commodity supercycles to identify the balance sheet deterioration that precedes cycle termination",
+    "components": [
+      "Kaleckian profit equation: Profits = Investment + Government Deficit + Net Exports - Household Saving",
+      "Commodity supercycles redistribute profits from consuming to producing sectors",
+      "Consuming-sector firms borrow to maintain spending against rising commodity inputs",
+      "Government-financed transition (deficit spending) preserves private sector balances",
+      "Private-financed transition increases Minsky fragility in consuming sectors",
+      "Cycle terminates when credit impulse turns negative (borrowing capacity exhausted)"
+    ],
+    "current_assessment": "Validated for 2/4 historical terminations (1980, 2011); ambiguous for earlier episodes (1917, 1951). Current cycle has novel features: energy transition fiscal support may partially insulate private sector balances. Key data needed: global private debt-to-GDP ratios, China credit impulse.",
+    "limitations": [
+      "2/4 clear historical support, 2/4 ambiguous — does not meet rigorous empirical standards",
+      "Post-GFC household deleveraging may alter the consuming-sector borrowing channel",
+      "China's unique financial system may not conform to standard Kaleckian dynamics",
+      "Fiscal-monetary interaction not tested at current scale of transition subsidies"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "cross_asset_pricing_diagnostic",
+    "purpose": "Identifies pricing inconsistencies across equity, credit, and futures surfaces for the same underlying commodity to reveal genuine uncertainty or mispricing",
+    "components": [
+      "Equity-implied commodity price: reverse-engineer the price where mining equity valuations become consistent with other surfaces",
+      "Forward curve shape: backwardation/contango signals about physical tightness",
+      "Credit spread level: distress or complacency signals for commodity-sector borrowers",
+      "Inconsistency diagnosis: mutually contradictory pricing across surfaces implies at least one must reprice"
+    ],
+    "current_assessment": "Copper pricing surfaces are internally inconsistent. Equities imply $9.5-10k/t (moderate tightness), not the $12k+ required by the structural deficit thesis. Forward curve and credit spreads are both benign. The inconsistency reveals the market has not reached consensus on deficit magnitude.",
+    "limitations": [
+      "Equity valuations reflect operating leverage, management quality, and jurisdiction risk beyond commodity price",
+      "Credit spreads may lag physical market developments due to covenant structures",
+      "Forward curve shape affected by financialization dynamics (contango bias from index rebalancing)",
+      "Surface reconciliation may require several quarters of data to resolve"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  }
+]

@@ -1,32 +1,49 @@
 {
   "slug": "gold_real_rate_disconnect",
   "definition": "Gold has entered a structural re-rating regime disconnected from its traditional real-rate anchor. Gold at $2,800-3,000+ despite real yields of 1.5-2.0% (historical model implies $1,600-1,800), creating a $400-600/oz residual that has persisted 3+ years. Central bank buying at 1,000+ t/yr is a verifiable demand source but accounts for only 20-25% of total gold demand.",
-  "confidence": 6,
+  "confidence": 6.0,
   "evidence": [
     "Gold at $2,800-3,000+ vs. model-implied $1,600-1,800 based on real yields",
     "$400-600/oz residual persisting 3+ years",
     "Central bank buying at 1,000+ t/yr",
     "Central bank buying is only 20-25% of total gold demand",
-    "Residual could reflect geopolitical premium, retail demand, or model misspecification"
+    "Residual could reflect geopolitical premium, retail demand, or model misspecification",
+    "Gold residual exceeding $2,000/oz above model-implied value",
+    "Central bank buying at 1,000+ t/yr, projected declining to 755t in 2026",
+    "March 23 plunge and recovery (briefly below $4,300, then rebounding) demonstrates price support",
+    "Four competing interpretations from different analytical frameworks",
+    "All agents converge at ~5/10 on causal attribution"
   ],
   "originating_agents": [
-    "commodities_analyst_01"
+    "commodities_analyst_01",
+    "challenger_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "rates_strategist_02"
   ],
   "open_questions": [
     "Is the residual a fiscal dominance signal or temporary mispricing?",
     "What share of the residual is attributable to USD reserve diversification vs. other factors?",
-    "Could central bank buying reverse, or is it a structural shift?"
+    "Could central bank buying reverse, or is it a structural shift?",
+    "What is the flow-of-funds decomposition between competing explanations?",
+    "Is CB buying declining or stabilizing at a new structural level?",
+    "Does the residual primarily reflect fiscal dominance, reserve diversification, geopolitical premium, or term premium mispricing?"
   ],
   "related_concepts": [
     "real_yield_commodity_relationship_break",
-    "commodity_trifurcation"
+    "commodity_trifurcation",
+    "gold_first_sequencing",
+    "fed_transition_metal_dilemma"
   ],
   "topic": "commodity_supercycles",
   "created_at": "2026-03-23T05:08:32Z",
-  "last_updated": "2026-03-23T05:08:32Z",
+  "last_updated": "2026-03-24T09:15:32Z",
   "originating_iteration": "iter_0022",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0022"
+    "iter_0022",
+    "iter_0051"
   ]
 }

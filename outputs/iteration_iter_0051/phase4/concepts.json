@@ -1,0 +1,781 @@
+[
+  {
+    "slug": "commodity_trifurcation",
+    "definition": "Commodity markets have split into three distinct sub-complexes — electrification metals (structural tightness), hydrocarbons (OPEC+ managed band at $70-90), and agriculture (episodic mean-reverting spikes) — rather than moving as a unified supercycle. Supply elasticity varies 10x across groups (copper ~0.05, shale ~0.5-1.0, wheat ~0.5-0.7).",
+    "confidence": 9,
+    "evidence": [
+      "Supply elasticity variance spans 10x across commodities",
+      "OPEC+ caps hydrocarbons at $70-90",
+      "Agricultural spikes are episodic and mean-reverting within 12-24 months",
+      "All 8 agents independently derived this from different analytical lenses",
+      "All 4 debates affirmed the framework"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Does trifurcation break down during correlated macro shocks as demonstrated by March 19, 2026 sell-off?",
+      "Does the aggregate +0.28 equity correlation mask bimodal distributions along trifurcation lines?"
+    ],
+    "related_concepts": [
+      "broad_index_invalidation",
+      "trifurcation_macro_shock_failure",
+      "opec_managed_band"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "financialization_return_impairment",
+    "definition": "Post-2004 financialization has structurally degraded commodity investable returns through roll yield collapse (from +5.1% to -3.2% annualized), elevated commodity-equity correlation (from +0.03 to +0.48), and $450B+ index AUM suppressing backwardation. Bai-Perron structural break confirmed at 2004Q2 (t-stat 5.1).",
+    "confidence": 9,
+    "evidence": [
+      "Bai-Perron structural break at 2004Q2 (t-stat 5.1)",
+      "Roll yield collapsed from +5.1% to -3.2% annualized",
+      "Commodity-equity correlation shifted from +0.03 to +0.48",
+      "GSCI spot -10% vs. total return -35% cumulative 2005-2025",
+      "$450B+ commodity index AUM suppresses backwardation",
+      "Partial reversion to +0.28 correlation statistically insufficient for second regime break"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the partial reversion to +0.28 correlation stable or transitional?",
+      "Can active strategies overcome the structural impairment?"
+    ],
+    "related_concepts": [
+      "commodity_equity_correlation_ambiguity",
+      "broad_index_invalidation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "reflexive_contradiction",
+    "definition": "Commodity supercycles contain a self-limiting mechanism: rising prices drive inflation, triggering rate hikes, which cause demand destruction. Inflation embedding is ~2x faster (3-6 months) than demand destruction (12-18 months), creating a critical timing asymmetry. All four historical supercycle terminations involved this mechanism.",
+    "confidence": 8,
+    "evidence": [
+      "All 8 agents confirmed the mechanism across 4 debate pairs",
+      "4/4 historical supercycle terminations involved this mechanism",
+      "2021-2023 empirical anchor for timing asymmetry",
+      "Kaleckian profit redistribution from consuming to producing sectors specified as balance-sheet mechanism",
+      "CLO-specific amplifier: higher rates compress CLO arbitrage reducing issuance",
+      "Term premium channel: 5-10bp expansion per 10% copper move"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Can fiscal policy (IRA, EU Green Deal) partially override the rate-to-demand-destruction channel?",
+      "Does government-financed transition preserve private sector balances enough to break the historical pattern?"
+    ],
+    "related_concepts": [
+      "credit_impulse_binding_constraint",
+      "fed_transition_metal_dilemma",
+      "opec_managed_band",
+      "treasury_supply_amplification"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "em_agricultural_vulnerability",
+    "definition": "Emerging markets face structural, underpriced vulnerability to agricultural commodity spikes due to food comprising 30-50% of EM CPI (vs. 10-15% DM), with protein price cascades extending CPI impact 6-24 months beyond the commodity spike via biological production lags. EM rate premium quantified at 50-100bps above output-gap models.",
+    "confidence": 8,
+    "evidence": [
+      "Food at 30-50% of EM CPI vs. 10-15% DM",
+      "Exporter stocks-to-use at ~16% (vs. misleading global 32.7%)",
+      "FAO price index correlated with EM political instability in 5/6 historical episodes",
+      "30% wheat spike produces 9-15% EM headline inflation vs. 3-5% DM",
+      "Protein price cascade: 6-week to 24-month biological lag",
+      "EM rate premium of 50-100bps above output-gap models is tradeable mispricing",
+      "Three debates validated independently"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the current exporter stocks-to-use ratio trend?",
+      "Can EM governments absorb subsidy costs without sovereign credit deterioration?",
+      "Does the Minsky sectoral balance trap (hedge to speculative finance) apply broadly across EM private sectors?"
+    ],
+    "related_concepts": [
+      "reflexive_contradiction",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "broad_index_invalidation",
+    "definition": "Standard commodity index allocations (GSCI/BCOM) are incoherent expressions of any macro view, blending ~35% energy (OPEC+ managed), ~20% metals (structurally tight), ~25% agriculture (episodic) with -3.2% roll yield drag and +0.28 equity correlation. This follows as logical necessity from trifurcation plus financialization impairment.",
+    "confidence": 9,
+    "evidence": [
+      "Trifurcation (confidence 9) plus financialization impairment (confidence 9) jointly produce this as logical necessity",
+      "Portfolio math straightforward and uncontested across all debates",
+      "-3.2% annual roll yield drag",
+      "+0.28 equity correlation eliminates diversification benefit"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "financialization_return_impairment",
+      "commodity_equity_correlation_ambiguity"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "deficit_forecast_base_rate",
+    "definition": "Zero of eight historical commodity deficit forecasts of comparable magnitude have materialized, establishing a base rate that demands rigorous downward calibration of any headline supply deficit projection. This is a base rate, not a prediction — it does not mean the current deficit will not materialize.",
+    "confidence": 8,
+    "evidence": [
+      "0/8 historical materialization rate confirmed as 'the single most empirically grounded finding in the entire knowledge base'",
+      "Applied to copper: headline 5-8Mt forecasts calibrated to 2-4Mt; base rate suggests further revision warranted",
+      "Confirmed by pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is the current copper deficit structurally different from prior deficit forecasts due to energy transition demand?",
+      "At what point does the base rate itself become misleading if structural conditions have genuinely changed?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "mining_capex_ponzi_finance"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "copper_deficit_magnitude",
+    "definition": "The copper supply deficit is directionally real but likely smaller than consensus estimates. Headline forecasts of 5-8Mt have been calibrated to 2-4Mt, with debate converging on 1-2.5Mt as most defensible, pending resolution of China demand signals and Grasberg disruption effects.",
+    "confidence": 6,
+    "evidence": [
+      "Goldman Sachs 300kt surplus projection for 2026 vs. JPM 330kt deficit",
+      "China unwrought copper imports -16.1% YoY in Jan-Feb 2026",
+      "Cu/Al price ratio piercing 4.2x substitution threshold",
+      "Chile 13 projects adding ~500kt/yr",
+      "Scrap output growing 5.4%",
+      "Mining equities imply ~$9.5-10k/t long-run copper, not $12k+ required by structural deficit thesis",
+      "Grasberg force majeure (600kt supply loss) may mask underlying demand weakness"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is China's -16.1% import decline seasonal destocking or structural break?",
+      "What is Grasberg restart timeline?",
+      "Does the Cu/Al 4.2x ratio trigger measurable substitution in manufacturing data?"
+    ],
+    "related_concepts": [
+      "deficit_forecast_base_rate",
+      "aluminum_substitution_ratchet",
+      "copper_positioning_crowding",
+      "mining_capex_ponzi_finance",
+      "cross_asset_copper_inconsistency"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "gold_real_rate_disconnect",
+    "definition": "Gold at $4,435/oz with real yields at 1.5-2.0% implies a residual exceeding $2,000/oz above model-implied value. Central bank buying at 1,000+ t/yr (declining to projected 755t in 2026). The anomaly is uncontested; causal attribution among fiscal dominance, reserve diversification, geopolitical premium, and term premium mispricing remains contested at ~5/10 across all agents.",
+    "confidence": 6,
+    "evidence": [
+      "Gold residual exceeding $2,000/oz above model-implied value",
+      "Central bank buying at 1,000+ t/yr, projected declining to 755t in 2026",
+      "March 23 plunge and recovery (briefly below $4,300, then rebounding) demonstrates price support",
+      "Four competing interpretations from different analytical frameworks",
+      "All agents converge at ~5/10 on causal attribution"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_02",
+      "rates_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the flow-of-funds decomposition between competing explanations?",
+      "Is CB buying declining or stabilizing at a new structural level?",
+      "Does the residual primarily reflect fiscal dominance, reserve diversification, geopolitical premium, or term premium mispricing?"
+    ],
+    "related_concepts": [
+      "gold_first_sequencing",
+      "fed_transition_metal_dilemma"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "commodity_equity_correlation_ambiguity",
+    "definition": "Commodity-equity correlation at +0.28 sits between pre-financialization (+0.03) and peak financialization (+0.48), creating maximum portfolio construction ambiguity — too high to diversify in stress, too low for commodity bulls to lose the 'hedge' marketing pitch. Bai-Perron test confirms partial reversion is insufficient for a second regime break.",
+    "confidence": 8,
+    "evidence": [
+      "Correlation at +0.28 between pre-financialization (+0.03) and peak (+0.48)",
+      "Bai-Perron test finds partial reversion insufficient for second regime break",
+      "Identified as 'the worst possible state for portfolio construction'",
+      "Credit portfolio diversification also degraded for commodity-sector overweights",
+      "Validated as 'precise and correct' by pair_0 debate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Does the aggregate +0.28 mask bimodal distributions along trifurcation lines?",
+      "Do supply-driven copper tightness and demand-driven oil moves have different equity correlations?"
+    ],
+    "related_concepts": [
+      "financialization_return_impairment",
+      "broad_index_invalidation",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "credit_maturity_wall",
+    "definition": "Approximately $180-220B in commodity-sector leveraged loans and HY bonds mature in 2026-2028. Credit markets operate on fixed maturity dates, making the maturity wall the binding near-term constraint over physical supply-demand fundamentals. A 100-200bps spread widening pushes 15-25% into distressed territory.",
+    "confidence": 7,
+    "evidence": [
+      "~$180-220B maturing in 24 months",
+      "100-200bps spread widening pushes 15-25% into distressed territory",
+      "2019-2020 vintage CLOs exiting reinvestment as maturity wall hits",
+      "2015-2016 precedent: 30-40% of secondary market volume from forced selling",
+      "Pair_1 debate judged credit_analyst_02 'stronger' on this point"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is the current refinancing rate for commodity-sector borrowers?",
+      "How much CLO capacity remains for commodity sector reinvestment?",
+      "Does the maturity wall timing coincide with or amplify the credit impulse turning negative?"
+    ],
+    "related_concepts": [
+      "credit_impulse_binding_constraint",
+      "mining_capex_ponzi_finance",
+      "clo_reinvestment_timing"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "mining_capex_ponzi_finance",
+    "definition": "Greenfield copper projects with 12-18 year timelines generate zero cash flow for over a decade, constituting speculative or Ponzi finance on Minsky's taxonomy. The copper zombie zone ($8-11k/t) is metastable: brownfield operations survive (hedge finance) but no new supply is sanctioned, creating structural tightness that validates the next speculative greenfield cycle.",
+    "confidence": 7,
+    "evidence": [
+      "Greenfield timelines of 12-18 years with zero cash flow during construction",
+      "Debt service during construction requires credit line drawdowns or refinancing",
+      "Below AISC ($8-9k/t) projects become Ponzi finance",
+      "0/8 deficit forecast materialization rate means price trajectory implied by sanctioning has never been validated",
+      "Identified as 'genuinely original and analytically sharp' by pair_2 debate"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Can permitting reform meaningfully compress timelines enough to change the Minsky classification?",
+      "What copper price level sustains greenfield finance through a full cycle?",
+      "Do government subsidies and strategic stockpiling alter the hedge/speculative boundary?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "credit_maturity_wall",
+      "deficit_forecast_base_rate",
+      "copper_zombie_zone"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "opec_managed_band",
+    "definition": "OPEC+ manages a $70-90 Brent price band that caps the single largest CPI component's contribution to headline inflation at ~0.5pp across developed markets. Band breakdown would add 1.0-1.5pp to DM headline CPI and 2-3pp in oil-importing EMs. Current signals (overproduction ~700kb/d, fiscal breakeven dispersion $60-110/bbl) indicate rising fragility.",
+    "confidence": 7,
+    "evidence": [
+      "Current overproduction ~700kb/d",
+      "Fiscal breakeven dispersion $60-110/bbl across members",
+      "Spare capacity at 4-5Mb/d (~5% of global demand)",
+      "Historical breakdown intervals of ~7-10 years",
+      "Agreed that OPEC+ fragility 'is systematically underweighted in macro frameworks'"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02",
+      "rates_strategist_02",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What is the specific breakdown mechanism and timing?",
+      "At what spare capacity level does the band become unenforceable?",
+      "Does member fiscal breakeven dispersion predict defection probability?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "reflexive_contradiction",
+      "em_agricultural_vulnerability"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "copper_positioning_crowding",
+    "definition": "Copper and commodity positioning is historically crowded — BofA FMS overweight at +2.1σ, $58B in 2025 ETF inflows, 13/15 sell-side desks structurally bullish — creating near-term unwind risk. Casualty evidence is mounting (Pimco -26% YTD, Conductor wound down, Millennium ~$1.5B loss).",
+    "confidence": 6,
+    "evidence": [
+      "BofA FMS commodity overweight at +2.1σ (up from +1.8σ)",
+      "$58B in 2025 commodity ETF inflows, $11.4B in Jan-Feb 2026",
+      "13/15 sell-side desks structurally bullish copper",
+      "CFTC copper net longs at 48K contracts (declining but elevated)",
+      "Combined equity + commodity allocation at 76%, last seen early 2022",
+      "Casualty evidence: Pimco -26% YTD, Conductor wound down, Millennium ~$1.5B loss"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does the 2000s precedent (supercycle running years after consensus despite crowding) apply?",
+      "What triggers the positioning unwind?",
+      "Is +2.1σ historically in the zone where drawdowns are deeper and more prolonged?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "trifurcation_macro_shock_failure",
+      "2s10s_commodity_regime_contamination"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "trifurcation_macro_shock_failure",
+    "definition": "Trifurcation provides false comfort during correlated macro shocks. While supply elasticities genuinely differ (trifurcation holds structurally), common demand shocks re-correlate all three sub-complexes. Trifurcation is a supply-side framework being misapplied to demand-side questions.",
+    "confidence": 7,
+    "evidence": [
+      "March 19, 2026 sell-off: Iran-driven oil spike simultaneously pushed gold down (via real rates) and copper down (via recession fears)",
+      "All three 'independent' sub-complexes moved together through a common macro channel",
+      "Resolved as boundary condition: trifurcation holds structurally but fails for risk management during tail events"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "How frequently do correlated demand shocks override supply-side trifurcation?",
+      "Can portfolio construction account for both steady-state trifurcation and tail-event re-correlation?"
+    ],
+    "related_concepts": [
+      "commodity_trifurcation",
+      "commodity_equity_correlation_ambiguity",
+      "copper_positioning_crowding"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "credit_impulse_binding_constraint",
+    "definition": "The credit impulse turning negative, not the price mechanism, is the binding constraint on supercycle duration. Commodity supercycles redistribute profits from consumers to producers via Kaleckian dynamics; consuming sectors borrow until credit impulse turns negative, terminating the cycle.",
+    "confidence": 7,
+    "evidence": [
+      "2/4 historical terminations (1980, 2011) clearly credit events",
+      "2/4 earlier terminations (1917, 1951) more ambiguous",
+      "Kaleckian framework: Profits = Investment + Government Deficit + Net Exports - Household Saving",
+      "Modern era (post-financialization) mechanism well-specified",
+      "1980 and 2011 are the most relevant analogues for current cycle"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What are current global private debt-to-GDP ratios?",
+      "What is China's credit impulse as of early 2026?",
+      "Does post-GFC household deleveraging alter the historical pattern?",
+      "Are the three channels (credit impulse, term premium, positioning unwind) complementary rather than competing?"
+    ],
+    "related_concepts": [
+      "reflexive_contradiction",
+      "credit_maturity_wall",
+      "mining_capex_ponzi_finance"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "fed_transition_metal_dilemma",
+    "definition": "The Fed faces a novel dilemma: post-2015 it adopted a framework of 'looking through' supply-driven commodity shocks, but transition metal price increases are demand-pull from government-subsidized multi-decade fiscal commitments (IRA, EU Green Deal). The Fed cannot credibly characterize this as transitory when the demand driver is permanent fiscal policy.",
+    "confidence": 7,
+    "evidence": [
+      "Post-2015 Fed framework of 'looking through' supply-driven commodity shocks inapplicable to policy-supported demand",
+      "IRA and EU Green Deal are multi-decade fiscal commitments driving transition metal demand",
+      "No historical playbook for this fiscal-monetary coordination problem",
+      "Identified as 'the most original insight' from rates_strategist_02 and validated at 8/10 by pair_3 debate"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Are IRA subsidies inframarginal, weakening monetary transmission to transition demand?",
+      "How sensitive is EV/grid investment to rate changes across jurisdictions with different subsidy structures?",
+      "Will this force a revision of the Fed's reaction function framework?"
+    ],
+    "related_concepts": [
+      "reflexive_contradiction",
+      "opec_managed_band",
+      "fci_divergence_risk"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "gold_first_sequencing",
+    "definition": "The current asset class sequencing (gold leading, copper following, oil flat) matches the 1971-74 monetary regime disruption pattern rather than the 2000s demand-pull pattern where gold lagged. If correct, the structural commodity opportunity begins after monetary regime stress resolves, implying current copper positioning may be premature.",
+    "confidence": 4,
+    "evidence": [
+      "Current sequencing matches 1971-74 monetary disruption pattern",
+      "Does not match 2000s demand-pull pattern where gold lagged",
+      "Validated by pair_0 debate as 'the most analytically sharp insight'"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "n=2 limitation — is pattern matching with two episodes statistically meaningful?",
+      "Does the energy transition create a structural break invalidating historical sequencing?",
+      "Falsification test: do oil and industrial metals break out together while gold consolidates?"
+    ],
+    "related_concepts": [
+      "gold_real_rate_disconnect",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "clo_reinvestment_timing",
+    "definition": "2019-2020 vintage CLOs exiting their reinvestment periods coincide with the 2026-2028 commodity-sector maturity wall. Post-reinvestment CLOs are trapped in commodity credits while active CLOs create forced-selling cascades, amplifying credit stress beyond what physical fundamentals would produce.",
+    "confidence": 7,
+    "evidence": [
+      "2019-2020 vintage CLOs exiting reinvestment as maturity wall hits",
+      "Post-reinvestment CLOs trapped; active CLOs create forced selling",
+      "2015-2016 precedent: 30-40% of secondary market volume from forced selling"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What share of commodity-sector leveraged loans is held in CLO structures?",
+      "Can CLO managers mitigate through early portfolio rotation?"
+    ],
+    "related_concepts": [
+      "credit_maturity_wall",
+      "credit_impulse_binding_constraint"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "copper_zombie_zone",
+    "definition": "The $8-11k/t copper price range is metastable: brownfield operations survive as hedge finance but no new supply is sanctioned, creating the structural tightness that eventually validates the next round of speculative greenfield bets. This is the Minsky tranquility that breeds instability.",
+    "confidence": 7,
+    "evidence": [
+      "AISC at $8-9k/t marks boundary between speculative and Ponzi finance",
+      "Greenfield projects require prices well above the zombie zone for sanctioning",
+      "Creates self-fulfilling tightness narrative"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "How long can the metastable state persist?",
+      "Does scrap supply growth alter the zombie zone boundaries?"
+    ],
+    "related_concepts": [
+      "mining_capex_ponzi_finance",
+      "copper_deficit_magnitude"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "cross_asset_copper_inconsistency",
+    "definition": "Copper pricing across asset classes is internally inconsistent: mining equities imply ~$9.5-10k/t, the forward curve shows mild backwardation, and credit spreads are benign. These signals cannot all be simultaneously correct, revealing genuine market uncertainty about deficit magnitude.",
+    "confidence": 6,
+    "evidence": [
+      "Mining equities imply $9.5-10k/t long-run copper",
+      "Structural deficit thesis requires $12k+",
+      "Forward curve shows mild backwardation",
+      "Credit spreads for copper miners are benign"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Which asset class is correctly pricing copper's fundamental outlook?",
+      "What is the 'equity-implied copper price' where all three surfaces reconcile?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "copper_positioning_crowding",
+      "credit_maturity_wall"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "trading_house_systemic_leverage",
+    "definition": "Major commodity trading houses (Trafigura, Vitol, Glencore, Gunvor) collectively carry $200B+ in bank-intermediated exposure concentrated in 6-8 European banks. The shift from exchange-cleared to bilateral OTC derivatives has increased counterparty concentration. Structurally concerning but unquantifiable due to opacity.",
+    "confidence": 5,
+    "evidence": [
+      "2022 EUR 1.5T margin call episode demonstrated the mechanism",
+      "Shift from exchange-cleared to bilateral OTC derivatives",
+      "$200B+ collective exposure concentrated in 6-8 European banks",
+      "Pair_1 debate concluded credit_analyst_02 'moderately stronger' than KB confidence 5"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the true bilateral OTC exposure?",
+      "Would government backstops be available in the next stress episode?",
+      "What is the counterparty concentration risk in specific European banks?"
+    ],
+    "related_concepts": [
+      "credit_maturity_wall",
+      "trifurcation_macro_shock_failure"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "aluminum_substitution_ratchet",
+    "definition": "Above certain Cu/Al price ratios (currently pierced at 4.2x), aluminum substitution in manufacturing installed capacity may be irreversible — capacity switching decisions do not reverse when copper prices correct, permanently increasing copper demand elasticity at high prices.",
+    "confidence": 4,
+    "evidence": [
+      "Cu/Al price ratio pierced 4.2x",
+      "HVAC aluminum share doubled to ~40% in six years",
+      "Installed capacity decisions are capital-intensive and sticky"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Has the ratchet effect been empirically tested through a full price cycle?",
+      "What share of copper demand is vulnerable to aluminum substitution at current ratios?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "copper_zombie_zone"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "2s10s_commodity_regime_contamination",
+    "definition": "During commodity-driven inflation regimes, the 2s10s yield curve slope is systematically misleading as a recession indicator. 1970s data show 150-200bp of a 250bp steepening was attributable to term premium, not expectations — the slope actively misled during recession onset.",
+    "confidence": 6,
+    "evidence": [
+      "1970s: curve steepened to +250bp during recession onset",
+      "150-200bp attributable to term premium, not expectations",
+      "Well-established among rates strategists but widely ignored by generalists",
+      "Validated as 'concrete, verifiable, and actionable' by pair_2 debate"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does QE/QT alter the term premium decomposition vs. 1970s?",
+      "What alternative recession indicators should replace 2s10s during commodity regimes?"
+    ],
+    "related_concepts": [
+      "reflexive_contradiction",
+      "copper_positioning_crowding",
+      "treasury_supply_amplification"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "fci_divergence_risk",
+    "definition": "Equity rallies can offset 150-200bps of rate hikes in Financial Conditions Index terms, causing FCIs to signal 'easy' while goods-producing sectors face margin compression from commodity input costs — a divergence that misleads monetary policy assessment.",
+    "confidence": 7,
+    "evidence": [
+      "Equity rallies offsetting 150-200bps of rate hikes in FCI terms",
+      "Goods-producing sectors face margin compression from commodity inputs",
+      "FCIs signaling 'easy' while the real economy is tight"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "How should policymakers weight FCI components during commodity regimes?",
+      "Does the divergence create systematic policy errors?"
+    ],
+    "related_concepts": [
+      "fed_transition_metal_dilemma",
+      "reflexive_contradiction"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "treasury_supply_amplification",
+    "definition": "Commodity inflation creates a self-reinforcing loop in sovereign debt markets: higher commodity prices drive inflation, increasing debt service costs, requiring more Treasury issuance, widening term premium, and compounding the original commodity-driven expansion.",
+    "confidence": 6,
+    "evidence": [
+      "Term premium channel is 5-10bp per 10% copper move",
+      "Independent of expected policy path",
+      "Mechanism specified by rates_strategist_01"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Is the amplification loop empirically significant at current debt-to-GDP levels?",
+      "Can Treasury buyback programs dampen the loop?"
+    ],
+    "related_concepts": [
+      "reflexive_contradiction",
+      "2s10s_commodity_regime_contamination",
+      "fed_transition_metal_dilemma"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "india_non_china_em_demand",
+    "definition": "Non-China EM demand trajectory, led by India, may be larger than consensus framing suggests. India copper demand grew +9.3% YoY in FY25 to 1,878kt, projected at 3-3.3Mt by 2030. The knowledge base makes a composition fallacy by comparing India to China rather than assessing aggregate non-China EM demand — India growing from 1.9Mt to 3.3Mt is 1.4Mt incremental without replicating China.",
+    "confidence": 4,
+    "evidence": [
+      "India copper demand +9.3% YoY in FY25 to 1,878kt",
+      "Rs. 150 lakh crore National Infrastructure Pipeline (2026-32)",
+      "Copper demand projected at 3-3.3Mt by 2030 (+75%)",
+      "1.4Mt incremental demand does not require replicating China"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Can India's infrastructure pipeline deliver on schedule?",
+      "What is the aggregate non-China EM demand trajectory?",
+      "Does India's copper intensity follow a different development path than China's?"
+    ],
+    "related_concepts": [
+      "copper_deficit_magnitude",
+      "commodity_trifurcation"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "permitting_reform_timeline_compression",
+    "definition": "Recent permitting reforms (Chile's 93-vote Congressional reform, US DPA 28-day permits, Resolution Copper's completed land exchange) are directionally positive for supply elasticity but unlikely to compress mining project timelines by more than 10-20% within the forecast period. Not a regime change; a marginal improvement.",
+    "confidence": 3,
+    "evidence": [
+      "Chile's permitting reform with 93 Congressional votes, 30-70% claimed timeline reduction",
+      "US DPA 28-day permits",
+      "Resolution Copper completed land exchange March 2026",
+      "Enacted legislation qualitatively different from prior reform attempts"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Will enacted reforms actually deliver claimed timeline reductions?",
+      "How does 10-20% compression interact with 12-18 year greenfield timelines?"
+    ],
+    "related_concepts": [
+      "mining_capex_ponzi_finance",
+      "copper_deficit_magnitude"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "5y5y_commodity_supply_mispricing",
+    "definition": "The 5-year 5-year forward inflation swap may misprice commodity supply friction by 25-50bp if the energy transition creates sustained above-trend investment demand implying higher r*. However, the transition is a multi-decade capital reallocation that normalizes once infrastructure is built, and higher commodity prices also reduce r* via supply-side drag — net effect is ambiguous.",
+    "confidence": 4,
+    "evidence": [
+      "Direction plausible if energy transition creates sustained investment demand",
+      "Counter: transition is capital reallocation, not permanent investment share increase",
+      "Higher commodity prices reduce r* via supply-side drag on potential output"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Is the 5y5y the right curve point for this mispricing?",
+      "What is the net effect on r* of higher investment demand vs. supply-side drag?"
+    ],
+    "related_concepts": [
+      "fed_transition_metal_dilemma",
+      "treasury_supply_amplification"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "slug": "private_credit_commodity_exposure",
+    "definition": "Private credit carries an estimated $150-250B in commodity-adjacent exposure with potentially overstated NAVs. PIK toggle usage at 15-20% of new originations suggests stress. However, the range is too wide (67% uncertainty band) and NAV gap assertions are based on analogies, not direct disclosure.",
+    "confidence": 4,
+    "evidence": [
+      "Estimated $150-250B range (67% uncertainty band)",
+      "PIK toggle usage at 15-20% of new originations",
+      "NAV gap assertion based on analogies from other asset classes"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What is the true commodity-adjacent exposure in private credit?",
+      "What share of PIK toggle usage is commodity-driven vs. general market stress?",
+      "Can mark-to-market analysis narrow the NAV gap estimate?"
+    ],
+    "related_concepts": [
+      "credit_maturity_wall",
+      "trading_house_systemic_leverage"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  }
+]

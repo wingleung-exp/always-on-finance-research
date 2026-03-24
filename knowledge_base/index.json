@@ -2076,9 +2076,9 @@
     "concept:credit_maturity_wall": {
       "type": "concept",
       "slug": "credit_maturity_wall",
-      "confidence": 7.5,
-      "last_updated": "2026-03-23T05:37:25Z",
-      "research_iterations": 2,
+      "confidence": 7.33,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 3,
       "topic": "volatility_regimes"
     },
     "concept:vix_move_correlation_regimes": {
@@ -7780,9 +7780,9 @@
     "concept:gold_real_rate_disconnect": {
       "type": "concept",
       "slug": "gold_real_rate_disconnect",
-      "confidence": 6,
-      "last_updated": "2026-03-23T05:08:32Z",
-      "research_iterations": 1,
+      "confidence": 6.0,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 2,
       "topic": "commodity_supercycles"
     },
     "concept:copper_structural_tightness": {
@@ -7900,9 +7900,9 @@
     "concept:commodity_trifurcation": {
       "type": "concept",
       "slug": "commodity_trifurcation",
-      "confidence": 9,
-      "last_updated": "2026-03-23T05:08:32Z",
-      "research_iterations": 1,
+      "confidence": 9.0,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 2,
       "topic": "commodity_supercycles"
     },
     "concept:lng_capacity_wave": {
@@ -7932,9 +7932,9 @@
     "concept:copper_zombie_zone": {
       "type": "concept",
       "slug": "copper_zombie_zone",
-      "confidence": 7.5,
-      "last_updated": "2026-03-23T10:55:08Z",
-      "research_iterations": 2,
+      "confidence": 7.33,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 3,
       "topic": "commodity_supercycles"
     },
     "concept:china_demand_deceleration_ex_copper": {
@@ -18712,6 +18712,406 @@
       "last_updated": "2026-03-24T08:49:12Z",
       "research_iterations": 1,
       "topic": "credit_cycles"
+    },
+    "concept:india_non_china_em_demand": {
+      "type": "concept",
+      "slug": "india_non_china_em_demand",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:private_credit_commodity_exposure": {
+      "type": "concept",
+      "slug": "private_credit_commodity_exposure",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:deficit_forecast_base_rate": {
+      "type": "concept",
+      "slug": "deficit_forecast_base_rate",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:em_agricultural_vulnerability": {
+      "type": "concept",
+      "slug": "em_agricultural_vulnerability",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:copper_deficit_magnitude": {
+      "type": "concept",
+      "slug": "copper_deficit_magnitude",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:5y5y_commodity_supply_mispricing": {
+      "type": "concept",
+      "slug": "5y5y_commodity_supply_mispricing",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:cross_asset_copper_inconsistency": {
+      "type": "concept",
+      "slug": "cross_asset_copper_inconsistency",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:commodity_equity_correlation_ambiguity": {
+      "type": "concept",
+      "slug": "commodity_equity_correlation_ambiguity",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:copper_positioning_crowding": {
+      "type": "concept",
+      "slug": "copper_positioning_crowding",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:trading_house_systemic_leverage": {
+      "type": "concept",
+      "slug": "trading_house_systemic_leverage",
+      "confidence": 5,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:clo_reinvestment_timing": {
+      "type": "concept",
+      "slug": "clo_reinvestment_timing",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:2s10s_commodity_regime_contamination": {
+      "type": "concept",
+      "slug": "2s10s_commodity_regime_contamination",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:aluminum_substitution_ratchet": {
+      "type": "concept",
+      "slug": "aluminum_substitution_ratchet",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:opec_managed_band": {
+      "type": "concept",
+      "slug": "opec_managed_band",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:broad_index_invalidation": {
+      "type": "concept",
+      "slug": "broad_index_invalidation",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:treasury_supply_amplification": {
+      "type": "concept",
+      "slug": "treasury_supply_amplification",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:fci_divergence_risk": {
+      "type": "concept",
+      "slug": "fci_divergence_risk",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:gold_first_sequencing": {
+      "type": "concept",
+      "slug": "gold_first_sequencing",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:financialization_return_impairment": {
+      "type": "concept",
+      "slug": "financialization_return_impairment",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:fed_transition_metal_dilemma": {
+      "type": "concept",
+      "slug": "fed_transition_metal_dilemma",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:mining_capex_ponzi_finance": {
+      "type": "concept",
+      "slug": "mining_capex_ponzi_finance",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:credit_impulse_binding_constraint": {
+      "type": "concept",
+      "slug": "credit_impulse_binding_constraint",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:trifurcation_macro_shock_failure": {
+      "type": "concept",
+      "slug": "trifurcation_macro_shock_failure",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "concept:reflexive_contradiction": {
+      "type": "concept",
+      "slug": "reflexive_contradiction",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:32Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:commodity_equity_correlation_ambiguity__financialization_return_impairment": {
+      "type": "relationship",
+      "slug": "commodity_equity_correlation_ambiguity__financialization_return_impairment",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:trading_house_systemic_leverage__trifurcation_macro_shock_failure": {
+      "type": "relationship",
+      "slug": "trading_house_systemic_leverage__trifurcation_macro_shock_failure",
+      "confidence": 5,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:gold_first_sequencing__gold_real_rate_disconnect": {
+      "type": "relationship",
+      "slug": "gold_first_sequencing__gold_real_rate_disconnect",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:broad_index_invalidation__commodity_trifurcation": {
+      "type": "relationship",
+      "slug": "broad_index_invalidation__commodity_trifurcation",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:clo_reinvestment_timing__credit_maturity_wall": {
+      "type": "relationship",
+      "slug": "clo_reinvestment_timing__credit_maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:reflexive_contradiction__treasury_supply_amplification": {
+      "type": "relationship",
+      "slug": "reflexive_contradiction__treasury_supply_amplification",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:credit_impulse_binding_constraint__reflexive_contradiction": {
+      "type": "relationship",
+      "slug": "credit_impulse_binding_constraint__reflexive_contradiction",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:commodity_trifurcation__opec_managed_band": {
+      "type": "relationship",
+      "slug": "commodity_trifurcation__opec_managed_band",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:deficit_forecast_base_rate__mining_capex_ponzi_finance": {
+      "type": "relationship",
+      "slug": "deficit_forecast_base_rate__mining_capex_ponzi_finance",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:2s10s_commodity_regime_contamination__copper_positioning_crowding": {
+      "type": "relationship",
+      "slug": "2s10s_commodity_regime_contamination__copper_positioning_crowding",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:em_agricultural_vulnerability__reflexive_contradiction": {
+      "type": "relationship",
+      "slug": "em_agricultural_vulnerability__reflexive_contradiction",
+      "confidence": 8,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:copper_deficit_magnitude__credit_maturity_wall": {
+      "type": "relationship",
+      "slug": "copper_deficit_magnitude__credit_maturity_wall",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:copper_positioning_crowding__trifurcation_macro_shock_failure": {
+      "type": "relationship",
+      "slug": "copper_positioning_crowding__trifurcation_macro_shock_failure",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:fed_transition_metal_dilemma__reflexive_contradiction": {
+      "type": "relationship",
+      "slug": "fed_transition_metal_dilemma__reflexive_contradiction",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:copper_deficit_magnitude__cross_asset_copper_inconsistency": {
+      "type": "relationship",
+      "slug": "copper_deficit_magnitude__cross_asset_copper_inconsistency",
+      "confidence": 6,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:aluminum_substitution_ratchet__copper_deficit_magnitude": {
+      "type": "relationship",
+      "slug": "aluminum_substitution_ratchet__copper_deficit_magnitude",
+      "confidence": 4,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:broad_index_invalidation__financialization_return_impairment": {
+      "type": "relationship",
+      "slug": "broad_index_invalidation__financialization_return_impairment",
+      "confidence": 9,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:copper_deficit_magnitude__mining_capex_ponzi_finance": {
+      "type": "relationship",
+      "slug": "copper_deficit_magnitude__mining_capex_ponzi_finance",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "relationship:fci_divergence_risk__fed_transition_metal_dilemma": {
+      "type": "relationship",
+      "slug": "fci_divergence_risk__fed_transition_metal_dilemma",
+      "confidence": 7,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:trifurcation_framework": {
+      "type": "framework",
+      "slug": "trifurcation_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:minsky_mining_taxonomy": {
+      "type": "framework",
+      "slug": "minsky_mining_taxonomy",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:five_signal_termination_framework": {
+      "type": "framework",
+      "slug": "five_signal_termination_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:gold_regime_classifier": {
+      "type": "framework",
+      "slug": "gold_regime_classifier",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:reflexive_contradiction_chain": {
+      "type": "framework",
+      "slug": "reflexive_contradiction_chain",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:cross_asset_pricing_diagnostic": {
+      "type": "framework",
+      "slug": "cross_asset_pricing_diagnostic",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
+    },
+    "framework:kaleckian_supercycle_flow": {
+      "type": "framework",
+      "slug": "kaleckian_supercycle_flow",
+      "confidence": 0,
+      "last_updated": "2026-03-24T09:15:33Z",
+      "research_iterations": 1,
+      "topic": "commodity_supercycles"
     }
   },
   "iterations": [
@@ -19455,7 +19855,20 @@
         "anti_knowledge_entries": 11,
         "low_confidence_entries": 9
       }
+    },
+    {
+      "iteration_id": "iter_0051",
+      "topic": "commodity_supercycles",
+      "topic_category": "asset_class_dynamics",
+      "timestamp": "2026-03-24T09:15:33Z",
+      "stats": {
+        "concepts_written": 28,
+        "relationships_written": 19,
+        "frameworks_written": 7,
+        "anti_knowledge_entries": 8,
+        "low_confidence_entries": 8
+      }
     }
   ],
-  "last_updated": "2026-03-24T08:49:12Z"
+  "last_updated": "2026-03-24T09:15:33Z"
 }

@@ -1,0 +1,35 @@
+{
+  "slug": "credit_impulse_binding_constraint",
+  "definition": "The credit impulse turning negative, not the price mechanism, is the binding constraint on supercycle duration. Commodity supercycles redistribute profits from consumers to producers via Kaleckian dynamics; consuming sectors borrow until credit impulse turns negative, terminating the cycle.",
+  "confidence": 7,
+  "evidence": [
+    "2/4 historical terminations (1980, 2011) clearly credit events",
+    "2/4 earlier terminations (1917, 1951) more ambiguous",
+    "Kaleckian framework: Profits = Investment + Government Deficit + Net Exports - Household Saving",
+    "Modern era (post-financialization) mechanism well-specified",
+    "1980 and 2011 are the most relevant analogues for current cycle"
+  ],
+  "originating_agents": [
+    "macro_strategist_02",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What are current global private debt-to-GDP ratios?",
+    "What is China's credit impulse as of early 2026?",
+    "Does post-GFC household deleveraging alter the historical pattern?",
+    "Are the three channels (credit impulse, term premium, positioning unwind) complementary rather than competing?"
+  ],
+  "related_concepts": [
+    "reflexive_contradiction",
+    "credit_maturity_wall",
+    "mining_capex_ponzi_finance"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-24T09:15:32Z",
+  "last_updated": "2026-03-24T09:15:32Z",
+  "originating_iteration": "iter_0051",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0051"
+  ]
+}

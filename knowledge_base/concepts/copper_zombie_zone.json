@@ -1,7 +1,7 @@
 {
   "slug": "copper_zombie_zone",
   "definition": "Copper occupies a 'zombie zone' where prices are above all-in sustaining costs (AISC $8-9k/t) but below greenfield incentive prices ($10-11k/t). This precise range sustains existing operations while failing to incentivize new supply, creating a self-reinforcing mechanism that keeps the market in structural deficit.",
-  "confidence": 7.5,
+  "confidence": 7.33,
   "evidence": [
     "AISC at $8-9k/t and greenfield incentive at $10-11k/t creating a defined price band",
     "Existing supply grinds down via grade decline while new supply is not sanctioned",
@@ -9,30 +9,39 @@
     "Consistent with 0/8 deficit forecast materialization pattern",
     "Current copper prices in the $8-11k/t range",
     "Greenfield development requiring $10-11k/t incentive price",
-    "Permitting accounting for 60-70% of greenfield timeline extension"
+    "Permitting accounting for 60-70% of greenfield timeline extension",
+    "AISC at $8-9k/t marks boundary between speculative and Ponzi finance",
+    "Greenfield projects require prices well above the zombie zone for sanctioning",
+    "Creates self-fulfilling tightness narrative"
   ],
   "originating_agents": [
-    "commodities_analyst_01"
+    "commodities_analyst_01",
+    "macro_strategist_02"
   ],
   "open_questions": [
     "What price level would trigger sufficient greenfield sanctioning to close the deficit?",
     "How sensitive is the zombie zone to grade decline rates?",
     "Can brownfield expansion or efficiency gains partially close the gap?",
-    "Will governments streamline permitting to reduce greenfield timelines?"
+    "Will governments streamline permitting to reduce greenfield timelines?",
+    "How long can the metastable state persist?",
+    "Does scrap supply growth alter the zombie zone boundaries?"
   ],
   "related_concepts": [
     "copper_structural_tightness",
     "copper_deficit_calibration",
     "supply_elasticity_variance",
-    "transition_reflexive_contradiction"
+    "transition_reflexive_contradiction",
+    "mining_capex_ponzi_finance",
+    "copper_deficit_magnitude"
   ],
   "topic": "commodity_supercycles",
   "created_at": "2026-03-23T05:08:32Z",
-  "last_updated": "2026-03-23T10:55:08Z",
+  "last_updated": "2026-03-24T09:15:32Z",
   "originating_iteration": "iter_0022",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0022",
-    "iter_0033"
+    "iter_0033",
+    "iter_0051"
   ]
 }

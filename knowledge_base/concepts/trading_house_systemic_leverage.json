@@ -1,0 +1,33 @@
+{
+  "slug": "trading_house_systemic_leverage",
+  "definition": "Major commodity trading houses (Trafigura, Vitol, Glencore, Gunvor) collectively carry $200B+ in bank-intermediated exposure concentrated in 6-8 European banks. The shift from exchange-cleared to bilateral OTC derivatives has increased counterparty concentration. Structurally concerning but unquantifiable due to opacity.",
+  "confidence": 5,
+  "evidence": [
+    "2022 EUR 1.5T margin call episode demonstrated the mechanism",
+    "Shift from exchange-cleared to bilateral OTC derivatives",
+    "$200B+ collective exposure concentrated in 6-8 European banks",
+    "Pair_1 debate concluded credit_analyst_02 'moderately stronger' than KB confidence 5"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "credit_analyst_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What is the true bilateral OTC exposure?",
+    "Would government backstops be available in the next stress episode?",
+    "What is the counterparty concentration risk in specific European banks?"
+  ],
+  "related_concepts": [
+    "credit_maturity_wall",
+    "trifurcation_macro_shock_failure"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-24T09:15:32Z",
+  "last_updated": "2026-03-24T09:15:32Z",
+  "originating_iteration": "iter_0051",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0051"
+  ]
+}

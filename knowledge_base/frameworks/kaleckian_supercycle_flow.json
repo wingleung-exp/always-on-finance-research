@@ -1,0 +1,27 @@
+{
+  "slug": "kaleckian_supercycle_flow",
+  "purpose": "Models inter-sectoral profit and credit flows during commodity supercycles to identify the balance sheet deterioration that precedes cycle termination",
+  "components": [
+    "Kaleckian profit equation: Profits = Investment + Government Deficit + Net Exports - Household Saving",
+    "Commodity supercycles redistribute profits from consuming to producing sectors",
+    "Consuming-sector firms borrow to maintain spending against rising commodity inputs",
+    "Government-financed transition (deficit spending) preserves private sector balances",
+    "Private-financed transition increases Minsky fragility in consuming sectors",
+    "Cycle terminates when credit impulse turns negative (borrowing capacity exhausted)"
+  ],
+  "current_assessment": "Validated for 2/4 historical terminations (1980, 2011); ambiguous for earlier episodes (1917, 1951). Current cycle has novel features: energy transition fiscal support may partially insulate private sector balances. Key data needed: global private debt-to-GDP ratios, China credit impulse.",
+  "limitations": [
+    "2/4 clear historical support, 2/4 ambiguous — does not meet rigorous empirical standards",
+    "Post-GFC household deleveraging may alter the consuming-sector borrowing channel",
+    "China's unique financial system may not conform to standard Kaleckian dynamics",
+    "Fiscal-monetary interaction not tested at current scale of transition subsidies"
+  ],
+  "topic": "commodity_supercycles",
+  "created_at": "2026-03-24T09:15:33Z",
+  "last_updated": "2026-03-24T09:15:33Z",
+  "originating_iteration": "iter_0051",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0051"
+  ]
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "concept_a": "commodity_trifurcation",
+    "concept_b": "broad_index_invalidation",
+    "mechanism": "Three sub-complexes with fundamentally different supply elasticities and price dynamics make blended commodity indices incoherent expressions of any single macro view",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds in steady-state; may temporarily break during correlated macro shocks that re-correlate sub-complexes",
+    "originating_agents": [
+      "generalist_01",
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "financialization_return_impairment",
+    "concept_b": "broad_index_invalidation",
+    "mechanism": "Roll yield collapse (-3.2% annualized) and elevated equity correlation (+0.28) make passive commodity index allocations structurally unattractive regardless of fundamental outlook",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Persistent since 2004 Bai-Perron structural break; no evidence of reversal",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "reflexive_contradiction",
+    "concept_b": "credit_impulse_binding_constraint",
+    "mechanism": "Commodity-driven inflation triggers rate hikes which compress credit through Kaleckian balance sheet deterioration; the credit impulse turning negative is the terminal event in the reflexive chain",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most clearly operative in post-financialization era (1980, 2011); less clear in pre-financialization terminations (1917, 1951)",
+    "originating_agents": [
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "fed_transition_metal_dilemma",
+    "concept_b": "reflexive_contradiction",
+    "mechanism": "If fiscal subsidies (IRA/Green Deal) make transition metal demand inelastic to rate hikes, the reflexive contradiction's demand-destruction channel is weakened, potentially extending the supercycle beyond historical patterns",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Novel regime with no historical precedent; depends on scale of fiscal subsidies relative to interest rate sensitivity of subsidized demand",
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "copper_deficit_magnitude",
+    "concept_b": "mining_capex_ponzi_finance",
+    "mechanism": "Perceived deficit justifies greenfield sanctioning at prices requiring speculative/Ponzi financing, while the 0/8 base rate suggests the deficit may not materialize, potentially stranding investments. Conversely, zombie-zone non-sanctioning creates tightness that validates deficit narratives.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds throughout the mining investment cycle; most acute during 12-18 year greenfield development periods",
+    "originating_agents": [
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "credit_maturity_wall",
+    "concept_b": "copper_deficit_magnitude",
+    "mechanism": "Credit maturities arrive on fixed dates regardless of physical supply-demand outlook; leveraged producers must refinance regardless of 15-year deficit projections, potentially forcing distressed sales or production curtailment that alters realized supply",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Specifically acute in the 2026-2028 maturity window; diminishes after refinancing wave completes",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "em_agricultural_vulnerability",
+    "concept_b": "reflexive_contradiction",
+    "mechanism": "Agricultural spikes force extended EM tightening cycles via protein price cascade (6-24 month biological lags), transmitting commodity shocks into broader EM demand destruction with longer lag than developed markets",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural due to food's 30-50% CPI weight in EMs; amplified during periods of low exporter stocks-to-use",
+    "originating_agents": [
+      "rates_strategist_02",
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "opec_managed_band",
+    "concept_b": "commodity_trifurcation",
+    "mechanism": "OPEC+ price management creates the ceiling on hydrocarbon returns that distinguishes energy from electrification metals, enabling trifurcation between managed energy and structurally tight metals",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while OPEC+ maintains $70-90 band; breakdown (historically ~7-10yr intervals) would temporarily re-correlate energy with other sub-complexes",
+    "originating_agents": [
+      "challenger_01",
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "copper_positioning_crowding",
+    "concept_b": "trifurcation_macro_shock_failure",
+    "mechanism": "Crowded positioning creates fragile market structure where correlated macro shocks trigger simultaneous unwind across all sub-complexes, overwhelming supply-side trifurcation with demand-side correlation",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Risk elevated when positioning exceeds +2 sigma; demonstrated during March 19, 2026 sell-off",
+    "originating_agents": [
+      "challenger_01",
+      "rates_strategist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "financialization_return_impairment",
+    "concept_b": "commodity_equity_correlation_ambiguity",
+    "mechanism": "Financialization shifted the commodity-equity correlation from +0.03 to +0.48; partial reversion to +0.28 creates maximum portfolio uncertainty about regime state",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Persistent since 2004 structural break; correlation level depends on relative commodity index AUM vs. physical market size",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "gold_real_rate_disconnect",
+    "concept_b": "gold_first_sequencing",
+    "mechanism": "The extreme gold residual ($2,000+ above model-implied value) is consistent with the monetary regime disruption interpretation, as the 1971-74 episode featured similar gold-model divergence before broader commodity breakout",
+    "direction": "correlated",
+    "confidence": 4,
+    "regime_dependence": "If gold-first sequencing is correct (n=2), the disconnect resolves when monetary regime stress resolves and the cycle transitions to demand-pull",
+    "originating_agents": [
+      "generalist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "aluminum_substitution_ratchet",
+    "concept_b": "copper_deficit_magnitude",
+    "mechanism": "Irreversible aluminum substitution above the 4.2x Cu/Al ratio permanently increases copper demand elasticity at high prices, reducing the effective deficit even when copper prices correct",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Activated above Cu/Al ratio of 4.2x; effect accumulates over time as manufacturing capacity switches and does not reverse",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "clo_reinvestment_timing",
+    "concept_b": "credit_maturity_wall",
+    "mechanism": "2019-2020 CLO vintages exiting reinvestment periods create forced-selling dynamics precisely as commodity-sector maturities require refinancing, amplifying credit stress beyond what physical fundamentals would produce",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "One-time coincidence of vintage timing and maturity clustering, specifically acute in 2026-2028 window",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "copper_positioning_crowding",
+    "concept_b": "2s10s_commodity_regime_contamination",
+    "mechanism": "Commodity positioning unwind triggers 20-40bp bull flattener as breakevens collapse, creating a synthetic recession signal that trips algorithmic models, amplified by CTA stops",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Applies when commodity positioning is elevated (+2 sigma) and commodity-inflation term premium is significant",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "trading_house_systemic_leverage",
+    "concept_b": "trifurcation_macro_shock_failure",
+    "mechanism": "Concentrated trading house exposure in 6-8 European banks creates a financial contagion channel that correlates commodity sub-complexes during stress, as margin calls hit cross-commodity positions simultaneously",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Activated during sustained commodity price dislocation; dependent on bilateral OTC concentration level and bank risk appetite",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "treasury_supply_amplification",
+    "concept_b": "reflexive_contradiction",
+    "mechanism": "Commodity inflation raises debt service costs, forcing increased Treasury issuance, which widens term premium, amplifying the reflexive contradiction's rate channel through a self-reinforcing loop",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "More significant at high government debt-to-GDP levels; may be dampened by central bank balance sheet operations",
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "fci_divergence_risk",
+    "concept_b": "fed_transition_metal_dilemma",
+    "mechanism": "FCIs signaling 'easy' while goods-producing sectors face commodity margin compression misleads the Fed's assessment of monetary transmission, compounding the dilemma of responding to policy-supported inflation",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Applies when equity markets rally during commodity-driven tightening cycles, creating a wedge between financial and real-economy conditions",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "deficit_forecast_base_rate",
+    "concept_b": "mining_capex_ponzi_finance",
+    "mechanism": "The 0/8 materialization rate means the price trajectories implied by greenfield project sanctioning have never been empirically validated, making the speculative finance classification even more precarious",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Universal across commodity cycles; applies to any deficit-justified greenfield investment decision",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  },
+  {
+    "concept_a": "cross_asset_copper_inconsistency",
+    "concept_b": "copper_deficit_magnitude",
+    "mechanism": "Equities, forwards, and credit cannot simultaneously be correct about copper — the inconsistency reveals genuine uncertainty about deficit magnitude and indicates at least one asset class must reprice",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Persistent in the current pricing environment; resolves when one or more asset classes reprice to match realized fundamentals",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "commodity_supercycles",
+    "iteration_id": "iter_0051"
+  }
+]

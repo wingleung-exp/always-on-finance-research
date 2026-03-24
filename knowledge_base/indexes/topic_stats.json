@@ -371,19 +371,29 @@
     "avg_confidence": 6.9
   },
   "commodity_supercycles": {
-    "concept_count": 26,
-    "relationship_count": 15,
-    "framework_count": 7,
+    "concept_count": 50,
+    "relationship_count": 34,
+    "framework_count": 14,
     "top_concepts": [
       {
-        "slug": "commodity_trifurcation",
+        "slug": "broad_index_invalidation",
         "confidence": 9,
+        "definition": "Standard commodity index allocations (GSCI/BCOM) are incoherent expressions of any macro view, blending ~35% energy (OPEC+ managed), ~20% metals (stru"
+      },
+      {
+        "slug": "commodity_trifurcation",
+        "confidence": 9.0,
         "definition": "The broad commodity complex is not experiencing a unified supercycle but is split into three distinct regimes: electrification metals (structurally ti"
       },
       {
         "slug": "financialization_correlation_break",
         "confidence": 9,
         "definition": "The influx of financial capital into commodity markets structurally broke the commodity-equity diversification benefit that underpinned the endowment "
+      },
+      {
+        "slug": "financialization_return_impairment",
+        "confidence": 9,
+        "definition": "Post-2004 financialization has structurally degraded commodity investable returns through roll yield collapse (from +5.1% to -3.2% annualized), elevat"
       },
       {
         "slug": "spot_investable_return_divergence",
@@ -401,6 +411,11 @@
         "definition": "China's commodity demand is structurally decelerating across all major commodities except copper. Bai-Perron structural breaks identified for steel (2"
       },
       {
+        "slug": "commodity_equity_correlation_ambiguity",
+        "confidence": 8,
+        "definition": "Commodity-equity correlation at +0.28 sits between pre-financialization (+0.03) and peak financialization (+0.48), creating maximum portfolio construc"
+      },
+      {
         "slug": "copper_deficit_forecast_bias",
         "confidence": 8,
         "definition": "Systematic overestimation of copper supply deficits is a documented empirical regularity. Compilation of 8 major deficit forecasts shows 0/8 fully mat"
@@ -409,52 +424,61 @@
         "slug": "copper_structural_tightness",
         "confidence": 8,
         "definition": "Copper has the strongest individual case for structural supply tightness among all commodities, driven by declining ore grades (~0.8% in 2005 to ~0.5%"
-      },
-      {
-        "slug": "demand_destruction_cycle_termination",
-        "confidence": 8,
-        "definition": "Every prior commodity supercycle peak was triggered by demand destruction, not supply catch-up, with a 4/4 historical base rate. 1917 (WWI end), 1951 "
-      },
-      {
-        "slug": "greenfield_timeline_extension",
-        "confidence": 8,
-        "definition": "Greenfield mining development timelines have structurally extended from ~5.8yr median in the 1990s to ~12.5yr in the 2010s, with extreme cases of 22-2"
-      },
-      {
-        "slug": "opec_plus_structural_fragility",
-        "confidence": 8,
-        "definition": "OPEC+ functions as a managed price band ($70-90 Brent) rather than a supercycle enabler, holding 4-5Mb/d spare capacity. The cooperative equilibrium b"
       }
     ],
     "all_concept_slugs": [
+      "2s10s_commodity_regime_contamination",
+      "5y5y_commodity_supply_mispricing",
       "agricultural_spike_frequency_regime",
+      "aluminum_substitution_ratchet",
       "biofuel_demand_floor",
+      "broad_index_invalidation",
       "china_demand_deceleration_ex_copper",
+      "clo_reinvestment_timing",
+      "commodity_equity_correlation_ambiguity",
       "commodity_equity_correlation_regime",
       "commodity_trifurcation",
       "copper_deficit_calibration",
       "copper_deficit_forecast_bias",
+      "copper_deficit_magnitude",
+      "copper_positioning_crowding",
       "copper_structural_tightness",
       "copper_zombie_zone",
+      "credit_impulse_binding_constraint",
+      "cross_asset_copper_inconsistency",
+      "deficit_forecast_base_rate",
       "demand_destruction_cycle_termination",
+      "em_agricultural_vulnerability",
       "energy_transition_bifurcation",
+      "fci_divergence_risk",
+      "fed_transition_metal_dilemma",
       "financialization_correlation_break",
+      "financialization_return_impairment",
       "geopolitical_financial_transmission",
+      "gold_first_sequencing",
       "gold_real_rate_disconnect",
       "greenfield_timeline_extension",
       "historical_analogue_1970s",
       "india_demand_replacement_question",
+      "india_non_china_em_demand",
       "lng_capacity_wave",
+      "mining_capex_ponzi_finance",
+      "opec_managed_band",
       "opec_plus_structural_fragility",
+      "private_credit_commodity_exposure",
+      "reflexive_contradiction",
       "roll_yield_structural_impairment",
       "spot_investable_return_divergence",
       "supercycle_base_rate",
       "supercycle_factor_decomposition",
       "supercycle_positioning_crowding",
       "supercycle_reflexive_contradiction",
-      "supply_elasticity_variance"
+      "supply_elasticity_variance",
+      "trading_house_systemic_leverage",
+      "treasury_supply_amplification",
+      "trifurcation_macro_shock_failure"
     ],
-    "avg_confidence": 7.3
+    "avg_confidence": 6.9
   },
   "corporate_credit": {
     "concept_count": 22,
@@ -2548,14 +2572,14 @@
         "definition": "Volatility regimes are endogenous to macroeconomic and financial conditions \u2014 not exogenous random processes. Macro uncertainty (NK stochastic discoun"
       },
       {
-        "slug": "credit_maturity_wall",
-        "confidence": 7.5,
-        "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 20"
-      },
-      {
         "slug": "maturity_dependent_correlation_bifurcation",
         "confidence": 7.5,
         "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
+      },
+      {
+        "slug": "credit_maturity_wall",
+        "confidence": 7.33,
+        "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 20"
       }
     ],
     "all_concept_slugs": [
