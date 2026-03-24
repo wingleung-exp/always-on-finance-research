@@ -1,0 +1,33 @@
+{
+  "slug": "biofuel_mandate_amplifier",
+  "definition": "RFS biofuel mandates create ~40% inelastic corn demand, meaning the residual 60% absorbs 100% of supply shocks, amplifying agricultural price moves by 1.5-2.5x. This is demand elasticity math applied to a legislatively observable fact, and is the strongest contribution from commodities analysis.",
+  "confidence": 7,
+  "evidence": [
+    "~40% inelastic corn demand from RFS mandates is legislatively observable",
+    "Residual 60% absorbs 100% of supply shocks — clean demand elasticity arithmetic",
+    "1.5-2.5x price move amplification",
+    "Simultaneous multi-crop tightness across wheat/corn/soybeans impairs cross-substitution buffers"
+  ],
+  "originating_agents": [
+    "commodities_analyst_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Has the base probability of activation been confirmed by current WASDE data?",
+    "Would a specific weather event or triggered export ban provide confirming evidence for probability upgrade?",
+    "What is the conditional probability of multi-crop simultaneous tightness?"
+  ],
+  "related_concepts": [
+    "structural_inflation_floor_shift",
+    "export_ban_reflexivity_threshold",
+    "dm_food_cpi_heterogeneity"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

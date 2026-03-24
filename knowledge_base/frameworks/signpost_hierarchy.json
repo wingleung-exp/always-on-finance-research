@@ -1,0 +1,27 @@
+{
+  "slug": "signpost_hierarchy",
+  "purpose": "Provides a ranked hierarchy of observable indicators for detecting correlation regime transitions, enabling practitioners to monitor the most reliable signals and assess proximity to regime change.",
+  "components": [
+    "Tier 1: IG credit spreads widening >75bp from trough (6/7 hit rate, 18-month lead)",
+    "Tier 2a: Credit-equity Merton basis convergence (5/7 resolution via credit widening)",
+    "Tier 2b: Yield curve un-inversion (currently active, but degraded by term premium dynamics)",
+    "Tier 3: CLO formation pace below $25B/quarter for two consecutive quarters",
+    "Supplementary: Fallen angel flow ($200-400B BBB- at risk), amendment activity (40-50% of leveraged loans), PIK toggle usage"
+  ],
+  "current_assessment": "Only Tier 2b is currently active, but its signal is degraded because ~75% of the un-inversion reflects term premium rather than growth expectations. Tier 1 (IG OAS) near cycle tights (~90-110bp) signals no imminent transition. CLO formation is slowing but not yet at the threshold. Overall assessment: early-to-mid accumulation phase, pre-Phase 2 in the Conundrum sequencing template.",
+  "limitations": [
+    "Covenant-lite structures may extend Tier 1 lead time from 18 to 24-36 months",
+    "Tier 2b degraded by term premium dynamics — must use ACM decomposition to interpret",
+    "CLO formation indicator has only n=2 historical precedents (one contaminated)",
+    "All tiers calibrated on historical data with materially different market microstructure",
+    "Private credit opacity may delay all indicators"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

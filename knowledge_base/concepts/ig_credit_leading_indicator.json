@@ -1,0 +1,35 @@
+{
+  "slug": "ig_credit_leading_indicator",
+  "definition": "IG credit spreads widening >75bp from trough is the highest-ranked leading indicator for correlation regime flips, with a 6/7 hit rate across 13 post-1960 transitions and an 18-month lead time. Current IG OAS near cycle tights (~90-110bp) signals no imminent transition.",
+  "confidence": 8,
+  "evidence": [
+    "6/7 hit rate across 13 post-1960 transitions",
+    "18-month historical lead time",
+    "Only Tier 2b (yield curve un-inversion) currently active",
+    "Credit reprices first in any resolution per pair_0 and pair_1 debates"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Has covenant-lite structure extended the signal lead time from 18 months to 24-36 months?",
+    "Does current cycle tightness reflect genuine calm or structural opacity?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_disagreement",
+    "covenant_lite_cycle_delay",
+    "credit_equity_merton_basis",
+    "fallen_angel_channel"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

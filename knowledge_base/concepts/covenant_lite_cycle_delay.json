@@ -1,0 +1,35 @@
+{
+  "slug": "covenant_lite_cycle_delay",
+  "definition": "Covenant-lite loan dominance (>90%), EBITDA addbacks (15-40% with 40-60% realization rates), and private credit opacity ($1.7T+ with mark-to-model NAVs) are structurally delaying credit cycle recognition, making true leverage ~1.5-2.0x higher than reported.",
+  "confidence": 8,
+  "evidence": [
+    "Amendment activity at 40-50% of leveraged loan universe vs. ~20-25% in 2019",
+    "Private credit NAV autocorrelation 0.5-0.7 suppresses measured volatility by 2-3x",
+    "PIK toggle usage rising (BSL: 5-8%; private credit: 12-18%)",
+    "Pre-covenant-lite breaches triggered at 5.5-6x leverage vs. current 8x+ operation without trigger",
+    "ECB and Fed analyses confirm true leverage understated"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How much does the opacity extend the lag between economic deterioration and measured credit stress?",
+    "What observable proxies can penetrate the covenant-lite opacity?",
+    "When does amendment activity transition from extend-and-pretend to forced recognition?"
+  ],
+  "related_concepts": [
+    "ig_credit_leading_indicator",
+    "maturity_wall_regime_interaction",
+    "clo_arbitrage_deterioration",
+    "kalecki_levy_quality_differentiation"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

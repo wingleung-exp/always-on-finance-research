@@ -1,0 +1,648 @@
+[
+  {
+    "slug": "inflation_passthrough_bimodality",
+    "definition": "A 2-3x multiplier in inflation passthrough exists between anchored and de-anchored expectation regimes. The existence of this bimodality is the most empirically grounded finding across the knowledge base, supported by cross-country panel data across 40+ economies, though the regime boundary location remains unidentified.",
+    "confidence": 9,
+    "evidence": [
+      "Cross-country panel data across 40+ economies (Carrière-Swallow et al. 2016, Forbes 2019)",
+      "Replicated across sub-sample analysis (pre/post-GFC), alternative inflation measures, and different shock identification strategies",
+      "Both quant agents independently converge at confidence 9 — the only claim where this occurs",
+      "No agent challenged it; no debate weakened it"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01",
+      "commodities_analyst_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Where is the regime boundary located in real time?",
+      "Can the boundary be identified with sufficient lead time to be actionable for portfolio positioning?",
+      "What observable indicators best predict proximity to the boundary?"
+    ],
+    "related_concepts": [
+      "equity_bond_correlation_sign_flip",
+      "structural_inflation_floor_shift",
+      "commodity_equity_correlation_regime"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "wage_price_spiral_low_probability",
+    "definition": "The probability of a wage-price spiral is low (<10-15%) under current conditions. Only 2 of ~16 post-war cycles produced true spirals, and current conditions satisfy 0 of 3-4 conjunctive prerequisites: union density, COLA coverage, sustained wage growth >5%, and expectations de-anchoring.",
+    "confidence": 9,
+    "evidence": [
+      "2/~16 post-war cycles produced true spirals",
+      "Current conditions satisfy 0/3-4 conjunctive prerequisites",
+      "2021-23 natural experiment: 2/3 conditions temporarily met, no spiral materialized — genuine out-of-sample validation",
+      "Structural decline in union density and COLA coverage is secular, not cyclical"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Could novel labor market structures create spiral risk through channels not captured by the historical prerequisite set?"
+    ],
+    "related_concepts": [
+      "services_inflation_persistence",
+      "structural_inflation_floor_shift",
+      "inflation_passthrough_bimodality"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "shelter_oer_mission_accomplished_trap",
+    "definition": "The lagged deceleration of OER from ~5.0% to ~3.5-4.0% will deliver 40-80bp of mechanical headline CPI relief, creating a false 'mission accomplished' narrative window likely in Q2-Q4 2026. The 4/6 base rate for premature declarations during Phase 2 goods disinflation is the highest-conviction shared finding across all agents.",
+    "confidence": 8,
+    "evidence": [
+      "OER deceleration arithmetic: ~5.0% to ~3.5-4.0% delivers 40-80bp mechanical headline CPI relief",
+      "4/6 base rate for premature 'mission accomplished' during Phase 2 goods disinflation",
+      "1983 and 1995 precedents specifically involved shelter-led headline declines",
+      "Fed's revealed reaction function makes premature dovish signaling likely during this window",
+      "All four debate reports confirmed as highest-conviction shared finding"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Will services ex-shelter decelerate enough independently to prevent the trap?",
+      "Could productivity growth at 2.5%+ (as in the 1995 exception) validate the easing?",
+      "How will the Fed's 2025-2026 framework review interact with the masking window?"
+    ],
+    "related_concepts": [
+      "fed_dovish_asymmetry",
+      "three_phase_disinflation_sequencing",
+      "financial_conditions_paradox",
+      "dual_policy_error_exposure",
+      "cross_asset_inconsistency"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "equity_bond_correlation_sign_flip",
+    "definition": "The equity-bond correlation flips from negative (-0.3 to -0.4) to positive (+0.2 to +0.4) when inflation persistently exceeds ~2.5%, destroying 60/40 and risk parity diversification assumptions calibrated to the 2010-2020 covariance matrix. Identified as the single most consequential parameter change for multi-asset portfolios.",
+    "confidence": 8,
+    "evidence": [
+      "Academic literature: Ilmanen 2011, Campbell-Sunderam-Viceira updates",
+      "Post-GFC calibration assumed negative equity-bond correlation under core PCE ~1.5-1.8%",
+      "When inflation persistently exceeds 2.5%, correlation averages +0.2 to +0.4",
+      "pair_2 debate affirmed as 'the single most consequential parameter change' for multi-asset portfolios"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What is the exact inflation threshold for the flip? (sample-dependent)",
+      "How quickly does the correlation regime shift after inflation crosses the threshold?",
+      "Are risk parity and mean-variance portfolios calibrated to 2010-2020 structurally mispriced if the floor has shifted to 2.3-2.8%?"
+    ],
+    "related_concepts": [
+      "inflation_passthrough_bimodality",
+      "structural_inflation_floor_shift",
+      "cross_asset_inconsistency"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "services_inflation_persistence",
+    "definition": "Services inflation at 3.5-4.0% with strong unit labor cost support (3.0-4.0%) is the binding constraint on disinflation. Historical base rate of 0/5 (or 1/7 including 1994-95) for resolution without recession, though the Clopper-Pearson 95% CI of [0%, 52.2%] means the point estimate overstates certainty.",
+    "confidence": 7,
+    "evidence": [
+      "Services CPI at 3.5-4.0% with unit labor cost support of 3.0-4.0%",
+      "0/5 base rate for resolution without recession (1/7 including 1994-95 productivity-assisted success)",
+      "Clopper-Pearson 95% CI is [0%, 52.2%] — statistically honest framing",
+      "5 episodes are not i.i.d. draws from a stationary process"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_01",
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Can immigration surge of 3-4M workers provide sufficient labor supply relief?",
+      "Can sectoral AI deployment create disinflationary pressure in CPI-relevant services categories?",
+      "Are there novel disinflationary channels with no analogue in the n=5 reference set?",
+      "What is the CPI weight of sub-categories where AI deployment is already live?"
+    ],
+    "related_concepts": [
+      "three_phase_disinflation_sequencing",
+      "structural_inflation_floor_shift",
+      "ai_productivity_sectoral_vs_aggregate",
+      "wage_price_spiral_low_probability",
+      "fiscal_consolidation_gap"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "cross_asset_inconsistency",
+    "definition": "Equity multiples (P/E ~20-21x) embed a disinflationary glide path, credit spreads (IG ~90-100bp, HY ~300-350bp) embed a soft landing, and the rates curve prices 3-4 cuts by year-end. These outcomes cannot all be correct simultaneously given services persistence findings.",
+    "confidence": 7,
+    "evidence": [
+      "Equity multiples embed disinflationary glide path",
+      "Credit spreads embed soft landing",
+      "Rates curve prices 3-4 cuts by year-end",
+      "generalist_02's financial conditions paradox validates from 4/5 historical episodes",
+      "All agents acknowledge the inconsistency; resolution direction is the disagreement"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "generalist_02",
+      "risk_analyst_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Will the inconsistency resolve through inflation repricing upward or growth repricing downward?",
+      "Will credit or equity reprice first?",
+      "Does the financial conditions paradox delay resolution by 12-18 months?",
+      "Is the breakeven-specific component of the inconsistency weaker than originally claimed?"
+    ],
+    "related_concepts": [
+      "shelter_oer_mission_accomplished_trap",
+      "financial_conditions_paradox",
+      "sticky_above_target_crowded_trade",
+      "covenant_lite_default_delay"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "covenant_lite_default_delay",
+    "definition": "Covenant-lite structures (>90% of leveraged loans) with 15-40% EBITDA addbacks delay default transmission by 12-24 months, converting gradual adjustment into clustered stress events through a delay-then-burst mechanism analogous to LTCM and SVB.",
+    "confidence": 7,
+    "evidence": [
+      ">90% covenant-lite is an observable market structure fact",
+      "15-40% EBITDA addback phenomenon overstates credit quality metrics",
+      "Delay-then-burst mechanism has structural analogues (LTCM, SVB — opacity creates information gaps resolving suddenly)",
+      "2020 episode too brief and rapidly reversed by policy to be fully informative"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the counterfactual Phillips Curve behavior without covenant-lite?",
+      "How much of the delay effect survives in market-implied distress measures (CDS-implied PD, option-adjusted spreads)?",
+      "When does the maturity wall force recognition?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "credit_factor_signal_corruption",
+      "triple_vulnerability_stack",
+      "financial_conditions_paradox"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "Fiscal deficits of 6-7% GDP are suppressing defaults by an estimated 100-150bp of spread equivalent, creating an unstable equilibrium. The channel's direction (deficits flow into corporate revenues and credit metrics) is uncontested; any material fiscal consolidation withdraws this support.",
+    "confidence": 7,
+    "evidence": [
+      "All four debate reports confirmed as load-bearing and fragile",
+      "Direction uncontested: fiscal deficits flow into corporate revenues and credit metrics",
+      "Unprecedented scale of deficit during non-recession, non-war disinflation attempt",
+      "No historical analogue fully validates the magnitude estimate"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the true fiscal multiplier (estimates range 0.5-1.5)?",
+      "How quickly would fiscal consolidation transmit to credit markets?",
+      "Is the 100-150bp magnitude estimate robust to alternative fiscal multiplier assumptions?"
+    ],
+    "related_concepts": [
+      "covenant_lite_default_delay",
+      "fiscal_consolidation_gap",
+      "cross_asset_inconsistency"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "structural_inflation_floor_shift",
+    "definition": "The structural inflation floor has shifted upward due to housing shortage (3.5-5.5M units), deglobalization, and healthcare cost inflation. Direction is supported by multiple independent lines, but the honest confidence interval of approximately [-10bp, +100bp] includes zero when methodology uncertainty and correlated errors are incorporated.",
+    "confidence": 6,
+    "evidence": [
+      "Housing shortage is physical: 3.5-5.5M units",
+      "Deglobalization is observable",
+      "Healthcare cost inflation is structural",
+      "commodities_analyst_02 adds 5-10bp from agricultural structural factors",
+      "quant_researcher_01 demonstrates honest CI of [-10bp, +100bp] incorporating methodology uncertainty",
+      "Additive decomposition (housing 10-20bp + deglobalization 10-20bp + healthcare 10-15bp) implies false precision due to correlated component errors"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "commodities_analyst_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Are the component errors (housing, deglobalization, healthcare) correlated, and by how much?",
+      "Does the lower bound genuinely include zero?",
+      "What observable data would narrow the confidence interval?"
+    ],
+    "related_concepts": [
+      "services_inflation_persistence",
+      "equity_bond_correlation_sign_flip",
+      "inflation_passthrough_bimodality",
+      "biofuel_mandate_amplifier"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "fed_dovish_asymmetry",
+    "definition": "The Fed's reaction function exhibits a dovish asymmetry where recession costs are politically salient but 2.8% inflation is not. Qualitative existence is supported by political economy reasoning, but the specific magnitude (~200bp) is estimated from a single observation (September 2024 cut at core PCE ~2.7%) with zero degrees of freedom.",
+    "confidence": 6,
+    "evidence": [
+      "Political economy argument: recession cost is politically salient, 2.8% inflation is not",
+      "September 2024 cut at core PCE ~2.7% as single observation",
+      "Multi-cycle evidence shows asymmetry is not structural constant — absent under Greenspan 1994-95, reversed under Volcker",
+      "Two-threshold estimation from two observations is a just-identified system"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Will the 2025-2026 framework review shift the asymmetry?",
+      "How do FOMC composition changes affect the reaction function?",
+      "Is this a permanent structural feature or regime/personnel-dependent?"
+    ],
+    "related_concepts": [
+      "shelter_oer_mission_accomplished_trap",
+      "triple_vulnerability_stack",
+      "cross_asset_inconsistency",
+      "dual_policy_error_exposure"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "three_phase_disinflation_sequencing",
+    "definition": "Disinflation follows a three-phase sequence of goods, then shelter, then services. Pattern-matched from 6 episodes, useful as a descriptive heuristic for identifying sequencing patterns and risk windows, but not a precision timing model. The 4/6 trap rate is susceptible to hindsight bias without pre-registered predictions.",
+    "confidence": 6,
+    "evidence": [
+      "Pattern-matched from 6 historical episodes",
+      "Researcher degrees of freedom in defining phases, thresholds, and trap declarations",
+      "Heuristic value for identifying sequencing patterns confirmed across multiple agents"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "equity_analyst_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can the framework produce pre-registered predictions to avoid hindsight bias?",
+      "Does the current cycle follow the canonical sequence?",
+      "Can the framework time factor rotations or sector trades?"
+    ],
+    "related_concepts": [
+      "shelter_oer_mission_accomplished_trap",
+      "services_inflation_persistence",
+      "stall_zone_duration"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "biofuel_mandate_amplifier",
+    "definition": "RFS biofuel mandates create ~40% inelastic corn demand, meaning the residual 60% absorbs 100% of supply shocks, amplifying agricultural price moves by 1.5-2.5x. This is demand elasticity math applied to a legislatively observable fact, and is the strongest contribution from commodities analysis.",
+    "confidence": 7,
+    "evidence": [
+      "~40% inelastic corn demand from RFS mandates is legislatively observable",
+      "Residual 60% absorbs 100% of supply shocks — clean demand elasticity arithmetic",
+      "1.5-2.5x price move amplification",
+      "Simultaneous multi-crop tightness across wheat/corn/soybeans impairs cross-substitution buffers"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Has the base probability of activation been confirmed by current WASDE data?",
+      "Would a specific weather event or triggered export ban provide confirming evidence for probability upgrade?",
+      "What is the conditional probability of multi-crop simultaneous tightness?"
+    ],
+    "related_concepts": [
+      "structural_inflation_floor_shift",
+      "export_ban_reflexivity_threshold",
+      "dm_food_cpi_heterogeneity"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "financial_conditions_paradox",
+    "definition": "Falling headline inflation loosens financial conditions while the underlying inflation regime is unresolved, extending credit cycles by 12-18 months. Documented across 4/5 historical episodes (1967-68, 1984-85, 1995-96, 2005-06). The 1995-96 exception required productivity growth at 2.5%+ to validate the loosening ex post.",
+    "confidence": 7,
+    "evidence": [
+      "4/5 historical episodes show the pattern (1967-68, 1984-85, 1995-96, 2005-06)",
+      "Causal mechanism: falling headline → loosened conditions → extended credit cycle → delayed but amplified correction",
+      "1995-96 exception required productivity growth to validate loosening ex post",
+      "Directly challenges near-term credit repricing timing assumptions"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is current productivity growth sufficient to validate loosening (2.5%+ threshold)?",
+      "How does the paradox interact with covenant-lite and fiscal support in the current cycle?",
+      "What is the magnitude of the eventual correction after the extended cycle?"
+    ],
+    "related_concepts": [
+      "shelter_oer_mission_accomplished_trap",
+      "covenant_lite_default_delay",
+      "cross_asset_inconsistency",
+      "stall_zone_duration"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "fiscal_consolidation_gap",
+    "definition": "Fiscal consolidation risk is the single largest analytical gap in the KB framework. A fiscal impulse reversal from +1.5% GDP to -0.5% GDP would be a 2pp demand shock with no concept adequately modeling it. DOGE-driven spending reviews, debt ceiling dynamics, and reconciliation are real political vectors for this risk.",
+    "confidence": 6,
+    "evidence": [
+      "All four debate reports confirm as 'the single most important gap neither agent fully resolves'",
+      "DOGE-driven spending reviews, debt ceiling dynamics, and reconciliation are real political vectors",
+      "Functions as both credit risk (fiscal support withdrawal) and disinflationary channel (demand destruction)",
+      "Could short-circuit the sticky-inflation thesis from the demand side"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the probability and timing of material fiscal consolidation?",
+      "How would a 2pp demand shock interact with the sticky-inflation thesis?",
+      "What is the transmission lag from fiscal impulse reversal to credit markets?",
+      "Would fiscal consolidation resolve services inflation or create stagflationary dynamics?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "services_inflation_persistence",
+      "cross_asset_inconsistency",
+      "sticky_above_target_crowded_trade"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "kb_confirmation_bias",
+    "definition": "After 47 iterations, the KB framework exhibits confirmation bias with 20+ concepts and 15+ relationships, none articulating a disinflationary scenario. No falsification criteria are specified. The highest confidence scores all confirm the 'above-target but not spiraling' consensus. This is a structural critique the framework cannot answer by citing more evidence within itself.",
+    "confidence": 7,
+    "evidence": [
+      "Verifiable by inspection: zero concepts point toward faster-than-expected disinflation",
+      "No falsification criteria specified in the KB",
+      "pair_3 confirms: 'structural critique that Agent A cannot answer by citing more evidence within the existing framework'",
+      "The framework needs a disinflationary scenario branch regardless of whether the sticky-inflation thesis is correct"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What would a disinflationary scenario branch look like?",
+      "What are the appropriate falsification criteria for the sticky-inflation thesis?",
+      "Has the iterative process systematically filtered out disconfirming evidence?"
+    ],
+    "related_concepts": [
+      "sticky_above_target_crowded_trade",
+      "fiscal_consolidation_gap",
+      "services_inflation_persistence"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "credit_factor_signal_corruption",
+    "definition": "EBITDA addback practices (15-40%) in >90% covenant-lite loans systematically overstate reported EBITDA, meaning a firm reporting 4.0x leverage may be running 5.5-6.5x on a cash-flow-consistent basis. This corrupts accounting-based distress factors (Z-score, O-score, distance-to-default) at the input level.",
+    "confidence": 6,
+    "evidence": [
+      ">90% covenant-lite with 15-40% addbacks is observable market structure",
+      "Reported EBITDA systematically overstated as denominator in leverage and coverage ratios",
+      "pair_2 confirms as 'novel and important'",
+      "Corrupts accounting-based distress factors at the input level"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "How much of the signal corruption survives in market-implied distress measures (CDS-implied PD, option-adjusted spreads)?",
+      "Can alternative cash-flow-consistent metrics replace corrupted accounting-based factors?",
+      "What is the aggregate magnitude of leverage understatement across the market?"
+    ],
+    "related_concepts": [
+      "covenant_lite_default_delay",
+      "cross_asset_inconsistency",
+      "triple_vulnerability_stack"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "ai_productivity_sectoral_vs_aggregate",
+    "definition": "AI aggregate productivity gains will not resolve services inflation within 2026-2028, but sectoral deployment is already live in narrow CPI-relevant categories (customer service, coding, legal review). The gap between 'AI is deployed' and 'AI is disinflationary in CPI' — since firms may capture gains as margin — is the key unresolved question.",
+    "confidence": 6,
+    "evidence": [
+      "n=3 technology analogues under heterogeneous conditions cannot support confidence 8",
+      "Cloud-based software deployment compresses adoption vs. hardware-adoption templates",
+      "Both aggregate (won't move TFP) and sectoral (already deployed) can be simultaneously true",
+      "CPI impact depends on weight of affected sub-categories, which no agent quantifies"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "risk_analyst_01",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the CPI weight of AI-affected sub-categories?",
+      "Will firms pass through AI productivity gains as lower prices or capture as margin?",
+      "What is the realistic timeline for aggregate TFP impact?",
+      "Does the software vs. hardware distinction compress the adoption timeline enough to matter for 2026-2028?"
+    ],
+    "related_concepts": [
+      "services_inflation_persistence",
+      "structural_inflation_floor_shift",
+      "stall_zone_duration"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "sticky_above_target_crowded_trade",
+    "definition": "The consensus 'sticky above-target' inflation view is the most crowded macro view per BofA Global Fund Manager Survey, with CFTC net short Treasuries near 2-year extremes and 5Y breakevens near 2.4-2.5%. A contrarian disinflation scenario (core PCE 2.3-2.5% for 2-3 months) offers a 3:1 to 5:1 payoff ratio because the consensus outcome is already priced.",
+    "confidence": 6,
+    "evidence": [
+      "BofA Global Fund Manager Survey: 'above-target inflation' is most crowded macro view",
+      "CFTC net short Treasuries near 2-year extremes",
+      "5Y breakevens near 2.4-2.5%",
+      "Contrarian scenario: 50-100bp Treasury rally vs. 10-20bp remaining return to consensus — 3:1 to 5:1 payoff ratio",
+      "pair_3 calls this 'the single most actionable insight'"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What is the probability of a contrarian disinflation scenario materializing?",
+      "How quickly would positioning unwind on 2-3 months of below-consensus prints?",
+      "What is the optimal structure for expressing this asymmetry?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "kb_confirmation_bias",
+      "fiscal_consolidation_gap"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "compound_analogue_methodology",
+    "definition": "A compound analogue framework using multi-dimensional scoring is methodologically sounder than reliance on any single historical episode. No episode scores above 7.0/10 similarity due to four structural novelties: mortgage lock-in (85%+ below 5%), >90% covenant-lite, AI investment cycle, and simultaneous deglobalization + fiscal expansion at 6-7% GDP.",
+    "confidence": 7,
+    "evidence": [
+      "pair_0 judged compound approach stronger than single-analogue reliance",
+      "Four structural novelties limit any single analogue to <7.0/10 similarity",
+      "Seven-dimension scoring methodology provides systematic comparison"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Are the dimension weights in the scoring framework objective or subjective?",
+      "At what point does compound structural novelty invalidate analogue-based reasoning entirely?",
+      "Are outcome distributions wider than any analogue framework suggests?"
+    ],
+    "related_concepts": [
+      "three_phase_disinflation_sequencing",
+      "kb_confirmation_bias"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "export_ban_reflexivity_threshold",
+    "definition": "The threshold for agricultural export bans has shifted upward by an estimated 2-5pp in stocks-to-use terms due to costless defection behavior observed across India, Indonesia, Argentina, and Turkey during 2022-24, which collapses cooperation equilibrium at lower stress levels. WTO inability to discipline restrictions is factual.",
+    "confidence": 5,
+    "evidence": [
+      "Behavioral economics argument: costless defection collapses cooperation equilibrium at lower stress",
+      "2022-24 empirical record of export bans by India, Indonesia, Argentina, Turkey",
+      "WTO's inability to discipline export restrictions is factual"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Can the precise 2-5pp threshold shift be measured rather than estimated?",
+      "What stocks-to-use level triggers cascading bans?",
+      "How does the threshold interact with bilateral trade agreements?"
+    ],
+    "related_concepts": [
+      "biofuel_mandate_amplifier",
+      "dm_food_cpi_heterogeneity"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "dm_food_cpi_heterogeneity",
+    "definition": "Developed market food CPI weights vary significantly — Japan 26%, EU periphery 18-22%, UK ~16%, US ~13.5% — creating cross-country policy divergence risk from agricultural supply shocks. The BOJ vulnerability (26% food weight + yen weakness) connecting to monetary normalization risk is an underappreciated channel.",
+    "confidence": 6,
+    "evidence": [
+      "CPI weights are published facts: Japan 26%, EU periphery 18-22%, UK ~16%, US ~13.5%",
+      "BOJ vulnerability from 26% food weight + yen weakness is a valid and underappreciated channel"
+    ],
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "open_questions": [
+      "Would the agricultural shock need to materialize before this becomes a tradeable dislocation?",
+      "What is the cross-DM rates dislocation magnitude from a significant food price shock?",
+      "How does this interact with BOJ normalization timing?"
+    ],
+    "related_concepts": [
+      "biofuel_mandate_amplifier",
+      "export_ban_reflexivity_threshold",
+      "boj_normalization_contagion"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "dual_policy_error_exposure",
+    "definition": "The Fed faces simultaneous Type I (premature easing from OER masking) and Type II (insufficient tightening from lagging indicators) policy error risk. These errors may be positively correlated: OER masking encourages premature easing (Type I), which simultaneously constitutes insufficient tightening (Type II) by definition.",
+    "confidence": 6,
+    "evidence": [
+      "Each error type individually well-documented in monetary policy literature",
+      "Compound probability may be elevated due to positive correlation between error types",
+      "Historical sample insufficient to estimate compound probability directly"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the compound probability of both errors occurring simultaneously?",
+      "Is the positive correlation between Type I and Type II errors a structural feature or coincidence?",
+      "What monitoring signals distinguish genuine disinflation from OER masking?"
+    ],
+    "related_concepts": [
+      "shelter_oer_mission_accomplished_trap",
+      "fed_dovish_asymmetry",
+      "three_phase_disinflation_sequencing"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "stall_zone_duration",
+    "definition": "The core PCE 'stall zone' of 2.5-3.5% has a historical duration of 18-36 months from goods disinflation completion, with a fat right tail to 48+ months. Markets pricing 12-month resolution are in the left tail. Equity markets rally during the stall zone in 4/5 analogues (median +18%), ending 3-6 months before resolution.",
+    "confidence": 5,
+    "evidence": [
+      "5 episodes: median 24 months, mean 25 months, range 15-36+",
+      "Markets pricing left tail (12-month resolution)",
+      "4/5 analogues show equity rally during stall zone (median +18%), ending 3-6 months before resolution"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Could structural novelties compress or extend the stall zone duration?",
+      "What signals reliably indicate the stall zone is ending?",
+      "Is the equity rally pattern reliable enough to be actionable?"
+    ],
+    "related_concepts": [
+      "services_inflation_persistence",
+      "three_phase_disinflation_sequencing",
+      "financial_conditions_paradox"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  }
+]

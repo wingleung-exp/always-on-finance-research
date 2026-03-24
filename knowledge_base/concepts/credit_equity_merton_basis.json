@@ -1,0 +1,32 @@
+{
+  "slug": "credit_equity_merton_basis",
+  "definition": "The credit-equity basis calculated via the Merton structural model shows Merton-implied IG spreads of ~140-180bp versus actual IG OAS of ~90-110bp, the widest gap since 2007. Historically 5/7 episodes of this gap resolved via credit widening.",
+  "confidence": 8,
+  "evidence": [
+    "50-70bp gap between model-implied and actual IG spreads",
+    "Widest since 2007",
+    "5/7 historical resolution via credit widening rather than equity correction",
+    "Confirmed in pair_0 debate"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Could this persist longer due to structural changes in credit markets?",
+    "What triggers credit convergence to equity-implied levels?"
+  ],
+  "related_concepts": [
+    "cross_asset_pricing_disagreement",
+    "ig_credit_leading_indicator",
+    "covenant_lite_cycle_delay"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

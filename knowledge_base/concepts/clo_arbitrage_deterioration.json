@@ -1,33 +1,46 @@
 {
   "slug": "clo_arbitrage_deterioration",
   "definition": "CLOs purchase ~65-70% of all new institutional leveraged loans. New-issue CLO equity IRR has compressed to 10-12% from 14-18% in 2021-2022, below the ~15% threshold for readily available CLO equity capital. The simultaneous cuts+QT configuration creates a double-squeeze with no historical precedent, creating structural demand withdrawal from leveraged lending.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "CLOs purchase 65-70% of new institutional leveraged loans",
     "CLO equity IRR compressed to 10-12% from 14-18%",
     "~15% threshold for CLO equity capital availability",
-    "No historical precedent for cuts+QT double-squeeze on CLO economics"
+    "No historical precedent for cuts+QT double-squeeze on CLO economics",
+    "CLO liability spreads elevated at ~155-170bp",
+    "CLO market at ~$1.0-1.1T has never been tested through a full cycle at this scale",
+    "Judged as stronger framing than binary OC test breach in pair_1 debate",
+    "The arbitrage channel operates continuously and is currently observable"
   ],
   "originating_agents": [
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "credit_analyst_01"
   ],
   "open_questions": [
     "Can alternative capital sources (BDCs, direct lenders) absorb the CLO demand gap?",
     "At what CLO equity IRR does formation effectively stop?",
-    "How quickly would a CLO formation stoppage feed through to leveraged loan pricing?"
+    "How quickly would a CLO formation stoppage feed through to leveraged loan pricing?",
+    "At what pace does formation slow as equity IRRs approach the 11-12% threshold?",
+    "How does reduced CLO formation interact with the maturity wall refinancing needs?",
+    "Can CLO equity demand recover if loan spreads widen?"
   ],
   "related_concepts": [
     "simultaneous_cuts_and_qt",
     "corporate_maturity_wall",
     "srf_inadequacy_for_clo",
-    "pik_toggle_activation"
+    "pik_toggle_activation",
+    "covenant_lite_cycle_delay",
+    "maturity_wall_regime_interaction",
+    "ig_credit_leading_indicator",
+    "japanese_clo_aaa_channel"
   ],
   "topic": "monetary_policy",
   "created_at": "2026-03-24T02:47:39Z",
-  "last_updated": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T03:39:05Z",
   "originating_iteration": "iter_0044",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0044"
+    "iter_0044",
+    "iter_0046"
   ]
 }

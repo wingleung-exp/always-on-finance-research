@@ -4121,5 +4121,184 @@
     ],
     "topic": "volatility_regimes",
     "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Japan devastatingly falsifies the fiscal codetermination thesis.",
+    "reason": "BOJ absorbed essentially all net JGB issuance through QQE, neutralizing the fiscal supply channel entirely. Japan demonstrates fiscal supply pressure is neutralized when the central bank is the buyer of last resort — the US is in the opposite condition (QT). Correct inference: fiscal supply matters conditional on the central bank not absorbing it.",
+    "refuted_by": [
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Passive investing extends repricing lag from 18-36 to 36-60 months.",
+    "reason": "March 2020 (passive ~40% AUM) produced 34% peak-to-trough in 23 trading days, contradicting the extended-lag mechanism. Linear extrapolation from two incomparable data points across completely different market microstructures is pseudo-quantitative. Direction plausible but specific doubling is unsupported and creates dangerous complacency.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "60/40 positive total returns prove the death-of-60/40 narrative is wrong.",
+    "reason": "Conflates total return with diversification benefit. 60/40 returned well because equities returned 20%+ in 2023-2024; the bond leg contributed negligibly or negatively. A portfolio carried entirely by the equity allocation is not evidence that the bond hedge works.",
+    "refuted_by": [
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The optimal cross-asset trade is long real assets vs. nominal duration.",
+    "reason": "Internal contradiction: gold at all-time highs despite rising real rates creates entry-point risk, acknowledged by the originating agent. The asymmetry argument depends on probability weights favoring the regime where the trade partially underperforms. The word 'optimal' is not supported by the evidence.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The cross-border carry complex totals $2-3T.",
+    "reason": "Arithmetic error: originating agent's own EM carry components sum to $200-385B, not $200-500B. Adding JPY carry ($500B-$1T) gives $700B-$1.5T total. The $3T upper bound is double the supported figure. The contagion mechanism is sound but the headline number is inflated.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "5Y5Y at 3.8-4.2% represents a permanent structural r-star repricing.",
+    "reason": "Circular reasoning: using a yield-based measure to estimate a concept that determines yields. If 30-40bp of the elevated 5Y5Y is embedded term premium, implied r-star drops to 1.3-1.6% — elevated but not a regime break. 'Elevated for the current fiscal cycle' is defensible; 'permanent' is not.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Recession base rate should be revised downward from 25-30%.",
+    "reason": "Circular reasoning: the economy is resilient because of fiscal deficits, and fiscal deficits are sustainable because the economy is resilient. The Kalecki earnings buffer is contingent on sustained deficits; if deficit reduction becomes necessary, the buffer disappears when most needed. The 25-30% base rate over 18 months is reasonable.",
+    "refuted_by": [
+      "generalist_02",
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Semi-liquid private credit represents a systemic breaking-the-buck risk.",
+    "reason": "MMFs were cash equivalents embedded in corporate payment systems; semi-liquid PC vehicles are alternatives held by wealth management clients with explicit illiquidity disclosures. Behavioral dynamics are fundamentally different. Mark-based contagion is real but slower and more contained — monitoring item, not systemic risk.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "CLO formation pace should be ranked Tier 0.5 above IG spreads in the signpost hierarchy.",
+    "reason": "Only n=2 evidence (one contaminated by sector-specific energy stress). Cannot rank above IG spreads with 6/7 hit rate across 13 transitions and 5x the backtest data. CLO formation is a useful supplementary indicator, not a superior one.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The S&P 493 likely exhibits robustly positive correlation of +0.3 to +0.5 with rates.",
+    "reason": "The definitive empirical test (cap-weighted vs. equal-weight SPX correlation with 10Y yields) has not been conducted. Presented as evidence for trade construction when it is an untested hypothesis. The directional claim is plausible but the specific range is fabricated.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Breakeven right-tail underpricing as an empirically established mispricing, with inflation risk premium estimate of -10 to -20bp.",
+    "reason": "The inflation risk premium estimate sits within TIPS liquidity premium uncertainty of -80bp to +40bp — a 120bp noise range that is 6-10x the signal. The sign of the inflation risk premium is itself uncertain. Level breakeven trades are not actionable on this basis. KB confidence should be downgraded from 6 to 4.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The Taylor Rule coefficient has declined to 1.0-1.3, estimated from the September 2024 rate cut.",
+    "reason": "Estimated from a single observation with zero degrees of freedom. Conflates the inflation coefficient with the output gap coefficient, the intercept (r*), and FOMC composition. Multi-cycle evidence shows the coefficient is regime- and personnel-dependent. Not a robust econometric result. KB confidence should be downgraded from 7 to 4.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The 1966-69 analogue at 6.5-7.0/10 similarity as an organizing framework for the current cycle.",
+    "reason": "Five non-matching features are individually material: mortgage lock-in (85%+ below 5%), >90% covenant-lite, post-Volcker credibility endowment, demographic structure (1.5%+ vs ~0.5% working-age growth), globalized supply chains. Honest score is 5-6/10. The conditional base rate (3/3 accommodative → second wave) has Fisher p≈0.10, not significant at conventional thresholds. The mechanism (premature easing → re-acceleration) survives; the episode fails as a predictive template.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The food-to-wage second-round channel adds 0.2-0.4pp to services wage pressure in developed markets.",
+    "reason": "The causal chain requires low-wage workers to extract additional wages specifically from food costs, when in a tight labor market they may already be extracting maximum gains. The 0.2-0.4pp estimate has no cited empirical basis. Realistic range assessed as 0.05-0.15pp for DM — analytically interesting but not portfolio-relevant.",
+    "refuted_by": [
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The international base rate expansion for services resolution using UK 1992-93, Canada 1996-97, and Australia 2000-01 as comparable episodes.",
+    "reason": "These economies had different CPI compositions (lower services weight), different labor market institutions (more centralized bargaining), and different monetary frameworks (some adopting inflation targeting for the first time). Expanding the denominator with non-comparable episodes corrupts the estimate rather than improving it.",
+    "refuted_by": [
+      "challenger_01",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The 1946-48 analogue as 'the most relevant' historical parallel for goods re-inflation risk.",
+    "reason": "Post-WWII price control removal was a one-time regime shift; tariffs are incremental and sector-specific. Wartime savings drawdown has no current parallel (savings rates near historical lows). Monetary framework was pre-Accord, fundamentally different. The abstract mechanism (goods disinflation can reverse) survives; the specific historical analogy does not warrant the 'most relevant' designation.",
+    "refuted_by": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "Duration crowding will produce 2-4 sigma losses in 2-4 weeks as a specific magnitude and timeline prediction.",
+    "reason": "The claim chains four sequential assumptions: OER relief → mission accomplished narrative → crowding into duration-sensitive assets → specific loss profile. Conjunctive probability of the full chain is substantially lower than any individual link. Three cited analogues (Aug 2007, Q4 2018, March 2020) each had different triggers and mechanisms. The directional concern survives; the specific magnitude and timeline do not.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "ENSO transition produces a 40-50% calibrated probability of major crop disappointment.",
+    "reason": "'At least one major crop disappointment' across all Southern Hemisphere crops and South/Southeast Asian rice is a wide enough net that even the unconditional rate may approach this once independent trials are properly counted. The definitions of 'major' and 'disappointment' are researcher-specified. The directional claim (ENSO transitions increase weather variance) survives; the quantification does not.",
+    "refuted_by": [
+      "commodities_analyst_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
   }
 ]

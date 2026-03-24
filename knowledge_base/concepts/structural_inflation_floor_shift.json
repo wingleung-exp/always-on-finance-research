@@ -1,0 +1,38 @@
+{
+  "slug": "structural_inflation_floor_shift",
+  "definition": "The structural inflation floor has shifted upward due to housing shortage (3.5-5.5M units), deglobalization, and healthcare cost inflation. Direction is supported by multiple independent lines, but the honest confidence interval of approximately [-10bp, +100bp] includes zero when methodology uncertainty and correlated errors are incorporated.",
+  "confidence": 6,
+  "evidence": [
+    "Housing shortage is physical: 3.5-5.5M units",
+    "Deglobalization is observable",
+    "Healthcare cost inflation is structural",
+    "commodities_analyst_02 adds 5-10bp from agricultural structural factors",
+    "quant_researcher_01 demonstrates honest CI of [-10bp, +100bp] incorporating methodology uncertainty",
+    "Additive decomposition (housing 10-20bp + deglobalization 10-20bp + healthcare 10-15bp) implies false precision due to correlated component errors"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "generalist_01",
+    "commodities_analyst_02",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Are the component errors (housing, deglobalization, healthcare) correlated, and by how much?",
+    "Does the lower bound genuinely include zero?",
+    "What observable data would narrow the confidence interval?"
+  ],
+  "related_concepts": [
+    "services_inflation_persistence",
+    "equity_bond_correlation_sign_flip",
+    "inflation_passthrough_bimodality",
+    "biofuel_mandate_amplifier"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

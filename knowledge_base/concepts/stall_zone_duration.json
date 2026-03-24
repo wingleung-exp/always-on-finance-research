@@ -1,0 +1,31 @@
+{
+  "slug": "stall_zone_duration",
+  "definition": "The core PCE 'stall zone' of 2.5-3.5% has a historical duration of 18-36 months from goods disinflation completion, with a fat right tail to 48+ months. Markets pricing 12-month resolution are in the left tail. Equity markets rally during the stall zone in 4/5 analogues (median +18%), ending 3-6 months before resolution.",
+  "confidence": 5,
+  "evidence": [
+    "5 episodes: median 24 months, mean 25 months, range 15-36+",
+    "Markets pricing left tail (12-month resolution)",
+    "4/5 analogues show equity rally during stall zone (median +18%), ending 3-6 months before resolution"
+  ],
+  "originating_agents": [
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Could structural novelties compress or extend the stall zone duration?",
+    "What signals reliably indicate the stall zone is ending?",
+    "Is the equity rally pattern reliable enough to be actionable?"
+  ],
+  "related_concepts": [
+    "services_inflation_persistence",
+    "three_phase_disinflation_sequencing",
+    "financial_conditions_paradox"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

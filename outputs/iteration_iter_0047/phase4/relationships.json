@@ -1,0 +1,226 @@
+[
+  {
+    "concept_a": "inflation_passthrough_bimodality",
+    "concept_b": "equity_bond_correlation_sign_flip",
+    "mechanism": "The passthrough bimodality provides the theoretical underpinning for the correlation flip. De-anchored regimes produce persistent above-2.5% inflation that triggers the equity-bond correlation sign change from negative to positive.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Only operative when inflation is near or crossing the ~2.5% threshold between anchored and de-anchored regimes",
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "shelter_oer_mission_accomplished_trap",
+    "concept_b": "fed_dovish_asymmetry",
+    "mechanism": "OER-driven mechanical headline relief creates narrative conditions for the Fed's dovish asymmetry to manifest as premature easing signals. The shelter trap provides political cover for a Fed already inclined toward dovishness.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active during Q2-Q4 2026 shelter deceleration window; requires Fed to still be in restrictive stance",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "shelter_oer_mission_accomplished_trap",
+    "concept_b": "financial_conditions_paradox",
+    "mechanism": "Falling headline inflation from OER deceleration loosens financial conditions, extending the credit cycle by 12-18 months while underlying services inflation remains unresolved. The shelter trap is the proximate trigger for the financial conditions paradox in the current cycle.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active during Phase 2 of the disinflation sequence when shelter decelerates but services ex-shelter remains sticky",
+    "originating_agents": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "covenant_lite_default_delay",
+    "concept_b": "kalecki_fiscal_channel",
+    "mechanism": "Both mechanisms independently suppress observable credit distress — covenant-lite delays recognition of deterioration while fiscal deficits prevent the underlying deterioration from occurring. Together they create a double-layered suppression masking true credit risk.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Current conditions: >90% covenant-lite and 6-7% GDP deficits during non-recession. Breaks down if fiscal consolidation occurs or covenant-lite structures face maturity walls",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "fiscal_consolidation_gap",
+    "mechanism": "The fiscal channel's support for credit markets creates fragility — any material fiscal consolidation withdraws 100-150bp of implicit spread support. The consolidation gap is the vulnerability inherent in dependence on the fiscal channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active as long as deficits remain at 6-7% GDP; consolidation from +1.5% to -0.5% GDP would be a 2pp demand shock",
+    "originating_agents": [
+      "challenger_01",
+      "risk_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "services_inflation_persistence",
+    "concept_b": "three_phase_disinflation_sequencing",
+    "mechanism": "Services inflation persistence is the binding constraint in Phase 3. The inability to resolve services inflation without demand destruction determines the duration and ultimate success of the overall disinflation process.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Operative once goods (Phase 1) and shelter (Phase 2) disinflation have completed, leaving services as the residual",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "financial_conditions_paradox",
+    "concept_b": "covenant_lite_default_delay",
+    "mechanism": "Loosened financial conditions from falling headline inflation extend the credit cycle, while covenant-lite structures delay recognition of underlying deterioration. The combination could extend apparent credit health by 12-24 months beyond fundamentals.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active during the shelter masking window when headline inflation falls but services remain sticky",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "structural_inflation_floor_shift",
+    "concept_b": "equity_bond_correlation_sign_flip",
+    "mechanism": "If the structural floor has shifted to 2.3-2.8%, inflation persistently exceeds the ~2.5% correlation flip threshold, making the positive equity-bond correlation the default regime rather than a temporary state.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on whether the structural shift magnitude is sufficient to place inflation above 2.5% persistently; uncertain given CI includes zero",
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "biofuel_mandate_amplifier",
+    "concept_b": "structural_inflation_floor_shift",
+    "mechanism": "The biofuel mandate amplifies agricultural supply shocks by 1.5-2.5x, contributing an estimated 5-10bp to the structural inflation floor through permanent food cost elevation and the structural fertilizer cost floor (+40-60% vs. pre-2020).",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Amplifier is always active due to legislative mandate; contribution to floor depends on frequency and magnitude of agricultural supply shocks",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "credit_factor_signal_corruption",
+    "concept_b": "covenant_lite_default_delay",
+    "mechanism": "EBITDA addback practices corrupt the accounting-based distress signals that would normally provide early warning, reinforcing the delay mechanism by preventing market participants from observing true leverage ratios.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active as long as >90% covenant-lite with 15-40% addbacks persists; market-implied measures may partially circumvent",
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "cross_asset_inconsistency",
+    "concept_b": "sticky_above_target_crowded_trade",
+    "mechanism": "The cross-asset mispricing creates asymmetric payoffs for contrarian positioning. Because the sticky-above-target consensus is already priced, remaining return to consensus is small (10-20bp) while contrarian outcomes produce large moves (50-100bp Treasury rally).",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active as long as positioning data confirms crowding (BofA FMS, CFTC data); diminishes if positioning normalizes",
+    "originating_agents": [
+      "challenger_01",
+      "generalist_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "fiscal_consolidation_gap",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Fiscal consolidation represents a potential demand destruction channel that could resolve services inflation without traditional monetary tightening — the disinflationary channel the KB framework systematically underweights.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Requires material fiscal consolidation to materialize (DOGE, debt ceiling, reconciliation)",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "kb_confirmation_bias",
+    "concept_b": "sticky_above_target_crowded_trade",
+    "mechanism": "The KB's directional bias (zero disinflationary scenarios after 47 iterations) mirrors and reinforces the market's consensus positioning, making the analytical framework vulnerable to the same unwind risk as the crowded trade.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Self-reinforcing until a disinflationary scenario branch is added or the consensus is challenged by data",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "dm_food_cpi_heterogeneity",
+    "concept_b": "biofuel_mandate_amplifier",
+    "mechanism": "Agricultural supply shocks amplified by the biofuel mandate transmit asymmetrically across DM economies due to different food CPI weights, creating cross-country monetary policy divergence. Japan (26%) most vulnerable; US (13.5%) least among major DMs.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Requires an agricultural supply shock to activate; mechanism is latent until shock materializes",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "dual_policy_error_exposure",
+    "concept_b": "shelter_oer_mission_accomplished_trap",
+    "mechanism": "The shelter masking window creates conditions for both policy errors simultaneously: OER-driven headline relief encourages premature easing (Type I) while lagging indicators prevent recognition that tightening is insufficient (Type II).",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Active during Q2-Q4 2026 shelter deceleration window",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "concept_a": "ai_productivity_sectoral_vs_aggregate",
+    "concept_b": "services_inflation_persistence",
+    "mechanism": "Sectoral AI deployment in CPI-relevant services could create narrow disinflationary pressure, but aggregate TFP impact is insufficient to resolve broad services inflation within 2026-2028. Whether firms pass through or capture gains determines CPI impact.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Depends on CPI weight of affected sub-categories and firm pricing behavior; uncertain timeline",
+    "originating_agents": [
+      "challenger_01",
+      "equity_analyst_01",
+      "risk_analyst_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  }
+]

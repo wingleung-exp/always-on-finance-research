@@ -1,0 +1,24 @@
+{
+  "slug": "falsifiable_credit_test",
+  "purpose": "Provides a three-condition test for identifying when credit stress is sufficient to trigger a correlation regime flip toward demand-dominant/negative, producing a 60-70% probability of regime change when all three conditions are met simultaneously.",
+  "components": [
+    "Condition 1: IG OAS widens to >165-185bp",
+    "Condition 2: HY-IG spread differential exceeds >350bp",
+    "Condition 3: Distressed ratio (HY bonds trading >1000bp over Treasuries) exceeds 10%"
+  ],
+  "current_assessment": "No conditions currently met. IG OAS at ~90-110bp (well below 165-185bp threshold). HY-IG differential within normal range. Distressed ratio at ~4-6% (elevated relative to overall tightness, confirming quality bifurcation, but below 10% threshold).",
+  "limitations": [
+    "Calibrated on historical episodes with different credit market structures",
+    "Covenant-lite and private credit opacity may delay conditions being met",
+    "Thresholds may need recalibration if credit market structure has fundamentally changed",
+    "Does not specify time horizon for the 60-70% probability"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

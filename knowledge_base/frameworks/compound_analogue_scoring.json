@@ -1,0 +1,25 @@
+{
+  "slug": "compound_analogue_scoring",
+  "purpose": "Provides multi-dimensional similarity assessment across historical episodes rather than relying on any single analogue, acknowledging structural novelties that limit all analogues to <7.0/10 similarity",
+  "components": [
+    "Seven-dimension scoring matrix for historical episode comparison",
+    "Structural novelty identification: mortgage lock-in (85%+ below 5%), >90% covenant-lite, AI investment cycle, simultaneous deglobalization + fiscal expansion at 6-7% GDP",
+    "Composite scoring weighted by dimension relevance",
+    "Explicit treatment of non-matching features as individually material"
+  ],
+  "current_assessment": "No single analogue scores above 7.0/10. The 1966-69 analogue downgraded from 6.5-7.0 to 5-6/10 after accounting for five material non-matches. Compound approach judged stronger than single-analogue reliance by pair_0 debate.",
+  "limitations": [
+    "Dimension weights are subjective, creating an illusion of objectivity",
+    "Outcome distributions may be wider than any analogue framework suggests",
+    "At the point of compound structural novelty, analogue-based reasoning may be approaching unreliability",
+    "Does not produce actionable timing signals"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

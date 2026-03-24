@@ -1,0 +1,35 @@
+{
+  "slug": "maturity_wall_regime_interaction",
+  "definition": "The sub-investment-grade maturity wall ($900B-$1.5T, 2025-2028) interacts asymmetrically with the correlation regime: orderly refinancing without recession, potentially systemic with recession coincidence. Refinancing at 200-400bp higher generates ~$50-75B incremental annual interest expense.",
+  "confidence": 7,
+  "evidence": [
+    "Conditional base rate: 0/4 orderly without recession, 2/2 systemic with recession",
+    "~$2.50-3.75 S&P 500 EPS headwind concentrated in S&P 493",
+    "Credit availability channel: CLO formation constraints + bank lending limits → weakest borrowers face 10-12% all-in from private credit",
+    "Relevant figure is $900B-$1.5T sub-IG, not $2.5T total corporate debt"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "What recession probability makes the maturity wall systemically relevant?",
+    "Can extend-and-pretend via private credit delay the wall beyond 2028?",
+    "How does the EPS headwind distribute across sectors?"
+  ],
+  "related_concepts": [
+    "covenant_lite_cycle_delay",
+    "clo_arbitrage_deterioration",
+    "kalecki_levy_quality_differentiation",
+    "fallen_angel_channel"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

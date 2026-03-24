@@ -1,0 +1,817 @@
+[
+  {
+    "slug": "correlation_regime_bifurcation",
+    "definition": "The rates-equity correlation regime is transitional and oscillating, with a defining structural signature of maturity-dependent bifurcation: 2Y-SPX correlation remains negative (-0.15 to -0.30) while 30Y-SPX has shifted to persistently positive (+0.10 to +0.35).",
+    "confidence": 9,
+    "evidence": [
+      "August 2024 growth scare validated front-end signal (2Y fell ~40bp as SPX dropped ~8%)",
+      "Rolling 1-year correlation oscillates between -0.2 and +0.4 since 2022",
+      "Confirmed by six independent agents at confidence 8",
+      "Bimodal distribution: 55-60% demand-dominant/negative, 40-45% supply-dominant/positive"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "fx_strategist_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "What conditions would falsify the oscillating thesis? Proposed: sustained 3-month rolling correlation >+0.35 for 6+ months",
+      "Will 2Y-SPX correlation attenuate toward zero (fiscal encroachment) or stabilize at -0.15 to -0.20?",
+      "Does the bifurcation uniquely diagnose fiscal dominance or could garden-variety QT plus issuance explain it?"
+    ],
+    "related_concepts": [
+      "bimodal_correlation_distribution",
+      "partial_fiscal_dominance",
+      "term_premium_structural_rebuild",
+      "asymmetric_transition_timing"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "bimodal_correlation_distribution",
+    "definition": "The rates-equity correlation follows a bimodal probability distribution with 55-60% weight on demand-dominant/negative-correlation states and 40-45% weight on supply-dominant/positive-correlation states, rather than a stable single-mode distribution.",
+    "confidence": 9,
+    "evidence": [
+      "Mathematical framing provides probability structure for the oscillating regime",
+      "Portfolio optimized for mean correlation (~-0.06) is suboptimal in BOTH realized states",
+      "2022 evidence: SG CTA Index +20% while 60/40 lost ~16%"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Are the probability weights stable or shifting over time?",
+      "How should portfolio construction differ from single-mode optimization?"
+    ],
+    "related_concepts": [
+      "correlation_regime_bifurcation",
+      "barbell_portfolio_dominance",
+      "vol_of_correlation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "ig_credit_leading_indicator",
+    "definition": "IG credit spreads widening >75bp from trough is the highest-ranked leading indicator for correlation regime flips, with a 6/7 hit rate across 13 post-1960 transitions and an 18-month lead time. Current IG OAS near cycle tights (~90-110bp) signals no imminent transition.",
+    "confidence": 8,
+    "evidence": [
+      "6/7 hit rate across 13 post-1960 transitions",
+      "18-month historical lead time",
+      "Only Tier 2b (yield curve un-inversion) currently active",
+      "Credit reprices first in any resolution per pair_0 and pair_1 debates"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Has covenant-lite structure extended the signal lead time from 18 months to 24-36 months?",
+      "Does current cycle tightness reflect genuine calm or structural opacity?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_disagreement",
+      "covenant_lite_cycle_delay",
+      "credit_equity_merton_basis",
+      "fallen_angel_channel"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "kalecki_levy_dual_fiscal_effect",
+    "definition": "Fiscal deficits simultaneously support near-term corporate earnings via the Kalecki-Levy accounting identity (~$400-600B annually flowing to aggregate profits at 6.5% deficit/GDP) and drive term premium higher via $2T+ annual Treasury issuance — a single fiscal cause producing two time-separated effects.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki-Levy accounting identity is mathematical fact",
+      "~$15-25 of ~$250-260 S&P EPS attributable to deficit (direction high-confidence, magnitude moderate)",
+      "$2T+ annual issuance pushes term premium to 80-130bp adjusted",
+      "Kalecki-Levy paradox: austerity would be equity-positive because P/E expansion dominates EPS decline at current deficit levels"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "credit_analyst_01",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What is the precise EPS attribution — could be $5-40 range?",
+      "At what deficit/GDP level does the P/E expansion from deficit reduction dominate the EPS decline?",
+      "How does the timing arbitrage between the two effects create tradeable opportunities?"
+    ],
+    "related_concepts": [
+      "kalecki_levy_quality_differentiation",
+      "term_premium_structural_rebuild",
+      "partial_fiscal_dominance",
+      "fiscal_deficit_transition_extension"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "term_premium_structural_rebuild",
+    "definition": "Term premium is structurally rebuilding through additive supply-side (fiscal issuance, dealer SLR constraints) and demand-side (reserve de-accumulation, petrodollar recycling decline, Chinese holdings reduction) channels, with adjusted levels likely at 80-130bp.",
+    "confidence": 8,
+    "evidence": [
+      "Supply: $2T+/year net issuance, quarterly refunding moving 10Y 10-20bp",
+      "Demand: foreign official holdings declined from ~33% to ~23% of outstanding",
+      "Chinese holdings from ~$1.08T to ~$770B",
+      "Petrodollar recycling down ~$150-250B/year vs. peak",
+      "Basis trade compresses measured term premium 15-25bp below fair value"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "fx_strategist_02",
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "ACM-Kim-Wright model gap of 30-50bp makes true term premium unobservable",
+      "rates_strategist_01 self-rates measurement confidence at only 6/10",
+      "How much of 5Y5Y elevation is embedded term premium vs. genuine r-star repricing?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade",
+      "reserve_manager_deaccumulation",
+      "chinese_ust_geopolitical_selling",
+      "partial_fiscal_dominance",
+      "2s10s_term_premium_decomposition"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "cross_asset_pricing_disagreement",
+    "definition": "A three-to-four-way cross-asset pricing inconsistency where equities (21-22x P/E) price no recession and negative correlation, bonds (80-130bp term premium) price positive correlation, credit (IG OAS ~90-110bp) prices neither stress nor recession, and private credit (NAVs at par) prices neither defaults nor widening. Credit is the most mispriced leg.",
+    "confidence": 8,
+    "evidence": [
+      "Credit-equity basis (Merton-implied IG ~140-180bp vs. actual ~90-110bp) is widest since 2007",
+      "5/7 historical episodes resolved via credit widening",
+      "Credit inconsistent with BOTH regime outcomes: Regime D → spreads widen 200-400bp; Regime S → ROIC-WACC compression should produce wider spreads",
+      "Inconsistency has persisted 3+ years"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01",
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is this mispricing or segmented equilibrium reflecting rational pricing by segmented investor bases?",
+      "What macro shock would narrow or widen the inconsistency?",
+      "Does 3+ years of persistence constitute evidence of equilibrium?"
+    ],
+    "related_concepts": [
+      "credit_equity_merton_basis",
+      "segmented_equilibrium_thesis",
+      "covenant_lite_cycle_delay",
+      "ig_credit_leading_indicator"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "covenant_lite_cycle_delay",
+    "definition": "Covenant-lite loan dominance (>90%), EBITDA addbacks (15-40% with 40-60% realization rates), and private credit opacity ($1.7T+ with mark-to-model NAVs) are structurally delaying credit cycle recognition, making true leverage ~1.5-2.0x higher than reported.",
+    "confidence": 8,
+    "evidence": [
+      "Amendment activity at 40-50% of leveraged loan universe vs. ~20-25% in 2019",
+      "Private credit NAV autocorrelation 0.5-0.7 suppresses measured volatility by 2-3x",
+      "PIK toggle usage rising (BSL: 5-8%; private credit: 12-18%)",
+      "Pre-covenant-lite breaches triggered at 5.5-6x leverage vs. current 8x+ operation without trigger",
+      "ECB and Fed analyses confirm true leverage understated"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "How much does the opacity extend the lag between economic deterioration and measured credit stress?",
+      "What observable proxies can penetrate the covenant-lite opacity?",
+      "When does amendment activity transition from extend-and-pretend to forced recognition?"
+    ],
+    "related_concepts": [
+      "ig_credit_leading_indicator",
+      "maturity_wall_regime_interaction",
+      "clo_arbitrage_deterioration",
+      "kalecki_levy_quality_differentiation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "treasury_basis_trade",
+    "definition": "The Treasury basis trade ($800B-$1T+ at 50-100x leverage) functions as synthetic QE by removing duration from private markets via repo financing, suppressing measured term premium by 15-25bp while amplifying systemic fragility at unprecedented scale.",
+    "confidence": 8,
+    "evidence": [
+      "All four debates accepted its existence and approximate scale",
+      "Japan 2003 VaR shock provides closest amplification mechanism analogue",
+      "Functionally equivalent to synthetic QE",
+      "No precedent at this scale"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Would partial unwind (20-40%) release only ~5-10bp or more?",
+      "What triggers an unwind — margin calls, regulatory action, or voluntary position reduction?",
+      "Does the trade mask the true supply-demand imbalance enough to delay regime resolution?"
+    ],
+    "related_concepts": [
+      "term_premium_structural_rebuild",
+      "partial_fiscal_dominance",
+      "goldilocks_fragility"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "kalecki_levy_quality_differentiation",
+    "definition": "The Kalecki-Levy aggregate profit floor from fiscal deficits provides zero protection to firm-level cash flow distress in leveraged credits. A B-rated borrower at 8x true leverage with 70-80% interest expense/EBITDA cannot survive refinancing at 400bp higher regardless of aggregate profit growth.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki-Levy identity operates on aggregates, not firm-level",
+      "Distressed ratio (HY >1000bp) at ~4-6% is elevated relative to aggregate spread tightness",
+      "Empirically confirms quality bifurcation between aggregate benign appearance and firm-level vulnerability",
+      "Labeled 'single most valuable original contribution' across both credit analyses in pair_1 debate"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What share of the leveraged loan universe is vulnerable to refinancing stress?",
+      "How does the bifurcation between aggregate health and firm-level distress ultimately resolve?"
+    ],
+    "related_concepts": [
+      "kalecki_levy_dual_fiscal_effect",
+      "covenant_lite_cycle_delay",
+      "maturity_wall_regime_interaction",
+      "fallen_angel_channel"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "asymmetric_transition_timing",
+    "definition": "Positive-to-negative correlation transitions are fast (median ~3 months from crystallizing event) while negative-to-positive transitions unfold gradually (median ~12 months), a 4:1 asymmetry robust across all 13 post-1960 transitions.",
+    "confidence": 7,
+    "evidence": [
+      "8 positive-to-negative transitions averaged ~3 months (Penn Central 1970, LTCM 1998, Lehman 2008)",
+      "5 negative-to-positive transitions averaged ~12 months through gradual parameter drift",
+      "VIX differential corroborates: average 30-45 during negative snaps vs. 18-25 during positive drift",
+      "Labeled 'single most actionable historical finding' in pair_0 debate"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does the asymmetry hold when fiscal deficits are conditioning the transition?",
+      "What is the portfolio construction implication for pre-positioning?"
+    ],
+    "related_concepts": [
+      "correlation_regime_bifurcation",
+      "ig_credit_leading_indicator",
+      "barbell_portfolio_dominance"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "maturity_wall_regime_interaction",
+    "definition": "The sub-investment-grade maturity wall ($900B-$1.5T, 2025-2028) interacts asymmetrically with the correlation regime: orderly refinancing without recession, potentially systemic with recession coincidence. Refinancing at 200-400bp higher generates ~$50-75B incremental annual interest expense.",
+    "confidence": 7,
+    "evidence": [
+      "Conditional base rate: 0/4 orderly without recession, 2/2 systemic with recession",
+      "~$2.50-3.75 S&P 500 EPS headwind concentrated in S&P 493",
+      "Credit availability channel: CLO formation constraints + bank lending limits → weakest borrowers face 10-12% all-in from private credit",
+      "Relevant figure is $900B-$1.5T sub-IG, not $2.5T total corporate debt"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "What recession probability makes the maturity wall systemically relevant?",
+      "Can extend-and-pretend via private credit delay the wall beyond 2028?",
+      "How does the EPS headwind distribute across sectors?"
+    ],
+    "related_concepts": [
+      "covenant_lite_cycle_delay",
+      "clo_arbitrage_deterioration",
+      "kalecki_levy_quality_differentiation",
+      "fallen_angel_channel"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "credit_equity_merton_basis",
+    "definition": "The credit-equity basis calculated via the Merton structural model shows Merton-implied IG spreads of ~140-180bp versus actual IG OAS of ~90-110bp, the widest gap since 2007. Historically 5/7 episodes of this gap resolved via credit widening.",
+    "confidence": 8,
+    "evidence": [
+      "50-70bp gap between model-implied and actual IG spreads",
+      "Widest since 2007",
+      "5/7 historical resolution via credit widening rather than equity correction",
+      "Confirmed in pair_0 debate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Could this persist longer due to structural changes in credit markets?",
+      "What triggers credit convergence to equity-implied levels?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_disagreement",
+      "ig_credit_leading_indicator",
+      "covenant_lite_cycle_delay"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "fiscal_deficit_transition_extension",
+    "definition": "Fiscal deficits exceeding 4.5% GDP extend correlation regime transitions by a median of approximately 3 years beyond what monetary-only models predict, based on six historical episodes. Current US deficit at ~6.5% GDP exceeds all six precedents.",
+    "confidence": 6,
+    "evidence": [
+      "Six historical episodes with deficits >4% GDP during transitions",
+      "Median delay of 3.2 years",
+      "4/6 required exogenous forcing events to resolve",
+      "No credible fiscal consolidation path through at least 2028"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Small sample (n=6) limits confidence in the specific median",
+      "Magnitude could be 2-5 years; direction is higher-confidence than magnitude",
+      "What constitutes a sufficient exogenous forcing event at current deficit levels?"
+    ],
+    "related_concepts": [
+      "kalecki_levy_dual_fiscal_effect",
+      "partial_fiscal_dominance",
+      "correlation_regime_bifurcation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "clo_arbitrage_deterioration",
+    "definition": "CLO equity IRR compression to ~12-14% (from 17-20% in 2021-22) represents a continuous, already-in-progress constraint on credit supply. Below the ~11-12% equity IRR threshold, new CLO formation slows, removing ~65-70% of institutional leveraged loan demand.",
+    "confidence": 7,
+    "evidence": [
+      "CLO liability spreads elevated at ~155-170bp",
+      "CLO market at ~$1.0-1.1T has never been tested through a full cycle at this scale",
+      "Judged as stronger framing than binary OC test breach in pair_1 debate",
+      "The arbitrage channel operates continuously and is currently observable"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "At what pace does formation slow as equity IRRs approach the 11-12% threshold?",
+      "How does reduced CLO formation interact with the maturity wall refinancing needs?",
+      "Can CLO equity demand recover if loan spreads widen?"
+    ],
+    "related_concepts": [
+      "covenant_lite_cycle_delay",
+      "maturity_wall_regime_interaction",
+      "ig_credit_leading_indicator",
+      "japanese_clo_aaa_channel"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "reserve_manager_deaccumulation",
+    "definition": "Foreign official reserve managers have structurally shifted from net Treasury purchasers (~+$300-500B/year, 2003-2013) to approximately flat, adding an estimated 20-40bp to term premium. This reflects petrodollar recycling decline and geopolitically motivated Chinese holdings reduction.",
+    "confidence": 6,
+    "evidence": [
+      "Official-sector net Treasury purchases shifted to approximately flat",
+      "Petrodollar recycling down ~$150-250B/year from peak",
+      "Chinese holdings from $1.08T to ~$770B",
+      "Krishnamurthy-Vissing-Jorgensen elasticity ~3-4bp per $100B",
+      "TIC data and IMF COFER confirm structural shift"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Magnitude depends on limited academic elasticity estimates",
+      "Is the decline truly structural or could geopolitical thaw reverse it?",
+      "What is the marginal buyer composition replacing official-sector demand?"
+    ],
+    "related_concepts": [
+      "term_premium_structural_rebuild",
+      "chinese_ust_geopolitical_selling",
+      "partial_fiscal_dominance"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "2s10s_term_premium_decomposition",
+    "definition": "The 2s10s yield curve steepening is approximately 70-80% driven by term premium expansion, not an economic recovery signal. ACM decomposition shows expected-rate differential contributed ~25bp of steepening while term premium contributed ~80-100bp.",
+    "confidence": 7,
+    "evidence": [
+      "ACM model decomposition",
+      "Term-premium-driven steepening is correlation-positive; expectations-driven is historically correlation-neutral-to-negative",
+      "Labeled 'single most operationally useful claim' in pair_3 debate",
+      "Identifies a concrete misinterpretation likely widespread among market participants"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Attribution could be 60-85% depending on model choice",
+      "Directional conclusion is robust but precise magnitude is model-dependent",
+      "How should duration positioning differ between term-premium and expectations-driven steepening?"
+    ],
+    "related_concepts": [
+      "term_premium_structural_rebuild",
+      "recession_signal_degradation",
+      "partial_fiscal_dominance"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "erp_regime_conditionality",
+    "definition": "The equity risk premium is regime-inconsistent: under positive correlation assumptions, the S&P 500 is 12-18% overvalued (fair value ~4,650-4,900 vs. ~5,500-5,700), while roughly fairly valued under negative correlation assumptions. Three-method decomposition reveals mega-cap implied ERP of ~2.0-3.0% vs. S&P 493 at ~5.0-6.5%.",
+    "confidence": 7,
+    "evidence": [
+      "Fed model spread at ~+30bp, lowest since 2007",
+      "DDM-implied ERP ~4.0-5.0% assuming bonds hedge",
+      "Cross-sectional ERP decomposition labeled 'single most actionable insight' in pair_2 debate",
+      "Under positive correlation, required ERP rises 50-100bp"
+    ],
+    "originating_agents": [
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Entirely conditional on which correlation regime prevails",
+      "Fed model component critiqued for comparing real to nominal quantity (Asness 2003)",
+      "How should capital allocation shift based on conditional ERP?"
+    ],
+    "related_concepts": [
+      "bimodal_correlation_distribution",
+      "equity_concentration_correlation_illusion",
+      "correlation_regime_bifurcation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "equity_concentration_correlation_illusion",
+    "definition": "S&P 500 index concentration (top 10 ~35%) creates a correlation measurement illusion where the cap-weighted index masks the likely positive correlation of the S&P 493 with rates. Mega-cap tech has 1-5% interest expense/EBIT and net cash, while the S&P 493 has rising interest expense/EBIT (12%→18%→22-25%) and leverage.",
+    "confidence": 6,
+    "evidence": [
+      "Three agents converge on the directional claim",
+      "Mega-cap implied ERP 2.0-3.0% vs. S&P 493 at 5.0-6.5%",
+      "Fundamentally different rate sensitivity profiles between top 10 and rest"
+    ],
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "The definitive empirical test (cap-weighted vs. equal-weight SPX correlation with 10Y) has NOT been conducted",
+      "Specific S&P 493 correlation estimate of +0.3 to +0.5 rests on zero empirical verification",
+      "Flagged as 'single most testable and highest-priority unresolved empirical question'"
+    ],
+    "related_concepts": [
+      "erp_regime_conditionality",
+      "correlation_regime_bifurcation",
+      "cross_asset_pricing_disagreement"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "partial_fiscal_dominance",
+    "definition": "The long end of the yield curve is being captured by fiscal dynamics — persistent deficits at ~6.5% GDP and $2T+ annual issuance create a structural supply pressure that differs from one-time shocks like 1994 or 2013 (which occurred at <80% debt/GDP and <4% deficit/GDP).",
+    "confidence": 8,
+    "evidence": [
+      "Maturity bifurcation between 2Y and 30Y correlation with equities",
+      "1994 and 2013 analogues occurred at much lower debt and deficit levels",
+      "No credible fiscal consolidation path through at least 2028",
+      "Supply pressure is recurring and structural, not a one-time shock"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does garden-variety QT plus issuance sufficiently explain the bifurcation without invoking fiscal dominance?",
+      "At what debt/GDP level does fiscal dominance fully capture the long end?",
+      "How does partial fiscal dominance interact with Fed independence?"
+    ],
+    "related_concepts": [
+      "term_premium_structural_rebuild",
+      "kalecki_levy_dual_fiscal_effect",
+      "correlation_regime_bifurcation",
+      "fiscal_deficit_transition_extension"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "greenspan_conundrum_analogue",
+    "definition": "The 2004-06 Greenspan Conundrum is the most informative historical analogue (7.5/10 similarity) for current broken monetary transmission, with specific sequencing: 30 months accumulation → 12 months contained deterioration → 6 months discontinuous repricing (IG from 50bp to 600bp+). Current broken transmission has accumulated ~36+ months.",
+    "confidence": 7,
+    "evidence": [
+      "Specific sequencing template from 2004-06",
+      "Current broken transmission has been accumulating longer than the historical analogue",
+      "Signpost hierarchy (IG OAS >75bp from trough) is consistent with Phase 2 detection",
+      "Compound analogue methodology combining 1993-94, 2004-06, and 1966-69"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "n=1 for the exact pattern limits statistical confidence",
+      "Current vulnerabilities (basis trade, private credit) differ from then (subprime mortgage)",
+      "Will the sequencing pattern replicate or has market structure evolved?"
+    ],
+    "related_concepts": [
+      "ig_credit_leading_indicator",
+      "cross_asset_pricing_disagreement",
+      "covenant_lite_cycle_delay"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "fallen_angel_channel",
+    "definition": "Approximately $200-400B of BBB- rated debt is at risk of downgrade to high yield, where IG-mandated forced selling is mechanical and HY absorption capacity of ~$50-100B can trigger non-linear spread dislocation. This converts gradual credit deterioration into discrete correlation-flipping events.",
+    "confidence": 6,
+    "evidence": [
+      "Rating migration trends: upgrade/downgrade ratios deteriorating from ~1.5x to ~0.9-1.0x",
+      "Historical validation: 2002 (WorldCom), 2005 (GM/Ford), 2020 ($200B+)",
+      "Each historical instance coincided with negative correlation shift",
+      "HY market has limited capacity for sudden large inflows"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "At-risk BBB- cohort size ranges widely ($200-400B)",
+      "Historical analogues have highly variable magnitudes",
+      "What specific issuers are most vulnerable to the fallen angel trigger?"
+    ],
+    "related_concepts": [
+      "ig_credit_leading_indicator",
+      "maturity_wall_regime_interaction",
+      "kalecki_levy_quality_differentiation",
+      "covenant_lite_cycle_delay"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "barbell_portfolio_dominance",
+    "definition": "Under bimodal correlation distributions, barbell portfolio construction mathematically dominates portfolios optimized for mean correlation. Assets with positive convexity in both correlation tails (trend-following, long volatility, gold, quality equities) are regime-agnostic.",
+    "confidence": 7,
+    "evidence": [
+      "Mathematical result from bimodal distribution, not model-dependent",
+      "2022 evidence: SG CTA Index +20% while 60/40 lost ~16%",
+      "Portfolio optimized for mean correlation is suboptimal in BOTH realized states",
+      "Confirmed in pair_0 debate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "open_questions": [
+      "Operational execution carries 200-300bp uncertainty",
+      "Gold at all-time highs creates entry-point risk for one common barbell leg",
+      "Which specific barbell implementations and what sizing is optimal?"
+    ],
+    "related_concepts": [
+      "bimodal_correlation_distribution",
+      "asymmetric_transition_timing",
+      "vol_of_correlation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "chinese_ust_geopolitical_selling",
+    "definition": "Chinese Treasury holdings reduction (from ~$1.08T to ~$770B) is geopolitically motivated and qualitatively irreversible, unlike Japanese selling which is economically motivated and potentially reversible. Chinese selling accelerates under stress (e.g., ~$40B decline during August 2023 US-China tensions).",
+    "confidence": 6,
+    "evidence": [
+      "Holdings trajectory from ~$1.08T to ~$770B",
+      "Acceleration under geopolitical stress",
+      "Destination: gold, EM bonds, bilateral swaps",
+      "TIC data and behavior under stress distinguish geopolitical from economic motivation"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Difficult to distinguish SAFE portfolio rebalancing (reversible) from geopolitical hedging (irreversible) using TIC data alone",
+      "n=1 for the geopolitical acceleration claim",
+      "What is the terminal level of Chinese holdings?"
+    ],
+    "related_concepts": [
+      "reserve_manager_deaccumulation",
+      "term_premium_structural_rebuild",
+      "three_bloc_capital_flow_bifurcation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "three_bloc_capital_flow_bifurcation",
+    "definition": "Global capital flows are bifurcating into three blocs (US/EU-allied, China-centric, non-aligned EM), making 'global stock-bond correlation' an increasingly meaningless aggregate concept.",
+    "confidence": 6,
+    "evidence": [
+      "Chinese reserve management shifting to gold, EM bonds, bilateral swaps",
+      "Non-aligned EM maintaining independent monetary cycles",
+      "Capital flow patterns increasingly determined by geopolitical alignment"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "How does bloc bifurcation affect traditional cross-asset correlation frameworks?",
+      "At what pace is the bifurcation progressing?",
+      "Which countries are genuinely non-aligned vs. leaning?"
+    ],
+    "related_concepts": [
+      "chinese_ust_geopolitical_selling",
+      "reserve_manager_deaccumulation",
+      "dollar_smile_correlation_mapping"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "recession_signal_degradation",
+    "definition": "The 3m10y yield spread's recession-prediction reliability is degraded when term premium is rising due to fiscal supply. The recent un-inversion occurred ~75% from term premium expansion rather than changed growth expectations, unlike the environment in which the model was calibrated.",
+    "confidence": 6,
+    "evidence": [
+      "~150bp of the 200bp move from -150bp to +50bp reflects term premium, not growth expectations",
+      "The model was calibrated in an era of low, stable term premium",
+      "Logically sound analysis of the mechanism",
+      "Misinterpretation risk is actively present among market participants"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Has not been formally tested against the current regime",
+      "Historical out-of-sample validation limited given unprecedented fiscal configuration",
+      "What alternative recession indicators remain reliable under fiscal supply pressure?"
+    ],
+    "related_concepts": [
+      "2s10s_term_premium_decomposition",
+      "term_premium_structural_rebuild",
+      "partial_fiscal_dominance"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "goldilocks_fragility",
+    "definition": "Current positive asset returns depend on a conjunction of three simultaneously satisfied conditions, each containing seeds of its own reversal. The fragility lies in the low probability of sustained conjunction rather than any single condition failing.",
+    "confidence": 7,
+    "evidence": [
+      "Framing from generalist_01's Goldilocks fragility conjunction framework",
+      "Multiple debates confirmed the analytical structure",
+      "Each condition can be individually stressed"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What are the specific three conditions and their individual failure probabilities?",
+      "How quickly does conjunction failure propagate across assets?",
+      "Is there a reliable early warning when one condition begins to degrade?"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_disagreement",
+      "bimodal_correlation_distribution",
+      "ig_credit_leading_indicator"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "vol_of_correlation",
+    "definition": "The volatility of the correlation level itself may be more important than the correlation level for systematic strategy returns. Oscillation between -0.30 and +0.30 on 3-6 month frequency whipsaws vol-targeting strategies ($500B-$1T AUM) using 60-90 day lookback windows, with an estimated 15-25% Sharpe reduction.",
+    "confidence": 5,
+    "evidence": [
+      "Oscillating regime creates reflexive amplification loop via systematic rebalancing",
+      "$500B-$1T in vol-targeting AUM affected",
+      "Flagged as novel in pair_0 debate",
+      "Creates feedback between correlation regime and systematic positioning"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Magnitude estimate is constructed, not empirically calibrated",
+      "Limited empirical sample of oscillating regimes",
+      "Does the reflexive amplification create tradeable patterns?"
+    ],
+    "related_concepts": [
+      "bimodal_correlation_distribution",
+      "barbell_portfolio_dominance",
+      "correlation_regime_bifurcation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "dollar_smile_correlation_mapping",
+    "definition": "The dollar's position on the 'dollar smile' maps to correlation regime states: left side (risk-off) corresponds to negative correlation, middle (muddling) to oscillating, right side (US exceptionalism) to positive correlation. DXY at 100-107 maps to middle-to-right, consistent with the transitional regime.",
+    "confidence": 6,
+    "evidence": [
+      "DXY at 100-107 consistent with transitional regime diagnosis",
+      "Recession-driven vs. twin-deficit-driven dollar weakness provides real-time discriminator",
+      "Dollar dynamics identified as material analytical gap in equity_analyst_01's framework",
+      "Framework is well-established"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "The specific correlation mapping adds judgment beyond the established framework",
+      "How reliable is the EM flow discriminator in practice?",
+      "Does the mechanism behind a dollar break matter more than the level?"
+    ],
+    "related_concepts": [
+      "correlation_regime_bifurcation",
+      "three_bloc_capital_flow_bifurcation",
+      "reserve_manager_deaccumulation"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "segmented_equilibrium_thesis",
+    "definition": "The cross-asset pricing inconsistency may reflect rational pricing by segmented investor bases rather than mispricing: equities priced by 1-3 year horizon institutions, bonds by duration-targeting mandates, credit by CLO managers with regulatory incentives, each internally consistent for its dominant participants.",
+    "confidence": 4,
+    "evidence": [
+      "The inconsistency has persisted 3+ years",
+      "Each market's pricing is internally consistent for its dominant participant type",
+      "Flagged as 'intellectually fresh' deserving formal modeling in pair_3 debate"
+    ],
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "open_questions": [
+      "Lacks a formal model",
+      "Markets DO eventually converge — 3+ years could mean 'not yet' rather than 'never'",
+      "Genuine equilibrium vs. slow-motion mispricing is undetermined"
+    ],
+    "related_concepts": [
+      "cross_asset_pricing_disagreement",
+      "ig_credit_leading_indicator",
+      "covenant_lite_cycle_delay"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "japanese_clo_aaa_channel",
+    "definition": "An estimated $80-120B in Japanese CLO AAA holdings creates a channel linking BOJ normalization to US leveraged loan liquidity. Each 25bp BOJ hike narrows hedged carry pickup by ~15-20bp, potentially reducing demand and constraining CLO formation.",
+    "confidence": 4,
+    "evidence": [
+      "Estimated $80-120B Japanese CLO AAA holdings",
+      "Each 25bp BOJ hike narrows hedged carry by ~15-20bp",
+      "Reduced demand → wider CLO liability spreads → compressed arbitrage → slower formation",
+      "Japanese institutions historically slow to reduce US asset exposure"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Precise sizing of Japanese CLO holdings is difficult to verify",
+      "How quickly would Japanese institutions reduce exposure?",
+      "BOJ normalization track record of non-materialization (actual repatriation ~30% of model-predicted)"
+    ],
+    "related_concepts": [
+      "clo_arbitrage_deterioration",
+      "reserve_manager_deaccumulation",
+      "maturity_wall_regime_interaction"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  }
+]

@@ -1,0 +1,78 @@
+# Inflation Regimes — Cross-Asset Strategist (Generalist) Analysis
+
+## Key Claims
+
+1. **Cross-asset markets are pricing mutually inconsistent inflation outcomes.** Equity multiples (S&P 500 forward P/E ~20-21x) embed a disinflationary glide path to ~2.5% core PCE by late 2026; credit spreads (IG ~90-100bp, HY ~300-350bp) embed a similar benign outcome; but breakeven inflation markets underprice the right tail while the rates curve prices 3-4 cuts by year-end. These cannot all be correct simultaneously given the KB's high-confidence finding (conf 9) that services inflation persistence has a 0/5 base rate for resolution without recession.
+
+2. **The correlation regime is transitioning from "risk-on with disinflationary tailwind" to an unstable intermediate state where the stock-bond correlation sign is regime-dependent.** The shelter-OER mechanical drag (40-80bp relief) creates a window where headline inflation declines while underlying services ex-shelter remains sticky at 4-5%. This produces a period where equities and bonds can correlate positively on good headline prints, but the underlying regime is stagflationary-adjacent — meaning the correlation can flip sign with minimal provocation from a single hot services print.
+
+3. **The best cross-asset relative value opportunity is long inflation optionality (breakeven caps/swaptions) funded by short credit risk premium.** Credit spreads are compressed by the Kalecki fiscal channel (6-7% GDP deficits suppressing defaults by 100-150bp) and covenant-lite transmission delay (12-24 months), while breakeven markets carry a negative inflation risk premium of -10 to -20bp despite asymmetric upside risks. This is a direct expression of the cross-asset inconsistency in Claim 1.
+
+4. **The "mission accomplished" trap is the single most important cross-asset risk for the next 6-12 months.** The three-phase sequencing framework (conf 8) shows markets declared premature victory in 4/6 historical episodes during Phase 2. The current late-Phase-2/early-Phase-3 transition, combined with the Fed's revealed reaction asymmetry (~200bp easing bias) and the AI-optimism easing trap, creates conditions for a correlation regime shock when services persistence is revealed as the binding constraint.
+
+5. **The credit-equity basis will widen as the inflation regime resolves, regardless of direction.** If inflation resolves upward (sticky services, tariff pass-through), credit reprices faster than equity due to CLO OC test mechanics and the maturity wall. If inflation resolves downward via demand destruction, the goods-disinflation-composition distinction means credit spreads widen (unlike supply-normalization disinflation). Equity is the slower-moving asset in both scenarios because the equity wealth channel and fiscal support provide more cushion.
+
+6. **The structural inflation shift (30-80bp to ~2.3-2.8% core PCE floor) combined with the Taylor Rule coefficient decline (φ_π ~1.0-1.3) implies that the real policy rate is structurally lower than it appears.** This means the current rate level is less restrictive than standard models suggest, which in turn means the sacrifice ratio for last-mile disinflation is higher than the rates market prices. The cross-asset implication: the front-end is too steep (pricing too many cuts) while the long end is too flat (not pricing enough term premium for the regime uncertainty).
+
+7. **The correlation between DM equity and commodity returns will rise if the expectations-drift mechanism (25-50bp ratchet) pushes passthrough across the regime boundary from anchored to de-anchored.** Under anchored conditions, commodity shocks are absorbed with minimal equity impact; under de-anchored conditions, the 2-3x passthrough multiplier forces central bank response, which reprices equity multiples. The current "anchored but strained" state means commodity-equity correlation is unstable and could step-function higher.
+
+## Evidence & Reasoning
+
+**Claim 1 — Cross-Asset Inconsistency:**
+The KB documents this directly in the `cross_asset_pricing_inconsistency` → `breakeven_right_tail_underpricing` relationship (conf 7). The specific inconsistency: equity P/E of 20-21x implies a terminal discount rate consistent with 2-2.5% inflation, but the structural inflation floor is 2.3-2.8% (conf 6) and services persistence has never resolved without recession (conf 9). Credit spreads at cycle tights imply default rates consistent with sustained growth, but the maturity wall and CLO mechanics create non-linear risk. Meanwhile, breakevens carry negative risk premium despite the asymmetric upside risk from tariffs (0.3-0.8pp), deglobalization, and Phillips Curve convexity. At least one of these asset classes is mispriced.
+
+**Claim 2 — Correlation Regime Instability:**
+The shelter-OER lag resolution (conf 9) will mechanically deliver headline CPI prints that decline, pulling the stock-bond correlation toward positive (both rally on "good" data). But services ex-shelter at 4-5% is the true binding constraint. When the OER drag expires and services persistence is revealed, the correlation flips: bonds sell off on sticky inflation, equities sell off on re-pricing of rate path. The 1983 and 1995 precedents in the KB show this masking-then-revelation pattern has occurred before. The cross-asset consequence is that portfolios constructed for positive stock-bond correlation (the 60/40 assumption) face a regime-dependent reversal.
+
+**Claim 3 — Relative Value in Inflation Optionality vs. Credit:**
+The negative inflation risk premium (-10 to -20bp) in breakevens makes inflation optionality structurally cheap. The TIPS liquidity premium uncertainty (-80bp to +40bp) makes level trades fragile, but optionality captures the right tail without requiring a level view. Meanwhile, credit spreads are artificially compressed by: (a) fiscal deficits suppressing defaults (Kalecki channel, 100-150bp), (b) covenant-lite structures delaying transmission by 12-24 months, and (c) private credit deploying rate-insensitively. These compressors are temporary and regime-dependent. The trade: sell credit risk premium (which is artificially suppressed) to fund long inflation optionality (which is artificially cheap).
+
+**Claim 4 — Mission Accomplished Trap:**
+The three-phase sequencing template shows 4/6 episodes featured premature "mission accomplished" declarations during Phase 2 goods disinflation. The current economy is at the Phase 2/3 transition. The AI-optimism easing trap adds a novel dimension: the Fed may embed AI productivity gains in lower r* estimates before gains materialize, triggering premature easing. The equity wealth channel then amplifies demand, making last-mile services disinflation harder. This creates a self-reinforcing loop: easing → equity rally → wealth effect → demand → services persistence → inflation stays elevated → forced re-tightening → correlation shock.
+
+**Claim 5 — Credit-Equity Basis Widening:**
+This is the most robust cross-asset prediction because it holds under both inflation resolution paths. The `goods_disinflation_composition` concept (conf 7) establishes that supply-normalization disinflation compresses spreads while demand-destruction disinflation widens them. The market currently does not discriminate between these mechanisms. The CLO OC test mechanics (7.5% CCC-bucket threshold) create step-function credit risk that has no equity analogue. Equity benefits from fiscal support (Kalecki channel) and buyback cushion that credit does not share.
+
+**Claim 6 — Real Policy Rate Misperception:**
+If the structural floor is 2.3-2.8% and current core PCE is ~2.7-3.0%, the gap between actual and target is persistently larger than the Fed's Taylor Rule coefficient of 1.0-1.3 accommodates. The Clarida-Galí-Gertler indeterminacy boundary (φ_π < 1) is closer than markets price. Cross-asset implication: the front end prices 3-4 cuts, but if policy is less restrictive than perceived, fewer cuts are needed, and the long end should carry more term premium for the uncertainty about whether the Fed can credibly maintain a 2% target with a de facto 2.3-2.8% floor.
+
+**Claim 7 — Commodity-Equity Correlation Step-Function:**
+The inflation passthrough bimodality (conf 9) establishes a 2-3x multiplier between anchored and de-anchored conditions. The expectations drift mechanism (conf 5, lower confidence) describes how a 25-50bp ratchet can push the system across the regime boundary. If Michigan 5Y-10Y expectations at 3.0-3.2% represent drift rather than noise, the commodity-equity correlation will rise because commodity shocks will force more aggressive central bank response, which reprices equity multiples. The biofuel mandate (energy-food correlation 0.4-0.6 post-2005) means energy and agricultural shocks are now correlated, amplifying the commodity-equity transmission.
+
+## Confidence Assessment
+
+| Claim | Confidence | Justification |
+|-------|-----------|---------------|
+| 1. Cross-asset inconsistency | **8/10** | Directly documented in KB with multiple confirming relationships; the logical contradiction is clear and well-evidenced |
+| 2. Correlation regime instability | **7/10** | Shelter-OER mechanics are high confidence (9), but the timing and magnitude of the correlation flip are uncertain; the 1983/1995 analogues provide partial validation |
+| 3. Inflation optionality vs. credit RV | **7/10** | Both legs are individually well-supported (breakeven underpricing conf 6, credit compression mechanisms conf 6-7), but execution depends on timing and the trade has negative carry |
+| 4. Mission accomplished trap | **7/10** | 4/6 base rate is compelling, but the current cycle has unique features (AI, mortgage lock-in, fiscal) that may alter the sequencing; the AI-optimism easing trap is novel and lower confidence (conf 7) |
+| 5. Credit-equity basis widening | **6/10** | Logically sound under both scenarios, but the timing is uncertain and fiscal support (Kalecki channel) could delay the widening indefinitely; CLO mechanics are partially validated (2020 episode only) |
+| 6. Real policy rate misperception | **6/10** | Structural shift direction is high confidence (~8) but magnitude is uncertain (~5); Taylor Rule coefficient estimate may not be stable across estimation periods |
+| 7. Commodity-equity correlation shift | **5/10** | The passthrough bimodality is high confidence (9) but the expectations drift mechanism is lower confidence (5); the regime boundary location is genuinely unknown |
+
+## Connections to Other Topics
+
+**To Rates/Fixed Income:** The Taylor Rule coefficient decline and structural inflation shift directly affect the term premium debate. If the structural floor is 2.3-2.8%, the term premium should be higher than current levels imply, especially at the 10Y-30Y segment. The rates market's pricing of 3-4 cuts is inconsistent with the services persistence finding unless it is pricing a recession that equity and credit are not.
+
+**To Credit Markets:** The maturity wall ($1.5T+ in 2025-2026 refinancing), CLO OC test mechanics, and covenant-lite transmission delay create a non-linear credit risk surface that interacts with the inflation regime in both directions. Sustained inflation → higher-for-longer rates → maturity wall stress → CLO OC breaches → forced selling → spread widening. But fiscal deficits suppress defaults, creating an unstable equilibrium.
+
+**To Equity Valuation:** The rates-equity valuation linkage is direct: every 50bp of persistent above-target inflation that the market fails to price reduces fair-value P/E by approximately 1-1.5 turns (through the discount rate channel). The AI productivity narrative provides a competing bullish offset, but the KB establishes that AI productivity gains will not materialize within the 2026-2028 policy-relevant horizon (conf 8).
+
+**To FX/Dollar:** A structurally higher US inflation floor with Fed accommodation (reaction asymmetry) implies a weaker real dollar over the medium term, but US rates remaining higher than peers provides carry support. The net effect is a range-bound dollar with increased volatility around inflation data releases — another correlation regime consideration for multi-asset portfolios.
+
+**To Commodities:** The agricultural supply shock transmission and biofuel mandate correlation create a structural link between energy and food commodities that did not exist pre-2005. For portfolio construction, this means commodity diversification benefits are lower than historical correlations suggest, and the energy-food nexus is a concentrated inflation risk factor rather than two independent diversifiers.
+
+## Open Questions
+
+1. **Where exactly is the passthrough regime boundary?** The "anchored but strained" characterization implies proximity to the de-anchoring threshold, but neither survey-based nor market-based measures provide a reliable early-warning signal. This is the single most consequential unknown for cross-asset allocation — a regime shift from anchored to de-anchored changes optimal portfolio construction fundamentally.
+
+2. **Is the Kalecki fiscal channel sustainable?** Fiscal deficits at 6-7% GDP are suppressing defaults and supporting corporate revenues, but this creates a reflexive loop: fiscal support → above-target inflation → higher rates → larger fiscal deficits → more support. At what point does the bond market impose discipline through term premium, and how does that interact with the credit-equity basis?
+
+3. **How will the 2025-2026 Fed framework review interact with the AI-optimism easing trap?** If the framework review formalizes a higher effective target (e.g., average inflation targeting with a longer window, or an explicit range of 2-3%), this removes the "trap" but validates the structural shift. If it maintains 2% and the Fed's revealed behavior continues to show a ~200bp asymmetry, the inconsistency between stated and revealed preferences becomes a source of market volatility.
+
+4. **What is the correct cross-asset hedge for the correlation regime flip?** Traditional hedges (long bonds against equity drawdowns) fail in a stagflationary regime. TIPS provide partial protection but have liquidity premium uncertainty. Commodity exposure hedges the inflation upside but adds volatility. Variance swaps / VIX calls hedge the correlation regime transition itself but are expensive. The optimal hedge structure depends on whether the regime resolves toward sticky-inflation-with-growth (mild stagflation) or sticky-inflation-with-recession (severe stagflation), and these have opposite implications for commodity positioning.
+
+5. **Is the credit market or the equity market the better leading indicator of inflation regime resolution?** Historically, credit leads equity in pricing recession risk (spread widening precedes equity drawdowns by 2-6 months), but the current cycle's covenant-lite structures and private credit deployment may impair credit's leading indicator function. If credit is delayed by 12-24 months (as the KB suggests), equity may lead this time — or neither may lead, and both will reprice simultaneously in a more violent correction.
+
+6. **How does the cross-border dimension (BoJ normalization, Japanese CLO AAA demand) interact with the domestic inflation regime?** Japanese investors are the marginal buyer of US CLO AAA tranches. BoJ normalization could reduce this bid, widening CLO spreads and triggering the OC test mechanics from the demand side rather than the credit quality side. This is an exogenous catalyst for the credit-equity basis widening in Claim 5 that is uncorrelated with the domestic inflation path — a genuine diversified risk factor.

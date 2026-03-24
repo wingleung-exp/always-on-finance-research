@@ -1,0 +1,26 @@
+{
+  "slug": "erp_regime_decomposition",
+  "purpose": "Decomposes the equity risk premium across three methods and two correlation regimes to reveal the conditional overvaluation of US equities and the cross-sectional bifurcation between mega-cap and the rest.",
+  "components": [
+    "Method 1: Fed model spread at ~+30bp (lowest since 2007, critiqued for real/nominal comparison)",
+    "Method 2: DDM-implied ERP ~4.0-5.0% assuming bonds hedge",
+    "Method 3: Cross-sectional decomposition — mega-cap implied ERP ~2.0-3.0% vs. S&P 493 at ~5.0-6.5%",
+    "Regime conditioning: under positive correlation, required ERP rises 50-100bp → fair value ~4,650-4,900 vs. current ~5,500-5,700 (12-18% overvaluation)",
+    "Under negative correlation: approximately fair"
+  ],
+  "current_assessment": "The cross-sectional ERP decomposition reveals a market priced for negative correlation regime persistence and mega-cap dominance. The S&P 493 implied ERP of 5.0-6.5% is consistent with positive correlation pricing while the mega-cap 2.0-3.0% is consistent with negative. The index-level measure masks this bifurcation.",
+  "limitations": [
+    "Entirely conditional on which correlation regime prevails",
+    "Fed model component conflates real and nominal quantities (Asness 2003)",
+    "Cross-sectional decomposition has not been empirically verified against actual cap-weighted vs. equal-weight correlation data",
+    "Mega-cap concentration makes the index-level ERP an average of two very different risk premiums"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

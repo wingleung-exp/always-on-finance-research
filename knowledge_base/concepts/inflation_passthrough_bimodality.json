@@ -1,34 +1,48 @@
 {
   "slug": "inflation_passthrough_bimodality",
   "definition": "Inflation passthrough from shocks to CPI is regime-dependent and non-linear with a 2-3x multiplier between anchored conditions (0.1-0.5pp) and de-anchored conditions (0.5-1.5pp), making linear models structurally wrong and small shocks capable of outsized effects near the regime boundary.",
-  "confidence": 9,
+  "confidence": 9.0,
   "evidence": [
     "30% agricultural shock produces 0.3-0.5pp in DM under anchored vs. 0.8-1.5pp under unanchored conditions",
     "Breakeven passthrough is 0.1-0.3pp when anchored vs. 0.5-0.8pp when de-anchored",
     "Moderate inflation (2-4%) is credit-neutral-to-positive; above 4% becomes credit-destructive",
-    "Builds on highest-confidence prior knowledge base finding at confidence 9"
+    "Builds on highest-confidence prior knowledge base finding at confidence 9",
+    "Cross-country panel data across 40+ economies (Carrière-Swallow et al. 2016, Forbes 2019)",
+    "Replicated across sub-sample analysis (pre/post-GFC), alternative inflation measures, and different shock identification strategies",
+    "Both quant agents independently converge at confidence 9 — the only claim where this occurs",
+    "No agent challenged it; no debate weakened it"
   ],
   "originating_agents": [
     "commodities_analyst_02",
     "credit_analyst_01",
     "generalist_01",
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01"
   ],
   "open_questions": [
     "Where exactly is the regime boundary between anchored and de-anchored passthrough?",
-    "Is the current 'anchored but strained' regime closer to the boundary than markets price?"
+    "Is the current 'anchored but strained' regime closer to the boundary than markets price?",
+    "Where is the regime boundary located in real time?",
+    "Can the boundary be identified with sufficient lead time to be actionable for portfolio positioning?",
+    "What observable indicators best predict proximity to the boundary?"
   ],
   "related_concepts": [
     "expectations_drift",
     "agricultural_supply_shocks",
-    "export_ban_reflexivity"
+    "export_ban_reflexivity",
+    "equity_bond_correlation_sign_flip",
+    "structural_inflation_floor_shift",
+    "commodity_equity_correlation_regime"
   ],
   "topic": "inflation_regimes",
   "created_at": "2026-03-23T05:37:25Z",
-  "last_updated": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-24T07:45:21Z",
   "originating_iteration": "iter_0023",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0023"
+    "iter_0023",
+    "iter_0047"
   ]
 }

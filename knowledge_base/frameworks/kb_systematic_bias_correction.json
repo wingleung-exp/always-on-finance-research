@@ -1,0 +1,26 @@
+{
+  "slug": "kb_systematic_bias_correction",
+  "purpose": "Identifies and corrects systematic overconfidence in the knowledge base on small-sample claims, providing calibration guidance for the entire framework",
+  "components": [
+    "Systematic bias estimate: 1-2 points of overconfidence on claims derived from n≤6 episodes",
+    "Clopper-Pearson bounds for small-sample base rates",
+    "Fisher exact test for conditional probability claims (e.g., p≈0.10 on 1966-69 conditional base rates)",
+    "Correlated-error identification in additive decompositions",
+    "Confirmation bias detection: zero disinflationary scenarios after 47 iterations"
+  ],
+  "current_assessment": "The KB's central thesis is directionally supported but over-confidently calibrated. The systematic bias propagates through the entire framework. Highest-confidence findings are those supported by large cross-country evidence or contractual/arithmetic mechanisms.",
+  "limitations": [
+    "Correction magnitude (1-2 points) is itself estimated",
+    "Does not identify which specific claims are most affected",
+    "Does not provide a replacement calibration methodology",
+    "May over-correct on claims with genuine structural underpinning"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

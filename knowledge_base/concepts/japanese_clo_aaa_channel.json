@@ -1,0 +1,32 @@
+{
+  "slug": "japanese_clo_aaa_channel",
+  "definition": "An estimated $80-120B in Japanese CLO AAA holdings creates a channel linking BOJ normalization to US leveraged loan liquidity. Each 25bp BOJ hike narrows hedged carry pickup by ~15-20bp, potentially reducing demand and constraining CLO formation.",
+  "confidence": 4,
+  "evidence": [
+    "Estimated $80-120B Japanese CLO AAA holdings",
+    "Each 25bp BOJ hike narrows hedged carry by ~15-20bp",
+    "Reduced demand → wider CLO liability spreads → compressed arbitrage → slower formation",
+    "Japanese institutions historically slow to reduce US asset exposure"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Precise sizing of Japanese CLO holdings is difficult to verify",
+    "How quickly would Japanese institutions reduce exposure?",
+    "BOJ normalization track record of non-materialization (actual repatriation ~30% of model-predicted)"
+  ],
+  "related_concepts": [
+    "clo_arbitrage_deterioration",
+    "reserve_manager_deaccumulation",
+    "maturity_wall_regime_interaction"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

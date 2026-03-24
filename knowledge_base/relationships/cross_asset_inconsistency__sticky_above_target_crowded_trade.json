@@ -1,0 +1,20 @@
+{
+  "concept_a": "cross_asset_inconsistency",
+  "concept_b": "sticky_above_target_crowded_trade",
+  "mechanism": "The cross-asset mispricing creates asymmetric payoffs for contrarian positioning. Because the sticky-above-target consensus is already priced, remaining return to consensus is small (10-20bp) while contrarian outcomes produce large moves (50-100bp Treasury rally).",
+  "direction": "a_causes_b",
+  "confidence": 6,
+  "regime_dependence": "Active as long as positioning data confirms crowding (BofA FMS, CFTC data); diminishes if positioning normalizes",
+  "originating_agents": [
+    "challenger_01",
+    "generalist_01"
+  ],
+  "topic": "inflation_regimes",
+  "created_at": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T07:45:21Z",
+  "originating_iteration": "iter_0047",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0047"
+  ]
+}

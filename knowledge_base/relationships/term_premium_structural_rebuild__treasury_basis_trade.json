@@ -1,0 +1,21 @@
+{
+  "concept_a": "treasury_basis_trade",
+  "concept_b": "term_premium_structural_rebuild",
+  "mechanism": "The basis trade functions as synthetic QE, removing duration from private markets and compressing measured term premium by 15-25bp below fair value. Its unwind would release suppressed term premium, with partial unwind (20-40%) adding ~5-10bp and full unwind potentially adding 15-25bp.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Active as long as the trade is profitable (positive cash-futures basis) and repo financing is available. Vulnerable to margin calls, regulatory action, or funding market stress.",
+  "originating_agents": [
+    "rates_strategist_01",
+    "generalist_02",
+    "credit_analyst_02"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

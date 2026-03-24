@@ -1,12 +1,16 @@
 {
   "slug": "services_inflation_persistence",
   "definition": "Services CPI inflation remains sticky at 3.5-4.0% driven by unit labor cost growth of 3.0-4.0%, with a historical base rate of 0/5 for resolution to ≤3% without recession or productivity revolution in post-1960 episodes.",
-  "confidence": 9,
+  "confidence": 8.0,
   "evidence": [
     "0/5 base rate for services CPI returning to ≤3% without recession in post-1960 episodes",
     "Services unit labor cost growth at 3.0-4.0% fully explains persistence via NKPC with Calvo pricing",
     "Services ex-shelter at ~4-5% is the binding constraint on the inflation outlook",
-    "The two partial successes (1991, 2008) both required recessions opening significant output gaps"
+    "The two partial successes (1991, 2008) both required recessions opening significant output gaps",
+    "Services CPI at 3.5-4.0% with unit labor cost support of 3.0-4.0%",
+    "0/5 base rate for resolution without recession (1/7 including 1994-95 productivity-assisted success)",
+    "Clopper-Pearson 95% CI is [0%, 52.2%] — statistically honest framing",
+    "5 episodes are not i.i.d. draws from a stationary process"
   ],
   "originating_agents": [
     "generalist_01",
@@ -14,26 +18,39 @@
     "macro_strategist_01",
     "rates_strategist_02",
     "credit_analyst_01",
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "risk_analyst_01",
+    "commodities_analyst_02"
   ],
   "open_questions": [
     "Can monetary policy resolve services inflation without recession given impaired transmission?",
     "What is the relative contribution of labor costs vs. transmission impairment vs. credit market structure?",
-    "How much of services persistence is structural vs. cyclical?"
+    "How much of services persistence is structural vs. cyclical?",
+    "Can immigration surge of 3-4M workers provide sufficient labor supply relief?",
+    "Can sectoral AI deployment create disinflationary pressure in CPI-relevant services categories?",
+    "Are there novel disinflationary channels with no analogue in the n=5 reference set?",
+    "What is the CPI weight of sub-categories where AI deployment is already live?"
   ],
   "related_concepts": [
     "phillips_curve_convexity",
     "shelter_oer_lag_resolution",
     "structural_inflation_shift",
     "wage_price_spiral_low_risk",
-    "fed_reaction_asymmetry"
+    "fed_reaction_asymmetry",
+    "three_phase_disinflation_sequencing",
+    "structural_inflation_floor_shift",
+    "ai_productivity_sectoral_vs_aggregate",
+    "wage_price_spiral_low_probability",
+    "fiscal_consolidation_gap"
   ],
   "topic": "inflation_regimes",
   "created_at": "2026-03-23T05:37:25Z",
-  "last_updated": "2026-03-23T05:37:25Z",
+  "last_updated": "2026-03-24T07:45:21Z",
   "originating_iteration": "iter_0023",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0023"
+    "iter_0023",
+    "iter_0047"
   ]
 }

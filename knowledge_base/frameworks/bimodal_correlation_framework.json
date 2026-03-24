@@ -1,0 +1,25 @@
+{
+  "slug": "bimodal_correlation_framework",
+  "purpose": "Replaces the standard single-point correlation estimate with a probability-weighted bimodal distribution to capture the oscillating regime, enabling regime-aware portfolio construction and risk management.",
+  "components": [
+    "Regime D (demand-dominant): 55-60% probability, negative correlation (-0.15 to -0.30 at 2Y, negative at 30Y)",
+    "Regime S (supply-dominant): 40-45% probability, positive correlation (+0.10 to +0.35 at 30Y, attenuated at 2Y)",
+    "Mean correlation: approximately -0.06 (misleading for both realized states)",
+    "Falsification thresholds: sustained >+0.35 for 6+ months falsifies oscillation; sustained <-0.20 for 6+ months falsifies positive-structural"
+  ],
+  "current_assessment": "Currently oscillating between regimes on a 3-6 month frequency. The bimodal structure makes a portfolio optimized for mean correlation suboptimal in both realized states. Barbell construction with convexity in both tails is mathematically dominant.",
+  "limitations": [
+    "Probability weights (55-60% / 40-45%) are estimates, not empirically derived from a large sample",
+    "Falsification thresholds proposed but not yet tested",
+    "Framework does not predict transition timing",
+    "Fiscal conditioning and structural changes may shift the probability weights over time"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

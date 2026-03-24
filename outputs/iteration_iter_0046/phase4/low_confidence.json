@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "AI-driven productivity gains (50-100bp annual TFP growth) could resolve the correlation regime toward negative within 3-5 years.",
+    "source_agent": "challenger_01",
+    "needs": "Sustained TFP data showing 50bp+ acceleration; AI capex-to-revenue conversion metrics over 12-18 months; 5Y5Y forward compression as testable signal of disinflationary supply expansion; historical analogue of comparable productivity shock concurrent with fiscal stalemate",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Italy's BTP-FTSE MIB trajectory provides a 12-18 month leading preview of US correlation dynamics.",
+    "source_agent": "generalist_02",
+    "needs": "Formal statistical testing of the chronological alignment beyond visual pattern matching; accounting for institutional differences (ECB vs. Fed, reserve currency, equity composition); out-of-sample validation on additional sovereign-equity pairs",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "EM local currency bonds offer structurally different correlation profiles suitable for 5-10% fixed income allocation.",
+    "source_agent": "fx_strategist_02",
+    "needs": "Stress-testing of diversification benefit during EM crises (Brazilian NTN-B foreign ownership collapsed from ~15-20% to ~5% during 2015-16); controlling for survivorship bias in country selection; evidence that diversification holds precisely when DM Treasuries fail as hedges",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Vol-of-correlation is more important than the correlation level for systematic strategy returns, with 15-25% Sharpe reduction under oscillating regimes.",
+    "source_agent": "generalist_01",
+    "needs": "Empirical calibration of the Sharpe reduction estimate across actual oscillating regime periods; data on vol-targeting strategy behavior during 3-6 month correlation oscillations; formal modeling of the reflexive amplification loop",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The segmented equilibrium thesis: cross-asset inconsistency may reflect rational pricing by segmented investor bases, not mispricing.",
+    "source_agent": "challenger_01",
+    "needs": "Formal model demonstrating stable equilibrium under investor segmentation; empirical test of whether inconsistency narrows during macro shocks (would indicate mispricing) or widens (would support deeper segmentation); analysis of cross-market capital flow barriers",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The momentum-to-quality factor handoff (quality outperforming momentum by ~6-9pp annualized since Q4 2025) is an early warning of correlation regime resolution.",
+    "source_agent": "equity_analyst_01",
+    "needs": "Larger historical sample beyond n=2-3 episodes; controlling for AI-to-value rotation and sector mix effects; establishing the statistical significance of the quality-momentum spread as a leading indicator",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Japanese CLO AAA demand channel links BOJ normalization to US leveraged loan liquidity.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Verified sizing of Japanese CLO AAA holdings; evidence of actual Japanese institutional behavior during prior BOJ tightening episodes; quantification of the marginal impact on CLO liability spreads",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Credit plumbing indicators (CLO formation pace, warehouse health, private credit deployment ratio) should be monitored as supplementary leading indicators.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Larger backtest sample for CLO formation as leading indicator (only n=2, one contaminated); historical calibration data for private credit fundraising/deployment ratio; validation that these indicators add information beyond the IG spread signal",
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  }
+]

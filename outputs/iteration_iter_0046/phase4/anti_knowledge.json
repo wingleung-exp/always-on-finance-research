@@ -1,0 +1,100 @@
+[
+  {
+    "claim": "Japan devastatingly falsifies the fiscal codetermination thesis.",
+    "reason": "BOJ absorbed essentially all net JGB issuance through QQE, neutralizing the fiscal supply channel entirely. Japan demonstrates fiscal supply pressure is neutralized when the central bank is the buyer of last resort — the US is in the opposite condition (QT). Correct inference: fiscal supply matters conditional on the central bank not absorbing it.",
+    "refuted_by": [
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Passive investing extends repricing lag from 18-36 to 36-60 months.",
+    "reason": "March 2020 (passive ~40% AUM) produced 34% peak-to-trough in 23 trading days, contradicting the extended-lag mechanism. Linear extrapolation from two incomparable data points across completely different market microstructures is pseudo-quantitative. Direction plausible but specific doubling is unsupported and creates dangerous complacency.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "60/40 positive total returns prove the death-of-60/40 narrative is wrong.",
+    "reason": "Conflates total return with diversification benefit. 60/40 returned well because equities returned 20%+ in 2023-2024; the bond leg contributed negligibly or negatively. A portfolio carried entirely by the equity allocation is not evidence that the bond hedge works.",
+    "refuted_by": [
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The optimal cross-asset trade is long real assets vs. nominal duration.",
+    "reason": "Internal contradiction: gold at all-time highs despite rising real rates creates entry-point risk, acknowledged by the originating agent. The asymmetry argument depends on probability weights favoring the regime where the trade partially underperforms. The word 'optimal' is not supported by the evidence.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The cross-border carry complex totals $2-3T.",
+    "reason": "Arithmetic error: originating agent's own EM carry components sum to $200-385B, not $200-500B. Adding JPY carry ($500B-$1T) gives $700B-$1.5T total. The $3T upper bound is double the supported figure. The contagion mechanism is sound but the headline number is inflated.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "5Y5Y at 3.8-4.2% represents a permanent structural r-star repricing.",
+    "reason": "Circular reasoning: using a yield-based measure to estimate a concept that determines yields. If 30-40bp of the elevated 5Y5Y is embedded term premium, implied r-star drops to 1.3-1.6% — elevated but not a regime break. 'Elevated for the current fiscal cycle' is defensible; 'permanent' is not.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Recession base rate should be revised downward from 25-30%.",
+    "reason": "Circular reasoning: the economy is resilient because of fiscal deficits, and fiscal deficits are sustainable because the economy is resilient. The Kalecki earnings buffer is contingent on sustained deficits; if deficit reduction becomes necessary, the buffer disappears when most needed. The 25-30% base rate over 18 months is reasonable.",
+    "refuted_by": [
+      "generalist_02",
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "Semi-liquid private credit represents a systemic breaking-the-buck risk.",
+    "reason": "MMFs were cash equivalents embedded in corporate payment systems; semi-liquid PC vehicles are alternatives held by wealth management clients with explicit illiquidity disclosures. Behavioral dynamics are fundamentally different. Mark-based contagion is real but slower and more contained — monitoring item, not systemic risk.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "CLO formation pace should be ranked Tier 0.5 above IG spreads in the signpost hierarchy.",
+    "reason": "Only n=2 evidence (one contaminated by sector-specific energy stress). Cannot rank above IG spreads with 6/7 hit rate across 13 transitions and 5x the backtest data. CLO formation is a useful supplementary indicator, not a superior one.",
+    "refuted_by": [
+      "credit_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "claim": "The S&P 493 likely exhibits robustly positive correlation of +0.3 to +0.5 with rates.",
+    "reason": "The definitive empirical test (cap-weighted vs. equal-weight SPX correlation with 10Y yields) has not been conducted. Presented as evidence for trade construction when it is an untested hypothesis. The directional claim is plausible but the specific range is fabricated.",
+    "refuted_by": [
+      "generalist_02",
+      "equity_analyst_01"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  }
+]

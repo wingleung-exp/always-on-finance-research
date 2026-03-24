@@ -1,0 +1,32 @@
+{
+  "slug": "erp_regime_conditionality",
+  "definition": "The equity risk premium is regime-inconsistent: under positive correlation assumptions, the S&P 500 is 12-18% overvalued (fair value ~4,650-4,900 vs. ~5,500-5,700), while roughly fairly valued under negative correlation assumptions. Three-method decomposition reveals mega-cap implied ERP of ~2.0-3.0% vs. S&P 493 at ~5.0-6.5%.",
+  "confidence": 7,
+  "evidence": [
+    "Fed model spread at ~+30bp, lowest since 2007",
+    "DDM-implied ERP ~4.0-5.0% assuming bonds hedge",
+    "Cross-sectional ERP decomposition labeled 'single most actionable insight' in pair_2 debate",
+    "Under positive correlation, required ERP rises 50-100bp"
+  ],
+  "originating_agents": [
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Entirely conditional on which correlation regime prevails",
+    "Fed model component critiqued for comparing real to nominal quantity (Asness 2003)",
+    "How should capital allocation shift based on conditional ERP?"
+  ],
+  "related_concepts": [
+    "bimodal_correlation_distribution",
+    "equity_concentration_correlation_illusion",
+    "correlation_regime_bifurcation"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

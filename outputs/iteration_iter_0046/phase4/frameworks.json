@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "signpost_hierarchy",
+    "purpose": "Provides a ranked hierarchy of observable indicators for detecting correlation regime transitions, enabling practitioners to monitor the most reliable signals and assess proximity to regime change.",
+    "components": [
+      "Tier 1: IG credit spreads widening >75bp from trough (6/7 hit rate, 18-month lead)",
+      "Tier 2a: Credit-equity Merton basis convergence (5/7 resolution via credit widening)",
+      "Tier 2b: Yield curve un-inversion (currently active, but degraded by term premium dynamics)",
+      "Tier 3: CLO formation pace below $25B/quarter for two consecutive quarters",
+      "Supplementary: Fallen angel flow ($200-400B BBB- at risk), amendment activity (40-50% of leveraged loans), PIK toggle usage"
+    ],
+    "current_assessment": "Only Tier 2b is currently active, but its signal is degraded because ~75% of the un-inversion reflects term premium rather than growth expectations. Tier 1 (IG OAS) near cycle tights (~90-110bp) signals no imminent transition. CLO formation is slowing but not yet at the threshold. Overall assessment: early-to-mid accumulation phase, pre-Phase 2 in the Conundrum sequencing template.",
+    "limitations": [
+      "Covenant-lite structures may extend Tier 1 lead time from 18 to 24-36 months",
+      "Tier 2b degraded by term premium dynamics — must use ACM decomposition to interpret",
+      "CLO formation indicator has only n=2 historical precedents (one contaminated)",
+      "All tiers calibrated on historical data with materially different market microstructure",
+      "Private credit opacity may delay all indicators"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "falsifiable_credit_test",
+    "purpose": "Provides a three-condition test for identifying when credit stress is sufficient to trigger a correlation regime flip toward demand-dominant/negative, producing a 60-70% probability of regime change when all three conditions are met simultaneously.",
+    "components": [
+      "Condition 1: IG OAS widens to >165-185bp",
+      "Condition 2: HY-IG spread differential exceeds >350bp",
+      "Condition 3: Distressed ratio (HY bonds trading >1000bp over Treasuries) exceeds 10%"
+    ],
+    "current_assessment": "No conditions currently met. IG OAS at ~90-110bp (well below 165-185bp threshold). HY-IG differential within normal range. Distressed ratio at ~4-6% (elevated relative to overall tightness, confirming quality bifurcation, but below 10% threshold).",
+    "limitations": [
+      "Calibrated on historical episodes with different credit market structures",
+      "Covenant-lite and private credit opacity may delay conditions being met",
+      "Thresholds may need recalibration if credit market structure has fundamentally changed",
+      "Does not specify time horizon for the 60-70% probability"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "bimodal_correlation_framework",
+    "purpose": "Replaces the standard single-point correlation estimate with a probability-weighted bimodal distribution to capture the oscillating regime, enabling regime-aware portfolio construction and risk management.",
+    "components": [
+      "Regime D (demand-dominant): 55-60% probability, negative correlation (-0.15 to -0.30 at 2Y, negative at 30Y)",
+      "Regime S (supply-dominant): 40-45% probability, positive correlation (+0.10 to +0.35 at 30Y, attenuated at 2Y)",
+      "Mean correlation: approximately -0.06 (misleading for both realized states)",
+      "Falsification thresholds: sustained >+0.35 for 6+ months falsifies oscillation; sustained <-0.20 for 6+ months falsifies positive-structural"
+    ],
+    "current_assessment": "Currently oscillating between regimes on a 3-6 month frequency. The bimodal structure makes a portfolio optimized for mean correlation suboptimal in both realized states. Barbell construction with convexity in both tails is mathematically dominant.",
+    "limitations": [
+      "Probability weights (55-60% / 40-45%) are estimates, not empirically derived from a large sample",
+      "Falsification thresholds proposed but not yet tested",
+      "Framework does not predict transition timing",
+      "Fiscal conditioning and structural changes may shift the probability weights over time"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "compound_analogue_methodology",
+    "purpose": "Synthesizes multiple historical analogues to estimate the current phase of the correlation regime transition and project resolution sequencing, explicitly accounting for the ~30-40% genuine novelty in the current environment.",
+    "components": [
+      "1993-94 Bond Massacre: rate sensitivity and portfolio rebalancing dynamics",
+      "2004-06 Greenspan Conundrum: broken monetary transmission and discontinuous repricing (7.5/10 similarity)",
+      "1966-69 Great Inflation onset: fiscal dominance and Vietnam-era deficit dynamics",
+      "30-40% novelty discount for: passive investing (~50% AUM), basis trade leverage, AI wealth effects, private credit scale",
+      "Phase identification: accumulation (30 months) → contained deterioration (12 months) → discontinuous repricing (6 months)"
+    ],
+    "current_assessment": "Currently assessed at ~36+ months of accumulation, potentially entering or approaching the Phase 2 (contained deterioration) transition. The fiscal deficit conditioning thesis suggests the Phase 1-to-Phase 2 transition may be extended by ~3 years relative to monetary-only models. No exogenous forcing event has yet crystallized.",
+    "limitations": [
+      "Each individual analogue is n=1 with materially different market microstructure",
+      "30-40% novelty estimate is a judgment call, not a calibrated figure",
+      "Passive investing extension effect is unverified (March 2020 contradicts the mechanism)",
+      "Specific vulnerabilities differ from all analogues (basis trade, private credit)"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "kalecki_levy_fiscal_identity_framework",
+    "purpose": "Uses the Kalecki-Levy accounting identity to trace the dual channel through which fiscal deficits simultaneously support corporate earnings and elevate term premium, revealing the paradox that fiscal austerity may be equity-positive at current deficit levels.",
+    "components": [
+      "Earnings channel: ~6.5% deficit/GDP → ~$400-600B annual flow to aggregate corporate profits → ~$15-25 of ~$250-260 S&P EPS",
+      "Term premium channel: $2T+ annual Treasury issuance → 80-130bp adjusted term premium → higher discount rates",
+      "Quality differentiation: aggregate floor does NOT protect firm-level cash flow in leveraged credits",
+      "Austerity paradox: at current deficit levels, P/E expansion from lower term premium may dominate EPS decline from reduced fiscal transfer"
+    ],
+    "current_assessment": "Both channels are currently active. The earnings channel supports near-term equity performance while the term premium channel builds headwinds for duration-sensitive assets. The quality differentiation means credit vulnerability is building beneath the aggregate surface. The austerity paradox remains untested but analytically sound.",
+    "limitations": [
+      "EPS attribution ($15-25) involves many intermediate assumptions; plausible range is $5-40",
+      "The austerity paradox depends on specific magnitude of P/E sensitivity to term premium",
+      "Aggregate identity says nothing about distribution across sectors or quality tiers",
+      "Fiscal path dependency creates circular reasoning risks (economy resilient because of deficits, deficits sustainable because economy resilient)"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  },
+  {
+    "slug": "erp_regime_decomposition",
+    "purpose": "Decomposes the equity risk premium across three methods and two correlation regimes to reveal the conditional overvaluation of US equities and the cross-sectional bifurcation between mega-cap and the rest.",
+    "components": [
+      "Method 1: Fed model spread at ~+30bp (lowest since 2007, critiqued for real/nominal comparison)",
+      "Method 2: DDM-implied ERP ~4.0-5.0% assuming bonds hedge",
+      "Method 3: Cross-sectional decomposition — mega-cap implied ERP ~2.0-3.0% vs. S&P 493 at ~5.0-6.5%",
+      "Regime conditioning: under positive correlation, required ERP rises 50-100bp → fair value ~4,650-4,900 vs. current ~5,500-5,700 (12-18% overvaluation)",
+      "Under negative correlation: approximately fair"
+    ],
+    "current_assessment": "The cross-sectional ERP decomposition reveals a market priced for negative correlation regime persistence and mega-cap dominance. The S&P 493 implied ERP of 5.0-6.5% is consistent with positive correlation pricing while the mega-cap 2.0-3.0% is consistent with negative. The index-level measure masks this bifurcation.",
+    "limitations": [
+      "Entirely conditional on which correlation regime prevails",
+      "Fed model component conflates real and nominal quantities (Asness 2003)",
+      "Cross-sectional decomposition has not been empirically verified against actual cap-weighted vs. equal-weight correlation data",
+      "Mega-cap concentration makes the index-level ERP an average of two very different risk premiums"
+    ],
+    "topic": "rates_equity_correlation",
+    "iteration_id": "iter_0046"
+  }
+]

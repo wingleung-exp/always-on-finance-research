@@ -1702,24 +1702,24 @@
     "avg_confidence": 7.1
   },
   "inflation_regimes": {
-    "concept_count": 21,
-    "relationship_count": 14,
-    "framework_count": 6,
+    "concept_count": 39,
+    "relationship_count": 30,
+    "framework_count": 13,
     "top_concepts": [
       {
         "slug": "inflation_passthrough_bimodality",
-        "confidence": 9,
+        "confidence": 9.0,
         "definition": "Inflation passthrough from shocks to CPI is regime-dependent and non-linear with a 2-3x multiplier between anchored conditions (0.1-0.5pp) and de-anch"
-      },
-      {
-        "slug": "services_inflation_persistence",
-        "confidence": 9,
-        "definition": "Services CPI inflation remains sticky at 3.5-4.0% driven by unit labor cost growth of 3.0-4.0%, with a historical base rate of 0/5 for resolution to \u2264"
       },
       {
         "slug": "shelter_oer_lag_resolution",
         "confidence": 9,
         "definition": "The BLS methodology lag of 12-18 months will mechanically deliver 40-80bp of CPI relief as shelter decelerates from ~5.0% to ~3.5-4.0%, but this is ne"
+      },
+      {
+        "slug": "wage_price_spiral_low_probability",
+        "confidence": 9,
+        "definition": "The probability of a wage-price spiral is low (<10-15%) under current conditions. Only 2 of ~16 post-war cycles produced true spirals, and current con"
       },
       {
         "slug": "wage_price_spiral_low_risk",
@@ -1732,6 +1732,11 @@
         "definition": "AI-driven productivity gains will not resolve services inflation within the 2026-2028 policy-relevant horizon, as historical productivity revolutions "
       },
       {
+        "slug": "equity_bond_correlation_sign_flip",
+        "confidence": 8,
+        "definition": "The equity-bond correlation flips from negative (-0.3 to -0.4) to positive (+0.2 to +0.4) when inflation persistently exceeds ~2.5%, destroying 60/40 "
+      },
+      {
         "slug": "export_ban_reflexivity",
         "confidence": 8,
         "definition": "Game-theoretic coordination failure where food-exporting nations impose export bans during supply shortfalls, amplifying modest production shortfalls "
@@ -1742,45 +1747,58 @@
         "definition": "Core goods CPI at -1% to +0.5% represents the exhaustion of supply-normalization-driven disinflation, with asymmetric risk tilted toward re-inflation "
       },
       {
-        "slug": "ai_optimism_easing_trap",
-        "confidence": 7,
-        "definition": "A non-obvious transmission pathway where the Fed embeds AI productivity gains in lower r* estimates before gains materialize, leading to premature eas"
+        "slug": "services_inflation_persistence",
+        "confidence": 8.0,
+        "definition": "Services CPI inflation remains sticky at 3.5-4.0% driven by unit labor cost growth of 3.0-4.0%, with a historical base rate of 0/5 for resolution to \u2264"
       },
       {
-        "slug": "covenant_lite_transmission_delay",
-        "confidence": 7,
-        "definition": "Covenant-lite loan structures (>90% of leveraged loans) with 15-40% EBITDA addbacks delay the credit channel of monetary policy by 12-24 months by pre"
-      },
-      {
-        "slug": "fed_reaction_asymmetry",
-        "confidence": 7,
-        "definition": "The Fed's revealed reaction function shows a ~200bp asymmetry: easing signaled at core PCE ~3.2% (~100bp above target) while tightening delayed until "
+        "slug": "shelter_oer_mission_accomplished_trap",
+        "confidence": 8,
+        "definition": "The lagged deceleration of OER from ~5.0% to ~3.5-4.0% will deliver 40-80bp of mechanical headline CPI relief, creating a false 'mission accomplished'"
       }
     ],
     "all_concept_slugs": [
       "agricultural_supply_shocks",
       "ai_optimism_easing_trap",
       "ai_productivity_disinflation_timeline",
+      "ai_productivity_sectoral_vs_aggregate",
+      "biofuel_mandate_amplifier",
       "breakeven_right_tail_underpricing",
       "clo_oc_test_mechanics",
+      "compound_analogue_methodology",
       "covenant_lite_transmission_delay",
+      "credit_factor_signal_corruption",
+      "dm_food_cpi_heterogeneity",
+      "dual_policy_error_exposure",
+      "equity_bond_correlation_sign_flip",
       "expectations_drift",
       "export_ban_reflexivity",
+      "export_ban_reflexivity_threshold",
+      "fed_dovish_asymmetry",
       "fed_reaction_asymmetry",
+      "financial_conditions_paradox",
       "first_wave_1966_69_analogue",
+      "fiscal_consolidation_gap",
       "goods_disinflation_completion",
       "goods_disinflation_composition",
       "inflation_passthrough_bimodality",
+      "kb_confirmation_bias",
       "margin_squeeze_spiral",
       "pe_services_consolidation",
       "private_credit_transmission_leak",
       "services_inflation_persistence",
       "shelter_oer_lag_resolution",
+      "shelter_oer_mission_accomplished_trap",
+      "stall_zone_duration",
+      "sticky_above_target_crowded_trade",
+      "structural_inflation_floor_shift",
       "structural_inflation_shift",
       "taylor_rule_coefficient_decline",
+      "three_phase_disinflation_sequencing",
+      "wage_price_spiral_low_probability",
       "wage_price_spiral_low_risk"
     ],
-    "avg_confidence": 6.9
+    "avg_confidence": 6.7
   },
   "labor_market_dynamics": {
     "concept_count": 52,
@@ -1941,7 +1959,7 @@
       },
       {
         "slug": "clo_arbitrage_deterioration",
-        "confidence": 7,
+        "confidence": 7.0,
         "definition": "CLOs purchase ~65-70% of all new institutional leveraged loans. New-issue CLO equity IRR has compressed to 10-12% from 14-18% in 2021-2022, below the "
       },
       {
@@ -1991,10 +2009,15 @@
     "avg_confidence": 6.5
   },
   "rates_equity_correlation": {
-    "concept_count": 90,
-    "relationship_count": 67,
-    "framework_count": 27,
+    "concept_count": 116,
+    "relationship_count": 85,
+    "framework_count": 33,
     "top_concepts": [
+      {
+        "slug": "correlation_regime_bifurcation",
+        "confidence": 9,
+        "definition": "The rates-equity correlation regime is transitional and oscillating, with a defining structural signature of maturity-dependent bifurcation: 2Y-SPX co"
+      },
       {
         "slug": "correlation_regime_shift_portfolio_impact",
         "confidence": 9,
@@ -2039,28 +2062,31 @@
         "slug": "bond_massacre_1993_94_analogue",
         "confidence": 8,
         "definition": "The 1993-94 bond massacre is the highest-similarity historical analogue for the current environment, sharing aggressive Fed tightening demonstrating c"
-      },
-      {
-        "slug": "central_bank_reaction_function_correlation",
-        "confidence": 8,
-        "definition": "The central bank reaction function \u2014 specifically the Taylor Rule inflation coefficient (phi_pi) \u2014 is the key institutional determinant of the stock-b"
       }
     ],
     "all_concept_slugs": [
+      "2s10s_term_premium_decomposition",
+      "asymmetric_transition_timing",
       "backward_looking_reaction_function",
+      "barbell_portfolio_dominance",
       "bimodal_correlation_distribution",
       "boj_normalization_shock",
       "bond_massacre_1993_94_analogue",
       "broken_monetary_transmission",
       "central_bank_reaction_function_correlation",
+      "chinese_ust_geopolitical_selling",
       "convexity_based_hedging",
       "corporate_debt_maturity_wall",
       "correlation_earnings_quality_rotation",
       "correlation_flip_signpost_hierarchy",
+      "correlation_regime_bifurcation",
       "correlation_regime_portfolio_risk",
       "correlation_regime_shift_portfolio_impact",
       "correlation_signpost_hierarchy",
       "corridor_of_instability",
+      "covenant_lite_cycle_delay",
+      "credit_equity_merton_basis",
+      "cross_asset_pricing_disagreement",
       "cross_asset_valuation_inconsistency",
       "cross_country_fiscal_natural_experiments",
       "current_correlation_regime_instability",
@@ -2068,11 +2094,14 @@
       "demand_supply_shock_correlation_taxonomy",
       "demand_supply_shock_variance_ratio",
       "dollar_cycle_persistence",
+      "dollar_smile_correlation_mapping",
       "dollar_three_factor_conjunction",
       "earnings_quality_amplification",
       "effective_taylor_rule_coefficient",
       "equity_concentration_correlation_illusion",
       "equity_valuations_correlation_inconsistency",
+      "erp_regime_conditionality",
+      "fallen_angel_channel",
       "fci_miscalibration",
       "fci_mismeasurement",
       "fci_mismeasurement_positive_correlation",
@@ -2080,6 +2109,7 @@
       "fiscal_correlation_codetermination",
       "fiscal_correlation_determinant",
       "fiscal_correlation_feedback_loop",
+      "fiscal_deficit_transition_extension",
       "fiscal_dynamics_positive_correlation",
       "fiscal_stalemate_transition_duration",
       "fiscal_trajectory_correlation_driver",
@@ -2089,10 +2119,17 @@
       "geopolitical_fiscal_constraints",
       "geopolitical_supply_fragmentation_premium",
       "gold_regime_uncertainty_barometer",
+      "goldilocks_fragility",
+      "greenspan_conundrum_analogue",
+      "ig_credit_leading_indicator",
       "index_concentration_distortion",
       "inflation_expectations_anchoring",
       "inflation_expectations_anchoring_buffer",
+      "japanese_clo_aaa_channel",
+      "kalecki_levy_dual_fiscal_effect",
+      "kalecki_levy_quality_differentiation",
       "maturity_bifurcation_resolution_paths",
+      "maturity_wall_regime_interaction",
       "nairu_upward_shift",
       "negative_correlation_historical_anomaly",
       "non_gaap_duration_masking",
@@ -2107,9 +2144,11 @@
       "qe_qt_independent_channel",
       "r_star_correlation_uncertainty_mapping",
       "r_star_level_shift",
+      "recession_signal_degradation",
       "recession_tail_underweighting",
       "recession_trigger_type",
       "regime_probability_distribution",
+      "reserve_manager_deaccumulation",
       "resolution_sequence_1994_98",
       "ricardian_term_premium_separation",
       "roic_wacc_compression",
@@ -2118,6 +2157,7 @@
       "russia_ukraine_settlement_catalyst",
       "sanctions_driven_correlation_bifurcation",
       "sbc_hidden_equity_duration",
+      "segmented_equilibrium_thesis",
       "seventies_analogue_limitations",
       "soft_landing_correlation_resolution",
       "soft_landing_resolution_impossibility",
@@ -2127,14 +2167,18 @@
       "taylor_rule_inflation_coefficient",
       "term_premium_dynamics",
       "term_premium_leading_indicator",
+      "term_premium_structural_rebuild",
+      "three_bloc_capital_flow_bifurcation",
       "three_condition_conjunction_trigger",
       "three_way_cross_asset_disagreement",
       "transitional_correlation_regime",
       "transitional_oscillating_correlation",
+      "treasury_basis_trade",
       "treasury_basis_trade_fragility",
       "usdjpy_carry_trade_acceleration",
       "usdjpy_carry_trade_accelerator",
       "validating_crisis_requirement",
+      "vol_of_correlation",
       "vol_targeting_amplification",
       "vol_targeting_risk_parity_amplifier"
     ],

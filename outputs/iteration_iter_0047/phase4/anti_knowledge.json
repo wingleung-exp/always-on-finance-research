@@ -1,0 +1,83 @@
+[
+  {
+    "claim": "Breakeven right-tail underpricing as an empirically established mispricing, with inflation risk premium estimate of -10 to -20bp.",
+    "reason": "The inflation risk premium estimate sits within TIPS liquidity premium uncertainty of -80bp to +40bp — a 120bp noise range that is 6-10x the signal. The sign of the inflation risk premium is itself uncertain. Level breakeven trades are not actionable on this basis. KB confidence should be downgraded from 6 to 4.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The Taylor Rule coefficient has declined to 1.0-1.3, estimated from the September 2024 rate cut.",
+    "reason": "Estimated from a single observation with zero degrees of freedom. Conflates the inflation coefficient with the output gap coefficient, the intercept (r*), and FOMC composition. Multi-cycle evidence shows the coefficient is regime- and personnel-dependent. Not a robust econometric result. KB confidence should be downgraded from 7 to 4.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The 1966-69 analogue at 6.5-7.0/10 similarity as an organizing framework for the current cycle.",
+    "reason": "Five non-matching features are individually material: mortgage lock-in (85%+ below 5%), >90% covenant-lite, post-Volcker credibility endowment, demographic structure (1.5%+ vs ~0.5% working-age growth), globalized supply chains. Honest score is 5-6/10. The conditional base rate (3/3 accommodative → second wave) has Fisher p≈0.10, not significant at conventional thresholds. The mechanism (premature easing → re-acceleration) survives; the episode fails as a predictive template.",
+    "refuted_by": [
+      "challenger_01",
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The food-to-wage second-round channel adds 0.2-0.4pp to services wage pressure in developed markets.",
+    "reason": "The causal chain requires low-wage workers to extract additional wages specifically from food costs, when in a tight labor market they may already be extracting maximum gains. The 0.2-0.4pp estimate has no cited empirical basis. Realistic range assessed as 0.05-0.15pp for DM — analytically interesting but not portfolio-relevant.",
+    "refuted_by": [
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The international base rate expansion for services resolution using UK 1992-93, Canada 1996-97, and Australia 2000-01 as comparable episodes.",
+    "reason": "These economies had different CPI compositions (lower services weight), different labor market institutions (more centralized bargaining), and different monetary frameworks (some adopting inflation targeting for the first time). Expanding the denominator with non-comparable episodes corrupts the estimate rather than improving it.",
+    "refuted_by": [
+      "challenger_01",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "The 1946-48 analogue as 'the most relevant' historical parallel for goods re-inflation risk.",
+    "reason": "Post-WWII price control removal was a one-time regime shift; tariffs are incremental and sector-specific. Wartime savings drawdown has no current parallel (savings rates near historical lows). Monetary framework was pre-Accord, fundamentally different. The abstract mechanism (goods disinflation can reverse) survives; the specific historical analogy does not warrant the 'most relevant' designation.",
+    "refuted_by": [
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "Duration crowding will produce 2-4 sigma losses in 2-4 weeks as a specific magnitude and timeline prediction.",
+    "reason": "The claim chains four sequential assumptions: OER relief → mission accomplished narrative → crowding into duration-sensitive assets → specific loss profile. Conjunctive probability of the full chain is substantially lower than any individual link. Three cited analogues (Aug 2007, Q4 2018, March 2020) each had different triggers and mechanisms. The directional concern survives; the specific magnitude and timeline do not.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "claim": "ENSO transition produces a 40-50% calibrated probability of major crop disappointment.",
+    "reason": "'At least one major crop disappointment' across all Southern Hemisphere crops and South/Southeast Asian rice is a wide enough net that even the unconditional rate may approach this once independent trials are properly counted. The definitions of 'major' and 'disappointment' are researcher-specified. The directional claim (ENSO transitions increase weather variance) survives; the quantification does not.",
+    "refuted_by": [
+      "commodities_analyst_02",
+      "quant_researcher_01"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  }
+]

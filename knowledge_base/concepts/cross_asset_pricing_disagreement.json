@@ -1,0 +1,36 @@
+{
+  "slug": "cross_asset_pricing_disagreement",
+  "definition": "A three-to-four-way cross-asset pricing inconsistency where equities (21-22x P/E) price no recession and negative correlation, bonds (80-130bp term premium) price positive correlation, credit (IG OAS ~90-110bp) prices neither stress nor recession, and private credit (NAVs at par) prices neither defaults nor widening. Credit is the most mispriced leg.",
+  "confidence": 8,
+  "evidence": [
+    "Credit-equity basis (Merton-implied IG ~140-180bp vs. actual ~90-110bp) is widest since 2007",
+    "5/7 historical episodes resolved via credit widening",
+    "Credit inconsistent with BOTH regime outcomes: Regime D → spreads widen 200-400bp; Regime S → ROIC-WACC compression should produce wider spreads",
+    "Inconsistency has persisted 3+ years"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "equity_analyst_01",
+    "credit_analyst_02",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Is this mispricing or segmented equilibrium reflecting rational pricing by segmented investor bases?",
+    "What macro shock would narrow or widen the inconsistency?",
+    "Does 3+ years of persistence constitute evidence of equilibrium?"
+  ],
+  "related_concepts": [
+    "credit_equity_merton_basis",
+    "segmented_equilibrium_thesis",
+    "covenant_lite_cycle_delay",
+    "ig_credit_leading_indicator"
+  ],
+  "topic": "rates_equity_correlation",
+  "created_at": "2026-03-24T03:39:05Z",
+  "last_updated": "2026-03-24T03:39:05Z",
+  "originating_iteration": "iter_0046",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0046"
+  ]
+}

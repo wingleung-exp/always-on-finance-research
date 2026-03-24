@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "three_phase_disinflation_model",
+    "purpose": "Identifies the sequential pattern of disinflation and associated risk windows, particularly the mission accomplished trap during the Phase 2 shelter-to-services transition",
+    "components": [
+      "Phase 1: Goods disinflation via supply chain normalization and base effects",
+      "Phase 2: Shelter/OER deceleration delivering 40-80bp mechanical headline CPI relief",
+      "Phase 3: Services ex-shelter resolution — the binding constraint, historically requiring demand destruction",
+      "Trap identification: 4/6 base rate for premature 'mission accomplished' during Phase 2",
+      "Exception condition: productivity growth >2.5% (1995 precedent)"
+    ],
+    "current_assessment": "Currently transitioning from Phase 1 to Phase 2. OER deceleration expected Q2-Q4 2026. Services ex-shelter at 3.5-4.0% with strong unit labor cost support. The trap window is the highest-conviction near-term risk across all agents.",
+    "limitations": [
+      "Pattern-matched from only 6 episodes with researcher degrees of freedom in defining phases",
+      "Susceptible to hindsight bias without pre-registered predictions",
+      "Confidence 6/10 — useful heuristic, not a precision timing model",
+      "Cannot time factor rotations or sector trades at the specificity some agents attempt"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "compound_analogue_scoring",
+    "purpose": "Provides multi-dimensional similarity assessment across historical episodes rather than relying on any single analogue, acknowledging structural novelties that limit all analogues to <7.0/10 similarity",
+    "components": [
+      "Seven-dimension scoring matrix for historical episode comparison",
+      "Structural novelty identification: mortgage lock-in (85%+ below 5%), >90% covenant-lite, AI investment cycle, simultaneous deglobalization + fiscal expansion at 6-7% GDP",
+      "Composite scoring weighted by dimension relevance",
+      "Explicit treatment of non-matching features as individually material"
+    ],
+    "current_assessment": "No single analogue scores above 7.0/10. The 1966-69 analogue downgraded from 6.5-7.0 to 5-6/10 after accounting for five material non-matches. Compound approach judged stronger than single-analogue reliance by pair_0 debate.",
+    "limitations": [
+      "Dimension weights are subjective, creating an illusion of objectivity",
+      "Outcome distributions may be wider than any analogue framework suggests",
+      "At the point of compound structural novelty, analogue-based reasoning may be approaching unreliability",
+      "Does not produce actionable timing signals"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "triple_vulnerability_stack",
+    "purpose": "Models the interaction effects of three concurrent vulnerabilities as a system that could produce unprecedented crisis sequencing through a delay-then-burst mechanism",
+    "components": [
+      "Fed dovish asymmetry: premature easing creates macro conditions for stress",
+      "Covenant-lite delay: >90% covenant-lite with EBITDA addbacks delays default recognition 12-24 months",
+      "CLO OC mechanics: overcollateralization test failures cascade through structured credit",
+      "Interaction effect: delay-then-burst mechanism where opacity creates information gaps resolving suddenly",
+      "Analogues: LTCM, SVB — both involved opacity-driven sudden resolution"
+    ],
+    "current_assessment": "Each component individually documented at moderate-to-high confidence, but the three-way interaction is theorized rather than empirically observed. No historical precedent for this exact combination. Confidence 5/10 — valuable as monitoring framework, not actionable as positioning signal.",
+    "limitations": [
+      "No historical precedent for the exact three-way interaction",
+      "Timing uncertainty is extreme",
+      "Each component's causal contribution is an identification problem",
+      "Counterfactual (behavior without one component) is unobservable"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "asymmetric_payoff_analysis",
+    "purpose": "Evaluates whether contrarian positioning risk-reward is superior to consensus by comparing payoff ratios against positioning crowding, regardless of probability-weighted expected outcomes",
+    "components": [
+      "Consensus positioning measurement: BofA Global FMS, CFTC data, breakeven levels",
+      "Payoff asymmetry calculation: 50-100bp Treasury rally (contrarian) vs. 10-20bp remaining return (consensus)",
+      "Payoff ratio: 3:1 to 5:1 favoring contrarian scenario",
+      "Falsification criteria: three consecutive core PCE ≤0.2% m/m, services ex-shelter <3.5% without unemployment >4.5%",
+      "Continuous positioning data monitoring requirement"
+    ],
+    "current_assessment": "The sticky-above-target consensus is the most crowded macro view. Even at 55-60% probability for consensus, the contrarian payoff ratio is 3:1 to 5:1. Identified as the single most actionable insight across all agents. Position sizing should reflect payoff asymmetry, not just probability-weighted expectations.",
+    "limitations": [
+      "Requires continuous monitoring of positioning data",
+      "Payoff ratio estimates depend on current positioning levels which can shift",
+      "Does not specify optimal position size or structure",
+      "Contrarian view requires only that consensus is priced, not that inflation returns to 2%"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "conjunctive_probability_spiral_assessment",
+    "purpose": "Assesses wage-price spiral probability through conjunctive prerequisite analysis requiring simultaneous satisfaction of multiple independent conditions",
+    "components": [
+      "Union density threshold",
+      "COLA coverage threshold",
+      "Sustained wage growth >5%",
+      "Expectations de-anchoring",
+      "Historical base rate: 2/~16 post-war cycles",
+      "Current conditions assessment: 0/3-4 prerequisites satisfied"
+    ],
+    "current_assessment": "Probability <10-15% under current conditions. 2021-23 natural experiment (2/3 conditions temporarily met, no spiral) provides genuine out-of-sample validation. Structural decline in union density and COLA coverage is secular.",
+    "limitations": [
+      "Assumes the historical prerequisite set is complete",
+      "Novel labor market structures could create spiral risk through different channels",
+      "Conjunctive probability framework requires independence assumption across prerequisites"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "financial_conditions_paradox_model",
+    "purpose": "Models the reflexive loop where falling headline inflation loosens financial conditions, extending credit cycles while the underlying inflation regime remains unresolved",
+    "components": [
+      "Trigger: headline CPI declines (typically shelter-driven)",
+      "Transmission: loosened financial conditions via rates expectations, credit spreads, equity valuations",
+      "Credit extension: credit cycle extended by 12-18 months beyond fundamentals",
+      "Resolution: delayed but amplified correction when underlying regime asserts",
+      "Exception condition: genuine productivity acceleration >2.5% validates the loosening ex post"
+    ],
+    "current_assessment": "4/5 historical episodes (1967-68, 1984-85, 1995-96, 2005-06) show the pattern. The 1995-96 exception required productivity growth absent today. Directly challenges near-term credit repricing timing assumptions.",
+    "limitations": [
+      "Small sample of 5 episodes",
+      "Exception condition (productivity) is hard to identify in real time",
+      "Does not specify the magnitude of the eventual correction",
+      "Interaction with covenant-lite and fiscal support is unprecedented"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  },
+  {
+    "slug": "kb_systematic_bias_correction",
+    "purpose": "Identifies and corrects systematic overconfidence in the knowledge base on small-sample claims, providing calibration guidance for the entire framework",
+    "components": [
+      "Systematic bias estimate: 1-2 points of overconfidence on claims derived from n≤6 episodes",
+      "Clopper-Pearson bounds for small-sample base rates",
+      "Fisher exact test for conditional probability claims (e.g., p≈0.10 on 1966-69 conditional base rates)",
+      "Correlated-error identification in additive decompositions",
+      "Confirmation bias detection: zero disinflationary scenarios after 47 iterations"
+    ],
+    "current_assessment": "The KB's central thesis is directionally supported but over-confidently calibrated. The systematic bias propagates through the entire framework. Highest-confidence findings are those supported by large cross-country evidence or contractual/arithmetic mechanisms.",
+    "limitations": [
+      "Correction magnitude (1-2 points) is itself estimated",
+      "Does not identify which specific claims are most affected",
+      "Does not provide a replacement calibration methodology",
+      "May over-correct on claims with genuine structural underpinning"
+    ],
+    "topic": "inflation_regimes",
+    "iteration_id": "iter_0047"
+  }
+]

@@ -1,34 +1,51 @@
 {
   "slug": "covenant_lite_default_delay",
   "definition": "Covenant-lite structures dominate >90% of leveraged loans, delaying default recognition by an estimated 12-24 months and lowering eventual recovery rates from historical ~70 cents to 40-50 cents. This creates a systematic late-cycle timing error in any model using default rates as a cycle-identification input.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "S&P/Moody's data confirms defaults remain artificially low then spike",
     "Recovery rates declined from historical ~70 cents to 40-50 cents",
     "Less gradual rolling pattern than covenanted cycles",
     "pair_1 confirmed as well-supported",
-    "Meta-point: any default-rate-based model is structurally lagged"
+    "Meta-point: any default-rate-based model is structurally lagged",
+    ">90% covenant-lite is an observable market structure fact",
+    "15-40% EBITDA addback phenomenon overstates credit quality metrics",
+    "Delay-then-burst mechanism has structural analogues (LTCM, SVB — opacity creates information gaps resolving suddenly)",
+    "2020 episode too brief and rapidly reversed by policy to be fully informative"
   ],
   "originating_agents": [
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "quant_researcher_02",
+    "risk_analyst_01"
   ],
   "open_questions": [
     "Is the 12-24 month delay estimate robust given limited sample of cov-lite cycles?",
     "How does cov-lite interact with private credit refinancing to further delay recognition?",
-    "What alternative signals can substitute for default rates in cycle identification?"
+    "What alternative signals can substitute for default rates in cycle identification?",
+    "What is the counterfactual Phillips Curve behavior without covenant-lite?",
+    "How much of the delay effect survives in market-implied distress measures (CDS-implied PD, option-adjusted spreads)?",
+    "When does the maturity wall force recognition?"
   ],
   "related_concepts": [
     "private_credit_opacity",
     "ebitda_addback_distortion",
     "maturity_wall",
-    "leading_indicator_degradation"
+    "leading_indicator_degradation",
+    "kalecki_fiscal_channel",
+    "credit_factor_signal_corruption",
+    "triple_vulnerability_stack",
+    "financial_conditions_paradox"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-24T07:45:21Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0002"
+    "iter_0002",
+    "iter_0047"
   ]
 }
