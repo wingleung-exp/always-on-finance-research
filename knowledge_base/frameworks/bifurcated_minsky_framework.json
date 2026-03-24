@@ -1,0 +1,26 @@
+{
+  "slug": "bifurcated_minsky_framework",
+  "purpose": "Assesses financial fragility by sector rather than in aggregate, identifying which sectors are in hedge, speculative, or Ponzi financing positions and how crisis propagates through the sectoral structure",
+  "components": [
+    "Household balance sheet assessment (DSR, mortgage lock-in, net worth)",
+    "Corporate financing position classification (hedge/speculative/Ponzi share)",
+    "Covenant-lite impact on Minsky phase transitions (elimination of speculative phase)",
+    "Cross-sector transmission channels (corporate crisis with household insulation)",
+    "Historical analogue mapping (2001 vs 2008 topology)"
+  ],
+  "current_assessment": "Households firmly in hedge position (DSR 9.7%, 95% locked mortgages). Corporate sector transitioning from speculative to Ponzi at the margin (40%+ unprofitable, declining hedge share from ~70% to ~55-60%). Novel crisis topology implies 2001-like sharp-but-shallow downturn. No clean historical precedent for this bifurcation.",
+  "limitations": [
+    "No historical precedent for this exact bifurcation makes outcome prediction unreliable",
+    "Private credit opacity ($1.8T) obscures true corporate financing position",
+    "Threshold for corporate distress breaching household insulation is unknown",
+    "The framework does not account for non-financial transmission channels (confidence, employment)"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-24T08:04:39Z",
+  "last_updated": "2026-03-24T08:04:39Z",
+  "originating_iteration": "iter_0048",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0048"
+  ]
+}

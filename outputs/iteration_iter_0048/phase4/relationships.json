@@ -1,0 +1,266 @@
+[
+  {
+    "concept_a": "unprecedented_fiscal_configuration",
+    "concept_b": "kalecki_profit_channel_erosion",
+    "mechanism": "Large fiscal deficits support corporate profits via the Kalecki identity, but as deficit composition shifts toward interest payments (low MPC) from transfers (high MPC), each deficit dollar generates less demand and profit support",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as deficit composition continues shifting toward interest payments; would reverse if composition shifted back toward high-MPC spending",
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "unprecedented_fiscal_configuration",
+    "concept_b": "fed_policy_trap",
+    "mechanism": "The fiscal stance prevents monetary tightening from gaining traction (deficit spending offsets restraint) while generating above-target inflation that prevents easing",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds under current configuration of large deficits at full employment with above-target inflation; would weaken in a recession scenario where fiscal and monetary objectives realign",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "covenant_lite_saturation",
+    "concept_b": "bifurcated_minsky_fragility",
+    "mechanism": "Covenant-lite loans eliminate the speculative phase of Minsky's taxonomy, allowing borrowers to appear as hedge financing while actually in or near Ponzi positions. This masks corporate fragility until cash flow failure triggers sudden revelation.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Structural feature of the current credit market; would only reverse through regulatory intervention or a full credit cycle reset",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "treasury_basis_trade",
+    "concept_b": "term_premium_fiscal_floor",
+    "mechanism": "The basis trade provides synthetic demand that suppresses yields by 25-40bp, masking the true fiscal supply premium. An unwind would reveal the fiscal floor at a higher level, potentially triggering a discontinuous repricing.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as basis trade positions remain large; the relationship becomes acute during unwind events when synthetic demand disappears and fiscal supply is fully priced",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "term_premium_fiscal_floor",
+    "concept_b": "hy_maturity_wall",
+    "mechanism": "The fiscal term premium floor maintains elevated all-in refinancing costs even after Fed cuts, creating a non-linear interaction where issuers face 200-300bp above-origination costs. For leveraged borrowers, this pushes coverage ratios below distress thresholds.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Binding during the 2025-2027 maturity wall window; would ease if term premium compressed or if issuers had access to alternative non-rate-sensitive funding",
+    "originating_agents": [
+      "credit_analyst_01",
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "fed_policy_trap",
+    "concept_b": "hy_maturity_wall",
+    "mechanism": "The Fed's inability to ease aggressively (constrained by inflation) means the monetary offset that historically smoothed maturity walls is unavailable. Even 150bp of cuts leave all-in costs 200-300bp above origination for sub-IG borrowers.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as core PCE remains above ~2.5% preventing aggressive easing; would break if a deflationary shock enabled rapid cutting",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "kalecki_profit_channel_erosion",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "Equity valuations (21-22x) partially depend on the Kalecki profit floor. As deficit composition erodes this floor, the profit support underpinning equity multiples weakens while credit spreads should widen to reflect reduced corporate cash flow support — creating the observed inconsistency.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strengthens as interest expense share of deficit grows; would weaken if new high-MPC fiscal programs were enacted",
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "covenant_lite_saturation",
+    "concept_b": "credit_mispricing",
+    "mechanism": "By eliminating early warning signals (covenant triggers, amendment activity), covenant-lite saturation allows credit spreads to remain compressed longer than fundamentals warrant, building up larger eventual repricing.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Permanent structural feature until covenant-lite share declines; creates asymmetric risk of sudden large repricing vs gradual adjustment",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "reserve_diversification_structural",
+    "concept_b": "treasury_basis_trade",
+    "mechanism": "As price-insensitive foreign official buyers diversify away from USTs, the marginal buyer shifts to price-sensitive basis traders. This increases the velocity and amplitude of any repricing event, as the remaining buyer base has no mandate to hold through drawdowns.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Accelerates as official holdings decline further below 23%; decelerates if geopolitical realignment reverses diversification",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "global_sovereign_duration_supply",
+    "concept_b": "term_premium_fiscal_floor",
+    "mechanism": "The aggregate supply of sovereign duration (US + Europe + Japan + QT) creates a structural floor under term premium by saturating private sector absorption capacity. More supply requires higher term premium to clear the market.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds and strengthens as supply increases; would weaken if central banks resumed large-scale QE or private savings rates increased dramatically",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "european_rearmament_expansion",
+    "concept_b": "global_sovereign_duration_supply",
+    "mechanism": "European defense spending ($100-150B/yr incremental) adds to global sovereign duration supply through new government bond issuance, with a ratchet property making it difficult to reverse.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Locked in by legislative commitments; holds for the duration of the defense spending programs",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "unprecedented_fiscal_configuration",
+    "concept_b": "em_vulnerability_bifurcation",
+    "mechanism": "US fiscal deficits drive commodity demand via the Kalecki channel, benefiting Cluster A surplus commodity exporters while the resulting dollar strength and tighter global financial conditions harm Cluster B deficit importers at 5-10x DM speed.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds while US deficits remain large and commodity-intensive; direction reverses under fiscal consolidation for Cluster A",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "private_credit_obscuring",
+    "concept_b": "bifurcated_minsky_fragility",
+    "mechanism": "Private credit's $1.8T of mark-to-model assets and PIK/extend-and-amend capacity absorbs corporate distress that would otherwise be visible in public markets, making the true level of corporate Minsky fragility appear lower than it actually is.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Holds as long as private credit can maintain extend-and-amend; breaks when LP redemptions or fund-level liquidity constraints force marking",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "doge_underdelivery",
+    "concept_b": "unprecedented_fiscal_configuration",
+    "mechanism": "DOGE underdelivery means the fiscal consolidation needed to reduce the unprecedented deficit configuration will not materialize, perpetuating the 0/74 regime and all its downstream implications.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds under current political constraints; could weaken under severe market pressure forcing bipartisan fiscal action",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "bifurcated_minsky_fragility",
+    "concept_b": "doom_loop_tail_risk",
+    "mechanism": "Corporate Minsky fragility is one link in the doom loop chain. A corporate credit event could trigger basis trade unwinds and term premium spikes, feeding back into fiscal costs. But household insulation limits systemic propagation, reducing the doom loop from central scenario to tail risk.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Household insulation holds as long as mortgage rates remain locked below 5% and labor market remains strong; a housing repricing event would remove the insulation",
+    "originating_agents": [
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "stock_bond_correlation_split",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "The maturity-dependent correlation split is a manifestation of the broader cross-asset inconsistency: the front end prices one regime (Fed eventually easing) while the long end prices another (fiscal dominance), both of which cannot simultaneously resolve.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both emerge from the same underlying tension between monetary and fiscal signals; resolves when one regime definitively wins",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "clo_fiscal_reflexivity",
+    "concept_b": "hy_maturity_wall",
+    "mechanism": "CLO equity tranches underwritten at 2-3% defaults are Kalecki-dependent. Fiscal consolidation raises defaults, reducing CLO creation, collapsing leveraged loan demand, and amplifying the maturity wall by removing a key funding channel.",
+    "direction": "bidirectional",
+    "confidence": 4,
+    "regime_dependence": "Activates only if fiscal consolidation is large enough to raise defaults above CLO equity tranche assumptions; dormant under current deficit levels",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "concept_a": "treasury_basis_trade",
+    "concept_b": "doom_loop_tail_risk",
+    "mechanism": "The basis trade unwind is a key link in the doom loop chain. At $800B-$1T and 50-100x leverage, an unwind would require massive Fed intervention that is constrained by the inflation context, potentially triggering disorderly yield repricing.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Risk increases with basis trade size and leverage; requires a trigger event (liquidity shock, margin call cascade, regulatory change) to activate",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "challenger_02"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  }
+]

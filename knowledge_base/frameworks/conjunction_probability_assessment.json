@@ -1,0 +1,26 @@
+{
+  "slug": "conjunction_probability_assessment",
+  "purpose": "Provides a disciplined probability framework for evaluating multi-link causal chains like the fiscal doom loop, preventing narrative bias from treating sequential scenarios as high-probability",
+  "components": [
+    "Independent link probability estimation (per-link assessment)",
+    "Joint probability computation (multiplicative for independent events)",
+    "Correlation adjustment (conditional probabilities for causally linked events)",
+    "Survivorship bias correction (accounting for non-crisis episodes in the denominator)",
+    "Reserve currency exceptionalism discount (level shift vs delay mechanism)"
+  ],
+  "current_assessment": "Doom loop at six independent links yields ~5% joint probability. Correlation adjustment raises to 15-30%. Reserve currency status reduces from IMF base rate 35-40% to 8-12% for disorderly adjustment. The narrative treatment systematically overstates probability by treating chains as sequential rather than computing joint probabilities.",
+  "limitations": [
+    "Link probabilities themselves are subjective estimates",
+    "Correlation structure between links is poorly understood",
+    "The framework cannot distinguish between structural resilience and luck",
+    "Independence vs correlation of failures is the dominant uncertainty and is itself unestimatable"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-24T08:04:39Z",
+  "last_updated": "2026-03-24T08:04:39Z",
+  "originating_iteration": "iter_0048",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0048"
+  ]
+}

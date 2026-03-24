@@ -1253,9 +1253,9 @@
     "avg_confidence": 6.5
   },
   "fiscal_policy": {
-    "concept_count": 41,
-    "relationship_count": 26,
-    "framework_count": 9,
+    "concept_count": 62,
+    "relationship_count": 44,
+    "framework_count": 15,
     "top_concepts": [
       {
         "slug": "fiscal_multiplier_deep_uncertainty",
@@ -1273,6 +1273,11 @@
         "definition": "When analyzing an explicitly 'unprecedented' regime, confidence in predictions about its effects should decrease, not increase. Assigning 9/10 confide"
       },
       {
+        "slug": "covenant_lite_saturation",
+        "confidence": 8,
+        "definition": "Over 90% of leveraged loans are now covenant-lite, eliminating the traditional credit cycle early warning system. Pre-2010, 25-30% covenant-lite allow"
+      },
+      {
         "slug": "debt_gdp_threshold_debunked",
         "confidence": 8,
         "definition": "No robust nonlinear debt/GDP threshold exists in the data. The Reinhart-Rogoff '90% threshold' was debunked (Herndon-Ash-Pollin 2013). A modest linear"
@@ -1283,14 +1288,14 @@
         "definition": "The governing coalition's most federally dependent electoral base ($1.30-$1.80 received per tax dollar) creates a political economy paradox for DOGE: "
       },
       {
-        "slug": "doge_underdelivery",
-        "confidence": 8,
-        "definition": "DOGE will substantially underdeliver against announced targets, with achievable deficit reduction of $50-200B against $1-2T announced. 70% mandatory s"
-      },
-      {
         "slug": "expansionary_austerity_debunked",
         "confidence": 8,
         "definition": "The Alesina-Ardagna (2010) 'expansionary austerity' result does not survive narrative identification methodology (Guajardo et al. 2014). Under proper "
+      },
+      {
+        "slug": "fed_policy_trap",
+        "confidence": 8,
+        "definition": "The Fed is simultaneously constrained from easing by above-target inflation (core PCE ~2.6-2.8%) and constrained from tightening by fiscal/financial f"
       },
       {
         "slug": "fiscal_supply_duration_pricing",
@@ -1301,11 +1306,6 @@
         "slug": "g7_fiscal_divergence_extreme",
         "confidence": 8,
         "definition": "G7 fiscal divergence is at its widest since post-WWII: U.S. at -6.5 to -7.0% of GDP, Euro Area ~-3%, Canada ~-1.5 to -2.0%, Germany ~-2%, Japan ~-4% a"
-      },
-      {
-        "slug": "opec_fiscal_breakeven_supply_constraint",
-        "confidence": 8,
-        "definition": "OPEC+ fiscal breakeven oil prices constrain the global supply response. Aggregate weighted breakeven: $78-85/bbl (Saudi $85-96, UAE $60-65, Iraq $85-9"
       }
     ],
     "all_concept_slugs": [
@@ -1313,9 +1313,14 @@
       "basis_trade_fiscal_amplification",
       "bifurcated_minsky_fragility",
       "china_commodity_demand_mix_shift",
+      "clo_fiscal_reflexivity",
       "confidence_calibration_regime_novelty",
       "consolidation_recession_conditional_probability",
+      "copper_iron_ore_ratio_signal",
       "correlation_regime_taxonomy",
+      "covenant_lite_saturation",
+      "credit_impulse_blind_spot",
+      "credit_mispricing",
       "cross_asset_inconsistency",
       "crowding_out_post2008_attenuation",
       "debt_gdp_threshold_debunked",
@@ -1323,35 +1328,51 @@
       "doge_political_economy_paradox",
       "doge_realization_gap",
       "doge_underdelivery",
+      "doge_usaid_em_spillover",
       "doom_loop_slow_burn",
+      "doom_loop_tail_risk",
+      "em_vulnerability_bifurcation",
       "equity_implied_hy_spread_divergence",
+      "european_rearmament_expansion",
       "european_rearmament_fiscal_shift",
       "expansionary_austerity_debunked",
+      "fed_policy_trap",
       "financial_repression_analogue",
+      "financial_repression_improbability",
       "fiscal_contraction_multiplier_asymmetry",
       "fiscal_dominance_early_stage",
       "fiscal_multiplier_deep_uncertainty",
       "fiscal_supply_duration_pricing",
+      "fiscal_tariff_stagflation",
       "fiscal_uncanny_valley",
+      "five_year_five_year_forward_node",
       "g7_fiscal_divergence_extreme",
       "geopolitical_spending_floor",
+      "global_sovereign_duration_supply",
       "gold_fiscal_dominance_pricing",
+      "guns_and_butter_analogue",
+      "hy_maturity_wall",
       "kalecki_channel_empirical_partial",
       "kalecki_profit_channel_erosion",
       "monetary_policy_trap",
       "opec_fiscal_breakeven_supply_constraint",
+      "private_credit_obscuring",
       "r_g_transition_sustainability",
       "reserve_currency_exceptionalism",
+      "reserve_diversification_structural",
       "sectoral_balance_constraint",
       "single_factor_dominance_bias",
       "sovereign_downgrade_threshold",
+      "stock_bond_correlation_split",
+      "tbac_dominance",
       "tbill_maturity_shortening_risk",
+      "term_premium_fiscal_floor",
       "term_premium_fiscal_supply_nonlinear",
       "treasury_basis_trade_amplification",
       "unprecedented_fiscal_configuration",
       "us_china_fiscal_accelerator"
     ],
-    "avg_confidence": 6.7
+    "avg_confidence": 6.4
   },
   "fx_rates_divergence": {
     "concept_count": 86,

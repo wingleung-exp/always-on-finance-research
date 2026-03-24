@@ -1,0 +1,40 @@
+{
+  "slug": "fed_policy_trap",
+  "definition": "The Fed is simultaneously constrained from easing by above-target inflation (core PCE ~2.6-2.8%) and constrained from tightening by fiscal/financial fragility. The Taylor Rule prescribes 75-150bp above the current stance, meaning the Fed is already quasi-accommodative. The March 2020 emergency QE playbook is unavailable in an inflationary context.",
+  "confidence": 8,
+  "evidence": [
+    "Taylor Rule prescribes 75-150bp above current stance",
+    "Core PCE at ~2.6-2.8% prevents easing",
+    "0/7 base rate for successful consolidation without 200bp+ monetary offset",
+    "Even 150bp of cuts leave all-in refinancing costs 200-300bp above original issuance for sub-IG",
+    "No curve path resolves both monetary and fiscal signals simultaneously",
+    "Six agents converge from different frameworks"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "Under what conditions could the Fed credibly ease without reigniting inflation expectations?",
+    "Is there a non-traditional policy tool that resolves the trap without full QE?"
+  ],
+  "related_concepts": [
+    "unprecedented_fiscal_configuration",
+    "term_premium_fiscal_floor",
+    "cross_asset_inconsistency",
+    "hy_maturity_wall",
+    "doom_loop_tail_risk"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-24T08:04:38Z",
+  "last_updated": "2026-03-24T08:04:38Z",
+  "originating_iteration": "iter_0048",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0048"
+  ]
+}

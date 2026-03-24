@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "bifurcated_minsky_framework",
+    "purpose": "Assesses financial fragility by sector rather than in aggregate, identifying which sectors are in hedge, speculative, or Ponzi financing positions and how crisis propagates through the sectoral structure",
+    "components": [
+      "Household balance sheet assessment (DSR, mortgage lock-in, net worth)",
+      "Corporate financing position classification (hedge/speculative/Ponzi share)",
+      "Covenant-lite impact on Minsky phase transitions (elimination of speculative phase)",
+      "Cross-sector transmission channels (corporate crisis with household insulation)",
+      "Historical analogue mapping (2001 vs 2008 topology)"
+    ],
+    "current_assessment": "Households firmly in hedge position (DSR 9.7%, 95% locked mortgages). Corporate sector transitioning from speculative to Ponzi at the margin (40%+ unprofitable, declining hedge share from ~70% to ~55-60%). Novel crisis topology implies 2001-like sharp-but-shallow downturn. No clean historical precedent for this bifurcation.",
+    "limitations": [
+      "No historical precedent for this exact bifurcation makes outcome prediction unreliable",
+      "Private credit opacity ($1.8T) obscures true corporate financing position",
+      "Threshold for corporate distress breaching household insulation is unknown",
+      "The framework does not account for non-financial transmission channels (confidence, employment)"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "kalecki_profit_equation_framework",
+    "purpose": "Quantifies the contribution of government fiscal deficits to aggregate corporate profits and assesses how deficit composition changes alter the profit floor",
+    "components": [
+      "Government deficit as corporate profit source (Kalecki identity)",
+      "MPC-weighted composition analysis (transfers at 0.7-1.2 vs interest at 0.3-0.5)",
+      "Profit floor quantification ($45-65 S&P EPS, 15-35% of total)",
+      "Net interest expense trajectory ($350B to $1T+)",
+      "Crowding-out interaction under QT (40-50% probability of reactivation)",
+      "Tariff revenue as negative-MPC dilutant"
+    ],
+    "current_assessment": "Channel is real and provides a measurable profit floor. Erosion is mechanically underway as deficit composition shifts toward interest payments. R² of 0.55-0.65 reflects genuine economic variance, not measurement error. The causal direction and crowding-out reactivation under QT are the key uncertainties.",
+    "limitations": [
+      "R² of 0.55-0.65 means 35-45% of profit variance is unexplained",
+      "Causal direction is ambiguous (do deficits cause profits or do profits cause deficits through tax revenue?)",
+      "Post-2008 crowding-out attenuation may be QE artifact rather than structural change",
+      "Regressions on changes for the corporate sector specifically miss inventory cycles, international profit shifting, and financial vs nonfinancial divergence"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "conjunction_probability_assessment",
+    "purpose": "Provides a disciplined probability framework for evaluating multi-link causal chains like the fiscal doom loop, preventing narrative bias from treating sequential scenarios as high-probability",
+    "components": [
+      "Independent link probability estimation (per-link assessment)",
+      "Joint probability computation (multiplicative for independent events)",
+      "Correlation adjustment (conditional probabilities for causally linked events)",
+      "Survivorship bias correction (accounting for non-crisis episodes in the denominator)",
+      "Reserve currency exceptionalism discount (level shift vs delay mechanism)"
+    ],
+    "current_assessment": "Doom loop at six independent links yields ~5% joint probability. Correlation adjustment raises to 15-30%. Reserve currency status reduces from IMF base rate 35-40% to 8-12% for disorderly adjustment. The narrative treatment systematically overstates probability by treating chains as sequential rather than computing joint probabilities.",
+    "limitations": [
+      "Link probabilities themselves are subjective estimates",
+      "Correlation structure between links is poorly understood",
+      "The framework cannot distinguish between structural resilience and luck",
+      "Independence vs correlation of failures is the dominant uncertainty and is itself unestimatable"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "consolidation_base_rate_test",
+    "purpose": "Tests whether fiscal consolidation attempts can succeed by examining historical base rates and required preconditions (monetary easing, currency depreciation, external demand boom)",
+    "components": [
+      "0/7 historical base rate for consolidation without at least one offset mechanism",
+      "Required offsets: monetary easing >200bp, currency depreciation >10%, external demand boom",
+      "Financial repression precondition scorecard (US meets ~1.5 of 5)",
+      "0/3 base rate for financial repression with open capital accounts",
+      "DOGE realization rate (0.3-0.6x for comparable initiatives)"
+    ],
+    "current_assessment": "The US meets none of the three offset conditions: monetary easing is constrained by inflation, currency depreciation is constrained by reserve status, and external demand boom is unavailable in the current global environment. DOGE will underdeliver at 0.3-0.6x. Formal financial repression fails precondition test. The arithmetic implies no viable consolidation path without a significant regime change.",
+    "limitations": [
+      "N=7 is a small sample with heterogeneous country characteristics",
+      "The US may be genuinely different from the sample due to reserve currency status",
+      "DOGE is sufficiently novel that historical realization rates may not apply",
+      "The framework assumes current constraints are binding, but a crisis could change the constraint set"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "meta_stable_equilibrium_framework",
+    "purpose": "Explains how the current cross-asset pricing inconsistency persists through self-reinforcing loops until a discrete catalyst breaks one link, triggering simultaneous non-linear repricing",
+    "components": [
+      "Kalecki loop: deficit → profits → equity prices → wealth effect → tax revenue → deficit reduction",
+      "Basis trade loop: synthetic demand → yield suppression → lower fiscal cost → continued issuance",
+      "Covenant-lite loop: masked distress → compressed spreads → continued issuance → more hidden distress",
+      "Self-reinforcing stability with discrete break threshold",
+      "Catalyst identification framework"
+    ],
+    "current_assessment": "The equilibrium is currently self-reinforcing through multiple loops. Cross-asset inconsistency (equities 21-22x, IG 90-110bp, term premium 50-100bp) persists because each market prices a different resolution. Resolution pathway disputed: meta-stable simultaneous break vs standard 4-8 month sequential repricing (rates, FX, credit, equity). Neither framework clearly superior.",
+    "limitations": [
+      "Cannot predict the timing or nature of the catalyst",
+      "The distinction between meta-stable break and sequential repricing is ex post, not ex ante",
+      "Self-reinforcing loops can persist far longer than fundamentals suggest",
+      "The framework is not falsifiable until a break actually occurs"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "em_bifurcation_model",
+    "purpose": "Classifies emerging markets into two clusters with opposite responses to US fiscal transmission, enabling differentiated risk assessment and positioning",
+    "components": [
+      "Cluster A: surplus commodity exporters (Brazil, Gulf, Indonesia) — Kalecki beneficiaries",
+      "Cluster B: deficit food/energy importers (Egypt, Pakistan, Turkey, Kenya, Tunisia) — doom loop at 5-10x DM speed",
+      "Agricultural price → sovereign CDS indicator (operates through ~12-15 managed-FX food-subsidy nations)",
+      "CEE rearmament channel (Poland 4%+ GDP defense as fiscal-expansion-currency-positive)",
+      "DOGE USAID withdrawal as disproportionate Cluster B shock"
+    ],
+    "current_assessment": "Bifurcation is closer to current observation than forecast. Brazil vs Egypt during 2022 wheat spike provides concrete evidence. Cluster B accounts for <20% of EM GDP but >60% of EM sovereign stress events. The 5-10x DM speed claim is directionally supported but the range spans a 45x variance in its own evidence.",
+    "limitations": [
+      "5-10x speed differential is an extremely wide range",
+      "Classification may be too binary for countries with mixed characteristics",
+      "Commodity price cycles could temporarily reverse cluster performance",
+      "The model does not account for idiosyncratic domestic political factors"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "four_scenario_macro_architecture",
+    "purpose": "Provides a structured probability framework for the four most likely macroeconomic outcomes over the medium term",
+    "components": [
+      "Stagnation at altitude (45%): growth at 1.5-2.0%, inflation 2.5-3.0%, no crisis but no resolution",
+      "Productivity acceleration (20%): AI/tech-driven productivity gains offset fiscal drag",
+      "Recession via fiscal cliff (25%): DOGE cuts and/or tariffs tip economy into contraction",
+      "Stagflation (10%): tariffs + fiscal inertia produce simultaneous growth decline and inflation spike"
+    ],
+    "current_assessment": "Framework is useful for scenario planning despite individual probability imprecision. Stagnation at altitude is modal outcome. Recession probability is elevated by the unavailability of monetary offset. The fiscal uncanny valley risk (consolidation large enough to contract GDP but insufficient to stabilize debt) is embedded in the recession scenario.",
+    "limitations": [
+      "Individual probability assignments are subjective and not calibrated",
+      "Scenarios are not exhaustive and combinations are possible",
+      "The architecture does not capture sequencing or transition dynamics between scenarios",
+      "Productivity acceleration timing is inherently unpredictable"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  }
+]

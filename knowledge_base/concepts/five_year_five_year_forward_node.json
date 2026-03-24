@@ -1,0 +1,30 @@
+{
+  "slug": "five_year_five_year_forward_node",
+  "definition": "The 5y5y forward rate is identified as the specific node where the cross-asset contradiction is most acute. Decomposition (r* 2.0-2.5% + inflation 2.3% + term premium 100-150bp = 3.8-4.0%) conflicts with equity discount rate requirements. Analytically valuable as a diagnostic but not actionable without a catalyst.",
+  "confidence": 4,
+  "evidence": [
+    "Arithmetic decomposition is sound",
+    "Pair_3 noted it raises a genuinely interesting structural observation",
+    "Cross-asset inconsistency could persist for extended periods"
+  ],
+  "originating_agents": [
+    "rates_strategist_01"
+  ],
+  "open_questions": [
+    "What catalyst would force 5y5y resolution?",
+    "How does ACM/Kim-Wright model divergence (40-60bp) affect the decomposition?"
+  ],
+  "related_concepts": [
+    "cross_asset_inconsistency",
+    "term_premium_fiscal_floor",
+    "stock_bond_correlation_split"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-24T08:04:39Z",
+  "last_updated": "2026-03-24T08:04:39Z",
+  "originating_iteration": "iter_0048",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0048"
+  ]
+}

@@ -1,0 +1,795 @@
+[
+  {
+    "slug": "unprecedented_fiscal_configuration",
+    "definition": "The US is running >6% deficit with <5% unemployment, a combination with zero pre-2022 historical precedent (0/74 observations). The factual novelty is universally accepted; its implication for instability is mechanism-dependent.",
+    "confidence": 9,
+    "evidence": [
+      "0/74 pre-2022 observations combining >6% deficit with <5% unemployment",
+      "Six agents build directly on the finding",
+      "Pair_2 debate refuted the claim that sectoral balance identity normalizes this",
+      "Deficit contains 3-4pp endogenous/structural and 2-3pp discretionary components"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_02",
+      "rates_strategist_01",
+      "credit_analyst_01",
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does unprecedented necessarily imply unstable or is the 2009-2024 benign period evidence of structural resilience?",
+      "What is the formal decomposition of the deficit into automatic stabilizer, structural, and discretionary components?"
+    ],
+    "related_concepts": [
+      "fed_policy_trap",
+      "kalecki_profit_channel_erosion",
+      "doge_underdelivery",
+      "doom_loop_tail_risk",
+      "guns_and_butter_analogue"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "bifurcated_minsky_fragility",
+    "definition": "Households are structurally insulated (DSR 9.7% vs 13.2% peak, 95% mortgage debt locked below 5%, net worth $160T+) while the corporate sector exhibits late-cycle Minsky fragility (40%+ Russell 2000 unprofitable, >90% covenant-lite, PIK proliferation, hedge financing share declining from ~70% to ~55-60%). This bifurcation implies a 2001-like sharp-but-shallow downturn rather than 2008-like systemic collapse.",
+    "confidence": 8,
+    "evidence": [
+      "Household DSR at 9.7% vs 13.2% peak",
+      "95% of mortgage debt locked below 5%",
+      "Household net worth >$160T",
+      "40%+ Russell 2000 companies unprofitable",
+      ">90% covenant-lite leveraged loans",
+      "PIK proliferation increasing",
+      "Hedge financing share declining from ~70% to ~55-60%",
+      "Pair_2 debate endorsed novel crisis topology as genuinely unprecedented"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can a corporate/financial Minsky moment with insulated households propagate into a systemic crisis through channels not visible in 2001?",
+      "What is the threshold of corporate distress required to breach household insulation?"
+    ],
+    "related_concepts": [
+      "covenant_lite_saturation",
+      "credit_mispricing",
+      "private_credit_obscuring",
+      "hy_maturity_wall",
+      "clo_fiscal_reflexivity"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "fed_policy_trap",
+    "definition": "The Fed is simultaneously constrained from easing by above-target inflation (core PCE ~2.6-2.8%) and constrained from tightening by fiscal/financial fragility. The Taylor Rule prescribes 75-150bp above the current stance, meaning the Fed is already quasi-accommodative. The March 2020 emergency QE playbook is unavailable in an inflationary context.",
+    "confidence": 8,
+    "evidence": [
+      "Taylor Rule prescribes 75-150bp above current stance",
+      "Core PCE at ~2.6-2.8% prevents easing",
+      "0/7 base rate for successful consolidation without 200bp+ monetary offset",
+      "Even 150bp of cuts leave all-in refinancing costs 200-300bp above original issuance for sub-IG",
+      "No curve path resolves both monetary and fiscal signals simultaneously",
+      "Six agents converge from different frameworks"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Under what conditions could the Fed credibly ease without reigniting inflation expectations?",
+      "Is there a non-traditional policy tool that resolves the trap without full QE?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "term_premium_fiscal_floor",
+      "cross_asset_inconsistency",
+      "hy_maturity_wall",
+      "doom_loop_tail_risk"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "covenant_lite_saturation",
+    "definition": "Over 90% of leveraged loans are now covenant-lite, eliminating the traditional credit cycle early warning system. Pre-2010, 25-30% covenant-lite allowed a 12-24 month observable deterioration sequence (covenant violation, amendment, restructuring, default). At >90% saturation, the first two stages are eliminated, compressing observable warning to 3-6 months.",
+    "confidence": 8,
+    "evidence": [
+      ">90% covenant-lite share of leveraged loans",
+      "Pre-2010 baseline of 25-30% covenant-lite",
+      "Traditional 12-24 month deterioration sequence compressed to 3-6 months",
+      "Pair_2 debate flagged as standout contribution",
+      "Minsky insight: loans skip speculative phase, going from apparent-hedge directly to Ponzi"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Are there alternative early warning indicators that can substitute for lost covenant-trigger signals?",
+      "At what point does the compression become so severe that default clustering creates systemic risk?"
+    ],
+    "related_concepts": [
+      "bifurcated_minsky_fragility",
+      "credit_mispricing",
+      "hy_maturity_wall",
+      "private_credit_obscuring",
+      "clo_fiscal_reflexivity"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "treasury_basis_trade",
+    "definition": "The Treasury basis trade ($800B-$1T at 50-100x leverage) is a material systemic amplifier. It provides synthetic demand that suppresses yields by an estimated 25-40bp. Current notional is 60-100% larger than March 2020, when $1.6T Fed intervention was required for ~$500B in positions. An unwind requires multiple simultaneous stabilizer failures.",
+    "confidence": 7,
+    "evidence": [
+      "$800B-$1T notional at 50-100x leverage",
+      "60-100% larger than March 2020 positions",
+      "$1.6T Fed intervention required in March 2020 for ~$500B",
+      "Estimated 25-40bp yield suppression (directional claim; magnitude is false precision)",
+      "Universal acknowledgment across all agents who address it",
+      "Pair_3 confirmed materiality"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "generalist_02",
+      "credit_analyst_01",
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What specific combination of stabilizer failures would trigger an unwind?",
+      "Is the current size sustainable or does it have a self-limiting mechanism?",
+      "What is the Fed's actual capacity to intervene in an inflationary context?"
+    ],
+    "related_concepts": [
+      "term_premium_fiscal_floor",
+      "doom_loop_tail_risk",
+      "reserve_diversification_structural",
+      "cross_asset_inconsistency"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "kalecki_profit_channel_erosion",
+    "definition": "The Kalecki profit channel (fiscal deficits support corporate profits) is real but eroding as deficit composition shifts from high-MPC transfers (MPC ~0.7-1.2) toward low-MPC interest payments (MPC ~0.3-0.5). The channel provides a floor of $45-65 S&P EPS (~15-35% of total). Net interest expense trajectory from $350B to $1T+ mechanically drives erosion.",
+    "confidence": 7,
+    "evidence": [
+      "$45-65 S&P EPS floor (~15-35% of total) from fiscal deficit",
+      "Interest payments MPC ~0.3-0.5 vs transfers MPC ~0.7-1.2",
+      "Net interest expense rising from $350B to $1T+",
+      "Tariff revenue as negative MPC further dilutant",
+      "R² of 0.55-0.65 reflects genuine economic variance, not measurement error",
+      "Pair_2 confirmed erosion as most actionable shared insight"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "generalist_01",
+      "fx_strategist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Does post-2008 crowding-out attenuation reflect structural change or QE-era artifact?",
+      "At what composition tipping point does the deficit become net-negative for corporate profits?",
+      "Does QT reactivate crowding-out effects (40-50% probability per macro_strategist_01)?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "cross_asset_inconsistency",
+      "em_vulnerability_bifurcation",
+      "bifurcated_minsky_fragility"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "cross_asset_inconsistency",
+    "definition": "Equities at 21-22x forward P/E, IG credit at 90-110bp, and term premium at 50-100bp are mutually inconsistent and unsustainable. Each market prices a different sector absorbing the adjustment. The equity-implied vs actual HY spread divergence is 50-75bp. The inconsistency must resolve but the pathway remains disputed.",
+    "confidence": 7,
+    "evidence": [
+      "Equity multiples at 21-22x forward",
+      "IG spreads at 90-110bp",
+      "Term premium at 50-100bp",
+      "Equity-implied vs actual HY spread divergence of 50-75bp",
+      "Near-universal convergence across seven agents",
+      "Pair_0 confirmed the inconsistency is real and must resolve"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "credit_analyst_01",
+      "rates_strategist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Does resolution occur simultaneously (non-linear break) or sequentially (rates, FX, credit, equity)?",
+      "Can the inconsistency persist for years or is a near-term resolution forced?",
+      "Which asset class adjusts first — credit widening, equity derating, or term premium repricing?"
+    ],
+    "related_concepts": [
+      "stock_bond_correlation_split",
+      "credit_mispricing",
+      "five_year_five_year_forward_node",
+      "kalecki_profit_channel_erosion",
+      "treasury_basis_trade"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "stock_bond_correlation_split",
+    "definition": "The stock-bond correlation regime is splitting by maturity: negative at the front end (preserving traditional diversification) and positive at the long end (destroying it). Five agents converge on this with n=2 prior episodes (1965-69, 2003-06) that resolved in opposite directions. This means 60/40 diversification benefit is concentrated in short-duration bonds.",
+    "confidence": 7,
+    "evidence": [
+      "Negative correlation at front end, positive at long end",
+      "n=2 prior split episodes (1965-69, 2003-06) with opposite resolutions",
+      "False steepening decomposition reveals term-premium-adjusted inversion",
+      "Both agents converge at ~5/10 on resolution direction given n=2",
+      "Pair_0 confirmed convergence at appropriate humility"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Which resolution pathway (1965-69 inflationary or 2003-06 benign) is more likely?",
+      "At what maturity point does the correlation flip from negative to positive?",
+      "How should institutional asset allocators adjust given this bifurcation?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "term_premium_fiscal_floor",
+      "global_sovereign_duration_supply",
+      "guns_and_butter_analogue"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "doge_underdelivery",
+    "definition": "DOGE will substantially underdeliver relative to stated goals, with a 0.3-0.6x historical realization rate for comparable cost-cutting initiatives. Directional underdelivery is high-conviction. The specific magnitude range ($50-200B realized savings) carries novelty-regime uncertainty.",
+    "confidence": 7,
+    "evidence": [
+      "0.3-0.6x historical realization rate for comparable initiatives",
+      "0/7 base rate for consolidation without monetary/FX/external offset",
+      "Universal directional agreement across all eight agents",
+      "Pair_1 and pair_2 debates confirmed underdelivery as base case",
+      "No valid historical analogue for the specific initiative"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "challenger_02",
+      "rates_strategist_01",
+      "credit_analyst_01",
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "What specific DOGE savings will materialize versus which will be blocked by legal/political constraints?",
+      "Does DOGE failure accelerate the fiscal doom loop or is it already priced into fiscal projections?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "doom_loop_tail_risk",
+      "doge_usaid_em_spillover"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "term_premium_fiscal_floor",
+    "definition": "Term premium has a structural fiscal supply floor that persists independently of monetary policy. Driven by $2-2.5T annual gross issuance, with the curve belly (5-7Y) most vulnerable as it has neither Fed anchoring nor structural pension demand. TBAC composition decisions are dominant event risk. Current levels may be historically normal but the drivers (fiscal supply saturation) are structurally different from pre-GFC.",
+    "confidence": 7,
+    "evidence": [
+      "$2-2.5T annual gross issuance",
+      "5-7Y belly absorbs supply with neither Fed anchoring nor structural pension demand",
+      "TBAC composition decisions as dominant event risk",
+      "Pair_3 produced productive tension on normalization vs elevation framing",
+      "Both level (historically normal) and drivers (structurally different) framings partially correct"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "macro_strategist_01",
+      "credit_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Is the current term premium floor a return to pre-GFC normal or a new regime driven by fiscal saturation?",
+      "How does the T-bill share normalization from 22% toward coupon bonds affect the long-end term premium?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade",
+      "global_sovereign_duration_supply",
+      "hy_maturity_wall",
+      "european_rearmament_expansion"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "hy_maturity_wall",
+    "definition": "The 2025-2027 HY/leveraged loan maturity wall interacts non-linearly with the fiscal term premium channel. Issuers who locked 5Y debt at SOFR+350bp (all-in ~4.0-4.5%) face refinancing at SOFR+400-500bp (all-in ~8.5-10.0%) even after 150bp Fed cuts. For B-rated issuers at 4.0-4.5x leverage, this pushes coverage below the 1.5x distress threshold.",
+    "confidence": 7,
+    "evidence": [
+      "$600-800B sub-IG maturities through 2027",
+      "Refinancing costs 200-300bp above origination even after 150bp of Fed cuts",
+      "B-rated issuers at 4.0-4.5x leverage pushed below 1.5x coverage",
+      "T-bill share at 22% must normalize toward coupons adding long-end supply pressure",
+      "Arithmetic is mechanical and not directly challenged"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "rates_strategist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What is the distribution of issuers hitting the wall — concentrated or dispersed?",
+      "Can extend-and-pretend in private credit absorb enough maturities to defuse the wall?"
+    ],
+    "related_concepts": [
+      "term_premium_fiscal_floor",
+      "covenant_lite_saturation",
+      "bifurcated_minsky_fragility",
+      "fed_policy_trap"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "european_rearmament_expansion",
+    "definition": "European rearmament is a locked-in fiscal expansion with cross-Atlantic implications. Germany's EUR 500B fund is legislated. France's LPM at EUR 413B. Defense commitments have a ratchet property. Cross-Atlantic term premium transmission is estimated at 3-5bp per EUR 100B but the magnitude is uncertain. CEE countries (Poland at 4%+ GDP) represent a rare fiscal-expansion-currency-positive case in EM.",
+    "confidence": 7,
+    "evidence": [
+      "Germany EUR 500B defense fund legislated",
+      "France LPM at EUR 413B",
+      "Ratchet property of defense commitments well-documented",
+      "Challenger_02 calls these among the most robust findings",
+      "Poland at 4%+ GDP defense spending with near-balanced current account"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What is the true cross-Atlantic term premium transmission elasticity outside QE regimes?",
+      "At what pace does European defense spending translate into actual issuance pressure?"
+    ],
+    "related_concepts": [
+      "term_premium_fiscal_floor",
+      "global_sovereign_duration_supply",
+      "guns_and_butter_analogue"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "em_vulnerability_bifurcation",
+    "definition": "EM vulnerability bifurcates into two distinct clusters with opposite fiscal transmission. Cluster A (surplus commodity exporters: Brazil, Gulf, Indonesia) benefits from Kalecki-driven commodity demand. Cluster B (deficit food/energy importers: Egypt, Pakistan, Turkey, Kenya, Tunisia) faces compounding doom loops at 5-10x DM speed. The Brazil vs Egypt contrast during the 2022 wheat spike is concrete evidence.",
+    "confidence": 7,
+    "evidence": [
+      "Cluster A surplus exporters benefit from Kalecki commodity demand",
+      "Cluster B deficit importers face 5-10x DM speed doom loops",
+      "Brazil vs Egypt contrast during 2022 wheat spike",
+      "Pair_1 highlighted this as closer to current observation than forecast",
+      "5-10x speed claim spans 45x range in own evidence"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Is the 5-10x speed differential robust or does it vary dramatically by episode?",
+      "Can Cluster B countries migrate to Cluster A through structural reform?"
+    ],
+    "related_concepts": [
+      "kalecki_profit_channel_erosion",
+      "reserve_diversification_structural",
+      "doge_usaid_em_spillover",
+      "copper_iron_ore_ratio_signal"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "global_sovereign_duration_supply",
+    "definition": "Global sovereign duration supply has reached unprecedented levels: US $2-2.5T + European rearmament $100-150B/yr + Japan refinancing + QT $720B/yr. The aggregate is returning fixed income markets to a pre-QE regime where supply was a binding constraint on yields, but with structurally higher leverage than the pre-QE era.",
+    "confidence": 7,
+    "evidence": [
+      "US $2-2.5T annual gross issuance",
+      "European rearmament $100-150B/yr additional",
+      "QT running at $720B/yr",
+      "Pair_0 highlighted as novel contribution",
+      "Arithmetic is not contestable"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "At what total supply level do traditional fixed income allocation models break?",
+      "How does the supply picture change if QT is halted or reversed?"
+    ],
+    "related_concepts": [
+      "term_premium_fiscal_floor",
+      "european_rearmament_expansion",
+      "stock_bond_correlation_split"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "doom_loop_tail_risk",
+    "definition": "The fiscal doom loop (rising deficits, higher yields, larger interest burden, wider deficits) is a 15-25% tail risk over 5 years, not a central scenario. Conjunction probability critique shows even at 60% per link, six independent links yield ~5% probability; correlated failures raise it to 15-30%. Reserve currency exceptionalism reduces crisis probability from IMF base rate (35-40%) to 8-12%.",
+    "confidence": 6,
+    "evidence": [
+      "Conjunction probability: six links at 60% each yield ~5% if independent",
+      "Correlated failures raise joint probability to 15-30%",
+      "macro_strategist_01 independently arrives at 8-12% for disorderly adjustment",
+      "IMF cross-country base rate 35-40% reduced by reserve currency status",
+      "Pair_3 endorsed probability discipline but refuted independence assumption",
+      "US 2009-2024 unprecedented deficits without sovereign stress"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "macro_strategist_01",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is the 2009-2024 period evidence of stabilizer effectiveness or evidence of luck?",
+      "What is the formal event tree with conditional branching probabilities?",
+      "Is reserve currency status a permanent level shift or a delay mechanism?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade",
+      "fed_policy_trap",
+      "unprecedented_fiscal_configuration",
+      "doge_underdelivery"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "guns_and_butter_analogue",
+    "definition": "The 1965-69 guns and butter episode is the closest structural analogue to the current fiscal configuration, with ~60% probability of a fiscal/inflation dominance resolution. Structural parallels include large deficits at full employment and sticky inflation, but current deficit is 2-3x larger, debt/GDP 3x higher, and basis trade/leveraged duration positions did not exist.",
+    "confidence": 6,
+    "evidence": [
+      "Both generalists converge at ~60-65% probability after novel-regime discounts",
+      "Structural parallels: large deficits at full employment, sticky inflation",
+      "Current deficit 2-3x larger than 1960s",
+      "Starting debt/GDP 3x higher",
+      "n=2 prior split-correlation episodes insufficient for statistical inference",
+      "Alternative Japan post-1990 path plausible at ~25-30%"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "How do structurally different global capital flows alter the 1965-69 transmission channels?",
+      "Is the Japan post-1990 path a viable US outcome given different current account positions?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "stock_bond_correlation_split",
+      "fed_policy_trap"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "credit_mispricing",
+    "definition": "Credit is assessed as the most mispriced asset class with equity-implied vs actual HY spread divergence of 50-75bp. The directional claim that credit widens has support from Minsky fragility data and covenant-lite dynamics, but timing is highly uncertain (covenant-lite could extend status quo 6-12 months beyond expectation). Direction confidence: 6/10, timing confidence: 4/10.",
+    "confidence": 6,
+    "evidence": [
+      "Equity-implied vs actual HY spread divergence of 50-75bp",
+      "Minsky fragility data supports widening direction",
+      "Covenant-lite structures could delay repricing 6-12 months",
+      "75% base rate from n=4 refuted as statistically meaningless (Wilson CI 22-99%)",
+      "Pair_2 noted inconsistency: credit reprices while equity escapes contradicts recession scenario"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What is the specific catalyst that forces credit repricing?",
+      "Can private credit absorption indefinitely delay public market repricing?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "covenant_lite_saturation",
+      "bifurcated_minsky_fragility",
+      "private_credit_obscuring"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "financial_repression_improbability",
+    "definition": "Formal financial repression is institutionally improbable for the US. Generalist_02's five-precondition scorecard shows US meets ~1.5 of 5, with 0/3 base rate for financial repression with open capital accounts. However, informal drift (regulatory nudges, implicit inflation tolerance) is plausible over a longer horizon. Macro_strategist_01 assigns 35-45% to fiscal dominance including informal financial repression over 10 years.",
+    "confidence": 6,
+    "evidence": [
+      "US meets ~1.5 of 5 formal preconditions",
+      "0/3 base rate for financial repression with open capital accounts",
+      "Pair_0 highlighted as a clean kill shot against complacency",
+      "35-45% probability of fiscal dominance including informal repression over 10 years"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What distinguishes formal financial repression from informal fiscal dominance drift?",
+      "At what point does gradual erosion of capital account openness become observable?"
+    ],
+    "related_concepts": [
+      "reserve_diversification_structural",
+      "unprecedented_fiscal_configuration",
+      "doom_loop_tail_risk"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "reserve_diversification_structural",
+    "definition": "Reserve diversification away from USTs is structural, not cyclical. Foreign official holdings declining from 33% to 23%. EM central bank gold purchases at 1,037-1,045 tonnes/year (2023-2024), representing $65-75B of reallocation. The marginal buyer shifting from price-insensitive reserve managers to price-sensitive basis traders increases velocity of any fiscal repricing. This is a volatility regime change, not just a level shift.",
+    "confidence": 6,
+    "evidence": [
+      "Foreign official UST holdings declining from 33% to 23%",
+      "EM central bank gold purchases at 1,037-1,045 tonnes/year",
+      "$65-75B annual reallocation away from USTs",
+      "Marginal buyer shift from price-insensitive to price-sensitive",
+      "Pair_1 highlighted volatility regime change framing"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "At what gold allocation (currently 5-8%, targeting 10-15%) does EM central bank buying decelerate?",
+      "Does the marginal buyer shift create a nonlinear vulnerability to supply shocks?"
+    ],
+    "related_concepts": [
+      "treasury_basis_trade",
+      "term_premium_fiscal_floor",
+      "em_vulnerability_bifurcation"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "private_credit_obscuring",
+    "definition": "Private credit ($1.8T) is structurally obscuring the true credit cycle position through PIK toggles, extend-and-amend capacity, and mark-to-model valuations that absorb distress historically visible in public markets. The directional concern is valid but the magnitude of the true default rate gap is unknowable (could be 20% or 60%) given opacity.",
+    "confidence": 5,
+    "evidence": [
+      "Private credit market at $1.8T",
+      "PIK toggles and extend-and-amend capacity absorb distress",
+      "Mark-to-model valuations hide deterioration",
+      "150-250bp true default rate gap partially refuted as unfalsifiable",
+      "Credit_analyst_01 admits 20% or 60% range"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What disclosure improvements would be needed to assess true credit cycle position?",
+      "Could a private credit repricing event spill into public markets despite structural separation?"
+    ],
+    "related_concepts": [
+      "bifurcated_minsky_fragility",
+      "covenant_lite_saturation",
+      "credit_mispricing"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "clo_fiscal_reflexivity",
+    "definition": "CLO equity tranches are underwritten assuming 2-3% default rates sustained partly by fiscal deficits. Fiscal consolidation could trigger: higher defaults, CLO creation decline, leveraged loan demand collapse, and funding cost spike for unprofitable borrowers. This is a novel second-order transmission channel not previously analyzed in the knowledge base.",
+    "confidence": 4,
+    "evidence": [
+      "CLO equity tranches underwritten at 2-3% default rates",
+      "Pair_1 flagged as the single most original contribution",
+      "Mechanism is plausible and novel",
+      "Magnitude and activation threshold are unexamined",
+      "No corroboration from other agents"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What default rate threshold triggers CLO creation decline?",
+      "How much of leveraged loan demand is CLO-dependent versus other channels?",
+      "Is there a self-reinforcing feedback loop or does the chain dampen?"
+    ],
+    "related_concepts": [
+      "covenant_lite_saturation",
+      "bifurcated_minsky_fragility",
+      "hy_maturity_wall",
+      "kalecki_profit_channel_erosion"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "credit_impulse_blind_spot",
+    "definition": "The credit impulse (second derivative of private credit growth) is a critical leading indicator for business cycle turning points (Biggs, Mayer, Pick 2009) that the knowledge base tracks poorly. Government debt dynamics are extensively covered while this established academic indicator is ignored. High-value gap identification with zero corroboration within this iteration.",
+    "confidence": 4,
+    "evidence": [
+      "Well-supported in academic literature (Biggs, Mayer, Pick 2009)",
+      "Pair_2 confirmed as a genuine analytical blind spot",
+      "No other agent engages with it",
+      "No current credit impulse data provided"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What does the current credit impulse signal for the business cycle?",
+      "How does the credit impulse interact with the Kalecki profit channel?"
+    ],
+    "related_concepts": [
+      "bifurcated_minsky_fragility",
+      "private_credit_obscuring",
+      "kalecki_profit_channel_erosion"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "five_year_five_year_forward_node",
+    "definition": "The 5y5y forward rate is identified as the specific node where the cross-asset contradiction is most acute. Decomposition (r* 2.0-2.5% + inflation 2.3% + term premium 100-150bp = 3.8-4.0%) conflicts with equity discount rate requirements. Analytically valuable as a diagnostic but not actionable without a catalyst.",
+    "confidence": 4,
+    "evidence": [
+      "Arithmetic decomposition is sound",
+      "Pair_3 noted it raises a genuinely interesting structural observation",
+      "Cross-asset inconsistency could persist for extended periods"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "What catalyst would force 5y5y resolution?",
+      "How does ACM/Kim-Wright model divergence (40-60bp) affect the decomposition?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "term_premium_fiscal_floor",
+      "stock_bond_correlation_split"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "fiscal_tariff_stagflation",
+    "definition": "Tariffs simultaneously raise revenue ($120-280B after behavioral haircut), raise CPI (0.5-1.5%), and compress real growth — a regressive fiscal tightening plus inflationary supply shock. No standard macro regime captures this combination. The analytical framework is endorsed as underresearched but tariff policy uncertainty limits conviction.",
+    "confidence": 4,
+    "evidence": [
+      "$200-400B static revenue reduced to $120-280B after behavioral haircut (2018-19 precedent: 60-70% realization)",
+      "CPI impact estimated at 0.5-1.5%",
+      "Pair_0 endorsed analytical framework as underresearched",
+      "Historical tariff revenue consistently 60-70% of static projections"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How do retaliatory tariffs alter the net fiscal and inflationary impact?",
+      "What is the general equilibrium effect through trade diversion channels?"
+    ],
+    "related_concepts": [
+      "unprecedented_fiscal_configuration",
+      "fed_policy_trap",
+      "kalecki_profit_channel_erosion"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "doge_usaid_em_spillover",
+    "definition": "DOGE cuts to USAID and foreign assistance ($30-60B) could have outsized EM impact disproportionate to their fiscal weight, particularly for aid-dependent economies like Ethiopia, Jordan, and Ukraine that rely on bilateral safety nets.",
+    "confidence": 4,
+    "evidence": [
+      "$30-60B in potential USAID/foreign assistance cuts",
+      "Specific channel through withdrawal of bilateral safety nets",
+      "Impact disproportionate to fiscal weight",
+      "Not refuted but untested by other agents"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Which specific countries are most vulnerable to USAID withdrawal?",
+      "Can multilateral institutions absorb the bilateral assistance gap?"
+    ],
+    "related_concepts": [
+      "doge_underdelivery",
+      "em_vulnerability_bifurcation"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "copper_iron_ore_ratio_signal",
+    "definition": "The copper/iron ore price ratio (risen from ~2.5x in 2020 to ~4.0x in 2026) is proposed as a leading indicator for intra-EM FX relative value, driven by China's demand mix shift (copper intensity from grid/EV investment vs iron ore decline from property sector contraction).",
+    "confidence": 4,
+    "evidence": [
+      "Ratio risen from ~2.5x (2020) to ~4.0x (2026)",
+      "China demand mix shift is structural",
+      "Plausible mechanism through terms-of-trade divergence"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Does the ratio have predictive power in backtesting?",
+      "How does the ratio interact with supply-side disruptions in either commodity?"
+    ],
+    "related_concepts": [
+      "em_vulnerability_bifurcation",
+      "kalecki_profit_channel_erosion"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  },
+  {
+    "slug": "tbac_dominance",
+    "definition": "TBAC quarterly refunding may have surpassed FOMC as the dominant yield curve event risk for the long end. The August 2023 refunding announcement as proximate trigger for Q4 2023 selloff is cited as supporting evidence, but the claim rests on n=1 for the modern fiscal regime.",
+    "confidence": 4,
+    "evidence": [
+      "August 2023 refunding announcement triggered Q4 2023 selloff",
+      "Not refuted in debate",
+      "n=1 for modern fiscal regime",
+      "Provocative and potentially correct for the long end specifically"
+    ],
+    "originating_agents": [
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Does subsequent TBAC data confirm the pattern or was August 2023 idiosyncratic?",
+      "Is TBAC dominance specific to the long end or does it extend across the curve?"
+    ],
+    "related_concepts": [
+      "term_premium_fiscal_floor",
+      "global_sovereign_duration_supply",
+      "treasury_basis_trade"
+    ],
+    "topic": "fiscal_policy",
+    "iteration_id": "iter_0048"
+  }
+]

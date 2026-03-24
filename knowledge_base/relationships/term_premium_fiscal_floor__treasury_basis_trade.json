@@ -1,0 +1,20 @@
+{
+  "concept_a": "treasury_basis_trade",
+  "concept_b": "term_premium_fiscal_floor",
+  "mechanism": "The basis trade provides synthetic demand that suppresses yields by 25-40bp, masking the true fiscal supply premium. An unwind would reveal the fiscal floor at a higher level, potentially triggering a discontinuous repricing.",
+  "direction": "bidirectional",
+  "confidence": 7,
+  "regime_dependence": "Holds as long as basis trade positions remain large; the relationship becomes acute during unwind events when synthetic demand disappears and fiscal supply is fully priced",
+  "originating_agents": [
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "topic": "fiscal_policy",
+  "created_at": "2026-03-24T08:04:39Z",
+  "last_updated": "2026-03-24T08:04:39Z",
+  "originating_iteration": "iter_0048",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0048"
+  ]
+}

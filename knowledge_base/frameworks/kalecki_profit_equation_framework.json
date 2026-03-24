@@ -5,21 +5,32 @@
     "Accounting identity: Profits ≡ Investment + Government Deficit + Net Exports − Workers' Savings + Capitalist Consumption",
     "Fiscal channel: large deficits (6-7% GDP) mechanically sustain corporate profits during commodity inflation",
     "Inflation persistence: if fiscal response is accommodative, profits are sustained regardless of monetary policy or consensus positioning",
-    "Policy implications: if this mechanism dominates, the key policy variable is fiscal stance, not monetary credibility"
+    "Policy implications: if this mechanism dominates, the key policy variable is fiscal stance, not monetary credibility",
+    "Government deficit as corporate profit source (Kalecki identity)",
+    "MPC-weighted composition analysis (transfers at 0.7-1.2 vs interest at 0.3-0.5)",
+    "Profit floor quantification ($45-65 S&P EPS, 15-35% of total)",
+    "Net interest expense trajectory ($350B to $1T+)",
+    "Crowding-out interaction under QT (40-50% probability of reactivation)",
+    "Tariff revenue as negative-MPC dilutant"
   ],
-  "current_assessment": "The accounting identity is tautologically correct and rated 'the single most valuable contribution' in pair_3 debate. The causal interpretation (deficits → profits → inflation persistence) is well-supported by Post-Keynesian theory but contested by mainstream economics regarding direction of causation. Adopted as a core framework rather than footnote. US 2021-22 deficit data directly supports the mechanism.",
+  "current_assessment": "Channel is real and provides a measurable profit floor. Erosion is mechanically underway as deficit composition shifts toward interest payments. R² of 0.55-0.65 reflects genuine economic variance, not measurement error. The causal direction and crowding-out reactivation under QT are the key uncertainties.",
   "limitations": [
     "Direction of causation (deficits → profits vs profits → deficits) is contested",
     "Identity is tautological — the analytical value lies in the causal interpretation which is debatable",
     "Not specifically calibrated for commodity-driven vs other inflationary episodes",
-    "Interaction with monetary tightening not fully modeled"
+    "Interaction with monetary tightening not fully modeled",
+    "R² of 0.55-0.65 means 35-45% of profit variance is unexplained",
+    "Causal direction is ambiguous (do deficits cause profits or do profits cause deficits through tax revenue?)",
+    "Post-2008 crowding-out attenuation may be QE artifact rather than structural change",
+    "Regressions on changes for the corporate sector specifically miss inventory cycles, international profit shifting, and financial vs nonfinancial divergence"
   ],
   "topic": "commodity_inflation_transmission",
   "created_at": "2026-03-24T01:55:06Z",
-  "last_updated": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T08:04:39Z",
   "originating_iteration": "iter_0042",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0042"
+    "iter_0042",
+    "iter_0048"
   ]
 }

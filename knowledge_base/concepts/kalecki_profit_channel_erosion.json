@@ -1,37 +1,52 @@
 {
   "slug": "kalecki_profit_channel_erosion",
   "definition": "The Kalecki profit channel provides a material floor under corporate profits (~$45-65 S&P EPS, 15-35% of total), with R² of 0.55-0.65 between deficits and profits. However, the floor is eroding as deficit composition shifts toward interest payments (MPC ~0.3-0.5) away from transfers (MPC ~0.7-1.2).",
-  "confidence": 6,
+  "confidence": 6.5,
   "evidence": [
-    "R² 0.55-0.65 between fiscal deficits and corporate profits (KB source)",
-    "Granger causality t-stat 3.2-4.8",
     "VAR impulse: +0.4-0.7pp GDP profit increase per 1pp deficit shock",
     "R² of 0.55-0.65 is extraordinarily high for a single macro variable vs. monetary policy (~0.15-0.25) or GDP growth (~0.35-0.45)",
     "Interest expense rising to $1T+ (projected $1.5T by 2030) reduces effective fiscal impulse",
-    "No clean empirical decomposition exists for interest-vs-transfer multiplier differential"
+    "No clean empirical decomposition exists for interest-vs-transfer multiplier differential",
+    "$45-65 S&P EPS floor (~15-35% of total) from fiscal deficit",
+    "Interest payments MPC ~0.3-0.5 vs transfers MPC ~0.7-1.2",
+    "Net interest expense rising from $350B to $1T+",
+    "Tariff revenue as negative MPC further dilutant",
+    "R² of 0.55-0.65 reflects genuine economic variance, not measurement error",
+    "Pair_2 confirmed erosion as most actionable shared insight"
   ],
   "originating_agents": [
     "equity_analyst_01",
     "generalist_01",
     "macro_strategist_02",
-    "challenger_01"
+    "challenger_01",
+    "macro_strategist_01",
+    "credit_analyst_01",
+    "fx_strategist_02",
+    "challenger_02"
   ],
   "open_questions": [
     "Can the Kalecki R² be re-estimated with a composition-adjusted deficit variable separating interest from primary spending?",
     "Does AI capex ($200-250B/yr from hyperscalers) partially substitute for the Kalecki fiscal channel?",
-    "Does the Kalecki channel work differently when deficits are dominated by interest payments?"
+    "Does the Kalecki channel work differently when deficits are dominated by interest payments?",
+    "Does post-2008 crowding-out attenuation reflect structural change or QE-era artifact?",
+    "At what composition tipping point does the deficit become net-negative for corporate profits?",
+    "Does QT reactivate crowding-out effects (40-50% probability per macro_strategist_01)?"
   ],
   "related_concepts": [
     "bifurcated_minsky_fragility",
     "doge_underdelivery",
-    "fiscal_contraction_multiplier_asymmetry"
+    "fiscal_contraction_multiplier_asymmetry",
+    "unprecedented_fiscal_configuration",
+    "cross_asset_inconsistency",
+    "em_vulnerability_bifurcation"
   ],
   "topic": "fiscal_policy",
   "created_at": "2026-03-23T11:23:51Z",
-  "last_updated": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-24T08:04:38Z",
   "originating_iteration": "iter_0034",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0034"
+    "iter_0034",
+    "iter_0048"
   ]
 }

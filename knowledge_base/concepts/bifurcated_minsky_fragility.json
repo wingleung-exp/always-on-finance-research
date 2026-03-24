@@ -1,35 +1,50 @@
 {
   "slug": "bifurcated_minsky_fragility",
   "definition": "Household sector is structurally insulated (hedge financing) via ~95% mortgage debt locked below 5% and debt service ratio ~9.7% (vs. 13.2% peak Q3 2007). Corporate/financial leverage is advancing toward speculative/Ponzi: 40%+ of Russell 2000 unprofitable, covenant-lite >90% of leveraged loans, PIK toggle proliferation. Hedge share ~55-60%, down from ~70% in 2019.",
-  "confidence": 6,
+  "confidence": 7.0,
   "evidence": [
-    "~95% of outstanding mortgage debt locked below 5%",
-    "Household debt service ratio ~9.7% vs. 13.2% peak (Q3 2007)",
-    "Household net worth ~$160T+",
-    "40%+ of Russell 2000 unprofitable (Ponzi by definition)",
-    "Covenant-lite >90% of leveraged loans",
     "PIK toggle proliferation in private credit",
-    "Hedge share ~55-60%, down from ~70% in 2019, but below 2007 peaks"
+    "Hedge share ~55-60%, down from ~70% in 2019, but below 2007 peaks",
+    "Household DSR at 9.7% vs 13.2% peak",
+    "95% of mortgage debt locked below 5%",
+    "Household net worth >$160T",
+    "40%+ Russell 2000 companies unprofitable",
+    ">90% covenant-lite leveraged loans",
+    "PIK proliferation increasing",
+    "Hedge financing share declining from ~70% to ~55-60%",
+    "Pair_2 debate endorsed novel crisis topology as genuinely unprecedented"
   ],
   "originating_agents": [
-    "macro_strategist_02"
+    "macro_strategist_02",
+    "credit_analyst_01",
+    "macro_strategist_01",
+    "generalist_01",
+    "generalist_02"
   ],
   "open_questions": [
     "Is a financial crisis that doesn't propagate to households unprecedented, and what would that look like?",
     "How does private credit opacity ($1.8T) affect the true Minsky classification of the corporate sector?",
-    "Could corporate Ponzi financing unwind while household sector remains in hedge mode?"
+    "Could corporate Ponzi financing unwind while household sector remains in hedge mode?",
+    "Can a corporate/financial Minsky moment with insulated households propagate into a systemic crisis through channels not visible in 2001?",
+    "What is the threshold of corporate distress required to breach household insulation?"
   ],
   "related_concepts": [
     "kalecki_profit_channel_erosion",
     "equity_implied_hy_spread_divergence",
-    "private_credit_opacity"
+    "private_credit_opacity",
+    "covenant_lite_saturation",
+    "credit_mispricing",
+    "private_credit_obscuring",
+    "hy_maturity_wall",
+    "clo_fiscal_reflexivity"
   ],
   "topic": "fiscal_policy",
   "created_at": "2026-03-23T11:23:51Z",
-  "last_updated": "2026-03-23T11:23:51Z",
+  "last_updated": "2026-03-24T08:04:38Z",
   "originating_iteration": "iter_0034",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0034"
+    "iter_0034",
+    "iter_0048"
   ]
 }

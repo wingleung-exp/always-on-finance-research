@@ -8,20 +8,30 @@
     "WWII deficits exceeded 10% but employment was mobilization-driven, not comparable",
     "Zero out of 74 annual peacetime observations since WWII match this configuration",
     "Structural primary deficit 3-4 standard deviations above post-WWII mean at comparable unemployment rates",
-    "Near-factual observation unchallenged in any debate"
+    "Near-factual observation unchallenged in any debate",
+    "0/74 pre-2022 observations combining >6% deficit with <5% unemployment",
+    "Six agents build directly on the finding",
+    "Pair_2 debate refuted the claim that sectoral balance identity normalizes this",
+    "Deficit contains 3-4pp endogenous/structural and 2-3pp discretionary components"
   ],
   "originating_agents": [
     "quant_researcher_01",
     "generalist_02",
     "challenger_02",
     "macro_strategist_01",
-    "generalist_01"
+    "generalist_01",
+    "macro_strategist_02",
+    "rates_strategist_01",
+    "credit_analyst_01",
+    "fx_strategist_02"
   ],
   "open_questions": [
     "How should uncertainty bounds be scaled for out-of-sample extrapolation?",
     "Are the mechanisms understood even if the configuration is novel, or does novelty imply emergent behavior?",
     "Does the absence of historical precedent make this configuration inherently unstable or could it represent a new stable equilibrium?",
-    "Is the configuration a result of structural changes (demographics, healthcare costs) or discretionary fiscal choices?"
+    "Is the configuration a result of structural changes (demographics, healthcare costs) or discretionary fiscal choices?",
+    "Does unprecedented necessarily imply unstable or is the 2009-2024 benign period evidence of structural resilience?",
+    "What is the formal decomposition of the deficit into automatic stabilizer, structural, and discretionary components?"
   ],
   "related_concepts": [
     "fiscal_multiplier_deep_uncertainty",
@@ -30,15 +40,21 @@
     "small_n_confidence_cap",
     "fiscal_dominance_trap_paradox",
     "doom_loop",
-    "kalecki_profit_channel"
+    "kalecki_profit_channel",
+    "fed_policy_trap",
+    "kalecki_profit_channel_erosion",
+    "doge_underdelivery",
+    "doom_loop_tail_risk",
+    "guns_and_butter_analogue"
   ],
   "topic": "fiscal_policy",
   "created_at": "2026-03-22T23:10:33Z",
-  "last_updated": "2026-03-23T13:52:24Z",
+  "last_updated": "2026-03-24T08:04:38Z",
   "originating_iteration": "iter_0011",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0011",
-    "iter_0038"
+    "iter_0038",
+    "iter_0048"
   ]
 }
