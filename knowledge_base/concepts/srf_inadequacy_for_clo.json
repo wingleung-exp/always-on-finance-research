@@ -1,0 +1,32 @@
+{
+  "slug": "srf_inadequacy_for_clo",
+  "definition": "The Standing Repo Facility is inadequate for a CLO-driven liquidity event because CLO tranches are not SRF-eligible collateral, CLO warehouses are held by non-bank entities without SRF access, and the transmission chain (bank contraction → warehouse collapse → CLO demand cliff → maturity wall crisis) would require a 13(3) emergency facility.",
+  "confidence": 7,
+  "evidence": [
+    "CLO tranches not SRF-eligible collateral",
+    "CLO warehouses held by non-bank entities without SRF access",
+    "Mechanistically clear transmission chain",
+    "13(3) facility would be required"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Would the Fed pre-position a 13(3) facility or wait for stress?",
+    "Could regulatory changes expand SRF eligibility before a crisis?",
+    "What is the triggering probability for a CLO-driven liquidity event?"
+  ],
+  "related_concepts": [
+    "clo_arbitrage_deterioration",
+    "basis_trade_unwind_risk",
+    "corporate_maturity_wall"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

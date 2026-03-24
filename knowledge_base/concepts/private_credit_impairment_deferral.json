@@ -1,0 +1,38 @@
+{
+  "slug": "private_credit_impairment_deferral",
+  "definition": "Private credit ($1.7-2.0T) has structurally altered how credit risk manifests by deferring impairment recognition by 6-18 months. BDC and interval fund NAVs marked quarterly using manager-selected comparables show an estimated 15-25% gap between reported NAVs and probable recovery values for bottom-quartile portfolios. Semi-liquid vehicle risk (quarterly/monthly redemption at NAV against illiquid assets) creates a classic liquidity spiral setup.",
+  "confidence": 7,
+  "evidence": [
+    "$1.7-2.0T private credit market size",
+    "Quarterly NAV marking using manager-selected comparables",
+    "Estimated 15-25% NAV gap for bottom-quartile portfolios",
+    "Semi-liquid vehicle redemption mismatch",
+    "Combined with non-GAAP and EBITDA addbacks, estimated 40-50% of monetary transmission invisible to conventional metrics"
+  ],
+  "originating_agents": [
+    "credit_analyst_02",
+    "generalist_01",
+    "generalist_02",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is private credit deferring or structurally changing credit cycle dynamics (Japanese forbearance analogy)?",
+    "When will semi-liquid vehicle redemption pressure materialize?",
+    "What is the true aggregate NAV gap across the private credit market?",
+    "Does the 40-50% invisible estimate survive scrutiny (estimate built on estimates)?"
+  ],
+  "related_concepts": [
+    "non_gaap_earnings_masking",
+    "corporate_maturity_wall",
+    "pik_toggle_activation",
+    "ebitda_addback_distortion"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

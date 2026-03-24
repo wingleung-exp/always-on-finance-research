@@ -1,7 +1,7 @@
 {
   "slug": "ebitda_addback_distortion",
   "definition": "EBITDA addback practices inflate reported leverage by 15-40%, meaning a deal at reported 6x leverage may be 7.5-8.5x on actual cash EBITDA. At 9-10% all-in cost, 8x leverage implies interest expense consuming 70-80% of cash EBITDA. This raises the economy's effective stall speed to ~1.5-2.0% GDP.",
-  "confidence": 7.5,
+  "confidence": 6.67,
   "evidence": [
     "ECB analysis and Fed flagging confirmed 15-40% addback range",
     "At 9-10% all-in cost and 8x actual leverage, interest expense consumes 70-80% of cash EBITDA",
@@ -9,7 +9,9 @@
     "Underlying data from LCD and Refinitiv databases is well-established",
     "ECB analysis and Fed supervisory data confirm addback inflation of 15-40%",
     "Arithmetic on interest expense at true leverage is undisputed across debates",
-    "Covenant-lite dominance (>90% of leveraged loans) delays default recognition by 12-24 months"
+    "Covenant-lite dominance (>90% of leveraged loans) delays default recognition by 12-24 months",
+    "S&P LCD median addbacks 25-40% of reported EBITDA",
+    "Reported 5.0x leverage = 6.5-7.0x cash EBITDA"
   ],
   "originating_agents": [
     "credit_analyst_02",
@@ -23,7 +25,10 @@
     "At what GDP growth rate does the distortion trigger a cascading default cycle?",
     "Can regulators effectively constrain addback practices?",
     "What is the precise distribution of addback inflation across sectors and credit tiers?",
-    "How does addback distortion interact with private credit's opacity?"
+    "How does addback distortion interact with private credit's opacity?",
+    "Do addback practices vary systematically by sector or sponsor?",
+    "How do auditors and rating agencies account for addbacks?",
+    "What is the aggregate impact on leveraged lending market risk?"
   ],
   "related_concepts": [
     "covenant_lite_default_delay",
@@ -33,15 +38,19 @@
     "elevated_stall_speed",
     "covenant_lite_cliff_dynamics",
     "maturity_wall_2025_2027",
-    "private_credit_rate_insensitivity"
+    "private_credit_rate_insensitivity",
+    "non_gaap_earnings_masking",
+    "private_credit_impairment_deferral",
+    "pik_toggle_activation"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-24T02:16:55Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0002",
-    "iter_0043"
+    "iter_0043",
+    "iter_0044"
   ]
 }

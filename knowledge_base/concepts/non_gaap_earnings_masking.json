@@ -1,35 +1,49 @@
 {
   "slug": "non_gaap_earnings_masking",
   "definition": "Non-GAAP earnings adjustments expanded 40-60% during the tightening cycle, with the S&P 500 GAAP-to-non-GAAP gap widening from ~$18-22/share (2020-21) to ~$28-38/share (2024-25E). Restructuring charges doubled, refinancing costs tripled, goodwill impairments nearly tripled — each directly traceable to rate increases, making ~20-25% of monetary transmission invisible to dominant valuation frameworks.",
-  "confidence": 8,
+  "confidence": 8.0,
   "evidence": [
-    "S&P 500 GAAP-to-non-GAAP gap: $18-22/share (2020-21) to $28-38/share (2024-25E)",
-    "Restructuring charges: $5 to $10/share",
-    "Refinancing costs: $2 to $6/share",
-    "Goodwill impairments: $3 to $8/share",
     "Non-GAAP P/E ~21-22x vs GAAP P/E ~26-29x",
     "Data directly observable in company filings and verifiable from FactSet/S&P Capital IQ",
-    "Confirmed as most empirically grounded insight in pair_1 debate"
+    "Confirmed as most empirically grounded insight in pair_1 debate",
+    "GAAP-non-GAAP gap widened from $18-22 to $28-38/share",
+    "Restructuring costs $5 to $10/share",
+    "Refinancing costs $2 to $6/share",
+    "Goodwill impairments $3 to $8/share",
+    "Verifiable from 10-K filings",
+    "EBITDA addbacks at 25-40% of reported EBITDA for new LBOs (credit extension)",
+    "Endorsed by challenger_02 as most empirically grounded insight"
   ],
   "originating_agents": [
-    "equity_analyst_02"
+    "equity_analyst_02",
+    "challenger_02",
+    "generalist_01",
+    "credit_analyst_02",
+    "generalist_02"
   ],
   "open_questions": [
     "How will the gap resolve — compression of non-GAAP or recognition in GAAP?",
-    "Does the gap carry information about future earnings revisions?"
+    "Does the gap carry information about future earnings revisions?",
+    "Will future rate cuts create false recovery signals via SFAS 142 reversals?",
+    "How do non-GAAP adjustments interact with equity risk premium models?",
+    "At what point do non-GAAP adjustments lose credibility with the market?"
   ],
   "related_concepts": [
     "broken_monetary_transmission",
     "sfas_142_goodwill_impairment_mechanism",
     "roic_wacc_spread_compression",
-    "qt_fiscal_crowding_out_premium"
+    "qt_fiscal_crowding_out_premium",
+    "cross_asset_inconsistency",
+    "ebitda_addback_distortion",
+    "private_credit_impairment_deferral"
   ],
   "topic": "monetary_policy",
   "created_at": "2026-03-23T04:46:43Z",
-  "last_updated": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0021",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0021"
+    "iter_0021",
+    "iter_0044"
   ]
 }

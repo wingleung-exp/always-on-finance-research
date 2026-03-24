@@ -1,0 +1,679 @@
+[
+  {
+    "slug": "r_star_estimation_uncertainty",
+    "definition": "The 480bp combined 90% confidence interval across Laubach-Williams, HLW, and Lubik-Matthes r* models exceeds the entire policy-relevant band, rendering any duration view built on a specific r* point estimate unreliable. The 5y5y forward (~4.0-4.3%) embeds a compound bet on r* AND term premium that is internally inconsistent with at least one leading model.",
+    "confidence": 9,
+    "evidence": [
+      "Laubach-Williams r* estimate 1.18%",
+      "HLW r* estimate 1.66%",
+      "Lubik-Matthes r* estimate 2.28%",
+      "Combined 90% CI of 480bp exceeds policy-relevant band",
+      "5y5y forward at 4.0-4.3% inconsistent with at least one leading r* model"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "challenger_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Which r* model, if any, is closest to the true neutral rate?",
+      "How should duration positioning be calibrated given r* uncertainty?",
+      "Does the 5y5y forward embed a rational risk premium or a mispricing?"
+    ],
+    "related_concepts": [
+      "treasury_absorption_technicals",
+      "cross_asset_inconsistency",
+      "term_premium_decomposition"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "capex_dollar_disruption",
+    "definition": "Tech equity inflows of $40-60B/month have structurally disrupted the traditional Fed-easing-to-EM-inflows transmission channel. DXY remains at 103-107 despite 100-150bp of Fed cuts, inconsistent with standard interest rate parity models. EM carry-to-vol has compressed to 0.3-0.4, below the 0.5 systematic allocation threshold.",
+    "confidence": 8,
+    "evidence": [
+      "TIC data showing $300B+ into US tech vs $45B EM outflows over 18 months",
+      "IIF EM flows at $5-10B/month vs $25B/month in 2019 easing cycle",
+      "Carry-to-vol compression to 0.3-0.4",
+      "DXY at 103-107 despite 100-150bp Fed cuts",
+      "BEA financial account data convergence",
+      "1997-2001 dot-com dollar parallel (though twin deficit ~6-7pp wider now)"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "When does the capex dollar regime end — does it require a tech earnings recession?",
+      "How sharp will the eventual dollar correction be given the wider twin deficit vs 1997-2001?",
+      "Can EM flows recover while tech equity inflows remain dominant?"
+    ],
+    "related_concepts": [
+      "em_credibility_segmentation",
+      "local_currency_cost_curve_dampener",
+      "dollar_swap_line_differentiator"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "simultaneous_cuts_and_qt",
+    "definition": "The current Fed attempt at simultaneous rate cuts and quantitative tightening is historically unprecedented (0-for-3 base rate, with only 2019 as a clean comparator). At ~9 months in, QT has already been slowed by 58% ($60B to $25B/month), representing de facto partial abandonment. This configuration double-squeezes CLO economics: rate cuts reduce floating-rate loan income while QT widens CLO liability spreads.",
+    "confidence": 8,
+    "evidence": [
+      "0-for-3 base rate for simultaneous cuts+QT (0-for-1 high-quality)",
+      "QT slowed 58% from $60B to $25B/month",
+      "Basis trade ~$800B-1T notional absorbing ~50% of QT duration redistribution",
+      "CLO double-squeeze: cuts hurt equity via lower floating-rate income, QT hurts debt via wider liability spreads"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01",
+      "credit_analyst_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Will the basis trade unwind be orderly or disorderly?",
+      "At what point does QT slowdown become de jure abandonment?",
+      "How much synthetic QE does the basis trade create?"
+    ],
+    "related_concepts": [
+      "clo_arbitrage_deterioration",
+      "basis_trade_unwind_risk",
+      "corporate_maturity_wall",
+      "treasury_absorption_technicals"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "corporate_maturity_wall",
+    "definition": "A $2.5T corporate debt maturity wall represents the most mechanically reliable catalyst for full monetary transmission. Amend-and-extend activity in late 2024/early 2025 pushed ~$400-500B of nearest-term maturities right, shifting peak refinancing to H2 2026-H1 2028 — coinciding with the expected QT endgame. 2021-vintage deals face all-in coupons nearly doubling from ~5% to ~8.75%, compressing interest coverage from 3-4x to 1.5-2x.",
+    "confidence": 8,
+    "evidence": [
+      "$2.5T observable debt maturity schedules",
+      "$400-500B pushed right via amend-and-extend in late 2024/early 2025",
+      "2-for-2 base rate (1989-91, 2001-02) for maturity walls under elevated rates producing credit stress",
+      "Refinancing math: 2021-vintage coupons ~5% to ~8.75%, ICR from 3-4x to 1.5-2x",
+      "Peak timing coincides with QT endgame"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_01"
+    ],
+    "open_questions": [
+      "Will further amend-and-extend push the wall further right?",
+      "Does private credit capacity delay the public market pressure?",
+      "How much of the maturity wall is already priced into credit spreads?"
+    ],
+    "related_concepts": [
+      "simultaneous_cuts_and_qt",
+      "clo_arbitrage_deterioration",
+      "pik_toggle_activation",
+      "private_credit_impairment_deferral"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "non_gaap_earnings_masking",
+    "definition": "The GAAP-to-non-GAAP earnings gap has widened from $18-22/share to $28-38/share, with components directly traceable to rate increases: restructuring costs doubling ($5 to $10/share), refinancing tripling ($2 to $6/share), goodwill impairments rising ($3 to $8/share). Approximately 20-25% of monetary transmission's corporate profitability impact is invisible to dominant valuation frameworks. The most empirically grounded finding in the knowledge base.",
+    "confidence": 8,
+    "evidence": [
+      "GAAP-non-GAAP gap widened from $18-22 to $28-38/share",
+      "Restructuring costs $5 to $10/share",
+      "Refinancing costs $2 to $6/share",
+      "Goodwill impairments $3 to $8/share",
+      "Verifiable from 10-K filings",
+      "EBITDA addbacks at 25-40% of reported EBITDA for new LBOs (credit extension)",
+      "Endorsed by challenger_02 as most empirically grounded insight"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_01",
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Will future rate cuts create false recovery signals via SFAS 142 reversals?",
+      "How do non-GAAP adjustments interact with equity risk premium models?",
+      "At what point do non-GAAP adjustments lose credibility with the market?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "ebitda_addback_distortion",
+      "private_credit_impairment_deferral"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "treasury_absorption_technicals",
+    "definition": "Private-sector Treasury absorption requirements of $2.7-3.3T annually are a dominant structural driver of term premium. QT runoff ~$300B/year plus net new issuance ~$2.0-2.6T plus declining foreign official demand (~$100-200B/year net selling) equals 5-6x QE-era absorption levels. Observable in deteriorating auction metrics.",
+    "confidence": 8,
+    "evidence": [
+      "QT runoff ~$300B/year",
+      "Net new issuance ~$2.0-2.6T/year",
+      "Foreign official demand declining ~$100-200B/year net selling",
+      "30Y auction tails averaging 1.5-2.5bp vs 0.5-1.0bp in 2019",
+      "20Y auctions consistently tailing 2.0-3.0bp",
+      "Arithmetic not contested by any agent"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What is the price elasticity of private-sector Treasury demand?",
+      "Will foreign private demand (e.g., Japanese lifers) offset official selling?",
+      "At what term premium level does absorption become unconstrained?"
+    ],
+    "related_concepts": [
+      "r_star_estimation_uncertainty",
+      "simultaneous_cuts_and_qt",
+      "basis_trade_unwind_risk",
+      "term_premium_decomposition"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "private_credit_impairment_deferral",
+    "definition": "Private credit ($1.7-2.0T) has structurally altered how credit risk manifests by deferring impairment recognition by 6-18 months. BDC and interval fund NAVs marked quarterly using manager-selected comparables show an estimated 15-25% gap between reported NAVs and probable recovery values for bottom-quartile portfolios. Semi-liquid vehicle risk (quarterly/monthly redemption at NAV against illiquid assets) creates a classic liquidity spiral setup.",
+    "confidence": 7,
+    "evidence": [
+      "$1.7-2.0T private credit market size",
+      "Quarterly NAV marking using manager-selected comparables",
+      "Estimated 15-25% NAV gap for bottom-quartile portfolios",
+      "Semi-liquid vehicle redemption mismatch",
+      "Combined with non-GAAP and EBITDA addbacks, estimated 40-50% of monetary transmission invisible to conventional metrics"
+    ],
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is private credit deferring or structurally changing credit cycle dynamics (Japanese forbearance analogy)?",
+      "When will semi-liquid vehicle redemption pressure materialize?",
+      "What is the true aggregate NAV gap across the private credit market?",
+      "Does the 40-50% invisible estimate survive scrutiny (estimate built on estimates)?"
+    ],
+    "related_concepts": [
+      "non_gaap_earnings_masking",
+      "corporate_maturity_wall",
+      "pik_toggle_activation",
+      "ebitda_addback_distortion"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "cross_asset_inconsistency",
+    "definition": "Major asset classes simultaneously embed mutually contradictory macro assumptions: equities price soft landing (P/E 21-22x non-GAAP), credit prices perfection (IG 90-110bp), rates price persistent inflation/fiscal risk (10Y 4.2-4.5% with 50-120bp term premium), gold prices structural credibility loss ($400-600/oz residual). The 5y5y forward is consistent with equity valuations only if both r* is 2.0-2.5% AND equity risk premium is permanently lower.",
+    "confidence": 7,
+    "evidence": [
+      "Equity P/E 21-22x non-GAAP",
+      "IG spreads 90-110bp",
+      "10Y at 4.2-4.5% with 50-120bp term premium",
+      "Gold residual $400-600/oz above model fair value",
+      "5y5y forward consistency requires both r* at 2.0-2.5% and lower ERP"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can different markets rationally price different probability distributions without being wrong?",
+      "Which market is most likely to reprice first?",
+      "Is the inconsistency stable or does it have a convergence forcing mechanism?"
+    ],
+    "related_concepts": [
+      "r_star_estimation_uncertainty",
+      "non_gaap_earnings_masking",
+      "gold_residual",
+      "term_premium_decomposition"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "monetary_transmission_eventual_effectiveness",
+    "definition": "Monetary transmission has eventually worked with a 100% base rate across five post-1985 cycles (1994-95, 1999-2000, 2004-07, 2015-18, 2022-25 in progress), with lags ranging from 18 to 24+ months. Every cycle featured credible arguments that transmission was broken; it always arrived through unexpected channels. The current 36-month lag with +0.3pp unemployment is within historical variance.",
+    "confidence": 7,
+    "evidence": [
+      "Five post-1985 cycle falsification table",
+      "Lag range 18-24+ months across cycles",
+      "Current +0.3pp unemployment within historical variance",
+      "Every cycle had credible broken-transmission arguments",
+      "Transmission arrived through unexpected channels each time"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What unemployment rate at what lag would confirm genuinely broken transmission?",
+      "Has private credit at scale, AI wealth effects, or mortgage lock-in genuinely impaired channels?",
+      "Is the current cycle within historical variance or a structural break?"
+    ],
+    "related_concepts": [
+      "discontinuous_catch_up",
+      "corporate_maturity_wall",
+      "private_credit_impairment_deferral"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "maturity_dependent_correlation_bifurcation",
+    "definition": "Stock-bond correlations have bifurcated by maturity: 2Y-SPX at -0.25 to -0.35 vs 30Y-SPX at +0.10 to +0.25. A reflexive mechanism operates: positive long-end correlation reduces hedging demand, raising term premium, worsening hedge performance. Observable in 30Y bid-to-cover declining from 2.4-2.6x to 2.2-2.3x.",
+    "confidence": 7,
+    "evidence": [
+      "2Y-SPX correlation -0.25 to -0.35",
+      "30Y-SPX correlation +0.10 to +0.25",
+      "30Y bid-to-cover declining from 2.4-2.6x to 2.2-2.3x",
+      "Reflexive mechanism: positive correlation → reduced hedging → higher premium → worse hedge"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Are 60-day rolling correlations too noisy to be structurally meaningful?",
+      "Could the bifurcation partially reflect transient positioning?",
+      "What is the term premium impact of reduced hedging demand?"
+    ],
+    "related_concepts": [
+      "treasury_absorption_technicals",
+      "r_star_estimation_uncertainty",
+      "term_premium_decomposition"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "basis_trade_unwind_risk",
+    "definition": "The Treasury basis trade (~$800B-1T notional) absorbs roughly half of QT's intended duration redistribution, creating synthetic QE that masks underlying tightness. The SRF is untested at scale, and the Fed's 2x model miss in 2019 (reserve threshold $0.8T estimated vs $1.5T actual) demonstrates that the scarcity boundary is unknowable. Probability of a 2019-style repo spike is lower due to institutional adaptation, but probability of novel-form reserve stress remains underpriced.",
+    "confidence": 7,
+    "evidence": [
+      "$800B-1T notional basis trade",
+      "Absorbing ~50% of QT duration redistribution",
+      "SRF untested at scale",
+      "Fed 2019 reserve threshold miss: $0.8T estimated vs $1.5T actual",
+      "Institutional learning since 2019"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What form would novel reserve stress take?",
+      "Can the SRF handle a basis trade unwind at scale?",
+      "What is the actual magnitude of a potential term premium shock?"
+    ],
+    "related_concepts": [
+      "simultaneous_cuts_and_qt",
+      "treasury_absorption_technicals",
+      "srf_inadequacy_for_clo"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "opec_fiscal_breakeven_reflexivity",
+    "definition": "Saudi fiscal breakeven at $85-96/bbl creates a trigger zone below $75 for OPEC+ compliance breakdown, intensifying pro-cyclical amplification of Fed policy. The April 2025 OPEC+ decision (411 kb/d acceleration vs planned 138 kb/d) validates the reflexive dynamic.",
+    "confidence": 7,
+    "evidence": [
+      "Saudi fiscal breakeven $85-96/bbl",
+      "OPEC+ April 2025 decision: 411 kb/d actual vs 138 kb/d planned",
+      "Trigger zone below $75 for compliance breakdown",
+      "Challenger_02 endorsement as well-calibrated"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How sensitive are breakeven levels to Vision 2030 assumptions?",
+      "Would OPEC+ compliance breakdown be a one-time event or a sustained dynamic?"
+    ],
+    "related_concepts": [
+      "local_currency_cost_curve_dampener",
+      "lng_eur_usd_channel"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "discontinuous_catch_up",
+    "definition": "Extended monetary transmission lag episodes resolve via sudden discontinuity rather than gradual adjustment in 3 out of 4 historical cases (1966-69, 2004-07, 2018-19). Only 1994-95 (preemptive tightening) was an exception. This suggests the modal resolution for the current extended lag is a discontinuous catch-up event rather than a slow grind.",
+    "confidence": 7,
+    "evidence": [
+      "3-for-4 base rate: 1966-69, 2004-07, 2018-19 resolved via discontinuity",
+      "1994-95 exception due to preemptive tightening",
+      "Identified as most important single insight in debates"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Does the sample of only four episodes provide sufficient statistical power?",
+      "What novel features of the current cycle could change the pattern?",
+      "What would be the channel for discontinuous catch-up in the current cycle?"
+    ],
+    "related_concepts": [
+      "monetary_transmission_eventual_effectiveness",
+      "corporate_maturity_wall",
+      "pik_toggle_activation"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "clo_arbitrage_deterioration",
+    "definition": "CLOs purchase ~65-70% of all new institutional leveraged loans. New-issue CLO equity IRR has compressed to 10-12% from 14-18% in 2021-2022, below the ~15% threshold for readily available CLO equity capital. The simultaneous cuts+QT configuration creates a double-squeeze with no historical precedent, creating structural demand withdrawal from leveraged lending.",
+    "confidence": 7,
+    "evidence": [
+      "CLOs purchase 65-70% of new institutional leveraged loans",
+      "CLO equity IRR compressed to 10-12% from 14-18%",
+      "~15% threshold for CLO equity capital availability",
+      "No historical precedent for cuts+QT double-squeeze on CLO economics"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Can alternative capital sources (BDCs, direct lenders) absorb the CLO demand gap?",
+      "At what CLO equity IRR does formation effectively stop?",
+      "How quickly would a CLO formation stoppage feed through to leveraged loan pricing?"
+    ],
+    "related_concepts": [
+      "simultaneous_cuts_and_qt",
+      "corporate_maturity_wall",
+      "srf_inadequacy_for_clo",
+      "pik_toggle_activation"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "pik_toggle_activation",
+    "definition": "Payment-in-kind toggle activation has increased from 5-8% to 12-18% of leveraged loans, representing the earliest observable symptom of monetary transmission reaching leveraged borrowers. PIK capitalization is economically equivalent to issuing new debt to service existing debt. Public default rates (~2-3%) significantly understate true credit stress.",
+    "confidence": 7,
+    "evidence": [
+      "PIK toggle activation from 5-8% to 12-18%",
+      "PIK economically equivalent to new debt issuance for debt service",
+      "Public default rates 2-3% understate true stress",
+      "Identified as single most actionable data point in debates"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "What is the total PIK balance across the leveraged loan market?",
+      "At what PIK activation rate does the system tip into default cascades?",
+      "How do exact percentages vary by data source?"
+    ],
+    "related_concepts": [
+      "corporate_maturity_wall",
+      "clo_arbitrage_deterioration",
+      "private_credit_impairment_deferral",
+      "non_gaap_earnings_masking"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "dollar_swap_line_differentiator",
+    "definition": "Fed dollar swap line access and the PBOC BSA network ($560B+ with 40+ central banks) are the new critical differentiators in EM sudden stop vulnerability. March 2020 provided a natural experiment: swap-line countries experienced 40-50% less depreciation, controlling for fundamentals. The PBOC network creates a parallel geopolitical safety net that bifurcates EM into two tiers.",
+    "confidence": 7,
+    "evidence": [
+      "March 2020 natural experiment: 40-50% less depreciation for swap-line countries",
+      "Bahaj and Reis (2022) study",
+      "PBOC BSA network $560B+ with 40+ central banks",
+      "Geopolitical safety net bifurcation"
+    ],
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "open_questions": [
+      "Is PBOC BSA effectiveness as crisis backstop testable absent a major crisis?",
+      "Would the PBOC actually activate BSA lines in a USD liquidity crisis?",
+      "How do dual swap-line access countries (both Fed and PBOC) price relative to single-access?"
+    ],
+    "related_concepts": [
+      "capex_dollar_disruption",
+      "em_credibility_segmentation"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "local_currency_cost_curve_dampener",
+    "definition": "Fed tightening strengthens USD, which lowers EM producer breakevens by 8-15% in local currency terms (BRL, CLP, ZAR, RUB), keeping marginal commodity supply online and capping USD commodity prices. This creates a validated structural dampener on commodity-channel monetary transmission.",
+    "confidence": 7,
+    "evidence": [
+      "8-15% breakeven reduction in BRL, CLP, ZAR, RUB terms",
+      "Validated across Codelco, Vale, Anglo American Platinum, Russian crude",
+      "Challenger_02 considers it well-calibrated"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Does the mechanism weaken as EM producers hedge FX exposure more actively?",
+      "How persistent is the dampening effect in a sustained strong-dollar regime?"
+    ],
+    "related_concepts": [
+      "capex_dollar_disruption",
+      "opec_fiscal_breakeven_reflexivity"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "srf_inadequacy_for_clo",
+    "definition": "The Standing Repo Facility is inadequate for a CLO-driven liquidity event because CLO tranches are not SRF-eligible collateral, CLO warehouses are held by non-bank entities without SRF access, and the transmission chain (bank contraction → warehouse collapse → CLO demand cliff → maturity wall crisis) would require a 13(3) emergency facility.",
+    "confidence": 7,
+    "evidence": [
+      "CLO tranches not SRF-eligible collateral",
+      "CLO warehouses held by non-bank entities without SRF access",
+      "Mechanistically clear transmission chain",
+      "13(3) facility would be required"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Would the Fed pre-position a 13(3) facility or wait for stress?",
+      "Could regulatory changes expand SRF eligibility before a crisis?",
+      "What is the triggering probability for a CLO-driven liquidity event?"
+    ],
+    "related_concepts": [
+      "clo_arbitrage_deterioration",
+      "basis_trade_unwind_risk",
+      "corporate_maturity_wall"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "gold_residual",
+    "definition": "Gold prices carry a $400-600/oz residual above model fair value, coinciding with central bank buying at 1,000+ tonnes/year (2-3x the 2010-2021 average) and a gold-TIPS correlation breakdown since 2022. Competing explanations (post-sanctions diversification vs structural dollar credibility erosion) have different implications but remain empirically unresolved.",
+    "confidence": 6,
+    "evidence": [
+      "Central bank buying 1,000+ tonnes/year vs 2-3x 2010-2021 average",
+      "Gold-TIPS correlation breakdown since 2022",
+      "2-for-2 base rate for residuals resolving via regime change",
+      "Dollar reserve share decline 59% to 57% (glacial)"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "fx_strategist_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is the buying sanctions-driven (bounded) or credibility-driven (unbounded)?",
+      "If buying slows below 800 tonnes/year while gold holds above $3,000, what does that signal?",
+      "How should the residual be decomposed across competing explanations?"
+    ],
+    "related_concepts": [
+      "cross_asset_inconsistency",
+      "capex_dollar_disruption"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "em_credibility_segmentation",
+    "definition": "EM currencies should be segmented into three or four tiers based on their factor loadings rather than treated as a homogeneous asset class. Tier 0 tech-proxy currencies (TWD, KRW) exhibit R-squared ~0.5-0.7 against SOX/NASDAQ vs ~0.2-0.3 against VIX/EMBI. Treating KRW and TRY as the same asset class is increasingly indefensible.",
+    "confidence": 6,
+    "evidence": [
+      "TWD/KRW R-squared 0.5-0.7 against SOX/NASDAQ",
+      "TWD/KRW R-squared 0.2-0.3 against VIX/EMBI",
+      "Tier 0 extension confirmed as genuinely actionable in debates"
+    ],
+    "originating_agents": [
+      "fx_strategist_02",
+      "fx_strategist_01"
+    ],
+    "open_questions": [
+      "Do ILS and PLN truly belong in Tier 0?",
+      "Is the segmentation stable or will factor loadings shift?",
+      "How should portfolio construction change based on the tiering?"
+    ],
+    "related_concepts": [
+      "capex_dollar_disruption",
+      "dollar_swap_line_differentiator"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "lng_eur_usd_channel",
+    "definition": "LNG pricing creates a structural channel constraining ECB policy relative to the Fed. The mechanism is novel and real but second-order: correlation is inflated by the 2022 crisis extreme, the $40-50B/year flow is small vs $1T+ daily EUR/USD turnover, and the ECB's 2022-2024 hiking cycle occurred despite this channel. A 50% haircut on claimed magnitude is warranted.",
+    "confidence": 5,
+    "evidence": [
+      "Multiple agents cite the mechanism",
+      "$40-50B/year LNG flow",
+      "ECB hiked 2022-2024 despite the channel",
+      "Correlation inflated by 2022 extreme"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "How much of the correlation survives excluding the 2022 crisis period?",
+      "Could the channel become first-order in a future European energy crisis?",
+      "Does the channel operate symmetrically in both directions?"
+    ],
+    "related_concepts": [
+      "opec_fiscal_breakeven_reflexivity",
+      "capex_dollar_disruption"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "boj_normalization",
+    "definition": "BoJ normalization is a legitimate but overhyped catalyst for UST markets. ~30% institutional inertia is universally agreed. At 30% execution, the impact is only 10-15bp at 10Y UST — within noise. The thesis has been consensus since 2023 (definitionally not underpriced). 0-for-2 historical completion rate, though current attempt has the novel feature of sustained >2% inflation.",
+    "confidence": 5,
+    "evidence": [
+      "30% institutional inertia universally agreed",
+      "30% execution yields only 10-15bp at 10Y",
+      "Consensus since 2023",
+      "0-for-2 completion rate",
+      "July 2024 unwind absorbed in three weeks",
+      "2006-07 normalization did not trigger predicted repatriation",
+      "Current attempt has sustained >2% inflation (novel)"
+    ],
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02",
+      "rates_strategist_01",
+      "generalist_01",
+      "generalist_02",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Would 50%+ execution be material and what would trigger it?",
+      "Does sustained >2% inflation change the completion probability?",
+      "Is the modal outcome incremental or could this cycle be different?"
+    ],
+    "related_concepts": [
+      "treasury_absorption_technicals",
+      "r_star_estimation_uncertainty"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "ebitda_addback_distortion",
+    "definition": "EBITDA addback practices understate true leverage by 1.0-2.0x for 2021-2023 LBO vintages. S&P LCD data shows median addbacks of 25-40% of reported EBITDA, meaning reported 5.0x leverage equals 6.5-7.0x on cash EBITDA.",
+    "confidence": 5,
+    "evidence": [
+      "S&P LCD median addbacks 25-40% of reported EBITDA",
+      "Reported 5.0x leverage = 6.5-7.0x cash EBITDA"
+    ],
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "open_questions": [
+      "Do addback practices vary systematically by sector or sponsor?",
+      "How do auditors and rating agencies account for addbacks?",
+      "What is the aggregate impact on leveraged lending market risk?"
+    ],
+    "related_concepts": [
+      "non_gaap_earnings_masking",
+      "private_credit_impairment_deferral",
+      "pik_toggle_activation"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "term_premium_decomposition",
+    "definition": "Term premium is dominated by fiscal supply dynamics (Treasury absorption requirements) rather than inflation uncertainty, evidenced by auction tail patterns. The reflexive term premium loop operates through positive stock-bond correlation reducing hedging demand, raising premium, and further worsening hedge performance.",
+    "confidence": 8,
+    "evidence": [
+      "Auction tail evidence: 30Y averaging 1.5-2.5bp vs 0.5-1.0bp in 2019",
+      "$2.7-3.3T annual private-sector absorption",
+      "Reflexive loop through correlation and hedging demand",
+      "Bid-to-cover declining from 2.4-2.6x to 2.2-2.3x at 30Y"
+    ],
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What is the relative contribution of fiscal supply vs inflation uncertainty?",
+      "Is the reflexive loop self-limiting or does it have a runaway dynamic?"
+    ],
+    "related_concepts": [
+      "treasury_absorption_technicals",
+      "maturity_dependent_correlation_bifurcation",
+      "r_star_estimation_uncertainty"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  }
+]

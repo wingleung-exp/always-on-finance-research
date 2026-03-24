@@ -1,0 +1,214 @@
+[
+  {
+    "concept_a": "r_star_estimation_uncertainty",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "R* uncertainty allows different asset classes to embed inconsistent macro assumptions because no single r* estimate can definitively arbitrage the pricing gap. The 5y5y forward is consistent with equity valuations only under a narrow r* assumption that conflicts with at least one leading model.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when r* model dispersion exceeds 100bp; less relevant in periods of obvious monetary regime (e.g., zero lower bound)",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "capex_dollar_disruption",
+    "concept_b": "em_credibility_segmentation",
+    "mechanism": "Tech equity inflows of $40-60B/month disproportionately benefit Tier 0 tech-proxy currencies (TWD, KRW) while starving traditional EM of capital, reinforcing the need for multi-tier segmentation. Carry-to-vol compression below 0.5 particularly affects traditional EM.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds during AI/tech investment boom; would reverse if tech equity flows decline or EM growth differential widens sufficiently",
+    "originating_agents": [
+      "fx_strategist_01",
+      "fx_strategist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "simultaneous_cuts_and_qt",
+    "concept_b": "clo_arbitrage_deterioration",
+    "mechanism": "Rate cuts reduce floating-rate loan income (hurting CLO equity) while QT widens CLO liability spreads (hurting CLO debt), creating a double-squeeze on CLO economics with no historical precedent.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Specific to the current unprecedented policy configuration; would not hold under uniform easing or uniform tightening",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "corporate_maturity_wall",
+    "concept_b": "monetary_transmission_eventual_effectiveness",
+    "mechanism": "The maturity wall mechanically forces refinancing at current market rates, overriding amend-and-extend delays. As 2021-vintage deals mature (coupons doubling from ~5% to ~8.75%), interest coverage compression from 3-4x to 1.5-2x transmits the full force of higher rates regardless of private credit deferral.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Active when substantial debt volume matures into a higher-rate environment; irrelevant when rates have declined to or below issuance-era levels",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "non_gaap_earnings_masking",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "Non-GAAP adjustments hide 20-25% of monetary transmission's profitability impact, enabling equity P/E multiples to appear reasonable while true earnings are impaired. This masks the inconsistency between equity valuations and rate/credit market signals.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Operative when non-GAAP adjustments are growing (rising rate environment with restructuring); diminishes in stable or falling rate regimes",
+    "originating_agents": [
+      "generalist_01",
+      "challenger_02",
+      "credit_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "treasury_absorption_technicals",
+    "concept_b": "term_premium_decomposition",
+    "mechanism": "At 5-6x QE-era absorption requirements ($2.7-3.3T/year), private sector buyers demand higher term premium to absorb supply. Observable in deteriorating auction metrics (30Y tails 1.5-2.5bp vs 0.5-1.0bp).",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Scales with the fiscal deficit trajectory and QT pace; would reverse under resumed QE or fiscal consolidation",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "private_credit_impairment_deferral",
+    "concept_b": "monetary_transmission_eventual_effectiveness",
+    "mechanism": "Private credit defers impairment recognition by 6-18 months through quarterly NAV marking with manager-selected comparables, delaying but not preventing transmission. The maturity wall ultimately forces public market refinancing when private credit capacity exhausts.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Delay increases with private credit market size and manager willingness to extend; breaks down when maturity wall forces public market access",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "basis_trade_unwind_risk",
+    "concept_b": "treasury_absorption_technicals",
+    "mechanism": "The basis trade ($800B-1T notional) absorbs ~50% of QT's intended duration redistribution, creating synthetic QE. An unwind would suddenly require private sector to absorb the full QT flow, producing a discontinuous term premium shock.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Risk scales with basis trade notional size and leverage; mitigated by SRF if it functions at scale (untested)",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "opec_fiscal_breakeven_reflexivity",
+    "concept_b": "monetary_transmission_eventual_effectiveness",
+    "mechanism": "Fed tightening weakens global demand, pushing oil below fiscal breakevens, triggering OPEC+ compliance breakdown and oversupply, amplifying the disinflationary impulse pro-cyclically. Validated by April 2025 OPEC+ acceleration.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active when oil prices are near fiscal breakeven zones ($75-96); inactive when prices are far above or below",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "pik_toggle_activation",
+    "concept_b": "corporate_maturity_wall",
+    "mechanism": "Rising PIK toggle activation (12-18%) is the leading indicator of borrower stress that precedes maturity wall refinancing failures. PIK capitalization compounds outstanding debt, making eventual refinancing more expensive and default more likely.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Leading indicator role holds when PIK activation exceeds 10%; below that level, noise dominates signal",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "clo_arbitrage_deterioration",
+    "concept_b": "corporate_maturity_wall",
+    "mechanism": "CLO formation slowdown (equity IRR below 15% threshold) reduces the primary demand source for leveraged loans (65-70% of new issuance), tightening refinancing conditions precisely when the maturity wall requires maximum market access.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Critical when maturity wall peaks coincide with CLO equity IRR compression; less binding when alternative demand sources scale",
+    "originating_agents": [
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "local_currency_cost_curve_dampener",
+    "concept_b": "capex_dollar_disruption",
+    "mechanism": "The strong capex dollar reduces EM producer breakevens by 8-15% in local currency, keeping marginal commodity supply online and capping USD commodity prices. The dollar strength that disrupts EM capital flows simultaneously dampens commodity-channel transmission.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Both driven by the same strong-dollar regime; would co-reverse if the capex dollar regime ends",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "fx_strategist_01"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "discontinuous_catch_up",
+    "concept_b": "corporate_maturity_wall",
+    "mechanism": "The maturity wall is the most likely channel for discontinuous catch-up in the current cycle. When amend-and-extend capacity exhausts and refinancing is forced, the accumulated deferred transmission arrives as a sudden repricing rather than gradual adjustment.",
+    "direction": "b_causes_a",
+    "confidence": 7,
+    "regime_dependence": "Requires maturity wall to reach critical mass without prior gradual adjustment; less likely if rates decline significantly before peak refinancing",
+    "originating_agents": [
+      "generalist_02",
+      "credit_analyst_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "gold_residual",
+    "concept_b": "cross_asset_inconsistency",
+    "mechanism": "Gold's $400-600/oz residual prices structural credibility loss that is inconsistent with the soft-landing narrative embedded in equity and credit markets. If gold is correct about credibility erosion, equity and credit are mispriced.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Relationship strengthens if gold residual exceeds $800/oz; weakens if central bank buying slows below 800 tonnes/year",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01",
+      "generalist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "concept_a": "dollar_swap_line_differentiator",
+    "concept_b": "em_credibility_segmentation",
+    "mechanism": "Access to Fed swap lines and/or PBOC BSA provides 40-50% depreciation protection in stress events, creating a fundamental bifurcation in EM vulnerability that reinforces the tiered segmentation framework.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Differentiator activates in acute USD liquidity stress; dormant in normal conditions",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  }
+]

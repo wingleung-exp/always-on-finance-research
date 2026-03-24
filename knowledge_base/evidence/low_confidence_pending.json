@@ -2605,5 +2605,47 @@
     "needs": "Quantitative model of reverse portfolio rebalancing effects from QT on corporate bond demand. Temporal overlap analysis of QT schedule with maturity wall concentration. Estimation of the non-linear interaction term versus simple additivity.",
     "topic": "growth_models",
     "iteration_id": "iter_0043"
+  },
+  {
+    "claim": "China's copper demand is decoupling from aggregate GDP growth via electrification rotation, with grid ~28-30% (growing 6-8%/yr), construction ~18-20% (declining 3-5%/yr), data centers ~3-5% (growing 25-35%/yr)",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Cross-validation from additional agents; independent verification of end-use decomposition data; time-series evidence of the demand rotation persisting across economic cycles",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "EBITDA addback practices understate true leverage by 1.0-2.0x for 2021-2023 LBO vintage, with reported 5.0x leverage equaling 6.5-7.0x on cash EBITDA",
+    "source_agent": "credit_analyst_02",
+    "needs": "Cross-validation from second credit specialist; audit-quality data on addback practices across a representative sample; comparison with historical addback levels to confirm the magnitude is unusual",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "EUR-funded carry may partially substitute for USD-funded carry, reducing the impact of Fed easing on EM flows",
+    "source_agent": "fx_strategist_02",
+    "needs": "Empirical data on EUR-funded carry trade volumes; evidence of institutional mandate flexibility allowing currency substitution; flow data showing EUR funding replacing USD funding in EM carry positions",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "Fed framework review is a mispriced vol event with scenario probabilities for material changes",
+    "source_agent": "rates_strategist_01",
+    "needs": "Specific probability estimates replaced with structured scenario analysis; comparison with 2012 framework review as base case; evidence of market pricing that underestimates tail scenarios",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "Shadow volatility premium exists in EM FX options pricing, creating a systematically exploitable mispricing",
+    "source_agent": "fx_strategist_02",
+    "needs": "Rigorous backtest showing the shadow vol premium exceeds the carry cost of long gamma (3-5 vol points annualized); alternative explanations (jump risk, liquidity premium) must be ruled out",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "Oil balance sheet surplus could accelerate Fed cut timeline by providing disinflationary impulse",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Evidence that the Fed responds to energy price moves rather than looking through them; OPEC+ compliance assumption validation; demonstration that oil channel dominates credit and labor market dynamics for Fed reaction function",
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
   }
 ]

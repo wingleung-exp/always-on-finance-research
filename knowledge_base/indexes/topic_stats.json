@@ -1273,11 +1273,6 @@
         "definition": "When analyzing an explicitly 'unprecedented' regime, confidence in predictions about its effects should decrease, not increase. Assigning 9/10 confide"
       },
       {
-        "slug": "cross_asset_inconsistency",
-        "confidence": 8,
-        "definition": "Equities, credit, and rates are telling mutually contradictory stories about fiscal sustainability. Rates market pricing significant fiscal risk (elev"
-      },
-      {
         "slug": "debt_gdp_threshold_debunked",
         "confidence": 8,
         "definition": "No robust nonlinear debt/GDP threshold exists in the data. The Reinhart-Rogoff '90% threshold' was debunked (Herndon-Ash-Pollin 2013). A modest linear"
@@ -1306,6 +1301,11 @@
         "slug": "g7_fiscal_divergence_extreme",
         "confidence": 8,
         "definition": "G7 fiscal divergence is at its widest since post-WWII: U.S. at -6.5 to -7.0% of GDP, Euro Area ~-3%, Canada ~-1.5 to -2.0%, Germany ~-2%, Japan ~-4% a"
+      },
+      {
+        "slug": "opec_fiscal_breakeven_supply_constraint",
+        "confidence": 8,
+        "definition": "OPEC+ fiscal breakeven oil prices constrain the global supply response. Aggregate weighted breakeven: $78-85/bbl (Saudi $85-96, UAE $60-65, Iraq $85-9"
       }
     ],
     "all_concept_slugs": [
@@ -1351,7 +1351,7 @@
       "unprecedented_fiscal_configuration",
       "us_china_fiscal_accelerator"
     ],
-    "avg_confidence": 6.8
+    "avg_confidence": 6.7
   },
   "fx_rates_divergence": {
     "concept_count": 86,
@@ -1895,9 +1895,9 @@
     "avg_confidence": 6.5
   },
   "monetary_policy": {
-    "concept_count": 19,
-    "relationship_count": 20,
-    "framework_count": 4,
+    "concept_count": 36,
+    "relationship_count": 35,
+    "framework_count": 10,
     "top_concepts": [
       {
         "slug": "r_star_estimation_uncertainty",
@@ -1905,8 +1905,18 @@
         "definition": "R* estimation uncertainty spans ~480bp in combined 90% CIs across three leading models (Laubach-Williams, Holston-Laubach-Williams, Lubik-Matthes), ex"
       },
       {
-        "slug": "non_gaap_earnings_masking",
+        "slug": "capex_dollar_disruption",
         "confidence": 8,
+        "definition": "Tech equity inflows of $40-60B/month have structurally disrupted the traditional Fed-easing-to-EM-inflows transmission channel. DXY remains at 103-107"
+      },
+      {
+        "slug": "corporate_maturity_wall",
+        "confidence": 8,
+        "definition": "A $2.5T corporate debt maturity wall represents the most mechanically reliable catalyst for full monetary transmission. Amend-and-extend activity in l"
+      },
+      {
+        "slug": "non_gaap_earnings_masking",
+        "confidence": 8.0,
         "definition": "Non-GAAP earnings adjustments expanded 40-60% during the tightening cycle, with the S&P 500 GAAP-to-non-GAAP gap widening from ~$18-22/share (2020-21)"
       },
       {
@@ -1915,63 +1925,70 @@
         "definition": "QT endgame is a nonlinear threshold event where the reserve scarcity threshold is unknowable ex ante. The September 2019 repo spike occurred when the "
       },
       {
-        "slug": "extended_monetary_transmission_lags",
+        "slug": "simultaneous_cuts_and_qt",
+        "confidence": 8,
+        "definition": "The current Fed attempt at simultaneous rate cuts and quantitative tightening is historically unprecedented (0-for-3 base rate, with only 2019 as a cl"
+      },
+      {
+        "slug": "treasury_absorption_technicals",
+        "confidence": 8,
+        "definition": "Private-sector Treasury absorption requirements of $2.7-3.3T annually are a dominant structural driver of term premium. QT runoff ~$300B/year plus net"
+      },
+      {
+        "slug": "basis_trade_unwind_risk",
         "confidence": 7,
-        "definition": "Monetary policy transmission lags have structurally extended to 1.5-2x the post-1990 median. The 2022 cycle is now 36+ months with unemployment increa"
+        "definition": "The Treasury basis trade (~$800B-1T notional) absorbs roughly half of QT's intended duration redistribution, creating synthetic QE that masks underlyi"
       },
       {
-        "slug": "opec_fiscal_breakeven_reflexivity",
+        "slug": "clo_arbitrage_deterioration",
         "confidence": 7,
-        "definition": "OPEC+ fiscal breakeven reflexivity creates a pro-cyclical amplifier for monetary policy. Saudi breakeven has risen to $85-96/bbl. Below $75 oil, fisca"
+        "definition": "CLOs purchase ~65-70% of all new institutional leveraged loans. New-issue CLO equity IRR has compressed to 10-12% from 14-18% in 2021-2022, below the "
       },
       {
-        "slug": "sfas_142_goodwill_impairment_mechanism",
+        "slug": "discontinuous_catch_up",
         "confidence": 7,
-        "definition": "SFAS 142 goodwill impairment testing creates a reflexive channel for monetary policy: lower policy rates mechanically raise fair values in goodwill te"
-      },
-      {
-        "slug": "simultaneous_cuts_qt_unprecedented",
-        "confidence": 7,
-        "definition": "Simultaneous rate cuts plus QT is structurally unprecedented at this scale. QT only existed as a tool for 2 of 9 post-1970 easing cycles, and the only"
-      },
-      {
-        "slug": "capex_dollar_em_flow_redirection",
-        "confidence": 6,
-        "definition": "The capex dollar phenomenon redirects $40-60B/month in capital flows into US tech equity during what should be an EM-favorable Fed easing cycle. IIF E"
-      },
-      {
-        "slug": "fci_effective_stance_gap",
-        "confidence": 6,
-        "definition": "The current FCI-implied effective monetary policy stance is substantially looser than the nominal FFR of 4.25-4.50%, though the precise gap is unquant"
-      },
-      {
-        "slug": "local_currency_cost_curve_self_defeating",
-        "confidence": 6,
-        "definition": "USD strength creates a self-defeating tightening mechanism for commodity-channel transmission: dollar appreciation lowers EM producer breakevens in lo"
+        "definition": "Extended monetary transmission lag episodes resolve via sudden discontinuity rather than gradual adjustment in 3 out of 4 historical cases (1966-69, 2"
       }
     ],
     "all_concept_slugs": [
+      "basis_trade_unwind_risk",
+      "boj_normalization",
+      "capex_dollar_disruption",
       "capex_dollar_em_flow_redirection",
       "china_monetary_fiscal_base_metals_driver",
+      "clo_arbitrage_deterioration",
+      "corporate_maturity_wall",
       "credit_equity_basis_signal",
+      "discontinuous_catch_up",
+      "dollar_swap_line_differentiator",
       "dollar_weaponization_parallel_channel",
+      "em_credibility_segmentation",
       "extended_monetary_transmission_lags",
       "fci_effective_stance_gap",
+      "gold_residual",
       "gold_structural_credibility_loss",
+      "lng_eur_usd_channel",
       "lng_eur_usd_structural_channel",
+      "local_currency_cost_curve_dampener",
       "local_currency_cost_curve_self_defeating",
+      "monetary_transmission_eventual_effectiveness",
       "non_gaap_earnings_masking",
       "opec_fiscal_breakeven_reflexivity",
+      "pik_toggle_activation",
+      "private_credit_impairment_deferral",
       "qe_qt_asymmetry_ratio",
       "qt_endgame_nonlinear_threshold",
       "qt_fiscal_crowding_out_premium",
       "r_star_estimation_uncertainty",
       "sfas_142_goodwill_impairment_mechanism",
+      "simultaneous_cuts_and_qt",
       "simultaneous_cuts_qt_unprecedented",
+      "srf_inadequacy_for_clo",
       "three_tier_em_credibility_segmentation",
-      "toolkit_bandwidth_compression"
+      "toolkit_bandwidth_compression",
+      "treasury_absorption_technicals"
     ],
-    "avg_confidence": 6.2
+    "avg_confidence": 6.5
   },
   "rates_equity_correlation": {
     "concept_count": 90,
@@ -2408,14 +2425,14 @@
         "definition": "Volatility regimes are endogenous to macroeconomic and financial conditions \u2014 not exogenous random processes. Macro uncertainty (NK stochastic discoun"
       },
       {
-        "slug": "maturity_dependent_correlation_bifurcation",
-        "confidence": 7.56,
-        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
-      },
-      {
         "slug": "credit_maturity_wall",
         "confidence": 7.5,
         "definition": "The $900B-$1.5T sub-investment-grade debt maturing 2025-2028 is a near-arithmetic certainty that will force credit vol repricing, as borrowers face 20"
+      },
+      {
+        "slug": "maturity_dependent_correlation_bifurcation",
+        "confidence": 7.5,
+        "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
       },
       {
         "slug": "central_bank_reaction_function_uncertainty",
@@ -2468,7 +2485,7 @@
       },
       {
         "slug": "term_premium_decomposition",
-        "confidence": 9,
+        "confidence": 8.5,
         "definition": "The analytical separation of yield curve movements into expectations-driven and term-premium-driven components. Raw 2s10s spread is insufficient and o"
       },
       {
@@ -2532,6 +2549,6 @@
       "two_tier_global_yield_curve",
       "yield_curve_recession_prediction_weakness"
     ],
-    "avg_confidence": 6.3
+    "avg_confidence": 6.2
   }
 }

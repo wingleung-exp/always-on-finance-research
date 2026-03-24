@@ -3,27 +3,34 @@
   "definition": "R* estimation uncertainty spans ~480bp in combined 90% CIs across three leading models (Laubach-Williams, Holston-Laubach-Williams, Lubik-Matthes), exceeding the entire policy-relevant range of ~300-400bp. The Fed cannot statistically determine whether policy is restrictive, neutral, or accommodative within ±150bp, rendering r* near-useless for real-time calibration.",
   "confidence": 9.0,
   "evidence": [
-    "Three models produce point estimates ranging from 1.18% to 2.28%",
-    "Combined 90% CIs span [-0.8%, 4.0%] — a 480bp width",
-    "Policy-relevant range is only ~300-400bp, narrower than the CI",
-    "Current cross-asset pricing internally consistent only at r* ~2.0-2.5%",
     "Published model outputs directly verifiable from NY Fed, SF Fed, and Richmond Fed public data",
     "Laubach-Williams r*=1.18%, Holston-Laubach-Williams r*=1.66%, Lubik-Matthes r*=2.28%",
     "Combined 90% CIs span approximately -0.3% to 3.8%",
     "Verifiable from published model outputs",
-    "pair_2 debate called it 'the single strongest standalone claim in either analysis'"
+    "pair_2 debate called it 'the single strongest standalone claim in either analysis'",
+    "Laubach-Williams r* estimate 1.18%",
+    "HLW r* estimate 1.66%",
+    "Lubik-Matthes r* estimate 2.28%",
+    "Combined 90% CI of 480bp exceeds policy-relevant band",
+    "5y5y forward at 4.0-4.3% inconsistent with at least one leading r* model"
   ],
   "originating_agents": [
     "quant_researcher_01",
     "challenger_01",
     "generalist_01",
-    "macro_strategist_01"
+    "macro_strategist_01",
+    "rates_strategist_01",
+    "challenger_02",
+    "generalist_02"
   ],
   "open_questions": [
     "Can alternative identification strategies (narrative FOMC transcript analysis, event-study methodology) narrow the range?",
     "Is r* even a useful construct for policy given the estimation uncertainty?",
     "Can the range of r-star estimates be narrowed through additional model constraints or data sources?",
-    "How should policymakers and investors operate when the neutral rate is fundamentally unidentifiable?"
+    "How should policymakers and investors operate when the neutral rate is fundamentally unidentifiable?",
+    "Which r* model, if any, is closest to the true neutral rate?",
+    "How should duration positioning be calibrated given r* uncertainty?",
+    "Does the 5y5y forward embed a rational risk premium or a mispricing?"
   ],
   "related_concepts": [
     "effective_taylor_rule_coefficient",
@@ -32,15 +39,18 @@
     "fci_effective_stance_gap",
     "term_premium_decomposition",
     "yield_curve_recession_prediction_weakness",
-    "acm_kim_wright_model_divergence"
+    "acm_kim_wright_model_divergence",
+    "treasury_absorption_technicals",
+    "cross_asset_inconsistency"
   ],
   "topic": "monetary_policy",
   "created_at": "2026-03-23T04:46:43Z",
-  "last_updated": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0021",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0021",
-    "iter_0031"
+    "iter_0031",
+    "iter_0044"
   ]
 }

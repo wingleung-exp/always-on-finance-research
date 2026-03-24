@@ -1,0 +1,20 @@
+{
+  "concept_a": "r_star_estimation_uncertainty",
+  "concept_b": "cross_asset_inconsistency",
+  "mechanism": "R* uncertainty allows different asset classes to embed inconsistent macro assumptions because no single r* estimate can definitively arbitrage the pricing gap. The 5y5y forward is consistent with equity valuations only under a narrow r* assumption that conflicts with at least one leading model.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Holds when r* model dispersion exceeds 100bp; less relevant in periods of obvious monetary regime (e.g., zero lower bound)",
+  "originating_agents": [
+    "rates_strategist_01",
+    "generalist_01"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

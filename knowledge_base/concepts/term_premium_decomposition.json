@@ -1,12 +1,16 @@
 {
   "slug": "term_premium_decomposition",
   "definition": "The analytical separation of yield curve movements into expectations-driven and term-premium-driven components. Raw 2s10s spread is insufficient and often misleading; decomposition is required to correctly interpret the curve's economic signal.",
-  "confidence": 9,
+  "confidence": 8.5,
   "evidence": [
     "2019 expectations-driven inversion (low MOVE) correctly signaled slowdown; 2022-23 term-premium-contaminated inversion (high MOVE) did not produce recession on historical schedule",
     "Equity markets rallied 25%+ through the 2022-23 inversion, inconsistent with genuine recession signal",
     "CLO issuance dropped 35% YoY in 2022 when term premium dynamics shifted—curve shape alone did not predict this",
-    "Vayanos-Vila (2021) provides theoretical grounding for the decomposition framework"
+    "Vayanos-Vila (2021) provides theoretical grounding for the decomposition framework",
+    "Auction tail evidence: 30Y averaging 1.5-2.5bp vs 0.5-1.0bp in 2019",
+    "$2.7-3.3T annual private-sector absorption",
+    "Reflexive loop through correlation and hedging demand",
+    "Bid-to-cover declining from 2.4-2.6x to 2.2-2.3x at 30Y"
   ],
   "originating_agents": [
     "credit_analyst_02",
@@ -16,25 +20,32 @@
     "macro_strategist_01",
     "risk_analyst_01",
     "challenger_02",
-    "risk_analyst_02"
+    "risk_analyst_02",
+    "rates_strategist_01"
   ],
   "open_questions": [
     "Can term premium be measured with sufficient real-time precision to be actionable given 30-50bp model divergence?",
-    "Is there a model-free or semi-parametric estimator using TIPS breakevens, swaption vols, and survey data to cross-check ACM/KW?"
+    "Is there a model-free or semi-parametric estimator using TIPS breakevens, swaption vols, and survey data to cross-check ACM/KW?",
+    "What is the relative contribution of fiscal supply vs inflation uncertainty?",
+    "Is the reflexive loop self-limiting or does it have a runaway dynamic?"
   ],
   "related_concepts": [
     "acm_kim_wright_model_divergence",
     "bad_steepening",
     "basis_trade_dual_distortion",
     "move_index_signal_diagnostic",
-    "supply_driven_term_premium_impact"
+    "supply_driven_term_premium_impact",
+    "treasury_absorption_technicals",
+    "maturity_dependent_correlation_bifurcation",
+    "r_star_estimation_uncertainty"
   ],
   "topic": "yield_curve_dynamics",
   "created_at": "2026-03-23T10:02:14Z",
-  "last_updated": "2026-03-23T10:02:14Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0031",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0031"
+    "iter_0031",
+    "iter_0044"
   ]
 }

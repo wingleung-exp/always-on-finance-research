@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "cross_asset_inconsistency_framework",
+    "purpose": "Identifies mutually contradictory macro assumptions embedded across equities, credit, rates, and gold to flag mispriced assets and regime change catalysts",
+    "components": [
+      "Equity valuation regime (P/E, ERP assumptions)",
+      "Credit spread regime (IG/HY spread levels vs default expectations)",
+      "Rates regime (term premium decomposition, r* assumptions in forwards)",
+      "Gold residual analysis (model fair value vs actual price)",
+      "Cross-consistency check: what r*/ERP combination is required for all four to be simultaneously correct"
+    ],
+    "current_assessment": "Four markets tell contradictory stories. Equities price soft landing, credit prices perfection, rates price persistent inflation/fiscal risk, gold prices credibility loss. No single macro scenario reconciles all four. The 5y5y forward is consistent with equity valuations only under narrow and potentially unrealistic assumptions.",
+    "limitations": [
+      "Different markets can rationally price different probability distributions",
+      "Framework identifies inconsistency but cannot determine which market reprices",
+      "Relies on non-GAAP adjustments being correctly estimated to assess equity mispricing",
+      "Static snapshot that may not capture dynamic rebalancing"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "discontinuous_catch_up_framework",
+    "purpose": "Predicts the modal resolution pattern for extended monetary transmission lag episodes based on historical base rates",
+    "components": [
+      "Historical episode identification (1966-69, 1994-95, 2004-07, 2018-19)",
+      "Resolution classification (discontinuous vs gradual)",
+      "Similarity scoring against current cycle",
+      "Exception identification (1994-95 preemptive tightening)",
+      "Current cycle novel feature assessment"
+    ],
+    "current_assessment": "3-for-4 base rate for discontinuous catch-up. Current cycle most resembles 2004-07 and 1966-69 templates. The maturity wall (H2 2026-H1 2028) is the most likely channel. A 2027-2028 expectations un-anchoring window from the 1966-69 template is the most concerning tail scenario.",
+    "limitations": [
+      "Sample of only four episodes limits statistical power",
+      "Current cycle has novel features (private credit scale, AI productivity, post-pandemic fiscal)",
+      "Cannot determine timing of discontinuity",
+      "1994-95 exception shows preemptive action can prevent discontinuity"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "master_signpost_table",
+    "purpose": "Provides a real-time monitoring framework with 10 falsifiable thresholds that discriminate between competing macro analogues and signal regime transitions",
+    "components": [
+      "5Y5Y breakeven (threshold >2.7% sustained → 1966-69 inflation path)",
+      "HY OAS (threshold >550bp → 2007 credit path)",
+      "SOFR-IORB spread (threshold >15bp sustained → 2019 QT endgame)",
+      "Japanese institutional repatriation (threshold >30% of predicted → BoJ normalization)",
+      "EUR/USD (threshold <1.02 sustained → ECB independence loss)",
+      "Private credit NAV markdowns (threshold >5% broad-based → maturity wall activation)",
+      "Gold-real rate residual (threshold >$800/oz → financial repression pricing)",
+      "DXY-PPP deviation (threshold >+22% → dollar correction acceleration)",
+      "PIK toggle activation (threshold >25% → credit stress crystallization)",
+      "CLO AAA spreads (threshold >200-225bp → CLO formation stoppage)"
+    ],
+    "current_assessment": "No thresholds currently breached. 5Y5Y at ~2.4% (below 2.7%), HY OAS at ~350bp (below 550bp), PIK at 12-18% (below 25%), CLO AAA at 155-170bp (below 200-225bp). System is in pre-stress territory with leading indicators trending toward thresholds.",
+    "limitations": [
+      "Thresholds are approximate, not precise triggers",
+      "Multiple thresholds breaching simultaneously could create nonlinear interactions not captured",
+      "Signposts may lag actual regime change",
+      "Some thresholds (e.g., private credit NAV) depend on self-reported data"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "lead_horse_framework",
+    "purpose": "Discriminates whether the current cycle will resolve through the credit channel (2007 analogue) or the inflation channel (1966-69 analogue) to guide positioning",
+    "components": [
+      "Credit channel indicators: HY OAS >550bp, private credit NAV markdowns >5%",
+      "Inflation channel indicators: 5Y5Y breakeven >2.7% sustained",
+      "Current levels assessment",
+      "Historical analogue mapping",
+      "Resolution implications for asset allocation"
+    ],
+    "current_assessment": "Current levels (5Y5Y ~2.4%, HY OAS ~350bp) have neither channel activated. Framework is inherently unresolved until data moves toward one set of thresholds. Both channels remain plausible.",
+    "limitations": [
+      "Assumes one channel dominates; both could activate simultaneously",
+      "Current levels are far from both thresholds",
+      "Analogue matching is imprecise with small samples",
+      "Does not account for novel resolution channels"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "four_tier_em_framework",
+    "purpose": "Segments EM currencies by dominant factor loadings rather than traditional EM-as-monolith approach, enabling differentiated exposure management",
+    "components": [
+      "Tier 0: Tech-proxy currencies (TWD, KRW) with SOX/NASDAQ loadings 0.55-0.65",
+      "Tier 1: High-credibility EM with Fed swap line access",
+      "Tier 2: Traditional EM with mixed fundamentals",
+      "Tier 3: Frontier/distressed with PBOC BSA as potential backstop",
+      "Swap line access overlay (Fed vs PBOC vs dual-access)"
+    ],
+    "current_assessment": "Tier 0 currencies trading as de facto tech sector proxies, not EM. KRW and TWD factor loadings on SOX at 0.55-0.65. Traditional EM carry compressed below systematic allocation threshold (0.3-0.4 carry-to-vol). PBOC BSA network ($560B+) creating parallel safety net.",
+    "limitations": [
+      "Tier 0 membership (especially ILS, PLN) is uncertain",
+      "Factor loadings may shift as tech cycle evolves",
+      "PBOC BSA effectiveness untested in crisis",
+      "Framework is descriptive; predictive power for regime transitions is unproven"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "commodity_sub_channels_framework",
+    "purpose": "Decomposes monetary policy transmission through commodity markets into four partially-offsetting sub-channels to avoid aggregation errors",
+    "components": [
+      "Demand channel: Fed tightening reduces global demand, lowering commodity prices",
+      "Dollar channel: Fed tightening strengthens USD, lowering USD commodity prices",
+      "Cost-curve channel: Stronger USD lowers EM producer breakevens by 8-15%, keeping marginal supply online",
+      "Inventory channel: Rate-sensitive storage economics affect supply timing"
+    ],
+    "current_assessment": "Channels are partially offsetting. Dollar and cost-curve channels dampen demand channel effects. Net transmission through commodities is weaker than any single channel suggests. Gas storage surplus is not evidence of broken transmission (associated gas insensitive to monetary policy).",
+    "limitations": [
+      "Offsetting magnitudes are imprecise",
+      "OPEC+ fiscal breakeven reflexivity adds nonlinearity",
+      "Channel dominance varies by commodity",
+      "China credit impulse may dominate Fed effects for some commodities"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  },
+  {
+    "slug": "calibration_audit_methodology",
+    "purpose": "Systematically assesses whether confidence levels assigned to claims are appropriate relative to the evidence base, using a Tetlock-inspired framework",
+    "components": [
+      "Descriptive vs predictive claim classification",
+      "Historical base rate assessment for predictive claims",
+      "Conjunction fallacy detection for multiplicative probability claims",
+      "n<=2 precedent discount (1.5-2.5 points suggested)",
+      "Availability bias identification"
+    ],
+    "current_assessment": "Descriptive claims in the knowledge base are generally well-calibrated. Predictive claims are systematically overconfident by +1.5-2.5 points. Toolkit bandwidth (conjunction fallacy) and BoJ shock (availability bias) are exemplary failures. Non-GAAP masking and r* uncertainty are exemplary successes.",
+    "limitations": [
+      "The specific 1.5-2.5 point discount is itself imprecise",
+      "Methodology better at identifying directional miscalibration than providing corrected estimates",
+      "Difficult to apply in real-time when new evidence arrives",
+      "Other agents do not consistently apply the discount"
+    ],
+    "topic": "monetary_policy",
+    "iteration_id": "iter_0044"
+  }
+]

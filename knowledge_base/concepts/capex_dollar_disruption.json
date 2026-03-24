@@ -1,0 +1,37 @@
+{
+  "slug": "capex_dollar_disruption",
+  "definition": "Tech equity inflows of $40-60B/month have structurally disrupted the traditional Fed-easing-to-EM-inflows transmission channel. DXY remains at 103-107 despite 100-150bp of Fed cuts, inconsistent with standard interest rate parity models. EM carry-to-vol has compressed to 0.3-0.4, below the 0.5 systematic allocation threshold.",
+  "confidence": 8,
+  "evidence": [
+    "TIC data showing $300B+ into US tech vs $45B EM outflows over 18 months",
+    "IIF EM flows at $5-10B/month vs $25B/month in 2019 easing cycle",
+    "Carry-to-vol compression to 0.3-0.4",
+    "DXY at 103-107 despite 100-150bp Fed cuts",
+    "BEA financial account data convergence",
+    "1997-2001 dot-com dollar parallel (though twin deficit ~6-7pp wider now)"
+  ],
+  "originating_agents": [
+    "fx_strategist_01",
+    "fx_strategist_02",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "When does the capex dollar regime end — does it require a tech earnings recession?",
+    "How sharp will the eventual dollar correction be given the wider twin deficit vs 1997-2001?",
+    "Can EM flows recover while tech equity inflows remain dominant?"
+  ],
+  "related_concepts": [
+    "em_credibility_segmentation",
+    "local_currency_cost_curve_dampener",
+    "dollar_swap_line_differentiator"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

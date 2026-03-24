@@ -1,31 +1,41 @@
 {
   "slug": "opec_fiscal_breakeven_reflexivity",
   "definition": "OPEC+ fiscal breakeven reflexivity creates a pro-cyclical amplifier for monetary policy. Saudi breakeven has risen to $85-96/bbl. Below $75 oil, fiscal stress triggers compliance breakdown, increasing supply, further depressing prices, and amplifying monetary tightening. The reverse operates symmetrically, amplifying easing.",
-  "confidence": 7,
+  "confidence": 7.0,
   "evidence": [
     "Saudi fiscal breakeven at $85-96/bbl",
     "Reflexive loop documented across 4+ cycles with IMF fiscal breakeven data",
     "Sub-$75 oil triggers fiscal stress, compliance breakdown, additional supply, further price decline",
-    "Reverse loop operates symmetrically for price increases"
+    "Reverse loop operates symmetrically for price increases",
+    "Saudi fiscal breakeven $85-96/bbl",
+    "OPEC+ April 2025 decision: 411 kb/d actual vs 138 kb/d planned",
+    "Trigger zone below $75 for compliance breakdown",
+    "Challenger_02 endorsement as well-calibrated"
   ],
   "originating_agents": [
-    "commodities_analyst_01"
+    "commodities_analyst_01",
+    "generalist_01"
   ],
   "open_questions": [
     "At what specific oil price does the reflexive loop trigger for each major OPEC+ producer?",
     "How quickly does compliance break down under fiscal stress?",
-    "Does US shale production cap the upside of the reflexive loop?"
+    "Does US shale production cap the upside of the reflexive loop?",
+    "How sensitive are breakeven levels to Vision 2030 assumptions?",
+    "Would OPEC+ compliance breakdown be a one-time event or a sustained dynamic?"
   ],
   "related_concepts": [
     "broken_monetary_transmission",
-    "extended_monetary_transmission_lags"
+    "extended_monetary_transmission_lags",
+    "local_currency_cost_curve_dampener",
+    "lng_eur_usd_channel"
   ],
   "topic": "monetary_policy",
   "created_at": "2026-03-23T04:46:43Z",
-  "last_updated": "2026-03-23T04:46:43Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0021",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0021"
+    "iter_0021",
+    "iter_0044"
   ]
 }

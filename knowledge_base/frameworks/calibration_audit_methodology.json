@@ -1,0 +1,26 @@
+{
+  "slug": "calibration_audit_methodology",
+  "purpose": "Systematically assesses whether confidence levels assigned to claims are appropriate relative to the evidence base, using a Tetlock-inspired framework",
+  "components": [
+    "Descriptive vs predictive claim classification",
+    "Historical base rate assessment for predictive claims",
+    "Conjunction fallacy detection for multiplicative probability claims",
+    "n<=2 precedent discount (1.5-2.5 points suggested)",
+    "Availability bias identification"
+  ],
+  "current_assessment": "Descriptive claims in the knowledge base are generally well-calibrated. Predictive claims are systematically overconfident by +1.5-2.5 points. Toolkit bandwidth (conjunction fallacy) and BoJ shock (availability bias) are exemplary failures. Non-GAAP masking and r* uncertainty are exemplary successes.",
+  "limitations": [
+    "The specific 1.5-2.5 point discount is itself imprecise",
+    "Methodology better at identifying directional miscalibration than providing corrected estimates",
+    "Difficult to apply in real-time when new evidence arrives",
+    "Other agents do not consistently apply the discount"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

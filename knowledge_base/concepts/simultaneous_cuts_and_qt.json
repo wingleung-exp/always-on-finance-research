@@ -1,0 +1,37 @@
+{
+  "slug": "simultaneous_cuts_and_qt",
+  "definition": "The current Fed attempt at simultaneous rate cuts and quantitative tightening is historically unprecedented (0-for-3 base rate, with only 2019 as a clean comparator). At ~9 months in, QT has already been slowed by 58% ($60B to $25B/month), representing de facto partial abandonment. This configuration double-squeezes CLO economics: rate cuts reduce floating-rate loan income while QT widens CLO liability spreads.",
+  "confidence": 8,
+  "evidence": [
+    "0-for-3 base rate for simultaneous cuts+QT (0-for-1 high-quality)",
+    "QT slowed 58% from $60B to $25B/month",
+    "Basis trade ~$800B-1T notional absorbing ~50% of QT duration redistribution",
+    "CLO double-squeeze: cuts hurt equity via lower floating-rate income, QT hurts debt via wider liability spreads"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "credit_analyst_02",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Will the basis trade unwind be orderly or disorderly?",
+    "At what point does QT slowdown become de jure abandonment?",
+    "How much synthetic QE does the basis trade create?"
+  ],
+  "related_concepts": [
+    "clo_arbitrage_deterioration",
+    "basis_trade_unwind_risk",
+    "corporate_maturity_wall",
+    "treasury_absorption_technicals"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

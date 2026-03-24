@@ -1,0 +1,31 @@
+{
+  "slug": "master_signpost_table",
+  "purpose": "Provides a real-time monitoring framework with 10 falsifiable thresholds that discriminate between competing macro analogues and signal regime transitions",
+  "components": [
+    "5Y5Y breakeven (threshold >2.7% sustained → 1966-69 inflation path)",
+    "HY OAS (threshold >550bp → 2007 credit path)",
+    "SOFR-IORB spread (threshold >15bp sustained → 2019 QT endgame)",
+    "Japanese institutional repatriation (threshold >30% of predicted → BoJ normalization)",
+    "EUR/USD (threshold <1.02 sustained → ECB independence loss)",
+    "Private credit NAV markdowns (threshold >5% broad-based → maturity wall activation)",
+    "Gold-real rate residual (threshold >$800/oz → financial repression pricing)",
+    "DXY-PPP deviation (threshold >+22% → dollar correction acceleration)",
+    "PIK toggle activation (threshold >25% → credit stress crystallization)",
+    "CLO AAA spreads (threshold >200-225bp → CLO formation stoppage)"
+  ],
+  "current_assessment": "No thresholds currently breached. 5Y5Y at ~2.4% (below 2.7%), HY OAS at ~350bp (below 550bp), PIK at 12-18% (below 25%), CLO AAA at 155-170bp (below 200-225bp). System is in pre-stress territory with leading indicators trending toward thresholds.",
+  "limitations": [
+    "Thresholds are approximate, not precise triggers",
+    "Multiple thresholds breaching simultaneously could create nonlinear interactions not captured",
+    "Signposts may lag actual regime change",
+    "Some thresholds (e.g., private credit NAV) depend on self-reported data"
+  ],
+  "topic": "monetary_policy",
+  "created_at": "2026-03-24T02:47:39Z",
+  "last_updated": "2026-03-24T02:47:39Z",
+  "originating_iteration": "iter_0044",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0044"
+  ]
+}

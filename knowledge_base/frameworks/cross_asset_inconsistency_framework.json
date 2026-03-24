@@ -10,9 +10,14 @@
     "Credit spread signal (IG/HY) — implied fiscal trajectory (currently: benign)",
     "Rates signal (term premium, 5Y5Y forward, fiscal wedge) — implied fiscal trajectory (currently: stress)",
     "Gold and CB reserve allocation signal — implied fiscal trajectory (currently: stress)",
-    "Stock-bond correlation by maturity — regime identification signal (currently: split)"
+    "Stock-bond correlation by maturity — regime identification signal (currently: split)",
+    "Equity valuation regime (P/E, ERP assumptions)",
+    "Credit spread regime (IG/HY spread levels vs default expectations)",
+    "Rates regime (term premium decomposition, r* assumptions in forwards)",
+    "Gold residual analysis (model fair value vs actual price)",
+    "Cross-consistency check: what r*/ERP combination is required for all four to be simultaneously correct"
   ],
-  "current_assessment": "Equities and credit price benign fiscal trajectory; rates and gold price fiscal stress. At least two asset classes are mispricing. The inconsistency is directly observable in market prices. Which market is 'wrong' carries more uncertainty than the inconsistency itself.",
+  "current_assessment": "Four markets tell contradictory stories. Equities price soft landing, credit prices perfection, rates price persistent inflation/fiscal risk, gold prices credibility loss. No single macro scenario reconciles all four. The 5y5y forward is consistent with equity valuations only under narrow and potentially unrealistic assumptions.",
   "limitations": [
     "Does not identify which market reprices first",
     "Time horizon for convergence is unspecified",
@@ -22,15 +27,20 @@
     "Kalecki-Levy identity may make equity pricing internally consistent even under fiscal stress",
     "Gold pricing confounded by post-Russia-sanctions diversification, EM reserve composition shift, momentum",
     "Time horizon of resolution is unknown — inconsistency can persist for years",
-    "Credit spreads reflect both fiscal and structural-demand (CLO, insurance) factors"
+    "Credit spreads reflect both fiscal and structural-demand (CLO, insurance) factors",
+    "Different markets can rationally price different probability distributions",
+    "Framework identifies inconsistency but cannot determine which market reprices",
+    "Relies on non-GAAP adjustments being correctly estimated to assess equity mispricing",
+    "Static snapshot that may not capture dynamic rebalancing"
   ],
   "topic": "energy_transition",
   "created_at": "2026-03-23T10:55:08Z",
-  "last_updated": "2026-03-23T14:49:16Z",
+  "last_updated": "2026-03-24T02:47:39Z",
   "originating_iteration": "iter_0033",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0033",
-    "iter_0040"
+    "iter_0040",
+    "iter_0044"
   ]
 }
