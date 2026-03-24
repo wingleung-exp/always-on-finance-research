@@ -1,13 +1,16 @@
 {
   "slug": "institutional_adaptation_attenuation",
   "definition": "Historical evidence shows institutional adaptation routinely attenuates demographic headwinds by 30-50% in magnitude and 5-10 years in timing, as seen in the Green Revolution, South Korea's GDP tripling during TFR collapse, and Japan's current outperformance. The consensus may overweight demographic determinism.",
-  "confidence": 7,
+  "confidence": 6.0,
   "evidence": [
     "Green Revolution contradicted Ehrlich's Population Bomb",
     "South Korea GDP tripled during TFR collapse",
     "Japan simultaneously most aged AND experiencing rising wages, rates, corporate profitability",
     "Predictions of Chinese crisis by 2020 proved premature",
-    "Joint probability of 3+ consensus assumptions failing: 20-30%"
+    "Joint probability of 3+ consensus assumptions failing: 20-30%",
+    "65:5 headwind-to-tailwind entry ratio in KB is observable",
+    "30-50% attenuation magnitude with 5-10 year delay accepted by KB itself",
+    "If adaptation routinely halves impact, quantitative framework is systematically too pessimistic"
   ],
   "originating_agents": [
     "challenger_01"
@@ -15,19 +18,26 @@
   "open_questions": [
     "How does AI as a wildcard affect the adaptation calculus?",
     "Is the 30-50% attenuation estimate robust across different types of demographic headwinds?",
-    "At what point do binding constraints overcome institutional adaptation?"
+    "At what point do binding constraints overcome institutional adaptation?",
+    "Does the challenger role create selection bias toward this finding?",
+    "Should 30-50% attenuation propagate to all headwind estimates?",
+    "What is the confidence interval on the attenuation magnitude itself?"
   ],
   "related_concepts": [
     "effective_dependency_ratio_gap",
     "ai_labor_offset_wildcard",
-    "japan_non_generalizability"
+    "japan_non_generalizability",
+    "aging_inflation_deflation_binary",
+    "credit_default_model_miscalibration",
+    "deleveraging_template_impairment"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:13:49Z",
-  "last_updated": "2026-03-23T08:13:49Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0026",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0026"
+    "iter_0026",
+    "iter_0053"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "slug": "japan_non_generalizability",
   "definition": "Japan's debt sustainability rests on a unique and non-replicable configuration: NIIP +70% GDP, >90% domestic JGB ownership, BoJ >50% ownership, persistent current account surplus, and deflationary backdrop keeping r<g. The US fails every one of these conditions and should not use Japan as evidence that high debt is indefinitely sustainable.",
-  "confidence": 8.5,
+  "confidence": 8.33,
   "evidence": [
-    "Japan: >90% domestic ownership vs. US: ~70% (declining)",
-    "Japan: BoJ owns >50% of JGBs vs. US: Fed owns ~20% (declining via QT)",
-    "Japan: current account surplus vs. US: deficit ~3% GDP",
-    "Japan's 30+ years coincided with deflation — never faced inflation + high debt + tight monetary policy simultaneously",
-    "NIIP +70% GDP",
-    ">90% domestic ownership of sovereign debt",
     "Persistent current account surplus",
     "Deflationary backdrop enabling low rates for 27 years",
     "US and China fail every condition",
-    "Japan corporate credit patterns are generalizable even where sovereign dynamics are not"
+    "Japan corporate credit patterns are generalizable even where sovereign dynamics are not",
+    "US has negative NIIP vs Japan's +70% GDP",
+    "US ~30% foreign ownership vs Japan >90% domestic",
+    "No sustained US deflation vs Japan's deflationary backdrop",
+    "US twin deficits vs Japan's persistent CA surplus",
+    "Japan's political economy sequence generalizes even when financial outcomes don't",
+    "KB uses Japan asymmetrically — cautionary for debt, dismissed for positive outcomes"
   ],
   "originating_agents": [
     "fx_strategist_01",
@@ -23,14 +23,18 @@
     "quant_researcher_01",
     "rates_strategist_01",
     "challenger_01",
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "macro_strategist_01"
   ],
   "open_questions": [
     "Is Japan the central case (default prior for advanced economies) or the boundary condition?",
     "Are Japan's structural features load-bearing or coincidental?",
     "What happens to Japan's sustainability as BoJ exits YCC and demographics worsen further?",
     "How should Japan's recent outperformance (rising wages, rates, corporate profitability, equity outperformance) modify the demographic doom consensus?",
-    "Is Japan's corporate credit generalizability conditional on similar monetary policy regimes?"
+    "Is Japan's corporate credit generalizability conditional on similar monetary policy regimes?",
+    "Does Japan's political economy sequence (denial → accommodation → monetization → coordination) generalize?",
+    "If Japan sustains >2% inflation, >3% wages, and equity outperformance for 5+ years, does consensus require fundamental revision?",
+    "Is asymmetric usage of Japan as analogue a correctable bias?"
   ],
   "related_concepts": [
     "currency_regime_sovereign_risk_classifier",
@@ -38,15 +42,19 @@
     "r_g_differential_debt_dynamics",
     "financial_repression_pathway",
     "aging_inflation_deflation_debate",
-    "bank_profitability_policy_contingent"
+    "bank_profitability_policy_contingent",
+    "aging_inflation_deflation_binary",
+    "deleveraging_template_impairment",
+    "simultaneous_global_aging"
   ],
   "topic": "sovereign_debt",
   "created_at": "2026-03-23T02:39:05Z",
-  "last_updated": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0017",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0017",
-    "iter_0026"
+    "iter_0026",
+    "iter_0053"
   ]
 }

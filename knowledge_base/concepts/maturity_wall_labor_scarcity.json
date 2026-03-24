@@ -1,34 +1,51 @@
 {
   "slug": "maturity_wall_labor_scarcity",
   "definition": "The interaction between ~$1.8T in leveraged loans maturing 2026-2029 and structural labor scarcity is a first-order refinancing risk. Historical default models were trained on 1990-2020 when labor markets loosened during stress, providing margin relief. Demographics removes this counter-cyclical labor valve. The combination of covenant-lite dominance, structural labor scarcity, and $600B annual maturity wall has never occurred.",
-  "confidence": 6,
+  "confidence": 5.5,
   "evidence": [
-    "~$1.8T in leveraged loans maturing 2026-2029",
     "~60% in sectors where labor is 45-70% of operating costs",
     "Historical default models trained when labor markets loosened during stress",
     "87% covenant-lite dominance",
-    "Claimed 2-3pp default rate uplift (3-5% to 5-8%) is a structured hypothesis"
+    "Claimed 2-3pp default rate uplift (3-5% to 5-8%) is a structured hypothesis",
+    "~$1.8T maturing 2026-2029, ~60% in labor-intensive sectors (45-70% of costs)",
+    "87% covenant-lite removes early warning signals",
+    "25-30% EBITDA addbacks embed unrealistic labor assumptions",
+    "PIK toggle rising from 8-10% to 15-20%",
+    "Direction validated across 5+ agents",
+    "Thesis circulated since 2023 without observable credit stress"
   ],
   "originating_agents": [
     "credit_analyst_02",
-    "quant_researcher_01"
+    "quant_researcher_01",
+    "generalist_01",
+    "generalist_02",
+    "rates_strategist_01",
+    "quant_researcher_02",
+    "macro_strategist_01"
   ],
   "open_questions": [
     "Can the 2-3pp default rate uplift hypothesis be backtested?",
     "Will labor markets behave differently during the next recession due to demographics?",
-    "Which sectors face the most acute maturity wall x labor scarcity interaction?"
+    "Which sectors face the most acute maturity wall x labor scarcity interaction?",
+    "Why has the thesis not produced observable credit stress since 2023?",
+    "Is the unfalsifiability a fatal methodological flaw?",
+    "What would constitute a disconfirming observation?"
   ],
   "related_concepts": [
     "ebitda_addbacks_demographic_fiction",
     "pik_toggle_canary",
-    "private_credit_nav_overstatement"
+    "private_credit_nav_overstatement",
+    "credit_default_model_miscalibration",
+    "immigration_restriction_gap",
+    "aging_inflation_deflation_binary"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:13:48Z",
-  "last_updated": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0026",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0026"
+    "iter_0026",
+    "iter_0053"
   ]
 }

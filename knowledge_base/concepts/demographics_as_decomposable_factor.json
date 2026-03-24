@@ -1,0 +1,33 @@
+{
+  "slug": "demographics_as_decomposable_factor",
+  "definition": "Demographics may not be an independent financial factor — it decomposes into time-varying exposures to term premium, value-growth spread, and volatility premium. No independent demographic factor survives Harvey-Liu-Zhu adjusted t-stat hurdles. However, knowing demographics drives regime shifts in these factors is essential for forecasting when loadings change.",
+  "confidence": 6,
+  "evidence": [
+    "No independent demographic factor survives HLZ hurdles (~3.0 t-stat)",
+    "Decomposes into term premium, value-growth spread, and volatility premium exposures",
+    "Technically correct for cross-sectional returns but operationally misleading",
+    "Causal chain (demographics → regime shift → factor loading change) is dynamic; the decomposition is static"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Can a dynamic model capture the demographics → regime shift → factor loading channel?",
+    "Is the HLZ challenge fatal or just constraining for the independent factor specification?",
+    "Should portfolio construction treat demographics as a factor or a regime variable?"
+  ],
+  "related_concepts": [
+    "stock_bond_correlation_regime",
+    "portfolio_construction_challenge",
+    "institutional_flow_crowding"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-24T09:57:21Z",
+  "last_updated": "2026-03-24T09:57:21Z",
+  "originating_iteration": "iter_0053",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0053"
+  ]
+}

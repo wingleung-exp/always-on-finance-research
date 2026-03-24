@@ -1,35 +1,38 @@
 {
   "slug": "simultaneous_global_aging",
   "definition": "All major economies are aging concurrently for the first time in history, eliminating the demographic arbitrage that previously allowed capital and labor to flow between demographically divergent economies. This is an unprecedented structural condition with no historical template.",
-  "confidence": 8.33,
+  "confidence": 8.5,
   "evidence": [
-    "Eastern European depopulation cascades: emigration reduces dynamism, driving further emigration",
-    "Markets mispriced growth by 1-2pp annually for at least a decade across 7 demographic transitions",
-    "Japan + Europe + China + US = ~50-55% of global GDP with working-age shares declining",
-    "No prior aging episode coincided with primary capital destinations also aging",
     "Africa adds ~650M working-age, India ~200M, but institutional capacity today is insufficient at required scale",
     "Institutional development in India/Africa is nonlinear; 2025 snapshot should not be projected as fixed",
     "Japan + Europe + China + US aging concurrently = ~50-55% of global GDP",
     "No major capital recipient economy combines favorable demographics AND institutional quality at scale",
     "Africa ~750M to ~1.4B working-age by 2050",
-    "Capital flows can partially arbitrage via remote work, FDI, supply chain diversification"
+    "Capital flows can partially arbitrage via remote work, FDI, supply chain diversification",
+    "No prior episode of simultaneous aging across >50% of global GDP",
+    "Africa adds ~650M working-age by 2050 but institutional quality insufficient at required scale",
+    "India adds ~200M but capital market depth lags",
+    "Any forecast implicitly assuming a historical template is misapplying the analogue method"
   ],
   "originating_agents": [
     "generalist_02",
     "quant_researcher_01",
     "generalist_01",
     "rates_strategist_01",
-    "risk_analyst_02"
+    "risk_analyst_02",
+    "macro_strategist_01",
+    "challenger_01",
+    "fx_strategist_02"
   ],
   "open_questions": [
-    "Does simultaneous aging imply globally lower r* with no offset mechanism?",
-    "Which countries or regions retain genuine demographic advantages?",
     "How does simultaneous aging affect global capital allocation patterns?",
     "Can India's capital market depth develop fast enough to serve as safety valve?",
     "Will Africa's institutional quality metrics improve on the 20-year horizon?",
     "What financial predictions, if any, can be made from an N=0 configuration?",
     "Can Africa and India absorb sufficient capital flows to serve as a meaningful safety valve?",
-    "Will remote work and FDI effectively substitute for traditional capital-flow arbitrage?"
+    "Will remote work and FDI effectively substitute for traditional capital-flow arbitrage?",
+    "Can Africa or India serve as demographic counterparties at sufficient scale within 10-20 years?",
+    "Does N=0 asymmetrically argue for worse outcomes, or is this itself a bias?"
   ],
   "related_concepts": [
     "below_replacement_fertility_universality",
@@ -42,16 +45,20 @@
     "china_demographic_cliff",
     "below_replacement_fertility",
     "dependency_ratio_crossings",
-    "capital_flow_safety_valve_elimination"
+    "capital_flow_safety_valve_elimination",
+    "pronatalist_policy_failure",
+    "closed_economy_at_global_scale",
+    "japan_non_generalizability"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:10:20Z",
-  "last_updated": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0025",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0025",
     "iter_0027",
-    "iter_0026"
+    "iter_0026",
+    "iter_0053"
   ]
 }

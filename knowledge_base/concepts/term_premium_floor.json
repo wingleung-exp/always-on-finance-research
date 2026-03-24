@@ -1,0 +1,38 @@
+{
+  "slug": "term_premium_floor",
+  "definition": "The structural floor for term premium is higher regardless of inflation-deflation resolution, because healthcare/pension spending increases create fiscal supply expansion at 10Y-30Y. A reflexive loop (positive correlation → reduced hedging value → higher premium → reinforces positive correlation) is self-reinforcing. Direction survives; any specific level does not (honest CI is 20-200bp).",
+  "confidence": 6,
+  "evidence": [
+    "Healthcare/pension spending increases regardless of inflation outcome — supply expansion is inflation-outcome-independent",
+    "DB pension closures accelerating — demand decay",
+    "Reflexive loop is self-reinforcing once initiated",
+    "Specific 60-100bp estimate refuted — honest CI is 20-200bp",
+    "Reserve currency status attenuates but does not eliminate"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "rates_strategist_01",
+    "macro_strategist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What is the actual level within the 20-200bp range?",
+    "How much does reserve currency status attenuate?",
+    "How fast does the reflexive loop operate?"
+  ],
+  "related_concepts": [
+    "stock_bond_correlation_regime",
+    "aging_inflation_deflation_binary",
+    "pension_fiscal_collision",
+    "basis_trade_fragility",
+    "deleveraging_template_impairment"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-24T09:57:21Z",
+  "last_updated": "2026-03-24T09:57:21Z",
+  "originating_iteration": "iter_0053",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0053"
+  ]
+}

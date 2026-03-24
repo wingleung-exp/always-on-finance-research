@@ -1,38 +1,53 @@
 {
   "slug": "aging_inflation_deflation_binary",
   "definition": "Whether aging is net inflationary or deflationary is genuinely ~50/50 and represents the highest-impact binary for positioning. Japan (27 years) and Germany (decade+) are the most-aged economies and both experienced persistent below-target inflation, but the fiscal expansion → monetary accommodation channel remains logically coherent. The claim that 3/5 historical analogues support aging-inflation was demolished (US 1965-1980 was youth-dependency + oil shocks).",
-  "confidence": 6,
+  "confidence": 7.5,
   "evidence": [
-    "Japan: 27 years of below-target inflation despite extreme aging",
-    "Germany: decade of below-target inflation",
     "US 1965-1980: youth-dependency + oil shocks, not old-age-dependency inflation",
     "ULC > productivity 12/16 recent quarters (inflationary signal)",
     "N<3 pure old-age-dependency inflationary episodes exist",
-    "2022-2025 window massively confounded"
+    "2022-2025 window massively confounded",
+    "Japan's 27 years below-target inflation during extreme aging",
+    "ULC > productivity in 12/16 recent quarters",
+    "N<3 pure old-age-dependency inflationary episodes",
+    "US 1965-1980 was youth-dependency + oil, not old-age — demolished the 3/5 historical analogues claim",
+    "2022-2025 data massively confounded by supply chain disruption, fiscal stimulus, Ukraine",
+    "6/8 agents converge on ~50/50; macro_strategist_01 60/40 inflationary dissent not sustained"
   ],
   "originating_agents": [
     "generalist_01",
     "challenger_01",
     "commodities_analyst_02",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "generalist_02",
+    "macro_strategist_01"
   ],
   "open_questions": [
     "Will Japan maintain 2%+ inflation for 5+ years despite aging? (critical test for Goodhart-Pradhan thesis)",
     "Does aging operate through a political (fiscal expansion) channel rather than direct demographic channel?",
-    "Can the 50/50 binary be resolved with 3-5 more years of data?"
+    "Can the 50/50 binary be resolved with 3-5 more years of data?",
+    "Does the political economy demand channel (fiscal expansion under supply constraint) tilt the balance inflationary?",
+    "Is Japan's deflationary outcome replicable under different institutional settings?",
+    "Resolution timeline: 3-5+ years — what interim signals would update the probability?"
   ],
   "related_concepts": [
     "stock_bond_positive_correlation_transition",
     "financial_repression_modal_resolution",
     "cpi_food_weight_em_transmission",
-    "post_wwii_deleveraging_growth_impairment"
+    "post_wwii_deleveraging_growth_impairment",
+    "stock_bond_correlation_regime",
+    "term_premium_floor",
+    "taylor_rule_degradation",
+    "japan_non_generalizability",
+    "closed_economy_at_global_scale"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:11:03Z",
-  "last_updated": "2026-03-23T08:11:03Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0027",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0027"
+    "iter_0027",
+    "iter_0053"
   ]
 }

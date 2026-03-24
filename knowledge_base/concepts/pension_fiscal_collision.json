@@ -3,28 +3,32 @@
   "definition": "$55-60T in global pension assets (~60% DB) creating mandate-driven demand at 10Y-30Y maturities, while aging-driven fiscal deterioration expands Treasury supply at the same maturities. Forces reinforced each other 2000-2020 but have now diverged. UK LDI crisis (September 2022) as N=1 for fracture dynamics under stress.",
   "confidence": 7.0,
   "evidence": [
-    "$55-60T in global pension assets, ~60% defined benefit",
-    "Mandate-driven demand concentrated at 10Y-30Y maturities",
-    "UK LDI crisis (September 2022) demonstrated fracture dynamics",
     "Forces reinforced 2000-2020 but now diverging",
     "$55-60T in global pension assets (~60% DB) creates mandate-driven demand for long duration",
     "Aging-driven fiscal deterioration expands Treasury supply",
     "Forces reinforced each other 2000-2020 but have now diverged",
     "UK LDI crisis is N=1 for fragility of structural pension bid under stress",
-    "Pension demand structurally degrades BBB spreads as credit quality signal"
+    "Pension demand structurally degrades BBB spreads as credit quality signal",
+    "DB pension closures accelerating — demand decay at long end",
+    "Healthcare/pension spending increasing regardless of inflation outcome — supply expansion",
+    "$55-60T pension assets with outdated correlation assumptions",
+    "Marginal buyer shift from price-insensitive foreign CBs to price-sensitive basis traders"
   ],
   "originating_agents": [
     "rates_strategist_01",
     "generalist_01",
-    "credit_analyst_02"
+    "credit_analyst_02",
+    "quant_researcher_02"
   ],
   "open_questions": [
-    "Is the pension bid a stabilizer or fragility during stress?",
     "How does plan maturation structurally reduce the long-duration bid?",
     "What is the interaction between pension demand and correlation regime shift?",
     "What is the equilibrium price when pension demand meets fiscal supply in the 10Y-30Y segment?",
     "Can pension fund mandates adapt quickly enough to avoid LDI-type crises?",
-    "How does BBB spread informational degradation affect recession probability models?"
+    "How does BBB spread informational degradation affect recession probability models?",
+    "How fast will DB-to-DC transition reduce price-insensitive demand?",
+    "Can central banks absorb supply gap without inflationary consequences?",
+    "What is equilibrium term premium under new supply-demand balance?"
   ],
   "related_concepts": [
     "term_premium_demographic_uplift",
@@ -32,15 +36,20 @@
     "stock_bond_positive_correlation_transition",
     "correlation_assumptions_mispricing",
     "financial_repression_pathway",
-    "term_premium_direction"
+    "term_premium_direction",
+    "term_premium_floor",
+    "basis_trade_fragility",
+    "stock_bond_correlation_regime",
+    "portfolio_construction_challenge"
   ],
   "topic": "demographics",
   "created_at": "2026-03-23T08:11:03Z",
-  "last_updated": "2026-03-23T08:13:48Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0027",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0027",
-    "iter_0026"
+    "iter_0026",
+    "iter_0053"
   ]
 }

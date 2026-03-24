@@ -1,18 +1,18 @@
 {
   "slug": "stock_bond_correlation_regime",
   "definition": "The stock-bond correlation regime is stage-dependent on AI productivity transmission. Stage 1 (current, demand-driven): ambiguous correlation. Stage 2 (competitive pricing): negative correlation (favorable for 60/40 portfolios). Current 60/40 portfolios implicitly bet on Stage 2+ outcome. Theoretically grounded but many other correlation determinants (monetary policy, fiscal, geopolitics) make AI-specific isolation difficult.",
-  "confidence": 6.33,
+  "confidence": 7.0,
   "evidence": [
-    "Stage 1 demand-driven creates ambiguous correlation",
-    "Many other correlation determinants prevent clean isolation",
-    "Rolling stock-bond correlation oscillating between -0.2 and +0.4 post-2022",
-    "Cap-weighted vs equal-weighted correlation divergence",
-    "iter_0018 correlation regime analysis",
-    "5 agents suggest persistent positive correlation is plausible",
     "Rolling 6-month stock-bond correlation: +0.15 to +0.35 since mid-2024",
     "Three-force decomposition: AI capex demand + no TFP break + fiscal dominance",
     "Risk parity portfolios running ~20-30% excess equity-equivalent risk",
-    "Regime is stage-dependent (could shift with AI productivity supply), not permanent"
+    "Regime is stage-dependent (could shift with AI productivity supply), not permanent",
+    "48/75 post-war years exhibited positive stock-bond correlation — empirical fact",
+    "CPI >4% produces 85% positive correlation",
+    "Demographics operates through the inflation channel — not statistically significant after controlling for CPI level",
+    "NK micro-foundation: supply-shock dominance produces positive correlation",
+    "Value premium co-moves with correlation regime providing independent factor evidence",
+    "Persistence probability for any positive regime >5 years is only 25-40%"
   ],
   "originating_agents": [
     "generalist_01",
@@ -20,17 +20,18 @@
     "macro_strategist_02",
     "rates_strategist_01",
     "generalist_02",
-    "quant_researcher_02"
+    "quant_researcher_02",
+    "macro_strategist_01"
   ],
   "open_questions": [
-    "Can the AI-specific correlation effect be isolated from monetary policy, fiscal, and geopolitical drivers?",
-    "How long does Stage 1 (ambiguous correlation) persist?",
     "What signals the transition from Stage 1 to Stage 2?",
     "Whether correlation regime shift is permanent or transitory",
     "Whether fiscal dominance is sufficient condition for positive correlation",
     "Impact of correlation regime on optimal portfolio construction",
     "Whether AI productivity breakthrough would flip correlation back to negative",
-    "Timeline for portfolio reallocation by institutional investors"
+    "Timeline for portfolio reallocation by institutional investors",
+    "Will the positive correlation regime persist beyond 5 years (only 25-40% probability)?",
+    "How quickly will institutional portfolios reprice correlation assumptions?"
   ],
   "related_concepts": [
     "ai_productivity_transmission_lag",
@@ -41,16 +42,21 @@
     "fiscal_consolidation_risk",
     "real_rates_cross_asset_fulcrum",
     "ai_equity_concentration_risk",
-    "basis_trade_equity_coupling"
+    "basis_trade_equity_coupling",
+    "aging_inflation_deflation_binary",
+    "portfolio_construction_challenge",
+    "term_premium_floor",
+    "pension_fiscal_collision"
   ],
   "topic": "ai_and_tech_disruption",
   "created_at": "2026-03-23T01:33:48Z",
-  "last_updated": "2026-03-23T13:15:23Z",
+  "last_updated": "2026-03-24T09:57:21Z",
   "originating_iteration": "iter_0015",
-  "research_iterations": 3,
+  "research_iterations": 4,
   "iteration_history": [
     "iter_0015",
     "iter_0024",
-    "iter_0037"
+    "iter_0037",
+    "iter_0053"
   ]
 }

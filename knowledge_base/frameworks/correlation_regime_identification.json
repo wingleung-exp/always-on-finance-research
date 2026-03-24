@@ -1,0 +1,26 @@
+{
+  "slug": "correlation_regime_identification",
+  "purpose": "Identifies the current stock-bond correlation regime and assesses persistence, with direct implications for portfolio construction, hedging, and term premium.",
+  "components": [
+    "CPI level threshold: >4% → 85% positive correlation",
+    "Four sustaining conditions for negative regime (demographics, globalization, disinflation, EM reserves) — all weakening",
+    "NK micro-foundation: supply-shock dominance → positive correlation",
+    "Factor evidence: value premium co-movement with correlation regime",
+    "Persistence statistics: positive regime >5 years has only 25-40% probability"
+  ],
+  "current_assessment": "Positive regime likely (~60% probability) with all four negative-regime conditions weakening. But persistence >5 years only 25-40% probable, tempering duration conviction but not directional.",
+  "limitations": [
+    "Persistence probability estimates have wide confidence intervals",
+    "Conditioned on inflation-deflation resolution (~50/50) which caps overall confidence",
+    "Reflexive loop between correlation, hedging, and term premium complicates static analysis",
+    "Historical regimes involved different structural contexts than current"
+  ],
+  "topic": "demographics",
+  "created_at": "2026-03-24T09:57:21Z",
+  "last_updated": "2026-03-24T09:57:21Z",
+  "originating_iteration": "iter_0053",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0053"
+  ]
+}

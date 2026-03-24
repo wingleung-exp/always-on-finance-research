@@ -1,0 +1,222 @@
+[
+  {
+    "concept_a": "aging_inflation_deflation_binary",
+    "concept_b": "stock_bond_correlation_regime",
+    "mechanism": "Demographics operates through the inflation channel. CPI >4% produces 85% positive stock-bond correlation. The inflation-deflation resolution is the primary driver of the correlation regime.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "If aging resolves inflationary with CPI >4%, positive correlation is near-certain. If deflationary, correlation regime is ambiguous. The conditioning event is itself ~50/50.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "stock_bond_correlation_regime",
+    "concept_b": "portfolio_construction_challenge",
+    "mechanism": "Positive stock-bond correlation eliminates the diversification benefit of bonds in 60/40 portfolios, compresses risk parity's edge, and increases portfolio risk by ~50%. Institutional mandate lag creates a 3-5 year repricing window.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Only binds if positive correlation persists for multiple years. Conditional on ~60% probability of persistent positive correlation.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "stock_bond_correlation_regime",
+    "concept_b": "term_premium_floor",
+    "mechanism": "Reflexive loop: positive correlation reduces bonds' hedging value → investors demand higher term premium → reinforces positive correlation. Self-reinforcing once initiated.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Self-reinforcing once positive correlation regime is established. Could reverse if sustained deflationary shock restores negative correlation.",
+    "originating_agents": [
+      "generalist_01",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "china_demographic_cliff",
+    "concept_b": "commodity_demand_divergence",
+    "mechanism": "Demographic-driven construction decline destroys bulk material demand (iron ore) while green transition partially sustains electrification metal demand (copper), creating divergent commodity paths.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on China maintaining green transition investment even as overall growth slows. Weakens if green capex is cut during fiscal consolidation.",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "fx_strategist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "immigration_restriction_gap",
+    "concept_b": "remittance_compression",
+    "mechanism": "OECD immigration restriction reduces migrant worker populations, directly reducing remittance flows to source countries. Selective low-skilled restriction amplifies remittance impact disproportionately since low-skilled migrants generate most remittances.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Strongest during genuine restriction enforcement. May not bind if restriction gap remains large. Differential impact if restriction is skill-selective.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "immigration_restriction_gap",
+    "concept_b": "credit_default_model_miscalibration",
+    "mechanism": "If immigration restriction reduces labor supply growth, the counter-cyclical labor loosening valve is further impaired, amplifying credit default model miscalibration.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Depends on whether effective restriction materializes or the gap persists. Only binds if actual labor supply is constrained.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "pronatalist_policy_failure",
+    "concept_b": "simultaneous_global_aging",
+    "mechanism": "The universal failure of pronatalist policies makes simultaneous global aging irreversible on any policy-relevant timeline, eliminating demographic recovery through policy intervention.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Unconditional structural relationship — does not depend on economic conditions.",
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "simultaneous_global_aging",
+    "concept_b": "closed_economy_at_global_scale",
+    "mechanism": "When >50% of global GDP ages simultaneously, Mundell-Fleming external adjustment mechanisms (capital flows, labor migration to younger counterparties) are eliminated, producing closed-economy dynamics.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as Africa and India cannot serve as sufficient counterparties. Could weaken on 20-30 year horizon as African institutional quality improves.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "pension_fiscal_collision",
+    "concept_b": "basis_trade_fragility",
+    "mechanism": "As price-insensitive pension and CB demand decays while fiscal supply expands, Treasury market becomes increasingly dependent on leveraged basis traders as marginal buyers, concentrating systemic fragility.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Intensifies as DB plan closures accelerate and foreign CB reserve accumulation slows. March 2020 demonstrated fragility at lower concentration.",
+    "originating_agents": [
+      "rates_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "fertilizer_chokepoint",
+    "concept_b": "youth_bulge_carry_risk",
+    "mechanism": "Fertilizer supply disruptions cause food price spikes amplified in youth-bulge EMs with high food CPI weights (33-49%), potentially triggering political instability and carry trade collapse.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activated during geopolitical disruption of fertilizer supply (structurally recurring via Russia demographic-strategic loop). Strongest in economies with large informal sectors.",
+    "originating_agents": [
+      "commodities_analyst_02",
+      "fx_strategist_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "groundwater_depletion",
+    "concept_b": "youth_bulge_carry_risk",
+    "mechanism": "Irreversible aquifer depletion constrains food supply, contributing to structural food price inflation that amplifies instability risk in food-import-dependent youth-bulge EMs.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Slow-moving but irreversible. Timing uncertain: 20-30 years for Ogallala, faster for North China Plain and Punjab.",
+    "originating_agents": [
+      "commodities_analyst_02"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "deleveraging_template_impairment",
+    "concept_b": "term_premium_floor",
+    "mechanism": "If the growth channel for deleveraging is impaired, fiscal supply must remain elevated longer, maintaining upward pressure on term premium through persistent issuance at the long end.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Binds while sovereign debt levels remain elevated and demographic headwinds persist. Could be loosened by AI-driven TFP acceleration.",
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "aging_inflation_deflation_binary",
+    "concept_b": "taylor_rule_degradation",
+    "mechanism": "Demographic structural breaks create output gap mismeasurement (±1.5pp) and bimodal r* distribution (±1.0pp), which are primary drivers of Taylor Rule degradation to ±200bp.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Worsens as demographic structural breaks accumulate. May partially reverse if new equilibrium is established.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "institutional_adaptation_attenuation",
+    "concept_b": "credit_default_model_miscalibration",
+    "mechanism": "If institutional adaptation routinely attenuates headwinds by 30-50%, the credit default miscalibration may be less severe than estimated. However, 5-10 year adaptation delay may not help with 2026-2029 maturity wall timing.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Depends on whether adaptation mechanisms can operate in credit markets at sufficient speed. Delay may exceed maturity wall timeline.",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "china_demographic_cliff",
+    "concept_b": "basis_trade_fragility",
+    "mechanism": "China's demographic-driven shift from reserve accumulation to drawdown reduces price-insensitive UST demand. Each 25bp UST rise from reduced Chinese buying tightens EM conditions by 15-20bp, creating cascading fragility.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Accelerates as China's CA surplus narrows. Partially offset if other Asian surplus countries maintain reserve accumulation.",
+    "originating_agents": [
+      "fx_strategist_02",
+      "rates_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "concept_a": "demographics_as_decomposable_factor",
+    "concept_b": "portfolio_construction_challenge",
+    "mechanism": "If demographics drives regime shifts in known factor loadings rather than constituting an independent factor, portfolios must treat it as a regime variable predicting when factor exposures change, not as a direct risk premium to harvest.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Most important during demographic transition points when factor loadings are actively shifting.",
+    "originating_agents": [
+      "quant_researcher_02",
+      "macro_strategist_01"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  }
+]

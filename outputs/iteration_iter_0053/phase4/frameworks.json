@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "inflation_deflation_resolution",
+    "purpose": "Determines whether global aging resolves as net inflationary or deflationary — the single most consequential unresolvable uncertainty for all cross-asset positioning.",
+    "components": [
+      "Supply-side channel: labor scarcity → ULC exceeding productivity → inflationary pressure",
+      "Demand-side channel: reduced consumption in old age → deflationary pressure",
+      "Political economy channel: fiscal expansion under supply constraint → maximum inflationary pressure",
+      "Japan precedent: 27 years below-target inflation during extreme aging → deflationary evidence",
+      "Confounding filter: 2022-2025 data contaminated by supply chains, fiscal stimulus, Ukraine"
+    ],
+    "current_assessment": "Genuinely ~50/50 with 6/8 agents converging. macro_strategist_01 60/40 inflationary lean challenged as overreach given Japan precedent. Resolution timeline 3-5+ years. Premature closure is the costliest error.",
+    "limitations": [
+      "N<3 pure old-age-dependency inflationary episodes globally",
+      "2022-2025 data window massively confounded and cannot be used to update priors",
+      "Japan is the highest-N single case but institutional uniqueness limits generalizability",
+      "The binary framing may itself be wrong — mixed or regime-switching outcomes are possible"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "slug": "sovereign_deleveraging_decomposition",
+    "purpose": "Analyzes how sovereign debt can be reduced under demographic constraints by decomposing the 1946-1980 template into constituent channels and assessing impairment of each.",
+    "components": [
+      "Inflation channel (~40% of historical deleveraging) — available but politically costly",
+      "Growth channel (~35%, of which only ~40% is labor force; rest is TFP) — impaired but less than commonly assumed",
+      "Primary surplus channel (~15%) — blocked by 14-15% GDP entitlement spending vs 3-4% in 1945",
+      "Financial repression channel (~10%) — 0/3 success rate without growth tailwinds"
+    ],
+    "current_assessment": "Template impaired but constraint overstated by ~2x per Solow decomposition. TFP substitution for labor growth is key unknown. AI wildcard could significantly loosen. Entitlement spending blocks surpluses unconditionally.",
+    "limitations": [
+      "TFP may itself be demographically influenced through innovation and dynamism channels",
+      "Financial repression without growth: 0/3 historical success",
+      "AI TFP acceleration is speculative and untested at macro scale",
+      "No historical template for deleveraging under simultaneous global aging"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "slug": "japan_analogue_assessment",
+    "purpose": "Evaluates when Japan's demographic-financial experience can and cannot be used as a template for other economies, preventing the single-analogue fallacy.",
+    "components": [
+      "Five structural uniqueness tests (NIIP, domestic ownership, CB ownership, CA surplus, deflationary backdrop)",
+      "Political economy sequence generalization (denial → accommodation → monetization → coordination)",
+      "Asymmetric usage audit: is Japan cited selectively for negative vs positive outcomes?",
+      "Regime break assessment: 2023-2025 Japan outperformance as live falsification test"
+    ],
+    "current_assessment": "Financial outcomes non-generalizable (US fails all 5 structural tests). Political economy sequence may generalize but small sample. 2023-2025 too confounded for conclusions. Need 5+ years sustained performance to revise consensus.",
+    "limitations": [
+      "Single case study with unique institutional features",
+      "2023-2025 confounded by yen depreciation, governance reforms, BoJ policy shift",
+      "Asymmetric usage confirmed — Japan used cautionary for debt but dismissed for positive outcomes",
+      "40% dependency ratio threshold as political economy trigger is not empirically established"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "slug": "correlation_regime_identification",
+    "purpose": "Identifies the current stock-bond correlation regime and assesses persistence, with direct implications for portfolio construction, hedging, and term premium.",
+    "components": [
+      "CPI level threshold: >4% → 85% positive correlation",
+      "Four sustaining conditions for negative regime (demographics, globalization, disinflation, EM reserves) — all weakening",
+      "NK micro-foundation: supply-shock dominance → positive correlation",
+      "Factor evidence: value premium co-movement with correlation regime",
+      "Persistence statistics: positive regime >5 years has only 25-40% probability"
+    ],
+    "current_assessment": "Positive regime likely (~60% probability) with all four negative-regime conditions weakening. But persistence >5 years only 25-40% probable, tempering duration conviction but not directional.",
+    "limitations": [
+      "Persistence probability estimates have wide confidence intervals",
+      "Conditioned on inflation-deflation resolution (~50/50) which caps overall confidence",
+      "Reflexive loop between correlation, hedging, and term premium complicates static analysis",
+      "Historical regimes involved different structural contexts than current"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "slug": "em_demographic_vulnerability",
+    "purpose": "Assesses EM country vulnerability through the interaction of demographic structure, food dependency, remittance dependency, and carry trade dynamics.",
+    "components": [
+      "Youth-bulge carry vs tail risk (food CPI weight, informal sector size, instability precedent)",
+      "Remittance dependency mapping (% GDP, source country immigration policy trajectory)",
+      "Food price → instability transmission chain (Arab Spring, Egypt 2022-23 templates)",
+      "Fertilizer supply concentration risk (Russia/Belarus potash, Morocco phosphate)",
+      "Reserve adequacy under demographic stress (healthcare imports, food imports)"
+    ],
+    "current_assessment": "Youth-bulge EMs offer carry but sovereign CDS systematically underweights demographic-instability tail. Remittance compression is most underappreciated channel. Food price transmission is most immediate risk.",
+    "limitations": [
+      "Sovereign CDS demographic recalibration methodology not established",
+      "Reserve adequacy adjustment is conceptual only — no empirical validation",
+      "Country-specific analysis needed (Nigeria, Egypt, Pakistan, Philippines have very different structures)",
+      "OECD immigration policy itself uncertain — restriction gap thesis untested in recession"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  },
+  {
+    "slug": "credit_demographic_stress_test",
+    "purpose": "Evaluates how demographic labor scarcity structurally impairs the credit cycle's natural correction mechanisms, focused on the 2026-2029 maturity wall.",
+    "components": [
+      "Historical labor loosening valve: present in 4/4 modern default cycles as margin relief",
+      "Labor force growth constraint: 0.3% vs historical 0.8-1.2%",
+      "Covenant structure degradation: 87% covenant-lite, PIK toggle rising",
+      "EBITDA addback assumptions: 25-30% calibrated to higher labor growth",
+      "Unfalsifiability test: what observation could disconfirm the thesis?"
+    ],
+    "current_assessment": "Direction validated across 5+ agents but magnitude unknowable (N=0). Thesis circulated since 2023 without observable stress. Unfalsifiability is a valid methodological concern. This is a directional thesis, not an actionable trade.",
+    "limitations": [
+      "Magnitude genuinely unknowable with N=0 for this specific combination",
+      "Unfalsifiability: every non-confirming observation can be dismissed as premature",
+      "Thesis circulated since 2023 without observable credit stress",
+      "The 'most actionable trade' label was definitively refuted — direction only"
+    ],
+    "topic": "demographics",
+    "iteration_id": "iter_0053"
+  }
+]

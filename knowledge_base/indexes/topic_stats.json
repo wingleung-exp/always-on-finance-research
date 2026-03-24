@@ -882,9 +882,9 @@
     "avg_confidence": 6.1
   },
   "demographics": {
-    "concept_count": 99,
-    "relationship_count": 48,
-    "framework_count": 14,
+    "concept_count": 114,
+    "relationship_count": 64,
+    "framework_count": 20,
     "top_concepts": [
       {
         "slug": "below_replacement_fertility",
@@ -895,11 +895,6 @@
         "slug": "below_replacement_fertility_universality",
         "confidence": 9,
         "definition": "Total fertility rates have fallen below the 2.1 replacement level in 36/38 OECD countries, with convergence occurring faster than UN median projection"
-      },
-      {
-        "slug": "china_demographic_cliff",
-        "confidence": 9,
-        "definition": "China faces a demographic cliff that is arithmetically certain \u2014 working-age population decline of ~100M by 2035, birth collapse from 17M to 9M (2016-"
       },
       {
         "slug": "cpi_weight_asymmetry_inflation_amplifier",
@@ -930,6 +925,11 @@
         "slug": "pronatalist_policy_base_rate",
         "confidence": 9,
         "definition": "Systematic tabulation of 25 countries' pronatalist policy outcomes showing 0/25 recovered to replacement-level fertility. The most successful cases ac"
+      },
+      {
+        "slug": "pronatalist_policy_failure",
+        "confidence": 9,
+        "definition": "0/25 countries have recovered to replacement fertility from sustained sub-1.5 TFR. The best-funded programs (South Korea $200B+, Hungary 4% GDP) produ"
       },
       {
         "slug": "sub_replacement_fertility_persistence",
@@ -968,6 +968,8 @@
       "china_demographic_cliff_macro_risk",
       "china_soybean_demand_plateau",
       "clo_reinvestment_collision",
+      "closed_economy_at_global_scale",
+      "commodity_demand_divergence",
       "compressed_demographic_dividend",
       "correlation_assumptions_mispricing",
       "correlation_regime_transition",
@@ -975,12 +977,15 @@
       "covenant_lite_dominance",
       "cpi_food_weight_em_transmission",
       "cpi_weight_asymmetry_inflation_amplifier",
+      "credit_default_model_miscalibration",
       "cross_asset_demographic_inconsistency",
       "default_model_demographic_miscalibration",
+      "deleveraging_template_impairment",
       "demographic_deleveraging_constraint",
       "demographic_dividend_self_destruction",
       "demographic_prediction_overconfidence",
       "demographic_pricing_paradox",
+      "demographics_as_decomposable_factor",
       "dependency_ratio_crossings",
       "dependency_ratio_fiscal_trajectory",
       "ebitda_addback_demographic_fiction",
@@ -992,16 +997,20 @@
       "export_ban_aging_voter_feedback",
       "export_ban_political_economy",
       "fertility_convergence_acceleration",
+      "fertilizer_chokepoint",
       "financial_repression_modal_resolution",
       "financial_repression_pathway",
       "five_phase_aging_economy_template",
       "glp1_agricultural_demand_shock",
+      "groundwater_depletion",
       "immigration_demographic_lever",
       "immigration_effective_restriction_gap",
+      "immigration_restriction_gap",
       "immigration_short_horizon_variance",
       "immigration_three_channel_credit",
       "immigration_variance_and_restriction",
       "institutional_adaptation_attenuation",
+      "institutional_flow_crowding",
       "japan_aging_non_generalizability",
       "japan_corporate_credit_generalizability",
       "japan_sovereign_non_generalizability",
@@ -1016,11 +1025,14 @@
       "pik_toggle_canary",
       "pik_toggle_stress_indicator",
       "political_feedback_loop_acceleration",
+      "portfolio_construction_challenge",
       "post_wwii_deleveraging_growth_impairment",
       "private_credit_nav_overstatement",
       "pronatalist_policy_base_rate",
+      "pronatalist_policy_failure",
       "recovery_duration_demographic_correlation",
       "reflexive_term_premium_loop",
+      "remittance_compression",
       "retailization_feedback_loop",
       "russia_demographic_strategic_loop",
       "second_round_wage_price_spiral",
@@ -1033,9 +1045,12 @@
       "stock_bond_positive_correlation_transition",
       "structural_labor_scarcity",
       "sub_replacement_fertility_persistence",
+      "taylor_rule_degradation",
       "term_premium_demographic_uplift",
       "term_premium_direction",
+      "term_premium_floor",
       "three_tier_geopolitical_divergence",
+      "youth_bulge_carry_risk",
       "youth_bulge_instability_nexus"
     ],
     "avg_confidence": 6.5
@@ -2429,7 +2444,7 @@
       },
       {
         "slug": "basis_trade_fragility",
-        "confidence": 7.88,
+        "confidence": 7.7,
         "definition": "The Treasury basis trade at $800B-$1T notional with 50-100x leverage represents a genuine structural fragility in the financial system. Concentrated l"
       },
       {
@@ -2491,7 +2506,7 @@
       },
       {
         "slug": "japan_non_generalizability",
-        "confidence": 8.5,
+        "confidence": 8.33,
         "definition": "Japan's debt sustainability rests on a unique and non-replicable configuration: NIIP +70% GDP, >90% domestic JGB ownership, BoJ >50% ownership, persis"
       },
       {
@@ -2551,7 +2566,7 @@
       "us_fiscal_spillover_multiplicative",
       "wac_rollover_fiscal_pressure"
     ],
-    "avg_confidence": 7.2
+    "avg_confidence": 7.1
   },
   "volatility_regimes": {
     "concept_count": 40,
