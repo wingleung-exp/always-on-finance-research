@@ -1,0 +1,32 @@
+{
+  "slug": "binary_classification_insufficiency",
+  "definition": "Binary classifications (exporter/importer, pricing power/no pricing power) are analytically insufficient for commodity-inflation analysis. Second-order variables within categories determine outcomes: pricing power × cash conversion cycle (equity), export concentration × institutional quality × rent capture (FX), leverage × working capital intensity × covenant structure (credit).",
+  "confidence": 7,
+  "evidence": [
+    "Industrials' 0.4x OCF/revenue ratio during 2021-23 shows passthrough capacity (ability to raise prices) differs from passthrough quality (conversion to FCF)",
+    "Nigeria (concentrated exporter, weak institutions, oil rally + naira collapse) falsifies naive 'exporters benefit' thesis vs Chile's orderly copper stabilization",
+    "Services-sector credits with commodity lag create false comfort despite having no direct commodity exposure"
+  ],
+  "originating_agents": [
+    "equity_analyst_01",
+    "fx_strategist_02",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Can these multi-dimensional classification frameworks be operationalized into quantitative scoring models?",
+    "What is the relative importance of each dimension within the frameworks?"
+  ],
+  "related_concepts": [
+    "working_capital_absorption_lead",
+    "services_sector_delayed_deterioration",
+    "guidotti_greenspan_fx_predictor"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

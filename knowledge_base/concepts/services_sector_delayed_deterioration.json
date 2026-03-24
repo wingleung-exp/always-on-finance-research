@@ -1,0 +1,30 @@
+{
+  "slug": "services_sector_delayed_deterioration",
+  "definition": "Services-sector leveraged borrowers face delayed but severe credit deterioration from commodity shocks through the wage-cost channel (food/energy → worker cost-of-living demands → wage pressure), contradicting the assumption that only goods producers have commodity exposure. The risk is that credit markets declare the commodity shock 'over' by the time services credit deteriorates.",
+  "confidence": 6,
+  "evidence": [
+    "Healthcare staffing companies saw 15-25% labor cost increases in 2022-23, lagging the commodity shock by 9-15 months",
+    "At 5x leverage with ~70% labor cost share, a 15% labor cost increase produces ~5.6x leverage — enough for rating downgrades",
+    "Multi-stage lag structure documents services inflation lagging energy by 6-36 months"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Is the services credit deterioration channel large enough in aggregate to be systemically significant?",
+    "How does labor market tightness interact with the wage transmission mechanism?"
+  ],
+  "related_concepts": [
+    "false_calm_window",
+    "leverage_multiplier_nonlinearity",
+    "binary_classification_insufficiency"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

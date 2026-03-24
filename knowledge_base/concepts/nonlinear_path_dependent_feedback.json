@@ -1,0 +1,35 @@
+{
+  "slug": "nonlinear_path_dependent_feedback",
+  "definition": "Once threshold conditions are crossed, non-linear path-dependent feedback loops dominate commodity-inflation transmission. Passthrough is not a fixed coefficient but an accelerating function once loops activate, fundamentally challenging static regression-based estimates.",
+  "confidence": 8,
+  "evidence": [
+    "Sovereign credit doom loop: commodity price rise → trade balance deterioration → FX depreciation → fiscal deterioration → sovereign downgrade → further outflows (Egypt ERPT escalated from ~0.20 to >0.50)",
+    "ERP compression loop: overstated earnings + rising rates compound",
+    "Leverage multiplier loop: working capital → covenant breach → forced selling → further deterioration",
+    "Minsky dynamics: transitions from hedge to speculative financing positions once loops activate"
+  ],
+  "originating_agents": [
+    "fx_strategist_02",
+    "equity_analyst_01",
+    "credit_analyst_02",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Can threshold conditions for feedback loop activation be identified ex ante?",
+    "Do the loops interact with each other across asset classes, and if so, does this create a meta-feedback loop?"
+  ],
+  "related_concepts": [
+    "leverage_multiplier_nonlinearity",
+    "dollarization_balance_sheet_channel",
+    "minsky_spectrum_shift",
+    "credit_commodity_supply_feedback"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "cross_asset_response_sequencing",
+  "definition": "Cross-asset responses to commodity inflation follow a stable hierarchy: commodity futures → rates/breakevens → credit spreads → equity multiples → earnings revisions, with approximately 3-month lags between stages. Deviations from this sequence serve as diagnostic signals of shock containment or amplification.",
+  "confidence": 7,
+  "evidence": [
+    "2021-22 sequence confirmed: Brent >$80 Oct 2021 → 2Y UST repricing Nov 2021 → HY credit widening mid-2022 → S&P 500 P/E compression Q3 2022",
+    "Three independent frameworks converge on the same ordering with 3-6 month equity lag from commodity signal",
+    "2010-11 credit spreads never widening signaled containment, demonstrating diagnostic value of sequence deviations",
+    "Sell-side revision cycle: upward revisions months 0-12, downward months 12-24, lagging 2-3 quarters"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "equity_analyst_01"
+  ],
+  "open_questions": [
+    "Has post-2020 market structure (algo trading, passive flows) altered the sequencing speed?",
+    "Does the sequence hold for non-energy commodity shocks?"
+  ],
+  "related_concepts": [
+    "false_calm_window",
+    "correlation_regime_transition_risk",
+    "analogue_selection_bias"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

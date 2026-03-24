@@ -1,0 +1,251 @@
+[
+  {
+    "concept_a": "working_capital_absorption_lead",
+    "concept_b": "leverage_multiplier_nonlinearity",
+    "mechanism": "Working capital absorption increases revolver utilization and reduces EBITDA, mechanically increasing leverage ratios and pushing them through nonlinear covenant thresholds. The 6-12 month lead of working capital over income statement means leverage breach occurs before earnings show deterioration.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Stronger for capital-intensive manufacturers with positive working capital cycles; weaker for asset-light/negative-working-capital firms (tech, SaaS)",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "leverage_multiplier_nonlinearity",
+    "concept_b": "credit_commodity_supply_feedback",
+    "mechanism": "Covenant breaches and credit deterioration contractually restrict capex, forcing supply cuts in commodity-producing sectors. This constrains marginal supply with 18-24 month lag, supporting higher commodity prices and creating a self-reinforcing loop.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Strongest when commodity producers are highly levered and credit markets are the primary funding source; potentially weakened by equity market discipline and private credit growth",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "cross_asset_response_sequencing",
+    "concept_b": "false_calm_window",
+    "mechanism": "Lag differentials between stages of the sequencing hierarchy generate a window where headline measures moderate (energy CPI fading at 1-3 months) while slower-moving channels (services/wages at 6-36 months) have not yet fully transmitted. This structural gap produces the false calm.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Present in 5 of 7 major episodes; more pronounced when supply-driven (faster initial spike and fade) vs demand-pull (more gradual)",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "equity_analyst_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "dollar_channel_correlation_concentration",
+    "concept_b": "carry_trade_unwind_amplification",
+    "mechanism": "Dollar strengthening during commodity-inflation-driven DM tightening compresses EM carry-to-vol ratios, triggering carry trade unwinds that produce $90B+ outflows and raise cross-EM currency correlations from 0.3-0.4 to 0.7-0.8, amplifying the correlation concentration.",
+    "direction": "bidirectional",
+    "confidence": 8,
+    "regime_dependence": "Activated when DM central banks are tightening in response to commodity inflation; weaker when the shock is EM-specific or when DM policy is accommodative",
+    "originating_agents": [
+      "fx_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "covenant_lite_delayed_recognition",
+    "concept_b": "ebitda_addback_masking",
+    "mechanism": "Covenant-lite structures remove maintenance covenant triggers while EBITDA addbacks inflate reported earnings in CLO compliance tests. Together they create dual layers of delayed recognition: no covenant trip AND inflated metric, producing false solvency signals that persist 2-4 quarters longer than in covenanted structures.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Most dangerous in post-2018 issuance (covenant quality scores near historical lows); less relevant for legacy covenanted loans",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "clo_two_phase_transmission",
+    "concept_b": "credit_commodity_supply_feedback",
+    "mechanism": "CLO demand bridge (phase 1) suppresses credit repricing for 6-18 months, delaying the credit tightening signal that would constrain commodity supply. When cliff-edge repricing (phase 2) arrives, the credit-to-supply feedback activates more violently due to the delayed recognition.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Proportional to CLO market share of leveraged lending; weakened if private credit absorbs borrowers during the bridge phase",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "guidotti_greenspan_fx_predictor",
+    "concept_b": "dollarization_balance_sheet_channel",
+    "mechanism": "High Guidotti-Greenspan ratios (>1.0x) indicate rollover risk that triggers non-linear FX depreciation, which then activates the dollarization balance sheet channel: FX depreciation impairs net short FX positions on corporate balance sheets, triggering domestic credit tightening that compounds the import cost channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Only relevant for economies with significant FX-denominated corporate or sovereign liabilities; India's regulatory limits demonstrate that macro-prudential policy can break this link",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "kalecki_profit_fiscal_persistence",
+    "concept_b": "sellers_inflation_identification",
+    "mechanism": "Fiscal deficits mechanically sustain aggregate profits via the Kalecki identity, providing the demand-side conditions that enable firms to expand markups. Without fiscal accommodation, firms would face demand destruction that constrains markup expansion.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activated when fiscal deficits are large (>5% GDP) and sustained during the commodity shock; weakened under fiscal austerity responses",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "minsky_spectrum_shift",
+    "concept_b": "nonlinear_path_dependent_feedback",
+    "mechanism": "As commodity costs push firms from hedge to speculative financing positions, the system becomes increasingly fragile. Once a critical mass of firms crosses into speculative or Ponzi territory, feedback loops activate: credit tightening → further balance sheet deterioration → more firms crossing thresholds → broader credit tightening.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on initial distribution of firms across Minsky categories; more dangerous when the system is already tilted toward speculative financing",
+    "originating_agents": [
+      "macro_strategist_02",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "dollarization_balance_sheet_channel",
+    "concept_b": "nonlinear_path_dependent_feedback",
+    "mechanism": "FX depreciation impairs dollar-denominated balance sheets, triggering credit tightening and capital outflows, which cause further depreciation, completing the sovereign doom loop. Egypt's ERPT escalated from ~0.20 to >0.50 through this mechanism.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Activated in economies with >30% FX-denominated liabilities and Guidotti-Greenspan ratios above 0.6-0.8x; broken by adequate reserves and swap line access",
+    "originating_agents": [
+      "fx_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "index_concentration_paradox",
+    "concept_b": "dollar_channel_correlation_concentration",
+    "mechanism": "High index concentration in long-duration, asset-light stocks makes the S&P 500 effectively a duration asset during commodity inflation. This creates hidden correlation with rate-sensitive assets (bonds, EM debt), amplifying the correlation concentration problem for portfolios that use index allocations.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Proportional to index concentration level (~35% in top 10 as of 2025); stronger when commodity inflation operates primarily through the discount rate channel rather than COGS",
+    "originating_agents": [
+      "equity_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "private_credit_nav_illusion",
+    "concept_b": "credit_commodity_supply_feedback",
+    "mechanism": "If private credit's mark-to-model approach delays recognition of commodity-sector deterioration, it may also delay the credit-to-supply feedback loop. However, if private credit lenders are hold-to-maturity and less procyclical, they may actually weaken the supply-constraining feedback by maintaining credit availability during stress.",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Untested at current AUM ($1.7T); the direction of the effect depends on whether private credit proves more or less procyclical than public markets",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "services_sector_delayed_deterioration",
+    "concept_b": "false_calm_window",
+    "mechanism": "Services-sector credit deterioration (lagging commodity shock by 9-15 months via wage transmission) arrives during or after the false calm window when markets have declared the commodity shock contained. This extends the effective transmission duration beyond what goods-only analysis would suggest.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Stronger when labor markets are tight (accelerates wage transmission); weaker when slack allows firms to absorb input costs without wage increases",
+    "originating_agents": [
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "maturity_wall_scissors",
+    "concept_b": "leverage_multiplier_nonlinearity",
+    "mechanism": "Refinancing at higher all-in costs directly increases interest expense, reducing EBITDA-based coverage ratios and increasing leverage metrics. The scissors dynamic (costs rising + EBITDA declining) makes the leverage nonlinearity activate at lower commodity price thresholds than would be predicted from margin compression alone.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Most acute during concentrated maturity periods (2025-27 wall); mitigated if rates decline enough to offset spread widening",
+    "originating_agents": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "supply_demand_origin_discriminant",
+    "concept_b": "resolution_archetype_determinism",
+    "mechanism": "The origin of the commodity shock (supply vs demand) strongly constrains which resolution archetype is likely: supply shocks tend toward demand-destruction or geopolitical-reversal resolution; demand-pull tends toward supply-response or policy-induced recession. The origin is a prior variable that narrows the resolution space.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Weaker for mixed-origin episodes (2021-22 was both supply disruption and fiscal stimulus), which expand the set of possible resolution paths",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "central_bank_credibility_circularity",
+    "concept_b": "regime_dependent_passthrough_critique",
+    "mechanism": "If credibility is circular (defined by outcomes, used to explain outcomes), then the regime-dependent passthrough framework that relies on credibility as the regime-switching variable is built on unstable foundations. The critique of credibility undermines the theoretical basis for regime identification.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Always applies as a logical critique; empirical impact depends on whether alternative regime-switching variables (financial structure, monetary sovereignty) can be substituted",
+    "originating_agents": [
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "credit_equity_basis_widening",
+    "concept_b": "working_capital_absorption_lead",
+    "mechanism": "Working capital absorption inflates revenue and EBITDA while compressing cash flow, causing Merton model inputs (equity volatility, distance-to-default) to understate true credit risk. This mechanical divergence between equity-implied and actual credit risk widens the credit-equity basis.",
+    "direction": "b_causes_a",
+    "confidence": 6,
+    "regime_dependence": "Widest when commodity passthrough is high in revenue terms but low in cash flow terms (OCF/revenue ratio < 0.5x)",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "concept_a": "episode_overweighting_2021_22",
+    "concept_b": "survivorship_bias_episode_selection",
+    "mechanism": "Both biases compound to overstate passthrough: survivorship bias excludes non-events from the denominator, while overweighting the 2021-22 episode (partially demand-driven) inflates the numerator. Together they produce upward-biased passthrough coefficient estimates.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Always present as a methodological bias; magnitude depends on how many KB concepts rely primarily on 2021-22 evidence (currently 15+ of 24)",
+    "originating_agents": [
+      "challenger_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  }
+]

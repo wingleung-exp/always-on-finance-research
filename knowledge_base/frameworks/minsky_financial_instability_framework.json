@@ -1,0 +1,26 @@
+{
+  "slug": "minsky_financial_instability_framework",
+  "purpose": "Answers: How do commodity shocks create systemic financial fragility through firm-level balance sheet transitions?",
+  "components": [
+    "Hedge financing: income covers all obligations (stable at moderate commodity prices)",
+    "Speculative financing: income covers interest but not principal (requires refinancing; activated at elevated commodity prices)",
+    "Ponzi financing: income covers neither interest nor principal (requires asset sales or new borrowing; activated at extreme commodity prices)",
+    "Threshold transitions: firms shift categories as commodity costs cross working-capital thresholds",
+    "Selective fragility: speculative and Ponzi units fail while hedge-dominant sectors survive (2022-23 pattern)"
+  ],
+  "current_assessment": "Provides the microeconomic mechanism connecting commodity prices to financial stability that the KB does not currently capture. The 2022-23 selective fragility pattern is exactly what the framework predicts. Fed SLOOS data provides supporting evidence. Quantitative calibration of threshold transitions remains imprecise and firm-specific.",
+  "limitations": [
+    "Quantitative calibration of hedge → speculative → Ponzi thresholds is imprecise and firm-specific",
+    "Does not specify commodity price levels that trigger transitions (these depend on firm-specific balance sheets)",
+    "SLOOS data provides supporting but not granular Minsky classification",
+    "Has not been formally integrated with the KB's passthrough coefficient framework"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

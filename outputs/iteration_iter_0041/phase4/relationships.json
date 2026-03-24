@@ -1,0 +1,228 @@
+[
+  {
+    "concept_a": "stress_episode_sequencing",
+    "concept_b": "balance_sheet_ratchet_effect",
+    "mechanism": "Central bank intervention during Phase 3 of the stress sequence mechanically expands balance sheets. These expanded balance sheets then fail to fully normalize due to institutional endogeneity, producing the ratchet effect. The sequencing makes the ratchet causally inevitable — intervention cannot occur without expansion.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds in all observed post-2008 stress episodes. Requires stress severity sufficient to trigger central bank intervention. The ratchet is stronger when intervention involves outright purchases vs lending facilities.",
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "reserve_scarcity_nonlinearity",
+    "concept_b": "stress_episode_sequencing",
+    "mechanism": "Reserve scarcity triggers Phase 1 (plumbing stress) of the stress sequence by causing sudden funding market dysfunction. The nonlinear kink in the demand curve means the transition from adequate to scarce reserves is abrupt, not gradual — producing a cliff effect rather than a slope.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Active only during QT or periods of reserve drainage. The threshold location shifts with bank behavior and regulatory interpretation. September 2019 is the sole clean observation.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "basis_trade_fragility",
+    "concept_b": "stress_episode_sequencing",
+    "mechanism": "Basis trade unwind constitutes Phase 2 (leveraged unwind) of the stress sequence. Loss of cheap repo financing triggers pro-cyclical deleveraging via Brunnermeier-Pedersen liquidity spiral, amplifying initial plumbing stress into broader Treasury market dysfunction and forcing central bank intervention.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Active when repo rate volatility exceeds basis trade carry at current leverage. Currently at 3-4x March 2020 scale. Position concentration (top 10-15 funds hold 60-70%) amplifies the discontinuity.",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "qt_term_premium_effect",
+    "concept_b": "compound_duration_absorption",
+    "mechanism": "QT adds net duration supply to private portfolios simultaneously with fiscal issuance. Both operate through the same preferred habitat channel (Vayanos-Vila), but whether effects are additive or partially substitutive is empirically unresolved. If substitutive, QT's marginal impact is lower than commonly modeled.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Active during simultaneous QT and large fiscal deficits — current regime since 2022. The identification problem means the relative contribution may never be cleanly separated. Regime-specific: pre-QE markets absorbed sovereign duration without central bank intermediation.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "fiscal_deficit_buffer",
+    "concept_b": "stress_episode_sequencing",
+    "mechanism": "Fiscal deficits mechanically support aggregate corporate profits (Kalecki identity), extending the runway before QT triggers financial stress. The buffer delays Phase 1 onset by maintaining cash flows to the real economy but does not prevent stress from propagating through leveraged financial channels once triggered.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Effective while government deficits remain at 6-7% GDP. Buffer operates on aggregates — individual leveraged entities facing margin calls receive no protection. Strongest as an explanation for past QT resilience; weakest as a prediction of indefinite resilience.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "private_credit_nav_smoothing",
+    "concept_b": "nbfi_structural_vulnerability",
+    "mechanism": "NAV smoothing masks true volatility and risk in $300B+ semi-liquid vehicles, creating structural liquidity mismatch. When mark-to-market events eventually force repricing, the gap between smoothed and true NAV triggers redemption pressure, amplifying NBFI vulnerability through forced selling.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Latent risk that crystallizes during credit stress or forced mark-to-market events. Smoothing provides a false stability signal during the accumulation phase, increasing the eventual dislocation magnitude.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "quant_researcher_02",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "srf_overrated",
+    "concept_b": "reserve_scarcity_nonlinearity",
+    "mechanism": "If the SRF is stigmatized and underutilized (40-60% of capacity unused based on analogue facilities), the effective reserve floor is higher than models assuming full SRF utilization suggest. This means reserve scarcity manifests sooner during QT than standard models predict.",
+    "direction": "a_causes_b",
+    "confidence": 7.5,
+    "regime_dependence": "Relevant during QT as reserves approach the scarcity threshold. Stigma effects are likely strongest during first activation (no precedent exists). If the SRF is never tested, the overrating is immaterial; once tested, stigma becomes self-fulfilling.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "covenant_lite_impairment",
+    "concept_b": "nbfi_structural_vulnerability",
+    "mechanism": "Covenant-lite structures eliminate maintenance-based early warning signals. Credit problems skip from healthy-appearing to acute distress without intermediate deterioration signals. This impairs risk monitoring for the broader NBFI complex holding these assets, making losses discontinuous rather than gradual.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Untested in an organic credit cycle without policy rescue (N=0). Most relevant during rising rates and the maturity wall ($900B-$1.5T, 2025-2028). May be offset if the maturity wall is successfully refinanced as in previous cycles.",
+    "originating_agents": [
+      "equity_analyst_02",
+      "quant_researcher_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "ebitda_addback_contamination",
+    "concept_b": "covenant_lite_impairment",
+    "mechanism": "EBITDA addbacks inflate reported leverage ratios, masking true credit risk. Combined with covenant-lite structures that remove maintenance triggers, the double distortion means credit deterioration is invisible through both the monitoring channel (no covenants) and the measurement channel (inflated EBITDA) until acute distress.",
+    "direction": "bidirectional",
+    "confidence": 6.5,
+    "regime_dependence": "Structural feature of post-2015 leveraged lending. Consequences materialize when organic credit deterioration occurs without policy rescue. If rating agencies accept sponsor-provided figures, the distortion extends to the entire credit rating architecture.",
+    "originating_agents": [
+      "equity_analyst_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "narrative_coherence_bias",
+    "concept_b": "bayesian_qt_updating",
+    "mechanism": "The narrative coherence bias (all relationship arrows pointing toward fragility) is the structural complement to the Bayesian updating critique (survival evidence underweighted). Both identify the same underlying problem: the KB systematically overweights stress pathways and underweights stabilizing dynamics and survival data.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Methodological relationship that applies regardless of market regime. Both critiques are strongest when the base rate of non-crisis outcomes is high, as during the current 45-month QT period.",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "g3_balance_sheet_divergence",
+    "concept_b": "compound_duration_absorption",
+    "mechanism": "ECB political constraints on QT and BoJ market dominance (>50% JGB holdings) mean duration absorption stress concentrates disproportionately in USD-denominated markets. The Fed's comparatively unconstrained normalization path loads the global adjustment onto US Treasury markets.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Current regime where Fed is furthest along in QT. Would reverse if ECB faces peripheral stress requiring re-expansion, or if BoJ normalization creates a functioning JGB market that absorbs global duration demand.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_02",
+      "quant_researcher_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "mixed_signal_coherence",
+    "concept_b": "qt_term_premium_effect",
+    "mechanism": "Channel decomposition shows rate cuts and QT are complementary, not contradictory. Rate cuts support the income channel (debt service relief) while QT's term premium effect persists through the portfolio channel (duration supply). The term premium effect is not offset by rate cuts — they operate on different margins.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active during simultaneous rate cuts and QT — current and prospective regime. No historical analog for this combination exists, making empirical validation impossible. Channel dominance may vary by asset class.",
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "balance_sheet_ratchet_effect",
+    "concept_b": "gold_regime_break",
+    "mechanism": "Permanent central bank balance sheet expansion drives non-G3 central banks to diversify reserves into gold as a hedge against fiat currency debasement. The sanctions-driven acceleration (post-Russian reserve freeze) compounds the structural trend. Gold functions as a pressure release valve for permanent expansion.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Post-2022 regime following Russian reserve freeze. Dependent on continued sanctions environment and non-G3 central bank diversification mandates. Price elasticity of official demand at $3,000+ is unknown.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "qt_term_premium_effect",
+    "concept_b": "commodity_financing_repricing",
+    "mechanism": "QT-driven higher short-term rates directly increase physical commodity financing costs. Higher SOFR raises the carry cost of warehouse stocks, compresses contango, and discourages speculative inventory holding. This is a concrete, arithmetic transmission mechanism from monetary policy to physical commodity markets.",
+    "direction": "a_causes_b",
+    "confidence": 5.5,
+    "regime_dependence": "Active when SOFR is materially above zero. Strength is proportional to financing rate level. Reversed by rate cuts. Attribution difficulty: LME stock declines may reflect physical tightness rather than financing cost effects.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "nbfi_structural_vulnerability",
+    "concept_b": "stress_episode_sequencing",
+    "mechanism": "NBFI concentration of risk may fundamentally alter historical stress sequencing patterns. Pre-2010 analogues operated in bank-intermediated systems with LOLR access. With risk now concentrated outside the banking perimeter, propagation speed, central bank response capacity, and intervention mechanisms may all differ from historical precedent.",
+    "direction": "a_causes_b",
+    "confidence": 6.5,
+    "regime_dependence": "Current regime where NBFI holds majority of leveraged risk. BoE 2022 LDI is the only NBFI-intermediated stress episode at scale. Conditional on whether ad hoc Fed facilities can be deployed at NBFI-relevant speed.",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "concept_a": "basis_trade_fragility",
+    "concept_b": "qt_term_premium_effect",
+    "mechanism": "The basis trade suppresses term premium by approximately 20-40bp through leveraged Treasury demand. A basis trade unwind would release this suppression, adding to QT's direct term premium decompression. Conversely, QT-driven repo rate volatility is the most likely trigger for basis trade unwind.",
+    "direction": "bidirectional",
+    "confidence": 5.5,
+    "regime_dependence": "Active while basis trade is large (~$800B-$1T). Unwind would compound QT term premium effects. Continued basis trade growth partially offsets QT decompression. The 20-40bp suppression estimate lacks an identified natural experiment.",
+    "originating_agents": [
+      "generalist_01",
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  }
+]

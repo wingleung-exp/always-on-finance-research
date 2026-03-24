@@ -1,0 +1,25 @@
+{
+  "slug": "regime_dependent_passthrough_framework",
+  "purpose": "Answers: What determines whether a commodity price shock passes through into broader inflation (high-passthrough regime, 0.5-0.8 coefficient) or is absorbed (low-passthrough regime, 0.1-0.3 coefficient)?",
+  "components": [
+    "Regime classification variable: traditionally central bank credibility/expectations anchoring",
+    "Alternative classification variables proposed: monetary sovereignty, FX liability structure, private debt-to-GDP, fiscal stance, financial structure (hedge vs speculative/Ponzi balance sheet dominance)",
+    "Bimodal distribution of passthrough coefficients is empirically established",
+    "Regime transition identification: no published model achieves real-time detection"
+  ],
+  "current_assessment": "Descriptive value is high — bimodal passthrough is real. Explanatory mechanism needs to shift from credibility alone to a multi-factor model. KB confidence of 9 is contested; synthesis recommends 7. The 8x range between regime coefficients (0.1-0.8) is too wide for practical forecasting. Requires formal empirical testing of alternative regime-switching variables.",
+  "limitations": [
+    "No real-time regime identification capability demonstrated",
+    "8x coefficient range (0.1-0.8) too wide for practical forecasting",
+    "Credibility variable is circular (defined by outcomes, used to explain outcomes)",
+    "Alternative regime-switching variables not yet formally tested"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

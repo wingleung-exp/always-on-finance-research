@@ -1,0 +1,30 @@
+{
+  "slug": "ebitda_addback_masking",
+  "definition": "EBITDA addback masking is a structural (not merely informational) failure in credit market plumbing. Unlike equity-side non-GAAP distortions that analysts can see through, credit-side addbacks are embedded in CLO compliance tests and legal covenants. Addback-adjusted EBITDA diverges 25-40% from cash EBITDA during commodity stress.",
+  "confidence": 7,
+  "evidence": [
+    "Permitted addbacks include 'non-recurring' raw material surcharges, commodity hedge losses, supply chain disruption costs, and pro forma synergies assuming normalized input costs",
+    "Moody's documents addback-adjusted EBITDA exceeding S&P-adjusted by median 20-25% for 2021-22 new issues",
+    "Borrowers look solvent in covenant tests while cash flow deterioration advances"
+  ],
+  "originating_agents": [
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Are there early-warning indicators of addback divergence before it reaches crisis levels?",
+    "Will regulatory or market pressure reduce the scope of permitted addbacks?"
+  ],
+  "related_concepts": [
+    "covenant_lite_delayed_recognition",
+    "private_credit_nav_illusion",
+    "leverage_multiplier_nonlinearity"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

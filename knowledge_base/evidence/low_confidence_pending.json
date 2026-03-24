@@ -2507,5 +2507,47 @@
     "needs": "Statistically refuted: the +0.05 to +0.15 30Y-SPX positive correlation falls within sampling noise (SE ~0.06-0.08, t ≈ 1.2-1.6, p > 0.10). The hedging maturity shift to 3-5Y is directionally sensible but built on a statistically fragile foundation. Requires longer sample, structural break methodology, or cross-market validation.",
     "topic": "central_bank_balance_sheets",
     "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "Green transition re-commoditization may reverse the secular decline in passthrough for specific input minerals (copper, lithium, rare earths) as electrification increases intensity of these materials.",
+    "source_agent": "challenger_01",
+    "needs": "Empirical passthrough estimates for copper/lithium/rare earth minerals into consumer goods prices, which have never been estimated because these channels have never been material historically. IEA demand projections (50-70% copper growth by 2040) need to be connected to specific CPI passthrough mechanisms.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "'Stacked' commodity shocks produce non-linearly worse inflation outcomes than the sum of individual shocks, because the first shock lowers the activation threshold for second-round channels.",
+    "source_agent": "generalist_02",
+    "needs": "More than one clean observation. The 1979-80 shock arriving while 1973-74 institutional responses were active is essentially one data point with massive confounding factors. The 2021-23 parallel (COVID priming + Ukraine) is plausible but not yet formally analyzed. McKinsey repricing frequency data is suggestive but not causal.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "Active dedollarization is altering the FX/dollar channel mediation framework for commodity passthrough, with China settling $200B+ in yuan-denominated commodity trade in 2025.",
+    "source_agent": "challenger_01",
+    "needs": "Data on whether dedollarization changes the passthrough mechanism or just the currency composition. Dollar share of commodity invoicing could stabilize at ~75%. The pace and ultimate magnitude remain deeply uncertain. Need to distinguish between settlement currency diversification and structural changes to the transmission mechanism.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "The credit impulse (second derivative of credit growth) is a superior operative variable to interest rates for predicting commodity-inflation demand outcomes, with a 1-2 quarter lead per the Biggs-Mayer-Pick framework.",
+    "source_agent": "macro_strategist_02",
+    "needs": "Specific calibration for commodity-driven episodes. BIS data showing credit impulse turning negative Q3 2022 with goods disinflation following in Q4 2022-Q1 2023 is consistent but not specifically calibrated. The leading indicator relationship is contested by mainstream macro. Needs cross-episode validation beyond the single 2022 observation.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "QT interacting with commodity-driven credit demand creates a compounding monetary squeeze that neither force alone would produce — central bank draining reserves while private sector requires credit expansion to finance higher-cost inventories.",
+    "source_agent": "macro_strategist_02",
+    "needs": "Empirical calibration of the interactive effect. The 2022 episode featured both QT and commodity shocks but disentangling their interactive effect from individual effects has not been attempted formally. Needs a formal model specifying the compounding mechanism and empirical tests separating additive from interactive effects.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "The BSL-to-private-credit contagion channel creates adverse selection and mark-to-market transmission during commodity stress, as best credits access cheaper BSL markets during benign conditions and worst credits are pushed to private credit during stress.",
+    "source_agent": "credit_analyst_02",
+    "needs": "Clarification of the ~30-40% BSL/private credit overlap figure (conflates stock and flow). Testing at current AUM levels ($1.7T private credit) — this channel has never been stress-tested. Private credit's defining feature (avoiding mark-to-market) partially insulates it from the described contagion, requiring a more nuanced mechanism specification.",
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "slug": "episode_overweighting_2021_22",
+  "definition": "The 2021-22 episode is overweighted in the knowledge base, with 15+ of 24 KB concepts citing it as primary evidence. Demand attribution contamination (40-60% demand-driven per Bernanke-Blanchard 2023 and Shapiro 2022) biases passthrough estimates upward for pure supply shocks.",
+  "confidence": 7,
+  "evidence": [
+    "Bernanke and Blanchard (2023) and Shapiro (2022, SF Fed) estimate demand factors accounted for roughly half the 2021-22 inflation",
+    "15+ of 24 KB concepts cite 2021-22 as primary evidence",
+    "The KB's own small-sample critique (confidence 8) has produced zero confidence score adjustments — a logical inconsistency",
+    "Passthrough coefficients estimated from this episode overstate what a pure supply shock would produce"
+  ],
+  "originating_agents": [
+    "challenger_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "What is the correct demand-supply decomposition for 2021-22?",
+    "How should KB confidence scores be adjusted to account for demand contamination?",
+    "Is there a methodology for purging demand-driven passthrough from supply-shock coefficient estimates?"
+  ],
+  "related_concepts": [
+    "survivorship_bias_episode_selection",
+    "regime_dependent_passthrough_critique",
+    "supply_demand_origin_discriminant"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

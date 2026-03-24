@@ -1,0 +1,31 @@
+{
+  "slug": "covenant_lite_delayed_recognition",
+  "definition": "Covenant-lite structures (~90% of institutional leveraged loans) delay recognition of commodity stress but produce 10-15pp lower recovery rates when defaults materialize. Average covenant quality scores of 4.1 (near weakest on record for 2021 issuance) combined with EBITDA addback masking create structurally dangerous false comfort.",
+  "confidence": 7,
+  "evidence": [
+    "Moody's average covenant quality score 4.1, near weakest on record for 2021 issuance",
+    "First-lien recovery for covenant-lite loans 59% vs 67% for covenanted; commodity-driven defaults (energy 2015-16) averaging 38%",
+    "Addback-adjusted EBITDA diverges 25-40% from cash EBITDA during commodity stress, embedded in CLO compliance tests"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "How does the combination of covenant-lite structures and private credit growth change the aggregate credit cycle dynamics?",
+    "Will the next commodity-driven credit cycle produce even lower recoveries than historical norms given structural deterioration?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_masking",
+    "clo_two_phase_transmission",
+    "leverage_multiplier_nonlinearity"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

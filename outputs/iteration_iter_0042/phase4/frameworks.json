@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "cross_asset_sequencing_framework",
+    "purpose": "Answers: What is the expected ordering and timing of cross-asset responses to commodity inflation, and what do deviations from the sequence signal?",
+    "components": [
+      "Stage 1: Commodity futures price signal (month 0)",
+      "Stage 2: Rates and breakeven repricing (~3 months)",
+      "Stage 3: Credit spread widening (~6 months)",
+      "Stage 4: Equity multiple compression (~9 months)",
+      "Stage 5: Earnings revisions (12-24 months, with upward revisions months 0-12, downward 12-24)",
+      "Diagnostic deviations: when credit spreads fail to widen (2010-11), it signals containment; when all stages compress simultaneously, it signals amplification"
+    ],
+    "current_assessment": "Three independent analyses converge on the same ordering. The 2021-22 sequence provides clean modern confirmation. Confidence capped at 7 because n=1 for modern market structure and prior episodes had different sequencing speeds. Deviations from the sequence may have more diagnostic value than the sequence itself.",
+    "limitations": [
+      "n=1 for modern market structure; prior episodes featured different sequencing speeds",
+      "Post-2020 market structure (algo trading, passive flows) may have altered sequencing speed",
+      "Mixed-origin episodes may produce non-standard sequences",
+      "Stage timing estimates carry wide uncertainty ranges"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "resolution_archetype_framework",
+    "purpose": "Answers: What determines the 12-24 month cross-asset return outcome of a commodity inflation episode?",
+    "components": [
+      "Archetype 1: Demand-destruction — economy contracts enough to destroy commodity demand (e.g., 2008)",
+      "Archetype 2: Supply-response — new supply comes online or existing supply expands (e.g., 2004-06 continuation)",
+      "Archetype 3: Policy-induced recession — central bank tightening deliberately slows economy (e.g., 1981-82)",
+      "Archetype 4: Geopolitical-reversal — the geopolitical cause of the supply disruption resolves (e.g., post-Gulf War 1991)",
+      "Each archetype has distinct cross-asset return signatures and resolution timelines"
+    ],
+    "current_assessment": "Provides a useful strategic-level organizing principle that complements mechanism-focused analyses. Well-supported across historical episodes. Main weakness is post-hoc nature: the operative archetype is difficult to identify before it resolves, and most real episodes involve mixed archetypes (2008 was both demand-destruction and policy-induced).",
+    "limitations": [
+      "Post-hoc identification: operative archetype difficult to identify before resolution",
+      "Fuzzy boundaries between archetypes; most episodes are mixed",
+      "Same critique applies as to regime-dependent passthrough framework",
+      "Practical value limited by inherent post-hoc nature of archetype identification"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "regime_dependent_passthrough_framework",
+    "purpose": "Answers: What determines whether a commodity price shock passes through into broader inflation (high-passthrough regime, 0.5-0.8 coefficient) or is absorbed (low-passthrough regime, 0.1-0.3 coefficient)?",
+    "components": [
+      "Regime classification variable: traditionally central bank credibility/expectations anchoring",
+      "Alternative classification variables proposed: monetary sovereignty, FX liability structure, private debt-to-GDP, fiscal stance, financial structure (hedge vs speculative/Ponzi balance sheet dominance)",
+      "Bimodal distribution of passthrough coefficients is empirically established",
+      "Regime transition identification: no published model achieves real-time detection"
+    ],
+    "current_assessment": "Descriptive value is high — bimodal passthrough is real. Explanatory mechanism needs to shift from credibility alone to a multi-factor model. KB confidence of 9 is contested; synthesis recommends 7. The 8x range between regime coefficients (0.1-0.8) is too wide for practical forecasting. Requires formal empirical testing of alternative regime-switching variables.",
+    "limitations": [
+      "No real-time regime identification capability demonstrated",
+      "8x coefficient range (0.1-0.8) too wide for practical forecasting",
+      "Credibility variable is circular (defined by outcomes, used to explain outcomes)",
+      "Alternative regime-switching variables not yet formally tested"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "kalecki_profit_equation_framework",
+    "purpose": "Answers: How does fiscal policy sustain or suppress corporate profits and inflation during commodity shocks?",
+    "components": [
+      "Accounting identity: Profits ≡ Investment + Government Deficit + Net Exports − Workers' Savings + Capitalist Consumption",
+      "Fiscal channel: large deficits (6-7% GDP) mechanically sustain corporate profits during commodity inflation",
+      "Inflation persistence: if fiscal response is accommodative, profits are sustained regardless of monetary policy or consensus positioning",
+      "Policy implications: if this mechanism dominates, the key policy variable is fiscal stance, not monetary credibility"
+    ],
+    "current_assessment": "The accounting identity is tautologically correct and rated 'the single most valuable contribution' in pair_3 debate. The causal interpretation (deficits → profits → inflation persistence) is well-supported by Post-Keynesian theory but contested by mainstream economics regarding direction of causation. Adopted as a core framework rather than footnote. US 2021-22 deficit data directly supports the mechanism.",
+    "limitations": [
+      "Direction of causation (deficits → profits vs profits → deficits) is contested",
+      "Identity is tautological — the analytical value lies in the causal interpretation which is debatable",
+      "Not specifically calibrated for commodity-driven vs other inflationary episodes",
+      "Interaction with monetary tightening not fully modeled"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "minsky_financial_instability_framework",
+    "purpose": "Answers: How do commodity shocks create systemic financial fragility through firm-level balance sheet transitions?",
+    "components": [
+      "Hedge financing: income covers all obligations (stable at moderate commodity prices)",
+      "Speculative financing: income covers interest but not principal (requires refinancing; activated at elevated commodity prices)",
+      "Ponzi financing: income covers neither interest nor principal (requires asset sales or new borrowing; activated at extreme commodity prices)",
+      "Threshold transitions: firms shift categories as commodity costs cross working-capital thresholds",
+      "Selective fragility: speculative and Ponzi units fail while hedge-dominant sectors survive (2022-23 pattern)"
+    ],
+    "current_assessment": "Provides the microeconomic mechanism connecting commodity prices to financial stability that the KB does not currently capture. The 2022-23 selective fragility pattern is exactly what the framework predicts. Fed SLOOS data provides supporting evidence. Quantitative calibration of threshold transitions remains imprecise and firm-specific.",
+    "limitations": [
+      "Quantitative calibration of hedge → speculative → Ponzi thresholds is imprecise and firm-specific",
+      "Does not specify commodity price levels that trigger transitions (these depend on firm-specific balance sheets)",
+      "SLOOS data provides supporting but not granular Minsky classification",
+      "Has not been formally integrated with the KB's passthrough coefficient framework"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "multi_dimensional_classification_framework",
+    "purpose": "Answers: How should assets and economies be classified for commodity-inflation analysis beyond simple binary categories?",
+    "components": [
+      "Equity dimension: pricing power × cash conversion cycle (capacity to raise prices AND convert to FCF; Amazon vs Fastenal comparison)",
+      "FX dimension: export concentration × institutional quality × rent capture mechanism (Nigeria vs Chile comparison)",
+      "Credit dimension: leverage × working capital intensity × covenant structure",
+      "Working capital intensity filter: negative-working-capital firms are structurally immune to working capital drain",
+      "Passthrough quality vs capacity distinction: revenue passthrough ≠ FCF passthrough (Industrials 0.4x OCF/revenue ratio)"
+    ],
+    "current_assessment": "Three independent analyses converge on the need for multi-dimensional classification replacing simple binary categories. Each dimension is supported by specific evidence and falsifying examples. The correct analytical approach has been identified conceptually; operationalization into quantitative scoring models is the next step.",
+    "limitations": [
+      "Not yet operationalized into quantitative scoring models",
+      "Relative importance of dimensions within each framework is not established",
+      "Data requirements (cash conversion cycle, institutional quality scores) may limit real-time application",
+      "Interactions between dimensions (e.g., leverage × institutional quality for EM credit) not yet specified"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "slug": "em_vulnerability_assessment_framework",
+    "purpose": "Answers: Which emerging market economies are most vulnerable to non-linear FX depreciation and amplified passthrough during commodity shocks?",
+    "components": [
+      "Guidotti-Greenspan ratio: short-term external debt / FX reserves (>1.0x indicates high vulnerability, <0.4x indicates orderly adjustment)",
+      "Dollarization balance sheet channel: net FX liability position of corporate and sovereign sectors",
+      "Carry trade positioning: carry-to-vol ratio level and positioning density",
+      "Central bank intervention framework: transparent/rule-based (Brazil model) vs ad hoc (Turkey model)",
+      "Monetary sovereignty: capacity to issue debt in own currency without FX liability mismatch"
+    ],
+    "current_assessment": "The Guidotti-Greenspan ratio is the strongest single predictor with strong cross-sectional support across 2013, 2015, 2018, and 2022 episodes. The dollarization channel adds 1.5-2x amplification for highly dollarized economies. India's regulatory limits on FX borrowing provide a natural experiment showing macro-prudential policy can break the link. Framework is measurable ex ante and actionable for EM allocation.",
+    "limitations": [
+      "3-5x amplification estimate for high Guidotti-Greenspan ratios is approximate",
+      "Central bank intervention design effects are confounded by other institutional differences",
+      "Active dedollarization may be altering the FX channel structure",
+      "Swap line access and other reserve-augmenting facilities are not yet integrated"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "slug": "credit_equity_basis_widening",
+  "definition": "During commodity inflation, equity-implied default probabilities (Merton models using inflated earnings) diverge from actual credit risk, making CDS cheap relative to equity puts. The basis widening is mechanically grounded in documented earnings distortions from commodity price pass-through.",
+  "confidence": 6,
+  "evidence": [
+    "Merton model inputs are distorted when nominal earnings are inflated by commodity passthrough while underlying cash flow quality deteriorates",
+    "Creates a cross-asset relative value opportunity: CDS cheap vs equity puts during commodity inflation"
+  ],
+  "originating_agents": [
+    "generalist_01"
+  ],
+  "open_questions": [
+    "How wide does the basis typically get during commodity-driven episodes?",
+    "Is the basis persistent enough to be exploitable after transaction costs?"
+  ],
+  "related_concepts": [
+    "working_capital_absorption_lead",
+    "credit_spread_decomposition_signature",
+    "index_concentration_paradox"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

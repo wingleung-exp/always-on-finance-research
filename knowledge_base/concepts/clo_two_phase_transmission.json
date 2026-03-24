@@ -1,0 +1,31 @@
+{
+  "slug": "clo_two_phase_transmission",
+  "definition": "CLO dynamics create a two-phase credit transmission: a demand bridge phase (6-18 months) that suppresses repricing, followed by cliff-edge repricing when CCC bucket concentration breaches the 7.5% threshold. WAS tests and structural features are contractual and create predictable phase transitions.",
+  "confidence": 7,
+  "evidence": [
+    "Leveraged loans returned -0.6% vs HY bonds -11.2% in 2022, a 10.6pp divergence supporting the demand bridge thesis",
+    "CCC concentration limits at 7.5% are contractual thresholds in CLO documents",
+    "CLO issuance declined from $187B to $129B, though commodity-specific attribution was challenged as confounded by Fed tightening"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "Can the phase transition from demand bridge to cliff-edge be timed reliably?",
+    "How much of the CLO issuance decline was commodity-specific vs broader risk-off sentiment?"
+  ],
+  "related_concepts": [
+    "covenant_lite_delayed_recognition",
+    "credit_commodity_supply_feedback",
+    "maturity_wall_scissors"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

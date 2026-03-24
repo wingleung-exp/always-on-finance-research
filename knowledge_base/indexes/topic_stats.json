@@ -252,9 +252,9 @@
     "avg_confidence": 7.0
   },
   "commodity_inflation_transmission": {
-    "concept_count": 27,
-    "relationship_count": 15,
-    "framework_count": 6,
+    "concept_count": 59,
+    "relationship_count": 33,
+    "framework_count": 11,
     "top_concepts": [
       {
         "slug": "central_bank_credibility_anchoring",
@@ -272,9 +272,24 @@
         "definition": "Commodity-to-inflation passthrough coefficients are bimodal and regime-dependent (~0.1-0.3pp per 10% oil increase when expectations are anchored, ~0.5"
       },
       {
+        "slug": "credit_commodity_supply_feedback",
+        "confidence": 8,
+        "definition": "Credit tightening constrains marginal commodity supply with an 18-24 month lag, creating a self-reinforcing loop. Credit facilities contractually rest"
+      },
+      {
+        "slug": "dollar_channel_correlation_concentration",
+        "confidence": 8,
+        "definition": "The dollar channel creates hidden correlation concentration making 'diversified' multi-asset portfolios far less diversified during commodity shocks. "
+      },
+      {
         "slug": "food_passthrough_overestimation_dm",
         "confidence": 8,
         "definition": "Food price passthrough in developed markets is systematically overestimated. Farm value is only 14.3% of retail food price (down from 31% in 1993), so"
+      },
+      {
+        "slug": "leverage_multiplier_nonlinearity",
+        "confidence": 8,
+        "definition": "Small commodity-driven margin shocks produce outsized credit deterioration due to the mechanical properties of leverage. A 15% EBITDA decline at 6x le"
       },
       {
         "slug": "multi_stage_lag_structure",
@@ -282,61 +297,78 @@
         "definition": "Commodity-inflation transmission operates through tiered lags \u2014 energy (1-3 months), food (3-12 months), services/wages (6-36 months) \u2014 but specific t"
       },
       {
+        "slug": "nonlinear_path_dependent_feedback",
+        "confidence": 8,
+        "definition": "Once threshold conditions are crossed, non-linear path-dependent feedback loops dominate commodity-inflation transmission. Passthrough is not a fixed "
+      },
+      {
         "slug": "second_round_effects_base_rate",
         "confidence": 8,
         "definition": "Second-round effects (commodity \u2192 wages \u2192 broad inflation) occur in approximately 15-30% of major commodity shock episodes in modern advanced economie"
-      },
-      {
-        "slug": "small_sample_overconfidence",
-        "confidence": 8,
-        "definition": "Most parametric commodity-inflation models are overconfident because 6-8 independent episodes cannot support estimation of 15-30+ parameters (passthro"
-      },
-      {
-        "slug": "asymmetric_passthrough",
-        "confidence": 7,
-        "definition": "Commodity price increases transmit more readily to consumer prices than decreases \u2014 the rockets and feathers phenomenon. The 2014-15 oil price collaps"
-      },
-      {
-        "slug": "em_exporter_importer_fx_asymmetry",
-        "confidence": 7,
-        "definition": "The commodity exporter-importer divide is the primary driver of EM FX cross-sectional dispersion during commodity cycles. In 2021-22: BRL appreciated "
-      },
-      {
-        "slug": "em_food_expectations_channel",
-        "confidence": 7,
-        "definition": "In EM economies, food inflation \u2192 expectations de-anchoring \u2192 FX instability is structurally more important than energy passthrough for monetary and p"
       }
     ],
     "all_concept_slugs": [
       "administered_pricing_sawtooth",
+      "analogue_selection_bias",
       "asymmetric_passthrough",
+      "binary_classification_insufficiency",
       "boj_pboc_structural_divergence",
       "breakeven_term_structure_indicator",
+      "carry_trade_unwind_amplification",
       "central_bank_credibility_anchoring",
+      "central_bank_credibility_circularity",
+      "clo_two_phase_transmission",
+      "correlation_regime_transition_risk",
+      "covenant_lite_delayed_recognition",
       "credit_channel_impairment_supply_shocks",
+      "credit_commodity_supply_feedback",
+      "credit_equity_basis_widening",
+      "credit_spread_decomposition_signature",
+      "cross_asset_response_sequencing",
+      "dollar_channel_correlation_concentration",
+      "dollarization_balance_sheet_channel",
+      "ebitda_addback_masking",
       "em_exporter_importer_fx_asymmetry",
       "em_food_expectations_channel",
       "energy_food_circular_dependence",
+      "episode_overweighting_2021_22",
+      "false_calm_window",
       "fci_superior_to_policy_rate",
       "fiscal_deficit_passthrough_amplification",
       "food_passthrough_overestimation_dm",
       "fx_dollar_channel_mediation",
+      "guidotti_greenspan_fx_predictor",
+      "ig_spread_compression_trap",
+      "index_concentration_paradox",
+      "kalecki_profit_fiscal_persistence",
+      "leverage_multiplier_nonlinearity",
       "lifo_fifo_earnings_distortion",
       "look_through_doctrine_state_contingent",
+      "maturity_wall_scissors",
+      "minsky_spectrum_shift",
       "multi_stage_lag_structure",
       "non_gaap_adjustment_widening",
+      "nonlinear_path_dependent_feedback",
       "ocf_revenue_passthrough_diagnostic",
       "passthrough_illusion_hypothesis",
       "petrodollar_recycling_self_hedge",
+      "private_credit_nav_illusion",
       "regime_dependent_passthrough_coefficients",
+      "regime_dependent_passthrough_critique",
+      "resolution_archetype_determinism",
       "second_round_effects_base_rate",
+      "sellers_inflation_identification",
+      "services_sector_delayed_deterioration",
       "small_sample_overconfidence",
       "stock_bond_correlation_commodity_channel",
       "supercycle_narrative_failure",
+      "supply_demand_origin_discriminant",
+      "survivorship_bias_episode_selection",
       "usd_self_correcting_reinforcing_loop",
+      "working_capital_absorption_lead",
       "working_capital_inflation_channel"
     ],
-    "avg_confidence": 7.0
+    "avg_confidence": 6.9
   },
   "commodity_supercycles": {
     "concept_count": 26,

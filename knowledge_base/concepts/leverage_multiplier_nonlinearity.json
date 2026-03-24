@@ -1,0 +1,33 @@
+{
+  "slug": "leverage_multiplier_nonlinearity",
+  "definition": "Small commodity-driven margin shocks produce outsized credit deterioration due to the mechanical properties of leverage. A 15% EBITDA decline at 6x leverage pushes interest coverage from 2.0x to 1.4x and net leverage toward 8-9x, breaching most covenant thresholds and triggering forced selling by IG-mandate holders.",
+  "confidence": 8,
+  "evidence": [
+    "15% EBITDA decline at 6x leverage mechanically pushes interest coverage from 2.0x to 1.4x and net leverage to 8-9x",
+    "BB 'fallen angel corridor' triggers forced selling by IG-mandate holders controlling $4T+ AUM",
+    "Minsky spectrum classification independently confirms firms shift from hedge to speculative financing positions as commodity costs cross working-capital thresholds"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "At what EBITDA decline threshold does the nonlinearity become most acute across different leverage levels?",
+    "How do covenant-lite structures alter the speed of this mechanism?"
+  ],
+  "related_concepts": [
+    "working_capital_absorption_lead",
+    "covenant_lite_delayed_recognition",
+    "minsky_spectrum_shift",
+    "credit_commodity_supply_feedback"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "working_capital_absorption_lead",
+  "definition": "Working capital requirements transmit commodity inflation into credit covenants 6-12 months before income statement deterioration becomes visible. A 25% input cost increase causes revolver utilization to jump from 40% to 60-65%, triggering springing covenants at 35-40% utilization, while EBITDA-linked revolver capacity simultaneously shrinks.",
+  "confidence": 8,
+  "evidence": [
+    "25% input cost increase causes revolver utilization jump from 40% to 60-65%, triggering springing covenants at 35-40% utilization",
+    "S&P 500 Industrials showed 15% revenue growth but only ~6% OCF growth (0.4x ratio) during 2021-23",
+    "$51M estimated working capital absorption per $1B manufacturer for a 25% cost increase, verified across analyses",
+    "Five agents independently identified this channel, the broadest convergence in the panel"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02",
+    "equity_analyst_01",
+    "generalist_01",
+    "macro_strategist_02"
+  ],
+  "open_questions": [
+    "Does the 0.4x OCF/revenue ratio during inflationary periods hold across different sub-sectors?",
+    "How do negative-working-capital firms (tech platforms, SaaS) alter aggregate index-level statistics?"
+  ],
+  "related_concepts": [
+    "leverage_multiplier_nonlinearity",
+    "false_calm_window",
+    "binary_classification_insufficiency",
+    "passthrough_quality_vs_capacity"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "multi_dimensional_classification_framework",
+  "purpose": "Answers: How should assets and economies be classified for commodity-inflation analysis beyond simple binary categories?",
+  "components": [
+    "Equity dimension: pricing power × cash conversion cycle (capacity to raise prices AND convert to FCF; Amazon vs Fastenal comparison)",
+    "FX dimension: export concentration × institutional quality × rent capture mechanism (Nigeria vs Chile comparison)",
+    "Credit dimension: leverage × working capital intensity × covenant structure",
+    "Working capital intensity filter: negative-working-capital firms are structurally immune to working capital drain",
+    "Passthrough quality vs capacity distinction: revenue passthrough ≠ FCF passthrough (Industrials 0.4x OCF/revenue ratio)"
+  ],
+  "current_assessment": "Three independent analyses converge on the need for multi-dimensional classification replacing simple binary categories. Each dimension is supported by specific evidence and falsifying examples. The correct analytical approach has been identified conceptually; operationalization into quantitative scoring models is the next step.",
+  "limitations": [
+    "Not yet operationalized into quantitative scoring models",
+    "Relative importance of dimensions within each framework is not established",
+    "Data requirements (cash conversion cycle, institutional quality scores) may limit real-time application",
+    "Interactions between dimensions (e.g., leverage × institutional quality for EM credit) not yet specified"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

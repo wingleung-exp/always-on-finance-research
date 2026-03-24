@@ -3833,5 +3833,87 @@
     ],
     "topic": "central_bank_balance_sheets",
     "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "Equity factor rotation follows a 'predictable' Value → Quality sequence during commodity inflation.",
+    "reason": "Fatal counterexample: 2023-25 saw Growth reassert dominance despite above-target inflation when a competing narrative (AI) existed. The sequence is conditional on the absence of competing structural themes, which is a much weaker claim than 'predictable.' The 2022 Value outperformance (Russell 1000 Value beat Growth by ~22pp) reflects a single clean observation. Downgraded from 7/10 to 4/10.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "Cross-asset volatility surfaces 'systematically underprice' tail risk during commodity-driven supply inflation as an independent phenomenon.",
+    "reason": "Not an independent observation but a restatement of the correlation regime transition claim in vol terms. The 2022 VIX averaged ~26, and a 19% annual decline is well within the distribution priced by ~26 VIX. The 'underpricing' was in portfolio-level cross-asset correlations, not single-asset vol.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "Commodity-to-recession lead times are shortening systematically across episodes.",
+    "reason": "The 2022 non-recession is a direct contradiction using the most recent data point. The sample is 7 episodes with enormous confounding variables. The proposed mechanisms (JIT, faster information) are plausible for transmission speed but do not map directly to recession lead time, which depends on policy response, household balance sheets, and labor markets.",
+    "refuted_by": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "The HY-IG spread differential is 'more reliable' than breakeven term structure as a real-time indicator of commodity-inflation persistence.",
+    "reason": "Evidence base is exactly two observations (2008, 2022). Credit spreads are themselves distorted by CLO demand bridges and NAV smoothing. The 2008 example is contaminated by subprime contagion. The joint signal framework (breakevens + HY-IG together) survives; the superiority claim does not.",
+    "refuted_by": [
+      "credit_analyst_01",
+      "credit_analyst_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "The breakeven inflation term structure is an 'actionable' real-time equity allocation signal.",
+    "reason": "The 2020 TIPS liquidity crisis produced 100bp+ distortions during precisely the stress episodes when the signal is needed most. Breakevens contain liquidity premia, demand/supply distortions, and inflation risk premium variation. Breakevens are partially endogenous to the credit cycle via leveraged relative-value positions. Useful as conceptual regime indicator but not actionable at allocation-decision precision.",
+    "refuted_by": [
+      "equity_analyst_01",
+      "generalist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "Social media wage transparency (Glassdoor, Reddit) is a genuine substitute for formal COLA mechanisms in transmitting commodity costs to wages.",
+    "reason": "The Atlanta Fed Wage Tracker showing accelerated wage contagion post-2020 is confounded by the most extreme labor market tightness in decades (3.4% unemployment). Attributing wage contagion to digital platforms rather than tight labor markets is a classic attribution error. No micro-level evidence links salary transparency platforms to firm-level wage-setting decisions.",
+    "refuted_by": [
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "Private debt-to-GDP dynamics determine whether the commodity-inflation aftermath is a soft landing or balance sheet recession.",
+    "reason": "Most balance sheet recessions follow asset price collapses, not commodity shocks per se. US private debt-to-GDP fell during 2020-22, yet this is used as confirmation rather than evidence the link did not activate. The China comparison involves property, not commodities. The >15pp threshold lacks empirical support for commodity-specific episodes. Theoretically plausible in general but unsubstantiated for commodity inflation transmission specifically.",
+    "refuted_by": [
+      "macro_strategist_02",
+      "challenger_01"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
+  },
+  {
+    "claim": "The lower-passthrough contrarian position (that the next commodity shock will produce less passthrough than consensus expects) has analytical consistency.",
+    "reason": "Internal contradiction: challenger_01 simultaneously argues that credibility/expectations are circular and analytically empty (Claim 1) and that hawkish expectations will effectively suppress passthrough. Cannot claim expectations are analytically empty as an explanatory variable and rely on them as a suppression mechanism. The Kalecki framework provides a specific counter: if fiscal response is accommodative, profits are sustained regardless of consensus positioning.",
+    "refuted_by": [
+      "challenger_01",
+      "macro_strategist_02"
+    ],
+    "topic": "commodity_inflation_transmission",
+    "iteration_id": "iter_0042"
   }
 ]

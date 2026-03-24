@@ -1,0 +1,31 @@
+{
+  "slug": "maturity_wall_scissors",
+  "definition": "The sub-IG debt maturity wall (~$1.5-1.8T maturing 2025-27) creates a structural vulnerability where commodity shocks trigger a scissors dynamic: rising refinancing costs meet declining EBITDA. For a 6x levered borrower, 350bp all-in cost increase means $21M additional annual interest on $600M debt (42% increase), potentially rendering some borrowers unable to refinance at any spread.",
+  "confidence": 7,
+  "evidence": [
+    "200bp tightening + 150bp spread widening = 350bp all-in cost increase",
+    "$21M additional annual interest on $600M debt for 6x levered borrower (42% increase on $50M base)",
+    "Scenario requires both commodity shock and monetary tightening simultaneously, which is the modal central bank response"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "credit_analyst_02"
+  ],
+  "open_questions": [
+    "What share of the maturity wall consists of commodity-sensitive borrowers?",
+    "Can extend-and-pretend strategies defer the scissors dynamic, and if so, for how long?"
+  ],
+  "related_concepts": [
+    "leverage_multiplier_nonlinearity",
+    "credit_commodity_supply_feedback",
+    "clo_two_phase_transmission"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}

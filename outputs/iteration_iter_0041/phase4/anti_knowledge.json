@@ -1,0 +1,77 @@
+[
+  {
+    "claim": "SRF is a reliable backstop mechanism (KB confidence 7)",
+    "reason": "N=0 activations at scale. Stigma base rate from analogous facilities (discount window post-2008, ECB LTRO 2011, Fed PDCF 2020) shows 40-60% of intended capacity goes unused during first stress test. Assigning confidence 7 to an untested mechanism whose analogues show systematic underperformance is the most poorly calibrated rating in the KB. OMT/TPI analogy is structurally different — OMT backs a sovereign issuer, SRF backs individual counterparties facing bilateral stigma.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "30Y-SPX positive correlation is diagnostic of a supply-driven term premium regime",
+    "reason": "The +0.05 to +0.15 range has a standard error of ~0.06-0.08, rendering the point estimate statistically indistinguishable from zero at conventional significance levels (t ≈ 1.2-1.6, p > 0.10). Any portfolio positioning predicated on this positive correlation is premature. The 2Y-SPX negative correlation is robust; the bifurcation narrative is half-supported and half-noise.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "BoJ reallocation produces 15-30bp UST term premium impact",
+    "reason": "The demand elasticity (~10-15bp per $100B of flow) is assumed, not estimated. No identified natural experiment exists for cross-border term premium transmission at this scale. Historical Japanese repatriation episodes are too small and temporary to calibrate. The directional risk is real; the point estimate is a scenario input masquerading as an empirical estimate.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "Commodity CTA/managed money positioning constitutes 'synthetic QE' analogous to the basis trade",
+    "reason": "Scale mismatch of 20-50x ($20-40B commodity futures vs $800B-$1T basis trade). The originating agent's own admission that systemic risk direction is Treasuries → commodities, not bidirectional, undermines the claimed parallel. The analogy adds rhetorical force but subtracts analytical precision.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "Full QT decompression is the correct WACC normalization baseline for equity valuation",
+    "reason": "Internal contradiction with the KB's own highest-confidence finding (permanent balance sheet expansion, ratchet effect). If QT never completes (as the ratchet implies), using a full-decompression WACC is as unrealistic as using a full-QE-compression WACC. The 5-12% equity overvaluation estimate is the upper bound of an asymmetric distribution, not the central case.",
+    "refuted_by": [
+      "generalist_02",
+      "macro_strategist_02",
+      "quant_researcher_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "BoJ normalization is structurally bullish for gold via Japanese institutional allocation",
+    "reason": "Japanese institutional investors (GPIF, lifers, megabanks) are highly regulated and benchmarked; gold allocation requires mandate changes, not merely yield comparisons. Japan has never been a significant gold buyer at the institutional level. BoJ reserves are 846t, unchanged since 2021. The causal chain is theoretical with zero supporting evidence.",
+    "refuted_by": [
+      "commodities_analyst_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "Credit is the most mispriced asset class based on Merton-model implied spreads",
+    "reason": "Merton models are default-probability models, not spread-prediction models. The gap between model-implied and actual spreads is the well-documented credit spread puzzle driven by liquidity premia, tax effects, and risk premia the model does not capture. The 20-40bp IG gap is within model noise. Alternative explanations (private credit absorbing marginal borrowers, strong fundamentals) are at least equally plausible.",
+    "refuted_by": [
+      "generalist_01"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  },
+  {
+    "claim": "BoJ/Bundesbank 1990-92 analogy is structurally relevant to current conditions",
+    "reason": "The Bundesbank aggressively raised rates (6% to 8.75% in 18 months) into an ERM with fixed exchange rates. The BoJ moves at glacial pace (10bp increments, years apart) with a floating exchange rate. The 1992 transmission mechanism was the exchange rate peg itself — no such rigid structure exists today. Useful only for the abstract principle that compound tightening is super-additive, not for magnitude or base case calibration.",
+    "refuted_by": [
+      "generalist_02"
+    ],
+    "topic": "central_bank_balance_sheets",
+    "iteration_id": "iter_0061"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "slug": "dollarization_balance_sheet_channel",
+  "definition": "The dollarization balance sheet channel amplifies commodity passthrough 1.5-2x beyond the traditional trade channel for economies with significant FX-denominated liabilities. FX depreciation impairs corporate balance sheets, triggering domestic credit tightening that compounds the import cost channel.",
+  "confidence": 7,
+  "evidence": [
+    "Turkey's corporate sector: ~$180B FX debt vs ~$100B FX assets = ~$80B net short; 30% lira depreciation impairs balance sheets by ~$24B (~3% of GDP)",
+    "India's regulatory limits on corporate FX borrowing provide natural experiment — lower ERPT despite being a major commodity importer",
+    "BIS data on EM corporate FX positions supports the mechanism",
+    "1.5-2x magnitude estimate is for highly dollarized economies and should not be generalized"
+  ],
+  "originating_agents": [
+    "fx_strategist_02"
+  ],
+  "open_questions": [
+    "How does the balance sheet channel interact with macro-prudential regulations limiting FX borrowing?",
+    "At what dollarization threshold does the amplification become non-linear?"
+  ],
+  "related_concepts": [
+    "nonlinear_path_dependent_feedback",
+    "guidotti_greenspan_fx_predictor",
+    "carry_trade_unwind_amplification"
+  ],
+  "topic": "commodity_inflation_transmission",
+  "created_at": "2026-03-24T01:55:06Z",
+  "last_updated": "2026-03-24T01:55:06Z",
+  "originating_iteration": "iter_0042",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0042"
+  ]
+}
