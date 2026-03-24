@@ -1,36 +1,52 @@
 {
   "slug": "passive_investing_structural_break",
   "definition": "Passive investing (~55% of US equity AUM) has likely altered cycle dynamics through procyclical flow mechanics — price-insensitive flows mechanically reinforce concentration and create reflexivity loops. The Gabaix-Koijen inelastic markets hypothesis ($1 flow moves market cap by $3-5) amplifies the concern. However, no definitive passive-driven crash has occurred.",
-  "confidence": 5,
+  "confidence": 6.5,
   "evidence": [
     "Passive share at ~55% of US equity AUM",
     "Gabaix-Koijen inelastic markets hypothesis quantification",
     "Theoretical framework for procyclical amplification",
-    "Active managers still set marginal prices in many stocks"
+    "Active managers still set marginal prices in many stocks",
+    "Five agents independently converge on this finding",
+    "No prior cycle with >25% passive share",
+    "Gabaix-Koijen multiplier mechanism theoretically sound",
+    "Logical contradiction: cannot invoke historical base rates AND acknowledge they may be obsolete",
+    "risk_analyst_01 assigns 4/10 to magnitude calibration (appropriate for untested mechanism)",
+    "Every confidence rating depending on historical base rates should carry ±1 point uncertainty band"
   ],
   "originating_agents": [
     "macro_strategist_02",
     "challenger_02",
     "generalist_01",
-    "generalist_02"
+    "generalist_02",
+    "risk_analyst_01",
+    "quant_researcher_01",
+    "quant_researcher_02"
   ],
   "open_questions": [
     "Whether passive flows create their own returns in a non-equilibrium system",
     "Whether a passive-driven crash is possible and what would trigger it",
     "Whether every historical base rate for cycle behavior may be obsolete if hypothesis is correct",
-    "Most important open question for equity cycle research per synthesis"
+    "Most important open question for equity cycle research per synthesis",
+    "What is the formal protocol for adjusting base-rate-derived confidence ratings given 55% passive share?",
+    "Does passive investing preserve drawdown magnitude but distort velocity?",
+    "How does the Gabaix-Koijen multiplier interact with ETF creation/redemption during stress?"
   ],
   "related_concepts": [
     "market_concentration_superior_economics",
     "inelastic_markets_hypothesis",
-    "erp_compression_model_dependence"
+    "erp_compression_model_dependence",
+    "small_sample_base_rate_bias",
+    "factor_diversification_collapse",
+    "equity_cycle_sequencing_pattern"
   ],
   "topic": "equity_cycles",
   "created_at": "2026-03-23T06:06:24Z",
-  "last_updated": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-24T08:24:00Z",
   "originating_iteration": "iter_0024",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0024"
+    "iter_0024",
+    "iter_0049"
   ]
 }

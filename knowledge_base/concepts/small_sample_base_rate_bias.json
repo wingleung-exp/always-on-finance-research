@@ -1,0 +1,35 @@
+{
+  "slug": "small_sample_base_rate_bias",
+  "definition": "The KB's quantified base rates (yield curve 7/7, concentration 3/3, steepening trap 5/7) rest on samples of N=3-9 with systematically unreported confidence intervals. Wilson confidence intervals reveal ranges far wider than the point estimates imply, making KB confidence ratings 1-2 points too high.",
+  "confidence": 9,
+  "evidence": [
+    "Wilson CI for yield curve 7/7 is [65-100%]",
+    "Wilson CI for concentration 3/3 is [44-100%]",
+    "Wilson CI for steepening trap 5/7 is [36-92%]",
+    "KB assigns confidence 7-8 to claims on N=3-9 observations",
+    "Pair_2 and Pair_3 debates confirmed as strongest consensus finding"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "quant_researcher_02",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What minimum sample size would be required for the precision levels implied by the KB?",
+    "Can cross-country data expand effective sample sizes for any of these base rates?"
+  ],
+  "related_concepts": [
+    "out_of_sample_validation_gap",
+    "passive_investing_structural_break",
+    "output_gap_predictor_bias"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "wilson_confidence_calibration_framework",
+  "purpose": "Provides statistically rigorous confidence intervals for all base-rate claims in the KB using Wilson score intervals for binomial proportions, replacing false precision from small samples.",
+  "components": [
+    "Wilson confidence interval computation for each base rate claim",
+    "Mapping from sample size and hit rate to proper confidence bands",
+    "Systematic ±1 point structural-uncertainty discount for passive investing regime",
+    "Requirement for out-of-sample validation before confidence above 7/10",
+    "Goyal-Welch prior that most equity return predictors fail out-of-sample"
+  ],
+  "current_assessment": "The single most reusable analytical tool produced. Reveals that KB confidence ratings are systematically 1-2 points too high. Most base rate CIs span ranges that cannot distinguish from chance at p<0.05.",
+  "limitations": [
+    "Wilson CIs assume independent, identically distributed draws which may not hold across cycles",
+    "Does not address regime-dependence of base rates",
+    "Cannot determine whether the base rate or the structural break hypothesis is correct",
+    "Requires larger samples or cross-country data to narrow intervals meaningfully"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

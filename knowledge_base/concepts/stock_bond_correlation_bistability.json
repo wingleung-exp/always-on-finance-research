@@ -1,0 +1,36 @@
+{
+  "slug": "stock_bond_correlation_bistability",
+  "definition": "The stock-bond correlation is in a bistable state, flickering around zero. Rolling 3-month correlation has crossed zero 6+ times since 2022 vs 0-1 crossings/year during 2000-2020. Each zero-crossing creates ~200bp swing in effective 60/40 portfolio volatility. The instability itself, not the level, is the primary portfolio risk.",
+  "confidence": 8,
+  "evidence": [
+    "Rolling correlation zero-crossings 6+ times since 2022 vs 0-1/year historically",
+    "Structural inflation floor at 2.3-2.8% sits at approximate regime threshold (~2.5% breakeven)",
+    "If correlation durably shifts positive, 60/40 rebalancing creates mechanical equity selling pressure",
+    "Pair_0 debate confirmed as agreement point 3",
+    "generalist_01 flicker framing judged sharper than binary analogue selection"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "risk_analyst_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What inflation level would durably shift correlation positive?",
+    "How much mechanical equity selling would 60/40 rebalancing generate?",
+    "Is the flickering regime itself tradeable or merely a risk to manage?"
+  ],
+  "related_concepts": [
+    "r_star_valuation_uncertainty",
+    "gold_real_rate_decoupling",
+    "short_duration_ig_sharpe_advantage",
+    "phillips_curve_flattening"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

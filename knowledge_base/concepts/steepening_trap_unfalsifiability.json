@@ -1,0 +1,33 @@
+{
+  "slug": "steepening_trap_unfalsifiability",
+  "definition": "The steepening trap concept as currently specified is unfalsifiable because 'after steepening commenced' can mean 3-30 months with no pre-committed thresholds for steepening magnitude, time window, or term premium decomposition. Should be reclassified from empirical finding to narrative framework.",
+  "confidence": 9,
+  "evidence": [
+    "KB itself asks 'Is the concept unfalsifiable?' unresolved over 25 iterations",
+    "No pre-committed thresholds exist for magnitude, window, or decomposition",
+    "Pair_3 debate: challenger decisively stronger on this point",
+    "quant_researcher_01 independently proposes falsifiable specification: recession within 18 months of 2s10s crossing +50bp conditional on expected-rate-driven steepening",
+    "Underlying maturity wall mechanism stands independently without steepening trap wrapper"
+  ],
+  "originating_agents": [
+    "challenger_02",
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Does the proposed falsifiable specification (2s10s +50bp, 18-month window, expected-rate-driven) hold historically?",
+    "Should the maturity wall mechanism be extracted as a standalone concept?"
+  ],
+  "related_concepts": [
+    "small_sample_base_rate_bias",
+    "monetary_transmission_lag",
+    "equity_cycle_sequencing_pattern"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "concept_a": "r_star_valuation_uncertainty",
+    "concept_b": "nifty_fifty_discount_rate_precedent",
+    "mechanism": "R-star uncertainty determines whether current equity multiples are fairly priced or 15-20% overvalued. If r-star settles at the higher end of the HLW confidence interval, the Nifty Fifty discount rate shock precedent activates as multiple compression becomes necessary.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Activates if r-star resolves above 1.5% and inflation regime shifts durably above 2.5%. Dormant if AI productivity keeps r-star low.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "passive_investing_structural_break",
+    "concept_b": "small_sample_base_rate_bias",
+    "mechanism": "Passive investing at 55% AUM means all historical base rates were estimated in a structurally different regime. This compounds the existing small-sample problem: not only are samples too small for claimed precision, but the generating process itself has changed.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Applies to all cycle analyses. Severity increases with passive share; currently at historically unprecedented levels.",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "fiscal_multiplier_state_dependence",
+    "concept_b": "kalecki_fiscal_channel",
+    "mechanism": "The fiscal multiplier being 0.3-0.6 at positive output gaps directly haircuts the Kalecki channel's EPS contribution from the headline $20-40/share to approximately $15-25/share, thinning the fiscal floor.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Multiplier is state-dependent: 0.3-0.6 at positive output gaps, 1.0-2.5 in recession. Kalecki channel strengthens precisely when the economy weakens.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "copper_supply_gap",
+    "concept_b": "natural_gas_structural_rebasing",
+    "mechanism": "Both represent physical input constraints on AI capex execution. Copper constrains data center and grid infrastructure buildout; natural gas constrains power generation costs. Together they form a two-pronged supply bottleneck.",
+    "direction": "correlated",
+    "confidence": 7,
+    "regime_dependence": "Binding when AI capex growth exceeds 15-20% annually. Loosens if AI investment decelerates or geographic diversification occurs.",
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "stock_bond_correlation_bistability",
+    "concept_b": "short_duration_ig_sharpe_advantage",
+    "mechanism": "Correlation flickering between positive and negative regimes creates ~200bp swings in 60/40 portfolio volatility, making short-duration IG (which avoids the correlation instability) relatively more attractive as a portfolio diversifier.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Sharpe advantage is most pronounced during correlation instability. If correlation durably settles negative (as in 2000-2020), traditional 60/40 diversification restores and IG advantage narrows.",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "factor_diversification_collapse",
+    "concept_b": "nifty_fifty_discount_rate_precedent",
+    "mechanism": "Mag7 loading simultaneously on quality, profitability, momentum, and low-vol creates a single concentrated bet. A discount rate shock (per Nifty Fifty precedent) would cause simultaneous drawdowns across all factor portfolios, amplifying the decline beyond what diversified factor exposure would suggest.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active while Mag7 constitutes >30% of cap-weighted indices and simultaneously loads on multiple factors. Deactivates if leadership broadens.",
+    "originating_agents": [
+      "quant_researcher_02",
+      "generalist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "small_cap_credit_premium",
+    "concept_b": "value_quality_structural_trap",
+    "mechanism": "Because the size premium is actually a credit premium, and the value universe is populated by the same low-quality, high-leverage companies, both factors are trapped in the same structural position. Buying value or small-cap mechanically sells quality in the current regime.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Active while HML-RMW correlation is -0.3 to -0.5 and Russell 2000 composition skews toward unprofitable, leveraged firms. Could break if rate cuts improve credit quality broadly.",
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "phillips_curve_flattening",
+    "concept_b": "equity_cycle_sequencing_pattern",
+    "mechanism": "A flat Phillips Curve means output gaps produce minimal inflation, allowing the cycle to extend without triggering the inflation → rate hike → recession sequence. This stretches the Stage 1 to peak timing beyond historical norms but creates nonlinear re-steepening tail risk.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active at current Phillips slope of 0.10-0.15. If slope re-steepens (as in 2021-22 under supply shock + demand stimulus), cycle extension mechanism breaks.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "opec_spare_capacity_buffer",
+    "concept_b": "commodity_market_bifurcation",
+    "mechanism": "OPEC+ spare capacity of 5-6 Mb/d caps crude oil prices and maintains oil contango, enabling the bifurcated signal (tight copper, loose oil) to persist. Without spare capacity, both would tighten simultaneously, re-creating a unified commodity cycle.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Conditional on no major supply disruption (Strait of Hormuz, Libya). If spare capacity is drawn down below 2 Mb/d, bifurcation collapses.",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "monetary_transmission_lag",
+    "concept_b": "small_cap_credit_premium",
+    "mechanism": "12-24 month monetary transmission lags from 2022-23 tightening disproportionately affect bank-funded small caps (35-40% floating rate). Current small-cap distress may be a lagged tightening effect rather than a forward-looking deterioration signal.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Operative while Fed funds rate remains elevated. If Fed eases and small-cap margins stabilize, transmission-lag interpretation is validated. If margins deepen despite easing, input-cost thesis gains.",
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "earnings_revision_breadth_limitations",
+    "concept_b": "equity_cycle_sequencing_pattern",
+    "mechanism": "ERB decline is the first observable stage in the sequencing pattern (Stage 1). However, ERB's overstated utility (PPV 44-62%, 1-3 month lead time) means Stage 1 identification carries more uncertainty than the framework implies.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Relationship holds across cycles but signal quality degrades when false positive rate is high. Most useful when combined with credit and breadth signals.",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "gold_real_rate_decoupling",
+    "concept_b": "stock_bond_correlation_bistability",
+    "mechanism": "Both reflect the same underlying regime uncertainty around the structural inflation floor (~2.3-2.8%). Gold's decoupling from real rates and stock-bond correlation flickering are parallel manifestations of the market's inability to price a stable inflation regime.",
+    "direction": "correlated",
+    "confidence": 6,
+    "regime_dependence": "Both persist while inflation expectations oscillate around the 2.5% regime threshold. Both would stabilize if inflation durably settles above or below this level.",
+    "originating_agents": [
+      "generalist_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "passive_investing_structural_break",
+    "concept_b": "equity_cycle_sequencing_pattern",
+    "mechanism": "Passive flows may preserve historical drawdown magnitudes while distorting velocity. Index rebalancing mechanics could compress the Stage 1 to peak timeline or extend it, making historical 6-18 month timing unreliable.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Increasingly relevant as passive share grows. At 55% AUM, velocity distortion is likely material but direction (acceleration vs extension) is uncertain.",
+    "originating_agents": [
+      "generalist_02",
+      "challenger_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "equity_cycle_sequencing_pattern",
+    "mechanism": "If the Kalecki fiscal floor is robust enough to prevent recession, the entire sequencing framework generates a historic false positive. If the floor is thin (0.3-0.6 multiplier), fiscal support may only delay, not prevent, the typical sequence.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Depends on whether fiscal consolidation occurs and the state-dependent multiplier at that time. Floor is strongest during recession (multiplier 1.0-2.5) and thinnest at positive output gaps (0.3-0.6).",
+    "originating_agents": [
+      "quant_researcher_02",
+      "macro_strategist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "concept_a": "r_star_valuation_uncertainty",
+    "concept_b": "stock_bond_correlation_bistability",
+    "mechanism": "R-star uncertainty creates divergent pricing across asset classes (bonds pricing r-star at 1.5-2.0%, equities pricing 0.5-1.0%). This divergence maps directly onto the stock-bond correlation instability as each asset class intermittently reprices toward the other's implicit r-star.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active while the Holston-Laubach-Williams 95% CI spans -0.5% to 2.5%. Resolves when r-star estimate narrows or markets converge on a single pricing.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  }
+]

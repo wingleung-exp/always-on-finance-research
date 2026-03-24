@@ -1,0 +1,33 @@
+{
+  "slug": "out_of_sample_validation_gap",
+  "definition": "No out-of-sample validation exists for any leading indicator or composite framework in the KB. Every performance claim (ERB 8/9, credit impulse at 3 turning points, yield curve 7/7, composite checklist) is in-sample only.",
+  "confidence": 9,
+  "evidence": [
+    "Directly verifiable from KB content that all claims are in-sample",
+    "Goyal-Welch (2008) establishes most equity return predictors fail out-of-sample",
+    "Debate declared a draw among indicators is itself evidence of overfitting risk",
+    "Uncontested across all four debates"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Which indicators retain predictive power in out-of-sample tests using international data?",
+    "Can pseudo-out-of-sample tests using pre-1970 data validate any claims?"
+  ],
+  "related_concepts": [
+    "small_sample_base_rate_bias",
+    "earnings_revision_breadth_limitations",
+    "output_gap_predictor_bias"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

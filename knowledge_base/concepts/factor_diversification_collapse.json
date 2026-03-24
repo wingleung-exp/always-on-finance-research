@@ -1,0 +1,32 @@
+{
+  "slug": "factor_diversification_collapse",
+  "definition": "Market concentration has collapsed effective factor diversification. Mag7 simultaneously loads on quality (ROIC >25%), profitability (RMW dominance), momentum (12-month outperformance), and low-volatility (realized vol below equal-weighted index), creating a single-factor bet. First eigenvalue claims ~30-35% vs historical ~20-25%.",
+  "confidence": 7,
+  "evidence": [
+    "Mag7 factor loadings directly observable across quality, profitability, momentum, low-vol",
+    "August 2007 quant crisis precedent: diversified factor portfolios experienced simultaneous drawdowns from convergence",
+    "Pair_2 debate: most original contribution from either analysis",
+    "First eigenvalue claim needs empirical verification"
+  ],
+  "originating_agents": [
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "Can the first eigenvalue claim (30-35% vs 20-25%) be empirically verified?",
+    "What would trigger a simultaneous unwind of the convergent factor bet?",
+    "Is there a way to construct factor portfolios that are orthogonal to the Mag7 loading?"
+  ],
+  "related_concepts": [
+    "nifty_fifty_discount_rate_precedent",
+    "passive_investing_structural_break",
+    "value_quality_structural_trap"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

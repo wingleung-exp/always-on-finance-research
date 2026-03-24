@@ -1,0 +1,34 @@
+{
+  "slug": "output_gap_predictor_bias",
+  "definition": "The output gap → equity returns relationship (R² ~0.60-0.70) is the strongest quantitative predictor but overstated due to overlapping observations bias. Hodrick/Valkanov correction and Stambaugh bias reduce corrected R² to ~0.45-0.55. True degrees of freedom for 3-year returns over 50 years ≈ 17 independent observations.",
+  "confidence": 6,
+  "evidence": [
+    "Hodrick (1992) / Valkanov (2003) correction is standard econometrics",
+    "True degrees of freedom ~17 not hundreds",
+    "Stambaugh (1999) bias further reduces R² by 3-8pp",
+    "Relationship remains economically significant after correction",
+    "Uncontested in any debate"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Does the corrected R² hold in international data?",
+    "What is the relationship's out-of-sample performance?",
+    "Can the output gap measurement be improved by addressing earnings quality contamination?"
+  ],
+  "related_concepts": [
+    "small_sample_base_rate_bias",
+    "out_of_sample_validation_gap",
+    "phillips_curve_flattening"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

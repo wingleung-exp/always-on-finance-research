@@ -1,0 +1,21 @@
+{
+  "concept_a": "r_star_valuation_uncertainty",
+  "concept_b": "nifty_fifty_discount_rate_precedent",
+  "mechanism": "R-star uncertainty determines whether current equity multiples are fairly priced or 15-20% overvalued. If r-star settles at the higher end of the HLW confidence interval, the Nifty Fifty discount rate shock precedent activates as multiple compression becomes necessary.",
+  "direction": "a_causes_b",
+  "confidence": 8,
+  "regime_dependence": "Activates if r-star resolves above 1.5% and inflation regime shifts durably above 2.5%. Dormant if AI productivity keeps r-star low.",
+  "originating_agents": [
+    "macro_strategist_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

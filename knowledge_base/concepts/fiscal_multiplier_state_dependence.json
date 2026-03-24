@@ -1,0 +1,32 @@
+{
+  "slug": "fiscal_multiplier_state_dependence",
+  "definition": "The fiscal multiplier at current cycle positioning is 0.3-0.6, substantially below unity. Auerbach-Gorodnichenko (2012) and Ramey-Zubairy (2018) establish multiplier state-dependence as academic consensus: below unity at positive output gaps, 1.0-2.5 in recessions. Current unemployment ~4.0% places us in the low-multiplier regime.",
+  "confidence": 7,
+  "evidence": [
+    "Academic consensus on state-dependence from multiple studies",
+    "$1.82T spending × 0.4 multiplier × 12% profit share ÷ 4.8B shares ≈ $17-19/share",
+    "Pair_1 debate confirmed well-grounded",
+    "Confidence capped because application to specific Kalecki EPS channel is novel synthesis not directly tested"
+  ],
+  "originating_agents": [
+    "macro_strategist_01"
+  ],
+  "open_questions": [
+    "Is the multiplier application to the Kalecki EPS channel validated in historical data?",
+    "At what unemployment rate does the multiplier regime shift?",
+    "How does the multiplier interact with the fiscal-yield offset?"
+  ],
+  "related_concepts": [
+    "kalecki_fiscal_channel",
+    "phillips_curve_flattening",
+    "equity_cycle_sequencing_pattern"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

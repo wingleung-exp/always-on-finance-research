@@ -1,18 +1,18 @@
 {
   "slug": "kalecki_fiscal_channel",
   "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest coverage ratios (supporting credit quality) and the P/E denominator (supporting equity valuations). The system's current resilience is fiscally contingent, not structurally earned. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
-  "confidence": 7.5,
+  "confidence": 7.57,
   "evidence": [
-    "Independent derivation by generalist_01 and macro_strategist_02 of $20-40/share estimate",
-    "Reflexive loop: deficits sustain earnings sustain valuations sustain wealth effect sustain consumption",
-    "Kalecki profit equation links fiscal deficit to corporate profit support",
-    "Deficit-to-EPS transmission observable in national accounts data",
-    "Provides structural explanation for MOVE-VIX divergence",
-    "Identified as key mechanism by six of eight agents",
     "All four debate reports confirmed as load-bearing and fragile",
     "Direction uncontested: fiscal deficits flow into corporate revenues and credit metrics",
     "Unprecedented scale of deficit during non-recession, non-war disinflation attempt",
-    "No historical analogue fully validates the magnitude estimate"
+    "No historical analogue fully validates the magnitude estimate",
+    "Accounting identity undisputed by any agent",
+    "Five agents independently argue EPS translation is imprecise",
+    "macro_strategist_01 multipliers 0.3-0.6 from Auerbach-Gorodnichenko, Ramey-Zubairy",
+    "generalist_01 fiscal-yield offset: 30-50bp yield decline partially offsets EPS drag through 1-2 P/E turns",
+    "Pair_1 debate confirmed multiplier state-dependence as well-grounded",
+    "Directional claim (fiscal consolidation hurts profits) at 9/10; magnitude precision at 5/10"
   ],
   "originating_agents": [
     "macro_strategist_01",
@@ -24,17 +24,18 @@
     "generalist_02",
     "challenger_02",
     "equity_analyst_01",
-    "risk_analyst_01"
+    "risk_analyst_01",
+    "quant_researcher_01"
   ],
   "open_questions": [
-    "Whether reflexive loop can persist without accelerating deficit growth",
-    "DOGE impact on fiscal trajectory",
-    "Is the channel as potent when deficit is interest-expense-driven (~$1T to bondholders with low MPCs) vs spending-driven?",
     "Does fiscal deficit composition matter for the VIX-suppressing channel?",
     "Could deficit narrowing invert the divergence (VIX up, MOVE down)?",
     "What is the true fiscal multiplier (estimates range 0.5-1.5)?",
     "How quickly would fiscal consolidation transmit to credit markets?",
-    "Is the 100-150bp magnitude estimate robust to alternative fiscal multiplier assumptions?"
+    "Is the 100-150bp magnitude estimate robust to alternative fiscal multiplier assumptions?",
+    "Can the fiscal floor prevent typical late-cycle factor rotation and drawdown?",
+    "What are measurable criteria for fiscal floor holding vs cracking?",
+    "How does the fiscal-yield offset interact with the Kalecki channel quantitatively?"
   ],
   "related_concepts": [
     "higher_pain_threshold_destabilizing",
@@ -56,19 +57,23 @@
     "kalecki_minsky_taxonomy",
     "covenant_lite_default_delay",
     "fiscal_consolidation_gap",
-    "cross_asset_inconsistency"
+    "cross_asset_inconsistency",
+    "fiscal_multiplier_state_dependence",
+    "r_star_valuation_uncertainty",
+    "equity_cycle_sequencing_pattern"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-24T07:45:21Z",
+  "last_updated": "2026-03-24T08:24:00Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 6,
+  "research_iterations": 7,
   "iteration_history": [
     "iter_0004",
     "iter_0010",
     "iter_0023",
     "iter_0024",
     "iter_0045",
-    "iter_0047"
+    "iter_0047",
+    "iter_0049"
   ]
 }

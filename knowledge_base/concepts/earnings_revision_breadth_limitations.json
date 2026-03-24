@@ -1,0 +1,35 @@
+{
+  "slug": "earnings_revision_breadth_limitations",
+  "definition": "The earnings revision breadth (ERB) signal has materially overstated utility. The 8/9 hit rate is sensitivity, not positive predictive value, which could be 44-62% depending on false positive count. The 1-3 month actionable lead time is inside institutional rebalancing noise, and 0.45-0.55 correlation implies 70-80% of forward return variance is unexplained.",
+  "confidence": 8,
+  "evidence": [
+    "PPV could be 44-62% vs 88% sensitivity depending on false alarm count",
+    "1-3 month lead time inside institutional rebalancing noise",
+    "R² of 0.20-0.30 means 70-80% variance unexplained",
+    "Pair_2 debate agreement: even if signal is real, it fires too late",
+    "ERB retains value as one component of sequencing framework but not standalone"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "challenger_02",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What is the actual false positive count for ERB across full sample?",
+    "Does ERB combined with other Stage 1 indicators improve PPV?",
+    "Can the signal be sharpened with sector-level or cap-weighted variants?"
+  ],
+  "related_concepts": [
+    "equity_cycle_sequencing_pattern",
+    "small_sample_base_rate_bias",
+    "out_of_sample_validation_gap"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

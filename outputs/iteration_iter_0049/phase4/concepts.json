@@ -1,0 +1,671 @@
+[
+  {
+    "slug": "small_sample_base_rate_bias",
+    "definition": "The KB's quantified base rates (yield curve 7/7, concentration 3/3, steepening trap 5/7) rest on samples of N=3-9 with systematically unreported confidence intervals. Wilson confidence intervals reveal ranges far wider than the point estimates imply, making KB confidence ratings 1-2 points too high.",
+    "confidence": 9,
+    "evidence": [
+      "Wilson CI for yield curve 7/7 is [65-100%]",
+      "Wilson CI for concentration 3/3 is [44-100%]",
+      "Wilson CI for steepening trap 5/7 is [36-92%]",
+      "KB assigns confidence 7-8 to claims on N=3-9 observations",
+      "Pair_2 and Pair_3 debates confirmed as strongest consensus finding"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "quant_researcher_02",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What minimum sample size would be required for the precision levels implied by the KB?",
+      "Can cross-country data expand effective sample sizes for any of these base rates?"
+    ],
+    "related_concepts": [
+      "out_of_sample_validation_gap",
+      "passive_investing_structural_break",
+      "output_gap_predictor_bias"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "out_of_sample_validation_gap",
+    "definition": "No out-of-sample validation exists for any leading indicator or composite framework in the KB. Every performance claim (ERB 8/9, credit impulse at 3 turning points, yield curve 7/7, composite checklist) is in-sample only.",
+    "confidence": 9,
+    "evidence": [
+      "Directly verifiable from KB content that all claims are in-sample",
+      "Goyal-Welch (2008) establishes most equity return predictors fail out-of-sample",
+      "Debate declared a draw among indicators is itself evidence of overfitting risk",
+      "Uncontested across all four debates"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Which indicators retain predictive power in out-of-sample tests using international data?",
+      "Can pseudo-out-of-sample tests using pre-1970 data validate any claims?"
+    ],
+    "related_concepts": [
+      "small_sample_base_rate_bias",
+      "earnings_revision_breadth_limitations",
+      "output_gap_predictor_bias"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "steepening_trap_unfalsifiability",
+    "definition": "The steepening trap concept as currently specified is unfalsifiable because 'after steepening commenced' can mean 3-30 months with no pre-committed thresholds for steepening magnitude, time window, or term premium decomposition. Should be reclassified from empirical finding to narrative framework.",
+    "confidence": 9,
+    "evidence": [
+      "KB itself asks 'Is the concept unfalsifiable?' unresolved over 25 iterations",
+      "No pre-committed thresholds exist for magnitude, window, or decomposition",
+      "Pair_3 debate: challenger decisively stronger on this point",
+      "quant_researcher_01 independently proposes falsifiable specification: recession within 18 months of 2s10s crossing +50bp conditional on expected-rate-driven steepening",
+      "Underlying maturity wall mechanism stands independently without steepening trap wrapper"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Does the proposed falsifiable specification (2s10s +50bp, 18-month window, expected-rate-driven) hold historically?",
+      "Should the maturity wall mechanism be extracted as a standalone concept?"
+    ],
+    "related_concepts": [
+      "small_sample_base_rate_bias",
+      "monetary_transmission_lag",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "passive_investing_structural_break",
+    "definition": "Passive investing at 55% AUM creates unprecedented structural uncertainty that undermines every historical base rate in the KB. No prior cycle occurred with >25% passive share. The Gabaix-Koijen multiplier mechanism ($3-5 per $1 of flow) explains both extended upside and accelerated downside.",
+    "confidence": 8,
+    "evidence": [
+      "Five agents independently converge on this finding",
+      "No prior cycle with >25% passive share",
+      "Gabaix-Koijen multiplier mechanism theoretically sound",
+      "Logical contradiction: cannot invoke historical base rates AND acknowledge they may be obsolete",
+      "risk_analyst_01 assigns 4/10 to magnitude calibration (appropriate for untested mechanism)",
+      "Every confidence rating depending on historical base rates should carry ±1 point uncertainty band"
+    ],
+    "originating_agents": [
+      "challenger_02",
+      "risk_analyst_01",
+      "generalist_02",
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "What is the formal protocol for adjusting base-rate-derived confidence ratings given 55% passive share?",
+      "Does passive investing preserve drawdown magnitude but distort velocity?",
+      "How does the Gabaix-Koijen multiplier interact with ETF creation/redemption during stress?"
+    ],
+    "related_concepts": [
+      "small_sample_base_rate_bias",
+      "factor_diversification_collapse",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "The Kalecki profit identity mechanically links fiscal deficits to corporate earnings. The accounting identity is undisputed, but translation to EPS is imprecise: actual uncertainty is ±40-60%, not the ±25% implied by the KB's $20-40/share range. State-dependent multipliers of 0.3-0.6 at positive output gaps haircut the contribution to ~$15-25/share.",
+    "confidence": 8,
+    "evidence": [
+      "Accounting identity undisputed by any agent",
+      "Five agents independently argue EPS translation is imprecise",
+      "macro_strategist_01 multipliers 0.3-0.6 from Auerbach-Gorodnichenko, Ramey-Zubairy",
+      "generalist_01 fiscal-yield offset: 30-50bp yield decline partially offsets EPS drag through 1-2 P/E turns",
+      "Pair_1 debate confirmed multiplier state-dependence as well-grounded",
+      "Directional claim (fiscal consolidation hurts profits) at 9/10; magnitude precision at 5/10"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "quant_researcher_01",
+      "challenger_02",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can the fiscal floor prevent typical late-cycle factor rotation and drawdown?",
+      "What are measurable criteria for fiscal floor holding vs cracking?",
+      "How does the fiscal-yield offset interact with the Kalecki channel quantitatively?"
+    ],
+    "related_concepts": [
+      "fiscal_multiplier_state_dependence",
+      "r_star_valuation_uncertainty",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "r_star_valuation_uncertainty",
+    "definition": "R-star uncertainty of ±100-150bp propagates into ±15-20% equity fair value uncertainty via Gordon Growth Model sensitivity (~3-4 P/E turns per 100bp). The inconsistency between 5y5y forwards (pricing r-star 1.5-2.0%) and equity multiples (pricing r-star 0.5-1.0%) makes the valuation framework fundamentally underdetermined.",
+    "confidence": 8,
+    "evidence": [
+      "Gordon Growth Model sensitivity is mechanical arithmetic",
+      "5y5y forwards vs equity multiples inconsistency is directly observable",
+      "Pair_1 debate identified this as the most important single insight",
+      "Holston-Laubach-Williams 95% CI approximately -0.5% to 2.5%",
+      "If you don't know whether equities are fairly valued or 15-20% overvalued, most other risk factors are second-order"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "generalist_01",
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Which r-star estimate should the framework anchor to?",
+      "Does the 5y5y vs equity multiple divergence resolve toward bonds or equities?",
+      "How should other risk factors be weighted given this dominant source of uncertainty?"
+    ],
+    "related_concepts": [
+      "nifty_fifty_discount_rate_precedent",
+      "stock_bond_correlation_bistability",
+      "short_duration_ig_sharpe_advantage"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "commodity_market_bifurcation",
+    "definition": "Commodity markets are sending bifurcated signals that refute monolithic inflation frameworks. LME copper is in persistent backwardation ($30-80/t), crude oil in $1-2/bbl contango, aluminum in modest contango. There is no unified commodity super-cycle.",
+    "confidence": 9,
+    "evidence": [
+      "Directly observable in futures market term structures",
+      "commodities_analyst_01 assigns 9/10 (highest in their analysis)",
+      "generalist_01 positive commodity-equity correlation (+0.2 to +0.3) confirms demand-pull not supply-push",
+      "Oil-energy inflation pathway low probability given OPEC+ spare capacity 5-6 Mb/d",
+      "Remaining risk channel is narrow: metals/power-driven inflation from copper and data center demand"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Could metals/power-driven inflation alone trigger a rate shock?",
+      "How does bifurcation affect traditional commodity-equity correlation models?"
+    ],
+    "related_concepts": [
+      "copper_supply_gap",
+      "opec_spare_capacity_buffer",
+      "natural_gas_structural_rebasing",
+      "phillips_curve_flattening"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "stock_bond_correlation_bistability",
+    "definition": "The stock-bond correlation is in a bistable state, flickering around zero. Rolling 3-month correlation has crossed zero 6+ times since 2022 vs 0-1 crossings/year during 2000-2020. Each zero-crossing creates ~200bp swing in effective 60/40 portfolio volatility. The instability itself, not the level, is the primary portfolio risk.",
+    "confidence": 8,
+    "evidence": [
+      "Rolling correlation zero-crossings 6+ times since 2022 vs 0-1/year historically",
+      "Structural inflation floor at 2.3-2.8% sits at approximate regime threshold (~2.5% breakeven)",
+      "If correlation durably shifts positive, 60/40 rebalancing creates mechanical equity selling pressure",
+      "Pair_0 debate confirmed as agreement point 3",
+      "generalist_01 flicker framing judged sharper than binary analogue selection"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What inflation level would durably shift correlation positive?",
+      "How much mechanical equity selling would 60/40 rebalancing generate?",
+      "Is the flickering regime itself tradeable or merely a risk to manage?"
+    ],
+    "related_concepts": [
+      "r_star_valuation_uncertainty",
+      "gold_real_rate_decoupling",
+      "short_duration_ig_sharpe_advantage",
+      "phillips_curve_flattening"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "earnings_revision_breadth_limitations",
+    "definition": "The earnings revision breadth (ERB) signal has materially overstated utility. The 8/9 hit rate is sensitivity, not positive predictive value, which could be 44-62% depending on false positive count. The 1-3 month actionable lead time is inside institutional rebalancing noise, and 0.45-0.55 correlation implies 70-80% of forward return variance is unexplained.",
+    "confidence": 8,
+    "evidence": [
+      "PPV could be 44-62% vs 88% sensitivity depending on false alarm count",
+      "1-3 month lead time inside institutional rebalancing noise",
+      "R² of 0.20-0.30 means 70-80% variance unexplained",
+      "Pair_2 debate agreement: even if signal is real, it fires too late",
+      "ERB retains value as one component of sequencing framework but not standalone"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "challenger_02",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "What is the actual false positive count for ERB across full sample?",
+      "Does ERB combined with other Stage 1 indicators improve PPV?",
+      "Can the signal be sharpened with sector-level or cap-weighted variants?"
+    ],
+    "related_concepts": [
+      "equity_cycle_sequencing_pattern",
+      "small_sample_base_rate_bias",
+      "out_of_sample_validation_gap"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "bearish_selection_bias",
+    "definition": "The KB exhibits systematic bearish selection bias with 18/25 concepts skewing toward fragility and minimal bullish structural concepts represented. Absent concepts include AI productivity acceleration, demographic tailwinds, energy cost reduction from renewables, financial innovation, and institutional quality advantages.",
+    "confidence": 7,
+    "evidence": [
+      "18/25 bearish-leaning concept count directly observable",
+      "Absent bullish concepts identified represent real structural forces",
+      "Pair_3 debate ruled challenger stronger but noted genuinely late-cycle market should produce more vulnerability findings",
+      "Bias critique supported by independent analytical failures (small samples, unfalsifiable claims, logical contradictions)",
+      "Confidence reduced because if market truly is fragile, asymmetric findings are partially justified"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What is the base rate of late-cycle calls since 2018?",
+      "If framework has signaled late-cycle for 6+ years, is signal-to-noise in question?",
+      "What observable data over 6-12 months would falsify the late-cycle assessment?"
+    ],
+    "related_concepts": [
+      "small_sample_base_rate_bias",
+      "passive_investing_structural_break",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "equity_cycle_sequencing_pattern",
+    "definition": "A consistent four-stage sequencing pattern across 5/5 historical analogues: breadth deterioration → credit tightening → leadership earnings disappointment → broad decline, with 6-18 month Stage 1 to peak timing. Current cycle is assessed as being in Stage 1 (ERB declining, breadth deteriorating).",
+    "confidence": 7,
+    "evidence": [
+      "5/5 analogues show same sequence (1998-2000, 1972-73, 1945-48, 1928-29, 2006-07)",
+      "Stage 1 placement observationally grounded in current ERB and breadth data",
+      "6-18 month lag to peak is specific enough to be falsifiable",
+      "Pair_0 debate: most robust empirical finding across both analyses",
+      "N=5 is still small and quant researchers' base rate precision critique applies"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does passive investing alter sequencing velocity?",
+      "Can the fiscal floor abort the typical sequence?",
+      "Does 1998-2000 analogue imply a blow-off top is still ahead?",
+      "Monitor AI earnings in Q2/Q3 2025 for blow-off scenario probability"
+    ],
+    "related_concepts": [
+      "earnings_revision_breadth_limitations",
+      "small_sample_base_rate_bias",
+      "passive_investing_structural_break",
+      "kalecki_fiscal_channel"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "nifty_fifty_discount_rate_precedent",
+    "definition": "Superior ROIC does not protect concentrated market leaders against discount rate shocks. Nifty Fifty companies had ROE >20% and genuine advantages but fell 50-70% from pure multiple compression when the inflation regime shifted. Fundamental quality ensured recovery but not drawdown prevention.",
+    "confidence": 7,
+    "evidence": [
+      "Nifty Fifty stocks fell 50-70% from multiple compression despite strong fundamentals",
+      "Companies survived and thrived but drawdowns were severe",
+      "Pair_0 debate: both generalists converge that Mag7 ROIC addresses earnings pathway but not discount rate pathway",
+      "Conditional: if AI productivity is real, 1995-2000 regime holds and precedent doesn't activate",
+      "ROIC differential (>25% today vs 20% in 1972) is meaningful"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the current ROIC differential (>25% vs 20%) materially change drawdown magnitude?",
+      "What inflation regime shift would be the catalyst?",
+      "Is AI productivity sufficient to sustain the 1995-2000 regime?"
+    ],
+    "related_concepts": [
+      "r_star_valuation_uncertainty",
+      "factor_diversification_collapse",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "copper_supply_gap",
+    "definition": "A projected 1.0-1.5 Mt copper deficit by 2027-28 is the most binding physical constraint on AI capex execution. Mine pipeline adds ~2-3 Mt through 2030 but grade decline removes ~1-1.5 Mt effective supply while AI + electrification demand adds 3-4 Mt. Discovery-to-production timelines of 16+ years are structural.",
+    "confidence": 7,
+    "evidence": [
+      "Global production ~22-23 Mt with identified project pipeline data",
+      "Development timelines of 16+ years not price-responsive",
+      "LME copper stocks at 150-180 kt vs 350 kt 5-year average confirm current tightness",
+      "Pair_1 debate: commodity analysis stronger on actionable near-term risk identification",
+      "Demand projections carry ±30% uncertainty and recycling/substitution could close 10-20% of gap"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Can recycling and substitution close more than 20% of the gap?",
+      "Does geographic bifurcation of AI capex deployment alter the constraint?",
+      "What copper price would trigger sufficient demand destruction to close the gap?"
+    ],
+    "related_concepts": [
+      "natural_gas_structural_rebasing",
+      "commodity_market_bifurcation",
+      "factor_diversification_collapse"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "small_cap_credit_premium",
+    "definition": "Small-cap underperformance is explained by a credit-quality-leverage decomposition. The traditional size premium was always a credit premium in disguise. Russell 2000: ~40% unprofitable, 3.0-3.5x leverage, 35-40% floating rate, BBB OAS correlation ~0.7.",
+    "confidence": 7,
+    "evidence": [
+      "Russell 2000 composition data directly supports quality decomposition",
+      "Asness et al.: size effect disappears after quality control",
+      "Israel-Moskowitz: size premium statistically insignificant since early 1980s",
+      "Proposed natural experiment: whether small-caps rally during rate cuts despite quality deterioration",
+      "Pair_2 debate: Agent B has stronger thesis but R² decomposition asserted not computed"
+    ],
+    "originating_agents": [
+      "quant_researcher_02",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Does the R² decomposition hold when computed on current data?",
+      "If small-caps rally during rate cuts despite quality deterioration, does the credit premium thesis hold?",
+      "Is there a quality-screened small-cap portfolio that captures genuine size premium?"
+    ],
+    "related_concepts": [
+      "value_quality_structural_trap",
+      "monetary_transmission_lag",
+      "fiscal_multiplier_state_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "fiscal_multiplier_state_dependence",
+    "definition": "The fiscal multiplier at current cycle positioning is 0.3-0.6, substantially below unity. Auerbach-Gorodnichenko (2012) and Ramey-Zubairy (2018) establish multiplier state-dependence as academic consensus: below unity at positive output gaps, 1.0-2.5 in recessions. Current unemployment ~4.0% places us in the low-multiplier regime.",
+    "confidence": 7,
+    "evidence": [
+      "Academic consensus on state-dependence from multiple studies",
+      "$1.82T spending × 0.4 multiplier × 12% profit share ÷ 4.8B shares ≈ $17-19/share",
+      "Pair_1 debate confirmed well-grounded",
+      "Confidence capped because application to specific Kalecki EPS channel is novel synthesis not directly tested"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Is the multiplier application to the Kalecki EPS channel validated in historical data?",
+      "At what unemployment rate does the multiplier regime shift?",
+      "How does the multiplier interact with the fiscal-yield offset?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "phillips_curve_flattening",
+      "equity_cycle_sequencing_pattern"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "natural_gas_structural_rebasing",
+    "definition": "US natural gas has structurally re-based from $2-3 to $3.50-5.00/MMBtu driven by LNG export capacity additions (13 → 21-23 Bcf/d by end-2027) and data center gas demand (0.15-0.20 Bcf/d per GW). Cal-27 forward curve at $4.00-4.50 confirms market pricing.",
+    "confidence": 7,
+    "evidence": [
+      "LNG capacity additions physically under construction with known commissioning dates",
+      "Cal-27 gas forward at $4.00-4.50 vs $2.50-3.00 prevailing 2020-2023",
+      "Data center gas demand additive at 0.15-0.20 Bcf/d per GW",
+      "Pair_1 debate: most underappreciated claim and genuine analytical edge",
+      "Data center build economics may use stale utility cost assumptions"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Will 2026-2027 LNG increment be 1-2 Bcf/d or closer to the 3-5 Bcf/d endpoint?",
+      "Are data center developers using stale utility cost assumptions in their ROI models?",
+      "Does gas rebasing alter the relative economics of AI deployment geography?"
+    ],
+    "related_concepts": [
+      "copper_supply_gap",
+      "commodity_market_bifurcation"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "factor_diversification_collapse",
+    "definition": "Market concentration has collapsed effective factor diversification. Mag7 simultaneously loads on quality (ROIC >25%), profitability (RMW dominance), momentum (12-month outperformance), and low-volatility (realized vol below equal-weighted index), creating a single-factor bet. First eigenvalue claims ~30-35% vs historical ~20-25%.",
+    "confidence": 7,
+    "evidence": [
+      "Mag7 factor loadings directly observable across quality, profitability, momentum, low-vol",
+      "August 2007 quant crisis precedent: diversified factor portfolios experienced simultaneous drawdowns from convergence",
+      "Pair_2 debate: most original contribution from either analysis",
+      "First eigenvalue claim needs empirical verification"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Can the first eigenvalue claim (30-35% vs 20-25%) be empirically verified?",
+      "What would trigger a simultaneous unwind of the convergent factor bet?",
+      "Is there a way to construct factor portfolios that are orthogonal to the Mag7 loading?"
+    ],
+    "related_concepts": [
+      "nifty_fifty_discount_rate_precedent",
+      "passive_investing_structural_break",
+      "value_quality_structural_trap"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "opec_spare_capacity_buffer",
+    "definition": "OPEC+ spare capacity at 5-6 Mb/d effectively eliminates the energy-driven commodity inflation → rate shock → equity drawdown pathway. Non-OPEC supply growth outpaces demand growth, Brent at $70-80 consistent with loose balance.",
+    "confidence": 7,
+    "evidence": [
+      "Spare capacity verifiable from OPEC data",
+      "Non-OPEC supply growth outpacing demand",
+      "Brent at $70-80 consistent with loose balance",
+      "Positive commodity-equity correlation (+0.2 to +0.3) confirms demand-pull not supply-push",
+      "Pair_1 debate confirmed as agreement point 4",
+      "Conditional on no major supply disruption (Strait of Hormuz, Libya)"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "What geopolitical scenarios could eliminate the spare capacity buffer?",
+      "Is the remaining metals/power-driven inflation channel sufficient to trigger a rate shock?"
+    ],
+    "related_concepts": [
+      "commodity_market_bifurcation",
+      "phillips_curve_flattening"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "phillips_curve_flattening",
+    "definition": "The Phillips Curve has flattened (slope ~0.10-0.15 vs ~0.30 pre-2000), structurally extending the equity cycle. At slope 0.12, a +1.5% output gap produces only ~0.18pp additional inflation, inside noise. However, 2021-22 demonstrated rapid re-steepening when supply shocks interact with demand stimulus, creating nonlinear tail risk.",
+    "confidence": 6,
+    "evidence": [
+      "Del Negro et al. 2020, Hazell et al. 2022, McLeay-Tenreyro 2020 document flattening",
+      "At slope 0.12, output gap inflation transmission is inside noise",
+      "2021-22 episode demonstrated rapid re-steepening",
+      "Pair_1 debate identified re-steepening nonlinearity as genuine tail risk",
+      "Extension mechanism well-evidenced but re-steepening triggers imprecisely specified"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "What specific conditions trigger nonlinear re-steepening?",
+      "Is the current slope estimate stable or still shifting?",
+      "Does flattening change the optimal monetary policy response function enough to alter cycle dynamics?"
+    ],
+    "related_concepts": [
+      "equity_cycle_sequencing_pattern",
+      "r_star_valuation_uncertainty",
+      "opec_spare_capacity_buffer"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "value_quality_structural_trap",
+    "definition": "The value premium is at historically wide entry levels but structurally trapped. HML and RMW factors have -0.3 to -0.5 correlation in the current regime, meaning buying value mechanically sells quality. The cheap universe is populated by low-quality, high-leverage, floating-rate-exposed companies. Pure value orthogonalized to quality has near-zero expected return.",
+    "confidence": 6,
+    "evidence": [
+      "HML-RMW correlation of -0.3 to -0.5 in current regime",
+      "Cheap universe populated by low-quality, high-leverage, floating-rate companies",
+      "Pure value orthogonal to quality has near-zero expected return per q-factor model",
+      "Some value strategies with quality screens may partially avoid the trap",
+      "Correlation regime may not persist"
+    ],
+    "originating_agents": [
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "Under what conditions does the HML-RMW correlation regime break?",
+      "Can quality-screened value strategies capture genuine premium?",
+      "Is this a permanent structural shift or a cyclical extreme?"
+    ],
+    "related_concepts": [
+      "small_cap_credit_premium",
+      "factor_diversification_collapse",
+      "fiscal_multiplier_state_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "gold_real_rate_decoupling",
+    "definition": "Gold above $3,000 reflects partial decoupling from real rates due to central bank behavior shift. TIPS correlation dropped from -0.85 to -0.40/-0.50. Central bank buying at ~1,000t+/year vs 500t historical average, concentrated in PBOC, Poland, India, Turkey. Permanence uncertain.",
+    "confidence": 6,
+    "evidence": [
+      "TIPS correlation decline from -0.85 to -0.40/-0.50 directly observable",
+      "Central bank buying at 1,000t+/year vs 500t average",
+      "Concentrated in specific central banks (PBOC, Poland, India, Turkey)",
+      "If buying normalizes to 500-700t/year, gold re-correlates with real rates",
+      "Pair_1 debate: more concrete but overstates confidence in permanence"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Is elevated central bank buying a permanent regime shift or temporary diversification?",
+      "What would cause normalization back to 500-700t/year?",
+      "Does gold serve as a monitoring variable for de-dollarization trends?"
+    ],
+    "related_concepts": [
+      "stock_bond_correlation_bistability",
+      "r_star_valuation_uncertainty"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "output_gap_predictor_bias",
+    "definition": "The output gap → equity returns relationship (R² ~0.60-0.70) is the strongest quantitative predictor but overstated due to overlapping observations bias. Hodrick/Valkanov correction and Stambaugh bias reduce corrected R² to ~0.45-0.55. True degrees of freedom for 3-year returns over 50 years ≈ 17 independent observations.",
+    "confidence": 6,
+    "evidence": [
+      "Hodrick (1992) / Valkanov (2003) correction is standard econometrics",
+      "True degrees of freedom ~17 not hundreds",
+      "Stambaugh (1999) bias further reduces R² by 3-8pp",
+      "Relationship remains economically significant after correction",
+      "Uncontested in any debate"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Does the corrected R² hold in international data?",
+      "What is the relationship's out-of-sample performance?",
+      "Can the output gap measurement be improved by addressing earnings quality contamination?"
+    ],
+    "related_concepts": [
+      "small_sample_base_rate_bias",
+      "out_of_sample_validation_gap",
+      "phillips_curve_flattening"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "monetary_transmission_lag",
+    "definition": "Monetary transmission lags of 12-24 months mean current small-cap distress and credit impulse deceleration are at least partially lagged effects of 2022-23 tightening, not purely leading indicators of new deterioration. Romer-Romer peak output effects at 24 months place peak cumulative effect at Q1-Q3 2025.",
+    "confidence": 6,
+    "evidence": [
+      "Romer-Romer (2004) peak output effects at 24 months",
+      "Tightening began March 2022, peak cumulative effect expected Q1-Q3 2025",
+      "Temporal alignment supports interpretation",
+      "Pair_1 debate: neither explanation cleanly stronger vs commodities input-cost channel",
+      "Both channels likely operative simultaneously"
+    ],
+    "originating_agents": [
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "If small-cap margins continue deepening even as Fed holds/eases, input-cost explanation gains",
+      "If margins stabilize, transmission-lag story validated",
+      "Does large-cap/small-cap divergence reflect monetary transmission asymmetry by funding structure (bond vs bank)?"
+    ],
+    "related_concepts": [
+      "small_cap_credit_premium",
+      "equity_cycle_sequencing_pattern",
+      "fiscal_multiplier_state_dependence"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "slug": "short_duration_ig_sharpe_advantage",
+    "definition": "Short-duration investment-grade credit offers a 3-4x Sharpe ratio advantage over equities — the widest gap since Q4 2019. 1-3yr IG at 5.0-5.5% yield with ~2yr duration and 3-4% vol yields Sharpe ~1.2-1.5, vs S&P 500 Sharpe ~0.3-0.4. Robust even at most generous ERP assumptions.",
+    "confidence": 6,
+    "evidence": [
+      "Arithmetic straightforward: IG Sharpe 1.2-1.5 vs equity Sharpe 0.3-0.4",
+      "Robust even at 3.0% ERP",
+      "Pair_0 debate: single most actionable claim",
+      "Q4 2019 precedent saw -15% IG drawdown in March 2020 followed by 70% equity rally",
+      "Static Sharpe comparison misses path-dependent optionality"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the Sharpe advantage persist after accounting for path-dependent optionality?",
+      "Is this an allocation signal or merely a risk-reward observation?",
+      "What scenario would close the Sharpe gap?"
+    ],
+    "related_concepts": [
+      "r_star_valuation_uncertainty",
+      "stock_bond_correlation_bistability"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  }
+]

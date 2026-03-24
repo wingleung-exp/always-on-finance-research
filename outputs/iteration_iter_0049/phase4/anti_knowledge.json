@@ -1,0 +1,91 @@
+[
+  {
+    "claim": "The 2.5x fragility ratio point estimate for ROIC-WACC convexity.",
+    "reason": "At S=4pp, 100bp destroys 25% of EVA; at S=8pp, 12.5%. The ratio is 2.0x, not 2.5x. Getting to 2.5x requires S<3.5pp, contradicting the stated 3.5-5.0pp range. Confidence interval spans 1.5x-5.0x when ±50bp spread uncertainty is propagated. Directional vulnerability survives but the specific number does not.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "Equity duration of 25-30 years for the S&P 500.",
+    "reason": "The formula used (P/E × (1-payout)/ROIC-WACC) is not a standard equity duration formula per Dechow-Sloan-Soliman or Leibowitz-Kogelman. Built on the refuted 2.5x fragility ratio. Propagating ±50bp uncertainty produces a range of 18-45 years, which is not actionable.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "3/3 prior concentration episodes resolved via large-cap decline as a predictive base rate.",
+    "reason": "Reference-class gerrymandering: episodes selected on the dependent variable. Excludes 1950s-60s AT&T/GM/GE, 2012-15 Apple dominance, and international cases where concentration persisted or resolved benignly. Wilson CI [44-100%] cannot distinguish from coin flip. KB simultaneously argues this time has different fundamentals AND invokes the base rate — a logical contradiction.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "Credit markets have been wrong 3 out of 4 times since 2000.",
+    "reason": "Selection criteria for episodes are unspecified. Excludes 2014-16 (energy HY widening while S&P held — credit was right) and 2011 (sovereign widening while equities held — credit was right). The specific 3/4 ratio is cherry-picked. Directional claim that credit can lag equity risk is likely correct.",
+    "refuted_by": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "The commodity-P/E 10% YoY threshold as a calibrated trigger.",
+    "reason": "Derived from exactly four episodes with fundamentally different transmission mechanisms. R-star uncertainty (±15-20% fair value range) means a 1-2 P/E turn commodity signal operates inside the noise range of the valuation framework itself. Directionally correct but useless as a calibrated trigger.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "Mundell-Fleming capital flow quantification ($2.4-4.0T market cap support from foreign inflows).",
+    "reason": "The Gabaix-Koijen multiplier was estimated from domestic mutual fund flows. Applying 3-5x to cross-border portfolio flows involves at least three unvalidated extrapolations. The qualitative point (capital inflows support valuations) is trivially true but the quantification is not credible.",
+    "refuted_by": [
+      "macro_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "The 0.85^28 ≈ 1% probability that all Mag7 names meet expectations for 4 quarters.",
+    "reason": "The independence assumption is load-bearing and almost certainly wrong. AI capex as common revenue driver creates positive earnings surprise correlation. With ρ=0.3, effective independent draws drops substantially and all-clear probability increases. Simultaneously, correlated downside is worse than independent calculation suggests. The specific 1% figure is not credible.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "Earnings opacity is analogous to GFC-era CDO complexity as a crisis amplification mechanism.",
+    "reason": "CDO opacity prevented counterparties from assessing solvency — a structural information failure. The GAAP-to-non-GAAP gap is well-documented, publicly available, and any institutional investor can look up GAAP earnings. The opacity is a behavioral choice to focus on non-GAAP, not an inability to see GAAP. This distinction affects both severity and mechanism.",
+    "refuted_by": [
+      "risk_analyst_01",
+      "challenger_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  },
+  {
+    "claim": "EM bifurcation R²≈0.7 redundancy with existing country risk factors.",
+    "reason": "The regression was not run while a specific R² figure was presented. This is fabricated precision by the standards applied to the KB. The directional argument (geopolitical alignment partially redundant with known risk factors) is plausible but the 0.7 figure should be discarded.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "equity_cycles",
+    "iteration_id": "iter_0049"
+  }
+]

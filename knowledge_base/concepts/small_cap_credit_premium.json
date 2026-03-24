@@ -1,0 +1,34 @@
+{
+  "slug": "small_cap_credit_premium",
+  "definition": "Small-cap underperformance is explained by a credit-quality-leverage decomposition. The traditional size premium was always a credit premium in disguise. Russell 2000: ~40% unprofitable, 3.0-3.5x leverage, 35-40% floating rate, BBB OAS correlation ~0.7.",
+  "confidence": 7,
+  "evidence": [
+    "Russell 2000 composition data directly supports quality decomposition",
+    "Asness et al.: size effect disappears after quality control",
+    "Israel-Moskowitz: size premium statistically insignificant since early 1980s",
+    "Proposed natural experiment: whether small-caps rally during rate cuts despite quality deterioration",
+    "Pair_2 debate: Agent B has stronger thesis but R² decomposition asserted not computed"
+  ],
+  "originating_agents": [
+    "quant_researcher_02",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Does the R² decomposition hold when computed on current data?",
+    "If small-caps rally during rate cuts despite quality deterioration, does the credit premium thesis hold?",
+    "Is there a quality-screened small-cap portfolio that captures genuine size premium?"
+  ],
+  "related_concepts": [
+    "value_quality_structural_trap",
+    "monetary_transmission_lag",
+    "fiscal_multiplier_state_dependence"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:00Z",
+  "last_updated": "2026-03-24T08:24:00Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

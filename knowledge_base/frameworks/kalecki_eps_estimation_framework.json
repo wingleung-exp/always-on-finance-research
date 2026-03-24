@@ -1,0 +1,26 @@
+{
+  "slug": "kalecki_eps_estimation_framework",
+  "purpose": "Translates fiscal deficit levels into S&P 500 EPS contribution using the Kalecki profit identity with state-dependent fiscal multipliers and offsetting channels.",
+  "components": [
+    "Kalecki accounting identity: corporate profits = investment + fiscal deficit + net exports - household savings",
+    "State-dependent fiscal multiplier (0.3-0.6 at positive output gaps, 1.0-2.5 in recession)",
+    "Translation arithmetic: spending × multiplier × profit share ÷ share count",
+    "Fiscal-yield offset: reduced Treasury supply → 30-50bp yield decline → 1-2 P/E turns of multiple expansion",
+    "Uncertainty band: ±40-60% on EPS magnitude, not ±25% as KB implies"
+  ],
+  "current_assessment": "Directional claim (fiscal consolidation hurts profits) is sound at 9/10 confidence. Magnitude precision is 5/10. At current output gap, multiplier of 0.3-0.6 haircuts EPS contribution to ~$15-25/share from headline $20-40/share.",
+  "limitations": [
+    "Application of fiscal multiplier to Kalecki EPS channel is novel synthesis not directly tested",
+    "State-dependent multiplier literature was not estimated for this specific channel",
+    "Fiscal-yield offset is a partially offsetting mechanism that complicates net impact assessment",
+    "Assumes current output gap persists through consolidation period"
+  ],
+  "topic": "equity_cycles",
+  "created_at": "2026-03-24T08:24:01Z",
+  "last_updated": "2026-03-24T08:24:01Z",
+  "originating_iteration": "iter_0049",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0049"
+  ]
+}

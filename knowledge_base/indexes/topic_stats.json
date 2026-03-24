@@ -1059,10 +1059,35 @@
     "avg_confidence": 6.7
   },
   "equity_cycles": {
-    "concept_count": 26,
-    "relationship_count": 15,
-    "framework_count": 5,
+    "concept_count": 48,
+    "relationship_count": 30,
+    "framework_count": 10,
     "top_concepts": [
+      {
+        "slug": "commodity_market_bifurcation",
+        "confidence": 9,
+        "definition": "Commodity markets are sending bifurcated signals that refute monolithic inflation frameworks. LME copper is in persistent backwardation ($30-80/t), cr"
+      },
+      {
+        "slug": "out_of_sample_validation_gap",
+        "confidence": 9,
+        "definition": "No out-of-sample validation exists for any leading indicator or composite framework in the KB. Every performance claim (ERB 8/9, credit impulse at 3 t"
+      },
+      {
+        "slug": "small_sample_base_rate_bias",
+        "confidence": 9,
+        "definition": "The KB's quantified base rates (yield curve 7/7, concentration 3/3, steepening trap 5/7) rest on samples of N=3-9 with systematically unreported confi"
+      },
+      {
+        "slug": "steepening_trap_unfalsifiability",
+        "confidence": 9,
+        "definition": "The steepening trap concept as currently specified is unfalsifiable because 'after steepening commenced' can mean 3-30 months with no pre-committed th"
+      },
+      {
+        "slug": "earnings_revision_breadth_limitations",
+        "confidence": 8,
+        "definition": "The earnings revision breadth (ERB) signal has materially overstated utility. The 8/9 hit rate is sensitivity, not positive predictive value, which co"
+      },
       {
         "slug": "equity_cycle_macro_causation",
         "confidence": 8,
@@ -1074,75 +1099,72 @@
         "definition": "The Equity Risk Premium is compressed by any methodology, but its precise level is model-dependent with a range of ~500bp across approaches (Fed Model"
       },
       {
+        "slug": "r_star_valuation_uncertainty",
+        "confidence": 8,
+        "definition": "R-star uncertainty of \u00b1100-150bp propagates into \u00b115-20% equity fair value uncertainty via Gordon Growth Model sensitivity (~3-4 P/E turns per 100bp)."
+      },
+      {
         "slug": "small_cap_structural_underperformance",
         "confidence": 8,
         "definition": "Small-cap underperformance (~30-40pp vs S&P 500 since 2023) is structural, driven primarily by leverage, credit quality, and rate sensitivity. ~40% of"
       },
       {
-        "slug": "valuation_regime_inflation_dependence",
+        "slug": "stock_bond_correlation_bistability",
         "confidence": 8,
-        "definition": "Equity valuation regimes are structurally driven by the discount rate and inflation regime. Three post-war regimes: 1950-68 (P/E 16-18x, low inflation"
-      },
-      {
-        "slug": "ai_capex_sustainability",
-        "confidence": 7,
-        "definition": "AI capex at $200-250B annual hyperscaler run rate is the single largest swing factor for the current equity cycle. The capex is hedge-financed from op"
-      },
-      {
-        "slug": "cap_weighted_equal_weighted_divergence",
-        "confidence": 7,
-        "definition": "Cap-weighted and equal-weighted indices mask fundamentally different cycle states. The aggregate index obscures the cycle position of the median compa"
-      },
-      {
-        "slug": "credit_impulse_leading_indicator",
-        "confidence": 7,
-        "definition": "The credit impulse leads equity cycle turns by approximately 2-6 months, with strong track record at 2007, 2009, and 2022 turns. Currently approaching"
-      },
-      {
-        "slug": "fiscal_consolidation_risk",
-        "confidence": 7,
-        "definition": "A reduction from 6.5% to 4.0% deficit/GDP would mechanically reduce S&P 500 EPS by an estimated $10-20/share (4-8%) through the Kalecki channel. This "
-      },
-      {
-        "slug": "late_expansion_fiscal_obscured",
-        "confidence": 7,
-        "definition": "The current equity cycle is in a late-expansion phase with exact positioning obscured by fiscal support. The cycle has already turned for the median c"
-      },
-      {
-        "slug": "market_concentration_superior_economics",
-        "confidence": 7,
-        "definition": "Market concentration at 30-38% in top 10 names is historically extreme, but the current concentrated cohort has genuinely superior economics (ROIC >25"
+        "definition": "The stock-bond correlation is in a bistable state, flickering around zero. Rolling 3-month correlation has crossed zero 6+ times since 2022 vs 0-1 cro"
       }
     ],
     "all_concept_slugs": [
       "ai_capex_sustainability",
+      "bearish_selection_bias",
       "buy_the_dip_regime_specificity",
       "cap_weighted_equal_weighted_divergence",
       "central_bank_independence_erp",
       "commodity_input_cost_channel",
+      "commodity_market_bifurcation",
+      "copper_supply_gap",
       "credit_impulse_leading_indicator",
       "cycle_ending_pathways",
       "earnings_quality_deterioration",
       "earnings_revision_breadth",
+      "earnings_revision_breadth_limitations",
       "em_geopolitical_bifurcation",
       "energy_sector_weight_anomaly",
       "equity_cycle_macro_causation",
+      "equity_cycle_sequencing_pattern",
       "erp_compression_model_dependence",
+      "factor_diversification_collapse",
       "fiscal_consolidation_risk",
+      "fiscal_multiplier_state_dependence",
+      "gold_real_rate_decoupling",
       "inelastic_markets_hypothesis",
       "late_expansion_fiscal_obscured",
       "market_concentration_superior_economics",
+      "monetary_transmission_lag",
+      "natural_gas_structural_rebasing",
+      "nifty_fifty_discount_rate_precedent",
+      "opec_spare_capacity_buffer",
+      "out_of_sample_validation_gap",
       "output_gap_equity_returns",
+      "output_gap_predictor_bias",
       "passive_investing_structural_break",
+      "phillips_curve_flattening",
+      "r_star_valuation_uncertainty",
       "roic_wacc_spread_convexity",
       "sanctions_architecture_structural_break",
+      "short_duration_ig_sharpe_advantage",
+      "small_cap_credit_premium",
       "small_cap_structural_underperformance",
+      "small_sample_base_rate_bias",
       "steepening_trap",
+      "steepening_trap_unfalsifiability",
+      "stock_bond_correlation_bistability",
       "us_equity_survivorship_bias",
       "valuation_regime_inflation_dependence",
+      "value_quality_structural_trap",
       "yield_curve_term_premium_decomposition"
     ],
-    "avg_confidence": 6.3
+    "avg_confidence": 6.8
   },
   "fiscal_dominance": {
     "concept_count": 48,
