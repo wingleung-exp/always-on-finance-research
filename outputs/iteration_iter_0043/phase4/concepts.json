@@ -1,0 +1,715 @@
+[
+  {
+    "slug": "fiscal_dominance_kalecki",
+    "definition": "The U.S. economy operates under fiscal dominance where the 6-7% GDP deficit is the load-bearing variable sustaining the expansion, transmitted through the Kalecki-Levy profit identity (Profits = Investment + Govt Deficit + Net Exports − Household Saving + Dividends). The fiscal contribution to GDP growth is estimated at 1.5-2.4pp.",
+    "confidence": 9,
+    "evidence": [
+      "Kalecki-Levy identity is an accounting tautology, mathematically certain",
+      "Deficit at ~$1.8-2.0T with fiscal contribution estimated at 1.5-2.4pp",
+      "Sectoral balance identity (Govt deficit 6-7% = Private surplus 2-3% + CA deficit 3-3.5%) verifiable in Fed Z.1 Financial Accounts",
+      "Mundell-Fleming predictions (strong dollar, wide current account, capital inflows) confirmed in data",
+      "All four debates affirmed this as the single strongest shared conclusion"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Is the Kalecki framework functionally unfalsifiable given it explains all anomalies?",
+      "Falsification condition: economy grows >2.5% for 4 consecutive quarters while deficit narrows >1pp GDP",
+      "Does Ricardian equivalence partially offset the fiscal channel (estimated 30-50%)?"
+    ],
+    "related_concepts": [
+      "private_sector_stall_speed",
+      "private_sector_surplus_buffer",
+      "sectoral_balance_identity",
+      "leading_indicator_degradation",
+      "nkpc_convexity_policy_trap",
+      "fiscal_consolidation_constraint"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "private_sector_stall_speed",
+    "definition": "Private-sector GDP growth stripped of fiscal demand contribution is only ~1.0-1.5%, near or below stall speed. This is derived mechanically from headline GDP minus the fiscal contribution and implies the economy would be at or below stall speed without the deficit.",
+    "confidence": 9,
+    "evidence": [
+      "Multiple agents arrive at the same ~1.0-1.5% figure independently using different frameworks",
+      "Consistent with leading indicator signals detecting genuine private-sector weakness",
+      "Yield curve, LEI, and Sahm Rule readings align with this private-sector growth rate"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Is the fiscal-adjusted growth rate stable or deteriorating over time?",
+      "How does the elevated stall speed (1.5-2.0% via EBITDA addback arithmetic) interact with this reading?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "elevated_stall_speed",
+      "leading_indicator_degradation",
+      "ebitda_addback_distortion"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "leading_indicator_degradation",
+    "definition": "Leading indicators have deteriorated to unprecedented combined magnitude and duration — yield curve inverted 22-24 months, LEI declined 40+ months, Sahm Rule triggered — all without NBER recession. The consensus explanation is that indicators correctly read private-sector contraction masked by the fiscal deficit.",
+    "confidence": 8,
+    "evidence": [
+      "Combination has no precedent in the post-war record; closest partial analogue (1966-67) lasted only ~18 months",
+      "Probability decomposition: ~65% fiscal override, ~25% structural degradation, ~10% design obsolescence",
+      "Historical pattern of indicator dismissal preceding crises (2006 yield curve dismissed due to savings glut, 1998 LTCM dismissed as idiosyncratic)"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Are indicators temporarily overridden and will reassert, or structurally degraded?",
+      "Is dismissing indicators itself the most dangerous late-cycle signal?",
+      "Does the term premium steepener further corrupt the yield curve signal?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "private_sector_stall_speed",
+      "term_premium_steepener",
+      "cross_asset_growth_divergence"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "ebitda_addback_distortion",
+    "definition": "EBITDA addback practices systematically overstate credit quality. True leverage is 7.5-8.5x versus reported 6x, with addback inflation of 15-40%. At true leverage and 9-10% all-in cost, interest expense consumes 70-80% of cash EBITDA.",
+    "confidence": 8,
+    "evidence": [
+      "ECB analysis and Fed supervisory data confirm addback inflation of 15-40%",
+      "Arithmetic on interest expense at true leverage is undisputed across debates",
+      "Covenant-lite dominance (>90% of leveraged loans) delays default recognition by 12-24 months"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the precise distribution of addback inflation across sectors and credit tiers?",
+      "How does addback distortion interact with private credit's opacity?"
+    ],
+    "related_concepts": [
+      "elevated_stall_speed",
+      "covenant_lite_cliff_dynamics",
+      "maturity_wall_2025_2027",
+      "private_credit_rate_insensitivity"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "private_sector_surplus_buffer",
+    "definition": "The private sector surplus of 2-3% GDP, derived from the sectoral balance identity, provides a structural buffer absent in prior late cycles (1999-2000 had -5% private deficit, 2005-2007 had -3-4%). However, the surplus is entirely a fiscal byproduct and its distribution may undermine its buffering capacity.",
+    "confidence": 7,
+    "evidence": [
+      "Sectoral balance identity is definitional",
+      "Contrast with prior cycle private deficits is the strongest argument against near-term 2008-style outcome",
+      "Top 20% of households hold ~70% of financial assets; mega-cap corporates hold disproportionate share of corporate surplus"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Does top-decile concentration make the aggregate surplus meaningless for credit stress assessment?",
+      "If the surplus is concentrated in households and firms that don't interact with leveraged borrowers, does the buffer narrative collapse?",
+      "What is the actual distributional data across income/wealth deciles?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "sectoral_balance_identity",
+      "covenant_lite_cliff_dynamics",
+      "maturity_wall_2025_2027"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "maturity_wall_2025_2027",
+    "definition": "A $900B-$1.1T maturity wall concentrated in 2025-2027 with contractual coupon step-ups of 300-500bp. This represents ~$36B incremental annual interest expense, a ~14% increase in HY debt service. Severity is non-linearly growth-dependent: manageable at consensus GDP (2.0-2.5%), potentially a solvency cliff at 0-1% real GDP.",
+    "confidence": 8,
+    "evidence": [
+      "Maturities and coupon step-ups are contractual facts",
+      "Historical base rate reframed by rate environment: 0-for-4 under ZIRP, 2-for-2 under elevated rates (1989-91, 2001-02)",
+      "Maturity walls transmit stress through concentration, not aggregates"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What fraction of the $900B-$1.1T has already been pre-financed?",
+      "Can private credit absorption capacity defuse the wall?",
+      "How does QT compound the maturity wall stress?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_distortion",
+      "covenant_lite_cliff_dynamics",
+      "private_sector_stall_speed",
+      "qt_maturity_wall_compound_risk",
+      "clo_overcollateralization_risk",
+      "elevated_stall_speed"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "ai_tfp_non_materialization",
+    "definition": "AI has not produced a measurable aggregate TFP breakout. Nonfarm TFP remains at ~1.5-2.0% with no structural break. Firm-level gains are real (14% customer support, 30-40% writing tasks) but aggregate productivity = micro gains × adoption rate × reallocation efficiency × complementary investment, with each multiplicative term well below 1.0.",
+    "confidence": 8,
+    "evidence": [
+      "Aggregate nonfarm TFP data shows no structural break",
+      "Historical GPT diffusion base rates: electricity ~30 years, IT ~15 years",
+      "Term premium decomposition has not endorsed a productivity story",
+      "Firm-level gains documented but aggregate transmission incomplete"
+    ],
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02",
+      "risk_analyst_02"
+    ],
+    "open_questions": [
+      "Will AI's recursive nature compress the historical GPT diffusion timeline?",
+      "Does U.S.-China technology decoupling structurally delay AI productivity materialization?",
+      "Is the 3-5 year or 15-25 year horizon for aggregate gains more likely?"
+    ],
+    "related_concepts": [
+      "immigration_ai_timing_gap",
+      "ai_capex_minsky_bifurcation",
+      "tariff_structural_shock"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "cross_asset_growth_divergence",
+    "definition": "Equities price 5-6% NGDP growth (S&P at ~21x fwd P/E with ~10% EPS growth) while rates price 3-4% NGDP (forwards embedding 75-100bp of easing). HY OAS at 350-420bp leans toward the equity narrative. This divergence is unsustainable and must resolve.",
+    "confidence": 7,
+    "evidence": [
+      "S&P valuation and EPS growth imply 5-6% NGDP",
+      "Rate forwards imply 3-4% NGDP",
+      "~60-65% historical base rate favoring rates (though imprecise post-COVID)",
+      "Cleanest causal explanation: equities price fiscal-sustained economy, rates price private-sector-only economy"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "credit_analyst_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "Will the divergence resolve toward equity-implied or rates-implied growth?",
+      "Are HY spreads (350-420bp) 100-200bp too tight?",
+      "Is the ~60-65% historical base rate favoring rates reliable post-COVID?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "private_sector_stall_speed",
+      "monetary_transmission_impairment"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "immigration_tailwind_decay",
+    "definition": "Immigration has contributed 0.3-0.4pp GDP growth annually (CBO data: ~3.3M net immigration in 2023, adding 3-4M workers above pre-pandemic trend), but this tailwind is decaying due to politically-driven reversal. Executive authority is broadest on immigration, CBP encounters are down sharply, and affected sectors (construction 10-15%, food services 20-25% immigrant workforce) feed directly into services CPI.",
+    "confidence": 7,
+    "evidence": [
+      "CBO data on 3.3M net immigration in 2023",
+      "Solow accounting: 3-4M × ~$80K average output ≈ 0.3-0.4pp GDP",
+      "Immigration double-counting resolved through Kalecki profit equation: immigrants add output while compressing household income share",
+      "CBP encounters declining sharply from peak"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "How fast will labor market impact materialize?",
+      "Will court challenges slow enforcement?",
+      "What is the actual productivity level of immigrant workers relative to average?"
+    ],
+    "related_concepts": [
+      "immigration_ai_timing_gap",
+      "fiscal_dominance_kalecki",
+      "nkpc_convexity_policy_trap",
+      "tariff_structural_shock"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "term_premium_steepener",
+    "definition": "The term premium accounts for the majority of the current positive 2s10s slope, representing 'bad steepening' (fiscal supply, duration risk) rather than 'good steepening' (growth expectations). This corrupts the yield curve's traditional growth signal, making raw curve shape unreliable for cycle identification.",
+    "confidence": 7,
+    "evidence": [
+      "ACM and Kim-Wright decompositions show term premium dominating current slope",
+      "1966-67 analogue validation: curve similarly re-steepened on fiscal supply",
+      "Qualitative point robust even if precise magnitudes vary"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "ACM vs. Kim-Wright can differ by 30-50bp — how model-dependent is the conclusion?",
+      "Does the false signal thesis weaken in precision if decomposition is model-dependent?"
+    ],
+    "related_concepts": [
+      "leading_indicator_degradation",
+      "fiscal_dominance_kalecki",
+      "cross_asset_growth_divergence"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "private_credit_rate_insensitivity",
+    "definition": "Private credit deploys $200-300B/yr from 5-7 year committed capital pools regardless of policy rate, weakening monetary policy transmission by bypassing the Fed's interest rate channel. This flattens the IS curve and may require the Fed to move rates further for the same effect (~50-75bp higher effective neutral rate).",
+    "confidence": 6,
+    "evidence": [
+      "Direct lending funds deploy from committed capital pools regardless of policy rate",
+      "Rising share of credit creation bypasses interest rate channel",
+      "Estimated ~50-75bp higher effective neutral rate"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "Is the aggregate transmission impairment a structural break or cyclical peak?",
+      "Fund lifecycles are 5-7 years — could the rate-insensitive pool shrink in a downturn?",
+      "What is the actual size relative to bank + capital markets combined?"
+    ],
+    "related_concepts": [
+      "monetary_transmission_impairment",
+      "ebitda_addback_distortion",
+      "maturity_wall_2025_2027",
+      "fiscal_dominance_kalecki"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "ai_capex_minsky_bifurcation",
+    "definition": "AI capital expenditure exhibits a bifurcated credit quality structure under Minsky classification. Hyperscaler capex (MSFT, GOOG, AMZN, META) is hedge finance funded from $200B+ annual cash flows. The downstream ecosystem (data center REITs at 5-7x leverage, GPU leasing companies, AI startups with venture debt) increasingly relies on speculative or Ponzi structures dependent on extrapolated adoption curves.",
+    "confidence": 6,
+    "evidence": [
+      "Hyperscaler funding from $200B+ annual cash flows constitutes hedge finance",
+      "Downstream ecosystem leverage at 5-7x with revenue based on extrapolated adoption",
+      "AI productivity lag means downstream projections based on unproven revenue models"
+    ],
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What is the aggregate size and systemic interconnection of downstream AI Ponzi finance?",
+      "How many downstream entities would be classified as fallen angels under stress?",
+      "What is the bottom-up quantification of speculative vs Ponzi tiers?"
+    ],
+    "related_concepts": [
+      "ai_tfp_non_materialization",
+      "maturity_wall_2025_2027",
+      "covenant_lite_cliff_dynamics",
+      "ebitda_addback_distortion"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "fiscal_consolidation_constraint",
+    "definition": "Fiscal consolidation is politically constrained to less than 1pp GDP through at least 2027. CBO baseline projects 5.5-6.5% deficits through 2034. Historical base rate shows only 2 successful consolidations >2pp GDP post-WWII (1993-2000, 2011-2014), both requiring exceptional conditions. DOGE achievable savings estimated at only 0.3-0.5pp GDP.",
+    "confidence": 7,
+    "evidence": [
+      "CBO baseline deficit projections of 5.5-6.5% through 2034",
+      "Only 2 successful large consolidations post-WWII",
+      "DOGE savings estimate of 0.3-0.5pp GDP",
+      "2026 midterms create 12-month window where neither party will champion austerity",
+      "Kalecki political economy feedback loop: deficit → profits → employment → political viability → deficit persistence"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "open_questions": [
+      "At what term premium threshold does the bond market force involuntary consolidation?",
+      "Is the ~2pp fiscal consolidation threshold a reliable parameter or unverified heuristic?",
+      "UK gilt crisis occurred at ~150bp premium expansion — does the U.S. have a different threshold?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "nkpc_convexity_policy_trap",
+      "private_sector_surplus_buffer"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "nkpc_convexity_policy_trap",
+    "definition": "The New Keynesian Phillips Curve exhibits convexity near potential output, creating a fiscal-monetary policy trap. Last-mile disinflation from core PCE ~2.5-3% to target requires a sacrifice ratio of 4-5x, but the fiscal floor keeps the economy near potential and prevents the output gap from opening sufficiently. This is the Sargent-Wallace fiscal dominance problem in practice.",
+    "confidence": 7,
+    "evidence": [
+      "Core PCE stalling at ~2.5-3% after rapid decline from 5.6%",
+      "Supply-chain normalization gains exhausted",
+      "5Y5Y inflation breakevens at 2.3% and Michigan 5-10Y at 2.5% suggest partial de-anchoring",
+      "Fiscal floor prevents sufficient output gap opening"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_02",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Could a favorable supply shock (faster AI diffusion, immigration surge, commodity price decline) provide an exit without demand destruction?",
+      "How precise and regime-dependent is the 4-5x sacrifice ratio estimate?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "fiscal_consolidation_constraint",
+      "tariff_structural_shock",
+      "ai_tfp_non_materialization",
+      "immigration_tailwind_decay"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "covenant_lite_cliff_dynamics",
+    "definition": "With over 90% of leveraged loans being covenant-lite, default recognition is delayed by 12-24 months. When the credit cycle turns, this will produce step-function defaults rather than gradual rolling patterns. Current low default rates are the expected precursor to a cliff, not evidence of credit health.",
+    "confidence": 6,
+    "evidence": [
+      "Over 90% of leveraged loans are covenant-lite",
+      "Historical pattern in covenant-lite cycles: artificially low defaults then discontinuous spike",
+      "Standard credit models assume rolling defaults and do not capture step-function distribution"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "The scale of the current covenant-lite cycle is unprecedented — will the step-function pattern hold at this scale?",
+      "How does covenant-lite interact with private credit opacity to mask deterioration?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_distortion",
+      "maturity_wall_2025_2027",
+      "clo_overcollateralization_risk",
+      "private_credit_rate_insensitivity"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "tariff_structural_shock",
+    "definition": "U.S. tariffs represent a durable structural supply shock with the effective tariff rate rising from ~2% (2017) to ~10-15% (current), the highest sustained level since Smoot-Hawley. This has bipartisan consensus as Biden retained and expanded Trump-era tariffs. The entity list now exceeds 600 Chinese entities. IMF estimates 0.5-1.5% medium-term global GDP drag.",
+    "confidence": 7,
+    "evidence": [
+      "Effective tariff rate increase from ~2% to ~10-15% is documented",
+      "Biden administration retained and expanded Trump-era tariffs demonstrating bipartisan durability",
+      "Entity list >600 Chinese entities",
+      "IMF estimates 0.5-1.5% medium-term global GDP drag"
+    ],
+    "originating_agents": [
+      "risk_analyst_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Is tariff policy endogenous to the cycle — does trade escalation reverse if unemployment rises?",
+      "What is the actual GDP drag magnitude within the wide IMF band?"
+    ],
+    "related_concepts": [
+      "stagflation_disinflation_bifurcation",
+      "nkpc_convexity_policy_trap",
+      "ai_tfp_non_materialization",
+      "immigration_tailwind_decay"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "stagflation_disinflation_bifurcation",
+    "definition": "The stagflationary vs. disinflationary outcome bifurcation is the dominant portfolio construction variable. Under stagflation (tariff escalation, supply shocks), stock-bond correlation turns positive, destroying 60/40 portfolio hedging. Under disinflation (demand weakness), correlation stays negative and bonds hedge. The tariff/de-globalization trajectory is the key swing variable.",
+    "confidence": 6,
+    "evidence": [
+      "5Y5Y breakevens at 2.3% sit at the threshold between regimes",
+      "Stock-bond correlation regime determines 60/40 portfolio efficacy",
+      "Framework is analytically sound per debates though probability weights were refuted"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_02",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "What are defensible probability weights for stagflationary vs disinflationary scenarios?",
+      "How should portfolios be positioned for correlation regime uncertainty?"
+    ],
+    "related_concepts": [
+      "tariff_structural_shock",
+      "nkpc_convexity_policy_trap",
+      "cross_asset_growth_divergence"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "elevated_stall_speed",
+    "definition": "The economy's effective stall speed is elevated to 1.5-2.0% versus the conventional ~0.5%, primarily due to EBITDA addback distortions creating hidden leverage. At true leverage of 7.5-8.5x, even moderate growth slowdowns become solvency events for a larger portion of the corporate sector.",
+    "confidence": 8,
+    "evidence": [
+      "EBITDA addback arithmetic raises true leverage to 7.5-8.5x",
+      "Interest expense at true leverage consumes 70-80% of cash EBITDA",
+      "Conventional stall speed estimates do not account for hidden leverage"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "How sensitive is the stall speed estimate to the distribution of leverage across the corporate sector?",
+      "Does private credit opacity further elevate the effective stall speed?"
+    ],
+    "related_concepts": [
+      "ebitda_addback_distortion",
+      "private_sector_stall_speed",
+      "maturity_wall_2025_2027",
+      "covenant_lite_cliff_dynamics"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "monetary_transmission_impairment",
+    "definition": "Monetary policy transmission is impaired across three specific channels: interest rate (private credit bypasses), credit (covenant-lite delays transmission), and asset price (wealth concentration limits marginal propensity effects). This requires the Fed to move rates further for equivalent effect, with an estimated ~50-75bp higher effective neutral rate.",
+    "confidence": 6,
+    "evidence": [
+      "Private credit $200-300B/yr deployed regardless of policy rate",
+      "Covenant-lite structures delay credit channel transmission",
+      "Estimated ~50-75bp higher effective neutral rate",
+      "IS curve flattened for the current cycle"
+    ],
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Is the transmission impairment structural or cyclical?",
+      "How does private credit fund lifecycle (5-7 years) affect persistence?",
+      "Is the 50-75bp neutral rate estimate stable?"
+    ],
+    "related_concepts": [
+      "private_credit_rate_insensitivity",
+      "covenant_lite_cliff_dynamics",
+      "fiscal_dominance_kalecki",
+      "nkpc_convexity_policy_trap"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "immigration_ai_timing_gap",
+    "definition": "A timing gap exists between the decay of immigration-driven labor force growth tailwinds (0.3-0.4pp GDP) and the materialization of AI-driven productivity gains. Immigration is reversing on a 1-2 year horizon while aggregate AI productivity gains are likely 5-15 years away based on historical GPT diffusion base rates.",
+    "confidence": 7,
+    "evidence": [
+      "Immigration tailwind quantified at 0.3-0.4pp GDP with political reversal underway",
+      "AI TFP non-materialization confirmed in aggregate data",
+      "Historical GPT diffusion base rates suggest multi-year lag",
+      "Identified as the most original quantified headwind across all analyses"
+    ],
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Could AI's recursive nature compress the timing gap?",
+      "What is the actual timeline overlap between immigration decay and AI materialization?"
+    ],
+    "related_concepts": [
+      "immigration_tailwind_decay",
+      "ai_tfp_non_materialization",
+      "private_sector_stall_speed"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "sectoral_balance_identity",
+    "definition": "The accounting identity where the government deficit equals the private sector surplus plus the current account deficit. Currently: Government deficit 6-7% GDP = Private surplus 2-3% + Current account deficit 3-3.5%. This is definitional and verifiable in the Fed's Z.1 Financial Accounts.",
+    "confidence": 10,
+    "evidence": [
+      "Accounting identity — definitional, not debatable",
+      "Verifiable in Fed Z.1 Financial Accounts",
+      "Provides the mechanical linkage between fiscal deficit and private sector financial position"
+    ],
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Does the identity's aggregate nature mask distributional concerns?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "private_sector_surplus_buffer"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "clo_overcollateralization_risk",
+    "definition": "CLO reinvestment period expirations concentrate in 2025-2027, coinciding with the maturity wall. If overcollateralization tests fail, forced selling of performing credits could amplify fundamental credit deterioration. Estimated threshold of 600-700bp HY OAS, though imprecise.",
+    "confidence": 4,
+    "evidence": [
+      "CLO reinvestment period expirations concentrate in 2025-2027",
+      "OC test failure mechanism is real and absent from all other analyses",
+      "600-700bp HY OAS threshold estimated but imprecise"
+    ],
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "open_questions": [
+      "What is the precise OC test failure threshold?",
+      "What is the aggregate exposure from simultaneously expiring reinvestment periods?",
+      "How would forced selling interact with covenant-lite step-function defaults?"
+    ],
+    "related_concepts": [
+      "maturity_wall_2025_2027",
+      "covenant_lite_cliff_dynamics",
+      "monetary_transmission_impairment"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "qt_maturity_wall_compound_risk",
+    "definition": "Quantitative tightening reduces demand for corporate bonds via reverse portfolio rebalancing while the maturity wall simultaneously forces increased supply. This produces a compound non-linear tightening effect that is absent from standard models.",
+    "confidence": 4,
+    "evidence": [
+      "QT mechanically reduces demand via reverse portfolio rebalancing",
+      "Maturity wall forces supply increase",
+      "Temporal overlap creates compound effect",
+      "Conceptually sound but unquantified"
+    ],
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "open_questions": [
+      "What is the quantified magnitude of the compound tightening effect?",
+      "How does Fed QT tapering interact with the maturity wall timeline?"
+    ],
+    "related_concepts": [
+      "maturity_wall_2025_2027",
+      "monetary_transmission_impairment",
+      "clo_overcollateralization_risk"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "1966_67_analogue",
+    "definition": "The 1966-67 Vietnam War mid-cycle slowdown is identified as the most operationally useful historical analogue (similarity score 0.72, though scores were refuted as false precision). The explicit sequence was: indicator deterioration → credit mini-crisis → Fed reversal → re-acceleration → inflation acceleration → eventual recession (Dec 1969, 3 years after initial scare). If applicable, the current cycle's resolution window is 2027-2028.",
+    "confidence": 6,
+    "evidence": [
+      "1966-67 featured fiscal deficit (3-4% GDP) overwhelming Fed tightening",
+      "Leading indicators deteriorated without recession, near-stall GDP (0.2% annualized Q1 1967)",
+      "Sequence provides testable operational roadmap with 3-year lag",
+      "Judged more operationally relevant than 1946-48 analogue"
+    ],
+    "originating_agents": [
+      "generalist_02",
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "Current 6-7% deficit is 2x the 1966-67 level — does this invalidate the analogue?",
+      "No analogue captures maturity wall, covenant-lite, and private credit opacity simultaneously",
+      "What are the five specific signposts for real-time analogue tracking?"
+    ],
+    "related_concepts": [
+      "fiscal_dominance_kalecki",
+      "leading_indicator_degradation",
+      "term_premium_steepener",
+      "nkpc_convexity_policy_trap"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "slug": "credit_impulse",
+    "definition": "The second derivative of credit (credit impulse) is theoretically the correct leading indicator for the current regime within the endogenous money framework. It leads GDP by 2-4 quarters, but private credit opacity degrades the signal quality.",
+    "confidence": 5,
+    "evidence": [
+      "Theoretically superior within endogenous money framework",
+      "Leads GDP by 2-4 quarters historically",
+      "Private credit opacity acknowledged as degrading signal"
+    ],
+    "originating_agents": [
+      "macro_strategist_02"
+    ],
+    "open_questions": [
+      "How much does private credit opacity degrade the credit impulse signal?",
+      "Is the credit impulse or financial conditions index approach superior in this regime?"
+    ],
+    "related_concepts": [
+      "private_credit_rate_insensitivity",
+      "monetary_transmission_impairment",
+      "leading_indicator_degradation"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  }
+]

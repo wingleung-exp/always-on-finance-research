@@ -1,0 +1,25 @@
+{
+  "slug": "nkpc_sacrifice_ratio_framework",
+  "purpose": "Quantifies the cost of last-mile disinflation in terms of output loss. Answers: how much growth must be sacrificed to bring core PCE from ~2.5-3% to the 2% target?",
+  "components": [
+    "NKPC convexity near potential output",
+    "Sacrifice ratio of 4-5x for last-mile disinflation",
+    "Fiscal floor preventing sufficient output gap opening",
+    "Sargent-Wallace fiscal dominance as the macro constraint",
+    "Supply-chain normalization gains exhausted — remaining inflation is demand-driven"
+  ],
+  "current_assessment": "Core PCE has stalled at ~2.5-3% after rapid decline from 5.6%. The fiscal deficit prevents the output gap from opening enough for the 4-5x sacrifice ratio to operate. This creates a policy trap where the Fed cannot achieve its inflation target without fiscal cooperation that is politically unavailable. 5Y5Y breakevens at 2.3% suggest partial de-anchoring.",
+  "limitations": [
+    "Sacrifice ratio estimate is imprecise and regime-dependent",
+    "A favorable supply shock could provide exit without demand destruction",
+    "Orphanides/van Norden output gap measurement error of ±1.0-2.0pp makes real-time assessment difficult"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-24T02:16:55Z",
+  "last_updated": "2026-03-24T02:16:55Z",
+  "originating_iteration": "iter_0043",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0043"
+  ]
+}

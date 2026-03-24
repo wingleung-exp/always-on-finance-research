@@ -1,0 +1,31 @@
+{
+  "slug": "covenant_lite_cliff_dynamics",
+  "definition": "With over 90% of leveraged loans being covenant-lite, default recognition is delayed by 12-24 months. When the credit cycle turns, this will produce step-function defaults rather than gradual rolling patterns. Current low default rates are the expected precursor to a cliff, not evidence of credit health.",
+  "confidence": 6,
+  "evidence": [
+    "Over 90% of leveraged loans are covenant-lite",
+    "Historical pattern in covenant-lite cycles: artificially low defaults then discontinuous spike",
+    "Standard credit models assume rolling defaults and do not capture step-function distribution"
+  ],
+  "originating_agents": [
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "The scale of the current covenant-lite cycle is unprecedented — will the step-function pattern hold at this scale?",
+    "How does covenant-lite interact with private credit opacity to mask deterioration?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_distortion",
+    "maturity_wall_2025_2027",
+    "clo_overcollateralization_risk",
+    "private_credit_rate_insensitivity"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-24T02:16:55Z",
+  "last_updated": "2026-03-24T02:16:55Z",
+  "originating_iteration": "iter_0043",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0043"
+  ]
+}

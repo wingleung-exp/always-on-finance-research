@@ -1,33 +1,47 @@
 {
   "slug": "monetary_transmission_impairment",
   "definition": "The monetary policy transmission mechanism is partially impaired by sovereign debt dynamics. Rate hikes generate a fiscal impulse (each 100bp adds ~$250-320B in debt service) that offsets 10-25% of contractionary intent. The Kalecki channel keeps financial conditions looser than the policy rate implies. Central banks face a three-body problem: inflation vs. financial stability vs. sovereign funding.",
-  "confidence": 7,
+  "confidence": 6.5,
   "evidence": [
     "Self-referential interest rate channel is mechanically sound",
     "2022-24 puzzle: tight rates but loose financial conditions explained by Kalecki-FCI link",
     "Basel III creates regulatory crowding-in equivalent to 1940s financial repression (~$4T bank sovereign holdings)",
-    "Fiscal impulse offset magnitude: realistic bondholder MPC yields 10-25%, not 25-50%"
+    "Fiscal impulse offset magnitude: realistic bondholder MPC yields 10-25%, not 25-50%",
+    "Private credit $200-300B/yr deployed regardless of policy rate",
+    "Covenant-lite structures delay credit channel transmission",
+    "Estimated ~50-75bp higher effective neutral rate",
+    "IS curve flattened for the current cycle"
   ],
   "originating_agents": [
-    "rates_strategist_02"
+    "rates_strategist_02",
+    "macro_strategist_01",
+    "macro_strategist_02"
   ],
   "open_questions": [
     "What is the precise MPC of sovereign bondholders (institutional, foreign central banks, HNW)?",
     "Does the three-body problem produce decades of muddling through or eventual fracture?",
-    "How does the transmission impairment vary across central bank credibility levels (Fed > ECB > BoJ)?"
+    "How does the transmission impairment vary across central bank credibility levels (Fed > ECB > BoJ)?",
+    "Is the transmission impairment structural or cyclical?",
+    "How does private credit fund lifecycle (5-7 years) affect persistence?",
+    "Is the 50-75bp neutral rate estimate stable?"
   ],
   "related_concepts": [
     "kalecki_levy_fiscal_earnings_paradox",
     "r_g_differential_debt_dynamics",
     "fed_asymmetric_constraint",
-    "financial_repression_modal_outcome"
+    "financial_repression_modal_outcome",
+    "private_credit_rate_insensitivity",
+    "covenant_lite_cliff_dynamics",
+    "fiscal_dominance_kalecki",
+    "nkpc_convexity_policy_trap"
   ],
   "topic": "sovereign_debt",
   "created_at": "2026-03-23T02:39:05Z",
-  "last_updated": "2026-03-23T02:39:05Z",
+  "last_updated": "2026-03-24T02:16:55Z",
   "originating_iteration": "iter_0017",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0017"
+    "iter_0017",
+    "iter_0043"
   ]
 }

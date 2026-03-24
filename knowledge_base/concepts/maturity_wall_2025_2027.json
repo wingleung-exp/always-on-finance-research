@@ -1,35 +1,53 @@
 {
   "slug": "maturity_wall_2025_2027",
   "definition": "The 2025-2027 corporate debt maturity wall of $900B-$1.1T with 300-500bp coupon step-ups represents arithmetic certainty of increased refinancing costs. Highest conviction claim across all panel agents.",
-  "confidence": 10.0,
+  "confidence": 9.33,
   "evidence": [
     "Observable debt maturity schedules totaling $900B-$1.1T",
     "Quantified coupon step-up range of 300-500bp from current coupons",
-    "Unanimous consensus across all panel agents as highest conviction claim"
+    "Unanimous consensus across all panel agents as highest conviction claim",
+    "Maturities and coupon step-ups are contractual facts",
+    "Historical base rate reframed by rate environment: 0-for-4 under ZIRP, 2-for-2 under elevated rates (1989-91, 2001-02)",
+    "Maturity walls transmit stress through concentration, not aggregates"
   ],
   "originating_agents": [
     "credit_analyst",
     "macro_strategist",
     "rates_strategist",
-    "cross_asset_strategist"
+    "cross_asset_strategist",
+    "credit_analyst_01",
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "rates_strategist_02"
   ],
   "open_questions": [
     "How much can early refinancing pre-empt the wall?",
     "What fraction of issuers can absorb the step-up without stress?",
-    "How does the maturity wall interact with potential rate cuts?"
+    "How does the maturity wall interact with potential rate cuts?",
+    "What fraction of the $900B-$1.1T has already been pre-financed?",
+    "Can private credit absorption capacity defuse the wall?",
+    "How does QT compound the maturity wall stress?"
   ],
   "related_concepts": [
     "clo_dynamics",
     "private_credit_opacity",
-    "fiscal_impulse_trajectory"
+    "fiscal_impulse_trajectory",
+    "ebitda_addback_distortion",
+    "covenant_lite_cliff_dynamics",
+    "private_sector_stall_speed",
+    "qt_maturity_wall_compound_risk",
+    "clo_overcollateralization_risk",
+    "elevated_stall_speed"
   ],
   "topic": "risk_appetite_regimes",
   "created_at": "2026-03-22T17:00:44Z",
-  "last_updated": "2026-03-23T02:02:30Z",
+  "last_updated": "2026-03-24T02:16:55Z",
   "originating_iteration": "iter_0014",
-  "research_iterations": 2,
+  "research_iterations": 3,
   "iteration_history": [
     "iter_0014",
-    "iter_0001"
+    "iter_0001",
+    "iter_0043"
   ]
 }

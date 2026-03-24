@@ -1,0 +1,32 @@
+{
+  "slug": "elevated_stall_speed",
+  "definition": "The economy's effective stall speed is elevated to 1.5-2.0% versus the conventional ~0.5%, primarily due to EBITDA addback distortions creating hidden leverage. At true leverage of 7.5-8.5x, even moderate growth slowdowns become solvency events for a larger portion of the corporate sector.",
+  "confidence": 8,
+  "evidence": [
+    "EBITDA addback arithmetic raises true leverage to 7.5-8.5x",
+    "Interest expense at true leverage consumes 70-80% of cash EBITDA",
+    "Conventional stall speed estimates do not account for hidden leverage"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "credit_analyst_01"
+  ],
+  "open_questions": [
+    "How sensitive is the stall speed estimate to the distribution of leverage across the corporate sector?",
+    "Does private credit opacity further elevate the effective stall speed?"
+  ],
+  "related_concepts": [
+    "ebitda_addback_distortion",
+    "private_sector_stall_speed",
+    "maturity_wall_2025_2027",
+    "covenant_lite_cliff_dynamics"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-24T02:16:55Z",
+  "last_updated": "2026-03-24T02:16:55Z",
+  "originating_iteration": "iter_0043",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0043"
+  ]
+}

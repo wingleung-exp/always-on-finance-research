@@ -1,0 +1,35 @@
+{
+  "slug": "private_sector_stall_speed",
+  "definition": "Private-sector GDP growth stripped of fiscal demand contribution is only ~1.0-1.5%, near or below stall speed. This is derived mechanically from headline GDP minus the fiscal contribution and implies the economy would be at or below stall speed without the deficit.",
+  "confidence": 9,
+  "evidence": [
+    "Multiple agents arrive at the same ~1.0-1.5% figure independently using different frameworks",
+    "Consistent with leading indicator signals detecting genuine private-sector weakness",
+    "Yield curve, LEI, and Sahm Rule readings align with this private-sector growth rate"
+  ],
+  "originating_agents": [
+    "credit_analyst_01",
+    "generalist_01",
+    "macro_strategist_01",
+    "macro_strategist_02",
+    "rates_strategist_02"
+  ],
+  "open_questions": [
+    "Is the fiscal-adjusted growth rate stable or deteriorating over time?",
+    "How does the elevated stall speed (1.5-2.0% via EBITDA addback arithmetic) interact with this reading?"
+  ],
+  "related_concepts": [
+    "fiscal_dominance_kalecki",
+    "elevated_stall_speed",
+    "leading_indicator_degradation",
+    "ebitda_addback_distortion"
+  ],
+  "topic": "growth_models",
+  "created_at": "2026-03-24T02:16:55Z",
+  "last_updated": "2026-03-24T02:16:55Z",
+  "originating_iteration": "iter_0043",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0043"
+  ]
+}

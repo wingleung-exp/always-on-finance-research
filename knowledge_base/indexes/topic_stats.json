@@ -1606,19 +1606,24 @@
     "avg_confidence": 6.7
   },
   "growth_models": {
-    "concept_count": 17,
-    "relationship_count": 15,
-    "framework_count": 6,
+    "concept_count": 36,
+    "relationship_count": 33,
+    "framework_count": 12,
     "top_concepts": [
+      {
+        "slug": "sectoral_balance_identity",
+        "confidence": 10,
+        "definition": "The accounting identity where the government deficit equals the private sector surplus plus the current account deficit. Currently: Government deficit"
+      },
       {
         "slug": "fiscal_deficit_kalecki_channel",
         "confidence": 9,
         "definition": "The U.S. fiscal deficit at 6-7% of GDP mechanically sustains corporate profits and economic expansion through the Kalecki profit identity (Profits = I"
       },
       {
-        "slug": "leading_indicator_degradation",
+        "slug": "fiscal_dominance_kalecki",
         "confidence": 9,
-        "definition": "Traditional leading indicators including yield curve inversion, Conference Board LEI, ISM PMI, and the Sahm Rule have exhibited degraded predictive po"
+        "definition": "The U.S. economy operates under fiscal dominance where the 6-7% GDP deficit is the load-bearing variable sustaining the expansion, transmitted through"
       },
       {
         "slug": "output_gap_measurement_error",
@@ -1626,9 +1631,19 @@
         "definition": "Real-time output gap estimation is unreliable with mean absolute revisions of 1.0-2.0 percentage points, rendering it nearly useless for real-time pol"
       },
       {
+        "slug": "private_sector_stall_speed",
+        "confidence": 9,
+        "definition": "Private-sector GDP growth stripped of fiscal demand contribution is only ~1.0-1.5%, near or below stall speed. This is derived mechanically from headl"
+      },
+      {
         "slug": "maturity_wall",
         "confidence": 8.67,
         "definition": "A deterministic growth headwind from $900B-$1.1T in corporate debt maturing 2025-2027 with 300-500bp coupon step-ups. Its severity is a non-linear fun"
+      },
+      {
+        "slug": "leading_indicator_degradation",
+        "confidence": 8.5,
+        "definition": "Traditional leading indicators including yield curve inversion, Conference Board LEI, ISM PMI, and the Sahm Rule have exhibited degraded predictive po"
       },
       {
         "slug": "ai_productivity_lag",
@@ -1636,51 +1651,55 @@
         "definition": "AI has not yet produced measurable aggregate productivity gains. Aggregate nonfarm TFP growth remains at ~1.5-2% within normal cyclical variation with"
       },
       {
-        "slug": "immigration_labor_supply_expansion",
-        "confidence": 8.0,
-        "definition": "Immigration drove significant labor supply expansion from 2022-2025, with CBO revising net immigration to ~3.3M in 2023 and 3-4M workers above pre-pan"
-      },
-      {
-        "slug": "mid_to_late_cycle_expansion",
+        "slug": "ai_tfp_non_materialization",
         "confidence": 8,
-        "definition": "The U.S. economy is in mid-to-late cycle expansion with the exact phase obscured by fiscal support. Stripped of fiscal contributions, private GDP grow"
+        "definition": "AI has not produced a measurable aggregate TFP breakout. Nonfarm TFP remains at ~1.5-2.0% with no structural break. Firm-level gains are real (14% cus"
       },
       {
-        "slug": "covenant_lite_default_delay",
-        "confidence": 7,
-        "definition": "Covenant-lite structures dominate >90% of leveraged loans, delaying default recognition by an estimated 12-24 months and lowering eventual recovery ra"
-      },
-      {
-        "slug": "cross_asset_growth_rate_divergence",
-        "confidence": 7,
-        "definition": "Cross-asset markets exhibit a growth consensus without rate consensus: equities price 5-6% nominal GDP (S&P ~21x fwd P/E, ~10% EPS growth), rates pric"
-      },
-      {
-        "slug": "ebitda_addback_distortion",
-        "confidence": 7,
-        "definition": "EBITDA addback practices inflate reported leverage by 15-40%, meaning a deal at reported 6x leverage may be 7.5-8.5x on actual cash EBITDA. At 9-10% a"
+        "slug": "elevated_stall_speed",
+        "confidence": 8,
+        "definition": "The economy's effective stall speed is elevated to 1.5-2.0% versus the conventional ~0.5%, primarily due to EBITDA addback distortions creating hidden"
       }
     ],
     "all_concept_slugs": [
+      "1966_67_analogue",
+      "ai_capex_minsky_bifurcation",
       "ai_productivity_lag",
+      "ai_tfp_non_materialization",
+      "clo_overcollateralization_risk",
+      "covenant_lite_cliff_dynamics",
       "covenant_lite_default_delay",
+      "credit_impulse",
+      "cross_asset_growth_divergence",
       "cross_asset_growth_rate_divergence",
       "ebitda_addback_distortion",
+      "elevated_stall_speed",
+      "fiscal_consolidation_constraint",
       "fiscal_deficit_kalecki_channel",
+      "fiscal_dominance_kalecki",
+      "immigration_ai_timing_gap",
       "immigration_labor_supply_expansion",
+      "immigration_tailwind_decay",
       "kalecki_levy_profit_framework",
       "leading_indicator_degradation",
       "maturity_wall",
       "mid_to_late_cycle_expansion",
       "minsky_ai_capex_classification",
       "nkpc_convexity_last_mile",
+      "nkpc_convexity_policy_trap",
       "output_gap_measurement_error",
       "private_credit_rate_insensitivity",
       "private_sector_financial_surplus",
+      "private_sector_stall_speed",
+      "private_sector_surplus_buffer",
+      "qt_maturity_wall_compound_risk",
+      "sectoral_balance_identity",
+      "stagflation_disinflation_bifurcation",
       "stagflationary_disinflationary_bifurcation",
+      "tariff_structural_shock",
       "term_premium_steepener"
     ],
-    "avg_confidence": 7.4
+    "avg_confidence": 7.1
   },
   "inflation_regimes": {
     "concept_count": 21,
@@ -2199,7 +2218,7 @@
     "top_concepts": [
       {
         "slug": "maturity_wall_2025_2027",
-        "confidence": 10.0,
+        "confidence": 9.33,
         "definition": "The 2025-2027 corporate debt maturity wall of $900B-$1.1T with 300-500bp coupon step-ups represents arithmetic certainty of increased refinancing cost"
       },
       {
@@ -2262,7 +2281,7 @@
       "private_credit_opacity",
       "risk_appetite_regime_sequencing"
     ],
-    "avg_confidence": 7.8
+    "avg_confidence": 7.7
   },
   "sovereign_debt": {
     "concept_count": 34,

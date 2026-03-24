@@ -1,0 +1,259 @@
+[
+  {
+    "concept_a": "fiscal_dominance_kalecki",
+    "concept_b": "private_sector_stall_speed",
+    "mechanism": "The fiscal deficit contributes 1.5-2.4pp to headline GDP growth. Stripping this fiscal demand reveals private-sector growth of only 1.0-1.5%, near or below stall speed. The fiscal deficit mechanically masks private-sector weakness.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Holds as long as the deficit remains at 6-7% GDP. If deficit narrows >1pp GDP while growth stays >2.5%, the relationship may be weaker than estimated.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "macro_strategist_01",
+      "macro_strategist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "fiscal_dominance_kalecki",
+    "concept_b": "leading_indicator_degradation",
+    "mechanism": "The fiscal firehose overrides the private-sector contraction that leading indicators correctly detect. Indicators read the private economy accurately but the fiscal contribution prevents the aggregate outcome (recession) they predict.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when fiscal contribution exceeds the magnitude of private-sector weakness. Indicators would reassert predictive power if the deficit narrows sufficiently.",
+    "originating_agents": [
+      "generalist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "fiscal_dominance_kalecki",
+    "concept_b": "private_sector_surplus_buffer",
+    "mechanism": "Through the sectoral balance identity, the government deficit of 6-7% GDP mechanically creates the private sector surplus of 2-3% GDP (plus the current account deficit of 3-3.5%). The surplus is entirely a fiscal byproduct and would vanish under consolidation.",
+    "direction": "a_causes_b",
+    "confidence": 9,
+    "regime_dependence": "Definitional relationship via accounting identity — holds always. The magnitude relationship scales linearly with the deficit.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "ebitda_addback_distortion",
+    "concept_b": "elevated_stall_speed",
+    "mechanism": "Hidden leverage (true 7.5-8.5x vs. reported 6x) means a larger share of the corporate sector faces solvency stress at moderate growth slowdowns, elevating the economy's effective stall speed from ~0.5% to 1.5-2.0%.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds for the current credit cycle with prevalent addback practices. Would diminish if addback discipline tightened or leverage genuinely reduced.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "credit_analyst_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "maturity_wall_2025_2027",
+    "concept_b": "covenant_lite_cliff_dynamics",
+    "mechanism": "The maturity wall forces refinancing at 300-500bp higher coupons. Covenant-lite structures have delayed default recognition by 12-24 months, meaning the maturity wall will precipitate a step-function default cliff rather than gradual rolling defaults when borrowers cannot refinance.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Severity is non-linearly growth-dependent: manageable at consensus GDP 2.0-2.5%, potentially solvency cliff at 0-1% real GDP. Also depends on rate environment — elevated rates are the necessary condition.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "private_credit_rate_insensitivity",
+    "concept_b": "monetary_transmission_impairment",
+    "mechanism": "Direct lending funds deploy from 5-7 year committed capital pools regardless of the policy rate, bypassing the Fed's interest rate channel. This flattens the IS curve and requires ~50-75bp more rate movement for equivalent monetary policy effect.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Holds for the current vintage of committed capital pools. If next vintage raises less capital, the rate-insensitive pool shrinks. Potentially a cyclical peak rather than structural floor.",
+    "originating_agents": [
+      "rates_strategist_02",
+      "macro_strategist_01",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "nkpc_convexity_policy_trap",
+    "concept_b": "fiscal_dominance_kalecki",
+    "mechanism": "The fiscal deficit keeps the economy near potential, preventing the output gap from opening sufficiently for last-mile disinflation. Simultaneously, the NKPC convexity near potential means disinflation requires a sacrifice ratio of 4-5x, which the fiscal floor renders impossible. This is the Sargent-Wallace fiscal dominance problem.",
+    "direction": "bidirectional",
+    "confidence": 7,
+    "regime_dependence": "Holds when core PCE is above target (currently ~2.5-3%) and the deficit maintains the economy near potential. A favorable supply shock could break the trap without demand destruction.",
+    "originating_agents": [
+      "macro_strategist_01",
+      "rates_strategist_02",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "immigration_tailwind_decay",
+    "concept_b": "immigration_ai_timing_gap",
+    "mechanism": "As immigration-driven labor force growth reverses (from 0.3-0.4pp GDP contribution to potentially negative), it opens a gap before AI productivity gains materialize at the aggregate level. Immigration decay is the proximate cause of the timing gap.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as AI aggregate TFP gains remain unmaterialized. If AI productivity arrives faster than GPT base rates suggest, the gap narrows or closes.",
+    "originating_agents": [
+      "generalist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "ai_tfp_non_materialization",
+    "concept_b": "immigration_ai_timing_gap",
+    "mechanism": "The failure of AI to produce aggregate TFP gains despite firm-level improvements extends the timing gap created by immigration decay. The gap persists until the multiplicative aggregate transmission chain (micro gains × adoption × reallocation × complementary investment) reaches sufficient magnitude.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Depends on GPT diffusion rates. Historical base rates suggest 15-25 years for full diffusion, but AI's recursive nature could compress this.",
+    "originating_agents": [
+      "generalist_01",
+      "macro_strategist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "tariff_structural_shock",
+    "concept_b": "stagflation_disinflation_bifurcation",
+    "mechanism": "Tariff escalation pushes the economy toward the stagflationary branch of the bifurcation by simultaneously reducing output (supply shock) and raising prices. This flips the stock-bond correlation positive, destroying portfolio diversification.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when tariffs are large enough to dominate the inflation mix. If demand weakness dominates supply shock, the disinflationary branch prevails despite tariffs.",
+    "originating_agents": [
+      "generalist_01",
+      "risk_analyst_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "fiscal_dominance_kalecki",
+    "concept_b": "cross_asset_growth_divergence",
+    "mechanism": "Equities price the full fiscal-sustained economy (5-6% NGDP) while rates price only the private-sector economy (3-4% NGDP). The divergence is a direct manifestation of fiscal dominance creating two legitimate but incompatible growth readings depending on whether fiscal is permanent or transient.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds as long as the fiscal deficit maintains the wedge between private and aggregate growth. Resolves when either equities de-rate or rates reprice fiscal permanence.",
+    "originating_agents": [
+      "macro_strategist_02",
+      "generalist_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "term_premium_steepener",
+    "concept_b": "leading_indicator_degradation",
+    "mechanism": "The term premium steepener creates 'bad steepening' from fiscal supply rather than 'good steepening' from growth expectations, further corrupting the yield curve's reliability as a growth signal alongside the direct fiscal override of private-sector weakness.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds when fiscal supply dominates the term structure. ACM vs Kim-Wright model differences of 30-50bp create uncertainty in magnitude.",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "rates_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "fiscal_consolidation_constraint",
+    "concept_b": "fiscal_dominance_kalecki",
+    "mechanism": "Political constraints (midterm cycles, bipartisan resistance to austerity, Kalecki feedback loop from deficit to profits to employment to political viability) sustain the large deficit, making fiscal dominance self-reinforcing. Consolidation is endogenously difficult.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds in democratic political systems with electoral cycles. Could break under bond market vigilante scenario forcing involuntary consolidation.",
+    "originating_agents": [
+      "risk_analyst_02",
+      "challenger_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "maturity_wall_2025_2027",
+    "concept_b": "monetary_transmission_impairment",
+    "mechanism": "The maturity wall functions as a 'shadow monetary policy' channel operating independently of Fed decisions. Contractual coupon step-ups of 300-500bp transmit tightening to the corporate sector regardless of the Fed's stance.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds for the 2025-2027 maturity concentration window. The effect is contractual and independent of monetary policy decisions.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "clo_overcollateralization_risk",
+    "concept_b": "covenant_lite_cliff_dynamics",
+    "mechanism": "CLO overcollateralization test failures force selling of performing credits, amplifying fundamental credit deterioration. Combined with covenant-lite delayed recognition, this creates a feedback loop where forced selling triggers further OC failures and step-function defaults.",
+    "direction": "bidirectional",
+    "confidence": 4,
+    "regime_dependence": "Holds when HY OAS reaches 600-700bp threshold (imprecise) and CLO reinvestment periods expire simultaneously with the maturity wall.",
+    "originating_agents": [
+      "credit_analyst_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "qt_maturity_wall_compound_risk",
+    "concept_b": "maturity_wall_2025_2027",
+    "mechanism": "QT reduces demand for corporate bonds via reverse portfolio rebalancing while the maturity wall forces supply, creating compound non-linear tightening exceeding the sum of individual effects.",
+    "direction": "a_causes_b",
+    "confidence": 4,
+    "regime_dependence": "Holds only while QT is ongoing and the maturity wall is active (2025-2027 window). Fed QT tapering would diminish the compound effect.",
+    "originating_agents": [
+      "rates_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "ai_capex_minsky_bifurcation",
+    "concept_b": "maturity_wall_2025_2027",
+    "mechanism": "Downstream AI ecosystem entities (data center REITs at 5-7x leverage, GPU leasing companies) relying on speculative/Ponzi finance structures face existential risk when the maturity wall forces refinancing at 300-500bp higher coupons, potentially creating a 'fallen angel factory' in the AI supply chain.",
+    "direction": "correlated",
+    "confidence": 5,
+    "regime_dependence": "Depends on whether downstream AI entities' maturities concentrate within the 2025-2027 window and whether the AI productivity lag extends beyond their debt horizons.",
+    "originating_agents": [
+      "credit_analyst_01",
+      "macro_strategist_02"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  },
+  {
+    "concept_a": "private_sector_surplus_buffer",
+    "concept_b": "covenant_lite_cliff_dynamics",
+    "mechanism": "The private sector surplus provides an aggregate buffer against credit stress, but if the surplus is concentrated in the top decile of households and mega-cap corporates that do not interact with leveraged borrowers, the buffer fails to prevent covenant-lite cliff dynamics in the credit-sensitive portion of the economy.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Depends entirely on the distributional adequacy of the surplus — the most important unanswered question in the framework.",
+    "originating_agents": [
+      "challenger_01",
+      "credit_analyst_01"
+    ],
+    "topic": "growth_models",
+    "iteration_id": "iter_0043"
+  }
+]

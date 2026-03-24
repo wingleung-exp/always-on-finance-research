@@ -1,13 +1,16 @@
 {
   "slug": "leading_indicator_degradation",
   "definition": "Traditional leading indicators including yield curve inversion, Conference Board LEI, ISM PMI, and the Sahm Rule have exhibited degraded predictive power in the post-COVID regime, with the yield curve inverted 22-24 months without recession, LEI declining 40+ consecutive months without recession, and the Sahm Rule triggering in July 2024 without recession.",
-  "confidence": 9,
+  "confidence": 8.5,
   "evidence": [
     "Yield curve inverted mid-2022, remained inverted 22-24 months — longest without recession in modern history",
     "LEI declined 40+ consecutive months without recession — unprecedented in 60-year history",
     "Sahm Rule triggered July 2024 without recession",
     "ISM Manufacturing PMI spent extended periods below 50 while GDP grew above trend",
-    "All four debates confirmed the factual record as unambiguous"
+    "All four debates confirmed the factual record as unambiguous",
+    "Combination has no precedent in the post-war record; closest partial analogue (1966-67) lasted only ~18 months",
+    "Probability decomposition: ~65% fiscal override, ~25% structural degradation, ~10% design obsolescence",
+    "Historical pattern of indicator dismissal preceding crises (2006 yield curve dismissed due to savings glut, 1998 LTCM dismissed as idiosyncratic)"
   ],
   "originating_agents": [
     "challenger_01",
@@ -16,25 +19,34 @@
     "generalist_02",
     "macro_strategist_01",
     "macro_strategist_02",
-    "rates_strategist_01"
+    "rates_strategist_01",
+    "rates_strategist_02",
+    "risk_analyst_02"
   ],
   "open_questions": [
     "Are indicators temporarily overridden by fiscal or permanently degraded by structural economic shifts?",
     "Will indicators reassert when fiscal impulse contracts?",
-    "Is the degradation caused by services-dominant economy and manufacturing-centric indicator design?"
+    "Is the degradation caused by services-dominant economy and manufacturing-centric indicator design?",
+    "Are indicators temporarily overridden and will reassert, or structurally degraded?",
+    "Is dismissing indicators itself the most dangerous late-cycle signal?",
+    "Does the term premium steepener further corrupt the yield curve signal?"
   ],
   "related_concepts": [
     "fiscal_deficit_kalecki_channel",
     "private_credit_opacity",
     "covenant_lite_default_delay",
-    "term_premium_steepener"
+    "term_premium_steepener",
+    "fiscal_dominance_kalecki",
+    "private_sector_stall_speed",
+    "cross_asset_growth_divergence"
   ],
   "topic": "growth_models",
   "created_at": "2026-03-22T17:23:37Z",
-  "last_updated": "2026-03-22T17:23:37Z",
+  "last_updated": "2026-03-24T02:16:55Z",
   "originating_iteration": "iter_0002",
-  "research_iterations": 1,
+  "research_iterations": 2,
   "iteration_history": [
-    "iter_0002"
+    "iter_0002",
+    "iter_0043"
   ]
 }
