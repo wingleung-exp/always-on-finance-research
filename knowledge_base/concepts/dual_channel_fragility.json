@@ -1,0 +1,36 @@
+{
+  "slug": "dual_channel_fragility",
+  "definition": "The simultaneous presence of basis trade concentration ($800B-$1T) and CLO arbitrage dependence creates unprecedented amplification risk, where a MOVE spike to 140+ simultaneously triggers basis trade margin calls and widens CLO AAA spreads past the SOFR+200 arbitrage-killing threshold.",
+  "confidence": 6,
+  "evidence": [
+    "March 2020 partial support: basis trade unwinds of ~$200-300B when MOVE hit 160+",
+    "$800B-$1T basis trade at 50-100x leverage is documented",
+    "CLO AAA spread threshold at SOFR+200 for arbitrage viability",
+    "BoJ-maturity wall timing overlap: Japanese holders of 20-30% CLO AAA tranches potentially repatriating",
+    "Simultaneous activation of both channels has no historical precedent at current scale"
+  ],
+  "originating_agents": [
+    "risk_analyst_01",
+    "generalist_01",
+    "quant_researcher_02"
+  ],
+  "open_questions": [
+    "What is the precise MOVE trigger level for basis trade margin calls?",
+    "Has post-2023 regulatory attention reduced basis trade concentration?",
+    "What is the joint probability of simultaneous channel activation (conjunction fallacy concern)?",
+    "Does the hedged-vs-directional split in vol-selling complex affect the cascade mechanism?"
+  ],
+  "related_concepts": [
+    "butterfly_spread_basis_trade_anomaly",
+    "basis_trade_concentration",
+    "maturity_wall_arithmetic"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

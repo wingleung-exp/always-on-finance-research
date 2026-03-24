@@ -1,0 +1,40 @@
+{
+  "slug": "maturity_wall_arithmetic",
+  "definition": "Sub-investment-grade borrowers refinancing from 5.5-7.0% to 8.5-11.0% face 40-60% cash interest expense increases across a $900B-$1.5T maturity wall. The refinancing math is tautological, but the translation to systemic vol repricing is contingent — historical base rate for maturity walls producing systemic events is ~1 of 4-5 instances.",
+  "confidence": 7,
+  "evidence": [
+    "Refinancing math is directly observable and tautological",
+    "$900B-$1.5T range itself spans 67% uncertainty reflecting amend-and-extend opacity",
+    "2016 energy maturity wall produced sector defaults without systemic vol repricing",
+    "2020 maturity wall absorbed by Fed intervention",
+    "Amend-and-extend historically defers 40-60% of near-term maturities",
+    "Base rate ~1 of 4-5 for maturity walls producing systemic vol events"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "What is the base rate for systemic events after controlling for Fed response willingness?",
+    "How much amend-and-extend activity will defer near-term maturities in this cycle?",
+    "Is private credit large enough to absorb the refinancing wave without systemic transmission?",
+    "Does the chain from refinancing to systemic repricing suffer from conjunction fallacy?"
+  ],
+  "related_concepts": [
+    "dual_channel_fragility",
+    "butterfly_spread_basis_trade_anomaly",
+    "conditioned_credit_impulse",
+    "five_year_forward_tightening_threshold"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

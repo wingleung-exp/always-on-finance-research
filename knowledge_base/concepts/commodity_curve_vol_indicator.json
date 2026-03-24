@@ -1,0 +1,32 @@
+{
+  "slug": "commodity_curve_vol_indicator",
+  "definition": "Commodity futures curve structure (backwardation/contango) is directionally plausible as a leading indicator of supply-driven vol regime shifts, but the evidence does not survive scrutiny: n=5 with one major exception (2020), the 2014 case worked in reverse, and the false positive rate is uncharacterized.",
+  "confidence": 4,
+  "evidence": [
+    "Backwardation signals inventory depletion and supply inelasticity",
+    "n=5 historical episodes",
+    "2020 exception (decade's largest vol event) undermines the claim",
+    "2014 case: contango as break signal (opposite direction)",
+    "False positive rate completely uncharacterized"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01"
+  ],
+  "open_questions": [
+    "Can false positive calibration be performed across the full backwardation history?",
+    "Is backwardation a necessary but insufficient condition for supply-driven vol?",
+    "Does the indicator have any value in combination with other signals?"
+  ],
+  "related_concepts": [
+    "supply_side_shock_correlation_regime",
+    "green_metals_supply_inelasticity"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

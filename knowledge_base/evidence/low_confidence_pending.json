@@ -2647,5 +2647,47 @@
     "needs": "Evidence that the Fed responds to energy price moves rather than looking through them; OPEC+ compliance assumption validation; demonstration that oil channel dominates credit and labor market dynamics for Fed reaction function",
     "topic": "monetary_policy",
     "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "Commodity futures curve structure (backwardation/contango) is a leading indicator of vol regime shifts",
+    "source_agent": "commodities_analyst_01",
+    "needs": "False positive calibration across full backwardation history; resolution of the 2020 exception (decade's largest vol event with no backwardation signal); independent agent corroboration; separation of necessary vs sufficient conditions for supply-driven vol transitions",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Gold fair-value residual ($400-600/oz above real-rate model) as a monetary regime uncertainty diagnostic with leading indicator properties",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Precise dating of the lead relationship across more than three episodes; resolution of causal direction (gold leading vol vs common factor response with lag); higher-frequency proxy for central bank purchases to overcome 1-2 quarter reporting lag; independent agent corroboration",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Green metals supply inelasticity (copper deficit 2026-2028) serves as a structural vol floor",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Validation of the causal chain from commodity scarcity through capex uncertainty through inflation outlook to rates vol; assessment of substitution and recycling potential; independent corroboration from non-commodity analysts; stress-testing of timing coincidence with maturity wall",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Three-category implied-realized taxonomy (surprise / telegraphed-wrong-footed / telegraphed-correctly-positioned) as a predictive framework",
+    "source_agent": "generalist_02",
+    "needs": "Expansion beyond 8-episode sample; prospective (not ex-post) classification methodology; quantitative framework for assessing positioning correctness in real-time; integration with commodity surprise sub-category",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "OPEC+ fragmentation as a distinct source of oil volatility",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Self-refuted by originating agent — requires evidence that structural conditions for fragmentation have changed from the 3+ years of unfulfilled predictions; historical precedent for OPEC fragmentation in modern financial era; calibration data for the vol transmission mechanism",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Oil cost curve bracketing ($65-75/bbl floor, $90-100/bbl ceiling) as a vol attractor mechanism",
+    "source_agent": "commodities_analyst_01",
+    "needs": "Independent agent corroboration; time-varying breakeven range calibration; modeling of OPEC+ policy interaction with the attractor band; validation of the band-narrowing hypothesis",
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "concept_a": "supply_side_shock_correlation_regime",
+  "concept_b": "swaption_skew_asymmetric_risk",
+  "mechanism": "Supply-side shocks produce cost-push inflation that steepens the Phillips Curve above potential output (NKPC convexity), creating fatter right tail for rates. This maps directly to payer skew exceeding receiver skew in swaption markets and breaks the negative stock-bond correlation that equity hedging relies on.",
+  "direction": "a_causes_b",
+  "confidence": 7,
+  "regime_dependence": "Active during supply-side inflation episodes; does not hold during demand-side recessions or financial crises where negative stock-bond correlation reasserts",
+  "originating_agents": [
+    "macro_strategist_01",
+    "commodities_analyst_01"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

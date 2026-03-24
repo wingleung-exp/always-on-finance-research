@@ -4073,5 +4073,53 @@
     ],
     "topic": "monetary_policy",
     "iteration_id": "iter_0044"
+  },
+  {
+    "claim": "VVIX/VIX ratio as a standalone predictive signal for vol regime transitions",
+    "reason": "Three positive examples with completely uncharacterized false positive rate. If the ratio is elevated 30% of the time and transitions occur 5% of the time, positive predictive value could be ~15%. Q4 2018 was a standard equity correction not a regime transition, and January 2020 elevation likely normalized before the COVID crash. Confirmed as 'an anecdote collection, not a validated signal' in pair_2 debate.",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Volmageddon (Feb 2018) as valid proof-of-concept for systemic vol-selling complex implosion",
+    "reason": "XIV/SVXY combined AUM was ~$3-5B vs current vol-selling complex at $400-600B (100x scale difference). Feb 2018 was a product failure in retail inverse VIX ETPs with mechanical rebalancing algorithms, not an institutional vol-selling complex unwind with delta-hedged market-making books. S&P 500 recovered within months. No agent demonstrates that retail ETP mechanics scale to institutional vol-selling. Validated as 'Agent B's cleanest hit' against the fragility thesis.",
+    "refuted_by": [
+      "challenger_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Private credit volatility is understated by 2-3x (specific magnitude)",
+    "reason": "Mathematical error: AR(1) Geltner correction with rho=0.6 yields sigma_true/sigma_reported ~1.25x, not 2-3x. With rho=0.7, the variance multiplier is 3.3x but the volatility multiplier is only sqrt(3.3) ~1.8x. The 2-3x figure confuses variance and volatility adjustments, or assumes higher-order smoothing not justified by cited autocorrelation. Direction survives (reported vol understates true vol); magnitude should be ~1.3-1.8x.",
+    "refuted_by": [
+      "quant_researcher_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "Near-arithmetic certainty framing for the maturity wall producing systemic credit vol repricing",
+    "reason": "The refinancing arithmetic is sound, but 'near-arithmetic certainty' for systemic repricing is contradicted by: (a) the $900B-$1.5T range spanning 67%, (b) historical base rate of ~1/4-5 maturity walls producing systemic events, (c) 2016 energy sector defaults without systemic repricing, (d) 2020 wall absorbed by Fed intervention, (e) amend-and-extend historically deferring 40-60% of near-term maturities. The arithmetic is certain; the systemic transmission is contingent.",
+    "refuted_by": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "claim": "70-75% probability estimate for VIX-up resolution of the MOVE-VIX divergence",
+    "reason": "False precision from n=3 evidence base. Bayesian posterior from 3/3 with uniform prior gives mean 80% but 95% CI is extraordinarily wide and includes values below 50%. The three analogues have fundamentally different structural drivers and the current configuration differs from all three. Should be stated as 'directionally likely based on 3/3 precedent but with deep uncertainty due to small sample and structural novelty.'",
+    "refuted_by": [
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
   }
 ]

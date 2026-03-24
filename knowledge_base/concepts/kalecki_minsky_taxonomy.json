@@ -1,0 +1,40 @@
+{
+  "slug": "kalecki_minsky_taxonomy",
+  "definition": "A framework classifying low-volatility environments into Type A (fiscal-supported, where government deficits sustain corporate profits) and Type B (credit-supported, where private leverage drives earnings), with different fragility profiles. Computable via Government Deficit/GDP minus Change in Private Debt/GDP. Useful as a heuristic but not validated as a predictor.",
+  "confidence": 5,
+  "evidence": [
+    "Conceptual distinction is logically necessary — fiscal and credit mechanisms produce different fragility",
+    "Diagnostic is computable from national accounts data",
+    "4/4 historical classification accuracy but 95% binomial CI is [0.40, 1.00]",
+    "n=3-4 US cycles, zero out-of-sample tests, 2-3 month data lag",
+    "No cross-country testing despite available variation (UK, Eurozone, Japan)"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "quant_researcher_01",
+    "challenger_02"
+  ],
+  "open_questions": [
+    "Is the framework unfalsifiable as challenger_02 claims?",
+    "Can cross-country testing (UK austerity, Eurozone fiscal rules, Japan fiscal dominance) validate it?",
+    "Does the boundary classification involve unacceptable judgment calls?",
+    "How does the 2-3 month data lag affect real-time utility?"
+  ],
+  "related_concepts": [
+    "conditioned_credit_impulse",
+    "kalecki_fiscal_channel",
+    "cross_asset_vol_divergence",
+    "fragility_narrative_bias"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

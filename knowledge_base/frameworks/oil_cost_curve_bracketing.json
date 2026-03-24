@@ -1,0 +1,27 @@
+{
+  "slug": "oil_cost_curve_bracketing",
+  "purpose": "Uses shale breakeven economics to define a vol-attractor band for oil prices that creates within-band self-regulation and outside-band amplification",
+  "components": [
+    "Floor: $65-75/bbl (shale production shut-in/curtailment threshold)",
+    "Ceiling: $90-100/bbl (shale production growth acceleration threshold)",
+    "Within-band: self-regulating production response dampens price vol",
+    "Outside-band: positive feedback amplifies price movements",
+    "Shale treadmill effect: potential narrowing of the attractor band over time"
+  ],
+  "current_assessment": "The mechanism is intuitive and grounded in well-documented shale economics, but not corroborated by other agents. The specific breakeven ranges are subject to service cost inflation/deflation. The claim that the band may be narrowing is unvalidated.",
+  "limitations": [
+    "Not corroborated by other agents",
+    "Breakeven ranges shift with service costs",
+    "Band narrowing claim is unvalidated",
+    "Interaction with OPEC+ policy not modeled",
+    "Single-agent analysis with no debate challenge"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

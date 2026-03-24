@@ -1,0 +1,29 @@
+{
+  "slug": "regime_switching_identification_lag",
+  "definition": "Markov-switching GARCH models suffer from a 10-20 day identification lag as a mathematical property of the Bayesian filtering problem, making simple threshold heuristics operationally superior for real-time regime detection. This is the highest-confidence individual claim in the analysis.",
+  "confidence": 8,
+  "evidence": [
+    "10-20 day lag is a mathematical property of the filtering problem, not dataset-specific",
+    "Documented in Ang & Timmermann (2012) and Hamilton (1989)",
+    "Unchallenged in pair_2 debate; assessed as 'well-calibrated' at 8/10"
+  ],
+  "originating_agents": [
+    "quant_researcher_01"
+  ],
+  "open_questions": [
+    "Can hybrid approaches combining model output with threshold heuristics outperform either standalone?",
+    "What specific threshold heuristics are most effective across different vol regimes?"
+  ],
+  "related_concepts": [
+    "vol_selling_complex_distribution_impact",
+    "three_category_implied_realized_taxonomy"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

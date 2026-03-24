@@ -1,0 +1,37 @@
+{
+  "slug": "conditioned_credit_impulse",
+  "definition": "Credit impulse conditioned on the Kalecki-Minsky taxonomy (fiscal-supported vs credit-supported regimes) is theoretically superior to unconditioned credit impulse for vol transition prediction. In Type A fiscal environments, credit deceleration is benign because the profit channel operates independently. Conditioned signal shows 3/3 hit rate vs 3/5 unconditioned.",
+  "confidence": 5,
+  "evidence": [
+    "Conditioned signal (credit impulse negative AND private sector deficit) shows 3/3 hit rate vs 3/5 unconditioned",
+    "Theoretical necessity: fiscal profit support and credit-driven leverage have different fragility profiles",
+    "Tested on only 4-5 US cycles with zero out-of-sample validation",
+    "2019 'hit' is potentially circular — COVID was exogenous, not Minsky-triggered",
+    "2-3 month Z.1 data lag limits real-time utility"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Is the 2019 hit circular given COVID was an exogenous shock?",
+    "Can the 2-3 month Z.1 data lag be overcome with higher-frequency proxies?",
+    "Has any out-of-sample or cross-country validation been performed?",
+    "Is this better described as a framework worth testing (6/10) rather than a validated predictor (3/10)?"
+  ],
+  "related_concepts": [
+    "kalecki_minsky_taxonomy",
+    "maturity_wall_arithmetic",
+    "cross_asset_vol_divergence"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

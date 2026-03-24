@@ -1,0 +1,36 @@
+{
+  "slug": "swaption_skew_asymmetric_risk",
+  "definition": "Payer skew exceeding receiver skew across the 2Y-10Y swaption surface signals asymmetric risk toward higher yields, connected to NKPC convexity where Phillips Curve steepening above potential output creates fatter right tail for rates. This pricing is inconsistent with equity market soft-landing assumptions.",
+  "confidence": 6,
+  "evidence": [
+    "Payer-receiver skew imbalance across 2Y-10Y surface is directly observable",
+    "NKPC convexity mapping: Phillips Curve steepening above potential output maps to payer skew elevation",
+    "Four structural forces push term premium one-directionally: issuance, QT, BoJ normalization, correlation shift",
+    "Historical 2/3 hit rate for significant bear-steepening from swaption skew analogues",
+    "2016 miss case: signal fails when fiscal expansion already priced"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "Does the 2016 miss case apply to the current well-discussed fiscal/issuance environment?",
+    "Are only 3 prior skew configuration episodes sufficient for calibration?",
+    "How should the inconsistency with equity soft-landing pricing be traded?"
+  ],
+  "related_concepts": [
+    "supply_side_shock_correlation_regime",
+    "five_year_forward_tightening_threshold",
+    "cross_asset_vol_divergence"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

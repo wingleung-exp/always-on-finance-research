@@ -1,0 +1,689 @@
+[
+  {
+    "slug": "cross_asset_vol_divergence",
+    "definition": "The simultaneous divergence of MOVE (100-120), VIX (13-18), and G10 FX vol (7-9%) encodes a specific macro state of partial fiscal dominance with supply-side inflation uncertainty, where fiscal deficits at 6-7% of GDP suppress equity vol via Kalecki earnings support while requiring $2T+ annual Treasury issuance that elevates rates vol. Three historical analogues (2006-07, 2014, 2017-18) confirm this configuration has never persisted as steady state.",
+    "confidence": 8,
+    "evidence": [
+      "Six of eight agents independently identified divergence as significant",
+      "Kalecki fiscal channel: 6-7% deficit/GDP sustains 8-10% EPS growth (suppresses VIX) while requiring $2T+ issuance (elevates MOVE)",
+      "FX vol suppression via carry-trade positioning into rate differentials",
+      "Three historical analogues (2006-07, 2014, 2017-18) all resolved, never persisted as steady state",
+      "Bayesian posterior from 3/3 resolution with uniform prior gives mean 80% but 95% CI includes values below 50%"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "macro_strategist_01",
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Can the Kalecki fiscal channel permanently sustain the divergence, invalidating the analogue framework?",
+      "Does the non-stationarity paradox (structural microstructure change AND historical analogue validity) undermine resolution predictions?",
+      "What are specific falsification criteria — if divergence persists another 24 months without transition, does the fragility thesis update?"
+    ],
+    "related_concepts": [
+      "kalecki_fiscal_channel",
+      "variance_risk_premium_rate_correlation",
+      "vix_up_divergence_resolution",
+      "supply_side_shock_correlation_regime"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "variance_risk_premium_rate_correlation",
+    "definition": "The variance risk premium (VRP) is positively correlated with the level of interest rates, as symmetric distribution at 4.5% widens physical variance relative to ZLB-era compression. VRP averaged 30-45bp in low-rate regimes vs 15-25bp in high-rate regimes, structurally altering vol-selling strategy economics relative to 1990-2020 calibrations.",
+    "confidence": 7,
+    "evidence": [
+      "NK derivation: distribution truncation at ZLB compresses physical variance; symmetric distribution at 4.5% widens it",
+      "Mechanical channels: financing costs, discount rates, macro uncertainty",
+      "Historical decomposition: VRP 30-45bp in low-rate regimes vs 15-25bp in high-rate regimes",
+      "Cieslak-Povala (2015) and Mueller-Vedolin-Zhou (2019) empirical grounding",
+      "Identified as 'the most actionable' insight in pair_1 debate"
+    ],
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "quant_researcher_02",
+      "generalist_02",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the weaker version (VRP strategies overstate expected returns) or stronger version (VRP strategies are invalidated) hold?",
+      "How large is the VRP adjustment needed for current rate levels?",
+      "Is the cross-asset VRP trade (own rates vol / sell equity vol) actionable given the asymmetry?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "vol_selling_complex_distribution_impact",
+      "five_year_forward_tightening_threshold"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "vol_selling_complex_distribution_impact",
+    "definition": "The $400-600B notional vol-selling complex (0DTE at ~45-50% of SPX volume, covered call ETFs grown from $5B to $80B+, systematic variance selling) has structurally altered SPX return distributions — producing thinner body and fatter tails — increasing >3-sigma move frequency while reducing average realized volatility.",
+    "confidence": 7,
+    "evidence": [
+      "0DTE at 45-50% of SPX volume is directly observable",
+      "Covered call ETFs grew from $5B to $80B+",
+      "Mechanical gamma-pinning and tail-concentration effects supported by Barbon & Buraschi (2024)",
+      "Post-structural-break sample is ~4-5 years with no formal KS or Hill estimator comparison",
+      "30-50% Sharpe overstatement claimed but challenged as asserted without derivation"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "open_questions": [
+      "Does the ~4-5 year post-structural-break sample support formal statistical testing of distribution change?",
+      "How do covered call ETFs behave in a sustained bear market (untested, parallels to pre-2008 CDO structural demand)?",
+      "What is the hedged-vs-directional split in the $400B-$1.5T notional range?",
+      "Is the 30-50% Sharpe overstatement derivable or merely asserted?"
+    ],
+    "related_concepts": [
+      "variance_risk_premium_rate_correlation",
+      "fragility_narrative_bias",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "butterfly_spread_basis_trade_anomaly",
+    "definition": "The 2s5s10s butterfly spread at -15 to -25bp (vs -5bp historical average, 2-4 standard deviations from post-2010 mean) is a direct artifact of basis trade concentration ($800B-$1T at 50-100x leverage) pinning the 5Y belly, creating funding-liquidity vulnerability that would normalize violently if basis trades unwind.",
+    "confidence": 7,
+    "evidence": [
+      "Four agents independently converge on mechanism and historical precedent",
+      "2006-07 analogue and March 2020 mini-episode producing 30bp+ move in 3 days",
+      "Anomaly at 2-4 standard deviations from post-2010 average is directly observable",
+      "Policy path anchoring at 5Y vs term premium explosion at 10Y vs basis trade distortion",
+      "Scale difference ($800B-$1T vs $200-300B in 2006) makes this genuinely unprecedented territory"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the precise MOVE level that triggers basis trade margin calls (identified as 'single most important gap')?",
+      "Is the appropriate normalization magnitude 20-40bp or 40-60bp?",
+      "Does the nonlinear system invalidate linear scaling from the 2006 analogue?"
+    ],
+    "related_concepts": [
+      "basis_trade_concentration",
+      "dual_channel_fragility",
+      "maturity_wall_arithmetic"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "maturity_wall_arithmetic",
+    "definition": "Sub-investment-grade borrowers refinancing from 5.5-7.0% to 8.5-11.0% face 40-60% cash interest expense increases across a $900B-$1.5T maturity wall. The refinancing math is tautological, but the translation to systemic vol repricing is contingent — historical base rate for maturity walls producing systemic events is ~1 of 4-5 instances.",
+    "confidence": 7,
+    "evidence": [
+      "Refinancing math is directly observable and tautological",
+      "$900B-$1.5T range itself spans 67% uncertainty reflecting amend-and-extend opacity",
+      "2016 energy maturity wall produced sector defaults without systemic vol repricing",
+      "2020 maturity wall absorbed by Fed intervention",
+      "Amend-and-extend historically defers 40-60% of near-term maturities",
+      "Base rate ~1 of 4-5 for maturity walls producing systemic vol events"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "What is the base rate for systemic events after controlling for Fed response willingness?",
+      "How much amend-and-extend activity will defer near-term maturities in this cycle?",
+      "Is private credit large enough to absorb the refinancing wave without systemic transmission?",
+      "Does the chain from refinancing to systemic repricing suffer from conjunction fallacy?"
+    ],
+    "related_concepts": [
+      "dual_channel_fragility",
+      "butterfly_spread_basis_trade_anomaly",
+      "conditioned_credit_impulse",
+      "five_year_forward_tightening_threshold"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "regime_switching_identification_lag",
+    "definition": "Markov-switching GARCH models suffer from a 10-20 day identification lag as a mathematical property of the Bayesian filtering problem, making simple threshold heuristics operationally superior for real-time regime detection. This is the highest-confidence individual claim in the analysis.",
+    "confidence": 8,
+    "evidence": [
+      "10-20 day lag is a mathematical property of the filtering problem, not dataset-specific",
+      "Documented in Ang & Timmermann (2012) and Hamilton (1989)",
+      "Unchallenged in pair_2 debate; assessed as 'well-calibrated' at 8/10"
+    ],
+    "originating_agents": [
+      "quant_researcher_01"
+    ],
+    "open_questions": [
+      "Can hybrid approaches combining model output with threshold heuristics outperform either standalone?",
+      "What specific threshold heuristics are most effective across different vol regimes?"
+    ],
+    "related_concepts": [
+      "vol_selling_complex_distribution_impact",
+      "three_category_implied_realized_taxonomy"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "supply_side_shock_correlation_regime",
+    "definition": "Supply-side shocks produce a distinct correlation regime characterized by positive stock-bond correlation and VIX-MOVE decoupling, driven by cost-push inflation forcing a central bank mandate conflict. This is overdetermined from both physical commodity episodes (1973, 1979, 2008, 2022) and New Keynesian theory (NKPC).",
+    "confidence": 8,
+    "evidence": [
+      "Identified as 'single most robust claim across both analyses' in pair_1 debate",
+      "Four major historical episodes (1973, 1979, 2008, 2022) with consistent mechanism",
+      "NK theory: cost-push inflation forces Fed mandate conflict between price stability and employment",
+      "Mechanism is well-established and empirically unambiguous"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01",
+      "macro_strategist_01",
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "What fraction of vol transitions are commodity-triggered (~30-40% historical, not majority)?",
+      "How should the 2020, 2018 Q4, and 2023 SVB non-commodity vol transitions be explained within this framework?",
+      "Does the commodity channel warrant 'upstream' status for all vol regimes or only supply-driven transitions?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "swaption_skew_asymmetric_risk",
+      "commodity_curve_vol_indicator"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "fragility_narrative_bias",
+    "definition": "The knowledge base exhibits systematic directional bias toward fragility narratives, with zero of 18 concepts exploring whether current vol levels could be correctly priced. Structural reasons vol could be fairly priced include demonstrated Fed intervention willingness (BTFP, repo facilities), improved bank capital (Basel III/IV), and 0DTE improving price discovery.",
+    "confidence": 8,
+    "evidence": [
+      "Zero of 18 KB concepts explore benign base case — factual observation",
+      "Structural reasons for fair pricing: Fed backstops, Basel III/IV, bank-to-market intermediation shift, 0DTE price discovery",
+      "Validated as 'single most important structural observation' in pair_3 debate",
+      "Fragility thesis lacks pre-committed falsification criteria"
+    ],
+    "originating_agents": [
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Should the research program define falsification criteria for the fragility thesis?",
+      "Is the absence of benign scenarios a methodological flaw or appropriate focus for tail-risk research?",
+      "What would a quantified null hypothesis for fairly priced volatility look like?"
+    ],
+    "related_concepts": [
+      "kalecki_minsky_taxonomy",
+      "vol_selling_complex_distribution_impact",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "five_year_forward_tightening_threshold",
+    "definition": "The 5y5y forward at ~4.5% (±50bp) functions as a nonlinear financial conditions tightening threshold transmitted through corporate refinancing (BBB coupon jump from ~3.0-3.5% to 5.5-6.0%), mortgage transmission (30Y fixed at 6.2-6.5%), and pension/insurance duration demand withdrawal.",
+    "confidence": 6,
+    "evidence": [
+      "Four agents independently identify the ~4.5% level",
+      "Historical analogues: 6.5% mortgage rate in 2006, 3.0% 10Y in 2018",
+      "SVB precedent: HTM losses at 10-15% of par",
+      "Pension/insurance reflexive loop: higher discount rates reduce duration demand which raises rates further",
+      "r-star decomposition (r* + 2.5% breakeven + term premium) has substantial component uncertainty"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Is a smooth increase in elasticity around 4.0-5.0% more defensible than a discrete threshold?",
+      "If r-star is 1.5% vs 2.0%, the threshold shifts by 50bp — how should this uncertainty be handled?",
+      "Does Woodford (2003) support discontinuity or merely state-dependence?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "maturity_wall_arithmetic",
+      "swaption_skew_asymmetric_risk",
+      "variance_risk_premium_rate_correlation"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "vix_up_divergence_resolution",
+    "definition": "The MOVE-VIX divergence historically resolves through VIX rising rather than MOVE compressing, based on 3/3 historical analogues (2006-07, 2014, 2017-18), supported by structural persistence of MOVE drivers versus microstructure fragility of VIX suppressors.",
+    "confidence": 6,
+    "evidence": [
+      "3/3 historical analogues resolved via equity vol spike",
+      "Structural persistence of MOVE drivers: fiscal issuance, QT, BoJ normalization",
+      "Fragility of VIX suppressors: microstructure-dependent",
+      "Bayesian posterior from 3/3 with uniform prior gives mean 80% but 95% CI is extraordinarily wide"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can the Kalecki fiscal channel permanently sustain the divergence?",
+      "Does the non-stationarity paradox invalidate transfer of 3/3 analogue resolution rate?",
+      "Do the three analogues have fundamentally different structural drivers from the current configuration?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "kalecki_fiscal_channel",
+      "vol_selling_complex_distribution_impact"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "cdx_vix_skew_divergence",
+    "definition": "CDX-VIX skew divergence is a potential leading indicator of credit stress with a 2-4 week lead, grounded in the capital structure waterfall where credit deterioration precedes equity repricing. Documented 4/5 hit rate with one false positive (mid-2019, Fed dovish pivot), but currently assessed as insufficient for standalone portfolio decisions.",
+    "confidence": 5,
+    "evidence": [
+      "4/5 hit rate: pre-Bear Stearns, pre-European crisis, pre-energy HY, pre-COVID; false positive mid-2019",
+      "Capital structure waterfall mechanism: credit deterioration precedes equity repricing",
+      "Fed reaction function is key moderating variable (explains mid-2019 false positive)",
+      "Q4 2018 was standard equity correction, not vol regime transition, weakening one cited positive"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the total false positive rate (total divergence episodes not established)?",
+      "Is the indicator usable as a standalone signal or only with corroboration?",
+      "How does the Fed reaction function moderate the signal in real-time?"
+    ],
+    "related_concepts": [
+      "swaption_skew_asymmetric_risk",
+      "dual_channel_fragility",
+      "maturity_wall_arithmetic"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "swaption_skew_asymmetric_risk",
+    "definition": "Payer skew exceeding receiver skew across the 2Y-10Y swaption surface signals asymmetric risk toward higher yields, connected to NKPC convexity where Phillips Curve steepening above potential output creates fatter right tail for rates. This pricing is inconsistent with equity market soft-landing assumptions.",
+    "confidence": 6,
+    "evidence": [
+      "Payer-receiver skew imbalance across 2Y-10Y surface is directly observable",
+      "NKPC convexity mapping: Phillips Curve steepening above potential output maps to payer skew elevation",
+      "Four structural forces push term premium one-directionally: issuance, QT, BoJ normalization, correlation shift",
+      "Historical 2/3 hit rate for significant bear-steepening from swaption skew analogues",
+      "2016 miss case: signal fails when fiscal expansion already priced"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Does the 2016 miss case apply to the current well-discussed fiscal/issuance environment?",
+      "Are only 3 prior skew configuration episodes sufficient for calibration?",
+      "How should the inconsistency with equity soft-landing pricing be traded?"
+    ],
+    "related_concepts": [
+      "supply_side_shock_correlation_regime",
+      "five_year_forward_tightening_threshold",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "conditioned_credit_impulse",
+    "definition": "Credit impulse conditioned on the Kalecki-Minsky taxonomy (fiscal-supported vs credit-supported regimes) is theoretically superior to unconditioned credit impulse for vol transition prediction. In Type A fiscal environments, credit deceleration is benign because the profit channel operates independently. Conditioned signal shows 3/3 hit rate vs 3/5 unconditioned.",
+    "confidence": 5,
+    "evidence": [
+      "Conditioned signal (credit impulse negative AND private sector deficit) shows 3/3 hit rate vs 3/5 unconditioned",
+      "Theoretical necessity: fiscal profit support and credit-driven leverage have different fragility profiles",
+      "Tested on only 4-5 US cycles with zero out-of-sample validation",
+      "2019 'hit' is potentially circular — COVID was exogenous, not Minsky-triggered",
+      "2-3 month Z.1 data lag limits real-time utility"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "Is the 2019 hit circular given COVID was an exogenous shock?",
+      "Can the 2-3 month Z.1 data lag be overcome with higher-frequency proxies?",
+      "Has any out-of-sample or cross-country validation been performed?",
+      "Is this better described as a framework worth testing (6/10) rather than a validated predictor (3/10)?"
+    ],
+    "related_concepts": [
+      "kalecki_minsky_taxonomy",
+      "maturity_wall_arithmetic",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "dual_channel_fragility",
+    "definition": "The simultaneous presence of basis trade concentration ($800B-$1T) and CLO arbitrage dependence creates unprecedented amplification risk, where a MOVE spike to 140+ simultaneously triggers basis trade margin calls and widens CLO AAA spreads past the SOFR+200 arbitrage-killing threshold.",
+    "confidence": 6,
+    "evidence": [
+      "March 2020 partial support: basis trade unwinds of ~$200-300B when MOVE hit 160+",
+      "$800B-$1T basis trade at 50-100x leverage is documented",
+      "CLO AAA spread threshold at SOFR+200 for arbitrage viability",
+      "BoJ-maturity wall timing overlap: Japanese holders of 20-30% CLO AAA tranches potentially repatriating",
+      "Simultaneous activation of both channels has no historical precedent at current scale"
+    ],
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "What is the precise MOVE trigger level for basis trade margin calls?",
+      "Has post-2023 regulatory attention reduced basis trade concentration?",
+      "What is the joint probability of simultaneous channel activation (conjunction fallacy concern)?",
+      "Does the hedged-vs-directional split in vol-selling complex affect the cascade mechanism?"
+    ],
+    "related_concepts": [
+      "butterfly_spread_basis_trade_anomaly",
+      "basis_trade_concentration",
+      "maturity_wall_arithmetic"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "kalecki_minsky_taxonomy",
+    "definition": "A framework classifying low-volatility environments into Type A (fiscal-supported, where government deficits sustain corporate profits) and Type B (credit-supported, where private leverage drives earnings), with different fragility profiles. Computable via Government Deficit/GDP minus Change in Private Debt/GDP. Useful as a heuristic but not validated as a predictor.",
+    "confidence": 5,
+    "evidence": [
+      "Conceptual distinction is logically necessary — fiscal and credit mechanisms produce different fragility",
+      "Diagnostic is computable from national accounts data",
+      "4/4 historical classification accuracy but 95% binomial CI is [0.40, 1.00]",
+      "n=3-4 US cycles, zero out-of-sample tests, 2-3 month data lag",
+      "No cross-country testing despite available variation (UK, Eurozone, Japan)"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01",
+      "quant_researcher_01",
+      "challenger_02"
+    ],
+    "open_questions": [
+      "Is the framework unfalsifiable as challenger_02 claims?",
+      "Can cross-country testing (UK austerity, Eurozone fiscal rules, Japan fiscal dominance) validate it?",
+      "Does the boundary classification involve unacceptable judgment calls?",
+      "How does the 2-3 month data lag affect real-time utility?"
+    ],
+    "related_concepts": [
+      "conditioned_credit_impulse",
+      "kalecki_fiscal_channel",
+      "cross_asset_vol_divergence",
+      "fragility_narrative_bias"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "private_credit_appraisal_smoothing",
+    "definition": "Private credit ($1.7T+) understates true economic volatility via appraisal-based NAV pricing with autocorrelation of 0.5-0.7, creating hidden factor exposure in multi-asset portfolios. True volatility is ~1.3-1.8x reported (not 2-3x as originally claimed, which confused variance and volatility adjustments).",
+    "confidence": 6,
+    "evidence": [
+      "Geltner (1993) and Getmansky-Lo-Makarov (2004) unsmoothing methodology is well-established",
+      "NAV return autocorrelation of 0.5-0.7 is directly observable",
+      "AR(1) Geltner correction with rho=0.6 yields sigma_true ~1.25x reported",
+      "With rho=0.7, variance multiplier is 3.3x but volatility multiplier is only ~1.8x",
+      "Direction is uncontroversial in academic literature; 2-3x magnitude was overstated by ~40-60%"
+    ],
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "open_questions": [
+      "What is the appropriate smoothing order for the correction (AR(1) vs higher-order)?",
+      "How does hidden factor exposure distort multi-asset portfolio optimization in practice?",
+      "Does private credit vol understatement create measurable systemic risk?"
+    ],
+    "related_concepts": [
+      "maturity_wall_arithmetic",
+      "dual_channel_fragility"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "kalecki_fiscal_channel",
+    "definition": "The mechanism by which government fiscal deficits at 6-7% of GDP directly sustain corporate earnings (8-10% EPS growth) via the Kalecki profit equation, simultaneously suppressing equity volatility while requiring $2T+ annual Treasury issuance that elevates rates volatility. A foundational mechanism for understanding the cross-asset vol divergence.",
+    "confidence": 8,
+    "evidence": [
+      "Kalecki profit equation links fiscal deficit to corporate profit support",
+      "Deficit-to-EPS transmission observable in national accounts data",
+      "Provides structural explanation for MOVE-VIX divergence",
+      "Identified as key mechanism by six of eight agents"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "open_questions": [
+      "Is the channel as potent when deficit is interest-expense-driven (~$1T to bondholders with low MPCs) vs spending-driven?",
+      "Does fiscal deficit composition matter for the VIX-suppressing channel?",
+      "Could deficit narrowing invert the divergence (VIX up, MOVE down)?"
+    ],
+    "related_concepts": [
+      "cross_asset_vol_divergence",
+      "vix_up_divergence_resolution",
+      "kalecki_minsky_taxonomy"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "basis_trade_concentration",
+    "definition": "Treasury basis trades at $800B-$1T notional with 50-100x leverage represent a documented fragility in US Treasury markets, distorting the yield curve butterfly, creating funding-liquidity vulnerability to MOVE spikes, and concentrating risk in a small number of leveraged intermediaries.",
+    "confidence": 7,
+    "evidence": [
+      "CFTC positioning data documents the concentration",
+      "March 2020 basis trade unwinds of ~$200-300B when MOVE hit 160+",
+      "Directly observable distortion of 2s5s10s butterfly spread",
+      "Scale ($800B-$1T) is 3-4x the 2006 analogue ($200-300B)"
+    ],
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "open_questions": [
+      "What is the precise MOVE level that triggers margin calls?",
+      "Has post-2023 regulatory attention reduced concentration or pushed it to less visible structures?",
+      "What is the hedged-vs-directional split in the basis trade complex?"
+    ],
+    "related_concepts": [
+      "butterfly_spread_basis_trade_anomaly",
+      "dual_channel_fragility",
+      "maturity_wall_arithmetic"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "commodity_curve_vol_indicator",
+    "definition": "Commodity futures curve structure (backwardation/contango) is directionally plausible as a leading indicator of supply-driven vol regime shifts, but the evidence does not survive scrutiny: n=5 with one major exception (2020), the 2014 case worked in reverse, and the false positive rate is uncharacterized.",
+    "confidence": 4,
+    "evidence": [
+      "Backwardation signals inventory depletion and supply inelasticity",
+      "n=5 historical episodes",
+      "2020 exception (decade's largest vol event) undermines the claim",
+      "2014 case: contango as break signal (opposite direction)",
+      "False positive rate completely uncharacterized"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Can false positive calibration be performed across the full backwardation history?",
+      "Is backwardation a necessary but insufficient condition for supply-driven vol?",
+      "Does the indicator have any value in combination with other signals?"
+    ],
+    "related_concepts": [
+      "supply_side_shock_correlation_regime",
+      "green_metals_supply_inelasticity"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "gold_fair_value_residual",
+    "definition": "Gold trading $400-600/oz above real-rate model fair value, mechanistically linked to central bank buying (~1,000+ tonnes/year), proposed as a monetary regime uncertainty diagnostic. Called 'the most creative claim' but limited by three-episode evidence base and 1-2 quarter reporting lag on central bank purchases.",
+    "confidence": 4,
+    "evidence": [
+      "Residual is observable and mechanistically linked to central bank buying",
+      "Three-episode evidence base (2007, 2019, current)",
+      "1-2 quarter reporting lag on central bank purchases limits real-time utility",
+      "Causal direction unresolved: gold leading vol vs both responding to common factors"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "What is the precise dating of the lead relationship between gold residual and vol transitions?",
+      "Is gold leading vol or are both responding to common monetary regime factors with different lags?",
+      "Can the 1-2 quarter reporting lag be overcome with proxies?"
+    ],
+    "related_concepts": [
+      "supply_side_shock_correlation_regime",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "green_metals_supply_inelasticity",
+    "definition": "Copper supply constraints (7-12 year mine development timeline, 1-2% supply growth vs 3-5% electrification demand growth) create a projected deficit for 2026-2028 that could serve as a structural commodity vol floor. The timing coincidence with the credit maturity wall is potentially significant but involves a long causal chain.",
+    "confidence": 4,
+    "evidence": [
+      "7-12 year mine development timeline is a physical constraint",
+      "1-2% supply growth vs 3-5% electrification demand growth",
+      "Timing coincidence with credit maturity wall",
+      "Vol transmission mechanism involves long causal chain: commodity scarcity to capex uncertainty to inflation to rates vol"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "How many links in the causal chain (commodity scarcity to vol) introduce meaningful uncertainty?",
+      "Is the maturity wall timing coincidence meaningful or spurious?",
+      "Can copper substitution or recycling offset the supply deficit?"
+    ],
+    "related_concepts": [
+      "commodity_curve_vol_indicator",
+      "maturity_wall_arithmetic",
+      "supply_side_shock_correlation_regime"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "three_category_implied_realized_taxonomy",
+    "definition": "A taxonomy classifying vol transitions into three categories: (a) surprise, (b) telegraphed-wrong-footed (direction known but positioning incorrect), and (c) telegraphed-correctly-positioned. Superior to binary surprise/telegraphed framework. The December 2018 analogue illustrates category (b). Current environment classified as most resembling category (c).",
+    "confidence": 5,
+    "evidence": [
+      "Identified as 'clearly stronger' than binary framework in pair_0 debate",
+      "December 2018 analogue captures real distinction of telegraphed direction with wrong-footed positioning",
+      "Classification of current environment as category (c) is important correction to rates vol underpricing thesis",
+      "8-episode sample with ex-post classification"
+    ],
+    "originating_agents": [
+      "generalist_02"
+    ],
+    "open_questions": [
+      "Can the taxonomy be used for prediction with only an 8-episode sample?",
+      "Is ex-post classification reliable enough for forward-looking assessment?",
+      "How do commodity-triggered transitions (inherently surprise) interact with this framework?"
+    ],
+    "related_concepts": [
+      "regime_switching_identification_lag",
+      "supply_side_shock_correlation_regime",
+      "cross_asset_vol_divergence"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "opec_fragmentation_vol_source",
+    "definition": "OPEC+ fragmentation (particularly UAE exit) as a distinct source of oil volatility. Self-refuted by the originating agent: 'assigning high probability to fragmentation has been a losing bet for years.' No calibration data exists for true OPEC fragmentation in the modern financial era.",
+    "confidence": 3,
+    "evidence": [
+      "UAE-exit scenario is plausible but predicted without materializing for 3+ years",
+      "Self-refuted by originating agent",
+      "No historical precedent for true OPEC fragmentation in modern financial era",
+      "No calibration data exists"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "Under what conditions would OPEC fragmentation actually materialize?",
+      "What would be the vol transmission mechanism if fragmentation occurred?",
+      "Is the persistent non-materialization evidence against the thesis or just timing uncertainty?"
+    ],
+    "related_concepts": [
+      "oil_cost_curve_vol_attractor",
+      "supply_side_shock_correlation_regime"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "oil_cost_curve_vol_attractor",
+    "definition": "Shale breakeven economics create a vol-attractor band for oil prices ($65-75/bbl floor, $90-100/bbl ceiling), with within-band self-regulation and outside-band amplification. The attractor band may be narrowing due to shale treadmill effects, but this is unvalidated.",
+    "confidence": 5,
+    "evidence": [
+      "Shale economics are well-documented",
+      "Mechanism (within-band self-regulation, outside-band amplification) is intuitive",
+      "Specific breakeven ranges subject to service cost inflation/deflation",
+      "Not corroborated by other agents"
+    ],
+    "originating_agents": [
+      "commodities_analyst_01"
+    ],
+    "open_questions": [
+      "How do service cost changes shift the attractor band over time?",
+      "Is the band narrowing due to shale treadmill effects?",
+      "How does the attractor interact with OPEC+ policy decisions?"
+    ],
+    "related_concepts": [
+      "opec_fragmentation_vol_source",
+      "supply_side_shock_correlation_regime",
+      "commodity_curve_vol_indicator"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  }
+]

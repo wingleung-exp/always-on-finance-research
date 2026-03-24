@@ -1,0 +1,35 @@
+{
+  "slug": "basis_trade_concentration",
+  "definition": "Treasury basis trades at $800B-$1T notional with 50-100x leverage represent a documented fragility in US Treasury markets, distorting the yield curve butterfly, creating funding-liquidity vulnerability to MOVE spikes, and concentrating risk in a small number of leveraged intermediaries.",
+  "confidence": 7,
+  "evidence": [
+    "CFTC positioning data documents the concentration",
+    "March 2020 basis trade unwinds of ~$200-300B when MOVE hit 160+",
+    "Directly observable distortion of 2s5s10s butterfly spread",
+    "Scale ($800B-$1T) is 3-4x the 2006 analogue ($200-300B)"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "What is the precise MOVE level that triggers margin calls?",
+    "Has post-2023 regulatory attention reduced concentration or pushed it to less visible structures?",
+    "What is the hedged-vs-directional split in the basis trade complex?"
+  ],
+  "related_concepts": [
+    "butterfly_spread_basis_trade_anomaly",
+    "dual_channel_fragility",
+    "maturity_wall_arithmetic"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

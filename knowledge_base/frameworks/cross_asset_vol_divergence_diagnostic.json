@@ -1,0 +1,29 @@
+{
+  "slug": "cross_asset_vol_divergence_diagnostic",
+  "purpose": "Diagnoses the macro state embedded in cross-asset volatility divergences and identifies likely resolution paths using the SDF inconsistency framework",
+  "components": [
+    "MOVE level (100-120): reflects fiscal issuance uncertainty, QT, BoJ normalization",
+    "VIX level (13-18): reflects Kalecki earnings support + vol-selling complex suppression",
+    "G10 FX vol (7-9%): reflects carry-trade positioning into rate differentials",
+    "SDF inconsistency: cross-asset divergence as violation of single stochastic discount factor",
+    "Kalecki fiscal channel as structural explanation for divergence",
+    "Historical analogue comparison (2006-07, 2014, 2017-18)",
+    "Resolution probability assessment: VIX-up vs MOVE-down"
+  ],
+  "current_assessment": "The divergence is diagnostically meaningful (8/10 confidence) but timing-uncertain. The Kalecki fiscal channel provides a structural explanation that could represent either a transitional state or a novel equilibrium. The non-stationarity paradox (structural microstructure change AND historical analogue validity cannot both be fully true) remains unresolved. Resolution direction is likely VIX-up (6/10) but precision is unjustified by the n=3 evidence base.",
+  "limitations": [
+    "n=3 historical analogues with structurally different drivers",
+    "Bayesian posterior on resolution timing has 95% CI statistically indistinguishable from coin flip",
+    "Non-stationarity paradox remains unresolved",
+    "Kalecki fiscal channel may represent genuinely novel regime",
+    "No mechanism for concluding vol is fairly priced (fragility narrative bias)"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

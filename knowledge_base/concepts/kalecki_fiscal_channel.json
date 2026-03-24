@@ -1,27 +1,18 @@
 {
   "slug": "kalecki_fiscal_channel",
   "definition": "The Kalecki-Levy identity mechanically channels fiscal deficits (currently 6-7% of GDP) to corporate profits, simultaneously sustaining interest coverage ratios (supporting credit quality) and the P/E denominator (supporting equity valuations). The system's current resilience is fiscally contingent, not structurally earned. Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters.",
-  "confidence": 7.5,
+  "confidence": 7.6,
   "evidence": [
-    "Kalecki-Levy identity mechanically channels fiscal deficits to corporate profits",
-    "Pair_2 debate identified this as the most important consensus finding",
-    "Fiscal consolidation exceeding 2pp GDP would trigger credit cycle downshift within 4-6 quarters per Minsky-Kalecki framework",
-    "Artificial decorrelation between credit spreads and equity risk premia is a Minsky speculative phase signal",
-    "Kalecki floor is sufficient for IG/upper HY but insufficient for lower HY/leveraged loans where firm-level interest expense overwhelms aggregate demand support",
-    "S&P 500 EPS grew ~8-10% annualized through 2024-2025 despite restrictive monetary policy",
-    "Same fiscal spending requires $2T+ annual Treasury issuance",
-    "Mechanism undisputed in debates — disagreement only on sustainability",
-    "Fiscal arithmetic is observable and undisputed",
-    "Both resolution paths are vol events",
-    "Kalecki identity: Profits = Investment + Deficits + Net Exports - Savings",
-    "Every 100bp of rate hikes generates ~$250-320B additional government interest payments",
-    "10-25% of fiscal interest payments recycle as spending",
     "Estimated 100-150bp of spread suppression, though residual-based attribution with wide uncertainty (50-200bp)",
     "Fed Flow of Funds (Z.1) data",
     "S&P 500 earnings-to-fiscal-deficit tracking since 2020",
     "Godley's 1999 Levy Institute prediction as out-of-sample validation",
     "Independent derivation by generalist_01 and macro_strategist_02 of $20-40/share estimate",
-    "Reflexive loop: deficits sustain earnings sustain valuations sustain wealth effect sustain consumption"
+    "Reflexive loop: deficits sustain earnings sustain valuations sustain wealth effect sustain consumption",
+    "Kalecki profit equation links fiscal deficit to corporate profit support",
+    "Deficit-to-EPS transmission observable in national accounts data",
+    "Provides structural explanation for MOVE-VIX divergence",
+    "Identified as key mechanism by six of eight agents"
   ],
   "originating_agents": [
     "macro_strategist_01",
@@ -34,18 +25,14 @@
     "challenger_02"
   ],
   "open_questions": [
-    "Can fiscal deficits indefinitely mask credit deterioration?",
-    "What is the interaction between micro credit stress (maturity wall at firm level) and macro profit support (fiscal deficits at aggregate level)?",
-    "Is the threshold number of simultaneous defaults required to overwhelm the Kalecki floor reachable during the maturity wall window?",
-    "Is the fiscal regime sustainable?",
-    "Does resolution come benignly (fiscal consolidation) or violently (fiscal crisis)?",
-    "At what deficit/GDP level does the fiscal channel exhaust itself?",
-    "Can the dual channel sustain the divergence indefinitely?",
     "What is the precise magnitude of the fiscal offset to monetary tightening?",
     "How sustainable is this channel given the fiscal trajectory?",
     "Political probability and timeline for fiscal consolidation",
     "Whether reflexive loop can persist without accelerating deficit growth",
-    "DOGE impact on fiscal trajectory"
+    "DOGE impact on fiscal trajectory",
+    "Is the channel as potent when deficit is interest-expense-driven (~$1T to bondholders with low MPCs) vs spending-driven?",
+    "Does fiscal deficit composition matter for the VIX-suppressing channel?",
+    "Could deficit narrowing invert the divergence (VIX up, MOVE down)?"
   ],
   "related_concepts": [
     "higher_pain_threshold_destabilizing",
@@ -62,17 +49,20 @@
     "structural_inflation_shift",
     "fiscal_consolidation_risk",
     "equity_cycle_macro_causation",
-    "late_expansion_fiscal_obscured"
+    "late_expansion_fiscal_obscured",
+    "vix_up_divergence_resolution",
+    "kalecki_minsky_taxonomy"
   ],
   "topic": "credit_equity_linkage",
   "created_at": "2026-03-22T18:21:43Z",
-  "last_updated": "2026-03-23T06:06:24Z",
+  "last_updated": "2026-03-24T03:11:09Z",
   "originating_iteration": "iter_0004",
-  "research_iterations": 4,
+  "research_iterations": 5,
   "iteration_history": [
     "iter_0004",
     "iter_0010",
     "iter_0023",
-    "iter_0024"
+    "iter_0024",
+    "iter_0045"
   ]
 }

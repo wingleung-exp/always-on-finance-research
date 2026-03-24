@@ -1,0 +1,27 @@
+{
+  "slug": "three_category_implied_realized_taxonomy",
+  "purpose": "Classifies vol transition events by their predictability and market positioning to determine appropriate hedging strategy",
+  "components": [
+    "Category (a) Surprise: genuinely unanticipated vol event (e.g., 9/11, COVID initial shock)",
+    "Category (b) Telegraphed-wrong-footed: direction known but market positioning is incorrect (e.g., December 2018)",
+    "Category (c) Telegraphed-correctly-positioned: direction known and market is positioned accordingly (reduced vol event)",
+    "Classification implies different optimal hedging strategies for each category",
+    "Interaction with commodity-triggered surprises as a distinct sub-category"
+  ],
+  "current_assessment": "Current environment classified as most resembling category (c) — telegraphed and correctly positioned. This is a critical correction to the rates vol underpricing thesis: if risks are well-known and positioned for, the vol event magnitude may be substantially reduced. The macro_strategist_01 assigns 25-35% surprise probability with Sharpe ~0.2-0.3 for vol buying, consistent with category (c).",
+  "limitations": [
+    "8-episode sample with ex-post classification only",
+    "Insufficient for validated prediction",
+    "Distinction between 'telegraphed thesis' and 'correctly positioned market' is under-explored",
+    "Commodity-triggered transitions (inherently surprises) may not fit cleanly",
+    "No quantitative framework for assessing positioning correctness in real-time"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

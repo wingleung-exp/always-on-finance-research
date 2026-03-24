@@ -1,0 +1,36 @@
+{
+  "slug": "butterfly_spread_basis_trade_anomaly",
+  "definition": "The 2s5s10s butterfly spread at -15 to -25bp (vs -5bp historical average, 2-4 standard deviations from post-2010 mean) is a direct artifact of basis trade concentration ($800B-$1T at 50-100x leverage) pinning the 5Y belly, creating funding-liquidity vulnerability that would normalize violently if basis trades unwind.",
+  "confidence": 7,
+  "evidence": [
+    "Four agents independently converge on mechanism and historical precedent",
+    "2006-07 analogue and March 2020 mini-episode producing 30bp+ move in 3 days",
+    "Anomaly at 2-4 standard deviations from post-2010 average is directly observable",
+    "Policy path anchoring at 5Y vs term premium explosion at 10Y vs basis trade distortion",
+    "Scale difference ($800B-$1T vs $200-300B in 2006) makes this genuinely unprecedented territory"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "What is the precise MOVE level that triggers basis trade margin calls (identified as 'single most important gap')?",
+    "Is the appropriate normalization magnitude 20-40bp or 40-60bp?",
+    "Does the nonlinear system invalidate linear scaling from the 2006 analogue?"
+  ],
+  "related_concepts": [
+    "basis_trade_concentration",
+    "dual_channel_fragility",
+    "maturity_wall_arithmetic"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "kalecki_minsky_low_vol_taxonomy",
+    "purpose": "Classifies low-volatility environments by their underlying support mechanism to predict different fragility profiles and vol transition pathways",
+    "components": [
+      "Type A: Fiscal-supported low vol — government deficits sustain corporate profits independently of credit conditions",
+      "Type B: Credit-supported low vol — private leverage drives earnings, creating Minsky-fragile conditions",
+      "Diagnostic: Government Deficit/GDP minus Change in Private Debt/GDP",
+      "Conditioned credit impulse: credit deceleration is benign in Type A but a warning in Type B",
+      "Historical classification of US cycles into Type A vs Type B"
+    ],
+    "current_assessment": "Current environment classified as Type A (fiscal-supported) with 6-7% deficit/GDP. This implies credit deceleration is NOT a vol transition signal. However, the framework is validated on only n=3-4 US cycles with zero out-of-sample testing. 95% binomial CI for 4/4 accuracy is [0.40, 1.00]. Both fragility advocates and skeptics agree it is under-validated.",
+    "limitations": [
+      "n=3-4 US cycles only, zero out-of-sample validation",
+      "2-3 month Z.1 data lag limits real-time utility",
+      "95% binomial CI [0.40, 1.00] is statistically indistinguishable from chance",
+      "Boundary classification involves acknowledged judgment calls",
+      "No cross-country testing despite available variation (UK, Eurozone, Japan)",
+      "Challenger_02 calls it 'unfalsifiable framework masquerading as a diagnostic'",
+      "Does not address whether interest-expense-driven deficits operate same as spending-driven deficits"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "three_category_implied_realized_taxonomy",
+    "purpose": "Classifies vol transition events by their predictability and market positioning to determine appropriate hedging strategy",
+    "components": [
+      "Category (a) Surprise: genuinely unanticipated vol event (e.g., 9/11, COVID initial shock)",
+      "Category (b) Telegraphed-wrong-footed: direction known but market positioning is incorrect (e.g., December 2018)",
+      "Category (c) Telegraphed-correctly-positioned: direction known and market is positioned accordingly (reduced vol event)",
+      "Classification implies different optimal hedging strategies for each category",
+      "Interaction with commodity-triggered surprises as a distinct sub-category"
+    ],
+    "current_assessment": "Current environment classified as most resembling category (c) — telegraphed and correctly positioned. This is a critical correction to the rates vol underpricing thesis: if risks are well-known and positioned for, the vol event magnitude may be substantially reduced. The macro_strategist_01 assigns 25-35% surprise probability with Sharpe ~0.2-0.3 for vol buying, consistent with category (c).",
+    "limitations": [
+      "8-episode sample with ex-post classification only",
+      "Insufficient for validated prediction",
+      "Distinction between 'telegraphed thesis' and 'correctly positioned market' is under-explored",
+      "Commodity-triggered transitions (inherently surprises) may not fit cleanly",
+      "No quantitative framework for assessing positioning correctness in real-time"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "dual_channel_fragility_framework",
+    "purpose": "Maps the simultaneous fragility channels (basis trade + CLO arbitrage) that share a common MOVE trigger to identify amplification risk and critical thresholds",
+    "components": [
+      "Basis trade channel: $800B-$1T at 50-100x leverage, MOVE spike triggers margin calls and forced unwinds",
+      "CLO arbitrage channel: CLO AAA spreads exceeding SOFR+200 kills formation arbitrage",
+      "Common MOVE trigger: ~140+ activates both channels simultaneously",
+      "BoJ timing overlay: Japanese holders of 20-30% CLO AAA tranches with potential repatriation",
+      "Maturity wall timing: peak refinancing period overlaps with potential dual-channel stress window",
+      "VRP barbell: higher rates make hedges more expensive AND more effective when activated"
+    ],
+    "current_assessment": "Both channels are present at unprecedented scale but have not been simultaneously activated. The precise MOVE trigger level for basis trade margin calls is unknown — identified as the 'single most important gap' in the analysis. The conjunction of both channels activating simultaneously has no historical precedent, making the joint probability assessment speculative. Collective tail probability estimated at 25-35% for at least one scenario activating, vs ~10-15% market-implied.",
+    "limitations": [
+      "Simultaneous activation has no historical precedent at current scale",
+      "Precise MOVE trigger level for margin calls unknown",
+      "Conjunction fallacy critique: individual probabilities compound to low joint probability",
+      "Post-2023 regulatory attention may have reduced concentration",
+      "Basis trade notional range spans $400B-$1.5T (3x uncertainty range)",
+      "Strategies have different risk profiles, triggers, and gamma exposures"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "cross_asset_vol_divergence_diagnostic",
+    "purpose": "Diagnoses the macro state embedded in cross-asset volatility divergences and identifies likely resolution paths using the SDF inconsistency framework",
+    "components": [
+      "MOVE level (100-120): reflects fiscal issuance uncertainty, QT, BoJ normalization",
+      "VIX level (13-18): reflects Kalecki earnings support + vol-selling complex suppression",
+      "G10 FX vol (7-9%): reflects carry-trade positioning into rate differentials",
+      "SDF inconsistency: cross-asset divergence as violation of single stochastic discount factor",
+      "Kalecki fiscal channel as structural explanation for divergence",
+      "Historical analogue comparison (2006-07, 2014, 2017-18)",
+      "Resolution probability assessment: VIX-up vs MOVE-down"
+    ],
+    "current_assessment": "The divergence is diagnostically meaningful (8/10 confidence) but timing-uncertain. The Kalecki fiscal channel provides a structural explanation that could represent either a transitional state or a novel equilibrium. The non-stationarity paradox (structural microstructure change AND historical analogue validity cannot both be fully true) remains unresolved. Resolution direction is likely VIX-up (6/10) but precision is unjustified by the n=3 evidence base.",
+    "limitations": [
+      "n=3 historical analogues with structurally different drivers",
+      "Bayesian posterior on resolution timing has 95% CI statistically indistinguishable from coin flip",
+      "Non-stationarity paradox remains unresolved",
+      "Kalecki fiscal channel may represent genuinely novel regime",
+      "No mechanism for concluding vol is fairly priced (fragility narrative bias)"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "macro_scenario_probability_table",
+    "purpose": "Maps internally consistent scenarios from macro conditions through to vol regime outcomes with explicit probability weights",
+    "components": [
+      "Five-scenario probability table with consistent macro-to-vol mappings",
+      "Taylor Rule coefficient assessment (effective ~1.0-1.2 vs standard 1.5) indicating partial fiscal dominance",
+      "Calibrated MOVE fair value range (115-130) with explicit surprise discount",
+      "Surprise probability assessment (25-35%)",
+      "Sharpe ratio for vol buying (~0.2-0.3 in current environment)",
+      "10% credit event probability assignment"
+    ],
+    "current_assessment": "The framework suggests vol buying has a modestly positive expected value but low Sharpe ratio given the telegraphed nature of current risks. The partial fiscal dominance diagnosis (Taylor Rule coefficient ~1.0-1.2) correctly identifies the current regime but the five-scenario mapping is mechanistic and may not capture nonlinear interactions between scenarios.",
+    "limitations": [
+      "Probability assignments are point estimates without confidence intervals",
+      "Scenarios may not be independent (correlation not modeled)",
+      "Taylor Rule coefficient estimate is itself uncertain",
+      "Does not account for fiscal deficit composition effects on Kalecki channel potency"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "slug": "oil_cost_curve_bracketing",
+    "purpose": "Uses shale breakeven economics to define a vol-attractor band for oil prices that creates within-band self-regulation and outside-band amplification",
+    "components": [
+      "Floor: $65-75/bbl (shale production shut-in/curtailment threshold)",
+      "Ceiling: $90-100/bbl (shale production growth acceleration threshold)",
+      "Within-band: self-regulating production response dampens price vol",
+      "Outside-band: positive feedback amplifies price movements",
+      "Shale treadmill effect: potential narrowing of the attractor band over time"
+    ],
+    "current_assessment": "The mechanism is intuitive and grounded in well-documented shale economics, but not corroborated by other agents. The specific breakeven ranges are subject to service cost inflation/deflation. The claim that the band may be narrowing is unvalidated.",
+    "limitations": [
+      "Not corroborated by other agents",
+      "Breakeven ranges shift with service costs",
+      "Band narrowing claim is unvalidated",
+      "Interaction with OPEC+ policy not modeled",
+      "Single-agent analysis with no debate challenge"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "variance_risk_premium_rate_correlation",
+  "definition": "The variance risk premium (VRP) is positively correlated with the level of interest rates, as symmetric distribution at 4.5% widens physical variance relative to ZLB-era compression. VRP averaged 30-45bp in low-rate regimes vs 15-25bp in high-rate regimes, structurally altering vol-selling strategy economics relative to 1990-2020 calibrations.",
+  "confidence": 7,
+  "evidence": [
+    "NK derivation: distribution truncation at ZLB compresses physical variance; symmetric distribution at 4.5% widens it",
+    "Mechanical channels: financing costs, discount rates, macro uncertainty",
+    "Historical decomposition: VRP 30-45bp in low-rate regimes vs 15-25bp in high-rate regimes",
+    "Cieslak-Povala (2015) and Mueller-Vedolin-Zhou (2019) empirical grounding",
+    "Identified as 'the most actionable' insight in pair_1 debate"
+  ],
+  "originating_agents": [
+    "macro_strategist_01",
+    "risk_analyst_01",
+    "quant_researcher_02",
+    "generalist_02",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does the weaker version (VRP strategies overstate expected returns) or stronger version (VRP strategies are invalidated) hold?",
+    "How large is the VRP adjustment needed for current rate levels?",
+    "Is the cross-asset VRP trade (own rates vol / sell equity vol) actionable given the asymmetry?"
+  ],
+  "related_concepts": [
+    "cross_asset_vol_divergence",
+    "vol_selling_complex_distribution_impact",
+    "five_year_forward_tightening_threshold"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

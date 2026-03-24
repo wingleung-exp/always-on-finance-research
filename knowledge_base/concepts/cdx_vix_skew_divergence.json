@@ -1,0 +1,35 @@
+{
+  "slug": "cdx_vix_skew_divergence",
+  "definition": "CDX-VIX skew divergence is a potential leading indicator of credit stress with a 2-4 week lead, grounded in the capital structure waterfall where credit deterioration precedes equity repricing. Documented 4/5 hit rate with one false positive (mid-2019, Fed dovish pivot), but currently assessed as insufficient for standalone portfolio decisions.",
+  "confidence": 5,
+  "evidence": [
+    "4/5 hit rate: pre-Bear Stearns, pre-European crisis, pre-energy HY, pre-COVID; false positive mid-2019",
+    "Capital structure waterfall mechanism: credit deterioration precedes equity repricing",
+    "Fed reaction function is key moderating variable (explains mid-2019 false positive)",
+    "Q4 2018 was standard equity correction, not vol regime transition, weakening one cited positive"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02",
+    "macro_strategist_01",
+    "risk_analyst_01"
+  ],
+  "open_questions": [
+    "What is the total false positive rate (total divergence episodes not established)?",
+    "Is the indicator usable as a standalone signal or only with corroboration?",
+    "How does the Fed reaction function moderate the signal in real-time?"
+  ],
+  "related_concepts": [
+    "swaption_skew_asymmetric_risk",
+    "dual_channel_fragility",
+    "maturity_wall_arithmetic"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

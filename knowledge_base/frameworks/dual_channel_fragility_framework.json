@@ -1,0 +1,29 @@
+{
+  "slug": "dual_channel_fragility_framework",
+  "purpose": "Maps the simultaneous fragility channels (basis trade + CLO arbitrage) that share a common MOVE trigger to identify amplification risk and critical thresholds",
+  "components": [
+    "Basis trade channel: $800B-$1T at 50-100x leverage, MOVE spike triggers margin calls and forced unwinds",
+    "CLO arbitrage channel: CLO AAA spreads exceeding SOFR+200 kills formation arbitrage",
+    "Common MOVE trigger: ~140+ activates both channels simultaneously",
+    "BoJ timing overlay: Japanese holders of 20-30% CLO AAA tranches with potential repatriation",
+    "Maturity wall timing: peak refinancing period overlaps with potential dual-channel stress window",
+    "VRP barbell: higher rates make hedges more expensive AND more effective when activated"
+  ],
+  "current_assessment": "Both channels are present at unprecedented scale but have not been simultaneously activated. The precise MOVE trigger level for basis trade margin calls is unknown — identified as the 'single most important gap' in the analysis. The conjunction of both channels activating simultaneously has no historical precedent, making the joint probability assessment speculative. Collective tail probability estimated at 25-35% for at least one scenario activating, vs ~10-15% market-implied.",
+  "limitations": [
+    "Simultaneous activation has no historical precedent at current scale",
+    "Precise MOVE trigger level for margin calls unknown",
+    "Conjunction fallacy critique: individual probabilities compound to low joint probability",
+    "Post-2023 regulatory attention may have reduced concentration",
+    "Basis trade notional range spans $400B-$1.5T (3x uncertainty range)",
+    "Strategies have different risk profiles, triggers, and gamma exposures"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

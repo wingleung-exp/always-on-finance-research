@@ -1,0 +1,37 @@
+{
+  "slug": "vol_selling_complex_distribution_impact",
+  "definition": "The $400-600B notional vol-selling complex (0DTE at ~45-50% of SPX volume, covered call ETFs grown from $5B to $80B+, systematic variance selling) has structurally altered SPX return distributions — producing thinner body and fatter tails — increasing >3-sigma move frequency while reducing average realized volatility.",
+  "confidence": 7,
+  "evidence": [
+    "0DTE at 45-50% of SPX volume is directly observable",
+    "Covered call ETFs grew from $5B to $80B+",
+    "Mechanical gamma-pinning and tail-concentration effects supported by Barbon & Buraschi (2024)",
+    "Post-structural-break sample is ~4-5 years with no formal KS or Hill estimator comparison",
+    "30-50% Sharpe overstatement claimed but challenged as asserted without derivation"
+  ],
+  "originating_agents": [
+    "quant_researcher_01",
+    "quant_researcher_02",
+    "risk_analyst_01",
+    "generalist_01"
+  ],
+  "open_questions": [
+    "Does the ~4-5 year post-structural-break sample support formal statistical testing of distribution change?",
+    "How do covered call ETFs behave in a sustained bear market (untested, parallels to pre-2008 CDO structural demand)?",
+    "What is the hedged-vs-directional split in the $400B-$1.5T notional range?",
+    "Is the 30-50% Sharpe overstatement derivable or merely asserted?"
+  ],
+  "related_concepts": [
+    "variance_risk_premium_rate_correlation",
+    "fragility_narrative_bias",
+    "cross_asset_vol_divergence"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

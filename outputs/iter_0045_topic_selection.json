@@ -1,0 +1,91 @@
+{
+  "selected_topic": "volatility_regimes",
+  "display_name": "Volatility Regime Analysis & Vol Surface Dynamics",
+  "category": "asset_class_dynamics",
+  "mode": "overview",
+  "depth_level": 1,
+  "confidence_score": 7.1,
+  "score": 59.92,
+  "focus": {
+    "knowledge_gaps": [
+      "The 5y5y forward at approximately 4.5% is a threshold where it shifts from passive indicator to active financial conditions tightener",
+      "The variance risk premium is positively correlated with rate levels, invalidating VRP strategies calibrated on the 1990-2020 low-rate sample",
+      "Implied vs realized vol spread under policy uncertainty",
+      "Swaption skew currently signals asymmetric risk toward higher yields and bear-steepening term premium expansion",
+      "Credit impulse conditioned on private sector balance is a superior vol transition indicator with reduced false positive rate",
+      "CDX-VIX skew divergence is a leading indicator of credit stress episodes",
+      "The butterfly spread anomaly (2s5s10s kink at 10Y negative 15-25bp vs post-2010 average of negative 5bp) is a vol-regime artifact that will normalize violently if basis trades unwind",
+      "Rates vol underpricing thesis validation"
+    ],
+    "connections_to_explore": [
+      "rates_equity_correlation",
+      "monetary_policy",
+      "risk_appetite_regimes"
+    ],
+    "instruction": "Build foundational understanding: define core concepts, establish theoretical frameworks, identify key empirical patterns, and map connections to related topics."
+  },
+  "related_topics": {
+    "rates_equity_correlation": {
+      "display_name": "Stock-Bond Correlation Regime Analysis",
+      "confidence_score": 6.2,
+      "depth_level": 6
+    },
+    "monetary_policy": {
+      "display_name": "Monetary Policy Transmission & Central Bank Strategy",
+      "confidence_score": 5.8,
+      "depth_level": 4
+    },
+    "risk_appetite_regimes": {
+      "display_name": "Risk Appetite Regime Shifts & Contagion",
+      "confidence_score": 7.9,
+      "depth_level": 2
+    }
+  },
+  "runners_up": [
+    {
+      "topic": "rates_equity_correlation",
+      "score": 59.59
+    },
+    {
+      "topic": "inflation_regimes",
+      "score": 59.29
+    },
+    {
+      "topic": "fiscal_policy",
+      "score": 58.81
+    },
+    {
+      "topic": "equity_cycles",
+      "score": 58.45
+    },
+    {
+      "topic": "credit_cycles",
+      "score": 58.05
+    }
+  ],
+  "key_concepts": [
+    "central_bank_reaction_function_uncertainty",
+    "clo_arbitrage_transmission",
+    "correlation_regime_shifts",
+    "credit_maturity_wall",
+    "cross_asset_vol_divergence",
+    "equity_vol_microstructure_shift",
+    "fx_vol_suppression",
+    "implied_realized_spread",
+    "kalecki_fiscal_channel",
+    "kalecki_minsky_low_vol_taxonomy",
+    "macro_trigger_micro_amplification",
+    "maturity_dependent_correlation_bifurcation",
+    "private_credit_hidden_vol",
+    "qt_dual_vol_channels",
+    "regime_switching_model_limitations",
+    "regime_transition_skip_risk",
+    "surprise_telegraphed_discriminator",
+    "vix_move_correlation_regimes",
+    "vol_distribution_shape_change",
+    "vol_endogeneity",
+    "vol_surface",
+    "volatility_regime",
+    "yield_curve_vol_regime_dependence"
+  ]
+}

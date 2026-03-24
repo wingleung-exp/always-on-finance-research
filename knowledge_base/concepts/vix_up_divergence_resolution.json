@@ -1,0 +1,33 @@
+{
+  "slug": "vix_up_divergence_resolution",
+  "definition": "The MOVE-VIX divergence historically resolves through VIX rising rather than MOVE compressing, based on 3/3 historical analogues (2006-07, 2014, 2017-18), supported by structural persistence of MOVE drivers versus microstructure fragility of VIX suppressors.",
+  "confidence": 6,
+  "evidence": [
+    "3/3 historical analogues resolved via equity vol spike",
+    "Structural persistence of MOVE drivers: fiscal issuance, QT, BoJ normalization",
+    "Fragility of VIX suppressors: microstructure-dependent",
+    "Bayesian posterior from 3/3 with uniform prior gives mean 80% but 95% CI is extraordinarily wide"
+  ],
+  "originating_agents": [
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "Can the Kalecki fiscal channel permanently sustain the divergence?",
+    "Does the non-stationarity paradox invalidate transfer of 3/3 analogue resolution rate?",
+    "Do the three analogues have fundamentally different structural drivers from the current configuration?"
+  ],
+  "related_concepts": [
+    "cross_asset_vol_divergence",
+    "kalecki_fiscal_channel",
+    "vol_selling_complex_distribution_impact"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

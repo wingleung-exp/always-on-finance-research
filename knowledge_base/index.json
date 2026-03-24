@@ -932,9 +932,9 @@
     "concept:kalecki_fiscal_channel": {
       "type": "concept",
       "slug": "kalecki_fiscal_channel",
-      "confidence": 7.5,
-      "last_updated": "2026-03-23T06:06:24Z",
-      "research_iterations": 4,
+      "confidence": 7.6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 5,
       "topic": "credit_equity_linkage"
     },
     "concept:fallen_angel_risk": {
@@ -2012,9 +2012,9 @@
     "concept:cross_asset_vol_divergence": {
       "type": "concept",
       "slug": "cross_asset_vol_divergence",
-      "confidence": 8,
-      "last_updated": "2026-03-22T22:22:52Z",
-      "research_iterations": 1,
+      "confidence": 8.0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 2,
       "topic": "volatility_regimes"
     },
     "concept:macro_trigger_micro_amplification": {
@@ -2140,9 +2140,9 @@
     "relationship:cross_asset_vol_divergence__kalecki_fiscal_channel": {
       "type": "relationship",
       "slug": "cross_asset_vol_divergence__kalecki_fiscal_channel",
-      "confidence": 8,
-      "last_updated": "2026-03-22T22:22:52Z",
-      "research_iterations": 1,
+      "confidence": 8.0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 2,
       "topic": "volatility_regimes"
     },
     "relationship:kalecki_minsky_low_vol_taxonomy__vol_endogeneity": {
@@ -16632,6 +16632,334 @@
       "last_updated": "2026-03-24T02:47:39Z",
       "research_iterations": 1,
       "topic": "monetary_policy"
+    },
+    "concept:five_year_forward_tightening_threshold": {
+      "type": "concept",
+      "slug": "five_year_forward_tightening_threshold",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:maturity_wall_arithmetic": {
+      "type": "concept",
+      "slug": "maturity_wall_arithmetic",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:cdx_vix_skew_divergence": {
+      "type": "concept",
+      "slug": "cdx_vix_skew_divergence",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:vix_up_divergence_resolution": {
+      "type": "concept",
+      "slug": "vix_up_divergence_resolution",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:fragility_narrative_bias": {
+      "type": "concept",
+      "slug": "fragility_narrative_bias",
+      "confidence": 8,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:supply_side_shock_correlation_regime": {
+      "type": "concept",
+      "slug": "supply_side_shock_correlation_regime",
+      "confidence": 8,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:butterfly_spread_basis_trade_anomaly": {
+      "type": "concept",
+      "slug": "butterfly_spread_basis_trade_anomaly",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:basis_trade_concentration": {
+      "type": "concept",
+      "slug": "basis_trade_concentration",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:green_metals_supply_inelasticity": {
+      "type": "concept",
+      "slug": "green_metals_supply_inelasticity",
+      "confidence": 4,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:swaption_skew_asymmetric_risk": {
+      "type": "concept",
+      "slug": "swaption_skew_asymmetric_risk",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:oil_cost_curve_vol_attractor": {
+      "type": "concept",
+      "slug": "oil_cost_curve_vol_attractor",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:conditioned_credit_impulse": {
+      "type": "concept",
+      "slug": "conditioned_credit_impulse",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:dual_channel_fragility": {
+      "type": "concept",
+      "slug": "dual_channel_fragility",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:kalecki_minsky_taxonomy": {
+      "type": "concept",
+      "slug": "kalecki_minsky_taxonomy",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:regime_switching_identification_lag": {
+      "type": "concept",
+      "slug": "regime_switching_identification_lag",
+      "confidence": 8,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:gold_fair_value_residual": {
+      "type": "concept",
+      "slug": "gold_fair_value_residual",
+      "confidence": 4,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:vol_selling_complex_distribution_impact": {
+      "type": "concept",
+      "slug": "vol_selling_complex_distribution_impact",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:private_credit_appraisal_smoothing": {
+      "type": "concept",
+      "slug": "private_credit_appraisal_smoothing",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:commodity_curve_vol_indicator": {
+      "type": "concept",
+      "slug": "commodity_curve_vol_indicator",
+      "confidence": 4,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:three_category_implied_realized_taxonomy": {
+      "type": "concept",
+      "slug": "three_category_implied_realized_taxonomy",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "concept:variance_risk_premium_rate_correlation": {
+      "type": "concept",
+      "slug": "variance_risk_premium_rate_correlation",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:maturity_wall_arithmetic__private_credit_appraisal_smoothing": {
+      "type": "relationship",
+      "slug": "maturity_wall_arithmetic__private_credit_appraisal_smoothing",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:green_metals_supply_inelasticity__maturity_wall_arithmetic": {
+      "type": "relationship",
+      "slug": "green_metals_supply_inelasticity__maturity_wall_arithmetic",
+      "confidence": 4,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:fragility_narrative_bias__kalecki_minsky_taxonomy": {
+      "type": "relationship",
+      "slug": "fragility_narrative_bias__kalecki_minsky_taxonomy",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:cross_asset_vol_divergence__supply_side_shock_correlation_regime": {
+      "type": "relationship",
+      "slug": "cross_asset_vol_divergence__supply_side_shock_correlation_regime",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:basis_trade_concentration__butterfly_spread_basis_trade_anomaly": {
+      "type": "relationship",
+      "slug": "basis_trade_concentration__butterfly_spread_basis_trade_anomaly",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:regime_switching_identification_lag__three_category_implied_realized_taxonomy": {
+      "type": "relationship",
+      "slug": "regime_switching_identification_lag__three_category_implied_realized_taxonomy",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:conditioned_credit_impulse__kalecki_minsky_taxonomy": {
+      "type": "relationship",
+      "slug": "conditioned_credit_impulse__kalecki_minsky_taxonomy",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:cross_asset_vol_divergence__vix_up_divergence_resolution": {
+      "type": "relationship",
+      "slug": "cross_asset_vol_divergence__vix_up_divergence_resolution",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:dual_channel_fragility__maturity_wall_arithmetic": {
+      "type": "relationship",
+      "slug": "dual_channel_fragility__maturity_wall_arithmetic",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:supply_side_shock_correlation_regime__swaption_skew_asymmetric_risk": {
+      "type": "relationship",
+      "slug": "supply_side_shock_correlation_regime__swaption_skew_asymmetric_risk",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:basis_trade_concentration__dual_channel_fragility": {
+      "type": "relationship",
+      "slug": "basis_trade_concentration__dual_channel_fragility",
+      "confidence": 6,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:cross_asset_vol_divergence__vol_selling_complex_distribution_impact": {
+      "type": "relationship",
+      "slug": "cross_asset_vol_divergence__vol_selling_complex_distribution_impact",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:five_year_forward_tightening_threshold__variance_risk_premium_rate_correlation": {
+      "type": "relationship",
+      "slug": "five_year_forward_tightening_threshold__variance_risk_premium_rate_correlation",
+      "confidence": 7,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "relationship:cdx_vix_skew_divergence__dual_channel_fragility": {
+      "type": "relationship",
+      "slug": "cdx_vix_skew_divergence__dual_channel_fragility",
+      "confidence": 5,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:macro_scenario_probability_table": {
+      "type": "framework",
+      "slug": "macro_scenario_probability_table",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:kalecki_minsky_low_vol_taxonomy": {
+      "type": "framework",
+      "slug": "kalecki_minsky_low_vol_taxonomy",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:dual_channel_fragility_framework": {
+      "type": "framework",
+      "slug": "dual_channel_fragility_framework",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:cross_asset_vol_divergence_diagnostic": {
+      "type": "framework",
+      "slug": "cross_asset_vol_divergence_diagnostic",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:oil_cost_curve_bracketing": {
+      "type": "framework",
+      "slug": "oil_cost_curve_bracketing",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
+    },
+    "framework:three_category_implied_realized_taxonomy": {
+      "type": "framework",
+      "slug": "three_category_implied_realized_taxonomy",
+      "confidence": 0,
+      "last_updated": "2026-03-24T03:11:09Z",
+      "research_iterations": 1,
+      "topic": "volatility_regimes"
     }
   },
   "iterations": [
@@ -17297,7 +17625,20 @@
         "anti_knowledge_entries": 7,
         "low_confidence_entries": 6
       }
+    },
+    {
+      "iteration_id": "iter_0045",
+      "topic": "volatility_regimes",
+      "topic_category": "asset_class_dynamics",
+      "timestamp": "2026-03-24T03:11:09Z",
+      "stats": {
+        "concepts_written": 23,
+        "relationships_written": 15,
+        "frameworks_written": 6,
+        "anti_knowledge_entries": 5,
+        "low_confidence_entries": 6
+      }
     }
   ],
-  "last_updated": "2026-03-24T02:47:39Z"
+  "last_updated": "2026-03-24T03:11:09Z"
 }

@@ -1,0 +1,35 @@
+{
+  "slug": "supply_side_shock_correlation_regime",
+  "definition": "Supply-side shocks produce a distinct correlation regime characterized by positive stock-bond correlation and VIX-MOVE decoupling, driven by cost-push inflation forcing a central bank mandate conflict. This is overdetermined from both physical commodity episodes (1973, 1979, 2008, 2022) and New Keynesian theory (NKPC).",
+  "confidence": 8,
+  "evidence": [
+    "Identified as 'single most robust claim across both analyses' in pair_1 debate",
+    "Four major historical episodes (1973, 1979, 2008, 2022) with consistent mechanism",
+    "NK theory: cost-push inflation forces Fed mandate conflict between price stability and employment",
+    "Mechanism is well-established and empirically unambiguous"
+  ],
+  "originating_agents": [
+    "commodities_analyst_01",
+    "macro_strategist_01",
+    "generalist_01",
+    "generalist_02"
+  ],
+  "open_questions": [
+    "What fraction of vol transitions are commodity-triggered (~30-40% historical, not majority)?",
+    "How should the 2020, 2018 Q4, and 2023 SVB non-commodity vol transitions be explained within this framework?",
+    "Does the commodity channel warrant 'upstream' status for all vol regimes or only supply-driven transitions?"
+  ],
+  "related_concepts": [
+    "cross_asset_vol_divergence",
+    "swaption_skew_asymmetric_risk",
+    "commodity_curve_vol_indicator"
+  ],
+  "topic": "volatility_regimes",
+  "created_at": "2026-03-24T03:11:09Z",
+  "last_updated": "2026-03-24T03:11:09Z",
+  "originating_iteration": "iter_0045",
+  "research_iterations": 1,
+  "iteration_history": [
+    "iter_0045"
+  ]
+}

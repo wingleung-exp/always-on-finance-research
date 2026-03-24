@@ -1,0 +1,220 @@
+[
+  {
+    "concept_a": "kalecki_fiscal_channel",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "Fiscal deficits at 6-7% of GDP simultaneously sustain corporate earnings (suppressing VIX via 8-10% EPS growth) and require $2T+ annual Treasury issuance (elevating MOVE). FX vol is suppressed as carry-trade positioning exploits rate differentials. The Kalecki channel is the structural explanation for why the divergence exists.",
+    "direction": "a_causes_b",
+    "confidence": 8,
+    "regime_dependence": "Holds when fiscal deficit is large enough to meaningfully support corporate profits; weakens if deficit composition shifts toward interest payments to low-MPC bondholders vs spending/transfers",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "five_year_forward_tightening_threshold",
+    "concept_b": "variance_risk_premium_rate_correlation",
+    "mechanism": "As the 5y5y forward approaches or exceeds ~4.5%, the VRP mechanically increases because higher rate levels widen physical variance distribution. This makes vol-selling strategies less profitable and vol hedges more expensive but more effective when triggered (the VRP 'barbell' effect).",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active when rates are above the zero lower bound; VRP-rate relationship is nonlinear and more pronounced at higher absolute rate levels",
+    "originating_agents": [
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "vol_selling_complex_distribution_impact",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "The vol-selling complex mechanically suppresses average VIX through gamma-pinning effects while concentrating risk in tails. This contributes to the low-VIX side of the MOVE-VIX divergence, creating a microstructurally fragile form of vol suppression distinct from the fundamental Kalecki channel.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active as long as the vol-selling complex maintains current scale (~$400-600B notional); untested in sustained bear market conditions",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "basis_trade_concentration",
+    "concept_b": "butterfly_spread_basis_trade_anomaly",
+    "mechanism": "Basis trade positioning at $800B-$1T notional pins the 5Y belly of the Treasury curve, distorting the 2s5s10s butterfly spread to -15 to -25bp (vs -5bp average). This creates a funding-liquidity vulnerability where margin calls would produce violent normalization.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Holds while basis trade concentration remains at current scale; would normalize if regulatory action or market stress reduces basis trade positions",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01",
+      "risk_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "supply_side_shock_correlation_regime",
+    "concept_b": "swaption_skew_asymmetric_risk",
+    "mechanism": "Supply-side shocks produce cost-push inflation that steepens the Phillips Curve above potential output (NKPC convexity), creating fatter right tail for rates. This maps directly to payer skew exceeding receiver skew in swaption markets and breaks the negative stock-bond correlation that equity hedging relies on.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Active during supply-side inflation episodes; does not hold during demand-side recessions or financial crises where negative stock-bond correlation reasserts",
+    "originating_agents": [
+      "macro_strategist_01",
+      "commodities_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "cross_asset_vol_divergence",
+    "concept_b": "vix_up_divergence_resolution",
+    "mechanism": "Historical analogues (3/3) show divergence resolves via equity vol rising, not rates vol compressing, because MOVE drivers (fiscal issuance, QT, BoJ) are structurally persistent while VIX suppressors (microstructure, vol-selling complex) are fragile. However, the Kalecki channel could make this time different.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Conditional on the non-stationarity paradox: if microstructure has structurally changed, 3/3 analogue rate may not transfer; if Kalecki fiscal channel represents novel regime, divergence may persist indefinitely",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "basis_trade_concentration",
+    "concept_b": "dual_channel_fragility",
+    "mechanism": "A MOVE spike to 140+ simultaneously increases basis trade margin requirements (triggering unwinds at $800B-$1T notional) AND widens CLO AAA spreads past SOFR+200 (killing CLO arbitrage). The shared MOVE trigger creates a common factor linking two ostensibly independent fragility channels.",
+    "direction": "a_causes_b",
+    "confidence": 6,
+    "regime_dependence": "Active while both basis trade and CLO channels are at current scale; BoJ-maturity wall timing overlap (Japanese holders of 20-30% CLO AAA tranches) could amplify during H2 2026-H1 2028",
+    "originating_agents": [
+      "risk_analyst_01",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "maturity_wall_arithmetic",
+    "concept_b": "dual_channel_fragility",
+    "mechanism": "The $900B-$1.5T maturity wall forces refinancing at higher rates, which widens credit spreads and increases MOVE. This MOVE increase can trigger the dual-channel fragility mechanism (basis trade + CLO). The maturity wall timing overlap with BoJ normalization and green metals supply constraints creates potential for concurrent stress.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Contingent on macro environment, Fed response, private credit absorption capacity, and amend-and-extend activity; base rate for systemic transmission is ~1 of 4-5 historical instances",
+    "originating_agents": [
+      "risk_analyst_01",
+      "quant_researcher_01",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "private_credit_appraisal_smoothing",
+    "concept_b": "maturity_wall_arithmetic",
+    "mechanism": "Appraisal smoothing in private credit (1.3-1.8x vol understatement) masks the true extent of credit deterioration as the maturity wall forces refinancing. Portfolio allocators relying on reported private credit vol have hidden factor exposure that will surface during stress.",
+    "direction": "bidirectional",
+    "confidence": 6,
+    "regime_dependence": "Active while private credit remains appraisal-based ($1.7T+); becomes acute during maturity wall refinancing period when true credit quality surfaces",
+    "originating_agents": [
+      "quant_researcher_01",
+      "quant_researcher_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "kalecki_minsky_taxonomy",
+    "concept_b": "conditioned_credit_impulse",
+    "mechanism": "The Kalecki-Minsky classification determines whether credit impulse deceleration is a vol transition signal. In Type A (fiscal-supported) environments, credit deceleration is benign because profits are sustained independently. In Type B (credit-supported) environments, credit deceleration is a warning signal. Conditioning on regime type improves signal hit rate from 3/5 to 3/3.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Framework is regime-defining by construction; accuracy depends on correct regime classification which has a 2-3 month data lag",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "macro_strategist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "cdx_vix_skew_divergence",
+    "concept_b": "dual_channel_fragility",
+    "mechanism": "CDX-VIX skew divergence can serve as an early warning (2-4 week lead) of the credit stress that would activate the dual-channel fragility mechanism. Capital structure waterfall means credit deterioration precedes equity repricing, potentially offering advance notice of basis trade and CLO arbitrage stress.",
+    "direction": "a_causes_b",
+    "confidence": 5,
+    "regime_dependence": "Signal is moderated by Fed reaction function; mid-2019 false positive driven by Fed dovish pivot suggests that intervention credibility can negate the signal",
+    "originating_agents": [
+      "generalist_01",
+      "generalist_02",
+      "risk_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "supply_side_shock_correlation_regime",
+    "concept_b": "cross_asset_vol_divergence",
+    "mechanism": "Supply-side shocks produce positive stock-bond correlation and VIX-MOVE decoupling. The current partial fiscal dominance with supply-side inflation uncertainty represents a hybrid: not a pure supply shock but exhibiting supply-shock characteristics in rates (elevated MOVE) while fiscal support prevents equity vol from responding.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "Commodity-triggered transitions represent ~30-40% of historical vol transitions; the current environment may be a fiscal-supply hybrid that fits neither pure category",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "macro_strategist_01",
+      "generalist_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "fragility_narrative_bias",
+    "concept_b": "kalecki_minsky_taxonomy",
+    "mechanism": "The systematic fragility bias in the knowledge base means the Kalecki-Minsky taxonomy is deployed only to identify fragility pathways, never to assess whether current vol pricing is fair. Without a null hypothesis or falsification criteria, the taxonomy becomes unfalsifiable — it can explain any outcome as either Type A resilience or Type B fragility.",
+    "direction": "a_causes_b",
+    "confidence": 7,
+    "regime_dependence": "This is a methodological observation that holds regardless of market regime; the analytical problem is structural to the research approach",
+    "originating_agents": [
+      "challenger_02",
+      "quant_researcher_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "regime_switching_identification_lag",
+    "concept_b": "three_category_implied_realized_taxonomy",
+    "mechanism": "The 10-20 day identification lag in formal regime-switching models makes the three-category taxonomy (surprise / telegraphed-wrong-footed / telegraphed-correctly-positioned) practically valuable: if you cannot detect regime shifts quickly, knowing whether the transition is likely to be a surprise, telegraphed with wrong positioning, or telegraphed with correct positioning determines hedging strategy.",
+    "direction": "bidirectional",
+    "confidence": 5,
+    "regime_dependence": "Most relevant during transition periods when real-time detection matters; less relevant during stable vol regimes",
+    "originating_agents": [
+      "quant_researcher_01",
+      "generalist_02"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  },
+  {
+    "concept_a": "green_metals_supply_inelasticity",
+    "concept_b": "maturity_wall_arithmetic",
+    "mechanism": "The projected copper deficit for 2026-2028 coincides with the peak credit maturity wall period. If both materialize simultaneously, commodity-driven inflation uncertainty would compound credit stress from refinancing, creating concurrent supply-side and credit-side pressure on rates volatility.",
+    "direction": "correlated",
+    "confidence": 4,
+    "regime_dependence": "Timing-specific to 2026-2028 period; would not apply if copper deficit is delayed or maturity wall is substantially extended via amend-and-extend",
+    "originating_agents": [
+      "commodities_analyst_01",
+      "risk_analyst_01"
+    ],
+    "topic": "volatility_regimes",
+    "iteration_id": "iter_0045"
+  }
+]

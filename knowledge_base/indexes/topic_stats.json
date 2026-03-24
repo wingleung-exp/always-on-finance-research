@@ -2395,13 +2395,13 @@
     "avg_confidence": 7.2
   },
   "volatility_regimes": {
-    "concept_count": 19,
-    "relationship_count": 14,
-    "framework_count": 6,
+    "concept_count": 40,
+    "relationship_count": 28,
+    "framework_count": 12,
     "top_concepts": [
       {
         "slug": "cross_asset_vol_divergence",
-        "confidence": 8,
+        "confidence": 8.0,
         "definition": "The current configuration of elevated rates vol (MOVE ~100-120), suppressed equity vol (VIX ~13-18), and low G10 FX vol (~7-9%) is historically anomal"
       },
       {
@@ -2410,9 +2410,24 @@
         "definition": "0DTE options (~45-50% of SPX volume, up from <5% in 2019), covered call ETF AUM (~$5B to ~$80B+), and systematic vol-selling (~$400-600B notional) hav"
       },
       {
+        "slug": "fragility_narrative_bias",
+        "confidence": 8,
+        "definition": "The knowledge base exhibits systematic directional bias toward fragility narratives, with zero of 18 concepts exploring whether current vol levels cou"
+      },
+      {
         "slug": "macro_trigger_micro_amplification",
         "confidence": 8,
         "definition": "Volatility regime transitions follow a 'macro trigger, micro amplification' pattern where macro shocks initiate transitions and the ~$500B-$1.5T short"
+      },
+      {
+        "slug": "regime_switching_identification_lag",
+        "confidence": 8,
+        "definition": "Markov-switching GARCH models suffer from a 10-20 day identification lag as a mathematical property of the Bayesian filtering problem, making simple t"
+      },
+      {
+        "slug": "supply_side_shock_correlation_regime",
+        "confidence": 8,
+        "definition": "Supply-side shocks produce a distinct correlation regime characterized by positive stock-bond correlation and VIX-MOVE decoupling, driven by cost-push"
       },
       {
         "slug": "vol_distribution_shape_change",
@@ -2433,45 +2448,51 @@
         "slug": "maturity_dependent_correlation_bifurcation",
         "confidence": 7.5,
         "definition": "Stock-bond correlation is bifurcated by maturity: short duration (2Y) maintains negative correlation (-0.25 to -0.35) providing hedge value, while lon"
-      },
-      {
-        "slug": "central_bank_reaction_function_uncertainty",
-        "confidence": 7,
-        "definition": "Central bank reaction function uncertainty is a distinct, additive source of volatility beyond standard macro uncertainty. FOMC communication shocks ("
-      },
-      {
-        "slug": "clo_arbitrage_transmission",
-        "confidence": 7.0,
-        "definition": "CLO arbitrage collapse is the primary transmission channel for vol regime shifts into credit markets, ahead of bond spread dynamics. CLOs purchase ~65"
-      },
-      {
-        "slug": "private_credit_hidden_vol",
-        "confidence": 7,
-        "definition": "Private credit ($1.7T+) with appraisal-based NAV returns (autocorrelation 0.5-0.7) constitutes a hidden vol reservoir where true economic vol is 2-3x "
       }
     ],
     "all_concept_slugs": [
+      "basis_trade_concentration",
+      "butterfly_spread_basis_trade_anomaly",
+      "cdx_vix_skew_divergence",
       "central_bank_reaction_function_uncertainty",
       "clo_arbitrage_transmission",
+      "commodity_curve_vol_indicator",
+      "conditioned_credit_impulse",
       "credit_maturity_wall",
       "cross_asset_vol_divergence",
+      "dual_channel_fragility",
       "equity_vol_microstructure_shift",
+      "five_year_forward_tightening_threshold",
+      "fragility_narrative_bias",
+      "gold_fair_value_residual",
+      "green_metals_supply_inelasticity",
       "kalecki_minsky_low_vol_taxonomy",
+      "kalecki_minsky_taxonomy",
       "macro_trigger_micro_amplification",
       "maturity_dependent_correlation_bifurcation",
+      "maturity_wall_arithmetic",
+      "oil_cost_curve_vol_attractor",
+      "private_credit_appraisal_smoothing",
       "private_credit_hidden_vol",
       "qt_dual_vol_channels",
       "rates_vol_directional_underpricing",
+      "regime_switching_identification_lag",
       "regime_switching_model_limitations",
       "regime_transition_skip_risk",
+      "supply_side_shock_correlation_regime",
       "surprise_telegraphed_discriminator",
+      "swaption_skew_asymmetric_risk",
+      "three_category_implied_realized_taxonomy",
+      "variance_risk_premium_rate_correlation",
       "vix_move_correlation_regimes",
+      "vix_up_divergence_resolution",
       "vol_distribution_shape_change",
       "vol_endogeneity",
+      "vol_selling_complex_distribution_impact",
       "vvix_vix_fragility_indicator",
       "yield_curve_vol_regime_dependence"
     ],
-    "avg_confidence": 7.0
+    "avg_confidence": 6.5
   },
   "yield_curve_dynamics": {
     "concept_count": 18,
